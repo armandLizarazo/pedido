@@ -2,9 +2,10 @@ Yoyos Caracas
     Audifonos Bluethoot K17 (Speak)
     Cargadores 1100
     Cargadores Samsung Eco x2
-    Cargador apple 25w Cabeza x3
+    Cargador apple 25w Cabeza x3 ok
     Space Camon 18
-    Space A13
+    Space A13 ok
+		vidrio a12 ok
     Silicone Case A15 Negro
     Silicone Case Note 10 5G Negro
 
@@ -18,7 +19,7 @@ JOMA - 107 - THOR
     Cable PS2 x2
 
 Julian
-    Logica de carga Samsung A33
+    
     Pacha A21s
     Pacha Moto G20
     Pacha A04e
