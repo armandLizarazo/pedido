@@ -1,31 +1,30 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    Adaptador OTG TC USB macho
+    Adaptador OTG TC USB macho ok
     Audifonos Bluethoot K17 (Speak)
     Cargadores 1100
-    Cargadores Belkin TC x2
-    Cargadores Belkin V8 x2
-    Forro Diseños Moto G13 / G23 Caballero
-    Silicone Case A15 Negro
-    Silicone Case A20 / A30 Negro
-    Silicone Case A21s Morado
-    Silicone Case A30 Verde
+    Cargadores Belkin TC x2 ok
+    Cargadores Belkin V8 x2 ok
+    Forro Diseños Moto G13 / G23 Caballero ok
+    Silicone Case A15 Negro ok
+    Silicone Case A20 / A30 Negro 
+    Silicone Case A21s Morado ok
+    Silicone Case A30 Verde 
     Silicone Case Honor X7a Lila
     Silicone Case Honor X8a Morado
-    Silicone Case Moto G13 / G23 Fucsia
-    Silicone Case Note 10 5G Negro
-    Silicone Case Redmi 9t AzulClaro
+    Silicone Case Moto G13 / G23 Fucsia ok
+    Silicone Case Note 10 5G Negro 
+    Silicone Case Redmi 9t AzulClaro ok
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Redmi Note 7 Negro
     Silicone Case Redmi Note 7 Rojo
-    Silicone Case S21 FE Rojo
+    Silicone Case S21 FE Rojo ok
     Silicone Case Samsung A20 / A30 Negro
     Silicone Case Samsung A20 / A30 Rojo
-    Silicone Case iPhone X6s SE
+    Silicone Case iPhone X6s negro ok
     Silicone Case iphone 12 Verde
-    Simcard Claro
-    Simcard Claro
+    Simcard Claro ok
     Simcard WOM
-    Smart Watch
+    Smart Watch A 38
     SmartPhone Moto G04s 
     Space Camon 18
     TV Fly 32 Pulgadas
