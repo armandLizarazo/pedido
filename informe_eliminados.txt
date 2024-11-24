@@ -1,0 +1,11 @@
+=== INFORME DE ELEMENTOS ELIMINADOS ===
+Fecha de proceso: 2024-11-24 12:13:33
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 3
+
+Detalle de elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   49 | Logica de Carga Samsung A51 ok
+   50 | Pacha Moto G04s ok
+   51 | Tapa Samsung A30 Blanco ok
