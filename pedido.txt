@@ -42,16 +42,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador 3.5 a 1/2 audio
-    Antenas TDT x5
-    Cable Microfono 3m
-    Cable RCA 3 a 3 1.5m x3
-    Cable RCA 3 a 3 3m x2
+    Antenas TDT x3 ok
+    Cable Microfono 3m ok
+    Cable RCA 3 a 3 1.5m x3 ok
+    Cable RCA 3 a 3 3m x1 ok
     Cable Video Compuesto
-    Camra 3 antenas x2
-    Cargador 12v Doble Punta x2
-    Cargadores 5v Doble Punta x2
-    Cargadores 9v Doble Punta x2
-    Controles Tv Plano x4
+    Camra 3 antenas x1 ok
+    Cargador 12v Doble Punta x1 ok
+    Cargadores 5v Doble Punta x1 ok
+    Cargadores 9v Doble Punta x1 ok
+    Controles Tv Plano x4 ok
     Cotrol Xbox One
     Dron doble carmara x2 ok
     Garantia Switch Pendiente!!
@@ -59,22 +59,22 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Memoria Rap Español
     Memoria Rap Ingles
     Memorias Crosover
-    Mouse Gamer Cable
-    Mouse Gamer Inalambrico
-    Parlante Tiger TG-8011C x2
-    Reproductor ONN 4k
+    Mouse Gamer Cable ok
+    Mouse Gamer Inalambrico ok
+    Parlante Tiger TG-8011C x2 ok
+    Garantia Reproductor ONN 4k p
     TDT x2 a 38
 
 
 Julian
-    Bateria Moto C (No GK40)
-    Bateria Y9 2019
-    Garantia Pachas Redmi 13c
-    Logica de carga A33
-    Logica de carga Redmi 13 Ver foto
-    Pacha A22 5G
-    Pacha Nokia G10
-    Pacha Spark 20c
-    Pacha Vivo Y11s
+    Bateria Moto C (No GK40) ok
+    Bateria Y9 2019 ok
+    Garantia Pachas Redmi 13c ok
+    Logica de carga A33 ok
+    Logica de carga Redmi 13 Ver foto ok
+    Pacha A22 5G ok
+    Pacha Nokia G10 ok
+    Pacha Spark 20c x2 ok
+    Pacha Vivo Y11s ok
     Preguntar por Pacha redmi 9a
     Preguntar por pacha redmi note 9
