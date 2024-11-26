@@ -1,9 +1,11 @@
+from datetime import datetime
+
 def eliminar_lineas_ok(nombre_archivo):
     """
     Elimina las líneas que:
     1. Comienzan con 4 espacios
     2. Terminan con ' ok'
-    Y genera un informe de los elementos eliminados
+    Y genera un informe con historial de los elementos eliminados
     """
     try:
         # Leer el archivo
@@ -14,6 +16,7 @@ def eliminar_lineas_ok(nombre_archivo):
         resultado = []
         eliminados = []
         contador_eliminados = 0
+        fecha_actual = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         
         # Procesar cada línea
         for numero_linea, linea in enumerate(lineas, 1):
@@ -28,8 +31,9 @@ def eliminar_lineas_ok(nombre_archivo):
         with open(nombre_archivo, 'w', encoding='utf-8') as archivo:
             archivo.writelines(resultado)
             
-        # Generar y mostrar el informe
+        # Generar y mostrar el informe actual
         print("\n=== INFORME DE ELEMENTOS ELIMINADOS ===")
+        print(f"Fecha: {fecha_actual}")
         print(f"Total de elementos eliminados: {contador_eliminados}")
         if eliminados:
             print("\nDetalle de elementos eliminados:")
@@ -38,31 +42,45 @@ def eliminar_lineas_ok(nombre_archivo):
             for num_linea, contenido in eliminados:
                 print(f"{num_linea:5d} | {contenido}")
         
+        # Guardar en el historial
+        nombre_historial = "historial_eliminados.txt"
+        try:
+            with open(nombre_historial, 'a', encoding='utf-8') as archivo_historial:
+                archivo_historial.write(f"\n{'='*50}\n")
+                archivo_historial.write(f"Fecha de proceso: {fecha_actual}\n")
+                archivo_historial.write(f"Archivo procesado: {nombre_archivo}\n")
+                archivo_historial.write(f"Total de elementos eliminados: {contador_eliminados}\n\n")
+                if eliminados:
+                    archivo_historial.write("Elementos eliminados:\n")
+                    archivo_historial.write("Línea  | Contenido\n")
+                    archivo_historial.write("-" * 50 + "\n")
+                    for num_linea, contenido in eliminados:
+                        archivo_historial.write(f"{num_linea:5d} | {contenido}\n")
+        except FileNotFoundError:
+            # Si el archivo no existe, lo creamos con un encabezado
+            with open(nombre_historial, 'w', encoding='utf-8') as archivo_historial:
+                archivo_historial.write("HISTORIAL DE ELEMENTOS ELIMINADOS\n")
+                archivo_historial.write("="*50 + "\n")
+                archivo_historial.write(f"Fecha de proceso: {fecha_actual}\n")
+                archivo_historial.write(f"Archivo procesado: {nombre_archivo}\n")
+                archivo_historial.write(f"Total de elementos eliminados: {contador_eliminados}\n\n")
+                if eliminados:
+                    archivo_historial.write("Elementos eliminados:\n")
+                    archivo_historial.write("Línea  | Contenido\n")
+                    archivo_historial.write("-" * 50 + "\n")
+                    for num_linea, contenido in eliminados:
+                        archivo_historial.write(f"{num_linea:5d} | {contenido}\n")
+        
+        print(f"\nHistorial actualizado en: {nombre_historial}")
+        
+        # Mostrar el contenido actual del archivo
         print("\n=== CONTENIDO FINAL DEL ARCHIVO ===")
         with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
-            contenido_final = archivo.read()
-            print(contenido_final)
-            
-        # Guardar el informe en un archivo separado
-        nombre_informe = "informe_eliminados.txt"
-        with open(nombre_informe, 'w', encoding='utf-8') as archivo_informe:
-            archivo_informe.write("=== INFORME DE ELEMENTOS ELIMINADOS ===\n")
-            archivo_informe.write(f"Fecha de proceso: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
-            archivo_informe.write(f"Archivo procesado: {nombre_archivo}\n")
-            archivo_informe.write(f"Total de elementos eliminados: {contador_eliminados}\n\n")
-            if eliminados:
-                archivo_informe.write("Detalle de elementos eliminados:\n")
-                archivo_informe.write("Línea  | Contenido\n")
-                archivo_informe.write("-" * 50 + "\n")
-                for num_linea, contenido in eliminados:
-                    archivo_informe.write(f"{num_linea:5d} | {contenido}\n")
-        
-        print(f"\nSe ha guardado el informe detallado en: {nombre_informe}")
+            print(archivo.read())
             
     except Exception as e:
         print(f"Error al procesar el archivo: {e}")
 
 # Uso del script
 if __name__ == "__main__":
-    from datetime import datetime
     eliminar_lineas_ok("pedido.txt")
