@@ -10,3 +10,38 @@ Línea  | Contenido
    22 | Simcard WOM ok
    46 | Preguntar por Pacha redmi 9a ok
    47 | Preguntar por pacha redmi note 9 ok
+
+==================================================
+Fecha de proceso: 2024-11-29 06:24:28
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos Bluetooth Samsung ok
+    4 | Cable Caterpillar Tc x5 ok
+    5 | Cable TC 2m x3 ok
+    6 | Cables Belkin TC x10 ok
+   11 | Forro Piscina Negro x2 ok
+   15 | Garantias audifoonos bluetooth x3 ok
+   16 | Parlantes GTS-1558 ok
+   31 | Silicone Case Spark 20c Rojo ok
+   33 | Simcard Claro x5 ok
+   48 | Garantia camara 3 antenas ok
+   52 | Memorias Crosover ok
+   53 | Radios Baofeng x1 ok
+   58 | Bateria Original Samsung A35 5G ok
+   59 | Devolver Pacha mi11t pro incell ok
+   61 | Pacha Motorola Moto E13 ok
+
+==================================================
+Fecha de proceso: 2024-11-29 06:29:19
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   38 | Grameras x2 ok
+   42 | Radio Baofeng ok
