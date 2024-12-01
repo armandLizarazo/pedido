@@ -45,3 +45,40 @@ Línea  | Contenido
 --------------------------------------------------
    38 | Grameras x2 ok
    42 | Radio Baofeng ok
+
+==================================================
+Fecha de proceso: 2024-12-01 08:31:29
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 28
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Cargador YL TC x2 ok
+    5 | Cargador YL v8 x2 ok
+   20 | Silicone Case A20 / A30 Negro ok
+   24 | Silicone Case Moto Edge 50 Fusion / Moto G85 Negro ok
+   25 | Silicone Case Moto Edge 50 Fusion Rojo ok
+   27 | Silicone Case Redmi 9a Negro ok
+   30 | Silicone Case Redmi Note 7 Negro ok
+   31 | Silicone Case Redmi Note 7 Rojo ok
+   34 | Silicone Case Samsung A31 Negro ok
+   35 | Silicone Case Spark Go 2024 AzulRey ok
+   40 | Vidrio Camara Redi 13c colores ok
+   41 | Vidrio Camara Redmi Note 13 Pro Colores ok
+   42 | Vidrio Templado A12 x5 ok
+   43 | Vidrio Templado Note 11 x10 ok
+   44 | Vidrio Templado Realme C53 ok
+   46 | Vidrio Templado Samsung A12 ok
+   47 | Vidrio Templado Samsung A15 ok
+   48 | Vidrio Templado Samsung S20 FE ok
+   60 | HUB TC Lan ok
+   66 | Smart Watch Combo Caballero ok
+   67 | Smart Watch Combo Dama ok
+   72 | Pacha Redmi 10c ok
+   73 | Pacha Samsung A12 reclamar ok
+   74 | Pacha Samsung A31 c/m ok
+   75 | Pacha Vivo V21 Amoled ok
+   76 | Tapa Redmi Note 13 4g Negro reclamar ok
+   78 | Tapa Samsung A55 ok
+   79 | Pacha Samsung A55 Amoled c/m ok
