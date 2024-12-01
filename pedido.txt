@@ -57,23 +57,24 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cotrol Xbox One
     Garantia Reproductor ONN 4k PND
     Garantia Switch Pendiente PND
-    HUB TC Lan
+    HUB TC Lan ok
     Memoria Pop
     Memoria Rap Español
     Memoria Rap Ingles
     Power Bank Economicos
     Power bank Panel Solar
-    Smart Watch Combo Caballero
-    Smart Watch Combo Dama
+    Smart Watch Combo Caballero ok
+    Smart Watch Combo Dama ok
     TDT x2 a 38
 
 Julian
     Logica de Carga Redmi Note 13 4G
-    Pacha Redmi 10c
-    Pacha Samsung A12 reclamar
-    Pacha Samsung A31 c/m
-    Pacha Vivo V21 Amoled
-    Tapa Redmi Note 13 4g Negro reclamar
+    Pacha Redmi 10c ok
+    Pacha Samsung A12 reclamar ok
+    Pacha Samsung A31 c/m ok
+    Pacha Vivo V21 Amoled ok
+    Tapa Redmi Note 13 4g Negro reclamar ok
     Tapa Samsung A34 Amarillo
-    Tapa Samsung A55
+    Tapa Samsung A55 ok
+    Pacha Samsung A55 Amoled c/m ok
 
