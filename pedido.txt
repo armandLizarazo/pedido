@@ -1,44 +1,43 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Cable Yoyos TC
-    Cargador Apple 25w cables
-    Cargador Apple 25w con cable x2
-    Cargadores 1100 
-    Ceramico Camon 18p
+    Cable Yoyos TC ok
+    Cargador Apple 25w con cable x2 ok
+    Cargadores 1100 ok
+    Ceramico Camon 18p 
     Forro Armadura Pova 5 Azul
     Forro Diseños Samsung A06 Caballero
     Forro Diseños Samsung A06 Dama
-    Forro Diseños V25e Caballero
+    Forro Diseños V25e Caballero 
     Forro Diseños V25e Dama
     Forro Diseños Y7a Dama
     Forro Pin Redmi Note 13 Pro 4G
-    Forro Space A32 4g
+    Forro Space A32 4g ok
     Forro Space Camon 18 
     Forro Space Mi11t verificar
-    Forro Space Redmi 12c
-    Forro Space S23 Plus
+    Forro Space Redmi 12c ok
+    Forro Space S23 Plus ok
     Forro Space Vivo V25e
-    Forro Space Y9 2019 Clear
-    Forro Space iPhone 12 Pro Max
+    Forro Space Y9 2019 Clear ok
+    Forro Space iPhone 12 Pro Max ok
     Gatillos R11
     Pilas Recargables Sony AAA de 4 x2
     Silicone Case A22 5g Negro
     Silicone Case A30 Verde 
     Silicone Case Honor X8a Morado 
     Silicone Case Note 10 5G Negro 
-    Silicone Case Oppo A57 Negro
-    Silicone Case Oppo Reno 11 5G Palo Rosa
+    Silicone Case Oppo A57 Negro ok
+    Silicone Case Oppo Reno 11 5G Palo Rosa ok
     Silicone Case Realme 7i Lila
-    Silicone Case Redmi Note 10 Pro Morado
+    Silicone Case Redmi Note 10 Pro Morado ok
     Silicone Case Redmi Note 11 Negro
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Samsung A03s
+    Silicone Case Samsung A03s ok
     Silicone Case V25e Colores (3 camaras)
-    Silicone Case Y11s Rojo 
+    Silicone Case Y11s Rojo
     SmartPhone Moto G04s 
     TV Fly 43 Pulgadas
-    Vidrio Templado Oppo A79
-    Vidrio Templado Redmi 13c x10 
+    Vidrio Templado Oppo A79 ok
+    Vidrio Templado Redmi 13c x10 ok
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
@@ -73,6 +72,7 @@ Julian
     Logica de Carga Redmi Note 13 4G
     Pacha A32 c/m
     Pacha Infinix Hot 40 Pro
+    Pacha LG K22
     Pacha Moto G8 Power Lite c/m
     Pacha Nova Y70
     Pacha Oppo A54
