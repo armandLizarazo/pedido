@@ -82,3 +82,60 @@ Línea  | Contenido
    76 | Tapa Redmi Note 13 4g Negro reclamar ok
    78 | Tapa Samsung A55 ok
    79 | Pacha Samsung A55 Amoled c/m ok
+
+==================================================
+Fecha de proceso: 2024-12-02 18:54:46
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2024-12-02 18:57:58
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2024-12-02 18:58:39
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2024-12-02 18:59:12
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2024-12-02 19:13:45
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Cable Yoyos TC ok
+    4 | Cargador Apple 25w con cable x2 ok
+    5 | Cargadores 1100 ok
+   14 | Forro Space A32 4g ok
+   17 | Forro Space Redmi 12c ok
+   18 | Forro Space S23 Plus ok
+   20 | Forro Space Y9 2019 Clear ok
+   21 | Forro Space iPhone 12 Pro Max ok
+   28 | Silicone Case Oppo A57 Negro ok
+   29 | Silicone Case Oppo Reno 11 5G Palo Rosa ok
+   31 | Silicone Case Redmi Note 10 Pro Morado ok
+   34 | Silicone Case Samsung A03s ok
+   39 | Vidrio Templado Oppo A79 ok
+   40 | Vidrio Templado Redmi 13c x10 ok
+   62 | Plancha Aguacate x2 ok
+   69 | Bandeja Oppo A15 ok
+   71 | Flex Power Oppo A15 ok
+   73 | Pacha A32 c/m ok
+   74 | Pacha Infinix Hot 40 Pro ok
+   75 | Pacha LG K22 ok
+   76 | Pacha Moto G8 Power Lite c/m ok
+   77 | Pacha Nova Y70 ok
+   78 | Pacha Oppo A54 ok
+   79 | Pacha Realme 7i ok
