@@ -1,9 +1,9 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Cargadores 3a Motorola
+    Cargadores 3a Motorola ok
     Cargadores DIGO V8
-    Cargadores Eco iPhone x2
-    Cargadores YL TC x3
+    Cargadores Eco iPhone x2 ok
+    Cargadores YL TC x3 ok
     Ceramico Camon 18p 
     Forro Armadura Pova 5 Azul
     Forro Diseños Samsung A06 Caballerox
@@ -11,33 +11,33 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños V25e Caballero 
     Forro Diseños V25e Dama
     Forro Diseños Y7a Dama
-    Forro Lujo A05s
-    Forro Lujo Spark 30c
+    Forro Lujo A05s 
+    Forro Lujo Spark 30c Negro
     Forro Pin Redmi Note 13 Pro 4G
-    Forro Smart Watch 45mm
-    Forro Smart Watch 49mm
+    Forro Smart Watch 45mm ok
+    Forro Smart Watch 49mm ok
     Forro Space Camon 18 
     Forro Space Mi11t verificar
     Forro Space Vivo V25e
     Gatillos R11
     Pilas Recargables Sony AAA de 4 x2
-    Silicone Case A22 5g Negro
+    Silicone Case A22 5g Negro ok
     Silicone Case A30 Verde 
-    Silicone Case Honor X8a Morado 
+    Silicone Case Honor X8a Morado ok
     Silicone Case Note 10 5G Negro 
     Silicone Case Realme 7i Lila
-    Silicone Case Redmi Note 11 Negro
+    Silicone Case Redmi Note 11 Negro ok
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case V25e Colores (3 camaras)
     Silicone Case Y11s Rojo
     SmartPhone Moto G04s 
     TV Fly 43 Pulgadas
     Vidrio Templado A14 SE
-    Vidrio Templado A58 SE
-    Vidrio Templado Moto E20 SE
-    Vidrio Templado Moto E40 SE
-    Vidrio Templado Moto G22 SE
-    Vidrio Templado Moto G8 Plus SE
+    Vidrio Templado Oppo A58 SE
+    Vidrio Templado Moto E20 SE ok
+    Vidrio Templado Moto E40 SE ok
+    Vidrio Templado Moto G22 SE ok
+    Vidrio Templado Moto G8 Plus 
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
