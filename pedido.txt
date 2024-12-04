@@ -46,9 +46,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador 3.5 a 1/2 audio 
     Bombillo Bluetooth
-    Cable Video Compuesto
-    Cinta Led 10m x2
-    Control Gamer X3
+    Cable Video Compuesto ok
+    Cinta Led 10m x2 ok
+    Control Gamer X3 ok
     Cotrol Xbox One
     Forro Tecaldo PC
     Garantia Reproductor ONN 4k PND
@@ -65,21 +65,21 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     TDT x2 a 38
 
 Julian
-    Bandeja sim Nova Y70 
-    Bateria Mi11 Lite
-    Bateria Vivo Y22s
+    Bandeja sim Nova Y70 ok
+    Bateria Mi11 Lite ok
+    Bateria Vivo Y22s ok
     Logica de Carga Redmi Note 13 4G
-    Pacha A20s
-    Pacha A21s
-    Pacha Moto E20
-    Pacha Moto G8 Plus
-    Pacha Note 10 / Note 10s
+    Pacha A20s ok
+    Pacha A21s ok
+    Pacha Moto E20 ok
+    Pacha Moto G8 Plus ok
+    Pacha Note 10 / Note 10s ok
     Pacha Redmi Note 12 4g .muy cara!
-    Pacha Vivo Y22s
+    Pacha Vivo Y22s ok
     Parlante GTS-1271
-    Pin de Carga Y11s
-    Tapa Mi11 Lite
-    Visor Camara Principal Moto G8 Power Lite
+    Pin de Carga Y11s 
+    Tapa Mi11 Lite ok
+    Visor Camara Principal Moto G8 Power Lite ok
 
 
 
