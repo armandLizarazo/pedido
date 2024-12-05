@@ -139,3 +139,37 @@ Línea  | Contenido
    77 | Pacha Nova Y70 ok
    78 | Pacha Oppo A54 ok
    79 | Pacha Realme 7i ok
+
+==================================================
+Fecha de proceso: 2024-12-04 19:27:00
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 25
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Cargadores 3a Motorola ok
+    5 | Cargadores Eco iPhone x2 ok
+    6 | Cargadores YL TC x3 ok
+   17 | Forro Smart Watch 45mm ok
+   18 | Forro Smart Watch 49mm ok
+   24 | Silicone Case A22 5g Negro ok
+   26 | Silicone Case Honor X8a Morado ok
+   29 | Silicone Case Redmi Note 11 Negro ok
+   37 | Vidrio Templado Moto E20 SE ok
+   38 | Vidrio Templado Moto E40 SE ok
+   39 | Vidrio Templado Moto G22 SE ok
+   49 | Cable Video Compuesto ok
+   50 | Cinta Led 10m x2 ok
+   51 | Control Gamer X3 ok
+   68 | Bandeja sim Nova Y70 ok
+   69 | Bateria Mi11 Lite ok
+   70 | Bateria Vivo Y22s ok
+   72 | Pacha A20s ok
+   73 | Pacha A21s ok
+   74 | Pacha Moto E20 ok
+   75 | Pacha Moto G8 Plus ok
+   76 | Pacha Note 10 / Note 10s ok
+   78 | Pacha Vivo Y22s ok
+   81 | Tapa Mi11 Lite ok
+   82 | Visor Camara Principal Moto G8 Power Lite ok
