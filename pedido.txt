@@ -1,24 +1,28 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Cables Auxliar Cordon x3
+    Cables Auxliar Cordon x3 ok
     Cables V8 2m x3
-    Cables V8 3m x3
-    Cargador Smart Watch inalambrico
-    Cargadores DIGO V8
+    Cables V8 3m x3 ok
+    Cargador Smart Watch inalambrico ok
+    Cargadores DIGO V8 
     Ceramico Camon 18p 
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
     Forro DIseños Moto Edge 50 Fusion Caballero
     Forro Diseños Moto Edge 50 Fusion Dama
-    Forro Diseños Redmi Note 13 4g Dama
-    Forro Diseños Redmi note 13 4g Caballero
-    Forro Diseños Samsung A06 Caballerox
-    Forro Diseños Samsung A06 Dama
-    Forro Diseños Spark Go 2024 Caballero
+    Forro Diseños Redmi Note 13 4g Dama ok
+    Forro Diseños Redmi note 13 4g Caballero ok
+    Forro Diseños Samsung A06 Caballero ok
+    Forro Diseños Samsung A06 Dama 
+    Forro diseños Samsung A16 Dama ok
+    Forro Diseños Samsung A16 Caballero ok
+    Forro Diseños Spark Go 2024 Caballero ok
     Forro Diseños V25e Caballero 
-    Forro Diseños V25e Dama
-    Forro Diseños X7b dama x2
+    Forro Diseños V25e Dama ok
+    Forro Diseños X7b dama x2 ok
     Forro Diseños Y7a Dama
+    Forro Diseños V30 Lite Dama ok
+    Forro Diseños V30 Lite Caballero ok
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
     Forro Pin Redmi Note 13 Pro 4G
@@ -26,15 +30,15 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Camon 18 
     Forro Space Mi11t verificar
     Forro Space Moto Edge 50 Fusion
-    Forro Space Oppo Reno 11F
-    Forro Space Vivo V25e
-    Forro Space Vivo V30 Lite
+    Forro Space Oppo Reno 11F ok
+    Forro Space Vivo V25e ok
+    Forro Space Vivo V30 Lite ok
     Forro Space Vivo Y27
-    Gatillos R11
-    Pilas Recargables Sony AAA de 4 x2
+    Gatillos R11 ok
+    Pilas Recargables Sony AAA de 4 x2 ok
     Silicone Case A21s Rojo
-    Silicone Case A30 Verde 
-    Silicone Case A55 Fucsia
+    Silicone Case A30 Verde ok
+    Silicone Case A55 Fucsia ok
     Silicone Case A55 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
@@ -43,22 +47,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Moto Edge 50 Fusion Rojo
     Silicone Case Note 10 5G Negro 
     Silicone Case Realme 7i Lila
-    Silicone Case Realme C55 Fucsia
-    Silicone Case Realme C55 Lila
+    Silicone Case Realme C55 Fucsia ok
+    Silicone Case Realme C55 Lila ok
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Spark Go 2024 Fucsia
     Silicone Case V25e Colores (3 camaras)
-    Silicone Case X7b Azul Rey
-    Silicone Case X7b Rosa
-    Silicone Case Y11s Rojo
-    Silicone Case Y33s Fucsia
+    Silicone Case X7b Azul Rey ok
+    Silicone Case X7b Rosa ok
+    Silicone Case Y11s Rojo ok
+    Silicone Case Y33s Fucsia ok
     Silicone Case Y33s Fucsia
     Silicone Case Y33s Negro
     SmartPhone Moto G04s 
     TV Fly 43 Pulgadas
-    Vidrio 5D A05s 
-    Vidrio Antiespia Moto G9 Power
-    Vidrio Templado A14 SE
+    Vidrio 5D A05s ok
+    Vidrio Antiespia Moto G9 Power ok
+    Vidrio Templado A14 SE 
     Vidrio Templado Moto G8 Plus 
     Vidrio Templado Oppo A58 SE
     Vidrio Templado Spark 30 5G
