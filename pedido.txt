@@ -73,9 +73,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador Y audio y microfono
     Bombillo Bluetooth
-    Control X3 x2
+    Control X3 x2 ok
     Cotrol Xbox One
-    Dron Sencillo
+    Dron Sencillo ok
     Forro Tecaldo PC
     Garantia Reproductor ONN 4k PND
     Garantia Switch Pendiente PND
@@ -83,19 +83,20 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Memoria Pop
     Memoria Rap Español
     Memoria Rap Ingles
-    Parlante TG-294 Rojo
+    Parlante TG-294 Rojo ok
+    Parlante TG-294 Negro ok
     Patillera Geemy 595 3 en 1
     Plancha Babyliss Combo
     Power Bank Economicos
     Power bank Panel Solar
-    Reproductor Tvbox Magis x2
+    Reproductor Tvbox Magis x2 ok
 
 Julian
     
-    Bandeja iPhone 12 Negro
+    Bandeja iPhone 12 Negro ok
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G14 / G54 ok 
     Pacha Note 11 x1 ok
     Pacha Redmi Note 12 4g .muy cara!, depronto en EKADI ok
-    Tapa Samsung A24 Silver
+    Tapa Samsung A24 Silver 
 
