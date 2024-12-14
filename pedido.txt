@@ -1,6 +1,7 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Cables V8 2m x3
+    Cables V8 2m x3 ok
+    Cables Caterpillar Tc x5 ok
     Cargadores DIGO V8 
     Ceramico Camon 18p 
     Forro Armadura Moto G20 Rojo
@@ -41,15 +42,15 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
     Vidrio Templado oppo A80
-    Forro Diseños A02s Dama x3
-    Balaca Naisu x2
-    Cable Auxiliar 1 a 1 Eco x5
+    Forro Diseños A02s Dama x3 ok
+    Balaca Naisu negro ok
+    Cable Auxiliar 1 a 1 Eco x5 ok
     Forros Tabletas Kids
     Llaveros Spiderman
-    Forro Armadura Samsung A13 Rojo
-    Silicone Case Redmi Note 13 4G Amarillo
-    Silicone Case Redmi Note 13 5G no Lila
-    Forro Diseños Redmi Note 13 5G Dama
+    Forro Armadura Samsung A13 Rojo 
+    Silicone Case Redmi Note 13 4G Amarillo ok
+    Silicone Case Redmi Note 13 5G no Lila ok
+    Forro Diseños Redmi Note 13 5G Dama 
     Forro Diseños Redmi Note 13 5G Caballero
 
 JOMA - 107 - THOR - AtrasPr -Memorias
