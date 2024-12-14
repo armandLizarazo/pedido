@@ -173,3 +173,49 @@ Línea  | Contenido
    78 | Pacha Vivo Y22s ok
    81 | Tapa Mi11 Lite ok
    82 | Visor Camara Principal Moto G8 Power Lite ok
+
+==================================================
+Fecha de proceso: 2024-12-13 20:52:51
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 37
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Cables Auxliar Cordon x3 ok
+    5 | Cables V8 3m x3 ok
+    6 | Cargador Smart Watch inalambrico ok
+   13 | Forro Diseños Redmi Note 13 4g Dama ok
+   14 | Forro Diseños Redmi note 13 4g Caballero ok
+   15 | Forro Diseños Samsung A06 Caballero ok
+   17 | Forro diseños Samsung A16 Dama ok
+   18 | Forro Diseños Samsung A16 Caballero ok
+   19 | Forro Diseños Spark Go 2024 Caballero ok
+   21 | Forro Diseños V25e Dama ok
+   22 | Forro Diseños X7b dama x2 ok
+   24 | Forro Diseños V30 Lite Dama ok
+   25 | Forro Diseños V30 Lite Caballero ok
+   33 | Forro Space Oppo Reno 11F ok
+   34 | Forro Space Vivo V25e ok
+   35 | Forro Space Vivo V30 Lite ok
+   37 | Gatillos R11 ok
+   38 | Pilas Recargables Sony AAA de 4 x2 ok
+   40 | Silicone Case A30 Verde ok
+   41 | Silicone Case A55 Fucsia ok
+   50 | Silicone Case Realme C55 Fucsia ok
+   51 | Silicone Case Realme C55 Lila ok
+   55 | Silicone Case X7b Azul Rey ok
+   56 | Silicone Case X7b Rosa ok
+   57 | Silicone Case Y11s Rojo ok
+   58 | Silicone Case Y33s Fucsia ok
+   63 | Vidrio 5D A05s ok
+   64 | Vidrio Antiespia Moto G9 Power ok
+   76 | Control X3 x2 ok
+   78 | Dron Sencillo ok
+   86 | Parlante TG-294 Rojo ok
+   87 | Parlante TG-294 Negro ok
+   92 | Reproductor Tvbox Magis x2 ok
+   96 | Bandeja iPhone 12 Negro ok
+   98 | Pacha Moto G14 / G54 ok
+   99 | Pacha Note 11 x1 ok
+  100 | Pacha Redmi Note 12 4g .muy cara!, depronto en EKADI ok
