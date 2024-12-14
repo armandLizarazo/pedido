@@ -70,10 +70,10 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Power bank Panel Solar
     Tableros Magicos Kids
     HUB 6 en 1 con HDMI
-    Membrana Teclados
+    Membrana Teclados ok
     Rollo Cinta Led Bluetooth x3
-    Cable VGA 10m x2
-    Sup con Control x2
+    Cable VGA 10m x1 ok
+    Sup con Control x2 ok
     Dispensador Agua x3
 
 Julian
