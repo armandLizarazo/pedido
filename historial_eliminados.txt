@@ -219,3 +219,30 @@ Línea  | Contenido
    98 | Pacha Moto G14 / G54 ok
    99 | Pacha Note 11 x1 ok
   100 | Pacha Redmi Note 12 4g .muy cara!, depronto en EKADI ok
+
+==================================================
+Fecha de proceso: 2024-12-16 07:22:11
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Cables V8 2m x3 ok
+    4 | Cables Caterpillar Tc x5 ok
+   17 | Forro Spac iPhone 7 ok
+   21 | Forro Space Vivo Y27 ok
+   22 | Silicone Case A21s Rojo ok
+   23 | Silicone Case A55 Verde ok
+   27 | Silicone Case Moto Edge 50 Fusion Negro ok
+   28 | Silicone Case Moto Edge 50 Fusion Rojo ok
+   29 | Silicone Case Note 10 5G Negro ok
+   33 | Silicone Case V25e Colores (3 camaras) ok
+   45 | Forro Diseños A02s Dama x3 ok
+   46 | Balaca Naisu negro ok
+   47 | Cable Auxiliar 1 a 1 Eco x5 ok
+   51 | Silicone Case Redmi Note 13 4G Amarillo ok
+   52 | Silicone Case Redmi Note 13 5G no Lila ok
+   73 | Membrana Teclados ok
+   75 | Cable VGA 10m x1 ok
+   76 | Sup con Control x2 ok
