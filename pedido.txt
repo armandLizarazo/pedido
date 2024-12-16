@@ -1,4 +1,4 @@
-Yoyos Caracas - TYD - Ovidio - Fly
+Ud Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
     Audifonos M25 ok
     Audifonos Pro 60 ok
@@ -71,9 +71,9 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Control PS4 Rojo
     Cotrol Xbox One
     Forro Tecaldo PC
-    Garantia Reproductor ONN 4k PND
+    Garantia Reproductor ONN 4k ok
     Garantia Switch Pendiente PND
-    HUB 6 en 1 con HDMI
+    HUB 6 en 1 con HDMI ok
     Lupa Curva
     Memoria Pop
     Memoria Rap Español
@@ -89,9 +89,9 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Rollo Cinta Led Bluetooth x3
     Secador Remington
     Soporte TV 55 Brazo
-    Spliter HDMI 1 a 2 x1
-    TDT x2
-    Tableros Magicos Kids
+    Spliter HDMI 1 a 2 x1 ok
+    TDT x2 ok 
+    Tableros Magicos Kids ok
 
 Julian
     Logica de Carga Redmi Note 13 4G
