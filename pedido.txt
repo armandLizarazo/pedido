@@ -53,16 +53,16 @@ UYoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado oppo A80
 
 JOMA - 107 - THOR - AtrasPr -Memorias
-    Adaptador Y audio y microfono
-    Bombillo Bluetooth
+    Adaptador Y audio y microfono ok
+    Bombillo Bluetooth ok
     Cargador doblepunta 12v x2
-    Cargador doblepunta 15v x3
+    Cargador doblepunta 15v x3 ok
     Cargador doblepunta 5v x2
-    Consola Game Stick
-    Control Gamer PS3 Amarillo
-    Control PS4 Aguamarina
-    Control PS4 Azul
-    Control PS4 Negro
+    Consola Game Stick ok 
+    Control Gamer PS3 Amarillo ok
+    Control PS4 Aguamarina ok
+    Control PS4 Azul ok
+    Control PS4 Negro ok
     Control PS4 Rojo
     Cotrol Xbox One
     Forro Tecaldo PC
@@ -71,21 +71,21 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Inpods 12 Rosa x3
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
-    Lupa Curva
+    Lupa Curva ok
     Memoria Pop
     Memoria Rap Español
     Memoria Rap Ingles
-    Patillera Geemy 595 3 en 1
+    Patillera Geemy 595 3 en 1 ok
     Pilas Carbon Caja 
     Plancha Babyliss Combo
     Popit Ardilla
-    Popit Astronauta
-    Popit Pato
+    Popit Astronauta ok
+    Popit Pato ok
     Power Bank Economicos
     Power bank Panel Solar
     Rollo Cinta Led Bluetooth x3
-    Soporte TV 55 Brazo x2
-    Teclado DN-236 
+    Soporte TV 55 Brazo x2 ok
+    Teclado DN-236 ok
 
 Julian
     Bacover Redmi note 11 Para Escarcha
