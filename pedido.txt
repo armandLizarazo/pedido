@@ -61,7 +61,7 @@ Ud Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador Y audio y microfono
     Bombillo Bluetooth
-    Camaras 3 antenas x3
+    Camaras 3 antenas x2 ok
     Cargador doblepunta 12v x2
     Cargador doblepunta 15v x3
     Cargador doblepunta 5v x2
@@ -87,15 +87,14 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Power Bank Economicos
     Power bank Panel Solar
     Rollo Cinta Led Bluetooth x3
-    Secador Remington
-    Soporte TV 55 Brazo
+    Secador Remington ok
+    Soporte TV 55 Brazo ok
     Spliter HDMI 1 a 2 x1 ok
     TDT x2 ok 
     Tableros Magicos Kids ok
 
 Julian
     Logica de Carga Redmi Note 13 4G
-    Pacha Realme C15
-    Pacha Samsung A13
-    Bandeja Realme C15
-    Prestamo Logica Iphone 6
+    Pacha Realme C15 ok
+    Pacha Samsung A13 ok
+    Bandeja Realme C15 ok
