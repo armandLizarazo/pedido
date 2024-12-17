@@ -246,3 +246,36 @@ Línea  | Contenido
    73 | Membrana Teclados ok
    75 | Cable VGA 10m x1 ok
    76 | Sup con Control x2 ok
+
+==================================================
+Fecha de proceso: 2024-12-16 23:33:44
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos M25 ok
+    4 | Audifonos Pro 60 ok
+    5 | Cables V8 3m x2 ok
+    6 | Cables TC 2m x2 ok
+    7 | Cables TC 3m x2 ok
+    8 | Cables iphone TC Ligthning x2 ok
+    9 | Cargador YL TC x2 ok
+   10 | Cargadores DIGO V8 ok
+   30 | Manos Libres Caja Eco Negro x5 ok
+   31 | Manos Libres Samsung Bolsa Blanco x5 ok
+   33 | Silicone Case A13 Morado ok
+   34 | Silicone Case A13 Rosa ok
+   45 | Silicone Case X7b Lila ok
+   64 | Camaras 3 antenas x2 ok
+   74 | Garantia Reproductor ONN 4k ok
+   76 | HUB 6 en 1 con HDMI ok
+   90 | Secador Remington ok
+   91 | Soporte TV 55 Brazo ok
+   92 | Spliter HDMI 1 a 2 x1 ok
+   93 | TDT x2 ok
+   94 | Tableros Magicos Kids ok
+   98 | Pacha Realme C15 ok
+   99 | Pacha Samsung A13 ok
+  100 | Bandeja Realme C15 ok
