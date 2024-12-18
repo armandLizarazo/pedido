@@ -3,6 +3,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
     Audifonos Bluetooth airdots
     Cargador 20w cable Appple ok
+    Cargadores YL v8 x3 ok
+    Cargadores W TC x3 ok
     Ceramico Camon 18p 
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -50,7 +52,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iphone 7 Rojo
     SmartPhone Moto G04s 
     Space A35 ok
-    Vidrio Templado A20s
+    Vidrio Templado A20s ok
     Vidrio Templado Moto G8 Plus 
     Vidrio Templado Oppo A58 SE
     Vidrio Templado Samsung A35
@@ -67,8 +69,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cotrol Xbox One
     Esferas
     Garantia Game Stick
-    Inpods 12 Negro x3
-    Inpods 12 Rosa x3
+    Inpods 12 Negro x3 ok
+    Inpods 12 Rosa x3 ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Pop
