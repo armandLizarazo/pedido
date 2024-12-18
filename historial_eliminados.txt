@@ -279,3 +279,29 @@ Línea  | Contenido
    98 | Pacha Realme C15 ok
    99 | Pacha Samsung A13 ok
   100 | Bandeja Realme C15 ok
+
+==================================================
+Fecha de proceso: 2024-12-17 21:09:43
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   56 | Adaptador Y audio y microfono ok
+   57 | Bombillo Bluetooth ok
+   59 | Cargador doblepunta 15v x3 ok
+   61 | Consola Game Stick ok
+   62 | Control Gamer PS3 Amarillo ok
+   63 | Control PS4 Aguamarina ok
+   64 | Control PS4 Azul ok
+   65 | Control PS4 Negro ok
+   68 | Forro Tecaldo PC ok
+   69 | Garantia Switch Pendiente fail ok
+   74 | Lupa Curva ok
+   78 | Patillera Geemy 595 3 en 1 ok
+   79 | Pilas Carbon Caja ok
+   82 | Popit Astronauta ok
+   83 | Popit Pato ok
+   87 | Soporte TV 55 Brazo x2 ok
+   88 | Teclado DN-236 ok
