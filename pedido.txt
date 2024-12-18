@@ -65,8 +65,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Control PS4 Negro ok
     Control PS4 Rojo
     Cotrol Xbox One
-    Forro Tecaldo PC
-    Garantia Switch Pendiente PND
+    Forro Tecaldo PC ok
+    Garantia Switch Pendiente fail ok
     Inpods 12 Negro x3
     Inpods 12 Rosa x3
     Lampara Esfera Jupiter
@@ -76,7 +76,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Memoria Rap Español
     Memoria Rap Ingles
     Patillera Geemy 595 3 en 1 ok
-    Pilas Carbon Caja 
+    Pilas Carbon Caja ok
     Plancha Babyliss Combo
     Popit Ardilla
     Popit Astronauta ok
