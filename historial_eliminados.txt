@@ -305,3 +305,34 @@ Línea  | Contenido
    83 | Popit Pato ok
    87 | Soporte TV 55 Brazo x2 ok
    88 | Teclado DN-236 ok
+
+==================================================
+Fecha de proceso: 2024-12-18 13:25:26
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 22
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Audifonos Bluethoot E7s Negro ok
+    5 | Cargador 20w cable Appple ok
+    6 | Cargadores YL v8 x3 ok
+    7 | Cargadores W TC x3 ok
+   25 | Forro Space Note 10s ok
+   30 | Memorias Micro 4Gb x5 ok
+   31 | Memorias Micro 8Gb x3 ok
+   32 | Silicone Case A05s Negro ok
+   33 | Silicone Case A15 Rojo ok
+   35 | Silicone Case Iphone 11 Pro Amarillo ok
+   41 | Silicone Case Moto G54 Negro ok
+   42 | Silicone Case Pova 4 AzulRey ok
+   45 | Silicone Case Redmi Note 13 4G Negro ok
+   49 | Silicone Case Y33s Negro ok
+   54 | Space A35 ok
+   55 | Vidrio Templado A20s ok
+   72 | Inpods 12 Negro x3 ok
+   73 | Inpods 12 Rosa x3 ok
+   87 | Pacha redmi 13c ok
+   88 | Bateria Moto G22 ok
+   90 | Tapa Moto G22 ok
+   92 | Tapa Redmi Note 13 Pro Ver foto ok
