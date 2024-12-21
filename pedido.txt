@@ -100,7 +100,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Control PS4 Rojo
     Cotrol Xbox One
     Dron Sencillo
-    Garantia Game Stick
+    Garantia Game Stick ok
     HDMI2 VGA Cable Macho x3 ok
     HDMI2VGA Cable x3 ok
     Lampara Esfera Jupiter
@@ -117,8 +117,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Popit Ardilla
     Power Bank Economicos
     Power bank Panel Solar
-    Reproductor ONN
-    Reproductor TDT x2
+    Reproductor ONN ok
+    Reproductor TDT x2 ok
     Rollo Cinta Led Bluetooth x3
     Teclado Seisa S830 ok
 
