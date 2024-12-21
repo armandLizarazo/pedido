@@ -1,7 +1,12 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
+    Audifonos Bluetooth AMBIE x2
+    Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
+    Cable Caterpillar V8
+    Cable Samsung TC a TC
     Ceramico Camon 18p 
+    Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
     Forro Armadura Samsung A13 Rojo 
@@ -15,6 +20,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Redmi 14c Caballero
     Forro Diseños Redmi Note 13 5G Caballero
     Forro Diseños Redmi Note 13 5G Dama 
+    Forro Diseños S20 FE Caballero
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
     Forro Diseños V25e Caballero 
@@ -40,6 +46,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forros Tabletas Kids
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
+    Memoria Micro 128 Gb Super
     Silicone Case A16
     Silicone Case A35 Amarillo
     Silicone Case A35 Lila
@@ -60,8 +67,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi 14c Amarillo
     Silicone Case Redmi Note 11 Negro
     Silicone Case Redmi Note 7 AzulClaro
+    Silicone Case Redmi Note 8 Rosa
     Silicone Case Spark Go 2024 Fucsia
+    Silicone Case Spark Go 2024 Negro x2
+    Silicone Case Y33s Verde
     Silicone Case Y7a Rojo
+    Silicone Case iPhone 13 Pro Max Lila
     Silicone Case iPhone 8 Morado
     Silicone Case iPhone 8 Rojo
     Silicone Case iphone 11 Blanco
@@ -71,6 +82,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
+    Vidrio Templado Moto G04 / Spark Go 2024 x10
     Vidrio Templado Moto G8 Plus 
     Vidrio Templado Oppo A58 SE
     Vidrio Templado Samsung A35
@@ -78,15 +90,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
     Vidrio Templado oppo A80
-    Audifonos Bluetooth X15
-    Memoria Micro 128 Gb Super
-    Silicone Case Y33s Verde
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Cargador doblepunta 12v x2
     Cargador doblepunta 5v x2
+    Consola Game Stick x2
     Control PS4 Rojo
     Cotrol Xbox One
+    Dron Sencillo
     Garantia Game Stick
     HDMI2 VGA Cable Macho x3
     HDMI2VGA Cable x3
@@ -98,17 +109,26 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
     Pad Mouse Tapete RGB
+    Parlante Tiger TP8011 Azul
     Plancha Babyliss Combo
+    Plancha Combo Rizador
     Popit Ardilla
     Power Bank Economicos
     Power bank Panel Solar
     Reproductor ONN
+    Reproductor TDT x2
     Rollo Cinta Led Bluetooth x3
-    Consola Game Stick
+    Teclado Seisa S830
+
 
 Julian
     Bacover Redmi note 11 Para Escarcha
+    Bateria Redmi Note 8
     Logica de Carga Redmi Note 13 4G
+    Logica de Carga Samsung A13
     Pacha Honor X7a
     Pacha Note 10 / Note 10s Full
+    Pacha Samsung A13
+    Pacha Y21s
     Tapa Redmi Note 11 Escarcha
+    Pacha Honor X8a
