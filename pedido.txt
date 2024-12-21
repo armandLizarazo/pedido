@@ -1,15 +1,16 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Audifonos Bluetooth AMBIE x2
+    Audifonos Bluetooth AMBIE x2 ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cable Caterpillar V8
-    Cable Samsung TC a TC
+    Cable Caterpillar V8 ok ok
+    Cable Motorola TC a TC ok
     Ceramico Camon 18p 
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
     Forro Armadura Samsung A13 Rojo 
+    Forro Diseños Spark go 2025/ go 1 caballero ok
     Forro DIseños Moto Edge 50 Fusion Caballero
     Forro Diseños Moto Edge 50 Fusion Dama
     Forro Diseños Moto G24 Dama
@@ -17,10 +18,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Moto G85 Dama
     Forro Diseños Redmi 10c Dama x3
     Forro Diseños Redmi 13c Dama x2
-    Forro Diseños Redmi 14c Caballero
-    Forro Diseños Redmi Note 13 5G Caballero
+    Forro Diseños Redmi 14c Caballero ok
+    Forro Diseños Redmi Note 13 5G Caballero ok
     Forro Diseños Redmi Note 13 5G Dama 
-    Forro Diseños S20 FE Caballero
+    Forro Diseños S20 FE Caballero ok
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
     Forro Diseños V25e Caballero 
@@ -36,49 +37,50 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Moto Edge 50 Fusion
     Forro Space Moto G04
     Forro Space Moto G85
-    Forro Space Note 11
-    Forro Space Note 13 Pro 5G
-    Forro Space Nova Y90 
+    Forro Space Note 11 ok
+    Forro Space Note 13 Pro 5G ok
+    Forro Space Nova Y90 ok
     Forro Space Redmi 14c
-    Forro Space Redmi Note 13 Pro Plus x2
+    Forro Space Redmi Note 13 Pro Plus x1 ok
     Forro Space Samsung A16
-    Forro Space Vivo Y50 x2
+    Forro Space Vivo Y50 x2 ok
     Forros Tabletas Kids
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
-    Memoria Micro 128 Gb Super
-    Silicone Case A16
-    Silicone Case A35 Amarillo
-    Silicone Case A35 Lila
-    Silicone Case A35 Rosa
+    Memoria Micro 128 Gb Super ok
+    Silicone Case Spark Go 2025 / Go 1 ok
+    Silicone Case A16 ok
+    Silicone Case A35 Amarillo 
+    Silicone Case A35 Lila ok
+    Silicone Case A35 Rosa ok
     Silicone Case A36
     Silicone Case AzulRey
-    Silicone Case Honor X8b Lila
+    Silicone Case Honor X8b Lila ok
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
-    Silicone Case Moto E32 Lila
-    Silicone Case Moto G04 Azul Rey
-    Silicone Case Moto G04 Morado
-    Silicone Case Moto G04 Rosa  
+    Silicone Case Moto E32 Lila 
+    Silicone Case Moto G04 Azul Rey 
+    Silicone Case Moto G04 Morado ok
+    Silicone Case Moto G04 Rosa  ok
     Silicone Case Realme 7i Lila
-    Silicone Case Redmi 13c Morado
-    Silicone Case Redmi 14c Amarillo
-    Silicone Case Redmi Note 11 Negro
+    Silicone Case Redmi 13c Morado ok
+    Silicone Case Redmi 14c Amarillo 
+    Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi Note 8 Rosa
-    Silicone Case Spark Go 2024 Fucsia
-    Silicone Case Spark Go 2024 Negro x2
-    Silicone Case Y33s Verde
+    Silicone Case Redmi Note 8 Rosa ok
+    Silicone Case Spark Go 2024 Fucsia 
+    Silicone Case Spark Go 2024 Negro x2 ok
+    Silicone Case Y33s Verde 
     Silicone Case Y7a Rojo
-    Silicone Case iPhone 13 Pro Max Lila
-    Silicone Case iPhone 8 Morado
+    Silicone Case iPhone 13 Pro Max Lila ok
+    Silicone Case iPhone 8 Morado ok
     Silicone Case iPhone 8 Rojo
     Silicone Case iphone 11 Blanco
     Silicone Case iphone 7 Rojo
-    Silicone Case iphone 8 Amarillo
-    Silicone Case iphone 8 Azul
+    Silicone Case iphone 8 Amarillo ok
+    Silicone Case iphone 8 Azul ok
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
