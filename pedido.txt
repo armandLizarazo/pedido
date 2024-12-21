@@ -124,13 +124,13 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Bacover Redmi note 11 Para Escarcha
-    Bateria Redmi Note 8
+    Bacover Redmi note 11 Para Escarcha ok
+    Bateria Redmi Note 8 ok
     Logica de Carga Redmi Note 13 4G
-    Logica de Carga Samsung A13
-    Pacha Honor X7a
+    Logica de Carga Samsung A13 ok
+    Pacha Honor X7a p
     Pacha Note 10 / Note 10s Full
-    Pacha Samsung A13
-    Pacha Y21s
-    Tapa Redmi Note 11 Escarcha
-    Pacha Honor X8a
+    Pacha Samsung A13 ok
+    Pacha Y21s p
+    Tapa Redmi Note 11 Escarcha p
+    Pacha Honor X8a p
