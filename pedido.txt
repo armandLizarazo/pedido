@@ -101,8 +101,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cotrol Xbox One
     Dron Sencillo
     Garantia Game Stick
-    HDMI2 VGA Cable Macho x3
-    HDMI2VGA Cable x3
+    HDMI2 VGA Cable Macho x3 ok
+    HDMI2VGA Cable x3 ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Pop
@@ -120,7 +120,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Reproductor ONN
     Reproductor TDT x2
     Rollo Cinta Led Bluetooth x3
-    Teclado Seisa S830
+    Teclado Seisa S830 ok
 
 
 Julian
@@ -128,9 +128,9 @@ Julian
     Bateria Redmi Note 8 ok
     Logica de Carga Redmi Note 13 4G
     Logica de Carga Samsung A13 ok
-    Pacha Honor X7a p
+    Pacha Honor X7a ok
     Pacha Note 10 / Note 10s Full
     Pacha Samsung A13 ok
-    Pacha Y21s p
-    Tapa Redmi Note 11 Escarcha p
-    Pacha Honor X8a p
+    Pacha Y21s ok
+    Tapa Redmi Note 11 Escarcha ok
+    Pacha Honor X8a ok
