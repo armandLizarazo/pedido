@@ -79,7 +79,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado oppo A80
 
 JOMA - 107 - THOR - AtrasPr -Memorias
-    Antena TDT 5M x2
+    Antena TDT 5M x2 ok
     Cable HDMI 1.5m x2
     Cable USB Sata 3.0
     Cargador doblepunta 12v x2
@@ -87,11 +87,11 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Conectores RJ45
     Consola Game Stick x2
     Control PS4 Rojo
-    Control X3
+    Control X3 ok
     Cotrol Xbox One
     Dron Sencillo
-    Game Stick Verde
-    Garantia Game Sick Verde
+    Game Stick Verde ok
+    Garantia Game Sick Verde ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Pop
@@ -101,12 +101,12 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Pad Mouse Tapete Negro
     Pila CR2016 x10
     Pila Cabon Tipo D x4
-    Pila Carbon 9v x5
+    Pila Carbon 9v x5 ok
     Plancha Babyliss Combo
     Plancha Combo Rizador
     Popit Ardilla
     Power Bank Economicos
-    Power bank Panel Solar
+    Power bank Panel Solar ok
     Rollo Cinta Led Bluetooth x3
 
 
