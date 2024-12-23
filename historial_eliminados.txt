@@ -336,3 +336,53 @@ Línea  | Contenido
    88 | Bateria Moto G22 ok
    90 | Tapa Moto G22 ok
    92 | Tapa Redmi Note 13 Pro Ver foto ok
+
+==================================================
+Fecha de proceso: 2024-12-21 19:52:39
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 41
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos Bluetooth AMBIE x2 ok
+    6 | Cable Caterpillar V8 ok ok
+    7 | Cable Motorola TC a TC ok
+   13 | Forro Diseños Spark go 2025/ go 1 caballero ok
+   21 | Forro Diseños Redmi 14c Caballero ok
+   22 | Forro Diseños Redmi Note 13 5G Caballero ok
+   24 | Forro Diseños S20 FE Caballero ok
+   40 | Forro Space Note 11 ok
+   41 | Forro Space Note 13 Pro 5G ok
+   42 | Forro Space Nova Y90 ok
+   44 | Forro Space Redmi Note 13 Pro Plus x1 ok
+   46 | Forro Space Vivo Y50 x2 ok
+   50 | Memoria Micro 128 Gb Super ok
+   51 | Silicone Case Spark Go 2025 / Go 1 ok
+   52 | Silicone Case A16 ok
+   54 | Silicone Case A35 Lila ok
+   55 | Silicone Case A35 Rosa ok
+   58 | Silicone Case Honor X8b Lila ok
+   65 | Silicone Case Moto G04 Morado ok
+   66 | Silicone Case Moto G04 Rosa  ok
+   68 | Silicone Case Redmi 13c Morado ok
+   72 | Silicone Case Redmi Note 8 Rosa ok
+   74 | Silicone Case Spark Go 2024 Negro x2 ok
+   77 | Silicone Case iPhone 13 Pro Max Lila ok
+   78 | Silicone Case iPhone 8 Morado ok
+   82 | Silicone Case iphone 8 Amarillo ok
+   83 | Silicone Case iphone 8 Azul ok
+  103 | Garantia Game Stick ok
+  104 | HDMI2 VGA Cable Macho x3 ok
+  105 | HDMI2VGA Cable x3 ok
+  120 | Reproductor ONN ok
+  121 | Reproductor TDT x2 ok
+  123 | Teclado Seisa S830 ok
+  127 | Bacover Redmi note 11 Para Escarcha ok
+  128 | Bateria Redmi Note 8 ok
+  130 | Logica de Carga Samsung A13 ok
+  131 | Pacha Honor X7a ok
+  133 | Pacha Samsung A13 ok
+  134 | Pacha Y21s ok
+  135 | Tapa Redmi Note 11 Escarcha ok
+  136 | Pacha Honor X8a ok

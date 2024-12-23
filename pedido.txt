@@ -1,27 +1,24 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
-    Audifonos Bluetooth AMBIE x2 ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cable Caterpillar V8 ok ok
-    Cable Motorola TC a TC ok
+    Cable Harvic V8 x5
+    Cable TC Ligthning x2
+    Cable TC eco x5
     Ceramico Camon 18p 
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
     Forro Armadura Samsung A13 Rojo 
-    Forro Diseños Spark go 2025/ go 1 caballero ok
     Forro DIseños Moto Edge 50 Fusion Caballero
     Forro Diseños Moto Edge 50 Fusion Dama
     Forro Diseños Moto G24 Dama
     Forro Diseños Moto G85 Caballero
     Forro Diseños Moto G85 Dama
+    Forro Diseños Oppo A80
     Forro Diseños Redmi 10c Dama x3
     Forro Diseños Redmi 13c Dama x2
-    Forro Diseños Redmi 14c Caballero ok
-    Forro Diseños Redmi Note 13 5G Caballero ok
     Forro Diseños Redmi Note 13 5G Dama 
-    Forro Diseños S20 FE Caballero ok
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
     Forro Diseños V25e Caballero 
@@ -37,50 +34,38 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Moto Edge 50 Fusion
     Forro Space Moto G04
     Forro Space Moto G85
-    Forro Space Note 11 ok
-    Forro Space Note 13 Pro 5G ok
-    Forro Space Nova Y90 ok
+    Forro Space Note 10 Pro x2
+    Forro Space Oppo A78 4g
+    Forro Space Oppo A80
     Forro Space Redmi 14c
-    Forro Space Redmi Note 13 Pro Plus x1 ok
     Forro Space Samsung A16
-    Forro Space Vivo Y50 x2 ok
     Forros Tabletas Kids
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
-    Memoria Micro 128 Gb Super ok
-    Silicone Case Spark Go 2025 / Go 1 ok
-    Silicone Case A16 ok
+    Pulso Banda 5 Negro
     Silicone Case A35 Amarillo 
-    Silicone Case A35 Lila ok
-    Silicone Case A35 Rosa ok
     Silicone Case A36
     Silicone Case AzulRey
-    Silicone Case Honor X8b Lila ok
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
     Silicone Case Moto E32 Lila 
     Silicone Case Moto G04 Azul Rey 
-    Silicone Case Moto G04 Morado ok
-    Silicone Case Moto G04 Rosa  ok
+    Silicone Case Moto G22 Morado
+    Silicone Case Oppo A78 4G Amarillo
     Silicone Case Realme 7i Lila
-    Silicone Case Redmi 13c Morado ok
     Silicone Case Redmi 14c Amarillo 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi Note 8 Rosa ok
     Silicone Case Spark Go 2024 Fucsia 
-    Silicone Case Spark Go 2024 Negro x2 ok
     Silicone Case Y33s Verde 
     Silicone Case Y7a Rojo
-    Silicone Case iPhone 13 Pro Max Lila ok
-    Silicone Case iPhone 8 Morado ok
+    Silicone Case iPhone 11 Morado
     Silicone Case iPhone 8 Rojo
     Silicone Case iphone 11 Blanco
     Silicone Case iphone 7 Rojo
-    Silicone Case iphone 8 Amarillo ok
-    Silicone Case iphone 8 Azul ok
+    Simcard Claro x10
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
@@ -94,15 +79,19 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado oppo A80
 
 JOMA - 107 - THOR - AtrasPr -Memorias
+    Antena TDT 5M x2
+    Cable HDMI 1.5m x2
+    Cable USB Sata 3.0
     Cargador doblepunta 12v x2
     Cargador doblepunta 5v x2
+    Conectores RJ45
     Consola Game Stick x2
     Control PS4 Rojo
+    Control X3
     Cotrol Xbox One
     Dron Sencillo
-    Garantia Game Stick ok
-    HDMI2 VGA Cable Macho x3 ok
-    HDMI2VGA Cable x3 ok
+    Game Stick Verde
+    Garantia Game Sick Verde
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Pop
@@ -110,27 +99,26 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Memoria Rap Ingles
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
-    Pad Mouse Tapete RGB
-    Parlante Tiger TP8011 Azul
+    Pila CR2016 x10
+    Pila Cabon Tipo D x4
+    Pila Carbon 9v x5
     Plancha Babyliss Combo
     Plancha Combo Rizador
     Popit Ardilla
     Power Bank Economicos
     Power bank Panel Solar
-    Reproductor ONN ok
-    Reproductor TDT x2 ok
     Rollo Cinta Led Bluetooth x3
-    Teclado Seisa S830 ok
 
 
 Julian
-    Bacover Redmi note 11 Para Escarcha ok
-    Bateria Redmi Note 8 ok
+    Bateria Redmi Note 7
+    Cambiar Bateria Xs Max 
+    Flex Power Note 11
+    Flex Power Oppo A54
     Logica de Carga Redmi Note 13 4G
-    Logica de Carga Samsung A13 ok
-    Pacha Honor X7a ok
+    Pacha A03s
+    Pacha A30s s/m
     Pacha Note 10 / Note 10s Full
-    Pacha Samsung A13 ok
-    Pacha Y21s ok
-    Tapa Redmi Note 11 Escarcha ok
-    Pacha Honor X8a ok
+    Pacha Redmi 10
+    Tapa Redmi Note 7 Azul
+    Tapa Redmi Note 7 Negro
