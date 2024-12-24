@@ -106,8 +106,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 Julian
     Cambiar Bateria Xs Max 
     Logica de Carga Redmi Note 13 4G
-    Pacha A30s s/m 
-    Pacha A32 c/m
+    Pacha A30s s/m ok
+    Pacha A32 s/m ok
     Pacha Note 10 / Note 10s Full
-    Pacha Note 11 x2
-    Pacha Note 12 x2
+    Pacha Note 11 x2 ok
+    Pacha Note 12 x2 ok
