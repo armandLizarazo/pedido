@@ -386,3 +386,32 @@ Línea  | Contenido
   134 | Pacha Y21s ok
   135 | Tapa Redmi Note 11 Escarcha ok
   136 | Pacha Honor X8a ok
+
+==================================================
+Fecha de proceso: 2024-12-23 23:25:27
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Cable TC eco x5 ok
+   37 | Forro Space Note 10 Pro x2 ok
+   38 | Forro Space Oppo A78 4g ok
+   68 | Simcard Claro x10 ok
+   72 | Vidrio Templado Moto G04 / Spark Go 2024 x10 ok
+   73 | Vidrio Templado Moto G8 Plus ok
+   74 | Vidrio Templado Oppo A58 SE ok
+   82 | Antena TDT 5M x2 ok
+   90 | Control X3 ok
+   93 | Game Stick Verde ok
+   94 | Garantia Game Sick Verde ok
+  104 | Pila Carbon 9v x5 ok
+  109 | Power bank Panel Solar ok
+  114 | Bateria Redmi Note 7 ok
+  116 | Flex Power Note 11 ok
+  117 | Flex Power Oppo A54 ok
+  119 | Pacha A03s ok
+  122 | Pacha Redmi 10 ok
+  123 | Tapa Redmi Note 7 Azul ok
+  124 | Tapa Redmi Note 7 Negro ok
