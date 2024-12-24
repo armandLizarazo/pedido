@@ -4,7 +4,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth airdots
     Cable Harvic V8 x5
     Cable TC Ligthning x2
-    Cable TC eco x5
+    Cable TC eco x5 ok
     Ceramico Camon 18p 
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
@@ -34,8 +34,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Moto Edge 50 Fusion
     Forro Space Moto G04
     Forro Space Moto G85
-    Forro Space Note 10 Pro x2
-    Forro Space Oppo A78 4g
+    Forro Space Note 10 Pro x2 ok
+    Forro Space Oppo A78 4g ok
     Forro Space Oppo A80
     Forro Space Redmi 14c
     Forro Space Samsung A16
@@ -65,13 +65,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iPhone 8 Rojo
     Silicone Case iphone 11 Blanco
     Silicone Case iphone 7 Rojo
-    Simcard Claro x10
+    Simcard Claro x10 ok
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
-    Vidrio Templado Moto G04 / Spark Go 2024 x10
-    Vidrio Templado Moto G8 Plus 
-    Vidrio Templado Oppo A58 SE
+    Vidrio Templado Moto G04 / Spark Go 2024 x10 ok
+    Vidrio Templado Moto G8 Plus ok 
+    Vidrio Templado Oppo A58 SE ok
     Vidrio Templado Samsung A35
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
@@ -111,14 +111,14 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Bateria Redmi Note 7
+    Bateria Redmi Note 7 ok
     Cambiar Bateria Xs Max 
-    Flex Power Note 11
-    Flex Power Oppo A54
+    Flex Power Note 11 ok
+    Flex Power Oppo A54 ok
     Logica de Carga Redmi Note 13 4G
-    Pacha A03s
-    Pacha A30s s/m
+    Pacha A03s ok
+    Pacha A30s s/m 
     Pacha Note 10 / Note 10s Full
-    Pacha Redmi 10
-    Tapa Redmi Note 7 Azul
-    Tapa Redmi Note 7 Negro
+    Pacha Redmi 10 ok
+    Tapa Redmi Note 7 Azul ok
+    Tapa Redmi Note 7 Negro ok
