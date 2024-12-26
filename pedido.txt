@@ -15,9 +15,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Moto G85 Caballero
     Forro Diseños Moto G85 Dama
     Forro Diseños Oppo A80
-    Forro Diseños Redmi 10c Dama x3
-    Forro Diseños Redmi 12 Dama x3
-    Forro Diseños Redmi 13c Dama x2
+    Forro Diseños Redmi 10c Dama x3 ok
+    Forro Diseños Redmi 12 Dama x3 ok
+    Forro Diseños Redmi 13c Dama x2 ok
     Forro Diseños Redmi Note 13 5G Dama 
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
@@ -33,7 +33,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Mi11t verificar
     Forro Space Moto Edge 50 Fusion
     Forro Space Moto G04
-    Forro Space Moto G85
+    Forro Space Moto G85 ok
     Forro Space Oppo A80
     Forro Space Redmi 14c
     Forro Space Samsung A16
@@ -42,9 +42,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Intercomunicador Moto
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
-    Pulso Banda 5 Negro
+    Pulso Banda 5 Negro ok
     Silicone Case A04e Lila
-    Silicone Case A06 Rosa
+    Silicone Case A06 Rosa ok
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
@@ -56,8 +56,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Rojo
     Silicone Case Moto E32 Lila 
     Silicone Case Moto G04 Azul Rey 
-    Silicone Case Moto G22 Morado
-    Silicone Case Oppo A78 4G Amarillo
+    Silicone Case Moto G22 Morado 
+    Silicone Case Oppo A78 4G Amarillo ok
     Silicone Case Realme 7i Lila
     Silicone Case Redmi 14c Amarillo 
     Silicone Case Redmi Note 11 Negro 
@@ -65,22 +65,21 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Redmi note 12
     Silicone Case Spark Go 2024 Fucsia 
-    Silicone Case Y33s Rojo
-    Silicone Case Y33s Verde 
+    Silicone Case Y33s Rojo ok
+    Silicone Case Y33s Verde ok
     Silicone Case Y7a Rojo
     Silicone Case Y9 Prime lila
     Silicone Case iPhone 11 Morado
     Silicone Case iPhone 8 Rojo
-    Silicone Case iphone 11 Blanco
-    Silicone Case iphone 7 Rojo
+    Silicone Case iphone 11 Blanco ok
     Simcard Claro x10
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
-    Vidrio Templado A12 x10
-    Vidrio Templado Moto G20 x10
-    Vidrio Templado Samsung A15
-    Vidrio Templado Samsung A35
+    Vidrio Templado A12 x10 ok
+    Vidrio Templado Moto G20 x10 ok
+    Vidrio Templado Samsung A15 ok
+    Vidrio Templado Samsung A35 ok
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
@@ -90,7 +89,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cable HDMI 1.5m x2
     Cable USB Sata 3.0
     Cargador doblepunta 12v x2
-    Cargador doblepunta 5v x2
+    Cargador doblepunta 5v x2 ok
     Conectores RJ45
     Consola Game Stick x2
     Control PS3 Blanco
@@ -106,12 +105,12 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Pad Mouse Tapete Negro
     Parlante JOC
     Pila CR2016 x10
-    Pila Cabon Tipo D x4
+    Pila Cabon Tipo D x4 ok
     Pilas Recargables Beston AA4 con cargador
     Plancha Babyliss Combo
     Plancha Combo Rizador
     Popit Ardilla
-    Power Bank Economicos
+    Power Bank Economicos ok
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
     SUP con Control Rosa
