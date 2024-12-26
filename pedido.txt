@@ -2,7 +2,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluethoot K17 (Speak)
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cable Harvic V8 x5
     Cable TC Ligthning x2
     Ceramico Camon 18p 
     Forro Armadura A32 Rojo
@@ -17,6 +16,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Moto G85 Dama
     Forro Diseños Oppo A80
     Forro Diseños Redmi 10c Dama x3
+    Forro Diseños Redmi 12 Dama x3
     Forro Diseños Redmi 13c Dama x2
     Forro Diseños Redmi Note 13 5G Dama 
     Forro Diseños Samsung A06 Dama 
@@ -43,10 +43,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
     Pulso Banda 5 Negro
+    Silicone Case A04e Lila
+    Silicone Case A06 Rosa
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
     Silicone Case AzulRey
+    Silicone Case Ipphone 11 Pro
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
@@ -60,16 +63,23 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 12 Negro
     Silicone Case Redmi Note 7 AzulClaro
+    Silicone Case Redmi note 12
     Silicone Case Spark Go 2024 Fucsia 
+    Silicone Case Y33s Rojo
     Silicone Case Y33s Verde 
     Silicone Case Y7a Rojo
+    Silicone Case Y9 Prime lila
     Silicone Case iPhone 11 Morado
     Silicone Case iPhone 8 Rojo
     Silicone Case iphone 11 Blanco
     Silicone Case iphone 7 Rojo
+    Simcard Claro x10
     SmartPhone Moto G04s 
     Vidrio Ceramico Redmi 13c
     Vidrio Smart Watch redondos Grandes
+    Vidrio Templado A12 x10
+    Vidrio Templado Moto G20 x10
+    Vidrio Templado Samsung A15
     Vidrio Templado Samsung A35
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
@@ -83,6 +93,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cargador doblepunta 5v x2
     Conectores RJ45
     Consola Game Stick x2
+    Control PS3 Blanco
     Control PS4 Rojo
     Cotrol Xbox One
     Dron Sencillo
@@ -96,18 +107,26 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Parlante JOC
     Pila CR2016 x10
     Pila Cabon Tipo D x4
+    Pilas Recargables Beston AA4 con cargador
     Plancha Babyliss Combo
     Plancha Combo Rizador
     Popit Ardilla
     Power Bank Economicos
     Rollo Cinta Led Bluetooth x3
+    SUP con Control Negro
+    SUP con Control Rosa
+    Smart Band 7 
 
 
 Julian
-    Cambiar Bateria Xs Max 
+    Flex Volumen Oppo a54
+    Logica Samsung A03 Core
     Logica de Carga Redmi Note 13 4G
-    Pacha A30s s/m ok
-    Pacha A32 s/m ok
     Pacha Note 10 / Note 10s Full
-    Pacha Note 11 x2 ok
-    Pacha Note 12 x2 ok
+    Pacha Samsung A04e
+    Pacha Samsung A15 Incell
+    Pacha Samsung A21s
+    Pacha Y9 Prime Incell
+    Pacha motorola Moto G04
+
+

@@ -415,3 +415,16 @@ Línea  | Contenido
   122 | Pacha Redmi 10 ok
   123 | Tapa Redmi Note 7 Azul ok
   124 | Tapa Redmi Note 7 Negro ok
+
+==================================================
+Fecha de proceso: 2024-12-25 23:02:56
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  109 | Pacha A30s s/m ok
+  110 | Pacha A32 s/m ok
+  112 | Pacha Note 11 x2 ok
+  113 | Pacha Note 12 x2 ok
