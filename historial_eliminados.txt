@@ -428,3 +428,33 @@ Línea  | Contenido
   110 | Pacha A32 s/m ok
   112 | Pacha Note 11 x2 ok
   113 | Pacha Note 12 x2 ok
+
+==================================================
+Fecha de proceso: 2024-12-27 07:18:11
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 21
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   18 | Forro Diseños Redmi 10c Dama x3 ok
+   19 | Forro Diseños Redmi 12 Dama x3 ok
+   20 | Forro Diseños Redmi 13c Dama x2 ok
+   36 | Forro Space Moto G85 ok
+   45 | Pulso Banda 5 Negro ok
+   47 | Silicone Case A06 Rosa ok
+   60 | Silicone Case Oppo A78 4G Amarillo ok
+   68 | Silicone Case Y33s Rojo ok
+   69 | Silicone Case Y33s Verde ok
+   74 | Silicone Case iphone 11 Blanco ok
+   79 | Vidrio Templado A12 x10 ok
+   80 | Vidrio Templado Moto G20 x10 ok
+   81 | Vidrio Templado Samsung A15 ok
+   82 | Vidrio Templado Samsung A35 ok
+   92 | Cargador doblepunta 5v x2 ok
+  108 | Pila Cabon Tipo D x4 ok
+  113 | Power Bank Economicos ok
+  125 | Pacha Samsung A04e ok
+  127 | Pacha Samsung A21s ok
+  128 | Pacha Y9 Prime Incell ok
+  129 | Pacha motorola Moto G04 ok
