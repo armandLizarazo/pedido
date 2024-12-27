@@ -39,11 +39,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Intercomunicador Moto
     Llaveros Spiderman
     Manos Libres Samsung Bolsa Blanco x5
-    Memoria Kingston USB 4Gb x2
+    Memoria Kingston USB 4Gb x2 ok
     Memoria Kingstone Micro 32gb x2
     Memoria Kingstone Micro 4gb x2
     Memoria Kingstone Usbe 8Gb x2
-    Silicone Case A04e Lila
+    Silicone Case A04e Lila ok
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
@@ -53,7 +53,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
-    Silicone Case Moto E32 Lila 
+    Silicone Case Moto E32 Lila ok
     Silicone Case Moto G04 Azul Rey 
     Silicone Case Moto G22 Morado 
     Silicone Case Moto G31 Lila
@@ -70,7 +70,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iPhone 8 Rojo
     Simcard Claro x10
     SmartPhone Moto G04s 
-    Vidrio Ceramico Redmi 13c
+    Vidrio Ceramico Redmi 13c ok
     Vidrio Smart Watch redondos Grandes
     Vidrio Templado Spark 30 5G
     Vidrio Templado Spark 30 pro
@@ -82,7 +82,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cable USB Sata 3.0
     Cargador doblepunta 12v x2
     Conectores RJ45
-    Consola Game Stick x2
+    Consola Game Stick x2 ok
     Control PS3 Blanco
     Control PS4 Rojo
     Cotrol Xbox One
@@ -107,10 +107,11 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Flex Volumen Oppo a54
+    Flex Volumen Oppo a54 ok
     Logica Samsung A03 Core
     Logica de Carga Redmi Note 13 4G
-    Pacha Moto G7 Power
+    Pacha Moto G7 Power ok
     Pacha Note 10 / Note 10s Full
-    Pacha Samsung A15 Incell x2
+    Pacha Samsung A15 Incell x2 ok
+    Pacha Samsung A21s s/m ok
 
