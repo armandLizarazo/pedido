@@ -116,13 +116,13 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Logica Samsung A03 Core
+    Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
-    Pacha A04e x2
-    Pacha M23
-    Pacha Redmi 9a
-    Pines redmi 9a
-    Tapa del Redmi 9c
-    Visor Camara Poco X3
+    Pacha A04e ok
+    Pacha M23 ok
+    Pacha Redmi 9a ok
+    Pines redmi 9a ok
+    Tapa del Redmi 9c ok
+    Visor Camara Poco X3 ok
 
 
