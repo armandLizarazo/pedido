@@ -66,13 +66,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Templado Spark 30 pro
     Vidrio Templado Spark 30c
     Vidrio Templado oppo A80
-    Cargadores Belkin TC
-    Cargador Samsung 45w con Cable
+    Cargadores Belkin TC ok
+    Cargador Samsung 45w con Cable ok
     Forro Space iPhone 13 Mini
-    Forro Space iPhone 8 Plus
-    Forro Space moto G72
-    Forro Space Redmi 10
-    Forro Space Redmi 12
+    Forro Space iPhone 8 Plus ok
+    Forro Space moto G72 ok
+    Forro Space Redmi 10 ok
+    Forro Space Redmi 12 ok
     Silicone Case A03 Core Rojo
     Silicone Case A05s Negro Cambio
     Silicone Case A15 Rosa
@@ -82,10 +82,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Note 11 Negro
     Diseños del Vivo Y38 Dama
     Diseños del Vivo Y38 Caballero
-    Tortuga Moto G60
-    Tortuga 9t / Mi11 Lite
-    Tortuga Samsung A32
-    5d Reame C35
+    Tortuga Moto G60 ok
+    Tortuga 9t / Mi11 Lite ok
+    Tortuga Samsung A32 ok
+    5d Reame C35 ok
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Cable HDMI 1.5m x2
