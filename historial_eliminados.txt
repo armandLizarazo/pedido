@@ -458,3 +458,21 @@ Línea  | Contenido
   127 | Pacha Samsung A21s ok
   128 | Pacha Y9 Prime Incell ok
   129 | Pacha motorola Moto G04 ok
+
+==================================================
+Fecha de proceso: 2024-12-27 16:53:38
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   42 | Memoria Kingston USB 4Gb x2 ok
+   46 | Silicone Case A04e Lila ok
+   56 | Silicone Case Moto E32 Lila ok
+   73 | Vidrio Ceramico Redmi 13c ok
+   85 | Consola Game Stick x2 ok
+  110 | Flex Volumen Oppo a54 ok
+  113 | Pacha Moto G7 Power ok
+  115 | Pacha Samsung A15 Incell x2 ok
+  116 | Pacha Samsung A21s s/m ok
