@@ -1,9 +1,19 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     
+    5D A80
+    5D Spark 30 5G
+    5D Spark 30 pro
+    5D Spark 30c
+    Audifonos Bluetooth E7s Negro
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
+    Cable Belkin V8 x8
     Cable TC Ligthning x2
+    Cargador Smart Watch Inalambrico
     Ceramico Camon 18p 
+    Ceramico Mate Samsung A05s
+    Diseños del Vivo Y38 Caballero
+    Diseños del Vivo Y38 Dama
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -34,8 +44,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Redmi 14c
     Forro Space Samsung A16
     Forro Space Samsung A25
+    Forro Space iPhone 13 Mini
     Forros Tabletas Kids
     Intercomunicador Moto
+    Silicone Case A03 Core Rojo
+    Silicone Case A05s Negro Cambio
+    Silicone Case A15 Rosa
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
@@ -48,46 +62,27 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Moto G04 Azul Rey 
     Silicone Case Moto G22 Morado 
     Silicone Case Moto G31 Lila
+    Silicone Case Note 11 Negro
     Silicone Case Realme 7i Lila
     Silicone Case Redmi 14c Amarillo 
+    Silicone Case Redmi 9 Lila
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 12 Negro
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Redmi note 12
     Silicone Case Spark Go 2024 Fucsia 
+    Silicone Case Y15s Palo Rosa
+    Silicone Case Y33s Negro
     Silicone Case Y7a Rojo
     Silicone Case Y9 Prime lila
     Silicone Case iPhone 11 Morado
     Silicone Case iPhone 8 Rojo
-    Simcard Claro x10
-    SmartPhone Moto G04s 
+    Silicone Case iPhone Xs Max Rojo
     Vidrio Smart Watch redondos Grandes
-    Vidrio Templado Spark 30 5G
-    Vidrio Templado Spark 30 pro
-    Vidrio Templado Spark 30c
-    Vidrio Templado oppo A80
-    Cargadores Belkin TC ok
-    Cargador Samsung 45w con Cable ok
-    Forro Space iPhone 13 Mini
-    Forro Space iPhone 8 Plus ok
-    Forro Space moto G72 ok
-    Forro Space Redmi 10 ok
-    Forro Space Redmi 12 ok
-    Silicone Case A03 Core Rojo
-    Silicone Case A05s Negro Cambio
-    Silicone Case A15 Rosa
-    Silicone Case Y15s Palo Rosa
-    Silicone Case Y33s Negro
-    Silicone Case Redmi 9 Lila
-    Silicone Case Note 11 Negro
-    Diseños del Vivo Y38 Dama
-    Diseños del Vivo Y38 Caballero
-    Tortuga Moto G60 ok
-    Tortuga 9t / Mi11 Lite ok
-    Tortuga Samsung A32 ok
-    5d Reame C35 ok
+
 
 JOMA - 107 - THOR - AtrasPr -Memorias
+    Adaptador DVI2VGA
     Cable HDMI 1.5m x2
     Cable USB Sata 3.0
     Cargador doblepunta 12v x2
@@ -95,6 +90,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Control PS3 Blanco
     Control PS4 Rojo
     Cotrol Xbox One
+    Dedales x5
     Dron Sencillo
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
@@ -113,16 +109,17 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     SUP con Control Negro
     SUP con Control Rosa
     Smart Band 7 
-
+    Tablero Magicos Niña x2
+    Tableros Magicos Niño x2
+    Telefono Fijo inalambrico Alcatel
 
 Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
-    Pacha A04e ok
-    Pacha M23 ok
-    Pacha Redmi 9a ok
-    Pines redmi 9a ok
-    Tapa del Redmi 9c ok
-    Visor Camara Poco X3 ok
+    Pacha Oppo Reno 5 Lite
+    Pacha Samsung A04e
+    Pacha Samsung A13
+    Pacha Samsung M23
+    Tapa Samsung A33 Azul Claro
 
 
