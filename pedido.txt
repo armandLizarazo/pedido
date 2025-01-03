@@ -7,10 +7,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth E7s Negro
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cable Belkin V8 x8
+    Cable Belkin V8 x8 ok
     Cable TC Ligthning x2
     Cargador Smart Watch Inalambrico
-    Ceramico Camon 18p 
+    Ceramico Camon 18p ok
     Ceramico Mate Samsung A05s
     Diseños del Vivo Y38 Caballero
     Diseños del Vivo Y38 Dama
@@ -49,7 +49,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Intercomunicador Moto
     Silicone Case A03 Core Rojo
     Silicone Case A05s Negro Cambio
-    Silicone Case A15 Rosa
+    Silicone Case A15 Rosa ok
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
@@ -79,23 +79,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iPhone 8 Rojo
     Silicone Case iPhone Xs Max Rojo
     Vidrio Smart Watch redondos Grandes
-    Silicone Case Vivo Y18 con huella lateral
+    Silicone Case Vivo Y18 con huella lateral ok
     Forro Diseños Vivo Y20s Caballero x3
-    Forro Space A03s x2
-    5D Mi 11t
-    5D Moto G84
-    5D Moto G42
-    5D A52
-    5D Redmi 10
-    5D Note 11
-    5D Note 11 Pro 5G
-    Cable Rooyal V8 2m
-    Cable TC Harvic x2
-    Cargador 45w Cabeza Blanco x2
-    Cargador 25w Cabeza Blanco x2
-    Forro Diseños Redmi A3 Dama
+    Forro Space A03s x2 ok
+    5D Mi 11t ok
+    5D Moto G84 ok
+    5D Moto G42 ok
+    5D A52 ok
+    5D Redmi 10 ok 
+    5D Note 11 
+    5D Note 11 Pro 5G ok
+    Cable Rooyal V8 2m ok
+    Cable TC Harvic x2 ok
+    Cargador 45w Cabeza Negro ok
+    Cargador 25w Cabeza Negro ok
+    Forro Diseños Redmi A3 Dama ok
     Forro Diseños Redmi A3 Caballero
-    5D Moto Edge 30 Neo
 
 
 JOMA - 107 - THOR - AtrasPr -Memorias
@@ -156,19 +155,19 @@ Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha Oppo Reno 5 Lite
-    Pacha Samsung A04e
+    Pacha Samsung A04e ok
     Pacha Samsung A13
     Pacha Samsung M23
     Tapa Samsung A33 Azul Claro
-    Bateria A22 4G
+    Bateria A22 4G ok
     Logica de carga Samsung A15
     Pacha A30 s/m
     Pacha Moto e20
     Bandeja sim P30 Lite
     Pacha A02s / A03s / A04e x2
-    Pacha Redmi 10 x3
-    Pacha Redmi 10c
-    Pacha Redmi 9a c/m
+    Pacha Redmi 10 x3 
+    Pacha Redmi 10c ok
+    Pacha Redmi 9a c/m ok
     Pacha Infinix Hot 30
     Tapa A32 Azul
 
