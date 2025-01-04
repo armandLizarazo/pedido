@@ -1,19 +1,19 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    5D Moto Edge 30 Neo    
+    5D Moto Edge 30 Neo ok
     5D A80
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Audifonos Bluetooth E7s Negro
+    Audifonos Bluetooth E7s Negro ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
     Cable Belkin V8 x8 ok
-    Cable TC Ligthning x2
-    Cargador Smart Watch Inalambrico
+    Cable TC Ligthning x2 ok
+    Cargador Smart Watch Inalambrico ok
     Ceramico Camon 18p ok
     Ceramico Mate Samsung A05s
-    Diseños del Vivo Y38 Caballero
-    Diseños del Vivo Y38 Dama
+    Forro Diseños del Vivo Y38 Caballero
+    Forro Diseños del Vivo Y38 Dama
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -46,15 +46,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Samsung A25
     Forro Space iPhone 13 Mini
     Forros Tabletas Kids
-    Intercomunicador Moto
+    Intercomunicador Moto ok
     Silicone Case A03 Core Rojo
     Silicone Case A05s Negro Cambio
     Silicone Case A15 Rosa ok
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
-    Silicone Case AzulRey
-    Silicone Case Ipphone 11 Pro
+    Silicone Case iPhone 11 Pro
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
@@ -69,7 +68,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 12 Negro
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi note 12
+    Silicone Case Redmi note 12 Fucsia
     Silicone Case Spark Go 2024 Fucsia 
     Silicone Case Y15s Palo Rosa
     Silicone Case Y33s Negro
@@ -87,7 +86,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Moto G42 ok
     5D A52 ok
     5D Redmi 10 ok 
-    5D Note 11 
+    5D Note 11 ok
     5D Note 11 Pro 5G ok
     Cable Rooyal V8 2m ok
     Cable TC Harvic x2 ok
@@ -110,8 +109,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Dron Sencillo
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
-    Memoria Pop
-    Memoria Rap Español
+    Memoria Pop ok
+    Memoria Rap Español ok
     Memoria Rap Ingles
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
@@ -138,7 +137,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Control Gamer PS4 Blanco
     Ontrol Gamer PS3 Diseños
     Control Gamer Ps3 Rojo
-    Memorias Plancha
+    Memorias Plancha ok
     Mouse Ergonomico inalambrico
     Parlantes PC tipo Teatro
     Caja Pilas AA 
@@ -154,21 +153,21 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
-    Pacha Oppo Reno 5 Lite
+    Pacha Oppo Reno 5 Lite ok
     Pacha Samsung A04e ok
-    Pacha Samsung A13
+    Pacha Samsung A13 ok
     Pacha Samsung M23
-    Tapa Samsung A33 Azul Claro
+    Tapa Samsung A33 Azul Claro ok
     Bateria A22 4G ok
-    Logica de carga Samsung A15
+    Logica de carga Samsung A15 ok
     Pacha A30 s/m
-    Pacha Moto e20
-    Bandeja sim P30 Lite
-    Pacha A02s / A03s / A04e x2
-    Pacha Redmi 10 x3 
+    Pacha Moto e20 ok
+    Bandeja sim P30 Lite ok
+    Pacha A02s / A03s / A04e x2 ok
+    Pacha Redmi 10 x2 ok
     Pacha Redmi 10c ok
     Pacha Redmi 9a c/m ok
     Pacha Infinix Hot 30
-    Tapa A32 Azul
+    Tapa A32 Azul ok
 
 
