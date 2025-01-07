@@ -159,10 +159,10 @@ Julian
     Pacha A04e x2
     Pacha A05s x2 ok
     Pacha A30 s/m 
-    Pacha A32 c/m
+    Pacha A32 c/m ok
     Pacha A32 s/m ok
     Pacha Note 9 x2 ok
-    Pacha Nova Y61
+    Pacha Nova Y61 ok
     Pacha Redmi 9 ok
     Pacha Moto One ok
     Bacover Moto One ok
