@@ -501,3 +501,50 @@ Línea  | Contenido
   124 | Pines redmi 9a ok
   125 | Tapa del Redmi 9c ok
   126 | Visor Camara Poco X3 ok
+
+==================================================
+Fecha de proceso: 2025-01-06 16:48:27
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 38
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | 5D Moto Edge 30 Neo ok
+    7 | Audifonos Bluetooth E7s Negro ok
+   10 | Cable Belkin V8 x8 ok
+   11 | Cable TC Ligthning x2 ok
+   12 | Cargador Smart Watch Inalambrico ok
+   13 | Ceramico Camon 18p ok
+   49 | Intercomunicador Moto ok
+   52 | Silicone Case A15 Rosa ok
+   81 | Silicone Case Vivo Y18 con huella lateral ok
+   83 | Forro Space A03s x2 ok
+   84 | 5D Mi 11t ok
+   85 | 5D Moto G84 ok
+   86 | 5D Moto G42 ok
+   87 | 5D A52 ok
+   88 | 5D Redmi 10 ok
+   89 | 5D Note 11 ok
+   90 | 5D Note 11 Pro 5G ok
+   91 | Cable Rooyal V8 2m ok
+   92 | Cable TC Harvic x2 ok
+   93 | Cargador 45w Cabeza Negro ok
+   94 | Cargador 25w Cabeza Negro ok
+   95 | Forro Diseños Redmi A3 Dama ok
+  112 | Memoria Pop ok
+  113 | Memoria Rap Español ok
+  140 | Memorias Plancha ok
+  156 | Pacha Oppo Reno 5 Lite ok
+  157 | Pacha Samsung A04e ok
+  158 | Pacha Samsung A13 ok
+  160 | Tapa Samsung A33 Azul Claro ok
+  161 | Bateria A22 4G ok
+  162 | Logica de carga Samsung A15 ok
+  164 | Pacha Moto e20 ok
+  165 | Bandeja sim P30 Lite ok
+  166 | Pacha A02s / A03s / A04e x2 ok
+  167 | Pacha Redmi 10 x2 ok
+  168 | Pacha Redmi 10c ok
+  169 | Pacha Redmi 9a c/m ok
+  171 | Tapa A32 Azul ok
