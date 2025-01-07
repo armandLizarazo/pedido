@@ -1,16 +1,16 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    5D A20
-    5D A31
-    5D A80
+    5D A20 ok
+    5D A31 ok
+    5D A80 
     5D Mi 11t x5
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Audifonos Bluetooth E7s Rosa
+    Audifonos Bluetooth E7s Rosa ok de
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
     Blindado Redmi Note 13 Pro 4G
-    Caragadores Belkin TC x3
+    Caragadores Belkin TC x3 ok
     Ceramico Mate Samsung A05s
     Ceramico iPhone 11 x10
     Forro Armadura A32 Rojo
@@ -44,11 +44,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space A36
     Forro Space Camon 18 
     Forro Space Honor X7a
-    Forro Space Iphone 13 mini
+    Forro Space Iphone 13 mini ok
     Forro Space Mi11t verificar
     Forro Space Moto Edge 50 Fusion
     Forro Space Moto G04
-    Forro Space Oppo A38
+    Forro Space Oppo A38 ok
     Forro Space Oppo A80
     Forro Space Redmi 14c
     Forro Space Samsung A16
@@ -73,7 +73,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Rojo
     Silicone Case Moto G04 Azul Rey 
     Silicone Case Moto G22 Morado 
-    Silicone Case Moto G22 Negro
+    Silicone Case Moto G22 Negro ok
     Silicone Case Moto G31 Lila
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro
@@ -82,7 +82,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi 14c Amarillo 
     Silicone Case Redmi 9 Lila
     Silicone Case Redmi Note 11 Negro 
-    Silicone Case Redmi Note 12 Negro
+    Silicone Case Redmi Note 12 Negro ok
     Silicone Case Redmi Note 13 Pro 4G Negro
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Redmi note 12 Fucsia
@@ -90,14 +90,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Samsung A20 Morado
     Silicone Case Spark Go 2024 Fucsia 
     Silicone Case Y15s Palo Rosa
-    Silicone Case Y33s Negro
+    Silicone Case Y33s Negro ok
     Silicone Case Y7a Rojo
     Silicone Case Y9 Prime lila
     Silicone Case iPhone 11 Morado
     Silicone Case iPhone 11 Pro
     Silicone Case iPhone 8 Rojo
     Silicone Case iPhone Xs Max Rojo
-    Viddrio Antiespia Note 10 Pro
+    Vidrio Antiespia Note 10 Pro
     Vidrio Antiespia Moto G60s
     Vidrio Blindado Camon 20 pro
     Vidrio Smart Watch redondos Grandes
