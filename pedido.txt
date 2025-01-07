@@ -157,13 +157,15 @@ Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha A04e x2
-    Pacha A05s x2
-    Pacha A30 s/m
+    Pacha A05s x2 ok
+    Pacha A30 s/m 
     Pacha A32 c/m
-    Pacha A32 s/m
-    Pacha Note 9 x2
+    Pacha A32 s/m ok
+    Pacha Note 9 x2 ok
     Pacha Nova Y61
-    Pacha Redmi 9
+    Pacha Redmi 9 ok
+    Pacha Moto One ok
+    Bacover Moto One ok
     Pacha Samsung M23
 
 
