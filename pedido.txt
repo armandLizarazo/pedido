@@ -24,18 +24,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Moto G85 Caballero
     Forro Diseños Moto G85 Dama
     Forro Diseños Oppo A80
-    Forro Diseños Redmi A3 Caballero
-    Forro Diseños Redmi Note 13 5G Dama 
-    Forro Diseños Redmi Note 13 Pro Caballero
+    Forro Diseños Redmi A3 Caballero ok
+    Forro Diseños Redmi Note 13 5G Dama ok
+    Forro Diseños Redmi Note 13 Pro Caballero ok
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
     Forro Diseños V25e Caballero 
     Forro Diseños Vivo Y20s Caballero x3
-    Forro Diseños Y33s Caballero x3
+    Forro Diseños Y33s Caballero x3 ok
     Forro Diseños Y33s Dama x2
     Forro Diseños Y7a Dama
-    Forro Diseños del Vivo Y38 Caballero
-    Forro Diseños del Vivo Y38 Dama
+    Forro Diseños del Vivo Y38 Caballero ok
+    Forro Diseños del Vivo Y38 Dama ok
     Forro Disñeos A36 Caballero
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
@@ -43,20 +43,20 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Pines A13 x2
     Forro Space A36
     Forro Space Camon 18 
-    Forro Space Honor X7a
+    Forro Space Honor X7a ok
     Forro Space Iphone 13 mini ok
     Forro Space Mi11t verificar
     Forro Space Moto Edge 50 Fusion
-    Forro Space Moto G04
+    Forro Space Moto G04 ok
     Forro Space Oppo A38 ok
     Forro Space Oppo A80
     Forro Space Redmi 14c
     Forro Space Samsung A16
-    Forro Space Samsung A25
+    Forro Space Samsung A25 ok
     Forro Space Spark 8c x2
     Forro Space iPhone 12 Mini
-    Forro Space iPhone 13 Mini
-    Forro Space iPhone X
+    Forro Space iPhone 13 Mini ok
+    Forro Space iPhone X 
     Forros Tabletas Kids
     Pilas Recargables Sony AA Solas
     Pilas Recargables Sony AA con Cargador x2
@@ -71,35 +71,35 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
-    Silicone Case Moto G04 Azul Rey 
+    Silicone Case Moto G04 Azul Reyok
     Silicone Case Moto G22 Morado 
     Silicone Case Moto G22 Negro ok
     Silicone Case Moto G31 Lila
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro
-    Silicone Case Oppo A17 No Rojo
+    Silicone Case Oppo A17 ok
     Silicone Case Realme 7i Lila
     Silicone Case Redmi 14c Amarillo 
-    Silicone Case Redmi 9 Lila
+    Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 12 Negro ok
-    Silicone Case Redmi Note 13 Pro 4G Negro
+    Silicone Case Redmi Note 13 Pro 4G Negro ok
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi note 12 Fucsia
-    Silicone Case Samsung A20 Fucsia
-    Silicone Case Samsung A20 Morado
-    Silicone Case Spark Go 2024 Fucsia 
+    Silicone Case Redmi note 12 Fucsia ok
+    Silicone Case Samsung A20 Fucsia ok
+    Silicone Case Samsung A20 Morado ok
+    Silicone Case Spark Go 2024 Fucsia ok
     Silicone Case Y15s Palo Rosa
     Silicone Case Y33s Negro ok
     Silicone Case Y7a Rojo
     Silicone Case Y9 Prime lila
-    Silicone Case iPhone 11 Morado
+    Silicone Case iPhone 11 Morado ok
     Silicone Case iPhone 11 Pro
-    Silicone Case iPhone 8 Rojo
-    Silicone Case iPhone Xs Max Rojo
-    Vidrio Antiespia Note 10 Pro
-    Vidrio Antiespia Moto G60s
-    Vidrio Blindado Camon 20 pro
+    Silicone Case iPhone 8 Rojo ok
+    Silicone Case iPhone Xs Max Rojo 
+    Vidrio Antiespia Note 10 Pro ok
+    Vidrio Antiespia Moto G60s ok
+    Vidrio Blindado Camon 20 pro ok
     Vidrio Smart Watch redondos Grandes
 
 JOMA - 107 - THOR - AtrasPr -Memorias
