@@ -1,4 +1,4 @@
-Yoyos Caracas - TYD - Ovidio - Fly
+kYoyos Caracas - TYD - Ovidio - Fly
     5D A20 ok
     5D A31 ok
     5D A80 
@@ -105,22 +105,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Amazon Fire Stick con Control
-    Cable HDMI 1.5m x2
+    Cable HDMI 1.5m x2 ok
     Cable USB Sata 3.0
-    Caja Pilas AA 
-    Cargador PC Asus
+    Caja Pilas AA ok
+    Cargador PC Asus ok
     Cargador doblepunta 12v x2
     Combo Aguacate Rizador
     Combo Smart watch con Audifonos
     Comobo Keratina Rizador
     Conectores RJ45
-    Consola Mini Ness
-    Control Gamer PS4 Blanco
-    Control Gamer Ps3 Rojo
+    Consola Mini Ness ok
+    Control Gamer PS4 Blanco ok
+    Control Gamer Ps3 Rojo ok
     Control Gamer Ps4 Azul Rey
     Control PC/360
-    Control PS3 Blanco
-    Control PS4 Rojo
+    Control PS3 Blanco 
+    Control PS4 Rojo ok
     Cotrol Xbox One
     Dedales x5
     Dron Sencillo
@@ -129,13 +129,13 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Rap Ingles
-    Mouse Ergonomico inalambrico
+    Mouse Ergonomico inalambrico ok
     Ontrol Gamer PS3 Diseños
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
     Parlante JOC
-    Parlantes PC tipo Teatro
-    Pila CR2016 x10
+    Parlantes PC tipo Teatro ok
+    Pila CR2016 x10 ok
     Pilas Recargables Beston AA4 con cargador
     Plancha Aguacate Combo Cepillo
     Plancha Aguacate Combo Rizador
@@ -144,14 +144,14 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Proyector P40 Juegos
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
-    SUP con Control Rosa
+    SUP con Control Rosa ok
     Smart Band 7 
     Soporte monitor Mesa
     Split 2 Hembras
     Tablero Magicos Niña x2
     Tableros Magicos Niño x2
-    Telefono Fijo inalambrico Alcatel
-    Tira Pilas AA Panasnic
+    Telefono Fijo inalambrico Alcatel ok
+    Tira Pilas AA Panasnic ok
 
 Julian
     Logica Samsung A03 Core 
