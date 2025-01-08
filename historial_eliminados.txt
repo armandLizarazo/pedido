@@ -548,3 +548,74 @@ Línea  | Contenido
   168 | Pacha Redmi 10c ok
   169 | Pacha Redmi 9a c/m ok
   171 | Tapa A32 Azul ok
+
+==================================================
+Fecha de proceso: 2025-01-07 20:44:12
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-01-07 20:47:15
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-01-07 20:53:47
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 50
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | 5D A20 ok
+    3 | 5D A31 ok
+   11 | Caragadores Belkin TC x3 ok
+   25 | Forro Diseños Redmi A3 Caballero ok
+   26 | Forro Diseños Redmi Note 13 5G Dama ok
+   27 | Forro Diseños Redmi Note 13 Pro Caballero ok
+   32 | Forro Diseños Y33s Caballero x3 ok
+   35 | Forro Diseños del Vivo Y38 Caballero ok
+   36 | Forro Diseños del Vivo Y38 Dama ok
+   44 | Forro Space Honor X7a ok
+   45 | Forro Space Iphone 13 mini ok
+   48 | Forro Space Moto G04 ok
+   49 | Forro Space Oppo A38 ok
+   53 | Forro Space Samsung A25 ok
+   56 | Forro Space iPhone 13 Mini ok
+   74 | Silicone Case Moto G22 Negro ok
+   78 | Silicone Case Oppo A17 ok
+   83 | Silicone Case Redmi Note 12 Negro ok
+   84 | Silicone Case Redmi Note 13 Pro 4G Negro ok
+   86 | Silicone Case Redmi note 12 Fucsia ok
+   87 | Silicone Case Samsung A20 Fucsia ok
+   88 | Silicone Case Samsung A20 Morado ok
+   89 | Silicone Case Spark Go 2024 Fucsia ok
+   91 | Silicone Case Y33s Negro ok
+   94 | Silicone Case iPhone 11 Morado ok
+   96 | Silicone Case iPhone 8 Rojo ok
+   98 | Vidrio Antiespia Note 10 Pro ok
+   99 | Vidrio Antiespia Moto G60s ok
+  100 | Vidrio Blindado Camon 20 pro ok
+  106 | Cable HDMI 1.5m x2 ok
+  108 | Caja Pilas AA ok
+  109 | Cargador PC Asus ok
+  115 | Consola Mini Ness ok
+  116 | Control Gamer PS4 Blanco ok
+  117 | Control Gamer Ps3 Rojo ok
+  121 | Control PS4 Rojo ok
+  130 | Mouse Ergonomico inalambrico ok
+  135 | Parlantes PC tipo Teatro ok
+  136 | Pila CR2016 x10 ok
+  145 | SUP con Control Rosa ok
+  151 | Telefono Fijo inalambrico Alcatel ok
+  152 | Tira Pilas AA Panasnic ok
+  158 | Pacha A05s x2 ok
+  160 | Pacha A32 c/m ok
+  161 | Pacha A32 s/m ok
+  162 | Pacha Note 9 x2 ok
+  163 | Pacha Nova Y61 ok
+  164 | Pacha Redmi 9 ok
+  165 | Pacha Moto One ok
+  166 | Bacover Moto One ok

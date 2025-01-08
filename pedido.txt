@@ -1,18 +1,12 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    5D A20 ok
-    5D A31 ok
     5D A80 
     5D Mi 11t x5
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Audifonos Bluetooth E7s Rosa ok de
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Blindado Redmi Note 13 Pro 4G
-    Caragadores Belkin TC x3 ok
     Ceramico Mate Samsung A05s
-    Ceramico iPhone 11 x10
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -24,18 +18,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Moto G85 Caballero
     Forro Diseños Moto G85 Dama
     Forro Diseños Oppo A80
-    Forro Diseños Redmi A3 Caballero ok
-    Forro Diseños Redmi Note 13 5G Dama ok
-    Forro Diseños Redmi Note 13 Pro Caballero ok
     Forro Diseños Samsung A06 Dama 
     Forro Diseños Samsung A15 Caballero x3
     Forro Diseños V25e Caballero 
     Forro Diseños Vivo Y20s Caballero x3
-    Forro Diseños Y33s Caballero x3 ok
     Forro Diseños Y33s Dama x2
     Forro Diseños Y7a Dama
-    Forro Diseños del Vivo Y38 Caballero ok
-    Forro Diseños del Vivo Y38 Dama ok
     Forro Disñeos A36 Caballero
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
@@ -43,19 +31,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Pines A13 x2
     Forro Space A36
     Forro Space Camon 18 
-    Forro Space Honor X7a ok
-    Forro Space Iphone 13 mini ok
     Forro Space Mi11t verificar
     Forro Space Moto Edge 50 Fusion
-    Forro Space Moto G04 ok
-    Forro Space Oppo A38 ok
     Forro Space Oppo A80
     Forro Space Redmi 14c
     Forro Space Samsung A16
-    Forro Space Samsung A25 ok
     Forro Space Spark 8c x2
     Forro Space iPhone 12 Mini
-    Forro Space iPhone 13 Mini ok
     Forro Space iPhone X 
     Forros Tabletas Kids
     Pilas Recargables Sony AA Solas
@@ -73,54 +55,49 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Rojo
     Silicone Case Moto G04 Azul Reyok
     Silicone Case Moto G22 Morado 
-    Silicone Case Moto G22 Negro ok
     Silicone Case Moto G31 Lila
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro
-    Silicone Case Oppo A17 ok
     Silicone Case Realme 7i Lila
     Silicone Case Redmi 14c Amarillo 
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
-    Silicone Case Redmi Note 12 Negro ok
-    Silicone Case Redmi Note 13 Pro 4G Negro ok
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi note 12 Fucsia ok
-    Silicone Case Samsung A20 Fucsia ok
-    Silicone Case Samsung A20 Morado ok
-    Silicone Case Spark Go 2024 Fucsia ok
     Silicone Case Y15s Palo Rosa
-    Silicone Case Y33s Negro ok
     Silicone Case Y7a Rojo
     Silicone Case Y9 Prime lila
-    Silicone Case iPhone 11 Morado ok
     Silicone Case iPhone 11 Pro
-    Silicone Case iPhone 8 Rojo ok
     Silicone Case iPhone Xs Max Rojo 
-    Vidrio Antiespia Note 10 Pro ok
-    Vidrio Antiespia Moto G60s ok
-    Vidrio Blindado Camon 20 pro ok
     Vidrio Smart Watch redondos Grandes
+    Tortuga Moto G84
+    Tortuga Moto G24
+    Tortuga Moto G72
+    Tortuga Moto G54
+    Tortuga Moto G53
+    Tortuga Redmi 14c
+    Tortuga Redmi note 13 Pro 4G
+    Tortuga Redmi 13
+    Tortuga Samdung A14
+    Tortuga Samsung A35
+    Tortuga Samsung A34
+    Cargador Apple 25w Cabeza
+    Silicone Case iphone 15 Fucsia
+    Silicone Case Realme C53 Salmon
+    5D Realme C53
+    5D Oppo A38
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Amazon Fire Stick con Control
-    Cable HDMI 1.5m x2 ok
     Cable USB Sata 3.0
-    Caja Pilas AA ok
-    Cargador PC Asus ok
     Cargador doblepunta 12v x2
     Combo Aguacate Rizador
     Combo Smart watch con Audifonos
     Comobo Keratina Rizador
     Conectores RJ45
-    Consola Mini Ness ok
-    Control Gamer PS4 Blanco ok
-    Control Gamer Ps3 Rojo ok
     Control Gamer Ps4 Azul Rey
     Control PC/360
     Control PS3 Blanco 
-    Control PS4 Rojo ok
     Cotrol Xbox One
     Dedales x5
     Dron Sencillo
@@ -129,13 +106,10 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Memoria Rap Ingles
-    Mouse Ergonomico inalambrico ok
     Ontrol Gamer PS3 Diseños
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
     Parlante JOC
-    Parlantes PC tipo Teatro ok
-    Pila CR2016 x10 ok
     Pilas Recargables Beston AA4 con cargador
     Plancha Aguacate Combo Cepillo
     Plancha Aguacate Combo Rizador
@@ -144,28 +118,20 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Proyector P40 Juegos
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
-    SUP con Control Rosa ok
     Smart Band 7 
     Soporte monitor Mesa
     Split 2 Hembras
     Tablero Magicos Niña x2
     Tableros Magicos Niño x2
-    Telefono Fijo inalambrico Alcatel ok
-    Tira Pilas AA Panasnic ok
+    Cargador Asus 237 x2
+    Soporte Para Control PS4
 
 Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
-    Pacha A04e x2
-    Pacha A05s x2 ok
-    Pacha A30 s/m 
-    Pacha A32 c/m ok
-    Pacha A32 s/m ok
-    Pacha Note 9 x2 ok
-    Pacha Nova Y61 ok
-    Pacha Redmi 9 ok
-    Pacha Moto One ok
-    Bacover Moto One ok
+    Pacha A04e 
+    Pacha TCL 40SE
+    Pacha Moto G20
     Pacha Samsung M23
 
 
