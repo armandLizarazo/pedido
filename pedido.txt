@@ -70,19 +70,19 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iPhone Xs Max Rojo 
     Vidrio Smart Watch redondos Grandes
     Tortuga Moto G84
-    Tortuga Moto G24
-    Tortuga Moto G72
-    Tortuga Moto G54
+    Tortuga Moto G24 ok
+    Tortuga Moto G72 
+    Tortuga Moto G54 ok
     Tortuga Moto G53
     Tortuga Redmi 14c
-    Tortuga Redmi note 13 Pro 4G
-    Tortuga Redmi 13
-    Tortuga Samdung A14
-    Tortuga Samsung A35
-    Tortuga Samsung A34
-    Cargador Apple 25w Cabeza
+    Tortuga Redmi note 13 Pro 4G 
+    Tortuga Redmi 13 
+    Tortuga Samdung A14 ok
+    Tortuga Samsung A35 
+    Tortuga Samsung A34 ok
+    Cargador Apple 25w Cabeza ok
     Silicone Case iphone 15 Fucsia
-    Silicone Case Realme C53 Salmon
+    Silicone Case Realme C53 Salmon ok
     5D Realme C53
     5D Oppo A38
 
@@ -109,7 +109,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Ontrol Gamer PS3 Diseños
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
-    Parlante JOC
+    Parlante JOC ok
     Pilas Recargables Beston AA4 con cargador
     Plancha Aguacate Combo Cepillo
     Plancha Aguacate Combo Rizador
@@ -130,8 +130,9 @@ Julian
     Logica Samsung A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha A04e 
-    Pacha TCL 40SE
-    Pacha Moto G20
+    Tapa Galaxy Note 10 Plus Ok
+    Pacha TCL 40SE ok
+    Pacha Moto G20 ok
     Pacha Samsung M23
 
 
