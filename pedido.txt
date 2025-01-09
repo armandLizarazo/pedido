@@ -96,8 +96,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Amazon Fire Stick con Control
     Aro de Luz 26cm Ligth x28
     Aro de Luz 26cm RGB x3
-    Cable USB Sata 3.0
-    Cargador Asus 237 x2
+    Cable USB Sata 3.0 ok
+    Cargador Asus 237 x2 ok
     Cargador Doble Punta 12v x2
     Conectores RJ45
     Control PS3 Blanco 
