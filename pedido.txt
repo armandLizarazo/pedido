@@ -1,6 +1,6 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     5D A80 
-    5D Honor X6s
+    5D Honor X6s ok
     5D Honor X8a
     5D Mi 11t x5
     5D Oppo A38
@@ -8,15 +8,15 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Antiespia X6s
-    Antiespia X8a
+    Antiespia X6s ok
+    Antiespia X8a ok
     Audifonos Bluetooth Harvick Blanco ok
     Audifonos Bluetooth Harvick Negro ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Blindado Honor X6s
+    Blindado Honor X6s ok
     Blindado Honor X8a ok
-    Ceramico Mate A05s
+    Ceramico Mate A05s ok
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -56,9 +56,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case A03 Core Rojo
     Silicone Case A05s Negro Cambio ok
     Silicone Case A14 Fucsia
-    Silicone Case A14 VerdeMilitar
-    Silicone Case A32 4G Negro
-    Silicone Case A35 Amarillo 
+    Silicone Case A14 VerdeMilitar ok
+    Silicone Case A32 4G Negro ok
+    Silicone Case A35 Amarillo ok
     Silicone Case A36
     Silicone Case Camon 30_solo ok
     Silicone Case M13 Verde
@@ -67,20 +67,20 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Rojo
     Silicone Case Mi11t Negro
     Silicone Case Moto G04 Azul Rey ok
-    Silicone Case Moto G22 Morado 
-    Silicone Case Moto G31 Lila
+    Silicone Case Moto G22 Morado ok
+    Silicone Case Moto G31 Lila ok
     Silicone Case Moto G8 plus Negro
-    Silicone Case Note 11 Negro
-    Silicone Case Realme 7i Lila
-    Silicone Case Redmi 14c Amarillo 
+    Silicone Case Note 11 Negro 
+    Silicone Case Realme 7i Lila 
+    Silicone Case Redmi 14c Amarillo ok
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Y15s Palo Rosa
-    Silicone Case Y7a Rojo
-    Silicone Case Y9 Prime lila
+    Silicone Case Y7a Rojo 
+    Silicone Case Y9 Prime lila ok
     Silicone Case iPhone 11 Pro
-    Silicone Case iPhone Xs Max Rojo 
+    Silicone Case iPhone Xs Max Rojo ok
     Tortuga A35 
     Tortuga Honor X6s
     Tortuga Moto G53
@@ -131,8 +131,8 @@ Julian
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha A04e 
-    Pacha Honor X6s
-    Pacha Redmi 12
+    Pacha Honor X6s x2 ok
+    Pacha Redmi 12 ok
     Pacha Samsung M23
 
 
