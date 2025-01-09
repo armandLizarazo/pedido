@@ -111,7 +111,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Memoria Rap Ingles x2
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
-    Plancha Aguacate Combo Cepillo
+    Plancha Aguacate Combo Cepillo ok
     Plancha Aguacate Combo Rizador
     Plancha Babyliss Combo
     Popit Ardilla
@@ -123,7 +123,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Soporte Monitor Mesa
     Soporte Para Control PS4
     Split 2 Hembras
-    Tablero Magicos Niña x2
+    Tablero Magicos Niña x2 ok
     Tableros Magicos Niño x2 no astronauta
 
 
