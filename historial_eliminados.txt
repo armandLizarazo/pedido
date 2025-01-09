@@ -619,3 +619,21 @@ Línea  | Contenido
   164 | Pacha Redmi 9 ok
   165 | Pacha Moto One ok
   166 | Bacover Moto One ok
+
+==================================================
+Fecha de proceso: 2025-01-08 19:53:16
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   73 | Tortuga Moto G24 ok
+   75 | Tortuga Moto G54 ok
+   80 | Tortuga Samdung A14 ok
+   82 | Tortuga Samsung A34 ok
+   83 | Cargador Apple 25w Cabeza ok
+   85 | Silicone Case Realme C53 Salmon ok
+  112 | Parlante JOC ok
+  134 | Pacha TCL 40SE ok
+  135 | Pacha Moto G20 ok
