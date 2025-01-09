@@ -10,8 +10,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30c
     Antiespia X6s
     Antiespia X8a
-    Audifonos Bluetooth Harvick Blanco
-    Audifonos Bluetooth Harvick Negro
+    Audifonos Bluetooth Harvick Blanco ok
+    Audifonos Bluetooth Harvick Negro ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
     Blindado Honor X6s
@@ -25,8 +25,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños A06 Dama 
     Forro Diseños A15 Caballero x3
     Forro Diseños A36 Caballero
-    Forro Diseños Camon 30_Solo Caballero
-    Forro Diseños Camon 30_Solo Dama
+    Forro Diseños Camon 30_Solo Caballero ok
+    Forro Diseños Camon 30_Solo Dama ok
     Forro Diseños Moto G24 Dama
     Forro Diseños Oppo A80
     Forro Diseños V25e Caballero 
@@ -36,37 +36,37 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
     Forro Pin Redmi Note 13 Pro 4G
-    Forro Pines A13 x2
+    Forro Pines A13 x2 ok
     Forro Space A16 x2
     Forro Space A36
     Forro Space Camon 18 
-    Forro Space Camon 30_Solo x2
+    Forro Space Camon 30_Solo x2 ok
     Forro Space Moto Edge 50 Fusion
     Forro Space Oppo A80
     Forro Space Oppo Reno 12F
-    Forro Space Redmi 12 x2
-    Forro Space Redmi 14c x2
+    Forro Space Redmi 12 x2 ok
+    Forro Space Redmi 14c x2 
     Forro Space Spark 8c x2
     Forro Space Vivo V38 x2
     Forro Space iPhone 12 Mini
-    Forro Space iPhone 12 x2
-    Forro Space iPhone X 
+    Forro Space iPhone 12 x2 ok
+    Forro Space iPhone X ok
     Forros Tabletas Kids
-    Manos Libres Akg x5
+    Manos Libres Akg x5 ok
     Silicone Case A03 Core Rojo
-    Silicone Case A05s Negro Cambio
+    Silicone Case A05s Negro Cambio ok
     Silicone Case A14 Fucsia
     Silicone Case A14 VerdeMilitar
     Silicone Case A32 4G Negro
     Silicone Case A35 Amarillo 
     Silicone Case A36
-    Silicone Case Camon 30_solo
+    Silicone Case Camon 30_solo ok
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
     Silicone Case Mi11t Negro
-    Silicone Case Moto G04 Azul Reyok
+    Silicone Case Moto G04 Azul Rey ok
     Silicone Case Moto G22 Morado 
     Silicone Case Moto G31 Lila
     Silicone Case Moto G8 plus Negro
