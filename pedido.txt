@@ -70,16 +70,17 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
-    Aro de Luz Joma 26cm RGB x3
+    Aro de Luz Joma 26cm RGB x3 ok
     Camara WEb eco
+    Camara web 1080 ok
     Cargador 12v doble punta
-    Cargador Doble Punta 12v x2
+    Cargador Doble Punta 12v x2 ok
     Conectores RJ45
     Control PS3 Blanco 
     Cotrol Xbox One
     Dron Sencillo
-    Garantia Dispensador ALG
-    Garantia Smart watch eco VPG
+    Garantia Dispensador ALG ok
+    Garantia Smart watch eco VPG ok
     Gatillo G21
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
@@ -89,16 +90,16 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Plancha Babyliss Combo
     Popit Ardilla
     Proyector P40 Juegos
-    Radios Baofeng x2
+    Radios Baofeng x2 ok
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
     Smart Band 7 
-    Soporte Escritorio Metalico
+    Soporte Escritorio Metalico ok
     Soporte Monitor Mesa
     Soporte Para Control PS4
-    Soporte TV 55 Brazo
-    Split 2 Hembras
-    Tableros Magicos Niño x2 no astronauta
+    Soporte TV 55 Brazo x3 ok
+    Split 2 Hembras 
+    Tableros Magicos Niño x2 no astronauta ok
 
 
 Julian
