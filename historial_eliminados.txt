@@ -637,3 +637,55 @@ Línea  | Contenido
   112 | Parlante JOC ok
   134 | Pacha TCL 40SE ok
   135 | Pacha Moto G20 ok
+
+==================================================
+Fecha de proceso: 2025-01-10 12:15:38
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 37
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | 5D Honor X6s ok
+   11 | Antiespia X6s ok
+   12 | Antiespia X8a ok
+   13 | Audifonos Bluetooth Harvick Blanco ok
+   14 | Audifonos Bluetooth Harvick Negro ok
+   17 | Blindado Honor X6s ok
+   18 | Blindado Honor X8a ok
+   19 | Ceramico Mate A05s ok
+   28 | Forro Diseños Camon 30_Solo Caballero ok
+   29 | Forro Diseños Camon 30_Solo Dama ok
+   39 | Forro Pines A13 x2 ok
+   43 | Forro Space Camon 30_Solo x2 ok
+   47 | Forro Space Redmi 12 x2 ok
+   52 | Forro Space iPhone 12 x2 ok
+   53 | Forro Space iPhone X ok
+   55 | Manos Libres Akg x5 ok
+   57 | Silicone Case A05s Negro Cambio ok
+   59 | Silicone Case A14 VerdeMilitar ok
+   60 | Silicone Case A32 4G Negro ok
+   61 | Silicone Case A35 Amarillo ok
+   63 | Silicone Case Camon 30_solo ok
+   69 | Silicone Case Moto G04 Azul Rey ok
+   70 | Silicone Case Moto G22 Morado ok
+   71 | Silicone Case Moto G31 Lila ok
+   75 | Silicone Case Redmi 14c Amarillo ok
+   81 | Silicone Case Y9 Prime lila ok
+   83 | Silicone Case iPhone Xs Max Rojo ok
+   96 | Amazon Fire Stick con Control ok
+   99 | Cable USB Sata 3.0 ok
+  100 | Cargador Asus 237 x2 ok
+  107 | Garantia Game Stick ok
+  110 | Memoria Cristiana x3 ok
+  111 | Memoria Rap Ingles x2 ok
+  114 | Plancha Aguacate Combo Cepillo ok
+  126 | Tablero Magicos Niña x2 ok
+  134 | Pacha Honor X6s x2 ok
+  135 | Pacha Redmi 12 ok
+
+==================================================
+Fecha de proceso: 2025-01-10 22:46:03
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+

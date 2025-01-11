@@ -1,6 +1,5 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     5D A80 
-    5D Honor X6s ok
     5D Honor X8a
     5D Mi 11t x5
     5D Oppo A38
@@ -8,15 +7,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Antiespia X6s ok
-    Antiespia X8a ok
-    Audifonos Bluetooth Harvick Blanco ok
-    Audifonos Bluetooth Harvick Negro ok
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Blindado Honor X6s ok
-    Blindado Honor X8a ok
-    Ceramico Mate A05s ok
+    Cargador Huawei TC x2
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -25,8 +18,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños A06 Dama 
     Forro Diseños A15 Caballero x3
     Forro Diseños A36 Caballero
-    Forro Diseños Camon 30_Solo Caballero ok
-    Forro Diseños Camon 30_Solo Dama ok
     Forro Diseños Moto G24 Dama
     Forro Diseños Oppo A80
     Forro Diseños V25e Caballero 
@@ -36,51 +27,35 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
     Forro Pin Redmi Note 13 Pro 4G
-    Forro Pines A13 x2 ok
     Forro Space A16 x2
     Forro Space A36
     Forro Space Camon 18 
-    Forro Space Camon 30_Solo x2 ok
     Forro Space Moto Edge 50 Fusion
     Forro Space Oppo A80
     Forro Space Oppo Reno 12F
-    Forro Space Redmi 12 x2 ok
     Forro Space Redmi 14c x2 
     Forro Space Spark 8c x2
     Forro Space Vivo V38 x2
     Forro Space iPhone 12 Mini
-    Forro Space iPhone 12 x2 ok
-    Forro Space iPhone X ok
     Forros Tabletas Kids
-    Manos Libres Akg x5 ok
     Silicone Case A03 Core Rojo
-    Silicone Case A05s Negro Cambio ok
     Silicone Case A14 Fucsia
-    Silicone Case A14 VerdeMilitar ok
-    Silicone Case A32 4G Negro ok
-    Silicone Case A35 Amarillo ok
     Silicone Case A36
-    Silicone Case Camon 30_solo ok
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
     Silicone Case Mi11t Negro
-    Silicone Case Moto G04 Azul Rey ok
-    Silicone Case Moto G22 Morado ok
-    Silicone Case Moto G31 Lila ok
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro 
     Silicone Case Realme 7i Lila 
-    Silicone Case Redmi 14c Amarillo ok
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
-    Silicone Case Y9 Prime lila ok
     Silicone Case iPhone 11 Pro
-    Silicone Case iPhone Xs Max Rojo ok
+    Simcard Claro
     Tortuga A35 
     Tortuga Honor X6s
     Tortuga Moto G53
@@ -93,25 +68,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
-    Amazon Fire Stick con Control ok
     Aro de Luz 26cm Ligth x28
     Aro de Luz 26cm RGB x3
-    Cable USB Sata 3.0 ok
-    Cargador Asus 237 x2 ok
+    Camara WEb eco
+    Cargador 12v doble punta
     Cargador Doble Punta 12v x2
     Conectores RJ45
     Control PS3 Blanco 
     Cotrol Xbox One
-    Dedales x5
     Dron Sencillo
-    Garantia Game Stick ok
+    Garantia Dispensador ALG
+    Garantia Smart watch eco VPG
+    Gatillo G21
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
-    Memoria Cristiana x3 ok
-    Memoria Rap Ingles x2 ok
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
-    Plancha Aguacate Combo Cepillo ok
     Plancha Aguacate Combo Rizador
     Plancha Babyliss Combo
     Popit Ardilla
@@ -120,19 +92,22 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
     Smart Band 7 
+    Soporte Escritorio Metalico
     Soporte Monitor Mesa
     Soporte Para Control PS4
+    Soporte TV 55 Brazo
     Split 2 Hembras
-    Tablero Magicos Niña x2 ok
     Tableros Magicos Niño x2 no astronauta
 
 
 Julian
+    
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha A04e 
-    Pacha Honor X6s x2 ok
-    Pacha Redmi 12 ok
+    Pacha Moto G8 Power
+    Pacha Moto One Fusion Plus
+    Pacha Redmi 12
     Pacha Samsung M23
 
 
