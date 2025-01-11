@@ -47,3 +47,4 @@ def ordenar_lineas_tabuladas(nombre_archivo):
 # Uso del script
 if __name__ == "__main__":
     ordenar_lineas_tabuladas("pedido.txt")
+    ordenar_lineas_tabuladas("bodegac.txt")
