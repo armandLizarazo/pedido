@@ -9,8 +9,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30c
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cables Harvic TC x3
-    Cargador Huawei TC x2
+    Cables Harvic TC x3 ok
+    Cargador Huawei TC x5 ok
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -35,9 +35,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Oppo A80
     Forro Space Oppo Reno 12F
     Forro Space Redmi 14c x2 
-    Forro Space Spark 8c x2
+    Forro Space Spark 8c x2 ok
     Forro Space Vivo V38 x2
-    Forro Space iPhone 12 Mini
+    Forro Space iPhone 12 Mini 
     Forros Tabletas Kids
     Silicone Case A03 Core Rojo
     Silicone Case A14 Fucsia
@@ -46,7 +46,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
-    Silicone Case Mi11t Negro
+    Silicone Case Mi11t Negro ok
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro 
     Silicone Case Realme 7i Lila 
@@ -108,8 +108,8 @@ Julian
     Logica de Carga Redmi Note 13 4G
     Pacha A04e 
     Pacha Moto G8 Power
-    Pacha Moto One Fusion Plus
-    Pacha Redmi 12
+    Pacha Moto One Fusion Plus ok
+    Pacha Redmi 12 ok
     Pacha Samsung M23
 
 
