@@ -689,3 +689,27 @@ Fecha de proceso: 2025-01-10 22:46:03
 Archivo procesado: pedido.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-01-11 16:28:00
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   12 | Cables Harvic TC x3 ok
+   13 | Cargador Huawei TC x5 ok
+   38 | Forro Space Spark 8c x2 ok
+   49 | Silicone Case Mi11t Negro ok
+   73 | Aro de Luz Joma 26cm RGB x3 ok
+   75 | Camara web 1080 ok
+   77 | Cargador Doble Punta 12v x2 ok
+   82 | Garantia Dispensador ALG ok
+   83 | Garantia Smart watch eco VPG ok
+   93 | Radios Baofeng x2 ok
+   97 | Soporte Escritorio Metalico ok
+  100 | Soporte TV 55 Brazo x3 ok
+  102 | Tableros Magicos Niño x2 no astronauta ok
+  111 | Pacha Moto One Fusion Plus ok
+  112 | Pacha Redmi 12 ok

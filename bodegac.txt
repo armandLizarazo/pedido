@@ -1,12 +1,20 @@
-    Aro de Luz Yoyos 33 RGB = 1
-    Aro de luz Joma 33 Light = 1
-    Aro de luz Joma 33 RGB  = 2
-    Cables Belkin TC = 5
-    Cables Belkin V8 = 5
-    Cables Caterpillar USB Ligthning = 3
-    Cables Yoyos TC = 1
-    Reproductor TDT Krono  = 4
-    Vidrio Blindado Note 11 = 5
-    Vidrio Templado Redmi Note 11 = 5
-    Vidrio Tortuga Redmi Note 11 = 10
-
+    Aro de Luz Generico 26cm RGB 1
+    Aro de Luz Generico 33 RGB 1
+    Aro de luz Joma 33 Light 1
+    Aro de luz Joma 33 RGB 1
+    Cables Belkin TC 5
+    Cables Belkin V8 5
+    Cables Caterpillar USB Ligthning 3
+    Cables Yoyos TC 1
+    Cargador PC 9 Pines Caja Azul 1
+    Cargador PC Asus 2.37 1
+    Cargador PC HP Punta Azul 1
+    Cargadores Belkin TC 2
+    Parlante TG S8a 1
+    Patillera 3 en 1 2
+    Radios Baofeng 1
+    Reproductor TDT Krono 4
+    Soporte TV 50 Brazo 2
+    Vidrio Blindado Note 11 5
+    Vidrio Templado Redmi Note 11 5
+    Vidrio Tortuga Redmi Note 11 10

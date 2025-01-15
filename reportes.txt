@@ -1,0 +1,9 @@
+[2025-01-13 14:29:23] Se agregó nuevo item: Parlante TG S8a 1
+[2025-01-13 14:29:29] Se consultó el contenido del inventario
+[2025-01-13 14:34:56] Se consultó el contenido del inventario
+[2025-01-13 14:35:19] Se consultó el contenido del inventario
+[2025-01-13 14:35:33] Se modificó la cantidad del item 'Cargadores Belkin TC' de 5 a 2 (cambio: -3)
+[2025-01-13 14:40:12] Se consultó el contenido del inventario
+[2025-01-13 14:40:22] Se modificó la cantidad del item 'Aro de luz Joma 33 RGB' de 2 a 1 (cambio: -1)
+[2025-01-13 14:40:30] Se consultó el contenido del inventario
+[2025-01-14 20:25:18] Se consultó el contenido del inventario

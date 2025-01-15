@@ -9,8 +9,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30c
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
-    Cables Harvic TC x3 ok
-    Cargador Huawei TC x5 ok
+    Cargadores EBS 36w
     Forro Armadura A32 Rojo
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
@@ -18,6 +17,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Samsung A13 Rojo 
     Forro Diseños A06 Dama 
     Forro Diseños A15 Caballero x3
+    Forro Diseños A20s Caballero x2
+    Forro Diseños A20s Dama x2
     Forro Diseños A36 Caballero
     Forro Diseños Moto G24 Dama
     Forro Diseños Oppo A80
@@ -35,10 +36,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Oppo A80
     Forro Space Oppo Reno 12F
     Forro Space Redmi 14c x2 
-    Forro Space Spark 8c x2 ok
+    Forro Space Spark Go 20224
     Forro Space Vivo V38 x2
     Forro Space iPhone 12 Mini 
+    Forro Space iPhone 15 Pro max
     Forros Tabletas Kids
+    Garantias Aro de Luz pequeños x2
+    Manos Libres J5 Negro x5
+    Plancha Combo Aguacate
     Silicone Case A03 Core Rojo
     Silicone Case A14 Fucsia
     Silicone Case A36
@@ -46,10 +51,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
-    Silicone Case Mi11t Negro ok
     Silicone Case Moto G8 plus Negro
     Silicone Case Note 11 Negro 
     Silicone Case Realme 7i Lila 
+    Silicone Case Redmi 12 Amarillo
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
@@ -57,6 +62,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Simcard Claro
+    Smart Watch K950 Ultra ip68
     Tortuga A35 
     Tortuga Honor X6s
     Tortuga Moto G53
@@ -67,21 +73,21 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
 
+
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
-    Aro de Luz Joma 26cm RGB x3 ok
+    Base Refrigerante Doble ventilador
+    Cables Grabadora x5
     Camara WEb eco
-    Camara web 1080 ok
     Cargador 12v doble punta
-    Cargador Doble Punta 12v x2 ok
     Conectores RJ45
     Control PS3 Blanco 
     Cotrol Xbox One
     Dron Sencillo
-    Garantia Dispensador ALG ok
-    Garantia Smart watch eco VPG ok
+    Dron Sencillo
     Gatillo G21
+    Gramera Sencilla
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Pad Mouse Tapete Diseños
@@ -89,27 +95,28 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Plancha Aguacate Combo Rizador
     Plancha Babyliss Combo
     Popit Ardilla
+    Power Bank Panel Solar
+    Power bank Beston 
     Proyector P40 Juegos
-    Radios Baofeng x2 ok
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
     Smart Band 7 
-    Soporte Escritorio Metalico ok
     Soporte Monitor Mesa
     Soporte Para Control PS4
-    Soporte TV 55 Brazo x3 ok
-    Split 2 Hembras 
-    Tableros Magicos Niño x2 no astronauta ok
-
+    Split 2 Hembras
+    Tv Stick Generivo con Magis
 
 Julian
     
+    Bandeja Sim A32 azul
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
-    Pacha A04e 
+    Pacha A04e
+    Pacha Alcatel 1s
+    Pacha Honor X8a
     Pacha Moto G8 Power
-    Pacha Moto One Fusion Plus ok
-    Pacha Redmi 12 ok
+    Pacha Redmi 10c
     Pacha Samsung M23
+    Pacha moto G50
 
 
