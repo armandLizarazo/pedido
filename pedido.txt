@@ -10,7 +10,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth X15
     Audifonos Bluetooth airdots
     Cargadores EBS 36w
-    Forro Armadura A32 Rojo
+    Forro Armadura A32 Rojo de
     Forro Armadura Moto G20 Rojo
     Forro Armadura Pova 5 Azul
     Forro Armadura Redmi 13c Negro
@@ -36,10 +36,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Oppo A80
     Forro Space Oppo Reno 12F
     Forro Space Redmi 14c x2 
-    Forro Space Spark Go 20224
+    Forro Space Spark Go 20224 ok
     Forro Space Vivo V38 x2
-    Forro Space iPhone 12 Mini 
-    Forro Space iPhone 15 Pro max
+    Forro Space iPhone 12 Mini ok
+    Forro Space iPhone 15 Pro max ok
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
     Manos Libres J5 Negro x5
@@ -62,7 +62,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Simcard Claro
-    Smart Watch K950 Ultra ip68
+    Smart Watch K950 Ultra ip68 ok
     Tortuga A35 
     Tortuga Honor X6s
     Tortuga Moto G53
@@ -115,7 +115,7 @@ Julian
     Pacha A04e
     Pacha Alcatel 1s
     Pacha Honor X8a
-    Pacha Moto G8 Power
+    Pacha Moto G8 Power ok
     Pacha Redmi 10c
     Pacha Samsung M23
     Pacha moto G50
