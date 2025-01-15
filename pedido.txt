@@ -77,17 +77,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
-    Base Refrigerante Doble ventilador
-    Cables Grabadora x5
+    Base Refrigerante Doble ventilador ok
+    Base refrigerante 4 ventiladores ok
+    Cables Grabadora x5 ok
     Camara WEb eco
     Cargador 12v doble punta
     Conectores RJ45
-    Control PS3 Blanco 
-    Cotrol Xbox One
+    Control PS4 Blanco ok
+    Control Ps3 camuflado amarillo ok
     Dron Sencillo
     Dron Sencillo
-    Gatillo G21
-    Gramera Sencilla
+    Gatillo G21 ok
+    Gramera Sencilla ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Pad Mouse Tapete Diseños
@@ -96,7 +97,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Plancha Babyliss Combo
     Popit Ardilla
     Power Bank Panel Solar
-    Power bank Beston 
+    Power bank Beston ok
     Proyector P40 Juegos
     Rollo Cinta Led Bluetooth x3
     SUP con Control Negro
@@ -104,7 +105,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Soporte Monitor Mesa
     Soporte Para Control PS4
     Split 2 Hembras
-    Tv Stick Generivo con Magis
+    Tv Stick Generivo con Magis ok
 
 Julian
     
