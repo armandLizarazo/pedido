@@ -104,6 +104,8 @@ Julian
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha Samsung M23
-    Pacha Moto E7 Plus
-    Pacha A20 s/m
+    Pacha Moto E7 Plus ok
+    Pacha A20 s/m ok
+    Pacha Moto G04 ok
+    Logica Tecno Spark Go 2024
 
