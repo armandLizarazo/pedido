@@ -713,3 +713,32 @@ Línea  | Contenido
   102 | Tableros Magicos Niño x2 no astronauta ok
   111 | Pacha Moto One Fusion Plus ok
   112 | Pacha Redmi 12 ok
+
+==================================================
+Fecha de proceso: 2025-01-15 17:33:19
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   39 | Forro Space Spark Go 20224 ok
+   41 | Forro Space iPhone 12 Mini ok
+   42 | Forro Space iPhone 15 Pro max ok
+   65 | Smart Watch K950 Ultra ip68 ok
+   80 | Base Refrigerante Doble ventilador ok
+   81 | Base refrigerante 4 ventiladores ok
+   82 | Cables Grabadora x5 ok
+   86 | Control PS4 Blanco ok
+   87 | Control Ps3 camuflado amarillo ok
+   90 | Gatillo G21 ok
+   91 | Gramera Sencilla ok
+  100 | Power bank Beston ok
+  108 | Tv Stick Generivo con Magis ok
+  112 | Bandeja Sim A32 azul ok
+  115 | Pacha A04e ok
+  116 | Pacha Alcatel 1s ok
+  117 | Pacha Honor X8a ok
+  118 | Pacha Moto G8 Power ok
+  119 | Pacha Redmi 10c ok
+  121 | Pacha moto G50 ok
