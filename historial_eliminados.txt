@@ -742,3 +742,42 @@ Línea  | Contenido
   118 | Pacha Moto G8 Power ok
   119 | Pacha Redmi 10c ok
   121 | Pacha moto G50 ok
+
+==================================================
+Fecha de proceso: 2025-01-16 17:09:07
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-01-16 17:11:52
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   11 | Forro Armadura A32 Rojo ok
+   12 | Forro Armadura Moto G20 Rojo ok
+   14 | Forro Armadura Redmi 13c Negro ok
+   15 | Forro Armadura Samsung A13 Rojo ok
+   40 | Manos Libres J5 Negro x5 ok
+   42 | Silicone Case A03 Core Rojo ok
+   43 | Silicone Case A14 Fucsia ok
+   44 | Silicone Case A36 ok
+   50 | Silicone Case Note 11 Negro ok
+   61 | Tortuga Honor X6s a13 ok
+   62 | Tortuga Moto G53 ok
+   63 | Tortuga Moto G72 ok
+   64 | Tortuga Moto G84 ok
+   65 | Tortuga Redmi 13 ok
+   69 | Cargador apple 20w con Cable ok
+   71 | Forro Space iPhone 8 ok
+   72 | Forro Space Vivo Y21s / Y33s x2 ok
+   73 | Silicone Case iPhone 12 Negro ok
+   75 | Silicone Case Moto G24 Lila ok
+   76 | Silicone Case A35 Lila ok
+   77 | 5D A12 ok
+  107 | Pacha Moto E7 Plus ok
+  108 | Pacha A20 s/m ok
+  109 | Pacha Moto G04 ok
