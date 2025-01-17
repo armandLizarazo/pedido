@@ -54,18 +54,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch redondos Grandes
     Control Keyboard 
     Silicone Case moto G04 Negro
-    Manos libres Bolsa x5
+    Manos libres Bolsa x5 ok
     Cargador YL TC x3
     Mouse Gamer Cable
-    Mouse Gamer Inalambrico
+    Mouse Gamer Inalambrico ok
     Parlantes T&G 805 x2
     Silicone Case iPhone X Rosa
-    Silicone Case A21s Negro
-    Silicone Case Spark 10 Pro Fucsia
-    Silicone Case Note 12s Negro
-    Silicone Case Redmi 10 Negro
+    Silicone Case A21s fucsia ok
+    Silicone Case Spark 10 Pro Fucsia ok
+    Silicone Case Note 12s Negro 
+    Silicone Case Redmi 10 Negro 
     Silicone Case Redmi Note 8 Negro
-    Silicone Case Redmi Note 8 VinoTinto
+    Silicone Case Redmi Note 8 VinoTinto ok
 
 
 JOMA - 107 - THOR - AtrasPr -Memorias
@@ -92,8 +92,8 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Pad Mouse Cuadrados
 
 Julian
-    Tapa Moto E20 Negro
-    Pacha Moto E20
+    Tapa Moto E20 Negro ok
+    Pacha Moto E20 ok
     Pacha Note 10 Pro
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
