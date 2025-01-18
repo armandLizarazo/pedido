@@ -42,7 +42,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Plancha Combo Aguacate
     Silicone Case A14 Blanco ok
     Silicone Case A14 Lila
-    Silicone Case A14 Rojo
+    Silicone Case A14 Rojo ok
     Silicone Case A15 Rojo ok
     Silicone Case A35 Palo Rosa o Cafe
     Silicone Case M13 Verde
@@ -73,11 +73,11 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
     Audifonos Bluetooth Ambie Pantalla
-    Audifonos Bluetooth i12 Negro x5
+    Audifonos Bluetooth i12 Negro x9 ok
     Camara WEb 480 economica
     Conectores RJ45
     Dron Sencillo
-    Garantia Audifonos Bluetooth i12 Negro
+    Garantia Audifonos Bluetooth i12 Negro ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Pad Mouse Cuadrados
@@ -101,6 +101,6 @@ Julian
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
     Pacha Note 10 Pro
-    Pacha Redmi 9
+    Pacha Redmi 9 ok
     Pacha Samsung M23
 
