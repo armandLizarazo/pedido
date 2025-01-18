@@ -135,6 +135,80 @@ class GestorInventario:
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_reportes}")
 
+    def eliminar_linea(self, numero_linea):
+        """Elimina una línea específica del inventario"""
+        try:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
+                lineas = f.readlines()
+            
+            if 1 <= numero_linea <= len(lineas):
+                # Obtener la línea que se va a eliminar para el reporte
+                linea_eliminada = lineas[numero_linea - 1].strip()
+                # Eliminar la línea
+                del lineas[numero_linea - 1]
+                
+                # Escribir las líneas actualizadas al archivo
+                with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
+                    f.writelines(lineas)
+                
+                self.registrar_movimiento(f"Se eliminó la línea: {linea_eliminada}")
+                print(f"\nSe eliminó la línea {numero_linea}: {linea_eliminada}")
+            else:
+                print(f"Error: El número de línea debe estar entre 1 y {len(lineas)}")
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+
+    def ordenar_alfabeticamente(self):
+        """Ordena las líneas del inventario alfabéticamente"""
+        try:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
+                lineas = f.readlines()
+            
+            if not lineas:
+                print("\nEl archivo está vacío.")
+                return
+            
+            # Ordenar las líneas ignorando los espacios iniciales
+            lineas_ordenadas = sorted(lineas, key=lambda x: x.strip())
+            
+            # Escribir las líneas ordenadas al archivo
+            with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
+                f.writelines(lineas_ordenadas)
+            
+            self.registrar_movimiento("Se ordenó el inventario alfabéticamente")
+            print("\nInventario ordenado alfabéticamente.")
+            self.imprimir_contenido()
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+
+    def filtrar_por_palabra(self, palabra):
+        """Muestra las líneas que contienen la palabra o palabras especificadas"""
+        try:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
+                lineas = f.readlines()
+            
+            if not lineas:
+                print("\nEl archivo está vacío.")
+                return
+            
+            palabra = palabra.lower()
+            lineas_filtradas = []
+            
+            for i, linea in enumerate(lineas, 1):
+                if palabra in linea.lower():
+                    lineas_filtradas.append((i, linea.strip()))
+            
+            if lineas_filtradas:
+                print(f"\nLíneas que contienen '{palabra}':")
+                for num_linea, contenido in lineas_filtradas:
+                    print(f"{num_linea}. {contenido}")
+            else:
+                print(f"\nNo se encontraron líneas que contengan '{palabra}'")
+            
+            self.registrar_movimiento(f"Se filtró el inventario por la palabra: {palabra}")
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+
 def mostrar_menu():
     """Muestra el menú principal"""
     print("\n=== GESTOR DE INVENTARIO ===")
@@ -143,6 +217,9 @@ def mostrar_menu():
     print("3. Agregar unidades a línea existente")
     print("4. Quitar unidades a línea existente")
     print("5. Ver reportes")
+    print("6. Eliminar línea")
+    print("7. Ordenar alfabéticamente")
+    print("8. Filtrar por palabra")
     print("0. Salir")
     return input("\nSeleccione una opción: ")
 
@@ -160,34 +237,49 @@ def main():
             cantidad = input("Ingrese la cantidad: ")
             gestor.agregar_linea(descripcion, cantidad)
         
-        elif opcion == "3":  # Agregar unidades
+        elif opcion == "3":
             total_lineas = gestor.imprimir_contenido()
             if total_lineas > 0:
                 try:
                     linea = int(input("\nIngrese el número de línea a modificar: "))
                     cantidad = input("Ingrese la cantidad a agregar: ")
-                    gestor.modificar_cantidad(linea, cantidad)  # La cantidad será positiva
+                    gestor.modificar_cantidad(linea, cantidad)
                 except ValueError:
                     print("Error: Ingrese un número válido")
         
-        elif opcion == "4":  # Quitar unidades
+        elif opcion == "4":
             total_lineas = gestor.imprimir_contenido()
             if total_lineas > 0:
                 try:
                     linea = int(input("\nIngrese el número de línea a modificar: "))
                     cantidad = input("Ingrese la cantidad a quitar: ")
-                    # Convertir la cantidad a negativa para restar
                     gestor.modificar_cantidad(linea, str(-int(cantidad)))
                 except ValueError:
                     print("Error: Ingrese un número válido")
         
-        elif opcion == "5":  # Ver reportes
+        elif opcion == "5":
             try:
                 n = input("¿Cuántos últimos movimientos desea ver? (Enter para ver todos): ")
                 n = int(n) if n.strip() else None
                 gestor.ver_reportes(n)
             except ValueError:
                 print("Error: Ingrese un número válido")
+        
+        elif opcion == "6":  # Nueva opción: Eliminar línea
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a eliminar: "))
+                    gestor.eliminar_linea(linea)
+                except ValueError:
+                    print("Error: Ingrese un número válido")
+        
+        elif opcion == "7":  # Nueva opción: Ordenar alfabéticamente
+            gestor.ordenar_alfabeticamente()
+        
+        elif opcion == "8":  # Nueva opción: Filtrar por palabra
+            palabra = input("Ingrese la palabra a buscar: ")
+            gestor.filtrar_por_palabra(palabra)
         
         elif opcion == "0":
             print("\n¡Hasta luego!")

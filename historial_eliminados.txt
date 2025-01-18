@@ -781,3 +781,19 @@ Línea  | Contenido
   107 | Pacha Moto E7 Plus ok
   108 | Pacha A20 s/m ok
   109 | Pacha Moto G04 ok
+
+==================================================
+Fecha de proceso: 2025-01-17 15:33:34
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   57 | Manos libres Bolsa x5 ok
+   60 | Mouse Gamer Inalambrico ok
+   63 | Silicone Case A21s fucsia ok
+   64 | Silicone Case Spark 10 Pro Fucsia ok
+   68 | Silicone Case Redmi Note 8 VinoTinto ok
+   95 | Tapa Moto E20 Negro ok
+   96 | Pacha Moto E20 ok

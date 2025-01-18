@@ -4,10 +4,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Mi 11t x5
     5D Oppo A38
     5D Realme C53
+    5D Redmi 12
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
     Audifonos Bluetooth X15
+    Cargador YL TC x3
+    Cargador apple 5v eco x2
+    Control Keyboard 
     Forro Armadura Pova 5 Azul 
     Forro Diseños A06 Dama 
     Forro Diseños A15 Caballero x3
@@ -33,49 +37,50 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Vivo V38 x2
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
+    Mouse Gamer Cable
+    Parlantes T&G 805 x2
     Plancha Combo Aguacate
+    Silicone Case A14 Blanco
+    Silicone Case A14 Lila
+    Silicone Case A14 Rojo
+    Silicone Case A15 Rojo
+    Silicone Case A35 Palo Rosa o Cafe
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
     Silicone Case Moto G8 plus Negro
+    Silicone Case Note 12s Negro 
     Silicone Case Realme 7i Lila 
+    Silicone Case Redmi 10 Negro 
     Silicone Case Redmi 12 Amarillo
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
+    Silicone Case Redmi Note 8 Negro
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
+    Silicone Case iPhone X Rosa
+    Silicone Case moto G04 Negro
     Simcard Claro
     Tortuga A35 
     Tortuga Redmi 14c
     Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
-    Control Keyboard 
-    Silicone Case moto G04 Negro
-    Manos libres Bolsa x5 ok
-    Cargador YL TC x3
-    Mouse Gamer Cable
-    Mouse Gamer Inalambrico ok
-    Parlantes T&G 805 x2
-    Silicone Case iPhone X Rosa
-    Silicone Case A21s fucsia ok
-    Silicone Case Spark 10 Pro Fucsia ok
-    Silicone Case Note 12s Negro 
-    Silicone Case Redmi 10 Negro 
-    Silicone Case Redmi Note 8 Negro
-    Silicone Case Redmi Note 8 VinoTinto ok
-
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
+    Audifonos Bluetooth Ambie Pantalla
+    Audifonos Bluetooth i12 Negro x5
     Camara WEb 480 economica
     Conectores RJ45
     Dron Sencillo
+    Garantia Audifonos Bluetooth i12 Negro
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
+    Pad Mouse Cuadrados
     Pad Mouse Tapete Diseños
     Pad Mouse Tapete Negro
     Plancha Aguacate Combo Rizador
@@ -88,14 +93,14 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Smart Band 7 
     Soporte Monitor Mesa
     Soporte Para Control PS4
+    Soporte TV 55 Brazo
     Split 2 Hembras
-    Pad Mouse Cuadrados
+
 
 Julian
-    Tapa Moto E20 Negro ok
-    Pacha Moto E20 ok
-    Pacha Note 10 Pro
     Logica A03 Core 
     Logica de Carga Redmi Note 13 4G
+    Pacha Note 10 Pro
+    Pacha Redmi 9
     Pacha Samsung M23
 
