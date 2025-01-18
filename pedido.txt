@@ -10,8 +10,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30c
     Audifonos Bluetooth X15
     Cargador YL TC x3
-    Cargador apple 5v eco x2
-    Control Keyboard 
+    Cargador apple 5v eco x2 ok
+    Control Keyboard x2 ok
     Forro Armadura Pova 5 Azul 
     Forro Diseños A06 Dama 
     Forro Diseños A15 Caballero x3
@@ -40,10 +40,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Mouse Gamer Cable
     Parlantes T&G 805 x2
     Plancha Combo Aguacate
-    Silicone Case A14 Blanco
+    Silicone Case A14 Blanco ok
     Silicone Case A14 Lila
     Silicone Case A14 Rojo
-    Silicone Case A15 Rojo
+    Silicone Case A15 Rojo ok
     Silicone Case A35 Palo Rosa o Cafe
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
@@ -57,13 +57,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Redmi Note 8 Negro
+    Silicone Case Redmi Note 8 Negro ok
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Silicone Case iPhone X Rosa
     Silicone Case moto G04 Negro
-    Simcard Claro
+    Simcard Claro ok
     Tortuga A35 
     Tortuga Redmi 14c
     Tortuga Redmi Note 13 Pro 4G 
