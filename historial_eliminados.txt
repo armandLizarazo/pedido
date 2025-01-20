@@ -797,3 +797,22 @@ Línea  | Contenido
    68 | Silicone Case Redmi Note 8 VinoTinto ok
    95 | Tapa Moto E20 Negro ok
    96 | Pacha Moto E20 ok
+
+==================================================
+Fecha de proceso: 2025-01-18 12:34:26
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | Cargador apple 5v eco x2 ok
+   14 | Control Keyboard x2 ok
+   43 | Silicone Case A14 Blanco ok
+   45 | Silicone Case A14 Rojo ok
+   46 | Silicone Case A15 Rojo ok
+   60 | Silicone Case Redmi Note 8 Negro ok
+   66 | Simcard Claro ok
+   76 | Audifonos Bluetooth i12 Negro x9 ok
+   80 | Garantia Audifonos Bluetooth i12 Negro ok
+  104 | Pacha Redmi 9 ok
