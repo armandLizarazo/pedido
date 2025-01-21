@@ -172,16 +172,17 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Cambios Pacha Redmi 10
-    Logica A03 Core 
+    Cambios Pacha Redmi 10 ok
+    Auricular a04s x2 ok
+    Tapa A34 negro ok
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
-    Logica de Carga Samsung A23
-    Pacha A04s
-    Pacha Note 10 Pro
-    Pacha Oppo A17 / A57 / A77
-    Pacha Redmi 12
-    Pacha Samsung A12
+    Logica de Carga Samsung A23 ok
+    Pacha A04s ok
+    Pacha Note 10 Pro 
+    Pacha Oppo A17 / A57 / A77 ok
+    Pacha Redmi 12 ok
+    Pacha Samsung A12 ok
     Pacha Samsung M23
 
 
