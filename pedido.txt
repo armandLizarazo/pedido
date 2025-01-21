@@ -141,23 +141,23 @@ Yoyos Caracas - TYD - Ovidio - Fly
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
     Aro de Luz Joma 26cm Ligth x2
-    Audifono Conductor
-    Audifono Conductor 1092
+    Audifono Conductor ok
+    Audifono Conductor 1092 ok
     Audifonos Bluetooth Ambie Pantalla
-    Camara WEb 480 economica
+    Camara WEb 480 economica ok
     Conectores RJ45
-    Control Gamer PS4 Blanco
-    Control Gamer X3
+    Control Gamer PS4 Blanco ok
+    Control Gamer X3 ok
     Dron Sencillo
     Inpods 12 AzulClaro x2
     Inpods 12 Rosa x2
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
-    Pad Mouse Cuadrados
+    Pad Mouse Cuadrados ok
     Pad Mouse Tapete Diseños
-    Pad Mouse Tapete Negro
-    Pilas Recargables Beston AAx4
-    Plancha Aguacate Combo Rizador
+    Pad Mouse Tapete Negro ok
+    Pilas Recargables Beston AAx4 ok
+    Plancha Aguacate Combo ok
     Plancha Babyliss Combo
     Popit Ardilla
     Power Bank Panel Solar
@@ -167,8 +167,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Smart Band 7 
     Soporte Monitor Mesa
     Soporte Para Control PS4
-    Soporte TV 50 Brazo x2
-    Soporte TV 55 Brazo
+    Soporte TV 50 Brazo x2 ok
     Split 2 Hembras
     Termo Motivacion
 
