@@ -11,12 +11,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Antiespia iPhone
     Audifonos Bluetooth Pro 2 Pantalla Blanco
     Audifonos Bluetooth X15
-    Balaca Naisu Negro
-    Balaca Naisu Verde Militar
-    Cables V8 Yoyos 3m
-    Cadenas Pegar
-    Caragadores Pluying Royal 38w
-    Cargador YL TC x3
+    Balaca Naisu Negro ok
+    Balaca Naisu Verde Militar ok
+    Cables V8 Yoyos 3m ok
+    Cadenas Pegar ok
+    Caragadores Pluying Royal 38w x2 ok
+    Cargador YL v8 x3 
     Forro Aramdura A53
     Forro Aramdura Reno 11 Rojo
     Forro Aramdura X6a 
@@ -71,39 +71,38 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Lujo A05s 
     Forro Lujo Spark 30c Negro
     Forro Pin Redmi Note 13 Pro 4G
-    Forro Space A16 x2
-    Forro Space A35
-    Forro Space A36
+    Forro Space A16 x2 ok
+    Forro Space A35 
+    Forro Space A36 
     Forro Space Camon 18 
-    Forro Space Moto Edge 50 Fusion
+    Forro Space Moto Edge 50 Fusion ok
     Forro Space Oppo A80
-    Forro Space Oppo Reno 12F
-    Forro Space Redmi 14c x2 
+    Forro Space Oppo Reno 12F 
+    Forro Space Redmi 14c x2 ok
     Forro Space Vivo V38 x2
-    Forro Space iPhone 11
-    Forro Space iPhone 11 x3
+    Forro Space iPhone 11 x3 ok
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
     LLaveros Surtidos
-    Mouse Gamer Cable
-    Mouse JR1 Azul
-    Multilector de Memorias
+    Mouse Gamer Cable ok
+    Mouse JR1 Azul ok
+    Multilector de Memorias ok
     Parlantes T&G 805 x2
     Plancha Combo Aguacate
     Silicone Case A14 Lila
     Silicone Case A35 Palo Rosa o Cafe
-    Silicone Case Honor 90 Lite Rosa
+    Silicone Case Honor 90 Lite Rosa ok
     Silicone Case M13 Verde
     Silicone Case M23 Fucsia
     Silicone Case M23 Negro
     Silicone Case M23 Rojo
     Silicone Case Moto Edge 50 Fusion Fucsia
     Silicone Case Moto Edge 50 Fusion Morado
-    Silicone Case Moto Edge 50 Fusion Rosado
-    Silicone Case Moto G31 Negro
+    Silicone Case Moto Edge 50 Fusion Rosado ok
+    Silicone Case Moto G31 Negro ok
     Silicone Case Moto G8 plus Negro
-    Silicone Case Moto G9 Power Morado
-    Silicone Case Moto G9 Power Negro
+    Silicone Case Moto G9 Power Morado ok
+    Silicone Case Moto G9 Power Negro ok
     Silicone Case Moto G9 Power Rojo
     Silicone Case Note 12s Negro 
     Silicone Case Oppo A57 Amarillo
@@ -112,29 +111,28 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Oppo A57 Rojo
     Silicone Case Oppo A57 Rosa
     Silicone Case Realme 7i Lila 
-    Silicone Case Redmi 10 Negro 
-    Silicone Case Redmi 12 Amarillo
+    Silicone Case Redmi 10 Negro ok
+    Silicone Case Redmi 12 Amarillo 
     Silicone Case Redmi 9 Lila 
     Silicone Case Redmi Note 11 Negro 
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Samsung A35 Morado
+    Silicone Case Samsung A35 Morado ok
     Silicone Case Samsung A35 Negro
     Silicone Case Spark 20c AzulRey
-    Silicone Case Spark Go 2024 AzulRey
-    Silicone Case Spark Go 2024 Morado
+    Silicone Case Spark Go 2024 AzulRey ok
+    Silicone Case Spark Go 2024 Morado ok
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Silicone Case iPhone X Rosa
     Silicone Case moto G04 Negro
     Tortuga A21s
-    Tortuga A34
-    Tortuga A35 
-    Tortuga A35 / A55
-    Tortuga Redmi 14c
+    Tortuga A34 ok
+    Tortuga A35 / A55 ok
+    Tortuga Redmi 14c ok
     Tortuga Redmi Note 13 Pro 4G 
-    Torutga A12
-    Vidrio Antiespia iPhone 11
+    Torutga A12 ok
+    Vidrio Antiespia iPhone 11 ok
     Vidrio Smart Watch redondos Grandes
 
 
