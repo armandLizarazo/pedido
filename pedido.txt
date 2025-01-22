@@ -9,11 +9,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    5D redmi 9a
-    Antiespia Redmi 13c
+    5D redmi 9a ok
+    Antiespia Redmi 13c ok
     Audifonos Bluetooth X15
-    Blindado Redmi 13c
-    Cargador YL v8 x3 
+    Blindado Redmi 13c ok
+    Cargador YL v8 x3 ok
     Forro Aramdura Reno 11 Rojo
     Forro Aramdura X6a 
     Forro Armadura A15 
@@ -43,7 +43,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Oppo A54 Dama
     Forro Diseños Oppo A80
     Forro Diseños Pova 5 Caballero
-    Forro Diseños Redmi 9c Dama
+    Forro Diseños Redmi 9c Dama ok
     Forro Diseños V25e Caballero 
     Forro Diseños Vivo Y20s Caballero x3
     Forro Diseños Y33s Dama x2
@@ -74,24 +74,23 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Moto G8 plus Negro
     Silicone Case Moto G9 Power Rojo
     Silicone Case Note 12s Negro 
-    Silicone Case Oppo A57 Amarillo
-    Silicone Case Oppo A57 Morado
-    Silicone Case Oppo A57 Rojo
-    Silicone Case Oppo A57 Rojo
+    Silicone Case Oppo A57 Amarillo ok
+    Silicone Case Oppo A57 Morado ok
+    Silicone Case Oppo A57 Rojo ok
     Silicone Case Oppo A57 Rosa
     Silicone Case Realme 7i Lila 
-    Silicone Case Redmi 12 Amarillo 
+    Silicone Case Redmi 12 Amarillo ok
     Silicone Case Redmi 9 Lila 
-    Silicone Case Redmi Note 11 Negro 
+    Silicone Case Redmi Note 11 Negro ok
     Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Samsung A35 Negro
-    Silicone Case Spark 20c AzulRey
-    Silicone Case Tecno Spark 10c Fucsia
+    Silicone Case Samsung A35 Negro ok
+    Silicone Case Spark 20c AzulRey ok
+    Silicone Case Tecno Spark 10c Fucsia ok
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Silicone Case iPhone X Rosa
-    Silicone Case moto G04 Negro
+    Silicone Case moto G04 Negro ok
     Tortuga A21s
     Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
