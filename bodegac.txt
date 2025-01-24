@@ -3,12 +3,14 @@
     5D iPhone 13 / 13Pro 8
     Aro de Luz 33cm Light 1
     Aro de Luz 33cm RGB 1
+    Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth Pro 60 1
     Audifonos Bluetooth i12 Negro 5
     Cables Belkin TC 5
-    Cables Belkin V8 5
+    Cables Belkin V8 3
     Cables Caterpillar USB Ligthning 3
     Cables Yoyos TC 1
+    Camara Web 720p 1
     Cargador 80w 2pd 1
     Cargador Apple 25w pd 1
     Cargador Apple 5v Eco 2
@@ -20,6 +22,7 @@
     Cargador Samsung 25w Cabeza 1
     Cargador Samsung 45w Cabeza 1
     Cargador TC Samsung S10+ 2
+    Control Gamer X3 1
     Control Keyboard TV 1
     Forro Armadura Oppo Reno 11f Negro 2
     Forro Diseños A35 Caballero 2
@@ -37,6 +40,21 @@
     Patillera 3 en 1 2
     Radios Baofeng 1
     Reproductor TDT Krono 4
-    Soporte TV 50 Brazo 0
+    Soporte TV 32 Brazo 2
+    Soporte TV 50 Brazo 2
     Vidrio Blindado Redmi Note 11 5
     Vidrio Tortuga Redmi Note 11 10
+    Cargador YL V8 3
+    Cargador YL TC 3
+    Cables Caterpillar V8 3
+    Cables Caterpillar TC 3
+    Cables Royal TC 2m 2
+    Cables Harvic TC 2
+    Cables Harvic V8 1
+    Cables Yoyos TC 3m 1
+    Cables Yoyos V8 3m 1
+    Balaca Naisu S-437 Verde 1
+    Cargador Vidvie V8 2prt 1
+    Cargador Pluying Royal 38w 1
+    Cargador Pluying Royal Carg7 1
+    Antena TDT Aire 1

@@ -1,4 +1,5 @@
 Yoyos Caracas - TYD - Ovidio - Fly
+    5D Samsung A06
     5D A80 
     5D Honor X8a
     5D Mi 11t x5
@@ -13,7 +14,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Antiespia Redmi 13c
     Audifonos Bluetooth X15
     Blindado Redmi 13c
-    Cargador YL v8 x3 
     Forro Aramdura Reno 11 Rojo
     Forro Aramdura X6a 
     Forro Armadura A15 
@@ -95,7 +95,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Tortuga A21s
     Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
-
+    Cables Motorola TC a TC
+    Cables Belkin V8
+    Llaveros Pegar
+    Pines Forros
+    Forro Armadura K61 Rojo
+    Forro Diseños Samsung A35 Dama x3
+    Silicone Case Redmi Note 11 Negro
+    Silicone Case Redmi Note 13 Pro 4G Rosa 
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
@@ -120,8 +127,10 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Soporte Para Control PS4
     Split 2 Hembras
     Termo Motivacion
-
-
+    Tero Pocillos
+    Popit Pato
+    Mouse Ergonomico Recargable
+    Rollo Cinta led 10m x2
 
 Julian
     Garantia FPC A34
@@ -129,7 +138,12 @@ Julian
     Logica de Carga Redmi Note 13 4G
     Pacha Note 10 Pro 
     Pacha Samsung M23
-    Pacha Y11s x2
+    Pacha Y11s x
+    Pacha Moto G31
+    Pacha Samsung A10
+    Pacha Redmi 9a
+    Garantia Pacha Redmi 9a
+    Pacha Note 9s x2
 
 
 
