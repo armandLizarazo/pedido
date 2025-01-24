@@ -894,3 +894,26 @@ Fecha de proceso: 2025-01-24 07:48:29
 Archivo procesado: pedido.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-01-24 08:14:22
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | 5D redmi 9a ok
+   14 | Antiespia Redmi 13c ok
+   19 | Blindado Redmi 13c ok
+   20 | Cargador YL v8 x3 ok
+   51 | Forro Diseños Redmi 9c Dama ok
+   82 | Silicone Case Oppo A57 Amarillo ok
+   83 | Silicone Case Oppo A57 Morado ok
+   84 | Silicone Case Oppo A57 Rojo ok
+   87 | Silicone Case Redmi 12 Amarillo ok
+   89 | Silicone Case Redmi Note 11 Negro ok
+   91 | Silicone Case Samsung A35 Negro ok
+   92 | Silicone Case Spark 20c AzulRey ok
+   93 | Silicone Case Tecno Spark 10c Fucsia ok
+   98 | Silicone Case moto G04 Negro ok
