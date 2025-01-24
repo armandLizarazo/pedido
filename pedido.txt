@@ -6,7 +6,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D Oppo A38
     5D Oppo A79
     5D Realme C53
-    5D Redmi 12
+    5D Redmi 12 ok
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
@@ -82,14 +82,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Tortuga A21s
     Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
-    Cables Motorola TC a TC
-    Cables Belkin V8
-    Llaveros Pegar
+    Cables Motorola TC a TC ok
+    Cables Belkin V8 ok
+    Llaveros Pegar ok
     Pines Forros
     Forro Armadura K61 Rojo
-    Forro Diseños Samsung A35 Dama x3
+    Forro Diseños Samsung A35 Dama x3 ok
     Silicone Case Redmi Note 11 Negro
-    Silicone Case Redmi Note 13 Pro 4G Rosa 
+    Silicone Case Redmi Note 13 Pro 4G Rosa ok
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
@@ -125,12 +125,12 @@ Julian
     Logica de Carga Redmi Note 13 4G
     Pacha Note 10 Pro 
     Pacha Samsung M23
-    Pacha Y11s x
+    Pacha Y11s ok
     Pacha Moto G31
-    Pacha Samsung A10
-    Pacha Redmi 9a
-    Garantia Pacha Redmi 9a
-    Pacha Note 9s x2
+    Pacha Samsung A10 ok
+    Pacha Redmi 9a ok
+    Garantia Pacha Redmi 9a ok
+    Pacha Note 9s ok
 
 
 
