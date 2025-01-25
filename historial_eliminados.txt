@@ -917,3 +917,23 @@ Línea  | Contenido
    92 | Silicone Case Spark 20c AzulRey ok
    93 | Silicone Case Tecno Spark 10c Fucsia ok
    98 | Silicone Case moto G04 Negro ok
+
+==================================================
+Fecha de proceso: 2025-01-24 17:52:04
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | 5D Redmi 12 ok
+   85 | Cables Motorola TC a TC ok
+   86 | Cables Belkin V8 ok
+   87 | Llaveros Pegar ok
+   90 | Forro Diseños Samsung A35 Dama x3 ok
+   92 | Silicone Case Redmi Note 13 Pro 4G Rosa ok
+  128 | Pacha Y11s ok
+  130 | Pacha Samsung A10 ok
+  131 | Pacha Redmi 9a ok
+  132 | Garantia Pacha Redmi 9a ok
+  133 | Pacha Note 9s ok
