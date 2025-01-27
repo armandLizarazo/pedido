@@ -38,6 +38,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños A36 Caballero
     Forro Diseños A53 Caballero
     Forro Diseños Infinix Hot 30 Pro
+    Forro Diseños Infinix Hot 50 Pro Plus Dama
+    Forro Diseños Infinix Hot 50 Pro Plus Caballero
     Forro Diseños Moto G24 Dama 
     Forro Diseños Oppo A17 Dama
     Forro Diseños Oppo A54 Caballero
@@ -84,6 +86,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Y7a Rojo 
     Silicone Case iPhone 11 Pro
     Silicone Case iPhone X Rosa
+    Silicone Case Infinix Hot 50 Pro Plus
     Forro Diseños Infinix Hot 30 Pro 
     Simcard WOM x5 
     Tableta Tigers Kids Rosa
@@ -126,18 +129,18 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cargadores Generico 12v
     Mouse Economico
     Tecaldo Mecanico Gamer
-    Vidrio 5D A21s
-    Vidrio 5D Y9 Prime
 
 Julian
-    Garantia FPC A34
+    Garantia FPC A34 ok
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G31
     Pacha Note 10 Pro 
     Pacha Samsung M23
-    Bateria Mototorola Moto G22
-    Pacha Motorola Moto G22
+    Bateria Mototorola Moto G22 ok
+    Pacha Motorola Moto G22 ok
+    Flex Principal Redmi Note 8 ok
+    Fpc Redmi Note 8 ok
 
 
 
