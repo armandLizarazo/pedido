@@ -1,11 +1,11 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     5D A80 
-    5D Honor X8a
-    5D Mi 11t x5
+    5D Honor X8a ok
+    5D Mi 11t x5 ok
     5D Oppo A38
     5D Oppo A79
-    5D Realme C53
-    5D Redmi A2 
+    5D Realme C53 
+    5D Redmi A2 ok
     5D Samsung A06
     5D Spark 30 5G
     5D Spark 30 pro
@@ -42,8 +42,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Infinix Hot 50 Pro Plus Dama
     Forro Diseños Moto G24 Dama 
     Forro Diseños Oppo A17 Dama
-    Forro Diseños Oppo A54 Caballero
-    Forro Diseños Oppo A54 Dama
+    Forro Diseños Oppo A54 Caballero 
+    Forro Diseños Oppo A54 Dama ok
     Forro Diseños Oppo A80
     Forro Diseños Pova 5 Caballero
     Forro Diseños V25e Caballero 
@@ -62,8 +62,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Vivo V38 x2
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
-    Manos Libres Samsung Akg
-    Parlantes T&G 805 x2
+    Manos Libres Samsung Akg x5 ok
     Pines Forros
     Plancha Combo Aguacate
     Power bank Nueva
@@ -78,14 +77,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Moto Edge 50 Fusion Fucsia
     Silicone Case Moto Edge 50 Fusion Morado
     Silicone Case Moto G8 plus Negro
-    Silicone Case Moto G9 Power Rojo
+    Silicone Case Moto G9 Power Rojo ok
     Silicone Case Note 12s Negro 
-    Silicone Case Oppo A57 Rosa
+    Silicone Case Oppo A57 Rosa ok
     Silicone Case Realme 7i Lila 
-    Silicone Case Realme C53 Amarillo
+    Silicone Case Realme C53 Amarillo 
     Silicone Case Realme C55 Rojo
-    Silicone Case Redmi 9 Lila 
-    Silicone Case Redmi Note 11 Negro
+    Silicone Case Redmi 9 Lila ok
+    Silicone Case Redmi Note 11 Negro ok
     Silicone Case Redmi Note 7 AzulClaro
     Silicone Case Y15s Palo Rosa
     Silicone Case Y7a Rojo 
@@ -93,11 +92,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case iPhone X Rosa
     Simcard WOM x5 
     Tableta Tigers Kids Rosa
-    Vidrio Antiespia A225g
-    Vidrio Antiespia Moto G24
+    Vidrio Antiespia A225g ok 
+    Vidrio Antiespia Moto G24 ok
     Vidrio Ceramico Oppo A79
     Vidrio Smart Watch redondos Grandes
-    Vidrio Templado Samsung A05
+    Vidrio Templado Samsung A05 ok
     Vidrio Tortuga A21s
     Vidrio Tortuga Redmi Note 13 Pro 4G 
 
@@ -109,23 +108,23 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Audifonos Bluetooth Ambie Pantalla
     Cargadores Generico 12v
     Conectores RJ45
-    Control Gamer Gatillos W11+
+    Control Gamer Gatillos W11+ ok
     Dron Sencillo
     Holder Bicicleta
-    Holder Moto
+    Holder Moto ok
     Inpods 12 AzulClaro x2
     Inpods 12 Rosa x2
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Mouse Eco B100
-    Mouse Eco B100
+    Mouse Eco B100 ok
     Mouse Economico
     ONN HD
     Pad Mouse Tapete Diseños
-    Parlantes PC Eco
+    Parlantes PC Eco ok
     Plancha Babyliss Combo
     Popit Ardilla
-    Popit Pato
+    Popit oso ok
     Power Bank Beston
     Power Bank Panel Solar
     Proyector P40 Juegos
@@ -135,25 +134,26 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Soporte Monitor Mesa
     Soporte Para Control PS4 
     Split 2 Hembras
-    Switch HDMI 3 a 1
+    Switch HDMI 3 a 1 ok
     Tecaldo Mecanico Gamer
     Termo Motivacion
 
 
 Julian
-    Bateria Redmi Note 8 As671
+    Bateria Redmi Note 8 ok
     Garantia Pacha Samsung A23
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G31
     Pacha Note 10 Pro 
     Pacha Realme C53
-    Pacha Redmi Note 11 / Note 12s
+    Pacha Redmi Note 11 / Note 12s ok
     Pacha Samsung A22 5G c/m
-    Pacha Samsung A22 5G s/m
+    Pacha Samsung A22 5G s/m ok
     Pacha Samsung A33
     Pacha Samsung M23
-    Visor Camara Oppo Reno 6 Lite
+    Visor Camara Oppo Reno 6 Lite ok
+    Visor Camara Redmi Note 13 4g ok
 
 
 
