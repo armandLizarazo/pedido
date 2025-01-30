@@ -2,17 +2,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     5D A80 
     5D Honor X8a
     5D Mi 11t x5
-    5D Note 10s ok
     5D Oppo A38
     5D Oppo A79
     5D Realme C53
-    5D Redmi A2 ok
     5D Samsung A06
     5D Spark 30 5G
     5D Spark 30 pro
     5D Spark 30c
-    Audifonos Bluetooth X15 ok
-    Blindado Redmi 13c ok
     Forro Aramdura Reno 11 Rojo
     Forro Aramdura X6a 
     Forro Armadura A15 
@@ -62,7 +58,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Vivo V38 x2
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
-    LLaveros Surtidos ok
     Parlantes T&G 805 x2
     Pines Forros
     Plancha Combo Aguacate
@@ -95,10 +90,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Tortuga Redmi Note 13 Pro 4G 
     Vidrio Smart Watch redondos Grandes
     Celular T72
-    Forro Diseños Tecno Spark 30c ok
     Manos Libres Samsung Akg
-    Vidrio 5D A21s ok
-    Vidrio 5D Y9 Prime ok
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
@@ -131,16 +123,13 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Tecaldo Mecanico Gamer
 
 Julian
-    Garantia FPC A34 ok
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G31
     Pacha Note 10 Pro 
     Pacha Samsung M23
-    Bateria Mototorola Moto G22 ok
-    Pacha Motorola Moto G22 ok
-    Flex Principal Redmi Note 8 ok
-    Fpc Redmi Note 8 ok
+    Visor Camara Oppo Reno 6 Lite
+
 
 
 

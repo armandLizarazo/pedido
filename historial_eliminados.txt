@@ -937,3 +937,25 @@ Línea  | Contenido
   131 | Pacha Redmi 9a ok
   132 | Garantia Pacha Redmi 9a ok
   133 | Pacha Note 9s ok
+
+==================================================
+Fecha de proceso: 2025-01-27 13:42:32
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | 5D Note 10s ok
+    9 | 5D Redmi A2 ok
+   14 | Audifonos Bluetooth X15 ok
+   15 | Blindado Redmi 13c ok
+   65 | LLaveros Surtidos ok
+   98 | Forro Diseños Tecno Spark 30c ok
+  100 | Vidrio 5D A21s ok
+  101 | Vidrio 5D Y9 Prime ok
+  134 | Garantia FPC A34 ok
+  140 | Bateria Mototorola Moto G22 ok
+  141 | Pacha Motorola Moto G22 ok
+  142 | Flex Principal Redmi Note 8 ok
+  143 | Fpc Redmi Note 8 ok
