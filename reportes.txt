@@ -106,3 +106,77 @@
 [2025-01-25 06:08:41] Se consultó el contenido del inventario
 [2025-01-25 06:08:46] Se modificó la cantidad del item 'Vidrio 5D Redmi Note 11' de 5 a 0 (cambio: -5)
 [2025-01-25 06:09:39] Se consultó el contenido del inventario
+[2025-01-30 06:19:49] Se consultó el contenido del inventario
+[2025-01-30 06:20:20] Se modificó la cantidad del item 'Cables Belkin V8' de 5 a 8 (cambio: +3)
+[2025-01-30 06:21:10] Se agregó nuevo item: Consola Game Sitck 2
+[2025-01-30 06:21:42] Se filtró el inventario por la palabra: space
+[2025-01-30 06:22:07] Se agregó nuevo item: Forro Space Redmi Note 12s 1
+[2025-01-30 06:22:22] Se filtró el inventario por la palabra: silicone
+[2025-01-30 06:23:00] Se agregó nuevo item: Silicone Case Oppo A17 Lila 1
+[2025-01-30 06:23:28] Se agregó nuevo item: Silicone Case Oppo A17 Negro 1
+[2025-01-30 06:23:47] Se agregó nuevo item: Silicone Case Oppo A17 Morado 1
+[2025-01-30 06:24:08] Se agregó nuevo item: Silicone Case Redmi 12 Amarillo 1
+[2025-01-30 06:24:40] Se agregó nuevo item: Silicone Case Samsung A04e Rojo 1
+[2025-01-30 06:24:47] Se filtró el inventario por la palabra: silicone case
+[2025-01-30 06:27:05] Se agregó nuevo item: Silicone Case iPhone 14 Pro Fucsia 1
+[2025-01-30 06:27:31] Se agregó nuevo item: Silicone Case iPhone 14 Plus Negro 1
+[2025-01-30 06:28:20] Se agregó nuevo item: Silicone Case iPhone 13 Pro Lila 1
+[2025-01-30 06:28:37] Se filtró el inventario por la palabra: 14 pro
+[2025-01-30 06:28:44] Se consultó el contenido del inventario
+[2025-01-30 06:28:51] Se consultó el contenido del inventario
+[2025-01-30 06:28:56] Se modificó la cantidad del item 'Silicone Case iPhone 14 Pro Fucsia' de 1 a 2 (cambio: +1)
+[2025-01-30 06:31:12] Se agregó nuevo item: Silicone Case iPhone 13 pro Rojo 1
+[2025-01-30 06:32:00] Se consultó el contenido del inventario
+[2025-01-30 06:33:24] Se agregó nuevo item: Silicone Case iPhone 12 Lila 1
+[2025-01-30 06:33:42] Se agregó nuevo item: Silicone Case iPhone 12 Rojo 1
+[2025-01-30 06:34:04] Se agregó nuevo item: Silicone Case iPhone 12 Pro Rojo 1
+[2025-01-30 06:34:29] Se agregó nuevo item: Silicone Case iPhone 12 / 12 Pro Verde 1
+[2025-01-30 06:35:43] Se agregó nuevo item: Silicone Case Abierto iPhone 11 Lila 1
+[2025-01-30 06:36:08] Se agregó nuevo item: Silicone Case iPhone 11 Morado 1
+[2025-01-30 06:36:39] Se agregó nuevo item: Silicone Case Abierto iPhone 11 Morado 1
+[2025-01-30 06:36:59] Se agregó nuevo item: Silicone Case Abierto iPhone 11 Pro Rojo 1
+[2025-01-30 06:37:31] Se agregó nuevo item: Silicone Case iPhone 11 Pro Max AzulOscuro 1
+[2025-01-30 06:38:00] Se agregó nuevo item: Silicone Case Abierto iPhone 11 Pro Max Lila 1
+[2025-01-30 06:38:21] Se agregó nuevo item: Silicone Case Abierto iPhone 11 Pro Max Rojo 1
+[2025-01-30 06:47:28] Se agregó nuevo item: Silicone Case iPhone 15 Abierto Lila 1
+[2025-01-30 06:48:48] Se agregó nuevo item: Silicone Case Samsung A02s Abierto Verde Militar 1
+[2025-01-30 06:49:29] Se agregó nuevo item: Silicone Case Samsung A02s Ab Gris 1
+[2025-01-30 06:50:14] Se agregó nuevo item: Silicone Case Samsung A02s ab Negro 1
+[2025-01-30 06:52:35] Se agregó nuevo item: Silicone Case Samsung A03s / A02s Amarillo 1
+[2025-01-30 06:52:56] Se agregó nuevo item: Silicone Case Samsung A02s ab Rosa 1
+[2025-01-30 06:53:41] Se agregó nuevo item: Silicone Case Samsung M13 Rojo 1
+[2025-01-30 06:54:17] Se agregó nuevo item: Silicone Case Samsung A03 Rojo 2
+[2025-01-30 06:54:44] Se agregó nuevo item: Silicone Case Samung A03 Rosa 1
+[2025-01-30 06:55:14] Se agregó nuevo item: Silicone Case Samsung A04s Negro 2
+[2025-01-30 06:55:35] Se agregó nuevo item: Silicone Case Samsung A05s VerdeMenta 1
+[2025-01-30 06:56:33] Se agregó nuevo item: Silicone Case Samsung A12 Verde 1
+[2025-01-30 06:56:51] Se agregó nuevo item: Silicone Case Samsung A12 / M12 Morado 1
+[2025-01-30 06:57:34] Se agregó nuevo item: Silicone Case Samsung A14 Rojo 2
+[2025-01-30 06:58:00] Se agregó nuevo item: Silicone Case Samsung A15 Rojo 2
+[2025-01-30 06:58:20] Se agregó nuevo item: Silicone Case Samsung A15 Negro 2
+[2025-01-30 06:58:49] Se agregó nuevo item: Silicone Case Samsung A21s Negro 1
+[2025-01-30 06:59:13] Se agregó nuevo item: Silicone Case Samsung A21s Fucsia 1
+[2025-01-30 07:00:07] Se filtró el inventario por la palabra: silicone
+[2025-01-30 07:00:42] Se agregó nuevo item: Silicone Case Samsung A22 4G Negro 1
+[2025-01-30 07:01:05] Se agregó nuevo item: Silicone Case Samsung A22 5G ab Rojo 1
+[2025-01-30 07:01:43] Se agregó nuevo item: Silicone Case Samsung S20 FE Rosa 1
+[2025-01-30 07:02:12] Se agregó nuevo item: Silicone Case Samsung S22 ab Rojo 1
+[2025-01-30 07:02:34] Se agregó nuevo item: Silicone Case Samsung S23 Plus Rojo 1
+[2025-01-30 07:03:07] Se agregó nuevo item: Silicone Case Samsung S23 Plus AzulClaro 1
+[2025-01-30 07:03:27] Se filtró el inventario por la palabra: s23
+[2025-01-30 07:03:33] Se consultó el contenido del inventario
+[2025-01-30 07:03:37] Se modificó la cantidad del item 'Silicone Case Samsung S23 Plus Rojo' de 1 a 2 (cambio: +1)
+[2025-01-30 07:04:02] Se agregó nuevo item: Silicone Case Samsung S23 Plus Rosa 1
+[2025-01-30 07:04:36] Se agregó nuevo item: Silicone Case Samsung A32 4g Amarillo 2
+[2025-01-30 07:04:59] Se agregó nuevo item: Silicone Case Samsung A32 5G VerdeMilitar 1
+[2025-01-30 07:05:34] Se agregó nuevo item: Silicone Case Samsung A35 Fucsia 1
+[2025-01-30 07:06:17] Se agregó nuevo item: Silicone Case Sasmung A24 Rojo 1
+[2025-01-30 07:07:25] Se agregó nuevo item: Silicone Case Samsung A50 / A30s Lila 1
+[2025-01-30 07:07:49] Se agregó nuevo item: Silicone Case Samsung A53 Negro 1
+[2025-01-30 07:08:31] Se agregó nuevo item: Silicone Case Samsung A53 Lila  1
+[2025-01-30 07:08:58] Se agregó nuevo item: Silicone Case Samsung A54 Lila 1
+[2025-01-30 07:09:16] Se agregó nuevo item: Silicone Case Samsung A54 Negro 1
+[2025-01-30 07:09:41] Se agregó nuevo item: Silicone Case Samsung A54 Amarillo 1
+[2025-01-30 07:10:05] Se agregó nuevo item: Silicone Case Samsung A55 Negro 1
+[2025-01-30 07:10:18] Se agregó nuevo item: Silicone Case Samsung A55 Amarillo 1
+[2025-01-30 07:13:01] Se filtró el inventario por la palabra: silicone case samsung
