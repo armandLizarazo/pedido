@@ -959,3 +959,35 @@ Línea  | Contenido
   141 | Pacha Motorola Moto G22 ok
   142 | Flex Principal Redmi Note 8 ok
   143 | Fpc Redmi Note 8 ok
+
+==================================================
+Fecha de proceso: 2025-01-30 14:02:00
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 23
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | 5D Honor X8a ok
+    4 | 5D Mi 11t x5 ok
+    8 | 5D Redmi A2 ok
+   46 | Forro Diseños Oppo A54 Dama ok
+   65 | Manos Libres Samsung Akg x5 ok
+   80 | Silicone Case Moto G9 Power Rojo ok
+   82 | Silicone Case Oppo A57 Rosa ok
+   86 | Silicone Case Redmi 9 Lila ok
+   87 | Silicone Case Redmi Note 11 Negro ok
+   95 | Vidrio Antiespia A225g ok
+   96 | Vidrio Antiespia Moto G24 ok
+   99 | Vidrio Templado Samsung A05 ok
+  111 | Control Gamer Gatillos W11+ ok
+  114 | Holder Moto ok
+  120 | Mouse Eco B100 ok
+  124 | Parlantes PC Eco ok
+  127 | Popit oso ok
+  137 | Switch HDMI 3 a 1 ok
+  143 | Bateria Redmi Note 8 ok
+  150 | Pacha Redmi Note 11 / Note 12s ok
+  152 | Pacha Samsung A22 5G s/m ok
+  155 | Visor Camara Oppo Reno 6 Lite ok
+  156 | Visor Camara Redmi Note 13 4g ok
