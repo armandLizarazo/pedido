@@ -87,15 +87,15 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch redondos Grandes
     Vidrio Tortuga A21s
     Vidrio Tortuga Redmi Note 13 Pro 4G 
-    Audifonos Bluetooth Harvic BT-543 Blanco
-    Audifonos Bluetooth Harvic BT-543 Negro
-    Cables Apple TC Ligthning x2
-    Cables Apple USB Ligthning x2
-    Forro Diseños Redmi Note 11 Caballero x3
-    Forro Diseños Redmi 12c Caballero x4
-    Silicone Case Redmi Note 13 Pro Negro
+    Audifonos Bluetooth Harvic BT-543 Blanco ok
+    Audifonos Bluetooth Harvic BT-543 Negro ok
+    Cables Apple TC Ligthning x2 ok
+    Cables Apple USB Ligthning x2 ok
+    Forro Diseños Redmi Note 11 Caballero x3 ok
+    Forro Diseños Redmi 12c Caballero x3
+    Silicone Case Redmi Note 13 Pro Negro ok
     Vidrio Camara Note 13 Pro
-    Vidrio Camara iPhone 11
+    Vidrio Camara iPhone 11 ok
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA
@@ -134,19 +134,16 @@ JOMA - 107 - THOR - AtrasPr -Memorias
 
 
 Julian
-    Garantia Pacha Samsung A23
+    Garantia Pacha Samsung A23 ok
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G31
     Pacha Note 10 Pro 
-    Pacha Realme C53
-    Pacha Samsung A22 5G c/m
-    Pacha Samsung A33
-    Pacha Samsung M23
-    Pacha Redmi A2
-    Pacha Note 11 x2
+    Pacha Realme C53 ok
+    Pacha Redmi A2 ok
+    Pacha Note 11 x2 ok
     Pacha Nokia G20
-    Camara Frontal Redmi 12c
+    Camara Frontal Redmi 12c ok
 
 
 
