@@ -15,7 +15,7 @@ def contar_billetes():
     y calcula el valor total por denominación y el monto total.
     Los resultados se muestran en una tabla.
     """
-    denominaciones = [50000, 20000, 10000, 5000, 2000]
+    denominaciones = [100000,50000, 20000, 10000, 5000, 2000]
     total_general = 0
     tabla = []
 
