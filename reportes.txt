@@ -180,3 +180,77 @@
 [2025-01-30 07:10:05] Se agregó nuevo item: Silicone Case Samsung A55 Negro 1
 [2025-01-30 07:10:18] Se agregó nuevo item: Silicone Case Samsung A55 Amarillo 1
 [2025-01-30 07:13:01] Se filtró el inventario por la palabra: silicone case samsung
+[2025-02-01 23:06:08] Se consultó el contenido del inventario
+[2025-02-01 23:06:22] Se filtró el inventario por la palabra: space
+[2025-02-01 23:07:10] Se agregó nuevo item: Forro Space Motorola Moto G84 2
+[2025-02-01 23:07:31] Se agregó nuevo item: Forro Space Motorola Moto G60s 1
+[2025-02-01 23:08:18] Se agregó nuevo item: Forro Space Motorola Moto E7 Plus / G9 Play 2
+[2025-02-01 23:08:38] Se agregó nuevo item: Forro Space Motorola Moto E20 1
+[2025-02-01 23:10:24] Se agregó nuevo item:  Forro Space Moto Edge 40 3
+[2025-02-01 23:12:38] Se agregó nuevo item: Forro Space Motorola Moto G24 / G04 4
+[2025-02-01 23:13:14] Se consultó el contenido del inventario
+[2025-02-01 23:13:20] Se modificó la cantidad del item 'Vidrio 5D Redmi Note 11' de 0 a 5 (cambio: +5)
+[2025-02-01 23:13:36] Se filtró el inventario por la palabra: x6
+[2025-02-01 23:14:30] Se agregó nuevo item: Vidrio 5D Huawei Honor X6s 2
+[2025-02-01 23:14:49] Se agregó nuevo item: Vidrio Antiespia Huawei Honor X6s 2
+[2025-02-01 23:15:05] Se agregó nuevo item: Vidrio Tortuga Huawei Honor X6s 2
+[2025-02-01 23:16:15] Se agregó nuevo item: Forro Space Motorola Moto G14 1
+[2025-02-01 23:17:09] Se agregó nuevo item: Forro Space Motorola Moto G13 / G23 1
+[2025-02-01 23:19:08] Se agregó nuevo item: Forro Space Motorola Moto G54 1
+[2025-02-01 23:20:02] Se agregó nuevo item: Forro Space Motorola Moto G31 / G41 1
+[2025-02-01 23:20:27] Se agregó nuevo item: Forro Space Motorola Moto G20 / G30 2
+[2025-02-01 23:21:49] Se agregó nuevo item: Forro Space Motorola Moto G20 / G30 ab 1
+[2025-02-01 23:26:34] Se agregó nuevo item: Forro Space Huawei Honor X6a 2
+[2025-02-01 23:27:17] Se agregó nuevo item: Forro Space Huawei Honor X6 / X6s 1
+[2025-02-01 23:27:38] Se agregó nuevo item: Forro Space Huawei Honor X8 1
+[2025-02-01 23:28:41] Se agregó nuevo item: Forro Space Huawei Honor X7a 1
+[2025-02-01 23:29:10] Se agregó nuevo item: Forro Space Huawei Y9 2019 1
+[2025-02-01 23:31:33] Se agregó nuevo item: Forro Space Huawei Nova Y90 1
+[2025-02-01 23:33:27] Se agregó nuevo item: Forro Space Apple iPhone 15 plus 2
+[2025-02-01 23:34:13] Se agregó nuevo item: Forro Space Apple iPhone 14 pro Max 1
+[2025-02-01 23:34:51] Se agregó nuevo item: Forro Space Apple iPhone 6s 1
+[2025-02-01 23:35:31] Se agregó nuevo item: Forro Space Apple iPhone 13 Mini 1
+[2025-02-01 23:36:30] Se agregó nuevo item: Forro Space Apple iPhpone 14 Max ab 1
+[2025-02-01 23:38:26] Se agregó nuevo item: Forro Space Samsung A54 1
+[2025-02-01 23:40:49] Se agregó nuevo item: Forro Space Samsung S21 FE ab 1
+[2025-02-01 23:42:01] Se agregó nuevo item: Forro Space Samsung A55 2
+[2025-02-01 23:42:49] Se agregó nuevo item: Forro Space Samsung S23 FE 1
+[2025-02-01 23:43:07] Se agregó nuevo item: Forro Space Samsung A25 1
+[2025-02-01 23:43:34] Se agregó nuevo item: Forro Space Samsung A31 1
+[2025-02-01 23:43:50] Se agregó nuevo item: Forro Space Samsung A20s 1
+[2025-02-01 23:44:08] Se agregó nuevo item: Forro Space Samsung A14 1
+[2025-02-01 23:44:20] Se agregó nuevo item: Forro Space Samsung A15 1
+[2025-02-01 23:45:04] Se agregó nuevo item: Forro Space Samsung A03s / A02s 1
+[2025-02-01 23:45:30] Se agregó nuevo item: Forro Space Samsung A05s 1
+[2025-02-01 23:46:15] Se agregó nuevo item: Forro Space Samsung A03 1
+[2025-02-01 23:48:54] Se agregó nuevo item: Forro Space Samsung A13 1
+[2025-02-01 23:49:04] Se agregó nuevo item: Forro Space Samsung A13 5G 2
+[2025-02-01 23:50:18] Se agregó nuevo item: Forro Space Color Samsung A34 ab Negro 1
+[2025-02-01 23:51:09] Se agregó nuevo item: Forro Space Color Samsung A05s ab Lila 1
+[2025-02-01 23:53:25] Se agregó nuevo item: Forro Space Color Samsung A34 ab Negro 1
+[2025-02-01 23:55:45] Se agregó nuevo item: Forro Space Xiaomi Redmi 10c 2
+[2025-02-01 23:56:33] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 10 Pro 1
+[2025-02-02 00:00:08] Se agregó nuevo item: Forro Space Xiaomi Note 10 / Note 10s 4
+[2025-02-02 00:00:28] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 10 5G 2
+[2025-02-02 00:02:08] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 13 4G 2
+[2025-02-02 00:02:52] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 12 1
+[2025-02-02 00:03:40] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 12 Pro 2
+[2025-02-02 00:05:22] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 12s 3
+[2025-02-02 00:07:24] Se agregó nuevo item: Forro Space Xiaomi Mi 12t 1
+[2025-02-02 00:07:43] Se agregó nuevo item: Forro Space Xiaomi Mi 12 Lite 1
+[2025-02-02 00:08:51] Se agregó nuevo item: Forro Space Xiaomi Redmi Note 11 2
+[2025-02-02 00:09:06] Se agregó nuevo item: Forro Space Xiaomi Redmi 9a 1
+[2025-02-02 00:09:40] Se agregó nuevo item: Forro Space Xiaomi Redmi 9 1
+[2025-02-02 00:10:04] Se agregó nuevo item: Forro Space Xiaomi Poco X3 1
+[2025-02-02 00:10:35] Se agregó nuevo item: Forro Space Color Xiaomi Redmi Note 8 Rosa 1
+[2025-02-02 00:12:03] Se agregó nuevo item: Forro Space Xiaomi Redmi A1 / A2 1
+[2025-02-02 00:12:16] Se agregó nuevo item: Forro Space Xiaomi Redmi A3 2
+[2025-02-02 00:25:36] Se filtró el inventario por la palabra: adaptadores
+[2025-02-02 00:28:14] Se filtró el inventario por la palabra: aro de luz
+[2025-02-02 00:49:24] Se filtró el inventario por la palabra: x15
+[2025-02-02 00:51:23] Se filtró el inventario por la palabra: g50
+[2025-02-02 00:52:13] Se filtró el inventario por la palabra: forro space motorola
+[2025-02-02 00:52:35] Se filtró el inventario por la palabra: c67
+[2025-02-02 00:52:46] Se filtró el inventario por la palabra: a54
+[2025-02-02 00:53:38] Se filtró el inventario por la palabra: g54
+[2025-02-02 00:57:42] Se agregó nuevo item: Forro Space MagSafe Apple iPhone 11 1

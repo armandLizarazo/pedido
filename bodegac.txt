@@ -49,10 +49,68 @@
     Forro Diseños Samsung A35 Dama 1
     Forro Diseños Samsung A55 Caballero 5
     Forro Pin A55 Dama 2
+    Forro Space Apple iPhone 11 1
+    Forro Space Apple iPhone 13 Mini 1
+    Forro Space Apple iPhone 14 pro Max 1
+    Forro Space Apple iPhone 15 plus 2
+    Forro Space Apple iPhone 6s 1
+    Forro Space Apple iPhpone 14 Max ab 1
+    Forro Space Color Samsung A05s ab Lila 1
+    Forro Space Color Samsung A34 ab Negro 1
+    Forro Space Color Samsung A34 ab Negro 1
+    Forro Space Color Xiaomi Redmi Note 8 Rosa 1
     Forro Space Honor X7a 1
-    Forro Space Redmi 12 1
-    Forro Space Redmi Note 12s 1
-    Forro Space iPhone 11 1
+    Forro Space Huawei Honor X6 / X6s 1
+    Forro Space Huawei Honor X6a 2
+    Forro Space Huawei Honor X7a 1
+    Forro Space Huawei Honor X8 1
+    Forro Space Huawei Nova Y90 1
+    Forro Space Huawei Y9 2019 1
+    Forro Space MagSafe Apple iPhone 11 1
+    Forro Space Motorola Moto E20 1
+    Forro Space Motorola Moto E7 Plus / G9 Play 2
+    Forro Space Motorola Moto Edge 40 3
+    Forro Space Motorola Moto G13 / G23 1
+    Forro Space Motorola Moto G14 1
+    Forro Space Motorola Moto G20 / G30 1
+    Forro Space Motorola Moto G20 / G30 ab 1
+    Forro Space Motorola Moto G24 / G04 4
+    Forro Space Motorola Moto G31 / G41 1
+    Forro Space Motorola Moto G54 1
+    Forro Space Motorola Moto G60s 1
+    Forro Space Motorola Moto G84 2
+    Forro Space Samsung A03 1
+    Forro Space Samsung A03s / A02s 1
+    Forro Space Samsung A05s 1
+    Forro Space Samsung A13 1
+    Forro Space Samsung A13 5G 2
+    Forro Space Samsung A14 1
+    Forro Space Samsung A15 1
+    Forro Space Samsung A20s 1
+    Forro Space Samsung A25 1
+    Forro Space Samsung A31 1
+    Forro Space Samsung A54 1
+    Forro Space Samsung A55 2
+    Forro Space Samsung S21 FE ab 1
+    Forro Space Samsung S23 FE 1
+    Forro Space Xiaomi Mi 12 Lite 1
+    Forro Space Xiaomi Mi 12t 1
+    Forro Space Xiaomi Note 10 / Note 10s 4
+    Forro Space Xiaomi Poco X3 1
+    Forro Space Xiaomi Redmi 10c 2
+    Forro Space Xiaomi Redmi 12 1
+    Forro Space Xiaomi Redmi 9 1
+    Forro Space Xiaomi Redmi 9a 1
+    Forro Space Xiaomi Redmi A1 / A2 1
+    Forro Space Xiaomi Redmi A3 2
+    Forro Space Xiaomi Redmi Note 10 5G 2
+    Forro Space Xiaomi Redmi Note 10 Pro 1
+    Forro Space Xiaomi Redmi Note 11 2
+    Forro Space Xiaomi Redmi Note 12 1
+    Forro Space Xiaomi Redmi Note 12 Pro 2
+    Forro Space Xiaomi Redmi Note 12s 1
+    Forro Space Xiaomi Redmi Note 12s 3
+    Forro Space Xiaomi Redmi Note 13 4G 2
     Gramera Sencilla 1
     Parlante TG S8a 1
     Patillera 3 en 1 2
@@ -61,13 +119,12 @@
     Silicone Case Oppo A17 Lila 1
     Silicone Case Oppo A17 Morado 1
     Silicone Case Oppo A17 Negro 1
-    Silicone Case Redmi 12 Amarillo 1
-    Silicone Case Redmi 12 Lila 2
     Silicone Case Samsung A02s ab Gris 1
     Silicone Case Samsung A02s ab Negro 1
     Silicone Case Samsung A02s ab Rosa 1
     Silicone Case Samsung A02s ab Verde Militar 1
     Silicone Case Samsung A03 Rojo 2
+    Silicone Case Samsung A03 Rosa 1
     Silicone Case Samsung A03s / A02s Amarillo 1
     Silicone Case Samsung A04e Rojo 1
     Silicone Case Samsung A04s Negro 2
@@ -81,6 +138,7 @@
     Silicone Case Samsung A21s Negro 1
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G ab Rojo 1
+    Silicone Case Samsung A24 Rojo 1
     Silicone Case Samsung A32 4g Amarillo 2
     Silicone Case Samsung A32 5G VerdeMilitar 1
     Silicone Case Samsung A35 Fucsia 1
@@ -98,15 +156,15 @@
     Silicone Case Samsung S23 Plus AzulClaro 1
     Silicone Case Samsung S23 Plus Rojo 2
     Silicone Case Samsung S23 Plus Rosa 1
-    Silicone Case Samsung A03 Rosa 1
-    Silicone Case Samsung A24 Rojo 1
+    Silicone Case Xiaomi Redmi 12 Amarillo 1
+    Silicone Case Xiaomi Redmi 12 Lila 2
     Silicone Case iPhone 11 Morado 1
     Silicone Case iPhone 11 Pro Max AzulOscuro 1
+    Silicone Case iPhone 11 Pro Max ab Lila 1
+    Silicone Case iPhone 11 Pro Max ab Rojo 1
+    Silicone Case iPhone 11 Proab  Rojo 1
     Silicone Case iPhone 11 ab Lila 1
     Silicone Case iPhone 11 ab Morado 1
-    Silicone Case iPhone 11 ab Pro Max Lila 1
-    Silicone Case iPhone 11 ab Pro Max Rojo 1
-    Silicone Case iPhone 11 abPro Rojo 1
     Silicone Case iPhone 12 / 12 Pro ab Verde 1
     Silicone Case iPhone 12 Lila 1
     Silicone Case iPhone 12 Pro Rojo 1
@@ -118,13 +176,16 @@
     Silicone Case iPhone 15 Abierto Lila 1
     Soporte TV 32 Brazo 2
     Soporte TV 50 Brazo 2
+    Vidrio 5D Huawei Honor X6s 2
     Vidrio 5D Redmi 13c 4
-    Vidrio 5D Redmi Note 11 0
+    Vidrio 5D Redmi Note 11 5
     Vidrio 5D Samsung A12 4
     Vidrio 5D iPhone 13 / 13Pro 8
+    Vidrio Antiespia Huawei Honor X6s 2
     Vidrio Antiespia Redmi 13c 3
     Vidrio Blindado Redmi 13c / Honor X7 X7a / Realme C51-53 3
     Vidrio Blindado Redmi Note 11-12s / Sam A53-51 S20FE / Note 10-10s 5
+    Vidrio Tortuga Huawei Honor X6s 2
     Vidrio Tortuga Redmi 13c 2
     Vidrio Tortuga Redmi Note 11 10
     Vidrio Tortuga Samsung A12 3

@@ -991,3 +991,24 @@ Línea  | Contenido
   152 | Pacha Samsung A22 5G s/m ok
   155 | Visor Camara Oppo Reno 6 Lite ok
   156 | Visor Camara Redmi Note 13 4g ok
+
+==================================================
+Fecha de proceso: 2025-02-02 00:17:08
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   90 | Audifonos Bluetooth Harvic BT-543 Blanco ok
+   91 | Audifonos Bluetooth Harvic BT-543 Negro ok
+   92 | Cables Apple TC Ligthning x2 ok
+   93 | Cables Apple USB Ligthning x2 ok
+   94 | Forro Diseños Redmi Note 11 Caballero x3 ok
+   96 | Silicone Case Redmi Note 13 Pro Negro ok
+   98 | Vidrio Camara iPhone 11 ok
+  137 | Garantia Pacha Samsung A23 ok
+  142 | Pacha Realme C53 ok
+  143 | Pacha Redmi A2 ok
+  144 | Pacha Note 11 x2 ok
+  146 | Camara Frontal Redmi 12c ok
