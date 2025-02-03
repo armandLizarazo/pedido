@@ -1,163 +1,195 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    Celular T72
-    Celular T76
-    Forro Aramdura Reno 11 Rojo
-    Forro Aramdura X6a 
-    Forro Armadura A15 
-    Forro Armadura A54 Negro 
+    Audifonos Bluetooth Harvic BT-543 II Negro 1
+    Celular T72 1
+    Celular T76 1
+    Forro Aramdura Reno 11 Rojo 1
+    Forro Aramdura X6a 1
+    Forro Armadura A15 1
+    Forro Armadura A54 Negro 1
     Forro Armadura Honor X7 
     Forro Armadura Honor X8 
-    Forro Armadura K61 Rojo
-    Forro Armadura Moto Edge 50 Fusion Negro
-    Forro Armadura Motorola Moto G22 Rojo
+    Forro Armadura K61 Rojo 1
+    Forro Armadura Moto Edge 50 Fusion Negro 1
+    Forro Armadura Moto G04 Negro 1
+    Forro Armadura Motorola Moto G22 Rojo 1
     Forro Armadura Oppo A15
     Forro Armadura Oppo A16
     Forro Armadura Oppo A38
     Forro Armadura Oppo A54 
     Forro Armadura Pova 4
     Forro Armadura Pova 5
-    Forro Armadura Pova 5 Azul 
+    Forro Armadura Pova 5 Azul 1
     Forro Armadura Redmi Note 5G
-    Forro Armadura Reno 11 f Negro x2
-    Forro Armadura S23 Negro
-    Forro Armadura S23 Rojo
+    Forro Armadura Reno 11f Negro 2
+    Forro Armadura S23 Negro 1
+    Forro Armadura S23 Rojo 1
+    Forro Armadura Samsung A13 Negro 1
     Forro Armadura Tecno Camon
-    Forro Armadura Tecno Spark Go 2022 Rojo
+    Forro Armadura Tecno Spark Go 2022 Rojo 1
     Forro Armadura X7b Armadura 
-    Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro
-    Forro Diseños A20s Caballero x2
-    Forro Diseños A20s Dama x2
-    Forro Diseños A36 Caballero
-    Forro Diseños A53 Caballero
-    Forro Diseños Infinix Hot 30 Pro
-    Forro Diseños Infinix Hot 30 Pro 
-    Forro Diseños Infinix Hot 50 Pro Plus Caballero
-    Forro Diseños Infinix Hot 50 Pro Plus Dama
-    Forro Diseños Moto G24 Dama 
-    Forro Diseños Oppo A17 Dama
-    Forro Diseños Oppo A54 Caballero 
-    Forro Diseños Oppo A80
-    Forro Diseños Pova 5 Caballero
-    Forro Diseños Redmi 12c Caballero x3
-    Forro Diseños Samsung A03 Core Dama x3
-    Forro Diseños Samsung A11 Caballero x3
-    Forro Diseños Samsung A13 Dama x3
-    Forro Diseños Tecno Spark Go 2024 Dama x4
-    Forro Diseños V25e Caballero 
-    Forro Diseños Vivo Y20s Caballero x3
-    Forro Diseños Xiaomi Redmi Note 11 Caballero x3
-    Forro Diseños Y33s Dama x2
-    Forro Diseños Y7a Dama 
-    Forro Disñeos Oppo A17 Caballero
-    Forro Lujo A05s 
-    Forro Lujo Spark 30c Negro
-    Forro Pin Redmi Note 13 Pro 4G
-    Forro Pin Tecno Spark Go 2024
-    Forro Space A35 
-    Forro Space A36 
-    Forro Space Camon 18 
+    Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
+    Forro Armadura Xiaomi Redmi note 10 / Note 10s Azul 1
+    Forro Audifonos i12 5
+    Forro Diseños Huawei Y7a Dama 3
+    Forro Diseños Infinix Hot 30 Pro 5
+    Forro Diseños Infinix Hot 30 Pro 5
+    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
+    Forro Diseños Infinix Hot 50 Pro Plus Dama 5
+    Forro Diseños Motorola Moto G24 Dama 3
+    Forro Diseños Oppo A17 Dama 3
+    Forro Diseños Oppo A54 Caballero 3
+    Forro Diseños Oppo A80 Caballero 5
+    Forro Diseños Oppo A80 Caballero 5
+    Forro Diseños Samsung A03 Core Dama 3
+    Forro Diseños Samsung A11 Caballero 3
+    Forro Diseños Samsung A13 Dama 3
+    Forro Diseños Samsung A20s Caballero 2
+    Forro Diseños Samsung A20s Dama 2
+    Forro Diseños Samsung A36 Caballero 5
+    Forro Diseños Samsung A53 Caballero 5
+    Forro Diseños Tecno Spark Go 2024 Dama 4
+    Forro Diseños Vivo V25e Caballero 3
+    Forro Diseños Vivo Y20s Caballero 3
+    Forro Diseños Vivo Y33s Dama 2
+    Forro Diseños Xiaomi Pova 5 Caballero 3
+    Forro Diseños Xiaomi Redmi 12c Caballero 3
+    Forro Diseños Xiaomi Redmi Note 11 Caballero 3
+    Forro Diseños Xiaomi Redmi Note 12 Caballero 3
+    Forro Diseños Xiaomi Redmi Note 8 Dama 5
+    Forro Disñeos Oppo A17 Caballero 3
+    Forro Lujo Samsung A05s 1
+    Forro Lujo Tecno Spark 30c Negro 1
+    Forro Pin Tecno Spark Go 2024 2
+    Forro Pin Xiaomi Redmi Note 13 Pro 4G 2
     Forro Space Color Xiaomi Redmi Note 11 Negro
     Forro Space Motorola Moto G50
     Forro Space Oppo A80
     Forro Space Oppo Realme C67
     Forro Space Oppo Reno 12F 
+    Forro Space Samsung A35 
+    Forro Space Samsung A36 
     Forro Space Samsung A54
+    Forro Space Tecno Camon 18p
     Forro Space Vivo V38 x2
+    Forro Space Xiaomi Redmi 13c 1
+    Forro Space Xiaomi Redmi Note 12 Pro 1
+    Forro Space Xiaomi Redmi Note 13 Pro 4g 1
+    Forro Space Xiomi Redmi Note 13 4g 1
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
+    Manos Libres Samsung Bolsa Blanco 5
     Mouse Harvic MCB-422
     Pines Forros
     Plancha Combo Aguacate
     Power bank Nueva
-    Silicone Case A14 Lila
-    Silicone Case A35 Palo Rosa o Cafe
-    Silicone Case Huawei Y9 Prime Rosa
-    Silicone Case Infinix Hot 50 Pro Plus
-    Silicone Case M13 Verde
-    Silicone Case M23 Fucsia
-    Silicone Case M23 Negro
-    Silicone Case M23 Rojo
-    Silicone Case Moto Edge 50 Fusion Fucsia
-    Silicone Case Moto Edge 50 Fusion Morado
-    Silicone Case Moto G8 plus Negro
-    Silicone Case Motorola Moto G54 Morado
-    Silicone Case Note 12s Negro 
-    Silicone Case Realme 7i Lila 
-    Silicone Case Realme C53 Amarillo 
-    Silicone Case Realme C55 Rojo
-    Silicone Case Redmi Note 7 AzulClaro
-    Silicone Case Tecno Spark 10 Morado
-    Silicone Case Tecno Spark Go 2024 Rojo
-    Silicone Case Xiaomi Redmi Note 11 Lila
-    Silicone Case Xiaomi Redmi Note 12s Rojo
-    Silicone Case Y15s Palo Rosa
-    Silicone Case Y7a Rojo 
-    Silicone Case iPhone 11 Pro
-    Silicone Case iPhone X Rosa
-    Simcard WOM x5 
+    Silicone Case Apple iPhone 11 Pro 1
+    Silicone Case Apple iPhone X / Xs Morado 1
+    Silicone Case Apple iPhone X Rosa 1
+    Silicone Case Huawei Y7a Rojo 1
+    Silicone Case Huawei Y9 Prime Rosa 1
+    Silicone Case Infinix Hot 50 Pro Plus 1
+    Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1
+    Silicone Case Motorola Moto Edge 50 Fusion Morado 1
+    Silicone Case Motorola Moto G54 Morado 1
+    Silicone Case Motorola Moto G8 plus Negro 1
+    Silicone Case Oppo A15 Rosa 1
+    Silicone Case Oppo Realme 7i Lila 1
+    Silicone Case Oppo Realme C53 Amarillo 1 
+    Silicone Case Oppo Reno 7 Blanco 1
+    Silicone Case Samsung A14 Lila 1
+    Silicone Case Samsung A35 Palo Rosa o Cafe 1
+    Silicone Case Samsung M13 Verde 1
+    Silicone Case Samsung M23 Fucsia 1
+    Silicone Case Samsung M23 Negro 1
+    Silicone Case Samsung M23 Rojo 1
+    Silicone Case Tecno Camon 20 / 20 Pro Negro 1
+    Silicone Case Tecno Spark 10 Morado 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20c Axul Rey 1
+    Silicone Case Tecno Spark Go 2024 Rojo 1
+    Silicone Case Vivo Y15s Palo Rosa 1
+    Silicone Case Vivo Y35 Negro 1
+    Silicone Case Xiaomi Redmi 12 Amarillo 1
+    Silicone Case Xiaomi Redmi 12 Fucsia 1
+    Silicone Case Xiaomi Redmi 12c Negro 1
+    Silicone Case Xiaomi Redmi 13 Fucsia 1
+    Silicone Case Xiaomi Redmi 13 Negro 1
+    Silicone Case Xiaomi Redmi 13c Fucsia 1
+    Silicone Case Xiaomi Redmi 13c Rojo 1
+    Silicone Case Xiaomi Redmi Note 12s Negro 1
+    Silicone Case Xiaomi Redmi Note 12s Rojo 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4g Negro 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
+    Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
+    Silicone Case Xiomi Poco X3 Negro 1
+    Silicone Case Xiomi Redmi Note 12s Rojo 1
+    Simcard WOM 5 
     Tableta Tigers Kids Rosa
-    Vidiro 5D Oppo Realme C53 
-    Vidrio 5D Oppo A38
-    Vidrio 5D Oppo A79
-    Vidrio 5D Oppo A80 
-    Vidrio 5D Samsung A06
-    Vidrio 5D Samsung A34
-    Vidrio 5D Tecno Spark 30 5G
-    Vidrio 5D Tecno Spark 30 pro
-    Vidrio 5D Tecno Spark 30c
-    Vidrio 5d Samsung A11
-    Vidrio Antiespia Samsung A34
-    Vidrio Blindado Motorola Moto G54
-    Vidrio Camara Note 13 Pro
-    Vidrio Ceramico Oppo A79
-    Vidrio Smart Watch redondos Grandes
-    Vidrio Tortuga A21s
-    Vidrio Tortuga Redmi Note 13 Pro 4G
-
+    Vidiro 5D Oppo Realme C53 5
+    Vidrio 5D Oppo A38 5
+    Vidrio 5D Oppo A79 5
+    Vidrio 5D Oppo A80 5
+    Vidrio 5D Samsung A06 5
+    Vidrio 5D Samsung A34 5
+    Vidrio 5D Tecno Spark 30 5G 5
+    Vidrio 5D Tecno Spark 30 pro 5
+    Vidrio 5D Tecno Spark 30c 5
+    Vidrio 5d Samsung A11 5
+    Vidrio Antiespia Samsung A34 5
+    Vidrio Blindado Motorola Moto G54 5
+    Vidrio Ceramico Oppo A79 5
+    Vidrio Smart Watch redondos Grandes 5
+    Vidrio Tortuga Redmi Note 13 Pro 4G 5
+    Vidrio Tortuga Samsung A21s 5
+ 
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adapatadores Europeo Goma
     Adaptador DVI2VGA
     Adaptadores AV2HDMI
+    Adaptadores VGA2HDMI 2
     Aro de Luz 26cm RGB 3
     Aro de Luz 33cm
     Aro de Luz Joma 26cm Ligth x2
+    Audifonoe Bluetooth i12 Rosa 2
     Audifonos Bluetooth Ambie Pantalla
+    Audifonos Bluetooth i12 AzulClaro 2
+    Audifonos Bluetooth i12 Negro 3
     Cable Poder Grabadora
     Cargadores Generico 12v
     Conectores RJ45
     Control Gamer PS4 Negro
+    Control TV Box 3
+    Control TV Universal 3
     Dron Sencillo
-    Guantes Gamer
+    Forro Teclado 15 pulgadas 2
+    Garantia Proyector HY300 1
+    Guantes Gamer 5
     Holder Bicicleta
-    Inpods 12 AzulClaro x2
-    Inpods 12 Rosa x2
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Mouse A78
     Mouse Eco B100
     Mouse Economico
-    ONN HD
     Pad Mouse Tapete Diseños
     Plancha Babyliss Combo
     Popit Ardilla
-    Power Bank Beston
     Power Bank Panel Solar
     Proyector P40 Juegos
-    Rollo Cinta Led Bluetooth x3
-    SUP con Control Negro
+    Reproductor ONN HD
     Smart Band 7 
+    Soporte Celular Metalico 
     Soporte Monitor Mesa
     Soporte Para Control PS4 
-    Split 2 Hembras
     Tecaldo Mecanico Gamer
-    Termo Motivacioni
+    Termo Motivacion
 
 
 Julian
-    Bateria Moto G04e p
     Bateria Motorola Moto G6
-    Flex de Power Tecno Spark 7
+    Bateria Samsung A04e p
+    Flex de Power Tecno Pop7 1
     Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
@@ -165,6 +197,8 @@ Julian
     Pacha Nokia G10 / G20
     Pacha Note 10 Pro 
     Pacha Samsugn A11 s/m
+    Pacha Tecno Sark Go 2024 / 20 / 20c
+    Pacha Xiaomi Redmi 10
     Pacha Xiaomi Redmi Note 11 / Note 12s
     Tapa Samsung A11 Azul
 

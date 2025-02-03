@@ -254,3 +254,164 @@
 [2025-02-02 00:52:46] Se filtró el inventario por la palabra: a54
 [2025-02-02 00:53:38] Se filtró el inventario por la palabra: g54
 [2025-02-02 00:57:42] Se agregó nuevo item: Forro Space MagSafe Apple iPhone 11 1
+[2025-02-02 01:04:43] Se filtró el inventario por la palabra: forro space apple
+[2025-02-02 01:05:19] Se filtró el inventario por la palabra: forro space samsung
+[2025-02-02 01:06:44] Se filtró el inventario por la palabra: silicone case samsung
+[2025-02-02 01:08:33] Se filtró el inventario por la palabra: cargadores
+[2025-02-02 01:08:49] Se filtró el inventario por la palabra: cargador
+[2025-02-02 01:09:42] Se filtró el inventario por la palabra: manos libres
+[2025-02-02 01:09:55] Se filtró el inventario por la palabra: vidrio
+[2025-02-02 01:10:35] Se filtró el inventario por la palabra: cables
+[2025-02-02 01:12:43] Se filtró el inventario por la palabra: cable
+[2025-02-03 06:34:32] Se agregó nuevo item: Forro Space Tecno Pova 5 4
+[2025-02-03 06:36:10] Se agregó nuevo item: Forro Space Tecno Spark Go 2022 / 8c 1
+[2025-02-03 06:36:37] Se agregó nuevo item: Forro Space Tecno Spark 10 / 10c 2
+[2025-02-03 06:37:22] Se agregó nuevo item: Forro Space Tecno Spark Go 2023 4
+[2025-02-03 06:38:00] Se agregó nuevo item: Forro Space Vivo Y20 / Y20s / Y11s 2
+[2025-02-03 06:39:39] Se agregó nuevo item: Forro Space Vivo Y22s 1
+[2025-02-03 06:39:50] Se agregó nuevo item: Forro Space Vivo Y33s 1
+[2025-02-03 06:41:10] Se agregó nuevo item: Forro Space Vivo V25e / S16 5G 1
+[2025-02-03 06:41:58] Se agregó nuevo item: Forro Space Oppo Reno 10 1
+[2025-02-03 06:42:17] Se agregó nuevo item: Forro Space Oppo A57 / A77 2
+[2025-02-03 06:43:27] Se agregó nuevo item: Forro Sppace Oppo A78 4
+[2025-02-03 06:44:09] Se agregó nuevo item: Forro Space Oppo Realme C67 2
+[2025-02-03 06:45:17] Se consultó el contenido del inventario
+[2025-02-03 06:49:01] Se agregó nuevo item: Audifonos Bluetooth X15 1
+[2025-02-03 06:49:45] Se filtró el inventario por la palabra: samsung a15
+[2025-02-03 06:51:02] Se consultó el contenido del inventario
+[2025-02-03 06:51:14] Se modificó la cantidad del item 'Silicone Case Samsung A15 Negro' de 2 a 3 (cambio: +1)
+[2025-02-03 06:51:23] Se consultó el contenido del inventario
+[2025-02-03 06:51:26] Se modificó la cantidad del item 'Silicone Case Samsung A15 Rojo' de 2 a 3 (cambio: +1)
+[2025-02-03 06:51:52] Se filtró el inventario por la palabra: samsung a15
+[2025-02-03 06:54:01] Se filtró el inventario por la palabra: a05s
+[2025-02-03 06:54:28] Se agregó nuevo item: Silicone Case Samsung A05s Negro 1
+[2025-02-03 06:54:40] Se filtró el inventario por la palabra: note 11
+[2025-02-03 06:55:25] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 11 Negro 1
+[2025-02-03 06:56:34] Se filtró el inventario por la palabra: silicone case xiaomi
+[2025-02-03 06:58:30] Se agregó nuevo item: Control Gamer Gatillos G21 1
+[2025-02-03 06:59:18] Se agregó nuevo item: Adapatadores mDPP2HDMI 1
+[2025-02-03 06:59:36] Se agregó nuevo item: DPP2HDMI 2
+[2025-02-03 07:00:02] Se agregó nuevo item: DPP2VGA 2
+[2025-02-03 07:00:30] Se agregó nuevo item: HDMI2VGA Macho 1
+[2025-02-03 07:00:38] Se filtró el inventario por la palabra: led
+[2025-02-03 07:01:00] Se agregó nuevo item: Rollo Cinta Led RGB 10m 1
+[2025-02-03 07:04:54] Se agregó nuevo item: Silicone Case Oppo Reno 7 Negro 1
+[2025-02-03 07:05:11] Se agregó nuevo item: Silicone Case Oppo A17 Rojo 1
+[2025-02-03 07:05:35] Se agregó nuevo item: Silicone Case Oppo A38 Rojo 1
+[2025-02-03 07:05:52] Se agregó nuevo item: Silicone Case Oppo A38 Negro 1
+[2025-02-03 07:06:22] Se agregó nuevo item: Silicone Case Oppo Realme C55 Negro 1
+[2025-02-03 07:06:47] Se agregó nuevo item: Silicone Case Oppo Realme C55 AzulOscuro 2
+[2025-02-03 07:07:03] Se agregó nuevo item: Silicone Case Oppo Realme C55 Rojo 1
+[2025-02-03 07:07:47] Se agregó nuevo item: Silicone Case Oppo A57 / A77 Negro 1
+[2025-02-03 07:08:22] Se agregó nuevo item: Silicone Case Oppo A59 Rojo 1
+[2025-02-03 07:08:39] Se agregó nuevo item: Silicone Case Oppo A67 Negro 1
+[2025-02-03 07:08:55] Se filtró el inventario por la palabra: silicone case oppo
+[2025-02-03 07:13:45] Se filtró el inventario por la palabra: silicone case xiaomi
+[2025-02-03 07:17:12] Se agregó nuevo item: Silicone Case Xiaomi Redmi A1 / A2 Negro 1
+[2025-02-03 07:18:28] Se agregó nuevo item: Silicone Case Xiaomi Redmi 7 Amarillo 1
+[2025-02-03 07:19:49] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9a Verde Biche 1
+[2025-02-03 07:20:10] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9a Negro 1
+[2025-02-03 07:20:55] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9t Negro 1
+[2025-02-03 07:21:13] Se agregó nuevo item: Silicone Case Xiaomi Note 9s Amarillo 1
+[2025-02-03 07:21:34] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9 Negro 1
+[2025-02-03 07:21:51] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9 Morado 1
+[2025-02-03 07:22:07] Se agregó nuevo item: Silicone Case Xiomi Redmi 9 Rojo 1
+[2025-02-03 07:22:26] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9 Amarillo 2
+[2025-02-03 07:23:00] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9c / 10a Rojo 1
+[2025-02-03 07:23:33] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9c / 10a Negro 1
+[2025-02-03 07:23:50] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9c / 10a Lila 1
+[2025-02-03 07:24:16] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9c / 10a VerdeMilitar 1
+[2025-02-03 07:24:39] Se agregó nuevo item: Silicone Case Xiaomi Redmi 9c / 10a Verde 1
+[2025-02-03 07:25:06] Se agregó nuevo item: Silicone Case Xiaomi Redmi 10c Verde 1
+[2025-02-03 07:25:24] Se agregó nuevo item: Silicone Case Xiaomi Redmi 10c VerdeBiche 1
+[2025-02-03 07:25:42] Se agregó nuevo item: Silicone Case Xiaomi Redmi 10c Rojo 1
+[2025-02-03 07:26:17] Se agregó nuevo item: Silicone Case Xiaomi Redmi 10 AzulClaro 1
+[2025-02-03 07:26:33] Se agregó nuevo item: Silicone Case Xiaomi Redmi 10 Negro 1
+[2025-02-03 07:27:08] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 10 / 10s Rojo 1
+[2025-02-03 07:27:29] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 10 / 10s Amarillo 1
+[2025-02-03 07:27:52] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 10 / 10s 1
+[2025-02-03 07:29:06] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 12s Negro 2
+[2025-02-03 07:29:53] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 11 lila 2
+[2025-02-03 07:30:13] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 11 Rojo 2
+[2025-02-03 07:30:30] Se agregó nuevo item: Silicone Case Xiaomi Redmi note 11 Fucsia 1
+[2025-02-03 07:30:48] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 11 Verde 1
+[2025-02-03 07:31:31] Se agregó nuevo item: Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
+[2025-02-03 07:32:01] Se agregó nuevo item: Silicone Case Xiaomi Redmi 12c ab Amarillo 1
+[2025-02-03 07:32:38] Se filtró el inventario por la palabra: silicone case xiaomi
+[2025-02-03 07:36:49] Se filtró el inventario por la palabra: silicone case xiaomi
+[2025-02-03 07:41:49] Se filtró el inventario por la palabra: silicone case motorola
+[2025-02-03 07:43:32] Se agregó nuevo item: Silicone Case Motorola Moto G20 Rosa 1
+[2025-02-03 07:43:53] Se agregó nuevo item: Silicone Case Motorola Moto G20 AzulRey 1
+[2025-02-03 07:44:09] Se agregó nuevo item: Silicone Case Motorola Moto G20 Negro 1
+[2025-02-03 07:44:50] Se agregó nuevo item: Silicone Case Motorola Moto G20 Morado 1
+[2025-02-03 07:45:16] Se agregó nuevo item: Silicone Case Motorola Moto G22 Fucsia 1
+[2025-02-03 07:45:34] Se agregó nuevo item: Silicone Case Motorola Moto G24 Lila 1
+[2025-02-03 07:45:55] Se agregó nuevo item: Silicone Case Motorola Moto G60s Rojo 1
+[2025-02-03 07:46:18] Se agregó nuevo item: Silicone Case Motorola Moto Edge 30 Lite Negro 1
+[2025-02-03 07:47:08] Se agregó nuevo item: Silicone Case Motorla Moto Edge 40 AzulOscuro 1
+[2025-02-03 07:47:33] Se agregó nuevo item: Silicone Case Motorola Moto Edge 40 Neo Rojo 1
+[2025-02-03 07:48:12] Se agregó nuevo item: Silicone Case Motorola Moto Edge 40 Neo Negro 1
+[2025-02-03 07:49:14] Se agregó nuevo item: Silicone Case Motorola Moto Edge 40 Negro 1
+[2025-02-03 07:49:42] Se agregó nuevo item: Silicone Case Motorola Moto Edge 40 Rojo 1
+[2025-02-03 07:57:22] Se filtró el inventario por la palabra: silicone case tecno
+[2025-02-03 07:57:56] Se agregó nuevo item: Silicone Case Infinix Note 40 Morado 1
+[2025-02-03 07:58:18] Se agregó nuevo item: Silicone Case Tecno Spark 2022 / 8c 1
+[2025-02-03 07:58:54] Se agregó nuevo item: Silicone Case Tecno Spark 2022 / 8c Negro 1
+[2025-02-03 07:59:18] Se agregó nuevo item: Silicone Case Tecno Spark 2022 / 8c Rojo 1
+[2025-02-03 08:00:23] Se agregó nuevo item: Silicone Case Tecno Spark Go 2022 / 8c Morado 1
+[2025-02-03 08:01:21] Se agregó nuevo item: Silicone Case Tecno Spark Go 2023 / Pop7 Rojo 1
+[2025-02-03 08:01:45] Se agregó nuevo item: Silicone Case Tecno Spark Go 2023 / Pop7 Lila 1
+[2025-02-03 08:02:53] Se agregó nuevo item: Silicone Case Tecnoo Spark Go 2024 / 20 / 20c / Pop8 Fucsia 1
+[2025-02-03 08:03:19] Se agregó nuevo item: Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Rojo 2
+[2025-02-03 08:03:46] Se agregó nuevo item: Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Negro 1
+[2025-02-03 08:04:04] Se agregó nuevo item: Silicone Case Tecno Spark 10 Pro Rojo 1
+[2025-02-03 08:04:38] Se agregó nuevo item: Silicone Case Tecno Spark 20 pro Plus Rojo 2
+[2025-02-03 08:05:02] Se agregó nuevo item: Silicone Case Tecno ppova 4 Rojo 1
+[2025-02-03 08:05:19] Se agregó nuevo item: Silicone Case Tecno Pova 4 Lila 1
+[2025-02-03 08:05:57] Se agregó nuevo item: Silicone Case Tecno Camon 20 / 20 pro Fucsia 1
+[2025-02-03 08:06:24] Se agregó nuevo item: Silicone Case Tecno Camon 18P Amarillo 1
+[2025-02-03 08:06:41] Se agregó nuevo item: Silicone Case Tecno Camon 18p Rosa 1
+[2025-02-03 08:07:08] Se agregó nuevo item: Silicone Case Tecno Camon 19 Pro Rosa 1
+[2025-02-03 08:07:25] Se agregó nuevo item: Silicone Case Tecno Camon 19 Pro Amarillo 1
+[2025-02-03 08:07:43] Se agregó nuevo item: Silicone Case Tecno Camon 19 Pro Rojo 1
+[2025-02-03 08:08:07] Se agregó nuevo item: Silicone Case Tecno Camon 19 Pro Morado 1
+[2025-02-03 08:15:42] Se agregó nuevo item: Silicone Case Huawei Y9 Prime Morado 1
+[2025-02-03 08:16:10] Se agregó nuevo item: Silicone Case Huawei Y9 Prime Verde 1
+[2025-02-03 08:16:42] Se agregó nuevo item: Silicone Case Huawei Mate 20 lite Rosa 1
+[2025-02-03 08:17:46] Se agregó nuevo item: Silicone Case Huawei Nova Y70 Lila 1
+[2025-02-03 08:18:04] Se agregó nuevo item: Silicone Case Huawei Nova Y70 Amarillo 1
+[2025-02-03 08:18:48] Se agregó nuevo item: Silicone Case Huawei Nova 9se Negro 1
+[2025-02-03 08:19:24] Se agregó nuevo item: Silicone Case Huawei Honor Magic 5 Lite / X9a Amarillo 1
+[2025-02-03 08:20:19] Se agregó nuevo item: Silicone Case Huawei Honor Magic 5 Lite / X9a VerdeMilitar 1
+[2025-02-03 08:21:00] Se agregó nuevo item: Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9b Rojo 1
+[2025-02-03 08:56:16] Se agregó nuevo item: Silicone Case Huawei Honor X6a Lila 1
+[2025-02-03 08:56:54] Se agregó nuevo item: Silicone Case Huawei Honor X6a Rojo 1
+[2025-02-03 08:57:11] Se agregó nuevo item: Silicone Case Huawei Honor X6a Negro 1
+[2025-02-03 08:57:35] Se agregó nuevo item: Silicone Case Huawei Honor X6a Fucsia 1
+[2025-02-03 08:59:34] Se agregó nuevo item: Silicone Case Huawei Honor X6s / X8 Negro 2
+[2025-02-03 08:59:54] Se agregó nuevo item: Silicone Case Huawei Honor X7 Morado 1
+[2025-02-03 09:00:24] Se agregó nuevo item: Silicone Case Huawei Honor X7b AzulRey 1
+[2025-02-03 09:00:42] Se agregó nuevo item: Silicone Case Huawei Honor X7b Negro 1
+[2025-02-03 09:01:05] Se agregó nuevo item: Silicone Case Huawei honor X8a Morado 1
+[2025-02-03 09:02:56] Se agregó nuevo item: Silicone Case Huawei Y15s Rojo 1
+[2025-02-03 09:03:15] Se agregó nuevo item: Silicone Case Vivo Y15s Verde 1
+[2025-02-03 09:03:32] Se agregó nuevo item: Silicone Case Vivo Y16 Rojo 1
+[2025-02-03 09:03:59] Se agregó nuevo item: Silicone Case Vivo Y17s Negro 3
+[2025-02-03 09:04:18] Se agregó nuevo item: Silicone Case Vivo Y17s AzulOscuro 1
+[2025-02-03 09:04:31] Se agregó nuevo item: Silicone Case Vivo Y17s Lila 1
+[2025-02-03 09:05:24] Se agregó nuevo item: Silicone Case Vivo Y20 / Y20s / Y11s AzulRey 1
+[2025-02-03 09:06:13] Se agregó nuevo item: Silicone Case Vivo Y20 / Y20s / Y11s 1
+[2025-02-03 09:06:38] Se agregó nuevo item: Silicone Case Vivo Y20 / Y20s / Y11s Verde 1
+[2025-02-03 09:08:17] Se agregó nuevo item: Silicone Case Vivo Y22s / Y35 Negro 1
+[2025-02-03 09:08:32] Se agregó nuevo item: Silicone Case VivoY27s Negro 1
+[2025-02-03 09:09:02] Se agregó nuevo item: Silicone Case Vivo Y27s ab Morado 1
+[2025-02-03 09:56:09] Se filtró el inventario por la palabra: a12
+[2025-02-03 09:56:23] Se consultó el contenido del inventario
+[2025-02-03 09:56:45] Se modificó la cantidad del item 'Vidrio 5D Samsung A12' de 4 a 0 (cambio: -4)
+[2025-02-03 09:57:05] Se filtró el inventario por la palabra: redmi note 11
+[2025-02-03 09:57:19] Se consultó el contenido del inventario
+[2025-02-03 09:57:25] Se modificó la cantidad del item 'Silicone Case Xiaomi Redmi Note 11 Negro' de 1 a 0 (cambio: -1)
+[2025-02-03 09:57:28] Se consultó el contenido del inventario
+[2025-02-03 09:57:33] Se modificó la cantidad del item 'Silicone Case Xiaomi Redmi Note 11 lila' de 2 a 1 (cambio: -1)
+[2025-02-03 10:25:30] Se consultó el contenido del inventario
+[2025-02-03 10:26:10] Se modificó la cantidad del item 'Silicone Case Oppo Realme C55 Rojo' de 1 a 0 (cambio: -1)
