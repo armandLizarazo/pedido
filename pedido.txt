@@ -1,5 +1,6 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth Harvic BT-543 II Negro 1
+    Caja Hydrogel 1
     Celular T72 1
     Celular T76 1
     Forro Aramdura Reno 11 Rojo 1
@@ -63,6 +64,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Pin Xiaomi Redmi Note 13 Pro 4G 2
     Forro Space Color Xiaomi Redmi Note 11 Negro
     Forro Space Motorola Moto G50
+    Forro Space Motorola Moto G50 1
     Forro Space Oppo A80
     Forro Space Oppo Realme C67
     Forro Space Oppo Reno 12F 
@@ -72,7 +74,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Tecno Camon 18p
     Forro Space Vivo V38 x2
     Forro Space Xiaomi Redmi 13c 1
-    Forro Space Xiaomi Redmi Note 12 Pro 1
+    Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Forro Space Xiaomi Redmi Note 13 Pro 4g 1
     Forro Space Xiomi Redmi Note 13 4g 1
     Forros Tabletas Kids
@@ -83,6 +85,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Plancha Combo Aguacate
     Power bank Nueva
     Silicone Case Apple iPhone 11 Pro 1
+    Silicone Case Apple iPhone 12 Lila 1
     Silicone Case Apple iPhone X / Xs Morado 1
     Silicone Case Apple iPhone X Rosa 1
     Silicone Case Huawei Y7a Rojo 1
@@ -96,6 +99,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Oppo Realme 7i Lila 1
     Silicone Case Oppo Realme C53 Amarillo 1 
     Silicone Case Oppo Reno 7 Blanco 1
+    Silicone Case Redmi A1 / A2 AzulClaro 1
     Silicone Case Samsung A14 Lila 1
     Silicone Case Samsung A35 Palo Rosa o Cafe 1
     Silicone Case Samsung M13 Verde 1
@@ -108,7 +112,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Tecno Spark Go 2024 Rojo 1
     Silicone Case Vivo Y15s Palo Rosa 1
     Silicone Case Vivo Y35 Negro 1
-    Silicone Case Xiaomi Redmi 12 Amarillo 1
+    Silicone Case Xaiomi Redmi Note 12s Rojo 1
+    Silicone Case Xiaomi Poco X3 Negro 1
     Silicone Case Xiaomi Redmi 12 Fucsia 1
     Silicone Case Xiaomi Redmi 12c Negro 1
     Silicone Case Xiaomi Redmi 13 Fucsia 1
@@ -118,30 +123,28 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi Note 12s Negro 1
     Silicone Case Xiaomi Redmi Note 12s Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4g Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
     Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
-    Silicone Case Xiomi Poco X3 Negro 1
-    Silicone Case Xiomi Redmi Note 12s Rojo 1
-    Simcard WOM 5 
     Tableta Tigers Kids Rosa
     Vidiro 5D Oppo Realme C53 5
     Vidrio 5D Oppo A38 5
     Vidrio 5D Oppo A79 5
     Vidrio 5D Oppo A80 5
     Vidrio 5D Samsung A06 5
+    Vidrio 5D Samsung A11 5
     Vidrio 5D Samsung A34 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 pro 5
     Vidrio 5D Tecno Spark 30c 5
-    Vidrio 5d Samsung A11 5
     Vidrio Antiespia Samsung A34 5
     Vidrio Blindado Motorola Moto G54 5
+    Vidrio Blindado Xiaomi Redmi Note 13 4G 10
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch redondos Grandes 5
-    Vidrio Tortuga Redmi Note 13 Pro 4G 5
     Vidrio Tortuga Samsung A21s 5
+    Vidrio Tortuga Xiaomi Redmi 12
+    Vidrio Tortuga Xiaomi Redmi Note 13 Pro 4G 5
  
 
 JOMA - 107 - THOR - AtrasPr -Memorias
@@ -159,6 +162,7 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Cable Poder Grabadora
     Cargadores Generico 12v
     Conectores RJ45
+    Control Gamer PC / 360 Cable 2
     Control Gamer PS4 Negro
     Control TV Box 3
     Control TV Universal 3
@@ -196,11 +200,11 @@ Julian
     Pacha Moto G31
     Pacha Nokia G10 / G20
     Pacha Note 10 Pro 
+    Pacha Redmi Note 9
     Pacha Samsugn A11 s/m
     Pacha Tecno Sark Go 2024 / 20 / 20c
     Pacha Xiaomi Redmi 10
     Pacha Xiaomi Redmi Note 11 / Note 12s
     Tapa Samsung A11 Azul
-
 
 

@@ -123,7 +123,7 @@
     Forro Space Xiaomi Redmi Note 10 Pro 1
     Forro Space Xiaomi Redmi Note 11 2
     Forro Space Xiaomi Redmi Note 12 1
-    Forro Space Xiaomi Redmi Note 12 Pro 2
+    Forro Space Xiaomi Redmi Note 12 Pro 1
     Forro Space Xiaomi Redmi Note 12s 1
     Forro Space Xiaomi Redmi Note 12s 3
     Forro Space Xiaomi Redmi Note 13 4G 2
@@ -263,7 +263,7 @@
     Silicone Case Xiaomi Redmi 10c Rojo 1
     Silicone Case Xiaomi Redmi 10c Verde 1
     Silicone Case Xiaomi Redmi 10c VerdeBiche 1
-    Silicone Case Xiaomi Redmi 12 Amarillo 1
+    Silicone Case Xiaomi Redmi 12 Amarillo 0
     Silicone Case Xiaomi Redmi 12 Lila 2
     Silicone Case Xiaomi Redmi 12c ab Amarillo 1
     Silicone Case Xiaomi Redmi 7 Amarillo 1
@@ -283,12 +283,12 @@
     Silicone Case Xiaomi Redmi Note 10 / 10s Amarillo 1
     Silicone Case Xiaomi Redmi Note 10 / 10s Negro 1
     Silicone Case Xiaomi Redmi Note 10 / 10s Rojo 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 0
+    Silicone Case Xiaomi Redmi Note 11 Negro 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 2
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 11 lila 1
+    Silicone Case Xiaomi Redmi Note 12 Negro 2
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
-    Silicone Case Xiaomi Redmi Note 12s Negro 2
     Silicone Case Xiaomi Redmi Note 9s Amarillo 1
     Silicone Case Xiaomi Redmi note 11 Fucsia 1
     Silicone Case iPhone 11 Morado 1
@@ -309,16 +309,16 @@
     Silicone Case iPhone 15 Abierto Lila 1
     Soporte TV 32 Brazo 2
     Soporte TV 50 Brazo 2
+    Vidrio 5D Apple iPhone 13 / 13Pro 8
     Vidrio 5D Huawei Honor X6s 2
-    Vidrio 5D Redmi 13c 4
-    Vidrio 5D Redmi Note 11 5
     Vidrio 5D Samsung A12 0
-    Vidrio 5D iPhone 13 / 13Pro 8
+    Vidrio 5D Xiaomi Redmi 13c 4
+    Vidrio 5D Xiaomi Redmi Note 11 5
     Vidrio Antiespia Huawei Honor X6s 2
-    Vidrio Antiespia Redmi 13c 3
-    Vidrio Blindado Redmi 13c / Honor X7 X7a / Realme C51-53 3
-    Vidrio Blindado Redmi Note 11-12s / Sam A53-51 S20FE / Note 10-10s 5
+    Vidrio Antiespia Xiaomi Redmi 13c 3
+    Vidrio Blindado Xiaomi Redmi 13c / Honor X7 X7a / Realme C51-53 3
+    Vidrio Blindado Xiaomi Redmi Note 11-12s / Sam A53-51 S20FE / Note 10-10s 5
     Vidrio Tortuga Huawei Honor X6s 2
-    Vidrio Tortuga Redmi 13c 2
-    Vidrio Tortuga Redmi Note 11 10
     Vidrio Tortuga Samsung A12 3
+    Vidrio Tortuga Xiaomi Redmi 13c 2
+    Vidrio Tortuga Xiaomi Redmi Note 11 10

@@ -415,3 +415,14 @@
 [2025-02-03 09:57:33] Se modificó la cantidad del item 'Silicone Case Xiaomi Redmi Note 11 lila' de 2 a 1 (cambio: -1)
 [2025-02-03 10:25:30] Se consultó el contenido del inventario
 [2025-02-03 10:26:10] Se modificó la cantidad del item 'Silicone Case Oppo Realme C55 Rojo' de 1 a 0 (cambio: -1)
+[2025-02-03 15:49:51] Se filtró el inventario por la palabra: silicone case xiaomi redmi 
+[2025-02-03 15:50:20] Se consultó el contenido del inventario
+[2025-02-03 15:50:24] Se modificó la cantidad del item 'Silicone Case Xiaomi Redmi 12 Amarillo' de 1 a 0 (cambio: -1)
+[2025-02-03 19:55:03] Se filtró el inventario por la palabra: redmi note 12
+[2025-02-03 19:55:14] Se filtró el inventario por la palabra: redmi 12
+[2025-02-03 19:55:26] Se consultó el contenido del inventario
+[2025-02-03 19:55:39] Se modificó la cantidad del item 'Silicone Case Xiaomi Redmi Note 11 Negro' de 0 a 1 (cambio: +1)
+[2025-02-04 06:06:18] Se filtró el inventario por la palabra: redmi note 12 pro
+[2025-02-04 06:06:31] Se consultó el contenido del inventario
+[2025-02-04 06:06:39] Se modificó la cantidad del item 'Forro Space Xiaomi Redmi Note 12 Pro' de 2 a 1 (cambio: -1)
+[2025-02-04 06:07:17] Se filtró el inventario por la palabra: blindado
