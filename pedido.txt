@@ -10,8 +10,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Honor X7 
     Forro Armadura Honor X8 
     Forro Armadura K61 Rojo 1
-    Forro Armadura Moto Edge 50 Fusion Negro 1 ok
-    Forro Armadura Moto G04 Negro 1 ok
     Forro Armadura Motorola Moto G22 Rojo 1 
     Forro Armadura Oppo A15
     Forro Armadura Oppo A16
@@ -27,7 +25,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Samsung A13 Negro 1
     Forro Armadura Tecno Camon
     Forro Armadura Tecno Spark Go 2022 Rojo 1
-    Forro Armadura X7b Armadura ok
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1 
     Forro Armadura Xiaomi Redmi note 10 / Note 10s Azul 1
     Forro Audifonos i12 5
@@ -73,10 +70,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Samsung A54
     Forro Space Tecno Camon 18p
     Forro Space Vivo V38 x2
-    Forro Space Xiaomi Redmi 13c 1 ok
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Forro Space Xiaomi Redmi Note 13 Pro 4g 1
-    Forro Space Xiomi Redmi Note 13 4g 1 ok
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
     Manos Libres Samsung Bolsa Blanco 5
@@ -101,22 +96,17 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Oppo Reno 7 Blanco 1 
     Silicone Case Redmi A1 / A2 AzulClaro 1
     Silicone Case Samsung A14 Lila 1 
-    Silicone Case Samsung A35 Palo Rosa o Cafe 1 ok
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Tecno Camon 20 / 20 Pro Negro 1
     Silicone Case Tecno Spark 10 Morado 1 
-    Silicone Case Tecno Spark Go 2024 / 20 / 20c Axul Rey 1 ok
     Silicone Case Tecno Spark Go 2024 Rojo 1
     Silicone Case Vivo Y15s Palo Rosa 1
-    Silicone Case Vivo Y35 Negro 1 ok
     Silicone Case Xaiomi Redmi Note 12s Rojo 1 
-    Silicone Case Xiaomi Poco X3 Negro 1 ok
     Silicone Case Xiaomi Redmi 12 Fucsia 1 
     Silicone Case Xiaomi Redmi 12c Negro 1 
-    Silicone Case Xiaomi Redmi 13 Fucsia 1 ok
     Silicone Case Xiaomi Redmi 13 Negro 1
     Silicone Case Xiaomi Redmi 13c Fucsia 1 
     Silicone Case Xiaomi Redmi 13c Rojo 1
@@ -127,25 +117,17 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
     Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
     Tableta Tigers Kids Rosa
-    Vidiro 5D Oppo Realme C53 5 ok
-    Vidrio 5D Oppo A38 5 ok
     Vidrio 5D Oppo A79 5 
     Vidrio 5D Oppo A80 5
     Vidrio 5D Samsung A06 5 
     Vidrio 5D Samsung A11 5
-    Vidrio 5D Samsung A34 5 ok
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 pro 5
     Vidrio 5D Tecno Spark 30c 5
-    Vidrio Antiespia Samsung A34 5 ok
-    Vidrio Antiespia Motorola Moto G54 5 ok
-    Vidrio Blindado Motorola Moto G54 5 ok
-    Vidrio Blindado Xiaomi Redmi Note 13 4G 10 ok
     Vidrio Ceramico Oppo A79 5 
     Vidrio Smart Watch redondos Grandes 5
-    Vidrio Tortuga Samsung A21s 5 ok
-    Vidrio Tortuga Xiaomi Redmi 12 ok
-    Vidrio Tortuga Xiaomi Redmi Note 13 Pro 4G 5 ok
+    Manos Libres OCZU TC 1
+    Manos Libres Samsung Akg 5
  
 
 JOMA - 107 - THOR - AtrasPr -Memorias
@@ -189,26 +171,17 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Soporte Para Control PS4 
     Tecaldo Mecanico Gamer
     Termo Motivacion
+    Microfono Bafle Cable eco 1
 
 
 Julian
-    Bateria Motorola Moto G6 1 ok
     Bateria Samsung A04e p
-    Flex de Power Tecno Pop7 1 ok
     Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
     Pacha Moto G31
-    Pacha Nokia G10 / G20 1 ok
     Pacha Note 10 Pro 
-    Pacha Redmi Note 9 1 ok
-    Pacha Samsugn A11 s/m 1 
-    Pacha Tecno Sark Go 2024 / 20 / 20c 1 ok
-    Pacha Xiaomi Redmi 10 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
-    Tapa Samsung A11 Azul 1 ok
-    Bisel Redmi A3 1 ok
-    Bisel Honor X8 1 ok
-    Tapa Xiaomi Redmi 12 Negro 1 ok
+    Pacha Xiaomi Redmi A3 1
+    Reclamar Pacha Nokia G20 1
 
 

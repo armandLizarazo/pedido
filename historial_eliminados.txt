@@ -1012,3 +1012,43 @@ Línea  | Contenido
   143 | Pacha Redmi A2 ok
   144 | Pacha Note 11 x2 ok
   146 | Camara Frontal Redmi 12c ok
+
+==================================================
+Fecha de proceso: 2025-02-04 12:34:33
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 31
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | Forro Armadura Moto Edge 50 Fusion Negro 1 ok
+   14 | Forro Armadura Moto G04 Negro 1 ok
+   30 | Forro Armadura X7b Armadura ok
+   76 | Forro Space Xiaomi Redmi 13c 1 ok
+   79 | Forro Space Xiomi Redmi Note 13 4g 1 ok
+  104 | Silicone Case Samsung A35 Palo Rosa o Cafe 1 ok
+  111 | Silicone Case Tecno Spark Go 2024 / 20 / 20c Axul Rey 1 ok
+  114 | Silicone Case Vivo Y35 Negro 1 ok
+  116 | Silicone Case Xiaomi Poco X3 Negro 1 ok
+  119 | Silicone Case Xiaomi Redmi 13 Fucsia 1 ok
+  130 | Vidiro 5D Oppo Realme C53 5 ok
+  131 | Vidrio 5D Oppo A38 5 ok
+  136 | Vidrio 5D Samsung A34 5 ok
+  140 | Vidrio Antiespia Samsung A34 5 ok
+  141 | Vidrio Antiespia Motorola Moto G54 5 ok
+  142 | Vidrio Blindado Motorola Moto G54 5 ok
+  143 | Vidrio Blindado Xiaomi Redmi Note 13 4G 10 ok
+  146 | Vidrio Tortuga Samsung A21s 5 ok
+  147 | Vidrio Tortuga Xiaomi Redmi 12 ok
+  148 | Vidrio Tortuga Xiaomi Redmi Note 13 Pro 4G 5 ok
+  195 | Bateria Motorola Moto G6 1 ok
+  197 | Flex de Power Tecno Pop7 1 ok
+  202 | Pacha Nokia G10 / G20 1 ok
+  204 | Pacha Redmi Note 9 1 ok
+  206 | Pacha Tecno Sark Go 2024 / 20 / 20c 1 ok
+  207 | Pacha Xiaomi Redmi 10 1 ok
+  208 | Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
+  209 | Tapa Samsung A11 Azul 1 ok
+  210 | Bisel Redmi A3 1 ok
+  211 | Bisel Honor X8 1 ok
+  212 | Tapa Xiaomi Redmi 12 Negro 1 ok
