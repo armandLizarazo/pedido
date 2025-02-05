@@ -1,5 +1,5 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    Audifonos Bluetooth Harvic BT-543 II Negro 1
+    Audifonos Bluetooth Harvic BT-543 II Negro ok
     Caja Hydrogel 1
     Celular T72 1
     Celular T76 1
@@ -33,48 +33,45 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Infinix Hot 30 Pro 5
     Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
-    Forro Diseños Motorola Moto G24 Dama 3
-    Forro Diseños Oppo A17 Dama 3
-    Forro Diseños Oppo A54 Caballero 3
-    Forro Diseños Oppo A80 Caballero 5
-    Forro Diseños Oppo A80 Caballero 5
+    Forro Diseños Motorola Moto G24 Dama 3 ok
+    Forro Diseños Oppo A17 Dama 3 ok
+    Forro Diseños Oppo A54 Caballero 3 ok
+    Forro Diseños Oppo A80 5
     Forro Diseños Samsung A03 Core Dama 3
     Forro Diseños Samsung A11 Caballero 3
-    Forro Diseños Samsung A13 Dama 3
+    Forro Diseños Samsung A13 Dama 3 ok
     Forro Diseños Samsung A20s Caballero 2
     Forro Diseños Samsung A20s Dama 2
     Forro Diseños Samsung A36 Caballero 5
-    Forro Diseños Samsung A53 Caballero 5
-    Forro Diseños Tecno Spark Go 2024 Dama 4
+    Forro Diseños Samsung A53 Caballero 5 ok
+    Forro Diseños Tecno Spark Go 2024 Dama 4 ok
     Forro Diseños Vivo V25e Caballero 3
     Forro Diseños Vivo Y20s Caballero 3
     Forro Diseños Vivo Y33s Dama 2
-    Forro Diseños Xiaomi Pova 5 Caballero 3
-    Forro Diseños Xiaomi Redmi 12c Caballero 3
+    Forro Diseños Xiaomi Pova 5 Caballero 3 ok
+    Forro Diseños Xiaomi Redmi 12c Caballero 2 ok
     Forro Diseños Xiaomi Redmi Note 11 Caballero 3
-    Forro Diseños Xiaomi Redmi Note 12 Caballero 3
-    Forro Diseños Xiaomi Redmi Note 8 Dama 5
+    Forro Diseños Xiaomi Redmi Note 12 Caballero 3 ok
+    Forro Diseños Xiaomi Redmi Note 8 Dama 5 
     Forro Disñeos Oppo A17 Caballero 3
     Forro Lujo Samsung A05s 1
     Forro Lujo Tecno Spark 30c Negro 1
     Forro Pin Tecno Spark Go 2024 2
-    Forro Pin Xiaomi Redmi Note 13 Pro 4G 2
-    Forro Space Color Xiaomi Redmi Note 11 Negro
-    Forro Space Motorola Moto G50
+    Forro Pin Xiaomi Redmi Note 13 Pro 4G 2 ok
+    Forro Space Color Xiaomi Redmi Note 11 Negro 
     Forro Space Motorola Moto G50 1
     Forro Space Oppo A80
-    Forro Space Oppo Realme C67
+    Forro Space Oppo Realme C67 ok
     Forro Space Oppo Reno 12F 
-    Forro Space Samsung A35 
+    Forro Space Samsung A35 ok
     Forro Space Samsung A36 
-    Forro Space Samsung A54
+    Forro Space Samsung A54 ok
     Forro Space Tecno Camon 18p
     Forro Space Vivo V38 x2
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
-    Forro Space Xiaomi Redmi Note 13 Pro 4g 1
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
-    Manos Libres Samsung Bolsa Blanco 5
+    Manos Libres Samsung Bolsa Blanco 5 ok
     Mouse Harvic MCB-422
     Pines Forros
     Plancha Combo Aguacate
@@ -127,7 +124,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Ceramico Oppo A79 5 
     Vidrio Smart Watch redondos Grandes 5
     Manos Libres OCZU TC 1
-    Manos Libres Samsung Akg 5
+    Manos Libres Samsung Akg 5 ok
  
 
 JOMA - 107 - THOR - AtrasPr -Memorias
