@@ -37,9 +37,9 @@ def ordenar_lineas_tabuladas(nombre_archivo):
         print("Archivo ordenado exitosamente.")
         
         # Para debug: mostrar cómo quedó el archivo
-        print("\nContenido del archivo ordenado:")
-        with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
-            print(archivo.read())
+        #print("\nContenido del archivo ordenado:")
+        #with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
+        #    print(archivo.read())
             
     except Exception as e:
         print(f"Error al procesar el archivo: {e}")
@@ -48,3 +48,4 @@ def ordenar_lineas_tabuladas(nombre_archivo):
 if __name__ == "__main__":
     ordenar_lineas_tabuladas("pedido.txt")
     ordenar_lineas_tabuladas("bodegac.txt")
+    ordenar_lineas_tabuladas("local.txt")

@@ -468,9 +468,4 @@
 [2025-02-05 16:25:32] Se consultó el contenido del inventario
 [2025-02-05 16:25:35] Se modificó la cantidad del item 'Cable Belkin TC' de 3 a 5 (cambio: +2)
 [2025-02-05 16:33:19] Se filtró el inventario por la palabra: 25w
-[2025-02-05 16:41:35] Se filtró el inventario por la palabra: belkin tc
-[2025-02-05 16:51:33] Se filtró el inventario por la palabra: belkin v8
-[2025-02-05 17:37:23] Se agregó nuevo item: Power Bank aibimy 10000 mah 120w 1
-[2025-02-05 17:42:38] Se filtró el inventario por la palabra: belkin tc
-[2025-02-05 17:42:50] Se consultó el contenido del inventario
-[2025-02-05 17:42:55] Se modificó la cantidad del item 'Cable Belkin TC' de 5 a 6 (cambio: +1)
+[2025-02-05 16:51:18] Se consultó el contenido del inventario

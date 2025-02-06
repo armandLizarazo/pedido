@@ -1052,3 +1052,30 @@ Línea  | Contenido
   210 | Bisel Redmi A3 1 ok
   211 | Bisel Honor X8 1 ok
   212 | Tapa Xiaomi Redmi 12 Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-05 13:27:22
+Archivo procesado: pedido.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Audifonos Bluetooth Harvic BT-543 II Negro ok
+   36 | Forro Diseños Motorola Moto G24 Dama 3 ok
+   37 | Forro Diseños Oppo A17 Dama 3 ok
+   38 | Forro Diseños Oppo A54 Caballero 3 ok
+   42 | Forro Diseños Samsung A13 Dama 3 ok
+   46 | Forro Diseños Samsung A53 Caballero 5 ok
+   47 | Forro Diseños Tecno Spark Go 2024 Dama 4 ok
+   51 | Forro Diseños Xiaomi Pova 5 Caballero 3 ok
+   52 | Forro Diseños Xiaomi Redmi 12c Caballero 2 ok
+   54 | Forro Diseños Xiaomi Redmi Note 12 Caballero 3 ok
+   60 | Forro Pin Xiaomi Redmi Note 13 Pro 4G 2 ok
+   64 | Forro Space Oppo Realme C67 ok
+   66 | Forro Space Samsung A35 ok
+   68 | Forro Space Samsung A54 ok
+   74 | Manos Libres Samsung Bolsa Blanco 5 ok
+  127 | Manos Libres Samsung Akg 5 ok
+  181 | Pacha Xiaomi Redmi A3 1 ok
+  182 | Reclamar Pacha Nokia G20 1 ok
