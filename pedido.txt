@@ -1,8 +1,8 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Caja Hydrogel 1
-    Cargador Samsung 25w Cabeza Blanco 1
-    Cargador Samsung 25w Cabeza Negro 1
-    Cargador Samsung 45w Cabeza Blanco 1
+    Cargador Samsung 25w Cabeza Blanco 1 ok
+    Cargador Samsung 25w Cabeza Negro 1 ok
+    Cargador Samsung 45w Cabeza Blanco 1 ok
     Celular T72 1
     Celular T76 1
     Forro Aramdura Reno 11 Rojo 1
@@ -28,7 +28,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Tecno Camon
     Forro Armadura Tecno Spark Go 2022 Rojo 1
     Forro Armadura Tecno Spark Go 2024 Morado 1
-    Forro Armadura Xiamoi Redmi Note 12 Negro 1
+    Forro Armadura Xiamoi Redmi Note 12 Negro 1 
     Forro Armadura Xiaomi Redmi Note 12 AzulRey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
     Forro Armadura Xiaomi Redmi note 10 / Note 10s Azul 1
@@ -66,7 +66,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Mouse Harvic MCB-422
     Pines Forros
     Plancha Combo Aguacate
-    Power bank Nueva
+    Power bank Nueva ok
     Silicone Case Apple iPhone 11 Pro 1
     Silicone Case Apple iPhone 12 Lila 1
     Silicone Case Apple iPhone X / Xs Morado 1
