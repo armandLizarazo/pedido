@@ -62,7 +62,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Forros Tabletas Kids
     Garantias Aro de Luz pequeños x2
-    Manos Libres OCZU TC 1
+    Manos Libres OCZU TC 1 ok
     Mouse Harvic MCB-422
     Pines Forros
     Plancha Combo Aguacate
@@ -100,10 +100,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 13c Fucsia 1
     Silicone Case Xiaomi Redmi 13c Rojo 1
     Silicone Case Xiaomi Redmi Note 12s Negro 1
-    Silicone Case Xiaomi Redmi Note 12s Rojo 1
+    Silicone Case Xiaomi Redmi Note 12s Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1
-    Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1 ok
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1 ok
     Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
     Tableta Tigers Kids Rosa
     Vidrio 5D Oppo A80 5
@@ -168,12 +168,12 @@ Julian
     Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
     Logica de Carga Moto G24
     Logica de Carga Redmi Note 13 4G
-    Logica de Carga Samsung A03s
+    Logica de Carga Samsung A03s ok
     Pacha Moto G31
-    Pacha Motorola Moto Moto G23 1
+    Pacha Motorola Moto Moto G23 1 ok
     Pacha Note 10 Pro
     Pacha Samsung A02s / A03 / A03s / A04e 1
-    Pacha Samsung A13 / M13
-    Pacha Xiaomi Redmi 9 2
-    Pacha Xiaomi Redmi Note 11 / Note 12s 1
+    Pacha Samsung A13 / M13 
+    Pacha Xiaomi Redmi 9 2 ok
+    Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
 
