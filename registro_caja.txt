@@ -20,3 +20,25 @@ Denominación: 5,000, Cantidad: 0, Total: 0
 Denominación: 2,000, Cantidad: 15, Total: 30,000
 Monto total contado: 3.000.000
 ------------------------------
+
+--- Conteo: caja menor 2025-02-06 ---
+Fecha: 2025-02-06 17:03:25
+Denominación: 100,000, Cantidad: 0, Total: 0
+Denominación: 50,000, Cantidad: 6, Total: 300,000
+Denominación: 20,000, Cantidad: 25, Total: 500,000
+Denominación: 10,000, Cantidad: 5, Total: 50,000
+Denominación: 5,000, Cantidad: 0, Total: 0
+Denominación: 2,000, Cantidad: 3, Total: 6,000
+Monto total contado: 856.000
+------------------------------
+
+--- Conteo: Verificacion 1 ---
+Fecha: 2025-02-06 17:06:17
+Denominación: 100,000, Cantidad: 0, Total: 0
+Denominación: 50,000, Cantidad: 7, Total: 350,000
+Denominación: 20,000, Cantidad: 25, Total: 500,000
+Denominación: 10,000, Cantidad: 5, Total: 50,000
+Denominación: 5,000, Cantidad: 0, Total: 0
+Denominación: 2,000, Cantidad: 3, Total: 6,000
+Monto total contado: 906.000
+------------------------------

@@ -1,160 +1,179 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-Caja Hydrogel 1
-Celular T72 1
-Celular T76 1
-Forro Aramdura Reno 11 Rojo 1
-Forro Aramdura X6a 1
-Forro Armadura A15 1
-Forro Armadura A54 Negro 1
-Forro Armadura Honor X7
-Forro Armadura Honor X8
-Forro Armadura K61 Rojo 1
-Forro Armadura Motorola Moto G22 Rojo 1
-Forro Armadura Oppo A15
-Forro Armadura Oppo A16
-Forro Armadura Oppo A38
-Forro Armadura Oppo A54
-Forro Armadura Pova 4
-Forro Armadura Pova 5
-Forro Armadura Pova 5 Azul 1
-Forro Armadura Redmi Note 5G
-Forro Armadura Reno 11f Negro 2
-Forro Armadura S23 Negro 1
-Forro Armadura S23 Rojo 1
-Forro Armadura Samsung A13 Negro 1
-Forro Armadura Tecno Camon
-Forro Armadura Tecno Spark Go 2022 Rojo 1
-Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
-Forro Armadura Xiaomi Redmi note 10 / Note 10s Azul 1
-Forro Audifonos i12 5
-Forro Diseños Huawei Y7a Dama 3
-Forro Diseños Infinix Hot 30 Pro 5
-Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
-Forro Diseños Infinix Hot 50 Pro Plus Dama 5
-Forro Diseños Oppo A80 5
-Forro Diseños Samsung A03 Core Dama 3
-Forro Diseños Samsung A11 Caballero 3
-Forro Diseños Samsung A20s Caballero 2
-Forro Diseños Samsung A20s Dama 2
-Forro Diseños Samsung A36 Caballero 5
-Forro Diseños Vivo V25e Caballero 3
-Forro Diseños Vivo Y20s Caballero 3
-Forro Diseños Vivo Y33s Dama 2
-Forro Diseños Xiaomi Redmi Note 11 Caballero 3
-Forro Diseños Xiaomi Redmi Note 8 Dama 5
-Forro Disñeos Oppo A17 Caballero 3
-Forro Lujo Samsung A05s 1
-Forro Lujo Tecno Spark 30c Negro 1
-Forro Pin Tecno Spark Go 2024 2
-Forro Space Color Xiaomi Redmi Note 11 Negro
-Forro Space Motorola Moto G50 1
-Forro Space Oppo A80
-Forro Space Oppo Reno 12F
-Forro Space Samsung A36
-Forro Space Tecno Camon 18p
-Forro Space Vivo V38 x2
-Forro Space Xiaomi Redmi Note 13 Pro 4G 1
-Forros Tabletas Kids
-Garantias Aro de Luz pequeños x2
-Manos Libres OCZU TC 1
-Mouse Harvic MCB-422
-Pines Forros
-Plancha Combo Aguacate
-Power bank Nueva
-Silicone Case Apple iPhone 11 Pro 1
-Silicone Case Apple iPhone 12 Lila 1
-Silicone Case Apple iPhone X / Xs Morado 1
-Silicone Case Apple iPhone X Rosa 1
-Silicone Case Huawei Y7a Rojo 1
-Silicone Case Huawei Y9 Prime Rosa 1
-Silicone Case Infinix Hot 50 Pro Plus 1
-Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1
-Silicone Case Motorola Moto Edge 50 Fusion Morado 1
-Silicone Case Motorola Moto G54 Morado 1
-Silicone Case Motorola Moto G8 plus Negro 1
-Silicone Case Oppo A15 Rosa 1
-Silicone Case Oppo Realme 7i Lila 1
-Silicone Case Oppo Realme C53 Amarillo 1
-Silicone Case Oppo Reno 7 Blanco 1
-Silicone Case Redmi A1 / A2 AzulClaro 1
-Silicone Case Samsung A14 Lila 1
-Silicone Case Samsung M13 Verde 1
-Silicone Case Samsung M23 Fucsia 1
-Silicone Case Samsung M23 Negro 1
-Silicone Case Samsung M23 Rojo 1
-Silicone Case Tecno Camon 20 / 20 Pro Negro 1
-Silicone Case Tecno Spark 10 Morado 1
-Silicone Case Tecno Spark Go 2024 Rojo 1
-Silicone Case Vivo Y15s Palo Rosa 1
-Silicone Case Xaiomi Redmi Note 12s Rojo 1
-Silicone Case Xiaomi Redmi 12 Fucsia 1
-Silicone Case Xiaomi Redmi 12c Negro 1
-Silicone Case Xiaomi Redmi 13 Negro 1
-Silicone Case Xiaomi Redmi 13c Fucsia 1
-Silicone Case Xiaomi Redmi 13c Rojo 1
-Silicone Case Xiaomi Redmi Note 12s Negro 1
-Silicone Case Xiaomi Redmi Note 12s Rojo 1
-Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
-Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1
-Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
-Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
-Tableta Tigers Kids Rosa
-Vidrio 5D Oppo A80 5
-Vidrio 5D Samsung A06 5
-Vidrio 5D Samsung A11 5
-Vidrio 5D Tecno Spark 30 5G 5
-Vidrio 5D Tecno Spark 30 pro 5
-Vidrio 5D Tecno Spark 30c 5
-Vidrio Ceramico Oppo A79 5
-Vidrio Smart Watch redondos Grandes 5
+    Caja Hydrogel 1
+    Cargador Samsung 25w Cabeza Blanco 1
+    Cargador Samsung 25w Cabeza Negro 1
+    Cargador Samsung 45w Cabeza Blanco 1
+    Celular T72 1
+    Celular T76 1
+    Forro Aramdura Reno 11 Rojo 1
+    Forro Aramdura X6a 1
+    Forro Armadura A15 1
+    Forro Armadura A54 Negro 1
+    Forro Armadura Honor X7
+    Forro Armadura Honor X8
+    Forro Armadura K61 Rojo 1
+    Forro Armadura Motorola Moto G22 Rojo 1
+    Forro Armadura Oppo A15
+    Forro Armadura Oppo A16
+    Forro Armadura Oppo A38
+    Forro Armadura Oppo A54
+    Forro Armadura Pova 4
+    Forro Armadura Pova 5
+    Forro Armadura Pova 5 Azul 1
+    Forro Armadura Redmi Note 5G
+    Forro Armadura Reno 11f Negro 2
+    Forro Armadura S23 Negro 1
+    Forro Armadura S23 Rojo 1
+    Forro Armadura Samsung A13 Negro 1
+    Forro Armadura Tecno Camon
+    Forro Armadura Tecno Spark Go 2022 Rojo 1
+    Forro Armadura Tecno Spark Go 2024 Morado 1
+    Forro Armadura Xiamoi Redmi Note 12 Negro 1
+    Forro Armadura Xiaomi Redmi Note 12 AzulRey 1
+    Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
+    Forro Armadura Xiaomi Redmi note 10 / Note 10s Azul 1
+    Forro Audifonos i12 5
+    Forro Diseños Huawei Y7a Dama 3
+    Forro Diseños Infinix Hot 30 Pro 5
+    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
+    Forro Diseños Infinix Hot 50 Pro Plus Dama 5
+    Forro Diseños Oppo A80 5
+    Forro Diseños Samsung A03 Core Dama 3
+    Forro Diseños Samsung A11 Caballero 3
+    Forro Diseños Samsung A20s Caballero 2
+    Forro Diseños Samsung A20s Dama 2
+    Forro Diseños Samsung A36 Caballero 5
+    Forro Diseños Vivo V25e Caballero 3
+    Forro Diseños Vivo Y20s Caballero 3
+    Forro Diseños Vivo Y33s Dama 2
+    Forro Diseños Xiaomi Redmi Note 11 Caballero 3
+    Forro Diseños Xiaomi Redmi Note 8 Dama 5
+    Forro Disñeos Oppo A17 Caballero 3
+    Forro Lujo Samsung A05s 1
+    Forro Lujo Tecno Spark 30c Negro 1
+    Forro Pin Tecno Spark Go 2024 2
+    Forro Space Color Xiaomi Redmi Note 11 Negro
+    Forro Space Motorola Moto G50 1
+    Forro Space Oppo A80
+    Forro Space Oppo Reno 12F
+    Forro Space Samsung A36
+    Forro Space Tecno Camon 18p
+    Forro Space Vivo V38 x2
+    Forro Space Xiaomi Redmi Note 13 Pro 4G 1
+    Forros Tabletas Kids
+    Garantias Aro de Luz pequeños x2
+    Manos Libres OCZU TC 1
+    Mouse Harvic MCB-422
+    Pines Forros
+    Plancha Combo Aguacate
+    Power bank Nueva
+    Silicone Case Apple iPhone 11 Pro 1
+    Silicone Case Apple iPhone 12 Lila 1
+    Silicone Case Apple iPhone X / Xs Morado 1
+    Silicone Case Apple iPhone X Rosa 1
+    Silicone Case Huawei Y7a Rojo 1
+    Silicone Case Huawei Y9 Prime Rosa 1
+    Silicone Case Infinix Hot 50 Pro Plus 1
+    Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1
+    Silicone Case Motorola Moto Edge 50 Fusion Morado 1
+    Silicone Case Motorola Moto G54 Morado 1
+    Silicone Case Motorola Moto G8 plus Negro 1
+    Silicone Case Oppo A15 Rosa 1
+    Silicone Case Oppo Realme 7i Lila 1
+    Silicone Case Oppo Realme C53 Amarillo 1
+    Silicone Case Oppo Reno 7 Blanco 1
+    Silicone Case Redmi A1 / A2 AzulClaro 1
+    Silicone Case Samsung A14 Lila 1
+    Silicone Case Samsung M13 Verde 1
+    Silicone Case Samsung M23 Fucsia 1
+    Silicone Case Samsung M23 Negro 1
+    Silicone Case Samsung M23 Rojo 1
+    Silicone Case Tecno Camon 20 / 20 Pro Negro 1
+    Silicone Case Tecno Spark 10 / 10c AzulRey 1
+    Silicone Case Tecno Spark 10 Morado 1
+    Silicone Case Tecno Spark Go 2024 Rojo 1
+    Silicone Case Vivo Y15s Palo Rosa 1
+    Silicone Case Xaiomi Redmi Note 12s Rojo 1
+    Silicone Case Xiaomi Redmi 12 Fucsia 1
+    Silicone Case Xiaomi Redmi 12c Negro 1
+    Silicone Case Xiaomi Redmi 13 Negro 1
+    Silicone Case Xiaomi Redmi 13c Fucsia 1
+    Silicone Case Xiaomi Redmi 13c Rojo 1
+    Silicone Case Xiaomi Redmi Note 12s Negro 1
+    Silicone Case Xiaomi Redmi Note 12s Rojo 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1
+    Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
+    Tableta Tigers Kids Rosa
+    Vidrio 5D Oppo A80 5
+    Vidrio 5D Samsung A06 5
+    Vidrio 5D Samsung A11 5
+    Vidrio 5D Tecno Spark 30 5G 5
+    Vidrio 5D Tecno Spark 30 pro 5
+    Vidrio 5D Tecno Spark 30c 5
+    Vidrio Ceramico Oppo A79 5
+    Vidrio Smart Watch redondos Grandes 5
 
 JOMA - 107 - THOR - AtrasPr -Memorias
-Adapatadores Europeo Goma
-Adaptador DVI2VGA
-Adaptadores AV2HDMI
-Adaptadores VGA2HDMI 2
-Aro de Luz 26cm RGB 3
-Aro de Luz 33cm
-Aro de Luz Joma 26cm Ligth x2
-Audifonoe Bluetooth i12 Rosa 2
-Audifonos Bluetooth Ambie Pantalla
-Audifonos Bluetooth i12 AzulClaro 2
-Audifonos Bluetooth i12 Negro 3
-Cable Poder Grabadora
-Cargadores Generico 12v
-Conectores RJ45
-Control Gamer PC / 360 Cable 2
-Control Gamer PS4 Negro
-Control TV Box 3
-Control TV Universal 3
-Dron Sencillo
-Forro Teclado 15 pulgadas 2
-Garantia Proyector HY300 1
-Guantes Gamer 5
-Holder Bicicleta
-Lampara Esfera Jupiter
-Lampara Esfera Sistema Solar
-Microfono Bafle Cable eco 1
-Mouse A78
-Mouse Eco B100
-Mouse Economico
-Pad Mouse Tapete Diseños
-Plancha Babyliss Combo
-Popit Ardilla
-Power Bank Panel Solar
-Proyector P40 Juegos
-Reproductor ONN HD
-Smart Band 7
-Soporte Celular Metalico
-Soporte Monitor Mesa
-Soporte Para Control PS4
-Tecaldo Mecanico Gamer
-Termo Motivacion
+    Adapatadores Europeo Goma
+    Adaptador DVI2VGA
+    Adaptadores AV2HDMI
+    Adaptadores VGA2HDMI 2
+    Aro de Luz 26cm RGB 3
+    Aro de Luz 45cm
+    Aro de Luz Joma 26cm Ligth x2
+    Audifonoe Bluetooth i12 Rosa 2
+    Audifonos Bluetooth Ambie Pantalla
+    Audifonos Bluetooth Appple inpods 12 AzulOscuro 6
+    Audifonos Bluetooth i12 AzulClaro 2
+    Audifonos Bluetooth i12 AzulOscuro 3
+    Cable Poder Grabadora
+    Cargadores Generico 12v
+    Conectores RJ45
+    Control Gamer PC / 360 Cable 2
+    Control Gamer PS4 Negro
+    Control TV Box 3
+    Control TV Universal 3
+    Dispensador Agua Botellon 2
+    Dron Sencillo
+    Forro Teclado 15 pulgadas 2
+    Garantia Proyector HY300 1
+    Guantes Gamer 5
+    Holder Bicicleta
+    Hub 7 Puertos 2
+    Lampara Esfera Jupiter
+    Lampara Esfera Sistema Solar
+    Microfono Bafle Cable eco 1
+    Mouse A78
+    Mouse Eco B100
+    Mouse Economico
+    Pad Mouse Tapete Diseños
+    Parlante Lazzer Grande 1
+    Plancha Babyliss Combo
+    Popit Ardilla
+    Power Bank Panel Solar
+    Proyector P40 Juegos
+    Reproductor ONN HD
+    Smart Band 7
+    Soporte Celular Metalico
+    Soporte Monitor Mesa
+    Soporte Para Control PS4
+    Tecaldo Mecanico Gamer
+    Termo Motivacion
+
 
 Julian
-Bateria Samsung A04e p
-Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
-Logica de Carga Moto G24
-Logica de Carga Redmi Note 13 4G
-Pacha Moto G31
-Pacha Note 10 Pro
+    Bateria Samsung A04e p
+    Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
+    Logica de Carga Moto G24
+    Logica de Carga Redmi Note 13 4G
+    Logica de Carga Samsung A03s
+    Pacha Moto G31
+    Pacha Motorola Moto Moto G23 1
+    Pacha Note 10 Pro
+    Pacha Samsung A02s / A03 / A03s / A04e 1
+    Pacha Samsung A13 / M13
+    Pacha Xiaomi Redmi 9 2
+    Pacha Xiaomi Redmi Note 11 / Note 12s 1
+
