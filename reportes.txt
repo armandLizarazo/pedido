@@ -474,3 +474,26 @@
 [2025-02-05 17:42:38] Se filtró el inventario por la palabra: belkin tc
 [2025-02-05 17:42:50] Se consultó el contenido del inventario
 [2025-02-05 17:42:55] Se modificó la cantidad del item 'Cable Belkin TC' de 5 a 6 (cambio: +1)
+[2025-02-07 13:36:15] Se filtró el inventario por la palabra: aro
+[2025-02-07 13:36:38] Se consultó el contenido del inventario
+[2025-02-07 13:36:50] Se modificó la cantidad del item '﻿Aro de Luz 26cm RGB' de 0 a 2 (cambio: +2)
+[2025-02-07 13:37:27] Se agregó nuevo item: Aro de luz 45cm 1
+[2025-02-07 14:38:23] Se filtró el inventario por la palabra: aro
+[2025-02-07 14:39:35] Se consultó el contenido del inventario
+[2025-02-07 14:39:39] Se modificó la cantidad del item 'Aro de Luz 33cm RGB' de 1 a 2 (cambio: +1)
+[2025-02-07 14:40:13] Se consultó el contenido del inventario
+[2025-02-07 14:40:16] Se modificó la cantidad del item 'Aro de Luz 33cm RGB' de 2 a 3 (cambio: +1)
+[2025-02-07 14:40:20] Se filtró el inventario por la palabra: aro
+[2025-02-07 14:42:01] Se consultó el contenido del inventario
+[2025-02-07 14:53:53] Se filtró el inventario por la palabra: aro
+[2025-02-07 15:30:26] Se agregó nuevo item: Parlante TG S-8a Negro 1
+[2025-02-07 15:32:15] Se filtró el inventario por la palabra: harvic
+[2025-02-07 15:32:49] Se agregó nuevo item: Audifonos Bluetooth Harvic BT-543 II Negro 1
+[2025-02-07 15:33:27] Se agregó nuevo item: Audifonos Bluetooth Harvic BT-543 IIBlanco 1
+[2025-02-07 15:36:58] Se filtró el inventario por la palabra: 25w
+[2025-02-07 15:39:12] Se filtró el inventario por la palabra: cargador samsung
+[2025-02-07 17:38:46] Se filtró el inventario por la palabra: hdmi2
+[2025-02-07 20:22:44] Se filtró el inventario por la palabra: a33
+[2025-02-07 22:49:10] Se filtró el inventario por la palabra: redmi 9
+[2025-02-07 23:30:18] Se filtró el inventario por la palabra: cargador
+[2025-02-07 23:34:15] Se filtró el inventario por la palabra: cargador samsung

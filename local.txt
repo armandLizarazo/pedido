@@ -1,6 +1,86 @@
+    Adaptador AV2VGA 2
+    Adaptador DPP2HDMI Cable 1
+    Adaptador DPP2VGA Cable 1
+    Adaptador HDMI2AV 1
+    Adaptador HDMI2VGA 1
+    Adaptador HDMI2VGA Cable 2
+    Adaptador HDMI2VGA Macho Cable 2
+    Adaptador Hub 7 Puertos 3.0 1
+    Adaptador TC2HDMI Cable 1
+    Adaptador TC2VGA 1
+    Adaptador USB2VGA Cable 1
+    Adaptador VGA2AV 2
+    Adaptador VGA2HDMI 2
+    Adaptador mDPP2HDMI Cable 1
+    Adpatador AV2HDMI 2
+    Adpatador Hub 7 Puertos 2.0 1
+    Aro de Luz 26cm RGB 2
+    Aro de Luz 33cm Light 1
+    Aro de Luz 33cm RGB 2
+    Aro de Luz 45cm 1
     Cable Belkin Tc 3
-    Cable Belkin V8 3
+    Cable Belkin V8 2
+    Cable Poder CUadrado 3
     Cable Yoyos TC 1
+    Cargador Apple 20w TC Cabeza 2
+    Cargador Apple 20w TC Ligthning 1
+    Cargador Apple 25w TC Cabeza 2
+    Cargador Apple 25w TC Ligthning 1
+    Cargador Apple 30w TC Cabeza 1
+    Cargador Apple 35w 2TC Cabeza 1
+    Cargador Apple 5V Eco 1
+    Cargador Apple 60w 2TC Cabeza 1
+    Cargador Appple MagSafe 1
+    Cargador Belkin Ligthning 1
+    Cargador Belkin TC 2
+    Cargador Belkin V8 2
+    Cargador Cabeza P&P TC & USB 3.0 CX-910 1
+    Cargador Cabeza Royal TC & USB 38w RT-X06 1
+    Cargador Cabeza TC & USB 20w C15 1
+    Cargador Cabeza W TC & 5USB 40w PD-32 1
+    Cargador Harvic V8 4.1a 1
+    Cargador Huawei Honor V8
+    Cargador Inalambrico Harvic 18w 1
+    Cargador Motorola TC a TC 30w 1
+    Cargador Motorola TC a TC 38w 1
+    Cargador Naisu V8 3a 1
+    Cargador Realme TC 65w 1
+    Cargador Samsung 25w Cabeza Blanco 1
     Cargador Samsung 25w Cabeza Negro 1
-    Cargador Samsung 45w Cabeza Negro 2
+    Cargador Samsung 45w Cabeza Blanco 0
+    Cargador Samsung 45w Cabeza Blanco 1
+    Cargador Samsung 45w Cabeza Negro 1
+    Cargador Samsung 45w con Cable Negro 2
+    Cargador Samsung S10+ TC 1
+    Cargador TC a TC 80w 2p 1 
+    Cargador Vidvie V8 18w 1
+    Cargador Vidvie V8 2p 2.4a 1
+    Cargador W TC 1
+    Cargador Xiaomi 120w
+    Cargador Xiaomi TC a TC 67w 1
+    Cargador Xiaomi USB TC 67w 1
+    Cargador YL TC 0
+    Cargador YL V8 2
+    Dispensador Agua Botellon 2
+    Guantes Gamer 4
+    Mouse Eco FC-143 1
+    Parlante Lazzer LZ-2890 1
+    Parlante Lazzer LZ-2894 1
+    Parlante Lazzer LZ-915 1
+    Parlante TG S-8a Negro 1
+    Parlante TG S-8b Rojo 1
+    Parlante Teatro TG TG-200 2
     Power Bank aibimy 10000 mah 120w 1
+    Reproductor Amazon Fire Tv Stick HD 1
+    Reproductor Chromecast Espejo 1
+    Reproductor Fly TV Box 64-4 1
+    Reproductor ONN 4K 1
+    Reproductor Proyector Y300 1
+    Reproductor Roku Express HD 1
+    Reproductor TV Stick Magis 0
+    Silicone Case Xiaomi Redmi 9 Rojo 1
+    Teclado Combo Gamer F92 1
+    Televisor Smart TV 43p 1
+    Televisor Smart TV Fly Android 32p 1
+    Televisor Smart TV TG Android 32p 1
+    Televisor TG 19p 1

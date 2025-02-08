@@ -1,8 +1,7 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Caja Hydrogel 1
-    Cargador Samsung 25w Cabeza Blanco 1 ok
-    Cargador Samsung 25w Cabeza Negro 1 ok
-    Cargador Samsung 45w Cabeza Blanco 1 ok
+    Cargador Samsung 45w con Cable Blanco 2
+    Cargador Samsung 45w con Cable Negro 1 
     Celular T72 1
     Celular T76 1
     Forro Aramdura Reno 11 Rojo 1
@@ -54,23 +53,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Pin Tecno Spark Go 2024 2
     Forro Space Color Xiaomi Redmi Note 11 Negro
     Forro Space Motorola Moto G50 1
-    Forro Space Oppo A80
+    Forro Space Oppo A80 2
     Forro Space Oppo Reno 12F
-    Forro Space Samsung A36
-    Forro Space Tecno Camon 18p
-    Forro Space Vivo V38 x2
+    Forro Space Oppo Reno 7 2
+    Forro Space Samsung A33 5G 2
+    Forro Space Samsung A36 2
+    Forro Space Tecno Camon 18p 2
+    Forro Space Vivo V38 2
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
-    Forros Tabletas Kids
-    Garantias Aro de Luz pequeños x2
-    Manos Libres OCZU TC 1 ok
-    Mouse Harvic MCB-422
-    Pines Forros
-    Plancha Combo Aguacate
-    Power bank Nueva ok
+    Forro Tabletas 10p Caballero 2
+    Forro Tabletas 10p Dama 2
+    Garantia Aro de Luz pequeños 2
     Silicone Case Apple iPhone 11 Pro 1
     Silicone Case Apple iPhone 12 Lila 1
     Silicone Case Apple iPhone X / Xs Morado 1
     Silicone Case Apple iPhone X Rosa 1
+    Silicone Case Huawei Nova Y70 Negro p 1
     Silicone Case Huawei Y7a Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Infinix Hot 50 Pro Plus 1
@@ -100,12 +98,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 13c Fucsia 1
     Silicone Case Xiaomi Redmi 13c Rojo 1
     Silicone Case Xiaomi Redmi Note 12s Negro 1
-    Silicone Case Xiaomi Redmi Note 12s Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro 4g Lila 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 5g Morado 1 ok
-    Silicone Case Xiaomi Redmi Note 13 Pro Plus Morado 1 ok
     Silicone Case Xiaomi Redmi Note 7 AzulClaro 1
-    Tableta Tigers Kids Rosa
+    Tableta Tigers Kids Rosa 1
     Vidrio 5D Oppo A80 5
     Vidrio 5D Samsung A06 5
     Vidrio 5D Samsung A11 5
@@ -116,63 +111,46 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch redondos Grandes 5
 
 JOMA - 107 - THOR - AtrasPr -Memorias
-    Adapatadores Europeo Goma 5 ok
     Adaptador DVI2VGA 
-    Adaptadores AV2HDMI 2 ok
     Adaptadores VGA2HDMI 2
-    Aro de Luz 26cm RGB 2 ok
-    Aro de Luz 45cm 1 ok
     Aro de Luz Joma 26cm Ligth x2
     Audifonoe Bluetooth i12 Rosa 2
     Audifonos Bluetooth Ambie Pantalla
     Audifonos Bluetooth Appple inpods 12 AzulOscuro 6
     Audifonos Bluetooth i12 AzulClaro 2
     Audifonos Bluetooth i12 AzulOscuro 3
-    Cable Poder Grabadora ok
     Cargadores Generico 12v
     Conectores RJ45
     Control Gamer PC / 360 Cable 2
     Control Gamer PS4 Negro
     Control TV Box 3
     Control TV Universal 3
-    Dispensador Agua Botellon 2 ok
     Dron Sencillo
     Forro Teclado 15 pulgadas 2
-    Guantes Gamer 5 ok
-    Holder Bicicleta ok
-    Hub 7 Puertos 2 ok
+    Garantia HY300 (No sirve el control) 1
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
-    Microfono Bafle Cable eco 1 ok
-    Mouse A78 2 ok
-    Mouse Eco B100 ok
-    Mouse Economico ok
     Pad Mouse Tapete Diseños
-    Parlante Lazzer Grande 1
-    Plancha Babyliss Combo
-    Popit Ardilla
-    Power Bank Panel Solar
-    Proyector P40 Juegos
-    Reproductor ONN HD
-    Smart Band 7
-    Soporte Celular Metalico
-    Soporte Monitor Mesa
-    Soporte Para Control PS4
-    Tecaldo Mecanico Gamer
-    Termo Motivacion
+    Power Bank Panel Solar 1
+    Proyector P40 Juegos 1
+    Reproductor ONN HD 1
+    Reproductor Proyector HY300 1
+    Reproductor Proyector con Juegos 1
+    Reproductor Tv Stick Magis 3
+    Smart Band 7 1
+    Soporte Celular Metalico 1
+    Soporte Monitor Mesa 1
+    Soporte Para Control PS4 1
+    Tecaldo Mecanico Gamer 1
+    Termo Motivacion 1
 
 
 Julian
-    Bateria Samsung A04e p
-    Garantia Pacha Xiaomi Redmi Note 11 / Note 12s Falla Abajo
+    Bateria Samsung A04e p 1
     Logica de Carga Moto G24
-    Logica de Carga Redmi Note 13 4G
-    Logica de Carga Samsung A03s ok
-    Pacha Moto G31
-    Pacha Motorola Moto Moto G23 1 ok
-    Pacha Note 10 Pro
+    Logica de Carga Redmi Note 13 4G 1
+    Pacha Moto G31 1
+    Pacha Note 10 Pro 1
     Pacha Samsung A02s / A03 / A03s / A04e 1
-    Pacha Samsung A13 / M13 
-    Pacha Xiaomi Redmi 9 2 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
+    Pacha Samsung A13 / M13 1
 
