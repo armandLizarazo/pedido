@@ -1,3 +1,5 @@
+from datetime import datetime
+
 def ver_contenido(archivo):
     try:
         with open(archivo, "r") as f:
@@ -10,6 +12,31 @@ def ver_contenido(archivo):
                     print(f"{i}. {linea.strip()}")
     except FileNotFoundError:
         print(f"El archivo '{archivo}' no existe.")
+
+def obtener_valor_unitario(item_buscar):
+    try:
+        with open("dbacc.txt", "r") as archivo:
+            lineas = archivo.readlines()
+        
+        item_buscar = item_buscar.lower()
+        for linea in lineas:
+            partes = linea.split()
+            item_db = " ".join(partes[:-1]).strip().lower()
+            if item_buscar == item_db:
+                return float(partes[-1])
+        
+        print(f"El item '{item_buscar}' no tiene un valor definido en 'dbacc.txt'.")
+        return None
+    
+    except FileNotFoundError:
+        print("El archivo 'dbacc.txt' no existe.")
+        return None
+
+def registrar_venta(item, cantidad, subtotal):
+    fecha_actual = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    with open("registro_ventas.txt", "a") as archivo:
+        archivo.write(f"{fecha_actual} | {item} | {cantidad} | {subtotal:.2f}\n")
+    print("Venta registrada con éxito.")
 
 def realizar_venta():
     try:
@@ -44,12 +71,22 @@ def realizar_venta():
             idx_original, linea = resultados[seleccion]
             partes = linea.split()
             cantidad = int(partes[-1])
+            item_buscar = " ".join(partes[:-1]).strip()
             
             if cantidad <= 0:
                 print("No hay unidades disponibles para este item.")
                 verificar_existencias_bodega(partes)
                 return
             
+            # Obtener el valor unitario del item desde dbacc.txt
+            valor_unitario = obtener_valor_unitario(item_buscar)
+            if valor_unitario is None:
+                return
+            
+            # Calcular subtotal
+            subtotal = valor_unitario * 1  # Se vende 1 unidad
+            
+            # Realizar la venta
             cantidad -= 1
             nueva_linea = "    " + " ".join(partes[:-1]) + f" {cantidad}\n"
             lineas[idx_original] = nueva_linea
@@ -58,6 +95,7 @@ def realizar_venta():
                 archivo.writelines(lineas)
             
             print("Venta realizada con éxito.")
+            registrar_venta(item_buscar, 1, subtotal)  # Registrar la venta
             verificar_stock_cero()
         
         except ValueError:
@@ -183,7 +221,8 @@ def main():
         print("1. Ver contenido actual de local.txt")
         print("2. Realizar venta")
         print("3. Ver contenido actual de bodegac.txt")
-        print("4. Salir")
+        print("4. Ver registro de ventas")
+        print("5. Salir")
         
         opcion = input("Seleccione una opción: ").strip()
         
@@ -194,6 +233,8 @@ def main():
         elif opcion == "3":
             ver_contenido("bodegac.txt")
         elif opcion == "4":
+            ver_contenido("registro_ventas.txt")
+        elif opcion == "5":
             print("Saliendo del programa...")
             break
         else:

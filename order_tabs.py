@@ -49,3 +49,5 @@ if __name__ == "__main__":
     ordenar_lineas_tabuladas("pedido.txt")
     ordenar_lineas_tabuladas("bodegac.txt")
     ordenar_lineas_tabuladas("local.txt")
+    ordenar_lineas_tabuladas("dbacc.txt")
+    ordenar_lineas_tabuladas("dbcst.txt")

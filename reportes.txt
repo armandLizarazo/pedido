@@ -497,3 +497,30 @@
 [2025-02-07 22:49:10] Se filtró el inventario por la palabra: redmi 9
 [2025-02-07 23:30:18] Se filtró el inventario por la palabra: cargador
 [2025-02-07 23:34:15] Se filtró el inventario por la palabra: cargador samsung
+[2025-02-08 17:30:35] Se filtró el inventario por la palabra: 25w
+[2025-02-08 17:58:24] Se filtró el inventario por la palabra: 25w
+[2025-02-08 17:58:41] Se consultó el contenido del inventario
+[2025-02-08 17:58:51] Se modificó la cantidad del item 'Cargador Samsung 25w Cabeza Blanco' de 2 a 0 (cambio: -2)
+[2025-02-08 17:58:58] Se consultó el contenido del inventario
+[2025-02-08 18:00:00] Se filtró el inventario por la palabra: 25w
+[2025-02-08 18:00:39] Se consultó el contenido del inventario
+[2025-02-08 18:00:46] Se modificó la cantidad del item 'Cargador Samsung 25w Cabeza Blanco' de 0 a 2 (cambio: +2)
+[2025-02-08 18:48:21] Se filtró el inventario por la palabra: stick
+[2025-02-08 18:50:44] Se agregó nuevo item: Reproductor TV Stick Magis 3
+[2025-02-08 19:23:07] Se filtró el inventario por la palabra: soporte
+[2025-02-08 19:24:22] Se consultó el contenido del inventario
+[2025-02-08 19:24:25] Se modificó la cantidad del item 'Soporte TV 32 Brazo' de 2 a 4 (cambio: +2)
+[2025-02-08 19:29:25] Se filtró el inventario por la palabra: soporte
+[2025-02-08 19:29:37] Se consultó el contenido del inventario
+[2025-02-08 19:29:43] Se modificó la cantidad del item 'Soporte TV 50 Brazo' de 2 a 4 (cambio: +2)
+[2025-02-08 19:33:34] Se filtró el inventario por la palabra: 25w
+[2025-02-08 19:33:44] Se consultó el contenido del inventario
+[2025-02-08 19:33:50] Se modificó la cantidad del item 'Cargador Samsung 25w Cabeza Blanco' de 2 a 0 (cambio: -2)
+[2025-02-08 20:18:18] Se filtró el inventario por la palabra: bluetooth
+[2025-02-09 06:13:45] Se consultó el contenido del inventario
+[2025-02-09 06:14:07] Se modificó la cantidad del item 'Control Gamer X3' de 1 a 2 (cambio: +1)
+[2025-02-09 17:56:54] Se filtró el inventario por la palabra: 360
+[2025-02-09 17:57:02] Se filtró el inventario por la palabra: pc
+[2025-02-09 17:57:10] Se filtró el inventario por la palabra: led
+[2025-02-10 07:01:53] Se agregó nuevo item: Parlante Teatro TG-200 1
+[2025-02-10 07:02:25] Se agregó nuevo item: Televisor FLY 32p 1

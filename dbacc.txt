@@ -1,0 +1,121 @@
+    Adaptador AV2HDMI 30000
+    Adaptador AV2VGA 30000
+    Adaptador DPP2HDMI Cable 25000
+    Adaptador DPP2VGA Cable 25000
+    Adaptador HDMI2AV 30000
+    Adaptador HDMI2VGA 30000
+    Adaptador HDMI2VGA Cable 25000
+    Adaptador HDMI2VGA Macho Cable 25000
+    Adaptador Hub 7 Puertos 2.0 25000
+    Adaptador Hub 7 Puertos 3.0 35000
+    Adaptador TC2HDMI Cable 45000
+    Adaptador TC2VGA 39000
+    Adaptador USB2VGA Cable 25000
+    Adaptador VGA2AV 30000
+    Adaptador VGA2HDMI 30000
+    Adaptador mDPP2HDMI Cable 25000
+    Aro de Luz 26cm RGB 65000
+    Aro de Luz 33cm Light 75000
+    Aro de Luz 33cm RGB 85000
+    Aro de Luz 45cm 150000
+    Cable Belkin Tc 12000
+    Cable Belkin V8 12000
+    Cable Poder CUadrado 10000
+    Cable Yoyos TC 15000
+    Cargador Apple 20w TC Cabeza 35000
+    Cargador Apple 20w TC Ligthning 45000
+    Cargador Apple 25w TC Cabeza 45000
+    Cargador Apple 25w TC Ligthning 55000
+    Cargador Apple 30w TC Cabeza 55000
+    Cargador Apple 35w 2TC Cabeza 65000
+    Cargador Apple 5V Eco 20000
+    Cargador Apple 60w 2TC Cabeza 69000
+    Cargador Appple MagSafe 49000
+    Cargador Belkin Ligthning 25000
+    Cargador Belkin TC 25000
+    Cargador Belkin V8 25000
+    Cargador Cabeza P&P TC & USB 3.0 CX-910 29000
+    Cargador Cabeza Royal TC & USB 38w RT-X06 35000
+    Cargador Cabeza TC & USB 20w C15 25000
+    Cargador Cabeza W TC & 5USB 40w PD-32 39000
+    Cargador Harvic V8 4.1a 29000
+    Cargador Huawei Honor V8 29000
+    Cargador Inalambrico Harvic 18w 39000
+    Cargador Motorola TC a TC 30w 55000
+    Cargador Motorola TC a TC 38w 65000
+    Cargador Naisu V8 3a 25000
+    Cargador Realme TC 65w 55000
+    Cargador Samsung 25w Cabeza Blanco 35000
+    Cargador Samsung 25w Cabeza Negro 35000
+    Cargador Samsung 25w V8 29000
+    Cargador Samsung 45w Cabeza Blanco 45000
+    Cargador Samsung 45w Cabeza Negro 45000
+    Cargador Samsung 45w con Cable Negro 55000
+    Cargador Samsung S10+ TC 29000
+    Cargador TC a TC 80w 2p 55000
+    Cargador Vidvie V8 18w 29000
+    Cargador Vidvie V8 2p 2.4a 29000
+    Cargador W TC 20000
+    Cargador Xiaomi 120w 79000
+    Cargador Xiaomi TC a TC 67w 59000
+    Cargador Xiaomi USB TC 67w 55000
+    Cargador YL TC 20000
+    Cargador YL V8 20000
+    Dispensador Agua Botellon 22000
+    Forro Diseños Xiaomi Redmi 10 Caballero 12000
+    Forro Diseños Xiaomi Redmi 10 Dama 12000
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 15000
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 15000
+    Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 20000
+    Guantes Gamer 10000
+    Manos Libres Samsung Akg 15000
+    Mouse Eco FC-143 12000
+    Parlante Lazzer LZ-2890 490000
+    Parlante Lazzer LZ-2894 390000
+    Parlante Lazzer LZ-915 590000
+    Parlante TG S-8a Negro 160000
+    Parlante TG S-8b Rojo 180000
+    Parlante Teatro TG TG-200 390000
+    Power Bank aibimy 10000 mah 120w 69000
+    Reproductor Amazon Fire Tv Stick HD 180000
+    Reproductor Chromecast Espejo 69000
+    Reproductor Fly TV Box 64-4 125000
+    Reproductor ONN 4K 169000
+    Reproductor Proyector Y300 340000
+    Reproductor Roku Express HD 170000
+    Reproductor TV Stick Magis 145000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus AzulRey 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Lila 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Morado 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Negro 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 20000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Rosa 20000
+    Silicone Case Motorola Moto G9 Play / E7 plus Fucsia 20000
+    Silicone Case Xiaomi Redmi 10 Ab Amarillo 20000
+    Silicone Case Xiaomi Redmi 10 Ab Morado 20000
+    Silicone Case Xiaomi Redmi 10 Ab Rosa 20000
+    Silicone Case Xiaomi Redmi 10 Amarillo 20000
+    Silicone Case Xiaomi Redmi 10 AzulClaro 20000
+    Silicone Case Xiaomi Redmi 10 Fucsia 20000
+    Silicone Case Xiaomi Redmi 10 Rojo 20000
+    Silicone Case Xiaomi Redmi 10 ab AzulRey 20000
+    Silicone Case Xiaomi Redmi 10 ab Rojo 20000
+    Silicone Case Xiaomi Redmi 9 Rojo 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 AzulRey 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Fucsia 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Negro 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 20000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 ab Lila 20000
+    Soporte TV 32 Brazo 39000
+    Soporte TV 50 Brazo 55000
+    Teclado Combo Gamer F92 59000
+    Televisor Smart TV 43p 890000
+    Televisor Smart TV Fly Android 32p 640000
+    Televisor Smart TV TG Android 32p 650000
+    Televisor TG 19p 230000
+    Vidrio Camara Xiaomi Note 13 Pro Plus 6000
+    Vidrio Camara Xiaomi Redmi 13 6000
+    Vidrio Camara Xiaomi Redmi 13c 6000
