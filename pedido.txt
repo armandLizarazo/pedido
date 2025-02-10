@@ -109,18 +109,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio 5D Tecno Spark 30c 5
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch redondos Grandes 5
-    Audifonos Bluetooth M25 3
-    Cargador YL TC 3
-    Cargador YL V8 3
+    Audifonos Bluetooth M25 3 ok
+    Cargador YL TC 3 ok
+    Cargador YL V8 3 ok
     Cargador Belkin V8 3
-    Cargador Samsung 25w Cabeza Blanco 2
-    Forro Diseños Xiaomi Redmi Note 13 Pro / Poco X6 Dama 3
-    Forro Diseños Xiaomi Redmi 10 Caballero 3
-    Forro MagSafe iPhone 15 1
+    Cargador Samsung 25w Cabeza Blanco 2 ok
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3
+    Forro Diseños Xiaomi Redmi 10 Caballero 3 ok
+    Forro MagSafe iPhone 15 1 ok
     Forro Space Motorola Moto Edge 50 Fusion 1
-    Forro Space Apple iPhone 16 Pro 1
+    Forro Space Apple iPhone 16 Pro 1 ok
     Silicone Case Huawei Y7a 1
-    Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
+    Silicone Case Motorola Moto G9 Play / E7 Plus Lila 1 ok
 
 JOMA - 107 - THOR - AtrasPr -Memorias
     Adaptador DVI2VGA 
@@ -133,20 +133,20 @@ JOMA - 107 - THOR - AtrasPr -Memorias
     Audifonos Bluetooth i12 AzulOscuro 3
     Cargadores Generico 12v
     Conectores RJ45
-    Control Gamer PC / 360 Cable 3
+    Control Gamer PC / 360 Cable 2 ok
     Control Gamer PS4 Negro
     Control TV Box 3
     Control TV Universal 3
     Dron Sencillo
-    Forro Teclado 15 pulgadas 2
-    Garantia HY300 (No sirve el control) 1
+    Forro Teclado 15 pulgadas 2 ok
+    Garantia HY300 (No sirve el control) 1 ok
     Lampara Esfera Jupiter
     Lampara Esfera Sistema Solar
     Pad Mouse Tapete Diseños
     Power Bank Panel Solar 1
     Proyector P40 Juegos 1
     Reproductor ONN HD 1
-    Reproductor Proyector HY300 1
+    Reproductor Proyector HY300 1 ok
     Reproductor Proyector con Juegos 1
     Smart Band 7 1
     Soporte Celular Metalico 1
