@@ -13,9 +13,9 @@ def ver_contenido(archivo):
     except FileNotFoundError:
         print(f"El archivo '{archivo}' no existe.")
 
-def obtener_valor_unitario(item_buscar):
+def obtener_valor_costo(item_buscar):
     try:
-        with open("dbacc.txt", "r") as archivo:
+        with open("dbcst.txt", "r") as archivo:
             lineas = archivo.readlines()
         
         item_buscar = item_buscar.lower()
@@ -25,17 +25,22 @@ def obtener_valor_unitario(item_buscar):
             if item_buscar == item_db:
                 return float(partes[-1])
         
-        print(f"El item '{item_buscar}' no tiene un valor definido en 'dbacc.txt'.")
+        print(f"El item '{item_buscar}' no tiene un valor de costo definido en 'dbcst.txt'.")
         return None
     
     except FileNotFoundError:
-        print("El archivo 'dbacc.txt' no existe.")
+        print("El archivo 'dbcst.txt' no existe.")
         return None
 
-def registrar_venta(item, cantidad, subtotal):
+def registrar_venta(item, cantidad, valor_venta, valor_costo):
     fecha_actual = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    subtotal_venta = cantidad * valor_venta
+    subtotal_costo = cantidad * valor_costo
+    
     with open("registro_ventas.txt", "a") as archivo:
-        archivo.write(f"{fecha_actual} | {item} | {cantidad} | {subtotal:.2f}\n")
+        archivo.write(
+            f"{fecha_actual} | {item} | {cantidad} | {valor_venta:.2f} | {valor_costo:.2f} | {subtotal_venta:.2f} | {subtotal_costo:.2f}\n"
+        )
     print("Venta registrada con éxito.")
 
 def realizar_venta():
@@ -78,13 +83,20 @@ def realizar_venta():
                 verificar_existencias_bodega(partes)
                 return
             
-            # Obtener el valor unitario del item desde dbacc.txt
-            valor_unitario = obtener_valor_unitario(item_buscar)
-            if valor_unitario is None:
+            # Solicitar el valor de venta manualmente
+            try:
+                valor_venta = float(input(f"Ingrese el valor de venta para '{item_buscar}': ").strip())
+                if valor_venta < 0:
+                    print("El valor de venta no puede ser negativo.")
+                    return
+            except ValueError:
+                print("Entrada inválida. Debe ingresar un número.")
                 return
             
-            # Calcular subtotal
-            subtotal = valor_unitario * 1  # Se vende 1 unidad
+            # Obtener el valor de costo desde dbcst.txt
+            valor_costo = obtener_valor_costo(item_buscar)
+            if valor_costo is None:
+                return
             
             # Realizar la venta
             cantidad -= 1
@@ -95,7 +107,7 @@ def realizar_venta():
                 archivo.writelines(lineas)
             
             print("Venta realizada con éxito.")
-            registrar_venta(item_buscar, 1, subtotal)  # Registrar la venta
+            registrar_venta(item_buscar, 1, valor_venta, valor_costo)  # Registrar la venta
             verificar_stock_cero()
         
         except ValueError:

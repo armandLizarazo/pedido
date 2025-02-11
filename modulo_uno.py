@@ -8,9 +8,10 @@ def cargar_archivo(nombre_archivo):
         return None
 
 def guardar_archivo(nombre_archivo, elementos):
+    # Guardar las líneas con 4 espacios al inicio
     with open(nombre_archivo, 'w') as archivo:
         for elemento in elementos:
-            archivo.write(elemento + '\n')
+            archivo.write(f"    {elemento}\n")
 
 def ver_todos_los_elementos(elementos):
     for i, elemento in enumerate(elementos, 1):
@@ -39,7 +40,7 @@ def consultar_por_numero(elementos, numero):
             resultados.append(elemento)
     return resultados
 
-def buscar_y_restar_unidades(elementos):
+def buscar_y_restar_unidades(nombre_archivo, elementos):
     palabra = input("Introduce el nombre del elemento a buscar: ").strip().lower()
     resultados = []
     
@@ -86,6 +87,9 @@ def buscar_y_restar_unidades(elementos):
         # Actualizar la lista de elementos
         indice_original = elementos.index(resultados[indice])
         elementos[indice_original] = nuevo_elemento
+        
+        # Guardar automáticamente los cambios en el archivo principal
+        guardar_archivo(nombre_archivo, elementos)
         
         # Agregar la línea al archivo "local.txt" con 4 espacios al inicio
         agregar_a_local(nombre, unidades)
@@ -144,7 +148,6 @@ def main():
         print("2. Filtrar por palabra")
         print("3. Consultar elementos con un número indicado")
         print("4. Buscar y restar unidades de un elemento")
-        print("5. Guardar cambios en el archivo")
         print("0. Salir")
         opcion = input("Selecciona una opción: ")
         
@@ -172,10 +175,7 @@ def main():
             except ValueError:
                 print("Por favor, introduce un número válido.")
         elif opcion == '4':
-            elementos = buscar_y_restar_unidades(elementos)
-        elif opcion == '5':
-            guardar_archivo(nombre_archivo, elementos)
-            print(f"\nCambios guardados en el archivo '{nombre_archivo}'.")
+            elementos = buscar_y_restar_unidades(nombre_archivo, elementos)
         elif opcion == '0':
             print("Saliendo del programa...")
             break
