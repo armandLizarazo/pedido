@@ -97,3 +97,14 @@ Denominación: 5,000, Cantidad: 1, Total: 5,000
 Denominación: 2,000, Cantidad: 1, Total: 2,000
 Monto total contado: 467.000
 ------------------------------
+
+--- Conteo: inicial ---
+Fecha: 2025-02-11 15:29:30
+Denominación: 100,000, Cantidad: 1, Total: 100,000
+Denominación: 50,000, Cantidad: 2, Total: 100,000
+Denominación: 20,000, Cantidad: 20, Total: 400,000
+Denominación: 10,000, Cantidad: 3, Total: 30,000
+Denominación: 5,000, Cantidad: 3, Total: 15,000
+Denominación: 2,000, Cantidad: 1, Total: 2,000
+Monto total contado: 647.000
+------------------------------

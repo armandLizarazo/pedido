@@ -1,180 +1,197 @@
-    Adapatador HDMI2VGA Macho 10000
-    Adapatador mDPP2HDMI 15000
-    Adaptador AV2HDMI 15000
-    Adaptador AV2VGA 
-    Adaptador DPP2HDMI Cable 12000
-    Adaptador DPP2VGA Cable 10000
-    Adaptador HDMI2AV 15000
-    Adaptador HDMI2VGA 15000
-    Adaptador HDMI2VGA Cable 10000
-    Adaptador HDMI2VGA Macho Cable 10000
+    Adaptador Av2Hdmi 15000
+    Adaptador Av2Vga 
+    Adaptador Dpp2Hdmi Cable 12000
+    Adaptador Dpp2Vga Cable 10000
+    Adaptador Hdmi2Av 15000
+    Adaptador Hdmi2Vga 15000
+    Adaptador Hdmi2Vga Cable 10000
+    Adaptador Hdmi2Vga Macho Cable 10000
     Adaptador Hub 7 Puertos 2.0 10000
     Adaptador Hub 7 Puertos 3.0 13000
-    Adaptador TC2HDMI Cable 20000
-    Adaptador TC2VGA 12000
-    Adaptador USB2VGA Cable 10000
-    Adaptador VGA2AV 15000
-    Adaptador VGA2HDMI 15000
-    Adaptador mDPP2HDMI Cable 15000
-    Antena TDT Aire 18000
-    Aro de Luz 26cm RGB 30000
-    Aro de Luz 33cm Light 50000
-    Aro de Luz 33cm RGB 50000
-    Aro de Luz 45cm 85000
+    Adaptador Mdpp2Hdmi Cable 15000
+    Adaptador Tc2Hdmi Cable 20000
+    Adaptador Tc2Vga 12000
+    Adaptador Usb2Vga Cable 10000
+    Adaptador Vga2Av 15000
+    Adaptador Vga2Hdmi 15000
+    Antena Tdt 5M 9000
+    Antena Tdt Aire 18000
+    Aro De Luz 26Cm Rgb 30000
+    Aro De Luz 33Cm Light 50000
+    Aro De Luz 33Cm Rgb 50000
+    Aro De Luz 45Cm 85000
     Audifonos Bluetooth Conductor 1092 18000
-    Audifonos Bluetooth Harvic BT-543 II Negro 25000
+    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 25000
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 25000
+    Audifonos Bluetooth I12 Negro 11000
+    Audifonos Bluetooth M25 25000
     Audifonos Bluetooth Pro 60 45000
     Audifonos Bluetooth Royal Sports 5000
     Audifonos Bluetooth X15 15000
-    Audifonos Bluetooth i12 Negro 11000
+    Balaca Naisu S-437 Negro 38000
+    Balaca Naisu S-437 Rojo 38000
     Balaca Naisu S-437 Verde 38000
-    Cable Belkin TC 2500
-    Cable Belkin TC 2m 3500
+    Cable Belkin Tc 2500
+    Cable Belkin Tc 2M 3500
     Cable Belkin V8 7500
-    Cable Caterpillar TC 4500
-    Cable Caterpillar USB Ligthning 4500
+    Cable Caterpillar Tc 4500
+    Cable Caterpillar Usb Ligthning 4500
     Cable Caterpillar V8 4000
-    Cable Harvic TC 3800
+    Cable Harvic Tc 3800
     Cable Harvic V8 3800
-    Cable Motorola TC a TC 3500
+    Cable Motorola Tc A Tc 3500
     Cable Poder Cuadrado 3500
-    Cable Royal TC 2m 6000
-    Cable Yoyos TC 3m 5000
-    Cable Yoyos TC 4500
-    Cable Yoyos V8 3m 6000
-    Camara Web 720p 8000
-    Cargador Apple 20w TC Cabeza 9000
-    Cargador Apple 20w TC Ligthning 16500
-    Cargador Apple 25w TC 11000
-    Cargador Apple 25w TC Cabeza 9000
-    Cargador Apple 25w TC Ligthning 17000
-    Cargador Apple 30w TC Cabeza 18000
-    Cargador Apple 35w 2TC Cabeza 55000
+    Cable Royal Tc 2M 6000
+    Cable Yoyos Tc 3M 5000
+    Cable Yoyos Tc 4500
+    Cable Yoyos V8 3M 6000
+    Camara Web 720P 8000
+    Cargador Apple 20W Tc Cabeza 9000
+    Cargador Apple 20W Tc Ligthning 16500
+    Cargador Apple 25W Tc Cabeza 9000
+    Cargador Apple 25W Tc Ligthning 17000
+    Cargador Apple 30W Tc Cabeza 18000
+    Cargador Apple 35W 2Tc Cabeza 55000
+    Cargador Apple 5V Eco 4000
     Cargador Apple 5V Eco 6000
-    Cargador Apple 5v Eco 4000
-    Cargador Apple 60w 2TC 11000
-    Cargador Apple 60w 2TC Cabeza 12000
+    Cargador Apple 60W 2Tc 11000
+    Cargador Apple 60W 2Tc Cabeza 12000
+    Cargador Apple Magsafe 22000
     Cargador Belkin Ligthning 7500
-    Cargador Belkin TC 7500
+    Cargador Belkin Tc 7500
     Cargador Belkin V8 7000
-    Cargador Cabeza P&P TC & USB 3.0 CX-910 8500
-    Cargador Cabeza Royal TC & USB 38w RT-X06 12000
-    Cargador Cabeza TC & USB 20w C15 7000
-    Cargador Cabeza W TC & 5USB 40w PD-32 15000
-    Cargador Harvic V8 4.1a 7000
+    Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 8500
+    Cargador Cabeza Royal Tc & Usb 38W Rt-X06 12000
+    Cargador Cabeza Tc & Usb 20W C15 7000
+    Cargador Cabeza W Tc & 5Usb 40W Pd-32 15000
+    Cargador Harvic V8 4.1A 7000
     Cargador Huawei Honor V8 7000
-    Cargador Inalambrico Harvic 18w 18000
-    Cargador Motorola TC a TC 30w 13000
-    Cargador Motorola TC a TC 38w 28000
-    Cargador Naisu V8 3a 5000
-    Cargador PC 9 Pines Caja Azul 26000
-    Cargador PC Asus 2.37 26000
-    Cargador PC HP Punta Azul 26000
-    Cargador Pluying Royal 38w 
-    Cargador Pluying Royal Carg7 7000
-    Cargador Realme TC 65w 26000
-    Cargador Samsugn 45w con Cable Blanco 16000
-    Cargador Samsung 25w Cabeza Blanco 10000
-    Cargador Samsung 25w Cabeza Negro 13000
-    Cargador Samsung 25w V8 10000
-    Cargador Samsung 45w Cabeza Blanco 13000
-    Cargador Samsung 45w Cabeza Negro 13000
-    Cargador Samsung 45w con Cable Negro 15000
-    Cargador Samsung S10+ TC 7500
-    Cargador TC a TC 80w 2p 20000
-    Cargador Vidvie V8 18w 16000
-    Cargador Vidvie V8 2p 2.4a 16000
-    Cargador W TC 5000
-    Cargador Xiaomi 120w 26000
-    Cargador Xiaomi TC a TC 67w 24000
-    Cargador Xiaomi USB TC 67w 28000
-    Cargador YL TC 5000
-    Cargador YL V8 4500
+    Cargador Inalambrico Harvic 18W 18000
+    Cargador Motorola Tc A Tc 30W 13000
+    Cargador Motorola Tc A Tc 38W 28000
+    Cargador Naisu V8 3A 5000
+    Cargador Pc 9 Pines Caja Amarilloa 26000
+    Cargador Pc 9 Pines Caja Azul 26000
+    Cargador Pc Asus 2.37 26000
+    Cargador Pc Asus 3.42 26000
+    Cargador Pc Hp Punta Azul 26000
+    Cargador Pc Lenovo Mini 3.25 28000
+    Cargador Pc Lenovo Yoga 28000
+    Cargador Pluying 7A 3P 35W 8000
+    Cargador Pluying Harvic 3P 15W 9000
+    Cargador Pluying P7Modulador 12-24V 20W 7000
+    Cargador Pluying Royal 2P 20W 8000
+    Cargador Pluying Royal 38W 
+    Cargador Pluying Royal Modulador Carg7 7000
+    Cargador Pluying X8 Modulador 12-24V 3.1A 9000
+    Cargador Pluying X8 Modulador 3.1A 8000
+    Cargador Realme Tc 65W 26000
+    Cargador Samsugn 45W Con Cable Blanco 16000
+    Cargador Samsung 25W Cabeza Blanco 10000
+    Cargador Samsung 25W Cabeza Negro 13000
+    Cargador Samsung 25W V8 10000
+    Cargador Samsung 45W Cabeza Blanco 13000
+    Cargador Samsung 45W Cabeza Negro 13000
+    Cargador Samsung 45W Con Cable Negro 15000
+    Cargador Samsung S10+ Tc 7500
+    Cargador Tc A Tc 80W 2P 20000
+    Cargador Vidvie V8 18W 16000
+    Cargador Vidvie V8 2P 2.4A 16000
+    Cargador W Tc 5000
+    Cargador Xiaomi 120W 26000
+    Cargador Xiaomi Tc A Tc 67W 24000
+    Cargador Xiaomi Usb Tc 67W 28000
+    Cargador Yl Tc 5000
+    Cargador Yl V8 4500
     Consola Game Sitck 48000
     Control Gamer Gatillos G21 15000
+    Control Gamer Microsoft Pc/360 Cable 33000
     Control Gamer X3 22000
-    Control Keyboard TV 15000
+    Control Keyboard Tv 15000
+    Control Tv Smart Tv 7000
+    Control Tv Tv Box 7000
     Dispensador Agua Botellon 10000
-    Forro Armadura Oppo Reno 11f Negro 6000
-    Forro DiseÃ±os A35 Caballero 3500
-    Forro DiseÃ±os A55 Dama 3500
-    Forro DiseÃ±os Honor X8a Dama 3500
-    Forro DiseÃ±os Oppo A38 Caballero 3500
-    Forro DiseÃ±os Oppo A38 Dama 3500
-    Forro DiseÃ±os Samsung A14 Caballero 3500
-    Forro DiseÃ±os Samsung A15 Caballero 3500
-    Forro DiseÃ±os Samsung A35 Dama 3500
-    Forro DiseÃ±os Samsung A55 Caballero 3500
-    Forro DiseÃ±os Xiaomi Redmi 10 Caballero 3500
-    Forro DiseÃ±os Xiaomi Redmi 10 Dama 3500
-    Forro DiseÃ±os Xiaomi Redmi Note 13 5G 3500
-    Forro DiseÃ±os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 3500
-    Forro DiseÃ±os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3500
+    Forro Armadura Oppo Reno 11F Negro 6000
+    Forro Diseños A35 Caballero 3500
+    Forro Diseños A55 Dama 3500
+    Forro Diseños Honor X8A Dama 3500
+    Forro Diseños Oppo A38 Caballero 3500
+    Forro Diseños Oppo A38 Dama 3500
+    Forro Diseños Samsung A14 Caballero 3500
+    Forro Diseños Samsung A15 Caballero 3500
+    Forro Diseños Samsung A35 Dama 3500
+    Forro Diseños Samsung A55 Caballero 3500
+    Forro Diseños Xiaomi Redmi 10 Caballero 3500
+    Forro Diseños Xiaomi Redmi 10 Dama 3500
+    Forro Diseños Xiaomi Redmi Note 13 5G 3500
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 3500
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3500
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 9000
-    Forro NorthFace Xiaomi Redmi 13c Negro 6000
+    Forro Northface Xiaomi Redmi 13C Negro 6000
     Forro Pin A55 Dama 6000
-    Forro Space Apple iPhone 11 4000
-    Forro Space Apple iPhone 13 Mini 6000
-    Forro Space Apple iPhone 14 pro Max 4000
-    Forro Space Apple iPhone 15 plus 4000
-    Forro Space Apple iPhone 6s 4000
-    Forro Space Apple iPhpone 14 Max ab 4000
-    Forro Space Color Samsung A05s ab Lila 4000
-    Forro Space Color Samsung A34 ab Negro 4000
+    Forro Space Apple Iphone 11 4000
+    Forro Space Apple Iphone 13 Mini 6000
+    Forro Space Apple Iphone 14 Pro Max 4000
+    Forro Space Apple Iphone 15 Plus 4000
+    Forro Space Apple Iphone 16 Pro 4000
+    Forro Space Apple Iphone 6S 4000
+    Forro Space Apple Iphpone 14 Max Ab 4000
+    Forro Space Color Samsung A05S Ab Lila 4000
+    Forro Space Color Samsung A34 Ab Negro 4000
     Forro Space Color Xiaomi Redmi Note 8 Rosa 5000
-    Forro Space Honor X7a 4000
-    Forro Space Huawei Honor X6 / X6s 4000
-    Forro Space Huawei Honor X6a 4000
-    Forro Space Huawei Honor X7a 4000
+    Forro Space Honor X7A 4000
+    Forro Space Huawei Honor X6 / X6S 4000
+    Forro Space Huawei Honor X6A 4000
+    Forro Space Huawei Honor X7A 4000
     Forro Space Huawei Honor X8 4000
     Forro Space Huawei Nova Y90 4000
     Forro Space Huawei Y9 2019 
-    Forro Space MagSafe Apple iPhone 11 6000
+    Forro Space Magsafe Apple Iphone 11 6000
     Forro Space Motorola Moto E20 4000
     Forro Space Motorola Moto E7 Plus / G9 Play 4000
     Forro Space Motorola Moto Edge 40 4000
     Forro Space Motorola Moto G13 / G23 4000
     Forro Space Motorola Moto G14 4000
     Forro Space Motorola Moto G20 / G30 4000
-    Forro Space Motorola Moto G20 / G30 ab 4000
+    Forro Space Motorola Moto G20 / G30 Ab 4000
     Forro Space Motorola Moto G24 / G04 4000
     Forro Space Motorola Moto G31 / G41 4000
     Forro Space Motorola Moto G54 4000
-    Forro Space Motorola Moto G60s 4000
+    Forro Space Motorola Moto G60S 4000
     Forro Space Motorola Moto G84 4000
     Forro Space Oppo A57 / A77 4000
     Forro Space Oppo Realme C67 4000
     Forro Space Oppo Reno 10 4000
     Forro Space Samsung A03 4000
-    Forro Space Samsung A03s / A02s 4000
-    Forro Space Samsung A05s 4000
+    Forro Space Samsung A03S / A02S 4000
+    Forro Space Samsung A05S 4000
     Forro Space Samsung A13 4000
     Forro Space Samsung A13 5G 4000
     Forro Space Samsung A14 4000
     Forro Space Samsung A15 4000
-    Forro Space Samsung A20s 4000
+    Forro Space Samsung A20S 4000
     Forro Space Samsung A25 4000
     Forro Space Samsung A31 4000
     Forro Space Samsung A54 4000
     Forro Space Samsung A55 4000
-    Forro Space Samsung S21 FE ab 4000
-    Forro Space Samsung S23 FE 4000
+    Forro Space Samsung S21 Fe Ab 4000
+    Forro Space Samsung S23 Fe 4000
     Forro Space Tecno Pova 5 4000
-    Forro Space Tecno Spark 10 / 10c 4000
-    Forro Space Tecno Spark Go 2022 / 8c 
+    Forro Space Tecno Spark 10 / 10C 4000
+    Forro Space Tecno Spark Go 2022 / 8C 
     Forro Space Tecno Spark Go 2023 4000
-    Forro Space Vivo V25e / S16 5G 4000
-    Forro Space Vivo Y20 / Y20s / Y11s 4000
-    Forro Space Vivo Y22s 4000
-    Forro Space Vivo Y33s 4000
+    Forro Space Vivo V25E / S16 5G 4000
+    Forro Space Vivo Y20 / Y20S / Y11S 4000
+    Forro Space Vivo Y22S 4000
+    Forro Space Vivo Y33S 4000
     Forro Space Xiaomi Mi 12 Lite 4000
-    Forro Space Xiaomi Mi 12t 4000
-    Forro Space Xiaomi Note 10 / Note 10s 4000
+    Forro Space Xiaomi Mi 12T 4000
+    Forro Space Xiaomi Note 10 / Note 10S 4000
     Forro Space Xiaomi Poco X3 4000
-    Forro Space Xiaomi Redmi 10c 4000
+    Forro Space Xiaomi Redmi 10C 4000
     Forro Space Xiaomi Redmi 12 4000
     Forro Space Xiaomi Redmi 9 4000
-    Forro Space Xiaomi Redmi 9a 4000
+    Forro Space Xiaomi Redmi 9A 4000
     Forro Space Xiaomi Redmi A1 / A2 4000
     Forro Space Xiaomi Redmi A3 4000
     Forro Space Xiaomi Redmi Note 10 5G 4000
@@ -182,76 +199,95 @@
     Forro Space Xiaomi Redmi Note 11 4000
     Forro Space Xiaomi Redmi Note 12 4000
     Forro Space Xiaomi Redmi Note 12 Pro 4000
-    Forro Space Xiaomi Redmi Note 12s 4000
+    Forro Space Xiaomi Redmi Note 12S 4000
     Forro Space Xiaomi Redmi Note 13 4G 4000
     Forro Sppace Oppo A78 4000
     Gramera Sencilla 9000
     Guantes Gamer 2000
-    Manos Libres Batri B10 AzulCielo 7500
+    Manos Libres Batri B10 Azulcielo 7500
     Manos Libres Batri B10 Blanco 7500
     Manos Libres Batri B10 Lila 7500
     Manos Libres Batri B10 Rosa 7500
     Manos Libres Samsung Akg 3300
-    Mouse Eco FC-143 4000
-    Parlante Lazzer LZ-2890 250000
-    Parlante Lazzer LZ-2894 340000
-    Parlante Lazzer LZ-915 420000
-    Parlante TG S-8a Negro 100000
-    Parlante TG S-8b Rojo 110000
-    Parlante Teatro TG TG-200 235000
-    Parlante Teatro TG-200 235000
-    Patillera 3 en 1 20000
-    Power Bank aibimy 10000 mah 120w 35000
+    Mouse Eco Fc-143 4000
+    Parlante Lazzer Lz-2890 250000
+    Parlante Lazzer Lz-2894 340000
+    Parlante Lazzer Lz-915 420000
+    Parlante Teatro Tg Tg-200 235000
+    Parlante Teatro Tg-200 235000
+    Parlante Tg S-8A Negro 100000
+    Parlante Tg S-8B Rojo 110000
+    Patillera 3 En 1 20000
+    Power Bank Aibimy 10000 Mah 120W 35000
+    Protector Teclado 15P 2000
     Radios Baofeng 18000
-    Reproductor Amazon Fire Tv Stick HD 125000
+    Reproductor Amazon Fire Tv Stick Hd 125000
     Reproductor Chromecast Espejo 45000
-    Reproductor Fly TV Box 64-4 89000
-    Reproductor ONN 4K 125000
+    Reproductor Fly Tv Box 64-4 89000
+    Reproductor Onn 4K 125000
+    Reproductor Proyector Caja Roja 200000
     Reproductor Proyector Y300 220000
-    Reproductor Roku Express HD 115000
-    Reproductor TDT Krono 38000
-    Reproductor TV Stick Magis 75000
-    Rollo Cinta Led RGB 10m 28000
-    Silicone Case Huawei Honor Magic 5 Lite / X9a Amarillo 7000
-    Silicone Case Huawei Honor Magic 5 Lite / X9a VerdeMilitar 7000
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9b Rojo 7000
-    Silicone Case Huawei Honor X6a Fucsia 7000
-    Silicone Case Huawei Honor X6a Lila 7000
-    Silicone Case Huawei Honor X6a Negro 7000
-    Silicone Case Huawei Honor X6a Rojo 7000
-    Silicone Case Huawei Honor X6s / X8 Negro 7000
+    Reproductor Roku Express Hd 115000
+    Reproductor Tdt Dxg 40000
+    Reproductor Tdt Krono 38000
+    Reproductor Tv Stick Magis 75000
+    Rollo Cinta Led Rgb 10M 28000
+    Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 7000
+    Silicone Case Huawei Honor Magic 5 Lite / X9A Verdemilitar 7000
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 7000
+    Silicone Case Huawei Honor X6A Fucsia 7000
+    Silicone Case Huawei Honor X6A Lila 7000
+    Silicone Case Huawei Honor X6A Negro 7000
+    Silicone Case Huawei Honor X6A Rojo 7000
+    Silicone Case Huawei Honor X6S / X8 Negro 7000
     Silicone Case Huawei Honor X7 Morado 7000
-    Silicone Case Huawei Honor X7b AzulRey 7000
-    Silicone Case Huawei Honor X7b Negro 7000
-    Silicone Case Huawei Mate 20 lite Rosa 7000
-    Silicone Case Huawei Nova 9se Negro 7000
+    Silicone Case Huawei Honor X7B Azulrey 7000
+    Silicone Case Huawei Honor X7B Negro 7000
+    Silicone Case Huawei Honor X8A Morado 7000
+    Silicone Case Huawei Mate 20 Lite Rosa 7000
+    Silicone Case Huawei Nova 9Se Negro 7000
     Silicone Case Huawei Nova Y70 Amarillo 7000
     Silicone Case Huawei Nova Y70 Lila 7000
     Silicone Case Huawei Y9 Prime Morado 7000
     Silicone Case Huawei Y9 Prime Verde 7000
-    Silicone Case Huawei honor X8a Morado 7000
     Silicone Case Infinix Note 40 Morado 7000
+    Silicone Case Iphone 11 Ab Lila 7000
+    Silicone Case Iphone 11 Ab Morado 6000
+    Silicone Case Iphone 11 Morado 7000
+    Silicone Case Iphone 11 Pro Max Ab Lila 7000
+    Silicone Case Iphone 11 Pro Max Ab Rojo 7000
+    Silicone Case Iphone 11 Pro Max Azuloscuro 6000
+    Silicone Case Iphone 11 Proab  Rojo 7000
+    Silicone Case Iphone 12 / 12 Pro Ab Verde 7000
+    Silicone Case Iphone 12 Lila 6000
+    Silicone Case Iphone 12 Pro Rojo 7000
+    Silicone Case Iphone 12 Rojo 7000
+    Silicone Case Iphone 13 Pro Lila 7000
+    Silicone Case Iphone 13 Pro Rojo 6000
+    Silicone Case Iphone 14 Plus Negro 7000
+    Silicone Case Iphone 14 Pro Ab Fucsia 6000
+    Silicone Case Iphone 15 Abierto Lila 7000
     Silicone Case Motorola Moto Edge 30 Lite Negro 7000
-    Silicone Case Motorola Moto Edge 40 AzulOscuro 7000
+    Silicone Case Motorola Moto Edge 40 Azuloscuro 7000
     Silicone Case Motorola Moto Edge 40 Negro 7000
-    Silicone Case Motorola Moto Edge 40 Neo AzulRey 7000
+    Silicone Case Motorola Moto Edge 40 Neo Azulrey 7000
     Silicone Case Motorola Moto Edge 40 Neo Rosa 7000
     Silicone Case Motorola Moto Edge 40 Rojo 7000
-    Silicone Case Motorola Moto G20 AzulRey 7000
+    Silicone Case Motorola Moto G20 Azulrey 7000
     Silicone Case Motorola Moto G20 Morado 7000
     Silicone Case Motorola Moto G20 Negro 7000
     Silicone Case Motorola Moto G20 Rosa 7000
     Silicone Case Motorola Moto G22 Fucsia 7000
     Silicone Case Motorola Moto G24 Lila 7000
-    Silicone Case Motorola Moto G60s Rojo 7000
+    Silicone Case Motorola Moto G60S Rojo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 7000
-    Silicone Case Motorola Moto G9 Play / E7 Plus AzulRey 7000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 7000
+    Silicone Case Motorola Moto G9 Play / E7 Plus Fucsia 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Lila 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Morado 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Negro 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Rosa 7000
-    Silicone Case Motorola Moto G9 Play / E7 plus Fucsia 7000
     Silicone Case Oppo A17 Lila 7000
     Silicone Case Oppo A17 Morado 7000
     Silicone Case Oppo A17 Negro 7000
@@ -261,35 +297,35 @@
     Silicone Case Oppo A57 / A77 Negro 7000
     Silicone Case Oppo A59 Rojo 7000
     Silicone Case Oppo A67 Negro 7000
-    Silicone Case Oppo Realme C55 AzulOscuro 7000
+    Silicone Case Oppo Realme C55 Azuloscuro 7000
     Silicone Case Oppo Realme C55 Negro 7000
     Silicone Case Oppo Realme C55 Rojo 7000
     Silicone Case Oppo Reno 7 Negro 7000
-    Silicone Case Samsung A02s ab Gris 7000
-    Silicone Case Samsung A02s ab Negro 7000
-    Silicone Case Samsung A02s ab Rosa 7000
-    Silicone Case Samsung A02s ab Verde Militar 7000
+    Silicone Case Samsung A02S Ab Gris 7000
+    Silicone Case Samsung A02S Ab Negro 7000
+    Silicone Case Samsung A02S Ab Rosa 7000
+    Silicone Case Samsung A02S Ab Verde Militar 7000
     Silicone Case Samsung A03 Rojo 7000
     Silicone Case Samsung A03 Rosa 7000
-    Silicone Case Samsung A03s / A02s Amarillo 7000
-    Silicone Case Samsung A04e Rojo 7000
-    Silicone Case Samsung A04s Negro 7000
-    Silicone Case Samsung A05s Negro 7000
-    Silicone Case Samsung A05s VerdeMenta 7000
+    Silicone Case Samsung A03S / A02S Amarillo 7000
+    Silicone Case Samsung A04E Rojo 7000
+    Silicone Case Samsung A04S Negro 7000
+    Silicone Case Samsung A05S Negro 7000
+    Silicone Case Samsung A05S Verdementa 7000
     Silicone Case Samsung A12 / M12 Morado 7000
     Silicone Case Samsung A12 Verde 7000
     Silicone Case Samsung A14 Rojo 7000
     Silicone Case Samsung A15 Negro 7000
     Silicone Case Samsung A15 Rojo 7000
-    Silicone Case Samsung A21s Fucsia 7000
-    Silicone Case Samsung A21s Negro 7000
+    Silicone Case Samsung A21S Fucsia 7000
+    Silicone Case Samsung A21S Negro 7000
     Silicone Case Samsung A22 4G Negro 7000
-    Silicone Case Samsung A22 5G ab Rojo 7000
+    Silicone Case Samsung A22 5G Ab Rojo 7000
     Silicone Case Samsung A24 Rojo 7000
-    Silicone Case Samsung A32 4g Amarillo 7000
-    Silicone Case Samsung A32 5G VerdeMilitar 7000
+    Silicone Case Samsung A32 4G Amarillo 7000
+    Silicone Case Samsung A32 5G Verdemilitar 7000
     Silicone Case Samsung A35 Fucsia 7000
-    Silicone Case Samsung A50 / A30s Lila 7000
+    Silicone Case Samsung A50 / A30S Lila 7000
     Silicone Case Samsung A53 Lila  7000
     Silicone Case Samsung A53 Negro 7000
     Silicone Case Samsung A54 Amarillo 7000
@@ -298,143 +334,123 @@
     Silicone Case Samsung A55 Amarillo 7000
     Silicone Case Samsung A55 Negro 7000
     Silicone Case Samsung M13 Rojo 7000
-    Silicone Case Samsung S20 FE Rosa 7000
-    Silicone Case Samsung S22 ab Rojo 7000
-    Silicone Case Samsung S23 Plus AzulClaro 7000
+    Silicone Case Samsung S20 Fe Rosa 7000
+    Silicone Case Samsung S22 Ab Rojo 7000
+    Silicone Case Samsung S23 Plus Azulclaro 7000
     Silicone Case Samsung S23 Plus Rojo 7000
     Silicone Case Samsung S23 Plus Rosa 7000
     Silicone Case Tecno Camon 18P Amarillo 7000
-    Silicone Case Tecno Camon 18p Rosa 
+    Silicone Case Tecno Camon 18P Rosa 
     Silicone Case Tecno Camon 19 Pro Amarillo 7000
     Silicone Case Tecno Camon 19 Pro Morado 70000
     Silicone Case Tecno Camon 19 Pro Rojo 7000
     Silicone Case Tecno Camon 19 Pro Rosa 7000
-    Silicone Case Tecno Camon 20 / 20 pro Fucsia 7000
+    Silicone Case Tecno Camon 20 / 20 Pro Fucsia 7000
     Silicone Case Tecno Pova 4 Lila 7000
-    Silicone Case Tecno Spark 10 Pro RojoOscuro 7000
-    Silicone Case Tecno Spark 20 pro Plus Rojo 7000
-    Silicone Case Tecno Spark 2022 / 8c AzulClaro 7000
-    Silicone Case Tecno Spark 2022 / 8c Negro 7000
-    Silicone Case Tecno Spark 2022 / 8c Rojo 7000
-    Silicone Case Tecno Spark Go 2022 / 8c Morado 7000
+    Silicone Case Tecno Ppova 4 Rojo 7000
+    Silicone Case Tecno Spark 10 Pro Rojooscuro 7000
+    Silicone Case Tecno Spark 20 Pro Plus Rojo 7000
+    Silicone Case Tecno Spark 2022 / 8C Azulclaro 7000
+    Silicone Case Tecno Spark 2022 / 8C Negro 7000
+    Silicone Case Tecno Spark 2022 / 8C Rojo 7000
+    Silicone Case Tecno Spark Go 2022 / 8C Morado 7000
     Silicone Case Tecno Spark Go 2023 / Pop7 Lila 7000
     Silicone Case Tecno Spark Go 2023 / Pop7 Rojo 7000
-    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Fucsia 7000
-    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Negro 7000
-    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Rojo 7000
-    Silicone Case Tecno ppova 4 Rojo 7000
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 7000
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 7000
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Rojo 7000
     Silicone Case Vivo V21 Rojo 7000
     Silicone Case Vivo V25 Negro 7000
     Silicone Case Vivo V25 Rojo 7000
-    Silicone Case Vivo V25 VerdeMilitar 7000
-    Silicone Case Vivo Y15s Rojo 7000
-    Silicone Case Vivo Y15s Verde 7000
+    Silicone Case Vivo V25 Verdemilitar 7000
+    Silicone Case Vivo Y15S Rojo 7000
+    Silicone Case Vivo Y15S Verde 7000
     Silicone Case Vivo Y16 Rojo 7000
-    Silicone Case Vivo Y17s AzulOscuro 7000
-    Silicone Case Vivo Y17s Lila 7000
-    Silicone Case Vivo Y17s Negro 7000
-    Silicone Case Vivo Y20 / Y20s / Y11s AzulRey 7000
-    Silicone Case Vivo Y20 / Y20s / Y11s Rosa 7000
-    Silicone Case Vivo Y20 / Y20s / Y11s Verde 7000
-    Silicone Case Vivo Y22s / Y35 Negro 7000
-    Silicone Case Vivo Y27s ab Morado 7000
-    Silicone Case Vivo Y27s ab Negro 7000
-    Silicone Case Vivo Y33s / Y21 / Y21s AzulRey 7000
-    Silicone Case Vivo Y33s / Y21 / Y21s Negro 7000
-    Silicone Case Vivo Y33s / Y21 / Y21s Rojo 7000
+    Silicone Case Vivo Y17S Azuloscuro 7000
+    Silicone Case Vivo Y17S Lila 7000
+    Silicone Case Vivo Y17S Negro 7000
+    Silicone Case Vivo Y20 / Y20S / Y11S Azulrey 7000
+    Silicone Case Vivo Y20 / Y20S / Y11S Rosa 7000
+    Silicone Case Vivo Y20 / Y20S / Y11S Verde 7000
+    Silicone Case Vivo Y22S / Y35 Negro 7000
+    Silicone Case Vivo Y27S Ab Morado 7000
+    Silicone Case Vivo Y27S Ab Negro 7000
+    Silicone Case Vivo Y33S / Y21 / Y21S Azulrey 7000
+    Silicone Case Vivo Y33S / Y21 / Y21S Negro 7000
+    Silicone Case Vivo Y33S / Y21 / Y21S Rojo 7000
     Silicone Case Vivo Y36 Azul Claro 7000
     Silicone Case Xiaomi Redmi 10 Ab Amarillo 7000
+    Silicone Case Xiaomi Redmi 10 Ab Azulrey 7000
     Silicone Case Xiaomi Redmi 10 Ab Morado 7000
+    Silicone Case Xiaomi Redmi 10 Ab Rojo 7000
     Silicone Case Xiaomi Redmi 10 Ab Rosa 7000
     Silicone Case Xiaomi Redmi 10 Amarillo 7000
-    Silicone Case Xiaomi Redmi 10 AzulClaro 7000
+    Silicone Case Xiaomi Redmi 10 Azulclaro 7000
     Silicone Case Xiaomi Redmi 10 Fucsia 7000
     Silicone Case Xiaomi Redmi 10 Negro 7000
     Silicone Case Xiaomi Redmi 10 Rojo 7000
-    Silicone Case Xiaomi Redmi 10 ab AzulRey 7000
-    Silicone Case Xiaomi Redmi 10 ab Rojo 7000
-    Silicone Case Xiaomi Redmi 10c Rojo 7000
-    Silicone Case Xiaomi Redmi 10c Verde 7000
-    Silicone Case Xiaomi Redmi 10c VerdeBiche 7000
+    Silicone Case Xiaomi Redmi 10C Rojo 7000
+    Silicone Case Xiaomi Redmi 10C Verde 7000
+    Silicone Case Xiaomi Redmi 10C Verdebiche 7000
     Silicone Case Xiaomi Redmi 12 Amarillo 7000
     Silicone Case Xiaomi Redmi 12 Lila 7000
-    Silicone Case Xiaomi Redmi 12c ab Amarillo 7000
-    Silicone Case Xiaomi Redmi 13c Morado 7000
-    Silicone Case Xiaomi Redmi 14c Negro 7000
+    Silicone Case Xiaomi Redmi 12C Ab Amarillo 7000
+    Silicone Case Xiaomi Redmi 13C Morado 7000
+    Silicone Case Xiaomi Redmi 14C Negro 7000
     Silicone Case Xiaomi Redmi 7 Amarillo 
     Silicone Case Xiaomi Redmi 9 Amarillo 7000
     Silicone Case Xiaomi Redmi 9 Morado 7000
     Silicone Case Xiaomi Redmi 9 Negro 7000
     Silicone Case Xiaomi Redmi 9 Rojo 7000
-    Silicone Case Xiaomi Redmi 9a Negro 7000
-    Silicone Case Xiaomi Redmi 9a VerdeBiche 7000
-    Silicone Case Xiaomi Redmi 9c / 10a Lila 7000
-    Silicone Case Xiaomi Redmi 9c / 10a Negro 7000
-    Silicone Case Xiaomi Redmi 9c / 10a Rojo 7000
-    Silicone Case Xiaomi Redmi 9c / 10a Verde 7000
-    Silicone Case Xiaomi Redmi 9c / 10a VerdeMilitar 7000
-    Silicone Case Xiaomi Redmi 9t Negro 7000
+    Silicone Case Xiaomi Redmi 9A Negro 7000
+    Silicone Case Xiaomi Redmi 9A Verdebiche 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Lila 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Negro 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Rojo 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Verde 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Verdemilitar 7000
+    Silicone Case Xiaomi Redmi 9T Negro 7000
     Silicone Case Xiaomi Redmi A1 / A2 Negro 7000
-    Silicone Case Xiaomi Redmi Note 10 / 10s Amarillo 7000
-    Silicone Case Xiaomi Redmi Note 10 / 10s Negro 7000
-    Silicone Case Xiaomi Redmi Note 10 / 10s Rojo 7000
+    Silicone Case Xiaomi Redmi Note 10 / 10S Amarillo 7000
+    Silicone Case Xiaomi Redmi Note 10 / 10S Negro 7000
+    Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 7000
+    Silicone Case Xiaomi Redmi Note 11 Fucsia 7000
+    Silicone Case Xiaomi Redmi Note 11 Lila 7000
     Silicone Case Xiaomi Redmi Note 11 Negro 7000
     Silicone Case Xiaomi Redmi Note 11 Rojo 7000
     Silicone Case Xiaomi Redmi Note 11 Verde 7000
-    Silicone Case Xiaomi Redmi Note 11 lila 7000
     Silicone Case Xiaomi Redmi Note 12 Negro 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 7000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Ab Lila 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 7000
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 AzulRey 7000
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Fucsia 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Negro 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 7000
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 ab Lila 7000
-    Silicone Case Xiaomi Redmi Note 9s Amarillo 7000
-    Silicone Case Xiaomi Redmi note 11 Fucsia 7000
-    Silicone Case iPhone 11 Morado 7000
-    Silicone Case iPhone 11 Pro Max AzulOscuro 6000
-    Silicone Case iPhone 11 Pro Max ab Lila 7000
-    Silicone Case iPhone 11 Pro Max ab Rojo 7000
-    Silicone Case iPhone 11 Proab  Rojo 7000
-    Silicone Case iPhone 11 ab Lila 7000
-    Silicone Case iPhone 11 ab Morado 6000
-    Silicone Case iPhone 12 / 12 Pro ab Verde 7000
-    Silicone Case iPhone 12 Lila 6000
-    Silicone Case iPhone 12 Pro Rojo 7000
-    Silicone Case iPhone 12 Rojo 7000
-    Silicone Case iPhone 13 Pro Lila 7000
-    Silicone Case iPhone 13 pro Rojo 6000
-    Silicone Case iPhone 14 Plus Negro 7000
-    Silicone Case iPhone 14 Pro ab Fucsia 6000
-    Silicone Case iPhone 15 Abierto Lila 7000
-    Soporte TV 32 Brazo 
-    Soporte TV 50 Brazo 23000
+    Silicone Case Xiaomi Redmi Note 9S Amarillo 7000
+    Soporte Tv 32 Brazo 
+    Soporte Tv 50 Brazo 23000
     Teclado Combo Gamer F92 25000
-    Televisor Smart TV Fly Android 32p 500000
-    Televisor Smart TV TG Android 32p 460000
-    Televisor TG 19p 185000
-    Vidrio 5D Apple iPhone 13 / 13Pro 900
-    Vidrio 5D Huawei Honor X6s 900
-    Vidrio 5D Mi 11t 900
+    Televisor Smart Tv Fly Android 32P 500000
+    Televisor Smart Tv Fly Android 43P 760000
+    Televisor Smart Tv Tg Android 32P 460000
+    Televisor Tg 19P 185000
+    Vidrio 5D Apple Iphone 13 / 13Pro 900
+    Vidrio 5D Huawei Honor X6S 900
+    Vidrio 5D Mi 11T 900
     Vidrio 5D Samsung A12 900
-    Vidrio 5D Xiaomi Redmi 13c 900
+    Vidrio 5D Xiaomi Redmi 13C 900
     Vidrio 5D Xiaomi Redmi Note 11 900
-    Vidrio Antiespia Huawei Honor X6s 18000
-    Vidrio Antiespia Xiaomi Redmi 13c 1800
-    Vidrio Blindado Xiaomi Redmi 13c / Honor X7 X7a / Realme C51-53 1800
-    Vidrio Blindado Xiaomi Redmi Note 11-12s / Sam A53-51 S20FE / Note 10-10s 1800
+    Vidrio Antiespia Huawei Honor X6S 18000
+    Vidrio Antiespia Xiaomi Redmi 13C 1800
+    Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 1800
+    Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 1800
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 1800
     Vidrio Camara Xiaomi Note 13 Pro Plus 2000
     Vidrio Camara Xiaomi Redmi 13 2000
-    Vidrio Camara Xiaomi Redmi 13c 2000
-    Vidrio Tortuga Huawei Honor X6s 
+    Vidrio Camara Xiaomi Redmi 13C 2000
+    Vidrio Tortuga Huawei Honor X6S 
     Vidrio Tortuga Samsung A12 1100
-    Vidrio Tortuga Xiaomi Redmi 13c 1100
+    Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
-    Audifonos Bluetooth Harvic BT-543 II Blanco 25000
-    Balaca Naisu S-437 Negro 38000
-    Balaca Naisu S-437 Rojo 38000
-    Cargador Apple MagSafe 22000
-    Televisor Smart TV Fly Android 43p 760000

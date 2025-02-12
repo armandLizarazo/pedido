@@ -1,53 +1,52 @@
+import chardet
+
+def detectar_codificacion(nombre_archivo):
+    with open(nombre_archivo, 'rb') as archivo:
+        raw_data = archivo.read()
+    resultado = chardet.detect(raw_data)
+    return resultado['encoding']
+
 def ordenar_lineas_tabuladas(nombre_archivo):
-    """
-    Lee un archivo y ordena alfabéticamente las líneas que comienzan con 4 espacios.
-    Mantiene las líneas no indentadas en su posición original.
-    """
     try:
-        # Leer el archivo
-        with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
+        # Detectar la codificación del archivo
+        codificacion = detectar_codificacion(nombre_archivo)
+        print(f"\nProcesando archivo: {nombre_archivo}")
+        print(f"Detectada codificación: {codificacion}")
+        
+        # Abrir el archivo con la codificación detectada
+        with open(nombre_archivo, 'r', encoding=codificacion) as archivo:
             lineas = archivo.readlines()
         
-        # Inicializar variables
-        resultado = []
-        lineas_indentadas = []
+        # Filtrar solo las líneas que inician con 4 espacios
+        lineas_4_espacios = [linea for linea in lineas if linea.startswith('    ')]
+        lineas_no_4_espacios = [linea for linea in lineas if not linea.startswith('    ')]
         
-        # Procesar cada línea
-        for linea in lineas:
-            # Si la línea comienza con exactamente 4 espacios
-            if linea.startswith('    '):
-                lineas_indentadas.append(linea)
-            else:
-                # Si tenemos líneas indentadas acumuladas, las ordenamos e insertamos
-                if lineas_indentadas:
-                    lineas_indentadas.sort()
-                    resultado.extend(lineas_indentadas)
-                    lineas_indentadas = []
-                resultado.append(linea)
+        # Aplicar formato "title" a las líneas que inician con 4 espacios
+        lineas_4_espacios = ['    ' + linea.lstrip().title() for linea in lineas_4_espacios]
         
-        # Si quedan líneas indentadas al final, ordenarlas y agregarlas
-        if lineas_indentadas:
-            lineas_indentadas.sort()
-            resultado.extend(lineas_indentadas)
+        # Ordenar las líneas que inician con 4 espacios alfabéticamente
+        lineas_4_espacios.sort()
         
-        # Escribir el resultado en el archivo
-        with open(nombre_archivo, 'w', encoding='utf-8') as archivo:
-            archivo.writelines(resultado)
-            
-        print("Archivo ordenado exitosamente.")
+        # Combinar las líneas no tabuladas con las tabuladas ordenadas
+        lineas_ordenadas = lineas_no_4_espacios + lineas_4_espacios
         
-        # Para debug: mostrar cómo quedó el archivo
-        #print("\nContenido del archivo ordenado:")
-        #with open(nombre_archivo, 'r', encoding='utf-8') as archivo:
-        #    print(archivo.read())
-            
+        # Escribir las líneas ordenadas de vuelta al archivo con la misma codificación
+        with open(nombre_archivo, 'w', encoding=codificacion) as archivo:
+            archivo.writelines(lineas_ordenadas)
+        
+        print(f"Las líneas que inician con 4 espacios en el archivo '{nombre_archivo}' han sido ordenadas y formateadas correctamente.")
+    
+    except FileNotFoundError:
+        print(f"El archivo '{nombre_archivo}' no fue encontrado.")
     except Exception as e:
-        print(f"Error al procesar el archivo: {e}")
+        print(f"Ocurrió un error: {e}")
 
-# Uso del script
-if __name__ == "__main__":
-    ordenar_lineas_tabuladas("pedido.txt")
-    ordenar_lineas_tabuladas("bodegac.txt")
-    ordenar_lineas_tabuladas("local.txt")
-    ordenar_lineas_tabuladas("dbacc.txt")
-    ordenar_lineas_tabuladas("dbcst.txt")
+# Solicitar al usuario los nombres de los archivos
+nombres_archivos = input("Por favor, ingresa los nombres de los archivos que deseas ordenar (separados por comas): ")
+
+# Separar los nombres de los archivos
+lista_archivos = [nombre.strip() for nombre in nombres_archivos.split(',')]
+
+# Procesar cada archivo
+for archivo in lista_archivos:
+    ordenar_lineas_tabuladas(archivo)

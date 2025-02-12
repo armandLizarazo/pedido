@@ -6,10 +6,44 @@ def ver_contenido(archivo):
             lineas = f.readlines()
             if not lineas:
                 print(f"El archivo '{archivo}' está vacío.")
-            else:
-                print(f"Contenido actual de '{archivo}':")
-                for i, linea in enumerate(lineas, 1):
+                return
+            
+            print("\nOpciones de filtrado:")
+            print("1. Mostrar todos los items")
+            print("2. Mostrar items con cantidad igual a 0")
+            print("3. Mostrar items con cantidad mayor a 0")
+            print("4. Mostrar items con cantidad menor a un valor específico")
+            print("5. Mostrar items con cantidad mayor a un valor específico")
+            opcion_filtro = input("Seleccione una opción: ").strip()
+            
+            print(f"\nContenido actual de '{archivo}':")
+            for i, linea in enumerate(lineas, 1):
+                partes = linea.split()
+                cantidad = int(partes[-1])
+                
+                if opcion_filtro == "1":  # Mostrar todos
                     print(f"{i}. {linea.strip()}")
+                elif opcion_filtro == "2" and cantidad == 0:  # Cantidad igual a 0
+                    print(f"{i}. {linea.strip()}")
+                elif opcion_filtro == "3" and cantidad > 0:  # Cantidad mayor a 0
+                    print(f"{i}. {linea.strip()}")
+                elif opcion_filtro == "4":  # Cantidad menor a un valor específico
+                    try:
+                        valor = int(input("Ingrese el valor máximo de cantidad: ").strip())
+                        if cantidad < valor:
+                            print(f"{i}. {linea.strip()}")
+                    except ValueError:
+                        print("Entrada inválida. Debe ingresar un número.")
+                elif opcion_filtro == "5":  # Cantidad mayor a un valor específico
+                    try:
+                        valor = int(input("Ingrese el valor mínimo de cantidad: ").strip())
+                        if cantidad > valor:
+                            print(f"{i}. {linea.strip()}")
+                    except ValueError:
+                        print("Entrada inválida. Debe ingresar un número.")
+                else:
+                    continue
+    
     except FileNotFoundError:
         print(f"El archivo '{archivo}' no existe.")
 
@@ -75,12 +109,25 @@ def realizar_venta():
             
             idx_original, linea = resultados[seleccion]
             partes = linea.split()
-            cantidad = int(partes[-1])
+            cantidad_disponible = int(partes[-1])
             item_buscar = " ".join(partes[:-1]).strip()
             
-            if cantidad <= 0:
+            if cantidad_disponible <= 0:
                 print("No hay unidades disponibles para este item.")
                 verificar_existencias_bodega(partes)
+                return
+            
+            # Solicitar la cantidad a vender
+            try:
+                cantidad_vender = int(input(f"Ingrese la cantidad de '{item_buscar}' a vender (disponibles: {cantidad_disponible}): ").strip())
+                if cantidad_vender <= 0:
+                    print("La cantidad a vender debe ser mayor que 0.")
+                    return
+                if cantidad_vender > cantidad_disponible:
+                    print("No hay suficientes unidades disponibles.")
+                    return
+            except ValueError:
+                print("Entrada inválida. Debe ingresar un número.")
                 return
             
             # Solicitar el valor de venta manualmente
@@ -99,15 +146,15 @@ def realizar_venta():
                 return
             
             # Realizar la venta
-            cantidad -= 1
-            nueva_linea = "    " + " ".join(partes[:-1]) + f" {cantidad}\n"
+            cantidad_disponible -= cantidad_vender
+            nueva_linea = "    " + " ".join(partes[:-1]) + f" {cantidad_disponible}\n"
             lineas[idx_original] = nueva_linea
             
             with open("local.txt", "w") as archivo:
                 archivo.writelines(lineas)
             
             print("Venta realizada con éxito.")
-            registrar_venta(item_buscar, 1, valor_venta, valor_costo)  # Registrar la venta
+            registrar_venta(item_buscar, cantidad_vender, valor_venta, valor_costo)  # Registrar la venta
             verificar_stock_cero()
         
         except ValueError:

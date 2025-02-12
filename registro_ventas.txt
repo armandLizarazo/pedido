@@ -1,11 +1,6 @@
-2025-02-08 18:09:45 | Cargador Samsung 25w Cabeza Blanco | 1 | 35000.00
-2025-02-08 18:57:13 | Cargador YL V8 | 1 | 20000.00
-2025-02-09 13:36:31 | Manos Libres Samsung Akg | 1 | 15000.00
-2025-02-09 14:05:04 | Vidrio Camara Xiaomi Redmi 13c | 1 | 6000.00
-2025-02-09 14:05:19 | Vidrio Camara Xiaomi Redmi 13c | 1 | 6000.00
-2025-02-09 17:32:35 | Televisor TG 19p | 1 | 230000.00
-2025-02-09 17:33:17 | Soporte TV 32 Brazo | 1 | 39000.00
-2025-02-09 18:14:41 | Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo | 1 | 20000.00
-2025-02-09 18:21:58 | Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama | 1 | 15000.00
+Fecha               | Producto | Cantidad | Val Venta | Val Costo | Sub Venta | Sub Costo 
 2025-02-09 18:24:16 | Forro Diseños Xiaomi Redmi 10 Caballero | 1 | 12000.00
 2025-02-10 13:07:50 | Manos Libres Batri B10 AzulCielo | 1 | 23000.00 | 7500.00 | 23000.00 | 7500.00
+2025-02-11 14:12:41 | Cable Caterpillar V8 | 1 | 15000.00 | 4000.00 | 15000.00 | 4000.00
+2025-02-11 19:57:25 | Antena Tdt 5M | 1 | 20000.00 | 9000.00 | 20000.00 | 9000.00
+2025-02-11 20:19:38 | Cargador Belkin Tc | 1 | 25000.00 | 7500.00 | 25000.00 | 7500.00
