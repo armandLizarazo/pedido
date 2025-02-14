@@ -8,6 +8,13 @@ def ver_contenido(archivo):
                 print(f"El archivo '{archivo}' está vacío.")
                 return
             
+            if archivo == "registro_ventas.txt":
+                # Mostrar el contenido sin procesar (formato especial)
+                print(f"Contenido actual de '{archivo}':")
+                for i, linea in enumerate(lineas, 1):
+                    print(f"{i}. {linea.strip()}")
+                return
+            
             print("\nOpciones de filtrado:")
             print("1. Mostrar todos los items")
             print("2. Mostrar items con cantidad igual a 0")
@@ -112,11 +119,6 @@ def realizar_venta():
             cantidad_disponible = int(partes[-1])
             item_buscar = " ".join(partes[:-1]).strip()
             
-            if cantidad_disponible <= 0:
-                print("No hay unidades disponibles para este item.")
-                verificar_existencias_bodega(partes)
-                return
-            
             # Solicitar la cantidad a vender
             try:
                 cantidad_vender = int(input(f"Ingrese la cantidad de '{item_buscar}' a vender (disponibles: {cantidad_disponible}): ").strip())
@@ -155,7 +157,6 @@ def realizar_venta():
             
             print("Venta realizada con éxito.")
             registrar_venta(item_buscar, cantidad_vender, valor_venta, valor_costo)  # Registrar la venta
-            verificar_stock_cero()
         
         except ValueError:
             print("Entrada inválida. Debe ingresar un número.")

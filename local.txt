@@ -6,15 +6,19 @@
     Adaptador Hdmi2Vga 1
     Adaptador Hdmi2Vga Cable 2
     Adaptador Hdmi2Vga Macho Cable 2
+    Adaptador Hub 4 Puertos 3.0 0
     Adaptador Hub 7 Puertos 2.0 1
     Adaptador Hub 7 Puertos 3.0 1
     Adaptador Mdpp2Hdmi Cable 1
+    Adaptador Plug 3.5 A Media Mono 1
+    Adaptador Plug 3.5 A Media St 0
     Adaptador Tc2Hdmi Cable 1
     Adaptador Tc2Vga 1
     Adaptador Usb2Vga Cable 1
     Adaptador Vga2Av 2
     Adaptador Vga2Hdmi 2
-    Antena Tdt 5M 4
+    Aguja Extractor Sim 5
+    Antena Tdt 5M 3
     Antena Tdt Aire 1
     Aro De Luz 26Cm Rgb 2
     Aro De Luz 33Cm Light 1
@@ -38,22 +42,22 @@
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 0
     Cable Harvic Tc 1
-    Cable Harvic V8 1
+    Cable Harvic V8 0
     Cable Motorola Tc A Tc 2
     Cable Poder Cuadrado 3
     Cable Royal Tc 2M 1
+    Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 1
     Cable Yoyos Tc 3M 1
     Cable Yoyos V8 3M 2
     Camara Web 720P 1
-    Cargador Apple 20W Tc Cabeza 2
+    Cargador Apple 20W Tc Cabeza 1
     Cargador Apple 20W Tc Ligthning 1
     Cargador Apple 25W Tc Cabeza 2
     Cargador Apple 25W Tc Ligthning 1
     Cargador Apple 30W Tc Cabeza 1
     Cargador Apple 35W 2Tc Cabeza 1
     Cargador Apple 5V Eco 0
-    Cargador Apple 5V Eco 1
     Cargador Apple 60W 2Tc 0
     Cargador Apple 60W 2Tc Cabeza 1
     Cargador Apple Magsafe 1
@@ -64,6 +68,7 @@
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 1
     Cargador Cabeza Tc & Usb 20W C15 1
     Cargador Cabeza W Tc & 5Usb 40W Pd-32 1
+    Cargador Digo V8 5
     Cargador Harvic V8 4.1A 1
     Cargador Huawei Honor V8 1
     Cargador Inalambrico Harvic 18W 1
@@ -102,7 +107,7 @@
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
     Cargador Yl Tc 3
-    Cargador Yl V8 3
+    Cargador Yl V8 2
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
     Control Gamer Microsoft Pc/360 Cable 2
@@ -111,16 +116,29 @@
     Control Tv Smart Tv 2
     Control Tv Tv Box 2
     Dispensador Agua Botellon 2
+    Forro Aramdura Motorola Moto G24 / G04 Ab 1
     Forro Armadura Oppo Reno 11F Negro 0
+    Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 0
+    Forro Cargador Apple Con Estuche Azul 1
+    Forro Cargador Apple Con Estuche Morado 1
+    Forro Cargador Apple Con Estuche Naranja 1
+    Forro Cargador Apple Con Estuche Negro 0
     Forro Diseños A35 Caballero 0
     Forro Diseños A55 Dama 0
     Forro Diseños Honor X8A Dama 0
+    Forro Diseños Huawei Y9 2019 / Y8S Caballero 2
+    Forro Diseños Huawei Y9 2019 / Y8S Dama 2
+    Forro Diseños Motorola Moto G24 / G04 Caballero 5
+    Forro Diseños Motorola Moto G24 / G04 Dama 5
     Forro Diseños Oppo A38 Caballero 0
     Forro Diseños Oppo A38 Dama 0
     Forro Diseños Samsung A14 Caballero 0
     Forro Diseños Samsung A15 Caballero 0
     Forro Diseños Samsung A35 Dama 0
     Forro Diseños Samsung A55 Caballero 0
+    Forro Diseños Tecno Camon 30 Pro Dama 5
+    Forro Diseños Tecno Spark Go 2024 Caballero 5
+    Forro Diseños Tecno Spark Go 2024 Dama 5
     Forro Diseños Xiaomi Redmi 10 Caballero 3
     Forro Diseños Xiaomi Redmi 10 Dama 6
     Forro Diseños Xiaomi Redmi Note 13 5G 0
@@ -135,6 +153,7 @@
     Forro Space Apple Iphone 15 Plus 0
     Forro Space Apple Iphone 16 Pro 1
     Forro Space Apple Iphone 6S 0
+    Forro Space Apple Iphone Xr 1
     Forro Space Apple Iphpone 14 Max Ab 0
     Forro Space Color Samsung A05S Ab Lila 0
     Forro Space Color Samsung A34 Ab Negro 0
@@ -145,6 +164,7 @@
     Forro Space Huawei Honor X7A 0
     Forro Space Huawei Honor X8 0
     Forro Space Huawei Nova Y90 0
+    Forro Space Huawei Y9 / Y8S 2019 1
     Forro Space Huawei Y9 2019 0
     Forro Space Magsafe Apple Iphone 11 0
     Forro Space Motorola Moto E20 0
@@ -160,8 +180,10 @@
     Forro Space Motorola Moto G60S 0
     Forro Space Motorola Moto G84 0
     Forro Space Oppo A57 / A77 0
+    Forro Space Oppo A78 2
     Forro Space Oppo Realme C67 0
     Forro Space Oppo Reno 10 0
+    Forro Space Oppo Reno 7 0
     Forro Space Samsung A03 0
     Forro Space Samsung A03S / A02S 0
     Forro Space Samsung A05S 0
@@ -201,7 +223,6 @@
     Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 0
     Forro Space Xiaomi Redmi Note 13 4G 0
-    Forro Sppace Oppo A78 0
     Gramera Sencilla 1
     Guantes Gamer 4
     Manos Libres Batri B10 Azulcielo 1
@@ -210,6 +231,7 @@
     Manos Libres Batri B10 Rosa 2
     Manos Libres Samsung Akg 5
     Mouse Eco Fc-143 1
+    Pacha Xiaomi Redmi 12C 1
     Parlante Lazzer Lz-2890 1
     Parlante Lazzer Lz-2894 1
     Parlante Lazzer Lz-915 1
@@ -232,6 +254,14 @@
     Reproductor Tdt Krono 1
     Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
+    Silicone Case Apple Iphone Xr Amarillo 1
+    Silicone Case Apple Iphone Xr Azuloscuro 1
+    Silicone Case Apple Iphone Xr Azulrey 1
+    Silicone Case Apple Iphone Xr Fucsia 1
+    Silicone Case Apple Iphone Xr Lila 1
+    Silicone Case Apple Iphone Xr Negro 0
+    Silicone Case Apple Iphone Xr Rojo 1
+    Silicone Case Apple Iphone Xr Rosa 1
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 0
     Silicone Case Huawei Honor Magic 5 Lite / X9A Verdemilitar 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 0
@@ -248,6 +278,11 @@
     Silicone Case Huawei Nova 9Se Negro 0
     Silicone Case Huawei Nova Y70 Amarillo 0
     Silicone Case Huawei Nova Y70 Lila 0
+    Silicone Case Huawei Y9 2019 / Y8S 0
+    Silicone Case Huawei Y9 2019 / Y8S Negro 1
+    Silicone Case Huawei Y9 2019 / Y8S Rojo 1
+    Silicone Case Huawei Y9 2019 / Y8S Rosa 1
+    Silicone Case Huawei Y9 2019 / Y8Sazulrey 1
     Silicone Case Huawei Y9 Prime Morado 0
     Silicone Case Huawei Y9 Prime Verde 0
     Silicone Case Infinix Note 40 Morado 0
@@ -267,18 +302,31 @@
     Silicone Case Iphone 14 Plus Negro 0
     Silicone Case Iphone 14 Pro Ab Fucsia 0
     Silicone Case Iphone 15 Abierto Lila 0
+    Silicone Case Motorol Moto G24 Rojo 0
     Silicone Case Motorola Moto Edge 30 Lite Negro 0
     Silicone Case Motorola Moto Edge 40 Azuloscuro 0
     Silicone Case Motorola Moto Edge 40 Negro 0
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 0
     Silicone Case Motorola Moto Edge 40 Neo Rosa 0
     Silicone Case Motorola Moto Edge 40 Rojo 0
+    Silicone Case Motorola Moto G04 Verdemilitar 1
     Silicone Case Motorola Moto G20 Azulrey 0
     Silicone Case Motorola Moto G20 Morado 0
     Silicone Case Motorola Moto G20 Negro 0
     Silicone Case Motorola Moto G20 Rosa 0
     Silicone Case Motorola Moto G22 Fucsia 0
+    Silicone Case Motorola Moto G24 / G04 Amarillo 1
+    Silicone Case Motorola Moto G24 / G04 Aulrey 1
+    Silicone Case Motorola Moto G24 / G04 Fucsia  1
+    Silicone Case Motorola Moto G24 / G04 Lila 
+    Silicone Case Motorola Moto G24 / G04 Morado 1
+    Silicone Case Motorola Moto G24 / G04 Negro 1
+    Silicone Case Motorola Moto G24 / G04 Rojo 0
+    Silicone Case Motorola Moto G24 / G04 Rosa 1
+    Silicone Case Motorola Moto G24 / G04 Verdemilitar 1
     Silicone Case Motorola Moto G24 Lila 0
+    Silicone Case Motorola Moto G24 Rojo 1
+    Silicone Case Motorola Moto G24 Rojo G04 1
     Silicone Case Motorola Moto G60S Rojo 0
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 1
@@ -429,6 +477,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
+    Smartphone Tecno Spark Go 1S Gris 0
     Soporte Tv 32 Brazo 1
     Soporte Tv 50 Brazo 2
     Teclado Combo Gamer F92 1
@@ -436,10 +485,12 @@
     Televisor Smart Tv Fly Android 43P 1
     Televisor Smart Tv Tg Android 32P 1
     Televisor Tg 19P 0
+    Vidrio 5D Apple Iphone 11 / Xr 1
     Vidrio 5D Apple Iphone 13 / 13Pro 0
     Vidrio 5D Huawei Honor X6S 0
     Vidrio 5D Mi 11T 0
     Vidrio 5D Samsung A12 0
+    Vidrio 5D Xiaomi Mi 11T 5
     Vidrio 5D Xiaomi Redmi 13C 0
     Vidrio 5D Xiaomi Redmi Note 11 0
     Vidrio Antiespia Huawei Honor X6S 0

@@ -1,144 +1,311 @@
-import pandas as pd
-from tabulate import tabulate
+import os
+from datetime import datetime
 
-# Cargar los datos desde el archivo txt
-def cargar_datos():
-    try:
-        # Leer el archivo con el separador '|' y con nombres de columnas
-        datos = pd.read_csv(
-            'registro_ventas.txt',
-            sep='|',
-            header=0,  # La primera fila contiene los títulos
-            skipinitialspace=True
-        )
-        
-        # Verificar que las columnas esperadas estén presentes
-        columnas_esperadas = ['Fecha', 'Item', 'Cantidad', 'Valor de venta', 'Valor de costo', 'Subtotal venta', 'Subtotal costo']
-        if not all(col in datos.columns for col in columnas_esperadas):
-            print("El archivo no tiene las columnas esperadas.")
-            return None
-        
-        # Eliminar espacios en blanco adicionales en las columnas de texto
-        datos['Fecha'] = datos['Fecha'].str.strip()
-        datos['Item'] = datos['Item'].str.strip()
-        
-        # Convertir las columnas a los tipos correctos
-        datos['Fecha'] = pd.to_datetime(datos['Fecha'], format='%Y-%m-%d %H:%M:%S', errors='coerce')
-        datos['Cantidad'] = pd.to_numeric(datos['Cantidad'], errors='coerce')
-        datos['Valor de venta'] = pd.to_numeric(datos['Valor de venta'], errors='coerce')
-        datos['Valor de costo'] = pd.to_numeric(datos['Valor de costo'], errors='coerce')
-        datos['Subtotal venta'] = pd.to_numeric(datos['Subtotal venta'], errors='coerce')
-        datos['Subtotal costo'] = pd.to_numeric(datos['Subtotal costo'], errors='coerce')
-        
-        # Eliminar filas con valores nulos (si las conversiones fallaron)
-        datos = datos.dropna()
-        
-        return datos
-    except FileNotFoundError:
-        print("El archivo 'registro_ventas.txt' no existe.")
-        return None
-    except Exception as e:
-        print(f"Error al cargar los datos: {e}")
-        return None
+class GestorInventario:
+    def __init__(self):
+        self.archivo_inventario = "bodegac.txt"
+        self.crear_archivos_si_no_existen()
 
-# Función para realizar la consulta
-def realizar_consulta(datos, fecha=0, item=0, cantidad=0, valor_venta=0, valor_costo=0):
-    try:
-        if fecha != 0:
-            fecha = pd.to_datetime(fecha, format='%Y-%m-%d', errors='coerce')
-            if pd.isna(fecha):
-                print("Formato de fecha incorrecto. No se aplicará el filtro de fecha.")
+    def crear_archivos_si_no_existen(self):
+        """Crea el archivo si no existe"""
+        if not os.path.exists(self.archivo_inventario):
+            with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                pass
+
+    def imprimir_contenido(self, filtro_cantidad=None, operador=None):
+        try:
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()
+                if not lineas:
+                    print("\nEl archivo está vacío.")
+                    return 0
+                
+                # Lista para almacenar advertencias y líneas inválidas
+                advertencias = []
+                lineas_invalidas = []
+                
+                # Verificar cada línea en busca de errores
+                for i, linea in enumerate(lineas, 1):
+                    linea = linea.strip()
+                    partes = linea.rsplit(' ', 1)  # Divide desde la derecha en 2 partes
+                    
+                    if len(partes) == 2:
+                        descripcion, cantidad = partes
+                        try:
+                            cantidad = int(cantidad)  # Intenta convertir la cantidad a entero
+                        except ValueError:
+                            advertencias.append(f"{i}. [ADVERTENCIA] Línea inválida: {linea} (la cantidad no es un número)")
+                            lineas_invalidas.append(i - 1)  # Guarda el índice de la línea inválida
+                    else:
+                        advertencias.append(f"{i}. [ADVERTENCIA] Línea inválida: {linea} (formato incorrecto)")
+                        lineas_invalidas.append(i - 1)  # Guarda el índice de la línea inválida
+                
+                # Mostrar advertencias si las hay
+                if advertencias:
+                    print("\n=== ADVERTENCIAS ===")
+                    for advertencia in advertencias:
+                        print(advertencia)
+                    
+                    # Preguntar al usuario qué desea hacer
+                    print("\nOpciones:")
+                    print("1. Continuar (ignorar líneas inválidas)")
+                    print("2. Cancelar proceso")
+                    print("3. Corregir líneas inválidas")
+                    opcion = input("Seleccione una opción (1-3): ").strip()
+                    
+                    if opcion == "1":
+                        print("\nContinuando con el proceso...")
+                    elif opcion == "2":
+                        print("Proceso cancelado.")
+                        return 0
+                    elif opcion == "3":
+                        # Corregir líneas inválidas
+                        for indice in lineas_invalidas:
+                            print(f"\nCorrigiendo línea {indice + 1}: {lineas[indice].strip()}")
+                            nueva_cantidad = input("Ingrese la nueva cantidad (o presione Enter para omitir): ").strip()
+                            
+                            if nueva_cantidad:
+                                try:
+                                    nueva_cantidad = int(nueva_cantidad)  # Validar que sea un número
+                                    # Agrega la nueva cantidad al final de la línea sin eliminar la descripción
+                                    lineas[indice] = f"    {lineas[indice].strip()} {nueva_cantidad}\n"
+                                    print("Línea corregida correctamente.")
+                                except ValueError:
+                                    print("Error: La cantidad debe ser un número válido. No se realizaron cambios.")
+                            else:
+                                print("La línea no fue modificada.")
+                        
+                        # Guardar los cambios en el archivo
+                        with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                            f.writelines(lineas)
+                        print("\nCambios guardados en el archivo.")
+                    else:
+                        print("Opción inválida. Continuando con el proceso...")
+                
+                # Si el usuario decide continuar, imprimir el contenido válido
+                print("\n=== CONTENIDO DEL INVENTARIO ===")
+                for i, linea in enumerate(lineas, 1):
+                    linea = linea.strip()
+                    partes = linea.rsplit(' ', 1)
+                    
+                    if len(partes) == 2:
+                        descripcion, cantidad = partes
+                        try:
+                            cantidad = int(cantidad)
+                            
+                            # Aplica el filtro si se proporciona
+                            if filtro_cantidad is not None and operador is not None:
+                                if operador == ">" and cantidad > filtro_cantidad:
+                                    print(f"{i}. {descripcion} {cantidad}")
+                                elif operador == "<" and cantidad < filtro_cantidad:
+                                    print(f"{i}. {descripcion} {cantidad}")
+                                elif operador == "=" and cantidad == filtro_cantidad:
+                                    print(f"{i}. {descripcion} {cantidad}")
+                            else:
+                                print(f"{i}. {descripcion} {cantidad}")
+                        except ValueError:
+                            # Ignorar líneas inválidas (ya se mostraron en las advertencias)
+                            pass
+                    else:
+                        # Ignorar líneas inválidas (ya se mostraron en las advertencias)
+                        pass
+                
+                return len(lineas)
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+            return 0
+    def agregar_linea(self, descripcion, cantidad):
+        try:
+            cantidad = int(cantidad)
+            with open(self.archivo_inventario, 'a', encoding='latin-1') as f:
+                f.write(f"    {descripcion} {cantidad}\n")  # Agrega 4 espacios al inicio
+            print("\nLínea agregada correctamente.")
+        except ValueError:
+            print("Error: La cantidad debe ser un número válido.")
+
+    def modificar_linea(self, numero_linea, nueva_descripcion, nueva_cantidad):
+        try:
+            nueva_cantidad = int(nueva_cantidad)
+            lineas = []
+            
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()
+
+            if 1 <= numero_linea <= len(lineas):
+                lineas[numero_linea - 1] = f"    {nueva_descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                
+                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                    f.writelines(lineas)
+                print("\nLínea modificada correctamente.")
             else:
-                datos = datos[datos['Fecha'].dt.date == fecha.date()]
-        if item != 0 and item.lower() != "all":  # Ignorar filtro si item es "all"
-            palabras_clave = item.lower().split()
-            datos = datos[datos['Item'].apply(lambda x: any(palabra in x.lower() for palabra in palabras_clave))]
-        if cantidad != 0:
-            datos = datos[datos['Cantidad'] == cantidad]
-        if valor_venta != 0:
-            datos = datos[datos['Valor de venta'] == valor_venta]
-        if valor_costo != 0:
-            datos = datos[datos['Valor de costo'] == valor_costo]
-        return datos
-    except Exception as e:
-        print(f"Error al realizar la consulta: {e}")
-        return pd.DataFrame()
+                print("\nError: Número de línea fuera de rango.")
+        except ValueError:
+            print("Error: La cantidad debe ser un número válido.")
 
-# Función para mostrar los resultados en formato de tabla
-def mostrar_resultados(datos):
-    if datos.empty:
-        print("No se encontraron resultados.")
-    else:
-        # Crear una copia del DataFrame para no modificar el original
-        datos_tabla = datos.copy()
-        
-        # Calcular subtotales
-        subtotal_cantidad = datos_tabla['Cantidad'].sum()
-        subtotal_venta = datos_tabla['Subtotal venta'].sum()
-        subtotal_costo = datos_tabla['Subtotal costo'].sum()
-        
-        # Agregar una fila de subtotales al DataFrame
-        subtotales = pd.DataFrame({
-            'Fecha': [''],
-            'Item': ['Subtotal'],
-            'Cantidad': [subtotal_cantidad],
-            'Valor de venta': [''],
-            'Valor de costo': [''],
-            'Subtotal venta': [subtotal_venta],
-            'Subtotal costo': [subtotal_costo]
-        })
-        
-        # Concatenar los datos con la fila de subtotales
-        datos_tabla = pd.concat([datos_tabla, subtotales], ignore_index=True)
-        
-        # Convertir el DataFrame a una lista de listas para usar con tabulate
-        tabla = datos_tabla.values.tolist()
-        
-        # Agregar una línea horizontal antes de la fila de subtotales
-        tabla.insert(-1, ['─' * 20, '─' * 30, '─' * 8, '─' * 12, '─' * 12, '─' * 14, '─' * 14])
-        
-        # Mostrar la tabla con bordes y ajuste automático de columnas
-        print(tabulate(tabla, headers=datos_tabla.columns, tablefmt='fancy_grid', showindex=False, stralign='left', numalign='right'))
+    def modificar_cantidad(self, numero_linea, cambio_cantidad):
+        try:
+            cambio_cantidad = int(cambio_cantidad)
+            lineas = []
+            
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()
 
-# Función para guardar la consulta en un archivo txt
-def guardar_consulta(datos, nombre_archivo):
-    if not datos.empty:
-        datos.to_csv(nombre_archivo, sep='|', index=False)
-        print(f"Consulta guardada en {nombre_archivo}")
-    else:
-        print("No hay datos para guardar.")
+            if 1 <= numero_linea <= len(lineas):
+                descripcion, cantidad = lineas[numero_linea - 1].strip().rsplit(' ', 1)
+                nueva_cantidad = int(cantidad) + cambio_cantidad
+                lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                
+                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                    f.writelines(lineas)
+                print("\nCantidad modificada correctamente.")
+            else:
+                print("\nError: Número de línea fuera de rango.")
+        except ValueError:
+            print("Error: La cantidad debe ser un número válido.")
 
-# Función principal
+    def eliminar_linea(self, numero_linea):
+        try:
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()
+            
+            if 1 <= numero_linea <= len(lineas):
+                linea_eliminada = lineas[numero_linea - 1].strip()
+                del lineas[numero_linea - 1]
+                
+                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                    f.writelines(lineas)
+                print(f"\nLínea eliminada: {linea_eliminada}")
+            else:
+                print("\nError: Número de línea fuera de rango.")
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+
+    def filtrar_por_palabra(self, palabra):
+        try:
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()            
+            if not lineas:
+                print("\nEl archivo está vacío.")
+                return
+            
+            palabra = palabra.lower()
+            lineas_filtradas = []
+            
+            for i, linea in enumerate(lineas, 1):
+                if palabra in linea.lower():
+                    lineas_filtradas.append((i, linea.strip()))
+            
+            if lineas_filtradas:
+                print(f"\nLíneas que contienen '{palabra}':")
+                for num_linea, contenido in lineas_filtradas:
+                    print(f"{num_linea}. {contenido}")
+            else:
+                print(f"\nNo se encontraron líneas que contengan '{palabra}'")
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+
+def mostrar_menu():
+    """Muestra el menú principal"""
+    print("\n=== GESTOR DE INVENTARIO ===")
+    print("1. Ver contenido actual")
+    print("2. Ver contenido filtrado por cantidad")
+    print("3. Agregar nueva línea")
+    print("4. Modificar línea existente")
+    print("5. Agregar unidades a línea existente")
+    print("6. Quitar unidades a línea existente")
+    print("7. Eliminar línea")
+    print("8. Filtrar por palabra")
+    print("0. Salir")
+    return input("\nSeleccione una opción: ")
+
 def main():
-    datos = cargar_datos()
-    if datos is None:
-        return
+    gestor = GestorInventario()
     
-    print("Opciones de filtro:")
-    fecha = input("Fecha (formato YYYY-MM-DD, 0 para omitir): ")
-    item = input("Item (0 para omitir, 'all' para todos, o varias palabras clave): ")
-    cantidad = input("Cantidad (0 para omitir): ")
-    valor_venta = input("Valor de venta (0 para omitir): ")
-    valor_costo = input("Valor de costo (0 para omitir): ")
-    
-    # Convertir entradas a tipos adecuados
-    cantidad = int(cantidad) if cantidad != '0' else 0
-    valor_venta = float(valor_venta) if valor_venta != '0' else 0
-    valor_costo = float(valor_costo) if valor_costo != '0' else 0
-    
-    # Realizar la consulta
-    resultados = realizar_consulta(datos, fecha, item, cantidad, valor_venta, valor_costo)
-    
-    # Mostrar resultados
-    mostrar_resultados(resultados)
-    
-    # Opción de guardar o eliminar la consulta
-    opcion = input("\n¿Desea guardar la consulta? (s/n): ").lower()
-    if opcion == 's':
-        nombre_archivo = input("Ingrese el nombre del archivo para guardar (ej: consulta.txt): ")
-        guardar_consulta(resultados, nombre_archivo)
-    else:
-        print("Consulta no guardada.")
+    while True:
+        opcion = mostrar_menu()
+        
+        if opcion == "1":
+            gestor.imprimir_contenido()
+        
+        elif opcion == "2":
+            try:
+                cantidad = int(input("Ingrese la cantidad para filtrar: "))
+                print("\nSeleccione el tipo de filtro:")
+                print("1. Mayor que (>)")
+                print("2. Menor que (<)")
+                print("3. Igual a (=)")
+                filtro = input("Seleccione una opción (1-3): ").strip()
+                
+                operador = {
+                    "1": ">",
+                    "2": "<",
+                    "3": "="
+                }.get(filtro)
+                
+                if operador:
+                    gestor.imprimir_contenido(cantidad, operador)
+                else:
+                    print("Opción de filtro inválida. Debe ser 1, 2 o 3.")
+            except ValueError:
+                print("Error: La cantidad debe ser un número válido")
+        
+        elif opcion == "3":
+            descripcion = input("Ingrese la descripción del item: ")
+            cantidad = input("Ingrese la cantidad: ")
+            gestor.agregar_linea(descripcion, cantidad)
+        
+        elif opcion == "4":
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a modificar: "))
+                    descripcion = input("Ingrese la nueva descripción: ")
+                    cantidad = input("Ingrese la nueva cantidad: ")
+                    gestor.modificar_linea(linea, descripcion, cantidad)
+                except ValueError:
+                    print("Error: Ingrese un número válido")
+        
+        elif opcion == "5":
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a modificar: "))
+                    cantidad = input("Ingrese la cantidad a agregar: ")
+                    gestor.modificar_cantidad(linea, cantidad)
+                except ValueError:
+                    print("Error: Ingrese un número válido")
+        
+        elif opcion == "6":
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a modificar: "))
+                    cantidad = input("Ingrese la cantidad a quitar: ")
+                    gestor.modificar_cantidad(linea, str(-int(cantidad)))
+                except ValueError:
+                    print("Error: Ingrese un número válido")
+        
+        elif opcion == "7":
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a eliminar: "))
+                    gestor.eliminar_linea(linea)
+                except ValueError:
+                    print("Error: Ingrese un número válido")
+        
+        elif opcion == "8":
+            palabra = input("Ingrese la palabra a buscar: ")
+            gestor.filtrar_por_palabra(palabra)
+        
+        elif opcion == "0":
+            print("\n¡Hasta luego!")
+            break
+        
+        else:
+            print("\nOpción inválida")
+        
+        input("\nPresione Enter para continuar...")
 
 if __name__ == "__main__":
     main()

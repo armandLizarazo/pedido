@@ -6,14 +6,18 @@
     Adaptador Hdmi2Vga 15000
     Adaptador Hdmi2Vga Cable 10000
     Adaptador Hdmi2Vga Macho Cable 10000
+    Adaptador Hub 4 Puertos 3.0 10000
     Adaptador Hub 7 Puertos 2.0 10000
     Adaptador Hub 7 Puertos 3.0 13000
     Adaptador Mdpp2Hdmi Cable 15000
+    Adaptador Plug 3.5 A Media Mono 2500
+    Adaptador Plug 3.5 A Media St 2500
     Adaptador Tc2Hdmi Cable 20000
     Adaptador Tc2Vga 12000
     Adaptador Usb2Vga Cable 10000
     Adaptador Vga2Av 15000
     Adaptador Vga2Hdmi 15000
+    Aguja Extractor Sim 2000
     Antena Tdt 5M 9000
     Antena Tdt Aire 18000
     Aro De Luz 26Cm Rgb 30000
@@ -42,6 +46,7 @@
     Cable Motorola Tc A Tc 3500
     Cable Poder Cuadrado 3500
     Cable Royal Tc 2M 6000
+    Cable Xiaomi Tc A Tc 10000
     Cable Yoyos Tc 3M 5000
     Cable Yoyos Tc 4500
     Cable Yoyos V8 3M 6000
@@ -53,7 +58,6 @@
     Cargador Apple 30W Tc Cabeza 18000
     Cargador Apple 35W 2Tc Cabeza 55000
     Cargador Apple 5V Eco 4000
-    Cargador Apple 5V Eco 6000
     Cargador Apple 60W 2Tc 11000
     Cargador Apple 60W 2Tc Cabeza 12000
     Cargador Apple Magsafe 22000
@@ -64,6 +68,7 @@
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 12000
     Cargador Cabeza Tc & Usb 20W C15 7000
     Cargador Cabeza W Tc & 5Usb 40W Pd-32 15000
+    Cargador Digo V8 3000
     Cargador Harvic V8 4.1A 7000
     Cargador Huawei Honor V8 7000
     Cargador Inalambrico Harvic 18W 18000
@@ -111,16 +116,29 @@
     Control Tv Smart Tv 7000
     Control Tv Tv Box 7000
     Dispensador Agua Botellon 10000
+    Forro Aramdura Motorola Moto G24 / G04 Ab 6000
     Forro Armadura Oppo Reno 11F Negro 6000
+    Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 6000
+    Forro Cargador Apple Con Estuche Azul 11000
+    Forro Cargador Apple Con Estuche Morado 11000
+    Forro Cargador Apple Con Estuche Naranja 11000
+    Forro Cargador Apple Con Estuche Negro 11000
     Forro Diseños A35 Caballero 3500
     Forro Diseños A55 Dama 3500
     Forro Diseños Honor X8A Dama 3500
+    Forro Diseños Huawei Y9 2019 / Y8S Caballero 3500
+    Forro Diseños Huawei Y9 2019 / Y8S Dama 3500
+    Forro Diseños Motorola Moto G24 / G04 Caballero 3500
+    Forro Diseños Motorola Moto G24 / G04 Dama 3500
     Forro Diseños Oppo A38 Caballero 3500
     Forro Diseños Oppo A38 Dama 3500
     Forro Diseños Samsung A14 Caballero 3500
     Forro Diseños Samsung A15 Caballero 3500
     Forro Diseños Samsung A35 Dama 3500
     Forro Diseños Samsung A55 Caballero 3500
+    Forro Diseños Tecno Camon 30 Pro Dama 3500
+    Forro Diseños Tecno Spark Go 2024 Caballero 3500
+    Forro Diseños Tecno Spark Go 2024 Dama 3500
     Forro Diseños Xiaomi Redmi 10 Caballero 3500
     Forro Diseños Xiaomi Redmi 10 Dama 3500
     Forro Diseños Xiaomi Redmi Note 13 5G 3500
@@ -135,6 +153,7 @@
     Forro Space Apple Iphone 15 Plus 4000
     Forro Space Apple Iphone 16 Pro 4000
     Forro Space Apple Iphone 6S 4000
+    Forro Space Apple Iphone Xr 4000
     Forro Space Apple Iphpone 14 Max Ab 4000
     Forro Space Color Samsung A05S Ab Lila 4000
     Forro Space Color Samsung A34 Ab Negro 4000
@@ -145,6 +164,7 @@
     Forro Space Huawei Honor X7A 4000
     Forro Space Huawei Honor X8 4000
     Forro Space Huawei Nova Y90 4000
+    Forro Space Huawei Y9 / Y8S 2019 4000
     Forro Space Huawei Y9 2019 
     Forro Space Magsafe Apple Iphone 11 6000
     Forro Space Motorola Moto E20 4000
@@ -160,8 +180,10 @@
     Forro Space Motorola Moto G60S 4000
     Forro Space Motorola Moto G84 4000
     Forro Space Oppo A57 / A77 4000
+    Forro Space Oppo A78 4000
     Forro Space Oppo Realme C67 4000
     Forro Space Oppo Reno 10 4000
+    Forro Space Oppo Reno 7 4000
     Forro Space Samsung A03 4000
     Forro Space Samsung A03S / A02S 4000
     Forro Space Samsung A05S 4000
@@ -201,7 +223,6 @@
     Forro Space Xiaomi Redmi Note 12 Pro 4000
     Forro Space Xiaomi Redmi Note 12S 4000
     Forro Space Xiaomi Redmi Note 13 4G 4000
-    Forro Sppace Oppo A78 4000
     Gramera Sencilla 9000
     Guantes Gamer 2000
     Manos Libres Batri B10 Azulcielo 7500
@@ -210,6 +231,7 @@
     Manos Libres Batri B10 Rosa 7500
     Manos Libres Samsung Akg 3300
     Mouse Eco Fc-143 4000
+    Pacha Xiaomi Redmi 12C 38000
     Parlante Lazzer Lz-2890 250000
     Parlante Lazzer Lz-2894 340000
     Parlante Lazzer Lz-915 420000
@@ -232,6 +254,14 @@
     Reproductor Tdt Krono 38000
     Reproductor Tv Stick Magis 75000
     Rollo Cinta Led Rgb 10M 28000
+    Silicone Case Apple Iphone Xr Amarillo 7000
+    Silicone Case Apple Iphone Xr Azuloscuro 7000
+    Silicone Case Apple Iphone Xr Azulrey 7000
+    Silicone Case Apple Iphone Xr Fucsia 7000
+    Silicone Case Apple Iphone Xr Lila 7000
+    Silicone Case Apple Iphone Xr Negro 5000
+    Silicone Case Apple Iphone Xr Rojo 7000
+    Silicone Case Apple Iphone Xr Rosa 7000
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 7000
     Silicone Case Huawei Honor Magic 5 Lite / X9A Verdemilitar 7000
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 7000
@@ -248,6 +278,11 @@
     Silicone Case Huawei Nova 9Se Negro 7000
     Silicone Case Huawei Nova Y70 Amarillo 7000
     Silicone Case Huawei Nova Y70 Lila 7000
+    Silicone Case Huawei Y9 2019 / Y8S 0
+    Silicone Case Huawei Y9 2019 / Y8S Negro 7000
+    Silicone Case Huawei Y9 2019 / Y8S Rojo 7000
+    Silicone Case Huawei Y9 2019 / Y8S Rosa 7000
+    Silicone Case Huawei Y9 2019 / Y8Sazulrey 7000
     Silicone Case Huawei Y9 Prime Morado 7000
     Silicone Case Huawei Y9 Prime Verde 7000
     Silicone Case Infinix Note 40 Morado 7000
@@ -267,18 +302,31 @@
     Silicone Case Iphone 14 Plus Negro 7000
     Silicone Case Iphone 14 Pro Ab Fucsia 6000
     Silicone Case Iphone 15 Abierto Lila 7000
+    Silicone Case Motorol Moto G24 Rojo 7000
     Silicone Case Motorola Moto Edge 30 Lite Negro 7000
     Silicone Case Motorola Moto Edge 40 Azuloscuro 7000
     Silicone Case Motorola Moto Edge 40 Negro 7000
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 7000
     Silicone Case Motorola Moto Edge 40 Neo Rosa 7000
     Silicone Case Motorola Moto Edge 40 Rojo 7000
+    Silicone Case Motorola Moto G04 Verdemilitar 7000
     Silicone Case Motorola Moto G20 Azulrey 7000
     Silicone Case Motorola Moto G20 Morado 7000
     Silicone Case Motorola Moto G20 Negro 7000
     Silicone Case Motorola Moto G20 Rosa 7000
     Silicone Case Motorola Moto G22 Fucsia 7000
+    Silicone Case Motorola Moto G24 / G04 Amarillo 7000
+    Silicone Case Motorola Moto G24 / G04 Aulrey 7000
+    Silicone Case Motorola Moto G24 / G04 Fucsia  7000
+    Silicone Case Motorola Moto G24 / G04 Lila 7000
+    Silicone Case Motorola Moto G24 / G04 Morado 7000
+    Silicone Case Motorola Moto G24 / G04 Negro 7000
+    Silicone Case Motorola Moto G24 / G04 Rojo 7000
+    Silicone Case Motorola Moto G24 / G04 Rosa 7000
+    Silicone Case Motorola Moto G24 / G04 Verdemilitar 7000
     Silicone Case Motorola Moto G24 Lila 7000
+    Silicone Case Motorola Moto G24 Rojo 7000
+    Silicone Case Motorola Moto G24 Rojo G04 7000
     Silicone Case Motorola Moto G60S Rojo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 7000
@@ -429,6 +477,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 7000
     Silicone Case Xiaomi Redmi Note 9S Amarillo 7000
+    Smartphone Tecno Spark Go 1S Gris 290000
     Soporte Tv 32 Brazo 
     Soporte Tv 50 Brazo 23000
     Teclado Combo Gamer F92 25000
@@ -436,10 +485,12 @@
     Televisor Smart Tv Fly Android 43P 760000
     Televisor Smart Tv Tg Android 32P 460000
     Televisor Tg 19P 185000
+    Vidrio 5D Apple Iphone 11 / Xr 900
     Vidrio 5D Apple Iphone 13 / 13Pro 900
     Vidrio 5D Huawei Honor X6S 900
     Vidrio 5D Mi 11T 900
     Vidrio 5D Samsung A12 900
+    Vidrio 5D Xiaomi Mi 11T 900
     Vidrio 5D Xiaomi Redmi 13C 900
     Vidrio 5D Xiaomi Redmi Note 11 900
     Vidrio Antiespia Huawei Honor X6S 18000
