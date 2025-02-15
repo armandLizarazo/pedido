@@ -26,12 +26,12 @@
     Aro De Luz 45Cm 0
     Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
     Audifonos Bluetooth I12 Negro 3
     Audifonos Bluetooth M25 1
     Audifonos Bluetooth Pro 60 1
     Audifonos Bluetooth Royal Sports 1
-    Audifonos Bluetooth X15 1
+    Audifonos Bluetooth X15 0
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 1
@@ -40,9 +40,9 @@
     Cable Belkin V8 5
     Cable Caterpillar Tc 3
     Cable Caterpillar Usb Ligthning 3
-    Cable Caterpillar V8 3
+    Cable Caterpillar V8 2
     Cable Harvic Tc 2
-    Cable Harvic V8 1
+    Cable Harvic V8 0
     Cable Motorola Tc A Tc 2
     Cable Poder Cuadrado 3
     Cable Royal Tc 2M 2
@@ -62,7 +62,7 @@
     Cargador Apple 60W 2Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 7
+    Cargador Belkin Tc 5
     Cargador Belkin V8 0
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -116,7 +116,7 @@
     Control Tv Smart Tv 2
     Control Tv Tv Box 1
     Dispensador Agua Botellon 3
-    Forro Aramdura Motorola Moto G24 / G04 Ab 0
+    Forro Aramdura Motorola Moto G24 / G04 Ab Negro 0
     Forro Armadura Oppo Reno 11F Negro 2
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 0
     Forro Cargador Apple Con Estuche Azul 1
@@ -251,8 +251,8 @@
     Reproductor Proyector Y300 0
     Reproductor Roku Express Hd 0
     Reproductor Tdt Dxg 0
-    Reproductor Tdt Krono 3
-    Reproductor Tv Stick Magis 1
+    Reproductor Tdt Krono 2
+    Reproductor Tv Stick Magis 0
     Rollo Cinta Led Rgb 10M 1
     Silicone Case Apple Iphone Xr Amarillo 0
     Silicone Case Apple Iphone Xr Azuloscuro 0
@@ -278,11 +278,11 @@
     Silicone Case Huawei Nova 9Se Negro 1
     Silicone Case Huawei Nova Y70 Amarillo 1
     Silicone Case Huawei Nova Y70 Lila 1
+    Silicone Case Huawei Y9 2019 / Y8S Azulrey 0
     Silicone Case Huawei Y9 2019 / Y8S Negro 0
     Silicone Case Huawei Y9 2019 / Y8S Rojo 0
     Silicone Case Huawei Y9 2019 / Y8S Rosa 0
     Silicone Case Huawei Y9 2019 / Y8S Verde 0
-    Silicone Case Huawei Y9 2019 / Y8Sazulrey 0
     Silicone Case Huawei Y9 Prime Morado 1
     Silicone Case Huawei Y9 Prime Verde 1
     Silicone Case Infinix Note 40 Morado 1
@@ -309,6 +309,7 @@
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 1
     Silicone Case Motorola Moto Edge 40 Neo Rosa 1
     Silicone Case Motorola Moto Edge 40 Rojo 1
+    Silicone Case Motorola Moto G04 Rojo 0
     Silicone Case Motorola Moto G04 Verdemilitar 0
     Silicone Case Motorola Moto G20 Azulrey 1
     Silicone Case Motorola Moto G20 Morado 1
@@ -317,16 +318,13 @@
     Silicone Case Motorola Moto G22 Fucsia 1
     Silicone Case Motorola Moto G24 / G04 Amarillo 0
     Silicone Case Motorola Moto G24 / G04 Aulrey 0
-    Silicone Case Motorola Moto G24 / G04 Fucsia  0
-    Silicone Case Motorola Moto G24 / G04 Lila 0
+    Silicone Case Motorola Moto G24 / G04 Fucsia 0
+    Silicone Case Motorola Moto G24 / G04 Lila 1
     Silicone Case Motorola Moto G24 / G04 Morado 0
     Silicone Case Motorola Moto G24 / G04 Negro 0
     Silicone Case Motorola Moto G24 / G04 Rojo 0
     Silicone Case Motorola Moto G24 / G04 Rosa 0
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 0
-    Silicone Case Motorola Moto G24 Lila 1
-    Silicone Case Motorola Moto G24 Rojo 0
-    Silicone Case Motorola Moto G24 Rojo G04 0
     Silicone Case Motorola Moto G60S Rojo 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 2
     Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 0
@@ -478,13 +476,13 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 0
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Smartphone Tecno Spark Go 1S Gris 0
-    Soporte Tv 32 Brazo 2
+    Soporte Tv 32 Brazo 1
     Soporte Tv 50 Brazo 2
     Teclado Combo Gamer F92 0
     Televisor Smart Tv Fly Android 32P 0
     Televisor Smart Tv Fly Android 43P 0
     Televisor Smart Tv Tg Android 32P 0
-    Televisor Tg 19p 0
+    Televisor Tg 19P 0
     Vidrio 5D Apple Iphone 11 / Xr 0
     Vidrio 5D Apple Iphone 13 / 13Pro 8
     Vidrio 5D Huawei Honor X6S 2
@@ -504,3 +502,14 @@
     Vidrio Tortuga Samsung A12 3
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
+    Forro Lujo Apple Iphone 11 0
+    Forro Pin Apple Iphone 11 0
+    Forro Ukg Apple Iphone 11 Rojo 0
+    Forro Diseã±Os Apple Iphone 11 Caballero 0
+    Forro Armadura Apple Iphone 11 Rojo 0
+    Forro Diseã±Os Apple Iphone 11 Dama 0
+    Forro Diseã±Os Apple Iphone 11 Verdemilitar 0
+    Cable Royal Tc 0
+    Forro Pin Motorola Moto G24 / G04 0
+    Forro Pin Motorola Moto G04 0
+    Antena TDT 3m con USB 0

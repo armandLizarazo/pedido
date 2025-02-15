@@ -1,9 +1,19 @@
 import os
 from datetime import datetime
+import sys
+
+# Configurar la codificación para la entrada/salida estándar
+if sys.stdout.encoding != 'latin-1':
+    try:
+        sys.stdout.reconfigure(encoding='latin-1')
+        sys.stdin.reconfigure(encoding='latin-1')
+    except AttributeError:
+        # Para versiones anteriores de Python que no tienen reconfigure
+        pass
 
 class GestorInventario:
-    def __init__(self):
-        self.archivo_inventario = "bodegac.txt"
+    def __init__(self, archivo_inventario=None):
+        self.archivo_inventario = archivo_inventario or "bodegac.txt"
         self.crear_archivos_si_no_existen()
 
     def crear_archivos_si_no_existen(self):
@@ -12,12 +22,18 @@ class GestorInventario:
             with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                 pass
 
+    def cambiar_archivo(self, nuevo_archivo):
+        """Cambia el archivo de inventario actual"""
+        self.archivo_inventario = nuevo_archivo
+        self.crear_archivos_si_no_existen()
+        print(f"\nArchivo cambiado a: {self.archivo_inventario}")
+
     def imprimir_contenido(self, filtro_cantidad=None, operador=None):
         try:
             with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
                 lineas = f.readlines()
                 if not lineas:
-                    print("\nEl archivo está vacío.")
+                    print(f"\nEl archivo {self.archivo_inventario} está vacío.")
                     return 0
                 
                 # Lista para almacenar advertencias y líneas inválidas
@@ -68,7 +84,8 @@ class GestorInventario:
                                 try:
                                     nueva_cantidad = int(nueva_cantidad)  # Validar que sea un número
                                     # Agrega la nueva cantidad al final de la línea sin eliminar la descripción
-                                    lineas[indice] = f"    {lineas[indice].strip()} {nueva_cantidad}\n"
+                                    descripcion = lineas[indice].strip().rsplit(' ', 1)[0] if len(lineas[indice].strip().rsplit(' ', 1)) > 1 else lineas[indice].strip()
+                                    lineas[indice] = f"    {descripcion} {nueva_cantidad}\n"
                                     print("Línea corregida correctamente.")
                                 except ValueError:
                                     print("Error: La cantidad debe ser un número válido. No se realizaron cambios.")
@@ -83,7 +100,7 @@ class GestorInventario:
                         print("Opción inválida. Continuando con el proceso...")
                 
                 # Si el usuario decide continuar, imprimir el contenido válido
-                print("\n=== CONTENIDO DEL INVENTARIO ===")
+                print(f"\n=== CONTENIDO DEL INVENTARIO ({self.archivo_inventario}) ===")
                 for i, linea in enumerate(lineas, 1):
                     linea = linea.strip()
                     partes = linea.rsplit(' ', 1)
@@ -114,6 +131,10 @@ class GestorInventario:
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
             return 0
+        except UnicodeDecodeError:
+            print(f"Error: No se pudo leer el archivo {self.archivo_inventario}. Posible problema de codificación.")
+            return 0
+
     def agregar_linea(self, descripcion, cantidad):
         try:
             cantidad = int(cantidad)
@@ -122,6 +143,8 @@ class GestorInventario:
             print("\nLínea agregada correctamente.")
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
+        except UnicodeEncodeError:
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
 
     def modificar_linea(self, numero_linea, nueva_descripcion, nueva_cantidad):
         try:
@@ -141,6 +164,8 @@ class GestorInventario:
                 print("\nError: Número de línea fuera de rango.")
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
+        except UnicodeEncodeError:
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
 
     def modificar_cantidad(self, numero_linea, cambio_cantidad):
         try:
@@ -151,17 +176,31 @@ class GestorInventario:
                 lineas = f.readlines()
 
             if 1 <= numero_linea <= len(lineas):
-                descripcion, cantidad = lineas[numero_linea - 1].strip().rsplit(' ', 1)
-                nueva_cantidad = int(cantidad) + cambio_cantidad
-                lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                linea = lineas[numero_linea - 1].strip()
+                partes = linea.rsplit(' ', 1)
                 
-                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
-                    f.writelines(lineas)
-                print("\nCantidad modificada correctamente.")
+                if len(partes) == 2:
+                    descripcion, cantidad = partes
+                    try:
+                        nueva_cantidad = int(cantidad) + cambio_cantidad
+                        if nueva_cantidad <0:
+                            print("\nError: La cantidad no puede ser negativa.")
+                            return
+                        lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                        
+                        with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                            f.writelines(lineas)
+                        print("\nCantidad modificada correctamente.")
+                    except ValueError:
+                        print("\nError: Cantidad inválida en el archivo.")
+                else:
+                    print("\nError: Formato de línea inválido.")
             else:
                 print("\nError: Número de línea fuera de rango.")
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
+        except UnicodeEncodeError:
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
 
     def eliminar_linea(self, numero_linea):
         try:
@@ -179,13 +218,15 @@ class GestorInventario:
                 print("\nError: Número de línea fuera de rango.")
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+        except UnicodeDecodeError:
+            print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
 
     def filtrar_por_palabra(self, palabra):
         try:
             with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
                 lineas = f.readlines()            
             if not lineas:
-                print("\nEl archivo está vacío.")
+                print(f"\nEl archivo {self.archivo_inventario} está vacío.")
                 return
             
             palabra = palabra.lower()
@@ -203,6 +244,8 @@ class GestorInventario:
                 print(f"\nNo se encontraron líneas que contengan '{palabra}'")
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+        except UnicodeDecodeError:
+            print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
 
 def mostrar_menu():
     """Muestra el menú principal"""
@@ -215,11 +258,25 @@ def mostrar_menu():
     print("6. Quitar unidades a línea existente")
     print("7. Eliminar línea")
     print("8. Filtrar por palabra")
+    print("9. Cambiar archivo de inventario")
     print("0. Salir")
     return input("\nSeleccione una opción: ")
 
 def main():
-    gestor = GestorInventario()
+    # Intentar configurar la consola para latin-1
+    try:
+        # Esto funciona mejor en Windows
+        os.system("chcp 1252 > nul")
+    except:
+        pass
+    
+    # Permitir seleccionar el archivo al inicio
+    archivo_predeterminado = "bodegac.txt"
+    print(f"Archivo predeterminado: {archivo_predeterminado}")
+    nuevo_archivo = input("Ingrese nombre de archivo a usar (Enter para usar el predeterminado): ").strip()
+    archivo_a_usar = nuevo_archivo if nuevo_archivo else archivo_predeterminado
+    
+    gestor = GestorInventario(archivo_a_usar)
     
     while True:
         opcion = mostrar_menu()
@@ -297,6 +354,13 @@ def main():
         elif opcion == "8":
             palabra = input("Ingrese la palabra a buscar: ")
             gestor.filtrar_por_palabra(palabra)
+        
+        elif opcion == "9":
+            nuevo_archivo = input("Ingrese el nombre del nuevo archivo: ").strip()
+            if nuevo_archivo:
+                gestor.cambiar_archivo(nuevo_archivo)
+            else:
+                print("El nombre del archivo no puede estar vacío.")
         
         elif opcion == "0":
             print("\n¡Hasta luego!")

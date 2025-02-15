@@ -1,5 +1,5 @@
     Adaptador Av2Hdmi 15000
-    Adaptador Av2Vga 
+    Adaptador Av2Vga 14000
     Adaptador Dpp2Hdmi Cable 12000
     Adaptador Dpp2Vga Cable 10000
     Adaptador Hdmi2Av 15000
@@ -86,7 +86,7 @@
     Cargador Pluying Harvic 3P 15W 9000
     Cargador Pluying P7Modulador 12-24V 20W 7000
     Cargador Pluying Royal 2P 20W 8000
-    Cargador Pluying Royal 38W 
+    Cargador Pluying Royal 38W 8000
     Cargador Pluying Royal Modulador Carg7 7000
     Cargador Pluying X8 Modulador 12-24V 3.1A 9000
     Cargador Pluying X8 Modulador 3.1A 8000
@@ -116,7 +116,7 @@
     Control Tv Smart Tv 7000
     Control Tv Tv Box 7000
     Dispensador Agua Botellon 10000
-    Forro Aramdura Motorola Moto G24 / G04 Ab 6000
+    Forro Aramdura Motorola Moto G24 / G04 Ab Negro 6000
     Forro Armadura Oppo Reno 11F Negro 6000
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 6000
     Forro Cargador Apple Con Estuche Azul 11000
@@ -200,7 +200,7 @@
     Forro Space Samsung S23 Fe 4000
     Forro Space Tecno Pova 5 4000
     Forro Space Tecno Spark 10 / 10C 4000
-    Forro Space Tecno Spark Go 2022 / 8C 
+    Forro Space Tecno Spark Go 2022 / 8C 4000
     Forro Space Tecno Spark Go 2023 4000
     Forro Space Vivo V25E / S16 5G 4000
     Forro Space Vivo Y20 / Y20S / Y11S 4000
@@ -278,11 +278,11 @@
     Silicone Case Huawei Nova 9Se Negro 7000
     Silicone Case Huawei Nova Y70 Amarillo 7000
     Silicone Case Huawei Nova Y70 Lila 7000
-    Silicone Case Huawei Y9 2019 / Y8S 0
+    Silicone Case Huawei Y9 2019 / Y8S Azulrey 7000
     Silicone Case Huawei Y9 2019 / Y8S Negro 7000
     Silicone Case Huawei Y9 2019 / Y8S Rojo 7000
     Silicone Case Huawei Y9 2019 / Y8S Rosa 7000
-    Silicone Case Huawei Y9 2019 / Y8Sazulrey 7000
+    Silicone Case Huawei Y9 2019 / Y8S Verde 7000
     Silicone Case Huawei Y9 Prime Morado 7000
     Silicone Case Huawei Y9 Prime Verde 7000
     Silicone Case Infinix Note 40 Morado 7000
@@ -309,6 +309,7 @@
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 7000
     Silicone Case Motorola Moto Edge 40 Neo Rosa 7000
     Silicone Case Motorola Moto Edge 40 Rojo 7000
+    Silicone Case Motorola Moto G04 Rojo 7000
     Silicone Case Motorola Moto G04 Verdemilitar 7000
     Silicone Case Motorola Moto G20 Azulrey 7000
     Silicone Case Motorola Moto G20 Morado 7000
@@ -317,16 +318,13 @@
     Silicone Case Motorola Moto G22 Fucsia 7000
     Silicone Case Motorola Moto G24 / G04 Amarillo 7000
     Silicone Case Motorola Moto G24 / G04 Aulrey 7000
-    Silicone Case Motorola Moto G24 / G04 Fucsia  7000
+    Silicone Case Motorola Moto G24 / G04 Fucsia 7000
     Silicone Case Motorola Moto G24 / G04 Lila 7000
     Silicone Case Motorola Moto G24 / G04 Morado 7000
     Silicone Case Motorola Moto G24 / G04 Negro 7000
     Silicone Case Motorola Moto G24 / G04 Rojo 7000
     Silicone Case Motorola Moto G24 / G04 Rosa 7000
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 7000
-    Silicone Case Motorola Moto G24 Lila 7000
-    Silicone Case Motorola Moto G24 Rojo 7000
-    Silicone Case Motorola Moto G24 Rojo G04 7000
     Silicone Case Motorola Moto G60S Rojo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 7000
@@ -388,7 +386,7 @@
     Silicone Case Samsung S23 Plus Rojo 7000
     Silicone Case Samsung S23 Plus Rosa 7000
     Silicone Case Tecno Camon 18P Amarillo 7000
-    Silicone Case Tecno Camon 18P Rosa 
+    Silicone Case Tecno Camon 18P Rosa 7000
     Silicone Case Tecno Camon 19 Pro Amarillo 7000
     Silicone Case Tecno Camon 19 Pro Morado 70000
     Silicone Case Tecno Camon 19 Pro Rojo 7000
@@ -445,7 +443,7 @@
     Silicone Case Xiaomi Redmi 12C Ab Amarillo 7000
     Silicone Case Xiaomi Redmi 13C Morado 7000
     Silicone Case Xiaomi Redmi 14C Negro 7000
-    Silicone Case Xiaomi Redmi 7 Amarillo 
+    Silicone Case Xiaomi Redmi 7 Amarillo 7000
     Silicone Case Xiaomi Redmi 9 Amarillo 7000
     Silicone Case Xiaomi Redmi 9 Morado 7000
     Silicone Case Xiaomi Redmi 9 Negro 7000
@@ -478,7 +476,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 7000
     Silicone Case Xiaomi Redmi Note 9S Amarillo 7000
     Smartphone Tecno Spark Go 1S Gris 290000
-    Soporte Tv 32 Brazo 
+    Soporte Tv 32 Brazo 16000
     Soporte Tv 50 Brazo 23000
     Teclado Combo Gamer F92 25000
     Televisor Smart Tv Fly Android 32P 500000
@@ -488,7 +486,6 @@
     Vidrio 5D Apple Iphone 11 / Xr 900
     Vidrio 5D Apple Iphone 13 / 13Pro 900
     Vidrio 5D Huawei Honor X6S 900
-    Vidrio 5D Mi 11T 900
     Vidrio 5D Samsung A12 900
     Vidrio 5D Xiaomi Mi 11T 900
     Vidrio 5D Xiaomi Redmi 13C 900
@@ -501,7 +498,18 @@
     Vidrio Camara Xiaomi Note 13 Pro Plus 2000
     Vidrio Camara Xiaomi Redmi 13 2000
     Vidrio Camara Xiaomi Redmi 13C 2000
-    Vidrio Tortuga Huawei Honor X6S 
+    Vidrio Tortuga Huawei Honor X6S 1100
     Vidrio Tortuga Samsung A12 1100
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
+    Forro Lujo Apple Iphone 11 9000
+    Forro Pin Apple Iphone 11 9000
+    Forro Ukg Apple Iphone 11 Rojo 9000
+    Forro Diseã±Os Apple Iphone 11 Caballero 3500
+    Forro Armadura Apple Iphone 11 Rojo 6000
+    Forro Diseã±Os Apple Iphone 11 Dama 3500
+    Forro Diseã±Os Apple Iphone 11 Verdemilitar 3500
+    Cable Royal Tc 4500
+    Forro Pin Motorola Moto G24 / G04 6000
+    Forro Pin Motorola Moto G04 6000
+    Antena TDT 3m con USB 13000

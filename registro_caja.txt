@@ -130,3 +130,14 @@ Denominación: 5,000, Cantidad: 2, Total: 10,000
 Denominación: 2,000, Cantidad: 0, Total: 0
 Monto total contado: 730.000
 ------------------------------
+
+--- Conteo: inicial caja menor ---
+Fecha: 2025-02-14 09:20:29
+Denominación: 100,000, Cantidad: 0, Total: 0
+Denominación: 50,000, Cantidad: 1, Total: 50,000
+Denominación: 20,000, Cantidad: 16, Total: 320,000
+Denominación: 10,000, Cantidad: 18, Total: 180,000
+Denominación: 5,000, Cantidad: 2, Total: 10,000
+Denominación: 2,000, Cantidad: 4, Total: 8,000
+Monto total contado: 568.000
+------------------------------
