@@ -1,20 +1,19 @@
 ****
     Bateria Samsung A04E P 1
-    Logica De Carga Moto G24
-    Logica De Carga Redmi Note 13 4G 1
-    Pacha Moto G31 1
+    Logica De Carga Moto G24 ok
+    Logica De Carga Redmi Note 13 4G 1 ok
+    Pacha Moto G31 1 ok
     Pacha Note 10 Pro 1
     Pacha Samsung A02S / A03 / A03S / A04E 1
     Pacha Samsung A13 / M13 1
-    Pacha Xiaomi Redmi 10
-    Bateria Redmi Xiaomi Note 9s 1
-    Pacha Motorola Moto G14 2
-    Pacha Tecno Spark 30c 1
-    Pacha Tecno Camon 18p x1
-    Garantia Pacha Tecno Camon 18p 1
-    Pacha Tecno Spark 10 Pro 2
-    Pacha Xiaomi Redmi 12c 1
-    Pacha Xiaomi Redmi 10 1
+    Pacha Xiaomi Redmi 10 ok
+    Bateria Redmi Xiaomi Note 9s 1 ok
+    Pacha Motorola Moto G14 2 ok
+    Pacha Tecno Spark 30c 1 ok
+    Pacha Tecno Camon 18p 1
+    Garantia Pacha Tecno Camon 18p 1 ok
+    Pacha Tecno Spark 10 Pro 2 ok
+    Pacha Xiaomi Redmi 12c 1 ok
     Vidrio Camara ???
 
 
