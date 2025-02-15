@@ -5,8 +5,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
     Cargador Samsung 45W Con Cable Negro 1 
-    Cargador Yl Tc 3
-    Cargador Yl V8 3
+    Cargador Yl Tc 3 ok 
+    Cargador Yl V8 3 ok
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -35,25 +35,25 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
     Forro Audifonos I12 5
-    Forro Dise�Os Huawei Y7A Dama 3
-    Forro Dise�Os Infinix Hot 30 Pro 5
-    Forro Dise�Os Infinix Hot 50 Pro Plus Caballero 5
-    Forro Dise�Os Infinix Hot 50 Pro Plus Dama 5
-    Forro Dise�Os Oppo A80 5
-    Forro Dise�Os Samsung A03 Core Dama 3
-    Forro Dise�Os Samsung A11 Caballero 3
-    Forro Dise�Os Samsung A20S Caballero 2
-    Forro Dise�Os Samsung A20S Dama 2
-    Forro Dise�Os Samsung A36 Caballero 5
-    Forro Dise�Os Vivo V25E Caballero 3
-    Forro Dise�Os Vivo Y20S Caballero 3
-    Forro Dise�Os Vivo Y33S Dama 2
-    Forro Dise�Os Xiaomi Redmi 10 Caballero 3
-    Forro Dise�Os Xiaomi Redmi Note 11 Caballero 3
-    Forro Dise�Os Xiaomi Redmi Note 13 Pro / Poco X6 Dama 3
-    Forro Dise�Os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3
-    Forro Dise�Os Xiaomi Redmi Note 8 Dama 5
-    Forro Dis�Eos Oppo A17 Caballero 3
+    Forro Diseã±Os Huawei Y7A Dama 3
+    Forro Diseã±Os Infinix Hot 30 Pro 5
+    Forro Diseã±Os Infinix Hot 50 Pro Plus Caballero 5
+    Forro Diseã±Os Infinix Hot 50 Pro Plus Dama 5
+    Forro Diseã±Os Oppo A80 5
+    Forro Diseã±Os Samsung A03 Core Dama 3
+    Forro Diseã±Os Samsung A11 Caballero 3
+    Forro Diseã±Os Samsung A20S Caballero 2
+    Forro Diseã±Os Samsung A20S Dama 2
+    Forro Diseã±Os Samsung A36 Caballero 5
+    Forro Diseã±Os Vivo V25E Caballero 3
+    Forro Diseã±Os Vivo Y20S Caballero 3
+    Forro Diseã±Os Vivo Y33S Dama 2
+    Forro Diseã±Os Xiaomi Redmi 10 Caballero 3
+    Forro Diseã±Os Xiaomi Redmi Note 11 Caballero 3
+    Forro Diseã±Os Xiaomi Redmi Note 13 Pro / Poco X6 Dama 3
+    Forro Diseã±Os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3
+    Forro Diseã±Os Xiaomi Redmi Note 8 Dama 5
+    Forro Disã±Eos Oppo A17 Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Magsafe Iphone 15 1
@@ -73,7 +73,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Forro Tabletas 10P Caballero 2
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Peque�Os 2
+    Garantia Aro De Luz Pequeã±Os 2
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 12 Lila 1
     Silicone Case Apple Iphone X / Xs Morado 1
@@ -123,21 +123,21 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
     Audifonos Bluetooth Harvic BT-543 II Negro 1
-    Cable V3 x5
+    Cable V3 x5 ok
     Cable Xiaomi Tc a Tc 2
-    Cargador Motorola Tc 30w 2
-    Cargador Apple 20w Cabeza 1
+    Cargador Motorola Tc 30w 2 ok
+    Cargador Apple 20w Cabeza 1 ok
     Forro Armadura Tecno Spark Go 2025 / Go 1s Negro 2
-    Forro Space Oppo Reno 7 4G 2
-    Forro Space Vivo Y27s 1
-    Forro Space Y33s 1
-    Silicone Case Apple iPhone 16 Pro 5
-    Silicone Case Apple iPhone Xr Negro 1
-    Silicone Case Motorol Moto G24 / G04 Rojo 1
-    Silicone Case Samsung A13 Morado 1
-    Silicone Case Samsung A31 Negro 1
-    Silicone Case Samsung S22 Ultra AzulRey 1
-    Silicone Case Samsung S24 Ultra Verdemilitar 1
-    Vidrio 5D iphone 11 5
+    Forro Space Oppo Reno 7 4G 2 ok
+    Forro Space Vivo Y27s 1 ok
+    Forro Space Y33s 1 ok
+    Silicone Case Apple iPhone 16 Pro verdemilitar 
+    Silicone Case Apple iPhone Xr Negro 1 
+    Silicone Case Motorol Moto G24 / G04 Rojo 1  ok
+    Silicone Case Samsung A13 Morado 1 ok
+    Silicone Case Samsung A31 Negro 1 ok
+    Silicone Case Samsung S22 Ultra AzulRey 1 ok
+    Silicone Case Samsung S24 Ultra Verdemilitar 1 ok
+    Vidrio 5D iphone 11 10 ok
     Forro Cristal Apple iPhone 11 Promax 1
 
