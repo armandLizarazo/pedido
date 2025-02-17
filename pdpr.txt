@@ -1,39 +1,40 @@
+
     Adaptador Dvi2Vga 
+    Adaptador Hdmi2Av 1
     Adaptadores Vga2Hdmi 2
     Aro De Luz Joma 26Cm Ligth X2
     Audifonoe Bluetooth I12 Rosa 2
+    Audifonos Bluetoot 
+    Audifonos Bluetooth Ambie Pantalla 1
     Audifonos Bluetooth Appple Inpods 12 Azuloscuro 5
     Audifonos Bluetooth I12 Azulclaro 3
     Audifonos Bluetooth I12 Azuloscuro 3
-    Audifonos Bluetooth Ambie Pantalla 1
+    Audifonos Bluetooth Pro 60 3
     Cargadores Generico 12V
     Celular T72 1
     Celular T76 1
+    Combo Remington Plancha - Cepillo 1
     Conectores Rj45
+    Control Gamer Ps4 Negro 1
+    Escencias 10
+    Lampara Esfera Jupiter 
+    Lampara Esfera Sistema Solar 1
+    Pad Mouse Tapete DiseñOs 5
+    Pilas Carbon Aaa Caja 1
+    Power Bank Panel Solar 1
+    Proyector P40 Juegos 1
+    Reproductor Amazon Fire Tv Con Control 1
+    Reproductor Fire Stick Magis 2
+    Reproductor Onn Hd 1
+    Reproductor Proyector Con Juegos 1
+    Reproductor Tdt Krono 2
+    Reproductor Tv Stick Magis 1
     Smart Band 7 1
     Soporte Celular Metalico 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
+    Soporte Tv Fijo 2
+    Spliter Hdmi X2 1
     Tableta Tigers Kids Rosa 1
     Tecaldo Mecanico Gamer 1
     Termo Motivacion 1
-    Control Gamer Ps4 Negro 1
-    Lampara Esfera Jupiter 
-    Lampara Esfera Sistema Solar 1
-    Pad Mouse Tapete Diseños 5
-    Power Bank Panel Solar 1
-    Proyector P40 Juegos 1
-    Reproductor Onn Hd 1
-    Reproductor Proyector Con Juegos 1
-    Adaptador Hub 4 Puertos 3.0 2 ok ok
-    Adaptador Plug 3.5 a Media St 3 ok
-    Adaptador Plug 3.5 a Media Mono 1 ok
-    Antena TDT 5M 5 ok 
-    Audifonos Bluetooth X15 1 ok
-    Parlante TG TG-200 ok
-    Reproductor Tv Stick Magis 1
-    Reproductor Tdt Krono 2
-    Telefono Rompemuros thor 1 ok
-    Soporte TV Fijo 2
-
-

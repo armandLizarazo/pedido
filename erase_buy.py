@@ -83,4 +83,6 @@ def eliminar_lineas_ok(nombre_archivo):
 
 # Uso del script
 if __name__ == "__main__":
-    eliminar_lineas_ok("pedido.txt")
+    eliminar_lineas_ok("pdcentro.txt")
+    eliminar_lineas_ok("pdpr.txt")
+    eliminar_lineas_ok("pdst.txt")

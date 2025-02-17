@@ -1,25 +1,18 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    Audifonos Bluetooth M25 3
-    Cargador Belkin V8 3
-    Cargador Belkin V8 3
-    Cargador Samsung 25W Cabeza Blanco 2
-    Cargador Samsung 45W Con Cable Blanco 2
-    Cargador Samsung 45W Con Cable Negro 1 
-    Cargador Yl Tc 3 ok 
-    Cargador Yl V8 3 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Balaca Naisu St-437 Rojo 1
+    Balaca Naisu St-437 Verde 1
+    Cable Xiaomi Tc A Tc 2
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
     Forro Armadura A54 Negro 1
     Forro Armadura Honor X7
-    Forro Armadura Honor X8
     Forro Armadura K61 Rojo 1
     Forro Armadura Motorola Moto G22 Rojo 1
+    Forro Armadura Motorola Moto G23 Verde
     Forro Armadura Oppo A15
-    Forro Armadura Oppo A16
-    Forro Armadura Oppo A38
-    Forro Armadura Oppo A54
-    Forro Armadura Pova 4
+    Forro Armadura Oppo A57 Rojo
     Forro Armadura Pova 5
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Redmi Note 5G
@@ -27,14 +20,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura S23 Negro 1
     Forro Armadura S23 Rojo 1
     Forro Armadura Samsung A13 Negro 1
+    Forro Armadura Spark Go 2024 Negro
     Forro Armadura Tecno Camon
     Forro Armadura Tecno Spark Go 2022 Rojo 1
     Forro Armadura Tecno Spark Go 2024 Morado 1
+    Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 2
     Forro Armadura Xiamoi Redmi Note 12 Negro 1 
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
-    Forro Audifonos I12 5
+    Forro Cristal Apple Iphone 11 Promax 1
     Forro Diseã±Os Huawei Y7A Dama 3
     Forro Diseã±Os Infinix Hot 30 Pro 5
     Forro Diseã±Os Infinix Hot 50 Pro Plus Caballero 5
@@ -56,16 +51,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Disã±Eos Oppo A17 Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Magsafe Iphone 15 1
+    Forro Pin Redmi 13C
     Forro Pin Tecno Spark Go 2024 2
-    Forro Space Apple Iphone 16 Pro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro
-    Forro Space Motorola Moto Edge 50 Fusion 1
-    Forro Space Motorola Moto Edge 50 Fusion 1
     Forro Space Motorola Moto G50 1
     Forro Space Oppo A80 2
     Forro Space Oppo Reno 12F
-    Forro Space Oppo Reno 7 2
     Forro Space Samsung A33 5G 2
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
@@ -74,12 +65,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Tabletas 10P Caballero 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
+    Manos Libres Samsung Bolsa Blanco 5
+    Manos Libres Samsung Bolsa Negro 5
+    Parlante Tg-805 Negro 1
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 12 Lila 1
+    Silicone Case Apple Iphone 16 Pro Verdemilitar 
     Silicone Case Apple Iphone X / Xs Morado 1
     Silicone Case Apple Iphone X Rosa 1
+    Silicone Case Apple Iphone Xr Negro 1 
     Silicone Case Huawei Nova Y70 Negro P 1
-    Silicone Case Huawei Y7A 1
     Silicone Case Huawei Y7A 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
@@ -90,56 +85,46 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Motorola Moto G8 Plus Negro 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
     Silicone Case Oppo A15 Rosa 1
+    Silicone Case Oppo A17 Lila 1
+    Silicone Case Oppo A57 Rosa 1
     Silicone Case Oppo Realme 7I Lila 1
     Silicone Case Oppo Realme C53 Amarillo 1
     Silicone Case Oppo Reno 7 Blanco 1
+    Silicone Case Oppo Reno 7 Rojo 1
+    Silicone Case Redmi 12 Azulrey 1
     Silicone Case Redmi A1 / A2 Azulclaro 1
     Silicone Case Samsung 32 5G Verde 1
     Silicone Case Samsung A14 Lila 1
+    Silicone Case Samsung A14 Verde Militar 1
+    Silicone Case Samsung A15 Lila 1
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
+    Silicone Case Tecno Camon 18P Negro 1
+    Silicone Case Tecno Camon 18P Rojo 1
     Silicone Case Tecno Camon 20 / 20 Pro Negro 1
     Silicone Case Tecno Spark 10 / 10C Azulrey 1
     Silicone Case Tecno Spark 10 Morado 1
+    Silicone Case Tecno Spark Go 2024 Azulrey 1
     Silicone Case Tecno Spark Go 2024 Rojo 1
     Silicone Case Vivo Y15S Palo Rosa 1
+    Silicone Case Vivo Y31 Lila 1
     Silicone Case Xaiomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi 12 Fucsia 1
     Silicone Case Xiaomi Redmi 12C Negro 1
     Silicone Case Xiaomi Redmi 13 Negro 1
     Silicone Case Xiaomi Redmi 13C Fucsia 1
     Silicone Case Xiaomi Redmi 13C Rojo 1
+    Silicone Case Xiaomi Redmi Note 11 Morado 1
     Silicone Case Xiaomi Redmi Note 12S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G Lila 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Vidrio 5D Oppo A80 5
+    Vidrio 5D Oppo A80 5 
     Vidrio 5D Samsung A06 5
-    Vidrio 5D Samsung A11 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
     Vidrio 5D Tecno Spark 30C 5
+    Vidrio 5D Xiaomi Redmi Note 9S 10
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
-    Audifonos Bluetooth Harvic BT-543 II Negro 1
-    Cable V3 x5 ok
-    Cable Xiaomi Tc a Tc 2
-    Cargador Motorola Tc 30w 2 ok
-    Cargador Apple 20w Cabeza 1 ok
-    Forro Armadura Tecno Spark Go 2025 / Go 1s Negro 2
-    Forro Space Oppo Reno 7 4G 2 ok
-    Forro Space Vivo Y27s 1 ok
-    Forro Space Y33s 1 ok
-    Silicone Case Apple iPhone 16 Pro verdemilitar 
-    Silicone Case Apple iPhone Xr Negro 1 
-    Silicone Case Motorol Moto G24 / G04 Rojo 1  ok
-    Silicone Case Samsung A13 Morado 1 ok
-    Silicone Case Samsung A31 Negro 1 ok
-    Silicone Case Samsung S22 Ultra AzulRey 1 ok
-    Silicone Case Samsung S24 Ultra Verdemilitar 1 ok
-    Vidrio 5D iphone 11 10 ok
-    Vidrio 5D Xiaomi Redmi Note 12 ok
-    Vidrio Antiespia Apple iPhone 13 Pro Max 5 ok
-    Forro Cristal Apple iPhone 11 Promax 1
-
