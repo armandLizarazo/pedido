@@ -2,6 +2,7 @@
     Altavoz Samsung A03 1 ok
     Altavoz Samsung A71 1 ok
     Bateria Samsung A04E P 1
+    Tactil Zte Blade L9
     Lente Camara Tecno Spark 20 1 ok
     Pacha Note 10 Pro 1
     Pacha Realme C11 202 1 ok
