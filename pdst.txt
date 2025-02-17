@@ -2,15 +2,13 @@
     Altavoz Samsung A03 1
     Altavoz Samsung A71 1
     Bateria Samsung A04E P 1
-    Lente Camata Tecno Spark 20 1
+    Lente Camara Tecno Spark 20 1
     Pacha Note 10 Pro 1
-    Pacha Realme C11 2021
-    Pacha Samsugn A02S/ A04E
+    Pacha Realme C11 202 1
     Pacha Samsung A02S / A03 / A03S / A04E 1
     Pacha Samsung A13 / M13 1
-    Pacha Samsung A23 / M23
+    Pacha Samsung A23 / M23 1
     Pacha Tecno Camon 18P 1
     Pacha Xiaomi Redmi 10 1
     Pacha Xiaomi Redmi Note 11 7 Note 12S 1
     Pines Bafle 10
-    Vidrio Camara ???
