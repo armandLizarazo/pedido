@@ -1,7 +1,7 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
-    Balaca Naisu St-437 Rojo 1
-    Balaca Naisu St-437 Verde 1
+    Balaca Naisu St-437 Rojo 1 ok
+    Balaca Naisu St-437 Verde 1 ok
     Cable Xiaomi Tc A Tc 2
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
@@ -65,8 +65,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Tabletas 10P Caballero 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
-    Manos Libres Samsung Bolsa Blanco 5
-    Manos Libres Samsung Bolsa Negro 5
+    Manos Libres Samsung Bolsa Blanco 5 ok
+    Manos Libres Samsung Bolsa Negro 5 ok
     Parlante Tg-805 Negro 1
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 12 Lila 1
@@ -101,30 +101,30 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
-    Silicone Case Tecno Camon 18P Negro 1
+    Silicone Case Tecno Camon 18P Negro 1 ok
     Silicone Case Tecno Camon 18P Rojo 1
-    Silicone Case Tecno Camon 20 / 20 Pro Negro 1
+    Silicone Case Tecno Camon 20 / 20 Pro Negro 1 ok
     Silicone Case Tecno Spark 10 / 10C Azulrey 1
-    Silicone Case Tecno Spark 10 Morado 1
-    Silicone Case Tecno Spark Go 2024 Azulrey 1
-    Silicone Case Tecno Spark Go 2024 Rojo 1
+    Silicone Case Tecno Spark 10 / 10c Morado 1 
+    Silicone Case Tecno Spark Go 2024 Azulrey 1 ok
+    Silicone Case Tecno Spark Go 2024 Rojo 1 ok
     Silicone Case Vivo Y15S Palo Rosa 1
     Silicone Case Vivo Y31 Lila 1
-    Silicone Case Xaiomi Redmi Note 12S Rojo 1
+    Silicone Case Xaiomi Redmi Note 12S Rojo 1 
     Silicone Case Xiaomi Redmi 12 Fucsia 1
     Silicone Case Xiaomi Redmi 12C Negro 1
     Silicone Case Xiaomi Redmi 13 Negro 1
-    Silicone Case Xiaomi Redmi 13C Fucsia 1
+    Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
     Silicone Case Xiaomi Redmi 13C Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Morado 1
     Silicone Case Xiaomi Redmi Note 12S Negro 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Lila 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Lila 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Samsung A06 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
     Vidrio 5D Tecno Spark 30C 5
-    Vidrio 5D Xiaomi Redmi Note 9S 10
+    Vidrio 5D Xiaomi Redmi Note 9S 10 ok
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
