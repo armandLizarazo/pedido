@@ -26,3 +26,5 @@ Fecha|Producto|Cantidad|Val Venta|Val Costo|Sub Venta|Sub Costo
 2025-02-14 16:48:39 | Audifonos Bluetooth X15 | 1 | 70000.00 | 15000.00 | 70000.00 | 15000.00
 2025-02-14 16:48:56 | Audifonos Bluetooth Harvic Bt-543 Ii Negro | 1 | 65000.00 | 25000.00 | 65000.00 | 25000.00
 2025-02-14 17:12:33 | Antena Tdt 5M | 1 | 20000.00 | 9000.00 | 20000.00 | 9000.00
+2025-02-18 04:55:11 | Guantes Gamer | 4 | 10000.00 | 2000.00 | 40000.00 | 8000.00
+2025-02-18 04:57:43 | Reproductor Tv Stick Magis | 1 | 140000.00 | 75000.00 | 140000.00 | 75000.00

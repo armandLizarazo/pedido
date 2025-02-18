@@ -6,7 +6,7 @@
     Adaptador Hdmi2Vga 0
     Adaptador Hdmi2Vga Cable 0
     Adaptador Hdmi2Vga Macho Cable 0
-    Adaptador Hub 4 Puertos 3.0 0
+    Adaptador Hub 4 Puertos 3.0 1
     Adaptador Hub 7 Puertos 2.0 0
     Adaptador Hub 7 Puertos 3.0 0
     Adaptador Mdpp2Hdmi Cable 0
@@ -18,7 +18,7 @@
     Adaptador Vga2Av 0
     Adaptador Vga2Hdmi 0
     Aguja Extractor Sim 0
-    Antena Tdt 5M 0
+    Antena Tdt 5M 3
     Antena Tdt Aire 0
     Aro De Luz 26Cm Rgb 1
     Aro De Luz 33Cm Light 1
@@ -29,9 +29,9 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
     Audifonos Bluetooth I12 Negro 3
     Audifonos Bluetooth M25 1
-    Audifonos Bluetooth Pro 60 1
+    Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Royal Sports 1
-    Audifonos Bluetooth X15 0
+    Audifonos Bluetooth X15 1
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 1
@@ -224,7 +224,7 @@
     Forro Space Xiaomi Redmi Note 12S 1
     Forro Space Xiaomi Redmi Note 13 4G 2
     Gramera Sencilla 1
-    Guantes Gamer 4
+    Guantes Gamer 0
     Manos Libres Batri B10 Azulcielo 0
     Manos Libres Batri B10 Blanco 0
     Manos Libres Batri B10 Lila 0
@@ -252,7 +252,7 @@
     Reproductor Roku Express Hd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Krono 2
-    Reproductor Tv Stick Magis 0
+    Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
     Silicone Case Apple Iphone Xr Amarillo 0
     Silicone Case Apple Iphone Xr Azuloscuro 0
@@ -360,7 +360,7 @@
     Silicone Case Samsung A05S Verdementa 1
     Silicone Case Samsung A12 / M12 Morado 1
     Silicone Case Samsung A12 Verde 1
-    Silicone Case Samsung A14 Rojo 2
+    Silicone Case Samsung A14 Rojo 0
     Silicone Case Samsung A15 Negro 3
     Silicone Case Samsung A15 Rojo 3
     Silicone Case Samsung A21S Fucsia 1
@@ -468,7 +468,7 @@
     Silicone Case Xiaomi Redmi Note 12 Negro 2
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Ab Lila 0
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 0
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Fucsia 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Negro 0
@@ -488,7 +488,7 @@
     Vidrio 5D Huawei Honor X6S 2
     Vidrio 5D Samsung A12 0
     Vidrio 5D Xiaomi Mi 11T 12
-    Vidrio 5D Xiaomi Redmi 13C 4
+    Vidrio 5D Xiaomi Redmi 13C 0
     Vidrio 5D Xiaomi Redmi Note 11 5
     Vidrio Antiespia Huawei Honor X6S 2
     Vidrio Antiespia Xiaomi Redmi 13C 3
@@ -513,3 +513,16 @@
     Forro Pin Motorola Moto G24 / G04 0
     Forro Pin Motorola Moto G04 0
     Antena TDT 3m con USB 0
+    Control Gamer Gatillos H-9.0 1
+    Audifonos Bluetooth M60 1
+    Control Gamer Gatillos W11+ 1
+    Adaptador Spliter Hdmi 1 a 2 1
+    Pilas Carbon AAA x2 30
+    Silicone Case Samsung S22 Ultra Ab Negro 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Ab Azulrey 1
+    Silicone Case Tecno Camon 18p Negro 1
+    Slicone Case Xiaomi Redmi 13c Fucsia 1
+    Silicone Case Samsung A14 Lila 1
+    Silicone Case Tecno Spark 10 / 10c Morado 1
+    Mouse Gamer Eco A78 1
+    Parlante PC Eco YSD-1024 1

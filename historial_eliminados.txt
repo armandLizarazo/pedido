@@ -1173,3 +1173,77 @@ Línea  | Contenido
    14 | Garantia Pacha Tecno Camon 18p 1 ok
    15 | Pacha Tecno Spark 10 Pro 2 ok
    16 | Pacha Xiaomi Redmi 12c 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-17 18:49:29
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 28
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Balaca Naisu St-437 Rojo 1 ok
+    4 | Balaca Naisu St-437 Verde 1 ok
+   68 | Manos Libres Samsung Bolsa Blanco 5 ok
+   69 | Manos Libres Samsung Bolsa Negro 5 ok
+   88 | Silicone Case Oppo A17 Lila 1 ok
+   89 | Silicone Case Oppo A57 Rosa 1 ok
+   92 | Silicone Case Oppo Reno 7 Blanco 1 ok
+   93 | Silicone Case Oppo Reno 7 Rojo 1 ok
+   94 | Silicone Case Redmi 12 Azulrey 1 ok
+   96 | Silicone Case Samsung 32 5G Verde 1 ok
+   97 | Silicone Case Samsung A14 Lila 1 ok
+   98 | Silicone Case Samsung A14 Verde Militar 1 ok
+   99 | Silicone Case Samsung A15 Lila 1 ok
+  104 | Silicone Case Tecno Camon 18P Negro 1 ok
+  105 | Silicone Case Tecno Camon 18P Rojo 1 ok
+  106 | Silicone Case Tecno Camon 20 / 20 Pro Negro 1 ok
+  107 | Silicone Case Tecno Spark 10 / 10C Azulrey 1 ok
+  108 | Silicone Case Tecno Spark 10 / 10c Morado 1 ok
+  109 | Silicone Case Tecno Spark Go 2024 Azulrey 1 ok
+  110 | Silicone Case Tecno Spark Go 2024 Rojo 1 ok
+  112 | Silicone Case Vivo Y31 Lila 1 ok
+  115 | Silicone Case Xiaomi Redmi 12C Negro 1 ok
+  116 | Silicone Case Xiaomi Redmi 13 Negro 1 ok
+  117 | Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
+  118 | Silicone Case Xiaomi Redmi 13C Rojo 1 ok
+  119 | Silicone Case Xiaomi Redmi Note 11 Morado 1 ok
+  121 | Silicone Case Xiaomi Redmi Note 13 Pro 4G Lila 1 ok
+  128 | Vidrio 5D Xiaomi Redmi Note 9S 10 ok
+
+==================================================
+Fecha de proceso: 2025-02-17 18:49:29
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Audifonos Bluetooth Pro 60 2 ok
+   12 | Audifonos Bluetooth Pro 60 3 ok
+   19 | Escencias 10 ok
+   23 | Pilas Carbon Aaa Caja 1 ok
+   24 | Power Bank Panel Solar 1 ok
+   26 | Reproductor Amazon Fire Tv Con Control 1 ok
+   27 | Reproductor Tv Stick Magis 2 ok
+   32 | Soporte Celular Metalico 1 ok
+   36 | Spliter Hdmi X2 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-17 18:49:29
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Altavoz Samsung A03 1 ok
+    3 | Altavoz Samsung A71 1 ok
+    6 | Lente Camara Tecno Spark 20 1 ok
+    8 | Pacha Realme C11 202 1 ok
+    9 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+   10 | Pacha Samsung A13 / M13 1 ok
+   11 | Pacha Samsung A23 / M23 2 ok
+   12 | Pacha Xiaomi Redmi 10 1 ok ok
+   13 | Pacha Xiaomi Redmi Note 11 7 Note 12S 2 ok
+   14 | Pines Bafle 10 ok

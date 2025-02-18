@@ -18,7 +18,7 @@
     Adaptador Vga2Av 2
     Adaptador Vga2Hdmi 2
     Aguja Extractor Sim 5
-    Antena Tdt 5M 2
+    Antena Tdt 5M 4
     Antena Tdt Aire 1
     Aro De Luz 26Cm Rgb 2
     Aro De Luz 33Cm Light 1
@@ -29,7 +29,7 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Audifonos Bluetooth I12 Negro 2
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 60 2
+    Audifonos Bluetooth Pro 60 4
     Audifonos Bluetooth Royal Sports 2
     Audifonos Bluetooth X15 2
     Balaca Naisu S-437 Negro 1
@@ -251,7 +251,7 @@
     Power Bank Aibimy 10000 Mah 120W 1
     Protector Teclado 15P 2
     Radios Baofeng 2
-    Reproductor Amazon Fire Tv Stick Hd 1
+    Reproductor Amazon Fire Tv Stick Hd 2
     Reproductor Chromecast Espejo 1
     Reproductor Fly Tv Box 64-4 1
     Reproductor Onn 4K 1
@@ -260,7 +260,7 @@
     Reproductor Roku Express Hd 1
     Reproductor Tdt Dxg 1
     Reproductor Tdt Krono 1
-    Reproductor Tv Stick Magis 3
+    Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Azuloscuro 1
@@ -368,7 +368,7 @@
     Silicone Case Samsung A05S Verdementa 0
     Silicone Case Samsung A12 / M12 Morado 0
     Silicone Case Samsung A12 Verde 0
-    Silicone Case Samsung A14 Rojo 0
+    Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Negro 0
     Silicone Case Samsung A15 Rojo 0
     Silicone Case Samsung A21S Fucsia 0
@@ -496,7 +496,7 @@
     Vidrio 5D Huawei Honor X6S 0
     Vidrio 5D Samsung A12 0
     Vidrio 5D Xiaomi Mi 11T 5
-    Vidrio 5D Xiaomi Redmi 13C 0
+    Vidrio 5D Xiaomi Redmi 13C 4
     Vidrio 5D Xiaomi Redmi Note 11 0
     Vidrio Antiespia Huawei Honor X6S 0
     Vidrio Antiespia Xiaomi Redmi 13C 0
@@ -513,3 +513,16 @@
     Forro Pin Motorola Moto G04 2
     Forro Pin Motorola Moto G24 / G04 2
     Antena TDT 3m con USB 1
+    Control Gamer Gatillos H-9.0 1
+    Audifonos Bluetooth M60 2
+    Silicone Case Samsung A14 Lila 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Ab Azulrey 1
+    Adaptador Spliter Hdmi 1 a 2 2
+    Pilas Carbon AAA x2 10
+    Parlante PC Eco YSD-1024 0
+    Silicone Case Samsung S22 Ultra Ab Negro 1
+    Slicone Case Xiaomi Redmi 13c Fucsia 1
+    Silicone Case Tecno Camon 18p Negro 1
+    Silicone Case Tecno Spark 10 / 10c Morado 1
+    Mouse Gamer Eco A78 1
+    Control Gamer Gatillos W11+ 2
