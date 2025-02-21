@@ -1,6 +1,5 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
-    Cable Xiaomi Tc A Tc 2
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -101,7 +100,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch Redondos Grandes 5
     Audifonos Bluetooth M25 1
     Audifonos Bluetooth Xiaomi E7s Negro 1
-    Cable Generico V8 10
+    Cable Generico V8 10 ok
     Cable Generico Tc 10
     Forro Space iPhone 7 1
     Silicone Case Samsung A35 Negro 1
