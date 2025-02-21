@@ -3,9 +3,9 @@
     Tactil Zte Blade L9
     Pacha Xiaomi Redmi Note 10 Pro 1
     Pacha Huawei Honor 90 Lite / Xa 1
-    Pacha Xiaomi Redmi Note 10 / Note 10s
-    Pacha Motorola Moto G7 / G7 Plus 2
-    Bateria Xiaomi Redmi 12 Original 1
-    Bateria Xiaomi Redmi 12 1
-    Tapa Xiaomi Redmi 12 Azulclaro 1
-    Devolver Logica Tecno Spark 20 1
+    Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
+    Pacha Motorola Moto G7 / G7 Plus 1 ok
+    Bateria Xiaomi Redmi 12 Original 1 ok
+    Bateria Xiaomi Redmi 12 1 ok
+    Tapa Xiaomi Redmi 12 Azulclaro 1 ok
+    Devolver Logica Tecno Spark 20 1 
