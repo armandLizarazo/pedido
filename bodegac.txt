@@ -37,10 +37,10 @@
     Balaca Naisu S-437 Verde 1
     Cable Belkin Tc 2M 1
     Cable Belkin Tc 5
-    Cable Belkin V8 5
+    Cable Belkin V8 3
     Cable Caterpillar Tc 3
     Cable Caterpillar Usb Ligthning 3
-    Cable Caterpillar V8 2
+    Cable Caterpillar V8 0
     Cable Harvic Tc 2
     Cable Harvic V8 0
     Cable Motorola Tc A Tc 2
@@ -54,15 +54,15 @@
     Cargador Apple 20W Tc Cabeza 0
     Cargador Apple 20W Tc Ligthning 1
     Cargador Apple 25W Tc Cabeza 0
-    Cargador Apple 25W Tc Ligthning 1
+    Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
-    Cargador Apple 5V Eco 1
+    Cargador Apple 5V Eco 0
     Cargador Apple 60W 2Tc 2
     Cargador Apple 60W 2Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 5
+    Cargador Belkin Tc 0
     Cargador Belkin V8 0
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -79,7 +79,7 @@
     Cargador Pc 9 Pines Caja Azul 1
     Cargador Pc Asus 2.37 1
     Cargador Pc Asus 3.42 0
-    Cargador Pc Hp Punta Azul 1
+    Cargador Pc Hp Punta Azul 0
     Cargador Pc Lenovo Mini 3.25 0
     Cargador Pc Lenovo Yoga 0
     Cargador Pluying 7A 3P 35W 0
@@ -211,7 +211,7 @@
     Forro Space Xiaomi Note 10 / Note 10S 4
     Forro Space Xiaomi Poco X3 1
     Forro Space Xiaomi Redmi 10C 2
-    Forro Space Xiaomi Redmi 12 1
+    Forro Space Xiaomi Redmi 12 0
     Forro Space Xiaomi Redmi 9 1
     Forro Space Xiaomi Redmi 9A 1
     Forro Space Xiaomi Redmi A1 / A2 1
@@ -459,7 +459,7 @@
     Silicone Case Xiaomi Redmi A1 / A2 Negro 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Amarillo 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Negro 1
-    Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 0
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
@@ -526,3 +526,5 @@
     Silicone Case Tecno Spark 10 / 10c Morado 1
     Mouse Gamer Eco A78 1
     Parlante PC Eco YSD-1024 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 0
+    Silicone Case Xiaomi Redmi Note 10 / 10S Fucsia 0

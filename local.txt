@@ -37,10 +37,10 @@
     Balaca Naisu S-437 Verde 0
     Cable Belkin Tc 1
     Cable Belkin Tc 2M 1
-    Cable Belkin V8 2
+    Cable Belkin V8 3
     Cable Caterpillar Tc 0
     Cable Caterpillar Usb Ligthning 2
-    Cable Caterpillar V8 1
+    Cable Caterpillar V8 2
     Cable Harvic Tc 1
     Cable Harvic V8 1
     Cable Motorola Tc A Tc 2
@@ -58,12 +58,12 @@
     Cargador Apple 25W Tc Ligthning 1
     Cargador Apple 30W Tc Cabeza 1
     Cargador Apple 35W 2Tc Cabeza 1
-    Cargador Apple 5V Eco 0
+    Cargador Apple 5V Eco 1
     Cargador Apple 60W 2Tc 0
     Cargador Apple 60W 2Tc Cabeza 1
     Cargador Apple Magsafe 1
     Cargador Belkin Ligthning 1
-    Cargador Belkin Tc 3
+    Cargador Belkin Tc 5
     Cargador Belkin V8 2
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 1
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 1
@@ -218,7 +218,7 @@
     Forro Space Xiaomi Note 10 / Note 10S 0
     Forro Space Xiaomi Poco X3 0
     Forro Space Xiaomi Redmi 10C 0
-    Forro Space Xiaomi Redmi 12 0
+    Forro Space Xiaomi Redmi 12 1
     Forro Space Xiaomi Redmi 9 0
     Forro Space Xiaomi Redmi 9A 0
     Forro Space Xiaomi Redmi A1 / A2 0
@@ -237,7 +237,7 @@
     Manos Libres Batri B10 Blanco 1
     Manos Libres Batri B10 Lila 2
     Manos Libres Batri B10 Rosa 2
-    Manos Libres Samsung Akg 5
+    Manos Libres Samsung Akg 4
     Mouse Eco Fc-143 1
     Pacha Xiaomi Redmi 12C 1
     Parlante Lazzer Lz-2890 1
@@ -465,9 +465,9 @@
     Silicone Case Xiaomi Redmi 9C / 10A Verdemilitar 0
     Silicone Case Xiaomi Redmi 9T Negro 0
     Silicone Case Xiaomi Redmi A1 / A2 Negro 0
-    Silicone Case Xiaomi Redmi Note 10 / 10S Amarillo 0
-    Silicone Case Xiaomi Redmi Note 10 / 10S Negro 0
-    Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 0
+    Silicone Case Xiaomi Redmi Note 10 / 10S Amarillo 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Negro 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 0
     Silicone Case Xiaomi Redmi Note 11 Negro 0
@@ -517,7 +517,7 @@
     Audifonos Bluetooth M60 2
     Silicone Case Samsung A14 Lila 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Ab Azulrey 1
-    Adaptador Spliter Hdmi 1 a 2 2
+    Adaptador Spliter Hdmi 1 a 2 1
     Pilas Carbon AAA x2 10
     Parlante PC Eco YSD-1024 0
     Silicone Case Samsung S22 Ultra Ab Negro 1
@@ -526,3 +526,5 @@
     Silicone Case Tecno Spark 10 / 10c Morado 1
     Mouse Gamer Eco A78 1
     Control Gamer Gatillos W11+ 2
+    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Fucsia 1

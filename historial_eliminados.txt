@@ -1247,3 +1247,29 @@ Línea  | Contenido
    12 | Pacha Xiaomi Redmi 10 1 ok ok
    13 | Pacha Xiaomi Redmi Note 11 7 Note 12S 2 ok
    14 | Pines Bafle 10 ok
+
+==================================================
+Fecha de proceso: 2025-02-21 04:22:24
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-21 04:22:24
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-21 04:22:24
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Garantia Pacha Tecno Spark Go 2024 (Falla con el altavoz) 1 ok
+    6 | Pacha Tecno Spark Go 2024 1 ok
+    7 | Pacha Samsung A22 5G s/m 1 ok
+    8 | Pacha Samsung A02s / A03 / A03s / A04e 2 ok
+   10 | Pacha Huawei Nova Y90 1 ok
