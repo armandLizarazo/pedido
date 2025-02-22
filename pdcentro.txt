@@ -1,5 +1,5 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -53,21 +53,22 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Motorola Moto G50 1
     Forro Space Oppo A80 2
     Forro Space Oppo Reno 12F
-    Forro Space Samsung A33 5G 2
+    Forro Space Samsung A33 5G 2 ok
+    Forro Space Oppo A60 2 ok
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo V38 2
-    Forro Space Xiaomi Redmi Note 13 Pro 4G 1
-    Forro Tabletas 10P Caballero 2
+    Forro Space Xiaomi Redmi Note 13 Pro 4G 1 
+    Forro Tabletas 10P Caballero 2 ok
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
     Parlante Tg-805 Negro 1
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 12 Lila 1
-    Silicone Case Apple Iphone 16 Pro Verdemilitar 
-    Silicone Case Apple Iphone X / Xs Morado 1
-    Silicone Case Apple Iphone X Rosa 1
-    Silicone Case Apple Iphone Xr Negro 1 
+    Silicone Case Apple Iphone 16 Pro Verdemilitar ok
+    Silicone Case Apple Iphone X / Xs Morado 1 ok
+    Silicone Case Apple Iphone X Rosa 1 ok
+    Silicone Case Apple Iphone Xr Negro 1 ok
     Silicone Case Huawei Nova Y70 Negro P 1
     Silicone Case Huawei Y7A 1
     Silicone Case Huawei Y7A Rojo 1
@@ -75,21 +76,21 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Infinix Hot 50 Pro Plus 1
     Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1
     Silicone Case Motorola Moto Edge 50 Fusion Morado 1
-    Silicone Case Motorola Moto G54 Morado 1
+    Silicone Case Motorola Moto G54 Morado 1 ok
     Silicone Case Motorola Moto G8 Plus Negro 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
     Silicone Case Oppo A15 Rosa 1
     Silicone Case Oppo Realme 7I Lila 1
     Silicone Case Oppo Realme C53 Amarillo 1
-    Silicone Case Redmi A1 / A2 Azulclaro 1
+    Silicone Case Redmi A1 / A2 Azulclaro 1 ok
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Vivo Y15S Palo Rosa 1
-    Silicone Case Xaiomi Redmi Note 12S Rojo 1 
+    Silicone Case Xaiomi Redmi Note 12S Rojo 1 ok
     Silicone Case Xiaomi Redmi 12 Fucsia 1
-    Silicone Case Xiaomi Redmi Note 12S Negro 1
+    Silicone Case Xiaomi Redmi Note 12S Negro 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Samsung A06 5
@@ -108,14 +109,14 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45w con Cable Blanco 2
     Cargador Samsung 45w Cabeza Blanco 2
-    Silicone Case Huawei Honor X7b Morado 1 
-    Silicone Case Motorola Moto E14 Verdemilitar 1
-    Silicone Case Motorola Moto One Fusion Azulclaro 1
+    Silicone Case Huawei Honor X7b Morado 1  ok
+    Silicone Case Motorola Moto E14 Verdemilitar 1 ok
+    Silicone Case Motorola Moto One Fusion Azulclaro 1 ok
     Silicone Case Motorola Moto One Fusion Rojo 1
     Silicone Case Motorola Moto One Fusion Amarillo 1
     Silicone Case Oppo Realme C50 Morado 1
     Silicone Case Xiaomi Redmi 10c Azulrey 1
-    Silicone Case Xiaomi Redmi 12c Negro 1
+    Silicone Case Xiaomi Redmi 12c Negro 1 ok
     Silicone Case Xiaomi Redmi 8a Rojo 1
     Silicone Case Xiaomi Redmi 8a Azulclaro 1
     Silicone Case Xiaomi Redmi 8a Negro 1
@@ -123,8 +124,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8a Fucsia 1
     Smart Watch GW-20 Verdemilitar 1
     Silicone Case Apple 16 Pro Azuloscuro 1
-    Silicone Case Huawei Honor 90 Lite Azuloscuro 1
+    Silicone Case Huawei Honor 90 Lite Azuloscuro 1 ok
     Silicone Case Motorola Moto G60s Amarillo 1
-    Silicone Case Samsung A05s Amarillo 1
+    Silicone Case Samsung A05s Amarillo 1 ok
 
 
