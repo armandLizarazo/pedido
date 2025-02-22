@@ -1,7 +1,7 @@
 
-    Adaptador Dvi2Vga 
-    Adaptador Hdmi2Av 1
-    Adaptadores Vga2Hdmi 2
+    Adaptador Dvi2Vga 1 ok
+    Adaptador Hdmi2Av 1 ok
+    Adaptadores Vga2Hdmi 2 ok
     Aro De Luz Joma 26Cm Ligth X2
     Audifonos Bluetooth Apple I12 Rosa 3
     Audifonos Bluetooth Ambie Pantalla 1
@@ -28,4 +28,4 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1 
-    Cargador PC Hp Punta Azul 1
+    Cargador PC Hp Punta Azul 1 ok
