@@ -98,27 +98,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio 5D Tecno Spark 30C 5
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
-    Audifonos Bluetooth M25 1
     Audifonos Bluetooth Xiaomi E7s Negro 1
-    Cable Generico V8 10 ok
     Cable Generico Tc 10
     Forro Space iPhone 7 1
     Silicone Case Samsung A35 Negro 1
     Silicone Case Samsung A14 Rojo 1
-    Cable Apple Usb Ligthning 2 ok
     Cable Apple Usb Ligthning 2m 2
-    Cable Caterpillar V8 3 ok
-    Cable Hdmi 5m 1
-    Garantia Cable Hdmi (No da imagen) 1
     Cargador Apple 25w Tc Ligthning 2
-    Cargador Apple 5v Eco 2 ok
-    Cargador Belkin Tc 5 ok
-    Cargador Belkin V8 5 ok
     Cargador Belkin Ligthning 5 
-    Cargador Samsung 45w con Cable Negro 2 ok
     Cargador Samsung 45w con Cable Blanco 2
     Cargador Samsung 45w Cabeza Blanco 2
-    Pilas Recargables Sony AA con Cargador 2 ok
     Silicone Case Huawei Honor X7b Morado 1 
     Silicone Case Motorola Moto E14 Verdemilitar 1
     Silicone Case Motorola Moto One Fusion Azulclaro 1
@@ -132,8 +121,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8a Negro 1
     Silicone Case Xiaomi Redmi 8a Amarillo 1
     Silicone Case Xiaomi Redmi 8a Fucsia 1
-    Simcard Tigo 5 ok
     Smart Watch GW-20 Verdemilitar 1
-    Vidrio Blindado Xiaomi Redmi Note 13 5 ok
-    Vidrio Antiespia Xiaomi Redmi note 13 5 ok
+    Silicone Case Apple 16 Pro Azuloscuro 1
+    Silicone Case Huawei Honor 90 Lite Azuloscuro 1
+    Silicone Case Motorola Moto G60s Amarillo 1
+    Silicone Case Samsung A05s Amarillo 1
+
 
