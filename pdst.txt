@@ -3,7 +3,7 @@
     Tactil Zte Blade L9 1
     Pacha Xiaomi Redmi Note 10 Pro 1
     Pacha Huawei Honor 90 Lite / X8a 1
-    Pacha Moto G31 1
-    Altavoz Moto G84 1
-    Pacha Samsung A03 Core c/m 1
+    Pacha Moto G31 1 ok
+    Altavoz Moto G84 1 ok
+    Pacha Samsung A03 Core c/m 1 ok
 
