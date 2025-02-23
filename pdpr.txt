@@ -8,7 +8,7 @@
     Audifonos Bluetooth Apple I12 Azuloscuro 5
     Audifonos Bluetooth Apple I12 Azulclaro 3
     Audifonos Bluetooth Apple I12 Negro 3
-    Cargadores Generico 12V
+    Cargador 12V Doble Punta 2 ok
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -29,3 +29,4 @@
     Teclado Mecanico Gamer 1
     Termo Motivacion 1 
     Cargador PC Hp Punta Azul 1 ok
+    Cable Hdmi 5m 1 ok
