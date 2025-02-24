@@ -1314,3 +1314,57 @@ Línea  | Contenido
     9 | Bateria Xiaomi Redmi 12 1 ok
    10 | Tapa Xiaomi Redmi 12 Azulclaro 1 ok
    11 | Devolver Logica Tecno Spark 20 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-22 22:11:49
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+   56 | Forro Space Samsung A33 5G 2 ok
+   57 | Forro Space Oppo A60 2 ok
+   62 | Forro Tabletas 10P Caballero 2 ok
+   68 | Silicone Case Apple Iphone 16 Pro Verdemilitar ok
+   69 | Silicone Case Apple Iphone X / Xs Morado 1 ok
+   70 | Silicone Case Apple Iphone X Rosa 1 ok
+   71 | Silicone Case Apple Iphone Xr Negro 1 ok
+   79 | Silicone Case Motorola Moto G54 Morado 1 ok
+   85 | Silicone Case Redmi A1 / A2 Azulclaro 1 ok
+   91 | Silicone Case Xaiomi Redmi Note 12S Rojo 1 ok
+   93 | Silicone Case Xiaomi Redmi Note 12S Negro 1 ok
+  112 | Silicone Case Huawei Honor X7b Morado 1  ok
+  113 | Silicone Case Motorola Moto E14 Verdemilitar 1 ok
+  114 | Silicone Case Motorola Moto One Fusion Azulclaro 1 ok
+  119 | Silicone Case Xiaomi Redmi 12c Negro 1 ok
+  127 | Silicone Case Huawei Honor 90 Lite Azuloscuro 1 ok
+  129 | Silicone Case Samsung A05s Amarillo 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-22 22:11:49
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Dvi2Vga 1 ok
+    3 | Adaptador Hdmi2Av 1 ok
+    4 | Adaptadores Vga2Hdmi 2 ok
+   11 | Cargador 12V Doble Punta 2 ok
+   31 | Cargador PC Hp Punta Azul 1 ok
+   32 | Cable Hdmi 5m 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-22 22:11:49
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Pacha Moto G31 1 ok
+    7 | Altavoz Moto G84 1 ok
+    8 | Pacha Samsung A03 Core c/m 1 ok

@@ -20,7 +20,7 @@
     Adaptador Vga2Hdmi 2
     Aguja Extractor Sim 5
     Antena Tdt 3M Con Usb 1
-    Antena Tdt 5M 4
+    Antena Tdt 5M 3
     Antena Tdt Aire 1
     Aro De Luz 26Cm Rgb 2
     Aro De Luz 33Cm Light 1
@@ -67,7 +67,7 @@
     Cargador Apple 60W 2Tc Cabeza 1
     Cargador Apple Magsafe 1
     Cargador Belkin Ligthning 1
-    Cargador Belkin Tc 5
+    Cargador Belkin Tc 2
     Cargador Belkin V8 1
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 1
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 1
@@ -276,7 +276,7 @@
     Rollo Cinta Led Rgb 10M 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Azuloscuro 1
-    Silicone Case Apple Iphone Xr Azulrey 1
+    Silicone Case Apple Iphone Xr Azulrey 0
     Silicone Case Apple Iphone Xr Fucsia 1
     Silicone Case Apple Iphone Xr Lila 1
     Silicone Case Apple Iphone Xr Negro 0
@@ -490,7 +490,7 @@
     Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 0
     Silicone Case Xiaomi Redmi Note 11 Negro 0
-    Silicone Case Xiaomi Redmi Note 11 Rojo 0
+    Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Verde 0
     Silicone Case Xiaomi Redmi Note 12 Negro 0
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 0
@@ -519,7 +519,7 @@
     Vidrio 5D Xiaomi Redmi 13C 4
     Vidrio 5D Xiaomi Redmi Note 11 0
     Vidrio Antiespia Huawei Honor X6S 0
-    Vidrio Antiespia Xiaomi Redmi 13C 0
+    Vidrio Antiespia Xiaomi Redmi 13C 3
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 0
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 0

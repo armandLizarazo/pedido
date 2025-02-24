@@ -490,7 +490,7 @@
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
-    Silicone Case Xiaomi Redmi Note 11 Rojo 2
+    Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Negro 2
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
@@ -519,7 +519,7 @@
     Vidrio 5D Xiaomi Redmi 13C 0
     Vidrio 5D Xiaomi Redmi Note 11 5
     Vidrio Antiespia Huawei Honor X6S 2
-    Vidrio Antiespia Xiaomi Redmi 13C 3
+    Vidrio Antiespia Xiaomi Redmi 13C 0
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 3
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 5
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 5
