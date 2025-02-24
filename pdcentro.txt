@@ -3,8 +3,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
 
     Audifonos Bluetooth Xiaomi E7S Negro 1
     Cable Apple Usb Ligthning 2M 2
-    Cable Generico Tc 10
-    Cargador Apple 25W Tc Ligthning 2
+    Cable Generico Tc 5 ok
+    Cargador Apple 25W Tc Ligthning 2 ok
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
@@ -39,7 +39,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Oppo A17 Caballero 3
-    Forro Diseños Oppo A80 5
+    Forro Diseños Oppo A80 Caballero 5 ok
+    Forro Diseños Oppo A80 Dama 5 ok
     Forro Diseños Samsung A03 Core Dama 3
     Forro Diseños Samsung A11 Caballero 3
     Forro Diseños Samsung A20S Caballero 2
@@ -47,12 +48,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Samsung A36 Caballero 5
     Forro Diseños Vivo V25E Caballero 3
     Forro Diseños Vivo Y20S Caballero 3
-    Forro Diseños Vivo Y33S Dama 2
-    Forro Diseños Xiaomi Redmi 10 Caballero 3
-    Forro Diseños Xiaomi Redmi Note 11 Caballero 3
-    Forro Diseños Xiaomi Redmi Note 13 Pro / Poco X6 Dama 3
+    Forro Diseños Vivo Y33S Dama 2 
+    Forro Diseños Xiaomi Redmi 10 Caballero 3 ok
+    Forro Diseños Xiaomi Redmi Note 11 Caballero 3 ok
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 3 ok
     Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3
-    Forro Diseños Xiaomi Redmi Note 8 Dama 5
+    Forro Diseños Xiaomi Redmi Note 8 Dama 4 ok
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Pin Redmi 13C
