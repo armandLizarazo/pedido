@@ -9,7 +9,8 @@
     Audifonos Bluetooth Apple I12 Rosa 3
     Cable Auxiliar 2 A 1 1.5M 5
     Cable Auxiliar 2 A 1 3M 5
-    Capturadora Hdmi 2
+    Capturadora Hdmi 1 ok
+    Capturadora Hdmi/tc 1 ok
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -17,10 +18,10 @@
     Control Gamer Ps4 Negro 1
     Lampara Esfera Jupiter 1
     Lampara Esfera Sistema Solar 1
-    Memoria Musica Diomedes & Farid 2
-    Memoria Musica Rafael Orozco 2
+    Memoria Musica Diomedes 2 ok
+    Memoria Musica Rafael Orozco 2 ok
     Memoria Musica Rap 1
-    Memoria Musica Vellenatos Clasicos 2
+    Memoria Musica Vellenatos Clasicos 1ok
     Pad Mouse Tapete DiseñOs 5
     Parlante Gts-1560 1
     Proyector P40 Juegos 1
