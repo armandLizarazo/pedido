@@ -1368,3 +1368,75 @@ Línea  | Contenido
     6 | Pacha Moto G31 1 ok
     7 | Altavoz Moto G84 1 ok
     8 | Pacha Samsung A03 Core c/m 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-24 22:38:10
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Cable Generico Tc 5 ok
+    7 | Cadenas pegar 2 ok
+    8 | Cordones colgar 4 ok
+    9 | Cargador Apple 25W Tc Ligthning 2 ok
+   44 | Forro Diseños Oppo A80 Caballero 5 ok
+   45 | Forro Diseños Oppo A80 Dama 5 ok
+   54 | Forro Diseños Xiaomi Redmi 10 Caballero 3 ok
+   55 | Forro Diseños Xiaomi Redmi Note 11 Caballero 3 ok
+   56 | Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 3 ok
+   58 | Forro Diseños Xiaomi Redmi Note 8 Dama 4 ok
+   79 | Silicone Case Apple Iphone 12 Lila 1 ok
+   99 | Silicone Case Samsung A22 5G Lila 1 ok
+  106 | Silicone Case Xiaomi Redmi 10C Azulrey 1 ok
+  108 | Silicone Case Xiaomi Redmi 13C Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-24 22:38:10
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Cable Auxiliar 2 A 1 1.5M 3 ok
+   11 | Cable Auxiliar 2 A 1 3M 3 ok
+   12 | Capturadora Hdmi 1 ok
+   13 | Capturadora Hdmi/tc 1 ok
+   19 | Humidificador Astronauta 1 ok
+   20 | Lampara Esfera Jupiter 2 ok
+   22 | Memoria Musica Diomedes 2 ok
+   23 | Memoria Musica Rafael Orozco 2 ok
+
+==================================================
+Fecha de proceso: 2025-02-24 22:38:10
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-24 22:42:39
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-24 22:42:39
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-24 22:42:39
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Bisel Oppo Reno 6 Lite 1 ok
+    6 | Flex De Carga Iphone 6S 1 ok
+    9 | Pacha Nokia 4.2 1 ok
+   11 | Pacha Samsung A21S 1 ok
+   12 | Pacha Xiaomi Redmi A1 / A2 1 ok

@@ -3,10 +3,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
 
     Audifonos Bluetooth Xiaomi E7S Negro 1
     Cable Apple Usb Ligthning 2M 2
-    Cable Generico Tc 5 ok
-    Cadenas pegar 2 ok
-    Cordones colgar 4 ok
-    Cargador Apple 25W Tc Ligthning 2 ok
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
@@ -17,18 +13,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Honor X7
     Forro Armadura K61 Rojo 1
     Forro Armadura Motorola Moto G22 Rojo 1
-    Forro Armadura Motorola Moto G23 Verde
-    Forro Armadura Oppo A15
-    Forro Armadura Oppo A57 Rojo
-    Forro Armadura Pova 5
+    Forro Armadura Motorola Moto G23 Verde 1
+    Forro Armadura Oppo A15 Negro 1
+    Forro Armadura Oppo A57 Rojo 1
+    Forro Armadura Pova 5 Negro 1
     Forro Armadura Pova 5 Azul 1
-    Forro Armadura Redmi Note 5G
-    Forro Armadura Reno 11F Negro 2
-    Forro Armadura S23 Negro 1
-    Forro Armadura S23 Rojo 1
+    Forro Armadura Redmi Note 10 5G Negro 1
+    Forro Armadura Oppo Reno 11F Negro 2
+    Forro Armadura Samsung S23 Negro 1
+    Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Samsung A13 Negro 1
-    Forro Armadura Spark Go 2024 Negro
-    Forro Armadura Tecno Camon
+    Forro Armadura Teno Spark Go 2024 Negro 1
+    Forro Armadura Tecno Camon Negro 1
     Forro Armadura Tecno Spark Go 2022 Rojo 1
     Forro Armadura Tecno Spark Go 2024 Morado 1
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 2
@@ -41,8 +37,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Oppo A17 Caballero 3
-    Forro Diseños Oppo A80 Caballero 5 ok
-    Forro Diseños Oppo A80 Dama 5 ok
     Forro Diseños Samsung A03 Core Dama 3
     Forro Diseños Samsung A11 Caballero 3
     Forro Diseños Samsung A20S Caballero 2
@@ -51,20 +45,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Vivo V25E Caballero 3
     Forro Diseños Vivo Y20S Caballero 3
     Forro Diseños Vivo Y33S Dama 2 
-    Forro Diseños Xiaomi Redmi 10 Caballero 3 ok
-    Forro Diseños Xiaomi Redmi Note 11 Caballero 3 ok
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 3 ok
     Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3
-    Forro Diseños Xiaomi Redmi Note 8 Dama 4 ok
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Pin Redmi 13C
+    Forro Pin Redmi 13C 2
     Forro Pin Tecno Spark Go 2024 2
-    Forro Space Color Xiaomi Redmi Note 11 Negro
+    Forro Space Color Xiaomi Redmi Note 11 Negro 1
     Forro Space Iphone 7 1
     Forro Space Motorola Moto G50 1
     Forro Space Oppo A80 2
-    Forro Space Oppo Reno 12F
+    Forro Space Oppo Reno 12F 1
     Forro Space Samsung A35 2
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
@@ -76,7 +66,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Apple 16 Pro Azuloscuro 1
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
-    Silicone Case Apple Iphone 12 Lila 1 ok
     Silicone Case Apple Iphone Xr Azulrey 1
     Silicone Case Huawei Nova Y70 Negro P 1
     Silicone Case Huawei Y7A 1
@@ -96,16 +85,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Oppo Realme C50 Morado 1
     Silicone Case Oppo Realme C53 Amarillo 1
     Silicone Case Samsung A14 Rojo 1
-    Silicone Case Samsung A22 5G Lila 1 ok
     Silicone Case Samsung A35 Negro 1
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Vivo Y15S Palo Rosa 1
-    Silicone Case Xiaomi Redmi 10C Azulrey 1 ok
     Silicone Case Xiaomi Redmi 12 Fucsia 1
-    Silicone Case Xiaomi Redmi 13C Lila 1 ok
     Silicone Case Xiaomi Redmi 8A Amarillo 1
     Silicone Case Xiaomi Redmi 8A Azulclaro 1
     Silicone Case Xiaomi Redmi 8A Fucsia 1
@@ -121,3 +107,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio 5D Tecno Spark 30C 5
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
+    Cable Samsugn TC a TC
+    Antena Tdt 1.5m
+    Silicone Case Apple iPhone 7 Plus / iPhone 8 Plus Negro 1
+    Silieone Case Motorola Moto G04 Azulrey 1
+    Vidrio Blindado Samsung A12 
+

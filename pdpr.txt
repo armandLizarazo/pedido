@@ -7,22 +7,14 @@
     Audifonos Bluetooth Apple I12 Azuloscuro 5
     Audifonos Bluetooth Apple I12 Negro 3
     Audifonos Bluetooth Apple I12 Rosa 3
-    Cable Auxiliar 2 A 1 1.5M 3 ok
-    Cable Auxiliar 2 A 1 3M 3 ok
-    Capturadora Hdmi 1 ok
-    Capturadora Hdmi/tc 1 ok
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
     Control Gamer Ps4 Negro 1
-    Humidificador Astronauta 1 ok
-    Lampara Esfera Jupiter 2 ok
     Lampara Esfera Sistema Solar 1
-    Memoria Musica Diomedes 2 ok
-    Memoria Musica Rafael Orozco 2 ok
     Memoria Musica Rap 1
-    Memoria Musica Vellenatos Clasicos 1ok
+    Memoria Musica Vellenatos Clasicos 1Ok
     Pad Mouse Tapete DiseñOs 5
     Parlante Gts-1560 1
     Proyector P40 Juegos 1
@@ -36,3 +28,7 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
+    Reproductor DVD 1
+    Power Bank Solar 1
+    Soporte Tripode Neepho 1
+

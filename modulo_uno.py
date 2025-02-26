@@ -40,7 +40,12 @@ def consultar_por_numero(elementos, numero):
             resultados.append(elemento)
     return resultados
 
-def buscar_y_restar_unidades(nombre_archivo, elementos):
+def buscar_y_restar_unidades(nombre_archivo):
+    # Recargar el archivo antes de realizar la operación
+    elementos = cargar_archivo(nombre_archivo)
+    if elementos is None:
+        return
+    
     palabra = input("Introduce el nombre del elemento a buscar: ").strip().lower()
     resultados = []
     
@@ -51,7 +56,7 @@ def buscar_y_restar_unidades(nombre_archivo, elementos):
     
     if not resultados:
         print(f"No se encontraron elementos que coincidan con '{palabra}'.")
-        return elementos
+        return
     
     print("\nElementos encontrados:")
     for i, resultado in enumerate(resultados, 1):
@@ -61,24 +66,24 @@ def buscar_y_restar_unidades(nombre_archivo, elementos):
         indice = int(input("Selecciona el número del elemento a modificar: ")) - 1
         if indice < 0 or indice >= len(resultados):
             print("Selección no válida.")
-            return elementos
+            return
         
         elemento_seleccionado = resultados[indice]
         partes = elemento_seleccionado.rsplit(' ', 1)
         if len(partes) != 2 or not partes[1].isdigit():
             print("El elemento seleccionado no tiene un formato válido.")
-            return elementos
+            return
         
         nombre, cantidad_actual = partes[0], int(partes[1])
         unidades = int(input(f"Ingresa la cantidad de unidades a restar (máximo {cantidad_actual}): "))
         
         if unidades < 0:
             print("No se pueden restar unidades negativas.")
-            return elementos
+            return
         
         if unidades > cantidad_actual:
             print("No hay suficientes unidades para restar.")
-            return elementos
+            return
         
         # Restar las unidades
         nueva_cantidad = cantidad_actual - unidades
@@ -99,8 +104,6 @@ def buscar_y_restar_unidades(nombre_archivo, elementos):
     
     except ValueError:
         print("Entrada no válida. Introduce un número.")
-    
-    return elementos
 
 def agregar_a_local(nombre, unidades):
     try:
@@ -137,12 +140,13 @@ def agregar_a_local(nombre, unidades):
 
 def main():
     nombre_archivo = input("Introduce el nombre del archivo: ")
-    elementos = cargar_archivo(nombre_archivo)
-    
-    if elementos is None:
-        return
     
     while True:
+        # Recargar el archivo en cada iteración del menú
+        elementos = cargar_archivo(nombre_archivo)
+        if elementos is None:
+            return
+        
         print("\nOpciones:")
         print("1. Ver todos los elementos")
         print("2. Filtrar por palabra")
@@ -175,7 +179,7 @@ def main():
             except ValueError:
                 print("Por favor, introduce un número válido.")
         elif opcion == '4':
-            elementos = buscar_y_restar_unidades(nombre_archivo, elementos)
+            buscar_y_restar_unidades(nombre_archivo)
         elif opcion == '0':
             print("Saliendo del programa...")
             break

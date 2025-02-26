@@ -2,6 +2,8 @@
     Adaptador Av2Vga 0
     Adaptador Dpp2Hdmi Cable 2
     Adaptador Dpp2Vga Cable 2
+    Adaptador Dvi2Vga 1
+    Adaptador Europeo Goma 0
     Adaptador Hdmi2Av 0
     Adaptador Hdmi2Vga 0
     Adaptador Hdmi2Vga Cable 0
@@ -17,7 +19,7 @@
     Adaptador Tc2Vga 0
     Adaptador Usb2Vga Cable 0
     Adaptador Vga2Av 0
-    Adaptador Vga2Hdmi 0
+    Adaptador Vga2Hdmi 2
     Aguja Extractor Sim 0
     Antena Tdt 3M Con Usb 0
     Antena Tdt 5M 3
@@ -28,7 +30,7 @@
     Aro De Luz 45Cm 0
     Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Audifonos Bluetooth I12 Negro 3
     Audifonos Bluetooth M25 1
     Audifonos Bluetooth M60 1
@@ -38,12 +40,15 @@
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 1
+    Bateria Xiaomi Redmi Note 10 / Note 10S 0
+    Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Cable Belkin Tc 2M 1
     Cable Belkin Tc 5
     Cable Belkin V8 3
     Cable Caterpillar Tc 3
     Cable Caterpillar Usb Ligthning 3
     Cable Caterpillar V8 3
+    Cable Dp2Dp 1.8M 1
     Cable Harvic Tc 2
     Cable Harvic V8 0
     Cable Motorola Tc A Tc 2
@@ -56,10 +61,12 @@
     Cable Yoyos Tc 3M 1
     Cable Yoyos V8 3M 1
     Camara Web 720P 1
+    Capturador Hdmi Tc-Usb 1
+    Capturador Hdmi Usb 1
     Cargador Apple 20W Tc Cabeza 0
     Cargador Apple 20W Tc Ligthning 1
     Cargador Apple 25W Tc Cabeza 0
-    Cargador Apple 25W Tc Ligthning 0
+    Cargador Apple 25W Tc Ligthning 2
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
     Cargador Apple 5V Eco 2
@@ -67,7 +74,7 @@
     Cargador Apple 60W 2Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 5
+    Cargador Belkin Tc 2
     Cargador Belkin V8 5
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -84,7 +91,7 @@
     Cargador Pc 9 Pines Caja Azul 1
     Cargador Pc Asus 2.37 1
     Cargador Pc Asus 3.42 0
-    Cargador Pc Hp Punta Azul 0
+    Cargador Pc Hp Punta Azul 1
     Cargador Pc Lenovo Mini 3.25 0
     Cargador Pc Lenovo Yoga 0
     Cargador Pluying 7A 3P 35W 0
@@ -116,7 +123,7 @@
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
     Control Gamer Gatillos H-9.0 1
-    Control Gamer Gatillos W11+ 1
+    Control Gamer Gatillos W11+ 0
     Control Gamer Microsoft Pc/360 Cable 0
     Control Gamer X3 2
     Control Keyboard Tv 1
@@ -134,6 +141,7 @@
     Forro Diseã±Os Apple Iphone 11 Caballero 0
     Forro Diseã±Os Apple Iphone 11 Dama 0
     Forro Diseã±Os Apple Iphone 11 Verdemilitar 0
+    Forro Diseã±Os Motorola Moto E20 Dama 0
     Forro Diseã±Os Xiaomi Redmi 10C Caballero 2
     Forro Diseños A35 Caballero 2
     Forro Diseños A55 Dama 1
@@ -242,14 +250,21 @@
     Forro Ukg Apple Iphone 11 Rojo 0
     Gramera Sencilla 1
     Guantes Gamer 5
+    Hydrogel Antiespia 0
+    Hydrogel Matte 40
+    Llavero Goku 0
     Manos Libres Batri B10 Azulcielo 0
     Manos Libres Batri B10 Blanco 0
     Manos Libres Batri B10 Lila 0
     Manos Libres Batri B10 Rosa 0
     Manos Libres Samsung Akg 5
+    Manos Libres Samsung J5 Negro 0
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
+    Pacha Oppo Reno 5 Lite / Reno 6 Lite 2
     Pacha Xiaomi Redmi 12C 0
+    Pacha Xiaomi Redmi Note 10 / Note 10S 0
+    Pacha Xiaomi Redmi Note 8 2
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-915 0
@@ -261,6 +276,8 @@
     Patillera 3 En 1 2
     Pilas Carbon Aaa X2 30
     Power Bank Aibimy 10000 Mah 120W 0
+    Power Bank Aibimy 30000 Mah 1
+    Power Bank Panel Solar 12000 Mah 1
     Protector Teclado 15P 0
     Radios Baofeng 1
     Reproductor Amazon Fire Tv Stick Hd 0
@@ -270,16 +287,19 @@
     Reproductor Proyector Caja Roja 0
     Reproductor Proyector Y300 0
     Reproductor Roku Express Hd 0
+    Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Krono 2
     Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
+    Servicio Tecnico 5
+    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 0
     Silicone Case Apple Iphone Xr Amarillo 0
     Silicone Case Apple Iphone Xr Azuloscuro 0
     Silicone Case Apple Iphone Xr Azulrey 0
     Silicone Case Apple Iphone Xr Fucsia 0
     Silicone Case Apple Iphone Xr Lila 0
-    Silicone Case Apple Iphone Xr Negro 0
+    Silicone Case Apple Iphone Xr Negro 1
     Silicone Case Apple Iphone Xr Rojo 0
     Silicone Case Apple Iphone Xr Rosa 0
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 1
@@ -329,6 +349,7 @@
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 1
     Silicone Case Motorola Moto Edge 40 Neo Rosa 1
     Silicone Case Motorola Moto Edge 40 Rojo 1
+    Silicone Case Motorola Moto G04 Azulrey 0
     Silicone Case Motorola Moto G04 Rojo 0
     Silicone Case Motorola Moto G04 Verdemilitar 0
     Silicone Case Motorola Moto G20 Azulrey 1
@@ -345,6 +366,7 @@
     Silicone Case Motorola Moto G24 / G04 Rojo 0
     Silicone Case Motorola Moto G24 / G04 Rosa 0
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 0
+    Silicone Case Motorola Moto G54 Morado 1
     Silicone Case Motorola Moto G60S Rojo 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 2
     Silicone Case Motorola Moto G9 Play / E7 Plus Azulrey 0
@@ -494,6 +516,7 @@
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Negro 2
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
+    Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Ab Lila 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 0
@@ -502,8 +525,11 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 0
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
+    Silicone Case Xioami Redmi Note 12S Negro 1
+    Simcard Claro 0
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smartphone Tecno Spark Go 1S Gris 0
+    Soporte Nephoo Tripode Camara-Celular 0
     Soporte Tv 32 Brazo 1
     Soporte Tv 50 Brazo 2
     Teclado Combo Gamer F92 0
@@ -514,12 +540,17 @@
     Vidrio 5D Apple Iphone 11 / Xr 0
     Vidrio 5D Apple Iphone 13 / 13Pro 8
     Vidrio 5D Huawei Honor X6S 2
+    Vidrio 5D Motorola Moto G04 / Moto G24 0
+    Vidrio 5D Redmi Note 12 0
     Vidrio 5D Samsung A12 0
     Vidrio 5D Xiaomi Mi 11T 12
     Vidrio 5D Xiaomi Redmi 13C 0
+    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 0
     Vidrio 5D Xiaomi Redmi Note 11 5
+    Vidrio 5D Xiaomi Redmi Note 8 0
     Vidrio Antiespia Huawei Honor X6S 2
     Vidrio Antiespia Xiaomi Redmi 13C 0
+    Vidrio Blindado Motorola Moto E20 0
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 3
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 5
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 5
@@ -530,3 +561,9 @@
     Vidrio Tortuga Samsung A12 3
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
+    Antena Tdt 1.5m 0
+    Pacha Tecno-Infinix Pop 7 / Hot 30i 0
+    Simcard Tigo 0
+    Pacha Oppo Realme C53 / Note 50 0
+    Recarga 4500 100
+    Recarga 6500 100
