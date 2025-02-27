@@ -567,3 +567,18 @@
     Pacha Oppo Realme C53 / Note 50 0
     Recarga 4500 100
     Recarga 6500 100
+    Cable Usb Ligthning Eco 0
+    Cable Poder trebol 0
+    Memoria Usb Kingston 4Gb 0
+    Pacha Huawei Y6 2019 / Honor 8a 0
+    Parlante TG-294 Negro 0
+    Parlante TG-294 Rojo 0
+    Recarga 8500 100
+    Recarga 7500 100
+    Vidrio 5D Huawei Y6 2019 / Honor 8a 0
+    Vidrio 5D Tecno Spark Go 2023 / Pop 7 0
+    Hydrogel Hd 10
+    Pacha Oppo Realme C55 0
+    Pacha Motorola Moto E5 Play 0
+    Vidrio 5d Tecno Spark Go 2024 / Spark 20 0
+    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0

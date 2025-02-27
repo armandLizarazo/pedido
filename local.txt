@@ -119,7 +119,7 @@
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
     Cargador Yl Tc 3
-    Cargador Yl V8 2
+    Cargador Yl V8 1
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
     Control Gamer Gatillos H-9.0 1
@@ -258,7 +258,7 @@
     Manos Libres Batri B10 Lila 2
     Manos Libres Batri B10 Rosa 2
     Manos Libres Samsung Akg 4
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung J5 Negro 4
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 1
@@ -292,7 +292,7 @@
     Reproductor Tdt Krono 1
     Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
-    Servicio Tecnico 2
+    Servicio Tecnico 1
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 0
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Azuloscuro 1
@@ -526,8 +526,8 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
     Silicone Case Xioami Redmi Note 12S Negro 1
-    Simcard Tigo 0
-    Simcard Claro 0
+    Simcard Tigo 5
+    Simcard Claro 4
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smartphone Tecno Spark Go 1S Gris 0
     Soporte Nephoo Tripode Camara-Celular 0
@@ -565,5 +565,20 @@
     Antena Tdt 1.5m 1
     Pacha Tecno-Infinix Pop 7 / Hot 30i 0
     Pacha Oppo Realme C53 / Note 50 0
-    Recarga 4500 8
+    Recarga 4500 7
     Recarga 6500 8
+    Parlante TG-294 Negro 0
+    Cable Usb Ligthning Eco 4
+    Pacha Huawei Y6 2019 / Honor 8a 0
+    Memoria Usb Kingston 4Gb 4
+    Cable Poder trebol 4
+    Parlante TG-294 Rojo 1
+    Vidrio 5D Huawei Y6 2019 / Honor 8a 4
+    Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
+    Recarga 8500 99
+    Recarga 7500 98
+    Hydrogel Hd 10
+    Pacha Oppo Realme C55 0
+    Vidrio 5d Tecno Spark Go 2024 / Spark 20 5
+    Pacha Motorola Moto E5 Play 0
+    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 4

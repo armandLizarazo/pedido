@@ -37,21 +37,12 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Oppo A17 Caballero 3
-    Forro Diseños Samsung A03 Core Dama 3 ok
-    Forro Diseños Samsung A11 Caballero 3 ok
-    Forro Diseños Samsung A20S Caballero 2 ok
-    Forro Diseños Samsung A20S Dama 2 ok
     Forro Diseños Samsung A36 Caballero 5
     Forro Diseños Vivo V25E Caballero 3
     Forro Diseños Vivo Y20S Caballero 3
-    Forro Diseños Vivo Y33S Dama 2 ok
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 3 ok
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Pin Redmi 13C 2 ok
-    Forro Pin Tecno Spark Go 2024 2 ok
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
-    Forro Space Iphone 7 1 ok
     Forro Space Motorola Moto G50 1 
     Forro Space Oppo A80 2
     Forro Space Oppo Reno 12F 1
@@ -59,11 +50,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo V38 2
-    Forro Space Xiaomi Redmi Note 13 Pro 4G 1  ok
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
     Parlante Tg-805 Negro 1
-    Silicone Case Apple 16 Pro Azuloscuro 1 ok
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone Xr Azulrey 1
@@ -77,27 +66,23 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Motorola Moto Edge 50 Fusion Morado 1
     Silicone Case Motorola Moto G60S Amarillo 1
     Silicone Case Motorola Moto G8 Plus Negro 1
-    Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1 ok
     Silicone Case Motorola Moto One Fusion Amarillo 1
     Silicone Case Motorola Moto One Fusion Rojo 1
     Silicone Case Oppo A15 Rosa 1
     Silicone Case Oppo Realme 7I Lila 1
     Silicone Case Oppo Realme C50 Morado 1
     Silicone Case Oppo Realme C53 Amarillo 1
-    Silicone Case Samsung A14 Rojo 1 ok
     Silicone Case Samsung A35 Negro 1 
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Vivo Y15S Palo Rosa 1
-    Silicone Case Xiaomi Redmi 12 Fucsia 1 ok
     Silicone Case Xiaomi Redmi 8A Amarillo 1
     Silicone Case Xiaomi Redmi 8A Azulclaro 1
     Silicone Case Xiaomi Redmi 8A Fucsia 1
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
-    Silicone Case Xiaomi Redmi Note 11 Azulrey 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1 
     Smart Watch Gw-20 Verdemilitar 1
     Vidrio 5D Oppo A80 5 
@@ -109,7 +94,6 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch Redondos Grandes 5
     Cable Samsugn TC a TC
     Antena Tdt 1.5m
-    Silicone Case Apple iPhone 7 Plus / iPhone 8 Plus Negro 1 ok
     Silieone Case Motorola Moto G04 Azulrey 1
     Vidrio Blindado Samsung A12 
 
