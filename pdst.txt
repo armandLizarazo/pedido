@@ -6,12 +6,12 @@
     Pacha Huawei Honor 90 Lite / X8A 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Oppo Realme C53 / Note 50 1
-    Pacha Tecno-Infinix Pop 7 / Hot 30i 1
-    Pacha Motorola Moto G5 plus 1
-    Pacha Xiaomi Redmi Note 10 / Note 10s 1
-    Pacha Xiaomi Redmi Note 8 1
-    Bateria Xiaomi Redmi Note 10 / 10s 1
+    Pacha Oppo Realme C53 / Note 50 1 ok
+    Pacha Tecno-Infinix Pop 7 / Hot 30i 1 ok
+    Pacha Motorola Moto G5 plus 1 ok
+    Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
+    Pacha Xiaomi Redmi Note 8 1 ok
+    Bateria Xiaomi Redmi Note 10 / 10s 1 ok
     Devolver Pacha Nokia 4.2 1
     Devolver Flex de Carga Apple iPhone 6s 1
 
