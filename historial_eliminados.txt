@@ -1486,3 +1486,59 @@ Línea  | Contenido
    12 | Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
    13 | Pacha Xiaomi Redmi Note 8 1 ok
    14 | Bateria Xiaomi Redmi Note 10 / 10s 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-28 08:51:47
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-28 08:51:47
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   17 | Memoria Musica Vellenatos Clasicos 1 ok
+   26 | Soporte Tv Fijo 2 ok
+   27 | Tableta Tiger Caballero 1 ok
+   31 | Reproductor DVD 1 ok
+   32 | Power Bank Solar 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-28 08:51:47
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Devolver pacha Samsung A22 4g oled 1 ok
+   10 | Devolver Pacha Nokia 4.2 1 ok
+   11 | Devolver Flex de Carga Apple iPhone 6s 1 ok
+
+==================================================
+Fecha de proceso: 2025-02-28 08:53:27
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-28 08:53:27
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-02-28 08:53:27
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Pacha Huawei Y6 2019 / Honor 8a 1 ok
+   10 | Pacha Oppo Realme C55 1 ok
+   11 | Tapa P10 lite Dorado 1 ok

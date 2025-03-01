@@ -1,16 +1,17 @@
 ****
-
+    Bandeja Sim Samsung A51
+    Bandeja Sim Xiaomi Redmi 13c
+    Bandeja Sim Xiaomi Redmi 9a
     Bateria Samsung A04E P 1
-    Botones Huawei 1
-    Flex De Power Huawei 1
+    Botones Huawei P9 Lite 1
+    Flex De Power Huawei P9 Lite 1
     Pacha Huawei Honor 90 Lite / X8A 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Devolver pacha Samsung A22 4g oled 1 ok
-    Devolver Pacha Nokia 4.2 1 ok
-    Devolver Flex de Carga Apple iPhone 6s 1 ok
-    Pacha Huawei Y6 2019 / Honor 8a 1
-    Pacha Oppo Realme C55 1
-    Tapa P10 lite Dorado 1
-
-
+    Pacha Apple iPhone 11 Gx 1
+    Pacha Nokia 5.3 1
+    Pacha Samsung A13 / M33 2
+    Pacha Tecno Spark Go 2023 1
+    Pacha Vivo Y51 / Y53s 1
+    Pacha Xiaomi Redmi Note 11 / Note 12s 1
+    Pacha Xiaomi Redmi Note 12

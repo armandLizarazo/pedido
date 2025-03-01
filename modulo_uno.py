@@ -99,6 +99,9 @@ def buscar_y_restar_unidades(nombre_archivo):
         # Agregar la línea al archivo "local.txt" con 4 espacios al inicio
         agregar_a_local(nombre, unidades)
         
+        # Verificar si el elemento existe en "dbcst.txt"
+        verificar_y_agregar_a_dbcst(nombre)
+        
         print(f"\nSe restaron {unidades} unidades de '{nombre}'. Nueva cantidad: {nueva_cantidad}.")
         print(f"La línea se ha agregado al archivo 'local.txt'.")
     
@@ -136,6 +139,38 @@ def agregar_a_local(nombre, unidades):
     
     # Guardar los cambios en "local.txt"
     with open("local.txt", 'w') as archivo:
+        archivo.writelines(lineas)
+
+def verificar_y_agregar_a_dbcst(nombre):
+    try:
+        with open("dbcst.txt", 'r') as archivo:
+            lineas = archivo.readlines()
+    except FileNotFoundError:
+        lineas = []
+    
+    # Buscar si el elemento ya existe en "dbcst.txt" (ignorando el número final)
+    encontrado = False
+    for i, linea in enumerate(lineas):
+        # Extraer el nombre de la línea (ignorando el número final)
+        partes_linea = linea.strip().rsplit(' ', 1)
+        nombre_linea = partes_linea[0].strip() if len(partes_linea) == 2 else linea.strip()
+        
+        if nombre.lower() == nombre_linea.lower():
+            encontrado = True
+            break
+    
+    # Si no se encontró, agregar una nueva línea con 4 espacios al inicio
+    if not encontrado:
+        try:
+            precio = int(input(f"Ingresa el precio para '{nombre}': "))
+            lineas.append(f"    {nombre} {precio}\n")  # 4 espacios al inicio
+            print(f"El elemento '{nombre}' se ha agregado a 'dbcst.txt' con un precio de {precio}.")
+        except ValueError:
+            print("El precio debe ser un número entero.")
+            return
+    
+    # Guardar los cambios en "dbcst.txt"
+    with open("dbcst.txt", 'w') as archivo:
         archivo.writelines(lineas)
 
 def main():

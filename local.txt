@@ -3,7 +3,7 @@
     Adaptador Dpp2Hdmi Cable 1
     Adaptador Dpp2Vga Cable 1
     Adaptador Dvi2Vga 1
-    Adaptador Europeo Goma 1
+    Adaptador Europeo Goma 0
     Adaptador Hdmi2Av 1
     Adaptador Hdmi2Vga 1
     Adaptador Hdmi2Vga Cable 2
@@ -21,6 +21,7 @@
     Adaptador Vga2Av 2
     Adaptador Vga2Hdmi 4
     Aguja Extractor Sim 5
+    Antena Tdt 1.5M 1
     Antena Tdt 3M Con Usb 1
     Antena Tdt 5M 3
     Antena Tdt Aire 1
@@ -44,17 +45,23 @@
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Cable Belkin Tc 1
     Cable Belkin Tc 2M 1
-    Cable Belkin V8 2
-    Cable Caterpillar Tc 0
+    Cable Belkin V8 1
+    Cable Caterpillar Tc 1
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
     Cable Dp2Dp 1.8M 2
     Cable Harvic Tc 1
     Cable Harvic V8 1
+    Cable Hdmi 1.5M Eco 2
     Cable Motorola Tc A Tc 1
-    Cable Poder Cuadrado 3
+    Cable Poder Cuadrado 2
+    Cable Poder Trebol 3
     Cable Royal Tc 2
     Cable Royal Tc 2M 1
+    Cable Tc Cordon Eco 5
+    Cable Tc Eco 1
+    Cable Tc Eco Cordon 5
+    Cable Usb Ligthning Eco 4
     Cable V8 Eco 9
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 1
@@ -113,7 +120,7 @@
     Cargador Samsung S10+ Tc 1
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 1
-    Cargador Vidvie V8 2P 2.4A 1
+    Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 1
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
@@ -141,6 +148,7 @@
     Forro Diseã±Os Apple Iphone 11 Caballero 1
     Forro Diseã±Os Apple Iphone 11 Dama 4
     Forro Diseã±Os Apple Iphone 11 Verdemilitar 1
+    Forro Diseã±Os Huawei P10 Lite Caballero 2
     Forro Diseã±Os Motorola Moto E20 Dama 0
     Forro Diseã±Os Xiaomi Redmi 10C Caballero 5
     Forro Diseños A35 Caballero 0
@@ -218,6 +226,7 @@
     Forro Space Samsung A20S 0
     Forro Space Samsung A25 0
     Forro Space Samsung A31 0
+    Forro Space Samsung A35 2
     Forro Space Samsung A54 0
     Forro Space Samsung A55 0
     Forro Space Samsung S21 Fe Ab 0
@@ -251,19 +260,29 @@
     Gramera Sencilla 1
     Guantes Gamer 4
     Hydrogel Antiespia 3
+    Hydrogel Hd 10
     Hydrogel Matte 10
     Llavero Goku 0
     Manos Libres Batri B10 Azulcielo 1
     Manos Libres Batri B10 Blanco 1
     Manos Libres Batri B10 Lila 2
+    Manos Libres Batri B10 Negro 3
     Manos Libres Batri B10 Rosa 2
     Manos Libres Samsung Akg 4
     Manos Libres Samsung J5 Negro 4
+    Memoria Usb Kingston 4Gb 4
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
+    Pacha Huawei Y6 2019 / Honor 8A 0
+    Pacha Motorola Moto E5 Play 0
+    Pacha Oppo Realme C53 / Note 50 0
+    Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 1
+    Pacha Tecno-Infinix Pop 7 / Hot 30I 0
+    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 1
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
+    Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 8 1
     Parlante Lazzer Lz-2890 1
     Parlante Lazzer Lz-2894 1
@@ -273,13 +292,25 @@
     Parlante Teatro Tg-200 0
     Parlante Tg S-8A Negro 1
     Parlante Tg S-8B Rojo 1
+    Parlante Tg-294 Negro 0
+    Parlante Tg-294 Rojo 1
     Patillera 3 En 1 2
     Pilas Carbon Aaa X2 8
+    Pin De Carga Celular 20
+    Pin De Carga Parlante 19
+    Pin De Carga V8 20
     Power Bank Aibimy 10000 Mah 120W 1
     Power Bank Aibimy 30000 Mah 0
     Power Bank Panel Solar 12000 Mah 0
     Protector Teclado 15P 2
     Radios Baofeng 2
+    Recarga 12000 19
+    Recarga 18500 20
+    Recarga 4500 7
+    Recarga 5000 19
+    Recarga 6500 8
+    Recarga 7500 97
+    Recarga 8500 99
     Reproductor Amazon Fire Tv Stick Hd 2
     Reproductor Chromecast Espejo 1
     Reproductor Fly Tv Box 64-4 1
@@ -292,7 +323,8 @@
     Reproductor Tdt Krono 1
     Reproductor Tv Stick Magis 2
     Rollo Cinta Led Rgb 10M 1
-    Servicio Tecnico 1
+    Servicio Tecnico 0
+    Silicone Case Apple Iphone 12 Ab Negro 0
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 0
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Azuloscuro 1
@@ -526,13 +558,16 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
     Silicone Case Xioami Redmi Note 12S Negro 1
-    Simcard Tigo 5
     Simcard Claro 4
+    Simcard Tigo 5
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smartphone Tecno Spark Go 1S Gris 0
+    Soporte Fijo Tv 32-55 Pulgadas 1
     Soporte Nephoo Tripode Camara-Celular 0
+    Soporte Techo Tv 26-55 Pulgadas 1
     Soporte Tv 32 Brazo 2
     Soporte Tv 50 Brazo 2
+    Tapa Huawei P10 Lite Dorado 0
     Teclado Combo Gamer F92 1
     Televisor Smart Tv Fly Android 32P 1
     Televisor Smart Tv Fly Android 43P 1
@@ -541,9 +576,12 @@
     Vidrio 5D Apple Iphone 11 / Xr 1
     Vidrio 5D Apple Iphone 13 / 13Pro 0
     Vidrio 5D Huawei Honor X6S 0
+    Vidrio 5D Huawei Y6 2019 / Honor 8A 4
     Vidrio 5D Motorola Moto G04 / Moto G24 0
-    Vidrio 5D Redmi Note 12 0
+    Vidrio 5D Redmi Note 12 4
     Vidrio 5D Samsung A12 0
+    Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
+    Vidrio 5D Tecno Spark Go 2024 / Spark 20 5
     Vidrio 5D Xiaomi Mi 11T 5
     Vidrio 5D Xiaomi Redmi 13C 4
     Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 0
@@ -558,27 +596,9 @@
     Vidrio Camara Xiaomi Note 13 Pro Plus 9
     Vidrio Camara Xiaomi Redmi 13 10
     Vidrio Camara Xiaomi Redmi 13C 7
+    Vidrio Ceramico Motorola E14 4
     Vidrio Tortuga Huawei Honor X6S 0
     Vidrio Tortuga Samsung A12 0
+    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 4
     Vidrio Tortuga Xiaomi Redmi 13C 0
     Vidrio Tortuga Xiaomi Redmi Note 11 0
-    Antena Tdt 1.5m 1
-    Pacha Tecno-Infinix Pop 7 / Hot 30i 0
-    Pacha Oppo Realme C53 / Note 50 0
-    Recarga 4500 7
-    Recarga 6500 8
-    Parlante TG-294 Negro 0
-    Cable Usb Ligthning Eco 4
-    Pacha Huawei Y6 2019 / Honor 8a 0
-    Memoria Usb Kingston 4Gb 4
-    Cable Poder trebol 4
-    Parlante TG-294 Rojo 1
-    Vidrio 5D Huawei Y6 2019 / Honor 8a 4
-    Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
-    Recarga 8500 99
-    Recarga 7500 98
-    Hydrogel Hd 10
-    Pacha Oppo Realme C55 0
-    Vidrio 5d Tecno Spark Go 2024 / Spark 20 5
-    Pacha Motorola Moto E5 Play 0
-    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 4

@@ -21,6 +21,7 @@
     Adaptador Vga2Av 15000
     Adaptador Vga2Hdmi 15000
     Aguja Extractor Sim 2000
+    Antena Tdt 1.5M 5000
     Antena Tdt 3M Con Usb 13000
     Antena Tdt 5M 9000
     Antena Tdt Aire 18000
@@ -44,17 +45,23 @@
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 13000
     Cable Belkin Tc 2500
     Cable Belkin Tc 2M 3500
-    Cable Belkin V8 7500
+    Cable Belkin V8 2500
     Cable Caterpillar Tc 4500
     Cable Caterpillar Usb Ligthning 4500
     Cable Caterpillar V8 4000
     Cable Dp2Dp 1.8M 14000
     Cable Harvic Tc 3800
     Cable Harvic V8 3800
+    Cable Hdmi 1.5M Eco 2000
     Cable Motorola Tc A Tc 3500
-    Cable Poder Cuadrado 3500
+    Cable Poder Cuadrado 3000
+    Cable Poder Trebol 2500
     Cable Royal Tc 2M 6000
     Cable Royal Tc 4500
+    Cable Tc Cordon Eco 1800
+    Cable Tc Eco 1500
+    Cable Tc Eco Cordon 1800
+    Cable Usb Ligthning Eco 1500
     Cable V8 Eco 1000
     Cable Xiaomi Tc A Tc 10000
     Cable Yoyos Tc 3M 5000
@@ -112,7 +119,7 @@
     Cargador Samsung 45W Con Cable Negro 15000
     Cargador Samsung S10+ Tc 7500
     Cargador Tc A Tc 80W 2P 20000
-    Cargador Vidvie V8 18W 16000
+    Cargador Vidvie V8 18W 12000
     Cargador Vidvie V8 2P 2.4A 16000
     Cargador W Tc 5000
     Cargador Xiaomi 120W 26000
@@ -141,6 +148,7 @@
     Forro Diseã±Os Apple Iphone 11 Caballero 3500
     Forro Diseã±Os Apple Iphone 11 Dama 3500
     Forro Diseã±Os Apple Iphone 11 Verdemilitar 3500
+    Forro Diseã±Os Huawei P10 Lite Caballero 3500
     Forro Diseã±Os Motorola Moto E20 Dama 3500
     Forro Diseã±Os Xiaomi Redmi 10C Caballero 3500
     Forro Diseños A35 Caballero 3500
@@ -218,6 +226,7 @@
     Forro Space Samsung A20S 4000
     Forro Space Samsung A25 4000
     Forro Space Samsung A31 4000
+    Forro Space Samsung A35 4000
     Forro Space Samsung A54 4000
     Forro Space Samsung A55 4000
     Forro Space Samsung S21 Fe Ab 4000
@@ -251,6 +260,7 @@
     Gramera Sencilla 9000
     Guantes Gamer 2000
     Hydrogel Antiespia 15000
+    Hydrogel Hd 4000
     Hydrogel Matte 4000
     Llavero Goku 4500
     Manos Libres Batri B10 Azulcielo 7500
@@ -259,11 +269,19 @@
     Manos Libres Batri B10 Rosa 7500
     Manos Libres Samsung Akg 3300
     Manos Libres Samsung J5 Negro 2200
+    Memoria Usb Kingston 4Gb 6500
     Mouse Eco Fc-143 4000
     Mouse Gamer Eco A78 5000
+    Pacha Huawei Y6 2019 / Honor 8A 33000
+    Pacha Motorola Moto E5 Play 45000
+    Pacha Oppo Realme C53 / Note 50 45000
+    Pacha Oppo Realme C55 50000
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 45000
+    Pacha Tecno-Infinix Pop 7 / Hot 30I 40000
+    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 38000
     Pacha Xiaomi Redmi 12C 38000
     Pacha Xiaomi Redmi Note 10 / Note 10S 40000
+    Pacha Xiaomi Redmi Note 12 55000
     Pacha Xiaomi Redmi Note 8 38000
     Parlante Lazzer Lz-2890 250000
     Parlante Lazzer Lz-2894 340000
@@ -273,13 +291,25 @@
     Parlante Teatro Tg-200 235000
     Parlante Tg S-8A Negro 100000
     Parlante Tg S-8B Rojo 110000
+    Parlante Tg-294 Negro 25000
+    Parlante Tg-294 Rojo 25000
     Patillera 3 En 1 20000
     Pilas Carbon Aaa X2 750
+    Pin De Carga Celular 0
+    Pin De Carga Parlante 0
+    Pin De Carga V8 0
     Power Bank Aibimy 10000 Mah 120W 35000
     Power Bank Aibimy 30000 Mah 52000
-    Power Bank Panel Solar 12000 Mah 0
+    Power Bank Panel Solar 12000 Mah 40000
     Protector Teclado 15P 2000
     Radios Baofeng 18000
+    Recarga 12000 11320
+    Recarga 18500 17452
+    Recarga 4500 4245
+    Recarga 5000 4716
+    Recarga 6500 6132
+    Recarga 7500 7075
+    Recarga 8500 8018
     Reproductor Amazon Fire Tv Stick Hd 125000
     Reproductor Chromecast Espejo 45000
     Reproductor Fly Tv Box 64-4 89000
@@ -293,6 +323,7 @@
     Reproductor Tv Stick Magis 75000
     Rollo Cinta Led Rgb 10M 28000
     Servicio Tecnico 0
+    Silicone Case Apple Iphone 12 Ab Negro 6000
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 7000
     Silicone Case Apple Iphone Xr Amarillo 7000
     Silicone Case Apple Iphone Xr Azuloscuro 7000
@@ -527,11 +558,15 @@
     Silicone Case Xiaomi Redmi Note 9S Amarillo 7000
     Silicone Case Xioami Redmi Note 12S Negro 7000
     Simcard Claro 0
+    Simcard Tigo 1000
     Slicone Case Xiaomi Redmi 13C Fucsia 7000
     Smartphone Tecno Spark Go 1S Gris 290000
+    Soporte Fijo Tv 32-55 Pulgadas 16000
     Soporte Nephoo Tripode Camara-Celular 25200
+    Soporte Techo Tv 26-55 Pulgadas 40000
     Soporte Tv 32 Brazo 16000
     Soporte Tv 50 Brazo 23000
+    Tapa Huawei P10 Lite Dorado 9000
     Teclado Combo Gamer F92 25000
     Televisor Smart Tv Fly Android 32P 500000
     Televisor Smart Tv Fly Android 43P 760000
@@ -540,9 +575,12 @@
     Vidrio 5D Apple Iphone 11 / Xr 900
     Vidrio 5D Apple Iphone 13 / 13Pro 900
     Vidrio 5D Huawei Honor X6S 900
+    Vidrio 5D Huawei Y6 2019 / Honor 8A 900
     Vidrio 5D Motorola Moto G04 / Moto G24 900
     Vidrio 5D Redmi Note 12 900
     Vidrio 5D Samsung A12 900
+    Vidrio 5D Tecno Spark Go 2023 / Pop 7 900
+    Vidrio 5D Tecno Spark Go 2024 / Spark 20 900
     Vidrio 5D Xiaomi Mi 11T 900
     Vidrio 5D Xiaomi Redmi 13C 900
     Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 900
@@ -557,28 +595,9 @@
     Vidrio Camara Xiaomi Note 13 Pro Plus 2000
     Vidrio Camara Xiaomi Redmi 13 2000
     Vidrio Camara Xiaomi Redmi 13C 2000
+    Vidrio Ceramico Motorola E14 800
     Vidrio Tortuga Huawei Honor X6S 1100
     Vidrio Tortuga Samsung A12 1100
+    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 1100
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
-    Pacha Tecno-Infinix Pop 7 / Hot 30i 40000
-    Simcard Tigo 1000
-    Antena Tdt 1.5m 5000
-    Pacha Oppo Realme C53 / Note 50 45000
-    Recarga 4500 4245
-    Recarga 6500 6132
-    Parlante TG-294 Negro 25000
-    Cable Usb Ligthning Eco 1500
-    Pacha Huawei Y6 2019 / Honor 8a 33000
-    Memoria Usb Kingston 4Gb 6500
-    Cable Poder trebol 2500
-    Parlante TG-294 Rojo 25000
-    Vidrio 5D Huawei Y6 2019 / Honor 8a 900
-    Vidrio 5D Tecno Spark Go 2023 / Pop 7 900
-    Recarga 8500 8018
-    Recarga 7500 7075
-    Hydrogel Hd 4000
-    Pacha Oppo Realme C55 50000
-    Vidrio 5d Tecno Spark Go 2024 / Spark 20 900
-    Pacha Motorola Moto E5 Play 45000
-    Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 1100

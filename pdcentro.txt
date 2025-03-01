@@ -1,8 +1,11 @@
 Yoyos Caracas - TYD - Ovidio - Fly
 
 
+
+    Antena Tdt 1.5M
     Audifonos Bluetooth Xiaomi E7S Negro 1
     Cable Apple Usb Ligthning 2M 2
+    Cable Samsugn Tc A Tc
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
@@ -16,18 +19,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Motorola Moto G23 Verde 1
     Forro Armadura Oppo A15 Negro 1
     Forro Armadura Oppo A57 Rojo 1
-    Forro Armadura Pova 5 Negro 1
-    Forro Armadura Pova 5 Azul 1
-    Forro Armadura Redmi Note 10 5G Negro 1
     Forro Armadura Oppo Reno 11F Negro 2
+    Forro Armadura Pova 5 Azul 1
+    Forro Armadura Pova 5 Negro 1
+    Forro Armadura Redmi Note 10 5G Negro 1
+    Forro Armadura Samsung A13 Negro 1
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
-    Forro Armadura Samsung A13 Negro 1
-    Forro Armadura Teno Spark Go 2024 Negro 1
     Forro Armadura Tecno Camon Negro 1
     Forro Armadura Tecno Spark Go 2022 Rojo 1
     Forro Armadura Tecno Spark Go 2024 Morado 1
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 2
+    Forro Armadura Teno Spark Go 2024 Negro 1
     Forro Armadura Xiamoi Redmi Note 12 Negro 1 
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
@@ -84,16 +87,30 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1 
+    Silieone Case Motorola Moto G04 Azulrey 1
     Smart Watch Gw-20 Verdemilitar 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Samsung A06 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
     Vidrio 5D Tecno Spark 30C 5
+    Vidrio Blindado Samsung A12 
     Vidrio Ceramico Oppo A79 5
     Vidrio Smart Watch Redondos Grandes 5
-    Cable Samsugn TC a TC
-    Antena Tdt 1.5m
-    Silieone Case Motorola Moto G04 Azulrey 1
-    Vidrio Blindado Samsung A12 
-
+    Forro Armadura Motorola Moto G24 Negro 1
+    Forro Diseños Motorola Moto One Caballero 2
+    Silicone Case Apple iPhone 12 Negro 1
+    Silicone Case Apple iPhone Xr Rosa
+    Silicone Case Huawei Y9 Prime Morado 1
+    Silicone Case Huawei Y9 Prime Fucsia 1
+    Silicone Case Samsung A21s Azulcielo 1
+    Silicone Case Tecno Camon 18p Azulrey 1
+    Silicone Case Xiaomi Redmi 9c / 10a Morado 1
+    Smartphone Infinix Smart 9 128/6 1
+    Smartphone Motorola Moto E14 32/2 1
+    Vidrio Ceramico Moto E14 5
+    Vidrio Templado Xiaomi Redmi Note 13 4g 10
+    Vidrio 5d Samsung A12 10
+    Vidrio 5d Huawei Y9 Prime 5
+    Vidiro Tortuga Huawei Y9 Prime 5
+    Vidrio Blindado Huawei Y9 Prime 5
