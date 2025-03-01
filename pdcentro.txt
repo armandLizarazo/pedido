@@ -100,17 +100,20 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Motorola Moto G24 Negro 1
     Forro Diseños Motorola Moto One Caballero 2
     Silicone Case Apple iPhone 12 Negro 1
-    Silicone Case Apple iPhone Xr Rosa
+    Silicone Case Apple iPhone Xr Rosa 1 ok
     Silicone Case Huawei Y9 Prime Morado 1
     Silicone Case Huawei Y9 Prime Fucsia 1
-    Silicone Case Samsung A21s Azulcielo 1
-    Silicone Case Tecno Camon 18p Azulrey 1
-    Silicone Case Xiaomi Redmi 9c / 10a Morado 1
+    Silicone Case Samsung A21s Azulcielo 1 ok
+    Silicone Case Tecno Camon 18p Azulrey 1 
+    Silicone Case Xiaomi Redmi 9c / 10a Morado 1 ok
     Smartphone Infinix Smart 9 128/6 1
     Smartphone Motorola Moto E14 32/2 1
-    Vidrio Ceramico Moto E14 5
-    Vidrio Templado Xiaomi Redmi Note 13 4g 10
-    Vidrio 5d Samsung A12 10
-    Vidrio 5d Huawei Y9 Prime 5
+    Vidrio Ceramico Moto E14 5 ok
+    Vidrio Templado Xiaomi Redmi Note 13 4g 10 ok
+    Vidrio 5d Samsung A12 10 ok
+    Vidrio 5d Huawei Y9 Prime 5 ok
     Vidiro Tortuga Huawei Y9 Prime 5
-    Vidrio Blindado Huawei Y9 Prime 5
+    Vidrio Blindado Huawei Y9 Prime 4 ok
+    Cargador Yl Tc 3 ok
+    Cargador Yl V8 3 ok
+    Cargador Belkin V8 3 ok
