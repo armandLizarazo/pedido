@@ -37,7 +37,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Oppo A17 Caballero 3
     Forro Diseños Samsung A36 Caballero 5
     Forro Diseños Vivo V25E Caballero 3
-    Forro Diseños Samsung A13 Dama 4
+    Forro Diseños Samsung A13 Dama 4 ok
     Forro Diseños Vivo Y20S Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
@@ -51,7 +51,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
-    Parlante Tg-805 Negro 1
+    Parlante Radio Panel Solar 1 ok
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone Xr Azulrey 1
@@ -102,19 +102,20 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Tecno Camon 30s Pro
     Forro Diseños Tecno Camon 30s Pro Caballero 5
     Forro Diseños Tecno Camon 30s Pro Dama 5
-    Memoria Kingston Micro 8Gb 2
-    Memoria Kingston USB 8Gb 2
-    Parlante Mini 1
-    Silicone Case Motorola Moto E20 Negro 1
-    Silicone Case Motorola Moto G14 Rojo 1
-    Silicone Case Motorola Moto G60 Rosa 1
-    Silicone Case Oppo Realme C35 Rosa 1
-    Silicone Case Samsung A12 Negro 1
-    Silicone Case Samsung A14 Azuloscuro 1
-    Silicone Case Xiomi Redmi 12 Negro 1
-    Silicone Case Xiaomi Redmi 14c Lila 1
-    Vidrio Blindado Samsung A30 5
-    Vidrio Blindado Samsung A12 5
-    Vidrio Blindado Moto G20 5
+    Memoria Kingston Micro 8Gb 2 ok
+    Memoria Kingston USB 8Gb 2 ok
+    Parlante Mini 1 ok
+    Silicone Case Motorola Moto E20 Negro 1 ok
+    Silicone Case Motorola Moto G14 Rojo 1 
+    Silicone Case Motorola Moto G60 Rosa 1 ok
+    Silicone Case Oppo Realme C35 Rosa 1 ok
+    Silicone Case Samsung A12 Negro 1 ok
+    Silicone Case Samsung A14 Azuloscuro 1 ok
+    Silicone Case Xiomi Redmi 12 Negro 1 ok
+    Silicone Case Xiaomi Redmi 14c Lila 1 ok
+    Vidrio Blindado Samsung A30 5 ok
+    Vidrio Blindado Samsung A12 5 ok
+    Vidrio Blindado Moto G20 5 ok
     Vidrio Ceramico Xiaomi Redmi 14c 5
+    Vidrio 5d Xiaomi Redmi 14c 5 ok
 
