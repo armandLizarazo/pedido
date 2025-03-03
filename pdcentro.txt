@@ -95,10 +95,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch Redondos Grandes 5
     Forro Armadura Motorola Moto G24 Negro 1
     Forro Diseños Motorola Moto One Caballero 2
-    Silicone Case Tecno Camon 18p Azulrey 1 
-    Smartphone Infinix Smart 9 128/6 1
-    Smartphone Motorola Moto E14 32/2 1
-    Vidiro Tortuga Huawei Y9 Prime 5i
+    Silicone Case Tecno Camon 18p Azulrey 1 ok
+    Smartphone Infinix Smart 9 128/6 1 ok
+    Smartphone Motorola Moto E14 32/2 1 ok
+    Vidiro Tortuga Huawei Y9 Prime 5 ok
     Silicone Case Tecno Camon 30s Pro
     Forro Diseños Tecno Camon 30s Pro Caballero 5
     Forro Diseños Tecno Camon 30s Pro Dama 5
@@ -106,7 +106,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Memoria Kingston USB 8Gb 2 ok
     Parlante Mini 1 ok
     Silicone Case Motorola Moto E20 Negro 1 ok
-    Silicone Case Motorola Moto G14 Rojo 1 
+    Silicone Case Motorola Moto G14 Rojo 1 ok
     Silicone Case Motorola Moto G60 Rosa 1 ok
     Silicone Case Oppo Realme C35 Rosa 1 ok
     Silicone Case Samsung A12 Negro 1 ok
