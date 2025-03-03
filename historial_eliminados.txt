@@ -1542,3 +1542,38 @@ Línea  | Contenido
     9 | Pacha Huawei Y6 2019 / Honor 8a 1 ok
    10 | Pacha Oppo Realme C55 1 ok
    11 | Tapa P10 lite Dorado 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-03 06:38:32
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  102 | Silicone Case Apple iPhone 12 Negro 1 ok
+  103 | Silicone Case Apple iPhone Xr Rosa 1 ok
+  104 | Silicone Case Huawei Y9 Prime Morado 1 ok
+  105 | Silicone Case Huawei Y9 Prime Fucsia 1 ok
+  106 | Silicone Case Samsung A21s Azulcielo 1 ok
+  108 | Silicone Case Xiaomi Redmi 9c / 10a Morado 1 ok
+  111 | Vidrio Ceramico Moto E14 5 ok
+  112 | Vidrio Templado Xiaomi Redmi Note 13 4g 10 ok
+  113 | Vidrio 5d Samsung A12 10 ok
+  114 | Vidrio 5d Huawei Y9 Prime 5 ok
+  116 | Vidrio Blindado Huawei Y9 Prime 4 ok
+  117 | Cargador Yl Tc 3 ok
+  118 | Cargador Yl V8 3 ok
+  119 | Cargador Belkin V8 3 ok
+
+==================================================
+Fecha de proceso: 2025-03-03 06:38:32
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-03 06:38:32
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+

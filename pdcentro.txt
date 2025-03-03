@@ -1,9 +1,4 @@
 Yoyos Caracas - TYD - Ovidio - Fly
-
-
-
-    Antena Tdt 1.5M
-    Audifonos Bluetooth Xiaomi E7S Negro 1
     Cable Apple Usb Ligthning 2M 2
     Cable Samsugn Tc A Tc
     Cargador Belkin Ligthning 5 
@@ -42,6 +37,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Oppo A17 Caballero 3
     Forro Diseños Samsung A36 Caballero 5
     Forro Diseños Vivo V25E Caballero 3
+    Forro Diseños Samsung A13 Dama 4
     Forro Diseños Vivo Y20S Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
@@ -99,21 +95,26 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Smart Watch Redondos Grandes 5
     Forro Armadura Motorola Moto G24 Negro 1
     Forro Diseños Motorola Moto One Caballero 2
-    Silicone Case Apple iPhone 12 Negro 1 ok
-    Silicone Case Apple iPhone Xr Rosa 1 ok
-    Silicone Case Huawei Y9 Prime Morado 1 ok
-    Silicone Case Huawei Y9 Prime Fucsia 1 ok
-    Silicone Case Samsung A21s Azulcielo 1 ok
     Silicone Case Tecno Camon 18p Azulrey 1 
-    Silicone Case Xiaomi Redmi 9c / 10a Morado 1 ok
     Smartphone Infinix Smart 9 128/6 1
     Smartphone Motorola Moto E14 32/2 1
-    Vidrio Ceramico Moto E14 5 ok
-    Vidrio Templado Xiaomi Redmi Note 13 4g 10 ok
-    Vidrio 5d Samsung A12 10 ok
-    Vidrio 5d Huawei Y9 Prime 5 ok
-    Vidiro Tortuga Huawei Y9 Prime 5
-    Vidrio Blindado Huawei Y9 Prime 4 ok
-    Cargador Yl Tc 3 ok
-    Cargador Yl V8 3 ok
-    Cargador Belkin V8 3 ok
+    Vidiro Tortuga Huawei Y9 Prime 5i
+    Silicone Case Tecno Camon 30s Pro
+    Forro Diseños Tecno Camon 30s Pro Caballero 5
+    Forro Diseños Tecno Camon 30s Pro Dama 5
+    Memoria Kingston Micro 8Gb 2
+    Memoria Kingston USB 8Gb 2
+    Parlante Mini 1
+    Silicone Case Motorola Moto E20 Negro 1
+    Silicone Case Motorola Moto G14 Rojo 1
+    Silicone Case Motorola Moto G60 Rosa 1
+    Silicone Case Oppo Realme C35 Rosa 1
+    Silicone Case Samsung A12 Negro 1
+    Silicone Case Samsung A14 Azuloscuro 1
+    Silicone Case Xiomi Redmi 12 Negro 1
+    Silicone Case Xiaomi Redmi 14c Lila 1
+    Vidrio Blindado Samsung A30 5
+    Vidrio Blindado Samsung A12 5
+    Vidrio Blindado Moto G20 5
+    Vidrio Ceramico Xiaomi Redmi 14c 5
+
