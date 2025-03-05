@@ -22,10 +22,10 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Tecno Camon Negro 1
-    Forro Armadura Tecno Spark Go 2022 Rojo 1
-    Forro Armadura Tecno Spark Go 2024 Morado 1
-    Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 2
-    Forro Armadura Teno Spark Go 2024 Negro 1
+    Forro Armadura Tecno Spark Go 2022 azul 1 ok
+    Forro Armadura Tecno Spark Go 2024 vinotinto 1 ok
+    Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 2 ok
+    Forro Armadura Tecno Spark Go 2024 Negro 1 ok
     Forro Armadura Xiamoi Redmi Note 12 Negro 1 
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
@@ -43,8 +43,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
     Forro Space Motorola Moto G50 1 
     Forro Space Oppo A80 2
-    Forro Space Oppo Reno 12F 1
-    Forro Space Samsung A35 2
+    Forro Space Oppo Reno 12F 1 ok
+    Forro Space Samsung A35 2 ok
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo V38 2
@@ -59,8 +59,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Infinix Hot 40 Pro Morado 1
     Silicone Case Infinix Hot 50 Pro Plus 7
-    Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1
-    Silicone Case Motorola Moto Edge 50 Fusion Morado 1
+    Silicone Case Motorola Moto Edge 50 Fusion Fucsia 1 ok
+    Silicone Case Motorola Moto Edge 50 Fusion Morado 1 ok
     Silicone Case Motorola Moto G60S Amarillo 1
     Silicone Case Motorola Moto G8 Plus Negro 1
     Silicone Case Motorola Moto One Fusion Amarillo 1
@@ -81,7 +81,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1 
-    Silieone Case Motorola Moto G04 Azulrey 1
+    Silieone Case Motorola Moto G04 Azulrey 1 ok
     Smart Watch Gw-20 Verdemilitar 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Samsung A06 5
@@ -99,7 +99,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Ceramico Xiaomi Redmi 14c 5
     Silicone Case Huawei Honor X8 Negro 1
     Silicone Case Motorola Moto G20 Rojo 1
-    Silicone Case Tecno Spark 20 Pro Plus Rojo 1
+    Silicone Case Tecno Spark 20 Pro Plus Rojo 1 ok
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Oppo Reno 11f 5
