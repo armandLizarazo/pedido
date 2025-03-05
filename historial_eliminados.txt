@@ -1577,3 +1577,55 @@ Fecha de proceso: 2025-03-03 06:38:32
 Archivo procesado: pdst.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-03-05 07:02:45
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 21
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   40 | Forro Diseños Samsung A13 Dama 4 ok
+   54 | Parlante Radio Panel Solar 1 ok
+   98 | Silicone Case Tecno Camon 18p Azulrey 1 ok
+   99 | Smartphone Infinix Smart 9 128/6 1 ok
+  100 | Smartphone Motorola Moto E14 32/2 1 ok
+  101 | Vidiro Tortuga Huawei Y9 Prime 5 ok
+  105 | Memoria Kingston Micro 8Gb 2 ok
+  106 | Memoria Kingston USB 8Gb 2 ok
+  107 | Parlante Mini 1 ok
+  108 | Silicone Case Motorola Moto E20 Negro 1 ok
+  109 | Silicone Case Motorola Moto G14 Rojo 1 ok
+  110 | Silicone Case Motorola Moto G60 Rosa 1 ok
+  111 | Silicone Case Oppo Realme C35 Rosa 1 ok
+  112 | Silicone Case Samsung A12 Negro 1 ok
+  113 | Silicone Case Samsung A14 Azuloscuro 1 ok
+  114 | Silicone Case Xiomi Redmi 12 Negro 1 ok
+  115 | Silicone Case Xiaomi Redmi 14c Lila 1 ok
+  116 | Vidrio Blindado Samsung A30 5 ok
+  117 | Vidrio Blindado Samsung A12 5 ok
+  118 | Vidrio Blindado Moto G20 5 ok
+  120 | Vidrio 5d Xiaomi Redmi 14c 5 ok
+
+==================================================
+Fecha de proceso: 2025-03-05 07:02:45
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-05 07:02:45
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Pacha Apple iPhone 11 Gx 1 ok
+    8 | Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
+    9 | Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
+   11 | Pacha LG K51s 1 ok
+   12 | Pacha Motorola Moto G14 1 ok
+   13 | Pacha Samsung A30 / A50 c/m 1 ok
+   14 | Pacha Samsung A30 / A50 1 ok

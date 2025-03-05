@@ -1,0 +1,7 @@
+2025-03-04, Credito, Vidrio 5D Apple Iphone 11 / Xr, 1, 10000.0
+2025-03-04, Credito, Vidrio 5D Apple Iphone 11 / Xr, 1, 1.0
+2025-03-04, Credito, Adaptador Av2Hdmi, 1, 1.0
+1741146138, 2025-03-04, carol, Credito, Reproductor Tv Stick Magis, 1, 145000.0
+1741146428, 2025-03-04, Veronicavero, Credito,     Vidrio 5D Tecno Spark Go 2024 / Spark 20, 1, 10000.0
+1741146848, 2025-03-04, Veronicavero, Credito,     Vidrio 5D Tecno Spark Go 2024 / Spark 20, 2, 20000.0
+1741147579, 2025-03-04, Veronicavero, Credito,     Vidrio 5D Tecno Spark Go 2024 / Spark 20, 1, 10000.0
