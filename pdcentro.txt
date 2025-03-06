@@ -1,6 +1,6 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Cable Apple Usb Ligthning 2M 2
-    Cable Samsugn Tc A Tc
+    Cable Samsugn Tc A Tc 4 ok
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
@@ -47,6 +47,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Samsung A35 2 ok
     Forro Space Samsung A36 2
     Forro Space Tecno Camon 18P 2
+    Forro Space Tecno Spark 30c 2
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
@@ -103,3 +104,4 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Oppo Reno 11f 5
+    Hydrogel Diseños 5 ok
