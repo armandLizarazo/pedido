@@ -2,7 +2,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Cable Apple Usb Ligthning 2M 2
     Cargador Belkin Ligthning 5 
     Cargador Samsung 45W Cabeza Blanco 2
-    Cargador Samsung 45W Con Cable Blanco 2
+    Cargador Samsung 45W Con Cable Blanco 2 ok
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -88,8 +88,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Tecno Camon 30s Pro Caballero 5
     Forro Diseños Tecno Camon 30s Pro Dama 5
     Vidrio Ceramico Xiaomi Redmi 14c 5
-    Silicone Case Huawei Honor X8 Negro p
+    Silicone Case Huawei Honor X8 Negro 1
+    Silicone Case Huawei Honor X8 Fucsia 1
+    Silicone Case Huawei Honor X8 Morado 1
     Silicone Case Motorola Moto G20 Rojo 1
+    Silicone Case Xiaomi Redmi 9c Fucsia 1
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Oppo Reno 11f 5
@@ -100,3 +103,4 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Smartphone Tecno Spark 30c 1
     Smartphone Xiaomi Redmi 14c 1
     Smartphone Zte Eco 1
+    Parlante Ktf-1645 Solar 1 ok
