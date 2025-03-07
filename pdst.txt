@@ -5,6 +5,7 @@
     Pacha Oppo Reno 6 Lite 1
     Pacha Xiaomi Redmi Note 10 Pro 1
     Pacha Samsung A05 1
-    Pacha Xiaomi Redmi 13c 1
-    Pacha Note Xiaomi Redmi Note 10 / Note 10s 1
+    Pacha Samsung A10s 1
+    Pacha Xiaomi Redmi 13c 1 ok
+    Pacha Note Xiaomi Redmi Note 10 / Note 10s 1 ok
 
