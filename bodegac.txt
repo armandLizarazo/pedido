@@ -12,6 +12,7 @@
     Adaptador Hub 7 Puertos 2.0 0
     Adaptador Hub 7 Puertos 3.0 0
     Adaptador Mdpp2Hdmi Cable 0
+    Adaptador Multitoma 6 Enchufes 1
     Adaptador Plug 3.5 A Media Mono 0
     Adaptador Plug 3.5 A Media St 0
     Adaptador Spliter Hdmi 1 A 2 1
@@ -19,7 +20,7 @@
     Adaptador Tc2Vga 0
     Adaptador Usb2Vga Cable 0
     Adaptador Vga2Av 0
-    Adaptador Vga2Hdmi 2
+    Adaptador Vga2Hdmi 4
     Aguja Extractor Sim 0
     Antena Tdt 1.5M 0
     Antena Tdt 3M Con Usb 0
@@ -41,8 +42,11 @@
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 1
+    Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 1
     Bateria Xiaomi Redmi Note 10 / Note 10S 0
+    Bisel Motorola Moto One 1
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
+    Cable Auxiliar 2 A 1 1
     Cable Belkin Tc 2M 1
     Cable Belkin Tc 5
     Cable Belkin V8 3
@@ -55,7 +59,7 @@
     Cable Hdmi 1.5M Eco 0
     Cable Motorola Tc A Tc 2
     Cable Poder Cuadrado 3
-    Cable Poder Trebol 0
+    Cable Poder Trebol 3
     Cable Royal Tc 0
     Cable Royal Tc 2M 2
     Cable Tc Cordon Eco 0
@@ -73,16 +77,16 @@
     Cargador Apple 20W Tc Cabeza 0
     Cargador Apple 20W Tc Ligthning 1
     Cargador Apple 25W Tc Cabeza 0
-    Cargador Apple 25W Tc Ligthning 2
+    Cargador Apple 25W Tc Ligthning 1
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
-    Cargador Apple 5V Eco 2
+    Cargador Apple 5V Eco 3
     Cargador Apple 60W 2Tc 2
     Cargador Apple 60W 2Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 2
-    Cargador Belkin V8 5
+    Cargador Belkin Tc 3
+    Cargador Belkin V8 3
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -101,6 +105,7 @@
     Cargador Pc Hp Punta Azul 1
     Cargador Pc Lenovo Mini 3.25 0
     Cargador Pc Lenovo Yoga 0
+    Cargador Pluyin Eco 0
     Cargador Pluying 7A 3P 35W 0
     Cargador Pluying Harvic 3P 15W 0
     Cargador Pluying P7Modulador 12-24V 20W 0
@@ -116,6 +121,7 @@
     Cargador Samsung 25W V8 0
     Cargador Samsung 45W Cabeza Blanco 0
     Cargador Samsung 45W Cabeza Negro 3
+    Cargador Samsung 45W Con Cable Blanco 1
     Cargador Samsung 45W Con Cable Negro 2
     Cargador Samsung S10+ Tc 2
     Cargador Tc A Tc 80W 2P 1
@@ -125,13 +131,14 @@
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
-    Cargador Yl Tc 3
+    Cargador Yl Tc 2
     Cargador Yl V8 4
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
     Control Gamer Gatillos H-9.0 1
     Control Gamer Gatillos W11+ 0
     Control Gamer Microsoft Pc/360 Cable 0
+    Control Gamer Sony Ps2 Inalambrico 1
     Control Gamer X3 2
     Control Keyboard Tv 1
     Control Tv Smart Tv 2
@@ -139,6 +146,7 @@
     Dispensador Agua Botellon 3
     Forro Aramdura Motorola Moto G24 / G04 Ab Negro 0
     Forro Armadura Apple Iphone 11 Rojo 0
+    Forro Armadura Motorola Moto G24 Negro 1
     Forro Armadura Oppo Reno 11F Negro 2
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 0
     Forro Cargador Apple Con Estuche Azul 1
@@ -179,6 +187,8 @@
     Forro Pin Apple Iphone 11 0
     Forro Pin Motorola Moto G04 0
     Forro Pin Motorola Moto G24 / G04 0
+    Forro Pin Samsung A13 1
+    Forro Pin Tecno Spark Go 2024 / 20C 1
     Forro Space Apple Iphone 11 1
     Forro Space Apple Iphone 13 Mini 1
     Forro Space Apple Iphone 14 Pro Max 1
@@ -226,7 +236,7 @@
     Forro Space Samsung A20S 1
     Forro Space Samsung A25 1
     Forro Space Samsung A31 1
-    Forro Space Samsung A35 0
+    Forro Space Samsung A35 1
     Forro Space Samsung A54 2
     Forro Space Samsung A55 2
     Forro Space Samsung S21 Fe Ab 1
@@ -254,7 +264,7 @@
     Forro Space Xiaomi Redmi Note 11 2
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
-    Forro Space Xiaomi Redmi Note 12S 1
+    Forro Space Xiaomi Redmi Note 12S 3
     Forro Space Xiaomi Redmi Note 13 4G 2
     Forro Ukg Apple Iphone 11 Rojo 0
     Gramera Sencilla 1
@@ -262,6 +272,7 @@
     Hydrogel Antiespia 0
     Hydrogel Hd 10
     Hydrogel Matte 40
+    Llavero Figura 20
     Llavero Goku 0
     Manos Libres Batri B10 Azulcielo 0
     Manos Libres Batri B10 Blanco 0
@@ -273,20 +284,28 @@
     Memoria Usb Kingston 4Gb 0
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
+    Pacha Apple Iphone 11 Gx 1
     Pacha Huawei Y6 2019 / Honor 8A 0
     Pacha Motorola Moto E5 Play 0
+    Pacha Motorola Moto One 1
+    Pacha Nokia 5.3 1
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 2
+    Pacha Samsung A13 / M33 1
+    Pacha Samsung J5 Prime Negro 1
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
+    Pacha Vivo Y51 / Y53S 2
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 3
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 8 2
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-915 0
+    Parlante Mini 1
     Parlante Pc Eco Ysd-1024 1
     Parlante Teatro Tg Tg-200 0
     Parlante Teatro Tg-200 1
@@ -299,6 +318,7 @@
     Pin De Carga Celular 20
     Pin De Carga Parlante 20
     Pin De Carga V8 20
+    Pisa Papel 3
     Power Bank Aibimy 10000 Mah 120W 0
     Power Bank Aibimy 30000 Mah 1
     Power Bank Panel Solar 12000 Mah 1
@@ -306,6 +326,7 @@
     Radios Baofeng 1
     Recarga 12000 100
     Recarga 18500 80
+    Recarga 37000 100
     Recarga 4500 100
     Recarga 5000 100
     Recarga 6500 100
@@ -350,6 +371,7 @@
     Silicone Case Huawei Nova 9Se Negro 1
     Silicone Case Huawei Nova Y70 Amarillo 1
     Silicone Case Huawei Nova Y70 Lila 1
+    Silicone Case Huawei Y7A Amarillo 1
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 0
     Silicone Case Huawei Y9 2019 / Y8S Negro 0
     Silicone Case Huawei Y9 2019 / Y8S Rojo 0
@@ -435,9 +457,10 @@
     Silicone Case Samsung A12 / M12 Morado 1
     Silicone Case Samsung A12 Verde 1
     Silicone Case Samsung A14 Lila 1
-    Silicone Case Samsung A14 Rojo 1
+    Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Negro 3
     Silicone Case Samsung A15 Rojo 3
+    Silicone Case Samsung A21S Azulcielo 1
     Silicone Case Samsung A21S Fucsia 1
     Silicone Case Samsung A21S Negro 1
     Silicone Case Samsung A22 4G Negro 1
@@ -447,7 +470,7 @@
     Silicone Case Samsung A32 5G Verdemilitar 1
     Silicone Case Samsung A35 Fucsia 1
     Silicone Case Samsung A50 / A30S Lila 1
-    Silicone Case Samsung A53 Lila  1
+    Silicone Case Samsung A53 Lila 1
     Silicone Case Samsung A53 Negro 1
     Silicone Case Samsung A54 Amarillo 1
     Silicone Case Samsung A54 Lila 1
@@ -462,6 +485,7 @@
     Silicone Case Samsung S23 Plus Rojo 2
     Silicone Case Samsung S23 Plus Rosa 1
     Silicone Case Tecno Camon 18P Amarillo 1
+    Silicone Case Tecno Camon 18P Azulrey 1
     Silicone Case Tecno Camon 18P Negro 1
     Silicone Case Tecno Camon 18P Rosa 1
     Silicone Case Tecno Camon 19 Pro Amarillo 1
@@ -530,6 +554,7 @@
     Silicone Case Xiaomi Redmi 9A Negro 1
     Silicone Case Xiaomi Redmi 9A Verdebiche 1
     Silicone Case Xiaomi Redmi 9C / 10A Lila 1
+    Silicone Case Xiaomi Redmi 9C / 10A Morado 1
     Silicone Case Xiaomi Redmi 9C / 10A Negro 1
     Silicone Case Xiaomi Redmi 9C / 10A Rojo 1
     Silicone Case Xiaomi Redmi 9C / 10A Verde 1
@@ -561,7 +586,11 @@
     Simcard Claro 0
     Simcard Tigo 0
     Slicone Case Xiaomi Redmi 13C Fucsia 1
-    Smartphone Tecno Spark Go 1S Gris 0
+    Smartphone Infinix Smart 9 128/6 Gris 0
+    Smartphone Motorola Moto G04S 64/6 Azulrey 0
+    Smartphone Tecno Spark Go 1S 64/6 Gris 0
+    Smartphone Xiaomi Redmi 14C 128/8 Negro 0
+    Smartphone Zte Blade A34 64/6 Verde 0
     Soporte Fijo Tv 32-55 Pulgadas 1
     Soporte Nephoo Tripode Camara-Celular 0
     Soporte Techo Tv 26-55 Pulgadas 0
@@ -577,6 +606,7 @@
     Vidrio 5D Apple Iphone 13 / 13Pro 8
     Vidrio 5D Huawei Honor X6S 2
     Vidrio 5D Huawei Y6 2019 / Honor 8A 0
+    Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Motorola Moto G04 / Moto G24 0
     Vidrio 5D Redmi Note 12 0
     Vidrio 5D Samsung A12 10
@@ -590,45 +620,33 @@
     Vidrio Antiespia Huawei Honor X6S 2
     Vidrio Antiespia Xiaomi Redmi 13C 0
     Vidrio Blindado Motorola Moto E20 0
+    Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 5
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 3
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 5
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 5
+    Vidrio Blindado Xiaomi Redmi Note 13 5G 5
+    Vidrio Camara  Xiaomi Redmi Note 13 5G 5
     Vidrio Camara Xiaomi Note 13 Pro Plus 0
     Vidrio Camara Xiaomi Redmi 13 0
     Vidrio Camara Xiaomi Redmi 13C 0
     Vidrio Ceramico Motorola E14 0
+    Vidrio Perlas Apple Iphone 11 5
     Vidrio Tortuga Huawei Honor X6S 2
+    Vidrio Tortuga Huawei Y9 Prime 2
+    Vidrio Tortuga Motorola Moto G04 / Moto G24 5
     Vidrio Tortuga Samsung A12 3
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
-    Recarga 37000 100
-    Bandeja Sim Xiaomi Redmi 9a / 9c / 10a Azul 1
-    Bisel Motorola Moto One 1
-    Cable Auxiliar 2 a 1 1
-    Control Gamer Sony Ps2 Inalambrico 1
-    Forro Armadura Motorola Moto G24 Negro 1
-    Forro Pin Samsung A13 1
-    Forro Pin Tecno Spark Go 2024 / 20c 1
-    Llavero Figura 20
-    Adaptador Multitoma 6 Enchufes 1
-    Pacha Apple iPhone 11 Gx 1
-    Pacha Motorola Moto One 1
-    Pacha Nokia 5.3 1
-    Pacha Samsung A13 / M33 1
-    Pacha Samsung J5 Prime Negro 1
-    Pacha Vivo Y51 / Y53s 2
-    Pacha Xiaomi Redmi Note 11 / Note 12s 3
-    Parlante Mini 1
-    Pisa Papel 2
-    Silicone Case Huawei Y7a Amarillo 1
-    Silicone Case Samsung A21s Azulcielo 1
-    Silicone Case Tecno Camon 18p Azulrey 1
-    Silicone Case Xiaomi Redmi 9c / 10a Morado 1
-    Smartphone Infinix Smart 9 1
-    Vidrio Blindado Tecno Spark Go 2024 / 20 / 20c / Pop8 5
-    Vidrio Blindado Xiaomi Redmi Note 13 5g 5
-    Vidrio Camara  Xiaomi Redmi Note 13 5g 5
-    Vidrio Perlas Apple iphone 11 5
-    Vidrio Tortuga Huawei Y9 Prime 2
-    Vidrio Tortuga Motorola Moto G04 / Moto G24 5
+    Lampara Esfera Saturno 1
+    Cable Dpp2dpp 1
+    Space Color Xiaomi Redmi 10 Lila 1
+    Space Color Xiaomi Redmi 10 Rosa 1
+    Forro Space Xiaomi Redmi 10 1
+    Silicone Case Oppo Realme C21y / C25y Rosa 1
+    Silicone Case Xiaomi Redmi Note 12s Negro 1
+    Silicone Case Xiaomi Redmi 13 Negro 1
+    Silicone Case Motorola Moto G51 Morado 1
+    Forro Space Tecno Spark 20 Pro Plus 2
+    Silicone Case Vivo Y03 / Y18 Fucsia 1
+    Cable Poder Grabadora 3

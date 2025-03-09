@@ -1669,3 +1669,48 @@ Línea  | Contenido
    10 | Visor Tecno-Infinix Hot 50i 1 ok
    12 | Pacha Samsung A21s 1 ok
    13 | Pacha Samsung A30 / A50 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-07 17:58:38
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-07 17:58:38
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-07 17:58:38
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-08 09:22:50
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  100 | Smartphone Xiaomi Redmi 14c 1 ok
+  101 | Smartphone Zte Eco 1 ok
+  102 | Smartphone Tecno Spark Go 1s 1 ok
+  108 | Cargador Samsung 45w Con Cable Blanco 2 ok
+  109 | Pisa Papel 1 ok
+  110 | Vidrio 5d Huawei Y9 Prime 3 ok
+
+==================================================
+Fecha de proceso: 2025-03-08 09:22:50
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-08 09:22:50
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+

@@ -12,6 +12,7 @@
     Adaptador Hub 7 Puertos 2.0 10000
     Adaptador Hub 7 Puertos 3.0 13000
     Adaptador Mdpp2Hdmi Cable 15000
+    Adaptador Multitoma 6 Enchufes 12000
     Adaptador Plug 3.5 A Media Mono 2500
     Adaptador Plug 3.5 A Media St 2500
     Adaptador Spliter Hdmi 1 A 2 20000
@@ -41,8 +42,11 @@
     Balaca Naisu S-437 Negro 38000
     Balaca Naisu S-437 Rojo 38000
     Balaca Naisu S-437 Verde 38000
+    Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 6000
     Bateria Xiaomi Redmi Note 10 / Note 10S 22000
+    Bisel Motorola Moto One 13000
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 13000
+    Cable Auxiliar 2 A 1 2500
     Cable Belkin Tc 2500
     Cable Belkin Tc 2M 3500
     Cable Belkin V8 2500
@@ -101,6 +105,7 @@
     Cargador Pc Hp Punta Azul 26000
     Cargador Pc Lenovo Mini 3.25 28000
     Cargador Pc Lenovo Yoga 28000
+    Cargador Pluyin Eco 2500
     Cargador Pluying 7A 3P 35W 8000
     Cargador Pluying Harvic 3P 15W 9000
     Cargador Pluying P7Modulador 12-24V 20W 7000
@@ -116,6 +121,7 @@
     Cargador Samsung 25W V8 10000
     Cargador Samsung 45W Cabeza Blanco 13000
     Cargador Samsung 45W Cabeza Negro 13000
+    Cargador Samsung 45W Con Cable Blanco 15000
     Cargador Samsung 45W Con Cable Negro 15000
     Cargador Samsung S10+ Tc 7500
     Cargador Tc A Tc 80W 2P 20000
@@ -132,6 +138,7 @@
     Control Gamer Gatillos H-9.0 40000
     Control Gamer Gatillos W11+ 5000
     Control Gamer Microsoft Pc/360 Cable 33000
+    Control Gamer Sony Ps2 Inalambrico 29000
     Control Gamer X3 22000
     Control Keyboard Tv 15000
     Control Tv Smart Tv 7000
@@ -139,6 +146,7 @@
     Dispensador Agua Botellon 10000
     Forro Aramdura Motorola Moto G24 / G04 Ab Negro 6000
     Forro Armadura Apple Iphone 11 Rojo 6000
+    Forro Armadura Motorola Moto G24 Negro 6000
     Forro Armadura Oppo Reno 11F Negro 6000
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 6000
     Forro Cargador Apple Con Estuche Azul 11000
@@ -179,6 +187,8 @@
     Forro Pin Apple Iphone 11 9000
     Forro Pin Motorola Moto G04 6000
     Forro Pin Motorola Moto G24 / G04 6000
+    Forro Pin Samsung A13 6000
+    Forro Pin Tecno Spark Go 2024 / 20C 6000
     Forro Space Apple Iphone 11 4000
     Forro Space Apple Iphone 13 Mini 6000
     Forro Space Apple Iphone 14 Pro Max 4000
@@ -262,30 +272,40 @@
     Hydrogel Antiespia 15000
     Hydrogel Hd 4000
     Hydrogel Matte 4000
+    Llavero Figura 5000
     Llavero Goku 4500
     Manos Libres Batri B10 Azulcielo 7500
     Manos Libres Batri B10 Blanco 7500
     Manos Libres Batri B10 Lila 7500
+    Manos Libres Batri B10 Negro 7500
     Manos Libres Batri B10 Rosa 7500
     Manos Libres Samsung Akg 3300
     Manos Libres Samsung J5 Negro 2200
     Memoria Usb Kingston 4Gb 6500
     Mouse Eco Fc-143 4000
     Mouse Gamer Eco A78 5000
+    Pacha Apple Iphone 11 Gx 55000
     Pacha Huawei Y6 2019 / Honor 8A 33000
     Pacha Motorola Moto E5 Play 45000
+    Pacha Motorola Moto One 45000
+    Pacha Nokia 5.3 45000
     Pacha Oppo Realme C53 / Note 50 45000
     Pacha Oppo Realme C55 50000
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 45000
+    Pacha Samsung A13 / M33 40000
+    Pacha Samsung J5 Prime Negro 38000
     Pacha Tecno-Infinix Pop 7 / Hot 30I 40000
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 38000
+    Pacha Vivo Y51 / Y53S 42000
     Pacha Xiaomi Redmi 12C 38000
     Pacha Xiaomi Redmi Note 10 / Note 10S 40000
+    Pacha Xiaomi Redmi Note 11 / Note 12S 48000
     Pacha Xiaomi Redmi Note 12 55000
     Pacha Xiaomi Redmi Note 8 38000
     Parlante Lazzer Lz-2890 250000
     Parlante Lazzer Lz-2894 340000
     Parlante Lazzer Lz-915 420000
+    Parlante Mini 12000
     Parlante Pc Eco Ysd-1024 12000
     Parlante Teatro Tg Tg-200 235000
     Parlante Teatro Tg-200 235000
@@ -298,6 +318,7 @@
     Pin De Carga Celular 0
     Pin De Carga Parlante 0
     Pin De Carga V8 0
+    Pisa Papel 15000
     Power Bank Aibimy 10000 Mah 120W 35000
     Power Bank Aibimy 30000 Mah 52000
     Power Bank Panel Solar 12000 Mah 40000
@@ -305,6 +326,7 @@
     Radios Baofeng 18000
     Recarga 12000 11320
     Recarga 18500 17452
+    Recarga 37000 34905
     Recarga 4500 4245
     Recarga 5000 4716
     Recarga 6500 6132
@@ -349,6 +371,7 @@
     Silicone Case Huawei Nova 9Se Negro 7000
     Silicone Case Huawei Nova Y70 Amarillo 7000
     Silicone Case Huawei Nova Y70 Lila 7000
+    Silicone Case Huawei Y7A Amarillo 7000
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 7000
     Silicone Case Huawei Y9 2019 / Y8S Negro 7000
     Silicone Case Huawei Y9 2019 / Y8S Rojo 7000
@@ -437,6 +460,7 @@
     Silicone Case Samsung A14 Rojo 7000
     Silicone Case Samsung A15 Negro 7000
     Silicone Case Samsung A15 Rojo 7000
+    Silicone Case Samsung A21S Azulcielo 7000
     Silicone Case Samsung A21S Fucsia 7000
     Silicone Case Samsung A21S Negro 7000
     Silicone Case Samsung A22 4G Negro 7000
@@ -446,7 +470,7 @@
     Silicone Case Samsung A32 5G Verdemilitar 7000
     Silicone Case Samsung A35 Fucsia 7000
     Silicone Case Samsung A50 / A30S Lila 7000
-    Silicone Case Samsung A53 Lila  7000
+    Silicone Case Samsung A53 Lila 7000
     Silicone Case Samsung A53 Negro 7000
     Silicone Case Samsung A54 Amarillo 7000
     Silicone Case Samsung A54 Lila 7000
@@ -461,6 +485,7 @@
     Silicone Case Samsung S23 Plus Rojo 7000
     Silicone Case Samsung S23 Plus Rosa 7000
     Silicone Case Tecno Camon 18P Amarillo 7000
+    Silicone Case Tecno Camon 18P Azulrey 7000
     Silicone Case Tecno Camon 18P Negro 7000
     Silicone Case Tecno Camon 18P Rosa 7000
     Silicone Case Tecno Camon 19 Pro Amarillo 7000
@@ -529,6 +554,7 @@
     Silicone Case Xiaomi Redmi 9A Negro 7000
     Silicone Case Xiaomi Redmi 9A Verdebiche 7000
     Silicone Case Xiaomi Redmi 9C / 10A Lila 7000
+    Silicone Case Xiaomi Redmi 9C / 10A Morado 7000
     Silicone Case Xiaomi Redmi 9C / 10A Negro 7000
     Silicone Case Xiaomi Redmi 9C / 10A Rojo 7000
     Silicone Case Xiaomi Redmi 9C / 10A Verde 7000
@@ -560,7 +586,11 @@
     Simcard Claro 0
     Simcard Tigo 1000
     Slicone Case Xiaomi Redmi 13C Fucsia 7000
-    Smartphone Tecno Spark Go 1S Gris 290000
+    Smartphone Infinix Smart 9 128/6 Gris 345000
+    Smartphone Motorola Moto G04S 64/6 Azulrey 278000
+    Smartphone Tecno Spark Go 1S 64/6 Gris 281000
+    Smartphone Xiaomi Redmi 14C 128/8 Negro 355000
+    Smartphone Zte Blade A34 64/6 Verde 222000
     Soporte Fijo Tv 32-55 Pulgadas 16000
     Soporte Nephoo Tripode Camara-Celular 25200
     Soporte Techo Tv 26-55 Pulgadas 40000
@@ -576,6 +606,7 @@
     Vidrio 5D Apple Iphone 13 / 13Pro 900
     Vidrio 5D Huawei Honor X6S 900
     Vidrio 5D Huawei Y6 2019 / Honor 8A 900
+    Vidrio 5D Huawei Y9 Prime 900
     Vidrio 5D Motorola Moto G04 / Moto G24 900
     Vidrio 5D Redmi Note 12 900
     Vidrio 5D Samsung A12 900
@@ -589,15 +620,22 @@
     Vidrio Antiespia Huawei Honor X6S 18000
     Vidrio Antiespia Xiaomi Redmi 13C 1800
     Vidrio Blindado Motorola Moto E20 1800
+    Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 1600
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 1800
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 1800
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 1800
+    Vidrio Blindado Xiaomi Redmi Note 13 5G 1600
+    Vidrio Camara  Xiaomi Redmi Note 13 5G 1000
     Vidrio Camara Xiaomi Note 13 Pro Plus 2000
     Vidrio Camara Xiaomi Redmi 13 2000
     Vidrio Camara Xiaomi Redmi 13C 2000
     Vidrio Ceramico Motorola E14 800
+    Vidrio Perlas Apple Iphone 11 5000
     Vidrio Tortuga Huawei Honor X6S 1100
+    Vidrio Tortuga Huawei Y9 Prime 1100
+    Vidrio Tortuga Motorola Moto G04 / Moto G24 1100
     Vidrio Tortuga Samsung A12 1100
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 1100
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
+    Cable Dpp2dpp 12000
