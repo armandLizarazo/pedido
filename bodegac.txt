@@ -66,7 +66,7 @@
     Cable Tc Eco 0
     Cable Tc Eco Cordon 0
     Cable Usb Ligthning Eco 0
-    Cable V8 Eco 15
+    Cable V8 Eco 0
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 0
     Cable Yoyos Tc 3M 1
@@ -123,10 +123,10 @@
     Cargador Samsung 45W Cabeza Negro 3
     Cargador Samsung 45W Con Cable Blanco 1
     Cargador Samsung 45W Con Cable Negro 2
-    Cargador Samsung S10+ Tc 2
+    Cargador Samsung S10+ Tc 0
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 0
-    Cargador Vidvie V8 2P 2.4A 1
+    Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
@@ -261,10 +261,10 @@
     Forro Space Xiaomi Redmi A3 2
     Forro Space Xiaomi Redmi Note 10 5G 2
     Forro Space Xiaomi Redmi Note 10 Pro 1
-    Forro Space Xiaomi Redmi Note 11 2
+    Forro Space Xiaomi Redmi Note 11 1
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
-    Forro Space Xiaomi Redmi Note 12S 3
+    Forro Space Xiaomi Redmi Note 12S 2
     Forro Space Xiaomi Redmi Note 13 4G 2
     Forro Ukg Apple Iphone 11 Rojo 0
     Gramera Sencilla 1
@@ -279,8 +279,8 @@
     Manos Libres Batri B10 Lila 0
     Manos Libres Batri B10 Negro 0
     Manos Libres Batri B10 Rosa 0
-    Manos Libres Samsung Akg 5
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung Akg 10
+    Manos Libres Samsung J5 Negro 5
     Memoria Usb Kingston 4Gb 0
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
@@ -292,14 +292,14 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 2
-    Pacha Samsung A13 / M33 1
+    Pacha Samsung A13 / M33 0
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Vivo Y51 / Y53S 2
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
-    Pacha Xiaomi Redmi Note 11 / Note 12S 3
+    Pacha Xiaomi Redmi Note 11 / Note 12S 0
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 8 2
     Parlante Lazzer Lz-2890 0
@@ -434,7 +434,7 @@
     Silicone Case Oppo A17 Morado 1
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A17 Rojo 1
-    Silicone Case Oppo A38 Negro 1
+    Silicone Case Oppo A38 Negro 2
     Silicone Case Oppo A38 Rojo 1
     Silicone Case Oppo A57 / A77 Negro 1
     Silicone Case Oppo A59 Rojo 1
@@ -638,7 +638,7 @@
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
-    Lampara Esfera Saturno 1
+    Lampara Esfera Saturno 0
     Cable Dpp2dpp 1
     Space Color Xiaomi Redmi 10 Lila 1
     Space Color Xiaomi Redmi 10 Rosa 1
@@ -650,3 +650,19 @@
     Forro Space Tecno Spark 20 Pro Plus 2
     Silicone Case Vivo Y03 / Y18 Fucsia 1
     Cable Poder Grabadora 3
+    Silicone Case Oppo A74 4G Lila 1
+    Silicone Case Huawei Honor 90 5g Azulrey 0
+    Silicone Case Huawei Honor 90 5g Azulclaro 0
+    Silicone Case Huawei Honor 90 5g Vinotinto 0
+    Silicone Case Huawei Honor 90 5g Azuloscuro 0
+    Silicone Case Huawei Honor 90 5g Rojo 0
+    Vidrio 5D Samsung A30s 0
+    Manos Libres TC blanco 2
+    Bateria Samsung A10s 0
+    Pacha Samsung A05 0
+    Tapa Samsung A32 5g Negro 0
+    Pacha Motorola Moto G8 Power Lite 0
+    Pacha Samsugn A21s 0
+    Pacha Huawei Honor X6s 0
+    Pacha Samsung A30s s/m 0
+    Pacha Xiaomi Redmi 13c 0

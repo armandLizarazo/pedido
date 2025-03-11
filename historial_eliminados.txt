@@ -1714,3 +1714,46 @@ Fecha de proceso: 2025-03-08 09:22:50
 Archivo procesado: pdst.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-03-11 06:13:56
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   97 | Silicone Case Oppo A74 4G Lila 1 ok
+  100 | Silicone Case Huawei Honor 90 5g Lila 1 ok
+  101 | Silicone Case Huawei Honor 90 5g Azulclaro 1 ok
+  102 | Silicone Case Huawei Honor 90 5g Vinotinto 1 ok
+  103 | Silicone Case Huawei Honor 90 5g Azuloscuro 1 ok
+  104 | Silicone Case Huawei Honor 90 5g Morado 1 ok
+  110 | Manos Libres Samsung Akg 5 ok
+  111 | Manos Libres Samsung J5 Negro 5 ok
+  113 | Silicone Case Oppo A38 Negro 1 ok
+  114 | Vidrio 5D Samsung A30s 5 ok
+  118 | Manos Libres TC blanco 2 ok
+
+==================================================
+Fecha de proceso: 2025-03-11 06:13:56
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-11 06:13:56
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Bateria Samsung A10s 1 ok
+    8 | Pacha Samsung A05 1 ok
+   10 | Tapa Samsung A32 5g Negro 1 ok
+   11 | Pacha Motorola Moto G8 Power Lite 1 ok
+   12 | Pacha Samsugn A21s 1 ok
+   14 | Pacha Huawei Honor X6s 1 ok
+   15 | Pacha Samsung A30s s/m 1 ok
+   16 | Pacha Xiaomi Redmi 13c 1 ok

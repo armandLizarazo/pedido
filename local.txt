@@ -66,7 +66,7 @@
     Cable Tc Eco 1
     Cable Tc Eco Cordon 5
     Cable Usb Ligthning Eco 4
-    Cable V8 Eco 9
+    Cable V8 Eco 14
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 1
     Cable Yoyos Tc 3M 1
@@ -123,10 +123,10 @@
     Cargador Samsung 45W Cabeza Negro 1
     Cargador Samsung 45W Con Cable Blanco 2
     Cargador Samsung 45W Con Cable Negro 2
-    Cargador Samsung S10+ Tc 1
+    Cargador Samsung S10+ Tc 3
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 1
-    Cargador Vidvie V8 2P 2.4A 0
+    Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
@@ -261,10 +261,10 @@
     Forro Space Xiaomi Redmi A3 0
     Forro Space Xiaomi Redmi Note 10 5G 0
     Forro Space Xiaomi Redmi Note 10 Pro 0
-    Forro Space Xiaomi Redmi Note 11 0
+    Forro Space Xiaomi Redmi Note 11 1
     Forro Space Xiaomi Redmi Note 12 0
     Forro Space Xiaomi Redmi Note 12 Pro 0
-    Forro Space Xiaomi Redmi Note 12S 0
+    Forro Space Xiaomi Redmi Note 12S 1
     Forro Space Xiaomi Redmi Note 13 4G 0
     Forro Ukg Apple Iphone 11 Rojo 1
     Gramera Sencilla 1
@@ -292,14 +292,14 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 1
-    Pacha Samsung A13 / M33 2
+    Pacha Samsung A13 / M33 3
     Pacha Samsung J5 Prime Negro 0
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 1
     Pacha Vivo Y51 / Y53S 2
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
-    Pacha Xiaomi Redmi Note 11 / Note 12S 2
+    Pacha Xiaomi Redmi Note 11 / Note 12S 5
     Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 8 1
     Parlante Lazzer Lz-2890 1
@@ -639,3 +639,18 @@
     Vidrio Tortuga Xiaomi Redmi 13C 0
     Vidrio Tortuga Xiaomi Redmi Note 11 0
     Cable Dpp2dpp 2
+    Lampara Esfera Saturno 1
+    Silicone Case Huawei Honor 90 5g Azulrey 1
+    Silicone Case Huawei Honor 90 5g Azulclaro 1
+    Silicone Case Huawei Honor 90 5g Vinotinto 1
+    Silicone Case Huawei Honor 90 5g Azuloscuro 1
+    Silicone Case Huawei Honor 90 5g Rojo 1
+    Pacha Samsung A05 1
+    Pacha Huawei Honor X6s 1
+    Pacha Samsung A30s s/m 1
+    Pacha Xiaomi Redmi 13c 1
+    Pacha Samsugn A21s 1
+    Pacha Motorola Moto G8 Power Lite 1
+    Bateria Samsung A10s 1
+    Tapa Samsung A32 5g Negro 1
+    Vidrio 5D Samsung A30s 5

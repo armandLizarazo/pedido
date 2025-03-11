@@ -639,3 +639,18 @@
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
     Cable Dpp2dpp 12000
+    Lampara Esfera Saturno 15000
+    Silicone Case Huawei Honor 90 5g Azulrey 7000
+    Silicone Case Huawei Honor 90 5g Azulclaro 7000
+    Silicone Case Huawei Honor 90 5g Vinotinto 7000
+    Silicone Case Huawei Honor 90 5g Rojo 7000
+    Silicone Case Huawei Honor 90 5g Azuloscuro 7000
+    Pacha Samsung A05 37000
+    Pacha Huawei Honor X6s 40000
+    Pacha Samsung A30s s/m 38000
+    Pacha Xiaomi Redmi 13c 43000
+    Pacha Samsung A21s 36000
+    Pacha Motorola Moto G8 Power Lite 36000
+    Bateria Samsung A10s 18000
+    Tapa Samsung A32 5g Negro 10000
+    Vidrio 5D Samsung A30s 7000
