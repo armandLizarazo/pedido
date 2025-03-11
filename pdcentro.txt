@@ -148,3 +148,4 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Termo Fly Indicador Temperatura Azul 1 ok
     Termo Fly Indicador Temperatura Rojo 1 ok
     Escencia Aceite 10 ok
+    Celular Nokia 105 4G 1 ok
