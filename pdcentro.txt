@@ -124,7 +124,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Samsung A13 Morado 1 ok
     Silicone Case Samsung A13 Verdebiche 1
     Silicone Case Xiaomi Redmi Note 13 4g Morado 1 ok
-    Smartphone Xiaomi Redmi 14c 1
+    Smartphone Xiaomi Redmi 14c 1 ok
     Vidrio 5d Samsung A05 5 ok
     Vidrio Tortuga Samsung A05 5 ok
     Vidrio Blindado Samsung A05 5 ok
@@ -133,4 +133,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Audifonos Bluetooth Y80 1 Ok
     Caragdor We Tc 2 ok
     Cable Tc Eco 5 ok
-
+    Llaveros Figura 3 ok
+    Llaveros Agua 3 ok
+    Ventilador Carro F-410 1 ok
+    Ventilador Carro X-666 1 ok
+    Aceitera EL-093 2 ok
+    Termo Pocillos Metalico Negro 1 ok
+    Ventilador Manual 2 ok
+    Mini Calefactor con Control 1 ok
+    Ventilador Get Mini-20 1 ok
+    Pepas Hydrogel 6 ok
+    Ventilador Fan-20 Astronauta 1 ok
+    Ventilador Fan-60 Humidificador Blanco 1 ok
+    Termo Fly Indicador Temperatura Azul 1 ok
+    Termo Fly Indicador Temperatura Rojo 1 ok
+    Escencia Aceite 10 ok
