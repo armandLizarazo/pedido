@@ -1,4 +1,5 @@
 
+    Cable Hdmi 1.5m Eco 3 ok
     Control Gamer Ps2 Inalambrico 1
     Aro De Luz Joma 26Cm Ligth X2
     Audifonos Bluetooth Ambie Pantalla 1
@@ -6,6 +7,8 @@
     Audifonos Bluetooth Apple I12 Azuloscuro 5
     Audifonos Bluetooth Apple I12 Negro 3
     Audifonos Bluetooth Apple I12 Rosa 3
+    Cable Poder Grabadora 3 ok
+    Cable Poder Trebol 3 on
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -19,7 +22,7 @@
     Parlante Tg-294 Verdemilitar 1
     Reproductor Onn Hd 1
     Reproductor Proyector Con Juegos 1
-    Reproductor Tdt Krono 2
+    Reproductor Tdt Krono 3 ok
     Smart Band 7 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
@@ -27,5 +30,3 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
-    Gramera Joyeria 1
-
