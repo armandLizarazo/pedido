@@ -1,7 +1,7 @@
 Yoyos Caracas - TYD - Ovidio - Fly
     Cable Apple Usb Ligthning 2M 2
-    Cargador Belkin Ligthning 5 
-    Cargador Samsung 45W Cabeza Blanco 2
+    Cargador Belkin Ligthning 5
+    Cable Tc a Tc eco 3 ok
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -43,6 +43,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
+    Llaveros Pegar 9 ok
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone Xr Azulrey 1
@@ -117,15 +118,19 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Diseños Oppo Realme C63 Dama 5
     Forro Diseños Oppo Realme C63 Caballero 5
     Forro Space Oppo Realme C63 2
-    Forro Space Samsung A05 1
+    Forro Space Samsung A05 1 ok
     Silicone Case Samsung A22 4g Morado 1
-    Silicone Case Samsung A30s Fucsia 1
-    Silicone Case Samsung A13 Morado 1
+    Silicone Case Samsung A30s Fucsia 1 ok
+    Silicone Case Samsung A13 Morado 1 ok
     Silicone Case Samsung A13 Verdebiche 1
-    Silicone Case Xiaomi Redmi Note 13 4g Morado 1
+    Silicone Case Xiaomi Redmi Note 13 4g Morado 1 ok
     Smartphone Xiaomi Redmi 14c 1
-    Vidrio 5d Samsung A05 5
-    Vidrio Tortuga Samsung A05 5
-    Vidrio Blindado Samsung A05 5
+    Vidrio 5d Samsung A05 5 ok
+    Vidrio Tortuga Samsung A05 5 ok
+    Vidrio Blindado Samsung A05 5 ok
     Vidrio Antiespia Samsung A05 5
+    Manos Libres Samsung Akg 3 ok
+    Audifonos Bluetooth Y80 1 Ok
+    Caragdor We Tc 2 ok
+    Cable Tc Eco 5 ok
 
