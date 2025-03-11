@@ -4,12 +4,17 @@
     Flex De Power Huawei P9 Lite 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Samsung A10s 1 
-    Pacha Apple iPhone 7 Plus Negro 1
-    Bateria iPhone 7 Plus 1
+    Pacha Samsung A10s 1 ok
+    Pacha Apple iPhone 7 Plus Negro 1 ok
+    Bateria Apple iPhone 7 Plus 1 ok
+    Bateria Sunshine iphone 7 1 ok
     Pacha Apple iPhone 8 Negro 1
-    Pacha Apple iPhone 8 Blanco 1
-    Pacha Moto G60s 1
-    Pacha Tecno Spark Go 2023 1
-    Pacha Xiaomi Redmi Note 11 1
+    Pacha Apple iPhone 8 Blanco 1 ok
+    Pacha Moto Moto G60s 1 ok
+    Pacha Tecno Spark Go 2023 1 ok
+    Pacha Xiaomi Redmi Note 11 1 ok
+    Boton Huella Xiaomi Poco X3 1 ok
+    Flex de Power Xiaomi Poco X3 Negro 1 ok
+    Flex Power Samsung A02 1 ok
+    Bandeja Sim Vivo Y38 1 ok
 
