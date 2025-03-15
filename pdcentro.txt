@@ -29,18 +29,18 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
     Forro Cristal Apple Iphone 11 Promax 1
-    Forro Diseños Infinix Hot 30 Pro 5
-    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
-    Forro Diseños Infinix Hot 50 Pro Plus Dama 5
-    Forro Diseños Motorola Moto One Caballero 2
-    Forro Diseños Oppo A17 Caballero 3
-    Forro Diseños Oppo Realme C63 Caballero 5
-    Forro Diseños Oppo Realme C63 Dama 5
-    Forro Diseños Samsung A36 Caballero 5
-    Forro Diseños Tecno Camon 30S Pro Caballero 5
-    Forro Diseños Tecno Camon 30S Pro Dama 5
-    Forro Diseños Vivo V25E Caballero 3
-    Forro Diseños Vivo Y20S Caballero 3
+    Forro DiseÃ±os Infinix Hot 30 Pro 5
+    Forro DiseÃ±os Infinix Hot 50 Pro Plus Caballero 5
+    Forro DiseÃ±os Infinix Hot 50 Pro Plus Dama 5
+    Forro DiseÃ±os Motorola Moto One Caballero 2
+    Forro DiseÃ±os Oppo A17 Caballero 3
+    Forro DiseÃ±os Oppo Realme C63 Caballero 5
+    Forro DiseÃ±os Oppo Realme C63 Dama 5
+    Forro DiseÃ±os Samsung A36 Caballero 5
+    Forro DiseÃ±os Tecno Camon 30S Pro Caballero 5
+    Forro DiseÃ±os Tecno Camon 30S Pro Dama 5
+    Forro DiseÃ±os Vivo V25E Caballero 3
+    Forro DiseÃ±os Vivo Y20S Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
@@ -52,7 +52,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Forro Space Tecno Spark 30C 2
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Pequeã±Os 2
+    Garantia Aro De Luz PequeÃ£Â±Os 2
     Silicone Case Apple Iphone 11 Pro 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone Xr Azulrey 1
@@ -65,8 +65,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Infinix Hot 40 Pro Morado 1
     Silicone Case Infinix Hot 50 Pro Plus 7
-    Silicone Case Motorola Moto G20 Rojo 1
-    Silicone Case Motorola Moto G60S Amarillo 1
+    Silicone Case Motorola Moto G20 Rojo 1 ok
+    Silicone Case Motorola Moto G60S Amarillo 1 ok
     Silicone Case Motorola Moto G8 Plus Negro 1
     Silicone Case Motorola Moto One Fusion Amarillo 1
     Silicone Case Motorola Moto One Fusion Rojo 1
@@ -95,7 +95,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Tecno Camon 30S Pro
-    Silicone Case Tecno Spark 10 Pro Fucsia 1
+    Silicone Case Tecno Spark 10 Pro Fucsia 1 ok
     Silicone Case Tecno Spark 10 Pro Lila 1
     Silicone Case Vivo Y15S Palo Rosa 1
     Silicone Case Xiaomi Redmi 8A Amarillo 1
@@ -103,11 +103,11 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8A Fucsia 1
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
-    Silicone Case Xiaomi Redmi 9C Fucsia 1
+    Silicone Case Xiaomi Redmi 9C Fucsia 1 
     Silicone Case Xiaomi Redmi Note 10 / 10S Lila 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 2
+    Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Smart Watch Gw-20 Verdemilitar 1
+    Smart Watch Gw-20 Verdemilitar 1 ok
     Smartphone Tecno Spark 30C 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Oppo Reno 11F 5
@@ -125,81 +125,91 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Fullpega Huawei Honor 90 5G 5
     Vidrio Smart Watch Redondos Grandes 5
     Vidrio Tortuga Samsung A30S 5
-    Silicone Case Xiaomi Poco X6 Pro Negro 1
+    Silicone Case Xiaomi Poco X6 Pro Negro 1 
     Silicone Case Apple iPhone Xr Negro 1
     Silicone Case Apple iPhone 11 pro Max Negro 1
     Silicone Case Samsung A53 Negro 1
-    Silicone Case Tecno Spark Go 2023 Negro 1
-    Silicone Case Tecno Spark Go 2025 / Go 1 Negro 1
+    Silicone Case Tecno Spark Go 2023 Negro 1 ok
+    Silicone Case Tecno Spark Go 2025 / Go 1 Negro 1 ok
     Silicone Case Oppo A15 Rojo 1
-    Silicone Case Oppo A16 Rojo 1
+    Silicone Case Oppo A16 Rojo 1 ok
     Silicone Case Samsung A04s Rojo 1
     Silicone Case Tecno Spark Go 2024 Rojo 1
     Silicone Case Tecno Spark Go 2025 / Go Rojo 1
-    Silicone Case Xiaomi Redmi Note 13 Pro Plus Fucsia 1
-    Silicone Case Xiaomi Redmi 14c Fucsia 1
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Fucsia 1 ok
+    Silicone Case Xiaomi Redmi 14c Fucsia 1 ok
     Silicone Case Xiaomi Poco X3 Fucsia 1
     Silicone Case Oppo A16 Fucsia 1
     Silicone Case Oppo A59 Fucsia 1
-    Silicone Case Oppo A58 Fucsia 1
-    Silicone Case Samsung A04s Fucsia 1
-    Silicone Case Samsung A13 Fucsia 1
-    Silicone Case Samsung A53 Fucsia 1
+    Silicone Case Oppo A58 Fucsia 1 ok
+    Silicone Case Samsung A04s Fucsia 1 ok
+    Silicone Case Samsung A13 Fucsia 1 
+    Silicone Case Samsung A53 Fucsia 1 ok
     Silicone Case Tecno Spark Go 2023 Fucsia 1
     Silicone Case Tecno Spark Go 2025 Fucsia 1
-    Silicone Case Oppo A 80 Rosa 1
-    Silicone Case Oppo A59 Rosa 1
-    Silicone Case Samsung A53 Rosa 1
-    Silicone Case Tecno Spark Go 2023 Rosa 1
-    Silicone Case Tecno Spark 30c Rosa 1
+    Silicone Case Oppo A80 Rosa 1
+    Silicone Case Oppo A59 Rosa 1 ok
+    Silicone Case Samsung A53 Rosa 1 ok
+    Silicone Case Tecno Spark Go 2023 Rosa 1 ok
+    Silicone Case Tecno Spark 30c Rosa 1 ok
     Silicone Case Xiaomi Redmi note 12 4g Lila 1
     Silicone Case Xiaomi Redmin Note 13 4g Lila 1
     Silicone Case Xiaomi Poco X3 Lila 1
     Silicone Case Apple iPhone 15 pro Lila 1
     Silicone Case Oppo A15 Lila 1
-    Silicone Case Oppo A16 Lila 1
-    Silicone Case Oppo A80 Lila 1
-    Silicone Case oppo A59 Lila 1
-    Silicone Case Samsung A04s Lila 1
-    Silicone Case Samsung A13 Lila 1
+    Silicone Case Oppo A16 Lila 1 ok
+    Silicone Case Oppo A80 Lila 1 ok
+    Silicone Case oppo A59 Lila 1 ok
+    Silicone Case Samsung A04s Lila 1 ok
+    Silicone Case Samsung A13 Lila 1 ok
     Silicone Case Tecno Spark 30c Lila 1
     Silicone Case Xiaomi Redmi Note 12 4g Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4g Morado 1
-    Silicone Case Xioami Note 13 Pro 5g Morado 1
+    Silicone Case Xioami Note 13 Pro 5g Morado 1 ok
     Silicone Case Oppo A38 Morado 1
-    Silicone Case Tecno Spark Go 2023 Morado 1
+    Silicone Case Tecno Spark Go 2023 Morado 1 ok
     Silicone Case Tecno Spark 30s Morado 1
     Silicone Case Xiaomi Redmi 14c Azulrey 1
     Silicone Case Apple Xr Azulrey 1
     Silicone Case Oppo A59 Azulrey 1
     Silicone Case Samsung A53 Azulrey 1
     Silicone Case Tecno Spark Go 2024 Azulrey 1
-    Silicone Case Tecno Spark 30c Azulrey 1
+    Silicone Case Tecno Spark 30c Azulrey 1 ok
     Silicone Case Tecno Spark Go 2025 / Go1s Amarillo 1
     Silicone Case Oppo A36 1
-    Silicone Case Oppo A40 1
-    Silicone Case oppo A60 1
+    Silicone Case Oppo A40 Rosa 1 ok
+    Silicone Case Oppo A40 Lila 1 ok
+    Silicone Case Oppo A40 Amarillo ok
+    Silicone Case Oppo A40 Fucsia 1 ok
+    Silicone Case Oppo A40 Negro 1 ok
+    Silicone Case Oppo A40 Rojo 1 ok
+    Silicone Case oppo A60 Azulrey 1 ok
+    Silicone Case Oppo A60 Negro 1 ok
+    Silicone Case Oppo A60 Amarillo 1 ok
+    Silicone Case Oppo A60 Rosa 1 ok
+    Silicone Case Oppo A60 Morado 1 ok
     Cargador Belkin Tc 5
     Silicone Case Motorola Moto G04 Negro 1
     Silicone Case Motorola Moto G24 Amarillo 1
     Silicone Case Oppo A59 Lila 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Silicone Case Xiaomi Redmi 9a Morado 1
-    Silicone Case Xiaomi Redmi 10 Negro 1
+    Silicone Case Xiaomi Redmi 10 Negro 1 ok
     Silicone Case Xiaomi Redmi 10 Lila 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Rosa 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Morado 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Azulrey 1
-    Silicone Case Xiaomi Redmi A3 Fucsia 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Rosa 1 ok
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Morado 1 ok
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Azulrey 1 ok
+    Silicone Case Xiaomi Redmi A3 Fucsia 1 ok
     Silicone Case Samsung A03 Lila 1
     Silicone Case Samsung A03 Amarillo 1
     Silicone Case Samsung A25 Negro 1
-    Silicone Case Samsung A25 Rojo 1
+    Silicone Case Samsung A25 Rojo 1 ok
     Silicone Case Samsung A25 Amarillo 1
-    Silicone Case Samsung A25 Lila 1
-    Silicone Case Samsung A25 Rosa 1
-    Silicone Case Samsung A25 Fucsia 1
-    Silicone Case Samsung A25 Azulrey 1
+    Silicone Case Samsung A25 Lila 1 ok
+    Silicone Case Samsung A25 Rosa 1 ok
+    Silicone Case Samsung A25 Fucsia 1 ok
+    Silicone Case Samsung A25 Azulrey 1 ok
+    Silicone Case Samsung A25 Morado 1 ok
     Silicone Case Apple iPhone 13 Rojo 1
     Silicone Case Motorola Moto G72 Lila 1
     Silicone Case Samsung A32 5G Fucsia 1
@@ -207,33 +217,33 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Vivo Y53 Negro 1
     Silicone Case Vivo Y53 Fucsia 1
     Silicone Case Vivo Y53 Azulrey 1
-    Silicone Case Huawei Honor X6 / X6s Morado 1
-    Silicone Case Huawei Honor X7a Morado 1
-    Silicone Case Huawei Honor X7 Fucsia 1
-    Silicone Case Huawei Honor X7 Rosa 1
-    Silicone Case Huawei Honor X7 Amarillo 1
-    Silicone Case Huawei Honor X8b rosa 1
-    Silicone Case Huawei Honor X8b Morado 1
+    Silicone Case Huawei Honor X6 / X6s Morado 1 ok
+    Silicone Case Huawei Honor X7a Morado 1 ok
+    Silicone Case Huawei Honor X7 Fucsia 1 ok
+    Silicone Case Huawei Honor X7 Rosa 1 ok
+    Silicone Case Huawei Honor X7 Amarillo 1 ok
+    Silicone Case Huawei Honor X8b rosa 1 ok
+    Silicone Case Huawei Honor X8b Morado 1 ok
     Vidrio Fullpega Motorola Moto G85 3
-    Cargador Yl Tc 5
-    Cargador Yl V8 5
-    Cargador Belkin V8 5
-    Forro Dise�os A04e Dama 5
-    Forro Dise�os Samsung A04e Caballero 5
-    Forro Space iPhone 13 Pro Max 1
+    Cargador Yl Tc 5 ok
+    Cargador Yl V8 5 ok
+    Cargador Belkin V8 5 ok
+    Forro Diseños A04e Dama 3 ok
+    Forro Diseños Samsung A04e Caballero 5
+    Forro Space iPhone 13 Pro Max 1 ok
     Forro Space Motorola Moto G04 1
-    Forro Space Vivo Y31 / Y51 / Y53s 1
-    Forro Space Xiaomi Redmi Note 13 pro 4G 1
-    Manos Libres Samsung J5 Negro 5
-    Manos Libres Samsung Tipo Original Blanco 5
-    Manos Libres Samsung Tipo Original Negro 5
+    Forro Space Vivo Y31 / Y51 / Y53s 1 ok
+    Forro Space Xiaomi Redmi Note 13 pro 4G 1 ok
+    Manos Libres Samsung J5 Negro 5 ok
+    Manos Libres Samsung Tipo Original Blanco 5 ok
+    Manos Libres Samsung Tipo Original Negro 5 ok
     Smartphone Zte Blade A34 64/6 Verde 1
-    Vidrio Templado Apple iPhone 14 pro Max 5
-    Vidrio Ceramico Apple iPhone 14 Pro Max 5
-    Vidrio Tortuga Apple iPhone 14 Pro Max 5
-    Vidrio Blindado Apple iP4hone 14 Pro Max 5
-    Vidrio Antiespia Apple iPhone 14 Pro Max 5
-    Vidrio 5d Xiaomi Redmi 12 5
-    Vidrio Antiespia Apple iPhone 13 Pro Max 5
-    Vidrio blindado Apple iPhone 13 Pro Max 5
+    Vidrio Templado Apple iPhone 14 pro Max 5 ok
+    Vidrio Ceramico Apple iPhone 14 Pro Max 5 ok
+    Vidrio Tortuga Apple iPhone 14 Pro Max 5 ok
+    Vidrio Blindado Apple iP4hone 14 Pro Max 5 ok
+    Vidrio Antiespia Apple iPhone 14 Pro Max 5 ok
+    Vidrio 5d Xiaomi Redmi 12 5 ok
+    Vidrio Antiespia Apple iPhone 13 Pro Max 5 ok
+    Vidrio blindado Apple iPhone 13 Pro Max 5 ok
     Vidrio 5d Xiaomi Redmi 14 5
