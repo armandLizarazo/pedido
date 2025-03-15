@@ -1757,3 +1757,78 @@ Línea  | Contenido
    14 | Pacha Huawei Honor X6s 1 ok
    15 | Pacha Samsung A30s s/m 1 ok
    16 | Pacha Xiaomi Redmi 13c 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-11 21:44:47
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 29
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Cable Tc a Tc eco 3 ok
+   46 | Llaveros Pegar 9 ok
+  121 | Forro Space Samsung A05 1 ok
+  123 | Silicone Case Samsung A30s Fucsia 1 ok
+  124 | Silicone Case Samsung A13 Morado 1 ok
+  126 | Silicone Case Xiaomi Redmi Note 13 4g Morado 1 ok
+  127 | Smartphone Xiaomi Redmi 14c 1 ok
+  128 | Vidrio 5d Samsung A05 5 ok
+  129 | Vidrio Tortuga Samsung A05 5 ok
+  130 | Vidrio Blindado Samsung A05 5 ok
+  132 | Manos Libres Samsung Akg 3 ok
+  134 | Caragdor We Tc 2 ok
+  135 | Cable Tc Eco 5 ok
+  136 | Llaveros Figura 3 ok
+  137 | Llaveros Agua 3 ok
+  138 | Ventilador Carro F-410 1 ok
+  139 | Ventilador Carro X-666 1 ok
+  140 | Aceitera EL-093 2 ok
+  141 | Termo Pocillos Metalico Negro 1 ok
+  142 | Ventilador Manual 2 ok
+  143 | Mini Calefactor con Control 1 ok
+  144 | Ventilador Get Mini-20 1 ok
+  145 | Pepas Hydrogel 6 ok
+  146 | Ventilador Fan-20 Astronauta 1 ok
+  147 | Ventilador Fan-60 Humidificador Blanco 1 ok
+  148 | Termo Fly Indicador Temperatura Azul 1 ok
+  149 | Termo Fly Indicador Temperatura Rojo 1 ok
+  150 | Escencia Aceite 10 ok
+  151 | Celular Nokia 105 4G 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-11 21:44:47
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Cable Hdmi 1.5m Eco 3 ok
+   10 | Cable Poder Grabadora 3 ok
+   25 | Reproductor Tdt HD-939 3 ok
+   33 | Gramera Joyeria 2 ok
+   34 | Pilas Carbon Maxday Eco 30 ok
+   35 | Soporte Holder Bicileta Manubrio M-3 2 ok
+   36 | Plancha Remington Aguacate 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-11 21:44:47
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Pacha Samsung A10s 1 ok
+    8 | Pacha Apple iPhone 7 Plus Negro 1 ok
+    9 | Bateria Apple iPhone 7 Plus 1 ok
+   10 | Bateria Sunshine iphone 7 1 ok
+   12 | Pacha Apple iPhone 8 Blanco 1 ok
+   13 | Pacha Moto Moto G60s 1 ok
+   14 | Pacha Tecno Spark Go 2023 1 ok
+   15 | Pacha Xiaomi Redmi Note 11 1 ok
+   16 | Boton Huella Xiaomi Poco X3 1 ok
+   17 | Flex de Power Xiaomi Poco X3 Negro 1 ok
+   18 | Flex Power Samsung A02 1 ok
+   19 | Bandeja Sim Vivo Y38 1 ok

@@ -22,15 +22,17 @@ def similarity_percentage(s1, s2):
     """Calcula el porcentaje de similitud entre dos cadenas"""
     distance = levenshtein_distance(s1.lower(), s2.lower())
     max_length = max(len(s1), len(s2))
+    if max_length == 0:
+        return 100  # Si ambas cadenas están vacías, son 100% similares
     return ((max_length - distance) / max_length) * 100
 
 def find_similar_matches(file1_path, file2_path, similarity_threshold=80):
     try:
-        # Leer los archivos
-        with open(file1_path, 'r', encoding='utf-8') as f1:
+        # Leer los archivos con manejo de errores de decodificación
+        with open(file1_path, 'r', encoding='utf-8', errors='replace') as f1:
             lines1 = [line.strip() for line in f1 if line.strip()]
         
-        with open(file2_path, 'r', encoding='utf-8') as f2:
+        with open(file2_path, 'r', encoding='utf-8', errors='replace') as f2:
             lines2 = [line.strip() for line in f2 if line.strip()]
         
         # Encontrar coincidencias similares
@@ -53,7 +55,7 @@ def find_similar_matches(file1_path, file2_path, similarity_threshold=80):
             print("\nNo se encontraron coincidencias similares entre los archivos.")
             
     except FileNotFoundError as e:
-        print(f"\nError: No se pudo encontrar el archivo: {str(e).split(']')[1]}")
+        print(f"\nError: No se pudo encontrar el archivo: {e.filename}")
     except Exception as e:
         print(f"\nError inesperado: {e}")
 

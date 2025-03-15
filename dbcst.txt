@@ -1,3 +1,4 @@
+    Aceitera El-093 9000
     Adaptador Av2Hdmi 15000
     Adaptador Av2Vga 14000
     Adaptador Dpp2Hdmi Cable 12000
@@ -43,9 +44,12 @@
     Balaca Naisu S-437 Rojo 38000
     Balaca Naisu S-437 Verde 38000
     Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 6000
+    Bateria Apple Iphone 7 Plus 22000
+    Bateria Samsung A10S 18000
     Bateria Xiaomi Redmi Note 10 / Note 10S 22000
     Bisel Motorola Moto One 13000
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 13000
+    Boton Huella Xiaomi Poco X3 20000
     Cable Auxiliar 2 A 1 2500
     Cable Belkin Tc 2500
     Cable Belkin Tc 2M 3500
@@ -54,14 +58,19 @@
     Cable Caterpillar Usb Ligthning 4500
     Cable Caterpillar V8 4000
     Cable Dp2Dp 1.8M 14000
+    Cable Dpp2Dpp 12000
     Cable Harvic Tc 3800
     Cable Harvic V8 3800
     Cable Hdmi 1.5M Eco 2000
     Cable Motorola Tc A Tc 3500
     Cable Poder Cuadrado 3000
+    Cable Poder Grabadora 2500
     Cable Poder Trebol 2500
     Cable Royal Tc 2M 6000
     Cable Royal Tc 4500
+    Cable Siliconado Zonymax Tc 4000
+    Cable Siliconado Zonymax V 4000
+    Cable Tc A Tc Eco 2500
     Cable Tc Cordon Eco 1800
     Cable Tc Eco 1500
     Cable Tc Eco Cordon 1800
@@ -74,6 +83,7 @@
     Camara Web 720P 8000
     Capturador Hdmi Tc-Usb 28000
     Capturador Hdmi Usb 22000
+    Caragdor We Tc 0
     Cargador Apple 20W Tc Cabeza 9000
     Cargador Apple 20W Tc Ligthning 16500
     Cargador Apple 25W Tc Cabeza 9000
@@ -115,7 +125,7 @@
     Cargador Pluying X8 Modulador 12-24V 3.1A 9000
     Cargador Pluying X8 Modulador 3.1A 8000
     Cargador Realme Tc 65W 26000
-    Cargador Samsugn 45W Con Cable Blanco 16000
+    Cargador Samsung 45W Con Cable Blanco 16000
     Cargador Samsung 25W Cabeza Blanco 10000
     Cargador Samsung 25W Cabeza Negro 13000
     Cargador Samsung 25W V8 10000
@@ -128,11 +138,13 @@
     Cargador Vidvie V8 18W 12000
     Cargador Vidvie V8 2P 2.4A 16000
     Cargador W Tc 5000
+    Cargador We Tc 5A 36W 8000
     Cargador Xiaomi 120W 26000
     Cargador Xiaomi Tc A Tc 67W 24000
     Cargador Xiaomi Usb Tc 67W 28000
     Cargador Yl Tc 5000
     Cargador Yl V8 4500
+    Celular Nokia 105 4G 120000
     Consola Game Sitck 48000
     Control Gamer Gatillos G21 15000
     Control Gamer Gatillos H-9.0 40000
@@ -144,6 +156,9 @@
     Control Tv Smart Tv 7000
     Control Tv Tv Box 7000
     Dispensador Agua Botellon 10000
+    Escencia Aceite 3000
+    Flex De Power Samsung A02 6000
+    Flex De Power Xiaomi Poco X3 Negro 6000
     Forro Aramdura Motorola Moto G24 / G04 Ab Negro 6000
     Forro Armadura Apple Iphone 11 Rojo 6000
     Forro Armadura Motorola Moto G24 Negro 6000
@@ -228,6 +243,7 @@
     Forro Space Oppo Reno 7 4000
     Forro Space Samsung A03 4000
     Forro Space Samsung A03S / A02S 4000
+    Forro Space Samsung A05 4000
     Forro Space Samsung A05S 4000
     Forro Space Samsung A13 4000
     Forro Space Samsung A13 5G 4000
@@ -243,6 +259,7 @@
     Forro Space Samsung S23 Fe 4000
     Forro Space Tecno Pova 5 4000
     Forro Space Tecno Spark 10 / 10C 4000
+    Forro Space Tecno Spark 20 Pro Plus 4000
     Forro Space Tecno Spark Go 2022 / 8C 4000
     Forro Space Tecno Spark Go 2023 4000
     Forro Space Vivo V25E / S16 5G 4000
@@ -253,6 +270,7 @@
     Forro Space Xiaomi Mi 12T 4000
     Forro Space Xiaomi Note 10 / Note 10S 4000
     Forro Space Xiaomi Poco X3 4000
+    Forro Space Xiaomi Redmi 10 4000
     Forro Space Xiaomi Redmi 10C 4000
     Forro Space Xiaomi Redmi 12 4000
     Forro Space Xiaomi Redmi 9 4000
@@ -267,13 +285,18 @@
     Forro Space Xiaomi Redmi Note 12S 4000
     Forro Space Xiaomi Redmi Note 13 4G 4000
     Forro Ukg Apple Iphone 11 Rojo 9000
+    Gramera Joyeria 12000
     Gramera Sencilla 9000
     Guantes Gamer 2000
     Hydrogel Antiespia 15000
     Hydrogel Hd 4000
     Hydrogel Matte 4000
+    Lampara Esfera Saturno 15000
     Llavero Figura 5000
     Llavero Goku 4500
+    Llaveros Agua 4600
+    Llaveros Figura 5000
+    Llaveros Pegar 2500
     Manos Libres Batri B10 Azulcielo 7500
     Manos Libres Batri B10 Blanco 7500
     Manos Libres Batri B10 Lila 7500
@@ -281,23 +304,36 @@
     Manos Libres Batri B10 Rosa 7500
     Manos Libres Samsung Akg 3300
     Manos Libres Samsung J5 Negro 2200
+    Manos Libres Tc Blanco 4500
     Memoria Usb Kingston 4Gb 6500
+    Mini Calefactor Con Control 24000
     Mouse Eco Fc-143 4000
     Mouse Gamer Eco A78 5000
     Pacha Apple Iphone 11 Gx 55000
+    Pacha Apple Iphone 7 Plus Negro 35000
+    Pacha Apple Iphone 8 Blanco 33000
+    Pacha Huawei Honor X6S 40000
     Pacha Huawei Y6 2019 / Honor 8A 33000
+    Pacha Moto Moto G60S 43000
     Pacha Motorola Moto E5 Play 45000
+    Pacha Motorola Moto G8 Power Lite 36000
     Pacha Motorola Moto One 45000
     Pacha Nokia 5.3 45000
     Pacha Oppo Realme C53 / Note 50 45000
     Pacha Oppo Realme C55 50000
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 45000
+    Pacha Samsung A05 37000
+    Pacha Samsung A10S 37000
     Pacha Samsung A13 / M33 40000
+    Pacha Samsung A21S 36000
+    Pacha Samsung A30S S/M 38000
     Pacha Samsung J5 Prime Negro 38000
+    Pacha Tecno Spark Go 2023 40000
     Pacha Tecno-Infinix Pop 7 / Hot 30I 40000
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 38000
     Pacha Vivo Y51 / Y53S 42000
     Pacha Xiaomi Redmi 12C 38000
+    Pacha Xiaomi Redmi 13C 43000
     Pacha Xiaomi Redmi Note 10 / Note 10S 40000
     Pacha Xiaomi Redmi Note 11 / Note 12S 48000
     Pacha Xiaomi Redmi Note 12 55000
@@ -314,11 +350,14 @@
     Parlante Tg-294 Negro 25000
     Parlante Tg-294 Rojo 25000
     Patillera 3 En 1 20000
+    Pepas Hydrogel 2000
     Pilas Carbon Aaa X2 750
+    Pilas Carbon Maxday Eco 600
     Pin De Carga Celular 0
     Pin De Carga Parlante 0
     Pin De Carga V8 0
     Pisa Papel 15000
+    Plancha Remington Aguacate 38000
     Power Bank Aibimy 10000 Mah 120W 35000
     Power Bank Aibimy 30000 Mah 52000
     Power Bank Panel Solar 12000 Mah 40000
@@ -341,6 +380,7 @@
     Reproductor Roku Express Hd 115000
     Reproductor Sonivox Dvd Ts-Dvd 65000
     Reproductor Tdt Dxg 40000
+    Reproductor Tdt Hd-939 38000
     Reproductor Tdt Krono 38000
     Reproductor Tv Stick Magis 75000
     Rollo Cinta Led Rgb 10M 28000
@@ -355,6 +395,11 @@
     Silicone Case Apple Iphone Xr Negro 5000
     Silicone Case Apple Iphone Xr Rojo 7000
     Silicone Case Apple Iphone Xr Rosa 7000
+    Silicone Case Huawei Honor 90 5G Azulclaro 7000
+    Silicone Case Huawei Honor 90 5G Azuloscuro 7000
+    Silicone Case Huawei Honor 90 5G Azulrey 7000
+    Silicone Case Huawei Honor 90 5G Rojo 7000
+    Silicone Case Huawei Honor 90 5G Vinotinto 7000
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 7000
     Silicone Case Huawei Honor Magic 5 Lite / X9A Verdemilitar 7000
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 7000
@@ -420,6 +465,7 @@
     Silicone Case Motorola Moto G24 / G04 Rojo 7000
     Silicone Case Motorola Moto G24 / G04 Rosa 7000
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 7000
+    Silicone Case Motorola Moto G51 Morado 7000
     Silicone Case Motorola Moto G54 Morado 7000
     Silicone Case Motorola Moto G60S Rojo 7000
     Silicone Case Motorola Moto G9 Play / E7 Plus Amarillo 7000
@@ -439,6 +485,8 @@
     Silicone Case Oppo A57 / A77 Negro 7000
     Silicone Case Oppo A59 Rojo 7000
     Silicone Case Oppo A67 Negro 7000
+    Silicone Case Oppo A74 4G Lila 7000
+    Silicone Case Oppo Realme C21Y / C25Y Rosa 7000
     Silicone Case Oppo Realme C55 Azuloscuro 7000
     Silicone Case Oppo Realme C55 Negro 7000
     Silicone Case Oppo Realme C55 Rojo 7000
@@ -456,6 +504,7 @@
     Silicone Case Samsung A05S Verdementa 7000
     Silicone Case Samsung A12 / M12 Morado 7000
     Silicone Case Samsung A12 Verde 7000
+    Silicone Case Samsung A13 Morado 7000
     Silicone Case Samsung A14 Lila 7000
     Silicone Case Samsung A14 Rojo 7000
     Silicone Case Samsung A15 Negro 7000
@@ -466,6 +515,7 @@
     Silicone Case Samsung A22 4G Negro 7000
     Silicone Case Samsung A22 5G Ab Rojo 7000
     Silicone Case Samsung A24 Rojo 7000
+    Silicone Case Samsung A30S Fucsia 7000
     Silicone Case Samsung A32 4G Amarillo 7000
     Silicone Case Samsung A32 5G Verdemilitar 7000
     Silicone Case Samsung A35 Fucsia 7000
@@ -512,6 +562,7 @@
     Silicone Case Vivo V25 Negro 7000
     Silicone Case Vivo V25 Rojo 7000
     Silicone Case Vivo V25 Verdemilitar 7000
+    Silicone Case Vivo Y03 / Y18 Fucsia 7000
     Silicone Case Vivo Y15S Rojo 7000
     Silicone Case Vivo Y15S Verde 7000
     Silicone Case Vivo Y16 Rojo 7000
@@ -544,6 +595,7 @@
     Silicone Case Xiaomi Redmi 12 Amarillo 7000
     Silicone Case Xiaomi Redmi 12 Lila 7000
     Silicone Case Xiaomi Redmi 12C Ab Amarillo 7000
+    Silicone Case Xiaomi Redmi 13 Negro 7000
     Silicone Case Xiaomi Redmi 13C Morado 7000
     Silicone Case Xiaomi Redmi 14C Negro 7000
     Silicone Case Xiaomi Redmi 7 Amarillo 7000
@@ -573,7 +625,9 @@
     Silicone Case Xiaomi Redmi Note 11 Verde 7000
     Silicone Case Xiaomi Redmi Note 12 Negro 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 7000
+    Silicone Case Xiaomi Redmi Note 12S Negro 7000
     Silicone Case Xiaomi Redmi Note 12S Rojo 7000
+    Silicone Case Xiaomi Redmi Note 13 4G Morado 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Ab Lila 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 7000
@@ -592,16 +646,29 @@
     Smartphone Xiaomi Redmi 14C 128/8 Negro 355000
     Smartphone Zte Blade A34 64/6 Verde 222000
     Soporte Fijo Tv 32-55 Pulgadas 16000
+    Soporte Holder Bicileta Manubrio M-3 12000
     Soporte Nephoo Tripode Camara-Celular 25200
     Soporte Techo Tv 26-55 Pulgadas 40000
     Soporte Tv 32 Brazo 16000
     Soporte Tv 50 Brazo 23000
+    Space Color Xiaomi Redmi 10 Lila 5000
+    Space Color Xiaomi Redmi 10 Rosa 5000
     Tapa Huawei P10 Lite Dorado 9000
+    Tapa Samsung A32 5G Negro 10000
     Teclado Combo Gamer F92 25000
     Televisor Smart Tv Fly Android 32P 500000
     Televisor Smart Tv Fly Android 43P 760000
     Televisor Smart Tv Tg Android 32P 460000
     Televisor Tg 19P 185000
+    Termo Fly Indicador Temperatura Azul 26500
+    Termo Fly Indicador Temperatura Rojo 26500
+    Termo Pocillos Metalico Negro 21500
+    Ventilador Carro F-410 35000
+    Ventilador Carro X-666 32000
+    Ventilador Fan-20 Astronauta 14700
+    Ventilador Fan-60 Humidificador Blanco 24500
+    Ventilador Get Mini-20 11800
+    Ventilador Manual 8400
     Vidrio 5D Apple Iphone 11 / Xr 900
     Vidrio 5D Apple Iphone 13 / 13Pro 900
     Vidrio 5D Huawei Honor X6S 900
@@ -609,7 +676,9 @@
     Vidrio 5D Huawei Y9 Prime 900
     Vidrio 5D Motorola Moto G04 / Moto G24 900
     Vidrio 5D Redmi Note 12 900
+    Vidrio 5D Samsung A05 900
     Vidrio 5D Samsung A12 900
+    Vidrio 5D Samsung A30S 7000
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 900
     Vidrio 5D Tecno Spark Go 2024 / Spark 20 900
     Vidrio 5D Xiaomi Mi 11T 900
@@ -620,6 +689,7 @@
     Vidrio Antiespia Huawei Honor X6S 18000
     Vidrio Antiespia Xiaomi Redmi 13C 1800
     Vidrio Blindado Motorola Moto E20 1800
+    Vidrio Blindado Samsung A05 900
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 1600
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 1800
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 1800
@@ -634,23 +704,8 @@
     Vidrio Tortuga Huawei Honor X6S 1100
     Vidrio Tortuga Huawei Y9 Prime 1100
     Vidrio Tortuga Motorola Moto G04 / Moto G24 1100
+    Vidrio Tortuga Samsung A05 1100
     Vidrio Tortuga Samsung A12 1100
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 1100
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi Note 11 1100
-    Cable Dpp2dpp 12000
-    Lampara Esfera Saturno 15000
-    Silicone Case Huawei Honor 90 5g Azulrey 7000
-    Silicone Case Huawei Honor 90 5g Azulclaro 7000
-    Silicone Case Huawei Honor 90 5g Vinotinto 7000
-    Silicone Case Huawei Honor 90 5g Rojo 7000
-    Silicone Case Huawei Honor 90 5g Azuloscuro 7000
-    Pacha Samsung A05 37000
-    Pacha Huawei Honor X6s 40000
-    Pacha Samsung A30s s/m 38000
-    Pacha Xiaomi Redmi 13c 43000
-    Pacha Samsung A21s 36000
-    Pacha Motorola Moto G8 Power Lite 36000
-    Bateria Samsung A10s 18000
-    Tapa Samsung A32 5g Negro 10000
-    Vidrio 5D Samsung A30s 7000
