@@ -63,7 +63,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Huawei Y7A 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
-    Silicone Case Infinix Hot 40 Pro Morado 1
+    Silicone Case Infinix Hot 40 Pro Morado 1 ok
     Silicone Case Infinix Hot 50 Pro Plus 7
     Silicone Case Motorola Moto G20 Rojo 1 ok
     Silicone Case Motorola Moto G60S Amarillo 1 ok
@@ -87,16 +87,16 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Oppo Realme C63 Negro 1
     Silicone Case Oppo Realme C63 Rojo 1
     Silicone Case Samsung A13 Verdebiche 1
-    Silicone Case Samsung A22 4G Morado 1
+    Silicone Case Samsung A22 4G Morado 1 ok
     Silicone Case Samsung A32 5G Verde Fosforecente 1
-    Silicone Case Samsung A35 Negro 1 
+    Silicone Case Samsung A35 Negro 1 ok
     Silicone Case Samsung M13 Verde 1
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
     Silicone Case Tecno Camon 30S Pro
     Silicone Case Tecno Spark 10 Pro Fucsia 1 ok
-    Silicone Case Tecno Spark 10 Pro Lila 1
+    Silicone Case Tecno Spark 10 Pro Lila 1 ok
     Silicone Case Vivo Y15S Palo Rosa 1
     Silicone Case Xiaomi Redmi 8A Amarillo 1
     Silicone Case Xiaomi Redmi 8A Azulclaro 1
@@ -104,7 +104,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
     Silicone Case Xiaomi Redmi 9C Fucsia 1 
-    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 1 ok
     Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Smart Watch Gw-20 Verdemilitar 1 ok
@@ -125,20 +125,20 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Fullpega Huawei Honor 90 5G 5
     Vidrio Smart Watch Redondos Grandes 5
     Vidrio Tortuga Samsung A30S 5
-    Silicone Case Xiaomi Poco X6 Pro Negro 1 
+    Silicone Case Xiaomi Poco X6 Pro Negro 1 ok
     Silicone Case Apple iPhone Xr Negro 1
     Silicone Case Apple iPhone 11 pro Max Negro 1
-    Silicone Case Samsung A53 Negro 1
+    Silicone Case Samsung A53 Negro 1 ok
     Silicone Case Tecno Spark Go 2023 Negro 1 ok
     Silicone Case Tecno Spark Go 2025 / Go 1 Negro 1 ok
     Silicone Case Oppo A15 Rojo 1
     Silicone Case Oppo A16 Rojo 1 ok
-    Silicone Case Samsung A04s Rojo 1
-    Silicone Case Tecno Spark Go 2024 Rojo 1
-    Silicone Case Tecno Spark Go 2025 / Go Rojo 1
+    Silicone Case Samsung A04s Rojo 1 ok
+    Silicone Case Tecno Spark Go 2024 Rojo 1 ok
+    Silicone Case Tecno Spark Go 2025 / Go Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Fucsia 1 ok
     Silicone Case Xiaomi Redmi 14c Fucsia 1 ok
-    Silicone Case Xiaomi Poco X3 Fucsia 1
+    Silicone Case Xiaomi Poco X3 Fucsia 1 ok
     Silicone Case Oppo A16 Fucsia 1
     Silicone Case Oppo A59 Fucsia 1
     Silicone Case Oppo A58 Fucsia 1 ok
@@ -154,7 +154,7 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Tecno Spark 30c Rosa 1 ok
     Silicone Case Xiaomi Redmi note 12 4g Lila 1
     Silicone Case Xiaomi Redmin Note 13 4g Lila 1
-    Silicone Case Xiaomi Poco X3 Lila 1
+    Silicone Case Xiaomi Poco X3 Lila 1 ok
     Silicone Case Apple iPhone 15 pro Lila 1
     Silicone Case Oppo A15 Lila 1
     Silicone Case Oppo A16 Lila 1 ok
@@ -166,13 +166,13 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Xiaomi Redmi Note 12 4g Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4g Morado 1
     Silicone Case Xioami Note 13 Pro 5g Morado 1 ok
-    Silicone Case Oppo A38 Morado 1
+    Silicone Case Oppo A38 Morado 1 ok
     Silicone Case Tecno Spark Go 2023 Morado 1 ok
     Silicone Case Tecno Spark 30s Morado 1
-    Silicone Case Xiaomi Redmi 14c Azulrey 1
+    Silicone Case Xiaomi Redmi 14c Azulrey 1 ok
     Silicone Case Apple Xr Azulrey 1
     Silicone Case Oppo A59 Azulrey 1
-    Silicone Case Samsung A53 Azulrey 1
+    Silicone Case Samsung A53 Azulrey 1 ok
     Silicone Case Tecno Spark Go 2024 Azulrey 1
     Silicone Case Tecno Spark 30c Azulrey 1 ok
     Silicone Case Tecno Spark Go 2025 / Go1s Amarillo 1
@@ -193,9 +193,9 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Motorola Moto G24 Amarillo 1
     Silicone Case Oppo A59 Lila 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
-    Silicone Case Xiaomi Redmi 9a Morado 1
+    Silicone Case Xiaomi Redmi 9a Morado 1 ok
     Silicone Case Xiaomi Redmi 10 Negro 1 ok
-    Silicone Case Xiaomi Redmi 10 Lila 1
+    Silicone Case Xiaomi Redmi 10 Lila 1 ok
     Silicone Case Xiaomi Redmi Note 10 / Note 10s Rosa 1 ok
     Silicone Case Xiaomi Redmi Note 10 / Note 10s Morado 1 ok
     Silicone Case Xiaomi Redmi Note 10 / Note 10s Azulrey 1 ok
@@ -210,8 +210,8 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Silicone Case Samsung A25 Fucsia 1 ok
     Silicone Case Samsung A25 Azulrey 1 ok
     Silicone Case Samsung A25 Morado 1 ok
-    Silicone Case Apple iPhone 13 Rojo 1
-    Silicone Case Motorola Moto G72 Lila 1
+    Silicone Case Apple iPhone 13 Rojo 1 ok
+    Silicone Case Motorola Moto G72 Lila 1 ok
     Silicone Case Samsung A32 5G Fucsia 1
     Silicone Case Samsung A32 5G Amarillo 1
     Silicone Case Vivo Y53 Negro 1
@@ -247,3 +247,5 @@ Yoyos Caracas - TYD - Ovidio - Fly
     Vidrio Antiespia Apple iPhone 13 Pro Max 5 ok
     Vidrio blindado Apple iPhone 13 Pro Max 5 ok
     Vidrio 5d Xiaomi Redmi 14 5
+    Cable Siliconaso Zonymax Tc 3 ok
+    Mouse Eco 2 ok
