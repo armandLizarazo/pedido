@@ -96,7 +96,7 @@
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
     Cargador Belkin Tc 3
-    Cargador Belkin V8 3
+    Cargador Belkin V8 8
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -125,13 +125,12 @@
     Cargador Pluying X8 Modulador 12-24V 3.1A 0
     Cargador Pluying X8 Modulador 3.1A 0
     Cargador Realme Tc 65W 0
-    Cargador Samsung 45W Con Cable Blanco 0
+    Cargador Samsung 45W Con Cable Blanco 1
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Samsung 25W Cabeza Negro 1
     Cargador Samsung 25W V8 0
     Cargador Samsung 45W Cabeza Blanco 0
     Cargador Samsung 45W Cabeza Negro 3
-    Cargador Samsung 45W Con Cable Blanco 1
     Cargador Samsung 45W Con Cable Negro 1
     Cargador Samsung S10+ Tc 0
     Cargador Tc A Tc 80W 2P 1
@@ -142,8 +141,8 @@
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
-    Cargador Yl Tc 2
-    Cargador Yl V8 4
+    Cargador Yl Tc 7
+    Cargador Yl V8 9
     Celular Nokia 105 4G 1
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
@@ -303,7 +302,7 @@
     Manos Libres Batri B10 Negro 0
     Manos Libres Batri B10 Rosa 0
     Manos Libres Samsung Akg 13
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 10
     Manos Libres Tc Blanco 2
     Memoria Usb Kingston 4Gb 0
     Mini Calefactor Con Control 1
@@ -521,7 +520,7 @@
     Silicone Case Samsung A35 Fucsia 1
     Silicone Case Samsung A50 / A30S Lila 1
     Silicone Case Samsung A53 Lila 1
-    Silicone Case Samsung A53 Negro 1
+    Silicone Case Samsung A53 Negro 2
     Silicone Case Samsung A54 Amarillo 1
     Silicone Case Samsung A54 Lila 1
     Silicone Case Samsung A54 Negro 1
@@ -587,7 +586,7 @@
     Silicone Case Xiaomi Redmi 10 Amarillo 0
     Silicone Case Xiaomi Redmi 10 Azulclaro 1
     Silicone Case Xiaomi Redmi 10 Fucsia 0
-    Silicone Case Xiaomi Redmi 10 Negro 1
+    Silicone Case Xiaomi Redmi 10 Negro 2
     Silicone Case Xiaomi Redmi 10 Rojo 0
     Silicone Case Xiaomi Redmi 10C Rojo 1
     Silicone Case Xiaomi Redmi 10C Verde 1
@@ -615,12 +614,12 @@
     Silicone Case Xiaomi Redmi A1 / A2 Negro 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Amarillo 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Fucsia 0
-    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 0
+    Silicone Case Xiaomi Redmi Note 10 / 10S Lila 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Negro 1
     Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 0
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Negro 2
     Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Negro 2
@@ -715,58 +714,110 @@
     Silicone Case Oppo A59 Fucsia 0
     Silicone Case Oppo A59 Azulrey 0
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 0
-    Silicone Case Xiaomi Redmi 9a Morado 0
-    Silicone Case Xiaomi Redmi 10 Lila 0
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Rosa 0
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Morado 0
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Azulrey 0
-    Silicone Case Xiaomi Redmi A3 Fucsia 0
+    Silicone Case Xiaomi Redmi 9a Morado 1
+    Silicone Case Xiaomi Redmi 10 Lila 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Rosa 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Morado 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Azulrey 1
+    Silicone Case Xiaomi Redmi A3 Fucsia 1
     Silicone Case Samsung A03 Lila 0
     Silicone Case Samsung A03 Amarillo 0
     Silicone Case Samsung A25 Negro 0
-    Silicone Case Samsung A25 Rojo 0
+    Silicone Case Samsung A25 Rojo 1
     Silicone Case Samsung A25 Amarillo 0
-    Silicone Case Samsung A25 Lila 0
-    Silicone Case Samsung A25 Rosa 0
-    Silicone Case Samsung A25 Fucsia 0
-    Silicone Case Samsung A25 Azulrey 0
-    Silicone Case Apple iPhone 13 Rojo 0
-    Silicone Case Motorola Moto G72 Lila 0
+    Silicone Case Samsung A25 Lila 1
+    Silicone Case Samsung A25 Rosa 1
+    Silicone Case Samsung A25 Fucsia 1
+    Silicone Case Samsung A25 Azulrey 1
+    Silicone Case Apple iPhone 13 Rojo 1
+    Silicone Case Motorola Moto G72 Lila 1
     Silicone Case Samsung A32 5G Fucsia 0
     Silicone Case Samsung A32 5G Amarillo 0
     Silicone Case Vivo Y53 Negro 0
     Silicone Case Vivo Y53 Fucsia 0
     Silicone Case Vivo Y53 Azulrey 0
     Silicone Case Huawei Honor X6 / X6s Morado 0
-    Silicone Case Huawei Honor X7a Morado 0
-    Silicone Case Huawei Honor X7 Fucsia 0
-    Silicone Case Huawei Honor X7 Rosa 0
-    Silicone Case Huawei Honor X7 Amarillo 0
-    Silicone Case Huawei Honor X8b rosa 0
-    Silicone Case Huawei Honor X8b Morado 0
+    Silicone Case Huawei Honor X7a Morado 1
+    Silicone Case Huawei Honor X7 Fucsia 1
+    Silicone Case Huawei Honor X7 Rosa 1
+    Silicone Case Huawei Honor X7 Amarillo 1
+    Silicone Case Huawei Honor X8b rosa 1
+    Silicone Case Huawei Honor X8b Morado 1
     Silicone Case Huawei Honor X8 Negro 0
     Silicone Case Huawei Honor X8 Fucsia 0
     Silicone Case Huawei Honor X8 Morado 0
-    Vidrio Fullpega Motorola Moto G85 0
+    Vidrio Fullpega Motorola Moto G85 5
     Forro Diseños A04e Dama 0
     Forro Diseños Samsung A04e Caballero 0
-    Forro Space iPhone 13 Pro Max 0
+    Forro Space iPhone 13 Pro Max 1
     Forro Space Motorola Moto G04 0
-    Forro Space Vivo Y31 / Y51 / Y53s 0
-    Forro Space Xiaomi Redmi Note 13 pro 4G 0
-    Manos Libres Samsung Tipo Original Blanco 0
-    Manos Libres Samsung Tipo Original Negro 0
+    Forro Space Vivo Y31 / Y51 / Y53s 1
+    Forro Space Xiaomi Redmi Note 13 pro 4G 1
+    Manos Libres Samsung Tipo Original Blanco 5
+    Manos Libres Samsung Tipo Original Negro 5
     Pacha Huawei Y7 2018 0
-    Pacha Motorola moto G20 / G30 0
-    Cambio Pacha Motorola Moto G20 / G30 0
-    Pacha Samsung A13 / M13 / M23 0
+    Pacha Motorola moto G20 / G30 1
+    Cambio Pacha Motorola Moto G20 / G30 1
+    Pacha Samsung A13 / M13 / M23 2
     Pin de carga Parlante 0
-    Vidrio Templado Apple iPhone 14 pro Max 0
-    Vidrio Ceramico Apple iPhone 14 Pro Max 0
-    Vidrio Tortuga Apple iPhone 14 Pro Max 0
-    Vidrio Blindado Apple iP4hone 14 Pro Max 0
-    Vidrio Antiespia Apple iPhone 14 Pro Max 0
-    Vidrio 5d Xiaomi Redmi 12 0
-    Vidrio Antiespia Apple iPhone 13 Pro Max 0
-    Vidrio blindado Apple iPhone 13 Pro Max 0
+    Vidrio Templado Apple iPhone 14 pro Max 5
+    Vidrio Ceramico Apple iPhone 14 Pro Max 5
+    Vidrio Tortuga Apple iPhone 14 Pro Max 5
+    Vidrio Blindado Apple iP4hone 14 Pro Max 5
+    Vidrio Antiespia Apple iPhone 14 Pro Max 5
+    Vidrio 5d Xiaomi Redmi 12 5
+    Vidrio Antiespia Apple iPhone 13 Pro Max 5
+    Vidrio blindado Apple iPhone 13 Pro Max 5
     Vidrio 5d Xiaomi Redmi 14 0
+    Silicone Case Infinix Hot 40 Pro Morado 1
+    Silicone Case Motorola Moto G20 Rojo 1
+    Silicone Case Motorola Moto G60S Amarillo 1
+    Silicone Case Samsung A22 4G Morado 1
+    Silicone Case Samsung A35 Negro 1
+    Silicone Case Tecno Spark 10 Pro Fucsia 1
+    Silicone Case Tecno Spark 10 Pro Lila 1
+    Smart Watch Gw-20 Verdemilitar 1
+    Silicone Case Xiaomi Poco X6 Pro Negro 1
+    Silicone Case Tecno Spark Go 2023 Negro 1
+    Silicone Case Tecno Spark Go 2025 / Go 1 Negro 1
+    Silicone Case Oppo A16 Rojo 1
+    Silicone Case Samsung A04s Rojo 1
+    Silicone Case Tecno Spark Go 2024 Rojo 1
+    Silicone Case Tecno Spark Go 2025 / Go Rojo 1
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Fucsia 1
+    Silicone Case Xiaomi Redmi 14c Fucsia 1
+    Silicone Case Xiaomi Poco X3 Fucsia 1
+    Silicone Case Oppo A58 Fucsia 1
+    Silicone Case Samsung A04s Fucsia 1
+    Silicone Case Samsung A53 Fucsia 1
+    Silicone Case Oppo A59 Rosa 1
+    Silicone Case Samsung A53 Rosa 1
+    Silicone Case Tecno Spark Go 2023 Rosa 1
+    Silicone Case Tecno Spark 30c Rosa 1
+    Silicone Case Xiaomi Poco X3 Lila 1
+    Silicone Case Oppo A16 Lila 1
+    Silicone Case Oppo A80 Lila 1
+    Silicone Case oppo A59 Lila 1
+    Silicone Case Samsung A04s Lila 1
+    Silicone Case Samsung A13 Lila 1
+    Silicone Case Xioami Note 13 Pro 5g Morado 1
+    Silicone Case Oppo A38 Morado 1
+    Silicone Case Tecno Spark Go 2023 Morado 1
+    Silicone Case Xiaomi Redmi 14c Azulrey 1
+    Silicone Case Samsung A53 Azulrey 1
+    Silicone Case Tecno Spark 30c Azulrey 1
+    Silicone Case Oppo A40 Rosa 1
+    Silicone Case Oppo A40 Lila 1
+    Silicone Case Oppo A40 Fucsia 1
+    Silicone Case Oppo A40 Negro 1
+    Silicone Case Oppo A40 Rojo 1
+    Silicone Case oppo A60 Azulrey 1
+    Silicone Case Oppo A60 Negro 1
+    Silicone Case Oppo A60 Amarillo 1
+    Silicone Case Oppo A60 Rosa 1
+    Silicone Case Oppo A60 Morado 1
+    Silicone Case Samsung A25 Morado 1
+    Vidrio Fullpega Huawei Honor Magic 5 Lite 2
+    Forro DiseÃ±os A04e Dama 3
+    Cable Siliconaso Zonymax Tc 3
+    Mouse Eco 2

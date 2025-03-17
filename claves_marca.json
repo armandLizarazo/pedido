@@ -1,0 +1,9 @@
+{
+  "Motorola": ["Moto", "G20 / G30"],
+  "Huawei": ["Honor", "Nova"],
+  "Huawei Honor": ["Magic"],
+  "Tecno": ["Spark", "Pova", "Camon"],
+  "Oppo": ["Realme", "Reno"],
+  "Samsung": ["A21s", "A30 / A50"],
+  "Infinix": ["Smart", "Hot", "Note"]
+}
