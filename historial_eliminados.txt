@@ -1954,3 +1954,33 @@ Línea  | Contenido
    10 | Pacha Motorola moto G20 / G30 1 ok
    11 | Cambio Pacha Motorola Moto G20 / G30 1 ok
    12 | Pacha Samsung A13 / M13 / M23 2 ok
+
+==================================================
+Fecha de proceso: 2025-03-18 08:41:44
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-18 08:41:44
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-18 08:41:44
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Pin De Carga Parlante 5 ok
+   11 | Bateria Xiaomi Redmi Note 10 / Note 10s 1 ok
+   12 | Pacha Tecno Infinix Spark 20 Pro / Hot 40 Pro 1 ok
+   13 | Pacha Motorola Moto G04 / G04s / G 24 1  ok
+   14 | Pacha Motorola Moto One Fusion 1 ok
+   15 | Pacha Samsung A30 / A50 s/m 1 ok
+   16 | Pacha Xiaomi Redmi 9a 1 ok
+   17 | Pacha Tecno Spark Go 2024 / 20c 1 ok
+   18 | Tapa Tecno Sparl 20c Amarillo 1 ok
