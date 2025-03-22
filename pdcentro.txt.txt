@@ -1,6 +1,6 @@
     Bateria TG T-320 1
-    Cable Belkin V8 5
-    Cable Tc eco 5
-    Cable Samsung Tc a Tc 3
+    Cable Belkin V8 5 ok
+    Cable Tc eco 5 ok
+    Cable Samsung Tc a Tc 3 ok
     Cable Yoyos Tc 67w 2
-    Cable Siliconado Zonymax Tc 3
+    Cable Siliconado Zonymax Tc 3 ok
