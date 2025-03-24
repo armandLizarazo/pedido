@@ -1984,3 +1984,47 @@ Línea  | Contenido
    16 | Pacha Xiaomi Redmi 9a 1 ok
    17 | Pacha Tecno Spark Go 2024 / 20c 1 ok
    18 | Tapa Tecno Sparl 20c Amarillo 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-24 05:45:32
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 23
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   32 | Forro DiseÃ±os Infinix Hot 50 Pro Plus Caballero 5 ok
+   33 | Forro DiseÃ±os Infinix Hot 50 Pro Plus Dama 5 ok
+   65 | Parlante Kft-1645 Solar 2 ok
+  166 | Silicone Case Xiaomi Redmi Note 13 4G Lila 1 ok
+  168 | Vidrio 5D Honor 90 Lite / Infinix Hot 50 5 ok
+  175 | Vidrio 5D Tecno Spark 30C 5 ok ok
+  183 | Vidrio Perlas Apple Iphone 12 Pro Max 5 ok
+  184 | Vidrio Tortuga Samsung A30S 5 ok
+  185 | Cable Belkin V8 5 ok
+  191 | Forro Diseños Huawei Honor X7c Dama 5 ok
+  192 | Forro Diseños Huawei Honor X7c Caballero 5 ok
+  193 | Forro Space Huawei Honor X7c 2 ok
+  194 | Silicone Case Huawei Honor X7c 7 ok
+  196 | Forro Diseños Xiaomi Redmi 14c Dama 3 ok
+  197 | Forro Diseños Xiaomi Redmi 14c Caballero 3 ok
+  198 | Forro Space Apple iPhone 11 1 ok
+  199 | Forro Space Apple iPhone 15 1 ok
+  200 | Forro Space Apple iPhone 6 Plus / 7 Plus / 8 Plus 1 ok
+  201 | Forro Space Samsung A05s 1 ok
+  202 | Forro Space Samsung A10s 1 ok
+  203 | Forro Space Samsung A24 1 ok
+  206 | Forro Space Xiaomi Redmi Note 8 1 ok
+  210 | Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-24 05:45:32
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-03-24 05:45:32
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+

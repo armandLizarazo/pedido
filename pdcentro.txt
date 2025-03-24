@@ -29,8 +29,6 @@
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
     Forro DiseÃ±os Infinix Hot 30 Pro 5
-    Forro DiseÃ±os Infinix Hot 50 Pro Plus Caballero 5 ok
-    Forro DiseÃ±os Infinix Hot 50 Pro Plus Dama 5 ok
     Forro DiseÃ±os Motorola Moto One Caballero 2
     Forro DiseÃ±os Oppo A17 Caballero 3
     Forro DiseÃ±os Oppo Realme C63 Caballero 5
@@ -62,7 +60,6 @@
     Forro Tabletas 10P Dama 2
     Forro Space Apple Iphone 16 1
     Garantia Aro De Luz PequeÃ±os 2
-    Parlante Kft-1645 Solar 2 ok
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Apple Iphone 12 Pro Max Blanco 1
@@ -163,16 +160,13 @@
     Silicone Case Xiaomi Redmi Note 5G Lila 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
-    Silicone Case Xiaomi Redmi Note 13 4G Lila 1 ok
     Smartphone Tecno Spark 30C 1
-    Vidrio 5D Honor 90 Lite / Infinix Hot 50 5 ok
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A06 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
-    Vidrio 5D Tecno Spark 30C 5 ok ok
     Vidrio 5D Xiaomi Redmi 14 5
     Vidrio Antiespia Samsung A05 5
     Vidrio Antiespia Samsung A30S 5
@@ -180,32 +174,15 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Vidrio Perlas Apple Iphone 12 Pro Max 5 ok
-    Vidrio Tortuga Samsung A30S 5 ok
-    Cable Belkin V8 5 ok
     Vidrio 5d Apple iPhone 6 Plus / 7 Plus / 8 Plus Negro 5
     Cargador Cabeza Tc & Usb 20W C15 2
     Control Tv Tv Plano 5
     Forro Armadura Xiaomi Redmi 14c Negro 1
     Forro Armadura Xiaomi Redmi note 13 pro Plus Negro 1
-    Forro Diseños Huawei Honor X7c Dama 5 ok
-    Forro Diseños Huawei Honor X7c Caballero 5 ok
-    Forro Space Huawei Honor X7c 2 ok
-    Silicone Case Huawei Honor X7c 7 ok
     Forro Diseños Xiaomi Redmi Note 11 Dama 3ok
-    Forro Diseños Xiaomi Redmi 14c Dama 3 ok
-    Forro Diseños Xiaomi Redmi 14c Caballero 3 ok
-    Forro Space Apple iPhone 11 1 ok
-    Forro Space Apple iPhone 15 1 ok
-    Forro Space Apple iPhone 6 Plus / 7 Plus / 8 Plus 1 ok
-    Forro Space Samsung A05s 1 ok
-    Forro Space Samsung A10s 1 ok
-    Forro Space Samsung A24 1 ok
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Pova 4 1
-    Forro Space Xiaomi Redmi Note 8 1 ok
     Audifonos Bluetooth Xiaomi Redmi E7s Negro 1 
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Tecno Spark Go 2024/ Spark 20c Morado 1
-    Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g 1 ok
     CRUZAR ML osea Xiaomi 1
