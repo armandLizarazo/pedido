@@ -1,13 +1,13 @@
     Audifonos Bluetooth Pro 60 2
     Cable Apple Usb Ligthning 2M 2
     Cargador Belkin Ligthning 5
-    Bluetooth Car 2
+    Bluetooth Car 2 ok
     Cable Apple Tc Ligthning 5
-    Cable Caterpillar Tc 5
-    Cable Caterpillat V8 5
-    Cable V8 Eco 5
-    Cable Tc Eco 5
-    Cargador Samsung 45w Con Cable Blanco 1
+    Cable Caterpillar Tc 5 ok
+    Cable Caterpillat V8 5 ok
+    Cable V8 Eco 5 ok ok
+    Cable Tc Eco 5 ok ok
+    Cargador Samsung 45w Con Cable Blanco 2 
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -34,23 +34,23 @@
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
-    Forro DiseÃ±os Infinix Hot 30 Pro 5
-    Forro DiseÃ±os Motorola Moto One Caballero 2
-    Forro DiseÃ±os Oppo A17 Caballero 3
-    Forro DiseÃ±os Oppo Realme C63 Caballero 5
-    Forro DiseÃ±os Oppo Realme C63 Dama 5
-    Forro DiseÃ±os Samsung A36 Caballero 5
-    Forro DiseÃ±os Tecno Camon 30S Pro Caballero 5
-    Forro DiseÃ±os Tecno Camon 30S Pro Dama 5
-    Forro DiseÃ±os Vivo V25E Caballero 3
-    Forro DiseÃ±os Vivo Y20S Caballero 3
-    Forro DiseÃ±os Honor X6B Caballero 5
-    Forro DiseÃ±os Honor X6B Dama 5
-    Forro DiseÃ±os Huawei Honor Magic 7 Lite Caballero 5
-    Forro DiseÃ±os Huawei Honor Magic 7 Lite Dama 5
-    Forro DiseÃ±os Samsung A04E Caballero 5
-    Forro DiseÃ±os Vivo Y19S Caballero 5
-    Forro DiseÃ±os Vivo Y19S Dama 5
+    Forro DiseÃƒÂ±os Infinix Hot 30 Pro 5
+    Forro DiseÃƒÂ±os Motorola Moto One Caballero 2
+    Forro DiseÃƒÂ±os Oppo A17 Caballero 3
+    Forro DiseÃƒÂ±os Oppo Realme C63 Caballero 5
+    Forro DiseÃƒÂ±os Oppo Realme C63 Dama 5
+    Forro DiseÃƒÂ±os Samsung A36 Caballero 5
+    Forro DiseÃƒÂ±os Tecno Camon 30S Pro Caballero 5
+    Forro DiseÃƒÂ±os Tecno Camon 30S Pro Dama 5
+    Forro DiseÃƒÂ±os Vivo V25E Caballero 3
+    Forro DiseÃƒÂ±os Vivo Y20S Caballero 3
+    Forro DiseÃƒÂ±os Honor X6B Caballero 5
+    Forro DiseÃƒÂ±os Honor X6B Dama 5
+    Forro DiseÃƒÂ±os Huawei Honor Magic 7 Lite Caballero 5
+    Forro DiseÃƒÂ±os Huawei Honor Magic 7 Lite Dama 5
+    Forro DiseÃƒÂ±os Samsung A04E Caballero 5
+    Forro DiseÃƒÂ±os Vivo Y19S Caballero 5
+    Forro DiseÃƒÂ±os Vivo Y19S Dama 5
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
@@ -65,22 +65,21 @@
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Forro Space Apple Iphone 16 1
-    Garantia Aro De Luz PequeÃ±os 2
+    Garantia Aro De Luz PequeÃƒÂ±os 2
     Lapiz Tactil Celular 5
-    Memoria Kingston Micro 4gb 5
-    Guantes Gamer 5
-    Silicone Case iPhone Xr Negro 1
-    Silicone Case Motorola Moto G54 Azuloscuro 1
-    Silicone Case Motorola Moto One Fusion Azulclaro 1
-    Silicone Case Samsung A52 Rosa 1
-    Silicone Case Xiaomi Redmi A1 / A2 Blanco 1
-    Silicone Case Xiaomi Redmi Note 9s / Note 9 Pro Morado 1
+    Memoria Kingston Micro 4gb 5 ok
+    Guantes Gamer 5 ok
+    Silicone Case iPhone Xr Negro 1 ok
+    Silicone Case Motorola Moto G54 Azuloscuro 1 ok
+    Silicone Case Motorola Moto One Fusion Azulclaro 1 ok
+    Silicone Case Samsung A52 Rosa 1 ok
+    Silicone Case Xiaomi Redmi A1 / A2 Blanco 1  ok
+    Silicone Case Xiaomi Redmi Note 9s / Note 9 Pro Morado 1 
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
-    Silicone Case Apple Iphone 12 Pro Max Blanco 1
-    Silicone Case Apple Iphone 15 Pro Lila 1
-    Silicone Case Apple Iphone Xr Azulrey 1
-    Silicone Case Apple Iphone Xr Negro 1
+    Silicone Case Apple Iphone 12 Pro Max Blanco 1 
+    Silicone Case Apple Iphone 15 Pro Lila 1 
+    Silicone Case Apple Iphone Xr Azulrey 1 ok
     Silicone Case Huawei Honor Magic 7 Lite Negro 1
     Silicone Case Huawei Honor Magic 7 Lite Rojo 1
     Silicone Case Huawei Honor Magic 7 Lite Amarillo 1
@@ -194,19 +193,19 @@
     Control Tv Tv Plano 5
     Forro Armadura Xiaomi Redmi 14c Negro 1
     Forro Armadura Xiaomi Redmi note 13 pro Plus Negro 1
-    Forro Diseños Xiaomi Redmi Note 11 Dama 3ok
+    Forro DiseÃ±os Xiaomi Redmi Note 11 Dama 3ok
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Pova 4 1
-    Audifonos Bluetooth Xiaomi Redmi E7s Negro 1 
+    Audifonos Bluetooth Xiaomi Redmi E7s Negro 1 ok
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Tecno Spark Go 2024/ Spark 20c Morado 1
     CRUZAR ML osea Xiaomi 1
-    Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g Negro 1
-    Memoria Kingston Micro 4gb 5
-    Forro Dise�os Infinix Hot 50i Dama 5
-    Forro Dise�os Infinix Hot 50i Caballero 5
+    Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g Negro 1 ok
+    Memoria Kingston Micro 4gb 5 ok
+    Forro Diseños Infinix Hot 50i Dama 5
+    Forro Diseños Infinix Hot 50i Caballero 5
     Silicone Case Infinix Hot 50i 7
     Forro Space Infinix Hot 50i
-    Vidrio Tortuga Apple iPhone 12 Pro Max 5
+    Vidrio Tortuga Apple iPhone 12 Pro Max 5 ok
     Vidrio Blindado Apple iPhone 12 Pro Max 5
-    Vidrio Antiespia Apple iPhone 12 Pro Max 5
+    Vidrio Antiespia Apple iPhone 12 Pro Max 5 ok
