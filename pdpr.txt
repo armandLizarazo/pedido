@@ -29,14 +29,11 @@
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
     Adaptador Union Hdmi 3
-    Adaptador Spliter Hdmi 1 a 4 2
-    Audifonos Bluetooth M60 2 2
-    Cable Auxiliar 2 a 1 3m 2
-    Cable Auxiliar 2 a 1 1.5m 2
-    Cable Hdmi 5m 2
-    Reproductor Tv Stick Magis 1
-    Silicone Case iPhone 12 Pro Max Rosa 1
-    Silicone Case iPhone 12 Pro Max Blanco 1
-    Silicone Case Infinix Note 40 pro Lila 1
-    Silicone Case Motorola Moto Edge 50 Fusion Negro 1
-    Silicone Case Motorola Moto G20 / G30 Morado 1
+    Adaptador Spliter Hdmi 1 a 4 1
+    Adaptador Spliter Hdmi 1 a 2 1
+    Adaptador Ext Hdmi 3
+    Garantia Parlante Tg Tg-200 Roto 1
+    Garantia Parlante Tg Tg-200 Ruiido 1
+    Reproductor Onn Hd 2
+    Reproductor Onn 4k 1
+    Televisor TG 32 Pulgadas 1
