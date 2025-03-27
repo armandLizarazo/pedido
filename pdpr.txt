@@ -11,7 +11,7 @@
     Conectores Rj45 10
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Ps4 Negro 1
-    Control Tv Univesal 5
+    Control Tv Univesal 5 ok
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Memoria Musica Rap 1
@@ -28,12 +28,12 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
-    Adaptador Union Hdmi 3
+    Adaptador Union Hdmi 3 ok
     Adaptador Spliter Hdmi 1 a 4 1
     Adaptador Spliter Hdmi 1 a 2 1
-    Adaptador Ext Hdmi 3
-    Garantia Parlante Tg Tg-200 Roto 1
+    Adaptador Ext Hdmi 3 ok
+    Garantia Parlante Tg Tg-200 Roto 1 ok
     Garantia Parlante Tg Tg-200 Ruiido 1
-    Reproductor Onn Hd 2
-    Reproductor Onn 4k 1
-    Televisor TG 32 Pulgadas 1
+    Reproductor Onn Hd 2 ok
+    Reproductor Onn 4k 1 ok
+    Televisor TG 32 Pulgadas 1 ok
