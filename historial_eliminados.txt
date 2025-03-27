@@ -2028,3 +2028,59 @@ Fecha de proceso: 2025-03-24 05:45:32
 Archivo procesado: pdst.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-03-27 07:08:21
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Bluetooth Car 2 ok
+    6 | Cable Caterpillar Tc 5 ok
+    7 | Cable Caterpillat V8 5 ok
+    8 | Cable V8 Eco 5 ok ok
+    9 | Cable Tc Eco 5 ok ok
+   70 | Memoria Kingston Micro 4gb 5 ok
+   71 | Guantes Gamer 5 ok
+   72 | Silicone Case iPhone Xr Negro 1 ok
+   73 | Silicone Case Motorola Moto G54 Azuloscuro 1 ok
+   74 | Silicone Case Motorola Moto One Fusion Azulclaro 1 ok
+   75 | Silicone Case Samsung A52 Rosa 1 ok
+   76 | Silicone Case Xiaomi Redmi A1 / A2 Blanco 1  ok
+   82 | Silicone Case Apple Iphone Xr Azulrey 1 ok
+  199 | Audifonos Bluetooth Xiaomi Redmi E7s Negro 1 ok
+  203 | Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g Negro 1 ok
+  204 | Memoria Kingston Micro 4gb 5 ok
+  209 | Vidrio Tortuga Apple iPhone 12 Pro Max 5 ok
+  211 | Vidrio Antiespia Apple iPhone 12 Pro Max 5 ok
+
+==================================================
+Fecha de proceso: 2025-03-27 07:08:21
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   14 | Control Tv Univesal 5 ok
+   31 | Adaptador Union Hdmi 3 ok
+   34 | Adaptador Ext Hdmi 3 ok
+   35 | Garantia Parlante Tg Tg-200 Roto 1 ok
+   37 | Reproductor Onn Hd 2 ok
+   38 | Reproductor Onn 4k 1 ok
+   39 | Televisor TG 32 Pulgadas 1 ok
+
+==================================================
+Fecha de proceso: 2025-03-27 07:08:21
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Bateria Motorola Moto G31 / G42 1 ok
+    9 | Pacha infinix Smart 9 / Hot 50i 2 ok
+   10 | Pacha Samsung A21s 1 ok
+   11 | Pacha Xiaomi Redmi Note 9s / Note 9 Pro 2 ok
