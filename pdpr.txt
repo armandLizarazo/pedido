@@ -31,14 +31,14 @@
     Adaptador Spliter Hdmi 1 a 2 1
     Garantia Parlante Tg Tg-200 Ruido 1
     Adaptador Hub 4 Puertos 3.0 2
-    Adaptador Hdmi2av 2
-    Adaptador Hdmi2vga 2
+    Adaptador Hdmi2av 2 ok
+    Adaptador Hdmi2vga 2 
     Aro de Luz Joma 33cm Ligth 2
     Balaca Onikuma K8 1
     Balaca onikuma 1
     Base Refrigerante Doble Ventilador 1
-    Cargador 9v Doble Punta 2
-    Cargador 5v Doble Punta 2
+    Cargador 9v Doble Punta 2 ok
+    Cargador 5v Doble Punta 2 ok
     Reproductor Onn Hd 1
     Teclado Kb-502 Eco 1
 
