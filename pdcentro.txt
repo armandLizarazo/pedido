@@ -177,7 +177,7 @@
     Vidrio Ceramico Xiaomi Redmi 14C 5
     Vidrio 5d Apple iPhone 6 Plus / 7 Plus / 8 Plus Negro 5
     Cargador Cabeza Tc & Usb 20W C15 2
-    Control Tv Tv Plano 5
+    Control Tv Tv Plano 5 ok
     Forro Armadura Xiaomi Redmi 14c Negro 1
     Forro Armadura Xiaomi Redmi note 13 pro Plus Negro 1
     Forro DiseÃ±os Xiaomi Redmi Note 11 Dama 3ok
@@ -187,21 +187,21 @@
     Silicone Case Tecno Spark Go 2024/ Spark 20c Morado 1
     CRUZAR ML osea Xiaomi 1
     Forro Diseños Infinix Hot 50i Dama 5
-    Forro Diseños Infinix Hot 50i Caballero 5
+    Forro Diseños Infinix Hot 50i Caballero 5 ok
     Silicone Case Infinix Hot 50i 7
     Forro Space Infinix Hot 50i
     Vidrio Blindado Apple iPhone 12 Pro Max 5
-    Vidrio 5d Samsung A25 5
-    Vidrio Tortuga Samsung A25 5
-    Vidrio Blindado Samsung A25 5
-    Vidrio Antiespia Samsung A24 5
-    Vidrio 5d Xiaomi Redmi Note 11 5
-    Cargador Royal 45w Con Cable 3
-    Forro Space Honor Magic 5 Lite 1
-    Forro Space Vivo Y38 2
-    Silicone Case Samsung A25 Lila 1
-    Vidrio 5d Motorola Moto One 5
-    Vidrio 5d Tecno Spark 20 Pro
-    Vidrio 5d Xiaomi Redmi Note 12 5
+    Vidrio 5d Samsung A25 5 ok
+    Vidrio Tortuga Samsung A25 5 ok
+    Vidrio Blindado Samsung A25 5 ok
+    Vidrio Antiespia Samsung A24 5 ok
+    Vidrio 5d Xiaomi Redmi Note 11 5 ok
+    Cargador Royal 45w Con Cable 5 ok
+    Forro Space Honor Magic 5 Lite 1 ok
+    Forro Space Vivo Y38 2 ok
+    Silicone Case Samsung A25 Lila 1 ok
+    Vidrio Ceramico Motorola Moto One 5 ok
+    Vidrio 5d Tecno Spark 20 Pro ok
+    Vidrio 5d Xiaomi Redmi Note 12 5 ok
 
 
