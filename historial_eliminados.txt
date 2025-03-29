@@ -2083,3 +2083,60 @@ Línea  | Contenido
     9 | Pacha infinix Smart 9 / Hot 50i 2 ok
    10 | Pacha Samsung A21s 1 ok
    11 | Pacha Xiaomi Redmi Note 9s / Note 9 Pro 2 ok
+
+==================================================
+Fecha de proceso: 2025-03-29 08:23:43
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 22
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Cable Apple Tc Ligthning 5 ok
+   50 | Forro Space Mi 11T Pro 2 ok
+   61 | Parlante Kft-1645 Solar 2 ok
+   64 | Silicone Case Apple Iphone 15 Pro Lila 1 ok
+   65 | Silicone Case Apple Iphone Xr Azulrey 1 ok
+   66 | Silicone Case Apple Iphone Xr Negro 1 ok
+  115 | Forro DiseÃ±os Xiaomi Redmi Note 11 Dama 3 ok
+  120 | CRUZAR ML osea Xiaomi 1 ok
+  122 | Forro Diseños Infinix Hot 50i / Smart 9 Caballero 5 ok
+  131 | Vidrio Blindado Apple iPhone 12 Pro Max 5 ok
+  132 | Vidrio 5d Samsung A25 5 ok
+  133 | Vidrio Tortuga Samsung A25 5 ok
+  134 | Vidrio Blindado Samsung A25 5 ok
+  135 | Vidrio Antiespia Samsung A24 5 ok
+  136 | Vidrio 5d Xiaomi Redmi Note 11 5 ok
+  137 | Cargador Royal 45w Con Cable 5 ok
+  138 | Forro Space Honor Magic 5 Lite 1 ok
+  139 | Forro Space Vivo Y38 2 ok
+  140 | Silicone Case Samsung A25 Lila 1 ok
+  141 | Vidrio Ceramico Motorola Moto One 5 ok
+  142 | Vidrio 5d Tecno Spark 20 Pro ok
+  143 | Vidrio 5d Xiaomi Redmi Note 12 5 ok
+
+==================================================
+Fecha de proceso: 2025-03-29 08:23:43
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   33 | Adaptador Hdmi2av 2 ok
+   39 | Cargador 9v Doble Punta 2 ok
+   40 | Cargador 5v Doble Punta 2 ok
+
+==================================================
+Fecha de proceso: 2025-03-29 08:23:43
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Bateria Motorola Moto G31 / G42 1 ok
+    8 | Logica De Carga Xiaomi Redmi 10 1 ok
+    9 | Tapa Apple iPhone 11 Pro Max Dorado 1 ok
+   10 | Pacha Realme C11 2021 1 ok
+   11 | Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok

@@ -1,6 +1,6 @@
 import os
-from datetime import datetime
 import sys
+import platform
 
 # Configurar la codificación para la entrada/salida estándar
 if sys.stdout.encoding != 'latin-1':
@@ -28,7 +28,15 @@ class GestorInventario:
         self.crear_archivos_si_no_existen()
         print(f"\nArchivo cambiado a: {self.archivo_inventario}")
 
-    def imprimir_contenido(self, filtro_cantidad=None, operador=None):
+    def imprimir_contenido(self, filtro_cantidad=None, operador=None, palabra_clave=None):
+        """
+        Imprime el contenido del archivo de inventario, con opción de filtrar por cantidad y palabra clave.
+
+        Args:
+            filtro_cantidad (int, opcional): Cantidad para filtrar.
+            operador (str, opcional): Operador de comparación ('>', '<', '=').
+            palabra_clave (str, opcional): Palabra clave para filtrar.
+        """
         try:
             with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
                 lineas = f.readlines()
@@ -36,33 +44,29 @@ class GestorInventario:
                     print(f"\nEl archivo {self.archivo_inventario} está vacío.")
                     return 0
                 
-                # Lista para almacenar advertencias y líneas inválidas
                 advertencias = []
                 lineas_invalidas = []
                 
-                # Verificar cada línea en busca de errores
                 for i, linea in enumerate(lineas, 1):
                     linea = linea.strip()
-                    partes = linea.rsplit(' ', 1)  # Divide desde la derecha en 2 partes
+                    partes = linea.rsplit(' ', 1)
                     
                     if len(partes) == 2:
                         descripcion, cantidad = partes
                         try:
-                            cantidad = int(cantidad)  # Intenta convertir la cantidad a entero
+                            cantidad = int(cantidad)
                         except ValueError:
                             advertencias.append(f"{i}. [ADVERTENCIA] Línea inválida: {linea} (la cantidad no es un número)")
-                            lineas_invalidas.append(i - 1)  # Guarda el índice de la línea inválida
+                            lineas_invalidas.append(i - 1)
                     else:
                         advertencias.append(f"{i}. [ADVERTENCIA] Línea inválida: {linea} (formato incorrecto)")
-                        lineas_invalidas.append(i - 1)  # Guarda el índice de la línea inválida
+                        lineas_invalidas.append(i - 1)
                 
-                # Mostrar advertencias si las hay
                 if advertencias:
                     print("\n=== ADVERTENCIAS ===")
                     for advertencia in advertencias:
                         print(advertencia)
                     
-                    # Preguntar al usuario qué desea hacer
                     print("\nOpciones:")
                     print("1. Continuar (ignorar líneas inválidas)")
                     print("2. Cancelar proceso")
@@ -75,15 +79,13 @@ class GestorInventario:
                         print("Proceso cancelado.")
                         return 0
                     elif opcion == "3":
-                        # Corregir líneas inválidas
                         for indice in lineas_invalidas:
                             print(f"\nCorrigiendo línea {indice + 1}: {lineas[indice].strip()}")
                             nueva_cantidad = input("Ingrese la nueva cantidad (o presione Enter para omitir): ").strip()
                             
                             if nueva_cantidad:
                                 try:
-                                    nueva_cantidad = int(nueva_cantidad)  # Validar que sea un número
-                                    # Agrega la nueva cantidad al final de la línea sin eliminar la descripción
+                                    nueva_cantidad = int(nueva_cantidad)
                                     descripcion = lineas[indice].strip().rsplit(' ', 1)[0] if len(lineas[indice].strip().rsplit(' ', 1)) > 1 else lineas[indice].strip()
                                     lineas[indice] = f"    {descripcion} {nueva_cantidad}\n"
                                     print("Línea corregida correctamente.")
@@ -92,41 +94,77 @@ class GestorInventario:
                             else:
                                 print("La línea no fue modificada.")
                         
-                        # Guardar los cambios en el archivo
                         with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                             f.writelines(lineas)
                         print("\nCambios guardados en el archivo.")
                     else:
                         print("Opción inválida. Continuando con el proceso...")
                 
-                # Si el usuario decide continuar, imprimir el contenido válido
                 print(f"\n=== CONTENIDO DEL INVENTARIO ({self.archivo_inventario}) ===")
-                for i, linea in enumerate(lineas, 1):
-                    linea = linea.strip()
-                    partes = linea.rsplit(' ', 1)
+                if filtro_cantidad is not None and operador is not None:
+                    print("========================================")
+                    print("| Línea | Item                           | Cant |")
+                    print("========================================")
                     
-                    if len(partes) == 2:
-                        descripcion, cantidad = partes
-                        try:
-                            cantidad = int(cantidad)
-                            
-                            # Aplica el filtro si se proporciona
-                            if filtro_cantidad is not None and operador is not None:
+                    encontrado = False  # Para verificar si se encontraron elementos
+                    for i, linea in enumerate(lineas, 1):
+                        linea = linea.strip()
+                        partes = linea.rsplit(' ', 1)
+                        
+                        if len(partes) == 2:
+                            descripcion, cantidad = partes
+                            try:
+                                cantidad = int(cantidad)
+                                # Aplica el filtro
                                 if operador == ">" and cantidad > filtro_cantidad:
-                                    print(f"{i}. {descripcion} {cantidad}")
+                                    if palabra_clave:
+                                        if palabra_clave.lower() in descripcion.lower():
+                                            print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                            encontrado = True
+                                    else:
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                        encontrado = True
                                 elif operador == "<" and cantidad < filtro_cantidad:
-                                    print(f"{i}. {descripcion} {cantidad}")
+                                    if palabra_clave:
+                                        if palabra_clave.lower() in descripcion.lower():
+                                            print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                            encontrado = True
+                                    else:
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                        encontrado = True
                                 elif operador == "=" and cantidad == filtro_cantidad:
-                                    print(f"{i}. {descripcion} {cantidad}")
-                            else:
-                                print(f"{i}. {descripcion} {cantidad}")
-                        except ValueError:
-                            # Ignorar líneas inválidas (ya se mostraron en las advertencias)
+                                    if palabra_clave:
+                                        if palabra_clave.lower() in descripcion.lower():
+                                             print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                             encontrado = True
+                                    else:
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
+                                        encontrado = True
+                            except ValueError:
+                                pass
+                        else:
                             pass
-                    else:
-                        # Ignorar líneas inválidas (ya se mostraron en las advertencias)
-                        pass
-                
+                    if not encontrado:
+                        print("| No se encontraron elementos.                       |\n")
+                    print("========================================")
+                else:
+                    for i, linea in enumerate(lineas, 1):
+                        linea = linea.strip()
+                        partes = linea.rsplit(' ', 1)
+                        
+                        if len(partes) == 2:
+                            descripcion, cantidad = partes
+                            try:
+                                cantidad = int(cantidad)
+                                if palabra_clave:
+                                    if palabra_clave.lower() in descripcion.lower():
+                                        print(f"{i}. {descripcion} {cantidad}")
+                                else:
+                                    print(f"{i}. {descripcion} {cantidad}")
+                            except ValueError:
+                                pass
+                        else:
+                            pass
                 return len(lineas)
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
@@ -135,11 +173,12 @@ class GestorInventario:
             print(f"Error: No se pudo leer el archivo {self.archivo_inventario}. Posible problema de codificación.")
             return 0
 
+
     def agregar_linea(self, descripcion, cantidad):
         try:
             cantidad = int(cantidad)
             with open(self.archivo_inventario, 'a', encoding='latin-1') as f:
-                f.write(f"    {descripcion} {cantidad}\n")  # Agrega 4 espacios al inicio
+                f.write(f"    {descripcion} {cantidad}\n")
             print("\nLínea agregada correctamente.")
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
@@ -155,7 +194,7 @@ class GestorInventario:
                 lineas = f.readlines()
 
             if 1 <= numero_linea <= len(lineas):
-                lineas[numero_linea - 1] = f"    {nueva_descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                lineas[numero_linea - 1] = f"    {nueva_descripcion} {nueva_cantidad}\n"
                 
                 with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                     f.writelines(lineas)
@@ -183,10 +222,10 @@ class GestorInventario:
                     descripcion, cantidad = partes
                     try:
                         nueva_cantidad = int(cantidad) + cambio_cantidad
-                        if nueva_cantidad <0:
+                        if nueva_cantidad < 0:
                             print("\nError: La cantidad no puede ser negativa.")
                             return
-                        lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"  # Mantiene los 4 espacios
+                        lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"
                         
                         with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                             f.writelines(lineas)
@@ -221,31 +260,61 @@ class GestorInventario:
         except UnicodeDecodeError:
             print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
 
-    def filtrar_por_palabra(self, palabra):
+    def filtrar_por_palabra_y_cantidad(self, palabra, tipo_filtro_cantidad=None, cantidad=None):
+        """
+        Filtra líneas del archivo por palabra clave y/o cantidad.
+
+        Args:
+            palabra (str): Palabra clave para filtrar.
+            tipo_filtro_cantidad (str, opcional): Tipo de filtro de cantidad ('igual', 'mayor', 'menor').
+            cantidad (int, opcional): Valor de cantidad para el filtro.
+        """
         try:
             with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
-                lineas = f.readlines()            
+                lineas = f.readlines()
             if not lineas:
                 print(f"\nEl archivo {self.archivo_inventario} está vacío.")
                 return
-            
+
             palabra = palabra.lower()
             lineas_filtradas = []
-            
+
             for i, linea in enumerate(lineas, 1):
-                if palabra in linea.lower():
-                    lineas_filtradas.append((i, linea.strip()))
-            
+                linea_lower = linea.lower()
+                if palabra in linea_lower:
+                    # Intenta extraer la cantidad de la línea
+                    try:
+                         # Dividir la línea por espacios, quedándonos con el último elemento que debería ser la cantidad
+                        partes = linea.split()
+                        cantidad_str = partes[-1]
+                        cantidad_linea = int(cantidad_str)
+                    except ValueError:
+                        cantidad_linea = None
+
+                    # Aplica el filtro de cantidad si se especifica
+                    if tipo_filtro_cantidad and cantidad is not None and cantidad_linea is not None:
+                        if tipo_filtro_cantidad == 'igual' and cantidad_linea == cantidad:
+                            lineas_filtradas.append((i, linea.strip()))
+                        elif tipo_filtro_cantidad == 'mayor' and cantidad_linea > cantidad:
+                            lineas_filtradas.append((i, linea.strip()))
+                        elif tipo_filtro_cantidad == 'menor' and cantidad_linea < cantidad:
+                            lineas_filtradas.append((i, linea.strip()))
+                    elif tipo_filtro_cantidad is None or cantidad is None:
+                        # Si no hay filtro de cantidad, agrega la línea directamente
+                        lineas_filtradas.append((i, linea.strip()))
+
             if lineas_filtradas:
-                print(f"\nLíneas que contienen '{palabra}':")
+                print(f"\nLíneas que contienen '{palabra}' y cumplen con los criterios de cantidad:")
                 for num_linea, contenido in lineas_filtradas:
                     print(f"{num_linea}. {contenido}")
             else:
-                print(f"\nNo se encontraron líneas que contengan '{palabra}'")
+                print(f"\nNo se encontraron líneas que coincidan con los criterios de búsqueda.")
+
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
         except UnicodeDecodeError:
             print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
+            
 
 def mostrar_menu():
     """Muestra el menú principal"""
@@ -263,14 +332,13 @@ def mostrar_menu():
     return input("\nSeleccione una opción: ")
 
 def main():
-    # Intentar configurar la consola para latin-1
-    try:
-        # Esto funciona mejor en Windows
-        os.system("chcp 1252 > nul")
-    except:
-        pass
+    # Intentar configurar la consola para latin-1 solo en Windows
+    if platform.system() == "Windows":
+        try:
+            os.system("chcp 1252 > nul")
+        except:
+            pass
     
-    # Permitir seleccionar el archivo al inicio
     archivo_predeterminado = "bodegac.txt"
     print(f"Archivo predeterminado: {archivo_predeterminado}")
     nuevo_archivo = input("Ingrese nombre de archivo a usar (Enter para usar el predeterminado): ").strip()
@@ -282,27 +350,35 @@ def main():
         opcion = mostrar_menu()
         
         if opcion == "1":
-            gestor.imprimir_contenido()
+            palabra_clave = input("Ingrese la palabra clave para filtrar (o Enter para mostrar todo): ")
+            gestor.imprimir_contenido(palabra_clave=palabra_clave)
         
         elif opcion == "2":
             try:
-                cantidad = int(input("Ingrese la cantidad para filtrar: "))
+                # Mostrar opciones de filtro
                 print("\nSeleccione el tipo de filtro:")
                 print("1. Mayor que (>)")
                 print("2. Menor que (<)")
                 print("3. Igual a (=)")
-                filtro = input("Seleccione una opción (1-3): ").strip()
+                print("4. Todos")
+                filtro = input("Seleccione una opción (1-4): ").strip()
                 
-                operador = {
-                    "1": ">",
-                    "2": "<",
-                    "3": "="
-                }.get(filtro)
-                
-                if operador:
-                    gestor.imprimir_contenido(cantidad, operador)
+                if filtro in ("1", "2", "3"):
+                    cantidad = int(input("Ingrese la cantidad para filtrar: "))
+                    palabra_clave = input("Ingrese la palabra clave para filtrar (o Enter para mostrar todo): ")
+                    
+                    operador = {
+                        "1": ">",
+                        "2": "<",
+                        "3": "="
+                    }.get(filtro)
+                    
+                    gestor.imprimir_contenido(cantidad, operador, palabra_clave)
+                elif filtro == "4":
+                    palabra_clave = input("Ingrese la palabra clave para filtrar (o Enter para mostrar todo): ")
+                    gestor.imprimir_contenido(palabra_clave=palabra_clave)
                 else:
-                    print("Opción de filtro inválida. Debe ser 1, 2 o 3.")
+                    print("Opción de filtro inválida. Debe ser 1, 2, 3 o 4.")
             except ValueError:
                 print("Error: La cantidad debe ser un número válido")
         
@@ -353,7 +429,26 @@ def main():
         
         elif opcion == "8":
             palabra = input("Ingrese la palabra a buscar: ")
-            gestor.filtrar_por_palabra(palabra)
+            # Mostrar opciones de filtro de cantidad
+            print("\nOpciones de filtro de cantidad:")
+            print("1. Mayor que (>)")
+            print("2. Menor que (<)")
+            print("3. Igual a (=)")
+            print("4. Todos los elementos")
+            filtro_cantidad = input("Seleccione una opción (1-4): ").strip()
+            
+            if filtro_cantidad in ("1", "2", "3"):
+                cantidad_filtro = int(input("Ingrese la cantidad: "))
+                operador = {
+                    "1": ">",
+                    "2": "<",
+                    "3": "="
+                }.get(filtro_cantidad)
+                gestor.filtrar_por_palabra_y_cantidad(palabra, operador, cantidad_filtro)
+            elif filtro_cantidad == "4":
+                gestor.filtrar_por_palabra_y_cantidad(palabra)  # Llama a la función sin filtro de cantidad
+            else:
+                print("Opción de filtro de cantidad inválida. Debe ser 1, 2, 3 o 4.")
         
         elif opcion == "9":
             nuevo_archivo = input("Ingrese el nombre del nuevo archivo: ").strip()
@@ -373,3 +468,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
