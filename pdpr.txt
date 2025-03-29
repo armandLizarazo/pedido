@@ -1,4 +1,3 @@
-
     Aro De Luz Joma 26Cm Ligth X2
     Audifonos Bluetooth Ambie Pantalla 1
     Audifonos Bluetooth Apple I12 Azulclaro 3
@@ -11,7 +10,6 @@
     Conectores Rj45 10
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Ps4 Negro 1
-    Control Tv Univesal 5
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Memoria Musica Rap 1
@@ -28,10 +26,17 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
-    Adaptador Hdmi2av 2
-    Adaptador Hdmi2vga 2
-    Adpatador Av2vga 1
-    Adaptador Vga2av 1
-    Reproductor Onn Hd 2
-    Reproductor Onn 4k 1 
-    Pdpr
+    Adaptador Spliter Hdmi 1 a 4 1
+    Adaptador Spliter Hdmi 1 a 2 1
+    Garantia Parlante Tg Tg-200 Ruido 1
+    Adaptador Hub 4 Puertos 3.0 2
+    Adaptador Hdmi2av 2 ok
+    Adaptador Hdmi2vga 2 
+    Aro de Luz Joma 33cm Ligth 2
+    Balaca Onikuma K8 1
+    Balaca onikuma 1
+    Base Refrigerante Doble Ventilador 1
+    Cargador 9v Doble Punta 2 ok
+    Cargador 5v Doble Punta 2 ok
+    Reproductor Onn Hd 1
+    Teclado Kb-502 Eco 1

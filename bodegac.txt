@@ -16,7 +16,7 @@
     Adaptador Multitoma 6 Enchufes 1
     Adaptador Plug 3.5 A Media Mono 0
     Adaptador Plug 3.5 A Media St 0
-    Adaptador Spliter Hdmi 1 A 2 1
+    Adaptador Spliter Hdmi 1 A 2 0
     Adaptador Tc2Hdmi Cable 0
     Adaptador Tc2Vga 0
     Adaptador Usb2Vga Cable 0
@@ -50,12 +50,20 @@
     Bisel Motorola Moto One 0
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Boton Huella Xiaomi Poco X3 0
+<<<<<<< HEAD
     Cable Auxiliar 2 A 1 0
     Cable Belkin Tc 2M 1
     Cable Belkin Tc 3
     Cable Belkin V8 1
     Cable Caterpillar Tc 0
     Cable Caterpillar Usb Ligthning 3
+=======
+    Cable Belkin Tc 2M 1
+    Cable Belkin Tc 3
+    Cable Belkin V8 3
+    Cable Caterpillar Tc 1
+    Cable Caterpillar Usb Ligthning 0
+>>>>>>> 8915bec9d3bf617b510752f6a18cba6b5c07f4d2
     Cable Caterpillar V8 2
     Cable Dp2Dp 1.8M 1
     Cable Harvic Tc 1
@@ -94,7 +102,7 @@
     Cargador Apple 60W 2Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 3
+    Cargador Belkin Tc 8
     Cargador Belkin V8 8
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -353,7 +361,11 @@
     Parlante Tg-294 Rojo 0
     Patillera 3 En 1 2
     Pepas Hydrogel 6
+<<<<<<< HEAD
     Pilas Carbon Maxday Eco 60
+=======
+    Pilas Carbon Maxday Eco 30
+>>>>>>> 8915bec9d3bf617b510752f6a18cba6b5c07f4d2
     Pin De Carga Celular 20
     Pin De Carga Parlante 20
     Pin De Carga V8 20
@@ -465,7 +477,7 @@
     Silicone Case Motorola Moto G24 / G04 Negro 0
     Silicone Case Motorola Moto G24 / G04 Rojo 0
     Silicone Case Motorola Moto G24 / G04 Rosa 0
-    Silicone Case Motorola Moto G24 / G04 Verdemilitar 0
+    Silicone Case Motorola Moto G24 / G04 Verdemilitar 2
     Silicone Case Motorola Moto G51 Morado 1
     Silicone Case Motorola Moto G54 Morado 1
     Silicone Case Motorola Moto G60S Rojo 1
@@ -827,3 +839,65 @@
     Cable Siliconaso Zonymax Tc 3
     Mouse Eco 2
     Vidrio 5d Apple iPhone 6 Plus / 7 Plus / 8 Plus Negro 0
+<<<<<<< HEAD
+=======
+    Bateria TG T-320 0
+    Adaptador Union Hdmi 0
+    Adaptador Spliter Hdmi 1 a 4 0
+    Audifonos Bluetooth M60 2 0
+    Cable Auxiliar 2 a 1 3m 2
+    Cable Auxiliar 2 a 1 1.5m 2
+    Cable Hdmi 5m 2
+    Cable Tc eco 0
+    Cable Samsung Tc a Tc Negro 1
+    Cable Yoyos Tc 67w 0
+    Control Tv Tv Plano 0
+    Forro Armadura Xiaomi Redmi 14c Negro 0
+    Forro Armadura Xiaomi Redmi note 13 pro Plus Negro 0
+    Forro Diseños Huawei Honor X7c Dama 0
+    Forro Diseños Huawei Honor X7c Caballero 0
+    Forro Space Huawei Honor X7c 0
+    Silicone Case Huawei Honor X7c 0
+    Forro Diseños Xiaomi Redmi Note 11 Dama 0
+    Forro Diseños Xiaomi Redmi 14c Dama 0
+    Forro Diseños Xiaomi Redmi 14c Caballero 0
+    Forro Space Apple iPhone 11 0
+    Forro Space Apple iPhone 15 0
+    Forro Space Apple iPhone 6 Plus / 7 Plus / 8 Plus 1
+    Forro Space Samsung A05s 0
+    Forro Space Samsung A10s 0
+    Forro Space Samsung A24 0
+    Forro Space Samsung S24 Fe 0
+    Forro Space Tecno Pova 4 0
+    Forro Space Xiaomi Redmi Note 8 0
+    Logica De Carga Samsung A21s 0
+    Audifonos Bluetooth Xiaomi Redmi E7s Negro 0
+    Pacha Lg K61 0
+    Pacha Xiaomi Redmi Note 11 / Note 12s 0
+    Pacha Tcl 40se 0
+    Silicone Case iPhone 12 Pro Max Rosa 0
+    Silicone Case iPhone 12 Pro Max Blanco 0
+    Silicone Case Infinix Note 40 pro Lila 0
+    Silicone Case Motorola Moto Edge 50 Fusion Negro 0
+    Silicone Case Motorola Moto G20 / G30 Morado 0
+    Silicone Case Samsung A13 Verde 0
+    Silicone Case Samsung S20 Plus Rojo 0
+    Silicone Case Tecno Spark Go 2024/ Spark 20c Morado 0
+    Silicone Case Xiaomi Poco X6 5g / Redmi note 13 Pro 5g 0
+    Tapa Xiaomi Redmi Note 8 Negro 0
+    Tapa Xiaomi Redmi Note 8 Azul 0
+    Tapa Xiaomi Redmi Note 8 Blanco 0
+    Cable Samsung Tc a Tc Blanco 1
+    Parlante Ktf Ktf-1645 1
+    Reproductor Tv Stick Watch Om 1
+    Manos Libres Inears Ten Space Ts-H05 1
+    Manos Libres Inears S-2000 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Lila 1
+    Silicone Case Samsung A24 Morado 1
+    Silicone Case Samsung A24 Lila 1
+    Silicone Case Samsung A24 Amarillo 1
+    Cepillo de Dientes Electrico 1
+    Batidora Sokany Sk-6620 1
+    Plancha Babyliss Combo Nano Titanium 1
+    Mini Plancha 1
+>>>>>>> 8915bec9d3bf617b510752f6a18cba6b5c07f4d2
