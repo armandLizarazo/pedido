@@ -1,30 +1,7 @@
-    Vidrio 5D Honor 90 Lite / Infinix Hot 50 5
-    Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
-    Forro Diseños Huawei honor Magic 7 Lite Dama 5
-    Silicone Case Huaei Honor Magic 7 lite 
-    Forro Diseños Honor X6b Dama 5
-    Forro Diseños Honor X6b Caballero 5
-    Silicone Case Honor X6b
-    Forro Space Mi 11t Pro 2
-    Forro Diseños Vivo Y19s Dama 5
-    Forro Diseños Vivo Y19s Caballero 5
-    Silicone Case Xiaomi Y19s
-    Silicone Case Xiaomi Mi 11t Pro Negro 1
-    Silicone Case Xiaomi Mi 11t Pro Amarillo 1
-    Silicone Case Xiaomi Mi 11t Pro Fucsia 1
-    Silicone Case Huawei Honor X6 / X6s Morado 1
-    Silicone Case Samsung S24 Ultra Negro 1
-    Silicone Case Oppo A80 Morado 1
-    Silicone Case Huawei Honor X6 / X6s Morado 1
-    Silicone Case Xiaomi Redmi Note 11 Pro 5g Negro 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Lila 1
-    Silicone Case Xiaomi Redmi Note 12 Rojo 1
-    Silicone Case Xiaomi Redmi Note 5g Lila 1
-    Parlante KFT-1645 Solar 2    
-    Forroo Space Apple iPhone 16 1
     Cable Apple Usb Ligthning 2M 2
+    Cable Apple Tc Ligthning 5
+    Cable Belkin V8 5
     Cargador Belkin Ligthning 5
-    Cargador Belkin Tc 5
     Forro Aramdura Reno 11 Rojo 1
     Forro Aramdura X6A 1
     Forro Armadura A15 1
@@ -51,23 +28,29 @@
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1
     Forro Armadura Xiaomi Redmi Note 12 Azulrey 1
     Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1
-    Forro Cristal Apple Iphone 11 Promax 1
-    Forro Diseã±Os Infinix Hot 30 Pro 5
-    Forro Diseã±Os Infinix Hot 50 Pro Plus Caballero 5
-    Forro Diseã±Os Infinix Hot 50 Pro Plus Dama 5
-    Forro Diseã±Os Motorola Moto One Caballero 2
-    Forro Diseã±Os Oppo A17 Caballero 3
-    Forro Diseã±Os Oppo Realme C63 Caballero 5
-    Forro Diseã±Os Oppo Realme C63 Dama 5
-    Forro Diseã±Os Samsung A36 Caballero 5
-    Forro Diseã±Os Tecno Camon 30S Pro Caballero 5
-    Forro Diseã±Os Tecno Camon 30S Pro Dama 5
-    Forro Diseã±Os Vivo V25E Caballero 3
-    Forro Diseã±Os Vivo Y20S Caballero 3
+    Forro Diseños Honor X6B Caballero 5
+    Forro Diseños Honor X6B Dama 5
+    Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
+    Forro Diseños Huawei Honor Magic 7 Lite Dama 5
+    Forro Diseños Infinix Hot 30 Pro 5
+    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
+    Forro Diseños Infinix Hot 50 Pro Plus Dama 5
+    Forro Diseños Motorola Moto One Caballero 2
+    Forro Diseños Oppo A17 Caballero 3
+    Forro Diseños Oppo Realme C63 Caballero 5
+    Forro Diseños Oppo Realme C63 Dama 5
     Forro Diseños Samsung A04E Caballero 5
+    Forro Diseños Samsung A36 Caballero 5
+    Forro Diseños Tecno Camon 30S Pro Caballero 5
+    Forro Diseños Tecno Camon 30S Pro Dama 5
+    Forro Diseños Vivo V25E Caballero 3
+    Forro Diseños Vivo Y19S Caballero 5
+    Forro Diseños Vivo Y19S Dama 5
+    Forro Diseños Vivo Y20S Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
+    Forro Space Mi 11T Pro 2
     Forro Space Motorola Moto G04 1
     Forro Space Motorola Moto G50 1 
     Forro Space Oppo A80 2
@@ -77,23 +60,40 @@
     Forro Space Tecno Spark 30C 2
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Pequeã£Â±Os 2
-    Silicone Case Apple Iphone 11 Pro 1
+    Garantia Aro De Luz Pequeños 2
+    Parlante Kft-1645 Solar 2    
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Apple Iphone 15 Pro Lila 1
     Silicone Case Apple Iphone Xr Azulrey 1
     Silicone Case Apple Iphone Xr Negro 1
-    Silicone Case Apple Xr Azulrey 1
+    Silicone Case Huawei Honor Magic 7 Lite Amarillo 1
+    Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1
+    Silicone Case Huawei Honor Magic 7 Lite Azulrey 1
+    Silicone Case Huawei Honor Magic 7 Lite Fucsia 1
+    Silicone Case Huawei Honor Magic 7 Lite Lila 1
+    Silicone Case Huawei Honor Magic 7 Lite Negro 1
+    Silicone Case Huawei Honor Magic 7 Lite Rojo 1
+    Silicone Case Huawei Honor Magic 7 Lite Rosa 1
     Silicone Case Huawei Honor X8 Fucsia 1
     Silicone Case Huawei Honor X8 Morado 1
     Silicone Case Huawei Honor X8 Negro 1
     Silicone Case Huawei Nova Y70 Negro P 1
-    Silicone Case Huawei Y7A 1
+    Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
-    Silicone Case Infinix Hot 50 Pro Plus 7
+    Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
+    Silicone Case Infinix Hot 50 Pro Plus Azuloscuro 1
+    Silicone Case Infinix Hot 50 Pro Plus Azulrey 1
+    Silicone Case Infinix Hot 50 Pro Plus Fucsia 1
+    Silicone Case Infinix Hot 50 Pro Plus Lila 1
+    Silicone Case Infinix Hot 50 Pro Plus Negro 1
+    Silicone Case Infinix Hot 50 Pro Plus Rojo 1
+    Silicone Case Infinix Hot 50 Pro Plus Rosa 1
     Silicone Case Motorola Moto G04 Negro 1
+    Silicone Case Motorola Moto G20 / G30 Fucsia 1
+    Silicone Case Motorola Moto G20 / G30 Verde 1
+    Silicone Case Motorola Moto G22 Rosa 1
     Silicone Case Motorola Moto G24 Amarillo 1
     Silicone Case Motorola Moto G8 Plus Negro 1
     Silicone Case Motorola Moto One Fusion Amarillo 1
@@ -102,12 +102,14 @@
     Silicone Case Oppo A15 Rojo 1
     Silicone Case Oppo A15 Rosa 1
     Silicone Case Oppo A16 Fucsia 1
+    Silicone Case Oppo A16 Azulrey 1
     Silicone Case Oppo A36 1
     Silicone Case Oppo A59 Azulrey 1
     Silicone Case Oppo A59 Fucsia 1
     Silicone Case Oppo A59 Lila 1
+    Silicone Case Oppo A80 Morado 1
     Silicone Case Oppo A80 Rosa 1
-    Silicone Case Oppo Realme 7I Lila 1
+    Silicone Case Oppo Realme 7i Lila 1
     Silicone Case Oppo Realme C50 Morado 1
     Silicone Case Oppo Realme C53 Amarillo 1
     Silicone Case Oppo Realme C63 Amarillo 1
@@ -117,10 +119,9 @@
     Silicone Case Oppo Realme C63 Morado 1
     Silicone Case Oppo Realme C63 Negro 1
     Silicone Case Oppo Realme C63 Rojo 1
-    Silicone Case Samsung A03 Amarillo 1
-    Silicone Case Samsung A03 Lila 1
-    Silicone Case Samsung A13 Fucsia 1 
-    Silicone Case Samsung A13 Verdebiche 1
+    Silicone Case Samsung A03 Negro 1
+    Silicone Case Samsung A03 Fucsia 1
+    Silicone Case Samsung A03 Azulrey 1
     Silicone Case Samsung A25 Amarillo 1
     Silicone Case Samsung A25 Negro 1
     Silicone Case Samsung A32 5G Amarillo 1
@@ -130,6 +131,7 @@
     Silicone Case Samsung M23 Fucsia 1
     Silicone Case Samsung M23 Negro 1
     Silicone Case Samsung M23 Rojo 1
+    Silicone Case Samsung S24 Ultra Negro 1
     Silicone Case Tecno Camon 30S Pro
     Silicone Case Tecno Spark 30C Lila 1
     Silicone Case Tecno Spark 30S Morado 1
@@ -141,6 +143,9 @@
     Silicone Case Vivo Y53 Azulrey 1
     Silicone Case Vivo Y53 Fucsia 1
     Silicone Case Vivo Y53 Negro 1
+    Silicone Case Xiaomi Mi 11T Pro Amarillo 1
+    Silicone Case Xiaomi Mi 11T Pro Fucsia 1
+    Silicone Case Xiaomi Mi 11T Pro Negro 1
     Silicone Case Xiaomi Redmi 12 Rosa 1
     Silicone Case Xiaomi Redmi 14C Rosa 1 
     Silicone Case Xiaomi Redmi 8A Amarillo 1
@@ -149,16 +154,20 @@
     Silicone Case Xiaomi Redmi 8A Negro 1
     Silicone Case Xiaomi Redmi 8A Rojo 1
     Silicone Case Xiaomi Redmi 9C Fucsia 1 
-    Silicone Case Xiaomi Redmi Note 12 4G Lila 1
-    Silicone Case Xiaomi Redmi Note 12 4G Morado 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10S Lila 1
+    Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
+    Silicone Case Xiaomi Redmi Note 12 4g Lila 1
+    Silicone Case Xiaomi Redmi Note 12 4g Morado 1
+    Silicone Case Xiaomi Redmi Note 12 4g Rojo 1
+    Silicone Case Xiaomi Redmi Note 13 4g Lila 1
     Silicone Case Xiaomi Redmi Note 13 5G Rosa 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1
+    Silicone Case Xiaomi Redmi Note 5G Lila 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
-    Silicone Case Xiaomi Redmin Note 13 4G Lila 1
     Smartphone Tecno Spark 30C 1
-    Smartphone Zte Blade A34 64/6 Verde 1
+    Vidrio 5D Apple Iphone 6 Plus / 7 Plus / 8 Plus Negro 5
+    Vidrio 5D Honor 90 Lite / Infinix Hot 50 5
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A06 5
@@ -173,7 +182,5 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Vidrio Smart Watch Redondos Grandes 5
+    Vidrio Tortuga Apple Iphone 12 Pro Max 5
     Vidrio Tortuga Samsung A30S 5
-    Audifonos Bluetooth Pro 60 2
-

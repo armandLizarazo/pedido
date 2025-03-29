@@ -1,27 +1,25 @@
-    Patillera 3 En 1 2
-    Plancha Combo Babyliss 1
-    Proyector Hy-300 1
-    Humidificador Volcan 1
+
     Aro De Luz Joma 26Cm Ligth X2
     Audifonos Bluetooth Ambie Pantalla 1
     Audifonos Bluetooth Apple I12 Azulclaro 3
     Audifonos Bluetooth Apple I12 Azuloscuro 5
     Audifonos Bluetooth Apple I12 Negro 3
     Audifonos Bluetooth Apple I12 Rosa 3
-    Cable Poder Trebol 3 On
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Ps4 Negro 1
+    Control Tv Univesal 5
+    Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Memoria Musica Rap 1
     Pad Mouse Tapete DiseñOs 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Parlante Tg-294 Verdemilitar 1
-    Reproductor Onn Hd 1
+    Plancha Combo Babyliss 1
     Reproductor Proyector Con Juegos 1
     Smart Band 7 1
     Soporte Monitor Mesa 1
@@ -30,7 +28,10 @@
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
-    Control TV Univesal 5
-    Televisor TG 43 Pulgadas 1
-
-    
+    Adaptador Hdmi2av 2
+    Adaptador Hdmi2vga 2
+    Adpatador Av2vga 1
+    Adaptador Vga2av 1
+    Reproductor Onn Hd 2
+    Reproductor Onn 4k 1 
+    Pdpr
