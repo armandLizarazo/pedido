@@ -2,7 +2,7 @@
     Bateria Samsung A04E P 1
     Botones Huawei P9 Lite 1
     Flex De Power Huawei P9 Lite 1
-    Pacha Apple Iphone 8 Negro 1
+    Pacha Apple Iphone 8 Negro 1 ok
     Pacha Oppo Reno 6 Lite 1
     Pacha Xiaomi Redmi Note 10 Pro 1
     Visor Camara Xiaomi Redmi Note 10 5g 1
@@ -18,4 +18,5 @@
     Pacha Y51 1
     Pacha Xiaomi Redmi Note 11 1 ok
     Visor Camara  Xiaomi Redmi Note 10 5g
+    Pacha Samsung A21s 1
     
