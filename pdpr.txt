@@ -22,28 +22,28 @@
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Memoria Musica Rap 1
-    Pad Mouse Tapete Dise�Os 5
+    Pad Mouse Tapete Diseã±Os 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Parlante Tg-294 Verdemilitar 1
     Plancha Combo Babyliss 1
-    Reproductor Onn Hd 1
-    Reproductor Proyector Con Juegos 1
+    Reproductor Onn Hd 2 ok
+    Reproductor Proyector Con Juegos 1 ok
     Smart Band 7 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
-    Teclado Kb-502 Eco 1
+    Teclado Kb-502 Eco 1 ok
     Teclado Mecanico Gamer 1
     Termo Motivacion 1
     Adaptador Hub 4 Puertos 3.0 1
     Base Refirgente Doble Ventilador 1
     Base Refirgerante 4 Ventiladores 1
-    Cable Optico 1.5 m 2
-    Cable Optico 3m 2
-    Cable Optico 5m 1
-    Microfono Wg-800 condensador + consola 1
-    Teclado Kb-502 1
-    Teclado Cmk-188 1
-    Teclado Gamer 1 
+    Cable Optico 1.5 m 2 ok
+    Cable Optico 3m 2 ok
+    Cable Optico 5m 1 ok
+    Microfono Wg-800 condensador + consola 1 ok
+    Teclado Kb-502 1 ok
+    Teclado Cmk-188 1 ok
+    Teclado Gamer 1
