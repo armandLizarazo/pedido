@@ -102,9 +102,9 @@ class GestorInventario:
                 
                 print(f"\n=== CONTENIDO DEL INVENTARIO ({self.archivo_inventario}) ===")
                 if filtro_cantidad is not None and operador is not None:
-                    print("==================================================================")
-                    print("| Línea | Item                                                       | Cant |")
-                    print("==================================================================")
+                    print("========================================")
+                    print("| Línea | Item                           | Cant |")
+                    print("========================================")
                     
                     encontrado = False  # Para verificar si se encontraron elementos
                     for i, linea in enumerate(lineas, 1):
@@ -119,34 +119,34 @@ class GestorInventario:
                                 if operador == ">" and cantidad > filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                            print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                            print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                             encontrado = True
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                         encontrado = True
                                 elif operador == "<" and cantidad < filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                            print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                            print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                             encontrado = True
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                         encontrado = True
                                 elif operador == "=" and cantidad == filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                             print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                             print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                              encontrado = True
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {descripcion:<30} | {cantidad:<4} |")
                                         encontrado = True
                             except ValueError:
                                 pass
                         else:
                             pass
                     if not encontrado:
-                        print("| No se encontraron elementos.                                                   |\n")
-                    print("==================================================================")
+                        print("| No se encontraron elementos.                       |\n")
+                    print("========================================")
                 else:
                     for i, linea in enumerate(lineas, 1):
                         linea = linea.strip()
@@ -419,11 +419,13 @@ def main():
                     print("Error: Ingrese un número válido")
         
         elif opcion == "7":
-            try:
-                linea = int(input("\nIngrese el número de línea a eliminar: "))
-                gestor.eliminar_linea(linea)
-            except ValueError:
-                print("Error: Ingrese un número válido")
+            total_lineas = gestor.imprimir_contenido()
+            if total_lineas > 0:
+                try:
+                    linea = int(input("\nIngrese el número de línea a eliminar: "))
+                    gestor.eliminar_linea(linea)
+                except ValueError:
+                    print("Error: Ingrese un número válido")
         
         elif opcion == "8":
             palabra = input("Ingrese la palabra a buscar: ")
