@@ -11,7 +11,6 @@
     Audifonos Bluetooth Apple I12 Rosa 3
     Balaca Onikuma 1
     Balaca Onikuma K8 1
-    Base Refrigerante Doble Ventilador 1
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -35,10 +34,9 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Teclado Kb-502 Eco 1 ok
-    Teclado Mecanico Gamer 1
     Termo Motivacion 1
-    Adaptador Hub 4 Puertos 3.0 1
-    Base Refirgente Doble Ventilador 1
+    Adaptador Hub 4 Puertos 3.0 1 ok
+    Base Refirgente Doble Ventilador 1 ok
     Base Refirgerante 4 Ventiladores 1
     Cable Optico 1.5 m 2 ok
     Cable Optico 3m 2 ok
@@ -46,4 +44,4 @@
     Microfono Wg-800 condensador + consola 1 ok
     Teclado Kb-502 1 ok
     Teclado Cmk-188 1 ok
-    Teclado Gamer 1
+    Teclado Gamer 2 ok
