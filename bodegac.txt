@@ -313,7 +313,7 @@
     Forro Space Xiaomi Redmi A1 / A2 1
     Forro Space Xiaomi Redmi A3 2
     Forro Space Xiaomi Redmi Note 10 5G 2
-    Forro Space Xiaomi Redmi Note 10 Pro 1
+    Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Space Xiaomi Redmi Note 11 1
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
@@ -769,8 +769,8 @@
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rosa 1
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 1
-    Silicone Case Xiaomi Redmi Note 11 Rojo 1
+    Silicone Case Xiaomi Redmi Note 11 Negro 0
+    Silicone Case Xiaomi Redmi Note 11 Rojo 0
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Negro 1
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1

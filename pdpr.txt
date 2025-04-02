@@ -1,8 +1,4 @@
-    Adaptador Hdmi2Vga 2 
-    Adaptador Hub 4 Puertos 3.0 2
-    Adaptador Spliter Hdmi 1 A 2 1
-    Adaptador Spliter Hdmi 1 A 4 1
-    Aro De Luz Joma 26Cm Ligth X2
+        Aro De Luz Joma 26Cm Ligth X2
     Aro De Luz Joma 33Cm Ligth 2
     Audifonos Bluetooth Ambie Pantalla 1
     Audifonos Bluetooth Apple I12 Azulclaro 3
@@ -11,6 +7,7 @@
     Audifonos Bluetooth Apple I12 Rosa 3
     Balaca Onikuma 1
     Balaca Onikuma K8 1
+    Base Refirgerante 4 Ventiladores 1
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -26,22 +23,12 @@
     Parlante Tg-294 Negro 1
     Parlante Tg-294 Verdemilitar 1
     Plancha Combo Babyliss 1
-    Reproductor Onn Hd 2 ok
-    Reproductor Proyector Con Juegos 1 ok
+    Power Bank Beston 10000 Mah Bs-671 1
+    Proyector Con Juegos 1
+    Rollo Cinta Led Audioritmica Bluetooth 10M 1
     Smart Band 7 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
-    Teclado Kb-502 Eco 1 ok
     Termo Motivacion 1
-    Adaptador Hub 4 Puertos 3.0 1 ok
-    Base Refirgente Doble Ventilador 1 ok
-    Base Refirgerante 4 Ventiladores 1
-    Cable Optico 1.5 m 2 ok
-    Cable Optico 3m 2 ok
-    Cable Optico 5m 1 ok
-    Microfono Wg-800 condensador + consola 1 ok
-    Teclado Kb-502 1 ok
-    Teclado Cmk-188 1 ok
-    Teclado Gamer 2 ok

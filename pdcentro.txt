@@ -1,8 +1,11 @@
+    Audifonos Bluetooth Harvic Bt-543 Blanco 1
+    Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
+    Balacas Onikuma 2
     Cargador Samsung 45W Con Cable Blanco 2 
     Forro Armadura A15 1
     Forro Armadura A54 Negro 1
-    Forro Armadura Honor X7
+    Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
     Forro Armadura Motorola Moto Edge 50 Fusion Negro 1
     Forro Armadura Motorola Moto G22 Rojo 1
@@ -13,8 +16,10 @@
     Forro Armadura Oppo Reno 11F Negro 2
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
+    Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
     Forro Armadura Samsung A13 Negro 1
+    Forro Armadura Samsung A24 Negro 1
     Forro Armadura Samsung A35 Azulrey 1
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
@@ -31,10 +36,10 @@
     Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
     Forro Diseños Huawei Honor Magic 7 Lite Dama 5
     Forro Diseños Infinix Hot 30 Pro 5
-    Forro Diseños Infinix Note 40 Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Infinix Hot 50I / Smart 9 Dama 5
+    Forro Diseños Infinix Note 40 Caballero 5
     Forro Diseños Motorola Moto One Caballero 2
     Forro Diseños Oppo A17 Caballero 3
     Forro Diseños Oppo Realme C63 Caballero 5
@@ -43,6 +48,8 @@
     Forro Diseños Samsung A36 Caballero 5
     Forro Diseños Tecno Camon 30S Pro Caballero 5
     Forro Diseños Tecno Camon 30S Pro Dama 5
+    Forro Diseños Tecno Spark 30 Caballero 5
+    Forro Diseños Tecno Spark 30 Dama 5
     Forro Diseños Vivo V25E Caballero 3
     Forro Diseños Vivo Y19S Caballero 5
     Forro Diseños Vivo Y19S Dama 5
@@ -50,9 +57,11 @@
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
-    Forro Space Infinix Note 40 2
-    Forro Space infinix Hot 50 Pro Plus 2
+    Forro Space Honor 90 1
+    Forro Space Honor 90 Lite 1
+    Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
+    Forro Space Infinix Note 40 2
     Forro Space Motorola Moto G04 1
     Forro Space Motorola Moto G50 1 
     Forro Space Oppo A80 2
@@ -60,13 +69,21 @@
     Forro Space Samsung A36 2
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
+    Forro Space Tecno Camon 19 1
+    Forro Space Tecno Camon 30 2
     Forro Space Tecno Pova 4 1
     Forro Space Tecno Spark 30C 2
     Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeños 2
+    Mosue Inalambrico Rosa 1
+    Mouse Jertech Jr-1 Azul 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
+    Silicone Case Honor 90 Lite Amarillo 1
+    Silicone Case Honor 90 Lite Fucsia 1
+    Silicone Case Honor 90 Lite Negro 1
+    Silicone Case Honor 90 Lite Rojo 1
     Silicone Case Huawei Honor Magic 7 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1
     Silicone Case Huawei Honor Magic 7 Lite Azulrey 1
@@ -75,6 +92,7 @@
     Silicone Case Huawei Honor Magic 7 Lite Negro 1
     Silicone Case Huawei Honor Magic 7 Lite Rojo 1
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
+    Silicone Case Huawei Honor X7 Palo Rosa 1
     Silicone Case Huawei Honor X8 Fucsia 1
     Silicone Case Huawei Honor X8 Morado 1
     Silicone Case Huawei Honor X8 Negro 1
@@ -97,11 +115,17 @@
     Silicone Case Infinix Hot 50I / Smart 9 Morado 1
     Silicone Case Infinix Hot 50I / Smart 9 Negro 1
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
-    Silicone Case Infinix Note 40 Lila 1
     Silicone Case Infinix Note 40 Amarillo 1
     Silicone Case Infinix Note 40 Azul Rey 1
+    Silicone Case Infinix Note 40 Lila 1
+    Silicone Case Oppo A57 / A77 Negro 1
+    Silicone Case Samsung A05 Negro 1
+    Silicone Case Samsung A30S / A50  Negro 1
     Silicone Case Samsung S20 Plus Rojo 1
+    Silicone Case Tecno Spark 30 5
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
+    Silicone Case Xiaomi Redmi Note 11 Amarillo 1
+    Silicone Case Xiaomi Redmi Note 11 Blanco 1
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 12 4G Lila 1
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
@@ -112,12 +136,14 @@
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Smartphone Tecno Spark 30C 1
+    Soporte Cel Metalico 1
     Vidrio 5D Oppo A80 5 
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A06 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
+    Vidrio 5D Vivo Y50 10
     Vidrio 5D Xiaomi Redmi 14 5
     Vidrio Antiespia Samsung A05 5
     Vidrio Antiespia Samsung A30S 5
@@ -125,35 +151,3 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Audifonos Bluetooth Harvic Bt-543 Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Negro 1
-    Balacas Onikuma 2
-    Cable Apple Tc Ligthning 5 ok
-    Vidrio Antiespia Motorolas 25 ok
-    Forro Armadura Samsung A24 Negro 1
-    Forro Armadura Realme C53 Negro 1
-    Forro Space Apple iPhone 8 2 ok
-    Forro Space Huawei Honor Magic 5 Lite 1 ok
-    Forro Space Motorola Moto G24 1 ok
-    Forro Space Samsung A35 1 ok
-    Forro Space Tecno Camon 18p 1
-    Forro Space Tecno Camon 19 1
-    Forro Space Tecno Camon 30 2
-    Silicone Case Tecno Spark 30 5
-    Forro Diseños Tecno Spark 30 Dama 5
-    Forro Diseños Tecno Spark 30 Caballero 5
-    Manos Libres J5 negro 5 ok
-    Mouse Jertech Jr-1 Negro 1 ok
-    Mouse Jertech Jr-1 Azul 1
-    Mosue Inalambrico Rosa 1
-    Silicone Case Apple iPhone 13 Negro 1 ok
-    Silicone Case Apple iPhone 15 Negro 1 ok
-    Silicone Case Huawei Honor 90 Lite Verde 1 ok
-    Silicone Case Huawei honor X7 Palo Rosa 1
-    Silicone Case Tecno Spark Go 2023 Fucsia ok
-    Silicone Case Y27s Rojo 1 ok
-    Silicone Case Y27s Amarillo 1 ok
-    Smartphone Zte Blade A34 1 ok
-    Soporte Cel Metalico 1
-    Vidrio 5d Samsung A12 10 ok
-    Vidrio 5D Redmi Note 12 5 ok

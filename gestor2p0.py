@@ -252,7 +252,7 @@ class GestorInventario:
                 
                 with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                     f.writelines(lineas)
-                print(f"\nLínea eliminada: {linea_eliminada}")
+                print(f"\nLínea eliminada correctamente: {linea_eliminada}")
             else:
                 print("\nError: Número de línea fuera de rango.")
         except FileNotFoundError:
@@ -364,7 +364,7 @@ def main():
                 filtro = input("Seleccione una opción (1-4): ").strip()
                 
                 if filtro in ("1", "2", "3"):
-                    cantidad = int(input("Ingrese la cantidad para filtrar: "))
+                    cantidad = int(input("\nIngrese la cantidad para filtrar: "))
                     palabra_clave = input("Ingrese la palabra clave para filtrar (o Enter para mostrar todo): ")
                     
                     operador = {
@@ -388,35 +388,29 @@ def main():
             gestor.agregar_linea(descripcion, cantidad)
         
         elif opcion == "4":
-            total_lineas = gestor.imprimir_contenido()
-            if total_lineas > 0:
-                try:
-                    linea = int(input("\nIngrese el número de línea a modificar: "))
-                    descripcion = input("Ingrese la nueva descripción: ")
-                    cantidad = input("Ingrese la nueva cantidad: ")
-                    gestor.modificar_linea(linea, descripcion, cantidad)
-                except ValueError:
-                    print("Error: Ingrese un número válido")
+            try:
+                linea = int(input("\nIngrese el número de línea a modificar: "))
+                descripcion = input("Ingrese la nueva descripción: ")
+                cantidad = input("Ingrese la nueva cantidad: ")
+                gestor.modificar_linea(linea, descripcion, cantidad)
+            except ValueError:
+                print("Error: Ingrese un número válido")
         
         elif opcion == "5":
-            total_lineas = gestor.imprimir_contenido()
-            if total_lineas > 0:
-                try:
-                    linea = int(input("\nIngrese el número de línea a modificar: "))
-                    cantidad = input("Ingrese la cantidad a agregar: ")
-                    gestor.modificar_cantidad(linea, cantidad)
-                except ValueError:
-                    print("Error: Ingrese un número válido")
+            try:
+                linea = int(input("\nIngrese el número de línea a modificar: "))
+                cantidad = input("Ingrese la cantidad a agregar: ")
+                gestor.modificar_cantidad(linea, cantidad)
+            except ValueError:
+                print("Error: Ingrese un número válido")
         
         elif opcion == "6":
-            total_lineas = gestor.imprimir_contenido()
-            if total_lineas > 0:
-                try:
-                    linea = int(input("\nIngrese el número de línea a modificar: "))
-                    cantidad = input("Ingrese la cantidad a quitar: ")
-                    gestor.modificar_cantidad(linea, str(-int(cantidad)))
-                except ValueError:
-                    print("Error: Ingrese un número válido")
+            try:
+                linea = int(input("\nIngrese el número de línea a modificar: "))
+                cantidad = input("Ingrese la cantidad a quitar: ")
+                gestor.modificar_cantidad(linea, str(-int(cantidad)))
+            except ValueError:
+                print("Error: Ingrese un número válido")
         
         elif opcion == "7":
             try:

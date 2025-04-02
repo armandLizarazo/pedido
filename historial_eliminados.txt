@@ -2140,3 +2140,70 @@ Línea  | Contenido
     9 | Tapa Apple iPhone 11 Pro Max Dorado 1 ok
    10 | Pacha Realme C11 2021 1 ok
    11 | Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-01 19:46:02
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  131 | Cable Apple Tc Ligthning 5 ok
+  132 | Vidrio Antiespia Motorolas 25 ok
+  135 | Forro Space Apple iPhone 8 2 ok
+  136 | Forro Space Huawei Honor Magic 5 Lite 1 ok
+  137 | Forro Space Motorola Moto G24 1 ok
+  138 | Forro Space Samsung A35 1 ok
+  145 | Manos Libres J5 negro 5 ok
+  146 | Mouse Jertech Jr-1 Negro 1 ok
+  149 | Silicone Case Apple iPhone 13 Negro 1 ok
+  150 | Silicone Case Apple iPhone 15 Negro 1 ok
+  151 | Silicone Case Huawei Honor 90 Lite Verde 1 ok
+  153 | Silicone Case Tecno Spark Go 2023 Fucsia ok
+  154 | Silicone Case Y27s Rojo 1 ok
+  155 | Silicone Case Y27s Amarillo 1 ok
+  156 | Smartphone Zte Blade A34 1 ok
+  158 | Vidrio 5d Samsung A12 10 ok
+  159 | Vidrio 5D Redmi Note 12 5 ok
+
+==================================================
+Fecha de proceso: 2025-04-01 19:46:02
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   29 | Reproductor Onn Hd 2 ok
+   30 | Reproductor Proyector Con Juegos 1 ok
+   36 | Teclado Kb-502 Eco 1 ok
+   38 | Adaptador Hub 4 Puertos 3.0 1 ok
+   39 | Base Refirgente Doble Ventilador 1 ok
+   41 | Cable Optico 1.5 m 2 ok
+   42 | Cable Optico 3m 2 ok
+   43 | Cable Optico 5m 1 ok
+   44 | Microfono Wg-800 condensador + consola 1 ok
+   45 | Teclado Kb-502 1 ok
+   46 | Teclado Cmk-188 1 ok
+   47 | Teclado Gamer 2 ok
+
+==================================================
+Fecha de proceso: 2025-04-01 19:46:02
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Pacha Apple Iphone 8 Negro 1 ok
+    8 | Pacha Nova y60 1 ok
+    9 | Pacha Huawei Y9 Prime 1 ok
+   10 | Pacha Motorola Moto G14 / G54 1 ok
+   11 | Pacha Samsung A02s / A03 / A03s / A04e 3 ok
+   13 | Pacha Samsung J5 Prime Blanco 1 ok
+   15 | Pacha Tecno Spark 2023 1 ok
+   16 | Pacha Vivo Y21s 1 ok
+   18 | Pacha Xiaomi Redmi Note 11 1 ok
+   19 | Visor Camara  Xiaomi Redmi Note 10 5g 2 ok
+   20 | Pacha Samsung A21s 1 ok
