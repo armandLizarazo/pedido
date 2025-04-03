@@ -6,7 +6,6 @@ import platform
 if sys.stdout.encoding != 'latin-1':
     try:
         sys.stdout.reconfigure(encoding='latin-1')
-        sys.stdin.reconfigure(encoding='latin-1')
     except AttributeError:
         # Para versiones anteriores de Python que no tienen reconfigure
         pass
@@ -46,6 +45,8 @@ class GestorInventario:
                 
                 advertencias = []
                 lineas_invalidas = []
+                total_items_filtrados = 0 
+                suma_cantidades = 0
                 
                 for i, linea in enumerate(lineas, 1):
                     linea = linea.strip()
@@ -85,7 +86,7 @@ class GestorInventario:
                             
                             if nueva_cantidad:
                                 try:
-                                    nueva_cantidad = int(nueva_cantidad)
+                                    nueva_cantidad = int(nueva_cantidad)  # Validar que sea un número
                                     descripcion = lineas[indice].strip().rsplit(' ', 1)[0] if len(lineas[indice].strip().rsplit(' ', 1)) > 1 else lineas[indice].strip()
                                     lineas[indice] = f"    {descripcion} {nueva_cantidad}\n"
                                     print("Línea corregida correctamente.")
@@ -94,6 +95,7 @@ class GestorInventario:
                             else:
                                 print("La línea no fue modificada.")
                         
+                        # Guardar los cambios en el archivo
                         with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
                             f.writelines(lineas)
                         print("\nCambios guardados en el archivo.")
@@ -103,7 +105,7 @@ class GestorInventario:
                 print(f"\n=== CONTENIDO DEL INVENTARIO ({self.archivo_inventario}) ===")
                 if filtro_cantidad is not None and operador is not None:
                     print("==================================================================")
-                    print("| Línea | Item                                                       | Cant |")
+                    print("| Línea | Cant | Item                                                       |")
                     print("==================================================================")
                     
                     encontrado = False  # Para verificar si se encontraron elementos
@@ -119,27 +121,39 @@ class GestorInventario:
                                 if operador == ">" and cantidad > filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                            print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                            print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                             encontrado = True
+                                            total_items_filtrados += 1
+                                            suma_cantidades += cantidad
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                         encontrado = True
+                                        total_items_filtrados += 1
+                                        suma_cantidades += cantidad
                                 elif operador == "<" and cantidad < filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                            print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                            print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                             encontrado = True
+                                            total_items_filtrados += 1
+                                            suma_cantidades += cantidad
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                         encontrado = True
+                                        total_items_filtrados += 1
+                                        suma_cantidades += cantidad
                                 elif operador == "=" and cantidad == filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
-                                             print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                             print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                              encontrado = True
+                                             total_items_filtrados += 1
+                                             suma_cantidades += cantidad
                                     else:
-                                        print(f"| {i:<5} | {descripcion:<60} | {cantidad:<4} |")
+                                        print(f"| {i:<5} | {cantidad:<4} | {descripcion:<60} |")
                                         encontrado = True
+                                        total_items_filtrados += 1
+                                        suma_cantidades += cantidad
                             except ValueError:
                                 pass
                         else:
@@ -147,7 +161,12 @@ class GestorInventario:
                     if not encontrado:
                         print("| No se encontraron elementos.                                                   |\n")
                     print("==================================================================")
+                    print(f"Total de items filtrados: {total_items_filtrados}")
+                    print(f"Suma de cantidades: {suma_cantidades}")
                 else:
+                    print("==========================================================")
+                    print("| Línea | Cant | Item                                         |")
+                    print("==========================================================")
                     for i, linea in enumerate(lineas, 1):
                         linea = linea.strip()
                         partes = linea.rsplit(' ', 1)
@@ -157,14 +176,15 @@ class GestorInventario:
                             try:
                                 cantidad = int(cantidad)
                                 if palabra_clave:
-                                    if palabra_clave.lower() in descripcion.lower():
-                                        print(f"{i}. {descripcion} {cantidad}")
+                                     if palabra_clave.lower() in descripcion.lower():
+                                        print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                 else:
-                                    print(f"{i}. {descripcion} {cantidad}")
+                                    print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                             except ValueError:
                                 pass
                         else:
                             pass
+                    print("==========================================================")
                 return len(lineas)
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
@@ -172,7 +192,6 @@ class GestorInventario:
         except UnicodeDecodeError:
             print(f"Error: No se pudo leer el archivo {self.archivo_inventario}. Posible problema de codificación.")
             return 0
-
 
     def agregar_linea(self, descripcion, cantidad):
         try:
@@ -314,6 +333,30 @@ class GestorInventario:
             print(f"Error: No se encontró el archivo {self.archivo_inventario}")
         except UnicodeDecodeError:
             print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
+
+    def ordenar_alfabeticamente(self):
+        """Ordena alfabéticamente las líneas del archivo de inventario."""
+        try:
+            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+                lineas = f.readlines()
+            
+            if not lineas:
+                print(f"\nEl archivo {self.archivo_inventario} está vacío.")
+                return
+
+            # Ordenar las líneas alfabéticamente, ignorando mayúsculas y minúsculas
+            lineas.sort(key=lambda linea: linea.lower())
+            
+            # Sobreescribir el archivo con las líneas ordenadas
+            with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                f.writelines(lineas)
+            
+            print(f"\nEl archivo {self.archivo_inventario} ha sido ordenado alfabéticamente.")
+
+        except FileNotFoundError:
+            print(f"Error: No se encontró el archivo {self.archivo_inventario}")
+        except UnicodeDecodeError:
+            print(f"Error: No se pudo leer el archivo. Posible problema de codificación.")
             
 
 def mostrar_menu():
@@ -328,6 +371,7 @@ def mostrar_menu():
     print("7. Eliminar línea")
     print("8. Filtrar por palabra")
     print("9. Cambiar archivo de inventario")
+    print("10. Ordenar alfabéticamente")
     print("0. Salir")
     return input("\nSeleccione una opción: ")
 
@@ -448,6 +492,9 @@ def main():
                 gestor.cambiar_archivo(nuevo_archivo)
             else:
                 print("El nombre del archivo no puede estar vacío.")
+        
+        elif opcion == "10":
+            gestor.ordenar_alfabeticamente()
         
         elif opcion == "0":
             print("\n¡Hasta luego!")

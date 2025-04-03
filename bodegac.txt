@@ -1,27 +1,28 @@
     Aceitera El-093 0
     Adaptador Av2Hdmi 1
     Adaptador Av2Vga 0
-    Adaptador Dpp2Hdmi Cable 2
-    Adaptador Dpp2Vga Cable 2
+    Adaptador Dpp2Hdmi Cbl 2
+    Adaptador Dpp2Vga Cbl 2
     Adaptador Dvi2Vga 0
     Adaptador Europeo Goma 4
     Adaptador Hdmi2Av 1
     Adaptador Hdmi2Vga 1
-    Adaptador Hdmi2Vga Cable 0
-    Adaptador Hdmi2Vga Macho Cable 0
+    Adaptador Hdmi2Vga Cbl 0
+    Adaptador Hdmi2Vga Macho Cbl 0
     Adaptador Hub 4 Puertos 3.0 2
     Adaptador Hub 7 Puertos 2.0 0
     Adaptador Hub 7 Puertos 3.0 0
-    Adaptador Mdpp2Hdmi Cable 0
+    Adaptador Mdpp2Hdmi 1
+    Adaptador Mdpp2Hdmi Cbl 0
     Adaptador Multitoma 6 Enchufes 0
     Adaptador Plug 3.5 A Media Mono 0
     Adaptador Plug 3.5 A Media St 0
     Adaptador Spliter Hdmi 1 A 2 0
     Adaptador Spliter Hdmi 1 A 4 0
-    Adaptador Tc2Hdmi Cable 0
+    Adaptador Tc2Hdmi Cbl 0
     Adaptador Tc2Vga 0
     Adaptador Union Hdmi 0
-    Adaptador Usb2Vga Cable 0
+    Adaptador Usb2Vga Cbl 0
     Adaptador Vga2Av 0
     Adaptador Vga2Hdmi 1
     Aguja Extractor Sim 0
@@ -58,12 +59,13 @@
     Boton Huella Xiaomi Poco X3 0
     Cable Auxiliar 2 A 1 1.5M 2
     Cable Auxiliar 2 A 1 3M 2
+    Cable Belkin Ligthning 4
+    Cable Belkin Tc 0
     Cable Belkin Tc 2M 1
-    Cable Belkin Tc 3
     Cable Belkin V8 3
-    Cable Caterpillar Tc 1
-    Cable Caterpillar Usb Ligthning 0
-    Cable Caterpillar V8 2
+    Cable Caterpillar Tc 0
+    Cable Caterpillar Usb Ligthning 3
+    Cable Caterpillar V8 3
     Cable Dp2Dp 1.8M 1
     Cable Harvic Tc 1
     Cable Harvic V8 0
@@ -77,15 +79,14 @@
     Cable Royal Tc 2M 2
     Cable Samsung Tc A Tc Blanco 1
     Cable Samsung Tc A Tc Negro 1
-    Cable Siliconado Zonymax Tc 1
+    Cable Siliconado Zonymax Tc Blanco 3
+    Cable Siliconado Zonymax Tc Negro 3
     Cable Siliconado Zonymax V8 0
-    Cable Siliconaso Zonymax Tc 3
-    Cable Tc A Tc Eco 0
     Cable Tc Cordon Eco 0
     Cable Tc Eco 5
-    Cable Tc Eco Cordon 0
     Cable Usb Ligthning Eco 0
-    Cable V8 Eco 0
+    Cable V8 Eco 5
+    Cable We Tc 3
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 0
     Cable Yoyos Tc 3M 1
@@ -106,12 +107,11 @@
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
     Cargador Apple 5V Eco 2
-    Cargador Apple 60W 2Tc 2
-    Cargador Apple 60W 2Tc Cabeza 2
+    Cargador Apple 60w 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 8
-    Cargador Belkin V8 8
+    Cargador Belkin Tc 4
+    Cargador Belkin V8 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -145,8 +145,8 @@
     Cargador Samsung 25W V8 0
     Cargador Samsung 45W Cabeza Blanco 0
     Cargador Samsung 45W Cabeza Negro 2
-    Cargador Samsung 45W Con Cable Blanco 1
-    Cargador Samsung 45W Con Cable Negro 1
+    Cargador Samsung 45W Cbl Blanco 0
+    Cargador Samsung 45W Con Cbl Negro 1
     Cargador Samsung S10+ Tc 0
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 0
@@ -155,7 +155,7 @@
     Cargador Xiaomi 120W 0
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
-    Cargador Yl Tc 5
+    Cargador Yl Tc 2
     Cargador Yl V8 5
     Celular Nokia 105 4G 1
     Cepillo De Dientes Electrico 1
@@ -163,7 +163,7 @@
     Control Gamer Gatillos G21 1
     Control Gamer Gatillos H-9.0 1
     Control Gamer Gatillos W11+ 0
-    Control Gamer Microsoft Pc/360 Cable 0
+    Control Gamer Microsoft Pc/360 Cbl 0
     Control Gamer Sony Ps2 Inalambrico 0
     Control Gamer X3 2
     Control Keyboard Tv 1
@@ -181,10 +181,10 @@
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 0
     Forro Armadura Xiaomi Redmi 14C Negro 0
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 0
-    Forro Cargador Apple Con Estuche Azul 1
-    Forro Cargador Apple Con Estuche Morado 1
-    Forro Cargador Apple Con Estuche Naranja 1
-    Forro Cargador Apple Con Estuche Negro 0
+    Forro Crg Apple Con Estuche Azul 1
+    Forro Crg Apple Con Estuche Morado 1
+    Forro Crg Apple Con Estuche Naranja 1
+    Forro Crg Apple Con Estuche Negro 0
     Forro Diseã±Os A04E Dama 3
     Forro Diseã±Os Apple Iphone 11 Caballero 0
     Forro Diseã±Os Apple Iphone 11 Dama 0
@@ -313,7 +313,6 @@
     Forro Space Xiaomi Redmi A1 / A2 1
     Forro Space Xiaomi Redmi A3 2
     Forro Space Xiaomi Redmi Note 10 5G 2
-    Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Space Xiaomi Redmi Note 11 1
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
@@ -321,6 +320,7 @@
     Forro Space Xiaomi Redmi Note 13 4G 2
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Forro Space Xiaomi Redmi Note 8 0
+    Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Ukg Apple Iphone 11 Rojo 0
     Gramera Joyeria 1
     Gramera Sencilla 1
@@ -880,4 +880,7 @@
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
-    Adaptador Mdpp2hdmi 1
+    Cargador Yl V8 Eco 5
+    Cargador Royal 45w Tc Cbl 2
+    Cable Optico 1.5m 2
+    Cable Optico 3m 2

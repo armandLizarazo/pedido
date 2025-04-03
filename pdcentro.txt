@@ -36,9 +36,7 @@
     Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
     Forro Diseños Huawei Honor Magic 7 Lite Dama 5
     Forro Diseños Infinix Hot 30 Pro 5
-    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5 ok
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
-    Forro Diseños Infinix Hot 50I / Smart 9 Dama 5 ok
     Forro Diseños Infinix Note 40 Caballero 5
     Forro Diseños Motorola Moto One Caballero 2
     Forro Diseños Oppo A17 Caballero 3
@@ -81,9 +79,6 @@
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Honor 90 Lite Amarillo 1
-    Silicone Case Honor 90 Lite Fucsia 1 ok
-    Silicone Case Honor 90 Lite Negro 1 ok
-    Silicone Case Honor 90 Lite Rojo 1 ok
     Silicone Case Huawei Honor Magic 7 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1
     Silicone Case Huawei Honor Magic 7 Lite Azulrey 1
@@ -92,11 +87,6 @@
     Silicone Case Huawei Honor Magic 7 Lite Negro 1
     Silicone Case Huawei Honor Magic 7 Lite Rojo 1
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
-    Silicone Case Huawei Honor X7 Palo Rosa 1 ok
-    Silicone Case Huawei Honor X8 Fucsia 1 ok
-    Silicone Case Huawei Honor X8 Morado 1 ok
-    Silicone Case Huawei Honor X8 Negro 1 ok
-    Silicone Case Huawei Nova Y70 Negro 1 ok
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
@@ -110,19 +100,7 @@
     Silicone Case Infinix Hot 50 Pro Plus Rosa 1
     Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
-    Silicone Case Infinix Hot 50I / Smart 9 Fucsia 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Lila 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Verde 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Negro 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Rojo 1 ok
     Silicone Case Infinix Note 40 Amarillo 1
-    Silicone Case Infinix Note 40 Azul Rey 1 ok
-    Silicone Case Infinix Note 40 Lila 1 ok
-    Silicone Case Oppo A57 / A77 Negro 1 ok
-    Silicone Case Oppo A57 / A77 Blanco 1 ok
-    Silicone Case Samsung A05 Negro 2 ok
-    Silicone Case Samsung A30S / A50  Negro 1 ok
-    Silicone Case Samsung A30S / A50 Amarillo 1 ok
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Tecno Spark 30 5
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1

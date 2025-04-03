@@ -2207,3 +2207,60 @@ Línea  | Contenido
    18 | Pacha Xiaomi Redmi Note 11 1 ok
    19 | Visor Camara  Xiaomi Redmi Note 10 5g 2 ok
    20 | Pacha Samsung A21s 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-03 08:22:07
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 22
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   39 | Forro Diseños Infinix Hot 50 Pro Plus Caballero 5 ok
+   41 | Forro Diseños Infinix Hot 50I / Smart 9 Dama 5 ok
+   84 | Silicone Case Honor 90 Lite Fucsia 1 ok
+   85 | Silicone Case Honor 90 Lite Negro 1 ok
+   86 | Silicone Case Honor 90 Lite Rojo 1 ok
+   95 | Silicone Case Huawei Honor X7 Palo Rosa 1 ok
+   96 | Silicone Case Huawei Honor X8 Fucsia 1 ok
+   97 | Silicone Case Huawei Honor X8 Morado 1 ok
+   98 | Silicone Case Huawei Honor X8 Negro 1 ok
+   99 | Silicone Case Huawei Nova Y70 Negro 1 ok
+  113 | Silicone Case Infinix Hot 50I / Smart 9 Fucsia 1 ok
+  114 | Silicone Case Infinix Hot 50I / Smart 9 Lila 1 ok
+  115 | Silicone Case Infinix Hot 50I / Smart 9 Verde 1 ok
+  116 | Silicone Case Infinix Hot 50I / Smart 9 Negro 1 ok
+  117 | Silicone Case Infinix Hot 50I / Smart 9 Rojo 1 ok
+  119 | Silicone Case Infinix Note 40 Azul Rey 1 ok
+  120 | Silicone Case Infinix Note 40 Lila 1 ok
+  121 | Silicone Case Oppo A57 / A77 Negro 1 ok
+  122 | Silicone Case Oppo A57 / A77 Blanco 1 ok
+  123 | Silicone Case Samsung A05 Negro 2 ok
+  124 | Silicone Case Samsung A30S / A50  Negro 1 ok
+  125 | Silicone Case Samsung A30S / A50 Amarillo 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-03 08:22:07
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   20 | Memoria Musica Rap 1 ok
+   27 | Power Bank Beston 10000 Mah Bs-671 1 ok
+   28 | Proyector Con Juegos 1 ok
+   29 | Rollo Cinta Led Audioritmica Bluetooth 10M 2 ok
+
+==================================================
+Fecha de proceso: 2025-04-03 08:22:07
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Flex De Power Huawei P9 Lite 1 ok
+    6 | Logica De Carga Samsung A35 1 ok
+    8 | Pacha Oppo A57 / A77 1 ok
+   14 | Pacha Xiaomi Redmi Note 11 / Note 12S Amoled 1 ok
