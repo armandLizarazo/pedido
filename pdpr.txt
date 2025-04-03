@@ -17,15 +17,16 @@
     Garantia Parlante Tg Tg-200 Ruido 1
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
-    Memoria Musica Rap 1
+    Memoria Musica Rap 1 ok
     Pad Mouse Tapete Diseã±Os 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Parlante Tg-294 Verdemilitar 1
+    Parlante Barra De Sonido 2
     Plancha Combo Babyliss 1
-    Power Bank Beston 10000 Mah Bs-671 1
-    Proyector Con Juegos 1
-    Rollo Cinta Led Audioritmica Bluetooth 10M 1
+    Power Bank Beston 10000 Mah Bs-671 1 ok
+    Proyector Con Juegos 1 ok
+    Rollo Cinta Led Audioritmica Bluetooth 10M 2 ok
     Smart Band 7 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
