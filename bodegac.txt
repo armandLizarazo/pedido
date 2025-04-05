@@ -71,7 +71,7 @@
     Cable Harvic V8 0
     Cable Hdmi 1.5M Eco 0
     Cable Hdmi 5M 2
-    Cable Motorola Tc A Tc 2
+    Cable Motorola Tc A Tc 1
     Cable Poder Cuadrado 3
     Cable Poder Grabadora 3
     Cable Poder Trebol 3
@@ -318,7 +318,7 @@
     Forro Space Xiaomi Redmi Note 12 Pro 1
     Forro Space Xiaomi Redmi Note 12S 3
     Forro Space Xiaomi Redmi Note 13 4G 2
-    Forro Space Xiaomi Redmi Note 13 Pro 4G 1
+    Forro Space Xiaomi Redmi Note 13 Pro 4G 0
     Forro Space Xiaomi Redmi Note 8 0
     Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Ukg Apple Iphone 11 Rojo 0

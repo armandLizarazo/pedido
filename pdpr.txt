@@ -1,4 +1,4 @@
-        Aro De Luz Joma 26Cm Ligth X2
+    Aro De Luz Joma 26Cm Ligth X2
     Aro De Luz Joma 33Cm Ligth 2
     Audifonos Bluetooth Ambie Pantalla 1
     Audifonos Bluetooth Apple I12 Azulclaro 3
@@ -15,6 +15,7 @@
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Ps4 Negro 1
     Garantia Parlante Tg Tg-200 Ruido 1
+    Garantia Microfono con Consola No Sirve 1
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Pad Mouse Tapete Diseã±Os 5
@@ -29,3 +30,7 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
+    Cargador Pc Puntas Caja Blanca 2
+    Consola Sup con Control Negro 1
+    Consola Sup con Control Azul 1
+    Consola Sup con Control Rosa 1
