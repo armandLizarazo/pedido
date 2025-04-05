@@ -55,8 +55,8 @@
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
-    Forro Space Honor 90 1
-    Forro Space Honor 90 Lite 1
+    Forro Space Honor 90 1 ok
+    Forro Space Honor 90 Lite 1 ok
     Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Infinix Note 40 2
@@ -131,15 +131,16 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Cable Belkin Tc 5
-    Cable Usb Ligthning Eco 5
-    Forro Diseños Xiaomi Redmi 9a Dama 4
-    Forro Space Motorola Moto G20 / G30 1
-    Manos Libres Xiaomi Tc 1
-    Silicone Case Apple iPhone 11 VerdeMilitar 1
-    Silicone Case Oppo A38 Rojo 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Negro 1
-    Vidrio Templado Xiaomi Redmi 13c 5
-    Vidrio Templado Samsung A21s 5
-    Forro Space Xiaomi Redmi Note 13 Pro Plus 1
+    Cable Belkin Tc 5 ok
+    Cable Usb Ligthning Eco 5 ok
+    Forro Diseños Xiaomi Redmi 9a Dama 3 ok
+    Forro Space Motorola Moto G20 / G30 1 ok
+    Manos Libres Tc 2 ok
+    Forro Space Tecno Spark 30 Pro 2 ok
+    Silicone Case Apple iPhone 11 VerdeMilitar 1 ok
+    Silicone Case Oppo A38 Rojo 1 ok
+    Silicone Case Xiaomi Redmi Note 10 / Note 10s Negro 1 ok
+    Vidrio Templado Xiaomi Redmi 13c 5 ok
+    Vidrio Templado Samsung A21s 5 ok
+    Forro Space Xiaomi Redmi Note 13 Pro Plus 1 ok
     Silicone Case Xiaomi Redmi Note 11 Amarillo 1
