@@ -3,12 +3,9 @@
     Audifonos Bluetooth Pro 60 2
     Balacas Onikuma 2
     Cargador Samsung 45W Con Cable Blanco 2 
-    Forro Armadura A15 1 ok
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
-    Forro Armadura Motorola Moto Edge 50 Fusion Negro 1 ok
-    Forro Armadura Motorola Moto G22 Rojo 1 ok
     Forro Armadura Motorola Moto G23 Verde 1
     Forro Armadura Motorola Moto G24 Negro 1 
     Forro Armadura Oppo A15 Negro 1
@@ -18,25 +15,17 @@
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
-    Forro Armadura Samsung A13 Negro 1 ok
-    Forro Armadura Samsung A24 Negro 1 ok 
     Forro Armadura Samsung A35 Azulrey 1
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Tecno Camon Negro 1
-    Forro Armadura Tecno Spark Go 2024 Azulrey 1 ok
-    Forro Armadura Xiamoi Redmi Note 12 Negro 1 ok
-    Forro Armadura Xiaomi Redmi 14C Negro 1 ok
-    Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1 ok
-    Forro Armadura Xiaomi Redmi Note 12 Azulrey 1 ok
-    Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1 ok
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
     Forro Diseños Honor X6B Caballero 5
     Forro Diseños Honor X6B Dama 5
     Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
     Forro Diseños Huawei Honor Magic 7 Lite Dama 5
-    Forro Diseños Infinix Hot 30 Pro Dama 5
     Forro Diseños Infinix Hot 30 Pro Caballero 5
+    Forro Diseños Infinix Hot 30 Pro Dama 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Infinix Note 40 Caballero 5
     Forro Diseños Motorola Moto One Caballero 2
@@ -56,8 +45,6 @@
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
-    Forro Space Honor 90 1 ok
-    Forro Space Honor 90 Lite 1 ok
     Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Infinix Note 40 2
@@ -132,16 +119,5 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Cable Belkin Tc 5 ok
-    Cable Usb Ligthning Eco 5 ok
-    Forro Diseños Xiaomi Redmi 9a Dama 3 ok
-    Forro Space Motorola Moto G20 / G30 1 ok
-    Manos Libres Tc 2 ok
-    Forro Space Tecno Spark 30 Pro 2 ok
-    Silicone Case Apple iPhone 11 VerdeMilitar 1 ok
-    Silicone Case Oppo A38 Rojo 1 ok
-    Silicone Case Xiaomi Redmi Note 10 / Note 10s Negro 1 ok
-    Vidrio Templado Xiaomi Redmi 13c 5 ok
-    Vidrio Templado Samsung A21s 5 ok
-    Forro Space Xiaomi Redmi Note 13 Pro Plus 1 ok
-    Silicone Case Xiaomi Redmi Note 11 Amarillo 1
+    Silicone Case Xiaomi Redmi Note 11 Rosa 1
+    Silicone Case Xiaomi Redmi 10 Morado 1

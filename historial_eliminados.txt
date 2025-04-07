@@ -2264,3 +2264,74 @@ Línea  | Contenido
     6 | Logica De Carga Samsung A35 1 ok
     8 | Pacha Oppo A57 / A77 1 ok
    14 | Pacha Xiaomi Redmi Note 11 / Note 12S Amoled 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-06 22:52:32
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 25
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Forro Armadura A15 1 ok
+   10 | Forro Armadura Motorola Moto Edge 50 Fusion Negro 1 ok
+   11 | Forro Armadura Motorola Moto G22 Rojo 1 ok
+   21 | Forro Armadura Samsung A13 Negro 1 ok
+   22 | Forro Armadura Samsung A24 Negro 1 ok
+   27 | Forro Armadura Tecno Spark Go 2024 Azulrey 1 ok
+   28 | Forro Armadura Xiamoi Redmi Note 12 Negro 1 ok
+   29 | Forro Armadura Xiaomi Redmi 14C Negro 1 ok
+   30 | Forro Armadura Xiaomi Redmi Note 10 / Note 10S Azul 1 ok
+   31 | Forro Armadura Xiaomi Redmi Note 12 Azulrey 1 ok
+   32 | Forro Armadura Xiaomi Redmi Note 13 Pro 4G Negro 1 ok
+   59 | Forro Space Honor 90 1 ok
+   60 | Forro Space Honor 90 Lite 1 ok
+  135 | Cable Belkin Tc 5 ok
+  136 | Cable Usb Ligthning Eco 5 ok
+  137 | Forro Diseños Xiaomi Redmi 9a Dama 3 ok
+  138 | Forro Space Motorola Moto G20 / G30 1 ok
+  139 | Manos Libres Tc 2 ok
+  140 | Forro Space Tecno Spark 30 Pro 2 ok
+  141 | Silicone Case Apple iPhone 11 VerdeMilitar 1 ok
+  142 | Silicone Case Oppo A38 Rojo 1 ok
+  143 | Silicone Case Xiaomi Redmi Note 10 / Note 10s Negro 1 ok
+  144 | Vidrio Templado Xiaomi Redmi 13c 5 ok
+  145 | Vidrio Templado Samsung A21s 5 ok
+  146 | Forro Space Xiaomi Redmi Note 13 Pro Plus 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-06 22:52:32
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   17 | Garantia Parlante Tg Tg-200 Ruido 1 ok
+   24 | Parlante Tg-294 Verdemilitar 1 ok
+   25 | Parlante Barra De Sonido 2 ok
+   34 | Consola Sup con Control Negro 1 ok
+   35 | Consola Sup con Control Rojo 1 ok
+   36 | Consola Sup con Control Rosa 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-06 22:52:32
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Cambiar Huella Moto G20 1 ok
+    8 | Pacha Tecno Camon 18P 1 ok
+   11 | Bateria Xiaomi RedmiNote 9s 1 ok
+   12 | Pacha Xiaomi Redmi Note 12 1 ok
+   13 | Logica de Carga Tecno Pova 2 1 ok
+   14 | Pin de Carga Tableta V8 5 ok
+   15 | Bateria Xiaomi Redmi Note 12 1 ok
+   16 | Pacha Tecno Pova 4 2 ok
+   17 | Pacha Samsung A02s / A03 / A03s / A04e 2 ok
+   18 | Pacha Huawei Honor X7b 2 ok
+   19 | Pacha Samsung A21s 1 ok
+   20 | Pacha Samsung A02s c/m 1 ok
+   21 | Bateria Apple iPhone 11 ok
