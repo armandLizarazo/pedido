@@ -2,7 +2,8 @@
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
     Balacas Onikuma 2
-    Cargador Samsung 45W Con Cable Blanco 2 
+    Cargador Samsung 45W Con Cable Blanco 2
+    Cable Usb Ligthning Eco 5 ok
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
@@ -92,15 +93,23 @@
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Tecno Spark 30 5
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
-    Silicone Case Xiaomi Redmi Note 11 Amarillo 1
-    Silicone Case Xiaomi Redmi Note 11 Blanco 1
+    Silicone Case Tecno Camon 30s Fucsia 1 ok
+    Silicone Case Tecno Camon 30s Morado 1 ok
+    Silicone Case Tecno Camon 30s Lila 1 ok
+    Silicone Case Tecno Camon 30s Negro 1
+    Silicobe case Tecno Camon 30s Rojo 1
+    Silicone Caae Tecno Camon 30s Amarillo 1
+    Silicone Case Tecno Camon 30s Azulrey 1
+    Silicone Case Xiaomi Redmi Note 11 Amarillo 1 ok
+    Silicone Case Xiaomi Redmi Note 11 Blanco 1 ok
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
-    Silicone Case Xiaomi Redmi Note 12 4G Lila 1
+    Silicone Case Xiaomi Redmi Note 12 4G Lila 1 ok
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
-    Silicone Case Xiaomi Redmi Note 12 Rojo 1
+    Silicone Case Xiaomi Redmi Note 12 Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1
-    Silicone Case Xiaomi Redmi Note 5G Lila 1
+    Silicone Case Xiaomi Redmi Note 13 Pro plus Negro 1 ok
+    Silicone Case Xiaomi Redmi Note 13 5G Lila 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Smartphone Tecno Spark 30C 1
@@ -119,5 +128,5 @@
     Vidrio Ceramico Oppo A79 5
     Vidrio Ceramico Samsung A6 / J6 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Silicone Case Xiaomi Redmi Note 11 Rosa 1
-    Silicone Case Xiaomi Redmi 10 Morado 1
+    Silicone Case Xiaomi Redmi Note 11 Rosa 2 ok
+    Silicone Case Xiaomi Redmi 10 Morado 1 ok
