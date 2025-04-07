@@ -13,7 +13,7 @@
     Forro Armadura Motorola Moto G24 Negro 1 
     Forro Armadura Oppo A15 Negro 1
     Forro Armadura Oppo A57 Rojo 1
-    Forro Armadura Oppo Reno 11F Negro 2
+    Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
@@ -35,7 +35,8 @@
     Forro Diseños Honor X6B Dama 5
     Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
     Forro Diseños Huawei Honor Magic 7 Lite Dama 5
-    Forro Diseños Infinix Hot 30 Pro 5
+    Forro Diseños Infinix Hot 30 Pro Dama 5
+    Forro Diseños Infinix Hot 30 Pro Caballero 5
     Forro Diseños Infinix Hot 50 Pro Plus Dama 5
     Forro Diseños Infinix Note 40 Caballero 5
     Forro Diseños Motorola Moto One Caballero 2
