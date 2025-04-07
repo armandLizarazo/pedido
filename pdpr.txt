@@ -14,15 +14,15 @@
     Conectores Rj45 10
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Ps4 Negro 1
-    Garantia Parlante Tg Tg-200 Ruido 1
-    Garantia Microfono con Consola No Sirve 1
+    Garantia Parlante Tg Tg-200 Ruido 1 ok
+    Garantia Microfono con Consola No Sirve P 1
     Humidificador Volcan 1
     Lampara Esfera Sistema Solar 1
     Pad Mouse Tapete Diseã±Os 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
-    Parlante Tg-294 Verdemilitar 1
-    Parlante Barra De Sonido 2
+    Parlante Tg-294 Verdemilitar 1 ok
+    Parlante Barra De Sonido 2 ok
     Plancha Combo Babyliss 1
     Smart Band 7 1
     Soporte Monitor Mesa 1
@@ -31,6 +31,6 @@
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
     Cargador Pc Puntas Caja Blanca 2
-    Consola Sup con Control Negro 1
-    Consola Sup con Control Azul 1
-    Consola Sup con Control Rosa 1
+    Consola Sup con Control Negro 1 ok
+    Consola Sup con Control Rojo 1 ok
+    Consola Sup con Control Rosa 1 ok
