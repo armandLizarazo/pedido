@@ -1,14 +1,14 @@
 
     Bateria Samsung A04E P 1
     Botones Huawei Mate 9 Lite 1
-    Pacha Motorola Moto G20 1 
+    Pacha Motorola Moto G20 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
     Pacha Vivo Y51 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Xiaomi Redmi 10 1
-    Pacha Huawei Honor X7b 1
+    Pacha Xiaomi Redmi 10 1 ok
+    Pacha Huawei Honor X7b 1 ok
     Pacha Tecno Camon 18p 1
-    Bandeja Mate 9 Lite 1
-    Flex de Power Mate 9 Lite 1
+    Bandeja Mate 9 Lite 1 ok
+    Flex de Power Mate 9 Lite 1 ok
     
