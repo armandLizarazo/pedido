@@ -1,9 +1,8 @@
-    Audifonos Bluetooth Harvic Bt-543 Blanco 1
+    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
     Balacas Onikuma 2
     Cargador Samsung 45W Con Cable Blanco 2
-    Cable Usb Ligthning Eco 5 ok
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
@@ -50,21 +49,18 @@
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Infinix Note 40 2
     Forro Space Motorola Moto G04 1
-    Forro Space Motorola Moto G50 1 
+    Forro Motorola Moto G50 1
     Forro Space Oppo A80 2
-    Forro Space Oppo Realme C63 2
     Forro Space Samsung A36 2
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Tecno Camon 19 1
-    Forro Space Tecno Camon 30 2
-    Forro Space Tecno Pova 4 1
     Forro Space Tecno Spark 30C 2
-    Forro Space Vivo V38 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeños 2
     Mosue Inalambrico Rosa 1
     Mouse Jertech Jr-1 Azul 1
+    Silicobe Case Tecno Camon 30S Rojo 1
+    Silicone Caae Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Honor 90 Lite Amarillo 1
@@ -91,34 +87,18 @@
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Note 40 Amarillo 1
     Silicone Case Samsung S20 Plus Rojo 1
-    Silicone Case Tecno Spark 30 5
+    Silicone Case Tecno Camon 30S Azulrey 1
+    Silicone Case Tecno Camon 30S Negro 1
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
-    Silicone Case Tecno Camon 30s Fucsia 1 ok
-    Silicone Case Tecno Camon 30s Morado 1 ok
-    Silicone Case Tecno Camon 30s Lila 1 ok
-    Silicone Case Tecno Camon 30s Negro 1
-    Silicobe case Tecno Camon 30s Rojo 1
-    Silicone Caae Tecno Camon 30s Amarillo 1
-    Silicone Case Tecno Camon 30s Azulrey 1
-    Silicone Case Xiaomi Redmi Note 11 Amarillo 1 ok
-    Silicone Case Xiaomi Redmi Note 11 Blanco 1 ok
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
-    Silicone Case Xiaomi Redmi Note 12 4G Lila 1 ok
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
-    Silicone Case Xiaomi Redmi Note 12 Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1
-    Silicone Case Xiaomi Redmi Note 13 Pro plus Negro 1 ok
-    Silicone Case Xiaomi Redmi Note 13 5G Lila 1 ok
-    Silicoen Case Xiaomi Redmi note 14 5G colores 5 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Smartphone Tecno Spark 30C 1
     Soporte Cel Metalico 1
-    Vidrio camara redmi 14 de todos 10
-    Vidrio 5D Oppo A80 5 
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Samsung A06 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
@@ -127,8 +107,5 @@
     Vidrio Antiespia Samsung A05 5
     Vidrio Antiespia Samsung A30S 5
     Vidrio Blindado Sasmung A30S 5
-    Vidrio Ceramico Oppo A79 5
-    Vidrio Ceramico Samsung A6 / J6 5
+    Vidrio Camara Redmi 14 De Todos 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Silicone Case Xiaomi Redmi Note 11 Rosa 2 ok
-    Silicone Case Xiaomi Redmi 10 Morado 1 ok

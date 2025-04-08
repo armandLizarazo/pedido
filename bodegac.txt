@@ -72,6 +72,8 @@
     Cable Hdmi 1.5M Eco 0
     Cable Hdmi 5M 2
     Cable Motorola Tc A Tc 1
+    Cable Optico 1.5M 2
+    Cable Optico 3M 2
     Cable Poder Cuadrado 3
     Cable Poder Grabadora 3
     Cable Poder Trebol 3
@@ -107,7 +109,7 @@
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
     Cargador Apple 5V Eco 2
-    Cargador Apple 60w 2P Tc Cabeza 2
+    Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
     Cargador Belkin Tc 4
@@ -140,6 +142,7 @@
     Cargador Pluying X8 Modulador 12-24V 3.1A 0
     Cargador Pluying X8 Modulador 3.1A 0
     Cargador Realme Tc 65W 0
+    Cargador Royal 45W Tc Cbl 2
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Samsung 25W Cabeza Negro 0
     Cargador Samsung 25W V8 0
@@ -157,6 +160,7 @@
     Cargador Xiaomi Usb Tc 67W 0
     Cargador Yl Tc 2
     Cargador Yl V8 5
+    Cargador Yl V8 Eco 5
     Celular Nokia 105 4G 1
     Cepillo De Dientes Electrico 1
     Consola Game Sitck 2
@@ -880,7 +884,3 @@
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
     Vidrio Tortuga Xiaomi Redmi 13C 2
     Vidrio Tortuga Xiaomi Redmi Note 11 10
-    Cargador Yl V8 Eco 5
-    Cargador Royal 45w Tc Cbl 2
-    Cable Optico 1.5m 2
-    Cable Optico 3m 2
