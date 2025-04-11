@@ -20,28 +20,28 @@
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Tecno Camon Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
-    Forro Diseños Honor X6B Caballero 5
-    Forro Diseños Honor X6B Dama 5
-    Forro Diseños Huawei Honor Magic 7 Lite Caballero 5
-    Forro Diseños Huawei Honor Magic 7 Lite Dama 5
-    Forro Diseños Infinix Hot 30 Pro Caballero 5
-    Forro Diseños Infinix Hot 30 Pro Dama 5
-    Forro Diseños Infinix Hot 50 Pro Plus Dama 5
-    Forro Diseños Infinix Note 40 Caballero 5
-    Forro Diseños Motorola Moto One Caballero 2
-    Forro Diseños Oppo A17 Caballero 3
-    Forro Diseños Oppo Realme C63 Caballero 5
-    Forro Diseños Oppo Realme C63 Dama 5
-    Forro Diseños Samsung A04E Caballero 5
-    Forro Diseños Samsung A36 Caballero 5
-    Forro Diseños Tecno Camon 30S Pro Caballero 5
-    Forro Diseños Tecno Camon 30S Pro Dama 5
-    Forro Diseños Tecno Spark 30 Caballero 5
-    Forro Diseños Tecno Spark 30 Dama 5
-    Forro Diseños Vivo V25E Caballero 3
-    Forro Diseños Vivo Y19S Caballero 5
-    Forro Diseños Vivo Y19S Dama 5
-    Forro Diseños Vivo Y20S Caballero 3
+    Forro DiseÃ±os Honor X6B Caballero 5
+    Forro DiseÃ±os Honor X6B Dama 5
+    Forro DiseÃ±os Huawei Honor Magic 7 Lite Caballero 5
+    Forro DiseÃ±os Huawei Honor Magic 7 Lite Dama 5
+    Forro DiseÃ±os Infinix Hot 30 Pro Caballero 5
+    Forro DiseÃ±os Infinix Hot 30 Pro Dama 5
+    Forro DiseÃ±os Infinix Hot 50 Pro Plus Dama 5
+    Forro DiseÃ±os Infinix Note 40 Caballero 5
+    Forro DiseÃ±os Motorola Moto One Caballero 2
+    Forro DiseÃ±os Oppo A17 Caballero 3
+    Forro DiseÃ±os Oppo Realme C63 Caballero 5
+    Forro DiseÃ±os Oppo Realme C63 Dama 5
+    Forro DiseÃ±os Samsung A04E Caballero 5
+    Forro DiseÃ±os Samsung A36 Caballero 5
+    Forro DiseÃ±os Tecno Camon 30S Pro Caballero 5
+    Forro DiseÃ±os Tecno Camon 30S Pro Dama 5
+    Forro DiseÃ±os Tecno Spark 30 Caballero 5
+    Forro DiseÃ±os Tecno Spark 30 Dama 5
+    Forro DiseÃ±os Vivo V25E Caballero 3
+    Forro DiseÃ±os Vivo Y19S Caballero 5
+    Forro DiseÃ±os Vivo Y19S Dama 5
+    Forro DiseÃ±os Vivo Y20S Caballero 3
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
@@ -56,7 +56,7 @@
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Spark 30C 2
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Pequeños 2
+    Garantia Aro De Luz PequeÃ±os 2
     Mosue Inalambrico Rosa 1
     Mouse Jertech Jr-1 Azul 1
     Silicobe Case Tecno Camon 30S Rojo 1
@@ -109,32 +109,33 @@
     Vidrio Blindado Sasmung A30S 5
     Vidrio Camara Redmi 14 De Todos 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Vidrio 5d Huawei Y7 2019 5
+    Vidrio 5d Huawei Y7 2019 5 ok
     Silicone Case Huawei Y7 2019 Rojo 1
-    Forro Dise�os Xiaomi Redmi Note 9 Dama 5
-    Soporte Celular Pinza 3
-    Vidrio Blindado Samsung A16 5
-    Vidrio Antiespia Samsung A16 5
+    Forro Diseños Xiaomi Redmi Note 9 Dama 5 ok
+    Soporte Celular Pinza 3 ok 
+    Vidrio Blindado Samsung A16 5 ok
+    Vidrio Antiespia Samsung A16 5 ok
     Silicone Case Samsung A16 Rojo 1
     Silicone Case Samsung A16 Amarillo 1
-    Silicone Case Samsung A16 Lila 1
-    Adaptador Otg Tc 3
+    Silicone Case Samsung A16 Lila 1 ok
+    Adaptador Otg Tc 3 ok
     Audifonos Bluetooth Xiaomi E7s Blanco 1
     Audifonos Bluetooth Xiaomi E7s Azul 1
-    Cable Belkin Tc 10
-    Cable V8 Eco 5
+    Cable Belkin Tc 5 ok
+    Cable V8 Eco 5 ok
+    Cable Caterpillar v8 3 ok
     Forro Armadura Samsung A16 Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
-    Mouse Gamer Inalambrico 1
-    Parlante Mini 1
+    Mouse Gamer Inalambrico 1 ok
+    Parlante Mini 1 ok
     Silicone Case Huawei honor X8b Azulrey 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y9a Azul Rey 1
     Silicone Case Huawei Y9z Amarillo 1
     Silicone Case Huawei Oppo A17 Verdemilitar 1
-    Silicone Case Oppo Realme C55 Lila 1
-    Silicone Case Samsung A16 Azuloscuro 1
-    Silicone Case Samsung A31 Lila 1
+    Silicone Case Oppo Realme C55 Lila 1 ok
+    Silicone Case Samsung A16 Azuloscuro 1 ok
+    Silicone Case Samsung A31 Lila 1 ok
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Vivo V25 Pro Rojo
     Silicone Case Vivo V25 Pro Amarillo 1
