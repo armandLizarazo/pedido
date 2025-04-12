@@ -7,11 +7,12 @@
     Pacha Tecno Camon 18P 1
     Pacha Vivo Y51 1 ok
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Bateria Huawei Y9a 1 
-    Tapa Huawei Y9a Azul 1 ok
-    Caja de Timbres Redmi 13c 1
-    Pacha Huawei P10 Lite 1
-    Caja de Timbres Xiaomi Redmi Note 8 1
-    Pacha Moto One Fusion 1
-    Pacha Xiaomi Redmi 10c 1
+    Bateria Huawei Y9a 1 ok
+    Tapa Huawei Y9a Azul 1 ok ok
+    Caja de Timbres Redmi 13c 1 ok
+    Pacha Huawei P10 Lite 1 ok
+    Caja de Timbres Xiaomi Redmi Note 8 1 ok
+    Pacha Moto One Fusion 1 ok
+    Pacha Xiaomi Redmi 10c 1 ok
+    Huella Xiaomi Redmi Note 10 / Note 10s ok
     
