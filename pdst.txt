@@ -6,7 +6,8 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Camon 18P 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Samsung A32 s/m 1
-    Pacha Huawei Y9 Prime Incell 1
-    Visor Camara Huawei Y9a 1
-    Bateria Motorola Moto E6 Play 1
+    Pacha Samsung A32 s/m 1 ok
+    Pacha Huawei Y9 Prime Incell 1 ok
+    Visor Camara Huawei Y9a 1 ok
+    Bateria Motorola Moto E6 Play 1 ok
+    Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
