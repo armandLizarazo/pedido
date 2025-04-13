@@ -125,11 +125,11 @@
     Vidrio Antiespia Samsung A30S 5
     Vidrio Blindado Sasmung A30S 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Cargador Yl V8 2
-    Cargador Yl Tc 5
+    Cargador Yl V8 2 ok
+    Cargador Yl Tc 5 ok
     Forro Spoace Tecno Spark 10 Pro 1
     Silicone Case Samsung A14 Negro 1
-    Vidrio BAntiespia Tecno Spark Go 2024 / 20c 5
+    Vidrio Antiespia Tecno Spark Go 2024 / 20c 5
     Vidrio 5D Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio 5D Motorola Moto G9 Plus 5
@@ -140,7 +140,7 @@
     Vidrio Blindado Apple iPhone X / Xs / 11 Pro 5
     Vidrio Antiespia Apple iPhone X / Xs / 11 Pro 5
     Vidrio Tortuga Apple iPhone Xs Max 5
-    Vidrio Blindado Apple Xs Max 5
+    Vidrio Blindado Apple iPhone Xs Max 5
     Vidrio Antiespia Apple iPhone Xs Max 5
     Vidrio Blindado Apple iPhone Xr / 11 5
     Vidrio Tortuga Apple iPhone 11 Pro Max 5
@@ -153,10 +153,10 @@
     Vidrio Blindado Apple iPhone 12 Pro Max 5
     Vidrio Tortuga Apple iPhone 13 Mini 5
     Vidrio Blindado Apple iPhone 13 Mini 5
-    Vidrio Antierspia Apple iPhone 13 Mini 5
+    Vidrio Antiespia Apple iPhone 13 Mini 5
     Vidrio Tortuga Apple iPhone 13 Pro Max 5
     Vidrio Blindado Apple iPhone 13 / 13 Pro / 14 5
-    Vidrio Tortuga iPhone 14 Pro 5
+    Vidrio Tortuga Apple iPhone 14 Pro 5
     Vidrio Blindado Apple iPhone 14 Pro 5
     Vidrio Antiespia Apple iPhone 14 Pro 5
     Vidrio Tortuga Apple iPhone 15 / 15 Pro 5
