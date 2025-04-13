@@ -2376,3 +2376,60 @@ Línea  | Contenido
    10 | Pacha Huawei Honor X7b 1 ok
    12 | Bandeja Mate 9 Lite 1 ok
    13 | Flex de Power Mate 9 Lite 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-12 05:04:17
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  111 | Vidrio 5d Huawei Y7 2019 5 ok
+  113 | Forro Diseños Xiaomi Redmi Note 9 Dama 5 ok
+  114 | Soporte Celular Pinza 3 ok
+  115 | Vidrio Blindado Samsung A16 5 ok
+  116 | Vidrio Antiespia Samsung A16 5 ok
+  119 | Silicone Case Samsung A16 Lila 1 ok
+  120 | Adaptador Otg Tc 3 ok
+  123 | Cable Belkin Tc 5 ok
+  124 | Cable V8 Eco 5 ok
+  125 | Cable Caterpillar v8 3 ok
+  128 | Mouse Gamer Inalambrico 1 ok
+  129 | Parlante Mini 1 ok
+  135 | Silicone Case Oppo Realme C55 Lila 1 ok
+  136 | Silicone Case Samsung A16 Azuloscuro 1 ok
+  137 | Silicone Case Samsung A31 Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-12 05:04:17
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Audifonos Bluetooth Harvic I12 Negro 2 ok
+    7 | Audifonos Bluetooth Harvic I12 Rosa 1 ok
+    8 | Audifonos Bluetooth Harvic Blanco 1 ok
+   12 | Cable Auxiliar 2 a 1 1.5 m 2 ok
+   13 | Cable Auxiliar 2 a 1 3m 2 ok
+   22 | Garantia Proyector Juegos Caja Naranja 1 (Faltaron Los Juegos) ok
+
+==================================================
+Fecha de proceso: 2025-04-12 05:04:17
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Pacha Vivo Y51 1 ok
+   10 | Bateria Huawei Y9a 1 ok
+   11 | Tapa Huawei Y9a Azul 1 ok ok
+   12 | Caja de Timbres Redmi 13c 1 ok
+   13 | Pacha Huawei P10 Lite 1 ok
+   14 | Caja de Timbres Xiaomi Redmi Note 8 1 ok
+   15 | Pacha Moto One Fusion 1 ok
+   16 | Pacha Xiaomi Redmi 10c 1 ok
+   17 | Huella Xiaomi Redmi Note 10 / Note 10s ok
