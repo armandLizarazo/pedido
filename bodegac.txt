@@ -189,41 +189,41 @@
     Forro Crg Apple Con Estuche Morado 1
     Forro Crg Apple Con Estuche Naranja 1
     Forro Crg Apple Con Estuche Negro 0
-    Forro Dise�Os A04E Dama 3
-    Forro Dise�Os Apple Iphone 11 Caballero 0
-    Forro Dise�Os Apple Iphone 11 Dama 0
-    Forro Dise�Os Apple Iphone 11 Verdemilitar 0
-    Forro Dise�Os Huawei P10 Lite Caballero 0
-    Forro Dise�Os Motorola Moto E20 Dama 0
-    Forro Dise�Os Xiaomi Redmi 10C Caballero 2
-    Forro Dise�os A04E Dama 0
-    Forro Dise�os A35 Caballero 2
-    Forro Dise�os A55 Dama 1
-    Forro Dise�os Honor X8A Dama 2
-    Forro Dise�os Huawei Honor X7C Caballero 0
-    Forro Dise�os Huawei Honor X7C Dama 0
-    Forro Dise�os Huawei Y9 2019 / Y8S Caballero 0
-    Forro Dise�os Huawei Y9 2019 / Y8S Dama 0
-    Forro Dise�os Motorola Moto G24 / G04 Caballero 0
-    Forro Dise�os Motorola Moto G24 / G04 Dama 0
-    Forro Dise�os Oppo A38 Caballero 2
-    Forro Dise�os Oppo A38 Dama 1
-    Forro Dise�os Samsung A04E Caballero 0
-    Forro Dise�os Samsung A14 Caballero 2
-    Forro Dise�os Samsung A15 Caballero 5
-    Forro Dise�os Samsung A35 Dama 1
-    Forro Dise�os Samsung A55 Caballero 5
-    Forro Dise�os Tecno Camon 30 Pro Dama 5
-    Forro Dise�os Tecno Spark Go 2024 Caballero 2
-    Forro Dise�os Tecno Spark Go 2024 Dama 1
-    Forro Dise�os Xiaomi Redmi 10 Caballero 3
-    Forro Dise�os Xiaomi Redmi 10 Dama 0
-    Forro Dise�os Xiaomi Redmi 14C Caballero 0
-    Forro Dise�os Xiaomi Redmi 14C Dama 0
-    Forro Dise�os Xiaomi Redmi Note 11 Dama 0
-    Forro Dise�os Xiaomi Redmi Note 13 5G 5
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
+    Forro Diseã±Os A04E Dama 3
+    Forro Diseã±Os Apple Iphone 11 Caballero 0
+    Forro Diseã±Os Apple Iphone 11 Dama 0
+    Forro Diseã±Os Apple Iphone 11 Verdemilitar 0
+    Forro Diseã±Os Huawei P10 Lite Caballero 0
+    Forro Diseã±Os Motorola Moto E20 Dama 0
+    Forro Diseã±Os Xiaomi Redmi 10C Caballero 2
+    Forro Diseños A04E Dama 0
+    Forro Diseños A35 Caballero 2
+    Forro Diseños A55 Dama 1
+    Forro Diseños Honor X8A Dama 2
+    Forro Diseños Huawei Honor X7C Caballero 0
+    Forro Diseños Huawei Honor X7C Dama 0
+    Forro Diseños Huawei Y9 2019 / Y8S Caballero 0
+    Forro Diseños Huawei Y9 2019 / Y8S Dama 0
+    Forro Diseños Motorola Moto G24 / G04 Caballero 0
+    Forro Diseños Motorola Moto G24 / G04 Dama 0
+    Forro Diseños Oppo A38 Caballero 2
+    Forro Diseños Oppo A38 Dama 1
+    Forro Diseños Samsung A04E Caballero 0
+    Forro Diseños Samsung A14 Caballero 2
+    Forro Diseños Samsung A15 Caballero 5
+    Forro Diseños Samsung A35 Dama 1
+    Forro Diseños Samsung A55 Caballero 5
+    Forro Diseños Tecno Camon 30 Pro Dama 5
+    Forro Diseños Tecno Spark Go 2024 Caballero 2
+    Forro Diseños Tecno Spark Go 2024 Dama 1
+    Forro Diseños Xiaomi Redmi 10 Caballero 3
+    Forro Diseños Xiaomi Redmi 10 Dama 0
+    Forro Diseños Xiaomi Redmi 14C Caballero 0
+    Forro Diseños Xiaomi Redmi 14C Dama 0
+    Forro Diseños Xiaomi Redmi Note 11 Dama 0
+    Forro Diseños Xiaomi Redmi Note 13 5G 5
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
+    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
     Forro Lujo Apple Iphone 11 0
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 0
     Forro Northface Xiaomi Redmi 13C Negro 1
@@ -884,7 +884,7 @@
     Vidrio Tortuga Xiaomi Redmi Note 11 10
     Pacha Samsung A32 0
     Pacha Huawei P10 lite 0
-    Pad Mouse Tapete Largo Dise�os 0
+    Pad Mouse Tapete Largo Diseños 0
     Silicone Case Samsung A14 Negro 0
     Soporte Celular Escritorio 1533 0
     Vidrio BAntiespia Tecno Spark Go 2024 / 20c 0
@@ -904,7 +904,7 @@
     Vidrio Blindado Apple iPhone X / Xs / 11 Pro 0
     Vidrio Antiespia Apple iPhone X / Xs / 11 Pro 0
     Vidrio Tortuga Apple iPhone Xs Max 0
-    Vidrio Blindado Apple Xs Max 0
+    Vidrio Blindado Apple iPhone Xs Max 0
     Vidrio Antiespia Apple iPhone Xs Max 0
     Vidrio Tortuga Apple iPhone Xr / 11 0
     Vidrio Blindado Apple iPhone Xr / 11 0
@@ -912,19 +912,19 @@
     Vidrio Tortuga Apple iPhone 11 Pro Max 0
     Vidrio Blindado Apple iPhone 11 Pro Max 0
     Vidrio Antiespia Apple iPhone 11 Pro Max 0
-    Vidrio Blindado iPhone 12 / 12 Pro 0
+    Vidrio Blindado Apple iPhone 12 / 12 Pro 0
     Vidrio Tortuga Apple iPhone 12 Mini 0
     Vidrio Blindado Apple iPhone 12 Mini 0
-    Bidio Antiespia Apple iPhone 12 Mini 0
+    Vidrio Antiespia Apple iPhone 12 Mini 0
     Vidrio Tortuga Apple iPhone 12 Pro max 0
     Vidrio Blindado Apple iPhone 12 Pro Max 0
     Vidrio Antiespia Apple iPhone 12 Pro Max 0
     Vidrio Tortuga Apple iPhone 13 Mini 0
     Vidrio Blindado Apple iPhone 13 Mini 0
-    Vidrio Antierspia Apple iPhone 13 Mini 0
+    Vidrio Antiespia Apple iPhone 13 Mini 0
     Vidrio Tortuga Apple iPhone 13 Pro Max 0
     Vidrio Blindado Apple iPhone 13 / 13 Pro / 14 0
-    Vidrio Tortuga iPhone 14 Pro 0
+    Vidrio Tortuga Apple iPhone 14 Pro 0
     Vidrio Blindado Apple iPhone 14 Pro 0
     Vidrio Antiespia Apple iPhone 14 Pro 0
     Vidrio Tortuga Apple iPhone 15 / 15 Pro 0
@@ -936,9 +936,9 @@
     Vidrio 5D Huawei Y5 2019 0
     Vidrio 5D Huawei P10 Lite 0
     Vidrio 5D Huawei Y6p 0
-    Vidrio 5D Huawei honor X7a 0
+    Vidrio 5D Huawei Honor X7a 0
     Vidrio 5D Huawei Mate 20 Lite 0
-    Vidrio 5D Huawei p20 Lite 0
+    Vidrio 5D Huawei P20 Lite 0
     Vidrio 5D Motorola Moto G20 / G30 0
     Pacha Samsung A32 s/m 0
     Pacha Huawei Y9 Prime Incell 0
