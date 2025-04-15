@@ -110,9 +110,9 @@
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5 
     Vidrio 5D Huawei Y6P 5
-    Vidrio 5D Motorola Moto G20 / G30 5
-    Vidrio 5D Motorola Moto G50 5
-    Vidrio 5D Motorola Moto G9 Plus 5
+    Vidrio 5D Motorola Moto G20 / G30 5 ok
+    Vidrio 5D Motorola Moto G50 5 ok
+    Vidrio 5D Motorola Moto G9 Plus 5 ok
     Vidrio 5D Oppo Reno 11F 5 
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
@@ -120,15 +120,15 @@
     Vidrio 5D Xiaomi Redmi 14 5 
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
-    Vidrio Antiespia Apple Iphone 14 Pro 5
-    Vidrio Antiespia Apple Iphone 15 / 15 Pro 5 
+    Vidrio Antiespia Apple Iphone 14 Pro 5  ok
+    Vidrio Antiespia Apple Iphone 15 / 15 Pro 5 ok
     Vidrio Antiespia Apple Iphone Xs Max 5 
     Vidrio Antiespia Samsung A05 5
     Vidrio Antiespia Samsung A30S 5
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Apple Iphone Xs Max 5
-    Vidrio Blindado Sasmung A30S 5
+    Vidrio Blindado Sasmung A30S 5 ok
     Vidrio Ceramico Xiaomi Redmi 14C 5
     Vidrio Tortuga Apple Iphone 12 Mini 5
     Vidrio Tortuga Apple Iphone 13 Mini 5
@@ -139,17 +139,17 @@
     Vidrio Tortuga Apple Iphone Xs Max 5
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Vidrio 5D Xiaomi Redmi Note 12 5
-    Vidrio Tortuga Xiaomi Redmi Note 12 5
-    Vidrio 5D Samsung A12 5
-    Vidrio Tortuga Samsung A12 5
-    Vidrio Templado Huawei Honor 90 Lite 10
-    Vidrio Tortuga Huawei Honor 90 Lite 5
-    Vidrio 5D Samsung A05s 5
-    Audifonos Bluetooth Yoyos inpods 12 Rosa 1
-    Cable We Tc 3
-    Forro Space Apple iPhone Xs Max 1
-    Forro Space Samsung A30 1
-    Manos Libres Apple Ligthning Original 1
+    Vidrio 5D Xiaomi Redmi Note 12 5 
+    Vidrio Tortuga Xiaomi Redmi Note 12 5 ok
+    Vidrio 5D Samsung A12 5 ok
+    Vidrio Tortuga Samsung A12 5 ok ok
+    Vidrio Templado Huawei Honor 90 Lite 10 ok
+    Vidrio Tortuga Huawei Honor 90 Lite 5 ok
+    Vidrio 5D Samsung A05s 5 
+    Audifonos Bluetooth Yoyos inpods 12 Rosa 2 ok
+    Cable We Tc 2 ok
+    Forro Space Apple iPhone Xs Max 1 ok
+    Forro Space Samsung A30 1 ok
+    Manos Libres Apple Ligthning Original 1 ok
     Silicone Case Oppo A58 Negro 1
     Silicone Case Samsung A03 Core Negro 1
