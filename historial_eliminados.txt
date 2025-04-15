@@ -2433,3 +2433,78 @@ Línea  | Contenido
    15 | Pacha Moto One Fusion 1 ok
    16 | Pacha Xiaomi Redmi 10c 1 ok
    17 | Huella Xiaomi Redmi Note 10 / Note 10s ok
+
+==================================================
+Fecha de proceso: 2025-04-14 15:21:14
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 42
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   20 | Forro Armadura Samsung A16 Negro 1 ok
+   66 | Silicobe Case Tecno Camon 30S Rojo 1 ok
+   71 | Silicone Case Huawei Honor Magic 7 Lite Amarillo 1 ok
+   73 | Silicone Case Huawei Honor Magic 7 Lite Azulrey 1 ok
+   74 | Silicone Case Huawei Honor Magic 7 Lite Fucsia 1 ok
+   75 | Silicone Case Huawei Honor Magic 7 Lite Lila 1 ok
+   76 | Silicone Case Huawei Honor Magic 7 Lite Negro 1 ok
+   77 | Silicone Case Huawei Honor Magic 7 Lite Rojo 1 ok
+   97 | Silicone Case Infinix Note 40 Amarillo 1 ok
+  102 | Silicone Case Tecno Camon 30S Azulrey 1 ok
+  114 | Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1 ok
+  122 | Vidrio 5D Vivo Y50 5 ok
+  128 | Cargador Yl V8 2 ok
+  129 | Cargador Yl Tc 5 ok
+  131 | Silicone Case Samsung A14 Negro 1 ok
+  132 | Vidrio Antiespia Spark 20 Pro 5 ok
+  133 | Vidrio Antiespia Tecno Spark Go 2024 / 20c 5 ok
+  134 | Vidrio 5D Motorola Moto G04 / G24 5 ok
+  140 | Vidrio Tortuga Apple iPhone X / Xs / 11 pro 5 ok
+  141 | Vidrio Blindado Apple iPhone X / Xs / 11 Pro 5 ok
+  142 | Vidrio Antiespia Apple iPhone X / Xs / 11 Pro 5 ok
+  146 | Vidrio Blindado Apple iPhone Xr / 11 5 ok
+  147 | Vidrio Tortuga Apple iPhone 11 Pro Max 5 ok
+  148 | Vidrio Blindado Apple iPhone Xs / 11 Pro Max 5 ok
+  149 | Vidrio Antiespia Apple iPhone 11 Pro Max 5 ok
+  150 | Vidrio Blindado Apple iPhone 12 / 12 Pro 5 ok
+  154 | Vidrio Blindado Apple iPhone 12 Pro Max 5 ok
+  158 | Vidrio Tortuga Apple iPhone 13 Pro Max 5 ok
+  159 | Vidrio Blindado Apple iPhone 13 / 13 Pro / 14 5 ok
+  161 | Vidrio Blindado Apple iPhone 14 Pro 5 ok
+  164 | Vidrio Blindado Apple iPhone 15 7 15 Pro 5 ok
+  166 | Vidrio Tortuga Apple iPhone 15 Pro Max 5 ok
+  167 | Vidrio Blindado Apple iPhone 15 Plus / 15 Pro Max 5 ok
+  168 | Vidrio Antiespia Apple iPhone 15 Plus / 15 pro Max5 5 ok
+  169 | Vidrio 5D Apple iPhone 16 5 ok
+  170 | Vidrio 5d Apple IPhone 16 plus 5 ok
+  171 | Vidrio 5D Apple IPhone 16 Pro Max 5 ok
+  172 | Vidrio Tortuga iPhone 16 Pro Max 5 ok
+  177 | Vidrio 5D Huawei honor X7a 5 ok
+  178 | Vidrio Tortuga Huawei Mate 20 Lite 5 ok
+  179 | Vidrio 5D Huawei p20 Lite 5 ok
+  183 | Silicone Case Xiaomi Redmi Note 9s Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-14 15:21:14
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   17 | Humidificador Volcan 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-14 15:21:14
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Pacha Samsung A32 s/m 1 ok
+   10 | Pacha Huawei Y9 Prime Incell 1 ok
+   11 | Visor Camara Huawei Y9a 1 ok
+   12 | Bateria Motorola Moto E6 Play 1 ok
+   13 | Pacha Xiaomi Redmi Note 10 / Note 10s c/m 1 ok

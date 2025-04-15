@@ -17,7 +17,6 @@
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
-    Forro Armadura Samsung A16 Negro 1 ok
     Forro Armadura Samsung A35 Azulrey 1
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
@@ -59,22 +58,16 @@
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Spark 30C 2
+    Forro Spoace Tecno Spark 10 Pro 1
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
     Mosue Inalambrico Rosa 1
     Mouse Jertech Jr-1 Azul 1
-    Silicobe Case Tecno Camon 30S Rojo 1 ok
     Silicone Caae Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Honor 90 Lite Amarillo 1
-    Silicone Case Huawei Honor Magic 7 Lite Amarillo 1 ok
     Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1
-    Silicone Case Huawei Honor Magic 7 Lite Azulrey 1 ok
-    Silicone Case Huawei Honor Magic 7 Lite Fucsia 1 ok
-    Silicone Case Huawei Honor Magic 7 Lite Lila 1 ok
-    Silicone Case Huawei Honor Magic 7 Lite Negro 1 ok
-    Silicone Case Huawei Honor Magic 7 Lite Rojo 1 ok
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
     Silicone Case Huawei Honor X8B Azulrey 1
     Silicone Case Huawei Oppo A17 Verdemilitar 1
@@ -94,12 +87,11 @@
     Silicone Case Infinix Hot 50 Pro Plus Rosa 1
     Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
-    Silicone Case Infinix Note 40 Amarillo 1 ok
+    Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Samsung A16 Amarillo 1 
     Silicone Case Samsung A16 Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Samsung S22 Ultra Negro 1
-    Silicone Case Tecno Camon 30S Azulrey 1 ok
     Silicone Case Tecno Camon 30S Negro 1
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -108,76 +100,56 @@
     Silicone Case Vivo V25 Pro Rojo
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
+    Silicone Case Xiaomi Redmi Note 12 Fucsia 1 
     Silicone Case Xiaomi Redmi Note 13 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1 ok
     Smartphone Tecno Spark 30C 1
     Smartphones
     Soporte Cel Metalico 1
+    Vidrio 5D Huawei P10 Lite 5
+    Vidrio 5D Huawei Y5 2019 5 
+    Vidrio 5D Huawei Y6P 5
+    Vidrio 5D Motorola Moto G20 / G30 5
+    Vidrio 5D Motorola Moto G50 5
+    Vidrio 5D Motorola Moto G9 Plus 5
     Vidrio 5D Oppo Reno 11F 5 
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
-    Vidrio 5D Vivo Y50 5 ok
     Vidrio 5D Xiaomi Redmi 14 5 
+    Vidrio Antiespia Apple Iphone 12 Mini 5
+    Vidrio Antiespia Apple Iphone 13 Mini 5
+    Vidrio Antiespia Apple Iphone 14 Pro 5
+    Vidrio Antiespia Apple Iphone 15 / 15 Pro 5 
+    Vidrio Antiespia Apple Iphone Xs Max 5 
     Vidrio Antiespia Samsung A05 5
     Vidrio Antiespia Samsung A30S 5
+    Vidrio Blindado Apple Iphone 12 Mini 5
+    Vidrio Blindado Apple Iphone 13 Mini 5
+    Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Sasmung A30S 5
     Vidrio Ceramico Xiaomi Redmi 14C 5
-    Cargador Yl V8 2 ok
-    Cargador Yl Tc 5 ok
-    Forro Spoace Tecno Spark 10 Pro 1
-    Silicone Case Samsung A14 Negro 1 ok
-    Vidrio Antiespia Spark 20 Pro 5 ok
-    Vidrio Antiespia Tecno Spark Go 2024 / 20c 5 ok
-    Vidrio 5D Motorola Moto G04 / G24 5 ok
+    Vidrio Tortuga Apple Iphone 12 Mini 5
+    Vidrio Tortuga Apple Iphone 13 Mini 5
+    Vidrio Tortuga Apple Iphone 14 Pro 5
+    Vidrio Tortuga Apple Iphone 15 / 15 Pro 5
+    Vidrio Tortuga Apple Iphone 16 Pro 5
+    Vidrio Tortuga Apple Iphone 6 Plus / 7 Plus / 8 Plus 5
+    Vidrio Tortuga Apple Iphone Xs Max 5
     Vidrio Tortuga Motorola Moto G04 / G24 5
-    Vidrio 5D Motorola Moto G9 Plus 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Vidrio 5D Motorola Moto G50 5
-    Vidrio Tortuga Apple iPhone 6 Plus / 7 Plus / 8 Plus 5
-    Vidrio Tortuga Apple iPhone X / Xs / 11 pro 5 ok
-    Vidrio Blindado Apple iPhone X / Xs / 11 Pro 5 ok
-    Vidrio Antiespia Apple iPhone X / Xs / 11 Pro 5 ok
-    Vidrio Tortuga Apple iPhone Xs Max 5
-    Vidrio Blindado Apple iPhone Xs Max 5
-    Vidrio Antiespia Apple iPhone Xs Max 5 
-    Vidrio Blindado Apple iPhone Xr / 11 5 ok
-    Vidrio Tortuga Apple iPhone 11 Pro Max 5 ok
-    Vidrio Blindado Apple iPhone Xs / 11 Pro Max 5 ok
-    Vidrio Antiespia Apple iPhone 11 Pro Max 5 ok
-    Vidrio Blindado Apple iPhone 12 / 12 Pro 5 ok
-    Vidrio Tortuga Apple iPhone 12 Mini 5
-    Vidrio Blindado Apple iPhone 12 Mini 5
-    Vidrio Antiespia Apple iPhone 12 Mini 5
-    Vidrio Blindado Apple iPhone 12 Pro Max 5 ok
-    Vidrio Tortuga Apple iPhone 13 Mini 5
-    Vidrio Blindado Apple iPhone 13 Mini 5
-    Vidrio Antiespia Apple iPhone 13 Mini 5
-    Vidrio Tortuga Apple iPhone 13 Pro Max 5 ok
-    Vidrio Blindado Apple iPhone 13 / 13 Pro / 14 5 ok
-    Vidrio Tortuga Apple iPhone 14 Pro 5
-    Vidrio Blindado Apple iPhone 14 Pro 5 ok
-    Vidrio Antiespia Apple iPhone 14 Pro 5
-    Vidrio Tortuga Apple iPhone 15 / 15 Pro 5
-    Vidrio Blindado Apple iPhone 15 7 15 Pro 5 ok
-    Vidrio Antiespia Apple iPhone 15 / 15 pro 5 
-    Vidrio Tortuga Apple iPhone 15 Pro Max 5 ok
-    Vidrio Blindado Apple iPhone 15 Plus / 15 Pro Max 5 ok
-    Vidrio Antiespia Apple iPhone 15 Plus / 15 pro Max5 5 ok
-    Vidrio 5D Apple iPhone 16 5 ok
-    Vidrio 5d Apple IPhone 16 plus 5 ok
-    Vidrio 5D Apple IPhone 16 Pro Max 5 ok
-    Vidrio Tortuga iPhone 16 Pro Max 5 ok
-    Vidrio Tortuga Apple iPhone 16 Pro 5
-    Vidrio 5D Huawei Y5 2019 5 
-    Vidrio 5D Huawei P10 Lite 5
-    Vidrio 5D Huawei Y6p 5
-    Vidrio 5D Huawei honor X7a 5 ok
-    Vidrio Tortuga Huawei Mate 20 Lite 5 ok
-    Vidrio 5D Huawei p20 Lite 5 ok
-    Vidrio 5D Motorola Moto G20 / G30 5
-    Silicone Case Motorola Moto G8 Plus Amarillo 1
-    Silicone Case Xiaomi Redmi Note 12 Fucsia 1 
-    Silicone Case Xiaomi Redmi Note 9s Negro 1 ok
+    Vidrio 5D Xiaomi Redmi Note 12 5
+    Vidrio Tortuga Xiaomi Redmi Note 12 5
+    Vidrio 5D Samsung A12 5
+    Vidrio Tortuga Samsung A12 5
+    Vidrio Templado Huawei Honor 90 Lite 10
+    Vidrio Tortuga Huawei Honor 90 Lite 5
+    Vidrio 5D Samsung A05s 5
+    Audifonos Bluetooth Yoyos inpods 12 Rosa 1
+    Cable We Tc 3
+    Forro Space Apple iPhone Xs Max 1
+    Forro Space Samsung A30 1
+    Manos Libres Apple Ligthning Original 1
+    Silicone Case Oppo A58 Negro 1
+    Silicone Case Samsung A03 Core Negro 1

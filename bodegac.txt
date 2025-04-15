@@ -1,7 +1,7 @@
     Aceitera El-093 0
     Adaptador Av2Hdmi 1
     Adaptador Av2Vga 0
-    Adaptador Dpp2Hdmi Cbl 2
+    Adaptador Dpp2Hdmi Cbl 1
     Adaptador Dpp2Vga Cbl 2
     Adaptador Dvi2Vga 0
     Adaptador Europeo Goma 4
@@ -21,7 +21,7 @@
     Adaptador Spliter Hdmi 1 A 4 0
     Adaptador Tc2Hdmi Cbl 0
     Adaptador Tc2Vga 0
-    Adaptador Union Hdmi 0
+    Adaptador Union Hdmi 2
     Adaptador Usb2Vga Cbl 0
     Adaptador Vga2Av 0
     Adaptador Vga2Hdmi 1
@@ -38,8 +38,8 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
     Audifonos Bluetooth I12 Negro 0
-    Audifonos Bluetooth M25 1
-    Audifonos Bluetooth M60 1
+    Audifonos Bluetooth M25 2
+    Audifonos Bluetooth M60 3
     Audifonos Bluetooth M60 2 0
     Audifonos Bluetooth Pro 60 1
     Audifonos Bluetooth Royal Sports 1
@@ -59,13 +59,13 @@
     Boton Huella Xiaomi Poco X3 0
     Cable Auxiliar 2 A 1 1.5M 2
     Cable Auxiliar 2 A 1 3M 2
-    Cable Belkin Ligthning 4
-    Cable Belkin Tc 0
+    Cable Belkin Ligthning 3
+    Cable Belkin Tc 6
     Cable Belkin Tc 2M 1
-    Cable Belkin V8 1
+    Cable Belkin V8 4
     Cable Caterpillar Tc 0
     Cable Caterpillar Usb Ligthning 3
-    Cable Caterpillar V8 1
+    Cable Caterpillar V8 4
     Cable Dp2Dp 1.8M 1
     Cable Harvic Tc 1
     Cable Harvic V8 0
@@ -86,9 +86,9 @@
     Cable Siliconado Zonymax V8 0
     Cable Tc Cordon Eco 0
     Cable Tc Eco 5
-    Cable Usb Ligthning Eco 0
+    Cable Usb Ligthning Eco 5
     Cable V8 Eco 5
-    Cable We Tc 1
+    Cable We Tc 0
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 0
     Cable Yoyos Tc 3M 1
@@ -113,7 +113,7 @@
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
     Cargador Belkin Tc 4
-    Cargador Belkin V8 4
+    Cargador Belkin V8 5
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -219,7 +219,7 @@
     Forro Diseños Xiaomi Redmi 10 Caballero 3
     Forro Diseños Xiaomi Redmi 10 Dama 0
     Forro Diseños Xiaomi Redmi 14C Caballero 0
-    Forro Diseños Xiaomi Redmi 14C Dama 0
+    Forro Diseños Xiaomi Redmi 14C Dama 2
     Forro Diseños Xiaomi Redmi Note 11 Dama 0
     Forro Diseños Xiaomi Redmi Note 13 5G 5
     Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
@@ -256,7 +256,7 @@
     Forro Space Huawei Y9 / Y8S 2019 0
     Forro Space Huawei Y9 2019 1
     Forro Space Iphone 13 Pro Max 1
-    Forro Space Magsafe Apple Iphone 11 0
+    Forro Space Magsafe Apple Iphone 11 1
     Forro Space Motorola Moto E20 1
     Forro Space Motorola Moto E7 Plus / G9 Play 2
     Forro Space Motorola Moto Edge 40 3
@@ -355,7 +355,7 @@
     Manos Libres Tc Blanco 0
     Memoria Usb Kingston 4Gb 0
     Mini Calefactor Con Control 1
-    Mini Plancha 1
+    Mini Plancha Azul 1
     Mouse Eco 2
     Mouse Eco Fc-143 2
     Mouse Gamer Eco A78 1
@@ -397,11 +397,11 @@
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-915 0
-    Parlante Mini 1
-    Parlante Pc Eco Ysd-1024 1
+    Parlante Mini 0
+    Parlante Pc Eco Ysd-1024 0
     Parlante Teatro Tg Tg-200 0
-    Parlante Teatro Tg-200 1
-    Parlante Tg S-8A Negro 1
+    Parlante Teatro Tg-200 0
+    Parlante Tg S-8A Negro 0
     Parlante Tg S-8B Rojo 0
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
@@ -409,7 +409,7 @@
     Pepas Hydrogel 6
     Pilas Carbon Maxday Eco 30
     Pin De Carga Celular 20
-    Pin De Carga Parlante 20
+    Pin De Carga Parlante 0
     Pin De Carga V8 20
     Pisa Papel 3
     Plancha Babyliss Combo Nano Titanium 1
@@ -491,7 +491,7 @@
     Silicone Case Huawei Y9 2019 / Y8S Rojo 0
     Silicone Case Huawei Y9 2019 / Y8S Rosa 0
     Silicone Case Huawei Y9 2019 / Y8S Verde 0
-    Silicone Case Huawei Y9 Prime Morado 2
+    Silicone Case Huawei Y9 Prime Morado 1
     Silicone Case Huawei Y9 Prime Verde 1
     Silicone Case Infinix Hot 40 Pro Morado 1
     Silicone Case Infinix Note 40 Morado 1
@@ -604,7 +604,7 @@
     Silicone Case Samsung A04S Lila 1
     Silicone Case Samsung A04S Negro 2
     Silicone Case Samsung A04S Rojo 1
-    Silicone Case Samsung A05S Negro 1
+    Silicone Case Samsung A05S Negro 2
     Silicone Case Samsung A05S Verdementa 1
     Silicone Case Samsung A12 / M12 Morado 1
     Silicone Case Samsung A12 Verde 1
@@ -622,7 +622,7 @@
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Ab Rojo 1
     Silicone Case Samsung A24 Amarillo 1
-    Silicone Case Samsung A24 Lila 1
+    Silicone Case Samsung A24 Lila 0
     Silicone Case Samsung A24 Morado 1
     Silicone Case Samsung A24 Rojo 1
     Silicone Case Samsung A25 Amarillo 0
@@ -772,8 +772,8 @@
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rosa 1
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 0
-    Silicone Case Xiaomi Redmi Note 11 Rojo 0
+    Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Negro 1
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 1
@@ -948,3 +948,40 @@
     Silicone Case Motorola Moto G8 Plus Amarillo 0
     Silicone Case Xiaomi Redmi Note 12 Fucsia 0
     Silicone Case Xiaomi Redmi Note 9s Negro 0
+    Vidrio 5D Xiaomi Redmi Note 12 0
+    Vidrio Tortuga Xiaomi Redmi Note 12 0
+    Pacha Motorola Moto E6i 0
+    Pacha Huawei Honor X7a 0
+    Vidrio Templado Huawei Honor 90 Lite 0
+    Vidrio 5D Samsung A05s 0
+    Audifonos Bluetooth Yoyos inpods 12 Rosa 0
+    Cable Hdmi 3m Malla 0
+    Cable Hdmi 3m 0
+    Control Gamer Pc Sencillo 0
+    Forro Space Apple iPhone Xs Max 0
+    Forro Space Samsung A30 0
+    Manos Libres Apple Ligthning Original 0
+    Pacha Motorola Moto G60 / G60s 0
+    Pacha Huawei Honor X6 / X6s 0
+    Silicone Case Oppo A58 Negro 0
+    Silicone Case Samsung A03 Core Negro 0
+    Silicone Case Huawei Y9 Prime Rosa 1
+    Silicone Case Samsung A16 Negro 1
+    Silicone Case Huawei Y7 2019 Rosa 1
+    Silicone Case Huawei Y7 2019 Lila 1
+    Silicone Case Xiaomi Redmi Note 11 Rosa 2
+    Silicone Case Xiaomi Redmi Note 13 Pro Plus Negro 1
+    Silicone Case Huawei Honor X8 Rojo 1
+    Silicone Case Tecno Camon 19 Pro Fucsia 1
+    Bateria Xiaomi Redmi Note 12 0
+    Forro Space Huawei Honor Magic 5 Lite 1
+    Adaptador Bluetooth Car X6 1
+    Adaptador Bluetooth Car W Bt-x6 1
+    Mini Plancha Cafe 1
+    Reproductor Onn Hd 1
+    Forro Dise�os Infinix Hot 50 Pro Plus Caballero 5
+    Forro Dise�os Motorola Moto C Caballero 6
+    Forro Dise�os Tecno Pova 5 Dama 4
+    Forro Dise�os Samsung A16 Dama 6
+    Forro Dise�os Tecno Spark 20 Pro Plus Dama 2
+    Forro Dise�os Samsung A16 Caballero 4
