@@ -8,6 +8,7 @@
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
     Cargador Pc Puntas Caja Blanca 2
+    Cargador Pc Acer Mini 1 ok
     Celular T72 1
     Celular T76 1
     Combo Remington Plancha - Cepillo 1
@@ -21,7 +22,7 @@
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Plancha Combo Babyliss 1
-    Power Bank Beston Bs-671 10000 Mah 1
+    Power Bank Beston Bs-671 10000 Mah 2 ok
     Reproducor Onn Hd 1
     Smart Band 7 1
     Soporte Celular Escritorio 1533 2
@@ -30,7 +31,7 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
-    Cable Hdmi 3m Malla 2
+    Cable Hdmi 3m Malla 1 ok
     Cable Hdmi 3m 3
     Control Gamer Pc Sencillo 1
-    Reproductor Amazon Fire Tv Stick Hd 1
+    Reproductor Amazon Fire Tv Stick Hd 1 ok
