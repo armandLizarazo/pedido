@@ -189,41 +189,41 @@
     Forro Crg Apple Con Estuche Morado 1
     Forro Crg Apple Con Estuche Naranja 1
     Forro Crg Apple Con Estuche Negro 0
-    Forro Diseã±Os A04E Dama 3
-    Forro Diseã±Os Apple Iphone 11 Caballero 0
-    Forro Diseã±Os Apple Iphone 11 Dama 0
-    Forro Diseã±Os Apple Iphone 11 Verdemilitar 0
-    Forro Diseã±Os Huawei P10 Lite Caballero 0
-    Forro Diseã±Os Motorola Moto E20 Dama 0
-    Forro Diseã±Os Xiaomi Redmi 10C Caballero 2
-    Forro Diseños A04E Dama 0
-    Forro Diseños A35 Caballero 2
-    Forro Diseños A55 Dama 1
-    Forro Diseños Honor X8A Dama 2
-    Forro Diseños Huawei Honor X7C Caballero 0
-    Forro Diseños Huawei Honor X7C Dama 0
-    Forro Diseños Huawei Y9 2019 / Y8S Caballero 0
-    Forro Diseños Huawei Y9 2019 / Y8S Dama 0
-    Forro Diseños Motorola Moto G24 / G04 Caballero 0
-    Forro Diseños Motorola Moto G24 / G04 Dama 0
-    Forro Diseños Oppo A38 Caballero 2
-    Forro Diseños Oppo A38 Dama 1
-    Forro Diseños Samsung A04E Caballero 0
-    Forro Diseños Samsung A14 Caballero 2
-    Forro Diseños Samsung A15 Caballero 5
-    Forro Diseños Samsung A35 Dama 1
-    Forro Diseños Samsung A55 Caballero 5
-    Forro Diseños Tecno Camon 30 Pro Dama 5
-    Forro Diseños Tecno Spark Go 2024 Caballero 2
-    Forro Diseños Tecno Spark Go 2024 Dama 1
-    Forro Diseños Xiaomi Redmi 10 Caballero 3
-    Forro Diseños Xiaomi Redmi 10 Dama 0
-    Forro Diseños Xiaomi Redmi 14C Caballero 0
-    Forro Diseños Xiaomi Redmi 14C Dama 2
-    Forro Diseños Xiaomi Redmi Note 11 Dama 0
-    Forro Diseños Xiaomi Redmi Note 13 5G 5
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
+    Forro DiseÃ£Â±Os A04E Dama 3
+    Forro DiseÃ£Â±Os Apple Iphone 11 Caballero 0
+    Forro DiseÃ£Â±Os Apple Iphone 11 Dama 0
+    Forro DiseÃ£Â±Os Apple Iphone 11 Verdemilitar 0
+    Forro DiseÃ£Â±Os Huawei P10 Lite Caballero 0
+    Forro DiseÃ£Â±Os Motorola Moto E20 Dama 0
+    Forro DiseÃ£Â±Os Xiaomi Redmi 10C Caballero 2
+    Forro DiseÃ±os A04E Dama 0
+    Forro DiseÃ±os A35 Caballero 2
+    Forro DiseÃ±os A55 Dama 1
+    Forro DiseÃ±os Honor X8A Dama 2
+    Forro DiseÃ±os Huawei Honor X7C Caballero 0
+    Forro DiseÃ±os Huawei Honor X7C Dama 0
+    Forro DiseÃ±os Huawei Y9 2019 / Y8S Caballero 0
+    Forro DiseÃ±os Huawei Y9 2019 / Y8S Dama 0
+    Forro DiseÃ±os Motorola Moto G24 / G04 Caballero 0
+    Forro DiseÃ±os Motorola Moto G24 / G04 Dama 0
+    Forro DiseÃ±os Oppo A38 Caballero 2
+    Forro DiseÃ±os Oppo A38 Dama 1
+    Forro DiseÃ±os Samsung A04E Caballero 0
+    Forro DiseÃ±os Samsung A14 Caballero 2
+    Forro DiseÃ±os Samsung A15 Caballero 5
+    Forro DiseÃ±os Samsung A35 Dama 1
+    Forro DiseÃ±os Samsung A55 Caballero 5
+    Forro DiseÃ±os Tecno Camon 30 Pro Dama 5
+    Forro DiseÃ±os Tecno Spark Go 2024 Caballero 2
+    Forro DiseÃ±os Tecno Spark Go 2024 Dama 1
+    Forro DiseÃ±os Xiaomi Redmi 10 Caballero 3
+    Forro DiseÃ±os Xiaomi Redmi 10 Dama 0
+    Forro DiseÃ±os Xiaomi Redmi 14C Caballero 0
+    Forro DiseÃ±os Xiaomi Redmi 14C Dama 2
+    Forro DiseÃ±os Xiaomi Redmi Note 11 Dama 0
+    Forro DiseÃ±os Xiaomi Redmi Note 13 5G 5
+    Forro DiseÃ±os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
+    Forro DiseÃ±os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
     Forro Lujo Apple Iphone 11 0
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 0
     Forro Northface Xiaomi Redmi 13C Negro 1
@@ -884,7 +884,7 @@
     Vidrio Tortuga Xiaomi Redmi Note 11 10
     Pacha Samsung A32 0
     Pacha Huawei P10 lite 0
-    Pad Mouse Tapete Largo Diseños 0
+    Pad Mouse Tapete Largo DiseÃ±os 0
     Silicone Case Samsung A14 Negro 0
     Soporte Celular Escritorio 1533 0
     Vidrio BAntiespia Tecno Spark Go 2024 / 20c 0
@@ -959,7 +959,7 @@
     Cable Hdmi 3m 0
     Control Gamer Pc Sencillo 0
     Forro Space Apple iPhone Xs Max 0
-    Forro Space Samsung A30 0
+    Forro Space Samsung A 20 / A30 0
     Manos Libres Apple Ligthning Original 0
     Pacha Motorola Moto G60 / G60s 0
     Pacha Huawei Honor X6 / X6s 0
@@ -979,9 +979,9 @@
     Adaptador Bluetooth Car W Bt-x6 1
     Mini Plancha Cafe 1
     Reproductor Onn Hd 1
-    Forro Dise�os Infinix Hot 50 Pro Plus Caballero 5
-    Forro Dise�os Motorola Moto C Caballero 6
-    Forro Dise�os Tecno Pova 5 Dama 4
-    Forro Dise�os Samsung A16 Dama 6
-    Forro Dise�os Tecno Spark 20 Pro Plus Dama 2
-    Forro Dise�os Samsung A16 Caballero 4
+    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
+    Forro Diseños Motorola Moto C Caballero 6
+    Forro Diseños Tecno Pova 5 Dama 4
+    Forro Diseños Samsung A16 Dama 6
+    Forro Diseños Tecno Spark 20 Pro Plus Dama 2
+    Forro Diseños Samsung A16 Caballero 4
