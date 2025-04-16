@@ -2508,3 +2508,56 @@ Línea  | Contenido
    11 | Visor Camara Huawei Y9a 1 ok
    12 | Bateria Motorola Moto E6 Play 1 ok
    13 | Pacha Xiaomi Redmi Note 10 / Note 10s c/m 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-16 06:27:58
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  113 | Vidrio 5D Motorola Moto G20 / G30 5 ok
+  114 | Vidrio 5D Motorola Moto G50 5 ok
+  115 | Vidrio 5D Motorola Moto G9 Plus 5 ok
+  123 | Vidrio Antiespia Apple Iphone 14 Pro 5  ok
+  124 | Vidrio Antiespia Apple Iphone 15 / 15 Pro 5 ok
+  131 | Vidrio Blindado Sasmung A30S 5 ok
+  143 | Vidrio Tortuga Xiaomi Redmi Note 12 5 ok
+  144 | Vidrio 5D Samsung A12 5 ok
+  145 | Vidrio Tortuga Samsung A12 5 ok ok
+  146 | Vidrio Templado Huawei Honor 90 Lite 10 ok
+  147 | Vidrio Tortuga Huawei Honor 90 Lite 5 ok
+  149 | Audifonos Bluetooth Yoyos inpods 12 Rosa 2 ok
+  150 | Cable We Tc 2 ok
+  151 | Forro Space Apple iPhone Xs Max 1 ok
+  152 | Forro Space Samsung A20 / A30 1 ok
+  153 | Manos Libres Apple Ligthning Original 1 ok
+  154 | Silicone Case Oppo A58 Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-16 06:27:58
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   11 | Cargador Pc Acer Mini 1 ok
+   25 | Power Bank Beston Bs-671 10000 Mah 2 ok
+   34 | Cable Hdmi 3m Malla 1 ok
+   37 | Reproductor Amazon Fire Tv Stick Hd 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-16 06:27:58
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Pacha Motorola Moto E6i 1 ok
+   10 | Pacha Huawei Honor X7a 2 ok
+   11 | Pacha Motorola Moto G60 / G60s 1 ok
+   12 | Pacha Huawei Honor X6 / X6s 1 ok
+   13 | Logica de Carga Huawei Honor X7a 1 ok

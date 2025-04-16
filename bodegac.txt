@@ -273,7 +273,7 @@
     Forro Space Oppo A57 / A77 2
     Forro Space Oppo A78 4
     Forro Space Oppo Realme C67 2
-    Forro Space Oppo Reno 10 1
+    Forro Space Oppo Reno 10 2
     Forro Space Oppo Reno 7 0
     Forro Space Samsung A03S / A02S 1
     Forro Space Samsung A05 0
@@ -436,7 +436,7 @@
     Reproductor Roku Express Hd 0
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
-    Reproductor Tdt Hd-939 3
+    Reproductor Tdt Hd-939 1
     Reproductor Tdt Krono 0
     Reproductor Tv Stick Magis 1
     Reproductor Tv Stick Watch Om 1
@@ -985,3 +985,15 @@
     Forro Diseños Samsung A16 Dama 6
     Forro Diseños Tecno Spark 20 Pro Plus Dama 2
     Forro Diseños Samsung A16 Caballero 4
+    Garantia Control Gamer Pc Sencillo 0
+    Vidrio 5d Samsung A15 0
+    Vidrio Tortuga Samsung A15 0
+    Vidrio Antiespia Samsung A15 0
+    Bateria Huawei Y7 2019 0
+    Forro Space Oppo A79 0
+    Pacha Infinix Hot 30 Play 0
+    Pacha Xiaomi Redmi A1 / A2 0
+    Silicone Case Oppo A78 Azulrey 0
+    Silicone Case Xiaomi Redmi A1 / A2 Rojo 0
+    Silicone Case Xiaomi Redmi A3 Azulrey 0
+    Silicone Case Xiaomi Redmi Note 12s Rosa 0
