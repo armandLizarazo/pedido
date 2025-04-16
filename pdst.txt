@@ -6,7 +6,8 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Camon 18P 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Motorola Moto E6i 1
-    Pacha Huawei Honor X7a 2
-    Pacha Motorola Moto G60 / G60s 2
-    Pacha Huawei Honor X6 / X6s 1
+    Pacha Motorola Moto E6i 1 ok
+    Pacha Huawei Honor X7a 2 ok
+    Pacha Motorola Moto G60 / G60s 1 ok
+    Pacha Huawei Honor X6 / X6s 1 ok
+    Logica de Carga Huawei Honor X7a 1 ok
