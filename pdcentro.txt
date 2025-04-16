@@ -136,15 +136,16 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Vidrio Tortuga Apple Iphone Xs Max 5
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Vidrio 5d Samsung A15 5
-    Vidrio Tortuga Samsung A15 5
-    Vidrio Antiespia Samsung A15 5
-    Cable Yoyos Tc 3m 3
-    Cable Yoyos V8 3m 3
-    Cargador Yl Tc 5
-    Forro Space Oppo A79 1
+    Vidrio 5d Samsung A15 5 ok
+    Vidrio Tortuga Samsung A15 5 ok
+    Vidrio Antiespia Samsung A15 5 ok
+    Cable Yoyos Tc 3m 3 ok
+    Cable Yoyos V8 3m 3 ok
+    Cargador Yl Tc 5 ok
+    Forro Space Oppo A79 1 ok
     Silicone Case Oppo A78 Azulrey 1
-    Silicone Case Xiaomi Redmi A1 / A2 Rojo 1
-    Silicone Case Xiaomi Redmi A3 Azulrey 1
-    Silicone Case Xiaomi Redmi A3 Fucsia 1
-    Silicone Case Xiaomi Redmi Note 12s Rosa 1
+    Silicone Case Xiaomi Redmi A1 / A2 Rojo 1 ok
+    Silicone Case Xiaomi Redmi A3 Azulrey 1 ok
+    Silicone Case Xiaomi Redmi A3 Fucsia 1 ok
+    Silicone Case Xiaomi Redmi Note 12s Rosa 1 ok
+    Forro Diseños Motorola Moto E30 /E40 Dragon ball 1 
