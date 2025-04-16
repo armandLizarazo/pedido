@@ -1,4 +1,4 @@
-    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
+ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -149,7 +149,7 @@
     Audifonos Bluetooth Yoyos inpods 12 Rosa 2 ok
     Cable We Tc 2 ok
     Forro Space Apple iPhone Xs Max 1 ok
-    Forro Space Samsung A30 1 ok
+    Forro Space Samsung A20 / A30 1 ok
     Manos Libres Apple Ligthning Original 1 ok
-    Silicone Case Oppo A58 Negro 1
+    Silicone Case Oppo A58 Negro 1 ok
     Silicone Case Samsung A03 Core Negro 1
