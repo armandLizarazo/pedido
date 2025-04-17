@@ -6,7 +6,7 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Camon 18P 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Bateria Huawei Y7 2019 1
-    Pacha Infinix Hot 30 Play 1
-    Pacha Tecno Spark Go 2023 1
-    Pacha Xiaomi Redmi A1 / A2 1
+    Bateria Huawei Y7 2019 1 ok
+    Pacha Infinix Hot 30 Play 1 ok
+    Pacha Tecno Spark Go 2023 1 ok
+    Pacha Xiaomi Redmi A1 / A2 1 ok
