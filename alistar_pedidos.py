@@ -4,37 +4,41 @@ def agregar_elemento_pedido_modificado():
     """
     Permite agregar o modificar elementos y sus cantidades en diferentes archivos de pedido,
     verificando contra un inventario central (bodegac.txt).
+    Si un item existe en bodega con cantidad > 0, permite al usuario elegir cuántas unidades restar (0 a stock actual).
     Utiliza encoding 'latin-1' para bodegac.txt y archivos de pedido.
     Agrega 4 espacios de indentación a las líneas en los archivos de pedido.
     Agrega items a bodegac.txt con indentación y cantidad 0 por defecto.
     Sale del programa al ingresar 'exit' en el prompt de descripción.
     """
     archivo_bodega = "bodegac.txt"
-    # Especificar la codificación al leer/escribir bodegac.txt
     encoding_bodega = 'latin-1'
+    encoding_pedido = 'latin-1' # Usar la misma codificación para pedidos por consistencia
 
-    # Asegurarse que el archivo de bodega exista, si no, crearlo vacío con la codificación correcta
+    # --- Función auxiliar para escribir la lista de bodega completa ---
+    def escribir_bodega(lineas_bodega):
+        try:
+            with open(archivo_bodega, "w", encoding=encoding_bodega) as bodega:
+                bodega.writelines(lineas_bodega)
+            return True
+        except IOError as e:
+            print(f"Error crítico al escribir en '{archivo_bodega}': {e}. No se guardaron los cambios en bodega.")
+            return False
+
+    # Asegurarse que el archivo de bodega exista
     if not os.path.exists(archivo_bodega):
         print(f"Advertencia: El archivo '{archivo_bodega}' no existe. Se creará uno vacío.")
-        try:
-            # Usar encoding al crear el archivo
-            with open(archivo_bodega, "w", encoding=encoding_bodega) as bodega:
-                # Escribir un encabezado o dejarlo vacío, sin indentación para el encabezado
-                bodega.write("# Inventario Central\n")
-        except IOError:
-            print(f"Error crítico: No se pudo crear el archivo '{archivo_bodega}'. Verifique los permisos.")
-            return # Salir si no se puede crear el archivo base
+        if not escribir_bodega([f"# Inventario Central\n"]):
+             return # Salir si no se puede crear el archivo base
 
     while True:
         # 1. Solicitar la descripción del elemento
         descripcion = input("Ingrese la descripción del elemento (o escriba 'exit' para terminar): ").strip()
 
-        # Verificar si el usuario desea salir (ANTES de pedir cantidad o archivo)
         if descripcion.lower() == "exit":
             print("Saliendo del programa...")
-            break # Este break debería terminar el bucle while True inmediatamente.
+            break
 
-        if not descripcion: # Si el usuario solo presiona Enter
+        if not descripcion:
             print("La descripción no puede estar vacía.")
             continue
 
@@ -42,45 +46,44 @@ def agregar_elemento_pedido_modificado():
         while True:
             try:
                 cantidad_str = input(f"Ingrese la cantidad para '{descripcion}' (para el pedido): ")
-                cantidad = int(cantidad_str)
+                cantidad = int(cantidad_str) # Cantidad deseada para el pedido
                 if cantidad < 0:
                     print("La cantidad no puede ser negativa.")
+                elif cantidad == 0:
+                    print("La cantidad para el pedido debe ser mayor que 0.")
                 else:
-                    break # Salir del bucle de cantidad si es válida
+                    break
             except ValueError:
                 print("Por favor, ingrese un número entero válido para la cantidad.")
 
-        # --- Verificación y posible adición a Bodega ---
+        # --- Verificación en Bodega ---
         elemento_en_bodega = False
-        elementos_bodega = [] # Inicializar lista
-        try:
-            # Usar encoding al leer
-            with open(archivo_bodega, "r", encoding=encoding_bodega) as bodega:
-                elementos_bodega = bodega.readlines()
+        cantidad_bodega_actual = 0
+        indice_bodega = -1
+        elementos_bodega = [] # Leeremos las líneas aquí
 
-            # *** MODIFICACIÓN AQUÍ: Actualizar lógica de búsqueda en bodega ***
-            for linea in elementos_bodega:
+        try:
+            with open(archivo_bodega, "r", encoding=encoding_bodega) as bodega:
+                elementos_bodega = bodega.readlines() # Leer todas las líneas para posible reescritura
+
+            # Buscar el elemento y obtener su cantidad actual e índice
+            for i, linea in enumerate(elementos_bodega):
                 linea_stripped = linea.strip()
-                # Ignorar líneas vacías o comentarios
                 if not linea_stripped or linea_stripped.startswith('#'):
                     continue
 
                 partes_bodega = linea_stripped.split()
-                # Verificar si la línea tiene al menos descripción y cantidad
                 if len(partes_bodega) >= 2:
-                    # Reconstruir descripción (todo menos el último elemento, que es la cantidad)
                     descripcion_bodega = " ".join(partes_bodega[:-1])
-                    # Comparar descripción ignorando mayúsculas/minúsculas
                     if descripcion_bodega.lower() == descripcion.lower():
                         elemento_en_bodega = True
-                        # Podríamos opcionalmente leer la cantidad de bodega aquí si fuera necesario
-                        # cantidad_bodega = partes_bodega[-1]
+                        indice_bodega = i
+                        try:
+                            cantidad_bodega_actual = int(partes_bodega[-1])
+                        except ValueError:
+                            print(f"Advertencia: Formato de cantidad inválido en línea {i+1} de '{archivo_bodega}'. Se asume 0.")
+                            cantidad_bodega_actual = 0
                         break # Elemento encontrado
-                # Opcional: manejar líneas con formato antiguo (solo descripción) si es necesario
-                # elif len(partes_bodega) == 1:
-                #     if partes_bodega[0].lower() == descripcion.lower():
-                #         elemento_en_bodega = True
-                #         break
 
         except FileNotFoundError:
             print(f"Error: No se pudo leer el archivo '{archivo_bodega}'.")
@@ -89,25 +92,69 @@ def agregar_elemento_pedido_modificado():
             print(f"Error inesperado al leer '{archivo_bodega}': {e}")
             continue
 
-
-        # Si el elemento no existe en bodegac.txt, preguntar al usuario si desea agregarlo
+        # --- Lógica de Adición a Bodega (si no existe) ---
         if not elemento_en_bodega:
             respuesta_bodega = input(f"El elemento '{descripcion}' no existe en '{archivo_bodega}'. ¿Desea agregarlo al inventario? (s/n): ").strip().lower()
             if respuesta_bodega == 's':
-                try:
-                    # Usar encoding al añadir
-                    with open(archivo_bodega, "a", encoding=encoding_bodega) as bodega:
-                        # *** MODIFICACIÓN AQUÍ: Añadir con cantidad 0 por defecto ***
-                        bodega.write(f"    {descripcion} 0\n")
+                nueva_linea_bodega = f"    {descripcion} 0\n"
+                elementos_bodega.append(nueva_linea_bodega)
+                if escribir_bodega(elementos_bodega):
                     print(f"El elemento '{descripcion}' ha sido agregado a '{archivo_bodega}' con cantidad 0 (con indentación).")
-                    # Actualizar la lista en memoria consistentemente
-                    elementos_bodega.append(f"    {descripcion} 0\n")
-                except IOError:
-                    print(f"Error: No se pudo escribir en el archivo '{archivo_bodega}'.")
+                    elemento_en_bodega = True
+                    indice_bodega = len(elementos_bodega) - 1
+                    cantidad_bodega_actual = 0
+                else:
+                    elementos_bodega.pop()
+                    print(f"No se pudo agregar '{descripcion}' a bodega debido a error de escritura.")
+                    continue
             else:
                 print(f"El elemento '{descripcion}' no fue agregado a '{archivo_bodega}'. No se puede agregar al pedido si no está en bodega.")
                 continue
 
+        # --- Lógica de Descuento de Bodega (si existe y hay stock > 0) ---
+        # *** MODIFICACIÓN AQUÍ: Solo actuar si hay stock > 0 ***
+        if elemento_en_bodega and cantidad_bodega_actual > 0:
+            print(f"\nInformación de Bodega: '{descripcion}' tiene {cantidad_bodega_actual} unidad(es) en '{archivo_bodega}'.")
+
+            # Advertir si la cantidad pedida excede el stock, solo como información
+            if cantidad > cantidad_bodega_actual:
+                print(f"Advertencia: La cantidad solicitada para el pedido ({cantidad}) es mayor que el stock actual en bodega ({cantidad_bodega_actual}).")
+
+            # *** MODIFICACIÓN AQUÍ: Preguntar cuánto restar, validar entrada ***
+            while True: # Bucle para validar la cantidad a restar
+                cantidad_a_restar_str = input(f"¿Cuántas unidades desea restar de bodega? (Ingrese 0 a {cantidad_bodega_actual}, o Enter para no restar): ").strip()
+
+                if not cantidad_a_restar_str: # Si presiona Enter
+                    cantidad_a_restar = 0
+                    break
+
+                try:
+                    cantidad_a_restar = int(cantidad_a_restar_str)
+                    if 0 <= cantidad_a_restar <= cantidad_bodega_actual:
+                        break # Cantidad válida, salir del bucle
+                    else:
+                        print(f"Error: La cantidad a restar debe estar entre 0 y {cantidad_bodega_actual}.")
+                except ValueError:
+                    print("Error: Por favor ingrese un número válido o presione Enter.")
+
+            # --- Realizar la resta si se especificó una cantidad > 0 ---
+            if cantidad_a_restar > 0:
+                nueva_cantidad_bodega = cantidad_bodega_actual - cantidad_a_restar
+                # Actualizar la línea correcta en la lista 'elementos_bodega'
+                elementos_bodega[indice_bodega] = f"    {descripcion} {nueva_cantidad_bodega}\n"
+                # Re-escribir todo el archivo bodega con la línea actualizada
+                if escribir_bodega(elementos_bodega):
+                     print(f"OK: Se restaron {cantidad_a_restar} unidad(es). Cantidad en '{archivo_bodega}' actualizada a {nueva_cantidad_bodega}.")
+                else:
+                     print(f"Error: No se pudo actualizar la cantidad en '{archivo_bodega}'.")
+                     # Considerar revertir el cambio en memoria si falla la escritura
+                     # elementos_bodega[indice_bodega] = f"    {descripcion} {cantidad_bodega_actual}\n" # Revertir
+            else:
+                print(f"INFO: No se modificará el stock en '{archivo_bodega}'.")
+
+        # --- Continuar con la gestión del archivo de Pedido ---
+        # Ya no se muestra mensaje si cantidad_bodega_actual <= 0
+        print(f"\nProcediendo a agregar/modificar '{descripcion}' en el archivo de pedido...")
 
         # 3. Solicitar el nombre del archivo de "Pedido"
         while True:
@@ -121,66 +168,82 @@ def agregar_elemento_pedido_modificado():
 
 
         # --- Verificación y adición/modificación en el Archivo de Pedido específico ---
-        encoding_pedido = 'latin-1' # Mantener encoding para archivos de pedido
         lineas_pedido = []
         try:
-            # Intentar leer el archivo de pedido específico con encoding
             with open(nombre_pedido, "r", encoding=encoding_pedido) as pedido:
                 lineas_pedido = pedido.readlines()
         except FileNotFoundError:
-            print(f"El archivo '{nombre_pedido}' no existe. Se creará si agrega elementos.")
+            print(f"El archivo '{nombre_pedido}' no existe. Se creará al agregar elementos.")
         except UnicodeDecodeError:
-             print(f"Error de codificación al leer '{nombre_pedido}'. Intenta verificar su codificación.")
+             print(f"Error de codificación al leer '{nombre_pedido}'. Verifique su codificación.")
              continue
         except IOError:
             print(f"Error al leer el archivo '{nombre_pedido}'. No se podrá procesar.")
             continue
 
         elemento_en_pedido = False
-        indice_elemento = -1
-        cantidad_actual = 0
+        indice_pedido = -1
+        cantidad_pedido_actual = 0
 
-        # Buscar el elemento en las líneas leídas del pedido
         for i, linea in enumerate(lineas_pedido):
-            # Usar strip() para quitar espacios al inicio/final antes de dividir
             partes = linea.strip().split()
             if len(partes) >= 2:
-                # Reconstruir descripción si tiene espacios
                 descripcion_linea = " ".join(partes[:-1])
                 if descripcion_linea.lower() == descripcion.lower():
                     elemento_en_pedido = True
-                    indice_elemento = i
+                    indice_pedido = i
                     try:
-                        cantidad_actual = int(partes[-1])
+                        cantidad_pedido_actual = int(partes[-1])
                     except ValueError:
-                        print(f"Advertencia: Formato de cantidad inválido en línea {i+1} del archivo '{nombre_pedido}'. Se ignorará la línea.")
-                        elemento_en_pedido = False
+                        print(f"Advertencia: Formato inválido en línea {i+1} del archivo '{nombre_pedido}'.")
+                        elemento_en_pedido = False # Ignorar línea mal formada
                     break
 
         if elemento_en_pedido:
-            print(f"El elemento '{descripcion}' ya existe en '{nombre_pedido}' con cantidad {cantidad_actual}.")
-            respuesta_modificar = input("¿Desea modificar la cantidad? (s/n): ").strip().lower()
-            if respuesta_modificar == 's':
-                nueva_cantidad = cantidad # Usar la cantidad pedida al inicio para el pedido
-                # Añadir 4 espacios al inicio de la línea actualizada
-                lineas_pedido[indice_elemento] = f"    {descripcion} {nueva_cantidad}\n"
-                try:
-                    with open(nombre_pedido, "w", encoding=encoding_pedido) as pedido:
-                        pedido.writelines(lineas_pedido)
-                    print(f"Cantidad de '{descripcion}' actualizada a {nueva_cantidad} en '{nombre_pedido}' (con indentación).")
-                except IOError:
-                     print(f"Error: No se pudo escribir en el archivo '{nombre_pedido}'.")
-            else:
-                print("La cantidad no ha sido modificada.")
+            print(f"El elemento '{descripcion}' ya existe en '{nombre_pedido}' con cantidad {cantidad_pedido_actual}.")
+            # *** MODIFICACIÓN AQUÍ: Simplificar, siempre sumar al existente o reemplazar? Preguntemos qué hacer ***
+            # Opción 1: Siempre sumar la nueva cantidad a la existente
+            # nueva_cantidad_pedido = cantidad_pedido_actual + cantidad
+            # print(f"Se sumará {cantidad} a la cantidad existente. Nueva cantidad: {nueva_cantidad_pedido}")
+            # lineas_pedido[indice_pedido] = f"    {descripcion} {nueva_cantidad_pedido}\n"
+            # accion_pedido = "actualizada (sumada)"
+
+            # Opción 2: Preguntar si reemplazar o sumar
+            while True:
+                resp_modif = input("¿Desea [R]eemplazar la cantidad existente con la nueva, [S]umar la nueva cantidad a la existente, o [N]o hacer nada? (R/S/N): ").strip().lower()
+                if resp_modif == 'r':
+                    nueva_cantidad_pedido = cantidad # Reemplazar con la cantidad pedida ahora
+                    lineas_pedido[indice_pedido] = f"    {descripcion} {nueva_cantidad_pedido}\n"
+                    accion_pedido = "actualizada (reemplazada)"
+                    print(f"Cantidad reemplazada. Nueva cantidad: {nueva_cantidad_pedido}")
+                    break
+                elif resp_modif == 's':
+                    nueva_cantidad_pedido = cantidad_pedido_actual + cantidad # Sumar
+                    lineas_pedido[indice_pedido] = f"    {descripcion} {nueva_cantidad_pedido}\n"
+                    accion_pedido = "actualizada (sumada)"
+                    print(f"Cantidad sumada. Nueva cantidad: {nueva_cantidad_pedido}")
+                    break
+                elif resp_modif == 'n':
+                    print("La cantidad en el pedido no ha sido modificada.")
+                    accion_pedido = None # No hacer nada
+                    break
+                else:
+                    print("Opción inválida. Por favor ingrese R, S o N.")
+
         else:
-            # Añadir 4 espacios al inicio de la nueva línea
-            nueva_linea = f"    {descripcion} {cantidad}\n" # Usar la cantidad pedida al inicio para el pedido
+            # Agregar como nuevo al pedido
+            nueva_linea_pedido = f"    {descripcion} {cantidad}\n"
+            lineas_pedido.append(nueva_linea_pedido)
+            accion_pedido = "agregado"
+
+        # Escribir cambios en el archivo de pedido si es necesario
+        if accion_pedido:
             try:
-                with open(nombre_pedido, "a", encoding=encoding_pedido) as pedido:
-                    pedido.write(nueva_linea)
-                print(f"Elemento '{descripcion}' agregado a '{nombre_pedido}' con cantidad {cantidad} (con indentación).")
+                with open(nombre_pedido, "w", encoding=encoding_pedido) as pedido:
+                    pedido.writelines(lineas_pedido)
+                print(f"OK: Elemento '{descripcion}' {accion_pedido} en '{nombre_pedido}' (con indentación).\n")
             except IOError:
-                print(f"Error: No se pudo escribir en el archivo '{nombre_pedido}'.")
+                 print(f"Error: No se pudo escribir en el archivo '{nombre_pedido}'.\n")
 
 # Ejecutar la función modificada
 agregar_elemento_pedido_modificado()

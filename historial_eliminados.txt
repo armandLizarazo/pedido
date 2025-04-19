@@ -2561,3 +2561,42 @@ Línea  | Contenido
    11 | Pacha Motorola Moto G60 / G60s 1 ok
    12 | Pacha Huawei Honor X6 / X6s 1 ok
    13 | Logica de Carga Huawei Honor X7a 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-17 05:15:38
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  139 | Vidrio 5d Samsung A15 5 ok
+  140 | Vidrio Tortuga Samsung A15 5 ok
+  141 | Vidrio Antiespia Samsung A15 5 ok
+  142 | Cable Yoyos Tc 3m 3 ok
+  143 | Cable Yoyos V8 3m 3 ok
+  144 | Cargador Yl Tc 5 ok
+  145 | Forro Space Oppo A79 1 ok
+  147 | Silicone Case Xiaomi Redmi A1 / A2 Rojo 1 ok
+  148 | Silicone Case Xiaomi Redmi A3 Azulrey 1 ok
+  149 | Silicone Case Xiaomi Redmi A3 Fucsia 1 ok
+  150 | Silicone Case Xiaomi Redmi Note 12s Rosa 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-17 05:15:38
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-04-17 05:15:38
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Bateria Huawei Y7 2019 1 ok
+   10 | Pacha Infinix Hot 30 Play 1 ok
+   11 | Pacha Tecno Spark Go 2023 1 ok
+   12 | Pacha Xiaomi Redmi A1 / A2 1 ok
