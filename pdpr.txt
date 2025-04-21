@@ -23,7 +23,7 @@
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Plancha Combo Babyliss 1
-    Reproducor Onn Hd 1
+    Reproducor Onn Hd 1 ok
     Smart Band 7 1
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
@@ -34,8 +34,8 @@
     Garantia Control Gamer Pc Sencillo 1
     Reproductor Tdt Krono 2
     Pila Reloj Cr2032 5
-    Cable Rca 3 a 1 1.5m 1
-    Cable Rca 3 a 3 3m 3
+    Cable Rca 3 a 3 1.5m 1 
+    Cable Rca 3 a 3 3m 3 ok
     Cable Hdmi 1.5m Eco 2
     Celular Tg Thor Rompemuros 1
     Control Gamer Sony Ps4 Spiderman 1
@@ -43,7 +43,7 @@
     Control Gamer Sony Ps3 CamufladoVerde 1
     Control Gamer Pc Eco 1 1
     Control Gamer Gatillos G21 1
-    Proyector Hy300 Con Juegos 1
+    Proyector Hy300 Con Juegos 1 
     Mouse Gamer Eco A78 1
-    Power Bank Beston Bs-671 10000 Mah 2
+    Power Bank Beston Bs-671 10000 Mah 2 ok
     Power Bank Panel Solar 12000 Mah 1
