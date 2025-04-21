@@ -44,3 +44,6 @@
     Control Gamer Pc Eco 1 1
     Control Gamer Gatillos G21 1
     Proyector Hy300 Con Juegos 1
+    Mouse Gamer Eco A78 1
+    Power Bank Beston Bs-671 10000 Mah 2
+    Power Bank Panel Solar 12000 Mah 1

@@ -384,7 +384,7 @@
     Mini Plancha Cafe 1
     Mouse Eco 2
     Mouse Eco Fc-143 2
-    Mouse Gamer Eco A78 1
+    Mouse Gamer Eco A78 0
     Pacha Apple Iphone 11 Gx 0
     Pacha Apple Iphone 7 Plus Negro 0
     Pacha Apple Iphone 8 Blanco 1
@@ -453,7 +453,7 @@
     Plancha Remington Aguacate 1
     Power Bank Aibimy 10000 Mah 120W 0
     Power Bank Aibimy 30000 Mah 0
-    Power Bank Beston Bs-671 10000 Mah 1
+    Power Bank Beston Bs-671 10000 Mah 0
     Power Bank Panel Solar 12000 Mah 0
     Protector Teclado 15P 1
     Radios Baofeng 1
@@ -1032,3 +1032,13 @@
     Pacha Samsung A31 s/m 0
     Pacha Tecno Camon 30s pro 0
     Proyector Hy300 Con Juegos 0
+    Adaptador Ext Hdmi 0
+    Forro Diseños Xiaomi Redmi Note 13 4G Dama 0
+    Pacha Motorola Moto G22 / E32 0
+    Pacha Samsung A13 / M13 0
+    Silicone Case Samsung A16 Lila 0
+    Silicone Case Samsung A16 Rojo 0
+    Silicone Case Samsung A16 Amarillo 0
+    Silicone Case Samsung A12 5G Negro 0
+    Silicone Case Xiaomi Redmi 9 Lila 0
+    Vidrio 5D Samsugn A06 0
