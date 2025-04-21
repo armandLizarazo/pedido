@@ -11,7 +11,7 @@
     Pacha Lg K51s 1 
     Pacha Samsung A02s c/m 1
     Pacha Samsung A11 1 ok
-    Pacha Xioami Redmi A1 / A2 1
+    Pacha Xioami Redmi A1 / A2 1 ok
     Pacha Xiaomi Redmi 10 1 ok
-    Pacha Samsung A31 s/m 1 
+    Pacha Samsung A31 s/m 1 ok
     Pacha Tecno Camon 30s pro 1
