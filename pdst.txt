@@ -14,3 +14,4 @@
     Pacha Motorola Moto G22 / E32 1 ok
     Pacha Samsung A13 / M13 1
     Pin de carga xiaomi Redmi 9a 10 ok
+    Logica de Carga Samsung A25 1
