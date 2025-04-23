@@ -4,7 +4,6 @@
     Audifonos Bluetooth Apple I12 Azulclaro 3
     Audifonos Bluetooth Apple I12 Azuloscuro 5
     Audifonos Bluetooth Conductor 1092 1
-    Balaca Onikuma 1
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
     Cable Hdmi 1.5M Eco 2
@@ -12,7 +11,7 @@
     Cargador Pc Puntas Caja Blanca 2
     Celular T72 1
     Celular T76 1
-    Celular Tg Thor Rompemuros 1
+    Celular Tg Thor Rompemuros 2 ok
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
     Control Gamer Gatillos G21 1
@@ -30,7 +29,7 @@
     Pad Mouse Tapete Largo Diseños 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
-    Pila Reloj Cr2032 5
+    Pila Reloj Cr2032 10 ok
     Plancha Combo Babyliss 1
     Power Bank Panel Solar 12000 Mah 1
     Proyector Hy300 Con Juegos 1
@@ -40,8 +39,10 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tripode Neepho 1
+    Soporte Bicicleta Manubrio 2 ok
+    Soporte Tv 60 Brazo 2 ok
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
-    Cable Dpp2dpp 2
-    Camara 3 Antenas 2
+    Cable Dpp2dpp 3m 1
+    Camara 3 Antenas 2 ok
     Proyector Hy-300 1
