@@ -7,23 +7,34 @@
     Balaca Onikuma 1
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
+    Cable Hdmi 1.5M Eco 2
     Cable Hdmi 3M 3
     Cargador Pc Puntas Caja Blanca 2
     Celular T72 1
     Celular T76 1
+    Celular Tg Thor Rompemuros 1
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
+    Control Gamer Gatillos G21 1
+    Control Gamer Pc Eco 1 1
     Control Gamer Pc Sencillo 1
     Control Gamer Ps2 Inalambrico 1
+    Control Gamer Ps4 Gta V 1
     Control Gamer Ps4 Negro 1
+    Control Gamer Sony Ps3 Camufladoverde 1
+    Control Gamer Sony Ps4 Spiderman 1
+    Garantia Control Gamer Pc Sencillo 1
     Garantia Microfono Con Consola No Sirve P 1
     Lampara Esfera Sistema Solar 1
     Pad Mouse Tapete Diseã£Â±Os 5
     Pad Mouse Tapete Largo Diseños 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
+    Pila Reloj Cr2032 5
     Plancha Combo Babyliss 1
-    Reproducor Onn Hd 1 ok
+    Power Bank Panel Solar 12000 Mah 1
+    Proyector Hy300 Con Juegos 1
+    Reproductor Tdt Krono 3
     Smart Band 7 1
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
@@ -31,19 +42,6 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
-    Garantia Control Gamer Pc Sencillo 1
-    Reproductor Tdt Krono 2
-    Pila Reloj Cr2032 5
-    Cable Rca 3 a 3 1.5m 1 ok
-    Cable Rca 3 a 3 3m 3 ok
-    Cable Hdmi 1.5m Eco 2
-    Celular Tg Thor Rompemuros 1
-    Control Gamer Sony Ps4 Spiderman 1
-    Control Gamer Ps4 Gta V 1
-    Control Gamer Sony Ps3 CamufladoVerde 1
-    Control Gamer Pc Eco 1 1
-    Control Gamer Gatillos G21 1
-    Proyector Hy300 Con Juegos 1
-    Mouse Gamer Eco A78 2 ok
-    Power Bank Beston Bs-671 10000 Mah 2 ok
-    Power Bank Panel Solar 12000 Mah 1
+    Cable Dpp2dpp 2
+    Camara 3 Antenas 2
+    Proyector Hy-300 1

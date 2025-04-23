@@ -1,13 +1,18 @@
 ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
+    Adaptador Ext Hdmi 3
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Balacas Onikuma 2
     Cargador Samsung 45W Con Cable Blanco 2
+    Cargador We Tc 2
+    Cargador We V8 2
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
+    Forro Armadura Motorola Moto G20 / G30 Negro 1
+    Forro Armadura Motorola Moto G20 / G30 Rojo 1
     Forro Armadura Motorola Moto G23 Verde 1
     Forro Armadura Motorola Moto G24 Negro 1 
     Forro Armadura Oppo A15 Negro 1
@@ -17,34 +22,37 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
+    Forro Armadura Samsung A15 Rojo 1
     Forro Armadura Samsung A35 Azulrey 1
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Tecno Camon Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
-    Forro DiseÃƒÂ£Ã‚Â±Os Honor X6B Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Honor X6B Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Huawei Honor Magic 7 Lite Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Huawei Honor Magic 7 Lite Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Infinix Hot 30 Pro Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Infinix Hot 30 Pro Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Infinix Hot 50 Pro Plus Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Infinix Note 40 Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Motorola Moto One Caballero 2
-    Forro DiseÃƒÂ£Ã‚Â±Os Oppo A17 Caballero 3
-    Forro DiseÃƒÂ£Ã‚Â±Os Oppo Realme C63 Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Oppo Realme C63 Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Samsung A04E Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Samsung A36 Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Tecno Camon 30S Pro Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Tecno Camon 30S Pro Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Tecno Spark 30 Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Tecno Spark 30 Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Vivo V25E Caballero 3
-    Forro DiseÃƒÂ£Ã‚Â±Os Vivo Y19S Caballero 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Vivo Y19S Dama 5
-    Forro DiseÃƒÂ£Ã‚Â±Os Vivo Y20S Caballero 3
+    Forro Diseã±Os Motorola Moto G54 Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Honor X6B Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Honor X6B Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Huawei Honor Magic 7 Lite Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Huawei Honor Magic 7 Lite Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Infinix Hot 30 Pro Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Infinix Hot 30 Pro Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Infinix Hot 50 Pro Plus Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Infinix Note 40 Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Motorola Moto One Caballero 2
+    Forro Diseãƒâ£Ã‚Â±Os Oppo A17 Caballero 3
+    Forro Diseãƒâ£Ã‚Â±Os Oppo Realme C63 Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Oppo Realme C63 Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Samsung A04E Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Samsung A36 Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Tecno Camon 30S Pro Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Tecno Camon 30S Pro Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Tecno Spark 30 Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Tecno Spark 30 Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Vivo V25E Caballero 3
+    Forro Diseãƒâ£Ã‚Â±Os Vivo Y19S Caballero 5
+    Forro Diseãƒâ£Ã‚Â±Os Vivo Y19S Dama 5
+    Forro Diseãƒâ£Ã‚Â±Os Vivo Y20S Caballero 3
+    Forro Diseãƒâ±Os Motorola Moto E30 /E40 Dragon Ball 1 
     Forro Lujo Samsung A05S 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Motorola Moto G50 1
@@ -53,6 +61,7 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Infinix Note 40 2
     Forro Space Motorola Moto G04 1
+    Forro Space Oppo A79 1
     Forro Space Oppo A80 2
     Forro Space Samsung A36 2
     Forro Space Samsung S24 Fe 1
@@ -60,12 +69,13 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Forro Space Tecno Spark 30C 2
     Forro Spoace Tecno Spark 10 Pro 1
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz PequeÃƒÂ£Ã‚Â±Os 2
+    Garantia Aro De Luz Pequeãƒâ£Ã‚Â±Os 2
     Mosue Inalambrico Rosa 1
     Mouse Jertech Jr-1 Azul 1
     Silicone Caae Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
+    Silicone Case Apple Iphone 13 Morado 1
     Silicone Case Honor 90 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
@@ -87,10 +97,14 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Silicone Case Infinix Hot 50 Pro Plus Rosa 1
     Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
+    Silicone Case Motorola Moto G54 Rosa 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
+    Silicone Case Oppo A78 Azulrey 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A16 Amarillo 1 
+    Silicone Case Samsung A16 Lila 1
     Silicone Case Samsung A16 Rojo 1
+    Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Tecno Camon 30S Negro 1
@@ -136,25 +150,26 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Vidrio Tortuga Apple Iphone Xs Max 5
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Silicone Case Oppo A78 Azulrey 1
-    Forro DiseÃƒÂ±os Motorola Moto E30 /E40 Dragon ball 1 
-    Silicone Case Apple iPhone 13 Morado 1
-    Forro DiseÃ±os Motorola Moto G54 Caballero 5
-    Silicone Case Motorola Moto G54 Rosa 1
-    Audifonos Bluetooth W i12 Rosa 2 ok
-    Audifonos Bluetooth W i12 Negro 2 ok
-    Balaca Pantalla Negro 1 ok
-    Balaca Pantalla Rojo 1 ok
-    Cargador We Tc 2
-    Forro Armadura Motorola Moto G20 / G30 Rojo 1
-    Forro Armadura Motorola Moto G20 / G30 Negro 1
-    Forro Armadura Samsung A06 Negro 1 ok
-    Forro Armadura Samsung A15 Rojo 1
-    Adaptador Ext Hdmi 3
-    Cargador We V8 2
-    Forro Diseños Xiaomi Redmi Note 13 4G Dama 3 ok
-    Forro Space Oppo A79 1
-    Silicone Case Samsung A16 Lila 1
-    Silicone Case Samsung A22 5G Negro 1
-    Silicone Case Xiaomi Redmi 9 Lila 1 ok
-    Vidrio 5D Samsugn A06 5 ok
+    Silicone Case Motorola Moto G42 Morado 1
+    Silicone Case Motorola Moto G42 Fucsia 1
+    Forro Dise�os Opps A79 Caballero 2
+    Forro Dise�os Oppo A70 Dama 3
+    Manos Libres Samsung Akg 5
+    Audifonos Bluetooth W I12 Rosa 2
+    Cable Apple Tc Ligthning 2M 2
+    Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1
+    Forro Space Vivo V30 Lite 1
+    Forro Space Vivo V30 2
+    Forro Space Vivo V40 2
+    Manos Libres Samsung J5 Negro 5
+    Mouse Inalambrico Jertech Jr-1 Negro 1
+    Silicone Case Huawei Honor X5b Rojo 1
+    Forro Dise�os Huawei Honor X5b Dama 5
+    Forro Dise�os Huawei Honor X5b Caballero 5
+    Silicone Case Vivo V30 Negro 1
+    Silicone Case Oppo A57 Rojo 1
+    Silicone Case Samsung A26 Azuloscuro 1
+    Silicone Case Samsung A26 Blanco 1
+    Silicone Case Samsung A55 Palorosa 1
+    Silicone Case Tecno Spark 20 Pro Plus 1
+    Silicone Case Xiaomi Redmi 9T Lila 1

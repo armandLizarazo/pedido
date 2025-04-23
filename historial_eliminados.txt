@@ -2644,3 +2644,48 @@ Línea  | Contenido
    14 | Pacha Xioami Redmi A1 / A2 1 ok
    15 | Pacha Xiaomi Redmi 10 1 ok
    16 | Pacha Samsung A31 s/m 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-22 05:32:46
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  144 | Audifonos Bluetooth W i12 Rosa 2 ok
+  145 | Audifonos Bluetooth W i12 Negro 2 ok
+  146 | Balaca Pantalla Negro 1 ok
+  147 | Balaca Pantalla Rojo 1 ok
+  151 | Forro Armadura Samsung A06 Negro 1 ok
+  155 | Forro Diseños Xiaomi Redmi Note 13 4G Dama 3 ok
+  159 | Silicone Case Xiaomi Redmi 9 Lila 1 ok
+  160 | Vidrio 5D Samsugn A06 5 ok
+
+==================================================
+Fecha de proceso: 2025-04-22 05:32:46
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   26 | Reproducor Onn Hd 1 ok
+   37 | Cable Rca 3 a 3 1.5m 1 ok
+   38 | Cable Rca 3 a 3 3m 3 ok
+   47 | Mouse Gamer Eco A78 2 ok
+   48 | Power Bank Beston Bs-671 10000 Mah 2 ok
+
+==================================================
+Fecha de proceso: 2025-04-22 05:32:46
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   11 | Pacha Tecno Camon 30s pro 1 ok
+   12 | Pacha Huawei Honor X6 / X6s 1 ok
+   13 | Pacha Huawei Honor X7a 1 ok
+   14 | Pacha Motorola Moto G22 / E32 1 ok
+   16 | Pin de carga xiaomi Redmi 9a 10 ok

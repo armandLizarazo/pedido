@@ -7,6 +7,7 @@
     Adaptador Dpp2Vga Cbl 2
     Adaptador Dvi2Vga 0
     Adaptador Europeo Goma 4
+    Adaptador Ext Hdmi 3
     Adaptador Hdmi2Av 1
     Adaptador Hdmi2Vga 1
     Adaptador Hdmi2Vga Cbl 0
@@ -44,13 +45,16 @@
     Audifonos Bluetooth M60 3
     Audifonos Bluetooth Pro 60 0
     Audifonos Bluetooth Royal Sports 1
-    Audifonos Bluetooth W i12 Rosa 0
+    Audifonos Bluetooth W I12 Negro 0
+    Audifonos Bluetooth W I12 Rosa 0
     Audifonos Bluetooth X15 1
     Audifonos Bluetooth Xiaomi Redmi E7S Negro 0
     Audifonos Bluetooth Yoyos Inpods 12 Rosa 0
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 1
+    Balaca Pantalla Negro 0
+    Balaca Pantalla Rojo 0
     Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 0
     Bateria Apple Iphone 7 Plus 0
     Bateria Huawei Y7 2019 0
@@ -86,6 +90,8 @@
     Cable Poder Cuadrado 3
     Cable Poder Grabadora 3
     Cable Poder Trebol 3
+    Cable Rca 3 A 1 1.5M 1
+    Cable Rca 3 A 3 3M 2
     Cable Royal Tc 0
     Cable Royal Tc 2M 2
     Cable Samsung Tc A Tc Blanco 0
@@ -113,7 +119,7 @@
     Cargador 9V 2A Doble Punta 3
     Cargador Apple 20W Tc Cabeza 0
     Cargador Apple 20W Tc Ligthning 1
-    Cargador Apple 25W Tc Cabeza 0
+    Cargador Apple 25W Tc Cabeza 1
     Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
@@ -121,8 +127,8 @@
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 0
-    Cargador Belkin V8 2
+    Cargador Belkin Tc 3
+    Cargador Belkin V8 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -162,24 +168,32 @@
     Cargador Samsung S10+ Tc 0
     Cargador Tc A Tc 80W 2P 1
     Cargador Tecno Tc 2.4 2
+    Cargador Tecno V8 2.4 2
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
-    Cargador Xiaomi 120W 0
+    Cargador We Tc 0
+    Cargador We V8 0
+    Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
     Cargador Yl Tc 5
-    Cargador Yl V8 0
+    Cargador Yl V8 4
     Cargador Yl V8 Eco 5
     Celular Nokia 105 4G 1
+    Celular Tg Thor Rompemuros 0
     Cepillo De Dientes Electrico 1
     Consola Game Sitck 2
     Control Gamer Gatillos G21 0
     Control Gamer Gatillos H-9.0 0
     Control Gamer Gatillos W11+ 0
     Control Gamer Microsoft Pc/360 Cbl 0
+    Control Gamer Pc Eco 1 0
     Control Gamer Pc Sencillo 0
+    Control Gamer Ps4 Gta V 0
     Control Gamer Sony Ps2 Inalambrico 0
+    Control Gamer Sony Ps3 Camufladoverde 0
+    Control Gamer Sony Ps4 Spiderman 0
     Control Gamer X3 2
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
@@ -191,8 +205,12 @@
     Flex De Power Xiaomi Poco X3 Negro 0
     Forro Aramdura Motorola Moto G24 / G04 Ab Negro 0
     Forro Armadura Apple Iphone 11 Rojo 0
-    Forro Armadura Motorola Moto G24 Negro 1
+    Forro Armadura Moto G20 / G30 Negro 0
+    Forro Armadura Motorola Moto G20 / G30 Rojo 0
+    Forro Armadura Motorola Moto G24 Negro 0
     Forro Armadura Oppo Reno 11F Negro 2
+    Forro Armadura Samsung A06 Negro 0
+    Forro Armadura Samsung A15 Rojo 0
     Forro Armadura Tecno Spark Go 2025 / Go 1S Negro 0
     Forro Armadura Xiaomi Redmi 14C Negro 0
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 0
@@ -200,47 +218,54 @@
     Forro Crg Apple Con Estuche Morado 1
     Forro Crg Apple Con Estuche Naranja 1
     Forro Crg Apple Con Estuche Negro 0
-    Forro Diseã£Â±Os A04E Dama 3
-    Forro Diseã£Â±Os Apple Iphone 11 Caballero 0
-    Forro Diseã£Â±Os Apple Iphone 11 Dama 0
-    Forro Diseã£Â±Os Apple Iphone 11 Verdemilitar 0
-    Forro Diseã£Â±Os Huawei P10 Lite Caballero 0
-    Forro Diseã£Â±Os Motorola Moto E20 Dama 0
-    Forro Diseã£Â±Os Xiaomi Redmi 10C Caballero 2
-    Forro Diseã±Os A04E Dama 0
-    Forro Diseã±Os A35 Caballero 2
-    Forro Diseã±Os A55 Dama 1
-    Forro Diseã±Os Honor X8A Dama 2
-    Forro Diseã±Os Huawei Honor X7C Caballero 0
-    Forro Diseã±Os Huawei Honor X7C Dama 0
-    Forro Diseã±Os Huawei Y9 2019 / Y8S Caballero 0
-    Forro Diseã±Os Huawei Y9 2019 / Y8S Dama 0
-    Forro Diseã±Os Motorola Moto G24 / G04 Caballero 0
-    Forro Diseã±Os Motorola Moto G24 / G04 Dama 0
-    Forro Diseã±Os Oppo A38 Caballero 2
-    Forro Diseã±Os Oppo A38 Dama 1
-    Forro Diseã±Os Samsung A04E Caballero 0
-    Forro Diseã±Os Samsung A14 Caballero 2
-    Forro Diseã±Os Samsung A15 Caballero 5
-    Forro Diseã±Os Samsung A35 Dama 1
-    Forro Diseã±Os Samsung A55 Caballero 5
-    Forro Diseã±Os Tecno Camon 30 Pro Dama 5
-    Forro Diseã±Os Tecno Spark Go 2024 Caballero 2
-    Forro Diseã±Os Tecno Spark Go 2024 Dama 1
-    Forro Diseã±Os Xiaomi Redmi 10 Caballero 3
-    Forro Diseã±Os Xiaomi Redmi 10 Dama 0
-    Forro Diseã±Os Xiaomi Redmi 14C Caballero 0
-    Forro Diseã±Os Xiaomi Redmi 14C Dama 2
-    Forro Diseã±Os Xiaomi Redmi Note 11 Dama 0
-    Forro Diseã±Os Xiaomi Redmi Note 13 5G 5
-    Forro Diseã±Os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
-    Forro Diseã±Os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
-    Forro Diseños Infinix Hot 50 Pro Plus Caballero 5
-    Forro Diseños Motorola Moto C Caballero 6
-    Forro Diseños Samsung A16 Caballero 4
-    Forro Diseños Samsung A16 Dama 6
-    Forro Diseños Tecno Pova 5 Dama 4
-    Forro Diseños Tecno Spark 20 Pro Plus Dama 2
+    Forro Dise�os Apple Iphone 11 Dama 0
+    Forro Dise�os Apple Iphone 11 Verdemilitar 0
+    Forro Dise�os Huawei Honor X7C Caballero 0
+    Forro Dise�os Huawei Honor X7C Dama 0
+    Forro Dise�os Huawei Honor X8A Dama 2
+    Forro Dise�os Huawei P10 Lite Caballero 0
+    Forro Dise�os Huawei Y9 2019 / Y8S Caballero 0
+    Forro Dise�os Huawei Y9 2019 / Y8S Dama 0
+    Forro Dise�os Infinix Hot 50 Pro Plus Caballero 5
+    Forro Dise�os Motorola Moto C Caballero 6
+    Forro Dise�os Motorola Moto E20 Dama 0
+    Forro Dise�os Motorola Moto G24 / G04 Caballero 0
+    Forro Dise�os Motorola Moto G24 / G04 Dama 5
+    Forro Dise�os Motorola Moto G54 Caballero 0
+    Forro Dise�os Oppo A38 Caballero 2
+    Forro Dise�os Oppo A38 Dama 1
+    Forro Dise�os Samsung A04E Caballero 0
+    Forro Dise�os Samsung A04E Dama 0
+    Forro Dise�os Samsung A14 Caballero 2
+    Forro Dise�os Samsung A15 Caballero 5
+    Forro Dise�os Samsung A16 Caballero 4
+    Forro Dise�os Samsung A16 Dama 6
+    Forro Dise�os Samsung A35 Caballero 2
+    Forro Dise�os Samsung A35 Dama 1
+    Forro Dise�os Samsung A55 Caballero 5
+    Forro Dise�os Samsung A55 Dama 3
+    Forro Dise�os Tecno Camon 30 4G Caballero 5
+    Forro Dise�os Tecno Camon 30 4G Dama 5
+    Forro Dise�os Tecno Camon 30 Pro Caballero 4
+    Forro Dise�os Tecno Camon 30 Pro Dama 10
+    Forro Dise�os Tecno Pova 5 Dama 4
+    Forro Dise�os Tecno Spar Go 2024 Dama 0
+    Forro Dise�os Tecno Spark 20 Pro Plus Caballero 2
+    Forro Dise�os Tecno Spark 30 4G Caballero 5
+    Forro Dise�os Tecno Spark 30 4G Dama 5
+    Forro Dise�os Tecno Spark 30 Pro Dama 5
+    Forro Dise�os Tecno Spark Go 2024 Caballero 2
+    Forro Dise�os Tecno Spark Go 2024 Dama 1
+    Forro Dise�os Xiaomi Redmi 10 Caballero 0
+    Forro Dise�os Xiaomi Redmi 10 Dama 0
+    Forro Dise�os Xiaomi Redmi 10C Caballero 2
+    Forro Dise�os Xiaomi Redmi 14C Caballero 0
+    Forro Dise�os Xiaomi Redmi 14C Dama 2
+    Forro Dise�os Xiaomi Redmi Note 11 Dama 0
+    Forro Dise�os Xiaomi Redmi Note 13 4G Dama 0
+    Forro Dise�os Xiaomi Redmi Note 13 5G Caballero 5
+    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
+    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
     Forro Lujo Apple Iphone 11 0
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 0
     Forro Northface Xiaomi Redmi 13C Negro 1
@@ -256,7 +281,7 @@
     Forro Space Apple Iphone 15 0
     Forro Space Apple Iphone 15 Plus 2
     Forro Space Apple Iphone 16 Pro 0
-    Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1
+    Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
     Forro Space Apple Iphone 6S 1
     Forro Space Apple Iphone Xr 0
     Forro Space Apple Iphone Xs Max 0
@@ -384,7 +409,7 @@
     Mini Plancha Cafe 1
     Mouse Eco 2
     Mouse Eco Fc-143 2
-    Mouse Gamer Eco A78 0
+    Mouse Gamer Eco A78 2
     Pacha Apple Iphone 11 Gx 0
     Pacha Apple Iphone 7 Plus Negro 0
     Pacha Apple Iphone 8 Blanco 1
@@ -396,11 +421,13 @@
     Pacha Huawei Y7 2018 0
     Pacha Huawei Y9 Prime Incell 0
     Pacha Infinix Hot 30 Play 0
+    Pacha Lg K51S 0
     Pacha Lg K61 0
     Pacha Moto Moto G60S 0
     Pacha Motorola Moto E5 Play 0
     Pacha Motorola Moto E6I 0
     Pacha Motorola Moto G20 / G30 1
+    Pacha Motorola Moto G22 / E32 0
     Pacha Motorola Moto G60 / G60S 0
     Pacha Motorola Moto G8 Power Lite 0
     Pacha Motorola Moto One 0
@@ -408,20 +435,26 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 0
+    Pacha Samsung A02S C/M 0
     Pacha Samsung A05 0
     Pacha Samsung A10S 0
+    Pacha Samsung A11 0
     Pacha Samsung A13 / M13 / M23 2
+    Pacha Samsung A13 / M13 0
     Pacha Samsung A13 / M33 0
     Pacha Samsung A21S 0
     Pacha Samsung A30S S/M 0
+    Pacha Samsung A31 S/M 0
     Pacha Samsung A32 0
     Pacha Samsung A32 S/M 0
     Pacha Samsung J5 Prime Negro 0
     Pacha Tcl 40Se 0
+    Pacha Tecno Camon 30S Pro 0
     Pacha Tecno Spark Go 2023 0
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Vivo Y51 / Y53S 0
+    Pacha Xiaomi Redmi 10 0
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi 13C 0
     Pacha Xiaomi Redmi A1 / A2 0
@@ -429,7 +462,8 @@
     Pacha Xiaomi Redmi Note 11 / Note 12S 0
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 8 0
-    Pad Mouse Tapete Largo Diseã±Os 0
+    Pacha Xioami Redmi A1 / A2 0
+    Pad Mouse Tapete Largo Dise�±Os 0
     Parlante Ktf Ktf-1645 1
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
@@ -444,6 +478,7 @@
     Parlante Tg-294 Rojo 0
     Patillera 3 En 1 2
     Pepas Hydrogel 6
+    Pila Reloj Cr2032 0
     Pilas Carbon Maxday Eco 30
     Pin De Carga Celular 20
     Pin De Carga Parlante 0
@@ -453,9 +488,10 @@
     Plancha Remington Aguacate 1
     Power Bank Aibimy 10000 Mah 120W 0
     Power Bank Aibimy 30000 Mah 0
-    Power Bank Beston Bs-671 10000 Mah 0
+    Power Bank Beston Bs-671 10000 Mah 2
     Power Bank Panel Solar 12000 Mah 0
     Protector Teclado 15P 1
+    Proyector Hy300 Con Juegos 0
     Radios Baofeng 1
     Recarga 12000 100
     Recarga 18500 80
@@ -481,15 +517,37 @@
     Reproductor Tv Stick Watch Om 1
     Rollo Cinta Led Rgb 10M 1
     Servicio Tecnico 5
+    Silicone Case Apple Iphone 11 Ab Lila 1
+    Silicone Case Apple Iphone 11 Ab Morado 1
+    Silicone Case Apple Iphone 11 Morado 1
+    Silicone Case Apple Iphone 11 Pro Ab Rojo 1
+    Silicone Case Apple Iphone 11 Pro Max Ab Lila 1
+    Silicone Case Apple Iphone 11 Pro Max Ab Rojo 1
+    Silicone Case Apple Iphone 11 Pro Max Gris 1
+    Silicone Case Apple Iphone 11 Rojo 0
+    Silicone Case Apple Iphone 12 / 12 Pro Ab Verde 1
     Silicone Case Apple Iphone 12 Ab Negro 0
-    Silicone Case Apple Iphone 13 Rojo 1
+    Silicone Case Apple Iphone 12 Lila 1
+    Silicone Case Apple Iphone 12 Pro Max Blanco 0
+    Silicone Case Apple Iphone 12 Pro Max Rosa 0
+    Silicone Case Apple Iphone 12 Pro Rojo 1
+    Silicone Case Apple Iphone 12 Rojo 1
+    Silicone Case Apple Iphone 13 Morado 0
+    Silicone Case Apple Iphone 13 Negro 0
+    Silicone Case Apple Iphone 13 Pro Lila 1
+    Silicone Case Apple Iphone 13 Pro Rojo 1
+    Silicone Case Apple Iphone 13 Rojo 0
+    Silicone Case Apple Iphone 14 Plus Negro 1
+    Silicone Case Apple Iphone 14 Pro Ab Fucsia 1
+    Silicone Case Apple Iphone 14 Pro Max Negro 1
+    Silicone Case Apple Iphone 15 Abierto Lila 1
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 0
     Silicone Case Apple Iphone Xr Amarillo 0
     Silicone Case Apple Iphone Xr Azuloscuro 0
     Silicone Case Apple Iphone Xr Azulrey 0
     Silicone Case Apple Iphone Xr Fucsia 0
     Silicone Case Apple Iphone Xr Lila 0
-    Silicone Case Apple Iphone Xr Negro 1
+    Silicone Case Apple Iphone Xr Negro 0
     Silicone Case Apple Iphone Xr Rojo 0
     Silicone Case Apple Iphone Xr Rosa 0
     Silicone Case Huawei Honor 90 5G Azulclaro 0
@@ -501,26 +559,26 @@
     Silicone Case Huawei Honor Magic 5 Lite / X9A Verdemilitar 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 1
     Silicone Case Huawei Honor X6 / X6S Morado 0
+    Silicone Case Huawei Honor X6 / X6S Negro 1
     Silicone Case Huawei Honor X6A Fucsia 1
     Silicone Case Huawei Honor X6A Lila 2
     Silicone Case Huawei Honor X6A Negro 1
     Silicone Case Huawei Honor X6A Rojo 1
-    Silicone Case Huawei Honor X6S / X8 Negro 2
-    Silicone Case Huawei Honor X7 Amarillo 1
-    Silicone Case Huawei Honor X7 Fucsia 1
+    Silicone Case Huawei Honor X7 Amarillo 0
+    Silicone Case Huawei Honor X7 Fucsia 0
     Silicone Case Huawei Honor X7 Morado 1
-    Silicone Case Huawei Honor X7 Rosa 1
-    Silicone Case Huawei Honor X7A Morado 1
+    Silicone Case Huawei Honor X7 Rosa 0
+    Silicone Case Huawei Honor X7A Morado 0
     Silicone Case Huawei Honor X7B Azulrey 1
     Silicone Case Huawei Honor X7B Negro 1
     Silicone Case Huawei Honor X7C 0
     Silicone Case Huawei Honor X8 Fucsia 0
     Silicone Case Huawei Honor X8 Morado 0
-    Silicone Case Huawei Honor X8 Negro 0
+    Silicone Case Huawei Honor X8 Negro 1
     Silicone Case Huawei Honor X8 Rojo 1
     Silicone Case Huawei Honor X8A Morado 1
-    Silicone Case Huawei Honor X8B Morado 1
-    Silicone Case Huawei Honor X8B Rosa 1
+    Silicone Case Huawei Honor X8B Morado 0
+    Silicone Case Huawei Honor X8B Rosa 0
     Silicone Case Huawei Mate 20 Lite Rosa 1
     Silicone Case Huawei Nova 9Se Negro 1
     Silicone Case Huawei Nova Y70 Amarillo 1
@@ -539,24 +597,6 @@
     Silicone Case Infinix Hot 40 Pro Morado 1
     Silicone Case Infinix Note 40 Morado 1
     Silicone Case Infinix Note 40 Pro Lila 0
-    Silicone Case Iphone 11 Ab Lila 1
-    Silicone Case Iphone 11 Ab Morado 1
-    Silicone Case Iphone 11 Morado 1
-    Silicone Case Iphone 11 Pro Max Ab Lila 1
-    Silicone Case Iphone 11 Pro Max Ab Rojo 1
-    Silicone Case Iphone 11 Pro Max Azuloscuro 1
-    Silicone Case Iphone 11 Proab  Rojo 1
-    Silicone Case Iphone 12 / 12 Pro Ab Verde 1
-    Silicone Case Iphone 12 Lila 1
-    Silicone Case Iphone 12 Pro Max Blanco 0
-    Silicone Case Iphone 12 Pro Max Rosa 0
-    Silicone Case Iphone 12 Pro Rojo 1
-    Silicone Case Iphone 12 Rojo 1
-    Silicone Case Iphone 13 Pro Lila 1
-    Silicone Case Iphone 13 Pro Rojo 1
-    Silicone Case Iphone 14 Plus Negro 1
-    Silicone Case Iphone 14 Pro Ab Fucsia 1
-    Silicone Case Iphone 15 Abierto Lila 1
     Silicone Case Motorol Moto G24 Rojo 0
     Silicone Case Motorola Moto Edge 30 Lite Negro 1
     Silicone Case Motorola Moto Edge 40 Azuloscuro 1
@@ -569,6 +609,7 @@
     Silicone Case Motorola Moto G04 Negro 0
     Silicone Case Motorola Moto G04 Rojo 0
     Silicone Case Motorola Moto G04 Verdemilitar 0
+    Silicone Case Motorola Moto G05 0
     Silicone Case Motorola Moto G20 / G30 Morado 0
     Silicone Case Motorola Moto G20 Azulrey 1
     Silicone Case Motorola Moto G20 Morado 1
@@ -588,6 +629,7 @@
     Silicone Case Motorola Moto G24 Amarillo 0
     Silicone Case Motorola Moto G51 Morado 1
     Silicone Case Motorola Moto G54 Morado 0
+    Silicone Case Motorola Moto G54 Rosa 0
     Silicone Case Motorola Moto G60S Amarillo 0
     Silicone Case Motorola Moto G60S Rojo 1
     Silicone Case Motorola Moto G72 Lila 0
@@ -601,41 +643,42 @@
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 0
     Silicone Case Motorola Moto G9 Play / E7 Plus Rosa 0
     Silicone Case Motorola Moto G9 Power Lila 2
-    Silicone Case Oppo A16 Lila 1
-    Silicone Case Oppo A16 Rojo 1
-    Silicone Case Oppo A17 Lila 1
+    Silicone Case Oppo A16 Lila 0
+    Silicone Case Oppo A16 Rojo 0
+    Silicone Case Oppo A17 Lila 0
     Silicone Case Oppo A17 Morado 1
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A17 Rojo 1
-    Silicone Case Oppo A38 Morado 1
-    Silicone Case Oppo A38 Negro 2
+    Silicone Case Oppo A38 Morado 0
+    Silicone Case Oppo A38 Negro 1
     Silicone Case Oppo A38 Rojo 1
-    Silicone Case Oppo A40 Fucsia 1
-    Silicone Case Oppo A40 Lila 1
-    Silicone Case Oppo A40 Negro 1
-    Silicone Case Oppo A40 Rojo 1
-    Silicone Case Oppo A40 Rosa 1
+    Silicone Case Oppo A40 Fucsia 0
+    Silicone Case Oppo A40 Lila 0
+    Silicone Case Oppo A40 Negro 0
+    Silicone Case Oppo A40 Rojo 0
+    Silicone Case Oppo A40 Rosa 0
     Silicone Case Oppo A57 / A77 Negro 1
-    Silicone Case Oppo A58 Fucsia 1
+    Silicone Case Oppo A58 Fucsia 0
     Silicone Case Oppo A58 Negro 0
     Silicone Case Oppo A59 Azulrey 0
     Silicone Case Oppo A59 Fucsia 0
-    Silicone Case Oppo A59 Lila 1
+    Silicone Case Oppo A59 Lila 0
     Silicone Case Oppo A59 Rojo 1
-    Silicone Case Oppo A59 Rosa 1
-    Silicone Case Oppo A60 Amarillo 1
-    Silicone Case Oppo A60 Azulrey 1
-    Silicone Case Oppo A60 Morado 1
-    Silicone Case Oppo A60 Negro 1
-    Silicone Case Oppo A60 Rosa 1
-    Silicone Case Oppo A67 Negro 1
-    Silicone Case Oppo A74 4G Lila 1
+    Silicone Case Oppo A59 Rosa 0
+    Silicone Case Oppo A60 Amarillo 0
+    Silicone Case Oppo A60 Azulrey 0
+    Silicone Case Oppo A60 Morado 0
+    Silicone Case Oppo A60 Negro 0
+    Silicone Case Oppo A60 Rosa 0
+    Silicone Case Oppo A67 Negro 0
+    Silicone Case Oppo A74 4G Lila 0
     Silicone Case Oppo A78 Azulrey 0
     Silicone Case Oppo A80 Lila 1
     Silicone Case Oppo Realme C21Y / C25Y Rosa 1
     Silicone Case Oppo Realme C55 Azuloscuro 2
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C55 Rojo 0
+    Silicone Case Oppo Reamle C53 / Note 50 Negro 0
     Silicone Case Oppo Reno 7 Negro 1
     Silicone Case Samsung A02S Ab Gris 1
     Silicone Case Samsung A02S Ab Negro 1
@@ -655,6 +698,7 @@
     Silicone Case Samsung A05S Negro 2
     Silicone Case Samsung A05S Verdementa 1
     Silicone Case Samsung A12 / M12 Morado 1
+    Silicone Case Samsung A12 5G Negro 0
     Silicone Case Samsung A12 Verde 1
     Silicone Case Samsung A13 Lila 1
     Silicone Case Samsung A13 Morado 1
@@ -664,7 +708,10 @@
     Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Negro 3
     Silicone Case Samsung A15 Rojo 3
+    Silicone Case Samsung A16 Amarillo 0
+    Silicone Case Samsung A16 Lila 0
     Silicone Case Samsung A16 Negro 1
+    Silicone Case Samsung A16 Rojo 0
     Silicone Case Samsung A21S Azulcielo 1
     Silicone Case Samsung A21S Fucsia 1
     Silicone Case Samsung A21S Negro 1
@@ -700,6 +747,7 @@
     Silicone Case Samsung A54 Lila 1
     Silicone Case Samsung A54 Negro 1
     Silicone Case Samsung A55 Amarillo 1
+    Silicone Case Samsung A55 Cafe 0
     Silicone Case Samsung A55 Negro 1
     Silicone Case Samsung M13 Rojo 1
     Silicone Case Samsung S20 Fe Rosa 1
@@ -760,8 +808,8 @@
     Silicone Case Vivo Y20 / Y20S / Y11S Rosa 1
     Silicone Case Vivo Y20 / Y20S / Y11S Verde 1
     Silicone Case Vivo Y22S / Y35 Negro 1
-    Silicone Case Vivo Y27S Ab Morado 1
-    Silicone Case Vivo Y27S Ab Negro 2
+    Silicone Case Vivo Y27s / Y36 4G Ab Morado 1
+    Silicone Case Vivo Y27s / Y36 4G Ab Negro 2
     Silicone Case Vivo Y33S / Y21 / Y21S Azulrey 1
     Silicone Case Vivo Y33S / Y21 / Y21S Negro 1
     Silicone Case Vivo Y33S / Y21 / Y21S Rojo 1
@@ -782,7 +830,7 @@
     Silicone Case Xiaomi Redmi 10 Azulclaro 1
     Silicone Case Xiaomi Redmi 10 Fucsia 0
     Silicone Case Xiaomi Redmi 10 Lila 0
-    Silicone Case Xiaomi Redmi 10 Negro 0
+    Silicone Case Xiaomi Redmi 10 Negro 1
     Silicone Case Xiaomi Redmi 10 Rojo 0
     Silicone Case Xiaomi Redmi 10C Rojo 1
     Silicone Case Xiaomi Redmi 10C Verde 1
@@ -797,6 +845,7 @@
     Silicone Case Xiaomi Redmi 14C Fucsia 0
     Silicone Case Xiaomi Redmi 14C Negro 1
     Silicone Case Xiaomi Redmi 9 Amarillo 2
+    Silicone Case Xiaomi Redmi 9 Lila 0
     Silicone Case Xiaomi Redmi 9 Morado 1
     Silicone Case Xiaomi Redmi 9 Negro 1
     Silicone Case Xiaomi Redmi 9 Rojo 0
@@ -825,7 +874,7 @@
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rosa 0
     Silicone Case Xiaomi Redmi Note 11 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Lila 1
-    Silicone Case Xiaomi Redmi Note 11 Negro 0
+    Silicone Case Xiaomi Redmi Note 11 Negro 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Rosa 2
     Silicone Case Xiaomi Redmi Note 11 Verde 1
@@ -851,10 +900,11 @@
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Silicone Case Xiaomi Redmi Note 9S Negro 0
     Silicone Case Xioami Note 13 Pro 5G Morado 1
+    Silicone Case Xioami Redmi 12C Negro 0
     Silicone Case Xioami Redmi Note 12S Negro 1
     Simcard Claro 0
     Simcard Tigo 0
-    Slicone Case Xiaomi Redmi 13C Fucsia 1
+    Silicone Case Xiaomi Redmi 13C Fucsia 1
     Smart Watch Gw-20 Verdemilitar 1
     Smartphone Infinix Smart 9 128/6 Gris 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 0
@@ -906,6 +956,7 @@
     Vidrio 5D Motorola Moto G50 0
     Vidrio 5D Motorola Moto G9 Plus 0
     Vidrio 5D Redmi Note 12 0
+    Vidrio 5D Samsugn A06 0
     Vidrio 5D Samsung A05 5
     Vidrio 5D Samsung A05S 0
     Vidrio 5D Samsung A12 10
@@ -995,50 +1046,157 @@
     Vidrio Tortuga Xiaomi Redmi Note 11 10
     Vidrio Tortuga Xiaomi Redmi Note 12 0
     Visor Camara Huawei Y9A 0
-    Cargador Tecno V8 2.4 2
-    Silicone Case Samsung A55 Cafe 0
-    Silicone Case Apple iPhone 13 Negro 0
-    Silicone Case Apple iPhone 13 Morado 0
-    Silicone Case Apple iPhone 11 Rojo 0
-    Pila Reloj Cr2032 0
-    Forro Dise�os Motorola Moto G54 Caballero 0
-    Silicone Case Motorola Moto G54 Rosa 0
-    Silicone Case Xiaomi Redmi 10 Negro 1
-    Silicone Case Motorola Moto G05 0
-    Silicone Case Oppo Reamle C53 / Note 50 Negro 0
-    Silicone Case Xioami Redmi 12c Negro 0
-    Audifonos Bluetooth W i12 Negro 0
-    Balaca Pantalla Negro 0
-    Balaca Pantalla Rojo 0
-    Cable Rca 3 a 1 1.5m 0
-    Cable Rca 3 a 3 3m 0
-    Cargador We V8 0
-    Cargador We Tc 0
-    Celular Tg Thor Rompemuros 0
-    Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer Ps4 Gta V 0
-    Control Gamer Sony Ps3 CamufladoVerde 0
-    Control Gamer Pc Eco 1 0
-    Forro Armadura Motorola Moto G20 / G30 Rojo 0
-    Forro Armadura Moto G20 / G30 Negro 0
-    Forro Armadura Samsung A06 Negro 0
-    Forro Armadura Samsung A15 Rojo 0
-    Forro Dise�os Tecno Spar Go 2024 Dama 0
-    Pacha Lg K51s 0
-    Pacha Samsung A02s c/m 0
-    Pacha Samsung A11 0
-    Pacha Xioami Redmi A1 / A2 0
-    Pacha Xiaomi Redmi 10 0
-    Pacha Samsung A31 s/m 0
-    Pacha Tecno Camon 30s pro 0
-    Proyector Hy300 Con Juegos 0
-    Adaptador Ext Hdmi 0
-    Forro Dise�os Xiaomi Redmi Note 13 4G Dama 0
-    Pacha Motorola Moto G22 / E32 0
-    Pacha Samsung A13 / M13 0
-    Silicone Case Samsung A16 Lila 0
-    Silicone Case Samsung A16 Rojo 0
-    Silicone Case Samsung A16 Amarillo 0
-    Silicone Case Samsung A12 5G Negro 0
-    Silicone Case Xiaomi Redmi 9 Lila 0
-    Vidrio 5D Samsugn A06 0
+    Silicone Case Tecno Camon 30S Pro Fucsia 1
+    Silicone Case Tecno Camon 30S Pro Morado 1
+    Silicone Case Tecno Camon 30S Pro Azuloscuro 1
+    Silicone Case Tecno Camon 30 4G Rojo 1
+    Silicone Case Tecno Spark 30 4G Lila 1
+    Silicone Case Tecno Spark 30 4G RojoOscuro 1
+    Silicone Case Tecno Spark 30 Pro 4G Fucsia 1
+    Silicone Case Tecno Spark 30 Pro 4g Rojo 1
+    Silicone Case Tecno Spark 30 Pro 4G Negro 1
+    Silicone Case infinix Hot 50i Fucsia 1
+    Camara 3 Antenas 0
+    Cable Rca 3 a 3 1.5m 1
+    Silicone Case Motorola Moto G42 Morado 0
+    Silicone Case Motorola Moto G42 Fucsia 0
+    Silicone Case Xiaomi Redmi Note 8 Morado 1
+    Silicone Case Xiaomi Redmi Note 8 Rosa 1
+    Silicone Case Xiaomi Redmi Note 8 Azuloscuro 1
+    Silicone Case Xiaomi Redmi Note 8 Vinotinto 1
+    Silicone Case Xiaomi Redmi Note 8 Amarillo 1
+    Silicone Case Xiomi Redmi Note 8 Negro 1
+    Silicone Case Xiaomi Redmi Note 8 Verdementa 1
+    Silicone Case Xiaomi Redmi Note 8 Azulrey 1
+    Silicone Case Xiaomi Redmi Note 8 Rojo 1
+    Silicone Case Xiaomi Redmi Note 8 Fucsia 1
+    Forro Space Xiaomi Redmi Note 8 Lila 1
+    Forro Space Xiaomi Redmi Note 8 Negro 1
+    Forro Space Xiaomi Redmi Note 8 Morado 1
+    Forro Space Xiaomi Redmi Note 8 1
+    Forro Dise�os Xiaomi Redmi Note 8 Caballero 5
+    Forro Dise�os Xiaomi Redmi Note 8 Dama 9
+    Forro Armadura Xiaomi Redmi Note 8 Negro 1
+    Forro Armadura Xiaomi Redmi Note 8 Rojo 1
+    Silicone Case Xiaomi Redmi Note 8T Amarillo 1
+    Silicone Case Xiaomi Redmi Note 8T Fucsia 1
+    Silicone Case Xiaomi Redmi Note 8T Morado 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Rosa 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Negro 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Morado 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Verde 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Amarillo 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Rojo 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Lila 1
+    Forro Space Xiaomi Redmi Note 8 Pro 2
+    Forro Dise�os Xiaomi Redmi Note 7 Caballero 4
+    Forro Dise�os Xiaomi Redmi Note 7 Dama 2
+    Silicone Case Xiaomi Redmi Note 7 Amarillo 1
+    Silicone Case Xiaomi Redmi Note 7 Negro 1
+    Silicone Case Xiaomi Redmi Note 7 Rojo 1
+    Silicone Case Xiaomi Redmi Note 7 Fucsia 1
+    Silicone Case Xiaomi Redmi Note 7 Azulrey 1
+    Silicone Case Xiaomi Redmi Note 7 Gris 1
+    Silicone Case Samsung M14 Azul 1
+    Silicone Case Samsung M14 Amarillo 1
+    Silicone Case Samsung M14 Lila 1
+    Silicone Case Samsung M14 Rojo 1
+    Silicone Case Samsung M14 Negro 1
+    Silicone Case Samsung M31 Fucsia 1
+    Silicone Case Samsung M31 Rojo 1
+    Silicone Case Samsung M31 Azulrey 1
+    Silicone Case Samsung M31 Amarillo 1
+    Silicone Case Samsung M31 Rosa 1
+    Forro Space Samsung M23 / A13 5G 1
+    Silicone Case Samsung S8 Plus Negro 1
+    Silicone Case Samsung S8 Plus Rojo 1
+    Silicone Case Samsung S8 Plus Blanco 1
+    Silicone Case Samsung S8 Plus Rosa 1
+    Silicone Case Samsung S8 Plus Azulrey 1
+    Silicone Case Samsung S8 Plus Morado 1
+    Silicone Case Samsung S9 Azulclaro 1
+    Silicone Case Samsung S9 Azulrey 1
+    Silicone Case Samsung S9 Rosa 1
+    Silicone Case Samsung S9 Gris 1
+    Silicone Case Samsung S9 Morado 1
+    Silicone Case Samsung S9 Amarillo 1
+    Forro Space Samsung S9 1
+    Silicone Case Samsung S9 Plus Aziulclaro 1
+    Silicone Case Samsung S9 Plus Gris 1
+    Silicone Case Samsung S9 Plus Morado 1
+    Silicone Case Samsung S9 Plus Verde 1
+    Forro Space Samsung S9 Plus 1
+    Silicone Case Samsung S10 Plus Azulrey 1
+    Silicone Case Samsung S10 plus Rosa 1
+    Silicone Case Samsung S20 Plus Negro 1
+    Silicone Case Samsung S20 Plus Rosa 1
+    Silicone Case Samsung S20 Plus Amarillo 1
+    Silicone Case Samsung S20 Negro 1
+    Silicone Case Samsung S20 Lila 1
+    Silicone Case Samsung S20 Fe Amarillo 1
+    Silicone Case Samsung S20 Fe Lila 1
+    Silicone Case Samsung S20 Fe Negro 1
+    Silicone Case Samsung S20 Fe Rojo 1
+    Silicone Case Samsung S20 Fe Rosa 1
+    Forro Space Samsung S20 Fe 1
+    Forro Dise�os Samsung S20 Fe Caballero 6
+    Forro Dise�os Samsung S20 Fe Dama 3
+    Forro Dise�os Samsung S21 Fe Dama 2
+    Silicone Case Samsung S21 Fe Rojo 1
+    Silicone Case Samsungn S21 Fe Lila 1
+    Silicone Case Samsung S21 Fe Negro 1
+    Silicone Case Samsung S21 Fe Rosa 1
+    Silicone Case Samsung S21 Fe Aamrillo 1
+    Forro Space Samsung S21 Fe Lila 1
+    Forro Space Samsung S21 Fe 1
+    Forro Space Samsung S21 Ultra 1
+    Silicone Case Samsung S21 Ultra Rojo 1
+    Silicone Case Samsung S21 Ultra Morado 1
+    Silicone Case Samsung S21 Ultra Negro 1
+    Forro Space Samsung S22 2
+    Silicone Case Samsung S22 Rosa 1
+    Forro Dise�os Opps A79 Caballero 0
+    Forro Dise�os Oppo A70 Dama 0
+    Silicone Case Samsung S22 Rojo 1
+    Silicone Case Samsung S22 Verde 1
+    Silicone Case Samsung S22 Azulclaro 1
+    Silicone Case Samsung S22 Fucsia 1
+    Silicone Case Samsung S22 Negro 1
+    Silicone Case Samsung S22 Azulrey 1
+    Silicone Case Samsung S22 Lila 1
+    Silicone Case Samsung S22 Ultra Verde 1
+    Silicone Case Samsung S22 Ultra Azulrey 1
+    Silicone Case Samsung S22 Ultra Rojo 1
+    Silicone Case Samsung S22 Ultra Blanco 1
+    Forro Space Samsung S22 Ultra 1
+    Silicone Case Samsung Galaxy Note 10 Plus Lila 2
+    Silicone Case Samsung Galaxy Note 10 Plus Amarillo 1
+    Silicone Case Samsung Galaxy Note 8 Verde 1
+    Silicone Case Samsung Galaxy Note 8 Rojo 1
+    Silicone Case Samsung Galaxy Note 8 Azulclaro 1
+    Silicone Case Samsung Galaxy Note 8 Negro 1
+    Silicone Case Samsung Galaxy Note 20 Ultra Amarillo 1
+    Silicone Case Samsung Galaxy Note 20 Ultra Morado 1
+    Manos Libres Samsung Akg 0
+    Cable Dpp2dpp 0
+    Pacha Tecno Pop 5 Lite / Go 2022 0
+    Bateria Motorola Moto G31 / G42 0
+    Cable Apple Tc Ligthning 2M 0
+    Forro Space Vivo V30 Lite 0
+    Forro Space Vivo V30 0
+    Forro Space Vivo V40 0
+    Logica de Carga Motorola Moto G20 0
+    Logica de Carga Samsung A15 0
+    Mouse Inalambrico Jertech Jr-1 Negro 0
+    Proyector Hy-300 0
+    Silicone Case Huawei Honor X5b Rojo 0
+    Forro Dise�os Huawei Honor X5b Dama 0
+    Forro Dise�os Huawei Honor X5b Caballero 0
+    Silicone Case Vivo V30 Negro 0
+    Silicone Case Oppo A57 Rojo 0
+    Silicone Case Samsung A26 Azuloscuro 0
+    Silicone Case Samsung A26 Blanco 0
+    Silicone Case Samsung A55 Palorosa 0
+    Silicone Case Tecno Spark 20 Pro Plus 0
+    Silicone Case Xiaomi Redmi 9T Lila 0
