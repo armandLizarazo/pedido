@@ -159,7 +159,7 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Cable Apple Tc Ligthning 2M 2
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1 
     Forro Space Vivo V30 Lite 1
-    Forro Space Vivo V40 Lite 1
+    Forro Space Vivo V40 Lite 2 ok
     Forro Space Vivo V30 2
     Forro Space Vivo V40 2
     Manos Libres Samsung J5 Negro 5
@@ -167,10 +167,20 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Silicone Case Huawei Honor X5b Rojo 1 ok
     Forro Diseños Huawei Honor X5b Dama 5
     Forro Diseños Huawei Honor X5b Caballero 5
-    Silicone Case Vivo V30 Negro 1
-    Silicone Case Oppo A57 Rojo 1
+    Silicone Case Vivo V30 Negro 1 ok
+    Silicone Case Vivo V30 Vinotinto 1 ok
+    Silicone Case Vivo V30 Verdementa 1 ok
+    Silicone Case Vivo V30 Azulrey 1 ok
+    Silicone Case Vivo V30 Rojo 1 ok
+    Silicone Case Samsung A05 Blanco 1 ok
+    Silicone Case Apple IPhone 6 Plus Cafe 1 ok
+    Silicone Case Samsung A35 Blanco 1 ok
+    Silicone Case Oppo A57 Rojo 1 ok
     Silicone Case Samsung A26 Azuloscuro 1 ok
     Silicone Case Samsung A26 Blanco 1 ok
-    Silicone Case Samsung A55 Palorosa 1
+    Silicoen Case Samsung A26 Rojo 1 ok
+    Silicone Case Samsung A26 Azulrey 1 ok
+    Silicone Case Samsung A26 Amarillo 1 ok
+    Silicone Case Samsung A55 Palorosa 1 ok
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 
     Silicone Case Xiaomi Redmi 9T Lila 1 ok
