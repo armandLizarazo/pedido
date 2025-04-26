@@ -157,8 +157,8 @@
     Cable Apple Tc Ligthning 2M 3
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1 
     Forro Space Vivo V30 Lite 1 ok
-    Forro Space Vivo V30 2
-    Forro Space Vivo V40 2
+    Forro Space Vivo V30 1 ok
+    Forro Space Vivo V40 1 ok
     Manos Libres Samsung J5 Negro 5 
     Mouse Inalambrico Jertech Jr-1 Negro 1
     Forro DiseÃ±os Huawei Honor X5b Dama 5
@@ -184,3 +184,4 @@
     Silcione Case Xiaomi Redmi 13 Rojo 1 ok
     Vidrio 5D Oppo A79 5 ok
     Vidrio 5D Tecno Camon 20 Pro 5
+    Silicone Case Apple Iphone 13 / 14
