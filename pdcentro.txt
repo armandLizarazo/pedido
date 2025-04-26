@@ -1,5 +1,4 @@
-ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
-    Adaptador Ext Hdmi 3
+    Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -156,31 +155,33 @@ ok    Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Forro Diseños Oppo A79 Dama 3
     Manos Libres Samsung Akg 5 
     Audifonos Bluetooth W I12 Rosa 2
-    Cable Apple Tc Ligthning 2M 2
+    Cable Apple Tc Ligthning 2M 3
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1 
     Forro Space Vivo V30 Lite 1
-    Forro Space Vivo V40 Lite 2 ok
     Forro Space Vivo V30 2
     Forro Space Vivo V40 2
     Manos Libres Samsung J5 Negro 5
     Mouse Inalambrico Jertech Jr-1 Negro 1
-    Silicone Case Huawei Honor X5b Rojo 1 ok
     Forro Diseños Huawei Honor X5b Dama 5
     Forro Diseños Huawei Honor X5b Caballero 5
-    Silicone Case Vivo V30 Negro 1 ok
-    Silicone Case Vivo V30 Vinotinto 1 ok
-    Silicone Case Vivo V30 Verdementa 1 ok
-    Silicone Case Vivo V30 Azulrey 1 ok
-    Silicone Case Vivo V30 Rojo 1 ok
-    Silicone Case Samsung A05 Blanco 1 ok
-    Silicone Case Apple IPhone 6 Plus Cafe 1 ok
-    Silicone Case Samsung A35 Blanco 1 ok
-    Silicone Case Oppo A57 Rojo 1 ok
-    Silicone Case Samsung A26 Azuloscuro 1 ok
-    Silicone Case Samsung A26 Blanco 1 ok
-    Silicoen Case Samsung A26 Rojo 1 ok
-    Silicone Case Samsung A26 Azulrey 1 ok
-    Silicone Case Samsung A26 Amarillo 1 ok
-    Silicone Case Samsung A55 Palorosa 1 ok
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 
-    Silicone Case Xiaomi Redmi 9T Lila 1 ok
+    Silicone Case Samsung A36 Fucsia 1
+    Silicone Case Samsung A36 Rojo 1
+    Silicone Case Samsung A36 Amarillo 1
+    Vidrio Camara iPhone 15 10 10
+    Vidrio Camara Xiaomi Redmi Note 14 Pro 10
+    Vidrio 5D Tecno Spark 20 Pro 10
+    Vidrio Tortuga Tecno Spark 10 / 10c 5
+    Aguja Extractor Sim 5
+    Audifonos Bluetooth W I12 Negro 1
+    Audifonos Bluetooth W I12 Blanco 1
+    Audifonos Bluetooth W I12 Azuloscuro 1
+    Forro Armadura Samsung A24 Azuloscuro 1
+    Forro Space Motorola Moto E30 / E40 2
+    Forro Space Samsung A05s 1
+    Hydrogel Dise�os 10
+    Silicone Case Tecno Camon 20 Pro Fucsia 1
+    Silicone Case Tecno Spark 10 Pro Lila 1
+    Silcione Case Xiaomi Redmi 13 Rojo 1
+    Vidrio 5D Oppo A79 5
+    Vidrio 5D Tecno Camon 20 Pro 5

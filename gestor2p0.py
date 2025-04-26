@@ -39,7 +39,7 @@ class GestorInventario:
             palabra_clave (str, opcional): Palabra clave para filtrar.
         """
         try:
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
                 if not lineas:
                     print(f"\nEl archivo {self.archivo_inventario} está vacío.")
@@ -82,6 +82,7 @@ class GestorInventario:
                         print("Proceso cancelado.")
                         return 0
                     elif opcion == "3":
+                        # Corregir líneas inválidas
                         for indice in lineas_invalidas:
                             print(f"\nCorrigiendo línea {indice + 1}: {lineas[indice].strip()}")
                             nueva_cantidad = input("Ingrese la nueva cantidad (o presione Enter para omitir): ").strip()
@@ -97,7 +98,7 @@ class GestorInventario:
                             else:
                                 print("La línea no fue modificada.")
                         
-                        with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                        with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                             f.writelines(lineas)
                         print("\nCambios guardados en el archivo.")
                     else:
@@ -129,31 +130,31 @@ class GestorInventario:
                                     else:
                                         print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                         encontrado = True
-                                        total_items_filtrados += 1
+                                        total_items_filtrados += cantidad
                                         suma_cantidades += cantidad
                                 elif operador == "<" and cantidad < filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
                                             print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                             encontrado = True
-                                            total_items_filtrados += 1
+                                            total_items_filtrados += cantidad
                                             suma_cantidades += cantidad
                                     else:
                                         print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                         encontrado = True
-                                        total_items_filtrados += 1
+                                        total_items_filtrados += cantidad
                                         suma_cantidades += cantidad
                                 elif operador == "=" and cantidad == filtro_cantidad:
                                     if palabra_clave:
                                         if palabra_clave.lower() in descripcion.lower():
                                              print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                              encontrado = True
-                                             total_items_filtrados += 1
+                                             total_items_filtrados += cantidad
                                              suma_cantidades += cantidad
                                     else:
                                         print(f"| {i:<5} | {cantidad:<4} | {descripcion:<40}|")
                                         encontrado = True
-                                        total_items_filtrados += 1
+                                        total_items_filtrados += cantidad
                                         suma_cantidades += cantidad
                             except ValueError:
                                 pass
@@ -198,26 +199,26 @@ class GestorInventario:
     def agregar_linea(self, descripcion, cantidad):
         try:
             cantidad = int(cantidad)
-            with open(self.archivo_inventario, 'a', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'a', encoding='utf-8') as f:
                 f.write(f"    {descripcion} {cantidad}\n")
             print("\nLínea agregada correctamente.")
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
         except UnicodeEncodeError:
-            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en utf-8.")
 
     def modificar_linea(self, numero_linea, nueva_descripcion, nueva_cantidad):
         try:
             nueva_cantidad = int(nueva_cantidad)
             lineas = []
             
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
 
             if 1 <= numero_linea <= len(lineas):
                 lineas[numero_linea - 1] = f"    {nueva_descripcion} {nueva_cantidad}\n"
                 
-                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                     f.writelines(lineas)
                 print("\nLínea modificada correctamente.")
             else:
@@ -225,14 +226,14 @@ class GestorInventario:
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
         except UnicodeEncodeError:
-            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en utf-8.")
 
     def modificar_cantidad(self, numero_linea, cambio_cantidad):
         try:
             cambio_cantidad = int(cambio_cantidad)
             lineas = []
             
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
 
             if 1 <= numero_linea <= len(lineas):
@@ -248,7 +249,7 @@ class GestorInventario:
                             return
                         lineas[numero_linea - 1] = f"    {descripcion} {nueva_cantidad}\n"
                         
-                        with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                        with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                             f.writelines(lineas)
                         print("\nCantidad modificada correctamente.")
                     except ValueError:
@@ -260,18 +261,18 @@ class GestorInventario:
         except ValueError:
             print("Error: La cantidad debe ser un número válido.")
         except UnicodeEncodeError:
-            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en latin-1.")
+            print("Error: No se pudo guardar. Hay caracteres que no pueden codificarse en utf-8.")
 
     def eliminar_linea(self, numero_linea):
         try:
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
             
             if 1 <= numero_linea <= len(lineas):
                 linea_eliminada = lineas[numero_linea - 1].strip()
                 del lineas[numero_linea - 1]
                 
-                with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                     f.writelines(lineas)
                 print(f"\nLínea eliminada correctamente: {linea_eliminada}")
             else:
@@ -288,7 +289,7 @@ class GestorInventario:
         Si alguna línea no cumple con el formato, da opciones para modificarla.
         """
         try:
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
             
             lineas_invalidas = []
@@ -299,7 +300,7 @@ class GestorInventario:
                 #    lineas_invalidas.append((i, "Error: No termina con un dígito"))
                 elif len(linea.split()) < 2 or not re.match(r'\d+$', linea.split()[-1]):
                     lineas_invalidas.append((i, "Error: No termina con un valor numérico"))
-                elif  len(linea.split()) > 2 and  linea.strip()[-len(linea.split()[-1])-1] != ' ':
+                elif  len(linea.split()) > 2 and  not linea[-len(linea.split()[-1])-1:len(linea)].startswith(' '):
                      if linea.split()[-1].isdigit():
                         lineas_invalidas.append((i, "Error: Falta un espacio antes del valor final"))
                 
@@ -318,7 +319,7 @@ class GestorInventario:
                         nueva_linea = input(f"Ingrese la línea corregida {numero_linea}: ").strip()
                         lineas[numero_linea - 1] = f"{nueva_linea}\n"  # Agregar salto de línea
                     
-                    with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+                    with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                         f.writelines(lineas)
                     print("\nArchivo corregido exitosamente.")
                 elif opcion == "2":
@@ -337,7 +338,7 @@ class GestorInventario:
     def ordenar_alfabeticamente(self):
         """Ordena alfabéticamente las líneas del archivo de inventario."""
         try:
-            with open(self.archivo_inventario, 'r', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
             
             if not lineas:
@@ -348,7 +349,7 @@ class GestorInventario:
             lineas.sort(key=lambda linea: linea.lower())
             
             # Sobreescribir el archivo con las líneas ordenadas
-            with open(self.archivo_inventario, 'w', encoding='latin-1') as f:
+            with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
                 f.writelines(lineas)
             
             print(f"\nEl archivo {self.archivo_inventario} ha sido ordenado alfabéticamente.")

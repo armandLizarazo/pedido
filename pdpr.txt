@@ -11,7 +11,6 @@
     Cargador Pc Puntas Caja Blanca 2
     Celular T72 1
     Celular T76 1
-    Celular Tg Thor Rompemuros 2 ok
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
     Control Gamer Gatillos G21 1
@@ -29,7 +28,6 @@
     Pad Mouse Tapete Largo Diseños 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
-    Pila Reloj Cr2032 10 ok
     Plancha Combo Babyliss 1
     Power Bank Panel Solar 12000 Mah 1
     Proyector Hy300 Con Juegos 1
@@ -39,10 +37,11 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tripode Neepho 1
-    Soporte Bicicleta Manubrio 2 ok
-    Soporte Tv 60 Brazo 2 ok
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
     Cable Dpp2dpp 3m 1
-    Camara 3 Antenas 2 ok
+    Cable Dpp2dpp 1.8m 2
     Proyector Hy-300 1
+    Cargador Microsoft Carga y Juea Xbox 360 3
+    Audifonos Bluetooth M60 2
+    Parlante Barra V70 2

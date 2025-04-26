@@ -2,57 +2,65 @@ from datetime import datetime
 
 def ver_contenido(archivo):
     try:
-        with open(archivo, "r") as f:
-            lineas = f.readlines()
-            if not lineas:
-                print(f"El archivo '{archivo}' está vacío.")
-                return
-            
-            if archivo == "registro_ventas.txt":
-                # Mostrar el contenido sin procesar (formato especial)
-                print(f"Contenido actual de '{archivo}':")
-                for i, linea in enumerate(lineas, 1):
-                    print(f"{i}. {linea.strip()}")
-                return
-            
-            print("\nOpciones de filtrado:")
-            print("1. Mostrar todos los items")
-            print("2. Mostrar items con cantidad igual a 0")
-            print("3. Mostrar items con cantidad mayor a 0")
-            print("4. Mostrar items con cantidad menor a un valor específico")
-            print("5. Mostrar items con cantidad mayor a un valor específico")
-            opcion_filtro = input("Seleccione una opción: ").strip()
-            
-            print(f"\nContenido actual de '{archivo}':")
+        try:
+            with open(archivo, "r", encoding="utf-8") as f:
+                lineas = f.readlines()
+        except UnicodeDecodeError:
+            with open(archivo, "r", encoding="latin-1") as f:
+                lineas = f.readlines()
+                print(f"Advertencia: El archivo '{archivo}' contenía caracteres no UTF-8. Se leyó usando la codificación latin-1.")
+        
+        if not lineas:
+            print(f"El archivo '{archivo}' está vacío.")
+            return
+        
+        if archivo == "registro_ventas.txt":
+            # Mostrar el contenido sin procesar (formato especial)
+            print(f"Contenido actual de '{archivo}':")
             for i, linea in enumerate(lineas, 1):
-                partes = linea.split()
-                cantidad = int(partes[-1])
-                
-                if opcion_filtro == "1":  # Mostrar todos
-                    print(f"{i}. {linea.strip()}")
-                elif opcion_filtro == "2" and cantidad == 0:  # Cantidad igual a 0
-                    print(f"{i}. {linea.strip()}")
-                elif opcion_filtro == "3" and cantidad > 0:  # Cantidad mayor a 0
-                    print(f"{i}. {linea.strip()}")
-                elif opcion_filtro == "4":  # Cantidad menor a un valor específico
-                    try:
-                        valor = int(input("Ingrese el valor máximo de cantidad: ").strip())
-                        if cantidad < valor:
-                            print(f"{i}. {linea.strip()}")
-                    except ValueError:
-                        print("Entrada inválida. Debe ingresar un número.")
-                elif opcion_filtro == "5":  # Cantidad mayor a un valor específico
-                    try:
-                        valor = int(input("Ingrese el valor mínimo de cantidad: ").strip())
-                        if cantidad > valor:
-                            print(f"{i}. {linea.strip()}")
-                    except ValueError:
-                        print("Entrada inválida. Debe ingresar un número.")
-                else:
-                    continue
+                print(f"{i}. {linea.strip()}")
+            return
+        
+        print("\nOpciones de filtrado:")
+        print("1. Mostrar todos los items")
+        print("2. Mostrar items con cantidad igual a 0")
+        print("3. Mostrar items con cantidad mayor a 0")
+        print("4. Mostrar items con cantidad menor a un valor específico")
+        print("5. Mostrar items con cantidad mayor a un valor específico")
+        opcion_filtro = input("Seleccione una opción: ").strip()
+        
+        print(f"\nContenido actual de '{archivo}':")
+        for i, linea in enumerate(lineas, 1):
+            partes = linea.split()
+            cantidad = int(partes[-1])
+            
+            if opcion_filtro == "1":  # Mostrar todos
+                print(f"{i}. {linea.strip()}")
+            elif opcion_filtro == "2" and cantidad == 0:  # Cantidad igual a 0
+                print(f"{i}. {linea.strip()}")
+            elif opcion_filtro == "3" and cantidad > 0:  # Cantidad mayor a 0
+                print(f"{i}. {linea.strip()}")
+            elif opcion_filtro == "4":  # Cantidad menor a un valor específico
+                try:
+                    valor = int(input("Ingrese el valor máximo de cantidad: ").strip())
+                    if cantidad < valor:
+                        print(f"{i}. {linea.strip()}")
+                except ValueError:
+                    print("Entrada inválida. Debe ingresar un número.")
+            elif opcion_filtro == "5":  # Cantidad mayor a un valor específico
+                try:
+                    valor = int(input("Ingrese el valor mínimo de cantidad: ").strip())
+                    if cantidad > valor:
+                        print(f"{i}. {linea.strip()}")
+                except ValueError:
+                    print("Entrada inválida. Debe ingresar un número.")
+            else:
+                continue
     
     except FileNotFoundError:
         print(f"El archivo '{archivo}' no existe.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al leer el archivo '{archivo}': {e}")
 
 def obtener_valor_costo(item_buscar):
     try:
@@ -72,17 +80,24 @@ def obtener_valor_costo(item_buscar):
     except FileNotFoundError:
         print("El archivo 'dbcst.txt' no existe.")
         return None
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al leer el archivo 'dbcst.txt': {e}")
+        return None
+
 
 def registrar_venta(item, cantidad, valor_venta, valor_costo):
     fecha_actual = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     subtotal_venta = cantidad * valor_venta
     subtotal_costo = cantidad * valor_costo
     
-    with open("registro_ventas.txt", "a") as archivo:
-        archivo.write(
-            f"{fecha_actual} | {item} | {cantidad} | {valor_venta:.2f} | {valor_costo:.2f} | {subtotal_venta:.2f} | {subtotal_costo:.2f}\n"
-        )
-    print("Venta registrada con éxito.")
+    try:
+        with open("registro_ventas.txt", "a") as archivo:
+            archivo.write(
+                f"{fecha_actual} | {item} | {cantidad} | {valor_venta:.2f} | {valor_costo:.2f} | {subtotal_venta:.2f} | {subtotal_costo:.2f}\n"
+            )
+        print("Venta registrada con éxito.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al escribir en 'registro_ventas.txt': {e}")
 
 def realizar_venta():
     try:
@@ -152,8 +167,12 @@ def realizar_venta():
             nueva_linea = "    " + " ".join(partes[:-1]) + f" {cantidad_disponible}\n"
             lineas[idx_original] = nueva_linea
             
-            with open("local.txt", "w") as archivo:
-                archivo.writelines(lineas)
+            try:
+                with open("local.txt", "w") as archivo:
+                    archivo.writelines(lineas)
+            except Exception as e:
+                print(f"Ocurrió un error inesperado al escribir en 'local.txt': {e}")
+                return
             
             print("Venta realizada con éxito.")
             registrar_venta(item_buscar, cantidad_vender, valor_venta, valor_costo)  # Registrar la venta
@@ -163,6 +182,8 @@ def realizar_venta():
     
     except FileNotFoundError:
         print("El archivo 'local.txt' no existe.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al leer el archivo 'local.txt': {e}")
 
 def verificar_existencias_bodega(partes_item):
     try:
@@ -198,6 +219,8 @@ def verificar_existencias_bodega(partes_item):
     
     except FileNotFoundError:
         print("El archivo 'bodegac.txt' no existe.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al leer el archivo 'bodegac.txt': {e}")
 
 def trasladar_unidades(item_buscar, cantidad_bodega):
     try:
@@ -258,6 +281,9 @@ def trasladar_unidades(item_buscar, cantidad_bodega):
     
     except FileNotFoundError:
         print("Error: Uno de los archivos no existe.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado: {e}")
+
 
 def verificar_stock_cero():
     try:
@@ -274,6 +300,9 @@ def verificar_stock_cero():
     
     except FileNotFoundError:
         print("El archivo 'local.txt' no existe.")
+    except Exception as e:
+        print(f"Ocurrió un error inesperado al leer el archivo 'local.txt': {e}")
+
 
 def main():
     while True:
