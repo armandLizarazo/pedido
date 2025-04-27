@@ -62,10 +62,10 @@
     Cargador Yl Tc 20000
     Cargador Yl V8 20000
     Dispensador Agua Botellon 22000
-    Forro Diseños Xiaomi Redmi 10 Caballero 12000
-    Forro Diseños Xiaomi Redmi 10 Dama 12000
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 15000
-    Forro Diseños Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 15000
+    Forro Antichoque Xiaomi Redmi 10 Caballero 12000
+    Forro Antichoque Xiaomi Redmi 10 Dama 12000
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 15000
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 15000
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 20000
     Guantes Gamer 10000
     Manos Libres Samsung Akg 15000

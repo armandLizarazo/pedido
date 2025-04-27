@@ -198,7 +198,7 @@
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
     Control Tv Tv Box 1
-    Control Tv Tv Plano 0
+    Control Tv Universal 0
     Dispensador Agua Botellon 3
     Escencia Aceite 0
     Flex De Power Samsung A02 0
@@ -218,54 +218,54 @@
     Forro Crg Apple Con Estuche Morado 1
     Forro Crg Apple Con Estuche Naranja 1
     Forro Crg Apple Con Estuche Negro 0
-    Forro Dise�os Apple Iphone 11 Dama 0
-    Forro Dise�os Apple Iphone 11 Verdemilitar 0
-    Forro Dise�os Huawei Honor X7C Caballero 0
-    Forro Dise�os Huawei Honor X7C Dama 0
-    Forro Dise�os Huawei Honor X8A Dama 2
-    Forro Dise�os Huawei P10 Lite Caballero 0
-    Forro Dise�os Huawei Y9 2019 / Y8S Caballero 0
-    Forro Dise�os Huawei Y9 2019 / Y8S Dama 0
-    Forro Dise�os Infinix Hot 50 Pro Plus Caballero 5
-    Forro Dise�os Motorola Moto C Caballero 6
-    Forro Dise�os Motorola Moto E20 Dama 0
-    Forro Dise�os Motorola Moto G24 / G04 Caballero 0
-    Forro Dise�os Motorola Moto G24 / G04 Dama 5
-    Forro Dise�os Motorola Moto G54 Caballero 0
-    Forro Dise�os Oppo A38 Caballero 2
-    Forro Dise�os Oppo A38 Dama 1
-    Forro Dise�os Samsung A04E Caballero 0
-    Forro Dise�os Samsung A04E Dama 0
-    Forro Dise�os Samsung A14 Caballero 2
-    Forro Dise�os Samsung A15 Caballero 5
-    Forro Dise�os Samsung A16 Caballero 4
-    Forro Dise�os Samsung A16 Dama 6
-    Forro Dise�os Samsung A35 Caballero 2
-    Forro Dise�os Samsung A35 Dama 1
-    Forro Dise�os Samsung A55 Caballero 5
-    Forro Dise�os Samsung A55 Dama 3
-    Forro Dise�os Tecno Camon 30 4G Caballero 5
-    Forro Dise�os Tecno Camon 30 4G Dama 5
-    Forro Dise�os Tecno Camon 30 Pro Caballero 4
-    Forro Dise�os Tecno Camon 30 Pro Dama 10
-    Forro Dise�os Tecno Pova 5 Dama 4
-    Forro Dise�os Tecno Spar Go 2024 Dama 0
-    Forro Dise�os Tecno Spark 20 Pro Plus Caballero 2
-    Forro Dise�os Tecno Spark 30 4G Caballero 5
-    Forro Dise�os Tecno Spark 30 4G Dama 5
-    Forro Dise�os Tecno Spark 30 Pro Dama 5
-    Forro Dise�os Tecno Spark Go 2024 Caballero 2
-    Forro Dise�os Tecno Spark Go 2024 Dama 1
-    Forro Dise�os Xiaomi Redmi 10 Caballero 0
-    Forro Dise�os Xiaomi Redmi 10 Dama 0
-    Forro Dise�os Xiaomi Redmi 10C Caballero 2
-    Forro Dise�os Xiaomi Redmi 14C Caballero 0
-    Forro Dise�os Xiaomi Redmi 14C Dama 2
-    Forro Dise�os Xiaomi Redmi Note 11 Dama 0
-    Forro Dise�os Xiaomi Redmi Note 13 4G Dama 0
-    Forro Dise�os Xiaomi Redmi Note 13 5G Caballero 5
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
+    Forro Antichoque Apple Iphone 11 Dama 0
+    Forro Antichoque Apple Iphone 11 Verdemilitar 0
+    Forro Antichoque Huawei Honor X7C Caballero 0
+    Forro Antichoque Huawei Honor X7C Dama 0
+    Forro Antichoque Huawei Honor X8A Dama 2
+    Forro Antichoque Huawei P10 Lite Caballero 0
+    Forro Antichoque Huawei Y9 2019 / Y8S Caballero 0
+    Forro Antichoque Huawei Y9 2019 / Y8S Dama 0
+    Forro Antichoque Infinix Hot 50 Pro Plus Caballero 5
+    Forro Antichoque Motorola Moto C Caballero 6
+    Forro Antichoque Motorola Moto E20 Dama 0
+    Forro Antichoque Motorola Moto G24 / G04 Caballero 0
+    Forro Antichoque Motorola Moto G24 / G04 Dama 5
+    Forro Antichoque Motorola Moto G54 Caballero 0
+    Forro Antichoque Oppo A38 Caballero 2
+    Forro Antichoque Oppo A38 Dama 1
+    Forro Antichoque Samsung A04E Caballero 0
+    Forro Antichoque Samsung A04E Dama 0
+    Forro Antichoque Samsung A14 Caballero 2
+    Forro Antichoque Samsung A15 Caballero 5
+    Forro Antichoque Samsung A16 Caballero 4
+    Forro Antichoque Samsung A16 Dama 6
+    Forro Antichoque Samsung A35 Caballero 2
+    Forro Antichoque Samsung A35 Dama 1
+    Forro Antichoque Samsung A55 Caballero 5
+    Forro Antichoque Samsung A55 Dama 3
+    Forro Antichoque Tecno Camon 30 4G Caballero 5
+    Forro Antichoque Tecno Camon 30 4G Dama 5
+    Forro Antichoque Tecno Camon 30 Pro Caballero 4
+    Forro Antichoque Tecno Camon 30 Pro Dama 10
+    Forro Antichoque Tecno Pova 5 Dama 4
+    Forro Antichoque Tecno Spar Go 2024 Dama 0
+    Forro Antichoque Tecno Spark 20 Pro Plus Caballero 2
+    Forro Antichoque Tecno Spark 30 4G Caballero 5
+    Forro Antichoque Tecno Spark 30 4G Dama 5
+    Forro Antichoque Tecno Spark 30 Pro Dama 5
+    Forro Antichoque Tecno Spark Go 2024 Caballero 2
+    Forro Antichoque Tecno Spark Go 2024 Dama 1
+    Forro Antichoque Xiaomi Redmi 10 Caballero 0
+    Forro Antichoque Xiaomi Redmi 10 Dama 0
+    Forro Antichoque Xiaomi Redmi 10C Caballero 2
+    Forro Antichoque Xiaomi Redmi 14C Caballero 0
+    Forro Antichoque Xiaomi Redmi 14C Dama 2
+    Forro Antichoque Xiaomi Redmi Note 11 Dama 0
+    Forro Antichoque Xiaomi Redmi Note 13 4G Dama 0
+    Forro Antichoque Xiaomi Redmi Note 13 5G Caballero 5
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
     Forro Lujo Apple Iphone 11 0
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 0
     Forro Northface Xiaomi Redmi 13C Negro 1
@@ -463,7 +463,7 @@
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 8 0
     Pacha Xioami Redmi A1 / A2 0
-    Pad Mouse Tapete Largo Dise�?Os 0
+    Pad Mouse Tapete Largo Logos 0
     Parlante Ktf Ktf-1645 1
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
@@ -1074,8 +1074,8 @@
     Forro Space Xiaomi Redmi Note 8 Negro 1
     Forro Space Xiaomi Redmi Note 8 Morado 1
     Forro Space Xiaomi Redmi Note 8 1
-    Forro Dise�os Xiaomi Redmi Note 8 Caballero 5
-    Forro Dise�os Xiaomi Redmi Note 8 Dama 9
+    Forro Antichoque Xiaomi Redmi Note 8 Caballero 5
+    Forro Antichoque Xiaomi Redmi Note 8 Dama 9
     Forro Armadura Xiaomi Redmi Note 8 Negro 1
     Forro Armadura Xiaomi Redmi Note 8 Rojo 1
     Silicone Case Xiaomi Redmi Note 8T Amarillo 1
@@ -1090,8 +1090,8 @@
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 8 Pro Lila 1
     Forro Space Xiaomi Redmi Note 8 Pro 2
-    Forro Dise�os Xiaomi Redmi Note 7 Caballero 4
-    Forro Dise�os Xiaomi Redmi Note 7 Dama 2
+    Forro Antichoque Xiaomi Redmi Note 7 Caballero 4
+    Forro Antichoque Xiaomi Redmi Note 7 Dama 2
     Silicone Case Xiaomi Redmi Note 7 Amarillo 1
     Silicone Case Xiaomi Redmi Note 7 Negro 1
     Silicone Case Xiaomi Redmi Note 7 Rojo 1
@@ -1140,9 +1140,9 @@
     Silicone Case Samsung S20 Fe Rojo 1
     Silicone Case Samsung S20 Fe Rosa 1
     Forro Space Samsung S20 Fe 1
-    Forro Dise�os Samsung S20 Fe Caballero 6
-    Forro Dise�os Samsung S20 Fe Dama 3
-    Forro Dise�os Samsung S21 Fe Dama 2
+    Forro Antichoque Samsung S20 Fe Caballero 6
+    Forro Antichoque Samsung S20 Fe Dama 3
+    Forro Antichoque Samsung S21 Fe Dama 2
     Silicone Case Samsung S21 Fe Rojo 1
     Silicone Case Samsungn S21 Fe Lila 1
     Silicone Case Samsung S21 Fe Negro 1
@@ -1156,8 +1156,8 @@
     Silicone Case Samsung S21 Ultra Negro 1
     Forro Space Samsung S22 2
     Silicone Case Samsung S22 Rosa 1
-    Forro Dise�os Opps A79 Caballero 0
-    Forro Dise�os Oppo A70 Dama 0
+    Forro Antichoque Opps A79 Caballero 0
+    Forro Antichoque Oppo A70 Dama 0
     Silicone Case Samsung S22 Rojo 1
     Silicone Case Samsung S22 Verde 1
     Silicone Case Samsung S22 Azulclaro 1
@@ -1191,8 +1191,8 @@
     Mouse Inalambrico Jertech Jr-1 Negro 0
     Proyector Hy-300 0
     Silicone Case Huawei Honor X5b Rojo 0
-    Forro Dise�os Huawei Honor X5b Dama 0
-    Forro Dise�os Huawei Honor X5b Caballero 0
+    Forro Antichoque Huawei Honor X5b Dama 0
+    Forro Antichoque Huawei Honor X5b Caballero 0
     Silicone Case Vivo V30 Negro 0
     Silicone Case Oppo A57 Rojo 0
     Silicone Case Samsung A26 Azuloscuro 0
@@ -1212,7 +1212,7 @@
     Audifonos Bluetooth W I12 Azuloscuro 0
     Forro Armadura Samsung A24 Azuloscuro 0
     Forro Space Motorola Moto E30 / E40 0
-    Hydrogel Dise�os 0
+    Hydrogel Antichoque 0
     Logica de Carga Samsung A14 0
     Logica de Carga Samsugn A23 0
     Pacha Huawei Y9a Full 0
@@ -1244,3 +1244,9 @@
     Vidrio Escarcha Apple Iphone 12 Pro Max 1
     Vidrio Perlas Apple Iphone Xr / 11 1
     Vidrio Fullpega Tecno Spark 20 Pro Plus 2
+    Cargador Smart Watch Magnetico 0
+    Pacha Tecno Pop 7 / Hot 30 Play 0
+    Pacha Xiaomi Redmi 10C 0
+    Pacha Xiaomi Redmi 9a / 9c / 10a 0
+    Rollo Cinta Led Sencilla 0
+    Rollo Cinta Led Con Bluetooth 0

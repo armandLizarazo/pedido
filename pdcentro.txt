@@ -29,29 +29,29 @@
     Forro Armadura Tecno Camon Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
-    Forro Diseños Motorola Moto G54 Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Honor X6B Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Honor X6B Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Huawei Honor Magic 7 Lite Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Huawei Honor Magic 7 Lite Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Infinix Hot 30 Pro Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Infinix Hot 30 Pro Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Infinix Hot 50 Pro Plus Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Infinix Note 40 Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Motorola Moto One Caballero 2
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Oppo A17 Caballero 3
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Oppo Realme C63 Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Oppo Realme C63 Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Samsung A04E Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Samsung A36 Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Tecno Camon 30S Pro Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Tecno Camon 30S Pro Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Tecno Spark 30 Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Tecno Spark 30 Dama 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Vivo V25E Caballero 3
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Vivo Y19S Caballero 5
-    Forro DiseÃƒÂ£Ã†â€™ÃƒÂ¢Ã‚Â£ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±Os Vivo Y19S Dama 5
-    Forro Diseños Vivo Y20S Caballero 3
+    Forro Antichoque Motorola Moto G54 Caballero 5
+    Forro Antichoque Honor X6B Caballero 5
+    Forro Antichoque Honor X6B Dama 5
+    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 5
+    Forro Antichoque Infinix Hot 30 Pro Caballero 5
+    Forro Antichoque Infinix Hot 30 Pro Dama 5
+    Forro Antichoque Infinix Hot 50 Pro Plus Dama 5
+    Forro Antichoque Infinix Note 40 Caballero 5
+    Forro Antichoque Motorola Moto One Caballero 2
+    Forro Antichoque Oppo A17 Caballero 3
+    Forro Antichoque Oppo Realme C63 Caballero 5
+    Forro Antichoque Oppo Realme C63 Dama 5
+    Forro Antichoque Samsung A04E Caballero 5
+    Forro Antichoque Samsung A36 Caballero 5
+    Forro Antichoque Tecno Camon 30S Pro Caballero 5
+    Forro Antichoque Tecno Camon 30S Pro Dama 5
+    Forro Antichoque Tecno Spark 30 Caballero 5
+    Forro Antichoque Tecno Spark 30 Dama 5
+    Forro Antichoque Vivo V25E Caballero 3
+    Forro Antichoque Vivo Y19S Caballero 5
+    Forro Antichoque Vivo Y19S Dama 5
+    Forro Antichoque Vivo Y20S Caballero 3
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Motorola Moto G50 1
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
@@ -150,8 +150,8 @@
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G42 Fucsia 1
-    Forro DiseÃ±os Opps A79 Caballero 2 ok
-    Forro DiseÃ±os Oppo A79 Dama 3 ok
+    Forro Antichoque Opps A79 Caballero 2 ok
+    Forro Antichoque Oppo A79 Dama 3 ok
     Manos Libres Samsung Akg 5 
     Audifonos Bluetooth W I12 Rosa 2
     Cable Apple Tc Ligthning 2M 3
@@ -161,8 +161,8 @@
     Forro Space Vivo V40 1 ok
     Manos Libres Samsung J5 Negro 5 
     Mouse Inalambrico Jertech Jr-1 Negro 1
-    Forro DiseÃ±os Huawei Honor X5b Dama 5
-    Forro DiseÃ±os Huawei Honor X5b Caballero 5
+    Forro Antichoque Huawei Honor X5b Dama 5
+    Forro Antichoque Huawei Honor X5b Caballero 5
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 
     Silicone Case Samsung A36 Fucsia 1
     Silicone Case Samsung A36 Rojo 1 ok
@@ -178,10 +178,12 @@
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Space Motorola Moto E30 / E40 2 ok
     Forro Space Samsung A05s 1 ok
-    Hydrogel Diseños 10
+    Hydrogel Logos 10
     Silicone Case Tecno Camon 20 Pro Fucsia 1 ok
     Silicone Case Tecno Spark 10 Pro Lila 1 ok
     Silcione Case Xiaomi Redmi 13 Rojo 1 ok
     Vidrio 5D Oppo A79 5 ok
     Vidrio 5D Tecno Camon 20 Pro 5 ok
     Silicone Case Apple Iphone 13 / 14 Palorosa 1 ok
+    Cargador Smart Watch Magnetico 3
+    Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1

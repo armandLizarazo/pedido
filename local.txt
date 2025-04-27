@@ -168,33 +168,33 @@
     Forro Cargador Apple Con Estuche Morado 1
     Forro Cargador Apple Con Estuche Naranja 1
     Forro Cargador Apple Con Estuche Negro 0
-    Forro Dise�Os Apple Iphone 11 Caballero 1
-    Forro Dise�Os Apple Iphone 11 Dama 4
-    Forro Dise�Os Apple Iphone 11 Verdemilitar 1
-    Forro Dise�Os Huawei P10 Lite Caballero 2
-    Forro Dise�Os Motorola Moto E20 Dama 0
-    Forro Dise�Os Xiaomi Redmi 10C Caballero 5
-    Forro Dise�os A35 Caballero 0
-    Forro Dise�os A55 Dama 0
-    Forro Dise�os Honor X8A Dama 0
-    Forro Dise�os Huawei Y9 2019 / Y8S Caballero 2
-    Forro Dise�os Huawei Y9 2019 / Y8S Dama 2
-    Forro Dise�os Motorola Moto G24 / G04 Caballero 5
-    Forro Dise�os Motorola Moto G24 / G04 Dama 5
-    Forro Dise�os Oppo A38 Caballero 0
-    Forro Dise�os Oppo A38 Dama 0
-    Forro Dise�os Samsung A14 Caballero 0
-    Forro Dise�os Samsung A15 Caballero 0
-    Forro Dise�os Samsung A35 Dama 0
-    Forro Dise�os Samsung A55 Caballero 0
-    Forro Dise�os Tecno Camon 30 Pro Dama 5
-    Forro Dise�os Tecno Spark Go 2024 Caballero 5
-    Forro Dise�os Tecno Spark Go 2024 Dama 5
-    Forro Dise�os Xiaomi Redmi 10 Caballero 3
-    Forro Dise�os Xiaomi Redmi 10 Dama 6
-    Forro Dise�os Xiaomi Redmi Note 13 5G 0
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 4
-    Forro Dise�os Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 1
+    Forro Antichoque Apple Iphone 11 Caballero 1
+    Forro Antichoque Apple Iphone 11 Dama 4
+    Forro Antichoque Apple Iphone 11 Verdemilitar 1
+    Forro Antichoque Huawei P10 Lite Caballero 2
+    Forro Antichoque Motorola Moto E20 Dama 0
+    Forro Antichoque Xiaomi Redmi 10C Caballero 5
+    Forro Antichoque A35 Caballero 0
+    Forro Antichoque A55 Dama 0
+    Forro Antichoque Honor X8A Dama 0
+    Forro Antichoque Huawei Y9 2019 / Y8S Caballero 2
+    Forro Antichoque Huawei Y9 2019 / Y8S Dama 2
+    Forro Antichoque Motorola Moto G24 / G04 Caballero 5
+    Forro Antichoque Motorola Moto G24 / G04 Dama 5
+    Forro Antichoque Oppo A38 Caballero 0
+    Forro Antichoque Oppo A38 Dama 0
+    Forro Antichoque Samsung A14 Caballero 0
+    Forro Antichoque Samsung A15 Caballero 0
+    Forro Antichoque Samsung A35 Dama 0
+    Forro Antichoque Samsung A55 Caballero 0
+    Forro Antichoque Tecno Camon 30 Pro Dama 5
+    Forro Antichoque Tecno Spark Go 2024 Caballero 5
+    Forro Antichoque Tecno Spark Go 2024 Dama 5
+    Forro Antichoque Xiaomi Redmi 10 Caballero 3
+    Forro Antichoque Xiaomi Redmi 10 Dama 6
+    Forro Antichoque Xiaomi Redmi Note 13 5G 0
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 4
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 1
     Forro Lujo Apple Iphone 11 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 1
     Forro Northface Xiaomi Redmi 13C Negro 0

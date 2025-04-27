@@ -22,8 +22,8 @@
     Garantia Control Gamer Pc Sencillo 1
     Garantia Microfono Con Consola No Sirve P 1
     Lampara Esfera Sistema Solar 1
-    Pad Mouse Tapete Diseã£Â±Os 5
-    Pad Mouse Tapete Largo Diseños 5
+    Pad Mouse Tapete Logos 5
+    Pad Mouse Tapete Largo Logos 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
     Plancha Combo Babyliss 0 ok
@@ -43,3 +43,6 @@
     Cargador Microsoft Carga y Juea Xbox 360 3
     Audifonos Bluetooth M60 2
     Parlante Barra V70 2 ok
+    Control Tv Universal 5
+    Rollo Cinta Led Sencilla 1
+    Rollo Cinta Led Con Bluetooth 5

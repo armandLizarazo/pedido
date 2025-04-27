@@ -19,3 +19,7 @@
     Tapa Xiaomi Redmi 9T Naranja 1 ok
     Pacha Oppo A54 1 ok
     Flex de Power Xiaomi Redmi 9T ok
+    Pacha Samsung A10s C/m 1
+    Pacha Tecno Pop 7 / Hot 30 Play 1
+    Pacha Xiaomi Redmi 10C 1
+    Pacha Xiaomi Redmi 9A / 9C / 10A 1
