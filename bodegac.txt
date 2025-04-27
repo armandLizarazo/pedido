@@ -691,17 +691,19 @@
     Silicone Case Samsung A03 Rosa 1
     Silicone Case Samsung A03S / A02S Amarillo 1
     Silicone Case Samsung A04E Rojo 1
-    Silicone Case Samsung A04S Fucsia 1
-    Silicone Case Samsung A04S Lila 1
+    Silicone Case Samsung A04S Fucsia 0
+    Silicone Case Samsung A04S Lila 0
     Silicone Case Samsung A04S Negro 2
-    Silicone Case Samsung A04S Rojo 1
-    Silicone Case Samsung A05S Negro 2
-    Silicone Case Samsung A05S Verdementa 1
+    Silicone Case Samsung A04S Rojo 0
+    Silicone Case Samsung A05 Negro 1
+    Silicone Case Samsung A05S Negro 1
+    Silicone Case Samsung A05S Azulclaro 1
     Silicone Case Samsung A12 / M12 Morado 1
     Silicone Case Samsung A12 5G Negro 0
     Silicone Case Samsung A12 Verde 1
-    Silicone Case Samsung A13 Lila 1
-    Silicone Case Samsung A13 Morado 1
+    Silicone Case Samsung M13 Rojo 1
+    Silicone Case Samsung A13 Lila 0
+    Silicone Case Samsung A13 Morado 0
     Silicone Case Samsung A13 Verde 0
     Silicone Case Samsung A14 Lila 1
     Silicone Case Samsung A14 Negro 0
@@ -712,44 +714,43 @@
     Silicone Case Samsung A16 Lila 0
     Silicone Case Samsung A16 Negro 1
     Silicone Case Samsung A16 Rojo 0
-    Silicone Case Samsung A21S Azulcielo 1
+    Silicone Case Samsung A21S Azulcielo 0
     Silicone Case Samsung A21S Fucsia 1
-    Silicone Case Samsung A21S Negro 1
-    Silicone Case Samsung A22 4G Morado 1
+    Silicone Case Samsung A21S Negro 0
+    Silicone Case Samsung A22 4G Morado 0
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Ab Rojo 1
     Silicone Case Samsung A24 Amarillo 1
     Silicone Case Samsung A24 Lila 0
     Silicone Case Samsung A24 Morado 1
     Silicone Case Samsung A24 Rojo 1
-    Silicone Case Samsung A25 Amarillo 0
-    Silicone Case Samsung A25 Azulrey 1
-    Silicone Case Samsung A25 Fucsia 1
-    Silicone Case Samsung A25 Lila 1
-    Silicone Case Samsung A25 Morado 1
+    Silicone Case Samsung A24 Fucsia 0
+    Silicone Case Samsung A25 Azulrey 0
+    Silicone Case Samsung A25 Fucsia 0
+    Silicone Case Samsung A25 Lila 0
+    Silicone Case Samsung A25 Morado 0
     Silicone Case Samsung A25 Negro 0
     Silicone Case Samsung A25 Rojo 1
-    Silicone Case Samsung A25 Rosa 1
-    Silicone Case Samsung A30S Fucsia 1
+    Silicone Case Samsung A25 Rosa 0
+    Silicone Case Samsung A30S / A50 Lila 1
     Silicone Case Samsung A32 4G Amarillo 2
     Silicone Case Samsung A32 5G Amarillo 0
     Silicone Case Samsung A32 5G Fucsia 0
     Silicone Case Samsung A32 5G Verdemilitar 1
     Silicone Case Samsung A35 Fucsia 1
-    Silicone Case Samsung A35 Negro 1
-    Silicone Case Samsung A50 / A30S Lila 1
-    Silicone Case Samsung A53 Azulrey 1
-    Silicone Case Samsung A53 Fucsia 1
+    Silicone Case Samsung A35 Negro 0
+    Silicone Case Samsung A30S / A50 Rojo 0
+    Silicone Case Samsung A53 Azulrey 0
+    Silicone Case Samsung A53 Fucsia 0
     Silicone Case Samsung A53 Lila 1
-    Silicone Case Samsung A53 Negro 2
-    Silicone Case Samsung A53 Rosa 1
+    Silicone Case Samsung A53 Negro 0
+    Silicone Case Samsung A53 Rosa 0
     Silicone Case Samsung A54 Amarillo 1
     Silicone Case Samsung A54 Lila 1
     Silicone Case Samsung A54 Negro 1
     Silicone Case Samsung A55 Amarillo 1
     Silicone Case Samsung A55 Cafe 0
     Silicone Case Samsung A55 Negro 1
-    Silicone Case Samsung M13 Rojo 1
     Silicone Case Samsung S20 Fe Rosa 1
     Silicone Case Samsung S20 Plus Rojo 0
     Silicone Case Samsung S22 Ab Rojo 1
@@ -1250,3 +1251,4 @@
     Pacha Xiaomi Redmi 9a / 9c / 10a 0
     Rollo Cinta Led Sencilla 0
     Rollo Cinta Led Con Bluetooth 0
+    Vidrio Camara Apple Iphone 15 0
