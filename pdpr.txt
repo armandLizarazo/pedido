@@ -1,8 +1,6 @@
-    Aro De Luz Joma 26Cm Ligth X2
+    Aro De Luz Joma 26Cm Ligth 2
     Aro De Luz Joma 33Cm Ligth 2
-    Audifonos Bluetooth Ambie Pantalla 1
-    Audifonos Bluetooth Apple I12 Azulclaro 3
-    Audifonos Bluetooth Apple I12 Azuloscuro 5
+    Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 1
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
@@ -28,10 +26,10 @@
     Pad Mouse Tapete Largo Diseños 5
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
-    Plancha Combo Babyliss 1
-    Power Bank Panel Solar 12000 Mah 1
-    Proyector Hy300 Con Juegos 1
-    Reproductor Tdt Krono 3
+    Plancha Combo Babyliss 0 ok
+    Power Bank Panel Solar 12000 Mah 0 ok
+    Proyector Hy300 Con Juegos 0 ok
+    Reproductor Tdt Krono 3 ok
     Smart Band 7 1
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
@@ -39,9 +37,9 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
-    Cable Dpp2dpp 3m 1
+    Cable Dpp2dpp 3m 0 ok
     Cable Dpp2dpp 1.8m 2
     Proyector Hy-300 1
     Cargador Microsoft Carga y Juea Xbox 360 3
     Audifonos Bluetooth M60 2
-    Parlante Barra V70 2
+    Parlante Barra V70 2 ok
