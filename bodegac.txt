@@ -87,7 +87,7 @@
     Cable Motorola Tc A Tc 1
     Cable Optico 1.5M 2
     Cable Optico 3M 2
-    Cable Poder Cuadrado 3
+    Cable Poder Cuadrado 0
     Cable Poder Grabadora 3
     Cable Poder Trebol 3
     Cable Rca 3 A 1 1.5M 1
@@ -353,7 +353,7 @@
     Forro Space Xiaomi Mi 12T 1
     Forro Space Xiaomi Note 10 / Note 10S 2
     Forro Space Xiaomi Poco X3 1
-    Forro Space Xiaomi Redmi 10 1
+    Forro Space Xiaomi Redmi 10 0
     Forro Space Xiaomi Redmi 10 Lila 1
     Forro Space Xiaomi Redmi 10 Rosa 1
     Forro Space Xiaomi Redmi 10C 2
@@ -708,7 +708,7 @@
     Silicone Case Samsung A14 Lila 1
     Silicone Case Samsung A14 Negro 0
     Silicone Case Samsung A14 Rojo 2
-    Silicone Case Samsung A15 Negro 3
+    Silicone Case Samsung A15 Negro 2
     Silicone Case Samsung A15 Rojo 3
     Silicone Case Samsung A16 Amarillo 0
     Silicone Case Samsung A16 Lila 0
@@ -1252,3 +1252,11 @@
     Rollo Cinta Led Sencilla 0
     Rollo Cinta Led Con Bluetooth 0
     Vidrio Camara Apple Iphone 15 0
+    Logica de Carga Samsung A05s 0
+    Vidrio 5D Xiaomi Redmi Mi 11T 0
+    Forro Antichoque Oppo A60 Dama 0
+    Fooro Antichoque Oppo A60 Caballero 0
+    Control Gamer Ps4 Blanco 0
+    Mouse Gamer G-930 0
+    Pacha Oppo A57 / A77 0
+    Pacha Tcl 30Se 0
