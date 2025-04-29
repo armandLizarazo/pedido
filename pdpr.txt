@@ -12,13 +12,13 @@
     Combo Remington Plancha - Cepillo 1
     Conectores Rj45 10
     Control Gamer Gatillos G21 1
-    Control Gamer Pc Eco 1 1
-    Control Gamer Pc Sencillo 1
+    Control Gamer Pc Eco 1 ok
+    Control Gamer Pc Sencillo 1 ok
     Control Gamer Ps2 Inalambrico 1
-    Control Gamer Ps4 Gta V 1
-    Control Gamer Ps4 Negro 1
+    Control Gamer Ps4 Gta V 1 ok
+    Control Gamer Ps4 Negro 1 ok
     Control Gamer Sony Ps3 Camufladoverde 1
-    Control Gamer Sony Ps4 Spiderman 1
+    Control Gamer Sony Ps4 Spiderman 1 ok
     Garantia Control Gamer Pc Sencillo 1
     Garantia Microfono Con Consola No Sirve P 1
     Lampara Esfera Sistema Solar 1
@@ -30,7 +30,7 @@
     Power Bank Panel Solar 12000 Mah 0 ok
     Proyector Hy300 Con Juegos 0 ok
     Reproductor Tdt Krono 3 ok
-    Smart Band 7 1
+    Smart Band 8 1 ok
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
@@ -40,12 +40,14 @@
     Cable Dpp2dpp 3m 0 ok
     Cable Dpp2dpp 1.8m 2
     Proyector Hy-300 1
-    Cargador Microsoft Carga y Juea Xbox 360 3
+    Cargador Microsoft Carga y Juea Xbox 360 3 ok
     Audifonos Bluetooth M60 2
     Parlante Barra V70 2 ok
     Control Tv Universal 5
     Rollo Cinta Led Sencilla 1
     Rollo Cinta Led Con Bluetooth 5
-    Cable Poder Cuadrado 3
-    Control Gamer Ps4 Blanco 1
-    Mouse Gamer G-930 1
+    Cable Poder Cuadrado 5 ok
+    Cable Poder Trebol 3 ok
+    Control Gamer Ps4 Blanco 1 ok
+    Control Gamer Ps4 Rojo 1 ok
+    Mouse Gamer G-930 1 ok
