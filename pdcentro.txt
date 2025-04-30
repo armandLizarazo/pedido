@@ -3,11 +3,8 @@
     Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audífonos Bluetooth Xiaomi E7s Negro 1 ok
     Balacas Onikuma 2
     Cargador Samsung 45W Con Cable Blanco 2
-    Cargador We Tc 3 ok
-    Cargador We V8  3 ok
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
@@ -150,46 +147,25 @@
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G42 Fucsia 1
-    Forro Antichoque Opps A79 Caballero 2 ok
-    Forro Antichoque Oppo A79 Dama 3 ok
     Manos Libres Samsung Akg 5 
     Audifonos Bluetooth W I12 Rosa 2
     Cable Apple Tc Ligthning 2M 3
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1 
-    Forro Space Vivo V30 Lite 1 ok
-    Forro Space Vivo V30 1 ok
-    Forro Space Vivo V40 1 ok
     Manos Libres Samsung J5 Negro 5 
     Mouse Inalambrico Jertech Jr-1 Negro 1
     Forro Antichoque Huawei Honor X5b Dama 5
     Forro Antichoque Huawei Honor X5b Caballero 5
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 
     Silicone Case Samsung A36 Fucsia 1
-    Silicone Case Samsung A36 Rojo 1 ok
     Silicone Case Samsung A36 Amarillo 1 
-    Vidrio Camara iPhone 15 10 10
-    Vidrio Camara Xiaomi Redmi Note 14 Pro 10
-    Vidrio 5D Tecno Spark 20 Pro 5 ok
     Vidrio Tortuga Tecno Spark 10 / 10c 5
-    Aguja Extractor Sim 5 ok
-    Audifonos Bluetooth W I12 Negro 1
-    Audifonos Bluetooth W I12 Blanco 1
-    Audifonos Bluetooth W I12 Azuloscuro 1
     Forro Armadura Samsung A24 Azuloscuro 1
-    Forro Space Motorola Moto E30 / E40 2 ok
-    Forro Space Samsung A05s 1 ok
     Hydrogel Logos 10
-    Silicone Case Tecno Camon 20 Pro Fucsia 1 ok
-    Silicone Case Tecno Spark 10 Pro Lila 1 ok
-    Silcione Case Xiaomi Redmi 13 Rojo 1 ok
-    Vidrio 5D Oppo A79 5 ok
-    Vidrio 5D Tecno Camon 20 Pro 5 ok
-    Silicone Case Apple Iphone 13 / 14 Palorosa 1 ok
-    Cargador Smart Watch Magnetico 2 ok
-    Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1 ok
-    Vidrio Camara Apple Iphone 15 10 ok
     Vidrio 5D Xiaomi Redmi Mi 11T 5
     Forro Antichoque Oppo A60 Dama 5
     Fooro Antichoque Oppo A60 Caballero 5
-    Cargador We Tc 3 ok
-    Forro Space Xiaomi Redmi 10 1 ok
+    Cargador We Tc 3
+    Cargador Apple 25w Tc Ligthning 2
+    Manos Libres Apple Tc Blanco 1
+    Silicone Case Vivo Y33s Rosa 1
+    Silicone Case Xiaomi Poco X3 Fucsia 1

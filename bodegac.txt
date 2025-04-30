@@ -87,9 +87,9 @@
     Cable Motorola Tc A Tc 1
     Cable Optico 1.5M 2
     Cable Optico 3M 2
-    Cable Poder Cuadrado 0
+    Cable Poder Cuadrado 5
     Cable Poder Grabadora 3
-    Cable Poder Trebol 3
+    Cable Poder Trebol 5
     Cable Rca 3 A 1 1.5M 1
     Cable Rca 3 A 3 3M 2
     Cable Royal Tc 0
@@ -102,7 +102,7 @@
     Cable Tc Cordon Eco 0
     Cable Tc Eco 5
     Cable Usb Ligthning Eco 5
-    Cable V8 Eco 5
+    Cable V8 Eco 0
     Cable We Tc 0
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 0
@@ -173,7 +173,7 @@
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
     Cargador We Tc 0
-    Cargador We V8 0
+    Cargador We V8 2
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
@@ -181,7 +181,7 @@
     Cargador Yl V8 4
     Cargador Yl V8 Eco 5
     Celular Nokia 105 4G 1
-    Celular Tg Thor Rompemuros 0
+    Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Consola Game Sitck 2
     Control Gamer Gatillos G21 0
@@ -282,7 +282,7 @@
     Forro Space Apple Iphone 15 Plus 2
     Forro Space Apple Iphone 16 Pro 0
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
-    Forro Space Apple Iphone 6S 1
+    Forro Space Apple Iphone 6S 2
     Forro Space Apple Iphone Xr 0
     Forro Space Apple Iphone Xs Max 0
     Forro Space Apple Iphpone 14 Max Ab 1
@@ -297,7 +297,7 @@
     Forro Space Huawei Y9 / Y8S 2019 0
     Forro Space Huawei Y9 2019 1
     Forro Space Iphone 13 Pro Max 1
-    Forro Space Magsafe Apple Iphone 11 1
+    Forro Space Apple Iphone 11 Magsafe 1
     Forro Space Motorola Moto E20 1
     Forro Space Motorola Moto E7 Plus / G9 Play 2
     Forro Space Motorola Moto Edge 40 3
@@ -306,7 +306,7 @@
     Forro Space Motorola Moto G14 1
     Forro Space Motorola Moto G20 / G30 1
     Forro Space Motorola Moto G20 / G30 Ab 1
-    Forro Space Motorola Moto G24 / G04 4
+    Forro Space Motorola Moto G24 / G04 3
     Forro Space Motorola Moto G31 / G41 1
     Forro Space Motorola Moto G54 1
     Forro Space Motorola Moto G60S 1
@@ -320,7 +320,7 @@
     Forro Space Samsung A 20 / A30 0
     Forro Space Samsung A03S / A02S 1
     Forro Space Samsung A05 0
-    Forro Space Samsung A05s 0
+    Forro Space Samsung A05s 1
     Forro Space Samsung A05S Lila 1
     Forro Space Samsung A10S 0
     Forro Space Samsung A13 1
@@ -512,7 +512,7 @@
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Hd-939 1
-    Reproductor Tdt Krono 0
+    Reproductor Tdt Krono 2
     Reproductor Tv Stick Magis 1
     Reproductor Tv Stick Watch Om 1
     Rollo Cinta Led Rgb 10M 1
@@ -693,7 +693,7 @@
     Silicone Case Samsung A04E Rojo 1
     Silicone Case Samsung A04S Fucsia 0
     Silicone Case Samsung A04S Lila 0
-    Silicone Case Samsung A04S Negro 2
+    Silicone Case Samsung A04S Negro 1
     Silicone Case Samsung A04S Rojo 0
     Silicone Case Samsung A05 Negro 1
     Silicone Case Samsung A05S Negro 1
@@ -918,7 +918,7 @@
     Soporte Nephoo Tripode Camara-Celular 0
     Soporte Techo Tv 26-55 Pulgadas 0
     Soporte Tv 32 Brazo 1
-    Soporte Tv 50 Brazo 3
+    Soporte Tv 50 Brazo 5
     Tapa Huawei P10 Lite Dorado 0
     Tapa Samsung A32 5G Negro 0
     Tapa Xiaomi Redmi Note 8 Azul 0
@@ -1057,7 +1057,7 @@
     Silicone Case Tecno Spark 30 Pro 4g Rojo 1
     Silicone Case Tecno Spark 30 Pro 4G Negro 1
     Silicone Case infinix Hot 50i Fucsia 1
-    Camara 3 Antenas 0
+    Camara 3 Antenas 2
     Cable Rca 3 a 3 1.5m 1
     Silicone Case Motorola Moto G42 Morado 0
     Silicone Case Motorola Moto G42 Fucsia 0
@@ -1179,7 +1179,7 @@
     Silicone Case Samsung Galaxy Note 8 Negro 1
     Silicone Case Samsung Galaxy Note 20 Ultra Amarillo 1
     Silicone Case Samsung Galaxy Note 20 Ultra Morado 1
-    Manos Libres Samsung Akg 0
+    Manos Libres Samsung Akg 5
     Cable Dpp2dpp 0
     Pacha Tecno Pop 5 Lite / Go 2022 0
     Bateria Motorola Moto G31 / G42 0
@@ -1222,7 +1222,7 @@
     Pacha Xiaomi Redmi 9T 0
     Tapa Xiaomi Redmi 9T Naranja 0
     Pacha Oppo A54 0
-    Parlante Barra V70 0
+    Parlante Barra V70 1
     Silicone Case Tecno Camon 20 Pro Fucsia 0
     Silcione Case Xiaomi Redmi 13 Rojo 0
     Vidrio 5D Oppo A79 0
@@ -1245,7 +1245,7 @@
     Vidrio Escarcha Apple Iphone 12 Pro Max 1
     Vidrio Perlas Apple Iphone Xr / 11 1
     Vidrio Fullpega Tecno Spark 20 Pro Plus 2
-    Cargador Smart Watch Magnetico 0
+    Cargador Smart Watch Magnetico 2
     Pacha Tecno Pop 7 / Hot 30 Play 0
     Pacha Xiaomi Redmi 10C 0
     Pacha Xiaomi Redmi 9a / 9c / 10a 0
@@ -1260,3 +1260,15 @@
     Mouse Gamer G-930 0
     Pacha Oppo A57 / A77 0
     Pacha Tcl 30Se 0
+    Cable Auxiliar 1 a 1 3m 2
+    Forro Space Apple Iphone 6s 1
+    Mouse Gamer Inalambrico Eco 1
+    Cargador Apple 16 Pro Max 45w Con Cable 1
+    Cargador Apple 15 Pro Max 35w Con Cable 1
+    Soporte Tv 32 -60 L400 1
+    Vidrio Blindado Samsung A20 / A30 / A50 5
+    Flex Principal Xiaomi Redmi Note 9 0
+    Cargador Pc 8 Pines Caja Naranja 0
+    Manos Libres Apple Tc Blanco 0
+    Pacha Vivo Y30 / Y50 0
+    Silicone Case Vivo Y33s Rosa 0

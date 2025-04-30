@@ -2748,3 +2748,111 @@ Línea  | Contenido
    18 | Pacha Samsung J6 Plus / J4 Plus ok
    19 | Pacha Samsung A21s 1 ok
    20 | Pacha Oppo Realme C67 ok
+
+==================================================
+Fecha de proceso: 2025-04-29 06:39:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Audífonos Bluetooth Xiaomi E7s Negro 1 ok
+    9 | Cargador We Tc 3 ok
+   10 | Cargador We V8  3 ok
+  153 | Forro Antichoque Opps A79 Caballero 2 ok
+  154 | Forro Antichoque Oppo A79 Dama 3 ok
+  159 | Forro Space Vivo V30 Lite 1 ok
+  160 | Forro Space Vivo V30 1 ok
+  161 | Forro Space Vivo V40 1 ok
+  168 | Silicone Case Samsung A36 Rojo 1 ok
+  172 | Vidrio 5D Tecno Spark 20 Pro 5 ok
+  174 | Aguja Extractor Sim 5 ok
+  179 | Forro Space Motorola Moto E30 / E40 2 ok
+  180 | Forro Space Samsung A05s 1 ok
+  182 | Silicone Case Tecno Camon 20 Pro Fucsia 1 ok
+  183 | Silicone Case Tecno Spark 10 Pro Lila 1 ok
+  184 | Silcione Case Xiaomi Redmi 13 Rojo 1 ok
+  185 | Vidrio 5D Oppo A79 5 ok
+  186 | Vidrio 5D Tecno Camon 20 Pro 5 ok
+  187 | Silicone Case Apple Iphone 13 / 14 Palorosa 1 ok
+  188 | Cargador Smart Watch Magnetico 2 ok
+  189 | Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1 ok
+  190 | Vidrio Camara Apple Iphone 15 10 ok
+  194 | Cargador We Tc 3 ok
+  195 | Forro Space Xiaomi Redmi 10 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-29 06:39:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   15 | Control Gamer Pc Eco 1 ok
+   16 | Control Gamer Pc Sencillo 1 ok
+   18 | Control Gamer Ps4 Gta V 1 ok
+   19 | Control Gamer Ps4 Negro 1 ok
+   21 | Control Gamer Sony Ps4 Spiderman 1 ok
+   29 | Plancha Combo Babyliss 0 ok
+   30 | Power Bank Panel Solar 12000 Mah 0 ok
+   31 | Proyector Hy300 Con Juegos 0 ok
+   32 | Reproductor Tdt Krono 3 ok
+   33 | Smart Band 8 1 ok
+   40 | Cable Dpp2dpp 3m 0 ok
+   43 | Cargador Microsoft Carga y Juea Xbox 360 3 ok
+   45 | Parlante Barra V70 2 ok
+   49 | Cable Poder Cuadrado 5 ok
+   50 | Cable Poder Trebol 3 ok
+   51 | Control Gamer Ps4 Blanco 1 ok
+   52 | Control Gamer Ps4 Rojo 1 ok
+   53 | Mouse Gamer G-930 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-29 06:39:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   12 | Logica de Carga Samsung A14 1 ok
+   13 | Logica de Carga Samsugn A23 1 ok
+   14 | Pacha Huawei Y9a Full 1 ok
+   15 | Pacha Samsung A10 1 ok
+   16 | Pacha Samsung A10s 1 ok
+   17 | Pacha Samsung A10s c/m 1 ok
+   18 | Pacha Xiaomi Redmi 9T 1 ok
+   19 | Tapa Xiaomi Redmi 9T Naranja 1 ok
+   20 | Pacha Oppo A54 1 ok
+   21 | Flex de Power Xiaomi Redmi 9T ok
+   27 | Pacha Tecno Spark Go 2023 1 ok
+   28 | Pacha Oppo A57 / A77 1 ok
+   29 | Pacha Tcl 30Se 1 ok
+   30 | Logica Tcl 30se 1 ok
+
+==================================================
+Fecha de proceso: 2025-04-29 06:41:38
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-04-29 06:41:38
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-04-29 06:41:38
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   12 | Pacha Samsung A10s C/m 1 ok
+   14 | Pacha Xiaomi Redmi 10C 1 ok
+   15 | Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
+   16 | Logica de Carga Samsung A05s 1 ok
