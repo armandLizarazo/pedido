@@ -8,10 +8,7 @@
     Pacha Samsung A02S C/M 1
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Camon 18P 1
-    Pacha Xiaomi Redmi Note 10 Pro 1
     Pacha Tecno Pop 7 / Hot 30 Play 1
-    Flex Principal Xiaomi Redmi Note 9 1 ok
-    Pacha Vivo Y30 / Y50 1 ok
-    Huella Vivo Y50 1 ok
-    Huella Xiaomi Redmi 9T 1 ok
-    Bacover Samsung A50 1 ok
+    Pacha Xiaomi Redmi Note 10 Pro 1
+    Logica de Carga Samsung A14 1
+    Pacha Samsung A31 1

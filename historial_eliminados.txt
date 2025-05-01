@@ -2856,3 +2856,45 @@ Línea  | Contenido
    14 | Pacha Xiaomi Redmi 10C 1 ok
    15 | Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
    16 | Logica de Carga Samsung A05s 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-01 06:25:06
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  153 | Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 1 ok
+  164 | Vidrio 5D Xiaomi Redmi Note 12 10 ok
+  167 | Cargador We Tc 3 ok
+  168 | Cargador Apple 25w Tc Ligthning 2 ok
+  169 | Manos Libres Apple Tc Blanco 1 ok
+  170 | Silicone Case Vivo Y33s Rosa 1 ok
+  171 | Silicone Case Xiaomi Poco X3 Fucsia 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-01 06:25:06
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   17 | Garantia Control Gamer Pc Sencillo 1 ok
+   33 | Control Tv Universal 5 ok
+   34 | Rollo Cinta Led Sencilla 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-01 06:25:06
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | Flex Principal Xiaomi Redmi Note 9 1 ok
+   14 | Pacha Vivo Y30 / Y50 1 ok
+   15 | Huella Vivo Y50 1 ok
+   16 | Huella Xiaomi Redmi 9T 1 ok
+   17 | Bacover Samsung A50 1 ok
