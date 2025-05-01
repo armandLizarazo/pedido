@@ -71,7 +71,7 @@
     Forro Space Tecno Spark 30C 2
     Forro Spoace Tecno Spark 10 Pro 1
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Peque�Os 2
+    Garantia Aro De Luz Pequeã±Os 2
     Hydrogel Logos 10
     Manos Libres Samsung Akg 5 
     Manos Libres Samsung J5 Negro 5
@@ -168,12 +168,18 @@
     Silicone Case Apple Iphone 11 Negro 1
     Silicone Case Apple Iphone 12 Negro 1
     Silicone Case Samsung A53 Rosa 1
-    Silicone Case Xiaomi Redmi Note 9 Negro 1
-    Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1
-    Vidrio 5D Samsung A16 5
-    Vidrio 5D Samsung A53 5
-    Vidrio 5D Xiaomi Redmi Note 9 5
-    Vidrio 5D Xiaomi Redmi 9A / 9c / 10a 5
-    Vidrio 5D Samsung A12 10
-    Cargador Yl Tc 5
-    Cargador Belkin Tc 5
+    Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
+    Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1 ok
+    Vidrio 5D Samsung A16 5 ok
+    Vidrio 5D Samsung A53 5 ok
+    Vidrio 5D Xiaomi Redmi Note 9 5 ok
+    Vidrio 5D Xiaomi Redmi 9A / 9c / 10a 5 ok
+    Vidrio 5D Samsung A12 10 ok
+    Cargador Yl Tc 5 ok
+    Cargador Belkin Tc 5 ok
+    Cable V8 Eco 5 ok
+    Cable Tc Eco 5 ok
+    Cable V3 Eco 5 ok
+    Silicone Case Samsung A36 Rojo 1 ok
+    Vidrio 5D Tecno Spark 20 Pro 5 ok
+    Vidrio 5D Xiaomi Redmi Note 12 5 ok
