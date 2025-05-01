@@ -14,8 +14,8 @@
     Control Gamer Gatillos G21 1
     Control Gamer Ps2 Inalambrico 1
     Control Gamer Sony Ps3 Camufladoverde 1
-    Garantia Control Gamer Pc Sencillo 1
-    Garantia Microfono Con Consola No Sirve P 1
+    Garantia Control Gamer Pc Sencillo 1 ok
+    Garantia Microfono Con Consola No Sirve P 2
     Lampara Esfera Sistema Solar 1
     Pad Mouse Tapete Logos 5
     Pad Mouse Tapete Largo Logos 5
@@ -30,6 +30,6 @@
     Cable Dpp2dpp 1.8m 2
     Proyector Hy-300 1
     Audifonos Bluetooth M60 2
-    Control Tv Universal 5
-    Rollo Cinta Led Sencilla 1
+    Control Tv Universal 5 ok
+    Rollo Cinta Led Sencilla 5 ok
     Rollo Cinta Led Con Bluetooth 5
