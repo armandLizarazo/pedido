@@ -5,7 +5,7 @@
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Balacas Onikuma 2
-    Cable Apple Tc Ligthning 2M 3
+    Cable Apple Tc Ligthning 2M 3 ok
     Cargador Samsung 45W Con Cable Blanco 2
     Fooro Antichoque Oppo A60 Caballero 5
     Forro Antichoque Honor X6B Caballero 5
@@ -162,11 +162,11 @@
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Tecno Spark 10 / 10C 5
-    Forro Antichoque Xiaomi Redmi 9C / 10A Caballero 4
+    Forro Antichoque Xiaomi Redmi 9C / 10A Caballero 4 ok
     Forro Armadura Samsung A15 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
-    Silicone Case Apple Iphone 11 Negro 1
-    Silicone Case Apple Iphone 12 Negro 1
+    Silicone Case Apple Iphone 11 Negro 1 ok
+    Silicone Case Apple Iphone 12 Negro 1 ok
     Silicone Case Samsung A53 Rosa 1
     Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
     Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1 ok
