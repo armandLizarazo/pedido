@@ -36,11 +36,11 @@
     Forro Armadura A54 Negro 1
     Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
-    Forro Armadura Motorola Moto G20 / G30 Negro 1
-    Forro Armadura Motorola Moto G20 / G30 Rojo 1
+    Forro Armadura Motorola Moto G20 / G30 Negro 1 ok
+    Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok
     Forro Armadura Motorola Moto G23 Verde 1
     Forro Armadura Motorola Moto G24 Negro 1 
-    Forro Armadura Oppo A15 Negro 1
+    Forro Armadura Oppo A15 Negro 1 ok
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Pova 5 Azul 1
@@ -73,7 +73,7 @@
     Forro Spoace Tecno Spark 10 Pro 1
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Pequeã±Os 2
-    Hydrogel Logos 10
+    Hydrogel Logos 10 ok
     Manos Libres Samsung Akg 5 
     Manos Libres Samsung J5 Negro 5
     Mosue Inalambrico Rosa 1
@@ -167,15 +167,17 @@
     Adaptador Micro Sd Eco 5
     Audifonos Bluetooth Xiaomi E7s Negro 1
     Audifonos Bluetooth Xiaomi E7s Rosa 1
+    Audífonos Bluetooth Xiaomi E7s Azul 1 ok
     Forro Antichoque Samsung A32 Dama 3
-    Forro Armadura Motorola Moto Edge 50 Fusion Negro 1
-    Forro Lujo Apple Iphone 12 Pro Morado 1
-    Forro Space Apple Iphone 7 / 8 1
+    Forro Armadura Motorola Moto Edge 50 Fusion Negro 1 ok
+    Forro Lujo Apple Iphone 12 Pro Morado 1 ok
+    Forro Space Apple Iphone 7 / 8 1 ok
     Hydrogel Hd 50
     Silicone Case Samsung A14 Negro 1
-    Silicone Case Samsung A32 Rosa 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Fucsia 1
-    Silicone Case Xiaomi Mi 11T Rojo 1
+    Silicone Case Samsung A32 Rosa 1 ok
+    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Fucsia 1 ok
+    Silicone Case Xiaomi Mi 11T Rojo 1 ok
     Silicone Case Zte Blade A54 Fucsia 1
-    Silicone Case Zte Blade A54 Negro 1
-    Vidrio 5D Xiaomi Redmi Note 8 5
+    Silicone Case Zte Blade A54 Negro 1 
+    Vidrio 5D Xiaomi Redmi Note 8 5 ok
+    Audífonos Bluetooth Orejas 1
