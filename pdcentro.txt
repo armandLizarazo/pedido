@@ -5,7 +5,6 @@
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Balacas Onikuma 2
-    Cable Apple Tc Ligthning 2M 3 ok
     Cargador Samsung 45W Con Cable Blanco 2
     Fooro Antichoque Oppo A60 Caballero 5
     Forro Antichoque Honor X6B Caballero 5
@@ -48,6 +47,7 @@
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
+    Forro Armadura Samsung A15 Negro 1
     Forro Armadura Samsung A15 Rojo 1
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung A35 Azulrey 1
@@ -55,6 +55,7 @@
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Tecno Camon Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
+    Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Motorola Moto G50 1
@@ -115,6 +116,7 @@
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A36 Amarillo 1
     Silicone Case Samsung A36 Fucsia 1
+    Silicone Case Samsung A53 Rosa 1
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Tecno Camon 30S Negro 1
@@ -162,24 +164,18 @@
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Tecno Spark 10 / 10C 5
-    Forro Antichoque Xiaomi Redmi 9C / 10A Caballero 4 ok
-    Forro Armadura Samsung A15 Negro 1
-    Forro Armadura Xiaomi Mi 11T Negro 1
-    Silicone Case Apple Iphone 11 Negro 1 ok
-    Silicone Case Apple Iphone 12 Negro 1 ok
-    Silicone Case Samsung A53 Rosa 1
-    Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
-    Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1 ok
-    Vidrio 5D Samsung A16 5 ok
-    Vidrio 5D Samsung A53 5 ok
-    Vidrio 5D Xiaomi Redmi Note 9 5 ok
-    Vidrio 5D Xiaomi Redmi 9A / 9c / 10a 5 ok
-    Vidrio 5D Samsung A12 10 ok
-    Cargador Yl Tc 5 ok
-    Cargador Belkin Tc 5 ok
-    Cable V8 Eco 5 ok
-    Cable Tc Eco 5 ok
-    Cable V3 Eco 5 ok
-    Silicone Case Samsung A36 Rojo 1 ok
-    Vidrio 5D Tecno Spark 20 Pro 5 ok
-    Vidrio 5D Xiaomi Redmi Note 12 5 ok
+    Adaptador Micro Sd Eco 5
+    Audifonos Bluetooth Xiaomi E7s Negro 1
+    Audifonos Bluetooth Xiaomi E7s Rosa 1
+    Forro Antichoque Samsung A32 Dama 3
+    Forro Armadura Motorola Moto Edge 50 Fusion Negro 1
+    Forro Lujo Apple Iphone 12 Pro Morado 1
+    Forro Space Apple Iphone 7 / 8 1
+    Hydrogel Hd 50
+    Silicone Case Samsung A14 Negro 1
+    Silicone Case Samsung A32 Rosa 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Fucsia 1
+    Silicone Case Xiaomi Mi 11T Rojo 1
+    Silicone Case Zte Blade A54 Fucsia 1
+    Silicone Case Zte Blade A54 Negro 1
+    Vidrio 5D Xiaomi Redmi Note 8 5

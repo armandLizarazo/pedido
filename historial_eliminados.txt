@@ -2898,3 +2898,54 @@ Línea  | Contenido
    15 | Huella Vivo Y50 1 ok
    16 | Huella Xiaomi Redmi 9T 1 ok
    17 | Bacover Samsung A50 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-02 07:11:42
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cable Apple Tc Ligthning 2M 3 ok
+  165 | Forro Antichoque Xiaomi Redmi 9C / 10A Caballero 4 ok
+  168 | Silicone Case Apple Iphone 11 Negro 1 ok
+  169 | Silicone Case Apple Iphone 12 Negro 1 ok
+  171 | Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
+  172 | Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1 ok
+  173 | Vidrio 5D Samsung A16 5 ok
+  174 | Vidrio 5D Samsung A53 5 ok
+  175 | Vidrio 5D Xiaomi Redmi Note 9 5 ok
+  176 | Vidrio 5D Xiaomi Redmi 9A / 9c / 10a 5 ok
+  177 | Vidrio 5D Samsung A12 10 ok
+  178 | Cargador Yl Tc 5 ok
+  179 | Cargador Belkin Tc 5 ok
+  180 | Cable V8 Eco 5 ok
+  181 | Cable Tc Eco 5 ok
+  182 | Cable V3 Eco 5 ok
+  183 | Silicone Case Samsung A36 Rojo 1 ok
+  184 | Vidrio 5D Tecno Spark 20 Pro 5 ok
+  185 | Vidrio 5D Xiaomi Redmi Note 12 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-02 07:11:42
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   21 | Pad Mouse Tapete Largo Logos 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-02 07:11:42
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Logica De Carga Samsung A25 1 ok
+   12 | Logica de Carga Samsung A14 1 ok
+   13 | Pacha Samsung A31 1 ok
+   14 | Huella Samsung A03s Negro 1 ok
