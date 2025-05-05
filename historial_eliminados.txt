@@ -2949,3 +2949,57 @@ Línea  | Contenido
    12 | Logica de Carga Samsung A14 1 ok
    13 | Pacha Samsung A31 1 ok
    14 | Huella Samsung A03s Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-03 05:53:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   39 | Forro Armadura Motorola Moto G20 / G30 Negro 1 ok
+   40 | Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok
+   43 | Forro Armadura Oppo A15 Negro 1 ok
+   76 | Hydrogel Logos 10 ok
+  170 | Audífonos Bluetooth Xiaomi E7s Azul 1 ok
+  172 | Forro Armadura Motorola Moto Edge 50 Fusion Negro 1 ok
+  173 | Forro Lujo Apple Iphone 12 Pro Morado 1 ok
+  174 | Forro Space Apple Iphone 7 / 8 1 ok
+  176 | Silicone Case Samsung A14 Negro 1 ok
+  177 | Silicone Case Samsung A32 Rosa 1 ok
+  178 | Silicone Case Tecno Spark Go 2024 / 20 / 20c / Pop8 Fucsia 1 ok
+  179 | Silicone Case Xiaomi Mi 11T Rojo 1 ok
+  182 | Vidrio 5D Xiaomi Redmi Note 8 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-03 05:53:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cable Dpp2Dpp 1.8M 3 ok
+    9 | Cable Hdmi 1.5M Eco 2 ok
+   21 | Pad Mouse Tapete Logos 5 ok
+   25 | Proyector Hy300 Con Juegos 1 ok
+   33 | Adpatador Hdmi2minihdmi 3 ok
+   35 | Reproductor Tdt Krono 3 ok
+   36 | Reproductor Onn Hd 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-03 05:53:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   11 | Bateria Motorola Moto G8 Plus 1 ok
+   12 | Pacha Motorola Moto G9 Power 1 ok
+   13 | Pacha Samsung A30 / A50 c/m 1 ok
+   14 | Pacha Samsung A30 / A50 1 ok
+   15 | Tapa Xiaomi Mi 11T Gris 1 ok
+   16 | Tapa Xiaomi Mi 11T Azul 1 ok
+   17 | Altavoz Apple IPhone 12 Mini 1 ok
