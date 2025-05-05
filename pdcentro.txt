@@ -9,10 +9,11 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audífonos Bluetooth Orejas 1
     Balacas Onikuma 2
-    Cargador Samsung 45W Con Cable Blanco 2
+    Cargador Samsung 45W Con Cable Blanco 1 ok
     Fooro Antichoque Oppo A60 Caballero 5
-    Forro Antichoque Honor X6B Caballero 5
-    Forro Antichoque Honor X6B Dama 5
+    Forro Antichoque Huawei Honor X6B Caballero 3 ok
+    Forro Antichoque Huawei Honor X6B Dama 3 ok
+    Forro Antichoque Huawei Honor Nagic 6 Lite Caballero 4 ok
     Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5
     Forro Antichoque Huawei Honor Magic 7 Lite Dama 5
     Forro Antichoque Huawei Honor X5B Caballero 5
@@ -173,21 +174,22 @@
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Oppo A57 / A77 Negro 1
     Silicone Case Samsung A15 Rosa 1 
-    Silicone Case Vivo Y51 / Y53s Rojo 1 c
+    Silicone Case Vivo Y51 / Y53s Rojo 1 
     Silicone Case Xiaomi Redmi Note 11 Azulrey 1 ok
     Vidrio 5D Huawei Honor X8b 10 ok
     Vidrio 5D Huawei Honor X7b 10 ok
     Vidrio 5D Samsung A22 5G 10 ok
-    Silicone Case Samsung A22 5G Fucsia 1
+    Silicone Case Samsung A22 5G Fucsia 1 ok
+    Forro Antichoque Sa
     Silicone Case Xiaomi Redmi 13 Rojo 1 ok
     Vidrio 5D Xiaomi Redmi 9T 10 ok
     Forro Antichoque Huawei Honor 6 Lite Caballero 4
     Audifonos Bluetooth W I12 Azuloscuro 2
-    Cable We Tc 3
-    Cargador Apple 20W Tc Cabeza 2
-    Cargador Samsung 45W Cabeza Negro 1
+    Cable We Tc 3 ok
+    Cargador Apple 20W Tc Cabeza 2 ok
+    Cargador Samsung 45W Cabeza Negro 1 ok
     Cable Motorola Tc A Tc 3
-    cargador Apple 25W Tc Cabeza 2
+    cargador Apple 25W Tc Cabeza 2 ok
     Control Gamer Microsoft Xbox 360 Inalambrico 1
     Forro Space Apple Iphone 11 1 ok
     Pacha Xiaomi Redmi Note 11 / Note 12s 1
