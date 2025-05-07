@@ -19,7 +19,7 @@
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
-    Proyector Hy-300 1
+    Proyector Hy-300 con juegos 2 ok
     Rollo Cinta Led Con Bluetooth 5
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
@@ -27,8 +27,8 @@
     Soporte Tripode Neepho 1
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
-    Cable Impresora 3M 3
-    Cable Impresora 1.5M 3
+    Cable Impresora 3M 3 ok
+    Cable Impresora 1.5M 3 ok
     Control Tv Smart Tv 5
-    Pacha Apple Iphone 12 Mini Gx 1
-    Smart Tv TG 43 Pulgadas 2
+    Smart Tv TG 43 Pulgadas 2 ok
+    Soporte Tv 50 Brazo 1 ok
