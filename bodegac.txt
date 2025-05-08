@@ -99,7 +99,7 @@
     Cable Motorola Tc A Tc 0
     Cable Optico 1.5M 2
     Cable Optico 3M 2
-    Cable Poder Cuadrado 5
+    Cable Poder Cuadrado 2
     Cable Poder Grabadora 3
     Cable Poder Trebol 5
     Cable Rca 3 A 1 1.5M 1
@@ -426,7 +426,7 @@
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
     Forro Space Xiaomi Redmi Note 12S 3
-    Forro Space Xiaomi Redmi Note 13 4G 2
+    Forro Space Xiaomi Redmi Note 13 4G 1
     Forro Space Xiaomi Redmi Note 13 Pro 4G 0
     Forro Space Xiaomi Redmi Note 8 1
     Forro Space Xiaomi Redmi Note 8 Lila 1
@@ -501,7 +501,7 @@
     Pacha Moto Moto G60S 0
     Pacha Motorola Moto E5 Play 0
     Pacha Motorola Moto E6I 0
-    Pacha Motorola Moto G20 / G30 1
+    Pacha Motorola Moto G20 / G30 0
     Pacha Motorola Moto G22 / E32 0
     Pacha Motorola Moto G60 / G60S 0
     Pacha Motorola Moto G8 Power Lite 0
@@ -778,7 +778,7 @@
     Silicone Case Oppo A80 Lila 1
     Silicone Case Oppo Realme C21Y / C25Y Rosa 1
     Silicone Case Oppo Realme C55 Azuloscuro 2
-    Silicone Case Oppo Realme C55 Negro 1
+    Silicone Case Oppo Realme C55 Negro 0
     Silicone Case Oppo Realme C55 Rojo 0
     Silicone Case Oppo Reamle C53 / Note 50 Negro 0
     Silicone Case Oppo Reno 7 Negro 1
@@ -1318,3 +1318,17 @@
     Silicone Case Samsung A16 Azuloscuro 0
     Silicone Case Samsung A22 5G Lila 0
     Smart Tv TG 43 Pulgadas 0
+    Forro Antichoque Xiaomi Redmi 13 Caballero 0
+    Forro Antichoque Xiaomi Redmi 13 Dama 0
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 0
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 0
+    Audifonos Bluetooth Cuellera L&M 0
+    Vidrio 5D Motorola Moto G22 0
+    Vidrio 5D Motorola Moto G20 / G30 0
+    Cargador Digo V3 0
+    Pacha Tecno Spark 10 Pro / Hot 30 0
+    Pacha Motorola Moto G14 / G54 0
+    Silicone Case Oppo A80 Morado 0
+    Silicone Case Samsung A03 Core Verdemilitar 0
+    Silicone Case Xiaomi Redmi Note 12 Rojo 0
+    Silicone Case Xiaomi Redmi Note 13 5G Lila 0
