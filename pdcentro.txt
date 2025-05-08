@@ -175,22 +175,22 @@
     Audifonos Bluetooth W I12 Azuloscuro 2
     Cable Motorola Tc A Tc 3
     Control Gamer Microsoft Xbox 360 Inalambrico 1
-    Pacha Xiaomi Redmi Note 11 / Note 12s 1
     Silicone Case Apple Iphone 12 Rosa 1
     Silicone Case Oppo A17 Rojo 1
     Silicone Case Oppo Realme C53 Lila 1
     Silicone Case Samsung A22 5G Lila 1
-    Forro Antichoque Xiaomi Redmi 13 Caballero 5
-    Forro Antichoque Xiaomi Redmi 13 Dama 5
+    Forro Antichoque Xiaomi Redmi 13 Caballero 5 ok
+    Forro Antichoque Xiaomi Redmi 13 Dama 4 ok
     Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5
     Audifonos Bluetooth Cuellera L&M 1
-    Audifonos Bluetooth W i12 Blanco 2
-    Cable We Tc 3
-    Vidrio 5D Samsung A12 5
-    Vidrio 5D Motorola Moto G22 5
-    Vidrio 5D Motorola Moto G20 / G30 5
-    Cargador Digo V3 5
+    Audifonos Bluetooth W i12 Blanco 2 ok
+    Audifonos Bluetooth W i12 Negro 1 ok
+    Cable We Tc 4 ok
+    Vidrio 5D Samsung A12 5 ok
+    Vidrio 5D Motorola Moto G22 5 ok
+    Vidrio 5D Motorola Moto G20 / G30 5 ok
+    Cargador Digo V3 5 ok
     Silicone Case Oppo A80 Morado 1
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Samsung A03 Core Verdemilitar 1
