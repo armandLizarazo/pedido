@@ -170,20 +170,20 @@
     Silicone Case Oppo A57 / A77 Negro 1
     Silicone Case Samsung A15 Rosa 1 
     Silicone Case Vivo Y51 / Y53s Rojo 1 
-    Forro Antichoque Sa
     Forro Antichoque Huawei Honor 6 Lite Caballero 4
     Audifonos Bluetooth W I12 Azuloscuro 2
     Cable Motorola Tc A Tc 3
     Control Gamer Microsoft Xbox 360 Inalambrico 1
-    Silicone Case Apple Iphone 12 Rosa 1
-    Silicone Case Oppo A17 Rojo 1
+    Silicone Case Apple Iphone 12 Rosa 1 ok
+    Silicone Case Oppo A17 Rojo 1 ok
     Silicone Case Oppo Realme C53 Lila 1
-    Silicone Case Samsung A22 5G Lila 1
+    Silicone Case Samsung A22 5G Lila 1 ok
     Forro Antichoque Xiaomi Redmi 13 Caballero 5 ok
     Forro Antichoque Xiaomi Redmi 13 Dama 4 ok
     Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5
-    Audifonos Bluetooth Cuellera L&M 1
+    Audifonos Bluetooth Cuellera Innoval Bt-15 1 ok
+    Audifonos Bluetooth Cuellera Harvic Bt-564 1 ok
     Audifonos Bluetooth W i12 Blanco 2 ok
     Audifonos Bluetooth W i12 Negro 1 ok
     Cable We Tc 4 ok
@@ -191,9 +191,12 @@
     Vidrio 5D Motorola Moto G22 5 ok
     Vidrio 5D Motorola Moto G20 / G30 5 ok
     Cargador Digo V3 5 ok
+    Forro Ventana Apple Iphone 11 azul 1 ok
+    Forro Ventana Apple Iphone 11 Morado 1 ok
+    Forro Sapce Samsung A06 1 ok
     Silicone Case Oppo A80 Morado 1
     Silicone Case Oppo Realme C55 Negro 1
-    Silicone Case Samsung A03 Core Verdemilitar 1
-    Silicone Case Samsung A14 Negro 1
-    Silicone Case Xiaomi Redmi Note 12 Rojo 1
+    Silicone Case Samsung A03 Core Verdemilitar 1 ok
+    Silicone Case Samsung A14 Negro 1 ok
+    Silicone Case Xiaomi Redmi Note 12 Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 5G Lila 1
