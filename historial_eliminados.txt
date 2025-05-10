@@ -3122,3 +3122,33 @@ Línea  | Contenido
    12 | Pacha Samsung A25 Amoled 1 ok
    13 | Pacha Tecno Spark 10 Pro / Hot 30 2 ok
    14 | Pacha Motorola Moto G14 / G54 2 ok
+
+==================================================
+Fecha de proceso: 2025-05-09 15:40:12
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  185 | Cargador Apple 25W Tc Ligthning 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-09 15:40:12
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-05-09 15:40:12
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Pacha Motorola Moto G20 / G30 1 ok
+   11 | Pacha Huawei PSmart 2019 1 ok
+   12 | Pacha Huawei Nova 9se 1 ok
+   13 | Pacha Vivo Y51 / Y53s 1 ok
+   14 | Tapa Huawei Nova 9se Negro 1 ok

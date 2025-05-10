@@ -81,7 +81,7 @@
     Cable Auxiliar 2 A 1 1.5M 2
     Cable Auxiliar 2 A 1 3M 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 2M 1
+    Cable Belkin Tc 2M 0
     Cable Belkin Tc 3
     Cable Belkin V8 3
     Cable Caterpillar Tc 0
@@ -106,7 +106,7 @@
     Cable Rca 3 A 3 1.5M 1
     Cable Rca 3 A 3 3M 2
     Cable Royal Tc 0
-    Cable Royal Tc 2M 2
+    Cable Royal Tc 2M 0
     Cable Samsung Tc A Tc Blanco 0
     Cable Samsung Tc A Tc Negro 0
     Cable Siliconado Zonymax Tc Blanco 3
@@ -1339,3 +1339,15 @@
     Pacha Huawei Nova 9se 0
     Tapa Huawei Nova 9se Negro 0
     Adaptador Dpp2vga 0
+    Vidrio 5d Xiaomi Redmi 14C 0
+    Vidrio 5D Spark Go 2025 0
+    Vidrio 5D Tecno Spark Go 2025 0
+    Pacha Samsung A12 / M12 0
+    Logica de Carga Motorola Moto G5 0
+    Silicone Case Apple Iphone 13 Pro Negro 0
+    Silicone Case Tecno Spark Go 2025 Azuloscuro 0
+    Silicone Case Oppo A80 Azulclaro 0
+    Silicone Case Vivo Y15 / Y01 Amarillo 0
+    Silicone Case Vivo Y15 / Y01 Fucsia 0
+    Silicone Case Xiaomi Redmi 14C Rojo 0
+    Vidrio 5D Xiaomi Redmi A5 0
