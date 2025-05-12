@@ -182,21 +182,21 @@
     Silicone Case Vivo Y15 / Y01 Amarillo 1
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Xiaomi Redmi 14C Rojo 1
-    Cable Belkin Tc 2M 2
+    Cable Belkin Tc 2M 2 ok
     Cable Apple Usb Ligthning 2M 2
-    Cable Apple Usb Ligthning 2
-    Cargador Apple 20w Cable Tc Ligthning 2
+    Cable Apple Usb Ligthning 2 ok
+    Cargador Apple 20w Cable Tc Ligthning 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Power Bank Aibimy 20000 Mah 1
-    Power Bank Aibimy 30000 Mah 1
-    Silicone Case Apple Iphone 13 Pro Max Rojo 1
+    Power Bank Yoyos 20000 Mah 1 ok
+    Power Bank Aibimy 30000 Mah 1 
+    Silicone Case Apple Iphone 13 Pro Max Rojo 1 ok
     Silicone Case Oppo Realme C53 Rojo 1
     Silicone Case Samsung A03 Core Lila 1
     Silicone Case Samsung A15 Lila 1
-    Silicone Case Samsung A35 Azuloscuro 1
-    Silicone Case Samsung S24 Ultra Morado 1
+    Silicone Case Samsung A35 Azuloscuro 1 ok
+    Silicone Case Samsung S24 Ultra Morado 1 ok
     Silicone Case Vivo Y33s Negro 1
     Forro Pin Samsung S24 Ultra 3
     Forro Antichoque Samsung S24 Ultra Caballero 5
-    Smart Watch Gw-20 Verdemilitar 1
-    Vidrio 5D Motorola Moto G04 / G24 5
+    Smart Watch Gw-20 Verdemilitar 1 ok
+    Vidrio 5D Motorola Moto G04 / G24 5 ok
