@@ -3152,3 +3152,44 @@ Línea  | Contenido
    12 | Pacha Huawei Nova 9se 1 ok
    13 | Pacha Vivo Y51 / Y53s 1 ok
    14 | Tapa Huawei Nova 9se Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-12 06:20:38
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   76 | Manos Libres Samsung J5 Negro 5 ok
+   77 | Manos Libres Samsung J5 Blanco 5 ok
+  173 | Audifonos Bluetooth W I12 Azuloscuro 2 ok
+  182 | Audifonos Bluetooth W I12 Blanco 1 ok
+  183 | Cargador Apple 20W Tc Ligthning 2 ok
+  184 | Cargador Apple 5V Eco 2 ok
+  187 | Vidrio 5d Xiaomi Redmi 14C 5 ok
+  188 | Vidrio 5D Tecno Spark Go 2025 10 ok
+  189 | Cable Belkin Tc 2M 2 ok
+  190 | Silicone Case Apple Iphone 13 Pro Negro 1 ok
+  192 | Silicone Case Oppo A80 Azulclaro 1 ok
+  196 | Vidrio 5D Xiaomi Redmi A5 5 ok
+  197 | Vidrio Blindado Xiaomi Redmi A5 5 ok
+  198 | Vidrio Blindado Tecno Spark Go 2025 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-12 06:20:38
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-05-12 06:20:38
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Pacha Samsung A12 / M12 2 ok
+   11 | Pacha Huawei Honor X6a 1 ok
+   12 | Logica De Carga Motorola Moto G5 1 ok

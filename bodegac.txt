@@ -136,7 +136,7 @@
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
     Cargador Apple 20W Tc Cabeza 0
-    Cargador Apple 20W Tc Ligthning 0
+    Cargador Apple 20W Cable Tc Ligthning 0
     cargador Apple 25W Tc Cabeza 0
     Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 0
@@ -219,7 +219,7 @@
     Control Gamer X3 2
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
-    Control Tv Tv Box 1
+    Control Tv Tv Box 0
     Control Tv Universal 0
     Dispensador Agua Botellon 3
     Escencia Aceite 0
@@ -1123,7 +1123,7 @@
     Silicone Case Zte Blade A54 Negro 0
     Simcard Claro 0
     Simcard Tigo 0
-    Smart Watch Gw-20 Verdemilitar 1
+    Smart Watch Gw-20 Verdemilitar 0
     Smartphone Infinix Smart 9 128/6 Gris 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 0
     Smartphone Tecno Spark Go 1S 64/6 Gris 0
@@ -1351,3 +1351,23 @@
     Silicone Case Vivo Y15 / Y01 Fucsia 0
     Silicone Case Xiaomi Redmi 14C Rojo 0
     Vidrio 5D Xiaomi Redmi A5 0
+    Cable Apple Usb Ligthning 2M 0
+    Cable Apple Usb Ligthning 0
+    Forro Armadura Samsung S23 Plus Azuloscuro 0
+    Forro Pc 15 Pulgadas 0
+    Pacha Xiaomi Redmi Note 9s / Note 9 Pro 0
+    Pacha Xiaomi Redmi 9T / Poco M3 0
+    Power Bank Aibimy 20000 Mah 0
+    Silicone Case Apple Iphone 13 Pro Max Rojo 0
+    Silicone Case Oppo Realme C53 Rojo 0
+    Silicone Case Samsung A03 Core Lila 0
+    Silicone Case Samsung A15 Lila 0
+    Silicone Case Samsung A35 Azuloscuro 0
+    Silicone Case Samsung S24 Ultra Morado 0
+    Silicone Case Vivo Y33s Negro 0
+    Forro Pin Samsung S24 Ultra 0
+    Forro Antichoque Samsung S24 Ultra Caballero 0
+    Visor Camara Apple Iphone 13 0
+    Flex de Power Huawei Mate 20 lite 0
+    Bateria Huawei Mate 20 Lite 0
+    Tapa Huawei Mate 20 Lite Azuloscuro 0
