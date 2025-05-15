@@ -7,11 +7,11 @@
     Pacha Tecno Camon 18P 1
     Pacha Tecno Pop 7 / Hot 30 Play 1
     Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Samsung A30 / A50 1
-    Pacha Samsung A30 / A50 C/m 1
-    Pacha Xiaomi Redmi Note 9s / Note 9 Pro 2
-    Pacha Xiaomi Redmi 9T / Poco M3 2
-    Visor Camara Apple Iphone 13 1
-    Flex de Power Huawei Mate 20 lite 1
-    Bateria Huawei Mate 20 Lite 1
-    Tapa Huawei Mate 20 Lite Azuloscuro 1
+    Pacha Samsung A30 / A50 1 ok
+    Pacha Samsung A30 / A50 C/m 1 ok
+    Pacha Xiaomi Redmi Note 9s / Note 9 Pro 2 ok
+    Pacha Xiaomi Redmi 9T / Poco M3 2 ok
+    Visor Camara Apple Iphone 13 1 ok
+    Flex de Power Huawei Mate 20 lite 1 ok
+    Bateria Huawei Mate 20 Lite 1 ok
+    Tapa Huawei Mate 20 Lite Azuloscuro 1 ok
