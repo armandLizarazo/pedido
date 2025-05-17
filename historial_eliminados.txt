@@ -3193,3 +3193,44 @@ Línea  | Contenido
    10 | Pacha Samsung A12 / M12 2 ok
    11 | Pacha Huawei Honor X6a 1 ok
    12 | Logica De Carga Motorola Moto G5 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-15 05:46:26
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  185 | Cable Belkin Tc 2M 2 ok
+  187 | Cable Apple Usb Ligthning 2 ok
+  188 | Cargador Apple 20w Cable Tc Ligthning 1 ok
+  190 | Power Bank Yoyos 20000 Mah 1 ok
+  192 | Silicone Case Apple Iphone 13 Pro Max Rojo 1 ok
+  196 | Silicone Case Samsung A35 Azuloscuro 1 ok
+  197 | Silicone Case Samsung S24 Ultra Morado 1 ok
+  201 | Smart Watch Gw-20 Verdemilitar 1 ok
+  202 | Vidrio 5D Motorola Moto G04 / G24 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-15 05:46:26
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-05-15 05:46:26
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Pacha Samsung A30 / A50 1 ok
+   11 | Pacha Samsung A30 / A50 C/m 1 ok
+   12 | Pacha Xiaomi Redmi Note 9s / Note 9 Pro 2 ok
+   13 | Pacha Xiaomi Redmi 9T / Poco M3 2 ok
+   14 | Visor Camara Apple Iphone 13 1 ok
+   15 | Flex de Power Huawei Mate 20 lite 1 ok
+   16 | Bateria Huawei Mate 20 Lite 1 ok
+   17 | Tapa Huawei Mate 20 Lite Azuloscuro 1 ok

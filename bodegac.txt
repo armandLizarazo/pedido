@@ -145,7 +145,7 @@
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 5
+    Cargador Belkin Tc 0
     Cargador Belkin V8 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -204,7 +204,7 @@
     Celular Nokia 105 4G 1
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
-    Consola Game Sitck 2
+    Consola Game Stick 0
     Control Gamer Gatillos G21 0
     Control Gamer Gatillos H-9.0 0
     Control Gamer Gatillos W11+ 0
@@ -217,7 +217,7 @@
     Control Gamer Sony Ps3 Camufladoverde 0
     Control Gamer Sony Ps4 Spiderman 0
     Control Gamer X3 2
-    Control Keyboard Tv 1
+    Control Keyboard Tv 0
     Control Tv Smart Tv 0
     Control Tv Tv Box 0
     Control Tv Universal 0
@@ -336,7 +336,7 @@
     Forro Space Honor X7A 1
     Forro Space Huawei Honor Magic 5 Lite 1
     Forro Space Huawei Honor X6 / X6S 1
-    Forro Space Huawei Honor X6A 2
+    Forro Space Huawei Honor X6A 1
     Forro Space Huawei Honor X7A 2
     Forro Space Huawei Honor X7C 0
     Forro Space Huawei Honor X8 1
@@ -350,7 +350,7 @@
     Forro Space Motorola Moto Edge 40 3
     Forro Space Motorola Moto G04 0
     Forro Space Motorola Moto G13 / G23 1
-    Forro Space Motorola Moto G14 1
+    Forro Space Motorola Moto G14 0
     Forro Space Motorola Moto G20 / G30 1
     Forro Space Motorola Moto G20 / G30 Ab 1
     Forro Space Motorola Moto G24 / G04 3
@@ -570,7 +570,7 @@
     Patillera 3 En 1 2
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
-    Pilas Carbon Maxday Eco 30
+    Pilas Carbon Maxday Eco 0
     Pin De Carga Celular 20
     Pin De Carga Parlante 0
     Pin De Carga V8 20
@@ -797,7 +797,7 @@
     Silicone Case Samsung A04S Lila 0
     Silicone Case Samsung A04S Negro 1
     Silicone Case Samsung A04S Rojo 0
-    Silicone Case Samsung A05 Negro 1
+    Silicone Case Samsung A05 Negro 0
     Silicone Case Samsung A05S Azulclaro 1
     Silicone Case Samsung A05S Negro 1
     Silicone Case Samsung A12 / M12 Morado 1
@@ -1371,3 +1371,31 @@
     Flex de Power Huawei Mate 20 lite 0
     Bateria Huawei Mate 20 Lite 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
+    Adaptador Bluetooth Dongle Audio 0
+    Forro Antichoque Motorola Moto E40 Caballero 0
+    Forro Antichoque Motorola Moto E30 / E40 Dama 0
+    Forro Space Apple Iphone 7 Plus / 8 Plus 0
+    Forro Space Samsung A34 0
+    Forro Space Vivo Y30 / Y50 0
+    Logica de Carga Samsung A11 0
+    Pacha Huawei Honor X6a 0
+    Pacha Huawei Y7a 0
+    Pacha Oppo A17 / A57 / A77 0
+    Pacha Samsung A23 / M23 0
+    Pacha Tecno Saprk Go 2023 / Pop 5 Lite 0
+    Pacha Xiaomi Redmi 9 0
+    Parlante T&G Tg-294 0
+    Silicone Case Apple iPhone 8 Blanco 0
+    Silicone Case Huawei Honor X7a Rosa 0
+    Silicone Case Motorola Moto Edge 30 Negro 0
+    Silicone Case Samsung A06 Morado 0
+    Silicone Case Tecno Camon 30s Fucia 0
+    Silicone Case Vivo Y20 / Y20s / Y11s Rojo 0
+    Smart Watch i525 Mini Rosa 0
+    Teclado Seisa Dn-236 0
+    Telefono Fijo Kxt-806 0
+    Vidrio 5d Xiaomi Redmi Note 13 4G 0
+    Vidrio 5D Samsung A11 0
+    Vidrio Camara Blade A75 0
+    Vidrio Camara Zte Blade A75 0
+    Logica de Carga Tcl 0
