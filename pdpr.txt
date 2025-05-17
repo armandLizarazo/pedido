@@ -23,15 +23,16 @@
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
-    Soporte Tripode Neepho 1
+    Soporte Tripode Neepho 1 ok
     Tableta Tigers Kids Rosa 1
     Termo Motivacion 1
     Adaptador Dpp2vga 4
-    Cargador Pc Lenovo Mini 3.25 1
+    Cargador Pc Lenovo Mini 3.25 1 ok
     Control Tv Tv Box 3
-    Forro Pc 15 Pulgadas 2
-    Consola Game Stick 2
+    Forro Pc 15 Pulgadas 2 ok
+    Consola Game Stick 1 ok
     Parlante T&G Tg-294 1
-    Teclado Combo Gamer F92 1
+    Teclado Combo Gamer F92 1 ok
     Teclado Seisa Dn-236 1
     Telefono Fijo Kxt-806 1
+    Parlante Barra V70 1 ok
