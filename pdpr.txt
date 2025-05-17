@@ -34,5 +34,5 @@
     Parlante T&G Tg-294 1
     Teclado Combo Gamer F92 1 ok
     Teclado Seisa Dn-236 1
-    Telefono Fijo Kxt-806 1
+    Telefono Fijo Kxt-806 2 ok
     Parlante Barra V70 1 ok
