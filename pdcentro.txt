@@ -1,4 +1,4 @@
-    Adaptador Micro Sd Eco 5
+    Adaptador Micro Sd Eco 4 ok
     Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
     Audifonos Bluetooth Pro 60 2
@@ -10,8 +10,8 @@
     Audífonos Bluetooth Orejas 1
     Balacas Onikuma 2
     Fooro Antichoque Oppo A60 Caballero 5
-    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5
-    Forro Antichoque Huawei Honor Magic 7 Lite Dama 5
+    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 5 ok
     Forro Antichoque Huawei Honor X5B Caballero 5
     Forro Antichoque Huawei Honor X5B Dama 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -71,8 +71,8 @@
     Forro Space Tecno Spark 30C 2 ok
     Forro Spoace Tecno Spark 10 Pro 1 ok
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Pequeã±Os 2
-    Manos Libres Samsung Akg 5 
+    Garantia Aro De Luz Mini 2
+    Manos Libres Samsung Akg 5 ok
     Mouse Inalambrico Jertech Jr-1 Negro 1
     Mouse Jertech Jr-1 Azul 1
     Silicone Caae Tecno Camon 30S Amarillo 1
