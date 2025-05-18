@@ -2,7 +2,7 @@
     Aro De Luz Joma 33Cm Ligth 2
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 1
-    Audifonos Bluetooth M60 2
+    Audifonos Bluetooth M60 2 ok
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
     Cable Hdmi 3M Eco 3
@@ -14,8 +14,8 @@
     Conectores Rj45 10
     Control Gamer Gatillos G21 1
     Control Gamer Ps2 Inalambrico 1
-    Control Gamer Sony Ps3 Camufladoverde 1
-    Garantia Microfono Con Consola No Sirve P 2
+    Control Gamer Sony Ps3 Unicolor 2 ok
+    Garantia Microfono Con Consola No Sirve P 2 ok
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
     Parlante Tg-294 Negro 1
@@ -28,10 +28,10 @@
     Termo Motivacion 1
     Adaptador Dpp2vga 4
     Cargador Pc Lenovo Mini 3.25 1 ok
-    Control Tv Tv Box 3
+    Control Tv Tv Box 2 ok
     Forro Pc 15 Pulgadas 2 ok
     Consola Game Stick 1 ok
-    Parlante T&G Tg-294 1
+    Parlante T&G Tg-294 2 ok
     Teclado Combo Gamer F92 1 ok
     Teclado Seisa Dn-236 1
     Telefono Fijo Kxt-806 2 ok
