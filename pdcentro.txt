@@ -176,22 +176,21 @@
     Forro Space Vivo Y30 / Y50 1
     Manos Libres Batri B10 Negro 5
     Manos Libres Batri B10 Rosa 3
-    Silicone Case Apple iPhone 8 Blanco 1
-    Silicone Case Huawei Honor X7a Rosa 1
+    Silicone Case Apple iPhone 8 Blanco 1 ok
+    Silicone Case Huawei Honor X7a Rosa 1 
     Silicone Case Motorola Moto Edge 30 Negro 1
     Silicone Case Samsung A05 Negro 1
-    Silicone Case Tecno Camon 30s Fucia 1
     Silicone Case Vivo Y20 / Y20s / Y11s Rojo 1
-    Silicone Case Xiaomi Redmi 10 Lila 1
+    Silicone Case Xiaomi Redmi 10 Lila 1 ok
     Smart Watch i525 Mini Rosa 1
     Vidrio Camara Zte Blade A75 1
     Forro Lujo Ventana Apple Iphone 11 Negro 1
-    Forro Space Samsung A04s 1
-    Forro Space Xiaomi Redmi Note 13 4G 1
+    Forro Space Samsung A04s 1 ok
+    Forro Space Xiaomi Redmi Note 13 4G 1 ok
     Vidrio 5D Samsung A04s 5
     Silicone Case Tecno Camon 30s Pro Amarillo 1
     Silicone Case Tecno Camon 30s Pro Negro 1
-    Forro Space Xiaomi Redmi Note 14 4G 2
+    bno Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro Plus 2
     Forro Space Xiaomi Redmi Note 14s 2
     Cable Royal Tc 2M 2
@@ -206,10 +205,10 @@
     Forro Space Motorola Moto G23 1
     Forro Space Samsung A06 1
     Silicone Case Tecno Camon 30s Pro Lila 1
-    Silicone Case Xiaomi Redmi Note 10 5G Lila 1
-    Vidrio Blindado Apple Iphone 15 Pro Max 5
-    Vidrio 5D Apple Iphone 15 Pro Max 5
-    Vidrio 5D Xiaomi Redmi A3 4
+    Silicone Case Xiaomi Redmi Note 10 5G Lila 1 ok
+    Vidrio Blindado Apple Iphone 15 Pro Max 5 ok
+    Vidrio 5D Apple Iphone 15 Pro Max 5 ok
+    Vidrio 5D Xiaomi Redmi A3 5 
     Vidrio 5D Xiaomi Redmi A1 / A2 5
-    Silicone Case Motorola Moto G22 Lila 1
-    Silicone Case Xiaomi Redmi Note 12 Pro Morado 1
+    Silicone Case Motorola Moto G22 Lila 1 
+    Silicone Case Xiaomi Redmi Note 12 Pro Morado 1 ok
