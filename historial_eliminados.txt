@@ -3234,3 +3234,83 @@ Línea  | Contenido
    15 | Flex de Power Huawei Mate 20 lite 1 ok
    16 | Bateria Huawei Mate 20 Lite 1 ok
    17 | Tapa Huawei Mate 20 Lite Azuloscuro 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-18 07:19:13
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 27
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Micro Sd Eco 4 ok
+   13 | Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok
+   14 | Forro Antichoque Huawei Honor Magic 7 Lite Dama 5 ok
+   41 | Forro Armadura Motorola Moto G23 Verde 1 ok
+   52 | Forro Armadura Samsung A35 Azulrey 1 ok
+   55 | Forro Armadura Tecno Spark 30 Pro Negro 1 ok
+   56 | Forro Armadura Tecno Spark 20 Pro Plus Negro 1 ok
+   64 | Forro Space Infinix Note 40 2 ok
+   66 | Forro Space Oppo A79 1 ok
+   71 | Forro Space Tecno Spark 30C 2 ok
+   72 | Forro Spoace Tecno Spark 10 Pro 1 ok
+   75 | Manos Libres Samsung Akg 5 ok
+   83 | Silicone Case Huawei Honor Magic 7 Lite Azuloscuro 1 ok
+   85 | Silicone Case Huawei Honor X8B Azulrey 1 ok
+  105 | Silicone Case Motorola Moto G54 Rosa 1 ok
+  107 | Silicone Case Oppo A78 Azulrey 1 ok
+  113 | Silicone Case Samsung A36 Amarillo 1 ok
+  128 | Silicone Case Xiaomi Redmi Note 13 5G Rosa 1 ok
+  170 | Forro Antichoque Huawei Honor Magic 6 Lite Caballero 4 ok
+  181 | Silicone Case Tecno Spark Go 2025 Azuloscuro 1 ok
+  195 | Cargador Belkin Tc 5 ok
+  196 | Forro Antichoque Motorola Moto E40 Caballero 3 ok
+  197 | Forro Antichoque Motorola Moto E30 / E40 Dama 2 ok
+  198 | Forro Space Apple Iphone 7 Plus / 8 Plus 1 ok
+  207 | Silicone Case Samsung A06 Morado 1 ok
+  212 | Vidrio 5d Xiaomi Redmi Note 13 4G 5 ok
+  213 | Vidrio 5D Samsung A11 5 ok
+
+==================================================
+Fecha de proceso: 2025-05-18 07:19:13
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Audifonos Bluetooth M60 2 ok
+   17 | Control Gamer Sony Ps3 Unicolor 2 ok
+   18 | Garantia Microfono Con Consola No Sirve P 2 ok
+   26 | Soporte Tripode Neepho 1 ok
+   30 | Cargador Pc Lenovo Mini 3.25 1 ok
+   31 | Control Tv Tv Box 2 ok
+   32 | Forro Pc 15 Pulgadas 2 ok
+   33 | Consola Game Stick 1 ok
+   34 | Parlante T&G Tg-294 2 ok
+   35 | Teclado Combo Gamer F92 1 ok
+   37 | Telefono Fijo Kxt-806 2 ok
+   38 | Parlante Barra V70 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-18 07:19:13
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Logica de Carga Samsung A11 1 ok
+   11 | Logica del Tecno Spark 10 Pro 1 ok
+   12 | Pacha Huawei Honor X6a 1 ok
+   13 | Pacha Huawei Y7a 1 ok
+   14 | Pacha Motorola Moto G14 / G54 1 ok
+   15 | Pacha Oppo A17 / A57 / A77 1 ok
+   16 | Pacha Samsung A02s / A03 / A03s / A04E 1 ok
+   18 | Pacha Samsung A23 / M23 1 ok
+   19 | Pacha Tecno Saprk Go 2022 / Pop 5 Lite 1 ok
+   20 | Pacha Xiaomi Redmi Note 11 / Note 12s 1 ok
+   22 | Pacha Xiaomi Redmi 9 1 ok
+   23 | Pacha Xiaomi Redmi Note 8 1 ok
+   24 | Visor Camara Tecno Pop 5 Lite 1 ok
+   25 | Logica de Carga Zte Blade V30 Vita 1 ok

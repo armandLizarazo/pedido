@@ -85,8 +85,8 @@
     Cable Belkin Tc 3
     Cable Belkin V8 3
     Cable Caterpillar Tc 0
-    Cable Caterpillar Usb Ligthning 3
-    Cable Caterpillar V8 4
+    Cable Caterpillar Usb Ligthning 2
+    Cable Caterpillar V8 2
     Cable Dp2Dp 1.8M 1
     Cable Dpp2Dpp 0
     Cable Harvic Tc 1
@@ -145,8 +145,8 @@
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 0
-    Cargador Belkin V8 4
+    Cargador Belkin Tc 2
+    Cargador Belkin V8 2
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
     Cargador Cabeza Tc & Usb 20W C15 0
@@ -216,7 +216,7 @@
     Control Gamer Sony Ps2 Inalambrico 0
     Control Gamer Sony Ps3 Camufladoverde 0
     Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer X3 2
+    Control Gamer X3 1
     Control Keyboard Tv 0
     Control Tv Smart Tv 0
     Control Tv Tv Box 0
@@ -426,7 +426,7 @@
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 1
     Forro Space Xiaomi Redmi Note 12S 3
-    Forro Space Xiaomi Redmi Note 13 4G 1
+    Forro Space Xiaomi Redmi Note 13 4G 0
     Forro Space Xiaomi Redmi Note 13 Pro 4G 0
     Forro Space Xiaomi Redmi Note 8 1
     Forro Space Xiaomi Redmi Note 8 Lila 1
@@ -567,7 +567,7 @@
     Parlante Tg S-8B Rojo 0
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
-    Patillera 3 En 1 2
+    Patillera 3 En 1 1
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
     Pilas Carbon Maxday Eco 0
@@ -604,7 +604,7 @@
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Hd-939 1
-    Reproductor Tdt Krono 2
+    Reproductor Tdt Krono 1
     Reproductor Tv Stick Magis 1
     Reproductor Tv Stick Watch Om 1
     Rollo Cinta Led Con Bluetooth 0
@@ -668,7 +668,7 @@
     Silicone Case Huawei Honor X7 Rosa 0
     Silicone Case Huawei Honor X7A Morado 0
     Silicone Case Huawei Honor X7B Azulrey 1
-    Silicone Case Huawei Honor X7B Negro 1
+    Silicone Case Huawei Honor X7b Negro 0
     Silicone Case Huawei Honor X7C 0
     Silicone Case Huawei Honor X8 Fucsia 0
     Silicone Case Huawei Honor X8 Morado 0
@@ -945,7 +945,7 @@
     Silicone Case Tecno Camon 20 Pro Fucsia 0
     Silicone Case Tecno Camon 30 4G Rojo 1
     Silicone Case Tecno Camon 30S Pro Azuloscuro 1
-    Silicone Case Tecno Camon 30S Pro Fucsia 1
+    Silicone Case Tecno Camon 30s Pro Fucsia 0
     Silicone Case Tecno Camon 30S Pro Morado 1
     Silicone Case Tecno Pova 4 Lila 1
     Silicone Case Tecno Pova 4 Rojo 1
@@ -1399,3 +1399,33 @@
     Vidrio Camara Blade A75 0
     Vidrio Camara Zte Blade A75 0
     Logica de Carga Tcl 0
+    Apuntador Diapositivas 0
+    Forro Lujo Ventana Apple Iphone 11 Negro 0
+    Forro Lujo Ventana Apple Iphone 12 Pro Max Azul 0
+    Forro Space Samsung A04s 0
+    Vidrio 5D Samsung A04s 0
+    Silicone Case Tecno Camon 30s Pro Amarillo 0
+    Silicone Case Tecno Camon 30s Pro Negro 0
+    Forro Space Xiaomi Redmi Note 14 4G 0
+    Forro Space Xiaomi Redmi Note 14 Pro Plus 0
+    Forro Space Xiaomi Redmi Note 14s 0
+    Bateria Samsung J7 0
+    Cable Royal V8 2M 0
+    Forro Lujo Ventana Apple Iphone 11 Morado 0
+    Forro Lujo Ventana Apple IPhone 12 Pro Morado 0
+    Forro Lujo Ventana Apple Iphone 12 Pro Negro 0
+    Forro Space Motorola Moto G23 0
+    Forro Space Motorola Moto G52 0
+    Forro Space Samsung A06 0
+    ÁPacha Xiaomi Redmi 9a / 9C / 10A 0
+    Bateria Samsung A53 0
+    Pacha Zte Blade A52 0
+    Reproductor Alexa Reloj 0
+    Silicone Case Tecno Camon 30s Pro Lila 0
+    Silicone Case Xiaomi Redmi Note 10 5G Lila 0
+    Vidrio Blindado Apple Iphone 15 Pro Max 0
+    Vidrio 5D Apple Iphone 15 Pro Max 0
+    Vidrio 5D Xiaomi Redmi A3 0
+    Vidrio 5D Xiaomi Redmi A1 / A2 0
+    Silicone Case Motorola Moto G22 Lila 0
+    Silicone Case Xiaomi Redmi Note 12 Pro Morado 0
