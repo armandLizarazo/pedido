@@ -3314,3 +3314,52 @@ Línea  | Contenido
    23 | Pacha Xiaomi Redmi Note 8 1 ok
    24 | Visor Camara Tecno Pop 5 Lite 1 ok
    25 | Logica de Carga Zte Blade V30 Vita 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-23 06:52:15
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  179 | Silicone Case Apple iPhone 8 Blanco 1 ok
+  184 | Silicone Case Xiaomi Redmi 10 Lila 1 ok
+  188 | Forro Space Samsung A04s 1 ok
+  189 | Forro Space Xiaomi Redmi Note 13 4G 1 ok
+  207 | Silicone Case Tecno Camon 30s Pro Lila 1 ok
+  208 | Silicone Case Xiaomi Redmi Note 10 5G Lila 1 ok
+  209 | Vidrio Blindado Apple Iphone 15 Pro Max 5 ok
+  210 | Vidrio 5D Apple Iphone 15 Pro Max 5 ok
+  214 | Silicone Case Xiaomi Redmi Note 12 Pro Morado 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-23 06:52:16
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Celular T72 1 ok
+   11 | Celular T76 1 ok
+   12 | Combo Remington Plancha - Cepillo 1 ok
+   18 | Parlante Tg-294 Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-23 06:52:16
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Pacha Lg K51S 1 ok
+    9 | Pacha Xiaomi Redmi Note 10 Pro 1 ok
+   10 | Pacha Samsung A21s 1 ok
+   11 | Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
+   12 | Bateria Samsung J7 1 ok
+   13 | Pacha Motorola Moto G22 / E32 1 ok
+   14 | Pacha Xiaomi Redmi 9a / 9C / 10A 1 ok
+   15 | Bateria Samsung A53 1 ok
+   16 | Pacha Zte Blade A52 2 ok

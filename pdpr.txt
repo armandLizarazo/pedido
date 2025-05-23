@@ -7,15 +7,11 @@
     Cable Hdmi 3M Eco 3
     Cable Usb Plug Ancho 3
     Cargador Pc Puntas Caja Blanca 2
-    Celular T72 1 ok
-    Celular T76 1 ok
-    Combo Remington Plancha - Cepillo 1 ok
     Conectores Rj45 10
     Control Gamer Gatillos G21 1
     Control Gamer Ps2 Inalambrico 1
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
-    Parlante Tg-294 Negro 1 ok
     Rollo Cinta Led Con Bluetooth 5
     Soporte Celular Escritorio 1533 2
     Soporte Monitor Mesa 1
@@ -28,3 +24,4 @@
     Reproductor Tdt Krono 3
     Rollo Cinta Led Sencilla 5
     Reproductor Alexa Reloj 1
+    Adaptador Hub Tc Usb x3 2

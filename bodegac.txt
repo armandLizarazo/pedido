@@ -367,7 +367,7 @@
     Forro Space Samsung A 20 / A30 0
     Forro Space Samsung A03S / A02S 1
     Forro Space Samsung A05 0
-    Forro Space Samsung A05S 1
+    Forro Space Samsung A05s 0
     Forro Space Samsung A05S Lila 1
     Forro Space Samsung A10S 0
     Forro Space Samsung A13 1
@@ -478,7 +478,7 @@
     Mini Calefactor Con Control 1
     Mini Plancha Azul 1
     Mini Plancha Cafe 1
-    Mouse Eco 2
+    Mouse Eco 1
     Mouse Eco Fc-143 2
     Mouse Gamer Eco A78 2
     Mouse Gamer G-930 0
@@ -1341,7 +1341,6 @@
     Adaptador Dpp2vga 0
     Vidrio 5d Xiaomi Redmi 14C 0
     Vidrio 5D Spark Go 2025 0
-    Vidrio 5D Tecno Spark Go 2025 0
     Pacha Samsung A12 / M12 0
     Logica de Carga Motorola Moto G5 0
     Silicone Case Apple Iphone 13 Pro Negro 0
@@ -1417,7 +1416,7 @@
     Forro Space Motorola Moto G23 0
     Forro Space Motorola Moto G52 0
     Forro Space Samsung A06 0
-    ÁPacha Xiaomi Redmi 9a / 9C / 10A 0
+    Pacha Xiaomi Redmi 9a / 9C / 10A 0
     Bateria Samsung A53 0
     Pacha Zte Blade A52 0
     Reproductor Alexa Reloj 0
@@ -1429,3 +1428,11 @@
     Vidrio 5D Xiaomi Redmi A1 / A2 0
     Silicone Case Motorola Moto G22 Lila 0
     Silicone Case Xiaomi Redmi Note 12 Pro Morado 0
+    Adaptador Hub Tc Usb x3 0
+    Vidrio 5D Tecno Spark Go 2025 0
+    Forro Space Oppo Realme C53 / Note 50 0
+    Forro Space Samsung A16 0
+    Forro Space Camon 20 Pro 0
+    Silicone Case Apple Iphone 15 Pro Rojo 0
+    Silicone Case Samsung S23 Ultra Morado 0
+    Simcard Wom 0
