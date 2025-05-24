@@ -3363,3 +3363,47 @@ Línea  | Contenido
    14 | Pacha Xiaomi Redmi 9a / 9C / 10A 1 ok
    15 | Bateria Samsung A53 1 ok
    16 | Pacha Zte Blade A52 2 ok
+
+==================================================
+Fecha de proceso: 2025-05-24 06:16:07
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  168 | Silicone Case Oppo Realme C53 Rojo 1 ok
+  175 | Forro Space Samsung A34 1 ok
+  176 | Forro Space Vivo Y30 / Y50 1 ok
+  179 | Silicone Case Huawei Honor X7a Rosa 1 ok
+  192 | Cable Royal Tc 2M 2 ok
+  193 | Cable Royal V8 2M 2 ok
+  194 | Cargador Apple 25W Tc Ligthning 1 ok
+  195 | Cable Caterpillar Tc 2 ok
+  196 | Cargador Belkin Tc 3 ok
+  199 | Forro Lujo Ventana Apple IPhone 12 Pro Morado 1 ok
+  200 | Forro Lujo Ventana Apple Iphone 12 Pro Negro 1 ok
+  201 | Forro Space Motorola Moto G23 1 ok
+  202 | Forro Space Samsung A06 1 ok
+  206 | Cable Samsung Ta a Tc Negro 2 ok
+  207 | Forro Space Oppo Realme C53 / Note 50 ok
+  208 | Forro Space Samsung A16 1 ok
+  209 | Forro Space Samsung A05s 1 ok
+  210 | Forro Space Camon 20 Pro 1 ok
+  211 | Silicone Case Apple Iphone 15 Pro Rojo 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-24 06:16:08
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   27 | Adaptador Hub Tc Usb x3 2 ok
+
+==================================================
+Fecha de proceso: 2025-05-24 06:16:10
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+

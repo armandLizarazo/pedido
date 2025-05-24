@@ -857,10 +857,10 @@
     Silicone Case Samsung A54 Negro 1
     Silicone Case Samsung A55 Amarillo 1
     Silicone Case Samsung A55 Cafe 0
-    Silicone Case Samsung A55 Negro 1
+    Silicone Case Samsung A55 Negro 0
     Silicone Case Samsung A55 Palorosa 0
     Silicone Case Samsung Galaxy Note 10 Plus Amarillo 1
-    Silicone Case Samsung Galaxy Note 10 Plus Lila 2
+    Silicone Case Samsung Galaxy Note 10 Plus Lila 1
     Silicone Case Samsung Galaxy Note 20 Ultra Amarillo 1
     Silicone Case Samsung Galaxy Note 20 Ultra Morado 1
     Silicone Case Samsung Galaxy Note 8 Azulclaro 1
@@ -1291,7 +1291,7 @@
     Vidrio Tortuga Tecno Spark 10 / 10C 0
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
     Vidrio Tortuga Xiaomi Redmi 13C 0
-    Vidrio Tortuga Xiaomi Redmi Note 11 10
+    Vidrio Tortuga Xiaomi Redmi Note 11 0
     Vidrio Tortuga Xiaomi Redmi Note 12 5
     Visor Camara Huawei Y9A 0
     Pacha Oppo A17 / 57 / A77 0
@@ -1436,3 +1436,13 @@
     Silicone Case Apple Iphone 15 Pro Rojo 0
     Silicone Case Samsung S23 Ultra Morado 0
     Simcard Wom 0
+    Pacha Motorola Moto One Fusion 0
+    Silicone Case Samsung Galaxy Note 10 Plus Rojo 0
+    Silicone Case Samsung Galaxy Note 10 Plus Negro 0
+    Silicone Case Xiaomi Mi 11T Verde 0
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 0
+    Tapa Xiaomi Mi 11T Azul 0
+    Tapa Motorola Moto One Fusion Azul 0
+    Tapa Xiaomi Redmi Note 13 Pro Plus Negro 0
+    Camara Principal Samsugn S20 Fe 0
+    Adaptador Hub Tc Usb x3 + Lan 0

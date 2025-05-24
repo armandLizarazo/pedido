@@ -165,18 +165,14 @@
     Cable Apple Usb Ligthning 2M 2
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Power Bank Aibimy 30000 Mah 1 
-    Silicone Case Oppo Realme C53 Rojo 1 ok
     Silicone Case Samsung A03 Core Lila 1
     Silicone Case Samsung A15 Lila 1
     Silicone Case Vivo Y33s Negro 1
     Forro Pin Samsung S24 Ultra 3
     Forro Antichoque Samsung S24 Ultra Caballero 5
     Adaptador Bluetooth Dongle Audio 2
-    Forro Space Samsung A34 1 ok
-    Forro Space Vivo Y30 / Y50 1 ok
     Manos Libres Batri B10 Negro 5
     Manos Libres Batri B10 Rosa 3
-    Silicone Case Huawei Honor X7a Rosa 1 ok
     Silicone Case Motorola Moto Edge 30 Negro 1
     Silicone Case Samsung A05 Negro 1
     Silicone Case Vivo Y20 / Y20s / Y11s Rojo 1
@@ -189,25 +185,15 @@
     bno Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro Plus 2
     Forro Space Xiaomi Redmi Note 14s 2
-    Cable Royal Tc 2M 2 ok
-    Cable Royal V8 2M 2 ok
-    Cargador Apple 25W Tc Ligthning 1 ok
-    Cable Caterpillar Tc 2 ok
-    Cargador Belkin Tc 3 ok
     Cargador Belkin V8 3
     Forro Lujo Ventana Apple Iphone 11 Morado 1
-    Forro Lujo Ventana Apple IPhone 12 Pro Morado 1 ok
-    Forro Lujo Ventana Apple Iphone 12 Pro Negro 1 ok
-    Forro Space Motorola Moto G23 1 ok
-    Forro Space Samsung A06 1 ok
     Vidrio 5D Xiaomi Redmi A3 5 
     Vidrio 5D Xiaomi Redmi A1 / A2 5
     Silicone Case Motorola Moto G22 Lila 1 
-    Cable Samsung Ta a Tc Negro 2 ok
-    Forro Space Oppo Realme C53 / Note 50 ok
-    Forro Space Samsung A16 1 ok
-    Forro Space Samsung A05s 1 ok
-    Forro Space Camon 20 Pro 1 ok
-    Silicone Case Apple Iphone 15 Pro Rojo 1 ok
     Silicone Case Samsung S23 Ultra Morado 1
     Simcard Wom 5
+    Silicone Case Samsung A55 Negro 1
+    Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
+    Silicone Case Samsung Galaxy Note 10 Plus Negro 1
+    Silicone Case Xiaomi Mi 11T Verde 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 1
