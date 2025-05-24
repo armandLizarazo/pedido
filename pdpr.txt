@@ -24,4 +24,4 @@
     Reproductor Tdt Krono 3
     Rollo Cinta Led Sencilla 5
     Reproductor Alexa Reloj 1
-    Adaptador Hub Tc Usb x3 2
+    Adaptador Hub Tc Usb x3 2 ok
