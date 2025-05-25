@@ -3,11 +3,13 @@
     Botones Huawei Mate 9 Lite 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Pacha Tecno Camon 18P 1
+    Pacha Tecno Camon 18P 1 ok
     Pacha Tecno Pop 7 / Hot 30 Play 1
-    Pacha Motorola Moto One Fusion 1
-    Tapa Xiaomi Mi 11T Azul 1
-    Tapa Motorola Moto One Fusion Azul 1
-    Tapa Xiaomi Redmi Note 13 Pro Plus Negro 1
-    Camara Principal Samsugn S20 Fe 1
-    Bateria Vivo Y30 / Y50 1
+    Pacha Motorola Moto One Fusion 1 ok
+    Tapa Xiaomi Mi 11T Azul 1 ok
+    Tapa Motorola Moto One Fusion Azul 1 ok
+    Tapa Xiaomi Redmi Note 13 Pro Plus Negro 1 ok
+    Camara Principal Samsugn S20 Fe 1 ok
+    Bateria Vivo Y30 / Y50 1 ok
+    Pacha Vivo Y11s / Y20 / Y20s 2 ok
+    Tapa Xiaomi Refmi Note 9 Pro / 9s Verdeoscuro 1 ok
