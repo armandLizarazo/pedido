@@ -1,7 +1,7 @@
     Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
-    Audifonos Bluetooth Pro 60 2
-    Audifonos Bluetooth W I12 Rosa 2
+    Audifonos Bluetooth Pro 60 1 ok
+    Audifonos Bluetooth W I12 Rosa 1 ok
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Xiaomi E7S Negro 1
@@ -55,21 +55,20 @@
     Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Motorola Moto G04 1
-    Forro Space Oppo A80 2
+    Forro Space Oppo A80  ok
     Forro Space Samsung A36 2
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Mini 2
-    Mouse Inalambrico Jertech Jr-1 Negro 1
-    Mouse Jertech Jr-1 Azul 1
+    Mouse Inalambrico Jertech Jr-1 Negro 1 ok
     Silicone Caae Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Apple Iphone 13 Morado 1
-    Silicone Case Honor 90 Lite Amarillo 1 
+    Silicone Case Huawei Honor 90 Lite Amarillo 1 
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
-    Silicone Case Huawei Oppo A17 Verdemilitar 1
+    Silicone Case Oppo A17 Verdemilitar 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
@@ -185,15 +184,15 @@
     bno Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro Plus 2
     Forro Space Xiaomi Redmi Note 14s 2
-    Cargador Belkin V8 3
+    Cargador Belkin Tc 5 ok
     Forro Lujo Ventana Apple Iphone 11 Morado 1
     Vidrio 5D Xiaomi Redmi A3 5 
-    Vidrio 5D Xiaomi Redmi A1 / A2 5
-    Silicone Case Motorola Moto G22 Lila 1 
+    Vidrio 5D Xiaomi Redmi A1 / A2 5 ok
+    Silicone Case Motorola Moto G22 Lila 1 ok
     Silicone Case Samsung S23 Ultra Morado 1
     Simcard Wom 5
-    Silicone Case Samsung A55 Negro 1
+    Silicone Case Samsung A55 Negro 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
-    Silicone Case Xiaomi Mi 11T Verde 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 1
+    Silicone Case Xiaomi Mi 11T Verde 1 
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 1 ok
