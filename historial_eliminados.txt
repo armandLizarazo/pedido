@@ -3407,3 +3407,45 @@ Fecha de proceso: 2025-05-24 06:16:10
 Archivo procesado: pdst.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-05-26 22:23:18
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos Bluetooth Pro 60 1 ok
+    4 | Audifonos Bluetooth W I12 Rosa 1 ok
+   58 | Forro Space Oppo A80  ok
+   64 | Mouse Inalambrico Jertech Jr-1 Negro 1 ok
+  187 | Cargador Belkin Tc 5 ok
+  190 | Vidrio 5D Xiaomi Redmi A1 / A2 5 ok
+  191 | Silicone Case Motorola Moto G22 Lila 1 ok
+  194 | Silicone Case Samsung A55 Negro 1 ok
+  198 | Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-26 22:23:18
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-05-26 22:23:18
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Pacha Tecno Camon 18P 1 ok
+    8 | Pacha Motorola Moto One Fusion 1 ok
+    9 | Tapa Xiaomi Mi 11T Azul 1 ok
+   10 | Tapa Motorola Moto One Fusion Azul 1 ok
+   11 | Tapa Xiaomi Redmi Note 13 Pro Plus Negro 1 ok
+   12 | Camara Principal Samsugn S20 Fe 1 ok
+   13 | Bateria Vivo Y30 / Y50 1 ok
+   14 | Pacha Vivo Y11s / Y20 / Y20s 2 ok
+   15 | Tapa Xiaomi Refmi Note 9 Pro / 9s Verdeoscuro 1 ok

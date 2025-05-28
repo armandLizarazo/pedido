@@ -1,14 +1,17 @@
+    Adaptador Bluetooth Dongle Audio 2
     Audifonos Bluetooth Harvic Bt-543 Blanco 1 
     Audifonos Bluetooth Harvic Bt-543 Negro 1
-    Audifonos Bluetooth Pro 60 1 ok
-    Audifonos Bluetooth W I12 Rosa 1 ok
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Xiaomi E7S Negro 1
     Audifonos Bluetooth Xiaomi E7S Rosa 1
-    Audífonos Bluetooth Orejas 1
+    Audifonos Bluetooth Orejas 1
     Balacas Onikuma 2
-    Fooro Antichoque Oppo A60 Caballero 5
+    Forro Space Xiaomi Redmi Note 14 4G 2
+    Cable Apple Usb Ligthning 2M 2
+    Cable Motorola Tc A Tc 3
+    Control Gamer Microsoft Xbox 360 Inalambrico 1
+    Forro Antichoque Oppo A60 Caballero 5
     Forro Antichoque Huawei Honor X5B Caballero 5
     Forro Antichoque Huawei Honor X5B Dama 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -19,11 +22,13 @@
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A60 Dama 5
+    Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C63 Caballero 5
     Forro Antichoque Oppo Realme C63 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A32 Dama 3
     Forro Antichoque Samsung A36 Caballero 5
+    Forro Antichoque Samsung S24 Ultra Caballero 5
     Forro Antichoque Tecno Camon 30S Pro Caballero 5
     Forro Antichoque Tecno Camon 30S Pro Dama 5
     Forro Antichoque Tecno Spark 30 Caballero 5
@@ -32,8 +37,9 @@
     Forro Antichoque Vivo Y19S Caballero 5
     Forro Antichoque Vivo Y19S Dama 5
     Forro Antichoque Vivo Y20S Caballero 3
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
     Forro Armadura A54 Negro 1
-    Forro Armadura Honor 1
     Forro Armadura K61 Rojo 1
     Forro Armadura Motorola Moto G24 Negro 1 
     Forro Armadura Oppo A57 Rojo 1
@@ -46,29 +52,38 @@
     Forro Armadura Samsung A15 Rojo 1
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung S23 Negro 1
+    Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Samsung S23 Rojo 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
     Forro Lujo Tecno Spark 30C Negro 1
+    Forro Lujo Ventana Apple Iphone 11 Morado 1
+    Forro Lujo Ventana Apple Iphone 11 Negro 1
     Forro Motorola Moto G50 1
+    Forro Pin Samsung S24 Ultra 3
     Forro Space Color Xiaomi Redmi Note 11 Negro 1
     Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Motorola Moto G04 1
-    Forro Space Oppo A80  ok
     Forro Space Samsung A36 2
+    Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
+    Forro Space Xiaomi Redmi Note 14 Pro Plus 2
+    Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Mini 2
-    Mouse Inalambrico Jertech Jr-1 Negro 1 ok
-    Silicone Caae Tecno Camon 30S Amarillo 1
+    Manos Libres Batri B10 Negro 5
+    Manos Libres Batri B10 Rosa 3
+    Power Bank Aibimy 30000 Mah 1 
+    Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Apple Iphone 13 Morado 1
+    Silicone Case Apple Iphone Xs Max Azulrey 1
+    Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 90 Lite Amarillo 1 
     Silicone Case Huawei Honor Magic 7 Lite Rosa 1
-    Silicone Case Oppo A17 Verdemilitar 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
@@ -85,43 +100,71 @@
     Silicone Case Infinix Hot 50 Pro Plus Rosa 1
     Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
+    Silicone Case Motorola Moto Edge 30 Negro 1
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
+    Silicone Case Oppo A17 Verdemilitar 1
+    Silicone Case Oppo A57 / A77 Negro 1
+    Silicone Case Oppo A80 Morado 1
+    Silicone Case Oppo Realme C11 2021 Fucsia 1
+    Silicone Case Oppo Realme C53 Lila 1
+    Silicone Case Oppo Realme C55 Negro 1
+    Silicone Case Samsung A03 Core Lila 1
     Silicone Case Samsung A03 Core Negro 1
+    Silicone Case Samsung A05 Negro 1
+    Silicone Case Samsung A15 Lila 1
+    Silicone Case Samsung A15 Rosa 1 
     Silicone Case Samsung A16 Amarillo 1 
     Silicone Case Samsung A16 Lila 1
     Silicone Case Samsung A16 Rojo 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A36 Fucsia 1
     Silicone Case Samsung A53 Rosa 1
+    Silicone Case Samsung Galaxy Note 10 Plus Negro 1
+    Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
     Silicone Case Samsung S22 Ultra Negro 1
+    Silicone Case Samsung S23 Ultra Morado 1
     Silicone Case Tecno Camon 30S Negro 1
+    Silicone Case Tecno Camon 30S Pro Amarillo 1
+    Silicone Case Tecno Camon 30S Pro Negro 1
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 1
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
-    Silicone Case Vivo V25 Pro Rojo
+    Silicone Case Vivo V25 Pro Rojo 1
+    Silicone Case Vivo Y15 / Y01 Amarillo 1
+    Silicone Case Vivo Y15 / Y01 Fucsia 1
+    Silicone Case Vivo Y20 / Y20S / Y11S Rojo 1
+    Silicone Case Vivo Y33S Negro 1
+    Silicone Case Vivo Y51 / Y53S Rojo 1 
+    Silicone Case Xiaomi Mi 11T Verde 1 
+    Silicone Case Xiaomi Redmi 14C Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
     Silicone Case Xiaomi Redmi Note 12 Fucsia 1 
+    Silicone Case Xiaomi Redmi Note 13 5G Lila 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1 
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
+    Simcard Wom 5
+    Smart Watch I525 Mini Rosa 1
     Smartphone Tecno Spark 30C 1
     Soporte Cel Metalico 1
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5 
     Vidrio 5D Huawei Y6P 5
     Vidrio 5D Oppo Reno 11F 5 
+    Vidrio 5D Samsung A04S 5
     Vidrio 5D Samsung A05S 5 
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
     Vidrio 5D Xiaomi Redmi 14 5 
+    Vidrio 5D Xiaomi Redmi A3 5 
     Vidrio 5D Xiaomi Redmi Note 12 5
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
@@ -131,6 +174,7 @@
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Apple Iphone Xs Max 5
+    Vidrio Camara Zte Blade A75 1
     Vidrio Ceramico Xiaomi Redmi 14C 5
     Vidrio Tortuga Apple Iphone 12 Mini 5
     Vidrio Tortuga Apple Iphone 13 Mini 5
@@ -142,57 +186,24 @@
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Tecno Spark 10 / 10C 5
-    Forro Space Samsung S22 1
-    Silicone Case Apple Iphone Xs Max Azulrey 1
-    Silicone Case Apple Iphone Xs Max Blanco 1
-    Silicone Case Oppo A57 / A77 Negro 1
-    Silicone Case Samsung A15 Rosa 1 
-    Silicone Case Vivo Y51 / Y53s Rojo 1 
-    Cable Motorola Tc A Tc 3
-    Control Gamer Microsoft Xbox 360 Inalambrico 1
-    Silicone Case Oppo Realme C53 Lila 1
-    Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
-    Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5
-    Silicone Case Oppo A80 Morado 1
-    Silicone Case Oppo Realme C55 Negro 1
-    Silicone Case Xiaomi Redmi Note 13 5G Lila 1
-    Silicone Case Oppo Realme C11 2021 Fucsia 1
-    Forro Antichoque Oppo Realme C11 2021 Dama 3
-    Silicone Case Vivo Y15 / Y01 Amarillo 1
-    Silicone Case Vivo Y15 / Y01 Fucsia 1
-    Silicone Case Xiaomi Redmi 14C Rojo 1
-    Cable Apple Usb Ligthning 2M 2
-    Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Power Bank Aibimy 30000 Mah 1 
-    Silicone Case Samsung A03 Core Lila 1
-    Silicone Case Samsung A15 Lila 1
-    Silicone Case Vivo Y33s Negro 1
-    Forro Pin Samsung S24 Ultra 3
-    Forro Antichoque Samsung S24 Ultra Caballero 5
-    Adaptador Bluetooth Dongle Audio 2
-    Manos Libres Batri B10 Negro 5
-    Manos Libres Batri B10 Rosa 3
-    Silicone Case Motorola Moto Edge 30 Negro 1
-    Silicone Case Samsung A05 Negro 1
-    Silicone Case Vivo Y20 / Y20s / Y11s Rojo 1
-    Smart Watch i525 Mini Rosa 1
-    Vidrio Camara Zte Blade A75 1
-    Forro Lujo Ventana Apple Iphone 11 Negro 1
-    Vidrio 5D Samsung A04s 5
-    Silicone Case Tecno Camon 30s Pro Amarillo 1
-    Silicone Case Tecno Camon 30s Pro Negro 1
-    bno Forro Space Xiaomi Redmi Note 14 4G 2
-    Forro Space Xiaomi Redmi Note 14 Pro Plus 2
-    Forro Space Xiaomi Redmi Note 14s 2
-    Cargador Belkin Tc 5 ok
-    Forro Lujo Ventana Apple Iphone 11 Morado 1
-    Vidrio 5D Xiaomi Redmi A3 5 
-    Vidrio 5D Xiaomi Redmi A1 / A2 5 ok
-    Silicone Case Motorola Moto G22 Lila 1 ok
-    Silicone Case Samsung S23 Ultra Morado 1
-    Simcard Wom 5
-    Silicone Case Samsung A55 Negro 1 ok
-    Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
-    Silicone Case Samsung Galaxy Note 10 Plus Negro 1
-    Silicone Case Xiaomi Mi 11T Verde 1 
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 1 ok
+    Forro Space Apple iPhone 13 Magsafe 1
+    Forro Space Xiaomi Redmi 13C 1
+    Silicone Case Apple Iphone 11 Blanco 1
+    Silicone Case Huawei Honor X8b Lila 1
+    Forro Lujo Ventana Iphone 12 Pro Max Negro 1
+    Silicone Case Motorola Moto G31 Rojo 1
+    Silicone Case Samsung A11 Morado 1
+    Silicone Case Tecno Camno 30s Pro Lila 1
+    Silicone Case Xiaomi Redmi 12C Amarillo 1
+    Silicone Case Xiaomi Redmi Note 8 Negro 1
+    Smart Watch Gw-20 Verdemilitar 1
+    Vidrio Antiespia Motorola Moto G20 / G30 5
+    Vidrio Tortuga Motorola Moto G20 / G30 5
+    Vidrio 5D Samsung A22 5
+    Vidrio 5D Xiaomi Redmi Note 8 5
+    Vidrio 5D Samsung A56 10
+    Control Gamer Microsoft Pc / 360 Cable 2
+    Silicone Case Samsung A56 Amarillo 1
+    Forro Space Infinix Hot 50 Pro 5G 1
+    Forro Lujo Ventana Apple Iphone 13 Negro 1
+    Forro Lujo Ventana Apple Iphone 13 Morado 1
