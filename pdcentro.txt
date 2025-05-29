@@ -189,14 +189,14 @@
     Forro Space Apple iPhone 13 Magsafe 2 ok
     Forro Space Xiaomi Redmi 13C 1 ok
     Silicone Case Apple Iphone 11 Blanco 1
-    Silicone Case Huawei Honor X8b Lila 1
+    Silicone Case Huawei Honor X8b Lila 1 ok
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Silicone Case Motorola Moto G31 Rojo 1 ok
     Silicone Case Samsung A11 Morado 1 ok
-    Silicone Case Tecno Camno 30s Pro Lila 1
+    Silicone Case Tecno Camon 30s Pro Lila 1 ok
     Silicone Case Xiaomi Redmi 12C Amarillo 1
     Silicone Case Xiaomi Redmi Note 8 Negro 1 ok
-    Smart Watch Gw-20 Verdemilitar 1
+    Smart Watch Gw-20 Verdemilitar 1 ok
     Vidrio Antiespia Motorola Moto G20 / G30 5 ok
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio 5D Samsung A22 5 ok
@@ -215,12 +215,12 @@
     Forro Antichoque Samsung A36 / A56 Dama 5 
     Silicone Case Apple Iphone 16 Pro Max Negro 1 ok
     Silicone Case Samsung A32 Morado 1 ok
-    Silicone Case Samsung A31 Morado 1
+    Silicone Case Samsung A31 Morado 1 ok
     Silicone Case Apple Iphone X / Xs Rosa 1 ok
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Silicone Case Huawei Honor Magic 6 Lite Fucsia 1
-    Silicone Case Huawei Y9 2019 Rojo 1
+    Silicone Case Huawei Y9 2019 Rojo 1 ok
     Silicone Case Motorola Moto G24 Verdemilitar 1 ok
     Silicone Case Tecno Camon 30 4G Fucsia 1 ok
     Silicone Case Xiaomi Redmi 10 Fucsia 1 ok
