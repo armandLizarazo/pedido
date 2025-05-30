@@ -7,7 +7,7 @@
     Audifonos Bluetooth Conductor 1092 1
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
-    Cable Hdmi 3M Eco 3
+    Cable Hdmi 3M Eco 3 ok
     Cable Usb Plug Ancho 3
     Cargador Pc Puntas Caja Blanca 2
     Conectores Rj45 10
@@ -18,19 +18,20 @@
     Reproductor Alexa Reloj 1
     Reproductor Tdt Krono 3
     Rollo Cinta Led Con Bluetooth 3
-    Rollo Cinta Led Sencilla 5
-    Soporte Celular Escritorio 1533 2
+    Soporte Celular Escritorio 1533 2 ok
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
     Teclado Seisa Dn-236 1
     Termo Motivacion 1
-    Control Gamer Microsoft Pc Tipo 360 2
-    Secador Remington 2003 1
-    Parlante Barra V70 1
-    Pilas Carbon Maxday Aaa 30
-    Proyector Joma Hy-300 con Juegos 1
-    Rollo Cinta Led Rgb Sencilla 5
-    Combo Remington Plancha + Cepillo Aguacate 2
-    Reproductor Reproductor Tv Stick Magis 1
-    Teclado Kb-502 Eco 1
+    Control Gamer Microsoft Pc Tipo 360 3
+    Secador Remington 2003 1 ok
+    Parlante Barra V70 1 ok
+    Pilas Carbon Maxday Aaa 30 ok
+    Proyector Joma Hy-300 con Juegos 1 ok
+    Rollo Cinta Led Rgb Sencilla 3
+    Combo Remington Plancha + Cepillo Aguacate 2 ok
+    Reproductor Reproductor Tv Stick Magis 1 ok
+    Teclado Kb-502 Eco 1 ok
+    Secador Remington 2025 1 ok
+    Consola Game Stick Verde 1 ok
