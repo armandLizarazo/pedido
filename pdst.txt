@@ -5,15 +5,15 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Pop 7 / Hot 30 Play 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
-    Pacha Xiaomi Redmi Note 7 1
-    Pacha Xiaomi Redmi A1 / A2 1
-    Pacha Xiaomi Redmi 12c 2
-    Pacha Xiaomi Redmi 10 1
-    Pacha Tecno Spark Go 2024 1
-    Pacha Motorola Moto G20 / G30 2
-    Pacha Samsung A21s 2
-    Pacha Samsung A02s / A03 / A03s / A04e 1
-    Pacha Huawei Honor X6 / X6s 1
-    Logica de Carga Xiaomi Redmi Note 9 2
-    Pacha Samsung A23 / M23 1
-    Pacha Zte Blade A34 / A54 2
+    Pacha Xiaomi Redmi Note 7 1 ok
+    Pacha Xiaomi Redmi A1 / A2 1 ok
+    Pacha Xiaomi Redmi 12c 2 ok
+    Pacha Xiaomi Redmi 10 1 ok
+    Pacha Tecno Spark Go 2024 1 ok
+    Pacha Motorola Moto G20 / G30 1 ok
+    Pacha Samsung A21s 2 ok
+    Pacha Samsung A02s / A03 / A03s / A04e 1 ok
+    Pacha Huawei Honor X6 / X6s 1 ok
+    Logica de Carga Xiaomi Redmi Note 9 2 ok
+    Pacha Samsung A23 / M23 1 ok
+    Pacha Zte Blade A34 / A54 2 ok
