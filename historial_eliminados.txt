@@ -3449,3 +3449,83 @@ Línea  | Contenido
    13 | Bateria Vivo Y30 / Y50 1 ok
    14 | Pacha Vivo Y11s / Y20 / Y20s 2 ok
    15 | Tapa Xiaomi Refmi Note 9 Pro / 9s Verdeoscuro 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-30 16:33:49
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 30
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   93 | Silicone Case Infinix Hot 50 Pro Plus Amarillo 1 ok
+   94 | Silicone Case Infinix Hot 50 Pro Plus Azuloscuro 1 ok
+   95 | Silicone Case Infinix Hot 50 Pro Plus Azulrey 1 ok
+   96 | Silicone Case Infinix Hot 50 Pro Plus Fucsia 1 ok
+   97 | Silicone Case Infinix Hot 50 Pro Plus Lila 1 ok
+   98 | Silicone Case Infinix Hot 50 Pro Plus Negro 1 ok
+   99 | Silicone Case Infinix Hot 50 Pro Plus Rojo 1 ok
+  100 | Silicone Case Infinix Hot 50 Pro Plus Rosa 1 ok
+  189 | Forro Space Apple iPhone 13 Magsafe 2 ok
+  190 | Forro Space Xiaomi Redmi 13C 1 ok
+  192 | Silicone Case Huawei Honor X8b Lila 1 ok
+  194 | Silicone Case Motorola Moto G31 Rojo 1 ok
+  195 | Silicone Case Samsung A11 Morado 1 ok
+  196 | Silicone Case Tecno Camon 30s Pro Lila 1 ok
+  198 | Silicone Case Xiaomi Redmi Note 8 Negro 1 ok
+  199 | Smart Watch Gw-20 Verdemilitar 1 ok
+  200 | Vidrio Antiespia Motorola Moto G20 / G30 5 ok
+  202 | Vidrio 5D Samsung A22 5 ok
+  203 | Vidrio 5D Xiaomi Redmi Note 8 5 ok
+  212 | Silicone Case Samsung A36 / A56 Fucsia 1 ok
+  213 | Silicone Case Samsung A36 / A56 Rosa 1 ok
+  214 | Silicone Case Samsugn A35 / A56 Lila 1 ok
+  216 | Silicone Case Apple Iphone 16 Pro Max Negro 1 ok
+  217 | Silicone Case Samsung A32 Morado 1 ok
+  218 | Silicone Case Samsung A31 Morado 1 ok
+  219 | Silicone Case Apple Iphone X / Xs Rosa 1 ok
+  223 | Silicone Case Huawei Y9 2019 Rojo 1 ok
+  224 | Silicone Case Motorola Moto G24 Verdemilitar 1 ok
+  225 | Silicone Case Tecno Camon 30 4G Fucsia 1 ok
+  226 | Silicone Case Xiaomi Redmi 10 Fucsia 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-30 16:33:49
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Cable Hdmi 3M Eco 3 ok
+   21 | Soporte Celular Escritorio 1533 2 ok
+   28 | Secador Remington 2003 1 ok
+   29 | Parlante Barra V70 1 ok
+   30 | Pilas Carbon Maxday Aaa 30 ok
+   31 | Proyector Joma Hy-300 con Juegos 1 ok
+   33 | Combo Remington Plancha + Cepillo Aguacate 2 ok
+   34 | Reproductor Reproductor Tv Stick Magis 1 ok
+   35 | Teclado Kb-502 Eco 1 ok
+   36 | Secador Remington 2025 1 ok
+   37 | Consola Game Stick Verde 1 ok
+
+==================================================
+Fecha de proceso: 2025-05-30 16:33:49
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Pacha Xiaomi Redmi Note 7 1 ok
+    9 | Pacha Xiaomi Redmi A1 / A2 1 ok
+   10 | Pacha Xiaomi Redmi 12c 2 ok
+   11 | Pacha Xiaomi Redmi 10 1 ok
+   12 | Pacha Tecno Spark Go 2024 1 ok
+   13 | Pacha Motorola Moto G20 / G30 1 ok
+   14 | Pacha Samsung A21s 2 ok
+   15 | Pacha Samsung A02s / A03 / A03s / A04e 1 ok
+   16 | Pacha Huawei Honor X6 / X6s 1 ok
+   17 | Logica de Carga Xiaomi Redmi Note 9 2 ok
+   18 | Pacha Samsung A23 / M23 1 ok
+   19 | Pacha Zte Blade A34 / A54 2 ok
