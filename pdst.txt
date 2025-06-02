@@ -5,8 +5,8 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tecno Pop 7 / Hot 30 Play 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
-    Tapa Oppo A57 Verde 1
-    Visor Camara Lg K51s 1
-    Pacha Oppo A17 / A57 / A77 1
-    Pacha Lg K51s 1
-    Pacha Xiaomi Redmi 13C 1
+    Tapa Oppo A57 Verde 1 ok
+    Visor Camara Lg K51s 1 ok
+    Pacha Oppo A17 / A57 / A77 1 ok
+    Pacha Lg K51s 1 ok
+    Pacha Xiaomi Redmi 13C 1 ok
