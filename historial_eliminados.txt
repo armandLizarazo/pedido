@@ -3529,3 +3529,50 @@ Línea  | Contenido
    17 | Logica de Carga Xiaomi Redmi Note 9 2 ok
    18 | Pacha Samsung A23 / M23 1 ok
    19 | Pacha Zte Blade A34 / A54 2 ok
+
+==================================================
+Fecha de proceso: 2025-06-02 15:50:56
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  193 | Forro Antichoque Samsung A36 / A56 Dama 5 ok
+  197 | Forro Space Xiaomi Redmi Note 14 2 ok
+  198 | Audifonos Bluetooth Harvic Bt-542 Ii Lila 1 ok
+  200 | Cable Apple Tc Ligthning 3 ok
+  201 | Cable Belkin V8 3 ok
+  204 | Manos Libres Samsung J5 Negro 5 ok
+  205 | Manos Libres Samsung J5 Blanco 5 ok
+  206 | Visor Camara Apple Iphone 11 20 ok
+  208 | Silicone Case Oppo Reno 11F Fucsia 1 ok
+  209 | Silicone Case Samsung A56 Fucsia 1 ok
+  211 | Cargador Belkin V8 2 ok
+
+==================================================
+Fecha de proceso: 2025-06-02 15:50:56
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   32 | Reproductor Onn 4k 1 ok
+   34 | Smart Watch Combo X8 1 ok
+   35 | Smart Watch Combo Ultra 2 1 ok
+   36 | Control Ps4 Blanco 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-02 15:50:56
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Tapa Oppo A57 Verde 1 ok
+    9 | Visor Camara Lg K51s 1 ok
+   10 | Pacha Oppo A17 / A57 / A77 1 ok
+   11 | Pacha Lg K51s 1 ok
+   12 | Pacha Xiaomi Redmi 13C 1 ok

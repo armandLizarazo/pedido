@@ -1,3 +1,20 @@
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Apuntador Diapositivas 1
@@ -29,8 +46,20 @@
     Control Gamer Ps4 Blanco 1
     Patillera 3 en 1 Vintage 2
     Memoria Musica Regueton 2
-    Reproductor Onn 4k 1 ok
-    Reproductor Tdt Krono Kr-365 2
-    Smart Watch Combo X8 1 ok
-    Smart Watch Combo Ultra 2 1 ok
-    Control Ps4 Blanco 1 ok
+    Reproductor Tdt Krono Kr-365 3
+    Balaca Gamer G-2600 Negro 1
+    Balaca Gamer G-2600 Amarillocamuflado 1
+    Cable Auxiliar 2 A 1 1.5M 3
+    Cable Auxiliar 3 a 1 1.5m 3
+    Cable Auxiliar 3 a 1 3m 3
+    Cargador Pc Asus 3.42 1
+    Celular Tg T72 1
+    Celular Tg T76 1
+    Control Gamer X3 3
+    Control Gamer Microsoft Pc / 360 Cable 1
+    Rollo Cinta Led Rgb 10M 2
+    Soporte Tv 50 Brazo 1
+    Soporte Tv 50 Brazo Thor 70kg 1
+    Memoria Musica El Heredero 1
+    Memoria Musica Crosover 1
+    Televisor Smart Tv Tg Android 32P 1

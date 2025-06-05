@@ -1,3 +1,40 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Bluetooth Dongle Audio 2
     Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Audifonos Bluetooth Harvic Bt-543 Negro 1
@@ -157,7 +194,7 @@
     Vidrio 5D Tecno Spark 30 Pro 5
     Vidrio 5D Xiaomi Redmi 14 5 
     Vidrio 5D Xiaomi Redmi A3 5 
-    Vidrio 5D Xiaomi Redmi Note 12 5
+    Vidrio 5D Xiaomi Redmi Note 12 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone Xs Max 5 
@@ -190,22 +227,47 @@
     Forro Lujo Ventana Apple Iphone 13 Morado 1
     Hola SSh 1
     Silicone Case Samsung A36 / A56 Amarillo 1
-    Forro Antichoque Samsung A36 / A56 Dama 5 ok
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Silicone Case Huawei Honor Magic 6 Lite Fucsia 1
-    Forro Space Xiaomi Redmi Note 14 2 ok
-    Audifonos Bluetooth Harvic Bt-542 Ii Lila 1 ok
     Balaca Apple Airpods Max Negro 1
-    Cable Apple Tc Ligthning 3 ok
-    Cable Belkin V8 3 ok
     Cargador Samsung 45W Cable Negro 2
     Cargador Samsung 45W Cable Blanco 2
-    Manos Libres Samsung J5 Negro 5 ok
-    Manos Libres Samsung J5 Blanco 5 ok
-    Visor Camara Apple Iphone 11 20 ok
     Silicone Case Oppo A57 Lila 1 
-    Silicone Case Oppo Reno 11F Fucsia 1 ok
-    Silicone Case Samsung A56 Fucsia 1 ok
     Silicone Case Zte Blade A54 Azul 1
-    Cargador Belkin V8 2 ok
+    Cable We Tc Eco 5
+    Cable V8 Eco 10
+    Silicone Case Oppo A59 Amarillo 1
+    Antena Tdt 5M 5
+    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
+    Audifonos Bluetooth Pro 60 3
+    Audifonos Bluetooth W I12 Blanco 2
+    Audifonos Bluetooth W I12 Negro 2
+    Balaca Apple P9 Negro 1
+    Cable Caterpillar Tc 5
+    Cable Caterpillar Usb Ligthning 3
+    Cable Auxiliar 1 a 1 Eco 3
+    Cable Auxiliar 1 a 1 Cordon 5
+    Cargador Apple 25W Tc Ligthning 2
+    Cargador Apple 5V Eco 3
+    Cargador Pc Asus 3.42 1
+    Cargador Samsung 25W Cabeza Blanco 2
+    Cargador We V8 2
+    Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1
+    Forro Space Samsung A55 1
+    Pilas Recargables Sony AA x2 1
+    Silicone Case Apple Iphone 8 Plus Rojo 1
+    Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
+    Silicone Case Motorola Moto G8 Power Lite Rojo 1
+    Silicone Case Motorola Moto G8 Power Lite Lila 1
+    Silicone Case Oppo A17 Rojo 1
+    Silicone Case Oppo A79 Amarillo 1
+    Silicone Case Vivo Y03 / Y18 Negro 1
+    Cable Belkin Ligthning 3
+    Cable Nokia 1100 5
+    Cargador Apple 25W Tc Cabeza 4
+    Cargador Digo V3 3
+    Silicone Case Samsung A20s 1
+    Silicone Case Samsung A20s Rojo 1
+    Silicone Case Samsung S20 Fe Negro 1
+    Silicone Case Tecno Camon 20 / 20 Pro Lila 1
