@@ -14,18 +14,18 @@
     Pacha Tecno Pop 7 / Hot 30 Play 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
     Caja de Timbres Motorola Moto G71 1
-    Pacha Huawei Y9 2019 / Y8s Full 1
-    Pacha Huawei Y9 Prime Full 1
-    Pacha A13 / M13 1
-    Pacha Samsung A21S 1
-    Pacha Tecno Spark Go 2024 / 20C 1
-    Pacha Xiaomi Redmi 10C 1
-    Bateria Samsung Galaxy S9 Plus 1
+    Pacha Huawei Y9 2019 / Y8s Full 1 ok
+    Pacha Huawei Y9 Prime Full 1 ok
+    Pacha A13 / M13 1 ok
+    Pacha Samsung A21S 1 ok
+    Pacha Tecno Spark Go 2024 / 20C 1 ok
+    Pacha Xiaomi Redmi 10C 1 ok
+    Bateria Samsung Galaxy S9 Plus 1 ok
     Pin de Carga Tc Tableta 2
-    Altavoz Motorola Moto G71 1
-    Caja de Timbres Motorola Moto G20 Original 1
+    Altavoz Motorola Moto G71 1 ok
+    Caja de Timbres Motorola Moto G20 Original 1 ok
     Tactil Tableta 10 Pulgadas 1
     Pacha Xiaomi Redmi 12 1
-    Pacha Xiaomi Redmi 12C 1
-    Pacha Xiaomi Redmi Note 9 1
-    Pin De Carga V8 Parlante 10
+    Pacha Xiaomi Redmi 12C 1 ok
+    Pacha Xiaomi Redmi Note 9 1 ok
+    Pin De Carga V8 Parlante 10 ok
