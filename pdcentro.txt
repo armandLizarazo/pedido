@@ -110,8 +110,8 @@
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Mini 2
-    Manos Libres Batri B10 Negro 5
-    Manos Libres Batri B10 Rosa 3
+    Manos Libres Batri B10 Negro 5 ok
+    Manos Libres Batri B10 Rosa 3 ok
     Power Bank Aibimy 30000 Mah 1 
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
@@ -229,7 +229,7 @@
     Silicone Case Samsung A36 / A56 Amarillo 1
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
-    Silicone Case Huawei Honor Magic 6 Lite Fucsia 1
+    Silicone Case Huawei Honor Magic 6 Lite Fucsia 1 
     Balaca Apple Airpods Max Negro 1
     Cargador Samsung 45W Cable Negro 2 ok
     Cargador Samsung 45W Cable Blanco 2 ok
