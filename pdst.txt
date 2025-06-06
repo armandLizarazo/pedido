@@ -29,3 +29,8 @@
     Pacha Xiaomi Redmi 12C 1 ok
     Pacha Xiaomi Redmi Note 9 1 ok
     Pin De Carga V8 Parlante 10 ok
+    Pacha Vivo Y11 / Y20 / Y20s 1
+    Pacha Samsung A23 / M23 1
+    Flex de Carga Xiaomi Redmi Note 10 / Note 10s 2
+    Silicone Case Samsung A31 Negro 1
+    Simcard Claro 10
