@@ -33,5 +33,10 @@
     Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
     Pacha Samsung A23 / M23 1 ok
     Flex de Carga Xiaomi Redmi Note 10 / Note 10s 2 ok
-    Silicone Case Samsung A31 Negro 1
+    Silicone Case Samsung A31 Negro 1 ok
     Simcard Claro 15 ok
+    Bateria Samsung S9 Plus 1
+    Pacha Oppo A17 / A38 / A57 / A77 3
+    Pacha Xiaomi Redmi 10C 1
+    Pacha Infinix Hot 30 Play Cambio 1
+    Pacha Xiaomi Redmi 9T C/m Cambio 1
