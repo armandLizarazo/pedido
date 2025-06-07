@@ -271,8 +271,8 @@
     Silicone Case Samsung A20s Rojo 1 ok
     Silicone Case Samsung S20 Fe Negro 1 ok
     Silicone Case Tecno Camon 20 / 20 Pro Lila 1 ok
-    Silicone Case Xiaomi Redmi Note 12 Fucsia 1
-    Silicone Case Xiaomi Redmi Note 12 Morado 1
-    Silicone Case Xiaomi Redmi Note 12 Lila 1
-    Antena Tdt 3m 3
-    Cable Usb Lightning Eco 5
+    Silicone Case Xiaomi Redmi Note 12 Fucsia 1 ok
+    Silicone Case Xiaomi Redmi Note 12 Morado 1 ok
+    Silicone Case Xiaomi Redmi Note 12 Lila 1 ok
+    Antena Tdt 3m 3 ok
+    Cable Usb Lightning Eco 5 ok
