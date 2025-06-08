@@ -40,26 +40,26 @@
     Teclado Seisa Dn-236 1
     Termo Motivacion 1
     Control Gamer Microsoft Pc Tipo 360 3
-    Rollo Cinta Led Rgb Sencilla 3
-    Audifonos Bluetooth M60 2
+    Rollo Cinta Led Rgb Sencilla 4 ok
+    Audifonos Bluetooth M60 3
     Control Gamer Gatillos Con Ventilador 2
-    Control Gamer Ps4 Blanco 1
-    Patillera 3 en 1 Vintage 2
+    Control Gamer Ps4 Blanco 1 ok
+    Patillera 3 en 1 Vintage 2 ok
     Memoria Musica Regueton 2
-    Reproductor Tdt Krono Kr-365 3
+    Reproductor Tdt Krono Kr-365 4 ok
     Balaca Gamer G-2600 Negro 1 ok
     Balaca Gamer G-2600 Amarillocamuflado 1 ok
     Cable Auxiliar 2 A 1 1.5M 3 ok
     Cable Auxiliar 3 a 1 1.5m 3 ok
     Cable Auxiliar 3 a 1 3m 3 ok
     Cargador Pc Asus 3.42 1 ok
-    Celular Tg T72 1
-    Celular Tg T76 1
-    Control Gamer X3 3
-    Control Gamer Microsoft Pc / 360 Cable 1
-    Rollo Cinta Led Rgb 10M 2
+    Celular Tg T72 1 ok
+    Celular Tg Iron 1 ok
+    Control Gamer X3 4 ok
+    Control Gamer Microsoft Pc / 360 Cable 1 ok
+    Rollo Cinta Led Rgb 10M 2 
     Soporte Tv 50 Brazo 1
-    Soporte Tv 50 Brazo Thor 70kg 1
-    Memoria Musica El Heredero 1
-    Memoria Musica Crosover 1
+    Soporte Tv 32 - 60 Brazo 1 ok
+    Memoria Musica El Heredero 2 ok
+    Memoria Musica Crosover 3 ok
     Televisor Smart Tv Tg Android 32P 1
