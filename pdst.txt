@@ -6,14 +6,12 @@
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
-    Caja de Timbres Motorola Moto G71 1
     Bateria Samsung S9 Plus Prestamo 1 
-    Pacha Hot Infinix Hot 30 Play Defectuosa Devolver 1
-    Pacha Tecno Soark 20 Pro Plus Prestamo 1
-    Pacha Infinix Hot 30 Play Cambio 1
-    Pacha Xiaomi Redmi 9T C/m Cambio 1
-    Pacha Huawei Y5 2018 1
-    Pacha Motorola Moto G22 / E32 1
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1
-    Pacha Oppo Realme C53 / Note 50 1
-    Caja de Timbres Xiaomi Redmi Note 13 4G 1
+    Pacha Hot Infinix Hot 30 Play Defectuosa Devolver 1 ok
+    Pacha Tecno Soark 20 Pro Plus Prestamo 1 ok
+    Pacha Infinix Hot 30 Play Cambio 1 ok
+    Pacha Xiaomi Redmi 9T C/m Cambio 1 ok
+    Pacha Huawei Y5 2018 1 ok
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    Pacha Oppo Realme C53 / Note 50 1 ok
+    Caja de Timbres Xiaomi Redmi Note 13 4G 1 ok
