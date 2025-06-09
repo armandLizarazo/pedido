@@ -3576,3 +3576,193 @@ Línea  | Contenido
    10 | Pacha Oppo A17 / A57 / A77 1 ok
    11 | Pacha Lg K51s 1 ok
    12 | Pacha Xiaomi Redmi 13C 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-09 05:58:09
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 36
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  113 | Manos Libres Batri B10 Negro 5 ok
+  114 | Manos Libres Batri B10 Rosa 3 ok
+  119 | Silicone Case Apple Iphone 13 Morado 1 ok
+  232 | Silicone Case Huawei Honor Magic 6 Lite Fucsia 1 ok
+  234 | Cargador Samsung 45W Cable Negro 2 ok
+  235 | Cargador Samsung 45W Cable Blanco 2 ok
+  238 | Cable We Tc Eco 5 ok
+  239 | Cable V8 Eco 10 ok
+  240 | Silicone Case Oppo A59 Amarillo 1 ok
+  241 | Antena Tdt 5M 5 ok
+  243 | Audifonos Bluetooth Pro 60 4 ok
+  244 | Audifonos Bluetooth W I12 Blanco 2 ok
+  245 | Audifonos Bluetooth W I12 Negro 2 ok
+  246 | Balaca Apple P9 Negro 1 ok
+  248 | Cable Caterpillar Usb Ligthning 2 ok
+  249 | Cable Auxiliar 1 a 1 Eco 3 ok
+  250 | Cable Auxiliar 1 a 1 Cordon 5 ok
+  252 | Cargador Apple 5V Eco 3 ok
+  254 | Cargador Samsung 25W Cabeza Blanco 2 ok
+  255 | Cargador We V8 2 ok
+  258 | Pilas Recargables Sony AA x2 1 ok
+  263 | Silicone Case Oppo A17 Rojo 1 ok
+  264 | Silicone Case Oppo A79 Amarillo 1 ok
+  265 | Silicone Case Vivo Y03 / Y18 Negro 1 ok
+  266 | Cable Belkin Ligthning 2 ok
+  268 | Cargador Apple 25W Tc Cabeza 4 ok
+  269 | Cargador Digo V3 3 ok
+  270 | Silicone Case Samsung A20s Negro 1 ok
+  271 | Silicone Case Samsung A20s Rojo 1 ok
+  272 | Silicone Case Samsung S20 Fe Negro 1 ok
+  273 | Silicone Case Tecno Camon 20 / 20 Pro Lila 1 ok
+  274 | Silicone Case Xiaomi Redmi Note 12 Fucsia 1 ok
+  275 | Silicone Case Xiaomi Redmi Note 12 Morado 1 ok
+  276 | Silicone Case Xiaomi Redmi Note 12 Lila 1 ok
+  277 | Antena Tdt 3m 3 ok
+  278 | Cable Usb Lightning Eco 5 ok
+
+==================================================
+Fecha de proceso: 2025-06-09 05:58:09
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   35 | Reproductor Tdt Krono 4 ok
+   43 | Rollo Cinta Led Rgb Sencilla 4 ok
+   46 | Control Gamer Ps4 Blanco 1 ok
+   47 | Patillera 3 en 1 Vintage 2 ok
+   49 | Reproductor Tdt Krono Kr-365 4 ok
+   50 | Balaca Gamer G-2600 Negro 1 ok
+   51 | Balaca Gamer G-2600 Amarillocamuflado 1 ok
+   52 | Cable Auxiliar 2 A 1 1.5M 3 ok
+   53 | Cable Auxiliar 3 a 1 1.5m 3 ok
+   54 | Cable Auxiliar 3 a 1 3m 3 ok
+   55 | Cargador Pc Asus 3.42 1 ok
+   56 | Celular Tg T72 1 ok
+   57 | Celular Tg Iron 1 ok
+   58 | Control Gamer X3 4 ok
+   59 | Control Gamer Microsoft Pc / 360 Cable 1 ok
+   62 | Soporte Tv 32 - 60 Brazo 1 ok
+   63 | Memoria Musica El Heredero 2 ok
+   64 | Memoria Musica Crosover 3 ok
+
+==================================================
+Fecha de proceso: 2025-06-09 05:58:09
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   14 | Pacha Huawei Y9 2019 / Y8s Full 1 ok
+   15 | Pacha Huawei Y9 Prime Full 1 ok
+   16 | Pacha A13 / M13 1 ok
+   17 | Pacha Samsung A21S 1 ok
+   18 | Pacha Tecno Spark Go 2024 / 20C 1 ok
+   19 | Pacha Xiaomi Redmi 10C 1 ok
+   20 | Bateria Samsung Galaxy S9 Plus 1 ok
+   21 | Altavoz Motorola Moto G71 1 ok
+   22 | Caja de Timbres Motorola Moto G20 Original 1 ok
+   23 | Pacha Xiaomi Redmi 12 1 ok
+   24 | Pacha Xiaomi Redmi 12C 1 ok
+   25 | Pacha Xiaomi Redmi Note 9 1 ok
+   26 | Pin De Carga V8 Parlante 10 ok
+   27 | Pacha Vivo Y11 / Y20 / Y20s 1 ok
+   28 | Pacha Xiaomi Redmi Note 10 / Note 10s 1 ok
+   29 | Pacha Samsung A23 / M23 1 ok
+   30 | Flex de Carga Xiaomi Redmi Note 10 / Note 10s 2 ok
+   34 | Pacha Oppo A17 / A38 / A57 / A77 3 ok
+   35 | Pacha Xiaomi Redmi 10C 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-09 06:02:23
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 37
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+   24 | # Pedido: pdcentro
+   25 | # Pedido: pdcentro
+   26 | # Pedido: pdcentro
+   27 | # Pedido: pdcentro
+   28 | # Pedido: pdcentro
+   29 | # Pedido: pdcentro
+   30 | # Pedido: pdcentro
+   31 | # Pedido: pdcentro
+   32 | # Pedido: pdcentro
+   33 | # Pedido: pdcentro
+   34 | # Pedido: pdcentro
+   35 | # Pedido: pdcentro
+   36 | # Pedido: pdcentro
+   37 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-06-09 06:02:23
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+    9 | # Pedido: pdpr
+   10 | # Pedido: pdpr
+   11 | # Pedido: pdpr
+   12 | # Pedido: pdpr
+   13 | # Pedido: pdpr
+   14 | # Pedido: pdpr
+   15 | # Pedido: pdpr
+   16 | # Pedido: pdpr
+   17 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-06-09 06:02:23
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst

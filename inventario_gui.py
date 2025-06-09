@@ -2,565 +2,403 @@ import os
 import sys
 import platform
 import re
+import csv
+from datetime import datetime, timedelta
 import tkinter as tk
 from tkinter import ttk, filedialog, messagebox, simpledialog
 
 # ==============================================================================
-# AQUÍ VA TU CÓDIGO ORIGINAL (CLASE GestorInventario)
-# He hecho algunos ajustes menores para que funcione mejor con la GUI
-# (principalmente, devolver datos en lugar de solo imprimir)
+# 1. CLASE GestorInventario
 # ==============================================================================
-
 class GestorInventario:
     def __init__(self, archivo_inventario=None):
         self.archivo_inventario = archivo_inventario or "bodegac.txt"
+        self.archivo_ventas = "registro_ventas.csv"
         self.crear_archivos_si_no_existen()
 
     def crear_archivos_si_no_existen(self):
         if not os.path.exists(self.archivo_inventario):
-            with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
-                pass
+            with open(self.archivo_inventario, 'w', encoding='utf-8') as f: pass
+        if not os.path.exists(self.archivo_ventas):
+            with open(self.archivo_ventas, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['Timestamp', 'Descripcion', 'Cantidad', 'CostoUnitario', 'PrecioUnitario', 'TotalVenta', 'Ganancia', 'ArchivoOrigen'])
+
+    def registrar_venta(self, linea_num, descripcion, stock_actual, cantidad_vendida, costo, precio_venta):
+        try:
+            cantidad_vendida_int = int(cantidad_vendida)
+            if cantidad_vendida_int <= 0: return False, "La cantidad debe ser positiva."
+            if cantidad_vendida_int > int(stock_actual): return False, "No hay stock suficiente."
+            
+            success, msg = self.modificar_cantidad(linea_num, -cantidad_vendida_int)
+            if not success: return False, f"Error al actualizar stock: {msg}"
+            
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            total_venta = cantidad_vendida_int * float(precio_venta)
+            ganancia = (float(precio_venta) - float(costo)) * cantidad_vendida_int
+            archivo_origen = os.path.basename(self.archivo_inventario)
+            venta_data = [timestamp, descripcion, cantidad_vendida, f"{float(costo):.2f}", f"{float(precio_venta):.2f}", f"{total_venta:.2f}", f"{ganancia:.2f}", archivo_origen]
+            
+            with open(self.archivo_ventas, 'a', encoding='utf-8', newline='') as f:
+                csv.writer(f).writerow(venta_data)
+            return True, "Venta registrada con éxito."
+        except ValueError: return False, "Cantidad, costo y precio deben ser números."
+        except Exception as e: return False, f"Error al registrar venta: {e}"
 
     def cambiar_archivo(self, nuevo_archivo):
         self.archivo_inventario = nuevo_archivo
         self.crear_archivos_si_no_existen()
-        return f"Archivo cambiado a: {self.archivo_inventario}"
+        return f"Archivo de inventario cambiado a: {self.archivo_inventario}"
 
     def leer_datos(self):
-        """Lee los datos del archivo y los devuelve como lista de tuplas."""
         try:
             with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
                 lineas = f.readlines()
-            
-            datos = []
-            errores = []
+            datos, errores = [], []
             for i, linea in enumerate(lineas, 1):
-                linea_strip = linea.strip()
-                partes = linea_strip.rsplit(' ', 1)
-                
+                partes = linea.strip().rsplit(' ', 1)
                 if len(partes) == 2:
                     descripcion, cantidad_str = partes
                     try:
-                        cantidad = int(cantidad_str)
-                        # Usamos la línea original para mantener espacios iniciales si los hay
-                        # pero para la GUI, a menudo es mejor tener datos limpios.
-                        # Aquí, extraemos la descripción limpia.
-                        descripcion_limpia = linea.strip().rsplit(' ', 1)[0].strip()
-                        datos.append((i, descripcion_limpia, cantidad))
+                        datos.append((i, descripcion.strip(), int(cantidad_str)))
                     except ValueError:
-                        errores.append(f"Línea {i}: Cantidad no es número ({linea_strip})")
-                elif linea_strip: # Ignorar líneas vacías pero reportar otras inválidas
-                    errores.append(f"Línea {i}: Formato incorrecto ({linea_strip})")
+                        errores.append(f"Línea {i}: Cantidad no es un número.")
+                elif linea.strip():
+                    errores.append(f"Línea {i}: Formato incorrecto.")
             return datos, errores
-        except FileNotFoundError:
-            return [], [f"Error: No se encontró el archivo {self.archivo_inventario}"]
-        except UnicodeDecodeError:
-            return [], [f"Error: No se pudo leer el archivo {self.archivo_inventario}. Problema de codificación."]
         except Exception as e:
-            return [], [f"Error inesperado al leer: {e}"]
+            return [], [f"Error al leer: {e}"]
 
     def agregar_linea(self, descripcion, cantidad):
         try:
-            cantidad_int = int(cantidad)
             with open(self.archivo_inventario, 'a', encoding='utf-8') as f:
-                # Mantenemos el formato de 4 espacios
-                f.write(f"    {descripcion} {cantidad_int}\n")
-            return True, "Línea agregada correctamente."
-        except ValueError:
-            return False, "Error: La cantidad debe ser un número válido."
-        except Exception as e:
-            return False, f"Error al agregar: {e}"
+                f.write(f"    {descripcion} {int(cantidad)}\n")
+            return True, "Ítem agregado."
+        except ValueError: return False, "Cantidad debe ser un número."
+        except Exception as e: return False, f"Error: {e}"
 
-    def modificar_linea(self, numero_linea, nueva_descripcion, nueva_cantidad):
+    def modificar_linea(self, num_linea, desc, cant):
         try:
-            nueva_cantidad_int = int(nueva_cantidad)
-            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
-                lineas = f.readlines()
+            lineas = self._leer_lineas_archivo()
+            if 1 <= num_linea <= len(lineas):
+                lineas[num_linea - 1] = f"    {desc} {int(cant)}\n"
+                self._escribir_lineas_archivo(lineas)
+                return True, "Ítem modificado."
+            return False, "Número de línea fuera de rango."
+        except ValueError: return False, "Cantidad debe ser un número."
+        except Exception as e: return False, f"Error: {e}"
 
-            if 1 <= numero_linea <= len(lineas):
-                lineas[numero_linea - 1] = f"    {nueva_descripcion} {nueva_cantidad_int}\n"
-                with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
-                    f.writelines(lineas)
-                return True, "Línea modificada correctamente."
-            else:
-                return False, "Error: Número de línea fuera de rango."
-        except ValueError:
-            return False, "Error: La cantidad debe ser un número válido."
-        except Exception as e:
-            return False, f"Error al modificar: {e}"
-
-    def modificar_cantidad(self, numero_linea, cambio_cantidad):
+    def modificar_cantidad(self, num_linea, cambio):
         try:
-            cambio_cantidad_int = int(cambio_cantidad)
-            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
-                lineas = f.readlines()
-
-            if 1 <= numero_linea <= len(lineas):
-                linea = lineas[numero_linea - 1].strip()
-                partes = linea.rsplit(' ', 1)
-                
+            lineas = self._leer_lineas_archivo()
+            if 1 <= num_linea <= len(lineas):
+                partes = lineas[num_linea - 1].strip().rsplit(' ', 1)
                 if len(partes) == 2:
-                    descripcion, cantidad_str = partes
-                    try:
-                        cantidad_actual = int(cantidad_str)
-                        nueva_cantidad = cantidad_actual + cambio_cantidad_int
-                        if nueva_cantidad < 0:
-                            return False, "Error: La cantidad no puede ser negativa."
-                        
-                        # Reconstruimos la descripción original (todo menos la cantidad)
-                        descripcion_original = linea.rsplit(' ', 1)[0]
-                        lineas[numero_linea - 1] = f"    {descripcion_original.strip()} {nueva_cantidad}\n"
-                        
-                        with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
-                            f.writelines(lineas)
-                        return True, "Cantidad modificada correctamente."
-                    except ValueError:
-                        return False, "Error: Cantidad inválida en el archivo."
-                else:
-                    return False, "Error: Formato de línea inválido."
-            else:
-                return False, "Error: Número de línea fuera de rango."
-        except ValueError:
-            return False, "Error: La cantidad debe ser un número válido."
-        except Exception as e:
-            return False, f"Error al modificar cantidad: {e}"
+                    desc, cant_str = partes
+                    nueva_cant = int(cant_str) + int(cambio)
+                    if nueva_cant < 0: return False, "Stock no puede ser negativo."
+                    lineas[num_linea - 1] = f"    {desc.strip()} {nueva_cant}\n"
+                    self._escribir_lineas_archivo(lineas)
+                    return True, "Stock actualizado."
+                return False, "Formato de línea inválido."
+            return False, "Número de línea fuera de rango."
+        except ValueError: return False, "Cantidad debe ser un número."
+        except Exception as e: return False, f"Error: {e}"
 
-    def eliminar_linea(self, numero_linea):
+    def eliminar_linea(self, num_linea):
         try:
-            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
-                lineas = f.readlines()
-            
-            if 1 <= numero_linea <= len(lineas):
-                linea_eliminada = lineas.pop(numero_linea - 1).strip()
-                with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
-                    f.writelines(lineas)
-                return True, f"Línea eliminada: {linea_eliminada}"
-            else:
-                return False, "Error: Número de línea fuera de rango."
-        except Exception as e:
-            return False, f"Error al eliminar: {e}"
-
-    def verificar_formato(self):
-        """Devuelve una lista de errores de formato."""
-        try:
-            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
-                lineas = f.readlines()
-            
-            lineas_invalidas = []
-            for i, linea in enumerate(lineas, 1):
-                linea_original = linea.rstrip('\n').rstrip('\r') # Guardar original sin salto
-                
-                # Ignorar líneas completamente vacías
-                if not linea.strip():
-                    continue
-
-                if not linea.startswith("    "):
-                    lineas_invalidas.append(f"Línea {i}: No empieza con 4 espacios -> '{linea_original}'")
-                
-                partes = linea.strip().rsplit(' ', 1)
-                if len(partes) != 2:
-                     lineas_invalidas.append(f"Línea {i}: Formato incorrecto (espacio + número al final) -> '{linea_original}'")
-                elif not partes[1].isdigit():
-                     lineas_invalidas.append(f"Línea {i}: No termina con un número -> '{linea_original}'")
-
-            return lineas_invalidas
-        except Exception as e:
-            return [f"Error al verificar formato: {e}"]
+            lineas = self._leer_lineas_archivo()
+            if 1 <= num_linea <= len(lineas):
+                linea_eliminada = lineas.pop(num_linea - 1)
+                self._escribir_lineas_archivo(lineas)
+                return True, f"Eliminado: {linea_eliminada.strip()}"
+            return False, "Número de línea fuera de rango."
+        except Exception as e: return False, f"Error: {e}"
 
     def ordenar_alfabeticamente(self):
-        """Ordena alfabéticamente las líneas del archivo."""
         try:
-            with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
-                lineas = f.readlines()
-            
-            if not lineas:
-                return True, "El archivo está vacío, no hay nada que ordenar."
+            lineas = self._leer_lineas_archivo()
+            lineas.sort(key=str.lower)
+            self._escribir_lineas_archivo(lineas)
+            return True, "Inventario ordenado alfabéticamente."
+        except Exception as e: return False, f"Error al ordenar: {e}"
 
-            # Separar líneas válidas e inválidas para ordenar solo las válidas
-            validas = []
-            invalidas = []
-            for linea in lineas:
-                if linea.strip().rsplit(' ', 1)[-1].isdigit() and linea.startswith("    "):
-                     validas.append(linea)
-                else:
-                     invalidas.append(linea)
+    def verificar_formato(self):
+        errores = []
+        for i, linea in enumerate(self._leer_lineas_archivo(), 1):
+            if not linea.strip(): continue
+            partes = linea.strip().rsplit(' ', 1)
+            if len(partes) != 2 or not partes[1].isdigit():
+                errores.append(f"Línea {i}: '{linea.strip()}'")
+        return errores
 
-            validas.sort(key=lambda linea: linea.strip().lower())
-            
-            with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
-                f.writelines(validas + invalidas) # Poner inválidas al final
-            
-            return True, "Archivo ordenado alfabéticamente (líneas inválidas movidas al final)."
+    def leer_historial_ventas(self):
+        try:
+            with open(self.archivo_ventas, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                next(reader, None)
+                return list(reader)
         except Exception as e:
-            return False, f"Error al ordenar: {e}"
+            messagebox.showerror("Error", f"No se pudo leer historial de ventas: {e}")
+            return []
+            
+    def _leer_lineas_archivo(self):
+        with open(self.archivo_inventario, 'r', encoding='utf-8') as f:
+            return f.readlines()
+            
+    def _escribir_lineas_archivo(self, lineas):
+        with open(self.archivo_inventario, 'w', encoding='utf-8') as f:
+            f.writelines(lineas)
 
 # ==============================================================================
-# AQUÍ COMIENZA EL CÓDIGO DE LA INTERFAZ GRÁFICA (GUI)
+# 2. CLASE InventarioGUI
 # ==============================================================================
-
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario Profesional")
-        master.geometry("800x600")
-
-        # Configurar estilo ttk para un look más moderno
-        self.style = ttk.Style()
-        self.style.theme_use("clam") # Puedes probar 'alt', 'default', 'classic', 'clam'
-
-        # Inicializar el gestor de inventario
+        master.title("Gestor de Inventario y Ventas v1.2")
+        master.geometry("1100x700")
+        self.style = ttk.Style(); self.style.theme_use("clam")
         self.gestor = GestorInventario()
+        self.notebook = ttk.Notebook(master)
+        self.notebook.pack(pady=10, padx=10, fill="both", expand=True)
+        self.inventario_tab = ttk.Frame(self.notebook, padding="10")
+        self.ventas_tab = ttk.Frame(self.notebook, padding="10")
+        self.notebook.add(self.inventario_tab, text='Gestión de Inventario')
+        self.notebook.add(self.ventas_tab, text='Ventas y Análisis')
+        self.crear_widgets_inventario()
+        self.crear_widgets_ventas()
+        self.populate_inventory_treeview()
+        self.populate_sales_treeview()
+        self.add_placeholder(None)
 
-        # --- Frames ---
-        self.top_frame = ttk.Frame(master, padding="10")
-        self.top_frame.pack(side=tk.TOP, fill=tk.X)
+    def crear_widgets_inventario(self):
+        top_frame = ttk.Frame(self.inventario_tab); top_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
+        filter_frame = ttk.Frame(self.inventario_tab); filter_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
+        tree_frame = ttk.Frame(self.inventario_tab); tree_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
+        action_frame = ttk.Frame(self.inventario_tab); action_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=10)
+        self.lbl_archivo = ttk.Label(top_frame, text=f"Archivo: {self.gestor.archivo_inventario}"); self.lbl_archivo.pack(side=tk.LEFT, padx=5)
+        ttk.Button(top_frame, text="Cambiar Archivo", command=self.cambiar_archivo).pack(side=tk.LEFT, padx=5)
+        self.status_label_inv = ttk.Label(top_frame, text="Listo.", anchor=tk.E); self.status_label_inv.pack(side=tk.RIGHT, padx=5)
+        ttk.Label(filter_frame, text="Filtrar por palabra clave:").pack(side=tk.LEFT, padx=5)
+        self.filtro_palabra_entry = ttk.Entry(filter_frame, width=20); self.filtro_palabra_entry.pack(side=tk.LEFT, padx=5)
+        self.filtro_palabra_entry.bind("<FocusIn>", self.clear_placeholder); self.filtro_palabra_entry.bind("<FocusOut>", self.add_placeholder)
+        ttk.Label(filter_frame, text="y por cantidad:").pack(side=tk.LEFT, padx=5)
+        self.filtro_op_combo = ttk.Combobox(filter_frame, values=["", ">", "<", "="], width=3, state="readonly"); self.filtro_op_combo.pack(side=tk.LEFT, padx=5)
+        self.filtro_cant_entry = ttk.Entry(filter_frame, width=10); self.filtro_cant_entry.pack(side=tk.LEFT, padx=5)
+        ttk.Button(filter_frame, text="Aplicar Filtro / Refrescar", command=self.populate_inventory_treeview).pack(side=tk.LEFT, padx=10)
+        ttk.Button(filter_frame, text="Limpiar", command=self.limpiar_filtros).pack(side=tk.LEFT, padx=5)
+        self.inventory_tree = ttk.Treeview(tree_frame, columns=("Linea", "Item", "Cantidad"), show="headings")
+        self.inventory_tree.heading("Linea", text="Línea"); self.inventory_tree.heading("Item", text="Item"); self.inventory_tree.heading("Cantidad", text="Cantidad en Stock")
+        self.inventory_tree.column("Linea", width=60, anchor=tk.CENTER); self.inventory_tree.column("Item", width=500); self.inventory_tree.column("Cantidad", width=120, anchor=tk.CENTER)
+        scrollbar = ttk.Scrollbar(tree_frame, orient=tk.VERTICAL, command=self.inventory_tree.yview)
+        self.inventory_tree.configure(yscrollcommand=scrollbar.set); self.inventory_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True); scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        stock_group = ttk.LabelFrame(action_frame, text="Stock"); stock_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
+        ttk.Button(stock_group, text="Sumar Unidades (+)", command=lambda: self.ajustar_cantidad(True)).pack(pady=2, padx=5)
+        ttk.Button(stock_group, text="Restar Unidades (-)", command=lambda: self.ajustar_cantidad(False)).pack(pady=2, padx=5)
+        item_group = ttk.LabelFrame(action_frame, text="Ítems"); item_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
+        ttk.Button(item_group, text="Agregar Nuevo", command=self.agregar_item).pack(pady=2, padx=5)
+        ttk.Button(item_group, text="Modificar Seleccionado", command=self.modificar_item).pack(pady=2, padx=5)
+        ttk.Button(item_group, text="Eliminar Seleccionado", command=self.eliminar_item).pack(pady=2, padx=5)
+        tools_group = ttk.LabelFrame(action_frame, text="Herramientas"); tools_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
+        ttk.Button(tools_group, text="Ordenar Alfabéticamente", command=self.ordenar_inventario).pack(pady=2, padx=5)
+        ttk.Button(tools_group, text="Verificar Formato", command=self.verificar_formato).pack(pady=2, padx=5)
+        style_vender = ttk.Style(); style_vender.configure("Vender.TButton", foreground="white", background="navy", font=('Helvetica', 10, 'bold'))
+        ttk.Button(action_frame, text="VENDER ITEM", command=self.iniciar_venta, style="Vender.TButton").pack(side=tk.RIGHT, padx=20, ipady=10, fill=tk.Y)
 
-        self.filter_frame = ttk.Frame(master, padding="10")
-        self.filter_frame.pack(side=tk.TOP, fill=tk.X)
+    def crear_widgets_ventas(self):
+        filter_frame = ttk.LabelFrame(self.ventas_tab, text="Filtros de Búsqueda", padding="10"); filter_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
+        analisis_frame = ttk.LabelFrame(self.ventas_tab, text="Totales de la Vista Actual", padding="10"); analisis_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
+        historial_frame = ttk.Frame(self.ventas_tab); historial_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
+        ttk.Label(filter_frame, text="Desde (YYYY-MM-DD):").grid(row=0, column=0, padx=5, pady=5)
+        self.filtro_fecha_desde = ttk.Entry(filter_frame); self.filtro_fecha_desde.grid(row=0, column=1, padx=5, pady=5)
+        ttk.Label(filter_frame, text="Hasta (YYYY-MM-DD):").grid(row=0, column=2, padx=5, pady=5)
+        self.filtro_fecha_hasta = ttk.Entry(filter_frame); self.filtro_fecha_hasta.grid(row=0, column=3, padx=5, pady=5)
+        ttk.Label(filter_frame, text="Descripción del Ítem:").grid(row=0, column=4, padx=5, pady=5)
+        self.filtro_desc_venta = ttk.Entry(filter_frame, width=30); self.filtro_desc_venta.grid(row=0, column=5, padx=5, pady=5)
+        btn_filtrar = ttk.Button(filter_frame, text="Filtrar Ventas", command=self.populate_sales_treeview); btn_filtrar.grid(row=0, column=6, padx=10, pady=5)
+        btn_limpiar = ttk.Button(filter_frame, text="Mostrar Todo", command=self.limpiar_filtros_ventas); btn_limpiar.grid(row=0, column=7, padx=5, pady=5)
+        self.lbl_total_ventas = ttk.Label(analisis_frame, text="Total Ventas: $0.00", font=("Helvetica", 10, "bold")); self.lbl_total_ventas.pack(side=tk.LEFT, padx=20)
+        self.lbl_total_ganancia = ttk.Label(analisis_frame, text="Ganancia Total: $0.00", font=("Helvetica", 10, "bold")); self.lbl_total_ganancia.pack(side=tk.LEFT, padx=20)
+        columnas = ("Timestamp", "Item", "Cantidad", "CostoU", "PrecioU", "Total", "Ganancia", "ArchivoOrigen")
+        self.sales_tree = ttk.Treeview(historial_frame, columns=columnas, show="headings")
+        self.sales_tree.heading("Timestamp", text="Fecha y Hora"); self.sales_tree.heading("Item", text="Item Vendido"); self.sales_tree.heading("Cantidad", text="Cant."); self.sales_tree.heading("CostoU", text="Costo Unit."); self.sales_tree.heading("PrecioU", text="Precio Unit."); self.sales_tree.heading("Total", text="Total Venta"); self.sales_tree.heading("Ganancia", text="Ganancia"); self.sales_tree.heading("ArchivoOrigen", text="Origen")
+        for col in columnas: self.sales_tree.column(col, anchor=tk.W, width=100)
+        self.sales_tree.column("Cantidad", anchor=tk.CENTER, width=60); self.sales_tree.column("Timestamp", width=140); self.sales_tree.column("Item", width=250); self.sales_tree.column("ArchivoOrigen", width=120, anchor=tk.CENTER)
+        scrollbar_s = ttk.Scrollbar(historial_frame, orient=tk.VERTICAL, command=self.sales_tree.yview)
+        self.sales_tree.configure(yscrollcommand=scrollbar_s.set); self.sales_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True); scrollbar_s.pack(side=tk.RIGHT, fill=tk.Y)
 
-        self.tree_frame = ttk.Frame(master, padding="10")
-        self.tree_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-
-        self.action_frame = ttk.Frame(master, padding="10")
-        self.action_frame.pack(side=tk.LEFT, fill=tk.Y, padx=10)
-
-        self.status_frame = ttk.Frame(master, padding="5", relief="sunken")
-        self.status_frame.pack(side=tk.BOTTOM, fill=tk.X)
-
-        # --- Top Frame (Archivo) ---
-        self.lbl_archivo = ttk.Label(self.top_frame, text=f"Archivo: {self.gestor.archivo_inventario}")
-        self.lbl_archivo.pack(side=tk.LEFT, padx=5)
-        self.btn_cambiar_archivo = ttk.Button(self.top_frame, text="Cambiar Archivo", command=self.cambiar_archivo)
-        self.btn_cambiar_archivo.pack(side=tk.LEFT, padx=5)
-
-        # --- Filter Frame ---
-        ttk.Label(self.filter_frame, text="Filtrar:").pack(side=tk.LEFT, padx=5)
-        self.filtro_palabra_entry = ttk.Entry(self.filter_frame, width=20)
-        self.filtro_palabra_entry.pack(side=tk.LEFT, padx=5)
-        self.filtro_palabra_entry.insert(0, "Palabra clave...")
-        self.filtro_palabra_entry.bind("<FocusIn>", self.clear_placeholder)
-        self.filtro_palabra_entry.bind("<FocusOut>", self.add_placeholder)
-
-        self.filtro_op_combo = ttk.Combobox(self.filter_frame, values=["", ">", "<", "="], width=3, state="readonly")
-        self.filtro_op_combo.pack(side=tk.LEFT, padx=5)
-        self.filtro_op_combo.set("")
-
-        self.filtro_cant_entry = ttk.Entry(self.filter_frame, width=10)
-        self.filtro_cant_entry.pack(side=tk.LEFT, padx=5)
-        
-        self.btn_filtrar = ttk.Button(self.filter_frame, text="Aplicar Filtro / Refrescar", command=self.populate_treeview)
-        self.btn_filtrar.pack(side=tk.LEFT, padx=10)
-        
-        self.btn_limpiar_filtro = ttk.Button(self.filter_frame, text="Limpiar", command=self.limpiar_filtros)
-        self.btn_limpiar_filtro.pack(side=tk.LEFT, padx=5)
-
-        # --- Treeview Frame (Tabla de Inventario) ---
-        self.tree = ttk.Treeview(self.tree_frame, columns=("Linea", "Item", "Cantidad"), show="headings")
-        self.tree.heading("Linea", text="Línea")
-        self.tree.heading("Item", text="Item")
-        self.tree.heading("Cantidad", text="Cantidad")
-
-        self.tree.column("Linea", width=50, anchor=tk.CENTER)
-        self.tree.column("Item", width=400)
-        self.tree.column("Cantidad", width=100, anchor=tk.E)
-
-        self.scrollbar = ttk.Scrollbar(self.tree_frame, orient=tk.VERTICAL, command=self.tree.yview)
-        self.tree.configure(yscrollcommand=self.scrollbar.set)
-
-        self.tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        self.scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-
-        # --- Action Frame (Botones) ---
-        btn_width = 25
-        self.btn_agregar = ttk.Button(self.action_frame, text="Agregar Item", command=self.agregar_item, width=btn_width)
-        self.btn_agregar.pack(pady=5, fill=tk.X)
-
-        self.btn_modificar = ttk.Button(self.action_frame, text="Modificar Item Seleccionado", command=self.modificar_item, width=btn_width)
-        self.btn_modificar.pack(pady=5, fill=tk.X)
-
-        self.btn_sumar = ttk.Button(self.action_frame, text="Sumar Unidades (+)", command=lambda: self.ajustar_cantidad(True), width=btn_width)
-        self.btn_sumar.pack(pady=5, fill=tk.X)
-
-        self.btn_restar = ttk.Button(self.action_frame, text="Restar Unidades (-)", command=lambda: self.ajustar_cantidad(False), width=btn_width)
-        self.btn_restar.pack(pady=5, fill=tk.X)
-        
-        self.btn_eliminar = ttk.Button(self.action_frame, text="Eliminar Item Seleccionado", command=self.eliminar_item, width=btn_width)
-        self.btn_eliminar.pack(pady=5, fill=tk.X)
-
-        self.btn_ordenar = ttk.Button(self.action_frame, text="Ordenar Alfabéticamente", command=self.ordenar_inventario, width=btn_width)
-        self.btn_ordenar.pack(pady=15, fill=tk.X)
-
-        self.btn_verificar = ttk.Button(self.action_frame, text="Verificar Formato", command=self.verificar_formato, width=btn_width)
-        self.btn_verificar.pack(pady=5, fill=tk.X)
-        
-        self.btn_salir = ttk.Button(self.action_frame, text="Salir", command=master.quit, width=btn_width)
-        self.btn_salir.pack(side=tk.BOTTOM, pady=20)
-
-
-        # --- Status Bar ---
-        self.status_label = ttk.Label(self.status_frame, text="Listo.", anchor=tk.W)
-        self.status_label.pack(fill=tk.X)
-
-        # --- Carga Inicial ---
-        self.populate_treeview()
-
-    # --- Funciones de Placeholder para Entry ---
-    def clear_placeholder(self, event):
-        if self.filtro_palabra_entry.get() == "Palabra clave...":
-            self.filtro_palabra_entry.delete(0, tk.END)
-            self.filtro_palabra_entry.config(foreground='black')
-
-    def add_placeholder(self, event):
-        if not self.filtro_palabra_entry.get():
-            self.filtro_palabra_entry.insert(0, "Palabra clave...")
-            self.filtro_palabra_entry.config(foreground='grey')
-
-    # --- Funciones de la GUI ---
-    def update_status(self, message):
-        self.status_label.config(text=message)
-
-    def populate_treeview(self):
-        # Limpiar Treeview
-        for i in self.tree.get_children():
-            self.tree.delete(i)
-
-        # Leer datos
+    def populate_inventory_treeview(self):
+        for i in self.inventory_tree.get_children(): self.inventory_tree.delete(i)
         datos, errores = self.gestor.leer_datos()
-
-        if errores:
-            messagebox.showwarning("Errores al Leer", "\n".join(errores))
-
-        # Aplicar filtros
-        palabra_clave = self.filtro_palabra_entry.get()
-        if palabra_clave == "Palabra clave...":
-            palabra_clave = ""
-            
-        operador = self.filtro_op_combo.get()
-        cantidad_filtro_str = self.filtro_cant_entry.get()
-        
-        cantidad_filtro = None
-        if cantidad_filtro_str and operador:
-            try:
-                cantidad_filtro = int(cantidad_filtro_str)
-            except ValueError:
-                messagebox.showerror("Error de Filtro", "La cantidad de filtro debe ser un número.")
-                self.update_status("Error: Cantidad de filtro inválida.")
-                return
-
-        # Poblar Treeview
-        total_items = 0
-        suma_cantidades = 0
+        if errores: messagebox.showwarning("Aviso", "\n".join(errores))
+        palabra_clave = self.filtro_palabra_entry.get(); operador = self.filtro_op_combo.get(); cant_str = self.filtro_cant_entry.get()
+        if palabra_clave == "Palabra clave...": palabra_clave = ""
+        cant_filtro = None
+        if operador and cant_str:
+            try: cant_filtro = int(cant_str)
+            except ValueError: messagebox.showerror("Error", "Cantidad de filtro debe ser un número."); return
+        count = 0
         for linea_num, desc, cant in datos:
-            mostrar = True # Mostrar por defecto
+            mostrar = True
+            if palabra_clave and palabra_clave.lower() not in desc.lower(): mostrar = False
+            if mostrar and cant_filtro is not None:
+                if (operador == ">" and not cant > cant_filtro) or (operador == "<" and not cant < cant_filtro) or (operador == "=" and not cant == cant_filtro): mostrar = False
+            if mostrar: self.inventory_tree.insert("", tk.END, values=(linea_num, desc, cant)); count += 1
+        self.status_label_inv.config(text=f"Mostrando {count} de {len(datos)} ítems.")
 
-            # Filtrar por palabra clave
-            if palabra_clave and palabra_clave.lower() not in desc.lower():
-                mostrar = False
-
-            # Filtrar por cantidad
-            if mostrar and cantidad_filtro is not None and operador:
-                if operador == ">" and not cant > cantidad_filtro:
-                    mostrar = False
-                elif operador == "<" and not cant < cantidad_filtro:
-                    mostrar = False
-                elif operador == "=" and not cant == cantidad_filtro:
-                    mostrar = False
-            
+    def populate_sales_treeview(self):
+        for i in self.sales_tree.get_children(): self.sales_tree.delete(i)
+        historial = self.gestor.leer_historial_ventas()
+        desde_str = self.filtro_fecha_desde.get(); hasta_str = self.filtro_fecha_hasta.get(); desc_str = self.filtro_desc_venta.get().lower()
+        total_ventas = 0.0; total_ganancia = 0.0
+        for venta in historial:
+            mostrar = True
+            try:
+                fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S")
+                if desde_str:
+                    if fecha_venta < datetime.strptime(desde_str, "%Y-%m-%d"): mostrar = False
+                if hasta_str and mostrar:
+                    if fecha_venta > datetime.strptime(hasta_str, "%Y-%m-%d") + timedelta(days=1): mostrar = False
+            except (ValueError, IndexError): pass
+            if mostrar and desc_str and desc_str not in venta[1].lower(): mostrar = False
             if mostrar:
-                self.tree.insert("", tk.END, values=(linea_num, desc, cant))
-                total_items += 1
-                suma_cantidades += cant
-
-        self.update_status(f"Mostrando {total_items} items. Suma cantidades: {suma_cantidades}. Archivo: {self.gestor.archivo_inventario}")
+                try: origen = venta[7]
+                except IndexError: origen = "N/A"
+                self.sales_tree.insert("", tk.END, values=(venta[:7] + [origen,]))
+                total_ventas += float(venta[5]); total_ganancia += float(venta[6])
+        self.lbl_total_ventas.config(text=f"Total Ventas: ${total_ventas:.2f}")
+        self.lbl_total_ganancia.config(text=f"Ganancia Total: ${total_ganancia:.2f}")
 
     def limpiar_filtros(self):
-        self.filtro_palabra_entry.delete(0, tk.END)
-        self.add_placeholder(None) # Poner placeholder de nuevo
-        self.filtro_op_combo.set("")
-        self.filtro_cant_entry.delete(0, tk.END)
-        self.populate_treeview()
+        self.filtro_palabra_entry.delete(0, tk.END); self.add_placeholder(None)
+        self.filtro_op_combo.set(""); self.filtro_cant_entry.delete(0, tk.END)
+        self.populate_inventory_treeview()
+        
+    def limpiar_filtros_ventas(self):
+        self.filtro_fecha_desde.delete(0, tk.END)
+        self.filtro_fecha_hasta.delete(0, tk.END)
+        self.filtro_desc_venta.delete(0, tk.END)
+        self.populate_sales_treeview()
 
-
-    def cambiar_archivo(self):
-        nuevo_archivo = filedialog.askopenfilename(
-            title="Seleccionar Archivo de Inventario",
-            filetypes=(("Archivos de Texto", "*.txt"), ("Todos los archivos", "*.*"))
-        )
-        if nuevo_archivo:
-            mensaje = self.gestor.cambiar_archivo(nuevo_archivo)
-            self.lbl_archivo.config(text=f"Archivo: {self.gestor.archivo_inventario}")
-            self.populate_treeview()
-            messagebox.showinfo("Archivo Cambiado", mensaje)
+    def _get_selected_item_values(self):
+        selected = self.inventory_tree.focus()
+        if not selected: messagebox.showwarning("Sin Selección", "Por favor, seleccione un ítem de la lista."); return None
+        return self.inventory_tree.item(selected, 'values')
 
     def agregar_item(self):
-        # Usar Toplevel para una ventana emergente más controlada
-        win_add = tk.Toplevel(self.master)
-        win_add.title("Agregar Nuevo Item")
-        win_add.geometry("350x150")
-        win_add.transient(self.master) # Mantenerla sobre la principal
-        win_add.grab_set() # Bloquear la principal hasta cerrar
-
-        ttk.Label(win_add, text="Descripción:").grid(row=0, column=0, padx=10, pady=10, sticky="w")
-        desc_entry = ttk.Entry(win_add, width=40)
-        desc_entry.grid(row=0, column=1, padx=10, pady=10)
-
-        ttk.Label(win_add, text="Cantidad:").grid(row=1, column=0, padx=10, pady=10, sticky="w")
-        cant_entry = ttk.Entry(win_add, width=15)
-        cant_entry.grid(row=1, column=1, padx=10, pady=10, sticky="w")
-
+        win_add = tk.Toplevel(self.master); win_add.title("Agregar Nuevo Ítem"); win_add.grab_set(); win_add.resizable(False, False)
+        frame = ttk.Frame(win_add, padding="10"); frame.pack()
+        ttk.Label(frame, text="Descripción:").grid(row=0, column=0, sticky="w", pady=2, padx=5)
+        desc_entry = ttk.Entry(frame, width=40); desc_entry.grid(row=0, column=1, pady=2, padx=5)
+        ttk.Label(frame, text="Cantidad Inicial:").grid(row=1, column=0, sticky="w", pady=2, padx=5)
+        cant_entry = ttk.Entry(frame, width=15); cant_entry.grid(row=1, column=1, sticky="w", pady=2, padx=5)
         def do_add():
-            desc = desc_entry.get().strip()
-            cant = cant_entry.get().strip()
-            if not desc or not cant:
-                messagebox.showwarning("Entrada Incompleta", "Debe ingresar descripción y cantidad.", parent=win_add)
-                return
-
+            desc = desc_entry.get().strip(); cant = cant_entry.get().strip()
+            if not desc or not cant: messagebox.showerror("Error", "Ambos campos son obligatorios.", parent=win_add); return
             success, message = self.gestor.agregar_linea(desc, cant)
-            if success:
-                messagebox.showinfo("Éxito", message, parent=win_add)
-                self.populate_treeview()
-                win_add.destroy()
-            else:
-                messagebox.showerror("Error", message, parent=win_add)
-
-        btn_frame = ttk.Frame(win_add)
-        btn_frame.grid(row=2, column=0, columnspan=2, pady=15)
-        ttk.Button(btn_frame, text="Agregar", command=do_add).pack(side=tk.LEFT, padx=10)
-        ttk.Button(btn_frame, text="Cancelar", command=win_add.destroy).pack(side=tk.LEFT, padx=10)
-        
-        desc_entry.focus_set()
-
-
-    def get_selected_item(self):
-        """Obtiene el item seleccionado en el Treeview."""
-        selected = self.tree.focus() # Obtiene el ID del item seleccionado
-        if not selected:
-            messagebox.showwarning("Sin Selección", "Por favor, seleccione un item de la lista.")
-            return None
-        return self.tree.item(selected, 'values') # Retorna la tupla de valores
+            if success: self.populate_inventory_treeview(); win_add.destroy(); messagebox.showinfo("Éxito", message)
+            else: messagebox.showerror("Error", message, parent=win_add)
+        btn_frame = ttk.Frame(frame); btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
+        ttk.Button(btn_frame, text="Guardar Ítem", command=do_add).pack(); desc_entry.focus_set()
 
     def modificar_item(self):
-        selected_values = self.get_selected_item()
-        if not selected_values:
-            return
-
-        linea_num, desc_actual, cant_actual = selected_values
-
-        win_mod = tk.Toplevel(self.master)
-        win_mod.title("Modificar Item")
-        win_mod.geometry("350x150")
-        win_mod.transient(self.master)
-        win_mod.grab_set()
-
-        ttk.Label(win_mod, text=f"Línea {linea_num}:").grid(row=0, column=0, columnspan=2, padx=10, pady=5, sticky="w")
-
-        ttk.Label(win_mod, text="Descripción:").grid(row=1, column=0, padx=10, pady=5, sticky="w")
-        desc_entry = ttk.Entry(win_mod, width=40)
-        desc_entry.grid(row=1, column=1, padx=10, pady=5)
-        desc_entry.insert(0, desc_actual)
-
-        ttk.Label(win_mod, text="Cantidad:").grid(row=2, column=0, padx=10, pady=5, sticky="w")
-        cant_entry = ttk.Entry(win_mod, width=15)
-        cant_entry.grid(row=2, column=1, padx=10, pady=5, sticky="w")
-        cant_entry.insert(0, cant_actual)
-
+        values = self._get_selected_item_values()
+        if not values: return
+        linea, desc, cant = values
+        win_mod = tk.Toplevel(self.master); win_mod.title("Modificar Ítem"); win_mod.grab_set(); win_mod.resizable(False, False)
+        frame = ttk.Frame(win_mod, padding="10"); frame.pack()
+        ttk.Label(frame, text="Descripción:").grid(row=0, column=0, sticky="w", pady=2, padx=5)
+        desc_entry = ttk.Entry(frame, width=40); desc_entry.grid(row=0, column=1, pady=2, padx=5); desc_entry.insert(0, desc)
+        ttk.Label(frame, text="Cantidad:").grid(row=1, column=0, sticky="w", pady=2, padx=5)
+        cant_entry = ttk.Entry(frame, width=15); cant_entry.grid(row=1, column=1, sticky="w", pady=2, padx=5); cant_entry.insert(0, cant)
         def do_mod():
-            nueva_desc = desc_entry.get().strip()
-            nueva_cant = cant_entry.get().strip()
-            if not nueva_desc or not nueva_cant:
-                messagebox.showwarning("Entrada Incompleta", "Debe ingresar descripción y cantidad.", parent=win_mod)
-                return
-
-            success, message = self.gestor.modificar_linea(int(linea_num), nueva_desc, nueva_cant)
-            if success:
-                messagebox.showinfo("Éxito", message, parent=win_mod)
-                self.populate_treeview()
-                win_mod.destroy()
-            else:
-                messagebox.showerror("Error", message, parent=win_mod)
-
-        btn_frame = ttk.Frame(win_mod)
-        btn_frame.grid(row=3, column=0, columnspan=2, pady=15)
-        ttk.Button(btn_frame, text="Guardar Cambios", command=do_mod).pack(side=tk.LEFT, padx=10)
-        ttk.Button(btn_frame, text="Cancelar", command=win_mod.destroy).pack(side=tk.LEFT, padx=10)
-        
-        desc_entry.focus_set()
-
-
-    def ajustar_cantidad(self, sumar=True):
-        selected_values = self.get_selected_item()
-        if not selected_values:
-            return
-
-        linea_num, desc, _ = selected_values
-        accion = "sumar" if sumar else "restar"
-        signo = 1 if sumar else -1
-
-        try:
-            cambio = simpledialog.askinteger(
-                f"Ajustar Cantidad",
-                f"Ingrese la cantidad a {accion} para '{desc}':",
-                parent=self.master,
-                minvalue=1 # Siempre pedir un número positivo
-            )
-            if cambio is not None:
-                success, message = self.gestor.modificar_cantidad(int(linea_num), cambio * signo)
-                if success:
-                    self.populate_treeview()
-                    self.update_status(message)
-                else:
-                    messagebox.showerror("Error", message)
-        except ValueError:
-             messagebox.showerror("Error", "Debe ingresar un número entero válido.")
+            nueva_desc = desc_entry.get().strip(); nueva_cant = cant_entry.get().strip()
+            if not nueva_desc or not nueva_cant: messagebox.showerror("Error", "Ambos campos son obligatorios.", parent=win_mod); return
+            success, message = self.gestor.modificar_linea(int(linea), nueva_desc, nueva_cant)
+            if success: self.populate_inventory_treeview(); win_mod.destroy(); messagebox.showinfo("Éxito", message)
+            else: messagebox.showerror("Error", message, parent=win_mod)
+        btn_frame = ttk.Frame(frame); btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
+        ttk.Button(btn_frame, text="Guardar Cambios", command=do_mod).pack(); desc_entry.focus_set()
 
     def eliminar_item(self):
-        selected_values = self.get_selected_item()
-        if not selected_values:
-            return
+        values = self._get_selected_item_values()
+        if not values: return
+        linea, desc, cant = values
+        if messagebox.askyesno("Confirmar", f"¿Eliminar este ítem?\n\n{desc}"):
+            success, msg = self.gestor.eliminar_linea(int(linea))
+            if success: self.populate_inventory_treeview(); messagebox.showinfo("Éxito", msg)
+            else: messagebox.showerror("Error", msg)
 
-        linea_num, desc, cant = selected_values
-
-        if messagebox.askyesno("Confirmar Eliminación", f"¿Está seguro de que desea eliminar la línea {linea_num}:\n'{desc} {cant}'?"):
-            success, message = self.gestor.eliminar_linea(int(linea_num))
-            if success:
-                messagebox.showinfo("Éxito", message)
-                self.populate_treeview()
-            else:
-                messagebox.showerror("Error", message)
+    def ajustar_cantidad(self, sumar):
+        values = self._get_selected_item_values()
+        if not values: return
+        linea, desc, _ = values
+        accion = "sumar" if sumar else "restar"
+        try:
+            cambio = simpledialog.askinteger("Ajustar Stock", f"Cantidad a {accion} para:\n{desc}", parent=self.master, minvalue=1)
+            if cambio is not None:
+                cambio_final = cambio if sumar else -cambio
+                success, msg = self.gestor.modificar_cantidad(int(linea), cambio_final)
+                if success: self.populate_inventory_treeview()
+                else: messagebox.showerror("Error", msg)
+        except ValueError: messagebox.showerror("Error", "Debe ser un número.")
 
     def ordenar_inventario(self):
-        if messagebox.askyesno("Confirmar Ordenar", "¿Está seguro de que desea ordenar el archivo alfabéticamente?\n(Las líneas con formato incorrecto podrían moverse al final)"):
-            success, message = self.gestor.ordenar_alfabeticamente()
-            if success:
-                messagebox.showinfo("Éxito", message)
-                self.populate_treeview()
-            else:
-                messagebox.showerror("Error", message)
+        if messagebox.askyesno("Confirmar", "Ordenar el inventario alfabéticamente?"):
+            success, msg = self.gestor.ordenar_alfabeticamente()
+            if success: self.populate_inventory_treeview(); messagebox.showinfo("Éxito", msg)
+            else: messagebox.showerror("Error", msg)
 
     def verificar_formato(self):
         errores = self.gestor.verificar_formato()
-        if not errores:
-            messagebox.showinfo("Verificación de Formato", "¡El formato del archivo es correcto!")
-            self.update_status("Formato verificado: OK.")
-        else:
-            mensaje_error = "Se encontraron los siguientes problemas de formato:\n\n" + "\n".join(errores)
-            mensaje_error += "\n\nUse 'Modificar Item' para corregir las líneas afectadas."
-            messagebox.showwarning("Verificación de Formato", mensaje_error)
-            self.update_status(f"Formato verificado: {len(errores)} errores encontrados.")
+        if not errores: messagebox.showinfo("Verificación", "¡El formato de todas las líneas es correcto!")
+        else: messagebox.showwarning("Verificación", "Líneas con formato incorrecto:\n\n" + "\n".join(errores))
 
+    def iniciar_venta(self):
+        values = self._get_selected_item_values()
+        if not values: return
+        linea_num, desc, stock_actual = values
+        win_vender = tk.Toplevel(self.master); win_vender.title("Registrar Venta"); win_vender.grab_set(); win_vender.resizable(False, False)
+        frame = ttk.Frame(win_vender, padding="15"); frame.pack()
+        ttk.Label(frame, text=f"Item: {desc}", font=("Helvetica", 11, "bold")).grid(row=0, column=0, columnspan=2, pady=(0, 10))
+        ttk.Label(frame, text=f"Stock Actual: {stock_actual}").grid(row=1, column=0, columnspan=2, pady=(0, 15))
+        ttk.Label(frame, text="Cantidad a Vender:").grid(row=2, column=0, sticky="w", pady=5, padx=5)
+        cant_entry = ttk.Entry(frame, width=15); cant_entry.grid(row=2, column=1, sticky="w", pady=5, padx=5)
+        ttk.Label(frame, text="Costo Unitario ($):").grid(row=3, column=0, sticky="w", pady=5, padx=5)
+        costo_entry = ttk.Entry(frame, width=15); costo_entry.grid(row=3, column=1, sticky="w", pady=5, padx=5)
+        ttk.Label(frame, text="Precio de Venta ($):").grid(row=4, column=0, sticky="w", pady=5, padx=5)
+        precio_entry = ttk.Entry(frame, width=15); precio_entry.grid(row=4, column=1, sticky="w", pady=5, padx=5)
+        def do_vender():
+            cant = cant_entry.get(); costo = costo_entry.get(); precio = precio_entry.get()
+            if not all([cant, costo, precio]): messagebox.showerror("Error de Validación", "Todos los campos son obligatorios.", parent=win_vender); return
+            success, message = self.gestor.registrar_venta(int(linea_num), desc, stock_actual, cant, costo, precio)
+            if success:
+                win_vender.destroy(); messagebox.showinfo("Venta Exitosa", message)
+                self.populate_inventory_treeview(); self.populate_sales_treeview()
+                self.notebook.select(self.ventas_tab)
+            else: messagebox.showerror("Error en la Venta", message, parent=win_vender)
+        btn_confirmar = ttk.Button(frame, text="Confirmar Venta", command=do_vender, style="Vender.TButton"); btn_confirmar.grid(row=5, column=0, columnspan=2, pady=(20, 0))
+        cant_entry.focus_set()
 
-# --- Función Principal ---
-def main_gui():
-    # Intentar configurar la consola para latin-1 solo en Windows (menos relevante para GUI, pero mantenido por si acaso)
-    if platform.system() == "Windows":
-        try:
-            os.system("chcp 1252 > nul")
-        except:
-            pass
+    def cambiar_archivo(self):
+        nuevo_archivo = filedialog.askopenfilename(title="Seleccionar nuevo archivo de inventario", filetypes=(("Archivos de Texto", "*.txt"), ("Todos los archivos", "*.*")))
+        if nuevo_archivo:
+            mensaje = self.gestor.cambiar_archivo(nuevo_archivo)
+            self.lbl_archivo.config(text=f"Archivo: {self.gestor.archivo_inventario}")
+            self.populate_inventory_treeview()
+            messagebox.showinfo("Éxito", mensaje)
             
+    def clear_placeholder(self, event):
+        if self.filtro_palabra_entry.get() == "Palabra clave...": self.filtro_palabra_entry.delete(0, tk.END); self.filtro_palabra_entry.config(foreground='black')
+        
+    def add_placeholder(self, event):
+        if not self.filtro_palabra_entry.get(): self.filtro_palabra_entry.insert(0, "Palabra clave..."); self.filtro_palabra_entry.config(foreground='grey')
+
+# ==============================================================================
+# 3. BLOQUE DE EJECUCIÓN PRINCIPAL
+# ==============================================================================
+if __name__ == "__main__":
     root = tk.Tk()
     app = InventarioGUI(root)
     root.mainloop()
-
-if __name__ == "__main__":
-    main_gui()

@@ -25,7 +25,7 @@
     Aguja Extractor Sim 5
     Antena Tdt 1.5M 1
     Antena Tdt 3M Con Usb 1
-    Antena Tdt 5M 3
+    Antena Tdt 5M 4
     Antena Tdt Aire 1
     Aro De Luz 26Cm Rgb 2
     Aro De Luz 33Cm Light 1
@@ -51,7 +51,7 @@
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Boton Huella Xiaomi Poco X3 1
     Cable Auxiliar 2 A 1 3
-    Cable Belkin Tc 1
+    Cable Belkin Tc 2
     Cable Belkin Tc 2M 1
     Cable Belkin V8 1
     Cable Caterpillar Tc 1
@@ -70,7 +70,7 @@
     Cable Royal Tc 2M 1
     Cable Siliconado Zonymax Tc 3
     Cable Siliconado Zonymax V 3
-    Cable Tc A Tc Eco 3
+    Cable Tc A Tc Eco 2
     Cable Tc Cordon Eco 5
     Cable Tc Eco 1
     Cable Tc Eco Cordon 5
@@ -142,8 +142,8 @@
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
-    Cargador Yl Tc 3
-    Cargador Yl V8 1
+    Cargador Yl Tc 2
+    Cargador Yl V8 4
     Celular Nokia 105 4G 1
     Consola Game Sitck 2
     Control Gamer Gatillos G21 1
@@ -195,8 +195,8 @@
     Forro Antichoque Xiaomi Redmi Note 13 5G 0
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 4
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 1
-    Forro Lujo Apple Iphone 11 1
-    Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 1
+    Forro Antichoque Apple Iphone 11 Lujo 1
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Lujo 1
     Forro Northface Xiaomi Redmi 13C Negro 0
     Forro Pin A55 Dama 0
     Forro Pin Apple Iphone 11 0
@@ -204,7 +204,7 @@
     Forro Pin Motorola Moto G24 / G04 2
     Forro Pin Samsung A13 2
     Forro Pin Tecno Spark Go 2024 / 20C 2
-    Forro Space Apple Iphone 11 2
+    Forro Space Apple Iphone 11 1
     Forro Space Apple Iphone 13 Mini 0
     Forro Space Apple Iphone 14 Pro Max 0
     Forro Space Apple Iphone 15 Plus 0
@@ -303,7 +303,7 @@
     Manos Libres Batri B10 Negro 3
     Manos Libres Batri B10 Rosa 2
     Manos Libres Samsung Akg 4
-    Manos Libres Samsung J5 Negro 4
+    Manos Libres Samsung J5 Negro 5
     Manos Libres Tc Blanco 2
     Memoria Usb Kingston 4Gb 4
     Mini Calefactor Con Control 1
@@ -597,7 +597,7 @@
     Silicone Case Xiaomi Redmi 12C Ab Amarillo 0
     Silicone Case Xiaomi Redmi 13 Negro 1
     Silicone Case Xiaomi Redmi 13C Morado 0
-    Silicone Case Xiaomi Redmi 14C Negro 0
+    Silicone Case Xiaomi Redmi 14C Negro 1
     Silicone Case Xiaomi Redmi 7 Amarillo 0
     Silicone Case Xiaomi Redmi 9 Amarillo 0
     Silicone Case Xiaomi Redmi 9 Morado 0
@@ -637,13 +637,13 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
     Silicone Case Xioami Redmi Note 12S Negro 1
-    Simcard Claro 4
-    Simcard Tigo 5
+    Simcard Claro 18
+    Simcard Tigo 8
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smartphone Infinix Smart 9 128/6 Gris 1
     Smartphone Motorola Moto G04S 64/6 Azulrey 1
     Smartphone Tecno Spark Go 1S 64/6 Gris 1
-    Smartphone Xiaomi Redmi 14C 128/8 Negro 1
+    Smartphone Xiaomi Redmi 14C 128/8 Negro 0
     Smartphone Zte Blade A34 64/6 Verde 1
     Soporte Fijo Tv 32-55 Pulgadas 2
     Soporte Holder Bicileta Manubrio M-3 1
@@ -713,3 +713,104 @@
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 2
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 3
     Vidrio 5d Motorola Moto E13 5
+    Silicone Case Xiaomi Redmi 14C Azulrey 1
+    Silicone Case Xiaomi Redmi 14C Morado 1
+    Silicone Case Xiaomi Redmi 14C Lila 1
+    Silicone Case Xiaomi Redmi 14C Fucsia 1
+    Silicone Case Xiaomi Redmi 14C Verde 1
+    Silicone Case Xiaomi Redmi 14C Amarillo 1
+    Forro Space Xiaomi Redmi 14C 2
+    Forro Antichoque Xiaomi Redmi 14C Lujo Negrorojo 1
+    Forro Antichoque Xiaomi Redmi 14C Caballero 6
+    Forro Antichoque Xiaomi Redmi 14C Dama Lujo 3
+    Forro Antichoque Xiaomi Redmi Note 14 4G Cabllero 6
+    Forro Space Xiaomi Redmi Note 14 4G 2
+    Silicone Case Xiaomi Redmi Note 14 4G Lila 1
+    Silicone Case Xiaomi Redmi Note 14 4G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 4G Negro 1
+    Silicone Case Xiaomi Redmi Note 14 4G Morado 1
+    Silicone Case Xiaomi Redmi Note 14 4G Rojo 1
+    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
+    Silicone Case Xiaomi Redmi Note 14 4G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14S Azulrey 1
+    Silicone Case Xiaomi Redmi Note 14S Morado 1
+    Silicone Case Xiaomi Redmi Note 14S Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14S Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14S Rosa 1
+    Silicone Case Xiaomi Redmi Note 14S Negro 1
+    Silicone Case Xiaomi Redmi Note 14S Lila 1
+    Silicone Case Xiaomi Redmi Note 14S Rojo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Azuloscuro 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Morado 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Azulrey 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Azulclaro 1
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Plus Caballero 5
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Cadena 4
+    Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Dama 5
+    Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Lila 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Morado 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Rosa 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Negro 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Rojo 1
+    Forro Space Xiaomi Redmi Note 14 Pro 2
+    Forro Antichoque Xiaomi Redmi Note 14 4G Dama 5
+    Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Dama 4
+    Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Caballero 5
+    Forro Space Motorola Moto G05 2
+    Silicone Case Motorola Moto G05 Morado 1
+    Silicone Case Motorola Moto G05 Rosa 1
+    Silicone Case Motorola Moto G05 Rojo 1
+    Silicone Case Motorola Moto G05 Fucsia 1
+    Silicone Case Motorola Moto G05 Verdemilitar 1
+    Silicone Case Motorola Moto G05 Azulclaro 1
+    Silicone Case Motorola Moto G05 Negro 1
+    Forro Antichoque Motorola Moto G05 Dama Cadena 2
+    Forro Antichoque Motorola Moto G05 Dama 3
+    Forro Space Motorola Moto G15 2
+    Silicone Case Motorola Moto G15 Azulclaro 1
+    Silicone Case Motorola Moto G15 Negro 1
+    Silicone Case Motorola Moto G15 Rojo 1
+    Silicone Case Motorola Moto G15 Rosa 1
+    Silicone Case Motorola Moto G15 Lila 1
+    Silicone Case Motorola Moto G15 Verdemilitar 1
+    Forro Antichoque Motorola Moto G15 Dama Pin 1
+    Forro Antichoque Motorola Moto G15 Dama Cadena 2
+    Forro Antichoque Motorola Moto G15 Dama Pin 2
+    Forro Antichoque Motorola Moto G35 Dama 5
+    Forro Antichoque Motorola Moto G35 Caballero 3
+    Forro Space Motorola Moto G35 2
+    Silicone Case Motorola Moto G35 Fucsia 1
+    Silicone Case Motorola Moto G35 Amarillo 1
+    Silicone Case Motorola Moto G35 Palorosa 1
+    Silicone Case Motorola Moto G35 Morado 1
+    Silicone Case Motorola Moto G35 Rojo 1
+    Silicone Case Motorola Moto G35 Negro 1
+    Forro Antichoque Motorola Moto G55 Dama Pin 3
+    Forro Antichoque Motorola Moto G55 Dama Cadena 2
+    Forro Antichoque Motorola Moto G55 Caballero 6
+    Producto de Prueba 3 1
+    Cable Tc a Tc Carton 1
+    Celular Tg Iron 0
+    Consola Microsoft Xbox 360 0
+    Forro Armadura Samsung A06 Negro 0
+    Forro Space Samsung S24 Fe 2
+    Forro Space Oppo Realme C53 / Note 50 2
+    Hydrogel Samsung S24 Fe 1
+    Hydrogel Oppo Realme C53 1
+    Manos Libres Samsung J5 Blanco 6
+    Mouse Jertech Jr-1 Rojo 1
+    Pacha Huawei Y5 2018 1
+    Pacha Motorola Moto G22 / E32 2
+    Recargas Claro 100
+    St Frp Redmi 12 1
+    St Soldar Cable Tarjeta 1
+    Simcard Movistar 9
+    Simcard Virgin 6
+    Teclado Dn-236 1
+    Video Juego Xbox Caja Negra El Padrino 3 1
+    Video Juego Xbox Caja Negra Principe de Persia 1
+    Video Juego Xbox Caja Negra Liga de la Justicia 1
+    Video Juego Xbox Caja Negra Mortal Kombat Saholin Monks 1
+    Video Juego Xbox Caja Negra Black 1
+    Cable Apple Usb Ligthning 2M 4
