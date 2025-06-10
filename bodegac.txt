@@ -1127,7 +1127,7 @@
     Silicone Case Samsung A53 Negro 0
     Silicone Case Samsung A53 Rosa 0
     Silicone Case Samsung A54 Amarillo 1
-    Silicone Case Samsung A54 Lila 1
+    Silicone Case Samsung A54 Lila 0
     Silicone Case Samsung A54 Negro 1
     Silicone Case Samsung A55 Amarillo 1
     Silicone Case Samsung A55 Cafe 0
@@ -1656,3 +1656,10 @@
     Plancha Remington Triple Infusion 0
     Silicone Case Samsung A52 Verde 0
     Vidrio 5d Xiaomi Redmi 14c 0
+    Caja de Timbres Xiaomi Redmi Note 12 0
+    Flex de Power Xiaomi Redmi Note 13 4G 0
+    Forro Antichoque Xiaomi Redmi Note 12 Dama 0
+    Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
+    Silicone Case Infinix Hot 50i Negro 0
+    Silicone Case Oppo Realme 7i Rojo 0
+    Silicone Case Xiaomi Redmi 12 Azulrey 0

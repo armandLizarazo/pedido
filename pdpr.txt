@@ -1,7 +1,6 @@
 # Pedido: pdpr
 # Pedido: pdpr
 # Pedido: pdpr
-# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Apuntador Diapositivas 1
@@ -30,8 +29,8 @@
     Control Gamer Gatillos Con Ventilador 2
     Memoria Musica Regueton 2
     Rollo Cinta Led Rgb 10M 2 
-    Soporte Tv 50 Brazo 1 ok
-    Televisor Smart Tv Tg Android 32P 1 ok
     Celular Corn R10 1ok
     Consola Microsoft Xbox 360 1
-    Plancha Remington Keratina 1 ok
+    Cargador Pc Lenovo Mini 3.25 1
+    Reproductor Tv Stick Watch Om 1
+    Reproductor Tv Stick Magis 2

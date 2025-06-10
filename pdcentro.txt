@@ -5,10 +5,6 @@
 # Pedido: pdcentro
 # Pedido: pdcentro
 # Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
     Adaptador Bluetooth Dongle Audio 2
     Audifonos Bluetooth Harvic Bt-543 Blanco 1
     Audifonos Bluetooth Harvic Bt-543 Negro 1
@@ -61,7 +57,6 @@
     Forro Armadura Redmi Note 10 5G Negro 1
     Forro Armadura Samsung A15 Negro 1
     Forro Armadura Samsung A15 Rojo 1
-    Forro Armadura Samsung A24 Azuloscuro 1 ok
     Forro Armadura Samsung S23 Negro 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Samsung S23 Rojo 1
@@ -80,7 +75,6 @@
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Xiaomi Redmi Note 14 Pro Plus 2 ok
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Garantia Aro De Luz Mini 2
@@ -216,10 +210,15 @@
     Cable Nokia 1100 5
     Cable Tc a Tc Carton 2
     Celular Tg Iron 2
-    Forro Armadura Samsung A06 Negro 1 ok
     Forro Armadura Tecno Spark 30 Pro Rojo 1
     Forro Space Apple Iphone 11 1
     Forro Space Oppo Realme C53 / Note 50 1
     Mouse Jertech Jr-1 Rojo 1
     Silicone Case Samsung A52 Verde 1
-    Vidrio 5d Xiaomi Redmi 14c 10 ok
+    Forro Antichoque Xiaomi Redmi Note 12 Dama 3
+    Silicone Case Infinix Hot 50i Negro 1
+    Silicone Case Motorola Moto Edge 50 Fusion Negro 1
+    Silicone Case Motorola Moto G22 Lila 1
+    Silicone Case Oppo Realme 7i Rojo 1
+    Silicone Case Samsung A54 Lila 0
+    Silicone Case Xiaomi Redmi 12 Azulrey 1

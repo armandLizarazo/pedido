@@ -3766,3 +3766,65 @@ Línea  | Contenido
     7 | # Pedido: pdst
     8 | # Pedido: pdst
     9 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-06-10 07:14:32
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   64 | Forro Armadura Samsung A24 Azuloscuro 1 ok
+   83 | Forro Space Xiaomi Redmi Note 14 Pro Plus 2 ok
+  219 | Forro Armadura Samsung A06 Negro 1 ok
+  225 | Vidrio 5d Xiaomi Redmi 14c 10 ok
+
+==================================================
+Fecha de proceso: 2025-06-10 07:14:32
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+   33 | Soporte Tv 50 Brazo 1 ok
+   34 | Televisor Smart Tv Tg Android 32P 1 ok
+   37 | Plancha Remington Keratina 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-10 07:14:32
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+   10 | Pacha Hot Infinix Hot 30 Play Defectuosa Devolver 1 ok
+   11 | Pacha Tecno Soark 20 Pro Plus Prestamo 1 ok
+   12 | Pacha Infinix Hot 30 Play Cambio 1 ok
+   13 | Pacha Xiaomi Redmi 9T C/m Cambio 1 ok
+   14 | Pacha Huawei Y5 2018 1 ok
+   15 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   16 | Pacha Oppo Realme C53 / Note 50 1 ok
+   17 | Caja de Timbres Xiaomi Redmi Note 13 4G 1 ok
