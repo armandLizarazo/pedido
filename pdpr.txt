@@ -27,10 +27,12 @@
     Control Gamer Microsoft Pc Tipo 360 3
     Audifonos Bluetooth M60 3
     Control Gamer Gatillos Con Ventilador 2
-    Memoria Musica Regueton 2
+    Memoria Musica Regueton 2 ok
     Rollo Cinta Led Rgb 10M 2 
-    Celular Corn R10 1ok
+    Celular Corn R10 1 ok
     Consola Microsoft Xbox 360 1
-    Cargador Pc Lenovo Mini 3.25 1
+    Consola Ps2 1 ok
+    Consola Xbox Clasica 1 ok
+    Cargador Pc Lenovo Mini 3.25 2 ok
     Reproductor Tv Stick Watch Om 1
     Reproductor Tv Stick Magis 2
