@@ -1,6 +1,11 @@
 # Pedido: pdpr
 # Pedido: pdpr
 # Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Apuntador Diapositivas 1
@@ -8,31 +13,33 @@
     Aro De Luz Joma 33Cm Ligth 2
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 1
+    Audifonos Bluetooth M60 3
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
     Cable Usb Plug Ancho 3
     Cargador Pc Puntas Caja Blanca 2
     Conectores Rj45 10
+    Consola Microsoft Xbox 360 1
+    Control Gamer Gatillos Con Ventilador 2
     Control Gamer Gatillos G21 1
+    Control Gamer Microsoft Pc Tipo 360 3
     Control Gamer Ps2 Inalambrico 1
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
     Reproductor Alexa Reloj 1
+    Reproductor Tv Stick Magis 2
+    Reproductor Tv Stick Watch Om 1
     Rollo Cinta Led Con Bluetooth 3
+    Rollo Cinta Led Rgb 10M 2 
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
-    Control Gamer Microsoft Pc Tipo 360 3
-    Audifonos Bluetooth M60 3
-    Control Gamer Gatillos Con Ventilador 2
-    Memoria Musica Regueton 2 ok
-    Rollo Cinta Led Rgb 10M 2 
-    Celular Corn R10 1 ok
-    Consola Microsoft Xbox 360 1
-    Consola Ps2 1 ok
-    Consola Xbox Clasica 1 ok
-    Cargador Pc Lenovo Mini 3.25 2 ok
-    Reproductor Tv Stick Watch Om 1
-    Reproductor Tv Stick Magis 2
+    Cable Lan Cat 6 20m 2
+    Parlante Ktx-1222 2
+    Cable Lan 3M Cat 6 3
+    Audifonos Bluetooth M25 3
+    Control Gamer Gatillos W11+ 2
+    Patillera 3 En 1 Vintage 2
+    Mouse Eco 2

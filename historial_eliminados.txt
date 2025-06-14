@@ -3828,3 +3828,63 @@ Línea  | Contenido
    15 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
    16 | Pacha Oppo Realme C53 / Note 50 1 ok
    17 | Caja de Timbres Xiaomi Redmi Note 13 4G 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-13 12:00:35
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+  185 | Silicone Case Xiaomi Redmi 12C Amarillo 1 ok
+  187 | Vidrio 5D Samsung A56 10 ok
+  196 | Balaca Apple Airpods Max Negro 1 ok
+  199 | Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
+  203 | Forro Space Samsung A55 2 ok
+  209 | Cable Tc a Tc Carton 2 ok
+  215 | Silicone Case Samsung A52 Verde 1 ok
+  216 | Forro Antichoque Xiaomi Redmi Note 12 Dama 2 ok
+  218 | Silicone Case Motorola Moto Edge 50 Fusion Negro 1 ok
+  221 | Silicone Case Samsung A54 Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-13 12:00:35
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+   30 | Memoria Musica Regueton 2 ok
+   32 | Celular Corn R10 1 ok
+   34 | Consola Ps2 1 ok
+   35 | Consola Xbox Clasica 1 ok
+   36 | Cargador Pc Lenovo Mini 3.25 2 ok
+
+==================================================
+Fecha de proceso: 2025-06-13 12:00:35
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    7 | Bateria Samsung S9 Plus Prestamo 1 ok
+    8 | Logica de Carga Xiaomi Redmi Note 12 1 ok
+    9 | Flex de Power Xiaomi Redmi Note 13 4G 1 ok ok
+   10 | Flex de Power Samsung A30 1 ok
+   11 | Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 2 ok

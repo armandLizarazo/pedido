@@ -156,7 +156,7 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v1.2")
+        master.title("Gestor de Inventario y Ventas v1.4")
         master.geometry("1100x700")
         self.style = ttk.Style(); self.style.theme_use("clam")
         self.gestor = GestorInventario()
@@ -201,7 +201,7 @@ class InventarioGUI:
         ttk.Button(item_group, text="Modificar Seleccionado", command=self.modificar_item).pack(pady=2, padx=5)
         ttk.Button(item_group, text="Eliminar Seleccionado", command=self.eliminar_item).pack(pady=2, padx=5)
         tools_group = ttk.LabelFrame(action_frame, text="Herramientas"); tools_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
-        ttk.Button(tools_group, text="Ordenar Alfabéticamente", command=self.ordenar_inventario).pack(pady=2, padx=5)
+        ttk.Button(tools_group, text="Ordenar Alfabéticamente", command=self.ordenar_alfabeticamente).pack(pady=2, padx=5)
         ttk.Button(tools_group, text="Verificar Formato", command=self.verificar_formato).pack(pady=2, padx=5)
         style_vender = ttk.Style(); style_vender.configure("Vender.TButton", foreground="white", background="navy", font=('Helvetica', 10, 'bold'))
         ttk.Button(action_frame, text="VENDER ITEM", command=self.iniciar_venta, style="Vender.TButton").pack(side=tk.RIGHT, padx=20, ipady=10, fill=tk.Y)
@@ -210,14 +210,16 @@ class InventarioGUI:
         filter_frame = ttk.LabelFrame(self.ventas_tab, text="Filtros de Búsqueda", padding="10"); filter_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
         analisis_frame = ttk.LabelFrame(self.ventas_tab, text="Totales de la Vista Actual", padding="10"); analisis_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
         historial_frame = ttk.Frame(self.ventas_tab); historial_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
-        ttk.Label(filter_frame, text="Desde (YYYY-MM-DD):").grid(row=0, column=0, padx=5, pady=5)
-        self.filtro_fecha_desde = ttk.Entry(filter_frame); self.filtro_fecha_desde.grid(row=0, column=1, padx=5, pady=5)
-        ttk.Label(filter_frame, text="Hasta (YYYY-MM-DD):").grid(row=0, column=2, padx=5, pady=5)
-        self.filtro_fecha_hasta = ttk.Entry(filter_frame); self.filtro_fecha_hasta.grid(row=0, column=3, padx=5, pady=5)
-        ttk.Label(filter_frame, text="Descripción del Ítem:").grid(row=0, column=4, padx=5, pady=5)
-        self.filtro_desc_venta = ttk.Entry(filter_frame, width=30); self.filtro_desc_venta.grid(row=0, column=5, padx=5, pady=5)
-        btn_filtrar = ttk.Button(filter_frame, text="Filtrar Ventas", command=self.populate_sales_treeview); btn_filtrar.grid(row=0, column=6, padx=10, pady=5)
-        btn_limpiar = ttk.Button(filter_frame, text="Mostrar Todo", command=self.limpiar_filtros_ventas); btn_limpiar.grid(row=0, column=7, padx=5, pady=5)
+        ttk.Label(filter_frame, text="Desde (YYYY-MM-DD):").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        self.filtro_fecha_desde = ttk.Entry(filter_frame); self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+        ttk.Label(filter_frame, text="Hasta (YYYY-MM-DD):").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        self.filtro_fecha_hasta = ttk.Entry(filter_frame); self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+        ttk.Label(filter_frame, text="Descripción del Ítem:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        self.filtro_desc_venta = ttk.Entry(filter_frame, width=30); self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+        btn_filtrar = ttk.Button(filter_frame, text="Filtrar Ventas", command=self.populate_sales_treeview); btn_filtrar.pack(side=tk.LEFT, padx=10, pady=5)
+        btn_limpiar = ttk.Button(filter_frame, text="Mostrar Todo", command=self.limpiar_filtros_ventas); btn_limpiar.pack(side=tk.LEFT, padx=5, pady=5)
+        self.lbl_total_items = ttk.Label(analisis_frame, text="Items Vendidos: 0", font=("Helvetica", 10, "bold")); self.lbl_total_items.pack(side=tk.LEFT, padx=20)
+        self.lbl_costo_total = ttk.Label(analisis_frame, text="Costo Total: $0.00", font=("Helvetica", 10, "bold")); self.lbl_costo_total.pack(side=tk.LEFT, padx=20)
         self.lbl_total_ventas = ttk.Label(analisis_frame, text="Total Ventas: $0.00", font=("Helvetica", 10, "bold")); self.lbl_total_ventas.pack(side=tk.LEFT, padx=20)
         self.lbl_total_ganancia = ttk.Label(analisis_frame, text="Ganancia Total: $0.00", font=("Helvetica", 10, "bold")); self.lbl_total_ganancia.pack(side=tk.LEFT, padx=20)
         columnas = ("Timestamp", "Item", "Cantidad", "CostoU", "PrecioU", "Total", "Ganancia", "ArchivoOrigen")
@@ -249,26 +251,59 @@ class InventarioGUI:
 
     def populate_sales_treeview(self):
         for i in self.sales_tree.get_children(): self.sales_tree.delete(i)
+        
         historial = self.gestor.leer_historial_ventas()
-        desde_str = self.filtro_fecha_desde.get(); hasta_str = self.filtro_fecha_hasta.get(); desc_str = self.filtro_desc_venta.get().lower()
-        total_ventas = 0.0; total_ganancia = 0.0
+        
+        desde_str = self.filtro_fecha_desde.get()
+        hasta_str = self.filtro_fecha_hasta.get()
+        desc_str = self.filtro_desc_venta.get().lower()
+
+        total_items_vendidos, costo_total_vista, total_ventas, total_ganancia = 0, 0.0, 0.0, 0.0
+
         for venta in historial:
-            mostrar = True
+            if len(venta) < 7: continue
+
+            # --- Filtro de Fecha ---
+            fecha_valida = True
+            if desde_str or hasta_str:
+                try:
+                    fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S")
+                    if desde_str and fecha_venta < datetime.strptime(desde_str, "%Y-%m-%d"):
+                        fecha_valida = False
+                    if hasta_str and fecha_venta > (datetime.strptime(hasta_str, "%Y-%m-%d") + timedelta(days=1)):
+                        fecha_valida = False
+                except ValueError:
+                    fecha_valida = False 
+            if not fecha_valida: continue
+
+            # --- Filtro de Descripción ---
+            if desc_str and desc_str not in venta[1].lower():
+                continue
+
+            # --- Si pasa los filtros, se procesa y se muestra ---
             try:
-                fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S")
-                if desde_str:
-                    if fecha_venta < datetime.strptime(desde_str, "%Y-%m-%d"): mostrar = False
-                if hasta_str and mostrar:
-                    if fecha_venta > datetime.strptime(hasta_str, "%Y-%m-%d") + timedelta(days=1): mostrar = False
-            except (ValueError, IndexError): pass
-            if mostrar and desc_str and desc_str not in venta[1].lower(): mostrar = False
-            if mostrar:
-                try: origen = venta[7]
-                except IndexError: origen = "N/A"
-                self.sales_tree.insert("", tk.END, values=(venta[:7] + [origen,]))
-                total_ventas += float(venta[5]); total_ganancia += float(venta[6])
+                cantidad = int(venta[2])
+                costo_unitario = float(venta[3])
+                total_venta_actual = float(venta[5])
+                ganancia_actual = float(venta[6])
+
+                total_items_vendidos += cantidad
+                costo_total_vista += cantidad * costo_unitario
+                total_ventas += total_venta_actual
+                total_ganancia += ganancia_actual
+
+                origen = venta[7] if len(venta) > 7 else "N/A"
+                self.sales_tree.insert("", tk.END, values=(venta[:7] + [origen]))
+
+            except (ValueError, IndexError) as e:
+                print(f"ADVERTENCIA: Se omitió la fila de venta por datos inválidos: {venta}, Error: {e}")
+                continue
+        
+        self.lbl_total_items.config(text=f"Items Vendidos: {total_items_vendidos}")
+        self.lbl_costo_total.config(text=f"Costo Total: ${costo_total_vista:.2f}")
         self.lbl_total_ventas.config(text=f"Total Ventas: ${total_ventas:.2f}")
         self.lbl_total_ganancia.config(text=f"Ganancia Total: ${total_ganancia:.2f}")
+
 
     def limpiar_filtros(self):
         self.filtro_palabra_entry.delete(0, tk.END); self.add_placeholder(None)
@@ -343,6 +378,18 @@ class InventarioGUI:
                 if success: self.populate_inventory_treeview()
                 else: messagebox.showerror("Error", msg)
         except ValueError: messagebox.showerror("Error", "Debe ser un número.")
+
+# --- AÑADE ESTA FUNCIÓN DENTRO DE LA CLASE InventarioGUI ---
+
+    def ordenar_alfabeticamente(self):
+        if messagebox.askyesno("Confirmar", "¿Desea ordenar el inventario alfabéticamente?"):
+            success, msg = self.gestor.ordenar_alfabeticamente()
+            if success:
+                self.populate_inventory_treeview()
+                messagebox.showinfo("Éxito", msg)
+            else:
+                messagebox.showerror("Error", msg)
+
 
     def ordenar_inventario(self):
         if messagebox.askyesno("Confirmar", "Ordenar el inventario alfabéticamente?"):
