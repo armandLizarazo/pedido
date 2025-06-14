@@ -39,15 +39,15 @@
 # Pedido: pdcentro
 # Pedido: pdcentro
 # Pedido: pdcentro
-    Adaptador Bluetooth Dongle Audio 2
-    Audifonos Bluetooth Harvic Bt-543 Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Negro 1
+    Adaptador Bluetooth Dongle Audio 2 ok
+    Audifonos Bluetooth Harvic Bt-543 Blanco 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Negro 1 ok
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Xiaomi E7S Negro 1
     Audifonos Bluetooth Xiaomi E7S Rosa 1
-    Balacas Onikuma 2
+    Balacas Onikuma 2 ok
     Cable Apple Usb Ligthning 2M 2
     Cable Caterpillar Tc 5
     Cable Motorola Tc A Tc 3
@@ -193,21 +193,21 @@
     Silicone Case Vivo Y15 / Y01 Amarillo 1
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y20 / Y20S / Y11S Rojo 1
-    Silicone Case Vivo Y33S Negro 1
-    Silicone Case Vivo Y51 / Y53S Rojo 1 
+    Silicone Case Vivo Y33S Negro 1 ok
+    Silicone Case Vivo Y51 / Y53S Rojo 1 ok
     Silicone Case Xiaomi Mi 11T Verde 1 
     Silicone Case Xiaomi Redmi 12 Azulrey 1
-    Silicone Case Xiaomi Redmi 14C Rojo 1
+    Silicone Case Xiaomi Redmi 14C Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 12 4G Morado 1
-    Silicone Case Xiaomi Redmi Note 12 Fucsia 1 
+    Silicone Case Xiaomi Redmi Note 12 Fucsia 1 ok
     Silicone Case Xiaomi Redmi Note 13 5G Lila 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1 
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
-    Simcard Wom 5
+    Simcard Wom 5 ok
     Smart Watch I525 Mini Rosa 1
     Smartphone Tecno Spark 30C 1
     Soporte Cel Metalico 1
@@ -243,19 +243,19 @@
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Vidrio Tortuga Tecno Spark 10 / 10C 5
+    Vidrio Tortuga Tecno Spark 10 / 10C 5 ok
     Adaptador Otg Tc Cable 5
     Adaptador Otg Tc y Micro 3
     Cable Apple Tc Ligthning 2M 3 ok
-    Cable Apple Tc Ligthning 3
+    Cable Apple Tc Ligthning 3 
     Cable Caterpillar V8 5 ok
     Cargador Royal 45W Tc Cbl 5
     Cargador Yl Tc 1
     Cargador Yl V8 1
     Forro Antichoque Huawei X6 / X6s Caballero 3
     Forro Antichoque Oppo A80 Caballero 2
-    Forro Antichoque Tecno Spark 10 / 10C Dama 4
-    Forro Antichoque Tecno Spark 10 / 10C Caballero 2
+    Forro Antichoque Tecno Spark 10 / 10C Dama 4 ok
+    Forro Antichoque Tecno Spark 10 / 10C Caballero 2 ok
     Forro Antichoque Vivo Y17s Caballero 2 ok
     Manos Libres Speak Tc Negro 1 ok
     Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 10 ok
@@ -278,9 +278,9 @@
     Forro Lujo Samsung A26 Ab 2
     Forro Antichoque Tecno Spark 30C Caballero 3 ok
     Forro Antichoque Tecno Spark 30C Dama 2 ok
-    Forro Antichoque Vivo Y33s Caballero 3
-    Forro Antichoque Vivo Y33S Dama 2
-    Silicone Case Samsung A16 Amarillo 1
+    Forro Antichoque Vivo Y33s Caballero 3 ok
+    Forro Antichoque Vivo Y33S Dama 2 ok
+    Silicone Case Samsung A16 Amarillo 1 ok
     Silicone Case Samsung A16 Lila 1 ok
     Silicone Case Samsung A16 Morado 1 ok
     Silicone Case Samsung A54 Morado 1 ok
