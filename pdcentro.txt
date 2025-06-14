@@ -246,9 +246,9 @@
     Vidrio Tortuga Tecno Spark 10 / 10C 5
     Adaptador Otg Tc Cable 5
     Adaptador Otg Tc y Micro 3
-    Cable Apple Tc Ligthning 2M 3
+    Cable Apple Tc Ligthning 2M 3 ok
     Cable Apple Tc Ligthning 3
-    Cable Caterpillar V8 5
+    Cable Caterpillar V8 5 ok
     Cargador Royal 45W Tc Cbl 5
     Cargador Yl Tc 1
     Cargador Yl V8 1
@@ -256,40 +256,40 @@
     Forro Antichoque Oppo A80 Caballero 2
     Forro Antichoque Tecno Spark 10 / 10C Dama 4
     Forro Antichoque Tecno Spark 10 / 10C Caballero 2
-    Forro Antichoque Vivo Y17s Caballero 2
-    Manos Libres Speal Tc Negro 1
-    Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 5
-    Silicone Case Apple Iphone 13 Negro 1
-    Silicone Case Samsung A16 Verdemilitar 1
-    Silicone Case Samsung A35 Negro 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 1
+    Forro Antichoque Vivo Y17s Caballero 2 ok
+    Manos Libres Speak Tc Negro 1 ok
+    Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 10 ok
+    Silicone Case Apple Iphone 13 Negro 1 ok
+    Silicone Case Samsung A16 Verdemilitar 1 ok
+    Silicone Case Samsung A35 Negro 1 ok
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 1 ok
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 1
-    Simcard Claro 10
-    Intercomunicador Harvic Mcm-591 1
-    Cable Belkin V8 5
+    Simcard Claro 10 ok
+    Intercomunicador Harvic Mcm-591 1 ok
+    Cable Belkin V8 5 ok
     Forro Armadura Tecno Spark 30C Rojo 1
     Manos Libres Speak TC 1
     Mouse Gamer Inalambrico Eco 2
-    Silicone Case Apple Iphone 12 Mini Azulrey 1
+    Silicone Case Apple Iphone 12 Mini Azulrey 1 ok
     Silicone Case Tecno Spark 30C Negro 1
     Silicone Case Zte Blade A34 Lila 1
     Vidrio Blindado Samsung A26 10
     Forro Lujo Samsung A26 Ab 2
-    Forro Antichoque Tecno Spark 30C Caballero 3
-    Forro Antichoque Tecno Spark 30C Dama 2
+    Forro Antichoque Tecno Spark 30C Caballero 3 ok
+    Forro Antichoque Tecno Spark 30C Dama 2 ok
     Forro Antichoque Vivo Y33s Caballero 3
     Forro Antichoque Vivo Y33S Dama 2
     Silicone Case Samsung A16 Amarillo 1
-    Silicone Case Samsung A16 Lila 1
-    Silicone Case Samsung A16 Morado 1
-    Silicone Case Samsung A54 Morado 1
-    Silicone Case Samsung A55 Morado 1
-    Silicone Case Tecno Spark 30C Lila 1
-    Silicone Case Samsung A26 Negro 1
-    Silicone Case Samsung A26 Morado 1
-    Silicone Case Samsung A26 Lila 1
-    Silicone Case Samsung A36 Morado 1
+    Silicone Case Samsung A16 Lila 1 ok
+    Silicone Case Samsung A16 Morado 1 ok
+    Silicone Case Samsung A54 Morado 1 ok
+    Silicone Case Samsung A55 Morado 1 ok
+    Silicone Case Tecno Spark 30C Lila 1 ok
+    Silicone Case Samsung A26 Negro 1 ok
+    Silicone Case Samsung A26 Morado 1 ok
+    Silicone Case Samsung A26 Lila 1 ok
+    Silicone Case Samsung A36 Morado 1 ok
    
 
     
