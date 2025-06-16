@@ -10,13 +10,13 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Apuntador Diapositivas 1
     Aro De Luz Joma 26Cm Ligth 2
-    Aro De Luz Joma 33Cm Ligth 2
+    Aro De Luz Joma 33Cm Ligth 2 ok
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth M60 3
     Balaca Onikuma K8 1
     Base Refirgerante 4 Ventiladores 1
-    Cable Usb Plug Ancho 3
+    Cable Usb Plug Ancho 3 ok
     Cargador Pc Puntas Caja Blanca 2
     Conectores Rj45 10
     Consola Microsoft Xbox 360 1
@@ -27,7 +27,7 @@
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
     Reproductor Alexa Reloj 1
-    Reproductor Tv Stick Magis 2
+    Reproductor Tv Stick Magis 2 ok
     Reproductor Tv Stick Watch Om 1
     Rollo Cinta Led Con Bluetooth 3
     Rollo Cinta Led Rgb 10M 2 
@@ -36,11 +36,11 @@
     Tableta Tigers Kids Rosa 1
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
-    Cable Lan Cat 6 20m 2
-    Parlante Ktx-1222 2
-    Cable Lan 3M Cat 6 3
+    Cable Lan Cat 6 20m 2 ok
+    Parlante Ktx-1222 2 ok
+    Cable Lan 3M Cat 6 2 ok
     Audifonos Bluetooth M25 3
-    Control Gamer Gatillos W11+ 2
-    Patillera 3 En 1 Vintage 2
-    Mouse Eco 2
-    Cable V3 Largo 5
+    Control Gamer Gatillos W11+ 2 ok
+    Patillera 3 En 1 Vintage 2 ok
+    Mouse Eco 3 ok
+    Cable V3 Largo 5 ok
