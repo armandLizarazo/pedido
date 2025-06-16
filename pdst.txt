@@ -1,9 +1,7 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Pacha Samsung A21S 1 ok
-    Pacha Vivo Y51 / Y53S 1 ok
-    Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
+    Pacha Samsung A22 5G 1
+    Pacha Samsung A13 / M13 / M23 1
+    Caja de Timbres Motorola Moto G32 1
+    Parlante Gts-1372 3

@@ -3888,3 +3888,204 @@ Línea  | Contenido
     9 | Flex de Power Xiaomi Redmi Note 13 4G 1 ok ok
    10 | Flex de Power Samsung A30 1 ok
    11 | Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 2 ok
+
+==================================================
+Fecha de proceso: 2025-06-16 06:30:44
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 81
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+   24 | # Pedido: pdcentro
+   25 | # Pedido: pdcentro
+   26 | # Pedido: pdcentro
+   27 | # Pedido: pdcentro
+   28 | # Pedido: pdcentro
+   29 | # Pedido: pdcentro
+   30 | # Pedido: pdcentro
+   31 | # Pedido: pdcentro
+   32 | # Pedido: pdcentro
+   33 | # Pedido: pdcentro
+   34 | # Pedido: pdcentro
+   35 | # Pedido: pdcentro
+   36 | # Pedido: pdcentro
+   37 | # Pedido: pdcentro
+   38 | # Pedido: pdcentro
+   39 | # Pedido: pdcentro
+   40 | # Pedido: pdcentro
+   41 | # Pedido: pdcentro
+   42 | Adaptador Bluetooth Dongle Audio 2 ok
+   43 | Audifonos Bluetooth Harvic Bt-543 Blanco 1 ok
+   44 | Audifonos Bluetooth Harvic Bt-543 Negro 1 ok
+   50 | Balacas Onikuma 2 ok
+  196 | Silicone Case Vivo Y33S Negro 1 ok
+  197 | Silicone Case Vivo Y51 / Y53S Rojo 1 ok
+  200 | Silicone Case Xiaomi Redmi 14C Rojo 1 ok
+  203 | Silicone Case Xiaomi Redmi Note 12 Fucsia 1 ok
+  205 | Silicone Case Xiaomi Redmi Note 13 Pro 5G Rosa 1 ok
+  210 | Simcard Wom 5 ok
+  246 | Vidrio Tortuga Tecno Spark 10 / 10C 5 ok
+  249 | Cable Apple Tc Ligthning 2M 3 ok
+  251 | Cable Caterpillar V8 5 ok
+  257 | Forro Antichoque Tecno Spark 10 / 10C Dama 4 ok
+  258 | Forro Antichoque Tecno Spark 10 / 10C Caballero 2 ok
+  259 | Forro Antichoque Vivo Y17s Caballero 2 ok
+  260 | Manos Libres Speak Tc Negro 1 ok
+  261 | Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 10 ok
+  262 | Silicone Case Apple Iphone 13 Negro 1 ok
+  263 | Silicone Case Samsung A16 Verdemilitar 1 ok
+  264 | Silicone Case Samsung A35 Negro 1 ok
+  265 | Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 1 ok
+  268 | Simcard Claro 10 ok
+  269 | Intercomunicador Harvic Mcm-591 1 ok
+  270 | Cable Belkin V8 5 ok
+  274 | Silicone Case Apple Iphone 12 Mini Azulrey 1 ok
+  279 | Forro Antichoque Tecno Spark 30C Caballero 3 ok
+  280 | Forro Antichoque Tecno Spark 30C Dama 2 ok
+  281 | Forro Antichoque Vivo Y33s Caballero 3 ok
+  282 | Forro Antichoque Vivo Y33S Dama 2 ok
+  283 | Silicone Case Samsung A16 Amarillo 1 ok
+  284 | Silicone Case Samsung A16 Lila 1 ok
+  285 | Silicone Case Samsung A16 Morado 1 ok
+  286 | Silicone Case Samsung A54 Morado 1 ok
+  287 | Silicone Case Samsung A55 Morado 1 ok
+  288 | Silicone Case Tecno Spark 30C Lila 1 ok
+  289 | Silicone Case Samsung A26 Negro 1 ok
+  290 | Silicone Case Samsung A26 Morado 1 ok
+  291 | Silicone Case Samsung A26 Lila 1 ok
+  292 | Silicone Case Samsung A36 Morado 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-16 06:30:44
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+   13 | Aro De Luz Joma 33Cm Ligth 2 ok
+   19 | Cable Usb Plug Ancho 3 ok
+   30 | Reproductor Tv Stick Magis 2 ok
+   39 | Cable Lan Cat 6 20m 2 ok
+   40 | Parlante Ktx-1222 2 ok
+   41 | Cable Lan 3M Cat 6 2 ok
+   43 | Control Gamer Gatillos W11+ 2 ok
+   44 | Patillera 3 En 1 Vintage 2 ok
+   45 | Mouse Eco 3 ok
+   46 | Cable V3 Largo 5 ok
+
+==================================================
+Fecha de proceso: 2025-06-16 06:30:44
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    7 | Pacha Samsung A21S 1 ok
+    8 | Pacha Vivo Y51 / Y53S 1 ok
+    9 | Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-16 07:29:32
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 34
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+   24 | # Pedido: pdcentro
+   25 | # Pedido: pdcentro
+   26 | # Pedido: pdcentro
+   27 | # Pedido: pdcentro
+   28 | # Pedido: pdcentro
+   29 | # Pedido: pdcentro
+   30 | # Pedido: pdcentro
+   31 | # Pedido: pdcentro
+   32 | # Pedido: pdcentro
+   33 | # Pedido: pdcentro
+   34 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-06-16 07:29:32
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-06-16 07:29:32
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
