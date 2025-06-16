@@ -192,12 +192,12 @@
     Vidrio Tortuga Motorola Moto G04 / G24 5
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
-    Adaptador Otg Tc Cable 5
+    Adaptador Otg Tc Cable 5 ok
     Adaptador Otg Tc y Micro 3
     Cable Apple Tc Ligthning 3 
     Cargador Royal 45W Tc Cbl 5
-    Cargador Yl Tc 1
-    Cargador Yl V8 1
+    Cargador Yl Tc 1 ok
+    Cargador Yl V8 1 ok
     Forro Antichoque Huawei X6 / X6s Caballero 3
     Forro Antichoque Oppo A80 Caballero 2
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1
@@ -215,8 +215,8 @@
     Forro Antichoque Xiaomi Redmi A1 / A2 Dama 5
     Forro Armadura Huawei Honor X7B Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
-    Forro Space Oppo A20 / A40 2
-    Forro Space Samsung A56 2
+    Forro Space Oppo A20 / A40 1 ok
+    Forro Space Samsung A56 2 ok
     Forro Space Vivo V40 Lite 2
     Silicone Case Vivo V40 Lite Negro 1
     Silicone Case Vivo V40 Lite Rojo 1
@@ -226,17 +226,18 @@
     Silicone Case Vivo V40 Lite Morado 1
     Manos Libres Inears Ak6 1
     Power Bank Yoyos 20000 mah con Cables 1
+    Power Bank Yoyos 30000 mah con Cables 1 ok
     Silicone Case Samsung A15 Verde 1
-    Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 1
-    Silicone Case Apple Iphone X / Xs Negro 1
-    Silicone Case Huawei Honor X7B Fucsia 1
-    Silicone Case Motorola Moto E20 Rosa 1
-    Silicone Case Motorola Moto G31 Lila 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 1 ok
+    Silicone Case Apple Iphone X / Xs Negro 1 ok
+    Silicone Case Huawei Honor X7B Fucsia 1 ok
+    Silicone Case Motorola Moto E20 Rosa 1 ok
+    Silicone Case Motorola Moto G31 Lila 1 
     Silicone Case Samsung A03 Core Fucsia 1
     Silicone Case Samsung A14 Fucsia 1
-    Silicone Case Tecno Spark 10 Pro Lila 1
+    Silicone Case Tecno Spark 10 Pro Lila 1 ok
     Silicone Case Vivo Y18 Azulrey 1
-    Smart Watch Gw-20 Verdemilitar 2
+    Smart Watch Gw-20 Verdemilitar 2 ok
     Vidrio 5D Xiaomi Redmi Note 13 4G 5
     Vidrio Camara Apple Iphone 13 10
     Vidrio Camara Apple Iphone 13 Pro Max 15
