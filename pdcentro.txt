@@ -213,7 +213,7 @@
     Forro Antichoque Xiaomi Redmi Note 12 Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 4
     Forro Antichoque Xiaomi Redmi A1 / A2 Dama 5
-    Forro Armadura Huawei Honor X7B Negro 1
+    Forro Armadura Huawei Honor X7B Negro 1 ok
     Forro Armadura Xiaomi Redmi 14C Negro 1
     Forro Space Oppo A20 / A40 1 ok
     Forro Space Samsung A56 2 ok
@@ -225,7 +225,7 @@
     Silicone Case Vivo V40 Lite Amarillo 1
     Silicone Case Vivo V40 Lite Morado 1
     Manos Libres Inears Ak6 1
-    Power Bank Yoyos 20000 mah con Cables 1
+    Power Bank Yoyos 20000 mah con Cables 1 ok
     Power Bank Yoyos 30000 mah con Cables 1 ok
     Silicone Case Samsung A15 Verde 1
     Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 1 ok
@@ -233,14 +233,14 @@
     Silicone Case Huawei Honor X7B Fucsia 1 ok
     Silicone Case Motorola Moto E20 Rosa 1 ok
     Silicone Case Motorola Moto G31 Lila 1 
-    Silicone Case Samsung A03 Core Fucsia 1
-    Silicone Case Samsung A14 Fucsia 1
+    Silicone Case Samsung A03 Core Fucsia 1 ok
+    Silicone Case Samsung A14 Fucsia 1 ok
     Silicone Case Tecno Spark 10 Pro Lila 1 ok
-    Silicone Case Vivo Y18 Azulrey 1
+    Silicone Case Vivo Y18 Azulrey 1 ok
     Smart Watch Gw-20 Verdemilitar 2 ok
-    Vidrio 5D Xiaomi Redmi Note 13 4G 5
-    Vidrio Camara Apple Iphone 13 10
-    Vidrio Camara Apple Iphone 13 Pro Max 15
-    Vidrio Camara Apple Iphone 14 Pro 15
+    Vidrio 5D Xiaomi Redmi Note 13 4G 5 ok
+    Vidrio Camara Apple Iphone 13 10 ok
+    Vidrio Camara Apple Iphone 13 Pro Max 15 ok
+    Vidrio Camara Apple Iphone 14 Pro 15 ok
     Forro Lujo Ventana Apple Iphone 14 Pro Negro 1
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
