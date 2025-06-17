@@ -1,6 +1,8 @@
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Pacha Samsung A21S 1
-    Pacha Tecno / Infinix Camon 18P / 19 1
-    Pacha Samsung A30 / A50 1
+    Pacha Samsung A21S 1 ok
+    Pacha Tecno / Infinix Camon 18P / 19 1 ok
+    Pacha Samsung A30 / A50 1 ok
+    Pacha Motorola Moto E30 / E40 2 ok
+    Bateria Apple Iphone 11 Generica 1 ok
