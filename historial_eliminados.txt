@@ -4089,3 +4089,99 @@ Línea  | Contenido
     2 | # Pedido: pdst
     3 | # Pedido: pdst
     4 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-06-17 07:18:41
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 21
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  195 | Adaptador Otg Tc Cable 5 ok
+  199 | Cargador Yl Tc 1 ok
+  200 | Cargador Yl V8 1 ok
+  216 | Forro Armadura Huawei Honor X7B Negro 1 ok
+  218 | Forro Space Oppo A20 / A40 1 ok
+  219 | Forro Space Samsung A56 2 ok
+  228 | Power Bank Yoyos 20000 mah con Cables 1 ok
+  229 | Power Bank Yoyos 30000 mah con Cables 1 ok
+  231 | Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 1 ok
+  232 | Silicone Case Apple Iphone X / Xs Negro 1 ok
+  233 | Silicone Case Huawei Honor X7B Fucsia 1 ok
+  234 | Silicone Case Motorola Moto E20 Rosa 1 ok
+  236 | Silicone Case Samsung A03 Core Fucsia 1 ok
+  237 | Silicone Case Samsung A14 Fucsia 1 ok
+  238 | Silicone Case Tecno Spark 10 Pro Lila 1 ok
+  239 | Silicone Case Vivo Y18 Azulrey 1 ok
+  240 | Smart Watch Gw-20 Verdemilitar 2 ok
+  241 | Vidrio 5D Xiaomi Redmi Note 13 4G 5 ok
+  242 | Vidrio Camara Apple Iphone 13 10 ok
+  243 | Vidrio Camara Apple Iphone 13 Pro Max 15 ok
+  244 | Vidrio Camara Apple Iphone 14 Pro 15 ok
+
+==================================================
+Fecha de proceso: 2025-06-17 07:18:41
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-06-17 07:18:41
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Pacha Samsung A22 5G 1 ok
+    5 | Pacha Samsung A13 / M13 / M23 1 ok
+    6 | Caja de Timbres Motorola Moto G32 1 ok
+    7 | Bateria Apple Iphone 11 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-17 07:34:25
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 16
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-06-17 07:34:25
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-06-17 07:34:25
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst

@@ -1,8 +1,8 @@
     Aceitera El-093 0
     Adaptador Av2Hdmi 1
     Adaptador Av2Vga 0
-    Adaptador Bluetooth Car W Bt-X6 1
-    Adaptador Bluetooth Car X6 1
+    Adaptador Bluetooth Car W Bt-X6 0
+    Adaptador Bluetooth Car X6 0
     Adaptador Bluetooth Dongle Audio 0
     Adaptador Dpp2Hdmi Cbl 1
     Adaptador Dpp2Vga 0
@@ -584,7 +584,7 @@
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
     Manos Libres Samsugn Tipo Original Negro 5
-    Manos Libres Samsung Akg 5
+    Manos Libres Samsung Akg 0
     Manos Libres Samsung J5 Blanco 0
     Manos Libres Samsung J5 Negro 0
     Manos Libres Samsung S6 Blanco 4
@@ -1721,3 +1721,15 @@
     Forro Lujo Ventana Apple Iphone 14 Pro Negro 0
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 0
     Cable V3 1.5M 2
+    Audifonos Bluetooth Pro 2 Pantalla 0
+    Control Gamer Sony Ps4 Gta V 0
+    Forro Lujo Ventana Iphone 13 Pro Max Negro 0
+    Forro Lujo Ventana Iphone 13 Pro Max Morado 0
+    Pacha Tecno / Infinix Camon 18P / 19 0
+    Silicone Case Samsung A24 Negro 0
+    Vidrio 5D Samsung A24 0
+    Vidrio Tortuga Samsugn A24 0
+    Vidrio Blindado Samsung A24 0
+    Vidrio Antiespia Samsung A24 0
+    Vidrio Antiespia Huawei Honor X8B 0
+    Vidrio 5D Samsung A21S 0
