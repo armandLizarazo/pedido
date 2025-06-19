@@ -167,7 +167,7 @@
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
     Cargador 12V 2A Doble Punta 3
-    Cargador 5V 2A Doble Punta 1
+    Cargador 5V 2A Doble Punta 3
     Cargador 9V 2A Doble Punta 3
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
@@ -584,9 +584,9 @@
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
     Manos Libres Samsugn Tipo Original Negro 5
-    Manos Libres Samsung Akg 0
-    Manos Libres Samsung J5 Blanco 0
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung Akg 5
+    Manos Libres Samsung J5 Blanco 5
+    Manos Libres Samsung J5 Negro 5
     Manos Libres Samsung S6 Blanco 4
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 5
@@ -1453,7 +1453,7 @@
     Simcard Wom 0
     Smart Tv Tg 43 Pulgadas 0
     Smart Watch Combo X8 0
-    Smart Watch Gw-20 Verdemilitar 0
+    Smart Watch Gw-20 Verdemilitar 1
     Smart Watch I525 Mini Rosa 0
     Smartphone Infinix Smart 9 128/6 Gris 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 0
@@ -1467,7 +1467,7 @@
     Soporte Techo Tv 26-55 Pulgadas 0
     Soporte Tv 32 -60 L400 2
     Soporte Tv 32 Brazo 1
-    Soporte Tv 50 Brazo 1
+    Soporte Tv 50 Brazo 0
     Soporte Tv 50 Brazo Thor 70Kg 0
     Tactil Tableta 10 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
@@ -1733,3 +1733,29 @@
     Vidrio Antiespia Samsung A24 0
     Vidrio Antiespia Huawei Honor X8B 0
     Vidrio 5D Samsung A21S 0
+    Balaca Ipega Militar 0
+    Celular Corn Rs10 0
+    Control Gamer Sony Ps4 Rojo 0
+    Control Gamer Sony Ps4 Blanco 0
+    Control Gamer Sony Ps4 Azul 0
+    Flex de Carga Xiaomi Redmi Note 10 / Note 10s 0
+    Forro Space Oppo A80 0
+    Pacha Oppo Realme C11 2021 0
+    Parlante Teatro Tg Tg-100 0
+    Silicone Case Apple Iphone 15 Pro Max Rosa 0
+    Silicone Case Oppo Realme C75 Amarillo 0
+    Forro Diseños Oppo Realme C75 Dama 0
+    Forro Diseños Oppo Realme C75 Caballero 0
+    Forro Space Oppo Realme C75 0
+    Silicone Case Samsung A02s Rosa 0
+    Silicone Case Xiaomi Redmi Note 11 Morado 0
+    Vidrio Antiespia Apple Iphone 16 Pro Max 0
+    Vidrio Ceramico Xiaomi Redmi 12 0
+    Vidrio 5d Motorola Moto E30 / E40 0
+    Vidrio Ceramico Motorola Moto G60 0
+    Forro Space Xiaomi Mi 11T Pro 0
+    Visor Camara Principal Huawei Honor X7B 0
+    Pacha Tecno / Infinix Smart 6 0
+    Bateria Xiaomi Mi11T Pro 0
+    Malla de Desoldar 0
+    Bateria Infinix Smart 6 0

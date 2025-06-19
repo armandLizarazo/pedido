@@ -1,3 +1,24 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
@@ -198,7 +219,6 @@
     Forro Antichoque Huawei X6 / X6s Caballero 3
     Forro Antichoque Oppo A80 Caballero 2
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 1 ok
     Forro Armadura Tecno Spark 30C Rojo 1
     Manos Libres Speak TC 1
     Mouse Gamer Inalambrico Eco 2
@@ -226,16 +246,25 @@
     Adaptador Bluetooth Car X6 2
     Audifonos Bluetooth Pro 2 Pantalla 1
     Control Gamer Sony Ps4 Gta V 1
-    Forro Lujo Ventana Iphone 13 Pro Max Negro 1 ok
-    Forro Lujo Ventana Iphone 13 Pro Max Morado 1 ok
-    Manos Libres Samsung J5 Negro 5 ok
-    Manos Libres Samsung Akg 5 ok
-    Manos Libres Samsung J5 Blanco 5 ok
-    Silicone Case Samsung A24 Negro 1 ok
-    Vidrio 5D Samsung A24 5 ok
     Vidrio Tortuga Samsugn A24 5
-    Vidrio Blindado Samsung A24 5 ok
-    Vidrio Antiespia Samsung A24 5 ok
-    Vidrio Antiespia Huawei Honor X8B 5 ok
-    Vidrio 5D Samsung A53 5 ok
-    Vidrio 5D Samsung A21S 5 ok
+    Audifonos Bluetooth I12 Negro 2
+    Audifonos Bluetooth W I12 Blanco 2
+    Audifonos Bluetooth W I12 Rosa 2
+    Celular Corn Rs10 2
+    Forro Space Oppo A80 2
+    Silicone Case Apple Iphone 13 Pro Negro 1
+    Silicone Case Apple Iphone 15 Pro Max Rosa 1
+    Silicone Case Oppo Realme C75 Amarillo 1
+    Forro Diseños Oppo Realme C75 Dama 5
+    Forro Diseños Oppo Realme C75 Caballero 5
+    Forro Space Oppo Realme C75 2
+    Silicone Case Samsung A02s Rosa 1
+    Silicone Case Xiaomi Mi 11T Rojo 1
+    Silicone Case Xiaomi Redmi Note 11 Morado 1
+    Vidrio Antiespia Apple Iphone 16 Pro Max 5
+    Vidrio Ceramico Xiaomi Redmi 12 10
+    Vidrio 5d Motorola Moto E30 / E40 10
+    Vidrio 5D Samsung A12 10
+    Vidrio Ceramico Motorola Moto G60 10
+    Vidrio 5D Samsung A21S 5
+    Forro Space Xiaomi Mi 11T Pro 2

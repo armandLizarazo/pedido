@@ -17,7 +17,6 @@
     Lampara Esfera Sistema Solar 1
     Parlante Gts-1560 1
     Reproductor Alexa Reloj 1
-    Reproductor Tv Stick Watch Om 2 ok
     Rollo Cinta Led Con Bluetooth 3
     Rollo Cinta Led Rgb 10M 2
     Soporte Monitor Mesa 1
@@ -28,6 +27,10 @@
     Audifonos Bluetooth M25 3
     Adaptador Europeo Goma 5
     Cable Auxiliar 2 A 1 1.5M 3
-    Cable V8 Eco 5 ok
-    Parlante Gts-1372 4 ok
     Aro De Luz 45Cm 2
+    Balaca Ipega Militar 1
+    Control Gamer Sony Ps4 Rojo 1
+    Control Gamer Sony Ps4 Blanco 1
+    Control Gamer Sony Ps4 Azul 1
+    Parlante Teatro Tg Tg-100 2
+    Soporte Tv 50 Brazo 3

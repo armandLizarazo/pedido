@@ -4185,3 +4185,98 @@ Línea  | Contenido
     1 | # Pedido: pdst
     2 | # Pedido: pdst
     3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-06-18 23:28:23
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  201 | Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 1 ok
+  229 | Forro Lujo Ventana Iphone 13 Pro Max Negro 1 ok
+  230 | Forro Lujo Ventana Iphone 13 Pro Max Morado 1 ok
+  231 | Manos Libres Samsung J5 Negro 5 ok
+  232 | Manos Libres Samsung Akg 5 ok
+  233 | Manos Libres Samsung J5 Blanco 5 ok
+  234 | Silicone Case Samsung A24 Negro 1 ok
+  235 | Vidrio 5D Samsung A24 5 ok
+  237 | Vidrio Blindado Samsung A24 5 ok
+  238 | Vidrio Antiespia Samsung A24 5 ok
+  239 | Vidrio Antiespia Huawei Honor X8B 5 ok
+  240 | Vidrio 5D Samsung A53 5 ok
+  241 | Vidrio 5D Samsung A21S 5 ok
+
+==================================================
+Fecha de proceso: 2025-06-18 23:28:23
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   20 | Reproductor Tv Stick Watch Om 2 ok
+   31 | Cable V8 Eco 5 ok
+   32 | Parlante Gts-1372 4 ok
+
+==================================================
+Fecha de proceso: 2025-06-18 23:28:23
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Pacha Samsung A21S 1 ok
+    5 | Pacha Tecno / Infinix Camon 18P / 19 1 ok
+    6 | Pacha Samsung A30 / A50 1 ok
+    7 | Pacha Motorola Moto E30 / E40 2 ok
+    8 | Bateria Apple Iphone 11 Generica 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-18 23:47:44
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-06-18 23:47:44
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-06-18 23:52:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-06-18 23:52:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
