@@ -15,7 +15,6 @@
     Control Gamer Microsoft Pc Tipo 360 3
     Control Gamer Ps2 Inalambrico 1
     Lampara Esfera Sistema Solar 1
-    Parlante Gts-1560 1
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Con Bluetooth 3
     Rollo Cinta Led Rgb 10M 2
@@ -25,12 +24,12 @@
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
     Audifonos Bluetooth M25 3
-    Adaptador Europeo Goma 5
-    Cable Auxiliar 2 A 1 1.5M 3
+    Adaptador Europeo Goma 3 ok
+    Cable Auxiliar 2 A 1 1.5M 3 ok
     Aro De Luz 45Cm 2
     Balaca Ipega Militar 1
-    Control Gamer Sony Ps4 Rojo 1
-    Control Gamer Sony Ps4 Blanco 1
-    Control Gamer Sony Ps4 Azul 1
-    Parlante Teatro Tg Tg-100 2
+    Control Gamer Sony Ps4 Rojo 1 ok
+    Control Gamer Sony Ps4 Blanco 1 ok
+    Control Gamer Sony Ps4 Azul 1 ok
+    Parlante Teatro Tg Tg-100 2 ok
     Soporte Tv 50 Brazo 3
