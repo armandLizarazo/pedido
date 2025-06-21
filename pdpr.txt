@@ -31,5 +31,9 @@
     Control Gamer Sony Ps4 Rojo 1 ok
     Control Gamer Sony Ps4 Blanco 1 ok
     Control Gamer Sony Ps4 Azul 1 ok
-    Parlante Teatro Tg Tg-100 2 ok
-    Soporte Tv 50 Brazo 3
+    Parlante Teatro Tg Tg-100 2 
+    Soporte Tv 50 Brazo 3 ok
+    Cinta Led 2 Rollos 5
+    Cable Rca 3 a 3 1.5m 3
+
+
