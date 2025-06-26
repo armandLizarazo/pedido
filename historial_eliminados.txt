@@ -4280,3 +4280,96 @@ Línea  | Contenido
     3 | # Pedido: pdst
     4 | # Pedido: pdst
     5 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-06-24 11:22:35
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 38
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   73 | Forro Armadura Samsung S23 Negro 1 ok
+   75 | Forro Armadura Samsung S23 Rojo 1 ok
+  247 | Audifonos Bluetooth Pro 2 Pantalla 1 ok
+  248 | Control Gamer Sony Ps4 Gta V 1 ok
+  250 | Audifonos Bluetooth I12 Negro 1 ok
+  262 | Silicone Case Xiaomi Mi 11T Rojo 1 ok
+  263 | Silicone Case Xiaomi Redmi Note 11 Morado 1 ok
+  264 | Vidrio Antiespia Apple Iphone 16 Pro Max 5 ok
+  266 | Vidrio 5d Motorola Moto E30 / E40 10 ok
+  267 | Vidrio 5D Samsung A12 10 ok
+  268 | Vidrio Ceramico Motorola Moto G60 10 ok
+  269 | Vidrio 5D Samsung A21S 5 ok
+  270 | Forro Space Xiaomi Mi 11T Pro 2 ok
+  271 | Forro Antichoque Motorola Moto E22 Dama 3 ok
+  274 | Forro Soace Motorola Moto G05 1 ok
+  275 | Silicone Case Samsung A21s Fucsia 1 ok
+  279 | Silicone Case Infinix Note 40 Pro Palo Rosa 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-24 11:22:35
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Audifonos Bluetooth M60 3 ok
+   11 | Conectores Rj45 10 ok
+   26 | Audifonos Bluetooth M25 3 ok
+   27 | Adaptador Europeo Goma 3 ok
+   28 | Cable Auxiliar 2 A 1 1.5M 3 ok
+   30 | Balaca Ipega Militar 1 ok
+   31 | Control Gamer Sony Ps4 Rojo 1 ok
+   32 | Control Gamer Sony Ps4 Blanco 1 ok
+   33 | Control Gamer Sony Ps4 Azul 1 ok
+   34 | Parlante Teatro Tg Tg-100 3 ok
+   35 | Soporte Tv 50 Brazo 3 ok
+   36 | Cinta Led 2 Rollos 5 ok
+   37 | Cable Rca 3 a 3 1.5m 3 ok
+
+==================================================
+Fecha de proceso: 2025-06-24 11:22:35
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Flex de Carga Xiaomi Redmi Note 10 / Note 10s 2 ok
+    5 | Pacha Oppo Realme C11 2021 1 ok
+    6 | Pacha Vivo Y51 / Y53S 1 ok
+    7 | Visor Camara Principal Huawei Honor X7B 2 ok
+    8 | Pacha Tecno / Infinix Smart 6 1 ok
+   10 | Malla de Desoldar 1 ok
+   12 | Bateria Samsung A11 1 ok
+   13 | Tapa Samsung A11 Azul 1 ok
+   14 | Pacha Xiaomi Redmi 13C 1 ok
+   15 | Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok
+   16 | Pacha Xiaomi Redmi Note 7 2 ok
+   17 | Logica de Carga Tecno Spark 20 1 ok
+   19 | Tapa Xiaomi Redmi Note 11 Azulescarcha 1 ok
+   20 | Tapa Samsung 22 4G Verde 1 ok
+   21 | Pacha Samsung A22 4G 2 ok

@@ -16,9 +16,6 @@
 # Pedido: pdcentro
 # Pedido: pdcentro
 # Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
@@ -70,9 +67,7 @@
     Forro Armadura Redmi Note 10 5G Negro 1
     Forro Armadura Samsung A15 Negro 1
     Forro Armadura Samsung A15 Rojo 1
-    Forro Armadura Samsung S23 Negro 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Forro Armadura Samsung S23 Rojo 1 ok
     Forro Armadura Tecno Spark 30 Pro Rojo 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
@@ -244,10 +239,7 @@
     Forro Lujo Ventana Apple Iphone 14 Pro Negro 1
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
     Adaptador Bluetooth Car X6 2
-    Audifonos Bluetooth Pro 2 Pantalla 1 ok
-    Control Gamer Sony Ps4 Gta V 1 ok
     Vidrio Tortuga Samsugn A24 5
-    Audifonos Bluetooth I12 Negro 1 ok
     Audifonos Bluetooth W I12 Blanco 2
     Audifonos Bluetooth W I12 Rosa 2
     Celular Corn Rs10 2
@@ -259,22 +251,28 @@
     Forro Diseños Oppo Realme C75 Caballero 5
     Forro Space Oppo Realme C75 2
     Silicone Case Samsung A02s Rosa 1
-    Silicone Case Xiaomi Mi 11T Rojo 1 ok
-    Silicone Case Xiaomi Redmi Note 11 Morado 1 ok
-    Vidrio Antiespia Apple Iphone 16 Pro Max 5 ok
     Vidrio Ceramico Xiaomi Redmi 12 10 
-    Vidrio 5d Motorola Moto E30 / E40 10 ok
-    Vidrio 5D Samsung A12 10 ok
-    Vidrio Ceramico Motorola Moto G60 10 ok
-    Vidrio 5D Samsung A21S 5 ok
-    Forro Space Xiaomi Mi 11T Pro 2 ok
-    Forro Antichoque Motorola Moto E22 Dama 3 ok
     Forro Armadura Huawei Honor Magic 5 Lite Rojo 1
     Forro Armadura Samsung A16 Negro 1
-    Forro Soace Motorola Moto G05 1 ok
-    Silicone Case Samsung A21s Fucsia 1 ok
     Silicone Case Vivo Y11s / Y20 / Y20s Amarillo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G Fucsia 1
     Silicone Cese Xiaomi Redmi Note 13 4G Negro 1
-    Silicone Case Infinix Note 40 Pro Palo Rosa 1 ok
  
+    Cable Royal Tc 2M 5
+    Forro Armadura Motorola Moto G22 Rojo 1
+    Forro Space Samsung A22 5G 1
+    Memoria Micro Sandisk 64Gb 1
+    Silicone Case Infinix Hot 50 Pro Plus Fucsia 1
+    Silicone Case Xiaomi Mi 11 Lite Amarillo 1
+    Silicone Case Xiaomi Redmi 14C Rojo 1
+    Vidrio 5D Samsung A15 10
+    Vidrio Antiespia Apple Iphone 13 5
+    Forro Antichoque Tecno Spark Go 2025 / Go 1s Dama 5
+    Cable Belkin Tc 5
+    Adaptador Otg Tc 5
+    Audifonos Bluetooth Pro 2 Pantalla 1
+    Cable Tc Eco 5
+    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
+    Vidrio Antiespia Tecno Spark 20c 5
+    Vidrio Camara Xiaomi Redmi 13 15
+    Vidrio Camara Xiaomi Redmi 13C 15

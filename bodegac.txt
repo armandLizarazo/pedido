@@ -5,8 +5,8 @@
     Adaptador Bluetooth Car X6 0
     Adaptador Bluetooth Dongle Audio 0
     Adaptador Dpp2Hdmi Cbl 1
-    Adaptador Dpp2Vga 0
-    Adaptador Dpp2Vga Cbl 0
+    Adaptador Dpp2Vga 1
+    Adaptador Dpp2Vga Cbl 1
     Adaptador Dvi2Vga 0
     Adaptador Europeo Goma 2
     Adaptador Ext Hdmi 3
@@ -51,7 +51,7 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 0
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
     Audifonos Bluetooth I12 Negro 0
-    Audifonos Bluetooth M25 1
+    Audifonos Bluetooth M25 2
     Audifonos Bluetooth M60 0
     Audifonos Bluetooth Pro 60 2
     Audifonos Bluetooth Royal Sports 1
@@ -108,7 +108,7 @@
     Cable Auxiliar 3 A 1 3M 2
     Cable Belkin Ligthning 3
     Cable Belkin Tc 2M 2
-    Cable Belkin Tc 4
+    Cable Belkin Tc 0
     Cable Belkin V8 5
     Cable Caterpillar Tc 0
     Cable Caterpillar Usb Ligthning 2
@@ -128,13 +128,13 @@
     Cable Optico 1.5M 2
     Cable Optico 3M 2
     Cable Poder Cuadrado 2
-    Cable Poder Grabadora 3
+    Cable Poder Grabadora 0
     Cable Poder Trebol 5
     Cable Rca 3 A 1 1.5M 1
     Cable Rca 3 A 3 1.5M 1
     Cable Rca 3 A 3 3M 2
     Cable Royal Tc 0
-    Cable Royal Tc 2M 1
+    Cable Royal Tc 2M 0
     Cable Royal V8 2M 0
     Cable Samsung Tc A Tc Blanco 0
     Cable Samsung Tc A Tc Negro 0
@@ -147,7 +147,7 @@
     Cable Usb Ligthning Eco 5
     Cable Usb Plug Ancho 0
     Cable V3 Eco 5
-    Cable V8 Eco 0
+    Cable V8 Eco 5
     Cable We Tc 0
     Cable We Tc Eco 2
     Cable Xiaomi Tc A Tc 0
@@ -167,7 +167,7 @@
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
     Cargador 12V 2A Doble Punta 3
-    Cargador 5V 2A Doble Punta 3
+    Cargador 5V 2A Doble Punta 2
     Cargador 9V 2A Doble Punta 3
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
@@ -453,7 +453,7 @@
     Forro Space Motorola Moto G54 1
     Forro Space Motorola Moto G60S 1
     Forro Space Motorola Moto G84 2
-    Forro Space Oppo A20 / A40 1
+    Forro Space Oppo A20 / A40 2
     Forro Space Oppo A57 / A77 2
     Forro Space Oppo A78 4
     Forro Space Oppo A79 0
@@ -674,10 +674,9 @@
     Pacha Tecno Pop 5 Lite / Go 2022 0
     Pacha Tecno Pop 7 / Hot 30 Play 0
     Pacha Tecno Saprk Go 2023 / Pop 5 Lite 0
-    Pacha Tecno Spark 10 Pro / Hot 30 0
+    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 0
     Pacha Tecno Spark Go 2023 0
     Pacha Tecno Spark Go 2024 / 20C 0
-    Pacha Tecno Spark Go 2024 0
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Vivo Y30 / Y50 0
@@ -768,10 +767,10 @@
     Reproductor Tdt Krono Kr-365 5
     Reproductor Tv Stick Magis 0
     Reproductor Tv Stick Watch Om 0
-    Rollo Cinta Led Con Bluetooth 0
+    Rollo Cinta Led Rgb Con Bluetooth 0
     Rollo Cinta Led Rgb 10M 0
     Rollo Cinta Led Rgb Sencilla 0
-    Rollo Cinta Led Sencilla 0
+    Rollo Cinta Led Rgb Usb 0
     Secador Remington 2003 0
     Servicio Tecnico 5
     Silcione Case Xiaomi Redmi 13 Rojo 0
@@ -1467,8 +1466,7 @@
     Soporte Techo Tv 26-55 Pulgadas 0
     Soporte Tv 32 -60 L400 2
     Soporte Tv 32 Brazo 1
-    Soporte Tv 50 Brazo 0
-    Soporte Tv 50 Brazo Thor 70Kg 0
+    Soporte Tv 50 Brazo 2
     Tactil Tableta 10 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
     Tapa Huawei Nova 9Se Negro 0
@@ -1694,8 +1692,8 @@
     Forro Antichoque Vivo Y33S Dama 0
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 0
     Forro Antichoque Xiaomi Redmi A1 / A2 Dama 0
-    Forro Armadura Huawei Honor X7B Negro 0
-    Forro Space Samsung A56 0
+    Forro Armadura Huawei Honor X7B Negro 1
+    Forro Space Samsung A56 1
     Forro Space Vivo V40 Lite 0
     Silicone Case Vivo V40 Lite Negro 0
     Silicone Case Vivo V40 Lite Rojo 0
@@ -1713,7 +1711,7 @@
     Silicone Case Motorola Moto E20 Rosa 0
     Silicone Case Motorola Moto G31 Lila 0
     Silicone Case Samsung A03 Core Fucsia 0
-    Silicone Case Samsung A14 Fucsia 0
+    Silicone Case Samsung A14 Fucsia 1
     Silicone Case Vivo Y18 Azulrey 0
     Vidrio Camara Apple Iphone 13 0
     Vidrio Camara Apple Iphone 13 Pro Max 0
@@ -1759,3 +1757,23 @@
     Bateria Xiaomi Mi11T Pro 0
     Malla de Desoldar 0
     Bateria Infinix Smart 6 0
+    Forro Armadura Motorola Moto G22 Rojo 0
+    Forro Space Samsung A22 5G 0
+    Memoria Micro Sandisk 64Gb 0
+    Mouse Gamer Xmg-02 Inalambrico 0
+    Pacha Samsung A15 0
+    Silicone Case Infinix Hot 50 Pro Plus Fucsia 0
+    Silicone Case Xiaomi Mi 11 Lite Amarillo 0
+    Teclado Mecanico Gamer 0
+    Vidrio Antiespia Apple Iphone 13 0
+    Forro Space Oppo A40 1
+    Soporte TV 32 - 60 Brazo 2
+    Rollo Cinta Led Rgb 5 + 5 m Bluetooth 3
+    Logica de Carga Motorola Moto G32 0
+    Forro Antichoque Tecno Spark Go 2025 / Go 1s Dama 0
+    Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
+    Logica de Carga Samsung A03s 0
+    Adaptador Otg Tc 0
+    Cable Lan 10M Cat 6 0
+    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 0
+    Vidrio Antiespia Tecno Spark 20c 0
