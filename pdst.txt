@@ -12,11 +12,11 @@
     Bateria Xiaomi Mi11T Pro 1
     Bateria Infinix Smart 6 1
     Pacha Lg G Stylus 1
-    Pacha Samsung A15 1
-    Logica de Carga Motorola Moto G32 1
-    Pacha Xiaomi Redmi 13C 2
-    Logica De Carga Xiaomi Redmi Note 9 1
-    Pacha Xiaomi Redmi 9A / 9C / 10A 2
-    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1
-    Pacha Tecno Spark Go 2022 / Pop 5 Lite 1
-    Logica de Carga Samsung A03s 1
+    Pacha Samsung A15 1 ok
+    Logica de Carga Motorola Moto G32 1 ok
+    Pacha Xiaomi Redmi 13C 2 ok
+    Logica De Carga Xiaomi Redmi Note 9 1 ok
+    Pacha Xiaomi Redmi 9A / 9C / 10A 2 ok
+    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+    Pacha Tecno Spark Go 2022 / Pop 5 Lite 1 ok
+    Logica de Carga Samsung A03s 1 ok
