@@ -25,12 +25,12 @@
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
     Antena Tdt 1.5M 5 ok
-    Adaptador Hdmi2Av 2 ok
+    Adaptador Hdmi2Av 2
     Cable Rca 3 A 3 1.5M 3 ok
-    Consola Game Stick 2
-    Control Gamer X3 2
+    Consola Game Stick 2 ok
+    Control Gamer X3 2 ok
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
     Cargador Pc 9 Pines Caja Amarillo 1 ok
-    Memoria Musica Carrilera 2
-    Reproductor Proyector Caja Roja 2
+    Memoria Musica Carrilera 2 ok
+    Reproductor Proyector Caja Roja 2 ok
