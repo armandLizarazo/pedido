@@ -42,7 +42,7 @@
     Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
     Forro Antichoque Xiaomi Redmi Note 9S Caballero 3
     Forro Antichoque Xiaomi Redmi Note 9S Dama 3
-    Forro Armadura Samsung A54 Negro 1
+    Forro Armadura Samsung A54 Negro 1 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 11 Negro 1
@@ -230,7 +230,7 @@
     Forro Armadura Oppo A57 Negro 1
     Silicone Case Huawei Honor X5B Negro 2 ok
     Silicone Case Oppo Realme C75 Fucsia 1
-    Silicone Case Samsung A03s Lila 1
+    Silicone Case Samsung A03s Lila 1 ok
     Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
     Forro Antichoque Samsung A06 Dama 5 ok
     Audifonos Bluetooth Conduccion Osea B-18 1 ok
@@ -239,8 +239,8 @@
     Forro Space Oppo Reno 7 1 ok
     Forro Space Xiaomi Mi12 Lite 2 ok
     Memoria Musica Rock en Ingles 2
-    Silicone Case Huawei Honor X6 / X6S Negro 1
+    Silicone Case Huawei Honor X6 / X6S Negro 1 ok
     Silicone Case Huawei Honor X5B Rojo 1
     Forro Space Huawei Honor X5B 2
-    Silicone Case Samsung A30S / A50 Rojo 1
+    Silicone Case Samsung A20 / A30 Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
