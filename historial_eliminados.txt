@@ -4373,3 +4373,211 @@ Línea  | Contenido
    19 | Tapa Xiaomi Redmi Note 11 Azulescarcha 1 ok
    20 | Tapa Samsung 22 4G Verde 1 ok
    21 | Pacha Samsung A22 4G 2 ok
+
+==================================================
+Fecha de proceso: 2025-06-26 09:20:33
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 44
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   61 | Forro Armadura Motorola Moto G24 Negro 1 ok
+   68 | Forro Armadura Samsung A15 Negro 1 ok
+   85 | Forro Space Apple Iphone 11 1 ok
+  224 | Adaptador Bluetooth Dongle Audio 3 ok
+  225 | Forro Antichoque Xiaomi Redmi Note 12 Dama 5 ok
+  226 | Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 3 ok
+  227 | Forro Antichoque Xiaomi Redmi A1 / A2 Dama 3 ok
+  241 | Adaptador Bluetooth Car X6 2 ok
+  243 | Audifonos Bluetooth W I12 Blanco 2 ok
+  244 | Audifonos Bluetooth W I12 Rosa 2 ok
+  245 | Celular Corn Rs10 2 ok
+  254 | Vidrio Ceramico Xiaomi Redmi 12 10 ok
+  255 | Forro Armadura Huawei Honor Magic 5 Lite Rojo 1 ok
+  256 | Forro Armadura Samsung A16 Negro 1 ok
+  259 | Silicone Cese Xiaomi Redmi Note 13 4G Negro 1 ok
+  262 | Forro Armadura Motorola Moto G22 Rojo 1 ok
+  264 | Memoria Micro Sandisk 64Gb 1 ok
+  266 | Silicone Case Xiaomi Mi 11 Lite Amarillo 1 ok
+  268 | Vidrio 5D Samsung A15 10 ok
+  269 | Vidrio Antiespia Apple Iphone 13 5 ok
+  270 | Forro Antichoque Tecno Spark Go 2025 / Go 1s Dama 5 ok
+  271 | Cable Belkin Tc 5 ok
+  272 | Adaptador Otg Tc 5 ok
+  273 | Audifonos Bluetooth Pro 2 Pantalla 1 ok
+  274 | Cable Tc Eco 5 ok
+  276 | Vidrio Antiespia Tecno Spark 20c 5 ok
+
+==================================================
+Fecha de proceso: 2025-06-26 09:20:33
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+   31 | Consola R26s 1 ok
+   32 | Cable Poder Grabadora 5 ok
+   33 | Mouse Gamer G-930 1 ok
+   36 | Cable Lan 10M Cat 6 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-26 09:20:33
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 16
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+   15 | Pacha Samsung A15 1 ok
+   16 | Logica de Carga Motorola Moto G32 1 ok
+   17 | Pacha Xiaomi Redmi 13C 2 ok
+   18 | Logica De Carga Xiaomi Redmi Note 9 1 ok
+   19 | Pacha Xiaomi Redmi 9A / 9C / 10A 2 ok
+   20 | Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+   21 | Pacha Tecno Spark Go 2022 / Pop 5 Lite 1 ok
+   22 | Logica de Carga Samsung A03s 1 ok
+
+==================================================
+Fecha de proceso: 2025-06-26 09:29:30
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  227 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-06-26 09:29:30
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   25 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-06-26 09:29:30
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-06-26 16:43:40
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-06-26 16:43:40
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-06-26 16:43:40
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-06-28 07:03:34
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 16
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-06-28 07:03:34
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+    9 | # Pedido: pdpr
+   10 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-06-28 07:03:34
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst
+   10 | # Pedido: pdst
+   11 | # Pedido: pdst

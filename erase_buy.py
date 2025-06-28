@@ -5,6 +5,7 @@ def eliminar_lineas_ok(nombre_archivo):
     Elimina las líneas que:
     1. Comienzan con 4 espacios Y terminan con ' ok'
     2. Comienzan con '#'
+    3. Son líneas en blanco
     Y genera un informe con historial de los elementos eliminados
     """
     try:
@@ -20,10 +21,12 @@ def eliminar_lineas_ok(nombre_archivo):
         
         # Procesar cada línea
         for numero_linea, linea in enumerate(lineas, 1):
-            # Condición actualizada: elimina líneas ' ok' o las que empiezan con '#'
-            if (linea.startswith('    ') and linea.rstrip().endswith(' ok')) or linea.strip().startswith('#'):
+            # Condición actualizada: elimina líneas ' ok', las que empiezan con '#', o las que están en blanco
+            if (linea.startswith('    ') and linea.rstrip().endswith(' ok')) or linea.strip().startswith('#') or not linea.strip():
                 # Guardar la línea eliminada y su número
-                eliminados.append((numero_linea, linea.strip()))
+                # Para líneas en blanco, mostramos un texto descriptivo
+                contenido_eliminado = linea.strip() if linea.strip() else "[Línea en blanco]"
+                eliminados.append((numero_linea, contenido_eliminado))
                 contador_eliminados += 1
             else:
                 resultado.append(linea)
@@ -98,8 +101,10 @@ if __name__ == "__main__":
         try:
             with open(nombre, 'x', encoding='utf-8') as f:
                 f.write("# Esto es una línea de comentario.\n")
+                f.write("\n") # Línea en blanco para eliminar
                 f.write("Esta línea se debe conservar.\n")
                 f.write("    task one ok\n")
+                f.write("\n") # Otra línea en blanco
                 f.write("    # Otro comentario con espacios.\n")
                 f.write("    task two not ok\n")
             print(f"Archivo de prueba '{nombre}' creado.")

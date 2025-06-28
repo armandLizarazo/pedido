@@ -1,22 +1,15 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
+    Bateria Infinix Smart 6 1
+    Bateria Xiaomi Mi11T Pro 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
+    Pacha Lg G Stylus 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Bateria Xiaomi Mi11T Pro 1
-    Bateria Infinix Smart 6 1
-    Pacha Lg G Stylus 1
-    Pacha Samsung A15 1 ok
-    Logica de Carga Motorola Moto G32 1 ok
-    Pacha Xiaomi Redmi 13C 2 ok
-    Logica De Carga Xiaomi Redmi Note 9 1 ok
-    Pacha Xiaomi Redmi 9A / 9C / 10A 2 ok
-    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
-    Pacha Tecno Spark Go 2022 / Pop 5 Lite 1 ok
-    Logica de Carga Samsung A03s 1 ok
+    Bateria Samsung J2 Prime 1
+    Pacha Huawei Y9 Prime Full 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1
+    Pacha Huawei Y7A 1
+    Pacha Motorola Moto E7 Plus / G9 Play 1
+    Pacha Tecno Spark Go 2023 1
+    Pacha Xiaomi Redmi 13C 1
+    Pacha Xiaomi Redmi Note 12 1
+    Pacha Tecno / Infinix Pova 5 / Hot 30 Play 1
