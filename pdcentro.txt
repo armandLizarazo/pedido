@@ -233,7 +233,7 @@
     Silicone Case Huawei Honor X5B Rojo 1
     Forro Space Huawei Honor X5B 2
     Adaptador Apple Ligthning a 3.5 2
-    Adaptador Tc a 3.5 2
+    Adaptador Tc a 3.5 2 ok
     Forro Armadura Spark Go 2023 Rojo 1
     Forro Armadura Tecno Spark Go 2023 Negro 1
     Forro Armadura Samsung A15 Negro 1
@@ -243,15 +243,15 @@
     Silicone Case Apple Iphone 8 Blanco 1
     Silicone Case Huawei honor X5b Morado 1
     Silicone Case Huawei Honor X6 / X6s Lila 1
-    Silicone Case Oppo Reno 12 Pro Azulrey 1
+    Silicone Case Oppo Reno 12 Pro Azulrey 1 ok
     Silicone Case Samsung A15 Negro 1
     Silicone Case Samsung A16 Morado 1
     Silicone Case Samsung A70 Negro 1
     Silicone Case Samsung A70 Rojo 1
     Silicone Case Samsung A70 Fucsia 1
     Silicone Case Samsung A70 Lila 1
-    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
+    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1 ok
     Forro Antichoque Xiaomi Redmi A5 Dama 5
     Forro Antichoque Xiaomi Redmi A5 Caballero 5
     Forro Space Xiami Redmi A5 2
-    Simcard Wom 5
+    Simcard Wom 5 ok
