@@ -1,15 +1,28 @@
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
     Bateria Infinix Smart 6 1
     Bateria Xiaomi Mi11T Pro 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
     Pacha Lg G Stylus 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Bateria Samsung J2 Prime 1 ok
-    Pacha Huawei Y9 Prime Full 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Huawei Y7A 1 ok
-    Pacha Motorola Moto E7 Plus / G9 Play 1 ok
-    Pacha Tecno Spark Go 2023 1 ok
-    Pacha Xiaomi Redmi 13C 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
-    Pacha Tecno / Infinix Pova Neo 2 / Hot 30 Play 1 ok
+    Bandjea Sim Xiaomi Redmi Note 12 Verde 1
+    Pacha Samsung A24 Incell c/m 1
+    Bandeja Sim Xiaomi Redmi 13C 1
+    Bateria Bl5c 3
+    Flex de Power Samsung A10s 1
+    Flex de Volumen Samsung A10s 1
+    Pacha Motorola Moto One Fusion 1
+    Pacha Samsung A22 5G 1
+    Pacha Xiaomi Redmi 10C 1
+    Pacha Xiaomi Redmi 13C 1
+    Pacha Xiaomi Redmi Note 12 1

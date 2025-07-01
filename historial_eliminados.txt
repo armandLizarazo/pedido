@@ -4581,3 +4581,58 @@ Línea  | Contenido
     9 | # Pedido: pdst
    10 | # Pedido: pdst
    11 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-01 05:57:52
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   45 | Forro Armadura Samsung A54 Negro 1 ok
+  231 | Silicone Case Huawei Honor X5B Negro 2 ok
+  233 | Silicone Case Samsung A03s Lila 1 ok
+  234 | Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
+  235 | Forro Antichoque Samsung A06 Dama 5 ok
+  236 | Audifonos Bluetooth Conduccion Osea B-18 1 ok
+  237 | Cargador We Tc 5 ok
+  239 | Forro Space Oppo Reno 7 1 ok
+  240 | Forro Space Xiaomi Mi12 Lite 2 ok
+  242 | Silicone Case Huawei Honor X6 / X6S Negro 1 ok
+  245 | Silicone Case Samsung A20 / A30 Rojo 1 ok
+  246 | Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-01 05:57:52
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   27 | Antena Tdt 1.5M 5 ok
+   29 | Cable Rca 3 A 3 1.5M 3 ok
+   30 | Consola Game Stick 2 ok
+   31 | Control Gamer X3 2 ok
+   34 | Cargador Pc 9 Pines Caja Amarillo 1 ok
+   35 | Memoria Musica Carrilera 2 ok
+   36 | Reproductor Proyector Caja Roja 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-01 05:57:52
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Bateria Samsung J2 Prime 1 ok
+    8 | Pacha Huawei Y9 Prime Full 1 ok
+    9 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   10 | Pacha Huawei Y7A 1 ok
+   11 | Pacha Motorola Moto E7 Plus / G9 Play 1 ok
+   12 | Pacha Tecno Spark Go 2023 1 ok
+   13 | Pacha Xiaomi Redmi 13C 1 ok
+   14 | Pacha Xiaomi Redmi Note 12 1 ok
+   15 | Pacha Tecno / Infinix Pova Neo 2 / Hot 30 Play 1 ok

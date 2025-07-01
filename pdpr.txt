@@ -1,3 +1,13 @@
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Apuntador Diapositivas 1
@@ -24,13 +34,16 @@
     Teclado Mecanico Gamer 2
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
-    Antena Tdt 1.5M 5 ok
     Adaptador Hdmi2Av 2
-    Cable Rca 3 A 3 1.5M 3 ok
-    Consola Game Stick 2 ok
-    Control Gamer X3 2 ok
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
-    Cargador Pc 9 Pines Caja Amarillo 1 ok
-    Memoria Musica Carrilera 2 ok
-    Reproductor Proyector Caja Roja 2 ok
+    Adaptador Hdmi2dpp 3
+    Spliter Audio 1 Macho 2 Hembras 3
+    Cable Hdtv 2
+    Consola Game Stick 3
+    Control Gamer Microsoft Pc / 360 Cable 1
+    Plancha Remington Keratina 2
+    Gramera Joyeria 1
+    Bombillo Parlante 2
+    Pilas Recargables Beston AAA Con Cargador 2
+    Pilas Recargables Maxday AA x4 2

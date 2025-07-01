@@ -595,7 +595,7 @@
     Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Ukg Apple Iphone 11 Rojo 0
     Garantia Control Gamer Pc Sencillo 0
-    Gramera Joyeria 1
+    Gramera Joyeria 0
     Gramera Sencilla 1
     Guantes Gamer 7
     Huella Xiaomi Redmi 9T 0
@@ -1162,7 +1162,7 @@
     Silicone Case Samsung A14 Negro 0
     Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Lila 0
-    Silicone Case Samsung A15 Negro 2
+    Silicone Case Samsung A15 Negro 1
     Silicone Case Samsung A15 Rojo 3
     Silicone Case Samsung A15 Rosa 0
     Silicone Case Samsung A15 Verde 0
@@ -1793,3 +1793,35 @@
     Memoria Musica Carrilera 0
     Pacha Tecno / Infinix Pova 5 / Hot 30 Play 0
     Forro Space Huawei Honor X5B 0
+    Bandjea Sim Xiaomi Redmi Note 12 Verde 0
+    Pacha Samsung A24 Incell c/m 0
+    Adaptador Apple Ligthning a 3.5 0
+    Adaptador Hdmi2dpp 0
+    Spliter Audio 1 Macho 2 Hembras 0
+    Adaptador Tc a 3.5 0
+    Bandeja Sim Xiaomi Redmi 13C 0
+    Bateria Bl5c 0
+    Cable Hdtv 0
+    Plancha Remington Keratina 0
+    Flex de Power Samsung A10s 0
+    Flex de Volumen Samsung A10s 0
+    Forro Armadura Spark Go 2023 Rojo 0
+    Forro Armadura Tecno Spark Go 2023 Negro 0
+    Forro Armadura Xiaomi Redmi Note 13 4G Negro 0
+    Mouse Gamer Yoyos H-01 0
+    Bombillo Parlante 0
+    Pilas Recargables Beston AAA Con Cargador 0
+    Pilas Recargables Maxday AA x4 0
+    Pilas Recargables Sony AA con Cargador 0
+    Silicone Case Huawei honor X5b Morado 0
+    Silicone Case Huawei Honor X6 / X6s Lila 0
+    Silicone Case Oppo Reno 12 Pro Azulrey 0
+    Silicone Case Samsung A16 Morado 0
+    Silicone Case Samsung A70 Negro 0
+    Silicone Case Samsung A70 Rojo 0
+    Silicone Case Samsung A70 Fucsia 0
+    Silicone Case Samsung A70 Lila 0
+    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 0
+    Forro Antichoque Xiaomi Redmi A5 Dama 0
+    Forro Antichoque Xiaomi Redmi A5 Caballero 0
+    Forro Space Xiami Redmi A5 0

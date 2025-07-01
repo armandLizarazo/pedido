@@ -1,3 +1,26 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -42,7 +65,6 @@
     Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
     Forro Antichoque Xiaomi Redmi Note 9S Caballero 3
     Forro Antichoque Xiaomi Redmi Note 9S Dama 3
-    Forro Armadura Samsung A54 Negro 1 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 11 Negro 1
@@ -228,19 +250,31 @@
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
     Forro Armadura Oppo A57 Negro 1
-    Silicone Case Huawei Honor X5B Negro 2 ok
     Silicone Case Oppo Realme C75 Fucsia 1
-    Silicone Case Samsung A03s Lila 1 ok
-    Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
-    Forro Antichoque Samsung A06 Dama 5 ok
-    Audifonos Bluetooth Conduccion Osea B-18 1 ok
-    Cargador We Tc 5 ok
     Forro Armadura Samsung A06 Rojo 1
-    Forro Space Oppo Reno 7 1 ok
-    Forro Space Xiaomi Mi12 Lite 2 ok
     Memoria Musica Rock en Ingles 2
-    Silicone Case Huawei Honor X6 / X6S Negro 1 ok
     Silicone Case Huawei Honor X5B Rojo 1
     Forro Space Huawei Honor X5B 2
-    Silicone Case Samsung A20 / A30 Rojo 1 ok
-    Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
+    Adaptador Apple Ligthning a 3.5 2
+    Adaptador Tc a 3.5 2
+    Forro Armadura Spark Go 2023 Rojo 1
+    Forro Armadura Tecno Spark Go 2023 Negro 1
+    Forro Armadura Samsung A15 Negro 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Negro 1
+    Mouse Gamer Yoyos H-01 1
+    Pilas Recargables Sony AA con Cargador 1
+    Silicone Case Apple Iphone 8 Blanco 1
+    Silicone Case Huawei honor X5b Morado 1
+    Silicone Case Huawei Honor X6 / X6s Lila 1
+    Silicone Case Oppo Reno 12 Pro Azulrey 1
+    Silicone Case Samsung A15 Negro 1
+    Silicone Case Samsung A16 Morado 1
+    Silicone Case Samsung A70 Negro 1
+    Silicone Case Samsung A70 Rojo 1
+    Silicone Case Samsung A70 Fucsia 1
+    Silicone Case Samsung A70 Lila 1
+    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
+    Forro Antichoque Xiaomi Redmi A5 Dama 5
+    Forro Antichoque Xiaomi Redmi A5 Caballero 5
+    Forro Space Xiami Redmi A5 2
+    Simcard Wom 5
