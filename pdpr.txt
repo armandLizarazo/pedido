@@ -28,12 +28,12 @@
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
     Adaptador Hdmi2dpp 3
-    Spliter Audio 1 Macho 2 Hembras 3
+    Spliter Audio 1 Macho 2 Hembras 3 ok
     Cable Hdtv 2
-    Consola Game Stick 3
-    Control Gamer Microsoft Pc / 360 Cable 1
+    Consola Game Stick 3 ok
+    Control Gamer Microsoft Pc / 360 Cable 2 ok
     Plancha Remington Keratina 2
     Gramera Joyeria 1
-    Bombillo Parlante 2
+    Bombillo Parlante 2 ok
     Pilas Recargables Beston AAA Con Cargador 2
-    Pilas Recargables Maxday AA x4 2
+    Pilas Recargables Maxday AA x4 2 ok
