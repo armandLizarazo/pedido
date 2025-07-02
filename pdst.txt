@@ -5,9 +5,9 @@
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
     Bateria Bl5c 3
-    Pacha Samsung A21S 2
-    Flex De Carga Apple Iphone X 1
-    Logica De Carga Samsung A14 1
-    Pacha Xiaomi Redmi Note 10 Pro Amoled 1
-    Tapa Xiaomi Redmi Note 10 Pro Negro 1
-    Visor Camara Xiaomi Redmi Note 10 Pro 1
+    Pacha Samsung A21S 2 ok
+    Flex De Carga Apple Iphone X 1 ok
+    Logica De Carga Samsung A14 1 ok
+    Pacha Xiaomi Redmi Note 10 Pro Amoled 1 ok
+    Tapa Xiaomi Redmi Note 10 Pro Negro 1 ok
+    Visor Camara Xiaomi Redmi Note 10 Pro 1 ok
