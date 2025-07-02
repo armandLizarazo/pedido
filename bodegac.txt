@@ -183,10 +183,8 @@
     Cargador 9V 2A Doble Punta 3
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
-    Cargador Apple 20W Cable Tc Ligthning 1
     Cargador Apple 20W Tc Cabeza 2
     Cargador Apple 25W Tc Cabeza 5
-    Cargador Apple 25W Tc Ligthning 1
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
     Cargador Apple 5V Eco 3
@@ -640,7 +638,7 @@
     Manos Libres Samsugn Tipo Original Negro 5
     Manos Libres Samsung Akg 5
     Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 0
     Manos Libres Samsung S6 Blanco 4
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 5
@@ -1003,7 +1001,7 @@
     Silicone Case Huawei Y7 2019 Lila 1
     Silicone Case Huawei Y7 2019 Rosa 1
     Silicone Case Huawei Y7 2019 Verdemilitar 0
-    Silicone Case Huawei Y7A Amarillo 1
+    Silicone Case Huawei Y7A Amarillo 0
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 0
     Silicone Case Huawei Y9 2019 / Y8S Negro 0
     Silicone Case Huawei Y9 2019 / Y8S Rojo 0
@@ -1825,3 +1823,17 @@
     Forro Antichoque Xiaomi Redmi A5 Dama 0
     Forro Antichoque Xiaomi Redmi A5 Caballero 0
     Forro Space Xiami Redmi A5 0
+    Cargador Apple 25W Con Cable 0
+    Cargador Apple 20W Con Cable 0
+    Flex De Carga Apple Iphone X 0
+    Pacha Xiaomi Redmi Note 10 Pro Amoled 0
+    Tapa Xiaomi Redmi Note 10 Pro Negro 0
+    Visor Camara Xiaomi Redmi Note 10 Pro 0
+    Pilas Recargables Beston AA x2 0
+    Silicone Case Huawei Y70 Amarillo 1
+    Silicone Case Huawei Y7A Fucsia 0
+    Silicone Case Huawei Y7A Negro 0
+    Silicone Case Huawei Y7A Rojo 0
+    Silicone Case Oppo A57 / A77 Palo Rosa 0
+    Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 0
+    Silicone Case Samsung A21S Azuloscuro 0

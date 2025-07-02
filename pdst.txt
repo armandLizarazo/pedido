@@ -4,14 +4,10 @@
     Pacha Lg G Stylus 1
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
-    Bandeja Sim Xiaomi Redmi Note 12 Verde 1 ok
-    Pacha Samsung A24 Incell c/m 1 ok
-    Bandeja Sim Xiaomi Redmi 13C 1 ok
     Bateria Bl5c 3
-    Flex de Power Samsung A10s 1 ok
-    Flex de Volumen Samsung A10s 1 ok
-    Pacha Motorola Moto One Fusion 1 ok
-    Pacha Samsung A22 5G 1 ok
-    Pacha Xiaomi Redmi 10C 1 ok
-    Pacha Xiaomi Redmi 13C 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
+    Pacha Samsung A21S 2
+    Flex De Carga Apple Iphone X 1
+    Logica De Carga Samsung A14 1
+    Pacha Xiaomi Redmi Note 10 Pro Amoled 1
+    Tapa Xiaomi Redmi Note 10 Pro Negro 1
+    Visor Camara Xiaomi Redmi Note 10 Pro 1

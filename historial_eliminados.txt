@@ -4707,3 +4707,108 @@ Línea  | Contenido
     9 | # Pedido: pdst
    10 | # Pedido: pdst
    11 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-02 06:35:01
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  232 | Memoria Musica Rock en Ingles 2 ok
+  235 | Adaptador Apple Ligthning a 3.5 2 ok
+  236 | Adaptador Tc a 3.5 2 ok
+  237 | Forro Armadura Tecno Spark Go 2023 Rojo 1 ok
+  238 | Forro Armadura Tecno Spark Go 2023 Negro 1 ok
+  241 | Mouse Gamer Yoyos H-02 1 ok
+  244 | Silicone Case Huawei honor X5b Morado 1 ok
+  245 | Silicone Case Huawei Honor X6 / X6s Lila 1 ok
+  246 | Silicone Case Oppo Reno 12 Pro Azulrey 1 ok
+  247 | Silicone Case Samsung A15 Negro 1 ok
+  248 | Silicone Case Samsung A16 Morado 1 ok
+  253 | Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1 ok
+  257 | Simcard Wom 5 ok
+
+==================================================
+Fecha de proceso: 2025-07-02 06:35:01
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   31 | Spliter Audio 1 Macho 2 Hembras 3 ok
+   33 | Consola Game Stick 3 ok
+   34 | Control Gamer Microsoft Pc / 360 Cable 2 ok
+   37 | Bombillo Parlante 2 ok
+   39 | Pilas Recargables Maxday AA x4 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-02 06:35:01
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Bandeja Sim Xiaomi Redmi Note 12 Verde 1 ok
+    8 | Pacha Samsung A24 Incell c/m 1 ok
+    9 | Bandeja Sim Xiaomi Redmi 13C 1 ok
+   11 | Flex de Power Samsung A10s 1 ok
+   12 | Flex de Volumen Samsung A10s 1 ok
+   13 | Pacha Motorola Moto One Fusion 1 ok
+   14 | Pacha Samsung A22 5G 1 ok
+   15 | Pacha Xiaomi Redmi 10C 1 ok
+   16 | Pacha Xiaomi Redmi 13C 1 ok
+   17 | Pacha Xiaomi Redmi Note 12 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-02 07:05:48
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-02 07:05:48
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-02 07:05:48
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
