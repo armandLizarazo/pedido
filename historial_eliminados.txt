@@ -4907,3 +4907,43 @@ Línea  | Contenido
     4 | # Pedido: pdst
     5 | # Pedido: pdst
     6 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-04 22:40:28
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  250 | Audifonos Bluetooth Harvic Bt-542 Ii Lila 1 ok
+  251 | Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
+  257 | Silicone Case Apple Iphone 13 Negro Ab 1 ok
+  258 | Silicone Case Samsung A21S Fucsia 1 ok
+  259 | Silicone Case Xiaomi redmi 10C Morado 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-04 22:40:28
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   29 | Cargador Pc Hp Punta Azul 2 ok
+   30 | Consola Sup Con Control Negro 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-04 22:40:28
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Botones Xiaomi Redmi Note 8 1 ok
+    9 | Pacha Lg K61 1 ok
+   10 | Pacha Motorola Moto G22 / E32 1 ok
+   11 | Pacha Motorola Moto G8 Power Lite 2 ok
+   12 | Pacha Motorola Moto G8 Power 2 ok
+   13 | Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok

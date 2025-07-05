@@ -1,3 +1,6 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -247,13 +250,10 @@
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
     Silicone Case Samsung A21S Azuloscuro 1
-    Audifonos Bluetooth Harvic Bt-542 Ii Lila 1 ok
-    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
     Audifonos Bluetooth Redmi E7s Negro 2
     Audifonos Bluetooth Pro 60 2
     Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 5
     Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 3
     Forro Space Oppo Reno 7 1
-    Silicone Case Apple Iphone 13 Negro Ab 1 ok
-    Silicone Case Samsung A21S Fucsia 1 ok
-    Silicone Case Xiaomi redmi 10C Morado 1 ok
+    Cargador Samsung 45W Cabeza Negro 1
+    Cargador Samsung 45W Cable Negro 1
