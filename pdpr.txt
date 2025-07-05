@@ -26,5 +26,5 @@
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
     Pilas Recargables Beston AA x2 1
-    Cargador Pc Hp Punta Azul 2
-    Consola Sup Con Control Negro 1
+    Cargador Pc Hp Punta Azul 2 ok
+    Consola Sup Con Control Negro 2 ok
