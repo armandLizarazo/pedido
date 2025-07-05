@@ -5,8 +5,9 @@
     Pacha Oppo Reno 6 Lite 1
     Pacha Samsung J5 Prime Negro 1
     Bateria Bl5c 3
-    Botones Xiaomi Redmi Note 8 1
-    Pacha Lg K61 1
-    Pacha Motorola Moto G22 / E32 1
-    Pacha Motorola Moto G8 Power Lite 3
-    Pacha Xiaomi Redmi 9A / 9C / 10A 2
+    Botones Xiaomi Redmi Note 8 1 ok
+    Pacha Lg K61 1 ok
+    Pacha Motorola Moto G22 / E32 1 ok
+    Pacha Motorola Moto G8 Power Lite 2 ok
+    Pacha Motorola Moto G8 Power 2 ok
+    Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
