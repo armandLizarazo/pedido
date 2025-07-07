@@ -1,3 +1,9 @@
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
@@ -26,3 +32,9 @@
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
     Pilas Recargables Beston AA x2 1
+    Switch Lan 1
+    Adaptador Usb Sata 2.0 1
+    Parlante Pc Eco Ysd-1024 1
+    Router Rompemuros 1
+    Soporte Tripode Caja Cafe 1
+    Teclado Kb-502 Eco 2

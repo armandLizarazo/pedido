@@ -30,7 +30,7 @@
     Adaptador Plug 3.5 A Media St 0
     Adaptador Spliter Hdmi 1 A 2 0
     Adaptador Spliter Hdmi 1 A 4 0
-    Adaptador Tc2Hdmi Cbl 0
+    Adaptador Tc2Hdmi Cbl 1
     Adaptador Tc2Vga 0
     Adaptador Union Hdmi 2
     Adaptador Usb2Vga Cbl 0
@@ -56,7 +56,7 @@
     Audifonos Bluetooth I12 Negro 0
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth M60 0
-    Audifonos Bluetooth Pro 2 Pantalla 0
+    Audifonos Bluetooth Pro 2 Pantalla 1
     Audifonos Bluetooth Pro 60 0
     Audifonos Bluetooth Royal Sports 1
     Audifonos Bluetooth W I12 Azuloscuro 0
@@ -111,15 +111,15 @@
     Cable Auxiliar 1 A 1 Eco 0
     Cable Auxiliar 2 A 1 1.5M 0
     Cable Auxiliar 2 A 1 3M 2
-    Cable Auxiliar 3 A 1 1.5M 2
+    Cable Auxiliar 3 A 1 1.5M 3
     Cable Auxiliar 3 A 1 3M 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 0
+    Cable Belkin Tc 3
     Cable Belkin Tc 2M 2
-    Cable Belkin V8 5
-    Cable Caterpillar Tc 0
+    Cable Belkin V8 3
+    Cable Caterpillar Tc 3
     Cable Caterpillar Usb Ligthning 2
-    Cable Caterpillar V8 5
+    Cable Caterpillar V8 3
     Cable Dp2Dp 1.8M 1
     Cable Dpp2Dpp 1
     Cable Harvic Tc 1
@@ -138,9 +138,8 @@
     Cable Optico 1.5M 2
     Cable Optico 3M 2
     Cable Poder Cuadrado 2
-    Cable Poder Grabadora 0
+    Cable Poder Grabadora 4
     Cable Poder Trebol 5
-    Cable Rca 3 A 1 1.5M 1
     Cable Rca 3 A 3 1.5M 0
     Cable Rca 3 A 3 3M 2
     Cable Royal Tc 0
@@ -153,12 +152,12 @@
     Cable Siliconado Zonymax V8 0
     Cable Tc A Tc Carton 0
     Cable Tc Cordon Eco 0
-    Cable Tc Eco 0
+    Cable Tc Eco 10
     Cable Usb Ligthning Eco 5
     Cable Usb Plug Ancho 0
     Cable V3 1.5M 2
-    Cable V3 Eco 5
-    Cable V8 Eco 5
+    Cable V3 Eco 10
+    Cable V8 Eco 10
     Cable We Tc 0
     Cable We Tc Eco 2
     Cable Xiaomi Tc A Tc 0
@@ -211,7 +210,7 @@
     Cargador Pc 9 Pines Caja Azul 0
     Cargador Pc Asus 2.37 1
     Cargador Pc Asus 3.42 0
-    Cargador Pc Hp Punta Azul 0
+    Cargador Pc Hp Punta Azul 1
     Cargador Pc Lenovo Mini 3.25 1
     Cargador Pc Lenovo Yoga 0
     Cargador Pluyin Eco 0
@@ -240,8 +239,8 @@
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
-    Cargador We Tc 1
-    Cargador We V8 2
+    Cargador We Tc 33W 2
+    Cargador We V8 33W 2
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
@@ -256,15 +255,14 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 0
+    Consola Game Stick 2
     Consola Microsoft Xbox 360 0
     Control Gamer Gatillos Con Ventilador 0
     Control Gamer Gatillos G21 0
     Control Gamer Gatillos H-9.0 0
     Control Gamer Gatillos W11+ 1
-    Control Gamer Microsoft Pc / 360 Cable 0
+    Control Gamer Microsoft Pc / 360 Alambrico 1
     Control Gamer Microsoft Pc Tipo 360 0
-    Control Gamer Microsoft Pc/360 Cbl 0
     Control Gamer Microsoft Xbox 360 Inalambrico 0
     Control Gamer Pc Eco 1 0
     Control Gamer Pc Sencillo 0
@@ -277,7 +275,7 @@
     Control Gamer Sony Ps4 Gta V 0
     Control Gamer Sony Ps4 Rojo 0
     Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer X3 0
+    Control Gamer X3 2
     Control Keyboard Tv 0
     Control Tv Smart Tv 0
     Control Tv Tv Box 0
@@ -308,7 +306,7 @@
     Forro Antichoque Huawei Y9 2019 / Y8S Dama 0
     Forro Antichoque Huawei Y9S Caballero 2
     Forro Antichoque Huawei Y9S Dama 4
-    Forro Antichoque Infinix Hot 50 Pro Plus Caballero 5
+    Forro Antichoque Infinix Hot 50 Pro Plus Caballero 8
     Forro Antichoque Motorola Moto C Caballero 6
     Forro Antichoque Motorola Moto E20 Dama 0
     Forro Antichoque Motorola Moto E30 / E40 Dama 0
@@ -443,7 +441,7 @@
     Forro Pin Tecno Spark 30 Pro 3
     Forro Pin Tecno Spark Go 2024 / 20C 1
     Forro Silicone Case Apple Iphone 13 Mini Rosa 0
-    Forro Space Apple Iphone 11 0
+    Forro Space Apple Iphone 11 1
     Forro Space Apple Iphone 11 Magsafe 1
     Forro Space Apple Iphone 12 Mini 0
     Forro Space Apple Iphone 13 Magsafe 0
@@ -551,7 +549,7 @@
     Forro Space Vivo V30 0
     Forro Space Vivo V30 Lite 0
     Forro Space Vivo V40 0
-    Forro Space Vivo V40 Lite 0
+    Forro Space Vivo V40 Lite 2
     Forro Space Vivo Y20 / Y20S / Y11S 0
     Forro Space Vivo Y22S 1
     Forro Space Vivo Y30 / Y50 0
@@ -593,7 +591,7 @@
     Forro Space Xiaomi Redmi Ntote 10 Pro 1
     Forro Ukg Apple Iphone 11 Rojo 0
     Garantia Control Gamer Pc Sencillo 0
-    Gramera Joyeria 0
+    Gramera Joyeria 1
     Gramera Sencilla 1
     Guantes Gamer 7
     Huella Xiaomi Redmi 9T 0
@@ -638,7 +636,7 @@
     Manos Libres Samsugn Tipo Original Negro 5
     Manos Libres Samsung Akg 5
     Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung J5 Negro 5
     Manos Libres Samsung S6 Blanco 4
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 5
@@ -805,8 +803,8 @@
     Power Bank Panel Solar 12000 Mah 0
     Power Bank Yoyos 20000 Mah Con Cables 0
     Protector Teclado 15P 1
-    Proyector Hy-300 0
-    Proyector Hy300 Con Juegos 0
+    Proyector Hy-300 2 Ram 1
+    Proyector Thor Hy-300 Con Juegos 1
     Proyector Joma Hy-300 Con Juegos 0
     Radios Baofeng 1
     Recarga 12000 100
@@ -823,8 +821,6 @@
     Reproductor Fly Tv Box 64-4 0
     Reproductor Onn 4K 0
     Reproductor Onn Hd 1
-    Reproductor Proyector Caja Roja 0
-    Reproductor Proyector Y300 0
     Reproductor Reproductor Tv Stick Magis 1
     Reproductor Roku Express Hd 0
     Reproductor Sonivox Dvd Ts-Dvd 0
@@ -1173,7 +1169,7 @@
     Silicone Case Samsung A20S 0
     Silicone Case Samsung A20S Rojo 0
     Silicone Case Samsung A21S Azulcielo 0
-    Silicone Case Samsung A21S Fucsia 0
+    Silicone Case Samsung A21S Fucsia 1
     Silicone Case Samsung A21S Negro 0
     Silicone Case Samsung A22 4G Morado 0
     Silicone Case Samsung A22 4G Negro 1
@@ -1500,7 +1496,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Negro 1
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 0
     Silicone Case Xiaomi Redmi Note 14 Azulrey 1
-    Silicone Case Xiaomi Redmi Note 14 Negro 1
+    Silicone Case Xiaomi Redmi Note 14 Negro 0
     Silicone Case Xiaomi Redmi Note 14 Pro Azulrey 0
     Silicone Case Xiaomi Redmi Note 7 Amarillo 1
     Silicone Case Xiaomi Redmi Note 7 Azulrey 1
@@ -1577,7 +1573,7 @@
     Tapa Xiaomi Redmi Note 8 Blanco 0
     Tapa Xiaomi Redmi Note 8 Negro 0
     Teclado Combo Gamer F92 0
-    Teclado Kb-502 Eco 1
+    Teclado Kb-502 Eco 0
     Teclado Mecanico Gamer 0
     Teclado Seisa Dn-236 0
     Telefono Fijo Panaphone Kx-T806 1
@@ -1793,21 +1789,21 @@
     Forro Space Huawei Honor X5B 0
     Bandjea Sim Xiaomi Redmi Note 12 Verde 0
     Pacha Samsung A24 Incell c/m 0
-    Adaptador Apple Ligthning a 3.5 0
+    Adaptador Apple Ligthning a 3.5 2
     Adaptador Hdmi2dpp 0
     Spliter Audio 1 Macho 2 Hembras 0
     Adaptador Tc a 3.5 0
     Bandeja Sim Xiaomi Redmi 13C 0
     Bateria Bl5c 0
     Cable Hdtv 0
-    Plancha Remington Keratina 0
+    Plancha Remington Keratina 1
     Flex de Power Samsung A10s 0
     Flex de Volumen Samsung A10s 0
     Forro Armadura Spark Go 2023 Rojo 0
     Forro Armadura Tecno Spark Go 2023 Negro 0
     Forro Armadura Xiaomi Redmi Note 13 4G Negro 0
     Mouse Gamer Yoyos H-01 0
-    Bombillo Parlante 0
+    Bombillo Bluetooth 1
     Pilas Recargables Beston AAA Con Cargador 0
     Pilas Recargables Maxday AA x4 0
     Pilas Recargables Sony AA con Cargador 0
@@ -1823,8 +1819,8 @@
     Forro Antichoque Xiaomi Redmi A5 Dama 0
     Forro Antichoque Xiaomi Redmi A5 Caballero 0
     Forro Space Xiami Redmi A5 0
-    Cargador Apple 25W Con Cable 0
-    Cargador Apple 20W Con Cable 0
+    Cargador Apple 25W Con Cable 1
+    Cargador Apple 20W Con Cable 1
     Flex De Carga Apple Iphone X 0
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
     Tapa Xiaomi Redmi Note 10 Pro Negro 0
@@ -1839,7 +1835,7 @@
     Silicone Case Samsung A21S Azuloscuro 0
     Audifonos Bluetooth Redmi E7s Negro 0
     Botones Xiaomi Redmi Note 8 0
-    Consola Sup Con Control Negro 0
+    Consola Sup Con Control Negro 1
     Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 0
     Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 0
     Silicone Case Apple Iphone 13 Negro Ab 0
@@ -1847,3 +1843,22 @@
     Bateria Vidvie Iphone Xr 0
     Pacha Apple Iphone Xr Gx 0
     Pacha Motorola Moto E20 0
+    Switch Lan 0
+    Adaptador Usb Sata 2.0 0
+    Manos Libres Samsung Akg con Aislador 0
+    Cargador Universal 3 a 12 V Puntas 0
+    Forro Space Apple Iphone 16 1
+    Forro Space Apple Iphone 16 Magsafe 1
+    Forro Armadura Tecno Spark 30 Pro Negro 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 0
+    Forro Space Tecno Spark 20 Pro 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Negro 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Rojo 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Azulrey 0
+    Router Rompemuros 0
+    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 0
+    Silicone Case Xiaomi Mi11 Lite Negro 0
+    Silicone Case Oppo A78 Negro 0
+    Soporte Tripode Caja Cafe 0

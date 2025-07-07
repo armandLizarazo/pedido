@@ -1,6 +1,19 @@
 # Pedido: pdcentro
 # Pedido: pdcentro
 # Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -257,3 +270,16 @@
     Forro Space Oppo Reno 7 1
     Cargador Samsung 45W Cabeza Negro 1
     Cargador Samsung 45W Cable Negro 1
+    Cargador Universal 3 a 12 V Puntas 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1
+    Forro Space Tecno Spark 20 Pro 2
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Negro 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Rojo 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Azulrey 1
+    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
+    Silicone Case Xiaomi Mi11 Lite Negro 1
+    Silicone Case Oppo A78 Negro 1
+    Silicone Case Xiaomi Redmi 14C Azulrey 1
+    Silicone Case Xiaomi Redmi Note 14 Negro 1
