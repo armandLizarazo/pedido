@@ -249,8 +249,8 @@
     Forro Space Huawei Honor X5B 2
     Forro Armadura Samsung A15 Negro 1
     Forro Armadura Xiaomi Redmi Note 13 4G Negro 1
-    Pilas Recargables Sony AA con Cargador 1
-    Silicone Case Apple Iphone 8 Blanco 1
+    Pilas Recargables Sony AA con Cargador 1 ok
+    Silicone Case Apple Iphone 8 Blanco 1 ok
     Silicone Case Samsung A70 Negro 1
     Silicone Case Samsung A70 Rojo 1
     Silicone Case Samsung A70 Fucsia 1
@@ -264,7 +264,7 @@
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
     Silicone Case Samsung A21S Azuloscuro 1 ok
     Audifonos Bluetooth Redmi E7s Negro 2
-    Audifonos Bluetooth Pro 60 2
+    Audifonos Bluetooth Pro 60 2 ok
     Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 5 ok
     Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 3 ok
     Forro Space Oppo Reno 7 2 ok
