@@ -258,28 +258,27 @@
     Forro Antichoque Xiaomi Redmi A5 Dama 5
     Forro Antichoque Xiaomi Redmi A5 Caballero 5
     Forro Space Xiami Redmi A5 2
-    Manos Libres Samsung Akg 5
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung Akg 5 ok
+    Manos Libres Samsung J5 Negro 5 ok
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
-    Silicone Case Samsung A21S Azuloscuro 1
+    Silicone Case Samsung A21S Azuloscuro 1 ok
     Audifonos Bluetooth Redmi E7s Negro 2
     Audifonos Bluetooth Pro 60 2
-    Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 5
-    Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 3
-    Forro Space Oppo Reno 7 1
+    Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 5 ok
+    Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 3 ok
+    Forro Space Oppo Reno 7 2 ok
     Cargador Samsung 45W Cabeza Negro 1
     Cargador Samsung 45W Cable Negro 1
-    Cargador Universal 3 a 12 V Puntas 1
+    Cargador Universal 3 a 12 V Puntas 1 ok
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1
-    Forro Space Tecno Spark 20 Pro 2
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Negro 1
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Rojo 1
+    Forro Space Tecno Spark 20 Pro 2 ok
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Negro 1 ok
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Rojo 1 ok
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Azulrey 1
-    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
-    Silicone Case Xiaomi Mi11 Lite Negro 1
-    Silicone Case Oppo A78 Negro 1
-    Silicone Case Xiaomi Redmi 14C Azulrey 1
-    Silicone Case Xiaomi Redmi Note 14 Negro 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Azulrey 1 ok
+    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1 ok
+    Silicone Case Xiaomi Mi11 Lite Negro 1 ok
+    Silicone Case Oppo A78 Negro 1 ok
+    Silicone Case Xiaomi Redmi 14C Azulrey 1 ok
