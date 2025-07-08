@@ -246,7 +246,7 @@
     Cargador Xiaomi Usb Tc 67W 0
     Cargador Yl Tc 3
     Cargador Yl V8 0
-    Cargador Yl V8 Eco 4
+    Cargador Yl V8 Eco 1
     Celular Corn Rs10 0
     Celular Nokia 105 4G 1
     Celular Tg Iron 0
@@ -1558,7 +1558,7 @@
     Soporte Tv 32 - 60 Brazo 2
     Soporte Tv 32 -60 L400 2
     Soporte Tv 32 Brazo 1
-    Soporte Tv 50 Brazo 2
+    Soporte Tv 50 Brazo 0
     Tactil Tableta 10 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
     Tapa Huawei Nova 9Se Negro 0
@@ -1862,3 +1862,9 @@
     Silicone Case Xiaomi Mi11 Lite Negro 0
     Silicone Case Oppo A78 Negro 0
     Soporte Tripode Caja Cafe 0
+    Forro Antichoque Vivo Y39 Dama 0
+    Forro Antichoque Vivo Y39 Caballero 0
+    Forro Space Vivo Y39 0
+    Pacha Samsung A14 5G 1
+    Caja de Timbres Motorola Moto G31 0
+    Cargador Smart Watch Pinza 0

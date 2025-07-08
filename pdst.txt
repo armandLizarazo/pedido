@@ -1,6 +1,3 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
     Bateria Infinix Smart 6 1
     Bateria Xiaomi Mi11T Pro 1
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
@@ -9,6 +6,5 @@
     Pacha Samsung J5 Prime Negro 1
     Bateria Bl5c 3
     Bateria Vidvie Iphone Xr 1
-    Pacha Apple Iphone Xr Gx 1 ok
-    Pacha Motorola Moto E20 1 ok
-    Pacha Xiaomi Redmi 14C 2 ok
+    Pacha Samsung A14 5G 1
+    Caja de Timbres Motorola Moto G31 1
