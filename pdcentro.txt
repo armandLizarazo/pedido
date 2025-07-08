@@ -1,3 +1,5 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -253,3 +255,5 @@
     Forro Space Vivo Y39 2
     Cargador Yl V8 5
     Cargador Smart Watch Pinza 3
+    Silicone Case Vivo V25E Azuloscuro 1
+    Silicone Case Tecno Camon 30s Pro Lila 1
