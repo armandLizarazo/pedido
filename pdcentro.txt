@@ -253,15 +253,15 @@
     Forro Space Vivo Y39 2
     Silicone Case Vivo V25E Azuloscuro 1
     Audifonos Bluetooth W I12 Negro 3
-    Cable Belkin V8 5
+    Cable Belkin V8 5 ok
     Forro Antichoque Vivo Y51 Caballero 5
-    Forro Antichoque Xiaomi Redmi A3 Dama 3
-    Forro Space Huawei Honor Magic 5 Lite 1
+    Forro Antichoque Xiaomi Redmi A3 Dama 3 ok
+    Forro Space Huawei Honor Magic 5 Lite 1 
     Forro Space Apple Iphone 11 Pro Max Magsafe 1
-    Silicone Case Apple Iphone Xr Rojo 1
+    Silicone Case Apple Iphone Xr Rojo 1 ok
     Silicone Case Huawei Y9 Prime Fucsia 1
     Silicone Case Samsung A14 Blanco 1
     Silicone Case Vivo Y51 / Y53S Rojo 1
-    Smart Watch Gw-20 Verdemilitar 2
-    Vidrio 5D Samsung A16 10
-    Vidrio Blindado Xiaomi Redmi Note 14 10
+    Smart Watch Gw-20 Verdemilitar 1 ok
+    Vidrio 5D Samsung A16 10 ok 
+    Vidrio Blindado Xiaomi Redmi Note 14 5 ok
