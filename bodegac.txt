@@ -183,7 +183,7 @@
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
     Cargador Apple 20W Tc Cabeza 2
-    Cargador Apple 25W Tc Cabeza 5
+    Cargador Apple 25W Tc Cabeza 4
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
     Cargador Apple 5V Eco 3
@@ -261,7 +261,7 @@
     Control Gamer Gatillos G21 0
     Control Gamer Gatillos H-9.0 0
     Control Gamer Gatillos W11+ 1
-    Control Gamer Microsoft Pc / 360 Alambrico 1
+    Control Gamer Microsoft Pc / 360 Alambrico 0
     Control Gamer Microsoft Pc Tipo 360 0
     Control Gamer Microsoft Xbox 360 Inalambrico 0
     Control Gamer Pc Eco 1 0
@@ -275,7 +275,7 @@
     Control Gamer Sony Ps4 Gta V 0
     Control Gamer Sony Ps4 Rojo 0
     Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer X3 2
+    Control Gamer X3 1
     Control Keyboard Tv 0
     Control Tv Smart Tv 0
     Control Tv Tv Box 0
@@ -462,8 +462,8 @@
     Forro Space Apple Iphone Xs Max 0
     Forro Space Apple Iphpone 14 Max Ab 1
     Forro Space Camon 20 Pro 0
-    Forro Space Honor X7A 1
-    Forro Space Huawei Honor Magic 5 Lite 1
+    Forro Space Huawei Honor X7A 1
+    Forro Space Huawei Honor Magic 5 Lite 0
     Forro Space Huawei Honor X6 / X6S 1
     Forro Space Huawei Honor X6A 1
     Forro Space Huawei Honor X7A 2
@@ -763,7 +763,7 @@
     Pacha Zte Blade A34 / A54 0
     Pacha Zte Blade A52 0
     Pad Mouse Tapete Largo Logos 0
-    Parlante Barra V70 1
+    Parlante Barra V70 0
     Parlante Gts-1372 0
     Parlante Ktf Ktf-1645 1
     Parlante Ktx-1222 1
@@ -1541,9 +1541,9 @@
     Simcard Claro 0
     Simcard Tigo 0
     Simcard Wom 0
-    Smart Tv Tg 43 Pulgadas 0
+    Smart Tv Tg 43 Pulgadas 1
     Smart Watch Combo X8 0
-    Smart Watch Gw-20 Verdemilitar 1
+    Smart Watch Gw-20 Verdemilitar 0
     Smart Watch I525 Mini Rosa 0
     Smartphone Infinix Smart 9 128/6 Gris 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 0
@@ -1557,7 +1557,7 @@
     Soporte Techo Tv 26-55 Pulgadas 0
     Soporte Tv 32 - 60 Brazo 2
     Soporte Tv 32 -60 L400 2
-    Soporte Tv 32 Brazo 1
+    Soporte Tv 32 Brazo 0
     Soporte Tv 50 Brazo 0
     Tactil Tableta 10 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
@@ -1869,3 +1869,11 @@
     Caja de Timbres Motorola Moto G31 0
     Cargador Smart Watch Pinza 0
     Silicone Case Vivo V25E Azuloscuro 0
+    Adaptador Nfc Q-t92 0
+    Forro Antichoque Vivo Y51 Caballero 0
+    Forro Antichoque Xiaomi Redmi A3 Dama 0
+    Forro Space Apple Iphone 11 Pro Max Magsafe 0
+    Silicone Case Huawei Y9 Prime Fucsia 0
+    Silicone Case Samsung A14 Blanco 0
+    Vidrio Blindado Xiaomi Redmi Note 14 0
+    Pacha Motorola Moto G04 / G24 0

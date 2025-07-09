@@ -1,5 +1,3 @@
-# Pedido: pdcentro
-# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -253,7 +251,17 @@
     Forro Antichoque Vivo Y39 Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Space Vivo Y39 2
-    Cargador Yl V8 5 ok
-    Cargador Smart Watch Pinza 4 ok
     Silicone Case Vivo V25E Azuloscuro 1
-    Silicone Case Tecno Camon 30s Pro Lila 1 ok 
+    Audifonos Bluetooth W I12 Negro 3
+    Cable Belkin V8 5
+    Forro Antichoque Vivo Y51 Caballero 5
+    Forro Antichoque Xiaomi Redmi A3 Dama 3
+    Forro Space Huawei Honor Magic 5 Lite 1
+    Forro Space Apple Iphone 11 Pro Max Magsafe 1
+    Silicone Case Apple Iphone Xr Rojo 1
+    Silicone Case Huawei Y9 Prime Fucsia 1
+    Silicone Case Samsung A14 Blanco 1
+    Silicone Case Vivo Y51 / Y53S Rojo 1
+    Smart Watch Gw-20 Verdemilitar 2
+    Vidrio 5D Samsung A16 10
+    Vidrio Blindado Xiaomi Redmi Note 14 10
