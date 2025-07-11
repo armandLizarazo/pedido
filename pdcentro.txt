@@ -139,7 +139,6 @@
     Silicone Case Samsung A15 Verde 1
     Silicone Case Samsung A16 Amarillo 1 
     Silicone Case Samsung A16 Lila 1
-    Silicone Case Samsung A16 Rojo 1 ok
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A36 / A56 Amarillo 1
     Silicone Case Samsung A36 Fucsia 1
@@ -252,16 +251,19 @@
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Space Vivo Y39 2
     Silicone Case Vivo V25E Azuloscuro 1
-    Audifonos Bluetooth W I12 Negro 3 ok
-    Cable Belkin V8 5 ok
-    Forro Antichoque Vivo Y51 Caballero 5 ok
-    Forro Antichoque Xiaomi Redmi A3 Dama 3 ok
-    Forro Space Huawei Honor Magic 5 Lite 1 ok
-    Forro Space Apple Iphone 11 Pro Max Magsafe 1 ok
-    Silicone Case Apple Iphone Xr Rojo 1 ok
     Silicone Case Huawei Y9 Prime Fucsia 1
     Silicone Case Samsung A14 Blanco 1
     Silicone Case Vivo Y51 / Y53S Rojo 1
-    Smart Watch Gw-20 Verdemilitar 1 ok
-    Vidrio 5D Samsung A16 10 ok 
-    Vidrio Blindado Xiaomi Redmi Note 14 5 ok
+    Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 3
+    Vidrio Tortuga Apple Iphone 13 / 13P 5
+    Simcard Claro 10
+    Audifonos Bluetooth Pro 2 Pantalla 3
+    Silicone Case Xiaomi Redmi 12 Negro 1
+    Silicone Case Xiaomi Redmi Note 10 / 10S Negro 1
+    Vidrio 5D Samsung A10 / A10s 5
+    Vidrio 5D Huawei Honor X7B 5
+    Vidrio Blindado Huawei Honor X7B 5
+    Cargador We Tc 33W 3
+    Cargador Yl V8 2
+    Cargador Yl Tc 3
+    Forro Audifonos Pantalla Negro 2

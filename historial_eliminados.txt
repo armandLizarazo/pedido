@@ -5141,3 +5141,99 @@ Línea  | Contenido
 --------------------------------------------------
     1 | # Pedido: pdst
     2 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-10 14:24:09
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  142 | Silicone Case Samsung A16 Rojo 1 ok
+  255 | Audifonos Bluetooth W I12 Negro 3 ok
+  256 | Cable Belkin V8 5 ok
+  257 | Forro Antichoque Vivo Y51 Caballero 5 ok
+  258 | Forro Antichoque Xiaomi Redmi A3 Dama 3 ok
+  259 | Forro Space Huawei Honor Magic 5 Lite 1 ok
+  260 | Forro Space Apple Iphone 11 Pro Max Magsafe 1 ok
+  261 | Silicone Case Apple Iphone Xr Rojo 1 ok
+  265 | Smart Watch Gw-20 Verdemilitar 1 ok
+  266 | Vidrio 5D Samsung A16 10 ok
+  267 | Vidrio Blindado Xiaomi Redmi Note 14 5 ok
+
+==================================================
+Fecha de proceso: 2025-07-10 14:24:09
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   30 | Soporte Tv 50 Brazo 2 ok
+   31 | Adaptador Nfc Q-t92 1 ok
+   32 | Control Gamer Microsoft Pc / 360 Alambrico 2 ok
+   33 | Soporte Tv 32 Brazo 2 ok
+   34 | Parlante Barra V70 2 ok
+   35 | Smart Watch Combo X8 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-10 14:24:09
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Pacha Motorola Moto One Fusion 2 ok
+   10 | Pacha Motorola Moto G04 / G24 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-11 06:48:15
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-11 06:48:15
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-11 06:48:15
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
