@@ -7,7 +7,6 @@
     Bateria Bl5c 3
     Bateria Vidvie Iphone Xr 1
     Logica De Carga Motorola Moto G20 2
-    Logica de Carga Xiaomi Redmi 9A / 9C / 10A 1
-    Pacha Xiaomi Redmi A1 / A2 1
-    Pacha Samsung A51 1
-    Adaptador Hdmi2Av 3
+    Logica de Carga Xiaomi Redmi 9A / 9C / 10A 1 ok
+    Pacha Xiaomi Redmi A1 / A2 1 ok
+    Pacha Samsung A51 1 ok
