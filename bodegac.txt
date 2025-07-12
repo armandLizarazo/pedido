@@ -1,6 +1,6 @@
     Aceitera El-093 0
     Adaptador Apple Ligthning a 3.5 2
-    Adaptador Av2Hdmi 1
+    Adaptador Av2Hdmi 0
     Adaptador Av2Vga 0
     Adaptador Bluetooth Car W Bt-X6 0
     Adaptador Bluetooth Car X6 0
@@ -34,7 +34,7 @@
     Adaptador Spliter Hdmi 1 A 2 0
     Adaptador Spliter Hdmi 1 A 4 0
     Adaptador Tc a 3.5 0
-    Adaptador Tc2Hdmi Cbl 1
+    Adaptador Tc2Hdmi Cbl 0
     Adaptador Tc2Vga 0
     Adaptador Union Hdmi 2
     Adaptador Usb Sata 2.0 0
@@ -70,7 +70,7 @@
     Audifonos Bluetooth W I12 Blanco 0
     Audifonos Bluetooth W I12 Negro 0
     Audifonos Bluetooth W I12 Rosa 0
-    Audifonos Bluetooth X15 1
+    Audifonos Bluetooth X15 0
     Audifonos Bluetooth Xiaomi E7S Blanco 0
     Audifonos Bluetooth Xiaomi E7S Negro 0
     Audifonos Bluetooth Xiaomi E7S Rosa 0
@@ -844,7 +844,7 @@
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
     Patillera 3 En 1 1
-    Patillera 3 En 1 Vintage 1
+    Patillera 3 En 1 Vintage 0
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
     Pilas Carbon Maxday Aaa 30
@@ -1891,3 +1891,5 @@
     Visor Camara Xiaomi Redmi Note 10 Pro 0
     Forro Audifonos Pantalla Negro 0
     Forro Space Tecno Spark 20 Pro / Hot 40 Pro 2
+    Pacha Samsung A51 0
+    Control Gamer Microsoft Xbox Caja Negra 0

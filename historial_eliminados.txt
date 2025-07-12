@@ -5237,3 +5237,39 @@ Línea  | Contenido
     1 | # Pedido: pdst
     2 | # Pedido: pdst
     3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-12 06:56:24
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-12 06:56:24
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-12 06:56:24
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
