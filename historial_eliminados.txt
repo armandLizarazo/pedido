@@ -5273,3 +5273,103 @@ Línea  | Contenido
 --------------------------------------------------
     1 | # Pedido: pdst
     2 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-12 15:34:52
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  260 | Audifonos Bluetooth Pro 2 Pantalla 3 ok
+  262 | Vidrio 5D Samsung A10 / A10s 5 ok
+  263 | Vidrio 5D Huawei Honor X7B 5 ok
+  264 | Vidrio Blindado Huawei Honor X7B 5 ok
+  266 | Cargador We Tc 33W 3 ok
+  267 | Cargador Yl V8 2 ok
+  268 | Cargador Yl Tc 3 ok
+  269 | Forro Audifonos Pantalla Negro 3 ok
+
+==================================================
+Fecha de proceso: 2025-07-12 15:34:52
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   30 | Smart Tv Tg 43 Pulgadas 1 ok
+   32 | Capturador Hdmi Usb 1 ok
+   34 | Soporte Holder Bicileta Manubrio M-3 2 ok
+   36 | Tripode Escritorio Selfie 2 ok
+   38 | Adaptador Hdmi2Av 3 ok
+   39 | Adaptador Av2Hdmi 3 ok
+   40 | Adaptador Tc2Hdmi Cbl 1 ok
+   42 | Patillera 3 En 1 Vintage 2 ok
+   43 | Mouse Gamer Inalambrico Eco 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-12 15:34:52
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   10 | Logica de Carga Xiaomi Redmi 9A / 9C / 10A 1 ok
+   11 | Pacha Xiaomi Redmi A1 / A2 1 ok
+   12 | Pacha Samsung A51 1 ok
+   13 | Flex de Carga Xiaomi Redmi Note 8 Pro 1 ok
+   14 | Logica de Carga Xiaomi Redmi Note 8 Pro 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-15 07:22:14
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-15 07:22:14
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-15 07:22:14
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst

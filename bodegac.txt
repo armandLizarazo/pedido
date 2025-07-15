@@ -275,7 +275,7 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 2
+    Consola Game Stick 1
     Consola Microsoft Xbox 360 0
     Consola Sup Con Control Negro 1
     Control Gamer Gatillos Con Ventilador 0
@@ -1893,3 +1893,15 @@
     Forro Space Tecno Spark 20 Pro / Hot 40 Pro 2
     Pacha Samsung A51 0
     Control Gamer Microsoft Xbox Caja Negra 0
+    Silicone Case Samsung A22 5G Negro 0
+    Silicone Case Samsung A22 5G Azuloscuro 0
+    Balaca Pantalla Fucsia 0
+    Cable Microsoft Xbox Caja Negra 0
+    Forro Armadura Xiaomi Redmi Note 13 4G Rojo 0
+    Pacha Motorola Moto G31 0
+    Pacha Motorola Moto G8 Play / One Macro 0
+    Pacha Nokia G21 0
+    Pacha Motorola Moto G8 Power 0
+    Pacha Samsung A04s 0
+    Pilas Recargables Beston AAA x4 0
+    Vidrio Blindado Xiaomi Redmi Note 14s 0
