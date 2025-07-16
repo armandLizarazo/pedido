@@ -130,7 +130,7 @@
     Cable Belkin Ligthning 3
     Cable Belkin Tc 2M 2
     Cable Belkin Tc 3
-    Cable Belkin V8 5
+    Cable Belkin V8 0
     Cable Caterpillar Tc 5
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -208,7 +208,7 @@
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 4
+    Cargador Belkin Tc 2
     Cargador Belkin V8 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -260,7 +260,7 @@
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
     Cargador We Tc 33W 0
-    Cargador We V8 33W 2
+    Cargador We V8 33W 0
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
@@ -275,7 +275,7 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 1
+    Consola Game Stick 2
     Consola Microsoft Xbox 360 0
     Consola Sup Con Control Negro 1
     Control Gamer Gatillos Con Ventilador 0
@@ -688,7 +688,7 @@
     Manos Libres Samsung Akg 5
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 0
     Manos Libres Samsung S6 Blanco 4
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 5
@@ -847,7 +847,7 @@
     Patillera 3 En 1 Vintage 0
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
-    Pilas Carbon Maxday Aaa 30
+    Pilas Carbon Maxday Aaa 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Beston AA x2 0
     Pilas Recargables Beston AAA Con Cargador 0
@@ -1905,3 +1905,19 @@
     Pacha Samsung A04s 0
     Pilas Recargables Beston AAA x4 0
     Vidrio Blindado Xiaomi Redmi Note 14s 0
+    Barbera Vgr V-660 0
+    Silicone Case Tecno Camon 40 Premier Negro 0
+    Silicone Case Tecno Camon 40 Premier Rojo 0
+    Silicone Case Tecno Camon 40 Premier Amarillo 0
+    Silicone Case Tecno Camon 40 Premier Fucsia 0
+    Silicone Case Tecno Camon 40 Premier Rosa 0
+    Silicone Case Tecno Camon 40 Premier Lila 0
+    Silicone Case Tecno Camon 40 Premier Azulrey 0
+    Pacha Samsung J5 Prime Blanco 0
+    Pilas Carbon Maxday Aa 0
+    Camara Xiaomi Redmi Note 8 Pro 0
+    Pacha Samsung A51 Oled 0
+    Bateria Samsung A51 0
+    Caja de Timbres Moto Edge 50 Fusion 0
+    Camara Principal Xiaomi Redmi 9T 0
+    Visor Camara Xiaomi Redmi 9T 0

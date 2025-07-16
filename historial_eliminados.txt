@@ -5373,3 +5373,111 @@ Línea  | Contenido
     7 | # Pedido: pdst
     8 | # Pedido: pdst
     9 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-16 06:34:01
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  258 | Vidrio Tortuga Apple Iphone 13 / 13P 5 ok
+  263 | Balaca Pantalla Fucsia 1 ok
+  264 | Cargador Apple 25W Con Cable 2 ok
+  265 | Cargador Apple 20W Con Cable 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-16 06:34:01
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   15 | Mouse Gamer Xmg-02 Inalambrico 1 ok
+   28 | Teclado Kb-502 Eco 2 ok
+   30 | Lapiz Optico Recargable 1 ok
+   35 | Consola Game Stick 2 ok
+   37 | Control Tv Smart Tv 3 ok
+
+==================================================
+Fecha de proceso: 2025-07-16 06:34:01
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Logica De Carga Motorola Moto G20 1 ok
+   10 | Pacha Samsung A21S 1 ok
+   11 | Pacha Samsung A30 / A50 1 ok
+   12 | Pacha Motorola Moto G31 2 ok
+   13 | Pacha Motorola Moto G8 Play / One Macro 2 ok
+   14 | Pacha Xiaomi Redmi 13C 1 ok
+   15 | Pacha Nokia G21 1 ok
+   16 | Pacha Motorola Moto G8 Power 1 ok
+   17 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+   18 | Pacha Samsung A04s 1 ok
+   19 | Tapa Xiaomi Redmi Note 8 Pro Negro 1 ok
+   20 | Logica de Carga Tecno Pop 7 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-16 07:07:57
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-16 07:07:57
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-16 07:07:57
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst
+   10 | # Pedido: pdst

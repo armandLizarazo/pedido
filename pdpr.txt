@@ -12,7 +12,6 @@
     Control Gamer Microsoft Pc Tipo 360 3
     Control Gamer Ps2 Inalambrico 1
     Lampara Esfera Sistema Solar 1
-    Mouse Gamer Xmg-02 Inalambrico 1 ok
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Con Bluetooth 3
     Rollo Cinta Led Rgb 10M 2
@@ -25,14 +24,18 @@
     Mini Calefactor Con Control 1
     Parlante Tg S-8A Negro 2
     Pilas Recargables Beston AA x2 1
-    Teclado Kb-502 Eco 2 ok
     Cable Lan 10M Cat 6 2
-    Lapiz Optico Recargable 1 ok
     Soporte Tv Fijo 2
     Control Gamer Microsoft Xbox Caja Negra 2
     Adaptador Multitoma 6 Enchufes 1
     Cable Microsoft Xbox Caja Negra 1
-    Consola Game Stick 2 ok
     Control Gamer X3 4
-    Control Tv Smart Tv 3 ok
     Pilas Recargables Beston AAA x4 1
+    Audifonos Bluetooth M60 2
+    Audifonos Bluetooth Redmi E7s Negro 2
+    Barbera Vgr V-660 1
+    Control Gamer Gatillos G21 3
+    Patillera 3 En 1 Vintage 2
+    Pilas Carbon Maxday Aaa 30
+    Pilas Carbon Maxday Aa 30
+    Soporte Tv 50 Brazo 2
