@@ -6,13 +6,15 @@
     Pacha Samsung J5 Prime Negro 1
     Bateria Bl5c 3
     Bateria Vidvie Iphone Xr 1
-    Logica De Carga Motorola Moto G20 2
-    Pacha Samsung A21S 1
-    Pacha Samsung A30 / A50 1
-    Pacha Motorola Moto G31 2
-    Pacha Motorola Moto G8 Play / One Macro 2
-    Pacha Xiaomi Redmi 13C 1
-    Pacha Nokia G21 1
-    Pacha Motorola Moto G8 Power 1
-    Pacha Samsung A02S / A03 / A03S / A04E 1
-    Pacha Samsung A04s 1
+    Logica De Carga Motorola Moto G20 1 ok
+    Pacha Samsung A21S 1 ok
+    Pacha Samsung A30 / A50 1 ok
+    Pacha Motorola Moto G31 2 ok
+    Pacha Motorola Moto G8 Play / One Macro 2 ok
+    Pacha Xiaomi Redmi 13C 1 ok
+    Pacha Nokia G21 1 ok
+    Pacha Motorola Moto G8 Power 1 ok
+    Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+    Pacha Samsung A04s 1 ok
+    Tapa Xiaomi Redmi Note 8 Pro Negro 1 ok
+    Logica de Carga Tecno Pop 7 1 ok
