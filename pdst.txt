@@ -3,16 +3,16 @@
     Blindaje Fpc Display Xiaomi Redmi Note 8 1
     Pacha Lg G Stylus 1
     Pacha Oppo Reno 6 Lite 1
-    Pacha Samsung J5 Prime Negro 1
+    Pacha Samsung J5 Prime Negro 1 ok
     Bateria Bl5c 3
     Bateria Vidvie Iphone Xr 1
-    Pacha Samsung A22 5G 2
+    Pacha Samsung A22 5G 1 ok
     Pacha Xiaomi Redmi 9T / Poco M3 1
     Pacha Xiaomi Redmi Note 12 1
-    Pacha Samsung J5 Prime Blanco 1
-    Camara Xiaomi Redmi Note 8 Pro 1
-    Pacha Samsung A51 Oled 1
-    Bateria Samsung A51 1
-    Caja de Timbres Moto Edge 50 Fusion 1
-    Camara Principal Xiaomi Redmi 9T 1
-    Visor Camara Xiaomi Redmi 9T 1
+    Pacha Samsung J5 Prime Blanco 1 ok
+    Camara Xiaomi Redmi Note 8 Pro 1 ok
+    Pacha Samsung A51 Oled 1 ok
+    Bateria Samsung A51 1s
+    Caja de Timbres Moto Edge 50 Fusion 1 ok
+    Camara Principal Xiaomi Redmi 9T 1 ok
+    Visor Camara Xiaomi Redmi 9T 1 ok
