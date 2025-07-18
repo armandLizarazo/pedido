@@ -261,11 +261,11 @@
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Forro Armadura Xiaomi Redmi Note 13 4G Rojo 1
     Vidrio Blindado Xiaomi Redmi Note 14s 5
-    Adaptador Micro Sd Eco 5
-    Audifonos Bluetooth I12 Negro 2
-    Cable Belkin V8 5
-    Cable Belkin Tc 3
-    Cargador We V8 33W 3
+    Adaptador Micro Sd Eco 5 ok
+    Audifonos Bluetooth I12 Negro 2 ok
+    Cable Belkin V8 5 ok
+    Cable Belkin Tc 3 
+    Cargador We V8 33W 3 ok
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
@@ -273,6 +273,5 @@
     Silicone Case Tecno Camon 40 Premier Rosa 1
     Silicone Case Tecno Camon 40 Premier Lila 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 5 ok
     Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
-    Smart Tv Tg 43 Pulgadas 1
