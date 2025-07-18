@@ -225,17 +225,17 @@
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
-    Forro Armadura Oppo A57 Negro 1
+    Forro Armadura Oppo A57 Negro 1 ok
     Silicone Case Oppo Realme C75 Fucsia 1
     Forro Armadura Samsung A06 Rojo 1
     Silicone Case Huawei Honor X5B Rojo 1
     Forro Space Huawei Honor X5B 2
-    Forro Armadura Samsung A15 Negro 1
-    Forro Armadura Xiaomi Redmi Note 13 4G Negro 1
-    Silicone Case Samsung A70 Negro 1
-    Silicone Case Samsung A70 Rojo 1
-    Silicone Case Samsung A70 Fucsia 1
-    Silicone Case Samsung A70 Lila 1
+    Forro Armadura Samsung A15 Negro 1 ok
+    Forro Armadura Xiaomi Redmi Note 13 4G Negro 1 ok
+    Silicone Case Samsung A70 Negro 1 ok
+    Silicone Case Samsung A70 Rojo 1 ok
+    Silicone Case Samsung A70 Fucsia 1 ok
+    Silicone Case Samsung A70 Lila 1 ok
     Forro Antichoque Xiaomi Redmi A5 Dama 5
     Forro Antichoque Xiaomi Redmi A5 Caballero 5
     Forro Space Xiami Redmi A5 2
@@ -244,20 +244,20 @@
     Audifonos Bluetooth Redmi E7s Negro 2
     Cargador Samsung 45W Cabeza Negro 1
     Cargador Samsung 45W Cable Negro 1
-    Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1 ok
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1 ok
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1
     Forro Antichoque Vivo Y39 Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Space Vivo Y39 2
     Silicone Case Vivo V25E Azuloscuro 1
-    Silicone Case Huawei Y9 Prime Fucsia 1
+    Silicone Case Huawei Y9 Prime Fucsia 1 
     Silicone Case Samsung A14 Blanco 1
-    Silicone Case Vivo Y51 / Y53S Rojo 1
+    Silicone Case Vivo Y51 / Y53S Rojo 1 ok
     Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 3
     Simcard Claro 10
-    Silicone Case Xiaomi Redmi 12 Negro 1
-    Silicone Case Samsung A22 5G Azuloscuro 1
+    Silicone Case Xiaomi Redmi 12 Negro 1 ok
+    Silicone Case Samsung A22 5G Azuloscuro 1 ok
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Forro Armadura Xiaomi Redmi Note 13 4G Rojo 1
     Vidrio Blindado Xiaomi Redmi Note 14s 5
