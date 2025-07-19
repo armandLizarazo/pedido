@@ -1,8 +1,8 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
-    Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 1
+    Audifonos Bluetooth Xiaomi E7S Blanco 1 ok
+    Audifonos Bluetooth Xiaomi E7S Negro 2 ok
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Cable Apple Tc Ligthning 3 
     Cable Apple Usb Ligthning 2M 2
@@ -35,13 +35,13 @@
     Forro Antichoque Tecno Spark 30 Caballero 3
     Forro Antichoque Tecno Spark 30 Dama 3
     Forro Antichoque Vivo V25E Caballero 3
-    Forro Antichoque Vivo Y19S Caballero 5
+    Forro Antichoque Vivo Y19S Caballero 5 ok
     Forro Antichoque Vivo Y19S Dama 5
-    Forro Antichoque Vivo Y20S Caballero 3
-    Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5
-    Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5
-    Forro Antichoque Xiaomi Redmi Note 9S Caballero 3
-    Forro Antichoque Xiaomi Redmi Note 9S Dama 3
+    Forro Antichoque Vivo Y20S Caballero 3 ok
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5 ok
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5 ok
+    Forro Antichoque Xiaomi Redmi Note 9S Caballero 3 ok
+    Forro Antichoque Xiaomi Redmi Note 9S Dama 3 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 11 Negro 1
@@ -77,7 +77,7 @@
     Forro Space Oppo Realme C53 / Note 50 1
     Forro Space Oppo Realme C75 2
     Forro Space Samsung A22 5G 1
-    Forro Space Samsung A36 2
+    Forro Space Samsung A36 2 ok
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
@@ -122,9 +122,9 @@
     Silicone Case Motorola Moto G8 Power Lite Lila 1
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Oppo A17 Verdemilitar 1
-    Silicone Case Oppo A57 / A77 Negro 1
-    Silicone Case Oppo A57 Lila 1 
-    Silicone Case Oppo A80 Morado 1
+    Silicone Case Oppo A57 / A77 Negro 1 ok
+    Silicone Case Oppo A57 Lila 1
+    Silicone Case Oppo A80 Morado 1 ok
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C53 Lila 1
@@ -133,17 +133,17 @@
     Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Lila 1
     Silicone Case Samsung A03 Core Negro 1
-    Silicone Case Samsung A05 Negro 1
+    Silicone Case Samsung A05 Negro 1 ok
     Silicone Case Samsung A15 Lila 1
     Silicone Case Samsung A15 Rosa 1 
-    Silicone Case Samsung A15 Verde 1
-    Silicone Case Samsung A16 Amarillo 1 
-    Silicone Case Samsung A16 Lila 1
+    Silicone Case Samsung A15 Verde 1 ok
+    Silicone Case Samsung A16 Amarillo 1
+    Silicone Case Samsung A16 Lila 1 ok
     Silicone Case Samsung A22 5G Negro 1
-    Silicone Case Samsung A36 / A56 Amarillo 1
-    Silicone Case Samsung A36 Fucsia 1
-    Silicone Case Samsung A53 Rosa 1
-    Silicone Case Samsung A56 Amarillo 1
+    Silicone Case Samsung A36 / A56 Amarillo 1 ok
+    Silicone Case Samsung A36 Fucsia 1 ok
+    Silicone Case Samsung A53 Rosa 1 ok
+    Silicone Case Samsung A56 Amarillo 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
@@ -153,10 +153,10 @@
     Silicone Case Tecno Camon 30S Negro 1
     Silicone Case Tecno Camon 30S Pro Amarillo 1
     Silicone Case Tecno Camon 30S Pro Negro 1
-    Silicone Case Tecno Spark 20 Pro Plus Amarillo 1
-    Silicone Case Tecno Spark 30C Negro 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1
-    Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 1
+    Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 ok
+    Silicone Case Tecno Spark 30C Negro 1 ok
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1 ok
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -171,17 +171,17 @@
     Silicone Case Vivo Y15 / Y01 Amarillo 1
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y20 / Y20S / Y11S Rojo 1
-    Silicone Case Xiaomi Mi 11T Verde 1 
+    Silicone Case Xiaomi Mi 11T Verde 1 ok
     Silicone Case Xiaomi Redmi 12 Azulrey 1
     Silicone Case Xiaomi Redmi 14C Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
-    Silicone Case Xiaomi Redmi Note 12 4G Morado 1
-    Silicone Case Xiaomi Redmi Note 13 5G Lila 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Fucsia 1
-    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
+    Silicone Case Xiaomi Redmi Note 12 4G Morado 1 ok
+    Silicone Case Xiaomi Redmi Note 13 5G Lila 1 
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Fucsia 1 ok
+    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Silicone Case Xiaomi Redmi Note 9S Fucsia 1
-    Silicone Case Xiaomi Redmi Note 9S Negro 1
+    Silicone Case Xiaomi Redmi Note 9S Fucsia 1 ok
+    Silicone Case Xiaomi Redmi Note 9S Negro 1 ok
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
@@ -236,25 +236,25 @@
     Silicone Case Samsung A70 Rojo 1 ok
     Silicone Case Samsung A70 Fucsia 1 ok
     Silicone Case Samsung A70 Lila 1 ok
-    Forro Antichoque Xiaomi Redmi A5 Dama 5
-    Forro Antichoque Xiaomi Redmi A5 Caballero 5
+    Forro Antichoque Xiaomi Redmi A5 Dama 5 ok
+    Forro Antichoque Xiaomi Redmi A5 Caballero 5 ok
     Forro Space Xiami Redmi A5 2
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
-    Audifonos Bluetooth Redmi E7s Negro 2
-    Cargador Samsung 45W Cabeza Negro 1
-    Cargador Samsung 45W Cable Negro 1
+    Audifonos Bluetooth Redmi E7s Negro 2 ok
+    Cargador Samsung 45W Cabeza Negro 1 ok
+    Cargador Samsung 45W Cable Negro 1 ok
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1 ok
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1 ok
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1 ok
     Forro Antichoque Vivo Y39 Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Space Vivo Y39 2
     Silicone Case Vivo V25E Azuloscuro 1
-    Silicone Case Huawei Y9 Prime Fucsia 1 
+    Silicone Case Huawei Y9 Prime Fucsia 1 ok
     Silicone Case Samsung A14 Blanco 1
     Silicone Case Vivo Y51 / Y53S Rojo 1 ok
-    Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 3
+    Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 5 ok
     Simcard Claro 10
     Silicone Case Xiaomi Redmi 12 Negro 1 ok
     Silicone Case Samsung A22 5G Azuloscuro 1 ok
