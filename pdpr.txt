@@ -22,7 +22,7 @@
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
     Mini Calefactor Con Control 1
-    Parlante Tg S-8A Negro 2
+    Parlante Tg S-8A Negro 2 ok
     Pilas Recargables Beston AA x2 1
     Cable Lan 10M Cat 6 2
     Soporte Tv Fijo 2
@@ -32,8 +32,7 @@
     Control Gamer X3 4
     Pilas Recargables Beston AAA x4 1
     Audifonos Bluetooth M60 2
-    Audifonos Bluetooth Redmi E7s Negro 2
-    Barbera Vgr V-660 1
+    Barbera Vgr V-660 1 ok
     Control Gamer Gatillos G21 3
     Patillera 3 En 1 Vintage 2
     Pilas Carbon Maxday Aaa 30
