@@ -1,18 +1,10 @@
-    Bateria Infinix Smart 6 1
-    Bateria Xiaomi Mi11T Pro 1
-    Blindaje Fpc Display Xiaomi Redmi Note 8 1
-    Pacha Lg G Stylus 1
     Pacha Oppo Reno 6 Lite 1
-    Pacha Samsung J5 Prime Negro 1 ok
-    Bateria Bl5c 3
     Bateria Vidvie Iphone Xr 1
-    Pacha Samsung A22 5G 1 ok
-    Pacha Xiaomi Redmi 9T / Poco M3 1
-    Pacha Xiaomi Redmi Note 12 1
-    Pacha Samsung J5 Prime Blanco 1 ok
-    Camara Xiaomi Redmi Note 8 Pro 1 ok
-    Pacha Samsung A51 Oled 1 ok
-    Bateria Samsung A51 1s
-    Caja de Timbres Moto Edge 50 Fusion 1 ok
-    Camara Principal Xiaomi Redmi 9T 1 ok
-    Visor Camara Xiaomi Redmi 9T 1 ok
+    Boton Huella Samsung A14 Amarillo 1
+    Pacha Apple Iphone 8 Negro 1
+    Bateria Apple Iphone X 1
+    Pacha Samsung A02S / A03 / A03S / A04E 2
+    Pacha Apple Iphone Xr Gx 1
+    Pacha Xiaomi Redmi 9A / 9C / 10A 2
+    Pacha Samsung A25 C/m Incell 1
+    Pacha Oppo A16 1

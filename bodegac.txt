@@ -23,7 +23,7 @@
     Adaptador Hub Tc Usb X3 1
     Adaptador Mdpp2Hdmi 1
     Adaptador Mdpp2Hdmi Cbl 0
-    Adaptador Micro Sd Eco 0
+    Adaptador Micro Sd Eco 3
     Adaptador Multitoma 6 Enchufes 0
     Adaptador Nfc Q-t92 0
     Adaptador Otg Tc 0
@@ -59,16 +59,15 @@
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 0
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 0
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
-    Audifonos Bluetooth I12 Negro 0
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth M60 0
     Audifonos Bluetooth Pro 2 Pantalla 2
     Audifonos Bluetooth Pro 60 2
-    Audifonos Bluetooth Redmi E7s Negro 0
+    Audifonos Bluetooth Redmi E7s Negro 1
     Audifonos Bluetooth Royal Sports 1
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
-    Audifonos Bluetooth W I12 Negro 0
+    Audifonos Bluetooth W I12 Negro 2
     Audifonos Bluetooth W I12 Rosa 0
     Audifonos Bluetooth X15 0
     Audifonos Bluetooth Xiaomi E7S Blanco 0
@@ -84,11 +83,13 @@
     Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 0
     Balaca Naisu S-437 Verde 0
+    Balaca Pantalla Fucsia 0
     Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Xiaomi Redmi 13C 0
     Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 0
     Bandjea Sim Xiaomi Redmi Note 12 Verde 0
+    Barbera Vgr V-660 0
     Bateria Apple Iphone 7 Plus 0
     Bateria Bl5c 0
     Bateria Huawei Mate 20 Lite 0
@@ -98,6 +99,7 @@
     Bateria Motorola Moto G31 / G42 0
     Bateria Motorola Moto G8 Plus 0
     Bateria Samsung A10S 0
+    Bateria Samsung A51 0
     Bateria Samsung A53 0
     Bateria Samsung Galaxy S9 Plus 0
     Bateria Samsung J2 Prime 0
@@ -128,9 +130,9 @@
     Cable Auxiliar 3 A 1 1.5M 3
     Cable Auxiliar 3 A 1 3M 2
     Cable Belkin Ligthning 3
+    Cable Belkin Tc 0
     Cable Belkin Tc 2M 2
-    Cable Belkin Tc 3
-    Cable Belkin V8 0
+    Cable Belkin V8 5
     Cable Caterpillar Tc 5
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -148,6 +150,7 @@
     Cable Lan 10M Cat 6 0
     Cable Lan 3M Cat 6 0
     Cable Lan Cat 6 20M 0
+    Cable Microsoft Xbox Caja Negra 0
     Cable Motorola Tc A Tc 0
     Cable Nokia 1100 0
     Cable Optico 1.5M 2
@@ -180,6 +183,7 @@
     Cable Yoyos Tc 3M 2
     Cable Yoyos Tc 67W 0
     Cable Yoyos V8 3M 2
+    Caja de Timbres Moto Edge 50 Fusion 0
     Caja De Timbres Motorola Moto G20 Original 0
     Caja de Timbres Motorola Moto G31 0
     Caja De Timbres Motorola Moto G32 0
@@ -188,14 +192,16 @@
     Caja De Timbres Xiaomi Redmi Note 13 4G 0
     Camara 3 Antenas 3
     Camara Principal Samsugn S20 Fe 0
+    Camara Principal Xiaomi Redmi 9T 0
     Camara Web 720P 1
+    Camara Xiaomi Redmi Note 8 Pro 0
     Cambio Pacha Motorola Moto G20 / G30 1
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
     Cargador 12V 2A Doble Punta 3
     Cargador 5V 2A Doble Punta 3
-    Cargador 9V 2A Doble Punta 3
+    Cargador 9V 2A Doble Punta 1
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
     Cargador Apple 20W Con Cable 2
@@ -242,13 +248,13 @@
     Cargador Pluying X8 Modulador 3.1A 0
     Cargador Realme Tc 65W 0
     Cargador Royal 45W Tc Cbl 0
-    Cargador Samsung 25W Cabeza Blanco 1
-    Cargador Samsung 25W Cabeza Negro 1
+    Cargador Samsung 25W Cabeza Blanco 2
+    Cargador Samsung 25W Cabeza Negro 0
     Cargador Samsung 25W Cable V8 0
     Cargador Samsung 45W Cabeza Blanco 0
     Cargador Samsung 45W Cabeza Negro 0
-    Cargador Samsung 45W Cable Blanco 2
-    Cargador Samsung 45W Cable Negro 0
+    Cargador Samsung 45W Cable Blanco 1
+    Cargador Samsung 45W Cable Negro 1
     Cargador Samsung S10+ Cable Tc 0
     Cargador Smart Watch Magnetico 2
     Cargador Smart Watch Pinza 2
@@ -260,11 +266,11 @@
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
     Cargador We Tc 33W 3
-    Cargador We V8 33W 0
+    Cargador We V8 33W 3
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
-    Cargador Yl Tc 5
+    Cargador Yl Tc 3
     Cargador Yl V8 5
     Cargador Yl V8 Eco 5
     Celular Corn Rs10 0
@@ -275,7 +281,7 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 2
+    Consola Game Stick 1
     Consola Microsoft Xbox 360 0
     Consola Sup Con Control Negro 1
     Control Gamer Gatillos Con Ventilador 0
@@ -285,6 +291,7 @@
     Control Gamer Microsoft Pc / 360 Alambrico 0
     Control Gamer Microsoft Pc Tipo 360 0
     Control Gamer Microsoft Xbox 360 Inalambrico 0
+    Control Gamer Microsoft Xbox Caja Negra 0
     Control Gamer Pc Eco 1 0
     Control Gamer Pc Sencillo 0
     Control Gamer Ps4 Blanco 0
@@ -339,6 +346,7 @@
     Forro Antichoque Motorola Moto G24 / G04 Dama 5
     Forro Antichoque Motorola Moto G54 Caballero 0
     Forro Antichoque Motorola Moto G55 Caballero 2
+    Forro Antichoque Motorola Moto G72 Caballero 0
     Forro Antichoque Oppo A38 Caballero 2
     Forro Antichoque Oppo A38 Dama 1
     Forro Antichoque Oppo A60 Dama 0
@@ -347,6 +355,7 @@
     Forro Antichoque Oppo Realme C11 2021 Dama 0
     Forro Antichoque Oppo Realme C75 Caballero 0
     Forro Antichoque Oppo Realme C75 Dama 0
+    Forro Antichoque Oppo Reno 7 Caballero 0
     Forro Antichoque Opps A79 Caballero 0
     Forro Antichoque Samsung A04E Caballero 0
     Forro Antichoque Samsung A04E Dama 0
@@ -395,7 +404,7 @@
     Forro Antichoque Xiaomi Redmi 13 Caballero 0
     Forro Antichoque Xiaomi Redmi 13 Dama 0
     Forro Antichoque Xiaomi Redmi 14C Caballero 0
-    Forro Antichoque Xiaomi Redmi 14C Dama 2
+    Forro Antichoque Xiaomi Redmi 14C Dama 0
     Forro Antichoque Xiaomi Redmi 9C / 10A Caballero 0
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 0
     Forro Antichoque Xiaomi Redmi A1 / A2 Dama 0
@@ -445,9 +454,11 @@
     Forro Armadura Xiaomi Redmi 14C Negro 0
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 0
     Forro Armadura Xiaomi Redmi Note 13 4G Negro 0
+    Forro Armadura Xiaomi Redmi Note 13 4G Rojo 0
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 0
     Forro Armadura Xiaomi Redmi Note 8 Negro 1
     Forro Armadura Xiaomi Redmi Note 8 Rojo 1
+    Forro Audifonos Pantalla Negro 0
     Forro Crg Apple Con Estuche Azul 1
     Forro Crg Apple Con Estuche Morado 1
     Forro Crg Apple Con Estuche Naranja 1
@@ -550,7 +561,7 @@
     Forro Space Samsung A 20 / A30 0
     Forro Space Samsung A03S / A02S 1
     Forro Space Samsung A04S 0
-    Forro Space Samsung A05 0
+    Forro Space Samsung A05 1
     Forro Space Samsung A05S 1
     Forro Space Samsung A05S Lila 1
     Forro Space Samsung A06 2
@@ -569,9 +580,9 @@
     Forro Space Samsung A34 0
     Forro Space Samsung A34 Negro 1
     Forro Space Samsung A35 1
+    Forro Space Samsung A36 / A56 3
     Forro Space Samsung A54 2
     Forro Space Samsung A55 1
-    Forro Space Samsung A56 1
     Forro Space Samsung M23 / A13 5G 1
     Forro Space Samsung S20 Fe 1
     Forro Space Samsung S21 Fe 1
@@ -587,7 +598,7 @@
     Forro Space Tecno Pova 4 0
     Forro Space Tecno Pova 5 4
     Forro Space Tecno Spark 10 / 10C 2
-    Forro Space Tecno Spark 20 Pro 0
+    Forro Space Tecno Spark 20 Pro / Hot 40 Pro 2
     Forro Space Tecno Spark 20 Pro Plus 2
     Forro Space Tecno Spark Go 2022 / 8C 1
     Forro Space Tecno Spark Go 2023 4
@@ -684,14 +695,14 @@
     Manos Libres Inears Ak6 0
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
-    Manos Libres Samsugn Tipo Original Negro 5
+    Manos Libres Samsugn Tipo Original Negro 0
     Manos Libres Samsung Akg 5
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung J5 Negro 4
     Manos Libres Samsung S6 Blanco 4
-    Manos Libres Samsung Tipo Original Blanco 5
-    Manos Libres Samsung Tipo Original Negro 5
+    Manos Libres Samsung Tipo Original Blanco 0
+    Manos Libres Samsung Tipo Original Negro 0
     Manos Libres Speak Tc 0
     Manos Libres Speal Tc Negro 0
     Manos Libres Tc Blanco 0
@@ -749,12 +760,16 @@
     Pacha Motorola Moto G14 / G54 0
     Pacha Motorola Moto G20 / G30 0
     Pacha Motorola Moto G22 / E32 0
+    Pacha Motorola Moto G31 0
     Pacha Motorola Moto G60 / G60S 0
+    Pacha Motorola Moto G8 Play / One Macro 0
+    Pacha Motorola Moto G8 Power 0
     Pacha Motorola Moto G8 Power Lite 0
     Pacha Motorola Moto G9 Power 0
     Pacha Motorola Moto One 0
     Pacha Motorola Moto One Fusion 0
     Pacha Nokia 5.3 0
+    Pacha Nokia G21 0
     Pacha Oppo A17 / A57 / A77 0
     Pacha Oppo A54 0
     Pacha Oppo Realme C11 2021 0
@@ -763,6 +778,7 @@
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 0
     Pacha Samsung A02S / A03 / A03S / A04E 0
     Pacha Samsung A02S C/M 0
+    Pacha Samsung A04s 0
     Pacha Samsung A05 0
     Pacha Samsung A10 0
     Pacha Samsung A10S 0
@@ -785,6 +801,9 @@
     Pacha Samsung A31 S/M 0
     Pacha Samsung A32 0
     Pacha Samsung A32 S/M 0
+    Pacha Samsung A51 0
+    Pacha Samsung A51 Oled 0
+    Pacha Samsung J5 Prime Blanco 0
     Pacha Samsung J5 Prime Negro 0
     Pacha Tcl 30Se 0
     Pacha Tcl 40Se 0
@@ -836,21 +855,24 @@
     Parlante Mini 0
     Parlante Pc Eco Ysd-1024 0
     Parlante T&G Tg-294 0
-    Parlante Teatro Tg Tg-100 0
+    Parlante Teatro Tg Tg-100 2
     Parlante Teatro Tg Tg-200 0
     Parlante Teatro Tg-200 0
-    Parlante Tg S-8A Negro 0
+    Parlante Tg S-8A Negro 1
     Parlante Tg S-8B Rojo 0
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
     Patillera 3 En 1 1
     Patillera 3 En 1 Vintage 0
+    Patillera Vintage Sencilla 1
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
+    Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aaa 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Beston AA x2 0
     Pilas Recargables Beston AAA Con Cargador 0
+    Pilas Recargables Beston AAA x4 0
     Pilas Recargables Maxday AA x4 0
     Pilas Recargables Sony AA con Cargador 0
     Pilas Recargables Sony Aa X2 0
@@ -894,7 +916,7 @@
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Hd-939 1
-    Reproductor Tdt Krono Kr-365 5
+    Reproductor Tdt Krono Kr-365 3
     Reproductor Tv Stick Magis 0
     Reproductor Tv Stick Watch Om 0
     Rollo Cinta Led Rgb 10M 0
@@ -1082,7 +1104,7 @@
     Silicone Case Huawei Y9 2019 / Y8S Rosa 0
     Silicone Case Huawei Y9 2019 / Y8S Verde 0
     Silicone Case Huawei Y9 2019 Rojo 0
-    Silicone Case Huawei Y9 Prime Fucsia 0
+    Silicone Case Huawei Y9 Prime Fucsia 1
     Silicone Case Huawei Y9 Prime Morado 1
     Silicone Case Huawei Y9 Prime Rosa 0
     Silicone Case Huawei Y9 Prime Verde 1
@@ -1137,6 +1159,7 @@
     Silicone Case Motorola Moto G60S Amarillo 0
     Silicone Case Motorola Moto G60S Rojo 1
     Silicone Case Motorola Moto G72 Lila 0
+    Silicone Case Motorola Moto G72 Negro 0
     Silicone Case Motorola Moto G8 Plus Amarillo 0
     Silicone Case Motorola Moto G8 Power Lite Lila 0
     Silicone Case Motorola Moto G8 Power Lite Rojo 0
@@ -1202,7 +1225,7 @@
     Silicone Case Oppo Reamle C53 / Note 50 Negro 0
     Silicone Case Oppo Reno 11F Fucsia 0
     Silicone Case Oppo Reno 12 Pro Azulrey 0
-    Silicone Case Oppo Reno 7 Negro 1
+    Silicone Case Oppo Reno 7 Negro 0
     Silicone Case Samsugn A36 / A56 Lila 0
     Silicone Case Samsugn S24 Fe Fucsia 1
     Silicone Case Samsung A02S Ab Gris 1
@@ -1262,8 +1285,10 @@
     Silicone Case Samsung A22 4G Morado 0
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Ab Rojo 1
+    Silicone Case Samsung A22 5G Azuloscuro 0
     Silicone Case Samsung A22 5G Fucsia 0
     Silicone Case Samsung A22 5G Lila 0
+    Silicone Case Samsung A22 5G Negro 0
     Silicone Case Samsung A22 5G Verdebiche 1
     Silicone Case Samsung A24 Amarillo 1
     Silicone Case Samsung A24 Fucsia 0
@@ -1293,13 +1318,10 @@
     Silicone Case Samsung A35 Fucsia 1
     Silicone Case Samsung A35 Negro 0
     Silicone Case Samsung A36 / A56 Amarillo 0
-    Silicone Case Samsung A36 / A56 Fucsia 0
+    Silicone Case Samsung A36 / A56 Fucsia 1
     Silicone Case Samsung A36 / A56 Negro 1
     Silicone Case Samsung A36 / A56 Rojo 1
     Silicone Case Samsung A36 / A56 Rosa 0
-    Silicone Case Samsung A36 Amarillo 0
-    Silicone Case Samsung A36 Fucsia 0
-    Silicone Case Samsung A36 Rojo 1
     Silicone Case Samsung A52 Verde 0
     Silicone Case Samsung A53 Azulrey 0
     Silicone Case Samsung A53 Fucsia 0
@@ -1419,18 +1441,25 @@
     Silicone Case Tecno Camon 30S Pro Morado 1
     Silicone Case Tecno Camon 30S Pro Negro 0
     Silicone Case Tecno Camon 40 / 40 Pro Fucsia 0
+    Silicone Case Tecno Camon 40 Premier Amarillo 0
+    Silicone Case Tecno Camon 40 Premier Azulrey 0
+    Silicone Case Tecno Camon 40 Premier Fucsia 0
+    Silicone Case Tecno Camon 40 Premier Lila 0
+    Silicone Case Tecno Camon 40 Premier Negro 0
+    Silicone Case Tecno Camon 40 Premier Rojo 0
+    Silicone Case Tecno Camon 40 Premier Rosa 0
     Silicone Case Tecno Pova 4 Lila 1
     Silicone Case Tecno Pova 4 Rojo 1
     Silicone Case Tecno Spark 10 / 10C Morado 1
     Silicone Case Tecno Spark 10 Pro Fucsia 0
     Silicone Case Tecno Spark 10 Pro Lila 0
     Silicone Case Tecno Spark 10 Pro Rojooscuro 1
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 0
+    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Azulrey 0
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 0
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Negro 0
     Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Rojo 0
-    Silicone Case Tecno Spark 20 Pro Plus 0
+    Silicone Case Tecno Spark 20 Pro Plus Negro 0
     Silicone Case Tecno Spark 20 Pro Plus Rojo 2
     Silicone Case Tecno Spark 2022 / 8C Azulclaro 1
     Silicone Case Tecno Spark 2022 / 8C Negro 1
@@ -1586,6 +1615,7 @@
     Silicone Case Xiaomi Redmi Note 13 4G Morado 0
     Silicone Case Xiaomi Redmi Note 13 5G Lila 0
     Silicone Case Xiaomi Redmi Note 13 Pro 4G Azulrey 0
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Ab Lila 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 0
@@ -1826,6 +1856,7 @@
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 0
     Vidrio Blindado Xiaomi Redmi Note 13 5G 4
     Vidrio Blindado Xiaomi Redmi Note 14 0
+    Vidrio Blindado Xiaomi Redmi Note 14s 0
     Vidrio Camara  Xiaomi Redmi Note 13 5G 5
     Vidrio Camara Apple Iphone 13 0
     Vidrio Camara Apple Iphone 13 Pro Max 0
@@ -1888,36 +1919,18 @@
     Visor Camara Huawei Y9A 0
     Visor Camara Lg K51S 0
     Visor Camara Principal Huawei Honor X7B 0
-    Visor Camara Xiaomi Redmi Note 10 Pro 0
-    Forro Audifonos Pantalla Negro 0
-    Forro Space Tecno Spark 20 Pro / Hot 40 Pro 2
-    Pacha Samsung A51 0
-    Control Gamer Microsoft Xbox Caja Negra 0
-    Silicone Case Samsung A22 5G Negro 0
-    Silicone Case Samsung A22 5G Azuloscuro 0
-    Balaca Pantalla Fucsia 0
-    Cable Microsoft Xbox Caja Negra 0
-    Forro Armadura Xiaomi Redmi Note 13 4G Rojo 0
-    Pacha Motorola Moto G31 0
-    Pacha Motorola Moto G8 Play / One Macro 0
-    Pacha Nokia G21 0
-    Pacha Motorola Moto G8 Power 0
-    Pacha Samsung A04s 0
-    Pilas Recargables Beston AAA x4 0
-    Vidrio Blindado Xiaomi Redmi Note 14s 0
-    Barbera Vgr V-660 0
-    Silicone Case Tecno Camon 40 Premier Negro 0
-    Silicone Case Tecno Camon 40 Premier Rojo 0
-    Silicone Case Tecno Camon 40 Premier Amarillo 0
-    Silicone Case Tecno Camon 40 Premier Fucsia 0
-    Silicone Case Tecno Camon 40 Premier Rosa 0
-    Silicone Case Tecno Camon 40 Premier Lila 0
-    Silicone Case Tecno Camon 40 Premier Azulrey 0
-    Pacha Samsung J5 Prime Blanco 0
-    Pilas Carbon Maxday Aa 0
-    Camara Xiaomi Redmi Note 8 Pro 0
-    Pacha Samsung A51 Oled 0
-    Bateria Samsung A51 0
-    Caja de Timbres Moto Edge 50 Fusion 0
-    Camara Principal Xiaomi Redmi 9T 0
     Visor Camara Xiaomi Redmi 9T 0
+    Visor Camara Xiaomi Redmi Note 10 Pro 0
+    Silicone Case Xiaomi Redmi Note 12 Morado 1
+    Boton Huella Samsung A14 Amarillo 0
+    Pacha Apple Iphone 8 Negro 0
+    Bateria Apple Iphone X 0
+    Cargador Fuente 360 Slim 0
+    Control Gamer Ps4 Rojo 0
+    Forro Antichoque Xiaomi Redmi Note 9 Dama 0
+    Microfono Bafle Eco 0
+    Pacha Samsung A25 C/m Incell 0
+    Pacha Oppo A16 0
+    Forro Lujo Apple Iphone Xr Lila 0
+    Silicone Case Lg K61 Amarillo 0
+    Silicone Case Xiaomi Redmi 9a Azulrey 0

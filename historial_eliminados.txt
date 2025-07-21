@@ -5481,3 +5481,197 @@ Línea  | Contenido
     8 | # Pedido: pdst
     9 | # Pedido: pdst
    10 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-20 16:11:58
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 51
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Audifonos Bluetooth Xiaomi E7S Blanco 1 ok
+    5 | Audifonos Bluetooth Xiaomi E7S Negro 2 ok
+   38 | Forro Antichoque Vivo Y19S Caballero 5 ok
+   40 | Forro Antichoque Vivo Y20S Caballero 3 ok
+   41 | Forro Antichoque Xiaomi Redmi Note 14 Pro Caballero 5 ok
+   42 | Forro Antichoque Xiaomi Redmi Note 14 Pro Dama 5 ok
+   43 | Forro Antichoque Xiaomi Redmi Note 9S Caballero 3 ok
+   44 | Forro Antichoque Xiaomi Redmi Note 9S Dama 3 ok
+   80 | Forro Space Samsung A36 2 ok
+  125 | Silicone Case Oppo A57 / A77 Negro 1 ok
+  127 | Silicone Case Oppo A80 Morado 1 ok
+  136 | Silicone Case Samsung A05 Negro 1 ok
+  139 | Silicone Case Samsung A15 Verde 1 ok
+  141 | Silicone Case Samsung A16 Lila 1 ok
+  143 | Silicone Case Samsung A36 / A56 Amarillo 1 ok
+  144 | Silicone Case Samsung A36 Fucsia 1 ok
+  145 | Silicone Case Samsung A53 Rosa 1 ok
+  146 | Silicone Case Samsung A56 Amarillo 1 ok
+  156 | Silicone Case Tecno Spark 20 Pro Plus Amarillo 1 ok
+  157 | Silicone Case Tecno Spark 30C Negro 1 ok
+  158 | Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1 ok
+  174 | Silicone Case Xiaomi Mi 11T Verde 1 ok
+  178 | Silicone Case Xiaomi Redmi Note 12 4G Morado 1 ok
+  180 | Silicone Case Xiaomi Redmi Note 13 Pro 4G Fucsia 1 ok
+  181 | Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1 ok
+  183 | Silicone Case Xiaomi Redmi Note 9S Fucsia 1 ok
+  184 | Silicone Case Xiaomi Redmi Note 9S Negro 1 ok
+  228 | Forro Armadura Oppo A57 Negro 1 ok
+  233 | Forro Armadura Samsung A15 Negro 1 ok
+  234 | Forro Armadura Xiaomi Redmi Note 13 4G Negro 1 ok
+  235 | Silicone Case Samsung A70 Negro 1 ok
+  236 | Silicone Case Samsung A70 Rojo 1 ok
+  237 | Silicone Case Samsung A70 Fucsia 1 ok
+  238 | Silicone Case Samsung A70 Lila 1 ok
+  239 | Forro Antichoque Xiaomi Redmi A5 Dama 5 ok
+  240 | Forro Antichoque Xiaomi Redmi A5 Caballero 5 ok
+  244 | Audifonos Bluetooth Redmi E7s Negro 2 ok
+  245 | Cargador Samsung 45W Cabeza Negro 1 ok
+  246 | Cargador Samsung 45W Cable Negro 1 ok
+  247 | Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 1 ok
+  249 | Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Amarillo 1 ok
+  254 | Silicone Case Huawei Y9 Prime Fucsia 1 ok
+  256 | Silicone Case Vivo Y51 / Y53S Rojo 1 ok
+  257 | Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 5 ok
+  259 | Silicone Case Xiaomi Redmi 12 Negro 1 ok
+  260 | Silicone Case Samsung A22 5G Azuloscuro 1 ok
+  264 | Adaptador Micro Sd Eco 5 ok
+  265 | Audifonos Bluetooth I12 Negro 2 ok
+  266 | Cable Belkin V8 5 ok
+  268 | Cargador We V8 33W 3 ok
+  276 | Manos Libres Samsung J5 Negro 5 ok
+
+==================================================
+Fecha de proceso: 2025-07-20 16:11:58
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   25 | Parlante Tg S-8A Negro 2 ok
+   35 | Barbera Vgr V-660 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-20 16:11:58
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Pacha Samsung J5 Prime Negro 1 ok
+    9 | Pacha Samsung A22 5G 1 ok
+   12 | Pacha Samsung J5 Prime Blanco 1 ok
+   13 | Camara Xiaomi Redmi Note 8 Pro 1 ok
+   14 | Pacha Samsung A51 Oled 1 ok
+   16 | Caja de Timbres Moto Edge 50 Fusion 1 ok
+   17 | Camara Principal Xiaomi Redmi 9T 1 ok
+   18 | Visor Camara Xiaomi Redmi 9T 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-21 04:36:49
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+  232 | # Pedido: pdcentro
+  233 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-21 04:36:49
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-21 04:36:49
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-07-21 05:40:20
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-21 05:40:20
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-21 05:40:20
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-07-21 05:43:40
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-07-21 05:43:40
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-07-21 05:43:40
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Bateria Samsung A51 1 ok
