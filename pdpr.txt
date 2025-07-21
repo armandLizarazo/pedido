@@ -36,7 +36,7 @@
     Pilas Carbon Maxday Aaa 30
     Pilas Carbon Maxday Aa 30
     Soporte Tv 50 Brazo 2
-    Antena Tdt 5M 5
+    Antena Tdt 5M 2 ok
     Consola Game Stick 3
     Reproductor Tdt Krono Kr-365 2
     Control Gamer Ps4 Rojo 1
