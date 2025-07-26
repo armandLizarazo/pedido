@@ -5,7 +5,7 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Cable Apple Tc Ligthning 3 
     Cable Apple Usb Ligthning 2M 2
-    Cable Belkin Tc 3 
+    Cable Belkin Tc 5
     Cable Caterpillar Tc 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
@@ -98,11 +98,8 @@
     Silicone Case Apple Iphone 11 Pro Max Negro 1
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 15 Pro Max Rosa 1
-    Silicone Case Apple Iphone 8 Plus Rojo 1 ok
     Silicone Case Apple Iphone Xs Max Azulrey 1
     Silicone Case Apple Iphone Xs Max Blanco 1
-    Silicone Case Huawei Honor 90 Lite Amarillo 1 ok
-    Silicone Case Huawei Honor Magic 7 Lite Rosa 1 ok
     Silicone Case Huawei Honor X5B Rojo 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
@@ -117,7 +114,6 @@
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Hot 50I Negro 1
     Silicone Case Motorola Moto Edge 30 Negro 1
-    Silicone Case Motorola Moto G22 Lila 1 ok
     Silicone Case Motorola Moto G31 Lila 1 
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
@@ -125,13 +121,11 @@
     Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Motorola Moto G8 Power Lite Lila 1
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
-    Silicone Case Oppo A17 Verdemilitar 1 ok
     Silicone Case Oppo A57 Lila 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
     Silicone Case Oppo Realme C53 Lila 1
-    Silicone Case Oppo Realme C55 Negro 1 ok
     Silicone Case Oppo Realme C75 Amarillo 1
     Silicone Case Oppo Realme C75 Fucsia 1
     Silicone Case Samsung A02S Rosa 1
@@ -139,7 +133,6 @@
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A14 Blanco 1
     Silicone Case Samsung A15 Lila 1
-    Silicone Case Samsung A15 Rosa 1 ok
     Silicone Case Samsung A16 Amarillo 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
@@ -159,8 +152,6 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
-    Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1 ok
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C Morado 1 ok
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -185,7 +176,6 @@
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
-    Simcard Claro 10 ok
     Smart Watch I525 Mini Rosa 1
     Smartphone Tecno Spark 30C 1
     Soporte Cel Metalico 1
@@ -227,19 +217,16 @@
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
     Forro Antichoque Oppo Reno 7 4
-    Manos Libres Samsugn Tipo Original Negro 10 ok
-    Manos Libres Samsung Tipo Original Blanco 10 ok
-    Manos Libres Samsung J5 Negro 5 ok
-    Cargador Samsung 25W Cabeza Negro 2 ok
     Cargador Samsung 45W Cabeza Negro 2 
     Cargador Samsung 45W Cable Blanco 1
     Cargador Samsung 45W Cabeza Blanco 1
-    Cargador Samsung 45W Cable Negro 1 ok
     Cargador Fuente 360 Slim 1
-    Forro Antichoque Xiaomi Redmi Note 9 Dama 3 ok
     Silicone Case Huawei Honor X6 / X6S Negro 1
     Forro Lujo Apple Iphone Xr Lila 1
-    Silicone Case Apple Iphone Xr Lila 1 ok
     Silicone Case Lg K61 Amarillo 1
-    Silicone Case Xiaomi Redmi 14C Fucsia 1 ok
-    Silicone Case Xiaomi Redmi 9a Azulrey  ok
+    Silicone Case Apple Iphone 11 Negro 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Proyector Astronauta Bluetooth 1
+    Audifonos Bluetooth W I12 Negro 3
+    Silicone Case Xiaomi Redmi 14C Fucsia 1
+    Vidrio 5D Samsung A12 10

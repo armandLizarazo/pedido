@@ -133,7 +133,7 @@
     Cable Belkin Tc 0
     Cable Belkin Tc 2M 2
     Cable Belkin V8 5
-    Cable Caterpillar Tc 5
+    Cable Caterpillar Tc 4
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
     Cable Dp2Dp 1.8M 1
@@ -252,9 +252,9 @@
     Cargador Samsung 25W Cabeza Negro 0
     Cargador Samsung 25W Cable V8 0
     Cargador Samsung 45W Cabeza Blanco 0
-    Cargador Samsung 45W Cabeza Negro 0
+    Cargador Samsung 45W Cabeza Negro 2
     Cargador Samsung 45W Cable Blanco 1
-    Cargador Samsung 45W Cable Negro 1
+    Cargador Samsung 45W Cable Negro 2
     Cargador Samsung S10+ Cable Tc 0
     Cargador Smart Watch Magnetico 2
     Cargador Smart Watch Pinza 2
@@ -281,7 +281,7 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 1
+    Consola Game Stick 0
     Consola Microsoft Xbox 360 0
     Consola Sup Con Control Negro 1
     Control Gamer Gatillos Con Ventilador 0
@@ -616,7 +616,7 @@
     Forro Space Xiami Redmi A5 0
     Forro Space Xiaomi Mi 11T Pro 0
     Forro Space Xiaomi Mi 12 Lite 1
-    Forro Space Xiaomi Mi 12T 1
+    Forro Space Xiaomi Mi 12T 0
     Forro Space Xiaomi Mi12 Lite 0
     Forro Space Xiaomi Note 10 / Note 10S 2
     Forro Space Xiaomi Poco X3 1
@@ -631,9 +631,9 @@
     Forro Space Xiaomi Redmi A1 / A2 1
     Forro Space Xiaomi Redmi A3 2
     Forro Space Xiaomi Redmi Note 10 5G 2
-    Forro Space Xiaomi Redmi Note 11 1
-    Forro Space Xiaomi Redmi Note 12 1
-    Forro Space Xiaomi Redmi Note 12 Pro 1
+    Forro Space Xiaomi Redmi Note 11 0
+    Forro Space Xiaomi Redmi Note 12 0
+    Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 3
     Forro Space Xiaomi Redmi Note 13 4G 0
     Forro Space Xiaomi Redmi Note 13 Pro 4G 0
@@ -695,13 +695,13 @@
     Manos Libres Inears Ak6 0
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
-    Manos Libres Samsugn Tipo Original Negro 0
+    Manos Libres Samsugn Tipo Original Negro 7
     Manos Libres Samsung Akg 5
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 4
+    Manos Libres Samsung J5 Negro 9
     Manos Libres Samsung S6 Blanco 4
-    Manos Libres Samsung Tipo Original Blanco 0
+    Manos Libres Samsung Tipo Original Blanco 6
     Manos Libres Samsung Tipo Original Negro 0
     Manos Libres Speak Tc 0
     Manos Libres Speal Tc Negro 0
@@ -863,12 +863,12 @@
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
     Patillera 3 En 1 1
-    Patillera 3 En 1 Vintage 0
+    Patillera 3 En 1 Vintage 1
     Patillera Vintage Sencilla 1
     Pepas Hydrogel 6
     Pila Reloj Cr2032 0
-    Pilas Carbon Maxday Aa 0
-    Pilas Carbon Maxday Aaa 0
+    Pilas Carbon Maxday Aa 30
+    Pilas Carbon Maxday Aaa 30
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Beston AA x2 0
     Pilas Recargables Beston AAA Con Cargador 0
@@ -1132,7 +1132,7 @@
     Silicone Case Motorola Moto G05 Negro 0
     Silicone Case Motorola Moto G20 / G30 Morado 0
     Silicone Case Motorola Moto G20 Azulrey 1
-    Silicone Case Motorola Moto G20 Morado 1
+    Silicone Case Motorola Moto G20 Morado 0
     Silicone Case Motorola Moto G20 Negro 0
     Silicone Case Motorola Moto G20 Rojo 0
     Silicone Case Motorola Moto G20 Rosa 1
@@ -1283,7 +1283,7 @@
     Silicone Case Samsung A21S Fucsia 1
     Silicone Case Samsung A21S Negro 0
     Silicone Case Samsung A22 4G Morado 0
-    Silicone Case Samsung A22 4G Negro 1
+    Silicone Case Samsung A22 4G Negro 0
     Silicone Case Samsung A22 5G Ab Rojo 1
     Silicone Case Samsung A22 5G Azuloscuro 0
     Silicone Case Samsung A22 5G Fucsia 0
@@ -1336,9 +1336,9 @@
     Silicone Case Samsung A55 Negro 0
     Silicone Case Samsung A55 Palorosa 0
     Silicone Case Samsung A70 Fucsia 0
-    Silicone Case Samsung A70 Lila 0
+    Silicone Case Samsung A70 Lila 1
     Silicone Case Samsung A70 Negro 0
-    Silicone Case Samsung A70 Rojo 0
+    Silicone Case Samsung A70 Rojo 1
     Silicone Case Samsung Galaxy Note 10 Plus Amarillo 1
     Silicone Case Samsung Galaxy Note 10 Plus Lila 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 0
@@ -1481,7 +1481,7 @@
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Ab Azulrey 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 0
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 2
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Rojo 2
     Silicone Case Tecno Spark Go 2024 Rojo 0
     Silicone Case Tecno Spark Go 2024/ Spark 20C Morado 0
@@ -1592,12 +1592,12 @@
     Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Azulrey 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 0
-    Silicone Case Xiaomi Redmi Note 10 / Note 10S Lila 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10S Lila 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Morado 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rosa 0
     Silicone Case Xiaomi Redmi Note 10 5G Lila 0
     Silicone Case Xiaomi Redmi Note 11 Azulrey 0
-    Silicone Case Xiaomi Redmi Note 11 Fucsia 1
+    Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 1
     Silicone Case Xiaomi Redmi Note 11 Morado 0
     Silicone Case Xiaomi Redmi Note 11 Negro 1
@@ -1620,7 +1620,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Amarillo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Azulrey 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Fucsia 0
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Morado 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Negro 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Rojo 0
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco 6 Verde 0
@@ -1934,3 +1934,9 @@
     Forro Lujo Apple Iphone Xr Lila 0
     Silicone Case Lg K61 Amarillo 0
     Silicone Case Xiaomi Redmi 9a Azulrey 0
+    Silicone Case Xiaomi Redmi Note 13 4G Azulrey 1
+    Silicone Case Xiaomi Redmi Note 13 4G Lila 1
+    Proyector Astronauta Bluetooth 0
+    Silicone Case Oppo A17 Verdemilitar 1
+    Silicone Case Infinix Note 40 Pro Fucsia 1
+    Pacha Huawei Nova Y70 0

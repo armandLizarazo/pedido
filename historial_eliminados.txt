@@ -5675,3 +5675,97 @@ Elementos eliminados:
 Línea  | Contenido
 --------------------------------------------------
     3 | Bateria Samsung A51 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-24 05:41:07
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  101 | Silicone Case Apple Iphone 8 Plus Rojo 1 ok
+  104 | Silicone Case Huawei Honor 90 Lite Amarillo 1 ok
+  105 | Silicone Case Huawei Honor Magic 7 Lite Rosa 1 ok
+  120 | Silicone Case Motorola Moto G22 Lila 1 ok
+  128 | Silicone Case Oppo A17 Verdemilitar 1 ok
+  134 | Silicone Case Oppo Realme C55 Negro 1 ok
+  142 | Silicone Case Samsung A15 Rosa 1 ok
+  162 | Silicone Case Tecno Spark 20 Pro / Hot 40 Pro Fucsia 1 ok
+  163 | Silicone Case Tecno Spark Go 2024 / 20 / 20C Morado 1 ok
+  188 | Simcard Claro 10 ok
+  230 | Manos Libres Samsugn Tipo Original Negro 10 ok
+  231 | Manos Libres Samsung Tipo Original Blanco 10 ok
+  232 | Manos Libres Samsung J5 Negro 5 ok
+  233 | Cargador Samsung 25W Cabeza Negro 2 ok
+  237 | Cargador Samsung 45W Cable Negro 1 ok
+  239 | Forro Antichoque Xiaomi Redmi Note 9 Dama 3 ok
+  242 | Silicone Case Apple Iphone Xr Lila 1 ok
+  244 | Silicone Case Xiaomi Redmi 14C Fucsia 1 ok
+  245 | Silicone Case Xiaomi Redmi 9a Azulrey  ok
+
+==================================================
+Fecha de proceso: 2025-07-24 05:41:07
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   29 | Adaptador Multitoma 6 Enchufes 1 ok
+   36 | Pilas Carbon Maxday Aaa 30 ok
+   37 | Pilas Carbon Maxday Aa 30 ok
+   39 | Antena Tdt 5M 2 ok
+
+==================================================
+Fecha de proceso: 2025-07-24 05:41:07
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Bateria Vidvie Iphone Xr 1 ok
+    3 | Boton Huella Samsung A14 Amarillo 1 ok
+    5 | Bateria Apple Iphone X 1 ok
+    6 | Pacha Samsung A02S / A03 / A03S / A04E 2 ok
+    8 | Pacha Xiaomi Redmi 9A / 9C / 10A 2 ok
+    9 | Pacha Samsung A25 C/m Incell 1 ok
+   10 | Pacha Oppo A16 1 ok
+
+==================================================
+Fecha de proceso: 2025-07-25 23:54:49
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-07-25 23:54:49
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-07-25 23:54:49
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
