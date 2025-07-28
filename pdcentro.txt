@@ -223,7 +223,7 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Proyector Astronauta Bluetooth 1
     Forro Antichoque Oppo A54 Dama 3
-    Silicone Case Xiaomi Redmi A5 Rojo 1
+    Silicone Case Xiaomi Redmi A5 Rojo 1 ok
     Forro Antichoque Xiaomi Redmi A5 Dama 3
     Forro Space Oppo A5 2
     Forro Antichoque Oppo A5 Dama 5
@@ -235,12 +235,12 @@
     Silicone Case Oppo A5 Fucsia 1
     Silicone Case Oppo A5 Azulrey 1
     Silicone Case Oppo A5 Rosa 1
-    Vidrio Blindado Xiaomi Redmi 10C / 12C 5
-    Vidrio Antiespia Xiaomi Redmi 10C / 12C 5
-    Vidrio Antiespia Xiaomi Redmi 14C 5
-    Vidrio Blindado Xiaomi Redmi 14C 5
+    Vidrio Blindado Xiaomi Redmi 10C / 12C 5 ok
+    Vidrio Antiespia Xiaomi Redmi 10C / 12C 5 ok
+    Vidrio Antiespia Xiaomi Redmi 14C 5 ok
+    Vidrio Blindado Xiaomi Redmi 14C 5 ok
     Cargador Samsung 25W Cabeza Negro 2
-    Forro Space Xiaomi Redmi 13C 2
-    Silicone Case Xiaomi Redmi A5 Lila 1
-    Silicone Case Vivo Y39 Rojo 1
+    Forro Space Xiaomi Redmi 13C 2 ok
+    Silicone Case Xiaomi Redmi A5 Lila 1 ok
+    Silicone Case Vivo Y39 Rojo 1 ok
     Simcard Claro 10
