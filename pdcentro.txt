@@ -5,7 +5,6 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Cable Apple Tc Ligthning 3 
     Cable Apple Usb Ligthning 2M 2
-    Cable Belkin Tc 7 ok
     Cable Caterpillar Tc 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
@@ -219,12 +218,29 @@
     Cargador Samsung 45W Cable Blanco 1
     Cargador Samsung 45W Cabeza Blanco 1
     Cargador Fuente 360 Slim 1
-    Silicone Case Huawei Honor X6 / X6S Negro 1 ok
     Forro Lujo Apple Iphone Xr Lila 1
     Silicone Case Lg K61 Amarillo 1
-    Silicone Case Apple Iphone 11 Negro 1 ok
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Proyector Astronauta Bluetooth 1
-    Audifonos Bluetooth W I12 Negro 2 ok
-    Silicone Case Xiaomi Redmi 14C Fucsia 1 ok
-    Vidrio 5D Samsung A12 20 ok
+    Forro Antichoque Oppo A54 Dama 3
+    Silicone Case Xiaomi Redmi A5 Rojo 1
+    Forro Antichoque Xiaomi Redmi A5 Dama 3
+    Forro Space Oppo A5 2
+    Forro Antichoque Oppo A5 Dama 5
+    Forro Antichoque Oppo A5 Caballero 5
+    Silicone Case Oppo A5 Negro 1
+    Silicone Case Oppo A5 Rojo 1
+    Silicone Case Oppo A5 Amarillo 1
+    Silicone Case Oppo A5 Lila 1
+    Silicone Case Oppo A5 Fucsia 1
+    Silicone Case Oppo A5 Azulrey 1
+    Silicone Case Oppo A5 Rosa 1
+    Vidrio Blindado Xiaomi Redmi 10C / 12C 5
+    Vidrio Antiespia Xiaomi Redmi 10C / 12C 5
+    Vidrio Antiespia Xiaomi Redmi 14C 5
+    Vidrio Blindado Xiaomi Redmi 14C 5
+    Cargador Samsung 25W Cabeza Negro 2
+    Forro Space Xiaomi Redmi 13C 2
+    Silicone Case Xiaomi Redmi A5 Lila 1
+    Silicone Case Vivo Y39 Rojo 1
+    Simcard Claro 10

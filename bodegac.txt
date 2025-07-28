@@ -54,7 +54,7 @@
     Aro De Luz 33Cm Rgb 1
     Aro De Luz 45Cm 0
     Audifonos Bluetooth Conduccion Osea B-18 0
-    Audifonos Bluetooth Conductor 1092 1
+    Audifonos Bluetooth Conductor 1092 0
     Audifonos Bluetooth Cuellera L&M 0
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 0
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 0
@@ -130,7 +130,7 @@
     Cable Auxiliar 3 A 1 1.5M 3
     Cable Auxiliar 3 A 1 3M 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 0
+    Cable Belkin Tc 4
     Cable Belkin Tc 2M 2
     Cable Belkin V8 5
     Cable Caterpillar Tc 4
@@ -210,7 +210,7 @@
     Cargador Apple 25W Tc Cabeza 4
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
-    Cargador Apple 5V Eco 3
+    Cargador Apple 5V Eco 2
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
@@ -281,7 +281,7 @@
     Celular Tg Thor Rompemuros 1
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
-    Consola Game Stick 0
+    Consola Game Stick 3
     Consola Microsoft Xbox 360 0
     Consola Sup Con Control Negro 1
     Control Gamer Gatillos Con Ventilador 0
@@ -589,7 +589,7 @@
     Forro Space Samsung S21 Fe Ab 1
     Forro Space Samsung S21 Fe Lila 1
     Forro Space Samsung S21 Ultra 1
-    Forro Space Samsung S22 1
+    Forro Space Samsung S22 3
     Forro Space Samsung S22 Ultra 1
     Forro Space Samsung S23 Fe 1
     Forro Space Samsung S24 Fe 2
@@ -862,7 +862,7 @@
     Parlante Tg S-8B Rojo 0
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 0
-    Patillera 3 En 1 1
+    Patillera 3 En 1 0
     Patillera 3 En 1 Vintage 1
     Patillera Vintage Sencilla 1
     Pepas Hydrogel 6
@@ -909,14 +909,14 @@
     Reproductor Amazon Fire Tv Stick Hd 0
     Reproductor Chromecast Espejo 0
     Reproductor Fly Tv Box 64-4 0
-    Reproductor Onn 4K 0
+    Reproductor Onn 4K 1
     Reproductor Onn Hd 1
     Reproductor Reproductor Tv Stick Magis 1
     Reproductor Roku Express Hd 0
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
     Reproductor Tdt Hd-939 1
-    Reproductor Tdt Krono Kr-365 3
+    Reproductor Tdt Krono Kr-365 2
     Reproductor Tv Stick Magis 0
     Reproductor Tv Stick Watch Om 0
     Rollo Cinta Led Rgb 10M 0
@@ -1364,7 +1364,7 @@
     Silicone Case Samsung S10 Plus Rosa 1
     Silicone Case Samsung S20 Fe Amarillo 1
     Silicone Case Samsung S20 Fe Lila 1
-    Silicone Case Samsung S20 Fe Negro 0
+    Silicone Case Samsung S20 Fe Negro 1
     Silicone Case Samsung S20 Fe Rojo 1
     Silicone Case Samsung S20 Fe Rosa 1
     Silicone Case Samsung S20 Lila 1
@@ -1823,7 +1823,7 @@
     Vidrio Antiespia Samsung A15 0
     Vidrio Antiespia Samsung A24 0
     Vidrio Antiespia Tecno Spark 20C 0
-    Vidrio Antiespia Xiaomi Redmi 10C / 12C 1
+    Vidrio Antiespia Xiaomi Redmi 10C / 12C 0
     Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 5
     Vidrio Antiespia Xiaomi Redmi Note 13 2
     Vidrio Bantiespia Tecno Spark Go 2024 / 20C 0
@@ -1849,9 +1849,9 @@
     Vidrio Blindado Samsung A24 0
     Vidrio Blindado Samsung A26 0
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 0
-    Vidrio Blindado Xiaomi Redmi 10C / 12C 1
+    Vidrio Blindado Xiaomi Redmi 10C / 12C 0
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 3
-    Vidrio Blindado Xiaomi Redmi A5 / 14C 5
+    Vidrio Blindado Xiaomi Redmi A5 / 14C 2
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 7
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 0
     Vidrio Blindado Xiaomi Redmi Note 13 5G 4
@@ -1910,7 +1910,7 @@
     Vidrio Tortuga Samsung A15 5
     Vidrio Tortuga Tecno Spark 10 / 10C 0
     Vidrio Tortuga Tecno Spark Go 2024 / Sppark 20 0
-    Vidrio Tortuga Xiaomi Redmi 10C / 12C 5
+    Vidrio Tortuga Xiaomi Redmi 10C / 12C 0
     Vidrio Tortuga Xiaomi Redmi 13C 0
     Vidrio Tortuga Xiaomi Redmi Note 11 0
     Vidrio Tortuga Xiaomi Redmi Note 12 5
@@ -1940,3 +1940,25 @@
     Silicone Case Oppo A17 Verdemilitar 1
     Silicone Case Infinix Note 40 Pro Fucsia 1
     Pacha Huawei Nova Y70 0
+    Forro Antichoque Oppo A54 Dama 0
+    Camara Principal Samsugn A51 0
+    Logica de Carga Tecno Spark 20C 0
+    Pacha Samsung A24 C/m Incell 0
+    Silicone Case Xiaomi Redmi A5 Rojo 0
+    Forro Space Oppo A5 0
+    Forro Antichoque Oppo A5 Dama 0
+    Forro Antichoque Oppo A5 Caballero 0
+    Silicone Case Oppo A5 Negro 0
+    Silicone Case Oppo A5 Rojo 0
+    Silicone Case Oppo A5 Amarillo 0
+    Silicone Case Oppo A5 Lila 0
+    Silicone Case Oppo A5 Fucsia 0
+    Silicone Case Oppo A5 Azulrey 0
+    Silicone Case Oppo A5 Rosa 0
+    Spliter Audio 2 Macho 1 Hembra 0
+    Vidrio Antiespia Xiaomi Redmi 14C 0
+    Vidrio Blindado Xiaomi Redmi 14C 0
+    Logica de Carga Samsung A12 0
+    Parlante Pc D-2L Mini Teatro 0
+    Silicone Case Xiaomi Redmi A5 Lila 0
+    Silicone Case Vivo Y39 Rojo 0
