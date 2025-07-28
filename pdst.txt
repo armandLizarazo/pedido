@@ -1,8 +1,8 @@
     Pacha Oppo Reno 6 Lite 1
     Pacha Apple Iphone 8 Negro 1
-    Camara Principal Samsugn A51 1
-    Logica de Carga Tecno Spark 20C 1
+    Camara Principal Samsugn A51 1 ok
+    Logica de Carga Tecno Spark 20C 1 ok
     Pacha Samsung A24 C/m Incell 1
-    Logica de Carga Samsung A12 1
-    Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1
-    Pacha Samsung A21S 1
+    Logica de Carga Samsung A12 1 ok
+    Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
+    Pacha Samsung A21S 1 ok
