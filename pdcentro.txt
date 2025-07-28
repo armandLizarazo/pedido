@@ -215,8 +215,8 @@
     Vidrio Tortuga Samsugn A24 5
     Forro Antichoque Oppo Reno 7 4
     Cargador Samsung 45W Cabeza Negro 2 
-    Cargador Samsung 45W Cable Blanco 1
-    Cargador Samsung 45W Cabeza Blanco 1
+    Cargador Samsung 45W Cable Blanco 1 ok
+    Cargador Samsung 45W Cabeza Blanco 1 ok
     Cargador Fuente 360 Slim 1
     Forro Lujo Apple Iphone Xr Lila 1
     Silicone Case Lg K61 Amarillo 1
@@ -239,8 +239,8 @@
     Vidrio Antiespia Xiaomi Redmi 10C / 12C 5 ok
     Vidrio Antiespia Xiaomi Redmi 14C 5 ok
     Vidrio Blindado Xiaomi Redmi 14C 5 ok
-    Cargador Samsung 25W Cabeza Negro 2
+    Cargador Samsung 25W Cabeza Negro 2 ok
     Forro Space Xiaomi Redmi 13C 2 ok
     Silicone Case Xiaomi Redmi A5 Lila 1 ok
     Silicone Case Vivo Y39 Rojo 1 ok
-    Simcard Claro 10
+    Simcard Claro 10 ok
