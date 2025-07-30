@@ -35,7 +35,7 @@ Ku    Adaptador Dpp2Vga 4
     Reproductor Tdt Krono Kr-365 2
     Control Gamer Ps4 Rojo 1
     Microfono Bafle Eco 1
-    Spliter Audio 2 Macho 1 Hembra 3 ok
-    Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
     Patillera 3 En 1 2
     Parlante Pc D-2L Mini Teatro 1
+    Cable Lan 1M Cat 6 5
+    Pad Mouse Tapete Negro 2
