@@ -248,3 +248,5 @@
     Power Bank Yoyos Ys-700 10000 Mah 1 ok
     Power Bank Yoyos Ys-702 20000 Mah 1 ok
     Power Bank Yoyos Ys-704 30000 Mah 1 ok
+    Cable Samsung Tc a Tc Blanco 2 ok
+    Cable Samsung Tc a Tc Negro 2 ok
