@@ -1,3 +1,5 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Audifonos Bluetooth Orejas 1
@@ -232,19 +234,13 @@
     Silicone Case Oppo A5 Fucsia 1
     Silicone Case Oppo A5 Azulrey 1
     Silicone Case Oppo A5 Rosa 1
-    Forro Antichoque Xiaomi Redmi Note 13 Pro 4G Dama 2 ok
-    Forro Antichoque Xiaomi Redmi Note 13 Pro 4G Caballero 2 ok
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G Negro 1 ok
-    Cable Apple Usb Ligthning 5 ok
-    Cargador Smart Watch Pinza 3 ok
-    Cargador We Tc 33W 3 ok
     Silicone Case Samsung A51 Negro 1
     Silicone Case Samsung A51 Amarillo 1
-    Silicone Case Huawei Honor 90 Lite Amarillo 1 ok
-    Silicone Case Motorola Moto G20 / G30 Morado 1 ok
-    Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 5 ok
-    Manos Libres Xiaomi T Original Negro 1 ok
-    Manos Libres Xiaomi T Original Blanco 1 ok
-    Audifonos Bluetooth Carrying Treasure Pantalla Blanco 1 ok
-    Audifonos Bluetooth Carrying Treasure Pantalla Negro 1 ok
-    Cadenas Pegar 10 ok
+    Cargador Belkin Tc 5
+    Forro Antichoque Xiaomi Redmi 13C Dama 3
+    Forro Lujo Ventana Apple Iphone 15 Pro Morado 1
+    Forro Space Huawei Honor X7 1
+    Forro Space Xiaomi Redmi 12 1
+    Manos Libres Batri B10 Lila 2
+    Silicone Case Apple Iphone 12 Mini Amarillo 1
+    Silicone Case Xiaomi Redmi 12c Negro 1

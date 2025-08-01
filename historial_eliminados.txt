@@ -5982,3 +5982,65 @@ Línea  | Contenido
     2 | # Pedido: pdst
     3 | # Pedido: pdst
     4 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-01 07:02:04
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+  241 | Forro Antichoque Xiaomi Redmi Note 13 Pro 4G Dama 2 ok
+  242 | Forro Antichoque Xiaomi Redmi Note 13 Pro 4G Caballero 2 ok
+  243 | Silicone Case Xiaomi Redmi Note 13 Pro 4G Negro 1 ok
+  244 | Cable Apple Usb Ligthning 5 ok
+  245 | Cargador Smart Watch Pinza 3 ok
+  246 | Cargador We Tc 33W 3 ok
+  249 | Silicone Case Huawei Honor 90 Lite Amarillo 1 ok
+  250 | Silicone Case Motorola Moto G20 / G30 Morado 1 ok
+  251 | Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 5 ok
+  252 | Manos Libres Xiaomi T Original Negro 1 ok
+  253 | Manos Libres Xiaomi T Original Blanco 1 ok
+  254 | Audifonos Bluetooth Carrying Treasure Pantalla Blanco 1 ok
+  255 | Audifonos Bluetooth Carrying Treasure Pantalla Negro 1 ok
+  256 | Cadenas Pegar 10 ok
+
+==================================================
+Fecha de proceso: 2025-08-01 07:02:04
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+   13 | Control Gamer Gatillos H9.0 Ventilador 2 ok
+   14 | Control Gamer Gatillos G21 2 ok
+   44 | Pad Mouse Tapete Negro 2 ok
+   45 | Adaptador Hdmi2vga cbl 2 ok
+   46 | Adaptador Hdmi2vga cja 2 ok
+   47 | Base Refrigerante X6a 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-01 07:02:04
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    5 | Pacha Samsung A02S / A03 / A03S / A04E 2 ok
+    6 | Pacha Xiaomi Redmi 10C 1 ok
+    8 | Pacha Huawei Y9 Prime Full 2 ok
+    9 | Bandeja Sim Huawei P30 Lite Negro 1 ok
+   10 | Logica de Carga Samsung A12 1 ok
+   11 | [Línea en blanco]

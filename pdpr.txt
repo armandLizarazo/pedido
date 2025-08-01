@@ -1,3 +1,4 @@
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
@@ -8,8 +9,6 @@
     Base Refirgerante 4 Ventiladores 1
     Cargador Pc Puntas Caja Blanca 2
     Consola Microsoft Xbox 360 1
-    Control Gamer Gatillos H9.0 Ventilador 2 ok
-    Control Gamer Gatillos G21 2 ok
     Control Gamer Microsoft Pc Tipo 360 3
     Control Gamer Ps2 Inalambrico 1
     Lampara Esfera Sistema Solar 1
@@ -39,7 +38,6 @@
     Patillera 3 En 1 2
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
-    Pad Mouse Tapete Negro 2 ok
-    Adaptador Hdmi2vga cbl 2 ok
-    Adaptador Hdmi2vga cja 2 ok
-    Base Refrigerante X6a 2 ok
+    Control Gamer Microsoft Xbox 360 Inalambrico 3
+    Barbera Vgr V-660 1
+    Rollo Cinta Led Eco 5

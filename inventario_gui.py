@@ -10,7 +10,6 @@ import subprocess
 import hashlib
 
 # --- PARCHE DE COMPATIBILIDAD para hashlib en versiones antiguas de Python ---
-# Soluciona el error "'usedforsecurity' is an invalid keyword argument" al generar PDFs.
 try:
     hashlib.md5(usedforsecurity=False)
 except TypeError:
@@ -20,7 +19,7 @@ except TypeError:
     hashlib.md5 = _new_md5
 # --- FIN DEL PARCHE ---
 
-# --- Dependencia para PDF ---
+# --- Dependencias Externas ---
 try:
     from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle
     from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
@@ -31,8 +30,136 @@ try:
 except ImportError:
     REPORTLAB_AVAILABLE = False
 
+try:
+    from tkcalendar import DateEntry
+    TKCALENDAR_AVAILABLE = True
+except ImportError:
+    TKCALENDAR_AVAILABLE = False
+
 # ==============================================================================
-# 1. CLASE GestorInventario
+# 1. CLASE GestorCaja
+# ==============================================================================
+class GestorCaja:
+    def __init__(self):
+        self.archivo_registros = "caja_registros.csv"
+        self.archivo_movimientos = "movimientos_caja.csv"
+        self.crear_archivos_si_no_existen()
+
+    def crear_archivos_si_no_existen(self):
+        if not os.path.exists(self.archivo_registros):
+            with open(self.archivo_registros, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['Fecha', 'DineroInicial', 'Base', 'PagosElectronicos', 'DineroEnCaja', 'TotalVentas', 'TotalMovimientos', 'EfectivoEsperado', 'Diferencia'])
+        if not os.path.exists(self.archivo_movimientos):
+            with open(self.archivo_movimientos, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['Timestamp', 'Tipo', 'Descripcion', 'Monto'])
+
+    def iniciar_dia(self, dinero_inicial, base):
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        if self.obtener_datos_dia(fecha_hoy):
+            return False, "El día ya ha sido iniciado."
+        
+        try:
+            with open(self.archivo_registros, 'a', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([fecha_hoy, dinero_inicial, base, 0, 0, 0, 0, 0, 0])
+            return True, "Día iniciado correctamente."
+        except Exception as e:
+            return False, f"Error al iniciar el día: {e}"
+
+    def registrar_movimiento(self, tipo, descripcion, monto):
+        try:
+            monto_float = float(monto)
+            if tipo in ["Gasto", "Préstamo/Retiro"]:
+                monto_float = -abs(monto_float)
+            
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            with open(self.archivo_movimientos, 'a', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([timestamp, tipo, descripcion, monto_float])
+            return True, "Movimiento registrado."
+        except ValueError:
+            return False, "El monto debe ser un número válido."
+        except Exception as e:
+            return False, f"Error al registrar movimiento: {e}"
+
+    def obtener_datos_dia(self, fecha_str):
+        try:
+            with open(self.archivo_registros, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row['Fecha'] == fecha_str:
+                        return row
+            return None
+        except FileNotFoundError:
+            return None
+
+    def obtener_movimientos_dia(self, fecha_str):
+        movimientos = []
+        try:
+            with open(self.archivo_movimientos, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row['Timestamp'].startswith(fecha_str):
+                        movimientos.append(row)
+            return movimientos
+        except FileNotFoundError:
+            return []
+            
+    def calcular_cuadre(self, fecha_str, pagos_electronicos, dinero_real_caja, total_ventas_dia):
+        datos_dia = self.obtener_datos_dia(fecha_str)
+        if not datos_dia:
+            return None, "El día no ha sido iniciado."
+
+        try:
+            dinero_inicial = float(datos_dia['DineroInicial'])
+            base = float(datos_dia['Base'])
+            
+            movimientos = self.obtener_movimientos_dia(fecha_str)
+            total_movimientos = sum(float(m['Monto']) for m in movimientos)
+
+            efectivo_esperado = (dinero_inicial + base + total_ventas_dia + total_movimientos) - pagos_electronicos
+            diferencia = dinero_real_caja - (efectivo_esperado - base)
+
+            resumen = {
+                "dinero_inicial": dinero_inicial,
+                "base": base,
+                "total_ventas": total_ventas_dia,
+                "total_movimientos": total_movimientos,
+                "pagos_electronicos": pagos_electronicos,
+                "efectivo_esperado": efectivo_esperado,
+                "dinero_real_caja": dinero_real_caja,
+                "diferencia": diferencia
+            }
+            return resumen, "Cálculo exitoso."
+        except Exception as e:
+            return None, f"Error al calcular el cuadre: {e}"
+
+    def cerrar_dia(self, fecha_str, resumen):
+        try:
+            lineas_actualizadas = []
+            with open(self.archivo_registros, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                header = next(reader)
+                lineas_actualizadas.append(header)
+                for row in reader:
+                    if row[0] == fecha_str:
+                        row = [fecha_str, resumen['dinero_inicial'], resumen['base'], resumen['pagos_electronicos'], 
+                               resumen['dinero_real_caja'], resumen['total_ventas'], resumen['total_movimientos'], 
+                               resumen['efectivo_esperado'], resumen['diferencia']]
+                    lineas_actualizadas.append(row)
+            
+            with open(self.archivo_registros, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerows(lineas_actualizadas)
+            
+            return True, "Caja cerrada y registrada con éxito."
+        except Exception as e:
+            return False, f"Error al guardar el cierre de caja: {e}"
+
+# ==============================================================================
+# 1.1. CLASE GestorInventario (con modificaciones)
 # ==============================================================================
 class GestorInventario:
     def __init__(self, archivo_inventario=None):
@@ -41,6 +168,23 @@ class GestorInventario:
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
+    def obtener_ventas_del_dia(self, fecha_str):
+        total_ventas = 0.0
+        try:
+            with open(self.archivo_ventas, 'r', encoding='utf-8') as f:
+                reader = csv.reader(f)
+                next(reader, None) # Omitir encabezado
+                for row in reader:
+                    if row and row[0].startswith(fecha_str):
+                        try:
+                            total_ventas += float(row[6]) # Columna 'TotalVenta'
+                        except (ValueError, IndexError):
+                            continue
+            return total_ventas
+        except FileNotFoundError:
+            return 0.0
+
+    # --- Métodos existentes de GestorInventario ---
     def crear_archivos_si_no_existen(self):
         if not os.path.exists(self.archivo_inventario):
             with open(self.archivo_inventario, 'w', encoding='utf-8') as f: pass
@@ -301,23 +445,35 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v2.4 - Transferencia a Local")
+        master.title("Gestor de Inventario y Ventas v3.1 - Cuadre Parcial")
         master.geometry("1100x700")
         self.style = ttk.Style(); self.style.theme_use("clam")
         self.gestor = GestorInventario()
+        self.gestor_caja = GestorCaja()
         self.carrito = []
+        
+        if not TKCALENDAR_AVAILABLE:
+            messagebox.showwarning("Librería Faltante", "La librería 'tkcalendar' no está instalada.\n\nEl selector de fechas no estará disponible.\nPara instalarla, abra una terminal y ejecute:\npip install tkcalendar")
+
         self.notebook = ttk.Notebook(master)
         self.notebook.pack(pady=10, padx=10, fill="both", expand=True)
         self.inventario_tab = ttk.Frame(self.notebook, padding="10")
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
+        self.caja_tab = ttk.Frame(self.notebook, padding="10")
         self.notebook.add(self.inventario_tab, text='Gestión de Inventario')
         self.notebook.add(self.ventas_tab, text='Ventas y Análisis')
+        self.notebook.add(self.caja_tab, text='Cuadre de Caja')
+        
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
+        self.crear_widgets_caja()
+        
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
         self.add_placeholder(None)
+        self.cargar_estado_caja()
 
+    # --- Widgets de Inventario y Ventas ---
     def crear_widgets_inventario(self):
         top_frame = ttk.Frame(self.inventario_tab); top_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
         filter_frame = ttk.Frame(self.inventario_tab); filter_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
@@ -367,11 +523,23 @@ class InventarioGUI:
         analisis_frame = ttk.LabelFrame(self.ventas_tab, text="Totales de la Vista Actual", padding="10"); analisis_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
         historial_frame = ttk.Frame(self.ventas_tab); historial_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
         
-        ttk.Label(filter_frame, text="Desde (YYYY-MM-DD):").pack(side=tk.LEFT, padx=(0, 5), pady=5)
-        self.filtro_fecha_desde = ttk.Entry(filter_frame); self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
-        ttk.Label(filter_frame, text="Hasta (YYYY-MM-DD):").pack(side=tk.LEFT, padx=(0, 5), pady=5)
-        self.filtro_fecha_hasta = ttk.Entry(filter_frame); self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
-        ttk.Label(filter_frame, text="Descripción o ID Venta:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        ttk.Label(filter_frame, text="Desde:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        if TKCALENDAR_AVAILABLE:
+            self.filtro_fecha_desde = DateEntry(filter_frame, width=12, background='darkblue', foreground='white', borderwidth=2, date_pattern='y-mm-dd')
+            self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_desde.delete(0, "end")
+        else:
+            self.filtro_fecha_desde = ttk.Entry(filter_frame); self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+
+        ttk.Label(filter_frame, text="Hasta:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        if TKCALENDAR_AVAILABLE:
+            self.filtro_fecha_hasta = DateEntry(filter_frame, width=12, background='darkblue', foreground='white', borderwidth=2, date_pattern='y-mm-dd')
+            self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_hasta.delete(0, "end")
+        else:
+            self.filtro_fecha_hasta = ttk.Entry(filter_frame); self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+
+        ttk.Label(filter_frame, text="Descripción o ID Venta:").pack(side=tk.LEFT, padx=(10, 5), pady=5)
         self.filtro_desc_venta = ttk.Entry(filter_frame, width=30); self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
         ttk.Button(filter_frame, text="Filtrar Ventas", command=self.populate_sales_treeview).pack(side=tk.LEFT, padx=10, pady=5)
         ttk.Button(filter_frame, text="Mostrar Todo", command=self.limpiar_filtros_ventas).pack(side=tk.LEFT, padx=5, pady=5)
@@ -392,6 +560,185 @@ class InventarioGUI:
         self.sales_tree.configure(yscrollcommand=scrollbar_s.set); self.sales_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True); scrollbar_s.pack(side=tk.RIGHT, fill=tk.Y)
         self.sales_tree.bind('<<TreeviewSelect>>', self.on_sale_select)
 
+    # --- Widgets de Cuadre de Caja ---
+    def crear_widgets_caja(self):
+        main_frame = ttk.Frame(self.caja_tab)
+        main_frame.pack(fill=tk.BOTH, expand=True)
+
+        left_frame = ttk.Frame(main_frame); left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+        right_frame = ttk.Frame(main_frame); right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+
+        inicio_frame = ttk.LabelFrame(left_frame, text="1. Inicio del Día", padding=10)
+        inicio_frame.pack(fill=tk.X, pady=5)
+        ttk.Label(inicio_frame, text="Dinero Inicial (Vueltos):").grid(row=0, column=0, sticky="w", padx=5, pady=5)
+        self.caja_inicial_entry = ttk.Entry(inicio_frame); self.caja_inicial_entry.grid(row=0, column=1, padx=5, pady=5)
+        ttk.Label(inicio_frame, text="Base:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
+        self.caja_base_entry = ttk.Entry(inicio_frame); self.caja_base_entry.grid(row=1, column=1, padx=5, pady=5)
+        self.btn_iniciar_dia = ttk.Button(inicio_frame, text="Iniciar Día", command=self.iniciar_dia); self.btn_iniciar_dia.grid(row=2, column=0, columnspan=2, pady=10)
+
+        movimientos_frame = ttk.LabelFrame(left_frame, text="2. Movimientos de Caja (No Ventas)", padding=10)
+        movimientos_frame.pack(fill=tk.BOTH, expand=True, pady=5)
+        ttk.Label(movimientos_frame, text="Tipo:").grid(row=0, column=0, sticky="w", padx=5, pady=2)
+        self.mov_tipo_combo = ttk.Combobox(movimientos_frame, values=["Gasto", "Préstamo/Retiro", "Abono/Ingreso"], state="readonly"); self.mov_tipo_combo.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
+        ttk.Label(movimientos_frame, text="Descripción:").grid(row=1, column=0, sticky="w", padx=5, pady=2)
+        self.mov_desc_entry = ttk.Entry(movimientos_frame); self.mov_desc_entry.grid(row=1, column=1, sticky="ew", padx=5, pady=2)
+        ttk.Label(movimientos_frame, text="Monto:").grid(row=2, column=0, sticky="w", padx=5, pady=2)
+        self.mov_monto_entry = ttk.Entry(movimientos_frame); self.mov_monto_entry.grid(row=2, column=1, sticky="ew", padx=5, pady=2)
+        self.btn_registrar_mov = ttk.Button(movimientos_frame, text="Registrar Movimiento", command=self.registrar_movimiento); self.btn_registrar_mov.grid(row=3, column=0, columnspan=2, pady=10)
+        
+        self.mov_tree = ttk.Treeview(movimientos_frame, columns=("Tipo", "Desc", "Monto"), show="headings", height=5)
+        self.mov_tree.heading("Tipo", text="Tipo"); self.mov_tree.heading("Desc", text="Descripción"); self.mov_tree.heading("Monto", text="Monto")
+        self.mov_tree.column("Tipo", width=100); self.mov_tree.column("Desc", width=200); self.mov_tree.column("Monto", width=80, anchor=tk.E)
+        self.mov_tree.grid(row=4, column=0, columnspan=2, sticky="nsew", pady=5)
+        movimientos_frame.rowconfigure(4, weight=1)
+        movimientos_frame.columnconfigure(1, weight=1)
+
+        cierre_frame = ttk.LabelFrame(right_frame, text="3. Cierre del Día", padding=10)
+        cierre_frame.pack(fill=tk.X, pady=5)
+        ttk.Label(cierre_frame, text="Total Pagos Electrónicos:").grid(row=0, column=0, sticky="w", padx=5, pady=5)
+        self.pagos_electronicos_entry = ttk.Entry(cierre_frame); self.pagos_electronicos_entry.grid(row=0, column=1, padx=5, pady=5)
+        ttk.Label(cierre_frame, text="Dinero Real Contado en Caja:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
+        self.dinero_real_entry = ttk.Entry(cierre_frame); self.dinero_real_entry.grid(row=1, column=1, padx=5, pady=5)
+        
+        btn_cierre_frame = ttk.Frame(cierre_frame)
+        btn_cierre_frame.grid(row=2, column=0, columnspan=2, pady=10)
+        self.btn_cuadre_parcial = ttk.Button(btn_cierre_frame, text="Calcular Cuadre Parcial", command=self.calcular_cuadre_parcial); self.btn_cuadre_parcial.pack(side=tk.LEFT, padx=5)
+        self.btn_cerrar_caja = ttk.Button(btn_cierre_frame, text="Cerrar Caja y Guardar", command=self.realizar_cuadre_final); self.btn_cerrar_caja.pack(side=tk.LEFT, padx=5)
+
+        resumen_frame = ttk.LabelFrame(right_frame, text="4. Resumen del Cuadre", padding=10)
+        resumen_frame.pack(fill=tk.BOTH, expand=True, pady=5)
+        
+        self.resumen_labels = {}
+        labels_info = {
+            "Total Ventas del Día:": "total_ventas", "Total Otros Movimientos:": "total_movimientos",
+            "Efectivo Esperado en Caja:": "efectivo_esperado", "Dinero Real en Caja:": "dinero_real_caja",
+            "Diferencia (Sobrante/Faltante):": "diferencia"
+        }
+        
+        row_idx = 0
+        for label_text, key in labels_info.items():
+            ttk.Label(resumen_frame, text=label_text, font=("Helvetica", 10)).grid(row=row_idx, column=0, sticky="w", padx=5, pady=3)
+            label_var = tk.StringVar(value="$0.00")
+            self.resumen_labels[key] = label_var
+            ttk.Label(resumen_frame, textvariable=label_var, font=("Helvetica", 10, "bold")).grid(row=row_idx, column=1, sticky="e", padx=5, pady=3)
+            row_idx += 1
+        
+        resumen_frame.columnconfigure(1, weight=1)
+
+    # --- Lógica de Cuadre de Caja ---
+    def cargar_estado_caja(self):
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        datos_dia = self.gestor_caja.obtener_datos_dia(fecha_hoy)
+        
+        if datos_dia:
+            self.caja_inicial_entry.insert(0, datos_dia['DineroInicial'])
+            self.caja_base_entry.insert(0, datos_dia['Base'])
+            self.caja_inicial_entry.config(state="disabled")
+            self.caja_base_entry.config(state="disabled")
+            self.btn_iniciar_dia.config(state="disabled")
+            self.cargar_movimientos_hoy()
+        else:
+            self.btn_registrar_mov.config(state="disabled")
+            self.btn_cerrar_caja.config(state="disabled")
+            self.btn_cuadre_parcial.config(state="disabled")
+
+    def iniciar_dia(self):
+        try:
+            dinero_inicial = float(self.caja_inicial_entry.get())
+            base = float(self.caja_base_entry.get())
+        except ValueError:
+            messagebox.showerror("Error", "Dinero inicial y base deben ser números.")
+            return
+
+        success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
+        if success:
+            messagebox.showinfo("Éxito", msg)
+            self.caja_inicial_entry.config(state="disabled")
+            self.caja_base_entry.config(state="disabled")
+            self.btn_iniciar_dia.config(state="disabled")
+            self.btn_registrar_mov.config(state="normal")
+            self.btn_cerrar_caja.config(state="normal")
+            self.btn_cuadre_parcial.config(state="normal")
+        else:
+            messagebox.showerror("Error", msg)
+
+    def registrar_movimiento(self):
+        tipo = self.mov_tipo_combo.get()
+        desc = self.mov_desc_entry.get()
+        monto = self.mov_monto_entry.get()
+
+        if not all([tipo, desc, monto]):
+            messagebox.showerror("Error", "Todos los campos de movimiento son obligatorios.")
+            return
+
+        success, msg = self.gestor_caja.registrar_movimiento(tipo, desc, monto)
+        if success:
+            self.mov_desc_entry.delete(0, tk.END)
+            self.mov_monto_entry.delete(0, tk.END)
+            self.cargar_movimientos_hoy()
+        else:
+            messagebox.showerror("Error", msg)
+
+    def cargar_movimientos_hoy(self):
+        for i in self.mov_tree.get_children(): self.mov_tree.delete(i)
+        
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        movimientos = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
+        
+        for mov in movimientos:
+            monto = float(mov['Monto'])
+            self.mov_tree.insert("", tk.END, values=(mov['Tipo'], mov['Descripcion'], f"${monto:,.2f}"))
+
+    def _ejecutar_logica_cuadre(self):
+        try:
+            pagos_electronicos = float(self.pagos_electronicos_entry.get() or 0)
+            dinero_real = float(self.dinero_real_entry.get() or 0)
+        except ValueError:
+            messagebox.showerror("Error", "Los valores para el cierre deben ser números.")
+            return None
+        
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        total_ventas_dia = self.gestor.obtener_ventas_del_dia(fecha_hoy)
+        
+        resumen, msg = self.gestor_caja.calcular_cuadre(fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia)
+        
+        if resumen:
+            self.resumen_labels["total_ventas"].set(f"${resumen['total_ventas']:,.2f}")
+            self.resumen_labels["total_movimientos"].set(f"${resumen['total_movimientos']:,.2f}")
+            self.resumen_labels["efectivo_esperado"].set(f"${resumen['efectivo_esperado']:,.2f}")
+            self.resumen_labels["dinero_real_caja"].set(f"${resumen['dinero_real_caja']:,.2f}")
+            
+            diferencia = resumen['diferencia']
+            self.resumen_labels["diferencia"].set(f"${diferencia:,.2f}")
+            
+            resumen_widget = self.master.nametowidget(self.resumen_labels["diferencia"]._name)
+            if diferencia < 0: resumen_widget.config(foreground="red")
+            elif diferencia > 0: resumen_widget.config(foreground="green")
+            else: resumen_widget.config(foreground="black")
+            
+            return resumen
+        else:
+            messagebox.showerror("Error", msg)
+            return None
+
+    def calcular_cuadre_parcial(self):
+        self._ejecutar_logica_cuadre()
+
+    def realizar_cuadre_final(self):
+        resumen = self._ejecutar_logica_cuadre()
+        if resumen:
+            if messagebox.askyesno("Confirmar Cierre", "¿Está seguro de que desea cerrar la caja y guardar los resultados? Esta acción no se puede deshacer."):
+                fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+                success, msg = self.gestor_caja.cerrar_dia(fecha_hoy, resumen)
+                if success:
+                    messagebox.showinfo("Éxito", msg)
+                    self.btn_cerrar_caja.config(state="disabled")
+                    self.btn_cuadre_parcial.config(state="disabled")
+                    self.btn_registrar_mov.config(state="disabled")
+                else:
+                    messagebox.showerror("Error al Guardar", msg)
+
+    # --- Resto de métodos de la GUI ---
     def populate_inventory_treeview(self):
         for i in self.inventory_tree.get_children(): self.inventory_tree.delete(i)
         datos, errores = self.gestor.leer_datos()
@@ -423,7 +770,6 @@ class InventarioGUI:
 
         for venta_original in historial:
             venta = list(venta_original)
-
             if len(venta) < 8: continue
             if len(venta) == 9: venta.insert(1, "N/A")
             if len(venta) == 8:
@@ -434,10 +780,10 @@ class InventarioGUI:
             fecha_valida = True
             if desde_str or hasta_str:
                 try:
-                    fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S")
-                    if desde_str and fecha_venta < datetime.strptime(desde_str, "%Y-%m-%d"): fecha_valida = False
-                    if hasta_str and fecha_venta > (datetime.strptime(hasta_str, "%Y-%m-%d") + timedelta(days=1)): fecha_valida = False
-                except ValueError: fecha_valida = False 
+                    fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S").date()
+                    if desde_str and fecha_venta < datetime.strptime(desde_str, "%Y-%m-%d").date(): fecha_valida = False
+                    if hasta_str and fecha_venta > datetime.strptime(hasta_str, "%Y-%m-%d").date(): fecha_valida = False
+                except (ValueError, IndexError): fecha_valida = False 
             if not fecha_valida: continue
 
             id_venta_csv = venta[1].lower()
@@ -458,8 +804,10 @@ class InventarioGUI:
         self.lbl_total_ganancia.config(text=f"Ganancia Total: ${total_ganancia:.2f}")
 
     def limpiar_filtros(self):
-        self.filtro_palabra_entry.delete(0, tk.END); self.add_placeholder(None)
-        self.filtro_op_combo.set(""); self.filtro_cant_entry.delete(0, tk.END)
+        self.filtro_palabra_entry.delete(0, tk.END)
+        self.add_placeholder(None)
+        self.filtro_op_combo.set("")
+        self.filtro_cant_entry.delete(0, tk.END)
         self.populate_inventory_treeview()
         
     def limpiar_filtros_ventas(self):

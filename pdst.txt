@@ -1,10 +1,13 @@
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
     Pacha Oppo Reno 6 Lite 1
     Pacha Apple Iphone 8 Negro 1
     Pacha Samsung A24 C/m Incell 1
-    Pacha Samsung A02S / A03 / A03S / A04E 2 ok
-    Pacha Xiaomi Redmi 10C 1 ok
     Visor Camara Oppo Realme Note 50 1
-    Pacha Huawei Y9 Prime Full 2 ok
-    Bandeja Sim Huawei P30 Lite Negro 1 ok
-    Logica de Carga Samsung A12 1 ok
-    
+    Pacha Motorola Moto G22 / E32 1
+    Pacha Samsung A10S 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1
+    Pacha Tecno Spark 20 1
+    Pacha Zte Blade A5 (2021) 1
