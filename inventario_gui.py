@@ -445,7 +445,7 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v3.1 - Cuadre Parcial")
+        master.title("Gestor de Inventario y Ventas v3.3 - Corrección de Cierre de Caja")
         master.geometry("1100x700")
         self.style = ttk.Style(); self.style.theme_use("clam")
         self.gestor = GestorInventario()
@@ -470,7 +470,7 @@ class InventarioGUI:
         
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
-        self.add_placeholder(None)
+        self.master.after(100, lambda: self.add_placeholder(None))
         self.cargar_estado_caja()
 
     # --- Widgets de Inventario y Ventas ---
@@ -619,8 +619,9 @@ class InventarioGUI:
         for label_text, key in labels_info.items():
             ttk.Label(resumen_frame, text=label_text, font=("Helvetica", 10)).grid(row=row_idx, column=0, sticky="w", padx=5, pady=3)
             label_var = tk.StringVar(value="$0.00")
-            self.resumen_labels[key] = label_var
-            ttk.Label(resumen_frame, textvariable=label_var, font=("Helvetica", 10, "bold")).grid(row=row_idx, column=1, sticky="e", padx=5, pady=3)
+            label_widget = ttk.Label(resumen_frame, textvariable=label_var, font=("Helvetica", 10, "bold"))
+            label_widget.grid(row=row_idx, column=1, sticky="e", padx=5, pady=3)
+            self.resumen_labels[key] = {'var': label_var, 'widget': label_widget}
             row_idx += 1
         
         resumen_frame.columnconfigure(1, weight=1)
@@ -703,15 +704,15 @@ class InventarioGUI:
         resumen, msg = self.gestor_caja.calcular_cuadre(fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia)
         
         if resumen:
-            self.resumen_labels["total_ventas"].set(f"${resumen['total_ventas']:,.2f}")
-            self.resumen_labels["total_movimientos"].set(f"${resumen['total_movimientos']:,.2f}")
-            self.resumen_labels["efectivo_esperado"].set(f"${resumen['efectivo_esperado']:,.2f}")
-            self.resumen_labels["dinero_real_caja"].set(f"${resumen['dinero_real_caja']:,.2f}")
+            self.resumen_labels["total_ventas"]['var'].set(f"${resumen['total_ventas']:,.2f}")
+            self.resumen_labels["total_movimientos"]['var'].set(f"${resumen['total_movimientos']:,.2f}")
+            self.resumen_labels["efectivo_esperado"]['var'].set(f"${resumen['efectivo_esperado']:,.2f}")
+            self.resumen_labels["dinero_real_caja"]['var'].set(f"${resumen['dinero_real_caja']:,.2f}")
             
             diferencia = resumen['diferencia']
-            self.resumen_labels["diferencia"].set(f"${diferencia:,.2f}")
+            self.resumen_labels["diferencia"]['var'].set(f"${diferencia:,.2f}")
             
-            resumen_widget = self.master.nametowidget(self.resumen_labels["diferencia"]._name)
+            resumen_widget = self.resumen_labels["diferencia"]['widget']
             if diferencia < 0: resumen_widget.config(foreground="red")
             elif diferencia > 0: resumen_widget.config(foreground="green")
             else: resumen_widget.config(foreground="black")

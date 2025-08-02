@@ -32,7 +32,7 @@
     Altavoz Xiaomi Redmi Note 13 4G 0
     Antena Tdt 1.5M 3
     Antena Tdt 3M Con Usb 1
-    Antena Tdt 5M 4
+    Antena Tdt 5M 3
     Antena Tdt Aire 1
     Aro De Luz 26Cm Rgb 3
     Aro De Luz 33Cm Light 1
@@ -40,7 +40,7 @@
     Aro De Luz 45Cm 1
     Aro de Luz 56Cm Rgb 1
     Aro de Luz Celular Rgb 1
-    Audifonos Bluetooth Conductor 1092 1
+    Audifonos Bluetooth Conductor 1092 0
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Audifonos Bluetooth I12 Negro 5
@@ -95,8 +95,7 @@
     Cable Royal Tc 2M 1
     Cable Siliconado Zonymax Tc 3
     Cable Siliconado Zonymax V 3
-    Cable Tc A Tc Carton 1
-    Cable Tc A Tc Eco 2
+    Cable Tc A Tc Eco 3
     Cable Tc Cordon Eco 5
     Cable Tc Eco 6
     Cable Usb Ligthning Eco 4
@@ -138,7 +137,7 @@
     Cargador Pc Asus 2.37 1
     Cargador Pc Asus 3.42 1
     Cargador Pc Hp Punta Azul 1
-    Cargador Pc Lenovo Mini 3.25 2
+    Cargador Pc Lenovo Mini 3.25 1
     Cargador Pc Lenovo Yoga 1
     Cargador Pluyin Eco 2
     Cargador Pluying 7A 3P 35W 1
@@ -237,7 +236,7 @@
     Forro Antichoque Xiaomi Redmi 10 Caballero 3
     Forro Antichoque Xiaomi Redmi 10 Dama 6
     Forro Antichoque Xiaomi Redmi 10C Caballero 5
-    Forro Antichoque Xiaomi Redmi 13C Dama 1
+    Forro Antichoque Xiaomi Redmi 13C Dama 4
     Forro Antichoque Xiaomi Redmi 14C Caballero 6
     Forro Antichoque Xiaomi Redmi 14C Dama Lujo 3
     Forro Antichoque Xiaomi Redmi 14C Lujo Negrorojo 1
@@ -368,7 +367,7 @@
     Forro Space Xiaomi Poco X3 0
     Forro Space Xiaomi Redmi 10 1
     Forro Space Xiaomi Redmi 10C 0
-    Forro Space Xiaomi Redmi 12 1
+    Forro Space Xiaomi Redmi 12 2
     Forro Space Xiaomi Redmi 14C 2
     Forro Space Xiaomi Redmi 9 2
     Forro Space Xiaomi Redmi 9A 0
@@ -416,8 +415,8 @@
     Manos Libres Speak Tc Negro 0
     Manos Libres Tc Blanco 2
     Manos Libres Xiaomi T Original Blanco 1
-    Manos Libres Xiaomi T Original Negro 1
-    Memoria Usb Kingston 4Gb 4
+    Manos Libres Xiaomi T Original Negro 0
+    Memoria Usb Kingston 4Gb 2
     Mini Calefactor Con Control 1
     Mouse Eco Fc-143 1
     Mouse Gamer Eco A78 1
@@ -439,7 +438,7 @@
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 3
     Pacha Samsung A05 1
-    Pacha Samsung A10S 1
+    Pacha Samsung A10S 0
     Pacha Samsung A13 / M33 3
     Pacha Samsung A21S 2
     Pacha Samsung A30S S/M 1
@@ -452,7 +451,7 @@
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13C 2
     Pacha Xiaomi Redmi Note 10 / Note 10S 2
-    Pacha Xiaomi Redmi Note 11 / Note 12S 3
+    Pacha Xiaomi Redmi Note 11 / Note 12S 6
     Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 8 2
     Pacha Xiaomi Redmi Note 9s / 9Pro 2
@@ -473,7 +472,7 @@
     Patillera 3 En 1 Vintage 0
     Pepas Hydrogel 6
     Pilas Carbon Maxday Aa x2 14
-    Pilas Carbon Maxday Aaa X2 18
+    Pilas Carbon Maxday Aaa X2 17
     Pin De Carga Celular 20
     Pin De Carga Parlante 19
     Pin De Carga V8 20
@@ -493,7 +492,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 9
+    Recargas 8
     Recargas Claro 95
     Reproductor Amazon Fire Tv Stick Hd 2
     Reproductor Chromecast Espejo 1
@@ -648,7 +647,7 @@
     Silicone Case Oppo A80 Amarillo 1
     Silicone Case Oppo A80 Azulclaro 1
     Silicone Case Oppo A80 Fucsia 1
-    Silicone Case Oppo A80 Lila 1
+    Silicone Case Oppo A80 Lila 0
     Silicone Case Oppo A80 Negro 1
     Silicone Case Oppo A80 Rojo 1
     Silicone Case Oppo Realme C21Y / C25Y Rosa 1
@@ -814,7 +813,7 @@
     Silicone Case Xiaomi Redmi Note 10 / 10S Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 0
-    Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Negro 0
     Silicone Case Xiaomi Redmi Note 11 Rojo 2
     Silicone Case Xiaomi Redmi Note 11 Verde 0
     Silicone Case Xiaomi Redmi Note 12 Negro 0
@@ -868,7 +867,7 @@
     Silicone Case Xiaomi Redmi Note 8T Amarillo 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
     Silicone Case Xioami Redmi Note 12S Negro 1
-    Simcard Claro 9
+    Simcard Claro 8
     Simcard Movistar 5
     Simcard Tigo 29
     Simcard Virgin 6
@@ -883,7 +882,7 @@
     Soporte Nephoo Tripode Camara-Celular 0
     Soporte Techo Tv 26-55 Pulgadas 1
     Soporte Tv 32 Brazo 2
-    Soporte Tv 50 Brazo 2
+    Soporte Tv 50 Brazo 3
     Space Color Xiaomi Redmi 10 Lila 1
     Space Color Xiaomi Redmi 10 Rosa 1
     St Frp Huawei Y9 2019 0
@@ -925,7 +924,7 @@
     Vidrio 5D Motorola Moto G04 / Moto G24 0
     Vidrio 5D Redmi Note 12 4
     Vidrio 5D Samsung A05 5
-    Vidrio 5D Samsung A12 6
+    Vidrio 5D Samsung A12 5
     Vidrio 5D Samsung A30S 5
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
     Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 1
@@ -948,7 +947,7 @@
     Vidrio Blindado Samsung A26 0
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 5
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
-    Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 0
+    Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 3
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 0
     Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 3
     Vidrio Blindado Xiaomi Redmi Note 13 5G 5
@@ -993,7 +992,7 @@
     Cable Optico 1.5M 1
     Forro Space Samsung A56 1
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 1
-    Simcard Wom 3
+    Simcard Wom 2
     Vidrio 5D Xiaomi Redmi 14C / A5 / A3 4
     Vidrio Tortuga Xiaomi Redmi 14C / A5 / A3 3
     Vidrio Blindado Xiaomi Redmi 14C / A5 / A3 3
@@ -1018,7 +1017,7 @@
     Mouse Gamer Inalambrico Eco 1
     Mouse Gamer Xmg-02 Inalambrico 1
     Forro Antichoque Cadena Xiaomi Redmi 13c 1
-    Forro Space Huawei Honor X7 1
+    Forro Space Huawei Honor X7 2
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Case Zte Blade A54 Amarillo 0
     Control Gamer Microsoft Xbox 360 Inalambrico 0
@@ -1044,7 +1043,7 @@
     Cargador Maxday Carga Pilas Universal 1
     Teclado Kb-502 Eco 1
     Forro Space Apple Iphone 12 Mini 2
-    Silicone Case Apple Iphone 12 Mini Amarillo 1
+    Silicone Case Apple Iphone 12 Mini Amarillo 2
     Silicone Case Apple Iphone 12 Mini Blanco 1
     Silicone Case Apple Iphone 12 Mini Morado 1
     Silicone Case Apple Iphone 12 Mini Rojo 1
@@ -1056,3 +1055,26 @@
     Cable Auxiliar 1 A 1 Cordon 1
     Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 13
     Forro Lujo Ventana Apple Iphone 15 Pro Morado 0
+    Cable Samsung Tc a Tc Blanco 2
+    Power Bank Yoyos Ys-700 10000 Mah 1
+    Power Bank Yoyos Ys-702 20000 Mah 1
+    Power Bank Yoyos Ys-704 30000 Mah 1
+    Barbera Vgr V-001 Blue Editon 1
+    Forro Antichoque Cadena Redmi 13C 1
+    Multitoma Tb-t09 3000W 1
+    Adpatador Vga2hdmi Cbl Cja 2
+    Cable We Tc 1
+    Cable We Tc Eco 1
+    Cable Tc Eco Corto 4
+    Cable Samsung Tc a Tc Original 1
+    Parlante Barra V70 1
+    Silicone Case Vivo Y33S / Y21 / Y21S Fucsia 0
+    Camara Frontal Xiaomi Redmi Note 8 Pro 0
+    Forro Space Xiaomi Redmi Note 11 Pro 5G 0
+    Forro Lujo Apple Iphone 11 0
+    Soporte Celular Goma Cell 0
+    Microfono Inalambrico F11 Doble Pelusa 0
+    Memoria Musica Popular 0
+    Forro Antichoque Huawei Honor X7B Caballero 1
+    Vidrio 5D Samsung A32 4G 4
+    Bateria Motorola Moto E6s / E6i 0

@@ -125,9 +125,9 @@
     Boton Huella Xiaomi Poco X3 0
     Botones Xiaomi Redmi Note 8 0
     Cable 5V 9V 12V Plug Ancho 2
-    Cable Apple Tc Ligthning 0
+    Cable Apple Tc Ligthning 5
     Cable Apple Tc Ligthning 2M 2
-    Cable Apple Usb Ligthning 2M 0
+    Cable Apple Usb Ligthning 2M 3
     Cable Apple Usb Ligthning 5
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 1 A 1 Cordon 4
@@ -139,8 +139,8 @@
     Cable Belkin Ligthning 0
     Cable Belkin Tc 2M 2
     Cable Belkin Tc 4
-    Cable Belkin V8 4
-    Cable Caterpillar Tc 2
+    Cable Belkin V8 2
+    Cable Caterpillar Tc 5
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
     Cable Dp2Dp 1.8M 1
@@ -170,16 +170,15 @@
     Cable Rca 3 A 3 1.5M 2
     Cable Rca 3 A 3 3M 1
     Cable Royal Tc 0
-    Cable Royal Tc 2M 0
+    Cable Royal Tc 2M 2
     Cable Royal V8 2M 0
     Cable Samsung Tc A Tc Blanco 0
     Cable Samsung Tc A Tc Negro 0
     Cable Siliconado Zonymax Tc Blanco 3
     Cable Siliconado Zonymax Tc Negro 3
     Cable Siliconado Zonymax V8 0
-    Cable Tc A Tc Carton 0
     Cable Tc Cordon Eco 0
-    Cable Tc Eco 5
+    Cable Tc Eco 6
     Cable Usb Ligthning Eco 5
     Cable Usb Plug Ancho 0
     Cable V3 1.5M 2
@@ -205,7 +204,7 @@
     Camara Principal Samsugn S20 Fe 0
     Camara Principal Xiaomi Redmi 9T 0
     Camara Web 720P 1
-    Camara Xiaomi Redmi Note 8 Pro 0
+    Camara Principal Xiaomi Redmi Note 8 Pro 0
     Cambio Pacha Motorola Moto G20 / G30 1
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
@@ -225,7 +224,7 @@
     Cargador Apple 60W 2P Tc Cabeza 2
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
-    Cargador Belkin Tc 0
+    Cargador Belkin Tc 5
     Cargador Belkin V8 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 0
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 0
@@ -248,7 +247,7 @@
     Cargador Pc Asus 2.37 1
     Cargador Pc Asus 3.42 0
     Cargador Pc Hp Punta Azul 1
-    Cargador Pc Lenovo Mini 3.25 0
+    Cargador Pc Lenovo Mini 3.25 1
     Cargador Pc Lenovo Yoga 0
     Cargador Pluyin Eco 0
     Cargador Pluying 7A 3P 35W 0
@@ -304,7 +303,7 @@
     Control Gamer Gatillos W11+ 1
     Control Gamer Microsoft Pc / 360 Alambrico 0
     Control Gamer Microsoft Pc Tipo 360 0
-    Control Gamer Microsoft Xbox 360 Inalambrico 0
+    Control Gamer Microsoft Xbox 360 Inalambrico 3
     Control Gamer Microsoft Xbox Caja Negra 0
     Control Gamer Pc Eco 1 0
     Control Gamer Pc Sencillo 0
@@ -747,7 +746,7 @@
     Memoria Musica El Heredero 0
     Memoria Musica Regueton 0
     Memoria Musica Rock en Ingles 0
-    Memoria Usb Kingston 4Gb 0
+    Memoria Kingston Usb 4Gb 2
     Microfono Bafle Eco 0
     Microfono Condensador Con Consola Wg-800 1
     Mini Calefactor Con Control 0
@@ -788,7 +787,7 @@
     Pacha Huawei Y7 2018 0
     Pacha Huawei Y7A 0
     Pacha Huawei Y9 2019 / Y8S Full 0
-    Pacha Huawei Y9 Prime Full 2
+    Pacha Huawei Y9 Prime Full 3
     Pacha Huawei Y9 Prime Incell 0
     Pacha Huawei Y9A Full 0
     Pacha Infinix Hot 30 Play 0
@@ -802,7 +801,7 @@
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G14 / G54 0
     Pacha Motorola Moto G20 / G30 0
-    Pacha Motorola Moto G22 / E32 0
+    Pacha Motorola Moto G22 / E32 1
     Pacha Motorola Moto G31 0
     Pacha Motorola Moto G60 / G60S 0
     Pacha Motorola Moto G8 Play / One Macro 0
@@ -825,7 +824,7 @@
     Pacha Samsung A04s 0
     Pacha Samsung A05 0
     Pacha Samsung A10 0
-    Pacha Samsung A10S 0
+    Pacha Samsung A10S 1
     Pacha Samsung A10S C/M 0
     Pacha Samsung A11 0
     Pacha Samsung A12 / M12 0
@@ -892,7 +891,7 @@
     Pacha Zte Blade A52 0
     Pad Mouse Tapete Largo Logos 0
     Pad Mouse Tapete Negro 0
-    Parlante Barra V70 1
+    Parlante Barra V70 0
     Parlante Gts-1372 0
     Parlante Ktf Ktf-1645 1
     Parlante Ktx-1222 1
@@ -1271,7 +1270,7 @@
     Silicone Case Oppo A78 Negro 0
     Silicone Case Oppo A79 Amarillo 0
     Silicone Case Oppo A80 Azulclaro 0
-    Silicone Case Oppo A80 Lila 1
+    Silicone Case Oppo A80 Lila 0
     Silicone Case Oppo A80 Morado 0
     Silicone Case Oppo Realme 7I Rojo 0
     Silicone Case Oppo Realme C11 2021 Fucsia 0
@@ -1384,7 +1383,7 @@
     Silicone Case Samsung A36 / A56 Negro 1
     Silicone Case Samsung A36 / A56 Rojo 1
     Silicone Case Samsung A36 / A56 Rosa 0
-    Silicone Case Samsung A51 Amarillo 0
+    Silicone Case Samsung A51 Amarillo 1
     Silicone Case Samsung A51 Negro 0
     Silicone Case Samsung A52 Verde 0
     Silicone Case Samsung A53 Azulrey 0
@@ -1673,7 +1672,7 @@
     Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 1
     Silicone Case Xiaomi Redmi Note 11 Morado 0
-    Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Negro 0
     Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Rosa 2
     Silicone Case Xiaomi Redmi Note 11 Verde 1
@@ -1768,7 +1767,7 @@
     Soporte Tv 32 - 60 Brazo 2
     Soporte Tv 32 -60 L400 2
     Soporte Tv 32 Brazo 0
-    Soporte Tv 50 Brazo 2
+    Soporte Tv 50 Brazo 0
     Soporte Tv Fijo 0
     Spliter Audio 2 Macho 1 Hembra 0
     Switch Lan 0
@@ -2009,8 +2008,30 @@
     Visor Camara Principal Huawei Honor X7B 0
     Visor Camara Xiaomi Redmi 9T 0
     Visor Camara Xiaomi Redmi Note 10 Pro 0
-    Forro Space Huawei Honor X7 0
     Pacha Tecno Spark 20 0
-    Pacha Zte Blade A5 (2021) 0
+    Pacha Zte Blade A5 (2021) 1
     Rollo Cinta Led Eco 0
     Silicone Case Xiaomi Redmi 12c Negro 0
+    Barbera Vgr V-001 Blue Editon 0
+    Forro Antichoque Cadena Redmi 13C 0
+    Power Bank Yoyos Ys-700 10000 Mah 0
+    Power Bank Yoyos Ys-702 20000 Mah 0
+    Power Bank Yoyos Ys-704 30000 Mah 0
+    Cable Samsung Tc a Tc Blanco 0
+    Cable Samsung Tc a Tc Negro 2
+    Pacha Tecno Spark Go 2024 / 20 / 20c 1
+    Altavoz Tecno Spark 20 1
+    Multitoma Tb-t09 3000W 0
+    Adpatador Vga2hdmi Cbl Cja 0
+    Forro Space Huawei Honor X7 0
+    Cable Tc Eco Corto 0
+    Cable We Tc 0
+    Cable Samsung Tc a Tc Original 0
+    Silicone Case Vivo Y33S / Y21 / Y21S Fucsia 0
+    Camara Frontal Xiaomi Redmi Note 8 Pro 0
+    Forro Space Xiaomi Redmi Note 11 Pro 5G 0
+    Soporte Celular Goma Cell 0
+    Microfono Inalambrico F11 Doble Pelusa 0
+    Bateria Motorola Moto E6s / E6i 0
+    Memoria Kingstone Usb 4Gb 0
+    Tapa Tecno Spark 20 Negro 0

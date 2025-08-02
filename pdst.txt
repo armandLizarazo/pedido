@@ -1,14 +1,5 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
     Pacha Oppo Reno 6 Lite 1
     Pacha Apple Iphone 8 Negro 1
-    Pacha Huawei Y9 Prime Full 1 ok
     Visor Camara Oppo Realme Note 50 1
-    Pacha Motorola Moto G22 / E32 1 ok
-    Pacha Samsung A10S 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20c 1 ok
-    Pacha Zte Blade A5 (2021) 1 ok
-    Altavoz Tecno Spark 20 1 ok
+    Bateria Motorola Moto E6s / E6i 1
+    Tapa Tecno Spark 20 Negro 1
