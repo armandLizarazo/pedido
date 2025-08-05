@@ -37,7 +37,43 @@ except ImportError:
     TKCALENDAR_AVAILABLE = False
 
 # ==============================================================================
-# 1. CLASE GestorCaja
+# 1. CLASE GestorHerramientas
+# ==============================================================================
+class GestorHerramientas:
+    def __init__(self):
+        self.archivo_herramientas = "herramientas.csv"
+        self.crear_archivo_si_no_existe()
+
+    def crear_archivo_si_no_existe(self):
+        if not os.path.exists(self.archivo_herramientas):
+            with open(self.archivo_herramientas, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow(['Nombre', 'Archivo'])
+                # Agregar la calculadora de caja por defecto
+                writer.writerow(['Calculadora de Efectivo', 'caja.py'])
+
+    def leer_herramientas(self):
+        try:
+            with open(self.archivo_herramientas, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                return list(reader)
+        except FileNotFoundError:
+            return []
+
+    def agregar_herramienta(self, nombre, archivo):
+        if not os.path.exists(archivo):
+            return False, f"El archivo '{archivo}' no se encontró en la carpeta del programa."
+        
+        try:
+            with open(self.archivo_herramientas, 'a', encoding='utf-8', newline='') as f:
+                writer = csv.writer(f)
+                writer.writerow([nombre, archivo])
+            return True, "Herramienta agregada con éxito."
+        except Exception as e:
+            return False, f"No se pudo guardar la herramienta: {e}"
+
+# ==============================================================================
+# 2. CLASE GestorCaja
 # ==============================================================================
 class GestorCaja:
     def __init__(self):
@@ -159,7 +195,7 @@ class GestorCaja:
             return False, f"Error al guardar el cierre de caja: {e}"
 
 # ==============================================================================
-# 1.1. CLASE GestorInventario (con modificaciones)
+# 3. CLASE GestorInventario
 # ==============================================================================
 class GestorInventario:
     def __init__(self, archivo_inventario=None):
@@ -440,16 +476,17 @@ class GestorInventario:
         with open(self.archivo_inventario, 'w', encoding='utf-8') as f: f.writelines(lineas)
 
 # ==============================================================================
-# 2. CLASE InventarioGUI
+# 4. CLASE InventarioGUI
 # ==============================================================================
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v3.3 - Corrección de Cierre de Caja")
+        master.title("Gestor de Inventario y Ventas v3.5 - Herramientas Dinámicas")
         master.geometry("1100x700")
         self.style = ttk.Style(); self.style.theme_use("clam")
         self.gestor = GestorInventario()
         self.gestor_caja = GestorCaja()
+        self.gestor_herramientas = GestorHerramientas()
         self.carrito = []
         
         if not TKCALENDAR_AVAILABLE:
@@ -460,13 +497,16 @@ class InventarioGUI:
         self.inventario_tab = ttk.Frame(self.notebook, padding="10")
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
         self.caja_tab = ttk.Frame(self.notebook, padding="10")
+        self.herramientas_tab = ttk.Frame(self.notebook, padding="10")
         self.notebook.add(self.inventario_tab, text='Gestión de Inventario')
         self.notebook.add(self.ventas_tab, text='Ventas y Análisis')
         self.notebook.add(self.caja_tab, text='Cuadre de Caja')
+        self.notebook.add(self.herramientas_tab, text='Herramientas')
         
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
         self.crear_widgets_caja()
+        self.crear_widgets_herramientas()
         
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
@@ -597,9 +637,13 @@ class InventarioGUI:
         cierre_frame.pack(fill=tk.X, pady=5)
         ttk.Label(cierre_frame, text="Total Pagos Electrónicos:").grid(row=0, column=0, sticky="w", padx=5, pady=5)
         self.pagos_electronicos_entry = ttk.Entry(cierre_frame); self.pagos_electronicos_entry.grid(row=0, column=1, padx=5, pady=5)
-        ttk.Label(cierre_frame, text="Dinero Real Contado en Caja:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
-        self.dinero_real_entry = ttk.Entry(cierre_frame); self.dinero_real_entry.grid(row=1, column=1, padx=5, pady=5)
         
+        ttk.Label(cierre_frame, text="Dinero Real Contado en Caja:").grid(row=1, column=0, sticky="w", padx=5, pady=5)
+        dinero_real_frame = ttk.Frame(cierre_frame)
+        dinero_real_frame.grid(row=1, column=1, sticky="ew", padx=5, pady=5)
+        self.dinero_real_entry = ttk.Entry(dinero_real_frame, state="readonly"); self.dinero_real_entry.pack(side=tk.LEFT, expand=True, fill=tk.X)
+        ttk.Button(dinero_real_frame, text="Contar...", command=self.abrir_ventana_conteo_caja).pack(side=tk.LEFT, padx=(5,0))
+
         btn_cierre_frame = ttk.Frame(cierre_frame)
         btn_cierre_frame.grid(row=2, column=0, columnspan=2, pady=10)
         self.btn_cuadre_parcial = ttk.Button(btn_cierre_frame, text="Calcular Cuadre Parcial", command=self.calcular_cuadre_parcial); self.btn_cuadre_parcial.pack(side=tk.LEFT, padx=5)
@@ -626,7 +670,152 @@ class InventarioGUI:
         
         resumen_frame.columnconfigure(1, weight=1)
 
+    # --- Widgets de Herramientas ---
+    def crear_widgets_herramientas(self):
+        for widget in self.herramientas_tab.winfo_children():
+            widget.destroy()
+
+        self.herramientas_frame = ttk.LabelFrame(self.herramientas_tab, text="Utilidades", padding=10)
+        self.herramientas_frame.pack(fill=tk.X, pady=5)
+        
+        herramientas = self.gestor_herramientas.leer_herramientas()
+        for herramienta in herramientas:
+            nombre = herramienta['Nombre']
+            archivo = herramienta['Archivo']
+            btn = ttk.Button(self.herramientas_frame, text=nombre, command=lambda f=archivo: self.lanzar_script(f))
+            btn.pack(pady=5, padx=5, fill=tk.X)
+            
+        ttk.Separator(self.herramientas_tab).pack(fill=tk.X, pady=10)
+        
+        admin_frame = ttk.LabelFrame(self.herramientas_tab, text="Administrar Herramientas", padding=10)
+        admin_frame.pack(fill=tk.X, pady=5)
+        ttk.Button(admin_frame, text="Agregar Nueva Herramienta", command=self.agregar_nueva_herramienta_dialog).pack(pady=5, padx=5)
+
+    def lanzar_script(self, script_path):
+        if not os.path.exists(script_path):
+            messagebox.showerror("Error", f"No se encontró el archivo '{script_path}'.\nAsegúrese de que esté en la misma carpeta que el programa principal.")
+            return
+        try:
+            subprocess.Popen([sys.executable, script_path])
+        except Exception as e:
+            messagebox.showerror("Error al ejecutar", f"No se pudo iniciar el script:\n{e}")
+
+    def agregar_nueva_herramienta_dialog(self):
+        win_add = tk.Toplevel(self.master)
+        win_add.title("Agregar Herramienta")
+        win_add.grab_set()
+        win_add.resizable(False, False)
+        
+        frame = ttk.Frame(win_add, padding="15")
+        frame.pack()
+        
+        ttk.Label(frame, text="Nombre para el botón:").grid(row=0, column=0, sticky="w", padx=5, pady=5)
+        nombre_entry = ttk.Entry(frame, width=30)
+        nombre_entry.grid(row=0, column=1, padx=5, pady=5)
+        
+        ttk.Label(frame, text="Nombre del archivo (ej: script.py):").grid(row=1, column=0, sticky="w", padx=5, pady=5)
+        archivo_entry = ttk.Entry(frame, width=30)
+        archivo_entry.grid(row=1, column=1, padx=5, pady=5)
+        
+        def do_save():
+            nombre = nombre_entry.get().strip()
+            archivo = archivo_entry.get().strip()
+            
+            if not nombre or not archivo:
+                messagebox.showerror("Error", "Ambos campos son obligatorios.", parent=win_add)
+                return
+            
+            success, msg = self.gestor_herramientas.agregar_herramienta(nombre, archivo)
+            if success:
+                messagebox.showinfo("Éxito", msg, parent=win_add)
+                win_add.destroy()
+                self.crear_widgets_herramientas()
+            else:
+                messagebox.showerror("Error", msg, parent=win_add)
+
+        ttk.Button(frame, text="Guardar Herramienta", command=do_save).grid(row=2, columnspan=2, pady=15)
+        nombre_entry.focus_set()
+
     # --- Lógica de Cuadre de Caja ---
+    def abrir_ventana_conteo_caja(self):
+        win_conteo = tk.Toplevel(self.master)
+        win_conteo.title("Conteo de Dinero Físico")
+        win_conteo.grab_set()
+        win_conteo.resizable(False, False)
+
+        main_frame = ttk.Frame(win_conteo, padding="15")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+
+        denominaciones_billetes = {
+            "Billetes de $100.000:": 100000, "Billetes de $50.000:": 50000,
+            "Billetes de $20.000:": 20000, "Billetes de $10.000:": 10000,
+            "Billetes de $5.000:": 5000, "Billetes de $2.000:": 2000,
+            "Billetes de $1.000:": 1000
+        }
+        
+        entries = {}
+        subtotal_labels = {}
+
+        def actualizar_totales(event=None):
+            total = 0
+            for label_text, value in denominaciones_billetes.items():
+                try:
+                    cantidad = int(entries[value].get() or 0)
+                    subtotal = cantidad * value
+                    subtotal_labels[value].config(text=f"= ${subtotal:,.0f}")
+                    total += subtotal
+                except (ValueError, KeyError):
+                    subtotal_labels[value].config(text="= $0")
+            
+            try:
+                total_monedas = float(entries['monedas'].get() or 0)
+                total += total_monedas
+            except (ValueError, KeyError):
+                pass
+            
+            total_general_label.config(text=f"Total: ${total:,.0f}")
+            return total
+
+        row = 0
+        for label_text, value in denominaciones_billetes.items():
+            ttk.Label(main_frame, text=label_text).grid(row=row, column=0, sticky="w", pady=4)
+            entry = ttk.Entry(main_frame, width=8, justify='right')
+            entry.grid(row=row, column=1, pady=4)
+            entry.bind("<KeyRelease>", actualizar_totales)
+            entries[value] = entry
+            
+            sub_label = ttk.Label(main_frame, text="= $0", width=15)
+            sub_label.grid(row=row, column=2, sticky="w", padx=5)
+            subtotal_labels[value] = sub_label
+            row += 1
+
+        ttk.Separator(main_frame).grid(row=row, columnspan=3, sticky="ew", pady=5)
+        row += 1
+
+        ttk.Label(main_frame, text="Total en Monedas:").grid(row=row, column=0, sticky="w", pady=4)
+        monedas_entry = ttk.Entry(main_frame, width=15, justify='right')
+        monedas_entry.grid(row=row, column=1, columnspan=2, sticky="ew", pady=4)
+        monedas_entry.bind("<KeyRelease>", actualizar_totales)
+        entries['monedas'] = monedas_entry
+        row += 1
+        
+        ttk.Separator(main_frame, orient='horizontal').grid(row=row, column=0, columnspan=3, pady=10, sticky='ew')
+        row += 1
+
+        total_general_label = ttk.Label(main_frame, text="Total: $0", font=("Helvetica", 14, "bold"))
+        total_general_label.grid(row=row, column=0, columnspan=3, pady=5)
+        row += 1
+
+        def guardar_y_cerrar():
+            total_final = actualizar_totales()
+            self.dinero_real_entry.config(state="normal")
+            self.dinero_real_entry.delete(0, tk.END)
+            self.dinero_real_entry.insert(0, f"{total_final:.2f}")
+            self.dinero_real_entry.config(state="readonly")
+            win_conteo.destroy()
+
+        ttk.Button(main_frame, text="Guardar Total", command=guardar_y_cerrar).grid(row=row, column=0, columnspan=3, pady=10, ipady=5)
+
     def cargar_estado_caja(self):
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
         datos_dia = self.gestor_caja.obtener_datos_dia(fecha_hoy)

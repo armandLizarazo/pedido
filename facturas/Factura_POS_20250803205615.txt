@@ -1,0 +1,24 @@
+             Geek Tecnology             
+        Contacto: 304 6313 31 14        
+       Recibo No: 20250803205615        
+----------------------------------------
+Fecha: 2025-08-03 20:56:15
+Cliente: Cliente General
+========================================
+Cant. Descripción                  Valor
+----------------------------------------
+1     Recargas               $   8500.00
+1     Recargas               $   7500.00
+1     Recargas               $   7500.00
+1     Recargas               $   7500.00
+1     Recargas               $   8500.00
+1     Recargas               $   7500.00
+1     Recargas               $   8500.00
+1     Recargas               $   7500.00
+========================================
+                      TOTAL: $  63000.00
+
+
+        ¡Gracias por su compra!         
+
+

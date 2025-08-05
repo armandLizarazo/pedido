@@ -42,3 +42,14 @@
     Antena Tdt 5M 5
     Microfono Inalambrico F11 Doble Pelusa 1
     Parlante Barra V70 3
+    Switch Lan GS-05 1/100/1000 1
+    Adaptador Audio 3.5 a 1/2 3
+    Adaptador Hdmi2vga Cbl 2
+    Aro De Luz 33Cm Rgb 3
+    Cable Auxiliar 1 a 1 Microfono 3
+    Cable Optico 3M 3
+    Cable Optico 1.5M 2
+    Cable Optico 5M 3
+    Soporte Tripode Caja Cafe 2
+    Adaptador Otg Ramitech Usb Ligthning 2
+    Adaptador Tc2Hdmi Cbl 2
