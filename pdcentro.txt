@@ -171,7 +171,7 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Smart Watch I525 Mini Rosa 1
-    Smartphone Tecno Spark 30C 1
+    Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 1 ok
     Soporte Cel Metalico 1
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5 
@@ -182,9 +182,7 @@
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
-    Vidrio 5D Xiaomi Redmi 14 5 
-    Vidrio 5D Xiaomi Redmi A3 5 
-    Vidrio 5D Xiaomi Redmi Note 12 10
+    Vidrio 5D Xiaomi Redmi Note 12 10 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone Xs Max 5 
@@ -248,7 +246,7 @@
     Vidrio Templado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Antiespia Apple Iphone 16E 5
-    Celular Corn Flip K 1
+    Celular Corn Flip K 1 352384180254635/643 1 ok
     Forro Antichoque Samsung A21S Dama 3 ok
     Forro Antichoque Motorola Moto E22i Caballero 3 ok
     Forro Antichoque Motorola Moto E14 / G24 Caballero 2 ok
@@ -263,7 +261,8 @@
     Silicone Case Tecno Spark 10 Pro Verdemilitar 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Rojo 1
     Silicone Case Vivo Y31 / Y51 / Y53S Lila 1 ok
-    Vaper 7000 Puffs Moraazul 1
+    Vaper 7000 Puffs Mango Loco 1 ok
+    Vaper 7000 Puffs Salpicon 1 ok
     Silicone Case Samsung S24 Ultra Negro 1
     Silicone Case Apple Iphone 7 Plus / 8 Plus Rojo 1 ok
     Manos Libres Samsung Akg Tc 3 ok
@@ -290,3 +289,6 @@
     Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok
     Silicone Case Oppo A5 Pro 4G / 5G Amarillo 1 ok
     Silicone Cade Oppo A5 Pro 4G / 5G Morado 1 ok
+    Llaveros Capybara 5 ok
+    Llaveros 5 ok
+    Porta Brillo Forro 3 ok
