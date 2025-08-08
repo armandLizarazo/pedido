@@ -40,8 +40,9 @@
     Cargador Cabeza Cubo Eco 3
     Cargador Pc 8 Pines Caja Naranja 1 ok
     Cargador Pc 9 Pines Caja Verde P Azul 1 ok
-    Cargador Pc 9 Pines Caja Azul 1
+    Cargador Pc 9 Pines Caja Verde Tc y Yoga 1 ok
     Control Gamer Microsoft Pc / 360 Alambrico 3
     Mouse Gamer Eco A78 3
+    Mouse Gamer Eco X1 1 ok
     Proyector Thor Hy-300 Con Juegos 1
     Reproductor Amazon Fire Tv Stick Hd 1
