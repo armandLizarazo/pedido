@@ -1,9 +1,6 @@
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
-    Aro De Luz Joma 26Cm Ligth 2 ok
-    Aro de luz Joma 26Cm Rgb 2 ok
-    Estetica Ondas de Sirena 2 ok
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 1
     Base Refirgerante 4 Ventiladores 1
@@ -13,44 +10,37 @@
     Lampara Esfera Sistema Solar 1
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Con Bluetooth 3
-    Rollo Cinta Led Rgb 10M 1 ok
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
     Teclado Mecanico Gamer 2
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
-    Mini Calefactor Con Control 2 ok
     Pilas Recargables Beston AA x2 1
     Cable Lan 10M Cat 6 2
-    Soporte Tv Fijo 1 ok
     Control Gamer Microsoft Xbox Caja Negra 2
     Cable Microsoft Xbox Caja Negra 1
     Control Gamer X3 4
     Pilas Recargables Beston AAA x4 1
     Audifonos Bluetooth M60 2
     Control Gamer Gatillos G21 3
-    Soporte Tv 50 Brazo 2 ok
     Reproductor Tdt Krono Kr-365 2
-    Reproductor Tdt Tg 2 ok
     Control Gamer Ps4 Rojo 1
     Microfono Bafle Eco 1
-    Patillera 3 En 1 1 ok
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
     Barbera Vgr V-660 1
     Rollo Cinta Led Eco 5
     Antena Tdt 5M 5
-    Microfono Inalambrico F11 Doble Pelusa 1 ok
-    Parlante Barra V70 3 ok 
-    Switch Lan GS-05 1/100/1000 1 ok
-    Adaptador Audio 3.5 a 1/2 3 ok
-    Adaptador Hdmi2vga Cbl 2 ok
-    Aro De Luz Joma 33Cm Rgb 2 ok
     Cable Auxiliar 1 a 1 Microfono 3
-    Cable Optico 3M 3 ok
-    Cable Optico 1.5M 2 ok
-    Cable Optico 5M 2 ok
-    Soporte Tripode Caja Cafe 2 ok
-    Adaptador Otg Ramitech Usb Ligthning 2 ok
-    Adaptador Tc2Hdmi Cbl 2 ok
+    Switch Lan 10/100 1
+    Cable Disco Duro V8 3.0 Corto 2
+    Cable Poder Trebol 3
+    Cargador Cabeza Cubo Eco 3
+    Cargador Pc 8 Pines Caja Naranja 1
+    Cargador Pc 9 Pines Caja Amarillo 1
+    Cargador Pc 9 Pines Caja Azul 1
+    Control Gamer Microsoft Pc / 360 Alambrico 3
+    Mouse Gamer Eco A78 3
+    Proyector Thor Hy-300 Con Juegos 1
+    Reproductor Amazon Fire Tv Stick Hd 1

@@ -62,21 +62,16 @@
     Forro Pin Samsung S24 Ultra 3
     Forro Space Huawei Honor X5B 2
     Forro Space Infinix Hot 50 Pro 5G 1
-    Forro Soace Infinix Hot 50 Pro 4G 2 ok
     Forro Space Infinix Hot 50 Pro Plus 2
     Forro Space Infinix Hot 50I / Smart 9 2
-    Forro Space Motorola Moto G04 1 ok
     Forro Space Motorola Moto G50 1
-    Forro Space Oppo A80 2 ok
     Forro Space Oppo Realme C53 / Note 50 1
     Forro Space Oppo Realme C75 2
-    Forro Space Samsung A22 5G 1 ok
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo V40 Lite 2
     Forro Space Vivo Y39 2
-    Forro Space Xiami Redmi A5 3 ok
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14S 2
@@ -171,7 +166,6 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Smart Watch I525 Mini Rosa 1
-    Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 1 ok
     Soporte Cel Metalico 1
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5 
@@ -182,7 +176,6 @@
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Tecno Spark 30 5G 5
     Vidrio 5D Tecno Spark 30 Pro 5
-    Vidrio 5D Xiaomi Redmi Note 12 10 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone Xs Max 5 
@@ -246,49 +239,33 @@
     Vidrio Templado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Antiespia Apple Iphone 16E 5
-    Celular Corn Flip K 1 352384180254635/643 1 ok
-    Forro Antichoque Samsung A21S Dama 3 ok
-    Forro Antichoque Motorola Moto E22i Caballero 3 ok
-    Forro Antichoque Motorola Moto E14 / G24 Caballero 2 ok
     Forro Antichoque Motorola Moto G24
-    Forro Antichoque Xiaomi Redmi 9A Dama 1 ok
-    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 Dama 3 ok
     Forro Space Tecno Camon 30s 1
-    Forro Space Xiaomi Redmi 10 2 ok
-    Power Bank Yoyos Ys-704 30000 Mah 1 ok
-    Silicone Case Huawei Honor X7C / 200 Smart Fucsia 1 ok
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Tecno Spark 10 Pro Verdemilitar 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Rojo 1
-    Silicone Case Vivo Y31 / Y51 / Y53S Lila 1 ok
-    Vaper 7000 Puffs Mango Loco 1 ok
-    Vaper 7000 Puffs Salpicon 1 ok
     Silicone Case Samsung S24 Ultra Negro 1
-    Silicone Case Apple Iphone 7 Plus / 8 Plus Rojo 1 ok
-    Manos Libres Samsung Akg Tc 3 ok
     Silicone Case Infinix Hot 50I Fucsia 1
     Cable Belkin V8 5
-    Cargador Belkin Tc 3 ok
-    Cargador Belkin V8 3 ok
-    Cargador Yl Tc 3 ok
-    Cargador Yl V8 3 ok
-    Cadenas Pegar 10 ok
-    Forro Ventana Apple Iphone 15 Pro Negro 1 ok
-    Forro Antichoque Pin Apple IPhone 11 3 ok
-    Silicone Case Apple IPhone 16e Morado 1 ok
-    Silicone Case Apple IPhone 16e Negro 1 ok
-    Silicone Case Apple IPhone 16e Azulclaro 1 ok
-    Silicone Case Apple IPhone 16e Lila 1 ok
-    Silicone Case Apple IPhone 16e Rosa 1 ok
-    Silicone Case Apple IPhone 16e Rojo 1 ok
-    Forro Space Apple Iphone 16e 3 ok
-    Memoria Kingstone Usb 4Gb 3 ok
-    Silicone Case Oppo A5 Pro 4G / 5G Rojo 1 ok
-    Silicone Case Oppo A5 Pro 4G / 5G Fucsia 1 ok
     Silicone Case Oppo A5 Pro 4G / 5G Lila
-    Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok
-    Silicone Case Oppo A5 Pro 4G / 5G Amarillo 1 ok
-    Silicone Cade Oppo A5 Pro 4G / 5G Morado 1 ok
-    Llaveros Capybara 5 ok
-    Llaveros 5 ok
-    Porta Brillo Forro 3 ok
+    Forro Antichoque Tecno Spark 10 Pro Caballero 3
+    Forro Armadura Motorola Moto G55 Negro 1
+    Forro Armadura Motorola Moto G55 Rojo 1
+    Forro Armadura Motorola Moto G35 Negro 1
+    Audifonos Bluetooth Cuellera L&M 2
+    Cargador Pluying Royal 38W 2
+    Cargador We Tc 33W 3
+    Cargador We V8 33W 2
+    Forro Antichoque Xiaomi Poco X3 Caballero 3
+    Power Bank Yoyos Ys-700 10000 Mah 1
+    Silicone Case Samsung A10 Fucsia 1
+    Silicone Case Xiaomi Poco X6 Pro Lila 1
+    Silicone Case Tecno Spark 30C Rojo 1
+    Vidrio 5D Xiaomi Redmi 12 5
+    Vidrio Antiespia Xiaomi Redmi 12 5
+    Vidrio Blindado Xiaomi Redmi 12 5
+    Forro Armadura Motorola Moto G35 Rojo 1
+    Forro Armadura Motorola Moto G05 Negro 1
+    Forro Armadura Motorola Moto G05 Rojo 1
+    Forro Armadura Motorola Moto G15 Negro 1
+    Forro Armadura Motorola Moto G15 Rojo 1

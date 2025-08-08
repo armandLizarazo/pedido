@@ -6236,3 +6236,191 @@ Fecha de proceso: 2025-08-05 06:29:13
 Archivo procesado: pdst.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-08-06 15:07:53
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 44
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   65 | Forro Soace Infinix Hot 50 Pro 4G 2 ok
+   68 | Forro Space Motorola Moto G04 1 ok
+   70 | Forro Space Oppo A80 2 ok
+   73 | Forro Space Samsung A22 5G 1 ok
+   79 | Forro Space Xiami Redmi A5 3 ok
+  174 | Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 1 ok
+  185 | Vidrio 5D Xiaomi Redmi Note 12 10 ok
+  249 | Celular Corn Flip K 1 352384180254635/643 1 ok
+  250 | Forro Antichoque Samsung A21S Dama 3 ok
+  251 | Forro Antichoque Motorola Moto E22i Caballero 3 ok
+  252 | Forro Antichoque Motorola Moto E14 / G24 Caballero 2 ok
+  254 | Forro Antichoque Xiaomi Redmi 9A Dama 1 ok
+  255 | Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 Dama 3 ok
+  257 | Forro Space Xiaomi Redmi 10 2 ok
+  258 | Power Bank Yoyos Ys-704 30000 Mah 1 ok
+  259 | Silicone Case Huawei Honor X7C / 200 Smart Fucsia 1 ok
+  263 | Silicone Case Vivo Y31 / Y51 / Y53S Lila 1 ok
+  264 | Vaper 7000 Puffs Mango Loco 1 ok
+  265 | Vaper 7000 Puffs Salpicon 1 ok
+  267 | Silicone Case Apple Iphone 7 Plus / 8 Plus Rojo 1 ok
+  268 | Manos Libres Samsung Akg Tc 3 ok
+  271 | Cargador Belkin Tc 3 ok
+  272 | Cargador Belkin V8 3 ok
+  273 | Cargador Yl Tc 3 ok
+  274 | Cargador Yl V8 3 ok
+  275 | Cadenas Pegar 10 ok
+  276 | Forro Ventana Apple Iphone 15 Pro Negro 1 ok
+  277 | Forro Antichoque Pin Apple IPhone 11 3 ok
+  278 | Silicone Case Apple IPhone 16e Morado 1 ok
+  279 | Silicone Case Apple IPhone 16e Negro 1 ok
+  280 | Silicone Case Apple IPhone 16e Azulclaro 1 ok
+  281 | Silicone Case Apple IPhone 16e Lila 1 ok
+  282 | Silicone Case Apple IPhone 16e Rosa 1 ok
+  283 | Silicone Case Apple IPhone 16e Rojo 1 ok
+  284 | Forro Space Apple Iphone 16e 3 ok
+  285 | Memoria Kingstone Usb 4Gb 3 ok
+  286 | Silicone Case Oppo A5 Pro 4G / 5G Rojo 1 ok
+  287 | Silicone Case Oppo A5 Pro 4G / 5G Fucsia 1 ok
+  289 | Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok
+  290 | Silicone Case Oppo A5 Pro 4G / 5G Amarillo 1 ok
+  291 | Silicone Cade Oppo A5 Pro 4G / 5G Morado 1 ok
+  292 | Llaveros Capybara 5 ok
+  293 | Llaveros 5 ok
+  294 | Porta Brillo Forro 3 ok
+
+==================================================
+Fecha de proceso: 2025-08-06 15:07:53
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 21
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Aro De Luz Joma 26Cm Ligth 2 ok
+    5 | Aro de luz Joma 26Cm Rgb 2 ok
+    6 | Estetica Ondas de Sirena 2 ok
+   16 | Rollo Cinta Led Rgb 10M 1 ok
+   23 | Mini Calefactor Con Control 2 ok
+   26 | Soporte Tv Fijo 1 ok
+   33 | Soporte Tv 50 Brazo 2 ok
+   35 | Reproductor Tdt Tg 2 ok
+   38 | Patillera 3 En 1 1 ok
+   44 | Microfono Inalambrico F11 Doble Pelusa 1 ok
+   45 | Parlante Barra V70 3 ok
+   46 | Switch Lan GS-05 1/100/1000 1 ok
+   47 | Adaptador Audio 3.5 a 1/2 3 ok
+   48 | Adaptador Hdmi2vga Cbl 2 ok
+   49 | Aro De Luz Joma 33Cm Rgb 2 ok
+   51 | Cable Optico 3M 3 ok
+   52 | Cable Optico 1.5M 2 ok
+   53 | Cable Optico 5M 2 ok
+   54 | Soporte Tripode Caja Cafe 2 ok
+   55 | Adaptador Otg Ramitech Usb Ligthning 2 ok
+   56 | Adaptador Tc2Hdmi Cbl 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-06 15:07:53
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 3 ok
+    2 | Pacha Vivo Y31 / Y51 / Y53S 1 ok
+    3 | Pacha Samsung A21s 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-08 05:22:54
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-08 05:22:54
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+    9 | # Pedido: pdpr
+   10 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-08 05:22:54
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-08 06:06:08
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-08 06:06:08
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-08 06:06:08
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
