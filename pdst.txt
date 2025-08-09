@@ -1,5 +1,7 @@
-    Flex de Power Xiaomi Redmi Note 9 1
+    Flex de Power Xiaomi Redmi Note 9 1 ok
     Camara Gran Angular Huawei Honor Magic 6 Lite 1
     Camara Frontal Xiaomi Redmi Note 13 Pro Plus 1
-    Pacha Xiaomi Poco X3 / Mi 10T Lite 1
-    Pacha Vivo Y21 / Y21s 1
+    Pacha Xiaomi Poco X3 / Mi 10T Lite 1 ok
+    Pacha Vivo Y21 / Y21s 1 ok
+    Pacha Xiaomi Redmi Note 13 4G 1 ok
+    Pacha Xiaomi Redmi Note 13 Pro Plus 1 ok
