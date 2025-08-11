@@ -6424,3 +6424,145 @@ Línea  | Contenido
 --------------------------------------------------
     1 | # Pedido: pdst
     2 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-08 20:26:04
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  231 | Silicone Case Samsung A22 4G Negro 1 ok
+  233 | Silicone Case Xiaomi Redmi Note 11 Negro 1 ok
+  234 | Silicone Case Vivo Y33S / Y21 / Y21S Fucsia 1 ok
+  236 | Silicone Case Samsung A21S Rojo 1 ok
+  245 | Silicone Case Tecno Spark 10 Pro Verdemilitar 1 ok
+  246 | Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Rojo 1 ok
+  248 | Silicone Case Infinix Hot 50I Fucsia 1 ok
+  257 | Cargador We Tc 33W 3 ok
+  258 | Cargador We V8 33W 2 ok
+  259 | Forro Antichoque Xiaomi Poco X3 Caballero 3 ok
+  260 | Power Bank Yoyos Ys-700 10000 Mah 1 ok
+  263 | Silicone Case Tecno Spark 30C Rojo 1 ok
+  264 | Vidrio 5D Xiaomi Redmi 12 5 ok
+  265 | Vidrio Antiespia Xiaomi Redmi 12 5 ok
+  266 | Vidrio Blindado Xiaomi Redmi 12 5 ok
+
+==================================================
+Fecha de proceso: 2025-08-08 20:26:04
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   36 | Switch Lan 10/100 1 ok
+   38 | Cable Disco Duro V8 3.0 Medio 1 ok
+   41 | Cargador Pc 8 Pines Caja Naranja 1 ok
+   42 | Cargador Pc 9 Pines Caja Verde P Azul 1 ok
+   43 | Cargador Pc 9 Pines Caja Verde Tc y Yoga 1 ok
+   46 | Mouse Gamer Eco X1 1 ok
+   48 | Reproductor Amazon Fire Tv Stick Hd 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-08 20:26:04
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Flex de Power Xiaomi Redmi Note 9 1 ok
+    4 | Pacha Xiaomi Poco X3 / Mi 10T Lite 1 ok
+    5 | Pacha Vivo Y21 / Y21s 1 ok
+    6 | Pacha Xiaomi Redmi Note 13 4G 1 ok
+    7 | Pacha Xiaomi Redmi Note 13 Pro Plus 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-11 04:19:22
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-11 04:19:26
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-11 04:19:27
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-11 05:50:46
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-11 05:53:46
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-11 06:04:15
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-11 06:04:16
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-11 06:04:16
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst

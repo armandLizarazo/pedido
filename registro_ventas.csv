@@ -280,3 +280,85 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-08-07 20:54:35,20250807205435,Forro Antichoque Xiaomi Poco X3 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
 2025-08-07 20:54:35,20250807205435,Vidrio Ceramico Samsung A71 / Poco X3,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General
 2025-08-07 20:59:48,20250807205948,Recargas,1,11321.00,12000.00,12000.00,679.00,local.txt,Cliente General
+2025-08-08 20:31:57,20250808203157,Antena Tdt 5M,1,9500.00,20000.00,20000.00,10500.00,local.txt,Cliente General
+2025-08-08 20:34:40,20250808203440,Hub Lan 3 Usb,1,25000.00,49000.00,49000.00,24000.00,local.txt,Cliente General
+2025-08-08 20:35:07,20250808203507,Vidrio 5D Huawei Y9 Prime,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-08 20:36:19,20250808203619,Servicio Tecnico Control Humedad Huawei Honor Magic 6 Lite,1,0.00,95000.00,95000.00,95000.00,local.txt,Cliente General
+2025-08-08 20:37:23,20250808203723,Servicio Tecnico Revision Xiaomi Redmi 13C,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General
+2025-08-08 20:38:37,20250808203837,Servicio Tecnico Reconectar Pantalla Samsung A24,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-08 20:45:58,20250808204558,Pacha Vivo Y20s / Y11s,1,38000.00,90000.00,90000.00,52000.00,local.txt,Jhony Perez
+2025-08-08 20:45:58,20250808204558,Silicone Case Vivo Y20 / Y20S / Y11S Lila,1,7000.00,20000.00,20000.00,13000.00,local.txt,Jhony Perez
+2025-08-08 20:45:58,20250808204558,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Jhony Perez
+2025-08-08 20:47:55,20250808204755,Pacha Motorola Moto G20,1,35000.00,95000.00,95000.00,60000.00,local.txt,Jonathan Triana
+2025-08-08 20:47:55,20250808204755,Vidrio 5D Motorola Moto G20 / G30,1,900.00,5000.00,5000.00,4100.00,local.txt,Jonathan Triana
+2025-08-08 20:49:17,20250808204917,Pacha Xiaomi Redmi 9,1,38000.00,90000.00,90000.00,52000.00,local.txt,Cliente General
+2025-08-08 20:49:17,20250808204917,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-08 20:53:28,20250808205328,Cable Caterpillar Tc,1,4500.00,14000.00,14000.00,9500.00,local.txt,Yorman
+2025-08-08 20:56:53,20250808205653,Parlante Pc Mini Teatro Blanco,1,32000.00,59000.00,59000.00,27000.00,local.txt,Cliente General
+2025-08-08 21:00:32,20250808210032,Llaveros Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General
+2025-08-08 21:05:05,20250808210505,Recargas,1,7075.00,7500.00,7500.00,425.00,local.txt,Cliente General
+2025-08-09 11:00:43,20250809110043,Simcard Claro,1,1200.00,5000.00,5000.00,3800.00,local.txt,Cliente General
+2025-08-09 11:00:59,20250809110059,Simcard Claro,1,1200.00,5000.00,5000.00,3800.00,local.txt,Cliente General
+2025-08-09 11:02:55,20250809110255,Cable Usb Macho Macho 1.5M,1,3000.00,12000.00,12000.00,9000.00,local.txt,Cliente General
+2025-08-09 13:57:27,20250809135727,Reproductor Tv Stick Magis,1,85000.00,130000.00,130000.00,45000.00,local.txt,Cliente General
+2025-08-09 13:57:27,20250809135727,Pilas Carbon Maxday Aaa X2,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General
+2025-08-09 14:01:14,20250809140114,Forro Antichoque Oppo Reno 5 Lite Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-09 14:05:08,20250809140508,Cable Lan 3M Cat 6,2,4000.00,12000.00,24000.00,16000.00,local.txt,Cliente General
+2025-08-09 14:37:55,20250809143755,Recargas,1,6604.00,7000.00,7000.00,396.00,local.txt,Cliente General
+2025-08-09 14:38:39,20250809143839,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General
+2025-08-09 20:10:28,20250809201028,Vidrio 5D Huawei Honor X8A,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-09 20:10:28,20250809201028,Forro Antichoque Huawei Honor X8A Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-09 20:17:55,20250809201755,Cable Apple Tc Ligthning 2M,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General
+2025-08-09 20:18:47,20250809201847,Cable Siliconado Zonymax V8,1,4500.00,18000.00,18000.00,13500.00,local.txt,Cliente General
+2025-08-09 20:19:59,20250809201959,Vaper 7000 Puffs Salpicon,1,17000.00,40000.00,40000.00,23000.00,local.txt,Cliente General
+2025-08-09 20:21:09,20250809202109,Hydrogel Matte Huawei Honor 200,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-09 20:22:19,20250809202219,Pacha Xiaomi Redmi Note 13 Pro Plus,1,165000.00,340000.00,340000.00,175000.00,local.txt,Cliente General
+2025-08-09 20:23:53,20250809202353,Recargas,1,47170.00,50000.00,50000.00,2830.00,local.txt,Cliente General
+2025-08-09 20:24:50,20250809202450,Audifonos Bluetooth I12 Negro,1,14000.00,35000.00,35000.00,21000.00,local.txt,Cliente General
+2025-08-09 20:26:40,20250809202640,Cargador Pc Hp Punta Azul,1,26000.00,55000.00,55000.00,29000.00,local.txt,Cliente General
+2025-08-10 10:36:13,20250810103613,Vidrio 5D Samsung A05,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-10 10:37:01,20250810103701,Cable We Tc,1,4500.00,20000.00,20000.00,15500.00,local.txt,Cliente General
+2025-08-10 12:56:39,20250810125639,Vidrio 5D Samsung A12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-10 12:56:39,20250810125639,Vidrio 5D Tecno Spark Go 2025,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-10 12:56:39,20250810125639,Servicio Tecnico Formatear Moto G8 Power,1,0.00,12000.00,12000.00,12000.00,local.txt,Cliente General
+2025-08-10 12:56:39,20250810125639,Forro Antichoque Tecno Spark Go 2025 / Go 1 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-10 12:58:22,20250810125822,Video Juego Ps2 50 cent,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General
+2025-08-10 12:58:22,20250810125822,Video Juego Ps2 Call Of Duty,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General
+2025-08-10 12:59:22,20250810125922,Servicio Tecnico Pin de Carga Redmi A1,1,0.00,25000.00,25000.00,25000.00,local.txt,Cliente General
+2025-08-10 12:59:38,20250810125938,Servicio Tecnico Sincronizar Cuenta Gmail,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General
+2025-08-10 13:00:56,20250810130056,Vidrio 5D Xiaomi Redmi Note 13 / Note 14,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-10 13:00:56,20250810130056,Forro Space Xiaomi Redmi Note 13 4G,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
+2025-08-10 13:00:56,20250810130056,Cable We Tc,1,4500.00,20000.00,20000.00,15500.00,local.txt,Cliente General
+2025-08-10 13:07:37,20250810130737,Forro Antichoque Oppo A57 / A77 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-10 13:07:37,20250810130737,Vidrio Ceramico Samsung A12,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General
+2025-08-09 13:58:24,20250810135824,Cable Belkin Tc,1,2500.00,12000.00,12000.00,9500.00,local.txt,ultima Venta
+2025-08-09 13:58:24,20250810135824,Vidrio 5D Tecno Spark Go 2025,1,900.00,10000.00,10000.00,9100.00,local.txt,ultima Venta
+2025-08-09 21:58:24,20250810135824,Servicio Tecnico Revision Carga A32,1,0.00,10000.00,10000.00,10000.00,local.txt,ultima Venta
+2025-08-10 14:06:04,20250810140604,Recargas,1,35849.00,38000.00,38000.00,2151.00,local.txt,Cliente General
+2025-08-10 14:34:03,20250810143403,Vidrio Full Pega Magic 7 Lite,1,7000.00,30000.00,30000.00,23000.00,local.txt,Cliente General
+2025-08-10 15:09:41,20250810150941,Hydrogel Xiaomi Redmi Note 14,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-10 15:47:47,20250810154747,Hydrogel Motorola Moto Edge 50 Fusion,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-10 15:50:39,20250810155039,Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-10 15:56:27,20250810155627,Cargador Apple 25W Tc Ligthning,1,13000.00,55000.00,55000.00,42000.00,local.txt,Cliente General
+2025-08-10 15:56:27,20250810155627,Silicone Case Apple Iphone X / Xs Rojo,1,7000.00,18000.00,18000.00,11000.00,local.txt,Cliente General
+2025-08-10 16:16:37,20250810161637,Guantes Gamer,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-10 16:34:38,20250810163438,Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Fucsia,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-10 17:13:10,20250810171310,Forro Antichoque Xiaomi Redmi Note 11 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-10 17:29:25,20250810172925,Hydrogel Xiaomi Redmi 12,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-10 17:31:31,20250810173131,Adaptador Hdmi A Mini Hdmi,1,2000.00,9000.00,9000.00,7000.00,local.txt,Cliente General
+2025-08-10 21:03:20,20250810210320,Logica De Carga Motorola Moto G8 Plus,1,15000.00,40000.00,40000.00,25000.00,local.txt,Cliente General
+2025-08-10 21:03:20,20250810210320,Cable Caterpillar Tc,1,4500.00,15000.00,15000.00,10500.00,local.txt,Cliente General
+2025-08-10 21:05:02,20250810210502,Pacha Motorola Moto G20,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General
+2025-08-10 21:05:02,20250810210502,Vidrio 5D Motorola Moto G20 / G30,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-10 21:05:02,20250810210502,Silicone Case Motorola Moto G20 / G30 Azulclaro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-10 21:05:45,20250810210545,Pacha Xiaomi Redmi Note 12,1,42000.00,100000.00,100000.00,58000.00,local.txt,Cliente General
+2025-08-10 21:08:27,20250810210827,Pacha Samsung A04,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General
+2025-08-10 21:08:27,20250810210827,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-10 21:09:21,20250810210921,Pacha Samsung A02S / A03 / A03S / A04E,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General
+2025-08-10 21:09:48,20250810210948,Forro Space Apple Iphone 11,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
+2025-08-10 21:11:33,20250810211133,Forro Space Xiaomi Redmi Note 12,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
+2025-08-10 21:11:33,20250810211133,Forro Armadura Xiaomi Redmi Note 8 Rojo,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-10 21:12:00,20250810211200,Cable Belkin Tc,1,2500.00,15000.00,15000.00,12500.00,local.txt,Cliente General
+2025-08-10 21:21:36,20250810212136,Cable Apple Tc Ligthning,1,5500.00,20000.00,20000.00,14500.00,local.txt,Cliente General
+2025-08-10 21:33:09,20250810213309,Recargas,1,71698.00,76000.00,76000.00,4302.00,local.txt,Cliente General
+2025-08-10 23:08:40,20250810230840,Sin Registro,1,15000.00,38000.00,38000.00,23000.00,local.txt,Armando
