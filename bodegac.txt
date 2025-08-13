@@ -153,7 +153,7 @@
     Cable Belkin Ligthning 0
     Cable Belkin Tc 2M 2
     Cable Belkin Tc 2
-    Cable Belkin V8 0
+    Cable Belkin V8 5
     Cable Caterpillar Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
@@ -331,7 +331,7 @@
     Control Gamer Microsoft Pc / 360 Alambrico 0
     Control Gamer Microsoft Pc Tipo 360 0
     Control Gamer Microsoft Xbox 360 Inalambrico 3
-    Control Gamer Microsoft Xbox Caja Negra 0
+    Control Gamer Microsoft Xbox Caja Negra 1
     Control Gamer Pc Eco 1 0
     Control Gamer Pc Sencillo 0
     Control Gamer Ps4 Blanco 0
@@ -610,7 +610,7 @@
     Forro Pin Tecno Spark 30 Pro 3
     Forro Silicone Case Apple Iphone 13 Mini Rosa 0
     Forro Soace Infinix Hot 50 Pro 4G 2
-    Forro Space Apple Iphone 11 0
+    Forro Space Apple Iphone 11 1
     Forro Space Apple Iphone 11 Magsafe 1
     Forro Space Apple Iphone 11 Pro Max Magsafe 0
     Forro Space Apple Iphone 12 Mini 0
@@ -760,10 +760,10 @@
     Forro Space Xiaomi Redmi Note 10 5G 2
     Forro Space Xiaomi Redmi Note 11 0
     Forro Space Xiaomi Redmi Note 11 Pro 5G 0
-    Forro Space Xiaomi Redmi Note 12 0
+    Forro Space Xiaomi Redmi Note 12 2
     Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 3
-    Forro Space Xiaomi Redmi Note 13 4G 0
+    Forro Space Xiaomi Redmi Note 13 4G 2
     Forro Space Xiaomi Redmi Note 13 Pro 4G 0
     Forro Space Xiaomi Redmi Note 14 0
     Forro Space Xiaomi Redmi Note 14 4G 0
@@ -910,7 +910,7 @@
     Pacha Motorola Moto E7 Plus / G9 Play 0
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G14 / G54 0
-    Pacha Motorola Moto G20 / G30 0
+    Pacha Motorola Moto G20 / G30 2
     Pacha Motorola Moto G22 / E32 1
     Pacha Motorola Moto G31 0
     Pacha Motorola Moto G60 / G60S 0
@@ -929,7 +929,7 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 0
-    Pacha Samsung A02S / A03 / A03S / A04E 0
+    Pacha Samsung A02S / A03 / A03S / A04E 1
     Pacha Samsung A02S C/M 0
     Pacha Samsung A04s 0
     Pacha Samsung A05 0
@@ -989,7 +989,7 @@
     Pacha Xiaomi Redmi 12 0
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi 13C 0
-    Pacha Xiaomi Redmi 9 0
+    Pacha Xiaomi Redmi 9 1
     Pacha Xiaomi Redmi 9A / 9C / 10A 0
     Pacha Xiaomi Redmi 9T / Poco M3 0
     Pacha Xiaomi Redmi 9T 0
@@ -998,7 +998,7 @@
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
     Pacha Xiaomi Redmi Note 11 / Note 12S 0
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
-    Pacha Xiaomi Redmi Note 12 0
+    Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 13 4G 1
     Pacha Xiaomi Redmi Note 13 Pro Plus 1
     Pacha Xiaomi Redmi Note 7 0
@@ -1204,7 +1204,7 @@
     Silicone Case Apple Iphone X / Xs Fucsia 0
     Silicone Case Apple Iphone X / Xs Morado 0
     Silicone Case Apple Iphone X / Xs Negro 0
-    Silicone Case Apple Iphone X / Xs Rojo 0
+    Silicone Case Apple Iphone X / Xs Rojo 1
     Silicone Case Apple Iphone X / Xs Rosa 0
     Silicone Case Apple Iphone Xr Amarillo 0
     Silicone Case Apple Iphone Xr Azuloscuro 0
@@ -1395,7 +1395,7 @@
     Silicone Case Motorola Moto G05 0
     Silicone Case Motorola Moto G05 Negro 0
     Silicone Case Motorola Moto G20 / G30 Amarillo 0
-    Silicone Case Motorola Moto G20 / G30 Azulclaro 0
+    Silicone Case Motorola Moto G20 / G30 Azulclaro 1
     Silicone Case Motorola Moto G20 / G30 Azulrey 1
     Silicone Case Motorola Moto G20 / G30 Lila 0
     Silicone Case Motorola Moto G20 / G30 Morado 0
@@ -2089,7 +2089,7 @@
     Vidrio 5D Huawei Y5 2019 0
     Vidrio 5D Huawei Y6 2019 / Honor 8A 0
     Vidrio 5D Huawei Y6P 0
-    Vidrio 5D Huawei Y9 Prime 0
+    Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Matte Samsung A31 0
     Vidrio 5D Motorola Moto E30 / E40 0
     Vidrio 5D Motorola Moto G04 / G24 0
@@ -2103,11 +2103,11 @@
     Vidrio 5D Redmi Note 12 0
     Vidrio 5D Samsugn A06 0
     Vidrio 5D Samsung A04S 0
-    Vidrio 5D Samsung A05 9
+    Vidrio 5D Samsung A05 14
     Vidrio 5D Samsung A05S 0
     Vidrio 5D Samsung A10 / A10s 0
     Vidrio 5D Samsung A11 0
-    Vidrio 5D Samsung A12 0
+    Vidrio 5D Samsung A12 10
     Vidrio 5D Samsung A15 0
     Vidrio 5D Samsung A16 0
     Vidrio 5D Samsung A21S 0
@@ -2292,12 +2292,21 @@
     Visor Camara Xiaomi Redmi Note 10 Pro 0
     Forro Space Huawei Honor 8A 0
     Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 0
-    Silicone Case Tecno Spark Go 2025 / Go 1 Fucsia 0
-    Forro Space Tecno Spark Go 2025 / Go 1 0
+    Silicone Case Tecno Spark Go 2025 / Go 1 Fucsia 1
+    Forro Space Tecno Spark Go 2025 / Go 1 2
     Silicone Case Oppo A57 / A77 Fucsia 0
     Silicone Case Oppo A57 / A77 Lila 0
     Vidrio Fullpega Huawei Honor Magic 7 Lite 0
-    Logica De Carga Motorola Moto G8 Plus 0
-    Pacha Samsung A04 0
-    Pacha Vivo Y11s / Y20s 0
+    Logica De Carga Motorola Moto G8 Plus 1
+    Pacha Samsung A04 1
+    Pacha Vivo Y11s / Y20s 1
     Silicone Case Vivo Y20 / Y20S / Y11S Lila 0
+    Tapones Puerto de Carga 4
+    Flex de Power Xiaomi Poco X3 0
+    Visor De Camara Samsung S20 Fe 0
+    Tapa Motorola Moto G8 Plus 0
+    Visor Camara Motorola Moto G8 Plus 0
+    Forro Space Oppo Reno 13 5G 0
+    Forro Antichoque Oppo Reno 13 5G Dama 0
+    Forro Antichoque Oppo Reno 13 5G Caballero 0
+    Forro Armadura Oppo Reno 13 5G 0

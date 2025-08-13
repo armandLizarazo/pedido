@@ -1,3 +1,7 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Audifonos Bluetooth Orejas 1
@@ -237,11 +241,8 @@
     Vidrio Antiespia Apple Iphone 16E 5
     Forro Antichoque Motorola Moto G24
     Forro Space Tecno Camon 30s 1
-    Forro Space Apple Iphone 11 1 ok
-    Tapones Puerto de Carga 4 ok
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Samsung S24 Ultra Negro 1
-    Cable Belkin V8 5 ok
     Silicone Case Oppo A5 Pro 4G / 5G Lila
     Forro Armadura Motorola Moto G55 Negro 1
     Forro Armadura Motorola Moto G55 Rojo 1
@@ -257,20 +258,14 @@
     Forro Armadura Motorola Moto G15 Rojo 1
     Vidrio 5D Huawei Honor X8A 10
     Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1
-    Silicone Case Tecno Spark Go 2025 / Go 1 Fucsia 1 ok
-    Forro Space Tecno Spark Go 2025 / Go 1 2 ok
     Silicone Case Oppo A57 / A77 Fucsia 1
     Silicone Case Oppo A57 / A77 Lila 1
     Vidrio Fullpega Huawei Honor Magic 7 Lite 3
     Vidrio 5D Tecno Spark Go 2025 10
-    Vidrio 5D Samsung A05 5 ok
-    Forro Space Xiaomi Redmi Note 12 2 ok
-    Forro Space Xiaomi Redmi Note 13 4G 2 ok
     Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
     Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
-    Silicone Case Apple Iphone X / Xs Rojo 1 ok
-    Silicone Case Motorola Moto G20 / G30 Azulclaro 1 ok
     Silicone Case Vivo Y20 / Y20S / Y11S Lila 1
-    Vidrio 5D Samsung A12 10 ok
-    Vidrio 5D Huawei Y9 Prime 5 ok
-    Control Gamer Microsoft Xbox Caja Negra 1 ok
+    Forro Space Oppo Reno 13 5G 2
+    Forro Antichoque Oppo Reno 13 5G Dama 5
+    Forro Antichoque Oppo Reno 13 5G Caballero 5
+    Forro Armadura Oppo Reno 13 5G 2

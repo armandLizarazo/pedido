@@ -1,3 +1,4 @@
+# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
@@ -40,3 +41,4 @@
     Mouse Gamer Eco A78 3
     Proyector Thor Hy-300 Con Juegos 1
     Cargador Pc Hp Punta Azul 1
+    Cargador Microsoft Carga Y Juea Xbox 360 5

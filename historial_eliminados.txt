@@ -6566,3 +6566,47 @@ Línea  | Contenido
     5 | # Pedido: pdst
     6 | # Pedido: pdst
     7 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-12 21:28:00
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  240 | Forro Space Apple Iphone 11 1 ok
+  241 | Tapones Puerto de Carga 4 ok
+  244 | Cable Belkin V8 5 ok
+  260 | Silicone Case Tecno Spark Go 2025 / Go 1 Fucsia 1 ok
+  261 | Forro Space Tecno Spark Go 2025 / Go 1 2 ok
+  266 | Vidrio 5D Samsung A05 5 ok
+  267 | Forro Space Xiaomi Redmi Note 12 2 ok
+  268 | Forro Space Xiaomi Redmi Note 13 4G 2 ok
+  271 | Silicone Case Apple Iphone X / Xs Rojo 1 ok
+  272 | Silicone Case Motorola Moto G20 / G30 Azulclaro 1 ok
+  274 | Vidrio 5D Samsung A12 10 ok
+  275 | Vidrio 5D Huawei Y9 Prime 5 ok
+  276 | Control Gamer Microsoft Xbox Caja Negra 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-12 21:28:00
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-12 21:28:00
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Logica De Carga Motorola Moto G8 Plus 1 ok
+    2 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+    3 | Pacha Samsung A04 1 ok
+    4 | Pacha Motorola Moto G20 / G30 2 ok
+    5 | Pacha Xiaomi Redmi 9 1 ok
+    6 | Pacha Xiaomi Redmi Note 12 1 ok
+    7 | Pacha Vivo Y11s / Y20s 1 ok
