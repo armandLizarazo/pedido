@@ -264,8 +264,8 @@
     Vidrio Fullpega Huawei Honor Magic 7 Lite 3
     Vidrio 5D Tecno Spark Go 2025 10
     Vidrio 5D Samsung A05 5 ok
-    Forro Space Xiaomi Redmi Note 12 2
-    Forro Space Xiaomi Redmi Note 13 4G 2
+    Forro Space Xiaomi Redmi Note 12 2 ok
+    Forro Space Xiaomi Redmi Note 13 4G 2 ok
     Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
     Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
     Silicone Case Apple Iphone X / Xs Rojo 1 ok
@@ -273,3 +273,4 @@
     Silicone Case Vivo Y20 / Y20S / Y11S Lila 1
     Vidrio 5D Samsung A12 10 ok
     Vidrio 5D Huawei Y9 Prime 5 ok
+    Control Gamer Microsoft Xbox Caja Negra 1 ok
