@@ -6610,3 +6610,39 @@ Línea  | Contenido
     5 | Pacha Xiaomi Redmi 9 1 ok
     6 | Pacha Xiaomi Redmi Note 12 1 ok
     7 | Pacha Vivo Y11s / Y20s 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-14 18:33:05
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-14 18:33:05
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-14 18:33:05
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst

@@ -97,9 +97,9 @@
     Cable Auxiliar Harvic 1 a 1 en L Cja 2
     Cable Belkin Ligthning 3
     Cable Belkin Tc 2M 1
-    Cable Belkin Tc 4
-    Cable Belkin V8 3
-    Cable Caterpillar Tc 0
+    Cable Belkin Tc 3
+    Cable Belkin V8 5
+    Cable Caterpillar Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 3
     Cable Dp2Dp 1.8M 2
@@ -118,9 +118,9 @@
     Cable Optico 3M 1
     Cable Optico 5M 1
     Cable Poder Cuadrado 2
-    Cable Poder Grabadora 3
+    Cable Poder Grabadora 2
     Cable Poder Trebol 2
-    Cable Rca 3 A 3 1.5M 3
+    Cable Rca 3 A 3 1.5M 2
     Cable Rca 3 A 3 3M 2
     Cable Royal Tc 2
     Cable Royal Tc 2M 1
@@ -135,7 +135,7 @@
     Cable Usb Ligthning Eco 3
     Cable Usb Macho Macho 1.5M 1
     Cable V8 3.0 Corto 0
-    Cable V8 Eco 4
+    Cable V8 Eco 3
     Cable Vga 1M 0
     Cable We Tc 2
     Cable We Tc Eco 1
@@ -148,6 +148,8 @@
     Camara Web 720P 1
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
+    Carga y Juega Xbox 360 0
+    Carga Y Juega Xbox One 1
     Cargador Apple 20W Tc Cabeza 1
     Cargador Apple 20W Tc Ligthning 1
     Cargador Apple 25W Con Cable 1
@@ -167,7 +169,7 @@
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 1
     Cargador Cabeza Tc & Usb 20W C15 1
     Cargador Cabeza W Tc & 5Usb 40W Pd-32 1
-    Cargador Cubo Eco 2
+    Cargador Cubo Eco 0
     Cargador Digo V8 5
     Cargador Harvic V8 4.1A 1
     Cargador Huawei Honor V8 1
@@ -188,13 +190,13 @@
     Cargador Pc Lenovo Yoga 1
     Cargador Pluyin Eco 2
     Cargador Pluying 7A 3P 35W 1
-    Cargador Pluying Harvic 3P 15W 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
+    Cargador Pluying Harvic 3P 15W 1
+    Cargador Pluying Hm-108 Modulador 12-24V 3.1A 1
     Cargador Pluying Royal 2P 20W 1
     Cargador Pluying Royal 38W 1
     Cargador Pluying Royal Modulador Carg7 1
     Cargador Pluying X8 Modulador 12-24V 3.1A 0
-    Cargador Pluying Hm-108 Modulador 12-24V 3.1A 1
     Cargador Realme Tc 65W 1
     Cargador Samsung 25W Cabeza Blanco 1
     Cargador Samsung 25W Cabeza Negro 1
@@ -205,6 +207,7 @@
     Cargador Samsung 45W Con Cable Negro 3
     Cargador Samsung S10+ Tc 3
     Cargador Smart Watch Pinza 3
+    Cargador Smartwatch Magnetico 2
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 1
     Cargador Vidvie V8 2P 2.4A 1
@@ -231,7 +234,7 @@
     Control Gamer X3 2
     Control Keyboard Tv 1
     Control Tv Tv Box 2
-    Control Tv Universal 3
+    Control Tv Universal 2
     Dispensador Agua Botellon 2
     Dron 988 Doble Camara 0
     Escencia Aceite 10
@@ -252,8 +255,10 @@
     Forro Antichoque Cadena Motorola Moto G20 / G30 1
     Forro Antichoque Cadena Oppo A57 / A77 1
     Forro Antichoque Cadena Redmi 13C 1
+    Forro Antichoque Cadena Samsung A13 1
     Forro Antichoque Cadena Samsung A21S 2
     Forro Antichoque Cadena Samsung A24 1
+    Forro Antichoque Cadena Samsung A36 3
     Forro Antichoque Cadena Tecno Spark 10 Pro 2
     Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 2
     Forro Antichoque Cadena Tecno Spark Go 2025 / Go 1 1
@@ -274,15 +279,17 @@
     Forro Antichoque Huawei Honor X8A Caballero 3
     Forro Antichoque Huawei Honor X8A Dama 0
     Forro Antichoque Huawei P10 Lite Caballero 2
-    Forro Antichoque Huawei Y9 2019 / Y8S Caballero 2
+    Forro Antichoque Huawei Y9 2019 / Y8S Caballero 3
     Forro Antichoque Huawei Y9 2019 / Y8S Dama 2
+    Forro Antichoque Huawei Y9 Prime Caballero 4
+    Forro Antichoque Huawei Y9 Prime Dama 2
     Forro Antichoque Humo Oppo A57 / A77 Azul 1
     Forro Antichoque Humo Oppo A57 / A77 Negro 1
     Forro Antichoque Infinix Hot 50 Pro Caballero 3
     Forro Antichoque Infinix Hot 50 Pro Dama 5
     Forro Antichoque Infinix Hot 50 Pro Plus Caballero 4
-    Forro Antichoque Infinix Hot 50I Caballero 4
-    Forro Antichoque Infinix Hot 50I Dama 4
+    Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 4
+    Forro Antichoque Infinix Hot 50I / Smart 9 Dama 4
     Forro Antichoque infinix Note 40 Caballero 3
     Forro Antichoque Infinix Note 40 Dama 4
     Forro Antichoque Infinix Note 40 Pro Caballero 2
@@ -324,16 +331,21 @@
     Forro Antichoque Pin Apple IPhone 11 3
     Forro Antichoque Pin Huawei Honor Magic 6 Lite 1
     Forro Antichoque Pin Huawei Honor X7C / 200 Smart 1
+    Forro Antichoque Pin Samsung A13 0
     Forro Antichoque Pin Tecno Spark Go 2024 / 20 / 20C / Pop8 1
     Forro Antichoque Pin Xiaomi Redmi 12 1
     Forro Antichoque Pin Xiaomi Redmi Note 13 4G 3
     Forro Antichoque Pin Xiaomi Redmi Note 13 4G Dama 1
     Forro Antichoque Pin Xiaomi Redmi Note 13 Pro 4G 2
+    Forro Antichoque Samsung A02s 2
+    Forro Antichoque Samsung A02s Dama 2
     Forro Antichoque Samsung A04E Caballero 0
     Forro Antichoque Samsung A04S Caballero 5
     Forro Antichoque Samsung A04S Dama 3
     Forro Antichoque Samsung A10 Caballero 3
     Forro Antichoque Samsung A10 Dama 2
+    Forro Antichoque Samsung A13 Caballero 7
+    Forro Antichoque Samsung A13 Dama 5
     Forro Antichoque Samsung A14 Caballero 0
     Forro Antichoque Samsung A15 Caballero 0
     Forro Antichoque Samsung A21s Caballero 4
@@ -341,6 +353,8 @@
     Forro Antichoque Samsung A24 Caballero 4
     Forro Antichoque Samsung A24 Dama 5
     Forro Antichoque Samsung A35 Dama 0
+    Forro Antichoque Samsung A36 Caballero 3
+    Forro Antichoque Samsung A36 Dama 2
     Forro Antichoque Samsung A55 Caballero 0
     Forro Antichoque Tecno Camon 30 Pro Dama 5
     Forro Antichoque Tecno Spark 10 / 10C Caballero 3
@@ -413,8 +427,13 @@
     Forro Armadura Oppo A80 Negro 1
     Forro Armadura Oppo Reno 11F Negro 0
     Forro Armadura Samsung A06 Negro 0
+    Forro Armadura Samsung A13 Negro 1
+    Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung A24 Rojo 1
+    Forro Armadura Samsung A36 Rojo 1
+    Forro Armadura Samsung A36 Verde 1
+    Forro Armadura Samsung A36 Vinotinto 1
     Forro Armadura Tecno Spark 30 Pro Negro 1
     Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 Azulrey 1
     Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 2
@@ -456,8 +475,8 @@
     Forro Pin Apple Iphone 11 0
     Forro Pin Motorola Moto G04 2
     Forro Pin Motorola Moto G24 / G04 2
-    Forro Pin Samsung A13 2
     Forro Space Apple Iphone 11 1
+    Forro Space Apple Iphone 11 Pro Max 1
     Forro Space Apple Iphone 12 Mini 2
     Forro Space Apple Iphone 13 Mini 0
     Forro Space Apple Iphone 14 Pro Max 0
@@ -485,6 +504,7 @@
     Forro Space Huawei Nova Y90 0
     Forro Space Huawei Y9 / Y8S 2019 1
     Forro Space Huawei Y9 2019 0
+    Forro Space Huawei Y9 Prime 1
     Forro Space Infinix Hot 50 Pro 2
     Forro Space Infinix Note 40 2
     Forro Space Magsafe Apple Iphone 11 1
@@ -519,7 +539,7 @@
     Forro Space Samsung A04S 2
     Forro Space Samsung A05 1
     Forro Space Samsung A05S 0
-    Forro Space Samsung A13 0
+    Forro Space Samsung A13 2
     Forro Space Samsung A13 5G 0
     Forro Space Samsung A14 0
     Forro Space Samsung A15 0
@@ -527,12 +547,13 @@
     Forro Space Samsung A21S 2
     Forro Space Samsung A21S Gris 1
     Forro Space Samsung A21S Morado 1
-    Forro Space Samsung A22 5G 1
+    Forro Space Samsung A22 5G 2
     Forro Space Samsung A24 1
     Forro Space Samsung A25 0
     Forro Space Samsung A31 0
     Forro Space Samsung A35 2
     Forro Space Samsung A36 2
+    Forro Space Samsung A36 3
     Forro Space Samsung A54 0
     Forro Space Samsung A55 0
     Forro Space Samsung A56 1
@@ -574,10 +595,10 @@
     Forro Space Xiaomi Redmi Note 10 Pro 0
     Forro Space Xiaomi Redmi Note 11 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 0
-    Forro Space Xiaomi Redmi Note 12 1
+    Forro Space Xiaomi Redmi Note 12 2
     Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 1
-    Forro Space Xiaomi Redmi Note 13 4G 1
+    Forro Space Xiaomi Redmi Note 13 4G 2
     Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro 2
     Forro Space Xiaomi Redmi Note 14 Pro 5G 2
@@ -613,7 +634,7 @@
     Llaveros Capybara 5
     Llaveros Figura 24
     Llaveros Pegar 9
-    Logica De Carga Motorola Moto G8 Plus 0
+    Logica De Carga Motorola Moto G8 Plus 1
     Manos Libres Batri B10 Azulcielo 1
     Manos Libres Batri B10 Blanco 1
     Manos Libres Batri B10 Lila 0
@@ -663,8 +684,8 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 3
-    Pacha Samsung A02S / A03 / A03S / A04E 2
-    Pacha Samsung A04 0
+    Pacha Samsung A02S / A03 / A03S / A04E 3
+    Pacha Samsung A04 2
     Pacha Samsung A05 1
     Pacha Samsung A10S 0
     Pacha Samsung A13 / M33 3
@@ -685,11 +706,11 @@
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13C 2
-    Pacha Xiaomi Redmi 9 1
+    Pacha Xiaomi Redmi 9 2
     Pacha Xiaomi Redmi 9A / 9C / 10A 2
     Pacha Xiaomi Redmi Note 10 / Note 10S 2
     Pacha Xiaomi Redmi Note 11 / Note 12S 6
-    Pacha Xiaomi Redmi Note 12 1
+    Pacha Xiaomi Redmi Note 12 2
     Pacha Xiaomi Redmi Note 13 Pro Plus 0
     Pacha Xiaomi Redmi Note 8 2
     Pacha Xiaomi Redmi Note 9s / 9Pro 2
@@ -711,10 +732,10 @@
     Parlante Tg-294 Rojo 1
     Patillera 3 En 1 2
     Patillera 3 En 1 Vintage 0
-    Pepas Hydrogel 6
+    Pepas Hydrogel 12
     Pila Reloj Beston Cr-2025 0
     Pilas Carbon Maxday Aa x2 12
-    Pilas Carbon Maxday Aaa X2 15
+    Pilas Carbon Maxday Aaa X2 14
     Pilas Recargables Aa x2 2700 Mah 0
     Pin De Carga Celular 20
     Pin De Carga Parlante 19
@@ -746,7 +767,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 9
+    Recargas 6
     Recargas Claro 95
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -765,9 +786,11 @@
     Servicio Tecnico Alcatel Reconectar Pantalla 0
     Servicio Tecnico Apple Ajustar Pantalla Iphone Xr 0
     Servicio Tecnico Apple Despegar Bateria IPhone 6 0
+    Servicio Tecnico Frp Infinix Hot 40I 0
     Servicio Tecnico Huawei Control Humedad Honor Magic 6 Lite 0
     Servicio Tecnico Huawei Control Humedad y Capacitor Y9 Prime 0
     Servicio Tecnico Huawei Pin de Carga Y9 2019 0
+    Servicio Tecnico Krono Pin de Carga Tablet Kids 0
     Servicio Tecnico Motorola Formatear Moto G8 Power 0
     Servicio Tecnico Motorola Frp Moto G15 0
     Servicio Tecnico Motorola Mantenimiento Logica Moto G24 0
@@ -783,6 +806,7 @@
     Servicio Tecnico Soldar Cables Parlante 0
     Servicio Tecnico Vivo Frp Y27 0
     Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 9 0
+    Servicio Tecnico Xiaomi Encender Poco X3 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A1 0
     Servicio Tecnico Xiaomi Revision Redmi 13C 0
     Silicone Case Apple Iphone 12 Ab Negro 0
@@ -821,7 +845,7 @@
     Silicone Case Apple Iphone X / Xs Fucsia 1
     Silicone Case Apple Iphone X / Xs Morado 1
     Silicone Case Apple Iphone X / Xs Negro 1
-    Silicone Case Apple Iphone X / Xs Rojo 0
+    Silicone Case Apple Iphone X / Xs Rojo 1
     Silicone Case Apple Iphone X / Xs Rosa 2
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Azulintenso 1
@@ -887,8 +911,16 @@
     Silicone Case Huawei Y9 2019 / Y8S Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Rosa 1
     Silicone Case Huawei Y9 2019 / Y8S Verde 0
-    Silicone Case Huawei Y9 Prime Morado 0
+    Silicone Case Huawei Y9 Prime Amarillo 1
+    Silicone Case Huawei Y9 Prime Fucsia 1
+    Silicone Case Huawei Y9 Prime Gris 1
+    Silicone Case Huawei Y9 Prime Lila 1
+    Silicone Case Huawei Y9 Prime Morado 1
+    Silicone Case Huawei Y9 Prime Negro 1
+    Silicone Case Huawei Y9 Prime Rojo 0
+    Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9 Prime Verde 0
+    Silicone Case Huawei Y9 Prime Verdemilitar 1
     Silicone Case Infinix Hot 12 Amarillo 1
     Silicone Case Infinix Hot 12 Azul Cielo 1
     Silicone Case Infinix Hot 12 Azul Oscuro 1
@@ -908,13 +940,13 @@
     Silicone Case Infinix Hot 50 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 50 Pro Plus Rojo 1
     Silicone Case Infinix Hot 50 Pro Rojo 1
-    Silicone Case Infinix Hot 50I Azulcielo 1
-    Silicone Case Infinix Hot 50I Fucsia 0
-    Silicone Case Infinix Hot 50I Lila 0
-    Silicone Case Infinix Hot 50I Morado 1
-    Silicone Case Infinix Hot 50I Rojo 1
-    Silicone Case Infinix Hot 50I Rosa 1
-    Silicone Case Infinix Hot 50I Verdemilitar 1
+    Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 1
+    Silicone Case Infinix Hot 50I / Smart 9 Fucsia 0
+    Silicone Case Infinix Hot 50I / Smart 9 Lila 0
+    Silicone Case Infinix Hot 50I / Smart 9 Morado 1
+    Silicone Case Infinix Hot 50I / Smart 9 Rojo 0
+    Silicone Case Infinix Hot 50I / Smart 9 Rosa 1
+    Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 1
     Silicone Case Infinix Note 12 Fucsia 1
     Silicone Case Infinix Note 30 Azulrey 1
     Silicone Case Infinix Note 30 Azulturquesa 1
@@ -957,9 +989,18 @@
     Silicone Case Iphone 11 Ab Lila 0
     Silicone Case Iphone 11 Ab Morado 0
     Silicone Case Iphone 11 Morado 0
+    Silicone Case Iphone 11 Pro Max 1
     Silicone Case Iphone 11 Pro Max Ab Lila 0
     Silicone Case Iphone 11 Pro Max Ab Rojo 0
+    Silicone Case Iphone 11 Pro Max Amarillo 1
     Silicone Case Iphone 11 Pro Max Azuloscuro 1
+    Silicone Case Iphone 11 Pro Max Azulrey 1
+    Silicone Case Iphone 11 Pro Max Fucsia 1
+    Silicone Case Iphone 11 Pro Max Morado 1
+    Silicone Case Iphone 11 Pro Max Rojo 1
+    Silicone Case Iphone 11 Pro Max Rosa 0
+    Silicone Case Iphone 11 Pro Max Verde 1
+    Silicone Case Iphone 11 Pro Rosa 1
     Silicone Case Iphone 11 Proab  Rojo 0
     Silicone Case Iphone 12 / 12 Pro Ab Verde 0
     Silicone Case Iphone 12 Lila 0
@@ -1003,7 +1044,7 @@
     Silicone Case Motorola Moto G15 Rosa 1
     Silicone Case Motorola Moto G15 Verdemilitar 1
     Silicone Case Motorola Moto G20 / G30 Amarillo 1
-    Silicone Case Motorola Moto G20 / G30 Azulclaro 0
+    Silicone Case Motorola Moto G20 / G30 Azulclaro 1
     Silicone Case Motorola Moto G20 / G30 Lila 1
     Silicone Case Motorola Moto G20 / G30 Morado 2
     Silicone Case Motorola Moto G20 / G30 Negro 1
@@ -1096,6 +1137,13 @@
     Silicone Case Samsung A02S Ab Negro 1
     Silicone Case Samsung A02S Ab Rosa 0
     Silicone Case Samsung A02S Ab Verde Militar 0
+    Silicone Case Samsung A02S Arcoiris 1
+    Silicone Case Samsung A02S Arcoiris Azul 1
+    Silicone Case Samsung A02S Azulrey 1
+    Silicone Case Samsung A02S Lila 1
+    Silicone Case Samsung A02S Palorosa 1
+    Silicone Case Samsung A02S Rojo 1
+    Silicone Case Samsung A02S Verde 1
     Silicone Case Samsung A03 Rojo 0
     Silicone Case Samsung A03 Rosa 0
     Silicone Case Samsung A03S / A02S Amarillo 1
@@ -1115,7 +1163,13 @@
     Silicone Case Samsung A10 Verde 1
     Silicone Case Samsung A12 / M12 Morado 0
     Silicone Case Samsung A12 / M12 Verde 0
+    Silicone Case Samsung A13 Amarillo 1
+    Silicone Case Samsung A13 Azulrey 1
+    Silicone Case Samsung A13 Lila 1
     Silicone Case Samsung A13 Morado 1
+    Silicone Case Samsung A13 Negro 1
+    Silicone Case Samsung A13 Rojo 1
+    Silicone Case Samsung A13 Rosa 1
     Silicone Case Samsung A14 Lila 1
     Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Negro 0
@@ -1131,7 +1185,7 @@
     Silicone Case Samsung A21S Rosa 1
     Silicone Case Samsung A21S Salmon 1
     Silicone Case Samsung A22 4G Negro 1
-    Silicone Case Samsung A22 5G Ab Rojo 0
+    Silicone Case Samsung A22 5G Rojo 1
     Silicone Case Samsung A24 Amarillo 1
     Silicone Case Samsung A24 Amarillo Bobspnja 1
     Silicone Case Samsung A24 Azulrey 1
@@ -1146,6 +1200,16 @@
     Silicone Case Samsung A32 4G Amarillo 0
     Silicone Case Samsung A32 5G Verdemilitar 0
     Silicone Case Samsung A35 Fucsia 0
+    Silicone Case Samsung A36 Amarillo 2
+    Silicone Case Samsung A36 Azuloscuro 0
+    Silicone Case Samsung A36 Fucsia 1
+    Silicone Case Samsung A36 Lila 1
+    Silicone Case Samsung A36 Morado 1
+    Silicone Case Samsung A36 Negro 1
+    Silicone Case Samsung A36 Rojo 1
+    Silicone Case Samsung A36 Rosa 1
+    Silicone Case Samsung A36 Verdemilitar 1
+    Silicone Case Samsung A36 Vinotinto 1
     Silicone Case Samsung A50 / A30S Lila 0
     Silicone Case Samsung A52 Verde 1
     Silicone Case Samsung A53 Lila 1
@@ -1305,7 +1369,7 @@
     Silicone Case Xiaomi Redmi 13C Morado 0
     Silicone Case Xiaomi Redmi 14C Amarillo 1
     Silicone Case Xiaomi Redmi 14C Azulrey 1
-    Silicone Case Xiaomi Redmi 14C Fucsia 1
+    Silicone Case Xiaomi Redmi 14C Fucsia 0
     Silicone Case Xiaomi Redmi 14C Lila 1
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 14C Negro 1
@@ -1490,21 +1554,24 @@
     Vidrio 5D Huawei Honor X8A 4
     Vidrio 5D Huawei Y6 2019 / Honor 8A 4
     Vidrio 5D Huawei Y6P 0
-    Vidrio 5D Huawei Y9 Prime 4
+    Vidrio 5D Huawei Y9 Prime 9
     Vidrio 5D Iphone 12 / 12 Pro 4
+    Vidrio 5D Mate Samsung A32 4
     Vidrio 5D Matte Samsung A31 4
     Vidrio 5D Motorola Moto E13 5
     Vidrio 5D Motorola Moto G04 / Moto G24 0
     Vidrio 5D Motorola Moto G20 / G30 3
+    Vidrio 5D Motorola Moto G8 Play 5
     Vidrio 5D Motorola Moto G84 6
-    Vidrio 5D Redmi Note 12 4
-    Vidrio 5D Samsung A05 4
+    Vidrio 5D Redmi Note 12 3
+    Vidrio 5D Samsung A05 9
     Vidrio 5D Samsung A10 / A10s 4
-    Vidrio 5D Samsung A12 3
+    Vidrio 5D Samsung A12 13
     Vidrio 5D Samsung A21S 1
     Vidrio 5D Samsung A30S 5
-    Vidrio 5D Samsung A31 5
+    Vidrio 5D Samsung A31 4
     Vidrio 5D Samsung A32 4G 4
+    Vidrio 5D Samsung A36 9
     Vidrio 5D Tecno Spark 10 Pro 0
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
     Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 1
@@ -1534,6 +1601,7 @@
     Vidrio Antiespia Xiaomi Redmi 13C 3
     Vidrio Antiespia Xiaomi Redmi 14C / A5 / A3 3
     Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 5
+    Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 5
     Vidrio Blindado Apple Iphone 11 Pro Max 4
     Vidrio Blindado Apple Iphone 13 Pro Max 6
     Vidrio Blindado Apple Iphone 16 Pro 0
@@ -1546,24 +1614,27 @@
     Vidrio Blindado Samsung A16 / A26 / A56 6
     Vidrio Blindado Samsung A26 0
     Vidrio Blindado Samsung A30S 3
+    Vidrio Blindado Samsung A36 1
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 4
-    Vidrio Blindado Tecno Spark Go 2025 3
+    Vidrio Blindado Tecno Spark Go 2025 2
     Vidrio Blindado Xiaomi Redmi 10 3
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
-    Vidrio Blindado Xiaomi Redmi 14C / A5 / A3 3
+    Vidrio Blindado Xiaomi Redmi 14C / A5 / A3 2
     Vidrio Blindado Xiaomi Redmi Note 11-12S / Sam A53-51 S20Fe / Note 10-10S 3
     Vidrio Blindado Xiaomi Redmi Note 12 6
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 0
-    Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 3
+    Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 2
     Vidrio Blindado Xiaomi Redmi Note 13 5G 5
     Vidrio Camara  Xiaomi Redmi Note 13 5G 10
     Vidrio Camara Apple 48
     Vidrio Camara Apple Surtidos 97
-    Vidrio Camara Xiaomi Note 13 Pro Plus 9
+    Vidrio Camara Xiaomi Note 13 Pro Plus 5
     Vidrio Camara Xiaomi Redmi 13 10
     Vidrio Camara Xiaomi Redmi 13C 7
     Vidrio Ceramico Apple Iphone 12 Mini 4
     Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 13
+    Vidrio Ceramico Huawei Y9 Prime 14
+    Vidrio Ceramico Huawei Y9 Prime Clear 5
     Vidrio Ceramico Motorola E14 4
     Vidrio Ceramico Samsung A12 9
     Vidrio Ceramico Samsung A71 / Poco X3 9
@@ -1586,12 +1657,12 @@
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 3
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 2
     Vidrio Perlas Apple Iphone 11 3
-    Vidrio Templado Apple Iphone 13 Pro Max 3
-    Vidrio Templado Huawei Y5 2018 3
-    Vidrio Templado Oppo A57 4
-    Vidrio Templado Oppo Realme C53 / Note 50 4
-    Vidrio Templado Samsung S23 Plus 0
-    Vidrio Templado Xiaomi Redmi Note 9s / 9 Pro 4
+    Vidrio 5D Apple Iphone 13 Pro Max 3
+    Vidrio 5D Huawei Y5 2018 3
+    Vidrio 5D Oppo A57 4
+    Vidrio 5D Oppo Realme C53 / Note 50 4
+    Vidrio 5D Samsung S23 Plus 0
+    Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 4
     Vidrio Tortuga Apple Iphone 11 Pro Max 5
     Vidrio Tortuga Apple Iphone 13 Pro Max 4
     Vidrio Tortuga Apple Iphone 16 Pro 1
@@ -1605,6 +1676,7 @@
     Vidrio Tortuga Samsung A21s 2
     Vidrio Tortuga Samsung A30S 6
     Vidrio Tortuga Samsung A31 3
+    Vidrio Tortuga Samsung A32 3
     Vidrio Tortuga Samsung A71 0
     Vidrio Tortuga Tecno Spark Go 2024 / 20 / 20C / Pop8 4
     Vidrio Tortuga Xiaomi Redmi 10 4
@@ -1614,50 +1686,34 @@
     Vidrio Tortuga Xiaomi Redmi Note 11 0
     Vidrio Tortuga Xiaomi Redmi Note 13 / Note 14 1
     Visor Camara Xiaomi Redmi Note 11 1
-    Carga y Juega Xbox 360 0
-    Carga Y Juega Xbox One 1
-    Servicio Tecnico Krono Pin de Carga Tablet Kids 0
-    Vidrio Blindado Samsung A36 1
-    Vidrio 5D Samsung A36 9
-    Silicone Case Samsung A36 Rosa 1
-    Silicone Case Samsung A36 Amarillo 2
-    Silicone Case Samsung A36 Azuloscuro 0
-    Silicone Case Samsung A36 Lila 1
-    Silicone Case Samsung A36 Rojo 1
-    Silicone Case Samsung A36 Morado 1
-    Silicone Case Samsung A36 Fucsia 1
-    Silicone Case Samsung A36 Verdemilitar 1
-    Silicone Case Samsung A36 Vinotinto 1
-    Silicone Case Samsung A36 Negro 1
-    Forro Antichoque Samsung A36 Dama 2
-    Forro Antichoque Cadena Samsung A36 3
-    Forro Space Samsung A36 3
-    Forro Antichoque Samsung A36 Caballero 3
-    Forro Armadura Samsung A36 Rojo 1
-    Forro Armadura Samsung A36 Vinotinto 1
-    Forro Armadura Samsung A36 Verde 1
-    Cargador Smartwatch Magnetico 2
-    Vidrio Tortuga Samsung A32 3
-    Vidrio 5D Mate Samsung A32 4
-    Servicio Tecnico Frp Infinix Hot 40I 0
-    Forro Antichoque Samsung A02s Dama 2
-    Forro Antichoque Samsung A02s 2
-    Silicone Case Samsung A02S Rojo 1
-    Silicone Case Samsung A02S Verde 1
-    Silicone Case Samsung A02S Azulrey 1
-    Silicone Case Samsung A02S Palorosa 1
-    Silicone Case Samsung A02S Lila 1
-    Silicone Case Samsung A02S Arcoiris Azul 1
-    Silicone Case Samsung A02S Arcoiris 1
-    Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 5
-    Silicone Case Iphone 11 Pro Max Rosa 0
-    Silicone Case Iphone 11 Pro Max Verde 1
-    Silicone Case Iphone 11 Pro Max 1
-    Silicone Case Iphone 11 Pro Max Amarillo 1
-    Silicone Case Iphone 11 Pro Max Fucsia 1
-    Silicone Case Iphone 11 Pro Max Azulrey 1
-    Silicone Case Iphone 11 Pro Max Rojo 1
-    Silicone Case Iphone 11 Pro Max Morado 1
-    Silicone Case Iphone 11 Pro Rosa 1
-    Forro Space Apple Iphone 11 Pro Max 1
-    Servicio Tecnico Xiaomi Encender Poco X3 0
+    Servicio Tecnico Apple Mntenimiento Puerto de Carga Iphone 6 0
+    Audifonos Bluetooth Innoval Cuellera Bt-15 0
+    Servicio Tecnico Huawei Pegar Pantalla Y9 2019 0
+    Servicio Tecnico Xiaomi Configuracion Pantalla Redmi A1 0
+    Servicio Tecnico Motorola Mantenimiento Logica E40 0
+    Servicio Tecnico Apple Mantenimiento Logica Iphone 11 0
+    Servicio Tecnico Pin de Carga Parlante 1
+    Control Gamer Microsoft Xbox Caja Negra 1
+    Pacha Vivo Y11s / Y20s 1
+    Pacha Motorola Moto G20 / G30 2
+    Forro Cable Con Puntas 3
+    Forro Space Tecno Spark Go 2025 / Go 1 2
+    Tapones Puerto de Carga 4
+    Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1
+    Silicone Case Samsung A22 5G Amarillo 1
+    Silicone Case Samsung A22 5G Lila 1
+    Silicone Case Samsung A22 5G Fucsia 1
+    Silicone Case Samsung A22 5G Verdebiche 1
+    Silicone Case Samsung A22 5G Palorosa 1
+    Silicone Case Samsung A22 5G Azulrey 1
+    Silicone Case Samsung A22 5G Azuloscuro 1
+    Forro Antichoque Samsung A22 5G Dama 3
+    Forro Antichoque Samsung A22 5G Caballero 6
+    Vidrio 5D Samsung A22 5G 2
+    Vidrio Antiespia Samsung A22 5G 2
+    Vidrio 5D Huawei Y7 Prime 1
+    Vidrio Camara Samsung A16 0
+    Smartphone Redmi 14C 867664075580766 256/8 0
+    Vidrio 5D huawei Y9 2019 / Y8s 2
+    Forro Space Xiaomi Redmi Note 13 Pro 4G 1
+    Impresiones 4

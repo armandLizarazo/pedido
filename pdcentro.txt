@@ -1,7 +1,3 @@
-# Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
-# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Audifonos Bluetooth Orejas 1
@@ -269,4 +265,5 @@
     Forro Antichoque Oppo Reno 13 5G Dama 5
     Forro Antichoque Oppo Reno 13 5G Caballero 5
     Forro Armadura Oppo Reno 13 5G 2
-    Hola amigos!!
+    Vidrio 5D Samsung A22 5G 5
+    Vidrio Blindado Samsung A22 5G 5
