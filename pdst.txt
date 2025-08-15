@@ -1,3 +1,4 @@
+# Pedido: pdst
     Flex de Power Xiaomi Poco X3 1
     Visor De Camara Samsung S20 Fe 1
     Tapa Motorola Moto G8 Plus 1
@@ -6,3 +7,4 @@
     Pacha Samsung A02S / A03 / A03S / A04E 1
     Visor Camara Samsung S20 Fe 1
     Bateria Huawei Y9 2019 1
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
