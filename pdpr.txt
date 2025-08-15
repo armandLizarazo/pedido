@@ -1,4 +1,3 @@
-# Pedido: pdpr
     Adaptador Dpp2Vga 4
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2

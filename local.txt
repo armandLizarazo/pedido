@@ -88,7 +88,7 @@
     Cable Apple Usb Ligthning 2M 0
     Cable Auxiliar 1 a 1 3 Vias Cja 1
     Cable Auxiliar 1 A 1 Cordon 2
-    Cable Auxiliar 1 a 1 Eco 5
+    Cable Auxiliar 1 a 1 Eco 4
     Cable Auxiliar 1 a 1 Microfono 1
     Cable Auxiliar 2 A 1 1.5M 3
     Cable Auxiliar 2 A 1 5M 2
@@ -389,7 +389,7 @@
     Forro Antichoque Xiaomi Redmi 9A Caballero 4
     Forro Antichoque Xiaomi Redmi 9A Dama 2
     Forro Antichoque Xiaomi Redmi Note 11 Caballero 7
-    Forro Antichoque Xiaomi Redmi Note 11 Dama 5
+    Forro Antichoque Xiaomi Redmi Note 11 Dama 3
     Forro Antichoque Xiaomi Redmi Note 13 4G Caballero 7
     Forro Antichoque Xiaomi Redmi Note 13 5G 0
     Forro Antichoque Xiaomi Redmi Note 13 Pro 4G Caballero 2
@@ -628,7 +628,7 @@
     Hydrogel Xiaomi Redmi Note 14 0
     Hydrogel Zte Blade V50 Design 0
     Lampara Esfera Saturno 1
-    Llavero Figura 20
+    Llavero Figura 18
     Llavero Goku 0
     Llaveros Agua 5
     Llaveros Capybara 5
@@ -767,7 +767,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 6
+    Recargas 5
     Recargas Claro 95
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -1252,7 +1252,7 @@
     Silicone Case Tecno Spark 10 Pro Rosa 1
     Silicone Case Tecno Spark 10 Pro Verde 1
     Silicone Case Tecno Spark 10 Pro Verdemilitar 1
-    Silicone Case Tecno Spark 20 Pro Plus Rojo 0
+    Silicone Case Tecno Spark 20 Pro Plus Rojo 1
     Silicone Case Tecno Spark 2022 / 8C Azulclaro 0
     Silicone Case Tecno Spark 2022 / 8C Negro 0
     Silicone Case Tecno Spark 2022 / 8C Rojo 0
@@ -1544,7 +1544,7 @@
     Video Juego Xbox Caja Negra Liga De La Justicia 1
     Video Juego Xbox Caja Negra Mortal Kombat Saholin Monks 1
     Video Juego Xbox Caja Negra Principe De Persia 1
-    Vidrio 5D Apple Iphone 11 / Xr 1
+    Vidrio 5D Apple Iphone 11 / Xr 0
     Vidrio 5D Apple Iphone 11 Pro Max 5
     Vidrio 5D Apple Iphone 12 Pro Max 2
     Vidrio 5D Apple Iphone 13 / 13Pro 0
@@ -1717,3 +1717,37 @@
     Vidrio 5D huawei Y9 2019 / Y8s 2
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Impresiones 4
+    Hydrogel Motorola Moto Edge 60 Fusion 0
+    Silicone Case Vivo Y38 Negro 0
+    Silicone Case Vivo Y38 Azulrey 1
+    Silicone Case Vivo Y38 Lila 1
+    Silicone Case Vivo Y38 Amarillo 1
+    Silicone Case Vivo Y38 Morado 1
+    Silicone Case Vivo Y38 Fucsia 1
+    Silicone Case Vivo Y38 Rojo 1
+    Forro Antichoque Vivo Y38 Dama 0
+    Forro Antichoque Pin Vivo Y38 5
+    Forro Antichoque Vivo Y38 Caballero 4
+    Forro Space Vivo Y38 2
+    Silicone Case Tecno Spark 20 Pro Plus Negro 1
+    Silicone Case Tecno Spark 20 Pro Plus Amarillo 1
+    Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
+    Silicone Case Tecno Spark 20 Pro Plus Morado 1
+    Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 1
+    Silicone Case Tecno Spark 20 Pro Plus Rosa 1
+    Forro Antichoque Tecno Spark 20 Pro Plus Dama 2
+    Forro Antichoque Tecno Spark 20 Pro Plus Caballero 2
+    Forro Antichoque Lujo Tecno Spark 20 Pro Plus Caballero 3
+    Forro Antichoque Cadena Tecno Spark 20 Pro Plus 1
+    Forro Armadura Tecno Spark 20 Pro Plus Rojo 1
+    Forro Armadura Tecno Spark 20 Pro Plus Negro 1
+    Forro Antichoque Cadena Xiaomi Redmi Note 11 2
+    Silicone Case Samsung A26 Morado 1
+    Silicone Case Samsung A26 Lila 1
+    Silicone Case Samsung A26 Negro 0
+    Silicone Case Samsung A26 Rojo 1
+    Silicone Case Samsung A26 Verde Biche 1
+    Silicone Case Samsung A26 Amarillo 2
+    Silicone Case Samsung A26 Gris 1
+    Silicone Case Samsung A26 Azulrey 1
+    Forro Space Samsung A26 2

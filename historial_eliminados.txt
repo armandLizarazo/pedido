@@ -6646,3 +6646,59 @@ Línea  | Contenido
     2 | # Pedido: pdst
     3 | # Pedido: pdst
     4 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-15 06:29:04
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 23
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-15 06:29:04
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-15 06:29:04
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
