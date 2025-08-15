@@ -41,13 +41,13 @@
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Redmi Note 10 5G Negro 1
     Forro Armadura Samsung A06 Rojo 1
-    Forro Armadura Samsung A15 Rojo 1
+    Forro Armadura Samsung A15 Rojo 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Tecno Spark 30 Pro Rojo 1
-    Forro Armadura Tecno Spark 30C Rojo 1
+    Forro Armadura Tecno Spark 30C Rojo 1 ok
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
-    Forro Armadura Xiaomi Redmi Note 13 4G Rojo 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Gris 1 ok
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1 
     Forro Diseños Oppo Realme C75 Caballero 5
     Forro Diseños Oppo Realme C75 Dama 5
@@ -63,7 +63,7 @@
     Forro Space Huawei Honor X5B 2
     Forro Space Infinix Hot 50 Pro 5G 1
     Forro Space Infinix Hot 50 Pro Plus 2
-    Forro Space Infinix Hot 50I / Smart 9 2
+    Forro Space Infinix Hot 50I / Smart 9 2 ok
     Forro Space Motorola Moto G50 1
     Forro Space Oppo Realme C53 / Note 50 1
     Forro Space Oppo Realme C75 2
@@ -248,25 +248,28 @@
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Xiaomi Poco X6 Pro Lila 1
     Forro Armadura Motorola Moto G35 Rojo 1
-    Forro Armadura Motorola Moto G05 Negro 1
-    Forro Armadura Motorola Moto G05 Rojo 1
-    Forro Armadura Motorola Moto G15 Negro 1
-    Forro Armadura Motorola Moto G15 Rojo 1
-    Vidrio 5D Huawei Honor X8A 10
-    Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1
+    Forro Armadura Motorola Moto G35 Negro 1
+    Forro Armadura Motorola Moto G05 Negro 1 ok
+    Forro Armadura Motorola Moto G05 Rojo 1 ok
+    Forro Armadura Motorola Moto G15 Negro 1 ok
+    Forro Armadura Motorola Moto G15 Verde 1 ok
+    Vidrio 5D Huawei Honor X8A 10 ok
+    Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1 ok
     Silicone Case Oppo A57 / A77 Fucsia 1
     Silicone Case Oppo A57 / A77 Lila 1
-    Vidrio Fullpega Huawei Honor Magic 7 Lite 3
-    Vidrio 5D Tecno Spark Go 2025 10
-    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
-    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
-    Silicone Case Vivo Y20 / Y20S / Y11S Lila 1
+    Vidrio Fullpega Huawei Honor Magic 7 Lite 3 ok
+    Vidrio Fullcalidad Huawei Motorola Moto Edge 50 Fusion 2 ok
+    Vidrio Fullcalidas Hiawei Motorola Moto Edge 60 Fusion 2 ok
+    Vidrio 5D Tecno Spark Go 2025 10 ok
+    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1 ok
+    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1 
+    Silicone Case Vivo Y20 / Y20S / Y11S Lila 1 ok
     Forro Space Oppo Reno 13 5G 2
     Forro Antichoque Oppo Reno 13 5G Dama 5
     Forro Antichoque Oppo Reno 13 5G Caballero 5
     Forro Armadura Oppo Reno 13 5G 2
-    Vidrio 5D Samsung A22 5G 5
-    Vidrio Blindado Samsung A22 5G 5
+    Vidrio 5D Samsung A22 5G 5 ok
+    Vidrio Blindado Samsung A22 5G 5 
     Silicone Case Motorola Moto Edge 60 Fusion Negro 1
     Silicone Case Motorola Moto Edge 60 Fusion Rojo 1
     Silicone Case Motorola Moto Edge 60 Fusion Lila 1
@@ -277,16 +280,17 @@
     Forro Antichoque Motorola Moto Edge 60 Fusion Dama 5
     Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 5
     Forro Antichoque Xiaomi Redmi Note 11 Dama 2
-    Forro Antichoque Tecno Spark 20 Pro Plus Dama 3
+    Forro Antichoque Tecno Spark 20 Pro Plus Dama 2 ok
     Silicone Case Samsung A26 Fucsia 1
     Silicone Case Samsung A26 Negro 1
-    Vidrio 5D Apple Iphone 11 / Xr 10
+    Vidrio 5D Apple Iphone 11 / Xr 10 ok
     Silicone Case Apple Iphone 16 Pro Max Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
-    Silicone Case Huawei Y9 Prime Rojo 1
+    Silicone Case Huawei Y9 Prime Rojo 1 
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
-    Silicone Case Apple Iphone 11 Pro Max Rosa 1
-    Silicone Case Samsung A36 / A56 Azuloscuro 1
-    Silicone Case Vivo Y38 Negro 1
-    Silicone Case Xiaomi Redmi 14C Fucsia 1
+    Silicone Case Apple Iphone 11 Pro Max Rosa 1 ok
+    Silicone Case Samsung A36 / A56 Azuloscuro 1 ok
+    Silicone Case Samsung A36 / A56 Negro 1 ok
+    Silicone Case Vivo Y38 Negro 1 ok
+    Silicone Case Xiaomi Redmi 14C Fucsia 1 ok
