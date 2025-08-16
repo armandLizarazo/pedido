@@ -6,7 +6,7 @@
     Base Refirgerante 4 Ventiladores 1
     Cargador Pc Puntas Caja Blanca 2
     Consola Microsoft Xbox 360 1
-    Control Gamer Ps2 Inalambrico 1
+    Control Gamer Ps2 Inalambrico 2 ok
     Lampara Esfera Sistema Solar 1
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Con Bluetooth 3
@@ -25,7 +25,7 @@
     Audifonos Bluetooth M60 2
     Control Gamer Gatillos G21 3
     Reproductor Tdt Krono Kr-365 2
-    Control Gamer Ps4 Rojo 1
+    Control Gamer Ps4 Rojo 1 ok
     Microfono Bafle Eco 1
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
@@ -36,8 +36,9 @@
     Cable Disco Duro V8 3.0 Corto 2
     Cable Poder Trebol 3
     Cargador Cabeza Cubo Eco 5
-    Control Gamer Microsoft Pc / 360 Alambrico 3
+    Control Gamer Microsoft Pc / 360 Alambrico 3 ok
+    Control Gamer Microsoft Pc 2 ok
     Mouse Gamer Eco A78 3
     Proyector Thor Hy-300 Con Juegos 1
     Cargador Pc Hp Punta Azul 1
-    Cargador Microsoft Carga Y Juea Xbox 360 5
+    Cargador Microsoft Carga Y Juea Xbox 360 5 ok
