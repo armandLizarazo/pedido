@@ -72,7 +72,7 @@
     Barbera Vgr V-660 0
     Base Refrigerante X6a 2
     Bateria Apple Iphone 7 Plus 1
-    Bateria Huawei Y9 2019 0
+    Bateria Huawei Y9 2019 1
     Bateria Motorola Moto E6s / E6i 0
     Bateria Samsung A10S 1
     Bateria Xiaomi Redmi Note 10 / Note 10S 0
@@ -209,7 +209,7 @@
     Cargador Smart Watch Pinza 3
     Cargador Smartwatch Magnetico 2
     Cargador Tc A Tc 80W 2P 1
-    Cargador Vidvie V8 18W 1
+    Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
     Cargador We Tc 33W 3
@@ -218,7 +218,7 @@
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
     Cargador Yl Tc 2
-    Cargador Yl V8 2
+    Cargador Yl V8 1
     Celular Corn Flip K Tapa 352384180079354-362 Rojo 0
     Celular Nokia 105 4G 1
     Celular Tg Iron 0
@@ -386,7 +386,7 @@
     Forro Antichoque Xiaomi Redmi 14C Lujo Negrorojo 0
     Forro Antichoque Xiaomi Redmi 9 Caballero 5
     Forro Antichoque Xiaomi Redmi 9 Dama 6
-    Forro Antichoque Xiaomi Redmi 9A Caballero 4
+    Forro Antichoque Xiaomi Redmi 9A Caballero 3
     Forro Antichoque Xiaomi Redmi 9A Dama 2
     Forro Antichoque Xiaomi Redmi Note 11 Caballero 7
     Forro Antichoque Xiaomi Redmi Note 11 Dama 3
@@ -684,7 +684,7 @@
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C55 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 3
-    Pacha Samsung A02S / A03 / A03S / A04E 3
+    Pacha Samsung A02S / A03 / A03S / A04E 4
     Pacha Samsung A04 2
     Pacha Samsung A05 1
     Pacha Samsung A10S 0
@@ -693,7 +693,7 @@
     Pacha Samsung A21S C/m 1
     Pacha Samsung A30S S/M 2
     Pacha Samsung J5 Prime Negro 1
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 2
     Pacha Tecno Spark Go 2023 1
     Pacha Tecno Spark Go 2024 / 20 / 20c /Smart 8 / Hot 40i 2
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
@@ -709,7 +709,7 @@
     Pacha Xiaomi Redmi 9 2
     Pacha Xiaomi Redmi 9A / 9C / 10A 2
     Pacha Xiaomi Redmi Note 10 / Note 10S 2
-    Pacha Xiaomi Redmi Note 11 / Note 12S 6
+    Pacha Xiaomi Redmi Note 11 / Note 12S 5
     Pacha Xiaomi Redmi Note 12 2
     Pacha Xiaomi Redmi Note 13 Pro Plus 0
     Pacha Xiaomi Redmi Note 8 2
@@ -767,7 +767,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 5
+    Recargas 4
     Recargas Claro 95
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -779,7 +779,7 @@
     Reproductor Tdt Hd-939 0
     Reproductor Tdt Krono 1
     Reproductor Tdt Tg 0
-    Reproductor Tv Stick Magis 1
+    Reproductor Tv Stick Magis 2
     Rollo Cinta Led Eco 0
     Rollo Cinta Led Rgb 10M 1
     Rollo Cinta Led x2 Bluetooth 2
@@ -1206,7 +1206,7 @@
     Silicone Case Samsung A36 Lila 1
     Silicone Case Samsung A36 Morado 1
     Silicone Case Samsung A36 Negro 1
-    Silicone Case Samsung A36 Rojo 1
+    Silicone Case Samsung A36 Rojo 0
     Silicone Case Samsung A36 Rosa 1
     Silicone Case Samsung A36 Verdemilitar 1
     Silicone Case Samsung A36 Vinotinto 1
@@ -1304,7 +1304,7 @@
     Silicone Case Vivo Y20 / Y20S / Y11S Amarillo 1
     Silicone Case Vivo Y20 / Y20S / Y11S Azulrey 1
     Silicone Case Vivo Y20 / Y20S / Y11S Blanco 1
-    Silicone Case Vivo Y20 / Y20S / Y11S Lila 0
+    Silicone Case Vivo Y20 / Y20S / Y11S Lila 1
     Silicone Case Vivo Y20 / Y20S / Y11S Morado 1
     Silicone Case Vivo Y20 / Y20S / Y11S Rosa 1
     Silicone Case Vivo Y20 / Y20S / Y11S Verde 1
@@ -1369,7 +1369,7 @@
     Silicone Case Xiaomi Redmi 13C Morado 0
     Silicone Case Xiaomi Redmi 14C Amarillo 1
     Silicone Case Xiaomi Redmi 14C Azulrey 1
-    Silicone Case Xiaomi Redmi 14C Fucsia 0
+    Silicone Case Xiaomi Redmi 14C Fucsia 1
     Silicone Case Xiaomi Redmi 14C Lila 1
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 14C Negro 1
@@ -1483,12 +1483,12 @@
     Silicone Case Xioami Redmi Note 12S Negro 1
     Silicone Case Zte Blade A54 Amarillo 0
     Silicone Case Zte Blade A54 Rojo 2
-    Simcard Claro 2
-    Simcard Movistar 5
+    Simcard Claro 10
+    Simcard Movistar 4
     Simcard Tigo 29
     Simcard Virgin 6
-    Simcard Wom 1
-    Sin Registro 9
+    Simcard Wom 0
+    Sin Registro 8
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smartphone Infinix Smart 9 128/6 Gris 1
     Smartphone Motorola Moto G04S 64/6 Azulrey 1
@@ -1544,14 +1544,14 @@
     Video Juego Xbox Caja Negra Liga De La Justicia 1
     Video Juego Xbox Caja Negra Mortal Kombat Saholin Monks 1
     Video Juego Xbox Caja Negra Principe De Persia 1
-    Vidrio 5D Apple Iphone 11 / Xr 0
+    Vidrio 5D Apple Iphone 11 / Xr 10
     Vidrio 5D Apple Iphone 11 Pro Max 5
     Vidrio 5D Apple Iphone 12 Pro Max 2
     Vidrio 5D Apple Iphone 13 / 13Pro 0
     Vidrio 5D Apple Iphone 16 Pro 5
     Vidrio 5D Huawei Honor X6S 4
     Vidrio 5D Huawei Honor X7B 3
-    Vidrio 5D Huawei Honor X8A 4
+    Vidrio 5D Huawei Honor X8A 14
     Vidrio 5D Huawei Y6 2019 / Honor 8A 4
     Vidrio 5D Huawei Y6P 0
     Vidrio 5D Huawei Y9 Prime 9
@@ -1559,23 +1559,23 @@
     Vidrio 5D Mate Samsung A32 4
     Vidrio 5D Matte Samsung A31 4
     Vidrio 5D Motorola Moto E13 5
-    Vidrio 5D Motorola Moto G04 / Moto G24 0
+    Vidrio 5D Motorola Moto G04 / Moto G24 4
     Vidrio 5D Motorola Moto G20 / G30 3
     Vidrio 5D Motorola Moto G8 Play 5
     Vidrio 5D Motorola Moto G84 6
     Vidrio 5D Redmi Note 12 3
     Vidrio 5D Samsung A05 9
     Vidrio 5D Samsung A10 / A10s 4
-    Vidrio 5D Samsung A12 13
+    Vidrio 5D Samsung A12 10
     Vidrio 5D Samsung A21S 1
     Vidrio 5D Samsung A30S 5
     Vidrio 5D Samsung A31 4
     Vidrio 5D Samsung A32 4G 4
     Vidrio 5D Samsung A36 9
-    Vidrio 5D Tecno Spark 10 Pro 0
+    Vidrio 5D Tecno Spark 10 Pro 4
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
     Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 1
-    Vidrio 5D Tecno Spark Go 2025 0
+    Vidrio 5D Tecno Spark Go 2025 10
     Vidrio 5D Xiaomi Mi 11T 5
     Vidrio 5d Xiaomi Redmi 10C / 12C 5
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 2
@@ -1692,14 +1692,14 @@
     Servicio Tecnico Xiaomi Configuracion Pantalla Redmi A1 0
     Servicio Tecnico Motorola Mantenimiento Logica E40 0
     Servicio Tecnico Apple Mantenimiento Logica Iphone 11 0
-    Servicio Tecnico Pin de Carga Parlante 1
+    Servicio Tecnico Pin de Carga Parlante 0
     Control Gamer Microsoft Xbox Caja Negra 1
     Pacha Vivo Y11s / Y20s 1
     Pacha Motorola Moto G20 / G30 2
     Forro Cable Con Puntas 3
     Forro Space Tecno Spark Go 2025 / Go 1 2
     Tapones Puerto de Carga 4
-    Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1
+    Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 2
     Silicone Case Samsung A22 5G Amarillo 1
     Silicone Case Samsung A22 5G Lila 1
     Silicone Case Samsung A22 5G Fucsia 1
@@ -1709,7 +1709,7 @@
     Silicone Case Samsung A22 5G Azuloscuro 1
     Forro Antichoque Samsung A22 5G Dama 3
     Forro Antichoque Samsung A22 5G Caballero 6
-    Vidrio 5D Samsung A22 5G 2
+    Vidrio 5D Samsung A22 5G 7
     Vidrio Antiespia Samsung A22 5G 2
     Vidrio 5D Huawei Y7 Prime 1
     Vidrio Camara Samsung A16 0
@@ -1718,7 +1718,7 @@
     Forro Space Xiaomi Redmi Note 13 Pro 4G 1
     Impresiones 4
     Hydrogel Motorola Moto Edge 60 Fusion 0
-    Silicone Case Vivo Y38 Negro 0
+    Silicone Case Vivo Y38 Negro 1
     Silicone Case Vivo Y38 Azulrey 1
     Silicone Case Vivo Y38 Lila 1
     Silicone Case Vivo Y38 Amarillo 1
@@ -1735,7 +1735,7 @@
     Silicone Case Tecno Spark 20 Pro Plus Morado 1
     Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 1
     Silicone Case Tecno Spark 20 Pro Plus Rosa 1
-    Forro Antichoque Tecno Spark 20 Pro Plus Dama 2
+    Forro Antichoque Tecno Spark 20 Pro Plus Dama 4
     Forro Antichoque Tecno Spark 20 Pro Plus Caballero 2
     Forro Antichoque Lujo Tecno Spark 20 Pro Plus Caballero 3
     Forro Antichoque Cadena Tecno Spark 20 Pro Plus 1
@@ -1751,3 +1751,45 @@
     Silicone Case Samsung A26 Gris 1
     Silicone Case Samsung A26 Azulrey 1
     Forro Space Samsung A26 2
+    Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 1
+    Forro Space Infinix Hot 50I / Smart 9 2
+    Forro Armadura Motorola Moto G15 Verde 1
+    Forro Armadura Motorola Moto G15 Negro 1
+    Forro Armadura Xiaomi Redmi Note 13 4G Gris 1
+    Forro Armadura Motorola Moto G05 Negro 1
+    Forro Armadura Motorola Moto G05 Rojo 1
+    Forro Armadura Tecno Spark 30C Rojo 1
+    Audifonos Bluetooth Cuellera L&M 1
+    Silicone Case Samsung A35 Rojo 0
+    Pacha Samsung A11 1
+    Forro Antichoque Oppo A40 Caballero 0
+    Servicio Tecnico Samsung Pin de Carga A10s 0
+    Silicone Case Samsung A10S Negro 0
+    Flex De Power Samsung A10s 0
+    Hydrogel Mate Huawei Honor Magic 7 Lite 0
+    Silicone Case Samsung A52 Arcoiris 0
+    Servicio Tecnico Vivo Mantenimiento Pin Y15 0
+    Celular Thor Rompemuros 0
+    Adaptador Hub + Hdmi y Lan 0
+    vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
+    Forro Antichoque Samsung A54 Caballero 0
+    Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 4
+    Forro Antichoque Samsung A03 Caballero 0
+    Pacha Tecno - Infinix Spark Go 2020 / 6Go / Hot 10i 1
+    Smartphone Infinix Smart 10 351389360145413/66132605 256/8 0
+    Celular Tg Thor Rompemuros 1
+    Pacha Samsung A11 C/m 1
+    Silicone Case Samsung A36 / A56 Rojo 1
+    Forro Armadura Samsung A15 Rojo 1
+    Vidrio Fullpega Huawei Honor Magic 7 Lite 3
+    Vidrio Fullcalidad Huawei Motorola Moto Edge 50 Fusion 2
+    Vidrio Fullcalidas Hiawei Motorola Moto Edge 60 Fusion 2
+    Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
+    Silicone Case Apple Iphone 11 Pro Max Rosa 1
+    Silicone Case Samsung A36 / A56 Azuloscuro 1
+    Flex de Power Xiaomi Poco X3 1
+    Visor Camara Samsung S20 Fe 1
+    Tapa Motorola Moto G8 Plus 1
+    Visor Camara Motorola Moto G8 Plus 1
+    Pacha Motorola Moto G8 Plus 2
+    Pin De Carga Xiaomi Redmi 9A 5

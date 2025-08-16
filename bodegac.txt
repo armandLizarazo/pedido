@@ -66,7 +66,7 @@
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 1
     Audifonos Bluetooth Conduccion Osea B-18 0
     Audifonos Bluetooth Conductor 1092 0
-    Audifonos Bluetooth Cuellera L&M 0
+    Audifonos Bluetooth Cuellera L&M 1
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 0
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 0
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 0
@@ -318,7 +318,7 @@
     Celular Tg Iron 0
     Celular Tg T72 0
     Celular Tg T76 0
-    Celular Tg Thor Rompemuros 1
+    Celular Tg Thor Rompemuros 0
     Cepillo De Dientes Electrico 1
     Combo Remington Plancha + Cepillo Aguacate 1
     Consola Game Stick 3
@@ -1093,7 +1093,7 @@
     Reproductor Tdt Hd-939 1
     Reproductor Tdt Krono Kr-365 3
     Reproductor Tdt Tg 1
-    Reproductor Tv Stick Magis 0
+    Reproductor Tv Stick Magis 1
     Reproductor Tv Stick Watch Om 0
     Rollo Cinta Led Eco 0
     Rollo Cinta Led Rgb 10M 1
@@ -1616,8 +1616,8 @@
     Silicone Case Samsung A35 Negro 0
     Silicone Case Samsung A36 / A56 Amarillo 0
     Silicone Case Samsung A36 / A56 Fucsia 1
-    Silicone Case Samsung A36 / A56 Negro 1
-    Silicone Case Samsung A36 / A56 Rojo 1
+    Silicone Case Samsung A36 / A56 Negro 2
+    Silicone Case Samsung A36 / A56 Rojo 0
     Silicone Case Samsung A36 / A56 Rosa 0
     Silicone Case Samsung A51 Amarillo 1
     Silicone Case Samsung A51 Negro 0
@@ -2000,7 +2000,7 @@
     Silicone Case Zte Blade A54 Fucsia 0
     Silicone Case Zte Blade A54 Negro 0
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 25
+    Simcard Claro 15
     Simcard Tigo 0
     Simcard Wom 0
     Smart Tv Tg 43 Pulgadas 0
@@ -2303,7 +2303,7 @@
     Silicone Case Vivo Y20 / Y20S / Y11S Lila 0
     Tapones Puerto de Carga 0
     Flex de Power Xiaomi Poco X3 0
-    Visor De Camara Samsung S20 Fe 0
+    Visor Camara Samsung S20 Fe 0
     Tapa Motorola Moto G8 Plus 0
     Visor Camara Motorola Moto G8 Plus 0
     Forro Space Oppo Reno 13 5G 0
@@ -2312,7 +2312,6 @@
     Forro Armadura Oppo Reno 13 5G 0
     Forro Cable Con Puntas 0
     Pacha Motorola Moto G8 Plus 0
-    Visor Camara Samsung S20 Fe 0
     Bateria Huawei Y9 2019 0
     Silicone Case Motorola Moto Edge 60 Fusion Negro 0
     Silicone Case Motorola Moto Edge 60 Fusion Rojo 0
@@ -2331,3 +2330,15 @@
     Silicone Case Apple Iphone 11 Pro Max Rosa 0
     Silicone Case Samsung A36 / A56 Azuloscuro 0
     Silicone Case Vivo Y38 Negro 0
+    Forro Armadura Xiaomi Redmi Note 13 4G Gris 0
+    Forro Space Infinix Hot 50I / Smart 9 0
+    Forro Armadura Motorola Moto G15 Verde 0
+    Vidrio Fullcalidad Huawei Motorola Moto Edge 50 Fusion 0
+    Vidrio Fullcalidas Hiawei Motorola Moto Edge 60 Fusion 0
+    Pin De Carga Xiaomi Redmi 9A 0
+    Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
+    Pacha Samsung A11 C/m 0
+    Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 0
+    Silicone Case Samsung A10S Negro 0
+    Silicone Case Samsung A35 Rojo 0
+    Pin de Carga Oppo A12 / A15 0

@@ -1,10 +1,5 @@
-# Pedido: pdst
-    Flex de Power Xiaomi Poco X3 1 ok
-    Visor De Camara Samsung S20 Fe 1 ok
-    Tapa Motorola Moto G8 Plus 1 ok
-    Visor Camara Motorola Moto G8 Plus 1 ok
-    Pacha Motorola Moto G8 Plus 2 ok
-    Pacha Samsung A02S / A03 / A03S / A04E 1 ok
-    Bateria Huawei Y9 2019 1 ok
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
-    Pin De Carga Xiaomi Redmi 9A 5 ok
+    Pacha Samsung A11 1
+    Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1
+    Pacha Samsung A05 1
+    Pin de Carga Oppo A12 / A15 5

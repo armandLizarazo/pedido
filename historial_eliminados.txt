@@ -6702,3 +6702,97 @@ Línea  | Contenido
     3 | # Pedido: pdst
     4 | # Pedido: pdst
     5 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-15 15:26:48
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   44 | Forro Armadura Samsung A15 Rojo 1 ok
+   47 | Forro Armadura Tecno Spark 30C Rojo 1 ok
+   50 | Forro Armadura Xiaomi Redmi Note 13 4G Gris 1 ok
+   66 | Forro Space Infinix Hot 50I / Smart 9 2 ok
+  252 | Forro Armadura Motorola Moto G05 Negro 1 ok
+  253 | Forro Armadura Motorola Moto G05 Rojo 1 ok
+  254 | Forro Armadura Motorola Moto G15 Negro 1 ok
+  255 | Forro Armadura Motorola Moto G15 Verde 1 ok
+  256 | Vidrio 5D Huawei Honor X8A 10 ok
+  257 | Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 1 ok
+  260 | Vidrio Fullpega Huawei Honor Magic 7 Lite 3 ok
+  261 | Vidrio Fullcalidad Huawei Motorola Moto Edge 50 Fusion 2 ok
+  262 | Vidrio Fullcalidas Hiawei Motorola Moto Edge 60 Fusion 2 ok
+  263 | Vidrio 5D Tecno Spark Go 2025 10 ok
+  264 | Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1 ok
+  266 | Silicone Case Vivo Y20 / Y20S / Y11S Lila 1 ok
+  271 | Vidrio 5D Samsung A22 5G 5 ok
+  283 | Forro Antichoque Tecno Spark 20 Pro Plus Dama 2 ok
+  286 | Vidrio 5D Apple Iphone 11 / Xr 10 ok
+  292 | Silicone Case Apple Iphone 11 Pro Max Rosa 1 ok
+  293 | Silicone Case Samsung A36 / A56 Azuloscuro 1 ok
+  294 | Silicone Case Samsung A36 / A56 Negro 1 ok
+  295 | Silicone Case Vivo Y38 Negro 1 ok
+  296 | Silicone Case Xiaomi Redmi 14C Fucsia 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-15 15:26:48
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   44 | Reproductor Tv Stick Magis 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-15 15:26:48
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | Flex de Power Xiaomi Poco X3 1 ok
+    3 | Visor De Camara Samsung S20 Fe 1 ok
+    4 | Tapa Motorola Moto G8 Plus 1 ok
+    5 | Visor Camara Motorola Moto G8 Plus 1 ok
+    6 | Pacha Motorola Moto G8 Plus 2 ok
+    7 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+    8 | Bateria Huawei Y9 2019 1 ok
+    9 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+   10 | Pin De Carga Xiaomi Redmi 9A 5 ok
+
+==================================================
+Fecha de proceso: 2025-08-16 05:53:55
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-16 05:53:55
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-16 05:53:55
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
