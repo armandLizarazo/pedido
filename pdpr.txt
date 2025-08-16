@@ -34,11 +34,12 @@
     Antena Tdt 5M 5
     Cable Auxiliar 1 a 1 Microfono 3
     Cable Disco Duro V8 3.0 Corto 2
-    Cable Poder Trebol 3
+    Cable Poder Trebol 3 ok
     Cargador Cabeza Cubo Eco 5
     Control Gamer Microsoft Pc / 360 Alambrico 3 ok
     Control Gamer Microsoft Pc 2 ok
     Mouse Gamer Eco A78 3
+    Soporte 
     Proyector Thor Hy-300 Con Juegos 1
-    Cargador Pc Hp Punta Azul 1
+    Cargador Pc Hp Punta Azul 1 ok
     Cargador Microsoft Carga Y Juea Xbox 360 5 ok
