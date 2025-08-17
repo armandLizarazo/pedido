@@ -31,7 +31,8 @@
     Cable Lan 2M Cat 6 5
     Barbera Vgr V-660 1
     Rollo Cinta Led Eco 5
-    Antena Tdt 5M 5
+    Antena Tdt 5M 5 ok
+    Antena Tdt 10M 2 ok
     Cable Auxiliar 1 a 1 Microfono 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Poder Trebol 3 ok
@@ -39,7 +40,10 @@
     Control Gamer Microsoft Pc / 360 Alambrico 3 ok
     Control Gamer Microsoft Pc 2 ok
     Mouse Gamer Eco A78 3
-    Soporte 
+    Soporte Tv Fijo 2 ok
+    Soporte Tv 70 Brazo 2 ok
+    Hydrogel Hd 50 ok
+    Adaptador Tc Hub 8 en 1 ok
     Proyector Thor Hy-300 Con Juegos 1
     Cargador Pc Hp Punta Azul 1 ok
     Cargador Microsoft Carga Y Juea Xbox 360 5 ok
