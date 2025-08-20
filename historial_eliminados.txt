@@ -6796,3 +6796,218 @@ Línea  | Contenido
     3 | # Pedido: pdst
     4 | # Pedido: pdst
     5 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-16 19:50:34
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cargador Apple 25W Tc Ligthning 2 ok
+   10 | Cargador Yl V8 2 ok
+   11 | Cargador Yl Tc 2 ok
+   13 | Forro Antichoque Huawei X6 / X6S Caballero 3 ok
+   16 | Forro Antichoque Infinix Note 40 Caballero 5 ok
+   17 | Forro Antichoque Motorola Moto G72 Caballero 2 ok
+   22 | Forro Antichoque Oppo A80 Caballero 2 ok
+   27 | Forro Antichoque Samsung A32 Dama 2 ok
+   28 | Forro Antichoque Samsung A36 Caballero 2 ok
+   30 | Forro Antichoque Tecno Camon 30S Pro Caballero 5 ok
+   31 | Forro Antichoque Tecno Camon 30S Pro Dama 5 ok
+  200 | Vidrio Tortuga Samsung A12 ok
+  224 | Forro Space Huawei Honor X7 1 ok
+  225 | Forro Space Xiaomi Redmi 12 1 ok
+  231 | Simcard Wom 5 ok
+  247 | Silicone Case Xiaomi Poco X6 Pro Lila 1 ok
+  267 | Forro Antichoque Xiaomi Redmi Note 11 Dama 2 ok
+  268 | Silicone Case Samsung A26 Fucsia 1 ok
+  269 | Silicone Case Samsung A26 Negro 1 ok
+  276 | Silicone Case Samsung A35 Rojo 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-16 19:50:34
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Control Gamer Ps2 Inalambrico 2 ok
+   28 | Control Gamer Ps4 Rojo 1 ok
+   34 | Antena Tdt 5M 5 ok
+   35 | Antena Tdt 10M 2 ok
+   38 | Cable Poder Trebol 3 ok
+   40 | Control Gamer Microsoft Pc / 360 Alambrico 3 ok
+   41 | Control Gamer Microsoft Pc 2 ok
+   43 | Soporte Tv Fijo 2 ok
+   44 | Soporte Tv 70 Brazo 2 ok
+   45 | Hydrogel Hd 50 ok
+   46 | Adaptador Tc Hub 8 en 1 ok
+   48 | Cargador Pc Hp Punta Azul 1 ok
+   49 | Cargador Microsoft Carga Y Juea Xbox 360 5 ok
+
+==================================================
+Fecha de proceso: 2025-08-16 19:50:34
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Pacha Samsung A11 1 ok
+    2 | Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 1 ok
+    3 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    4 | Pacha Samsung A05 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-17 09:40:37
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-17 09:40:37
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-17 09:40:37
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-19 15:58:45
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 25
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+   24 | # Pedido: pdcentro
+   25 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-19 15:58:45
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-19 15:58:45
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-20 07:44:09
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 32
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+   19 | # Pedido: pdcentro
+   20 | # Pedido: pdcentro
+   21 | # Pedido: pdcentro
+   22 | # Pedido: pdcentro
+   23 | # Pedido: pdcentro
+   24 | # Pedido: pdcentro
+   25 | # Pedido: pdcentro
+   26 | # Pedido: pdcentro
+   27 | # Pedido: pdcentro
+   28 | # Pedido: pdcentro
+   29 | # Pedido: pdcentro
+   30 | # Pedido: pdcentro
+   31 | # Pedido: pdcentro
+   32 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-20 07:44:09
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+    8 | # Pedido: pdpr
+    9 | # Pedido: pdpr
+   10 | # Pedido: pdpr
+   11 | # Pedido: pdpr
+   12 | # Pedido: pdpr
+   13 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-20 07:44:09
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst
+   10 | # Pedido: pdst
+   11 | # Pedido: pdst

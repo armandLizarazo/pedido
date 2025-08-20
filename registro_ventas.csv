@@ -491,3 +491,153 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-08-15 22:23:53,20250815222353,Recargas,1,69811.00,74000.00,74000.00,4189.00,local.txt,Cliente General
 2025-08-15 22:28:20,20250815222820,Smartphone Infinix Smart 10 351389360145413/66132605 256/8,1,380000.00,500000.00,500000.00,120000.00,local.txt,Veronica
 2025-08-15 22:33:13,20250815223313,Sin Registro,1,35000.00,85000.00,85000.00,50000.00,local.txt,Cliente General
+2025-08-16 20:08:28,20250816200828,Cable Vga 5M,1,4500.00,20000.00,20000.00,15500.00,local.txt,Cliente General
+2025-08-16 20:11:13,20250816201113,Forro Antichoque Cadena Motorola Moto G04,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-16 20:11:44,20250816201144,Juguete Labubu,1,28000.00,47000.00,47000.00,19000.00,local.txt,Cliente General
+2025-08-16 20:12:37,20250816201237,Pila Reloj Beston Cr-2032,1,800.00,5000.00,5000.00,4200.00,local.txt,Cliente General
+2025-08-16 20:15:50,20250816201550,Pacha Motorola Moto G9 Power,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General
+2025-08-16 20:15:50,20250816201550,Vidrio Blindado Motorola Moto G9 Power,1,900.00,15000.00,15000.00,14100.00,local.txt,Cliente General
+2025-08-16 20:15:50,20250816201550,Silicone Case Motorola Moto G9 Power Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-16 20:17:02,20250816201702,Guantes Gamer,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-16 20:19:17,20250816201917,Pacha Xiaomi Redmi A3,1,43000.00,100000.00,100000.00,57000.00,local.txt,Cliente General
+2025-08-16 20:20:31,20250816202031,Cargador Pluying Royal 38W,1,12000.00,30000.00,30000.00,18000.00,local.txt,Jose Cuervo
+2025-08-16 20:21:04,20250816202104,Cargador Samsung S10+ Tc,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General
+2025-08-16 20:21:54,20250816202154,Aro de Luz Joma 26Cm Rgb,1,30000.00,60000.00,60000.00,30000.00,local.txt,Cliente General
+2025-08-16 20:22:24,20250816202224,Audifonos Bluetooth Pro 60,1,18000.00,75000.00,75000.00,57000.00,local.txt,Cliente General
+2025-08-16 20:24:28,20250816202428,Silicone Case Samsung S24 Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-16 20:26:39,20250816202639,Forro Audifonos Pantalla Rosa,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-16 20:27:40,20250816202740,Pacha Motorola Moto G22 / E32,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General
+2025-08-16 20:27:40,20250816202740,Vidrio 5D Motorola Moto G22 / E32,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-16 20:28:45,20250816202845,Cable Poder Taser,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-16 20:29:57,20250816202957,Cable Extensor Usb Macho Hembra 2M,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-16 20:31:31,20250816203131,Silicone Case Motorola Moto Edge 40 Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-16 20:33:03,20250816203303,Servicio Tecnico Xiaomi Pin De Carga Redmi 12C,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General
+2025-08-16 20:33:03,20250816203303,Vidrio 5d Xiaomi Redmi 10C / 12C,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-16 20:33:43,20250816203343,Recargas,1,50000.00,53000.00,53000.00,3000.00,local.txt,Cliente General
+2025-08-16 22:49:45,20250816224945,Guantes Gamer,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-16 22:52:20,20250817082220,Hydrogel Apple Iphone 13 Pro Max,1,4000.00,20000.00,20000.00,16000.00,local.txt,Migdalia Lizarazo
+2025-08-17 10:48:16,20250817104816,Forro Antichoque Cadena Xiaomi Redmi 9A,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-17 10:53:30,20250817105330,Forro Armadura Samsung A32 Negro,1,6000.00,22000.00,22000.00,16000.00,local.txt,Cliente General
+2025-08-17 11:11:42,20250817111142,Llavero Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General
+2025-08-17 11:12:18,20250817111218,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General
+2025-08-17 12:31:47,20250817123147,Cable Belkin V8,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General
+2025-08-17 12:38:56,20250817123856,Forro Antichoque Huawei Honor X6A / Play 9A Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-17 12:50:22,20250817125022,Recargas,1,14151.00,15000.00,15000.00,849.00,local.txt,Cliente General
+2025-08-17 13:41:43,20250817134143,Servicio Tecnico Samsung Recuperar cuenta y formateo A21s,1,0.00,26000.00,26000.00,26000.00,local.txt,Cliente General
+2025-08-17 14:15:01,20250817141501,Forro Antichoque Xiaomi Redmi 13C Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-17 14:16:41,20250817141641,Servicio Tecnico Samsung Formateo A04,1,0.00,12000.00,12000.00,12000.00,local.txt,Cliente General
+2025-08-17 14:16:41,20250817141641,Pop Socket Figura,1,3000.00,10000.00,10000.00,7000.00,local.txt,Cliente General
+2025-08-17 14:45:08,20250817144508,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General
+2025-08-17 14:45:43,20250817144543,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General
+2025-08-17 14:48:48,20250817144848,Forro Armadura Oppo A80 Negro,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-17 14:53:15,20250817145315,Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro,1,6000.00,22000.00,22000.00,16000.00,local.txt,Cliente General
+2025-08-17 15:08:24,20250817150824,Recargas,1,30189.00,32000.00,32000.00,1811.00,local.txt,Cliente General
+2025-08-17 16:37:19,20250817163719,Vidrio Ceramico Samsung A35 / A55,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General
+2025-08-17 16:39:46,20250817163946,Vidrio Tortuga Samsung A25,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General
+2025-08-17 16:49:47,20250817164947,Smart Watch Gw-20,1,70000.00,130000.00,130000.00,60000.00,local.txt,Jefferson Salamanca
+2025-08-17 16:49:47,20250817164947,Memoria Musica Llanera,1,3500.00,10000.00,10000.00,6500.00,local.txt,Jefferson Salamanca
+2025-08-17 16:49:47,20250817164947,Memoria Musica Vallenatos Clasicos,1,3500.00,10000.00,10000.00,6500.00,local.txt,Jefferson Salamanca
+2025-08-17 16:49:47,20250817164947,Parlante Harvic Pr-801,1,48000.00,90000.00,90000.00,42000.00,local.txt,Jefferson Salamanca
+2025-08-17 16:51:00,20250817165100,Llavero Figura,1,5000.00,12000.00,12000.00,7000.00,local.txt,Cliente General
+2025-08-17 17:22:41,20250817172241,Vidrio Blindado Xiaomi Redmi 14C / A5 / A3,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-17 17:22:41,20250817172241,Reproductor Tv Stick Magis,1,60000.00,130000.00,130000.00,70000.00,local.txt,Cliente General
+2025-08-17 17:48:04,20250817174804,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-17 17:49:36,20250817174936,Adaptador Usb Sata 3.0 Tc y Usb,1,15000.00,35000.00,35000.00,20000.00,local.txt,Cliente General
+2025-08-17 18:24:52,20250817182452,Pacha Oppo A17 / A38 / A57 / A77,1,35000.00,95000.00,95000.00,60000.00,local.txt,Cliente General
+2025-08-17 18:24:52,20250817182452,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-17 18:26:58,20250817182658,Recargas,1,7075.00,7500.00,7500.00,425.00,local.txt,Cliente General
+2025-08-17 18:27:56,20250817182756,Recargas,1,4717.00,5000.00,5000.00,283.00,local.txt,Cliente General
+2025-08-17 18:54:44,20250817185444,Servicio Tecnico Xiaomi Pin De Carga Redmi 12C,1,0.00,25000.00,25000.00,25000.00,local.txt,Cliente General
+2025-08-17 19:11:02,20250817191102,Silicone Case Xiaomi Redmi Note 10 Pro Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-17 19:11:02,20250817191102,Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-17 19:12:37,20250817191237,Audifonos Bluetooth Pro 60,1,18000.00,65000.00,65000.00,47000.00,local.txt,Cliente General
+2025-08-17 19:12:37,20250817191237,Forro Antichoque Xiaomi Redmi Note 9 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-17 19:13:52,20250817191352,Vidrio 5D Apple Iphone 13 Pro Max,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-17 19:13:52,20250817191352,Vidrio Tortuga Xiaomi Redmi Note 13 / Note 14,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General
+2025-08-17 19:13:52,20250817191352,Silicone Case Xiaomi Redmi Note 13 4G Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-17 19:14:49,20250817191449,Cable Apple Tc Ligthning 2M,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General
+2025-08-17 19:18:15,20250817191815,Recargas,1,3774.00,4000.00,4000.00,226.00,local.txt,Cliente General
+2025-08-17 19:27:43,20250817192743,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-17 19:51:23,20250817195123,Recargas,1,8019.00,8500.00,8500.00,481.00,local.txt,Cliente General
+2025-08-17 20:51:05,20250817205105,Forro Antichoque Xiaomi Redmi 12 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-17 20:51:05,20250817205105,Vidrio 5D Xiaomi Redmi 12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-17 20:51:05,20250817205105,Pacha Xiaomi Redmi 12,1,42000.00,100000.00,100000.00,58000.00,local.txt,Cliente General
+2025-08-17 20:51:05,20250817205105,Vidrio 5D Apple Iphone 11 / Xr,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-17 20:51:05,20250817205105,Recargas,1,7050.00,7500.00,7500.00,450.00,local.txt,Cliente General
+2025-08-17 20:51:28,20250817205128,Vidrio Antiespia Apple Iphone 13 Pro Max,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-17 21:06:05,20250817210605,Vidrio Ceramico Tecno Spark 10 Pro,1,800.00,5000.00,5000.00,4200.00,local.txt,Cliente General
+2025-08-17 21:06:05,20250817210605,Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30,1,48000.00,95000.00,95000.00,47000.00,local.txt,Cliente General
+2025-08-18 11:54:14,20250818115414,Simcard Tigo,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-18 12:51:59,20250818125159,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-18 12:52:19,20250818125219,Cable Belkin Tc,1,2500.00,15000.00,15000.00,12500.00,local.txt,Cliente General
+2025-08-18 13:05:33,20250818130533,Pacha Motorola Moto G8 Play / One Macro,1,35000.00,95000.00,95000.00,60000.00,local.txt,Cliente General
+2025-08-18 13:06:35,20250818130635,Recargas,1,22170.00,23500.00,23500.00,1330.00,local.txt,Cliente General
+2025-08-18 13:08:08,20250818130808,Simcard Movistar,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-18 13:25:30,20250818132530,Simcard Tigo,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General
+2025-08-18 13:25:30,20250818132530,Vidrio 5D Motorola Moto G8 Play,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-18 13:25:30,20250818132530,Forro Antichoque Motorola Moto G8 Play / One Macro Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-18 13:26:54,20250818132654,Servicio Tecnico Motorola Formatear Moto G32,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General
+2025-08-18 13:27:39,20250818132739,Recargas,1,8019.00,8500.00,8500.00,481.00,local.txt,Cliente General
+2025-08-18 13:38:48,20250818133848,Cargador Samsung 25W Cabeza Negro,1,9000.00,35000.00,35000.00,26000.00,local.txt,Cliente General
+2025-08-18 14:10:19,20250818141019,Vidrio Tortuga Samsung A25,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General
+2025-08-18 14:10:19,20250818141019,Silicone Case Samsung A25 Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-18 14:33:14,20250818143314,Vidrio 5D Xiaomi Redmi Note 8,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-18 14:33:14,20250818143314,Vidrio 5D Huawei Honor X7B,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-18 14:33:14,20250818143314,Forro Antichoque Huawei Honor X7C / 200 Smart Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-18 14:33:39,20250818143339,Vidrio Blindado Xiaomi Redmi Note 13 / Note 14,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-18 15:30:50,20250818153050,Holder Chupa Parabrisas,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-18 15:38:16,20250818153816,Vidrio Tortuga Apple Iphone 16 Pro,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General
+2025-08-18 15:39:32,20250818153932,Adaptador Spliter Audio 2 Machos 1 Hembra,1,3000.00,15000.00,15000.00,12000.00,local.txt,Cliente General
+2025-08-18 20:03:54,20250818200354,Cargador Maxday Carga Pilas Universal,1,12000.00,25000.00,25000.00,13000.00,local.txt,Cliente General
+2025-08-18 20:05:20,20250818200520,Servicio Tecnico Xiaomi mantenimiento Logica de Carga Note 11,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General
+2025-08-18 20:05:20,20250818200520,Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-18 20:05:20,20250818200520,Forro Antichoque Xiaomi Redmi Note 11 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-18 20:15:09,20250818201509,Consola Game Stick,1,40000.00,10000.00,10000.00,-30000.00,local.txt,Cliente General
+2025-08-18 20:16:57,20250818201657,Pilas Carbon Gp 9V,1,2800.00,7000.00,7000.00,4200.00,local.txt,Cliente General
+2025-08-18 20:17:42,20250818201742,Vidrio 5D Oppo A38,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-18 20:18:47,20250818201847,Adaptador Union Lan,1,500.00,5000.00,5000.00,4500.00,local.txt,Cliente General
+2025-08-18 20:19:49,20250818201949,Hydrogel Oppo Realme C75,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-18 20:42:43,20250818204243,Vidrio Blindado Tecno Spark Go 2025,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-18 20:43:32,20250818204332,Servicio Tecnico Xiaomi Pin De Carga Redmi 12C,1,0.00,25000.00,25000.00,25000.00,local.txt,Cliente General
+2025-08-18 20:43:59,20250818204359,Manos Libres Samsung Akg,1,3300.00,15000.00,15000.00,11700.00,local.txt,Cliente General
+2025-08-18 20:44:58,20250818204458,Servicio Tecnico Samsung Ajustar Bateria y Conexiones A03,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General
+2025-08-18 20:46:10,20250818204610,Pilas Carbon Maxday Aaa X2,2,600.00,3000.00,6000.00,4800.00,local.txt,Cliente General
+2025-08-18 20:46:10,20250818204610,Adaptador Union Lan,1,500.00,5000.00,5000.00,4500.00,local.txt,Cliente General
+2025-08-18 20:47:28,20250818204728,Forro Space Samsung S22,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
+2025-08-18 20:51:43,20250818205143,Vidrio Antiespia Tecno Spark 20 Pro,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-18 20:53:02,20250818205302,Control Universal Roku,1,11000.00,39000.00,39000.00,28000.00,local.txt,Cliente General
+2025-08-18 20:56:27,20250818205627,Pacha Motorola Moto G8 Plus,1,40000.00,100000.00,100000.00,60000.00,local.txt,Cliente General
+2025-08-18 20:56:27,20250818205627,Tapa Motorola Moto G8 Plus,1,10000.00,30000.00,30000.00,20000.00,local.txt,Cliente General
+2025-08-18 20:56:27,20250818205627,Visor Camara Motorola Moto G8 Plus,1,20000.00,20000.00,20000.00,0.00,local.txt,Cliente General
+2025-08-18 20:58:43,20250818205843,Recargas,1,15094.00,16000.00,16000.00,906.00,local.txt,Cliente General
+2025-08-18 21:30:33,20250818213033,Forro Space Samsung A14 Vinotinto,1,5000.00,22000.00,22000.00,17000.00,local.txt,Cliente General
+2025-08-18 21:30:33,20250818213033,Llaveros Pegar,1,3000.00,10000.00,10000.00,7000.00,local.txt,Cliente General
+2025-08-18 21:30:33,20250818213033,Forro Antichoque Cadena Xiaomi Redmi 12,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General
+2025-08-19 14:35:37,20250819143537,Parlante Vintage,1,28000.00,69000.00,69000.00,41000.00,local.txt,Cliente General
+2025-08-19 14:37:43,20250819143743,Pacha Xiaomi Redmi 10,1,42000.00,90000.00,90000.00,48000.00,local.txt,Cliente General
+2025-08-19 14:37:43,20250819143743,Vidrio 5D Xiaomi Redmi 10,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-19 14:40:23,20250819144023,Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-19 15:26:41,20250819152641,Forro Antichoque Motorola Moto E20 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-19 15:26:41,20250819152641,Vidrio 5D Motorola Moto G20 / G30,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-19 15:28:03,20250819152803,Adifonos Bluetooth Pro 5S,1,18000.00,50000.00,50000.00,32000.00,local.txt,Cliente General
+2025-08-19 15:46:47,20250819154647,Guantes Gamer,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General
+2025-08-19 16:26:07,20250819162607,Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-19 16:26:07,20250819162607,Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-19 16:43:35,20250819164335,Recargas,1,4717.00,5000.00,5000.00,283.00,local.txt,Cliente General
+2025-08-19 17:00:24,20250819170024,Pacha Xiaomi Redmi 12,1,42000.00,100000.00,100000.00,58000.00,local.txt,Cliente General
+2025-08-19 18:33:41,20250819183341,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General
+2025-08-19 18:36:02,20250819183602,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General
+2025-08-19 18:37:06,20250819183706,Conector Antena Parlante,1,500.00,10000.00,10000.00,9500.00,local.txt,Cliente General
+2025-08-19 18:49:06,20250819184906,Vidrio 5D Apple Iphone 13 / 13Pro,1,900.00,10000.00,10000.00,9100.00,local.txt,Carlos Ruiz
+2025-08-19 18:49:40,20250819184940,Vidrio 5D Xiaomi Redmi 12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-19 19:47:45,20250819194745,Memoria Kingstone Usb 4Gb,1,6500.00,15000.00,15000.00,8500.00,local.txt,Cliente General
+2025-08-19 19:49:28,20250819194928,Recargas,1,18868.00,20000.00,20000.00,1132.00,local.txt,Cliente General
+2025-08-19 20:10:34,20250819201034,Memoria Kingston Usb 32Gb Original,1,20000.00,42000.00,42000.00,22000.00,local.txt,Cliente General
+2025-08-19 20:14:53,20250819201453,Recargas,1,13208.00,14000.00,14000.00,792.00,local.txt,Cliente General
+2025-08-19 20:15:31,20250819201531,Recargas,1,7075.00,7500.00,7500.00,425.00,local.txt,Cliente General
+2025-08-19 21:22:41,20250819212241,Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30,1,45000.00,100000.00,100000.00,55000.00,local.txt,Cliente General
+2025-08-19 21:22:41,20250819212241,Vidrio 5D Tecno Spark 10 Pro,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-19 21:24:01,20250819212401,Hydrogel Iphone 12 Pro Max,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General
+2025-08-19 21:24:01,20250819212401,Forro Lujo Apple Iphone 11,1,12000.00,30000.00,30000.00,18000.00,local.txt,Cliente General
+2025-08-19 21:24:53,20250819212453,Pin Netflix,1,19500.00,20000.00,20000.00,500.00,local.txt,Carlos Ruiz
+2025-08-19 21:29:21,20250819212921,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General
