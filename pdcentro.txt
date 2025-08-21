@@ -324,3 +324,4 @@
     Cargador Smart Watch Negativo 1 ok
     Cable Caterpillar V8 3 ok
     Cable Caterpillar Tc 3 ok
+    Soporte Pinza 3 ok
