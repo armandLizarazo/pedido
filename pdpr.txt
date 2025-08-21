@@ -35,7 +35,7 @@
     Mouse Gamer Eco A78 3
     Proyector Thor Hy-300 Con Juegos 1
     Parlante Vintage 1
-    Aro de Luz Joma 26Cm Rgb 2
+    Aro de Luz Joma 26Cm Rgb 2 ok
     Cable Extensor Usb Macho Hembra 1.5M 3
     Cable Poder Taser 5 ok
     Cable Poder Barbera Usb 5 ok
@@ -47,9 +47,11 @@
     Guantes Gamer 5 ok
     Reproductor Tv Stick Magis 2 ok
     Consola Game Stick 2 ok
-    Control Universal Roku 2
+    Control Universal Roku 2 ok
     Audifonos Bluetooth Pro 5S Blanco 1 ok
     Audifonos Bluetooth Pro 5S Negro 1 ok
     Audifonos Bluetooth Pro 5D Rosa 1 ok
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Adaptador Sata Usb 3.0 2 ok
+    Control Gamer Microsoft Pc 2
+    Mini Licuadora Doble Vaso 2 ok
