@@ -2405,3 +2405,7 @@
     Control Universal Roku 0
     Tapa Tecno Spark 10 Pro Azul 0
     Camara Principal Motorola Moto G9 Power 0
+    Adaptador Tarjeta Audio 7.1 0
+    Adaptador Tarjeta Audio 5.1 0
+    Soporte Nephoo Tripode Camara-Celular Np-999 0
+    Forro Armadura Samsung A13 Negro 0

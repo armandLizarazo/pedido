@@ -5,7 +5,7 @@
     Adaptador Dpp2Hdmi Cable 1
     Adaptador Dpp2Vga Cable 2
     Adaptador Dvi2Vga 1
-    Adaptador Europeo Goma 0
+    Adaptador Europeo Goma 4
     Adaptador Hdmi A Mini Hdmi 1
     Adaptador Hdmi2Av 1
     Adaptador Hdmi2Vga 1
@@ -221,12 +221,12 @@
     Cargador Samsung 45W Con Cable Negro 3
     Cargador Samsung S10+ Tc 2
     Cargador Smart Watch Pinza 3
-    Cargador Smartwatch Magnetico 2
+    Cargador Smartwatch Magnetico 1
     Cargador Tc A Tc 80W 2P 1
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
-    Cargador We Tc 33W 3
+    Cargador We Tc 33W 2
     Cargador We V8 33W 3
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
@@ -495,7 +495,7 @@
     Forro Armadura Oppo A80 Negro 0
     Forro Armadura Oppo Reno 11F Negro 0
     Forro Armadura Samsung A06 Negro 0
-    Forro Armadura Samsung A13 Negro 1
+    Forro Armadura Samsung A13 Negro 0
     Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung A15 Rojo 1
     Forro Armadura Samsung A24 Azuloscuro 1
@@ -749,7 +749,7 @@
     Manos Libres Tc Blanco 2
     Manos Libres Tc En L Yoyos Aguamarina 1
     Manos Libres Tc En L Yoyos Blanco 1
-    Manos Libres Tc Oczu Oz-F17 Verdemilitar 1
+    Manos Libres Tc Oczu Oz-F17 Verdemilitar 0
     Manos Libres Tc Oczu Oz-F9 0
     Manos Libres We Tc 1
     Manos Libres Xiaomi T Original Blanco 1
@@ -889,7 +889,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 6
+    Recargas 5
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
     Reproductor Fly Tv Box 64-4 1
@@ -1476,7 +1476,7 @@
     Silicone Case Tecno Spark Go 2023 / Pop7 Rojo 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Ab Azulrey 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Amarillo 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Lila 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Morado 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Negro 1
@@ -1713,7 +1713,7 @@
     Silicone Case Xioami Redmi Note 12S Negro 1
     Silicone Case Zte Blade A54 Amarillo 0
     Silicone Case Zte Blade A54 Rojo 2
-    Simcard Claro 7
+    Simcard Claro 6
     Simcard Movistar 3
     Simcard Tigo 27
     Simcard Virgin 6
@@ -1734,7 +1734,7 @@
     Soporte Fijo Tv 32-55 Pulgadas 2
     Soporte Holder Bicileta Manubrio M-3 1
     Soporte Holder Moto M3 0
-    Soporte Nephoo Tripode Camara-Celular 0
+    Soporte Nephoo Tripode Camara-Celular Np-999 0
     Soporte Techo Tv 26-55 Pulgadas 1
     Soporte Tripode Caja Cafe 1
     Soporte Tv 32 Brazo 2
@@ -1811,7 +1811,7 @@
     Vidrio 5D Redmi Note 12 3
     Vidrio 5D Samsung A05 9
     Vidrio 5D Samsung A10 / A10s 4
-    Vidrio 5D Samsung A12 9
+    Vidrio 5D Samsung A12 8
     Vidrio 5D Samsung A21S 1
     Vidrio 5D Samsung A22 5G 7
     Vidrio 5D Samsung A25 6
@@ -1830,7 +1830,7 @@
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 2
     Vidrio 5D Xiaomi Redmi 14C / A5 / A3 3
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 4
-    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 8
+    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 7
     Vidrio 5D Xiaomi Redmi Note 11 0
     Vidrio 5D Xiaomi Redmi Note 12 0
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 3
@@ -1954,3 +1954,9 @@
     Memoria Kingston Usb 32Gb Original 1
     Hydrogel Iphone 12 Pro Max 0
     Pin Netflix 0
+    Adaptador Tarjeta Audio 5.1 1
+    Adaptador Tarjeta Audio 7.1 1
+    Cable V3 Eco 1
+    Cable V3 1.5M 2
+    Adaptador Usb Sata 3.0 Usb 0
+    Servicio Tecnico Xiaomi Cuenta Mi Redmi Note 8 Unlocktool 2 0
