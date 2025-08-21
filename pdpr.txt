@@ -1,4 +1,4 @@
-    Adaptador Dpp2Vga 4
+    Adaptador Dpp2Vga 2 ok
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
@@ -16,7 +16,7 @@
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
     Pilas Recargables Beston AA x2 1
-    Cable Lan 10M Cat 6 2
+    Cable Lan 10M Cat 6 2 ok
     Control Gamer Microsoft Xbox Caja Negra 2
     Cable Microsoft Xbox Caja Negra 1
     Control Gamer X3 4
@@ -29,7 +29,7 @@
     Cable Lan 2M Cat 6 5
     Barbera Vgr V-660 1
     Rollo Cinta Led Eco 5
-    Cable Auxiliar 1 a 1 Microfono 3
+    Cable Auxiliar 1 a 1 Microfono 2 ok
     Cable Disco Duro V8 3.0 Corto 2
     Cargador Cabeza Cubo Eco 5
     Mouse Gamer Eco A78 3
@@ -37,15 +37,19 @@
     Parlante Vintage 1
     Aro de Luz Joma 26Cm Rgb 2
     Cable Extensor Usb Macho Hembra 1.5M 3
-    Cable Poder Taser 3
-    Cable Vga 3M 3
-    Cable Vga 1.5M 3
-    Cable Vga 5M 3
-    Cable Vga 10M 2
+    Cable Poder Taser 5 ok
+    Cable Poder Barbera Usb 5 ok
+    Cable Vga 3M 3 ok
+    Cable Vga 1.5M 3 ok
+    Cable Vga 5M 3 ok
+    Cable Vga 10M 2 ok
     Cable Vga 15M 2
-    Guantes Gamer 5
-    Reproductor Tv Stick Magis 2
-    Consola Game Stick 2
+    Guantes Gamer 5 ok
+    Reproductor Tv Stick Magis 2 ok
+    Consola Game Stick 2 ok
     Control Universal Roku 2
-    Adifonos Bluetooth Pro 5S 2
+    Audifonos Bluetooth Pro 5S Blanco 1 ok
+    Audifonos Bluetooth Pro 5S Negro 1 ok
+    Audifonos Bluetooth Pro 5D Rosa 1 ok
     Soporte Nephoo Tripode Camara-Celular Np-999 1
+    Adaptador Sata Usb 3.0 2 ok
