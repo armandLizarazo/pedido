@@ -320,8 +320,8 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Cadenas Pegar 15 ok
     Cadenas Gancho 10 ok
-    Cargador Smart Watch Positivo 2 ok
-    Cargador Smart Watch Negativo 1 ok
+    Cargador Smart Watch Magnetico Positivo 2 ok
+    Cargador Smart Watch MagneticoNegativo 1 ok
     Cable Caterpillar V8 3 ok
     Cable Caterpillar Tc 3 ok
     Soporte Pinza 3 ok
