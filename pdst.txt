@@ -1,13 +1,15 @@
     Pin de Carga Oppo A12 / A15 5
-    Pacha Motorola Moto G22 / E32 1
-    Pacha Motorola Moto G9 Power 1
-    Pacha Xiaomi Redmi A3 2
-    Pacha Oppo A17 / A38 / A57 / A77 1
-    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 3
-    Pacha Xiaomi Redmi 12 3
-    Pacha Motorola Moto G8 Play / One Macro 2
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 3
-    Tapa Tecno Spark 10 Pro Azul 1
-    Camara Principal Motorola Moto G9 Power 1
-    Pacha Xiaomi Redmi 10 2
-    Pacha Motorola Moto G60 / G60S 1
+    Pacha Motorola Moto G22 / E32 1 ok
+    Pacha Motorola Moto G9 Power 1 ok
+    Pacha Xiaomi Redmi A3 2 ok
+    Pacha Oppo A17 / A38 / A57 / A77 2 ok
+    Pacha Xiaomi Redmi 12 2 ok
+    Pacha Motorola Moto G8 Play / One Macro 2 ok
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30  2 ok
+    Tapa Tecno Spark 10 Pro Azul 1 ok
+    Camara Principal Motorola Moto G9 Power 1 ok
+    Pacha Xiaomi Redmi 10 2 ok
+    Pacha Motorola Moto G60 / G60S 1 ok
+    Bateria Huawei Honor X8A 1 ok
+    Herramienta Prensa Economica 1 ok
+    Tarjeta Infinix 1 ok
