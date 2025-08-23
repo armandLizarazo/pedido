@@ -37,5 +37,5 @@
     Adaptador Sata Usb 3.0 2
     Mouse Inalambrico Ms-033 1
     Pacha Samsung A21S 1
-    Patillera Vintage Sencilla 2
-    Secador Remington 2003 1
+    Patillera Vintage Sencilla 2 ok
+    Secador Remington 2005 1 ok
