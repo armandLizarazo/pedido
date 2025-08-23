@@ -2426,3 +2426,4 @@
     Visor Camara Xiaomi Redmi 9T 0
     Visor Camara Xiaomi Redmi Note 10 Pro 0
     Mouse Inalambrico Ms-033 0
+    Pacha Oppo A79 0

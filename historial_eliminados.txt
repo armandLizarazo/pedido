@@ -7198,3 +7198,25 @@ Línea  | Contenido
     1 | # Pedido: pdst
     2 | # Pedido: pdst
     3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-23 09:02:26
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-23 09:02:26
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-23 09:02:26
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
