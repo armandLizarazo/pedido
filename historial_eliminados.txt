@@ -7044,3 +7044,157 @@ Elementos eliminados:
 Línea  | Contenido
 --------------------------------------------------
     1 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-21 20:25:56
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 56
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  161 | Vidrio 5D Samsung A04S 5 ok
+  162 | Vidrio 5D Samsung A05S 5 ok
+  164 | Vidrio 5D Tecno Spark 30 5G 10 ok
+  165 | Vidrio 5D Tecno Sapark 30 Pro 10 ok
+  191 | Forro Antichoque Oppo Reno 7 Caballero 4 ok
+  198 | Forro Antichoque Oppo A54 Dama 3 ok
+  199 | Forro Antichoque Xiaomi Redmi A5 Dama 5 ok
+  217 | Silicone Case Apple Iphone 16E Negro 1 ok
+  234 | Silicone Case Oppo A57 / A77 Lila 1 ok
+  240 | Vidrio Blindado Samsung A22 5G 5 ok
+  242 | Silicone Case Motorola Moto Edge 60 Fusion Rojo 2 ok
+  243 | Silicone Case Motorola Moto Edge 60 Fusion Lila 1 ok
+  248 | Forro Antichoque Motorola Moto Edge 60 Fusion Dama 5 ok
+  257 | Silicone Case Samsung A32 4G Fucsia 1 ok
+  258 | Forro Antichoque Samsung A32 4G Caballero 3 ok
+  259 | Forro Antichoque Samsung A32 4G Dama 2 ok
+  260 | Forro Antichoque Xiaomi Redmi 9A Caballero 4 ok
+  261 | Forro Antichoque Huawei Honor X6A / Play 9A Dama 3 ok
+  262 | Forro Antichoque Huawei Honor X6A / Play 9A Caballero 3 ok
+  266 | Forro Antichoque Xiaomi Redmi Note 10 Pro Dama 4 ok
+  267 | Forro Antichoque Samsung A25 Dama 4 ok
+  268 | Forro Antichoque Samsung A25 Caballero 5 ok
+  269 | Forro Armadura Samsung A25 Negro 1 ok
+  270 | Forro Armadura Samsung A25 Rojo 1 ok
+  271 | Silicone Case Samsung A25 Negro 1 ok
+  272 | Pulso Pasador 5 ok ok
+  277 | Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 5 ok
+  278 | Vidrio 5D Xiaomi Redmi 10 5 ok
+  281 | Forro Antichoque Motorola Moto E20 Caballero 4 ok
+  282 | Forro Antichoque Motorola Moto E20 Dama 3 ok
+  285 | Silicone Case Vivo Y04 Rojo 1 ok
+  287 | Silicone Case Vivo Y04 Azulrey 1 ok
+  288 | Silicone Case Vivo Y04 Lila 1 ok
+  289 | Silicone Case Vivo Y04 Verdementa 1 ok
+  290 | Silicone Case Vivo Y04 Rosa 1 ok
+  296 | Forro Antichoque Infinix Hot 40 Pro Caballero 2 ok
+  297 | Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 5 ok
+  298 | Vidrio 5D Xiaomi Redmi 12 5 ok
+  299 | Audifonos Bluetooth Pro 60 3  ok
+  303 | Vidrio 5D Motorola Moto G22 5 ok
+  305 | Cargador 20w C15 1 ok
+  306 | Cable Apple Tc Ligthning 3 ok
+  308 | Cable Belkin V8 10 ok
+  310 | Silicone Case Xiaomi Redmi Note 13 4G Rojo 1 ok
+  312 | Cargador Maxday Carga Pilas Universal 2 ok
+  313 | Cargador Samsung 25W Cabeza Negro 2 ok
+  314 | Holder Chupa Parabrisas 2 ok
+  315 | Manos Libres Samsung Akg 5 ok
+  318 | Cargador We Tc 33W 2 ok
+  321 | Cadenas Pegar 15 ok
+  322 | Cadenas Gancho 10 ok
+  323 | Cargador Smart Watch Magnetico Positivo 2 ok
+  324 | Cargador Smart Watch MagneticoNegativo 1 ok
+  325 | Cable Caterpillar V8 3 ok
+  326 | Cable Caterpillar Tc 3 ok
+  327 | Soporte Pinza 3 ok
+
+==================================================
+Fecha de proceso: 2025-08-21 20:25:56
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Dpp2Vga 2 ok
+   19 | Cable Lan 10M Cat 6 2 ok
+   32 | Cable Auxiliar 1 a 1 Microfono 2 ok
+   38 | Aro de Luz Joma 26Cm Rgb 2 ok
+   40 | Cable Poder Taser 5 ok
+   41 | Cable Poder Barbera Usb 5 ok
+   42 | Cable Vga 3M 3 ok
+   43 | Cable Vga 1.5M 3 ok
+   44 | Cable Vga 5M 3 ok
+   45 | Cable Vga 10M 2 ok
+   47 | Guantes Gamer 5 ok
+   48 | Reproductor Tv Stick Magis 2 ok
+   49 | Consola Game Stick 2 ok
+   50 | Control Universal Roku 2 ok
+   51 | Audifonos Bluetooth Pro 5S Blanco 1 ok
+   52 | Audifonos Bluetooth Pro 5S Negro 1 ok
+   53 | Audifonos Bluetooth Pro 5D Rosa 1 ok
+   55 | Adaptador Sata Usb 3.0 2 ok
+   57 | Mini Licuadora Doble Vaso 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-21 20:25:56
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Motorola Moto G22 / E32 1 ok
+    3 | Pacha Motorola Moto G9 Power 1 ok
+    4 | Pacha Xiaomi Redmi A3 2 ok
+    5 | Pacha Oppo A17 / A38 / A57 / A77 2 ok
+    6 | Pacha Xiaomi Redmi 12 2 ok
+    7 | Pacha Motorola Moto G8 Play / One Macro 2 ok
+    8 | Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30  2 ok
+    9 | Tapa Tecno Spark 10 Pro Azul 1 ok
+   10 | Camara Principal Motorola Moto G9 Power 1 ok
+   11 | Pacha Xiaomi Redmi 10 2 ok
+   12 | Pacha Motorola Moto G60 / G60S 1 ok
+   13 | Bateria Huawei Honor X8A 1 ok
+   14 | Herramienta Prensa Economica 1 ok
+   15 | Tarjeta Infinix 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-23 08:57:10
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-23 08:57:10
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-23 08:57:10
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
