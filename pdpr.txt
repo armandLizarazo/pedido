@@ -25,12 +25,12 @@
     Microfono Bafle Eco 1 ok
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
-    Barbera Vgr V-660 1
+    Barbera Vgr V-660 1 ok
     Rollo Cinta Led Eco 5
     Cable Disco Duro V8 3.0 Corto 2
     Cargador Cabeza Cubo Eco 5
     Proyector Thor Hy-300 Con Juegos 1
-    Parlante Vintage 1
+    Parlante Ns-8100Bt Vintage 1 ok
     Cable Vga 15M 2
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Lapiz Optico Recargable 2
@@ -38,3 +38,5 @@
     Mouse Inalambrico Ms-033 2 ok
     Patillera Vintage Sencilla 2 ok
     Secador Remington 2005 1 ok
+    Memoria Musica Crosover 5 ok
+    Memoria Musica Popular 2 ok
