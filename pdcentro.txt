@@ -205,7 +205,7 @@
     Manos Libres Batri B10 Lila 2
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Manos Libres Xiaomi T Original Negro 2
-    Silicone Case Oppo A80 Lila 1
+    Silicone Case Oppo A80 Lila 1 ok
     Cable Royal V8 2M 2
     Vidrio Templado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone 16E 5
@@ -275,3 +275,4 @@
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
     Silicone Case Huawei Honor X6A / Play 9A Verde 1 ok
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
+    Forro Antichoque infinix Note 50S 4G Caballero 5 ok
