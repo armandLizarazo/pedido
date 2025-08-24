@@ -205,7 +205,6 @@
     Manos Libres Batri B10 Lila 2
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Manos Libres Xiaomi T Original Negro 2
-    Silicone Case Oppo A80 Lila 1 ok
     Cable Royal V8 2M 2
     Vidrio Templado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone 16E 5
@@ -228,32 +227,21 @@
     Forro Antichoque Oppo Reno 13 5G Dama 5
     Forro Antichoque Oppo Reno 13 5G Caballero 5
     Forro Armadura Oppo Reno 13 5G 2
-    Silicone Case Motorola Moto Edge 60 Fusion Negro 1 ok
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1
-    Silicone Case Motorola Moto Edge 60 Fusion Azulrey 1 ok
     Forro Space Moto Edge 60 Fusion 2
     Silicone Case Samsung A10 Blanco 1
     Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 5
     Silicone Case Apple Iphone 16 Pro Max Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
     Silicone Case Huawei Y9 Prime Rojo 1 
-    Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Fucsia 1 ok
-    Forro Antichoque Lujo Samsung S24 / S25 Negro 1 ok
     Silicone Case Samsung A10S Negro 1
     Silicone Case Samsung A32 4G Rojo 1
     Forro Armadura Huawei Honor X6A / Play 9A Negro 1
     Forro Armadura Huawei Honor X6A / Play 9A Rojo 1
     Forro Armadura Huawei Honor X6A / Play 9A Azuloscuro 1
-    Silicone Case Samsung A25 Amarillo 1 ok
-    Vidrio 5D Huawei Honor X7B 5 ok
-    Vidrio 5D Huawei Honor X7A 5 ok
-    Vidrio 5D Huawei Honor X7C 5 ok
     Silicone Case Motorola Moto E20 Rojo 1
     Silicone Case Motorola Moto E20 Fucsia 1
-    Silicone Case Vivo Y04 Negro 1 ok
-    Silicone Case Vivo Y04 Amarillo 1 ok
     Silicone Case Vivo Y04 Fucsia 1
     Forro Space Vivo Y04 2
     Forro Antichoque Vivo Y04 Dama 5
@@ -264,15 +252,10 @@
     Silicone Case Samsung S24 Negro 1
     Silicone Case Motorola Moto G9 Power Negro 1
     Vidrio Blindado Motorola Moto G9 Power 5
-    Cable Apple Tc Ligthning 2M 4 ok
-    Silicone Case Xiaomi Redmi Note 10 Pro Rosa 1 ok
     Smart Watch Gw-20 Verdemilitar 1
     Silicone Case Samsung A25 Rosa 1
-    Silicoen Case Samsung A25 Palorosa 1 ok
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 1 ok
     Forro Armadura Samsung A13 Negro 1
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
-    Silicone Case Huawei Honor X6A / Play 9A Verde 1 ok
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
-    Forro Antichoque infinix Note 50S 4G Caballero 5 ok
+    Silicone Case Samsung A32 4G Azulclaro 1

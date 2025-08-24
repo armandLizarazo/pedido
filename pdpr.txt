@@ -1,7 +1,6 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
-    Audifonos Bluetooth Conductor 1092 1 ok
     Base Refirgerante 4 Ventiladores 1
     Cargador Pc Puntas Caja Blanca 2
     Consola Microsoft Xbox 360 1
@@ -19,24 +18,14 @@
     Cable Microsoft Xbox Caja Negra 1
     Control Gamer X3 4
     Pilas Recargables Beston AAA x4 1
-    Audifonos Bluetooth M60 2 ok
-    Control Gamer Gatillos G21 1 ok
     Reproductor Tdt Krono Kr-365 2
-    Microfono Bafle Eco 1 ok
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
-    Barbera Vgr V-660 1 ok
     Rollo Cinta Led Eco 5
     Cable Disco Duro V8 3.0 Corto 2
     Cargador Cabeza Cubo Eco 5
     Proyector Thor Hy-300 Con Juegos 1
-    Parlante Ns-8100Bt Vintage 1 ok
     Cable Vga 15M 2
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Lapiz Optico Recargable 2
-    Adaptador Sata Usb 3.0 2 ok
-    Mouse Inalambrico Ms-033 2 ok
-    Patillera Vintage Sencilla 2 ok
-    Secador Remington 2005 1 ok
-    Memoria Musica Crosover 5 ok
-    Memoria Musica Popular 2 ok
+    Forro Pc 16 Pulgadas 2

@@ -7220,3 +7220,106 @@ Elementos eliminados:
 Línea  | Contenido
 --------------------------------------------------
     1 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-23 14:43:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  208 | Silicone Case Oppo A80 Lila 1 ok
+  231 | Silicone Case Motorola Moto Edge 60 Fusion Negro 1 ok
+  234 | Silicone Case Motorola Moto Edge 60 Fusion Azulrey 1 ok
+  241 | Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok
+  242 | Silicone Case Infinix Hot 50I / Smart 9 Fucsia 1 ok
+  243 | Forro Antichoque Lujo Samsung S24 / S25 Negro 1 ok
+  249 | Silicone Case Samsung A25 Amarillo 1 ok
+  250 | Vidrio 5D Huawei Honor X7B 5 ok
+  251 | Vidrio 5D Huawei Honor X7A 5 ok
+  252 | Vidrio 5D Huawei Honor X7C 5 ok
+  255 | Silicone Case Vivo Y04 Negro 1 ok
+  256 | Silicone Case Vivo Y04 Amarillo 1 ok
+  267 | Cable Apple Tc Ligthning 2M 4 ok
+  268 | Silicone Case Xiaomi Redmi Note 10 Pro Rosa 1 ok
+  271 | Silicoen Case Samsung A25 Palorosa 1 ok
+  272 | Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 1 ok
+  276 | Silicone Case Huawei Honor X6A / Play 9A Verde 1 ok
+  278 | Forro Antichoque infinix Note 50S 4G Caballero 5 ok
+
+==================================================
+Fecha de proceso: 2025-08-23 14:43:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Audifonos Bluetooth Conductor 1092 1 ok
+   22 | Audifonos Bluetooth M60 2 ok
+   23 | Control Gamer Gatillos G21 1 ok
+   25 | Microfono Bafle Eco 1 ok
+   28 | Barbera Vgr V-660 1 ok
+   33 | Parlante Ns-8100Bt Vintage 1 ok
+   37 | Adaptador Sata Usb 3.0 2 ok
+   38 | Mouse Inalambrico Ms-033 2 ok
+   39 | Patillera Vintage Sencilla 2 ok
+   40 | Secador Remington 2005 1 ok
+   41 | Memoria Musica Crosover 5 ok
+   42 | Memoria Musica Popular 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-23 14:43:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Samsung A21s 1 ok
+    3 | Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
+    4 | Pacha Xiaomi Redmi Note 12 1 ok
+    5 | Pacha Oppo A79 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-24 08:32:28
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-24 08:32:28
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-08-24 08:32:28
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-24 08:32:28
+Archivo procesado: np.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: np
