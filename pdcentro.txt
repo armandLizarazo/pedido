@@ -143,7 +143,7 @@
     Silicone Case Vivo Y15 / Y01 Amarillo 1
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y20 / Y20S / Y11S Rojo 1
-    Silicone Case Xiaomi Redmi 12 Azulrey 1
+    Silicone Case Xiaomi Redmi 12 Azulrey 1 ok
     Silicone Case Xiaomi Redmi 14C Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 13 5G Lila 1
@@ -184,7 +184,7 @@
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
-    Cargador Samsung 45W Cabeza Negro 2 
+    Cargador Samsung 45W Cabeza Negro 1 ok
     Cargador Fuente 360 Slim 1
     Forro Lujo Apple Iphone Xr Lila 1
     Silicone Case Lg K61 Amarillo 1
@@ -222,24 +222,24 @@
     Forro Armadura Motorola Moto G35 Rojo 1
     Forro Armadura Motorola Moto G35 Negro 1
     Silicone Case Oppo A57 / A77 Fucsia 1
-    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1 
+    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
     Forro Space Oppo Reno 13 5G 2
     Forro Antichoque Oppo Reno 13 5G Dama 5
     Forro Antichoque Oppo Reno 13 5G Caballero 5
     Forro Armadura Oppo Reno 13 5G 2
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
-    Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1
+    Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1 ok
     Forro Space Moto Edge 60 Fusion 2
     Silicone Case Samsung A10 Blanco 1
     Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 5
-    Silicone Case Apple Iphone 16 Pro Max Rojo 1
+    Silicone Case Apple Iphone 16 Pro Max Rojo 1 ok
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
-    Silicone Case Huawei Y9 Prime Rojo 1 
+    Silicone Case Huawei Y9 Prime Rojo 1 ok
     Silicone Case Samsung A10S Negro 1
     Silicone Case Samsung A32 4G Rojo 1
-    Forro Armadura Huawei Honor X6A / Play 9A Negro 1
+    Forro Armadura Huawei Honor X6A / Play 9A Negro 1 ok
     Forro Armadura Huawei Honor X6A / Play 9A Rojo 1
-    Forro Armadura Huawei Honor X6A / Play 9A Azuloscuro 1
+    Forro Armadura Huawei Honor X6A / Play 9A Azuloscuro 1 ok
     Silicone Case Motorola Moto E20 Rojo 1
     Silicone Case Motorola Moto E20 Fucsia 1
     Silicone Case Vivo Y04 Fucsia 1
@@ -260,27 +260,25 @@
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
     Silicone Case Samsung A32 4G Azulclaro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Negro 1
-    Silicone Case Infinix Note 40 Pro 4G Azulcielo 1
-    Silicone Case Motorola Moto G14 Negro 1
-    Vidrio 5D Apple Iphone 13 Pro Max 5
-    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 5
-    Forro Antichoque Motorola Moto G14 Caballero 5
-    Forro Antichoque Motorola Moto G14 Dama 3
-    Silicone Case Tecno Camon 40 Pro Rojo 1
+    Silicone Case Motorola Moto G14 Negro 1 ok
+    Vidrio 5D Apple Iphone 13 Pro Max 5 ok
+    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 5 ok
+    Forro Antichoque Motorola Moto G14 Caballero 4 ok
+    Forro Antichoque Motorola Moto G14 Dama 3 ok
+    Silicone Case Tecno Camon 40 Pro Rojo 1 ok
     Silicone Case Tecno Camon 40 Pro Fucsia 1
     Forro Antichoque Oppo A78 4G Caballero 5
     Forro Antichoque Oppo A78 4G Dama 3
-    Silicone Case Samsung S24 Rosa 1
-    Silicone Case Samsung S24 Fucsia 1
+    Silicone Case Samsung S24 Rosa 1 ok
+    Silicone Case Samsung S24 Fucsia 1 ok
     Silicone Case Samsung S24 Amarillo 1
-    Silicone Case Samsung S24 Azulrey 1
-    Silicone Case Tecno Camon 40 Pro Rosa 1
-    Silicone Case Tecno Camon 40 Pro Azulrey 1
-    Forro Antichoque Xiaomi Redmi 12 Dama 3
+    Silicone Case Samsung S24 Azulrey 1 ok
+    Silicone Case Tecno Camon 40 Pro Palorosa 1 ok
+    Silicone Case Tecno Camon 40 Pro Azulrey 1 ok
+    Forro Antichoque Xiaomi Redmi 12 Dama 3 ok
     Forro Antichoque Infinix Hot 50 Pro Plus Dama 5
-    Patillera Vintage Sencilla 2
     Silicone Case Infinix Hot 50 Pro Rojo 1
-    Silicone Case Infinix Note 40 Pro Azulcielo 1
+    Silicone Case Infinix Note 40 Pro Azulcielo 1 ok
     Silicone Case Oppo A58 5G / A78 5G Rosa 1
     Silicone Case Tecno Camon 30 4G Negro 1
     Silicone Case Tecno Camon 40 Pro Negro 1
@@ -289,8 +287,21 @@
     Forro Antichoque Infinix Note 50 Pro Caballero 5
     Forro Antichoque Infinix Note 50 Pro Dama 1
     Cable Magnetico 3 en 1 2
-    Memoria Kingstone Usb 16Gb 2
-    Memoria Kingstone Usb 8Gb 4
-    Pacha Samsung A02S / A03 / A03S / A04E 1
+    Memoria Kingstone Usb 16Gb 2 ok
+    Memoria Kingstone Usb 8Gb 3 ok
     Silicone Case Oppo Reno 7 Vinotinto 1
     Silicone Case Xiaomi Redmi 9A Morado 1
+    Manos Libres Samsung J5 Negro 5 ok
+    Manos Libres Yoyos Ys-101 1 ok
+    Manos Libres Yoyos Ys-102 1 ok
+    Cable We Tc 5 ok
+    Bluetooth Car Bt-X6 1 ok
+    Bluetooth Car X6 1 ok
+    Bluetooth Car Bt-350 1 ok
+    Audifonos Bluetooth Cuellera Kin Kl-50 Morado 1 ok
+    Audifonos Bluetooth Cuellera Kin Kl-50 Azuloscuro 1 ok
+    Manos Libres Aibimy Tc Blanco 1 ok
+    Silicone Case Vivo V50 Lite Vinotinto 1 ok
+    Silicone Case Vivo V50 Lite Negro 1 ok
+    Silicone Case Vivo V50 Lite Azuloscuro 1 ok
+    Silicoen Case Vivo V50 Lite Rojo 1 ok
