@@ -68,17 +68,16 @@ def update_file(filename, data):
 
 
 def refresh_data():
-    """Vuelve a cargar los datos de los archivos .txt y limpia la interfaz."""
+    """
+    Vuelve a cargar los datos de los archivos .txt y refresca la búsqueda actual
+    sin borrar el texto del buscador.
+    """
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
-    entry_search.delete(0, tk.END)
-    for item in tree_bodega.get_children():
-        tree_bodega.delete(item)
-    for item in tree_local.get_children():
-        tree_local.delete(item)
     listbox_autocomplete.place_forget()
-    messagebox.showinfo("Refrescar", "Los datos de los archivos han sido actualizados.")
+    search()
+    messagebox.showinfo("Refrescar", "Los datos han sido actualizados.")
 
 
 def update_autocomplete(event):
@@ -89,13 +88,10 @@ def update_autocomplete(event):
         listbox_autocomplete.place_forget()
         return
 
-    # MODIFICADO: Combina descripciones de ambos archivos para el autocompletado
     all_descriptions = [item[0] for item in data_bodega] + [
         item[0] for item in data_local
     ]
-    unique_descriptions = sorted(
-        list(set(all_descriptions))
-    )  # Elimina duplicados y ordena
+    unique_descriptions = sorted(list(set(all_descriptions)))
 
     matches = [desc for desc in unique_descriptions if search_term in desc.lower()]
 
@@ -103,10 +99,12 @@ def update_autocomplete(event):
         listbox_autocomplete.insert(tk.END, match)
 
     if matches:
+        entry_x = entry_search_container.winfo_rootx() - root.winfo_rootx()
+        entry_y = entry_search_container.winfo_rooty() - root.winfo_rooty()
+        entry_height = entry_search_container.winfo_height()
+        entry_width = entry_search_container.winfo_width()
         listbox_autocomplete.place(
-            x=entry_search.winfo_x(),
-            y=entry_search.winfo_y() + entry_search.winfo_height(),
-            width=entry_search.winfo_width(),
+            x=entry_x, y=entry_y + entry_height + 1, width=entry_width
         )
     else:
         listbox_autocomplete.place_forget()
@@ -127,7 +125,6 @@ def search():
     search_term = entry_search.get().strip()
     listbox_autocomplete.place_forget()
 
-    # Limpia resultados anteriores
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
     for item in tree_local.get_children():
@@ -136,7 +133,6 @@ def search():
     if not search_term:
         return
 
-    # MODIFICADO: Lógica de búsqueda separada para cada archivo
     found_in_bodega = False
     for description, quantity in data_bodega:
         if description.strip().lower() == search_term.lower():
@@ -151,7 +147,6 @@ def search():
             found_in_local = True
             break
 
-    # Muestra "No encontrado" si se encuentra en un lugar pero no en el otro
     if found_in_bodega and not found_in_local:
         tree_local.insert("", tk.END, values=(search_term, "No encontrado"))
     elif found_in_local and not found_in_bodega:
@@ -232,6 +227,65 @@ def transfer_quantity(direction):
         entry_transfer_qty.delete(0, tk.END)
 
 
+def adjust_quantity(target, action):
+    """NUEVA FUNCIÓN: Agrega o quita unidades de un item en el archivo de origen."""
+    search_term = entry_search.get().strip()
+    if not search_term:
+        messagebox.showwarning(
+            "Acción Requerida",
+            "Por favor, primero busque un artículo para poder ajustarlo.",
+        )
+        return
+    try:
+        adjust_qty = int(entry_adjust_qty.get())
+        if adjust_qty <= 0:
+            raise ValueError
+    except ValueError:
+        messagebox.showerror(
+            "Error de Entrada",
+            "Por favor, ingrese una cantidad numérica válida y positiva para el ajuste.",
+        )
+        return
+
+    data_list = data_bodega if target == "bodega" else data_local
+    filename = "bodegac.txt" if target == "bodega" else "local.txt"
+    item_index, current_qty = -1, 0
+
+    for i, (desc, qty) in enumerate(data_list):
+        if desc.strip().lower() == search_term.lower():
+            item_index, current_qty = i, qty
+            break
+
+    if item_index == -1:
+        messagebox.showerror(
+            "Error", f"El artículo '{search_term}' no se encontró en {target}."
+        )
+        return
+
+    if action == "add":
+        new_qty = current_qty + adjust_qty
+        data_list[item_index] = (search_term, new_qty)
+        action_text = "agregaron"
+    elif action == "remove":
+        if current_qty < adjust_qty:
+            messagebox.showerror(
+                "Stock Insuficiente",
+                f"No se pueden quitar {adjust_qty} unidades. Disponible en {target}: {current_qty}",
+            )
+            return
+        new_qty = current_qty - adjust_qty
+        data_list[item_index] = (search_term, new_qty)
+        action_text = "quitaron"
+
+    if update_file(filename, data_list):
+        messagebox.showinfo(
+            "Éxito",
+            f"Se {action_text} {adjust_qty} unidades de '{search_term}' en {target}.",
+        )
+        search()
+        entry_adjust_qty.delete(0, tk.END)
+
+
 # --- Carga de Datos ---
 data_bodega = parse_file("bodegac.txt")
 data_local = parse_file("local.txt")
@@ -239,7 +293,7 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("800x600")
+root.geometry("800x700")
 root.configure(bg="#f0f0f0")
 
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
@@ -248,16 +302,19 @@ main_frame.pack(expand=True, fill=tk.BOTH)
 # --- Frame de Búsqueda ---
 frame_search = tk.Frame(main_frame, bg="#f0f0f0")
 frame_search.pack(fill=tk.X, pady=(0, 20))
+entry_search_container = tk.Frame(
+    frame_search, relief="solid", borderwidth=1, bg="white"
+)
+entry_search_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 entry_search = tk.Entry(
-    frame_search,
+    entry_search_container,
     font=("Helvetica", 12),
     width=40,
     relief="flat",
-    highlightthickness=1,
-    highlightbackground="#adadad",
-    highlightcolor="#4a90e2",
+    borderwidth=0,
+    bg="white",
 )
-entry_search.pack(side=tk.LEFT, expand=True, fill=tk.X, ipady=5)
+entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
 entry_search.bind("<KeyRelease>", update_autocomplete)
 button_search = tk.Button(
     frame_search,
@@ -319,7 +376,80 @@ tree_local.column("Item", width=250)
 tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 
-# --- NUEVO: Frame de Traslado ---
+# --- Frame de Ajuste (movido antes de Traslado para mejor flujo visual) ---
+frame_adjust = tk.Frame(main_frame, bg="#f8f9fa", pady=10, padx=10)
+frame_adjust.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
+tk.Label(
+    frame_adjust,
+    text="Ajuste de Inventario:",
+    font=("Helvetica", 11, "bold"),
+    bg=frame_adjust["bg"],
+).pack(side=tk.LEFT, padx=(0, 5))
+entry_adjust_container = tk.Frame(
+    frame_adjust, relief="solid", borderwidth=1, bg="white"
+)
+entry_adjust_container.pack(side=tk.LEFT)
+entry_adjust_qty = tk.Entry(
+    entry_adjust_container,
+    font=("Helvetica", 11),
+    width=10,
+    relief="flat",
+    borderwidth=0,
+    bg="white",
+)
+entry_adjust_qty.pack(ipady=2, padx=1, pady=1)
+
+# MODIFICADO: Colores de botones de ajuste para mejor legibilidad
+btn_add_bodega = tk.Button(
+    frame_adjust,
+    text="+ Bodega",
+    command=lambda: adjust_quantity("bodega", "add"),
+    font=("Helvetica", 10, "bold"),
+    bg="#a3e9a4",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#8fcf90",
+)
+btn_add_bodega.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
+btn_remove_bodega = tk.Button(
+    frame_adjust,
+    text="- Bodega",
+    command=lambda: adjust_quantity("bodega", "remove"),
+    font=("Helvetica", 10, "bold"),
+    bg="#ffb3b3",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#ff9999",
+)
+btn_remove_bodega.pack(side=tk.LEFT, padx=(0, 5), ipady=2)
+btn_add_local = tk.Button(
+    frame_adjust,
+    text="+ Local",
+    command=lambda: adjust_quantity("local", "add"),
+    font=("Helvetica", 10, "bold"),
+    bg="#a3e9a4",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#8fcf90",
+)
+btn_add_local.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
+btn_remove_local = tk.Button(
+    frame_adjust,
+    text="- Local",
+    command=lambda: adjust_quantity("local", "remove"),
+    font=("Helvetica", 10, "bold"),
+    bg="#ffb3b3",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#ff9999",
+)
+btn_remove_local.pack(side=tk.LEFT, ipady=2)
+
+# --- Frame de Traslado ---
 frame_transfer = tk.Frame(main_frame, bg="#e9ecef", pady=10, padx=10)
 frame_transfer.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
@@ -328,10 +458,19 @@ tk.Label(
     font=("Helvetica", 11, "bold"),
     bg=frame_transfer["bg"],
 ).pack(side=tk.LEFT, padx=(0, 5))
-entry_transfer_qty = tk.Entry(
-    frame_transfer, font=("Helvetica", 11), width=10, relief="solid", borderwidth=1
+entry_qty_container = tk.Frame(
+    frame_transfer, relief="solid", borderwidth=1, bg="white"
 )
-entry_transfer_qty.pack(side=tk.LEFT, ipady=3)
+entry_qty_container.pack(side=tk.LEFT)
+entry_transfer_qty = tk.Entry(
+    entry_qty_container,
+    font=("Helvetica", 11),
+    width=10,
+    relief="flat",
+    borderwidth=0,
+    bg="white",
+)
+entry_transfer_qty.pack(ipady=2, padx=1, pady=1)
 btn_to_local = tk.Button(
     frame_transfer,
     text="Bodega -> Local",
