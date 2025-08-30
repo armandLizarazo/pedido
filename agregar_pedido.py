@@ -104,8 +104,8 @@ def eliminar_duplicados_bodega(bodega_lineas):
 class App:
     def __init__(self, root):
         self.root = root
-        self.root.title("Gestor de Bodega - Transferencias")
-        self.root.geometry("700x600")
+        self.root.title("Gestor de Bodega - Transferencias y Compras")
+        self.root.geometry("800x600")
 
         self.archivos_a_analizar = []
 
@@ -114,7 +114,7 @@ class App:
         main_frame.pack(fill=tk.BOTH, expand=True)
 
         files_frame = tk.LabelFrame(
-            main_frame, text="1. Archivos de Transferencia (con 'ok')", padx=10, pady=10
+            main_frame, text="1. Archivos de Entrada (con 'ok')", padx=10, pady=10
         )
         files_frame.pack(fill=tk.X, pady=(0, 10))
         self.select_button = tk.Button(
@@ -126,7 +126,7 @@ class App:
         self.selected_files_label = tk.Label(
             files_frame,
             text="Ningún archivo seleccionado",
-            wraplength=450,
+            wraplength=600,
             justify=tk.LEFT,
         )
         self.selected_files_label.pack(side=tk.LEFT, padx=(10, 0))
@@ -136,7 +136,7 @@ class App:
         )
         files_config_frame.pack(fill=tk.X, pady=(0, 10))
 
-        origen_label = tk.Label(files_config_frame, text="Archivo Origen (Bodega):")
+        origen_label = tk.Label(files_config_frame, text="Archivo Bodega:")
         origen_label.grid(row=0, column=0, sticky="w", pady=(0, 5))
         self.origen_file_entry = tk.Entry(files_config_frame)
         self.origen_file_entry.insert(0, "bodegac.txt")
@@ -148,7 +148,7 @@ class App:
         )
         self.browse_origen_button.grid(row=0, column=2)
 
-        destino_label = tk.Label(files_config_frame, text="Archivo Destino (Local):")
+        destino_label = tk.Label(files_config_frame, text="Archivo Local:")
         destino_label.grid(row=1, column=0, sticky="w")
         self.destino_file_entry = tk.Entry(files_config_frame)
         self.destino_file_entry.insert(0, "local.txt")
@@ -164,7 +164,7 @@ class App:
 
         files_config_frame.grid_columnconfigure(1, weight=1)
 
-        action_frame = tk.Frame(main_frame)
+        action_frame = tk.LabelFrame(main_frame, text="3. Acciones", padx=10, pady=10)
         action_frame.pack(fill=tk.X, pady=(5, 10))
 
         self.process_button = tk.Button(
@@ -176,6 +176,18 @@ class App:
         )
         self.process_button.pack(
             side=tk.LEFT, expand=True, fill=tk.X, ipady=5, padx=(0, 5)
+        )
+
+        # --- NUEVO BOTÓN ---
+        self.add_purchase_button = tk.Button(
+            action_frame,
+            text="Agregar Compra a Bodega",
+            command=self.agregar_compra,
+            font=("Helvetica", 10, "bold"),
+            bg="#FFF2CC",
+        )
+        self.add_purchase_button.pack(
+            side=tk.LEFT, expand=True, fill=tk.X, ipady=5, padx=(5, 5)
         )
 
         self.list_zero_button = tk.Button(
@@ -242,17 +254,17 @@ class App:
             ):
                 messagebox.showwarning(
                     "Faltan Datos",
-                    "Por favor, complete todos los campos: archivos de transferencia, origen y destino.",
+                    "Por favor, complete todos los campos: archivos de entrada, bodega y local.",
                 )
                 return
             if archivo_origen_path == archivo_destino_path:
                 messagebox.showwarning(
                     "Error de Lógica",
-                    "El archivo de origen y destino no pueden ser el mismo.",
+                    "El archivo de bodega y local no pueden ser el mismo.",
                 )
                 return
 
-            print("--- Iniciando proceso de transferencia ---\n")
+            print("--- Iniciando proceso de TRANSFERENCIA ---\n")
 
             bodega_origen = leer_archivo(archivo_origen_path)
             bodega_destino = leer_archivo(archivo_destino_path)
@@ -278,18 +290,14 @@ class App:
                             nombre, bodega_origen
                         )
 
-                        # --- INICIO DE LA MODIFICACIÓN ---
-                        # Si el item no existe en el origen, se agrega con stock 0 para conservarlo.
                         if indice_origen is None:
                             print(
-                                f"INFO: Item '{nombre}' no encontrado en origen. Se agregará con stock 0."
+                                f"INFO: Item '{nombre}' no encontrado en bodega. Se agregará con stock 0."
                             )
                             bodega_origen.append(f"    {nombre.strip()} 0\n")
-                            # Se vuelve a buscar para obtener el nuevo índice y la cantidad (que es 0).
                             indice_origen, cant_origen = buscar_item_en_bodega(
                                 nombre, bodega_origen
                             )
-                        # --- FIN DE LA MODIFICACIÓN ---
 
                         if cant_origen < cant_a_transferir:
                             print(
@@ -303,7 +311,7 @@ class App:
 
                         nueva_cant_origen = cant_origen - cant_a_transferir
                         print(
-                            f"  - Origen ({os.path.basename(archivo_origen_path)}): {cant_origen} -> {nueva_cant_origen}"
+                            f"  - Bodega ({os.path.basename(archivo_origen_path)}): {cant_origen} -> {nueva_cant_origen}"
                         )
 
                         bodega_origen[indice_origen] = (
@@ -315,7 +323,7 @@ class App:
                         )
                         nueva_cant_destino = cant_destino + cant_a_transferir
                         print(
-                            f"  - Destino ({os.path.basename(archivo_destino_path)}): {cant_destino} -> {nueva_cant_destino}"
+                            f"  - Local ({os.path.basename(archivo_destino_path)}): {cant_destino} -> {nueva_cant_destino}"
                         )
 
                         if indice_destino is not None:
@@ -327,7 +335,7 @@ class App:
                                 f"    {nombre.strip()} {nueva_cant_destino}\n"
                             )
 
-            print("\n--- Consolidando archivo destino y guardando cambios ---")
+            print("\n--- Consolidando y guardando cambios ---")
             bodega_destino = eliminar_duplicados_bodega(bodega_destino)
 
             escribir_archivo(archivo_origen_path, bodega_origen)
@@ -345,6 +353,81 @@ class App:
         finally:
             sys.stdout = sys.__stdout__
 
+    # --- NUEVA FUNCIÓN ---
+    def agregar_compra(self):
+        """Lee los archivos seleccionados y agrega las cantidades al archivo de bodega."""
+        self.console_output.config(state="normal")
+        self.console_output.delete("1.0", tk.END)
+        self.console_output.config(state="disabled")
+
+        stdout_backup = sys.stdout
+        sys.stdout = self
+
+        try:
+            archivo_bodega_path = self.origen_file_entry.get()
+
+            if not self.archivos_a_analizar or not archivo_bodega_path:
+                messagebox.showwarning(
+                    "Faltan Datos",
+                    "Por favor, seleccione los archivos de compra y especifique el archivo de Bodega.",
+                )
+                return
+
+            print("--- Iniciando proceso de AGREGAR COMPRA ---\n")
+
+            bodega = leer_archivo(archivo_bodega_path)
+            if bodega is None:
+                return
+
+            for archivo in self.archivos_a_analizar:
+                print(
+                    f"\n--- Analizando archivo de compra: {os.path.basename(archivo)} ---"
+                )
+                lineas = leer_archivo(archivo)
+                if lineas is None:
+                    continue
+
+                for linea_numero, linea in enumerate(lineas, start=1):
+                    if linea.strip().lower().endswith("ok"):
+                        item_procesar = linea.strip()[:-2].strip()
+                        nombre, cant_a_agregar = procesar_item_archivo(
+                            item_procesar, linea_numero, os.path.basename(archivo)
+                        )
+                        if nombre is None or cant_a_agregar is None:
+                            continue
+
+                        indice, cant_existente = buscar_item_en_bodega(nombre, bodega)
+
+                        print(f"Agregando: {nombre} (Cantidad: {cant_a_agregar})")
+
+                        if indice is not None:
+                            nueva_cantidad = cant_existente + cant_a_agregar
+                            print(
+                                f"  - Bodega ({os.path.basename(archivo_bodega_path)}): {cant_existente} -> {nueva_cantidad}"
+                            )
+                            bodega[indice] = f"    {nombre.strip()} {nueva_cantidad}\n"
+                        else:
+                            print(
+                                f"  - Item nuevo en Bodega. Cantidad inicial: {cant_a_agregar}"
+                            )
+                            bodega.append(f"    {nombre.strip()} {cant_a_agregar}\n")
+
+            print("\n--- Consolidando bodega y guardando cambios ---")
+            bodega_actualizada = eliminar_duplicados_bodega(bodega)
+            escribir_archivo(archivo_bodega_path, bodega_actualizada)
+            print("\n¡Compra agregada y bodega actualizada correctamente!")
+            messagebox.showinfo(
+                "Proceso Completado",
+                "La compra se ha registrado en la bodega exitosamente.",
+            )
+
+        except Exception as e:
+            print(f"\n--- Ocurrió un error inesperado ---")
+            print(str(e))
+            messagebox.showerror("Error Inesperado", f"Ocurrió un error: {e}")
+        finally:
+            sys.stdout = sys.__stdout__
+
     def listar_items_cero(self):
         """Lee los archivos de inventario y lista los items con cantidad 0 en una nueva ventana."""
         archivo_origen_path = self.origen_file_entry.get()
@@ -352,8 +435,7 @@ class App:
 
         if not archivo_origen_path or not archivo_destino_path:
             messagebox.showwarning(
-                "Faltan Datos",
-                "Por favor, especifique los archivos de Origen y Destino.",
+                "Faltan Datos", "Por favor, especifique los archivos de Bodega y Local."
             )
             return
 

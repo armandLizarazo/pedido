@@ -7511,3 +7511,155 @@ Fecha de proceso: 2025-08-29 05:45:57
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-08-29 20:18:12
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 54
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  145 | Silicone Case Vivo Y20 / Y20S / Y11S Rojo 1 ok
+  146 | Silicone Case Xiaomi Redmi 12 Azulrey 1 ok
+  147 | Silicone Case Xiaomi Redmi 14C Rojo 1 ok
+  149 | Silicone Case Xiaomi Redmi Note 13 5G Lila 1 ok
+  187 | Cargador Samsung 45W Cabeza Negro 1 ok
+  215 | Silicone Case Samsung S24 Ultra Negro 1 ok
+  224 | Silicone Case Oppo A57 / A77 Fucsia 1 ok
+  231 | Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1 ok
+  235 | Silicone Case Apple Iphone 16 Pro Max Rojo 1 ok
+  237 | Silicone Case Huawei Y9 Prime Rojo 1 ok
+  239 | Silicone Case Samsung A32 4G Rojo 1 ok
+  240 | Forro Armadura Huawei Honor X6A / Play 9A Negro 1 ok
+  241 | Forro Armadura Huawei Honor X6A / Play 9A Rojo 1 ok
+  242 | Forro Armadura Huawei Honor X6A / Play 9A Azuloscuro 1 ok
+  243 | Silicone Case Motorola Moto E20 Rojo 1 ok
+  244 | Silicone Case Motorola Moto E20 Fucsia 1 ok
+  249 | Silicone Case Infinix Hot 40 Pro Negro 1 ok
+  252 | Silicone Case Samsung S24 Negro 1 ok
+  256 | Silicone Case Samsung A25 Rosa 1 ok
+  261 | Silicone Case Samsung A32 4G Azulclaro 1 ok
+  263 | Silicone Case Motorola Moto G14 Negro 1 ok
+  264 | Vidrio 5D Apple Iphone 13 Pro Max 5 ok
+  265 | Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 5 ok
+  266 | Forro Antichoque Motorola Moto G14 Caballero 4 ok
+  267 | Forro Antichoque Motorola Moto G14 Dama 3 ok
+  268 | Silicone Case Tecno Camon 40 Pro Rojo 1 ok
+  272 | Silicone Case Samsung S24 Rosa 1 ok
+  273 | Silicone Case Samsung S24 Fucsia 1 ok
+  275 | Silicone Case Samsung S24 Azulrey 1 ok
+  276 | Silicone Case Tecno Camon 40 Pro Palorosa 1 ok
+  277 | Silicone Case Tecno Camon 40 Pro Azulrey 1 ok
+  281 | Silicone Case Infinix Note 40 Pro Azulcielo 1 ok
+  290 | Memoria Kingstone Usb 16Gb 2 ok
+  291 | Memoria Kingstone Usb 8Gb 3 ok
+  292 | Silicone Case Oppo Reno 7 Vinotinto 1 ok
+  293 | Silicone Case Xiaomi Redmi 9A Morado 1 ok
+  294 | Manos Libres Samsung J5 Negro 5 ok
+  295 | Manos Libres Yoyos Ys-101 1 ok
+  296 | Manos Libres Yoyos Ys-102 1 ok
+  297 | Cable We Tc 5 ok
+  298 | Bluetooth Car Bt-X6 1 ok
+  299 | Bluetooth Car X6 1 ok
+  300 | Bluetooth Car Bt-350 1 ok
+  301 | Audifonos Bluetooth Cuellera Kin Kl-50 Morado 1 ok
+  302 | Audifonos Bluetooth Cuellera Kin Kl-50 Azuloscuro 1 ok
+  303 | Manos Libres Aibimy Tc Blanco 1 ok
+  304 | Silicone Case Vivo V50 Lite Vinotinto 1 ok
+  305 | Silicone Case Vivo V50 Lite Negro 1 ok
+  306 | Silicone Case Vivo V50 Lite Azuloscuro 1 ok
+  307 | Silicoen Case Vivo V50 Lite Rojo 1 ok
+  308 | Silicone Casw Vivo V50 Lite Lila 1 ok
+  309 | Forro Space Samsung S24 Fe 2 ok
+  310 | Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 1 ok
+  311 | Silicone Case Huawei Honor X6 / X6S Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-29 20:18:12
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   32 | Cargador Pc Lenovo Mini 3.25 1 ok
+   34 | Proyector Hy-300 2 Ram 2 ok
+   35 | Teclado Kb-502 Eco 2 ok
+   38 | Smart Watch Combo X8 2 ok
+   39 | Adaptador Hdmi2dvi 2 ok
+
+==================================================
+Fecha de proceso: 2025-08-29 20:18:12
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Pacha Oppo A54 1 ok
+    4 | Pacha Tecno Spark Go 2024 / 20 / 20c /Smart 8 / Hot 40i 2 ok
+    5 | Pacha Motorola Moto G14 / G54 1 ok
+    7 | Pacha Xiaomi Redmi 12 2 ok
+    8 | Pacha Xiaomi Redmi 14C / Redmi A4 1 ok
+    9 | Logica De Carga Samsung A25 1 ok
+   10 | Pacha Xiaomi Redmi 8 2 ok
+   11 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-29 20:18:12
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-30 06:32:42
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+   14 | # Pedido: pdcentro
+   15 | # Pedido: pdcentro
+   16 | # Pedido: pdcentro
+   17 | # Pedido: pdcentro
+   18 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-08-30 06:32:42
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-30 06:32:42
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-08-30 06:32:42
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
