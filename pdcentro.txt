@@ -217,9 +217,18 @@
     Forro Armadura Motorola Moto G35 Negro 1
     Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
     Forro Space Oppo Reno 13 5G 2
-    Forro Antichoque Oppo Reno 13 5G Dama 5
-    Forro Antichoque Oppo Reno 13 5G Caballero 5
-    Forro Armadura Oppo Reno 13 5G 2
+    Forro Antichoque Oppo Reno 13 5G Dama 5 ok
+    Forro Antichoque Oppo Reno 13 5G Caballero 5 ok
+    Forro Armadura Oppo Reno 13 5G Negro 1
+    Forro Armadura Oppo Reno 13 5G Rojo 1 ok
+    Silicone Case Oppo Reno 13 5G Fucsia 1 ok
+    Silicone Case Oppo Reno 13 5G Amarillo 1 ok
+    Silicone Case Oppo Reno 13 5G Rojo 1 ok
+    Silicone Case Oppo Reno 13 5G Lila 1 ok
+    Silicone Case Oppo Reno 13 5G Morado 1 ok
+    Silicone Case Oppo Reno 13 5G Morado 1 ok
+    Silicone Case Oppo Reno 13 5G Rosa 1 ok
+    Forro Space Oppo Reno 13 5G 2 ok
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Forro Space Moto Edge 60 Fusion 2
     Silicone Case Samsung A10 Blanco 1
@@ -230,7 +239,7 @@
     Forro Space Vivo Y04 2
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Vivo Y04 Caballero 5
-    Silicone Case Infinix Hot 40 Pro Lila 1
+    Silicone Case Infinix Hot 40 Pro Lila 1 ok
     Silicone Case Motorola Moto Edge 40 Negro 1
     Silicone Case Motorola Moto G9 Power Negro 1
     Vidrio Blindado Motorola Moto G9 Power 5
@@ -239,38 +248,42 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
-    Forro Lujo Ventana Apple Iphone 13 Pro Max Negro 1
-    Silicone Case Tecno Camon 40 Pro Fucsia 1
-    Forro Antichoque Oppo A78 4G Caballero 5
-    Forro Antichoque Oppo A78 4G Dama 3
+    Forro Lujo Ventana Apple Iphone 13 Pro Max Azul 1 ok
+    Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1 ok
+    Forro Lujo Ventana Apple Iphone 13 Negro 1 ok
+    Forro Lujo Ventana Apple Iphone 13 Cafe 1 ok
+    Forro Lujo Ventana Apple Iphone 11 
+    Silicone Case Tecno Camon 40 Pro Fucsia 1 ok
+    Forro Antichoque Oppo A78 4G Caballero 4 ok
+    Forro Antichoque Pin Oppo A78 4G 3 ok
     Silicone Case Samsung S24 Amarillo 1
     Forro Antichoque Xiaomi Redmi 12 Dama 4 ok
-    Forro Antichoque Infinix Hot 50 Pro Plus Dama 5
+    Forro Antichoque Infinix Hot 50 Pro Plus Dama 5 ok
     Silicone Case Infinix Hot 50 Pro Rojo 1
     Silicone Case Oppo A58 5G / A78 5G Rosa 1
-    Silicone Case Tecno Camon 30 4G Negro 1
+    Silicone Case Tecno Camon 30 4G Negro 1 ok
     Silicone Case Tecno Camon 40 Pro Negro 1
-    Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
+    Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1 ok
     Vidrio Antiespia Apple Iphone 11 / Xr 5
-    Forro Antichoque Infinix Note 50 Pro Caballero 5
-    Forro Antichoque Infinix Note 50 Pro Dama 1
+    Forro Antichoque Infinix Note 50 Pro Caballero 5 ok
+    Forro Antichoque Infinix Note 50 Pro Dama 1 ok
     Cable Magnetico 3 en 1 2
     Forro Antichoque Motorola Moto G05 Dama 3 ok
-    Forro Antichoque infinix Note 50S 4G Caballero 2
-    Forro Antichoque infinix Note 50S 4G Dama 5
-    Silicone Case Infinix Note 50s Negro 1
+    Forro Antichoque infinix Note 50S 4G Caballero 2 ok
+    Forro Antichoque infinix Note 50S 4G Dama 5 ok
+    Silicone Case Infinix Note 50s Negro 1 ok
     Silicone Case Infinix Note 50s Amarillo 1 ok
-    Silicone Case Infinix Note 50s Rojo 1
+    Silicone Case Infinix Note 50s Rojo 1 ok
     Silicone Case Infinix Note 50s Fucsia 1 ok
     Silicone Case Infinix Note 50s Lila 1 ok
     Silicone Case Infinix Note 50s Azulrey 1 ok
     Forro Space Infinix Note 50s 2
     Forro Space Samsung S20 Fe 2 ok
     Memoria Super Micro 32Gb 2 ok
-    Silicone Case Oppo Reno 12F Morado 1
+    Silicone Case Oppo Reno 12F Morado 1 ok
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Vivo Y30 / Y50 Rojo 1
-    Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
+    Silicone Case Vivo Y30 / Y50 Rojo 1 ok
+    Silicone Case Xiaomi Redmi Note 11 Azulclaro 1 ok
     Vidrio 5D Samsung A12 10 ok
     Vidrio 5D Samsung A21s 10 ok
     Cargador Samsung 25W Cabeza Blanco 2 ok
