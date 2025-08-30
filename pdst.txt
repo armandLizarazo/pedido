@@ -3,7 +3,7 @@
     Pacha Samsung A51 C/m 1
     Pacha Samsung A02S / A03 / A03S / A04E 1 ok
     Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ik
+    Pacha Xiaomi Redmi Note 12 1 ok
     Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
     Pacha Samsung A05 Original Usada 1 ok
     Pacha Motorola Moto G05 / G15 1 ok
