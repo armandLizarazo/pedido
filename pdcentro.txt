@@ -244,7 +244,7 @@
     Forro Antichoque Oppo A78 4G Caballero 5
     Forro Antichoque Oppo A78 4G Dama 3
     Silicone Case Samsung S24 Amarillo 1
-    Forro Antichoque Xiaomi Redmi 12 Dama 3
+    Forro Antichoque Xiaomi Redmi 12 Dama 4 ok
     Forro Antichoque Infinix Hot 50 Pro Plus Dama 5
     Silicone Case Infinix Hot 50 Pro Rojo 1
     Silicone Case Oppo A58 5G / A78 5G Rosa 1
@@ -255,21 +255,25 @@
     Forro Antichoque Infinix Note 50 Pro Caballero 5
     Forro Antichoque Infinix Note 50 Pro Dama 1
     Cable Magnetico 3 en 1 2
-    Forro Antichoque Motorola Moto G05 Dama 3
+    Forro Antichoque Motorola Moto G05 Dama 3 ok
     Forro Antichoque infinix Note 50S 4G Caballero 2
     Forro Antichoque infinix Note 50S 4G Dama 5
     Silicone Case Infinix Note 50s Negro 1
-    Silicone Case Infinix Note 50s Amarillo 1
+    Silicone Case Infinix Note 50s Amarillo 1 ok
     Silicone Case Infinix Note 50s Rojo 1
-    Silicone Case Infinix Note 50s Fucsia 1
-    Silicone Case Infinix Note 50s Lila 1
-    Silicone Case Infinix Note 50s Azulrey 1
+    Silicone Case Infinix Note 50s Fucsia 1 ok
+    Silicone Case Infinix Note 50s Lila 1 ok
+    Silicone Case Infinix Note 50s Azulrey 1 ok
     Forro Space Infinix Note 50s 2
-    Forro Space Samsung S20 Fe 1
-    Memoria Super Micro 32Gb 2
+    Forro Space Samsung S20 Fe 2 ok
+    Memoria Super Micro 32Gb 2 ok
     Silicone Case Oppo Reno 12F Morado 1
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Vivo Y30 / Y50 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
-    Vidrio 5D Samsung A12 5
-    Vidrio 5D Samsung A21s 5
+    Vidrio 5D Samsung A12 10 ok
+    Vidrio 5D Samsung A21s 10 ok
+    Cargador Samsung 25W Cabeza Blanco 2 ok
+    Cargador Samsung 45W Cabeza Blanco 2 ok
+    Vidrio Antiespia Apple Iphone 13 Pro Max 5 ok
+    
