@@ -870,3 +870,39 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-08-29 21:53:46,20250829215346,Cargador Apple 20W Con Cable,1,13000.00,45000.00,45000.00,32000.00,local.txt,Cliente General
 2025-08-29 21:53:46,20250829215346,Forro Space Apple Iphone 11,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
 2025-08-29 23:13:39,20250829231339,Sin Registro,1,40000.00,82000.00,82000.00,42000.00,local.txt,Armando
+2025-08-30 18:34:04,20250830183404,Servicio Tecnico Xiaomi Mi11T Revision,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General
+2025-08-30 18:37:18,20250830183718,Pacha Xiaomi Redmi 10,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General
+2025-08-30 18:38:05,20250830183805,Vidrio 5D Xiaomi Redmi 10,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General
+2025-08-30 18:39:47,20250830183947,Reproductor Tdt Krono Kr-365,2,40000.00,63000.00,126000.00,46000.00,local.txt,Cliente General
+2025-08-30 18:40:58,20250830184058,Pila Reloj Beston Cr-2025,2,800.00,5000.00,10000.00,8400.00,local.txt,Cliente General
+2025-08-30 18:41:24,20250830184124,Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-30 18:42:32,20250830184232,Cargador Samsung 45W Con Cable Negro,1,14000.00,55000.00,55000.00,41000.00,local.txt,Cliente General
+2025-08-30 18:42:59,20250830184259,Cargador Belkin Tc,1,8500.00,30000.00,30000.00,21500.00,local.txt,Cliente General
+2025-08-30 18:43:17,20250830184317,Vidrio 5D Apple Iphone 16 Pro,1,900.00,12000.00,12000.00,11100.00,local.txt,Cliente General
+2025-08-30 18:44:33,20250830184433,Silicone Case Samsung A36 Lila,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-30 18:44:33,20250830184433,Vidrio Blindado Samsung A36,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-30 18:44:33,20250830184433,Silicone Case Samsung A26 Azulrey,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-30 18:44:33,20250830184433,Vidrio Blindado Samsung A26,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General
+2025-08-30 18:45:08,20250830184508,Silicone Case Vivo Y31 / Y51 / Y53S Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-30 18:45:08,20250830184508,Vidrio Tortuga Samsung A12,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General
+2025-08-30 18:49:32,20250830184932,Celular de Segunda Redmi 9c Aabandonado 866378056846358/66,1,40000.00,150000.00,150000.00,110000.00,local.txt,Cliente General
+2025-08-30 18:49:32,20250830184932,Forro Antichoque Xiaomi Redmi 9C / 10A Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-30 19:02:38,20250830190238,Forro Armadura Samsung A16 Azuloscuro,1,6000.00,22000.00,22000.00,16000.00,local.txt,Cliente General
+2025-08-30 19:02:38,20250830190238,Vidrio 5D Samsung A16,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-30 19:07:40,20250830190740,Soporte Moto Espejo,1,12000.00,25000.00,25000.00,13000.00,local.txt,Cliente General
+2025-08-30 19:08:00,20250830190800,Cable Poder Grabadora,1,3000.00,12000.00,12000.00,9000.00,local.txt,Cliente General
+2025-08-30 19:13:06,20250830191306,Pacha Samsung A05 Original Usada,1,85000.00,135000.00,135000.00,50000.00,local.txt,Cliente General
+2025-08-30 19:13:06,20250830191306,Forro Antichoque Samsung A05 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General
+2025-08-30 19:13:19,20250830191319,Silicone Case Tecno Camon 40 Fucsia,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General
+2025-08-30 19:14:11,20250830191411,Recargas,1,13679.00,14500.00,14500.00,821.00,local.txt,Cliente General
+2025-08-30 19:18:42,20250830191842,Cable Lan 3M Cat 6,1,4000.00,15000.00,15000.00,11000.00,local.txt,Cliente General
+2025-08-30 19:29:34,20250830192934,Vidrio 5D Samsung A05,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-30 19:30:31,20250830193031,Pacha Oppo Realme C11 2021,1,35000.00,100000.00,100000.00,65000.00,local.txt,Cliente General
+2025-08-30 19:59:22,20250830195922,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General
+2025-08-30 20:00:06,20250830200006,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General
+2025-08-30 20:10:48,20250830201048,Servicio Tecnico Apple Despegar Bateria Iphone 7 Plus,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General
+2025-08-30 20:53:21,20250830205321,Vidrio 5D Apple Iphone 16 Pro,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General
+2025-08-30 21:07:24,20250830210724,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General
+2025-08-30 21:07:53,20250830210753,Forro Space Infinix Hot 50 Pro Plus,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General
+2025-08-30 21:10:11,20250830211011,Video Juego Xbox Caja Negra Fifa Street 2,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General
+2025-08-30 21:10:11,20250830211011,Video Juego Xbox Caja Negra Far Cry Evolution,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General
