@@ -7663,3 +7663,135 @@ Fecha de proceso: 2025-08-30 06:32:42
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-08-31 19:12:19
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 47
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+  221 | Forro Antichoque Oppo Reno 13 5G Dama 5 ok
+  222 | Forro Antichoque Oppo Reno 13 5G Caballero 5 ok
+  224 | Forro Armadura Oppo Reno 13 5G Rojo 1 ok
+  225 | Silicone Case Oppo Reno 13 5G Fucsia 1 ok
+  226 | Silicone Case Oppo Reno 13 5G Amarillo 1 ok
+  227 | Silicone Case Oppo Reno 13 5G Rojo 1 ok
+  228 | Silicone Case Oppo Reno 13 5G Lila 1 ok
+  229 | Silicone Case Oppo Reno 13 5G Morado 1 ok
+  230 | Silicone Case Oppo Reno 13 5G Morado 1 ok
+  231 | Silicone Case Oppo Reno 13 5G Rosa 1 ok
+  232 | Forro Space Oppo Reno 13 5G 2 ok
+  243 | Silicone Case Infinix Hot 40 Pro Lila 1 ok
+  252 | Forro Lujo Ventana Apple Iphone 13 Pro Max Azul 1 ok
+  253 | Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1 ok
+  254 | Forro Lujo Ventana Apple Iphone 13 Negro 1 ok
+  255 | Forro Lujo Ventana Apple Iphone 13 Cafe 1 ok
+  257 | Silicone Case Tecno Camon 40 Pro Fucsia 1 ok
+  258 | Forro Antichoque Oppo A78 4G Caballero 4 ok
+  259 | Forro Antichoque Pin Oppo A78 4G 3 ok
+  261 | Forro Antichoque Xiaomi Redmi 12 Dama 4 ok
+  262 | Forro Antichoque Infinix Hot 50 Pro Plus Dama 5 ok
+  265 | Silicone Case Tecno Camon 30 4G Negro 1 ok
+  267 | Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1 ok
+  269 | Forro Antichoque Infinix Note 50 Pro Caballero 5 ok
+  270 | Forro Antichoque Infinix Note 50 Pro Dama 1 ok
+  272 | Forro Antichoque Motorola Moto G05 Dama 3 ok
+  273 | Forro Antichoque infinix Note 50S 4G Caballero 2 ok
+  274 | Forro Antichoque infinix Note 50S 4G Dama 5 ok
+  275 | Silicone Case Infinix Note 50s Negro 1 ok
+  276 | Silicone Case Infinix Note 50s Amarillo 1 ok
+  277 | Silicone Case Infinix Note 50s Rojo 1 ok
+  278 | Silicone Case Infinix Note 50s Fucsia 1 ok
+  279 | Silicone Case Infinix Note 50s Lila 1 ok
+  280 | Silicone Case Infinix Note 50s Azulrey 1 ok
+  282 | Forro Space Samsung S20 Fe 2 ok
+  283 | Memoria Super Micro 32Gb 2 ok
+  284 | Silicone Case Oppo Reno 12F Morado 1 ok
+  286 | Silicone Case Vivo Y30 / Y50 Rojo 1 ok
+  287 | Silicone Case Xiaomi Redmi Note 11 Azulclaro 1 ok
+  288 | Vidrio 5D Samsung A12 10 ok
+  289 | Vidrio 5D Samsung A21s 10 ok
+  290 | Cargador Samsung 25W Cabeza Blanco 2 ok
+  291 | Cargador Samsung 45W Cabeza Blanco 2 ok
+  292 | Vidrio Antiespia Apple Iphone 13 Pro Max 5 ok
+  293 | Forro Space Infinix Hot 50 Pro Plus 4 ok
+  294 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-08-31 19:12:19
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-08-31 19:12:19
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    5 | Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+    6 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    7 | Pacha Xiaomi Redmi Note 12 1 ok
+    8 | Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
+    9 | Pacha Samsung A05 Original Usada 1 ok
+   10 | Pacha Motorola Moto G05 / G15 1 ok
+
+==================================================
+Fecha de proceso: 2025-08-31 19:12:19
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-01 06:30:06
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-09-01 06:30:06
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-09-01 06:30:06
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    8 | Pacha Motorola Moto G14 / G54 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-01 06:30:06
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

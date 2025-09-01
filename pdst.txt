@@ -1,10 +1,7 @@
     Pin de Carga Oppo A12 / A15 5
     Pacha Huawei Y9A Full 1
     Pacha Samsung A51 C/m 1
-    Pacha Samsung A02S / A03 / A03S / A04E 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
-    Pacha Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
-    Pacha Samsung A05 Original Usada 1 ok
-    Pacha Motorola Moto G05 / G15 1 ok
-    Pacha Motorola Moto G14 / G54 1 ok
+    Logica de Carga Xiaomi Redmi Note 13 4G 1
+    Pacha Apple Iphone X Gx 1
+    Pacha Huawei Nova Y70 1
+    Pacha Xiaomi Redmi Note 12 1

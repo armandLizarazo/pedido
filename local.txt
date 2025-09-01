@@ -109,7 +109,7 @@
     Boton Huella Xiaomi Poco X3 1
     Cable Apple Iphone 4 2
     Cable Apple Tc A Tc 60w Aguja 2
-    Cable Apple Tc Ligthning 2
+    Cable Apple Tc Ligthning 3
     Cable Apple Tc Ligthning 2M 2
     Cable Apple Tc a Tc 1
     Cable Apple Usb Ligthning 2
@@ -312,6 +312,7 @@
     Forro Antichoque Cadena Huawei Honor X6A / Play 9A 1
     Forro Antichoque Cadena Huawei Honor X8A 2
     Forro Antichoque Cadena Infinix Hot 50 Pro Plus 1
+    Forro Antichoque Cadena Infinix Hot 50 Pro Plus 2
     Forro Antichoque Cadena Motorola Moto G04 0
     Forro Antichoque Cadena Motorola Moto G20 / G30 1
     Forro Antichoque Cadena Oppo A57 / A77 1
@@ -334,6 +335,7 @@
     Forro Antichoque Cadena Xiaomi Redmi 9A 1
     Forro Antichoque Cadena Xiaomi Redmi Note 11 2
     Forro Antichoque Cadena Xiaomi Redmi Note 9 2
+    Forro Antichoque Cadena infinix Note 50S 4G 2
     Forro Antichoque Huawei Honor Magic 6 Lite Caballero 9
     Forro Antichoque Huawei Honor Magic 6 Lite Dama 2
     Forro Antichoque Huawei Honor X6 / X6s Caballero 3
@@ -356,6 +358,7 @@
     Forro Antichoque Infinix Hot 50 Pro Caballero 3
     Forro Antichoque Infinix Hot 50 Pro Dama 5
     Forro Antichoque Infinix Hot 50 Pro Plus Caballero 4
+    Forro Antichoque Infinix Hot 50 Pro Plus Dama 3
     Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 4
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 4
     Forro Antichoque Infinix Note 40 4G Caballero 5
@@ -364,6 +367,7 @@
     Forro Antichoque Infinix Note 40 Pro 4G Dama 4
     Forro Antichoque Infinix Note 50 4G Caballero 3
     Forro Antichoque Infinix Note 50 4G Dama 3
+    Forro Antichoque Infinix Note 50 Pro Dama 1
     Forro Antichoque Llavero Samsung A25 2
     Forro Antichoque Llavero Xiaomi Redmi 12C 1
     Forro Antichoque Lujo Tecno Spark 20 Pro Plus Caballero 3
@@ -377,8 +381,10 @@
     Forro Antichoque Motorola Moto G04 / G24 Dama 6
     Forro Antichoque Motorola Moto G04 Dama 1
     Forro Antichoque Motorola Moto G05 Caballero 4
-    Forro Antichoque Motorola Moto G05 Dama 2
+    Forro Antichoque Motorola Moto G05 Dama 5
     Forro Antichoque Motorola Moto G05 Dama Cadena 2
+    Forro Antichoque Motorola Moto G14 Caballero 4
+    Forro Antichoque Motorola Moto G14 Dama 3
     Forro Antichoque Motorola Moto G15 Dama 4
     Forro Antichoque Motorola Moto G15 Dama Cadena 3
     Forro Antichoque Motorola Moto G15 Dama Pin 2
@@ -404,7 +410,7 @@
     Forro Antichoque Oppo A57 / A77 Dama 3
     Forro Antichoque Oppo A58 4G Caballero 5
     Forro Antichoque Oppo A58 4G Dama 3
-    Forro Antichoque Oppo A78 4G Caballero 0
+    Forro Antichoque Oppo A78 4G Caballero 4
     Forro Antichoque Oppo A80 Caballero 5
     Forro Antichoque Oppo A80 Dama 2
     Forro Antichoque Oppo A80 Dama Llevero 1
@@ -535,7 +541,8 @@
     Forro Antichoque infinix Hot 50 4G Caballero 1
     Forro Antichoque infinix Hot 50 4G Dama 1
     Forro Antichoque infinix Hot 50 5G Dama 1
-    Forro Antichoque infinix Note 50S 4G Caballero 4
+    Forro Antichoque infinix Note 50S 4G Caballero 6
+    Forro Antichoque infinix Note 50S 4G Dama 4
     Forro Aramdura Motorola Moto G24 / G04 Ab Negro 1
     Forro Armadura Apple Iphone 11 Rojo 1
     Forro Armadura Huawei Honor X8A Azulrey 1
@@ -845,7 +852,7 @@
     Manos Libres Samsung Akg 7
     Manos Libres Samsung Akg Tc 1
     Manos Libres Samsung J5 Blanco 4
-    Manos Libres Samsung J5 Negro 3
+    Manos Libres Samsung J5 Negro 4
     Manos Libres Speak Tc Negro 0
     Manos Libres Tc Blanco 2
     Manos Libres Tc En L Yoyos Aguamarina 1
@@ -894,7 +901,7 @@
     Pacha Motorola Moto E5 Play 0
     Pacha Motorola Moto G20 0
     Pacha Motorola Moto G20 / G30 2
-    Pacha Motorola Moto G22 / E32 1
+    Pacha Motorola Moto G22 / E32 2
     Pacha Motorola Moto G8 Play / One Macro 1
     Pacha Motorola Moto G8 Plus 1
     Pacha Motorola Moto G8 Power Lite 1
@@ -958,6 +965,7 @@
     Parlante Harvic Pr-801 0
     Parlante Lazzer Lz-2890 1
     Parlante Lazzer Lz-2894 1
+    Parlante Lazzer Lz-2896 0
     Parlante Lazzer Lz-915 1
     Parlante Mini 1
     Parlante Ns-8100Bt Vintage 1
@@ -1014,17 +1022,18 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 3
+    Recargas 1
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
     Reproductor Fly Tv Box 64-4 1
     Reproductor Onn 4K 1
+    Reproductor Onn Hd 1
     Reproductor Roku Express Hd 1
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 1
     Reproductor Tdt Hd-939 0
     Reproductor Tdt Krono 1
-    Reproductor Tdt Krono Kr-365 0
+    Reproductor Tdt Krono Kr-365 1
     Reproductor Tdt Tg 1
     Reproductor Tv Stick Magis 2
     Rollo Cinta Led Eco 0
@@ -1205,7 +1214,7 @@
     Silicone Case Huawei Y9 Prime Lila 1
     Silicone Case Huawei Y9 Prime Morado 1
     Silicone Case Huawei Y9 Prime Negro 1
-    Silicone Case Huawei Y9 Prime Rojo 0
+    Silicone Case Huawei Y9 Prime Rojo 1
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9 Prime Verde 0
     Silicone Case Huawei Y9 Prime Verdemilitar 1
@@ -1276,6 +1285,13 @@
     Silicone Case Infinix Note 50 Pro Morado 1
     Silicone Case Infinix Note 50 Pro Negro 1
     Silicone Case Infinix Note 50 Pro Rojo 1
+    Silicone Case Infinix Note 50s Amarillo 1
+    Silicone Case Infinix Note 50s Azulrey 1
+    Silicone Case Infinix Note 50s Blanco 1
+    Silicone Case Infinix Note 50s Fucsia 1
+    Silicone Case Infinix Note 50s Lila 1
+    Silicone Case Infinix Note 50s Morado 1
+    Silicone Case Infinix Note 50s Rojo 1
     Silicone Case Iphone 11 Ab Lila 0
     Silicone Case Iphone 11 Ab Morado 0
     Silicone Case Iphone 11 Morado 0
@@ -1304,6 +1320,7 @@
     Silicone Case Motorol Moto G24 Rojo 0
     Silicone Case Motorola Moto E13 Fucsia 1
     Silicone Case Motorola Moto E20 Amarillo 1
+    Silicone Case Motorola Moto E20 Fucsia 1
     Silicone Case Motorola Moto E20 Morado 1
     Silicone Case Motorola Moto E20 Negro 1
     Silicone Case Motorola Moto E20 Rojo 1
@@ -1326,6 +1343,7 @@
     Silicone Case Motorola Moto Edge 40 Neo Fucsia 1
     Silicone Case Motorola Moto Edge 40 Neo Rojo 1
     Silicone Case Motorola Moto Edge 40 Neo Rosa 1
+    Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1
     Silicone Case Motorola Moto Edge 60 Fusion Lila 1
     Silicone Case Motorola Moto Edge 60 Fusion Rojo 2
     Silicone Case Motorola Moto G04 Azulrey 0
@@ -1339,6 +1357,7 @@
     Silicone Case Motorola Moto G05 Rosa 1
     Silicone Case Motorola Moto G05 Verdemilitar 1
     Silicone Case Motorola Moto G14 0
+    Silicone Case Motorola Moto G14 Negro 1
     Silicone Case Motorola Moto G15 Azulclaro 1
     Silicone Case Motorola Moto G15 Lila 1
     Silicone Case Motorola Moto G15 Negro 1
@@ -1534,7 +1553,7 @@
     Silicone Case Samsung A25 Lila 1
     Silicone Case Samsung A25 Morado 1
     Silicone Case Samsung A25 Rojo 1
-    Silicone Case Samsung A25 Rosa 0
+    Silicone Case Samsung A25 Rosa 1
     Silicone Case Samsung A26 Amarillo 2
     Silicone Case Samsung A26 Azulrey 0
     Silicone Case Samsung A26 Fucsia 1
@@ -1954,7 +1973,7 @@
     Silicone Case Xioami Redmi Note 12S Negro 1
     Silicone Case Zte Blade A54 Amarillo 0
     Silicone Case Zte Blade A54 Rojo 2
-    Simcard Claro 3
+    Simcard Claro 6
     Simcard Movistar 2
     Simcard Tigo 27
     Simcard Virgin 6
@@ -2056,7 +2075,7 @@
     Vidrio 5D Samsung A05 13
     Vidrio 5D Samsung A05S 5
     Vidrio 5D Samsung A10 / A10s 4
-    Vidrio 5D Samsung A12 3
+    Vidrio 5D Samsung A12 5
     Vidrio 5D Samsung A21S 0
     Vidrio 5D Samsung A22 5G 7
     Vidrio 5D Samsung A24 4
@@ -2198,5 +2217,3 @@
     Visor Camara Xiaomi Redmi Note 10 Pro 1
     Visor Camara Xiaomi Redmi Note 11 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
-    Video Juego Xbox Caja Negra Fifa Street 2 0
-    Video Juego Xbox Caja Negra Far Cry Evolution 0
