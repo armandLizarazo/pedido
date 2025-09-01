@@ -1,0 +1,5 @@
+#Ignorar Carpetas
+qrs/
+facturas/
+#Ignorar Archivos
+*.PNG
