@@ -6,3 +6,4 @@
     Pacha Apple Iphone X Gx 1 ok
     Pacha Huawei Nova Y70 1 ok
     Pacha Xiaomi Redmi Note 12 1 ok
+    Pacha Xiaomi Redmi A1 / A2 1 ok
