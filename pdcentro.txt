@@ -249,5 +249,5 @@
     Manos Libres Yoyos Ys-102 2 ok
     Silicone Case Samsung A22 4G Negro 1
     Vidrio 5D Samsung A22 4G 5 ok
-    Manos Libres Apple Ligthning Directo 3 ok
-    Manos Libres Apple Ligthning Bluetooth 3 ok
+    Manos Libres Apple Ligthning Directo 2 ok
+    Manos Libres Apple Ligthning Bluetooth 2 ok
