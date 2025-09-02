@@ -7795,3 +7795,44 @@ Fecha de proceso: 2025-09-01 06:30:06
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-01 13:20:56
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+  248 | Vidrio 5D Samsung A20s 5 ok
+  249 | Manos Libres Yoyos Ys-102 2 ok
+  251 | Vidrio 5D Samsung A22 4G 5 ok
+  252 | Manos Libres Apple Ligthning Directo 2 ok
+  253 | Manos Libres Apple Ligthning Bluetooth 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-01 13:20:56
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-01 13:20:56
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Logica de Carga Xiaomi Redmi Note 13 4G 1 ok
+    6 | Pacha Apple Iphone X Gx 1 ok
+    7 | Pacha Huawei Nova Y70 1 ok
+    8 | Pacha Xiaomi Redmi Note 12 1 ok
+    9 | Pacha Xiaomi Redmi A1 / A2 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-01 13:20:56
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

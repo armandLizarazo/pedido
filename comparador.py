@@ -153,6 +153,49 @@ def search():
         tree_bodega.insert("", tk.END, values=(search_term, "No encontrado"))
 
 
+def normalize_files():
+    """
+    NUEVA FUNCIÓN: Compara ambos archivos y agrega los items faltantes en cada uno con cantidad 0.
+    """
+    global data_bodega, data_local
+
+    bodega_descs = {item[0] for item in data_bodega}
+    local_descs = {item[0] for item in data_local}
+
+    missing_in_local = bodega_descs - local_descs
+    missing_in_bodega = local_descs - bodega_descs
+
+    items_added = len(missing_in_local) + len(missing_in_bodega)
+
+    if items_added > 0:
+        confirm = messagebox.askyesno(
+            "Confirmar Normalización",
+            f"Se encontraron {items_added} items para sincronizar.\n"
+            "¿Desea agregar los items faltantes a cada archivo con cantidad 0?",
+        )
+        if confirm:
+            for desc in missing_in_local:
+                data_local.append((desc, 0))
+            for desc in missing_in_bodega:
+                data_bodega.append((desc, 0))
+
+            update_file("bodegac.txt", data_bodega)
+            update_file("local.txt", data_local)
+
+            data_bodega = parse_file("bodegac.txt")
+            data_local = parse_file("local.txt")
+            search()
+
+            messagebox.showinfo(
+                "Éxito", "Los archivos han sido normalizados correctamente."
+            )
+    else:
+        messagebox.showinfo(
+            "Normalización",
+            "Los inventarios ya están sincronizados. No se requieren cambios.",
+        )
+
+
 def transfer_quantity(direction):
     """Mueve una cantidad de un item entre bodega y local."""
     search_term = entry_search.get().strip()
@@ -228,7 +271,7 @@ def transfer_quantity(direction):
 
 
 def adjust_quantity(target, action):
-    """NUEVA FUNCIÓN: Agrega o quita unidades de un item en el archivo de origen."""
+    """Agrega o quita unidades de un item en el archivo de origen."""
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
@@ -293,7 +336,7 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("800x700")
+root.geometry("850x700")  # Aumentado el ancho para el nuevo botón
 root.configure(bg="#f0f0f0")
 
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
@@ -344,6 +387,20 @@ button_refresh = tk.Button(
     borderwidth=0,
 )
 button_refresh.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+# --- NUEVO BOTÓN ---
+button_normalize = tk.Button(
+    frame_search,
+    text="Normalizar",
+    command=normalize_files,
+    font=("Helvetica", 11, "bold"),
+    bg="#ffc107",
+    fg="black",
+    relief="flat",
+    padx=12,
+    activebackground="#e0a800",
+)
+button_normalize.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
 listbox_autocomplete = tk.Listbox(
     root, font=("Helvetica", 11), relief="solid", borderwidth=1
 )
@@ -398,8 +455,6 @@ entry_adjust_qty = tk.Entry(
     bg="white",
 )
 entry_adjust_qty.pack(ipady=2, padx=1, pady=1)
-
-# MODIFICADO: Colores de botones de ajuste para mejor legibilidad
 btn_add_bodega = tk.Button(
     frame_adjust,
     text="+ Bodega",

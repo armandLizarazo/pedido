@@ -1,9 +1,8 @@
+# Pedido: pdst
+# Pedido: pdst
+# Pedido: pdst
     Pin de Carga Oppo A12 / A15 5
     Pacha Huawei Y9A Full 1
     Pacha Samsung A51 C/m 1
-    Logica de Carga Xiaomi Redmi Note 13 4G 1 ok
-    Logica de Carga Samsung A05 1
-    Pacha Apple Iphone X Gx 1 ok
-    Pacha Huawei Nova Y70 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
-    Pacha Xiaomi Redmi A1 / A2 1 ok
+    Pacha Oppo Realme C11 2021 1
+    Pacha Samsung A31 S/m 1

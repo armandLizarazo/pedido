@@ -1,4 +1,12 @@
 # Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Audifonos Bluetooth Orejas 1
@@ -245,9 +253,13 @@
     Cable Magnetico 3 en 1 2
     Forro Space Infinix Note 50s 2
     Silicone Case Samsung A03 Core Rojo 1
-    Vidrio 5D Samsung A20s 5 ok
-    Manos Libres Yoyos Ys-102 2 ok
     Silicone Case Samsung A22 4G Negro 1
-    Vidrio 5D Samsung A22 4G 5 ok
-    Manos Libres Apple Ligthning Directo 2 ok
-    Manos Libres Apple Ligthning Bluetooth 2 ok
+    Forro Antichoque Xiaomi Redmi 13 Caballero 2
+    Forro Antichoque Xiaomi Redmi 13 Dama 3
+    Forro Space Xiaomi Redmi 13 2
+    Vidrio Antiespia Apple Iphone 15 Pro 5
+    Silicone Case Samsung A55 Vinotinto 1
+    Forro Space Oppo A57 / A77 1
+    Silicone Case Samsung A54 Rosa 1
+    Silicone Case Xiaomi Redmi 13 Negro 1
+    Forro Space Oppo Realme 13 Pro 2

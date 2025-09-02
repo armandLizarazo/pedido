@@ -1,3 +1,5 @@
+# Pedido: pdpr
+# Pedido: pdpr
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
@@ -37,3 +39,5 @@
     Memoria Musica Regueton 3
     Memoria Musica Vicente Antonio 1
     Reproductor Onn 4K 1
+    Cable Poder Grabadora 5
+    Memoria Musica Rock en Ingles 1
