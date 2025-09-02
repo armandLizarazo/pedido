@@ -31,13 +31,14 @@
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Lapiz Optico Recargable 2
     Forro Pc 16 Pulgadas 2
-    Control Tv Universal 5
+    Control Tv Universal 5 ok
     Cargador Pc 8 Pines Caja Naranja 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Memoria Musica Catolica 2 ok
-    Memoria Musica Ryan Castro Blessed 2 ok
-    Memoria Musica Regueton 3 ok
+    Memoria Musica Reggaeton Clasico 1 ok
+    Memoria Musica Reggaeton 3 ok
     Memoria Musica Vicente Antonio 1 ok
-    Reproductor Onn 4K 1
-    Cable Poder Grabadora 5
-    Memoria Musica Rock en Ingles 1
+    Barbera Vgr V-660 2 ok
+    Reproductor Onn 4K 1 ok
+    Cable Poder Grabadora 5 ok
+    Memoria Musica Rock en Ingles 1 ok
