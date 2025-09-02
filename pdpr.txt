@@ -34,10 +34,10 @@
     Control Tv Universal 5
     Cargador Pc 8 Pines Caja Naranja 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
-    Memoria Musica Catolica 2
-    Memoria Musica Ryan Castro Blessed 2
-    Memoria Musica Regueton 3
-    Memoria Musica Vicente Antonio 1
+    Memoria Musica Catolica 2 ok
+    Memoria Musica Ryan Castro Blessed 2 ok
+    Memoria Musica Regueton 3 ok
+    Memoria Musica Vicente Antonio 1 ok
     Reproductor Onn 4K 1
     Cable Poder Grabadora 5
     Memoria Musica Rock en Ingles 1
