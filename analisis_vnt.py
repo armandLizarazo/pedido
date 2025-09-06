@@ -125,6 +125,7 @@ class AnalizadorVentasApp(tk.Tk):
         self.total_ganancia_var = tk.StringVar(value="Ganancia Total: ---")
 
         self._crear_widgets()
+        self.cargar_archivo_por_defecto()
 
     def _crear_widgets(self):
         main_frame = ttk.Frame(self, padding="10")
@@ -285,6 +286,13 @@ class AnalizadorVentasApp(tk.Tk):
         self.lbl_archivo.config(text=f"Archivo: {self.ruta_archivo.split('/')[-1]}")
         if self.datos_originales is not None:
             messagebox.showinfo("Éxito", "Archivo cargado correctamente.")
+            self.actualizar_lista_productos()
+
+    def cargar_archivo_por_defecto(self):
+        """Carga el archivo CSV por defecto al iniciar la aplicación."""
+        self.datos_originales = cargar_datos(self.ruta_archivo)
+        if self.datos_originales is not None:
+            self.lbl_archivo.config(text=f"Archivo: {self.ruta_archivo.split('/')[-1]}")
             self.actualizar_lista_productos()
 
     def actualizar_lista_productos(self, event=None):

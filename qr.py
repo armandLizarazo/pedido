@@ -32,6 +32,8 @@ class AppGeneradorQR:
         self.entry_datos = ttk.Entry(main_frame, width=50, font=("Helvetica", 10))
         self.entry_datos.pack(pady=(0, 15), ipady=4)
         self.entry_datos.insert(0, "Escribe aquí tu información")
+        self.entry_datos.bind("<KeyRelease>", self.actualizar_etiqueta)
+
 
         # 2. Entrada para etiqueta de texto
         ttk.Label(
@@ -69,6 +71,11 @@ class AppGeneradorQR:
             main_frame, text="Guardar Imagen", state="disabled", command=self.guardar_qr
         )
         self.boton_guardar.pack(pady=10)
+
+    def actualizar_etiqueta(self, event):
+        """Actualiza la etiqueta con el contenido del campo de datos."""
+        self.entry_etiqueta.delete(0, tk.END)
+        self.entry_etiqueta.insert(0, self.entry_datos.get())
 
     def generar_qr(self):
         """Genera y muestra una vista previa del código QR, con etiqueta si se proporciona."""

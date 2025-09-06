@@ -7836,3 +7836,81 @@ Fecha de proceso: 2025-09-01 13:20:56
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-03 08:19:03
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 26
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+   10 | # Pedido: pdcentro
+   11 | # Pedido: pdcentro
+   12 | # Pedido: pdcentro
+   13 | # Pedido: pdcentro
+  261 | Forro Antichoque Xiaomi Redmi 13 Caballero 3 ok
+  262 | Forro Antichoque Xiaomi Redmi 13 Dama 4 ok
+  263 | Forro Space Xiaomi Redmi 13 2 ok
+  264 | Vidrio Antiespia Apple Iphone 15 / 15 Pro 5 ok
+  265 | Vidrio Antiespia Samsung A35 / A55 5 ok
+  266 | Vidrio 5D Samsung A35 / A55 5 ok
+  267 | Vidrio Tortuga Samsung A35 / A55 5 ok
+  268 | Vidrio Blindado Samsung A35 / A55 5 ok
+  269 | Silicone Case Samsung A55 Vinotinto 1 ok
+  270 | Forro Space Oppo A57 / A77 2 ok
+  271 | Silicone Case Samsung A54 Rosa 1 ok
+  272 | Silicone Case Xiaomi Redmi 13 Negro 1 ok
+  274 | Cargador Socket 48W 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-03 08:19:03
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+   36 | Control Tv Universal 5 ok
+   37 | Cargador Pc 8 Pines Caja Naranja 1 ok
+   39 | Memoria Musica Catolica 2 ok
+   40 | Memoria Musica Reggaeton Clasico 1 ok
+   41 | Memoria Musica Reggaeton 3 ok
+   42 | Memoria Musica Vicente Antonio 1 ok
+   43 | Barbera Vgr V-660 2 ok
+   44 | Reproductor Onn 4K 1 ok
+   45 | Cable Poder Grabadora 5 ok
+   46 | Memoria Musica Rock en Ingles 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-03 08:19:03
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    7 | Pacha Oppo Realme C11 2021 1 ok
+    8 | Pacha Samsung A31 S/m 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-03 08:19:03
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
