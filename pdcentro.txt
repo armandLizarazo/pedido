@@ -255,8 +255,8 @@
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A22 4G Negro 1
     Forro Space Oppo Realme 13 Pro 2
-    Forro Space Xiaomi Redmi 12 1
-    Forro Space Xiaomi Redmi Note 13 5G 3
+    Forro Space Xiaomi Redmi 12 1 ok
+    Forro Space Xiaomi Redmi Note 13 5G 3 ok
     Silicone Case Vivo Y27 Negro 1
     Vidrio 5D Motorola Moto E6s / E6i 5
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
@@ -264,6 +264,6 @@
     Manos Libres Samsung Akg Tc 2
     Silicone Case Apple Iphone Xr Azulrey 1
     Silicone Case Oppo Realme C55 Negro 1
-    Silicone Case Samsung A54 Rosa 1
+    Silicone Case Samsung A54 Rosa 1 ok
     Silicone Case Samsung A55 Verdementa 1
     Silicone Case Tecno Camon 30S Pro Fucsia 1
