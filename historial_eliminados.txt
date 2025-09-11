@@ -7914,3 +7914,140 @@ Fecha de proceso: 2025-09-03 08:19:03
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-07 05:36:28
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+    8 | # Pedido: pdcentro
+    9 | # Pedido: pdcentro
+  258 | Forro Space Xiaomi Redmi 12 1 ok
+  259 | Forro Space Xiaomi Redmi Note 13 5G 3 ok
+  267 | Silicone Case Samsung A54 Rosa 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-07 05:36:28
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 16
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+    7 | # Pedido: pdpr
+   28 | Reproductor Tdt Krono Kr-365 3 ok
+   34 | Proyector 110 Hy-300 Con Juegos 1 ok
+   39 | Forro Pc 14 Pulgadas 1 ok
+   40 | Estetica Cepillo Secador Remington Aguacate 1 ok
+   42 | Control Gamer Sony Ps2 4 ok
+   43 | Barbera Vgr V-660 1 ok
+   44 | Cargador Pc Asus 3.42 1 ok
+   45 | Cargador Pc Tc 65W 1 ok
+   48 | Reproductor Onn Hd 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-07 05:36:28
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+   11 | Pacha Samsung A13 / M13 / M23 2 ok
+   13 | Pacha Oppo Reno 7 4G 2 ok
+   14 | Pacha Samsung A14 5G 1 ok
+   15 | Pacha Xiaomi Redmi 13C 1 ok
+   16 | Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
+   17 | Tapa Oppo Realme C55 Aguamarina 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-07 05:36:28
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-11 00:38:24
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-09-11 00:38:24
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+    5 | # Pedido: pdpr
+    6 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-09-11 00:38:24
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+    7 | # Pedido: pdst
+    8 | # Pedido: pdst
+    9 | # Pedido: pdst
+   10 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-09-11 00:38:24
+Archivo procesado: np.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: np
+    2 | # Pedido: np
+    3 | # Pedido: np
+    4 | # Pedido: np

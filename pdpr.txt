@@ -1,10 +1,3 @@
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
@@ -25,24 +18,21 @@
     Cable Microsoft Xbox Caja Negra 1
     Control Gamer X3 4
     Pilas Recargables Beston AAA x4 1
-    Reproductor Tdt Krono Kr-365 3 ok
     Parlante Pc D-2L Mini Teatro 1
     Cable Lan 2M Cat 6 5
     Rollo Cinta Led Eco 5
     Cable Disco Duro V8 3.0 Corto 2
     Cargador Cabeza Cubo Eco 5
-    Proyector 110 Hy-300 Con Juegos 1 ok
     Cable Vga 15M 2
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Lapiz Optico Recargable 2
     Forro Pc 16 Pulgadas 2
-    Forro Pc 14 Pulgadas 1 ok
-    Estetica Cepillo Secador Remington Aguacate 1 ok
     Adaptador Usb Lan 2.0 2
-    Control Gamer Sony Ps2 4 ok
-    Barbera Vgr V-660 1 ok
-    Cargador Pc Asus 3.42 1 ok
-    Cargador Pc Tc 65W 1 ok
     Control Gamer Microsoft Pc / 360 Alambrico 1
     Proyector Hy-300 2 Ram 1
-    Reproductor Onn Hd 2 ok
+    Adaptador Hub Tc Usb X3 2
+    Base Refrigerante Wit-400 1
+    Camara 3 Antenas 5
+    Consola + Tv box 1
+    Consola R-36S 2
+    Control Gamer Gatillos W11+ 3

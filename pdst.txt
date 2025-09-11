@@ -1,17 +1,14 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
     Pin de Carga Oppo A12 / A15 5
     Pacha Huawei Y9A Full 1
     Pacha Samsung A51 C/m 1
-    Pacha Samsung A13 / M13 / M23 2 ok
     Pacha Oppo Realme C55 2
-    Pacha Oppo Reno 7 4G 2 ok
-    Pacha Samsung A14 5G 1 ok
-    Pacha Xiaomi Redmi 13C 1 ok
-    Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
-    Tapa Oppo Realme C55 Aguamarina 1 ok
+    Pacha Motorola Moto E20 1
+    Pacha Motorola Moto G04 / G24 1
+    Pacha Samsung A02S / A03 / A03S / A04E 2
+    Pacha Vivo Y21 / Y21S 1
+    Pacha Xiaomi Redmi 12C 1
+    Bandeja Sim Samsung A20s Negro 1
+    Bandeja Sim Samsung A10S 1
+    Botones Xiaomi Redmi Note 8 1
+    Flex de Power Xiaomi Redmi Note 8 1
+    Bateria Xiaomi Redmi Note 8 1

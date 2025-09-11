@@ -1941,6 +1941,7 @@ if __name__ == "__main__":
     root.mainloop()
 
 
+# ```python:caja.py (Calculadora de Efectivo):cash_calculator_script
 import tkinter as tk
 from tkinter import ttk
 
