@@ -205,11 +205,11 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Antiespia Apple Iphone 16E 5
     Forro Antichoque Motorola Moto G24
-    Forro Space Tecno Camon 30s 1
+    Forro Space Tecno Camon 30s 1 ok
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Oppo A5 Pro 4G / 5G Lila
-    Forro Armadura Motorola Moto G55 Negro 1
-    Forro Armadura Motorola Moto G55 Rojo 1
+    Forro Armadura Motorola Moto G55 Negro 1 ok
+    Forro Armadura Motorola Moto G55 Rojo 1 ok
     Forro Armadura Motorola Moto G35 Negro 1
     Cargador Pluying Royal 38W 2
     Silicone Case Samsung A10 Fucsia 1
@@ -221,7 +221,7 @@
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Forro Space Moto Edge 60 Fusion 2
     Silicone Case Samsung A10 Blanco 1
-    Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 5
+    Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 2 ok
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
     Silicone Case Samsung A10S Negro 1
     Silicone Case Vivo Y04 Fucsia 1
@@ -261,5 +261,5 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Cargador We Tc 33W 5 ok
     Forro Armadura Huawei Honor X8B Negro 1
-    Forro Armadura Samsung A16 Negro 1
-    Forro Space Samsung A16 1
+    Forro Armadura Samsung A16 Negro 1 ok
+    Forro Space Samsung A16 2 ok
