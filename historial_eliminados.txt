@@ -8051,3 +8051,150 @@ Línea  | Contenido
     2 | # Pedido: np
     3 | # Pedido: np
     4 | # Pedido: np
+
+==================================================
+Fecha de proceso: 2025-09-13 06:22:48
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   67 | Manos Libres Inears Eco 1 ok
+  208 | Forro Space Tecno Camon 30s 1 ok
+  211 | Forro Armadura Motorola Moto G55 Negro 1 ok
+  212 | Forro Armadura Motorola Moto G55 Rojo 1 ok
+  224 | Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 2 ok
+  258 | Cable Tc A Tc Eco 3 ok
+  259 | Cargador Motorola 50W Solo Cabeza 1 ok
+  260 | Cargador Motorola 67W Solo Cabeza 1 ok
+  262 | Cargador We Tc 33W 5 ok
+  264 | Forro Armadura Samsung A16 Negro 1 ok
+  265 | Forro Space Samsung A16 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 06:22:48
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Base Refrigerante 1 Ventilador 1 ok
+   10 | Rollo Cinta Led Con Bluetooth 2 ok
+   29 | Lapiz Optico Recargable 2 ok
+   30 | Lapiz Optico Recargable Combo 1 ok
+   36 | Camara 3 Antenas 2 ok
+   38 | Consola R-36S 2 ok
+   39 | Consola Pandora 1 ok
+   41 | Memory Card Ps2 2 ok
+   42 | Parillera 3 en 1 4 ok
+   43 | Parlante Ducha 2 ok
+   44 | Hydrolavadora Recargable 2 ok
+   45 | Reproductor Onn Eco 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 06:22:48
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Huawei Y9A Full 1 ok
+    3 | Pacha Samsung A51 C/m 2 ok
+    4 | Pacha Oppo Realme C55 2 ok
+    5 | Pacha Motorola Moto E20 1 ok
+    6 | Pacha Motorola Moto G04 / G24 1 ok
+    7 | Pacha Samsung A02S / A03 / A03S / A04E 2 ok
+    8 | Pacha Vivo Y21 / Y21S 1 ok
+    9 | Pacha Xiaomi Redmi 12C 1 ok
+   10 | Bandeja Sim Samsung A20s Negro 1 ok
+   11 | Bandeja Sim Samsung A10S 1 ok
+   12 | Botones Xiaomi Redmi Note 8 1 ok
+   13 | Flex de Power Xiaomi Redmi Note 8 1 ok
+   14 | Bateria Xiaomi Redmi Note 8 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 06:22:48
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-13 06:58:18
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+    2 | # Pedido: pdcentro
+    3 | # Pedido: pdcentro
+    4 | # Pedido: pdcentro
+    5 | # Pedido: pdcentro
+    6 | # Pedido: pdcentro
+    7 | # Pedido: pdcentro
+
+==================================================
+Fecha de proceso: 2025-09-13 06:58:18
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdpr
+    2 | # Pedido: pdpr
+    3 | # Pedido: pdpr
+    4 | # Pedido: pdpr
+
+==================================================
+Fecha de proceso: 2025-09-13 06:58:18
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    2 | # Pedido: pdst
+    3 | # Pedido: pdst
+    4 | # Pedido: pdst
+    5 | # Pedido: pdst
+    6 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-09-13 06:58:18
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-13 07:00:05
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-13 07:00:05
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-09-13 07:00:05
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+
+==================================================
+Fecha de proceso: 2025-09-13 07:00:05
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
