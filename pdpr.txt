@@ -23,15 +23,18 @@
     Cable Disco Duro V8 3.0 Corto 2
     Cargador Cabeza Cubo Eco 5
     Cable Vga 15M 2
+    Cable Vga 1M 2 ok
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Forro Pc 16 Pulgadas 2
-    Adaptador Usb Lan 2.0 2
+    Adaptador Usb Lan 2.0 2 ok
     Proyector Hy-300 2 Ram 1
-    Adaptador Hub Tc Usb X3 2
+    Adaptador Hub Tc Usb X4 2 ok
     Base Refrigerante Wit-400 1
     Consola + Tv box 1
     Control Gamer Gatillos W11+ 3
-    Audifonos Bluetooth M25 3
-    Adaptador Hub 4 Puertos 2.0 2
-    Adaptador Hdmi2Vga 2
-    Cable Auxiliar 3 A 1 3M 3
+    Control Gamer Gatillos Z-06 1 ok
+    Audifonos Bluetooth M25 3 ok
+    Adaptador Hub 4 Puertos 2.0 2 ok
+    Adaptador Hdmi2Vga 2 ok
+    Cable Auxiliar 3 A 1 3M 3 ok
+    Spliter Lan Fino 4 ok
