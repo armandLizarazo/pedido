@@ -8198,3 +8198,55 @@ Fecha de proceso: 2025-09-13 07:00:05
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-13 14:24:54
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+  256 | Manos Libres We Tc 2 ok
+  257 | Silicone Case Huawei Y9 2019 / Y8S Rosa 1 ok
+  258 | Silicone Case Oppo Reno 7 Lila 1 ok
+  260 | Vidrio 5D Motorola Moto G04 / Moto G24 10 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 14:24:54
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   26 | Cable Vga 1M 2 ok
+   29 | Adaptador Usb Lan 2.0 2 ok
+   31 | Adaptador Hub Tc Usb X4 2 ok
+   35 | Control Gamer Gatillos Z-06 1 ok
+   36 | Audifonos Bluetooth M25 3 ok
+   37 | Adaptador Hub 4 Puertos 2.0 2 ok
+   38 | Adaptador Hdmi2Vga 2 ok
+   39 | Cable Auxiliar 3 A 1 3M 3 ok
+   40 | Spliter Lan Fino 4 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 14:24:54
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Bateria Xiaomi Redmi 9 1 ok
+    3 | Pacha Samsung A30s C/m 1 ok
+    4 | Pacha Xiaomi Redmi Note 12 Amoled 1 ok
+    5 | Tapa Xiaomi Redmi Note 12 Pro 4G 1 ok
+    6 | Visor Camara Xiaomi Redmi Note 12 Pro 4G 1 ok
+    7 | Pin de Carga Huawei Y5 II 5 ok
+
+==================================================
+Fecha de proceso: 2025-09-13 14:24:54
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

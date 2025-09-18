@@ -54,6 +54,7 @@ class GestorCaja:
     def __init__(self):
         self.archivo_registros = "caja_registros.csv"
         self.archivo_movimientos = "movimientos_caja.csv"
+        self.archivo_historial_conteos = "conteo_caja_historial.csv"
         self.crear_archivos_si_no_existen()
 
     def crear_archivos_si_no_existen(self):
@@ -77,6 +78,12 @@ class GestorCaja:
             with open(self.archivo_movimientos, "w", encoding="utf-8", newline="") as f:
                 writer = csv.writer(f)
                 writer.writerow(["Timestamp", "Tipo", "Descripcion", "Monto"])
+        if not os.path.exists(self.archivo_historial_conteos):
+            with open(
+                self.archivo_historial_conteos, "w", encoding="utf-8", newline=""
+            ) as f:
+                writer = csv.writer(f)
+                writer.writerow(["Timestamp", "TotalContado", "DetalleConteo"])
 
     def iniciar_dia(self, dinero_inicial, base):
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -106,6 +113,32 @@ class GestorCaja:
             return False, "El monto debe ser un número válido."
         except Exception as e:
             return False, f"Error al registrar movimiento: {e}"
+
+    def guardar_conteo_historial(self, total, detalle):
+        try:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            with open(
+                self.archivo_historial_conteos, "a", encoding="utf-8", newline=""
+            ) as f:
+                writer = csv.writer(f)
+                writer.writerow([timestamp, total, detalle])
+            return True, "Conteo guardado en el historial."
+        except Exception as e:
+            return False, f"Error al guardar conteo: {e}"
+
+    def obtener_historial_conteos(self):
+        try:
+            with open(self.archivo_historial_conteos, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                next(reader, None)  # Skip header
+                return list(reader)
+        except FileNotFoundError:
+            return []
+        except Exception as e:
+            messagebox.showerror(
+                "Error de Lectura", f"No se pudo leer el historial de conteos: {e}"
+            )
+            return []
 
     def obtener_datos_dia(self, fecha_str):
         try:
@@ -204,6 +237,65 @@ class GestorInventario:
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
+    def obtener_pagos_electronicos_del_dia(self, fecha_str):
+        total_electronico = 0.0
+        ventas_procesadas = set()  # <-- SOLUCIÓN 1: Para no duplicar ventas
+        try:
+            with open(self.archivo_ventas, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                next(reader, None)  # Omitir encabezado
+                for row in reader:
+                    if not row or not row[0].startswith(fecha_str):
+                        continue
+
+                    try:
+                        id_venta = row[1]
+                        if id_venta in ventas_procesadas:
+                            continue  # Ya procesamos los pagos de esta venta
+
+                        medio_pago_str = row[10]
+
+                        # --- SOLUCIÓN 2: Lógica para manejar registros nuevos y antiguos ---
+                        if ":" in medio_pago_str:  # Formato nuevo (ej: "Nequi: $10.00")
+                            pagos = medio_pago_str.split(", ")
+                            for pago in pagos:
+                                if "Efectivo" not in pago:
+                                    monto_str_part = pago.split("$")[-1].strip()
+                                    monto_limpio = re.sub(
+                                        r"[^\d,.]", "", monto_str_part
+                                    )
+                                    if not monto_limpio:
+                                        continue
+
+                                    if "," in monto_limpio and (
+                                        "." not in monto_limpio
+                                        or monto_limpio.rfind(",")
+                                        > monto_limpio.rfind(".")
+                                    ):
+                                        monto_procesado = monto_limpio.replace(
+                                            ".", ""
+                                        ).replace(",", ".")
+                                    else:
+                                        monto_procesado = monto_limpio.replace(",", "")
+
+                                    if monto_procesado:
+                                        total_electronico += float(monto_procesado)
+
+                        else:  # Formato antiguo (ej: "Nequi")
+                            if medio_pago_str.strip() not in ["Efectivo", "N/A", ""]:
+                                # En el formato antiguo, todo el total de la venta era electrónico
+                                total_venta_item = float(row[6])
+                                total_electronico += total_venta_item
+                        # --- FIN DE LA SOLUCIÓN ---
+
+                        ventas_procesadas.add(id_venta)
+
+                    except (ValueError, IndexError, TypeError):
+                        continue
+            return total_electronico
+        except FileNotFoundError:
+            return 0.0
+
     def obtener_ventas_del_dia(self, fecha_str):
         total_ventas = 0.0
         try:
@@ -239,12 +331,15 @@ class GestorInventario:
                         "Ganancia",
                         "ArchivoOrigen",
                         "Cliente",
+                        "MedioPago",
                     ]
                 )
         if not os.path.exists(self.directorio_facturas):
             os.makedirs(self.directorio_facturas)
 
-    def procesar_item_venta(self, id_venta, timestamp, item_details, cliente):
+    def procesar_item_venta(
+        self, id_venta, timestamp, item_details, cliente, medio_pago
+    ):
         try:
             cantidad_vendida = item_details["cantidad"]
             precio_venta = item_details["precio"]
@@ -274,6 +369,7 @@ class GestorInventario:
                 f"{ganancia_item:.2f}",
                 archivo_origen,
                 cliente,
+                medio_pago,
             ]
 
             with open(self.archivo_ventas, "a", encoding="utf-8", newline="") as f:
@@ -284,7 +380,14 @@ class GestorInventario:
             return False, f"Error procesando item {item_details['desc']}: {e}"
 
     def generar_factura_consolidada_txt(
-        self, id_venta, timestamp, carrito, total_general, cliente, cliente_contacto
+        self,
+        id_venta,
+        timestamp,
+        carrito,
+        total_general,
+        cliente,
+        cliente_contacto,
+        pagos,
     ):
         nombre_factura = f"Factura_POS_{id_venta}.txt"
         ruta_factura = os.path.join(self.directorio_facturas, nombre_factura)
@@ -316,6 +419,13 @@ class GestorInventario:
 
             f.write("=" * ancho_factura + "\n")
             f.write(f"{'TOTAL:':>28} {f'${total_general:10.2f}':>11}\n")
+
+            if pagos:
+                f.write("-" * ancho_factura + "\n")
+                f.write("Medios de Pago:\n")
+                for pago in pagos:
+                    f.write(f"  {pago['metodo']:<15} ${pago['monto']:>10,.2f}\n")
+
             f.write("\n" * 2)
             f.write("¡Gracias por su compra!".center(ancho_factura) + "\n")
             f.write("\n" * 2)
@@ -323,7 +433,14 @@ class GestorInventario:
         return ruta_factura
 
     def generar_factura_consolidada_pdf(
-        self, id_venta, timestamp, carrito, total_general, cliente, cliente_contacto
+        self,
+        id_venta,
+        timestamp,
+        carrito,
+        total_general,
+        cliente,
+        cliente_contacto,
+        pagos,
     ):
         nombre_factura_pdf = f"Factura_PDF_{id_venta}.pdf"
         ruta_factura = os.path.join(self.directorio_facturas, nombre_factura_pdf)
@@ -419,6 +536,14 @@ class GestorInventario:
         story.append(Spacer(1, 0.1 * inch))
 
         story.append(Paragraph(f"TOTAL: ${total_general:,.2f}", styles["RightBold"]))
+
+        if pagos:
+            story.append(Spacer(1, 0.1 * inch))
+            story.append(Paragraph("<b>Medios de Pago:</b>", styles["Left"]))
+            for pago in pagos:
+                pago_texto = f"{pago['metodo']}: ${pago['monto']:,.2f}"
+                story.append(Paragraph(pago_texto, styles["Left"]))
+
         story.append(Spacer(1, 0.2 * inch))
         story.append(Paragraph("¡Gracias por su compra!", styles["CenterBold"]))
 
@@ -606,13 +731,14 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v3.8 - Versión Estable")
-        master.geometry("1100x700")
+        master.title("Gestor de Inventario y Ventas v4.1 - Acceso Rápido")
+        master.geometry("1200x750")
         self.style = ttk.Style()
         self.style.theme_use("clam")
         self.gestor = GestorInventario()
         self.gestor_caja = GestorCaja()
         self.carrito = []
+        self.conteo_actual_caja = {}
 
         if not TKCALENDAR_AVAILABLE:
             messagebox.showwarning(
@@ -638,6 +764,7 @@ class InventarioGUI:
         self.populate_sales_treeview()
         self.master.after(100, lambda: self.add_placeholder(None))
         self.cargar_estado_caja()
+        self.actualizar_estado_botones_venta()
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
@@ -657,11 +784,27 @@ class InventarioGUI:
             top_frame, text=f"Archivo: {self.gestor.archivo_inventario}"
         )
         self.lbl_archivo.pack(side=tk.LEFT, padx=5)
+
+        # --- MEJORA: Botones de acceso rápido ---
         ttk.Button(
-            top_frame, text="Cambiar Archivo", command=self.cambiar_archivo
-        ).pack(side=tk.LEFT, padx=5)
+            top_frame,
+            text="Cargar Bodega C",
+            command=lambda: self.cambiar_archivo_rapido("bodegac.txt"),
+        ).pack(side=tk.LEFT, padx=(10, 5))
+        ttk.Button(
+            top_frame,
+            text="Cargar Local",
+            command=lambda: self.cambiar_archivo_rapido("local.txt"),
+        ).pack(side=tk.LEFT, padx=(0, 5))
+        ttk.Button(top_frame, text="Buscar Otro...", command=self.cambiar_archivo).pack(
+            side=tk.LEFT, padx=(0, 5)
+        )
+        # --- FIN DE LA MEJORA ---
+
         self.status_label_inv = ttk.Label(top_frame, text="Listo.", anchor=tk.E)
-        self.status_label_inv.pack(side=tk.RIGHT, padx=5)
+        self.status_label_inv.pack(
+            side=tk.RIGHT, padx=5, fill=tk.X, expand=True
+        )  # Ajuste de layout
 
         ttk.Label(filter_frame, text="Filtrar por palabra clave:").pack(
             side=tk.LEFT, padx=5
@@ -747,12 +890,13 @@ class InventarioGUI:
             background="green",
             font=("Helvetica", 10, "bold"),
         )
-        ttk.Button(
+        self.btn_agregar_venta = ttk.Button(
             venta_group,
             text="AGREGAR A VENTA",
             command=self.agregar_a_venta,
             style="Add.TButton",
-        ).pack(ipady=5, fill=tk.X)
+        )
+        self.btn_agregar_venta.pack(ipady=5, fill=tk.X)
         self.btn_ver_carrito = ttk.Button(
             venta_group,
             text="Ver Carrito (0)",
@@ -773,56 +917,77 @@ class InventarioGUI:
         historial_frame = ttk.Frame(self.ventas_tab)
         historial_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
 
-        ttk.Label(filter_frame, text="Desde:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        # Contenedor para filtros en línea
+        linea_1_filtros = ttk.Frame(filter_frame)
+        linea_1_filtros.pack(fill=tk.X)
+        linea_2_filtros = ttk.Frame(filter_frame)
+        linea_2_filtros.pack(fill=tk.X, pady=(5, 0))
+
+        ttk.Label(linea_1_filtros, text="Desde:").pack(side=tk.LEFT, padx=(0, 5))
         if TKCALENDAR_AVAILABLE:
             self.filtro_fecha_desde = DateEntry(
-                filter_frame,
+                linea_1_filtros,
                 width=12,
                 background="darkblue",
                 foreground="white",
                 borderwidth=2,
                 date_pattern="y-mm-dd",
             )
-            self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10))
             self.filtro_fecha_desde.delete(0, "end")
         else:
-            self.filtro_fecha_desde = ttk.Entry(filter_frame)
-            self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_desde = ttk.Entry(linea_1_filtros)
+            self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10))
 
-        ttk.Label(filter_frame, text="Hasta:").pack(side=tk.LEFT, padx=(0, 5), pady=5)
+        ttk.Label(linea_1_filtros, text="Hasta:").pack(side=tk.LEFT, padx=(0, 5))
         if TKCALENDAR_AVAILABLE:
             self.filtro_fecha_hasta = DateEntry(
-                filter_frame,
+                linea_1_filtros,
                 width=12,
                 background="darkblue",
                 foreground="white",
                 borderwidth=2,
                 date_pattern="y-mm-dd",
             )
-            self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10))
             self.filtro_fecha_hasta.delete(0, "end")
         else:
-            self.filtro_fecha_hasta = ttk.Entry(filter_frame)
-            self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+            self.filtro_fecha_hasta = ttk.Entry(linea_1_filtros)
+            self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10))
 
-        ttk.Label(filter_frame, text="Descripción o ID Venta:").pack(
-            side=tk.LEFT, padx=(10, 5), pady=5
+        ttk.Label(linea_1_filtros, text="Descripción o ID Venta:").pack(
+            side=tk.LEFT, padx=(10, 5)
         )
-        self.filtro_desc_venta = ttk.Entry(filter_frame, width=30)
-        self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10), pady=5)
+        self.filtro_desc_venta = ttk.Entry(linea_1_filtros, width=30)
+        self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10))
+
+        # --- NUEVO FILTRO DE PAGO ELECTRÓNICO ---
+        self.filtro_pago_electronico_var = tk.BooleanVar()
+        self.filtro_pago_electronico_chk = ttk.Checkbutton(
+            linea_1_filtros,
+            text="Mostrar solo pagos electrónicos",
+            variable=self.filtro_pago_electronico_var,
+            command=self.populate_sales_treeview,
+        )
+        self.filtro_pago_electronico_chk.pack(side=tk.LEFT, padx=15)
+
         ttk.Button(
-            filter_frame, text="Filtrar Ventas", command=self.populate_sales_treeview
-        ).pack(side=tk.LEFT, padx=10, pady=5)
+            linea_2_filtros,
+            text="Filtrar Ventas",
+            command=self.populate_sales_treeview,
+        ).pack(side=tk.LEFT, padx=10)
         ttk.Button(
-            filter_frame, text="Mostrar Todo", command=self.limpiar_filtros_ventas
-        ).pack(side=tk.LEFT, padx=5, pady=5)
+            linea_2_filtros,
+            text="Mostrar Todo",
+            command=self.limpiar_filtros_ventas,
+        ).pack(side=tk.LEFT, padx=5)
         self.btn_ver_recibo = ttk.Button(
-            filter_frame,
+            linea_2_filtros,
             text="Ver Recibo (.txt)",
             command=self.abrir_recibo_txt,
             state="disabled",
         )
-        self.btn_ver_recibo.pack(side=tk.LEFT, padx=10, pady=5)
+        self.btn_ver_recibo.pack(side=tk.LEFT, padx=10)
 
         self.lbl_total_items = ttk.Label(
             analisis_frame, text="Items Vendidos: 0", font=("Helvetica", 10, "bold")
@@ -852,6 +1017,7 @@ class InventarioGUI:
             "Ganancia",
             "Origen",
             "Cliente",
+            "MedioPago",
         )
         self.sales_tree = ttk.Treeview(
             historial_frame, columns=columnas, show="headings"
@@ -912,6 +1078,14 @@ class InventarioGUI:
 
         # Invertir la dirección del orden para el próximo clic
         self.sales_last_sort_reverse = not self.sales_last_sort_reverse
+
+    def actualizar_estado_botones_venta(self):
+        """Habilita o deshabilita el botón de venta según el archivo de inventario actual."""
+        es_local = os.path.basename(self.gestor.archivo_inventario) == "local.txt"
+        estado = "normal" if es_local else "disabled"
+        # Se usa hasattr para evitar errores si el botón aún no ha sido creado.
+        if hasattr(self, "btn_agregar_venta"):
+            self.btn_agregar_venta.config(state=estado)
 
     # --- Widgets de Cuadre de Caja ---
     def crear_widgets_caja(self):
@@ -1004,6 +1178,9 @@ class InventarioGUI:
         ttk.Button(
             dinero_real_frame, text="Contar...", command=self.abrir_ventana_conteo_caja
         ).pack(side=tk.LEFT, padx=(5, 0))
+        ttk.Button(
+            dinero_real_frame, text="Historial", command=self.ver_historial_conteos
+        ).pack(side=tk.LEFT, padx=(5, 0))
 
         btn_cierre_frame = ttk.Frame(cierre_frame)
         btn_cierre_frame.grid(row=2, column=0, columnspan=2, pady=10)
@@ -1060,13 +1237,13 @@ class InventarioGUI:
         main_frame.pack(fill=tk.BOTH, expand=True)
 
         denominaciones_billetes = {
-            "Billetes de $100.000:": 100000,
-            "Billetes de $50.000:": 50000,
-            "Billetes de $20.000:": 20000,
-            "Billetes de $10.000:": 10000,
-            "Billetes de $5.000:": 5000,
-            "Billetes de $2.000:": 2000,
-            "Billetes de $1.000:": 1000,
+            100000: "Billetes de $100.000:",
+            50000: "Billetes de $50.000:",
+            20000: "Billetes de $20.000:",
+            10000: "Billetes de $10.000:",
+            5000: "Billetes de $5.000:",
+            2000: "Billetes de $2.000:",
+            1000: "Billetes de $1.000:",
         }
 
         entries = {}
@@ -1074,7 +1251,7 @@ class InventarioGUI:
 
         def actualizar_totales(event=None):
             total = 0
-            for label_text, value in denominaciones_billetes.items():
+            for value, label_text in denominaciones_billetes.items():
                 try:
                     cantidad = int(entries[value].get() or 0)
                     subtotal = cantidad * value
@@ -1093,7 +1270,7 @@ class InventarioGUI:
             return total
 
         row = 0
-        for label_text, value in denominaciones_billetes.items():
+        for value, label_text in denominaciones_billetes.items():
             ttk.Label(main_frame, text=label_text).grid(
                 row=row, column=0, sticky="w", pady=4
             )
@@ -1130,17 +1307,78 @@ class InventarioGUI:
         total_general_label.grid(row=row, column=0, columnspan=3, pady=5)
         row += 1
 
+        # Poblar con valores guardados en la sesión
+        for value, entry in entries.items():
+            if value in self.conteo_actual_caja:
+                entry.insert(0, self.conteo_actual_caja[value])
+        actualizar_totales()
+
         def guardar_y_cerrar():
+            # Guardar en diccionario de sesión
+            self.conteo_actual_caja.clear()
+            detalle_dict = {}
+            for value, entry in entries.items():
+                cantidad_str = entry.get() or "0"
+                if value != "monedas":
+                    if int(cantidad_str) > 0:
+                        detalle_dict[value] = int(cantidad_str)
+                self.conteo_actual_caja[value] = cantidad_str
+
+            monedas_val = self.conteo_actual_caja.get("monedas", "0")
+            if float(monedas_val) > 0:
+                detalle_dict["monedas"] = float(monedas_val)
+
+            # Guardar en archivo de historial
             total_final = actualizar_totales()
+            detalle_str = ", ".join(
+                [f"${k:,.0f}: {v}" for k, v in detalle_dict.items()]
+            )
+            self.gestor_caja.guardar_conteo_historial(total_final, detalle_str)
+
+            # Actualizar GUI principal
             self.dinero_real_entry.config(state="normal")
             self.dinero_real_entry.delete(0, tk.END)
             self.dinero_real_entry.insert(0, f"{total_final:.2f}")
             self.dinero_real_entry.config(state="readonly")
             win_conteo.destroy()
 
-        ttk.Button(main_frame, text="Guardar Total", command=guardar_y_cerrar).grid(
+        ttk.Button(main_frame, text="Guardar Conteo", command=guardar_y_cerrar).grid(
             row=row, column=0, columnspan=3, pady=10, ipady=5
         )
+
+    def ver_historial_conteos(self):
+        win_hist = tk.Toplevel(self.master)
+        win_hist.title("Historial de Conteos de Caja")
+        win_hist.geometry("700x450")
+        win_hist.grab_set()
+
+        frame = ttk.Frame(win_hist, padding="10")
+        frame.pack(fill=tk.BOTH, expand=True)
+
+        tree = ttk.Treeview(
+            frame, columns=("Timestamp", "Total", "Detalle"), show="headings"
+        )
+        tree.heading("Timestamp", text="Fecha y Hora")
+        tree.heading("Total", text="Total Contado")
+        tree.heading("Detalle", text="Detalle del Conteo")
+        tree.column("Timestamp", width=150, anchor=tk.W)
+        tree.column("Total", width=120, anchor=tk.E)
+        tree.column("Detalle", width=400, anchor=tk.W)
+
+        scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=tree.yview)
+        tree.configure(yscrollcommand=scrollbar.set)
+
+        tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+
+        historial = self.gestor_caja.obtener_historial_conteos()
+        for row in reversed(historial):  # Mostrar el más reciente primero
+            try:
+                if len(row) >= 3:
+                    total_formateado = f"${float(row[1]):,.2f}"
+                    tree.insert("", tk.END, values=(row[0], total_formateado, row[2]))
+            except (ValueError, IndexError):
+                continue
 
     def cargar_estado_caja(self):
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -1168,6 +1406,7 @@ class InventarioGUI:
 
         success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
         if success:
+            self.conteo_actual_caja.clear()  # Limpiar conteo al iniciar nuevo día
             messagebox.showinfo("Éxito", msg)
             self.caja_inicial_entry.config(state="disabled")
             self.caja_base_entry.config(state="disabled")
@@ -1212,16 +1451,26 @@ class InventarioGUI:
 
     def _ejecutar_logica_cuadre(self):
         try:
-            pagos_electronicos = float(self.pagos_electronicos_entry.get() or 0)
+            # El dinero real sigue viniendo del conteo manual
             dinero_real = float(self.dinero_real_entry.get() or 0)
         except ValueError:
             messagebox.showerror(
-                "Error", "Los valores para el cierre deben ser números."
+                "Error", "El valor de dinero real en caja debe ser un número."
             )
             return None
 
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+
+        # --- CAMBIO CLAVE: Recalcular totales desde los registros para mayor precisión ---
         total_ventas_dia = self.gestor.obtener_ventas_del_dia(fecha_hoy)
+        pagos_electronicos = self.gestor.obtener_pagos_electronicos_del_dia(fecha_hoy)
+
+        # Actualizar la GUI con el valor recalculado y ponerlo como solo lectura
+        self.pagos_electronicos_entry.config(state="normal")
+        self.pagos_electronicos_entry.delete(0, tk.END)
+        self.pagos_electronicos_entry.insert(0, f"{pagos_electronicos:.2f}")
+        self.pagos_electronicos_entry.config(state="readonly")
+        # --- FIN DEL CAMBIO ---
 
         resumen, msg = self.gestor_caja.calcular_cuadre(
             fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia
@@ -1321,6 +1570,7 @@ class InventarioGUI:
         desde_str = self.filtro_fecha_desde.get()
         hasta_str = self.filtro_fecha_hasta.get()
         filtro_texto = self.filtro_desc_venta.get().lower()
+        mostrar_solo_electronicos = self.filtro_pago_electronico_var.get()
 
         total_items, costo_total, total_ventas, total_ganancia = 0, 0.0, 0.0, 0.0
 
@@ -1328,12 +1578,14 @@ class InventarioGUI:
             venta = list(venta_original)
             if len(venta) < 8:
                 continue
-            if len(venta) == 9:
-                venta.insert(1, "N/A")
             if len(venta) == 8:
                 venta.insert(1, "N/A")
                 venta.append("N/A")
-            if len(venta) != 10:
+            elif len(venta) == 9:
+                venta.insert(1, "N/A")
+            if len(venta) == 10:
+                venta.append("N/A")
+            if len(venta) != 11:
                 continue
 
             fecha_valida = True
@@ -1366,6 +1618,13 @@ class InventarioGUI:
             ):
                 continue
 
+            if mostrar_solo_electronicos:
+                medio_pago = venta[10]
+                pagos = medio_pago.split(", ")
+                es_electronico = any("Efectivo" not in p for p in pagos if p.strip())
+                if not es_electronico:
+                    continue
+
             try:
                 total_items += int(venta[3])
                 costo_total += int(venta[3]) * float(venta[4])
@@ -1391,6 +1650,7 @@ class InventarioGUI:
         self.filtro_fecha_desde.delete(0, tk.END)
         self.filtro_fecha_hasta.delete(0, tk.END)
         self.filtro_desc_venta.delete(0, tk.END)
+        self.filtro_pago_electronico_var.set(False)
         self.populate_sales_treeview()
 
     def _get_selected_item_values(self):
@@ -1572,6 +1832,13 @@ class InventarioGUI:
             )
 
     def agregar_a_venta(self):
+        if os.path.basename(self.gestor.archivo_inventario) != "local.txt":
+            messagebox.showerror(
+                "Archivo Incorrecto para Venta",
+                "Las ventas solo pueden realizarse desde el inventario 'local.txt'.\n\n"
+                "Por favor, cambie al archivo 'local.txt' para proceder a vender.",
+            )
+            return
         values = self._get_selected_item_values()
         if not values:
             return
@@ -1654,27 +1921,33 @@ class InventarioGUI:
 
     def mostrar_carrito(self):
         win_cart = tk.Toplevel(self.master)
-        win_cart.title("Carrito de Venta")
+        win_cart.title("Carrito de Venta y Pagos")
         win_cart.grab_set()
-        win_cart.geometry("600x550")
-        win_cart.minsize(500, 450)
+        win_cart.geometry("1050x650")
+        win_cart.minsize(1000, 550)
 
-        bottom_panel = ttk.Frame(win_cart, padding=10)
-        bottom_panel.pack(side=tk.BOTTOM, fill=tk.X, pady=5)
-        tree_panel = ttk.Frame(win_cart, padding=10)
+        self.pagos_actuales = []
+        total_general = sum(item["cantidad"] * item["precio"] for item in self.carrito)
+
+        left_panel = ttk.Frame(win_cart, padding=10)
+        left_panel.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        right_panel = ttk.Frame(win_cart, padding=10)
+        right_panel.pack(side=tk.RIGHT, fill=tk.Y, padx=5)
+
+        tree_panel = ttk.Frame(left_panel)
         tree_panel.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
+        client_panel = ttk.LabelFrame(
+            left_panel, text="Datos del Cliente", padding="10"
+        )
+        client_panel.pack(fill=tk.X, pady=10)
 
         top_controls_frame = ttk.Frame(tree_panel)
         top_controls_frame.pack(fill=tk.X, pady=(0, 5))
         ttk.Button(
             top_controls_frame,
-            text="Eliminar Item Seleccionado",
+            text="Eliminar Item",
             command=lambda: eliminar_item_carrito(),
         ).pack(side=tk.LEFT)
-        lbl_total = ttk.Label(
-            top_controls_frame, text="", font=("Helvetica", 12, "bold")
-        )
-        lbl_total.pack(side=tk.RIGHT)
 
         cart_tree = ttk.Treeview(
             tree_panel, columns=("Desc", "Cant", "PrecioU", "Subtotal"), show="headings"
@@ -1683,28 +1956,98 @@ class InventarioGUI:
         cart_tree.heading("Cant", text="Cantidad")
         cart_tree.heading("PrecioU", text="Precio Unit.")
         cart_tree.heading("Subtotal", text="Subtotal")
+        cart_tree.column("Desc", width=200)
+        cart_tree.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
         scrollbar = ttk.Scrollbar(
             tree_panel, orient=tk.VERTICAL, command=cart_tree.yview
         )
         cart_tree.configure(yscrollcommand=scrollbar.set)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-        cart_tree.pack(fill=tk.BOTH, expand=True)
 
-        client_frame = ttk.LabelFrame(
-            bottom_panel, text="Datos del Cliente", padding="10"
-        )
-        client_frame.pack(fill=tk.X, pady=(0, 10))
-        ttk.Label(client_frame, text="Nombre:").grid(
+        ttk.Label(client_panel, text="Nombre:").grid(
             row=0, column=0, sticky="w", padx=5, pady=2
         )
-        cliente_entry = ttk.Entry(client_frame, width=30)
+        cliente_entry = ttk.Entry(client_panel, width=30)
         cliente_entry.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
-        ttk.Label(client_frame, text="Contacto (Opcional):").grid(
+        ttk.Label(client_panel, text="Contacto (Opcional):").grid(
             row=1, column=0, sticky="w", padx=5, pady=2
         )
-        cliente_contacto_entry = ttk.Entry(client_frame, width=30)
+        cliente_contacto_entry = ttk.Entry(client_panel, width=30)
         cliente_contacto_entry.grid(row=1, column=1, sticky="ew", padx=5, pady=2)
-        client_frame.columnconfigure(1, weight=1)
+        client_panel.columnconfigure(1, weight=1)
+
+        payment_frame = ttk.LabelFrame(right_panel, text="Añadir Pago", padding="10")
+        payment_frame.pack(fill=tk.X)
+        pagos_registrados_frame = ttk.LabelFrame(
+            right_panel, text="Pagos Registrados", padding="10"
+        )
+        pagos_registrados_frame.pack(fill=tk.BOTH, expand=True, pady=10)
+        summary_frame = ttk.Frame(right_panel, padding="10")
+        summary_frame.pack(fill=tk.X)
+
+        ttk.Label(payment_frame, text="Método:").pack(fill=tk.X)
+        payment_methods = [
+            "Efectivo",
+            "Nequi",
+            "Bancolombia",
+            "Daviplata",
+            "Datafono",
+            "Sistecredito",
+        ]
+        medio_pago_combo = ttk.Combobox(
+            payment_frame, values=payment_methods, state="readonly"
+        )
+        medio_pago_combo.pack(fill=tk.X, pady=(0, 5))
+        medio_pago_combo.set("Efectivo")
+        ttk.Label(payment_frame, text="Monto $:").pack(fill=tk.X)
+        monto_pago_entry = ttk.Entry(payment_frame)
+        monto_pago_entry.pack(fill=tk.X, pady=(0, 5))
+        ttk.Button(
+            payment_frame, text="Agregar Pago", command=lambda: agregar_pago()
+        ).pack()
+
+        pagos_tree = ttk.Treeview(
+            pagos_registrados_frame, columns=("Metodo", "Monto"), show="headings"
+        )
+        pagos_tree.heading("Metodo", text="Método")
+        pagos_tree.heading("Monto", text="Monto")
+        # --- AJUSTE: Ancho de columnas para estabilizar el panel ---
+        pagos_tree.column("Metodo", width=120)
+        pagos_tree.column("Monto", width=80, anchor=tk.E)
+        # --- FIN DEL AJUSTE ---
+        pagos_tree.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
+        scrollbar_pagos = ttk.Scrollbar(
+            pagos_registrados_frame, orient=tk.VERTICAL, command=pagos_tree.yview
+        )
+        pagos_tree.configure(yscrollcommand=scrollbar_pagos.set)
+        scrollbar_pagos.pack(side=tk.RIGHT, fill=tk.Y)
+        ttk.Button(
+            pagos_registrados_frame,
+            text="X",
+            command=lambda: eliminar_pago_registrado(),
+            width=2,
+        ).pack(side=tk.RIGHT, anchor="n")
+
+        lbl_total_venta = ttk.Label(
+            summary_frame,
+            text=f"Total Venta: ${total_general:,.2f}",
+            font=("Helvetica", 11, "bold"),
+        )
+        lbl_total_venta.pack(fill=tk.X, pady=2)
+        lbl_total_pagado = ttk.Label(
+            summary_frame,
+            text="Total Pagado: $0.00",
+            font=("Helvetica", 11, "bold"),
+            foreground="blue",
+        )
+        lbl_total_pagado.pack(fill=tk.X, pady=2)
+        lbl_faltante = ttk.Label(
+            summary_frame,
+            text=f"Faltante: ${total_general:,.2f}",
+            font=("Helvetica", 12, "bold"),
+            foreground="red",
+        )
+        lbl_faltante.pack(fill=tk.X, pady=2)
 
         style_confirm = ttk.Style()
         style_confirm.configure(
@@ -1713,23 +2056,20 @@ class InventarioGUI:
             background="navy",
             font=("Helvetica", 10, "bold"),
         )
-        ttk.Button(
-            bottom_panel,
-            text="CONFIRMAR VENTA Y FACTURAR",
+        btn_confirmar = ttk.Button(
+            summary_frame,
+            text="CONFIRMAR VENTA",
             style="Confirm.TButton",
             command=lambda: finalizar_venta(),
-        ).pack(fill=tk.X, ipady=5)
-
-        total_general = 0
+            state="disabled",
+        )
+        btn_confirmar.pack(fill=tk.X, ipady=8, pady=(10, 0))
 
         def populate_cart_tree():
-            nonlocal total_general
             for i in cart_tree.get_children():
                 cart_tree.delete(i)
-            total_general = 0
             for i, item in enumerate(self.carrito):
                 subtotal = item["cantidad"] * item["precio"]
-                total_general += subtotal
                 cart_tree.insert(
                     "",
                     tk.END,
@@ -1741,7 +2081,57 @@ class InventarioGUI:
                         f"${subtotal:.2f}",
                     ),
                 )
-            lbl_total.config(text=f"TOTAL: ${total_general:.2f}")
+
+        def actualizar_totales_pago():
+            total_pagado = sum(pago["monto"] for pago in self.pagos_actuales)
+            faltante = total_general - total_pagado
+            lbl_total_pagado.config(text=f"Total Pagado: ${total_pagado:,.2f}")
+            if faltante > 0:
+                lbl_faltante.config(
+                    text=f"Faltante: ${faltante:,.2f}", foreground="red"
+                )
+                btn_confirmar.config(state="disabled")
+            else:
+                lbl_faltante.config(
+                    text=f"Cambio: ${-faltante:,.2f}", foreground="green"
+                )
+                btn_confirmar.config(state="normal")
+
+        def populate_pagos_tree():
+            for i in pagos_tree.get_children():
+                pagos_tree.delete(i)
+            for i, pago in enumerate(self.pagos_actuales):
+                pagos_tree.insert(
+                    "", tk.END, iid=i, values=(pago["metodo"], f"${pago['monto']:,.2f}")
+                )
+            actualizar_totales_pago()
+
+        def agregar_pago():
+            metodo = medio_pago_combo.get()
+            try:
+                monto = float(monto_pago_entry.get())
+                if monto <= 0:
+                    raise ValueError
+            except ValueError:
+                messagebox.showerror(
+                    "Error", "El monto debe ser un número positivo.", parent=win_cart
+                )
+                return
+            self.pagos_actuales.append({"metodo": metodo, "monto": monto})
+            monto_pago_entry.delete(0, tk.END)
+            populate_pagos_tree()
+
+        def eliminar_pago_registrado():
+            selected_iid = pagos_tree.focus()
+            if not selected_iid:
+                messagebox.showwarning(
+                    "Sin Selección",
+                    "Seleccione un pago para eliminar.",
+                    parent=win_cart,
+                )
+                return
+            del self.pagos_actuales[int(selected_iid)]
+            populate_pagos_tree()
 
         populate_cart_tree()
 
@@ -1755,28 +2145,45 @@ class InventarioGUI:
                 )
                 return
             del self.carrito[int(selected_iid)]
+            nonlocal total_general
+            total_general = sum(
+                item["cantidad"] * item["precio"] for item in self.carrito
+            )
+            lbl_total_venta.config(text=f"Total Venta: ${total_general:,.2f}")
             populate_cart_tree()
+            actualizar_totales_pago()
             self.actualizar_vista_carrito()
 
         def finalizar_venta():
             cliente = cliente_entry.get().strip() or "Cliente General"
             cliente_contacto = cliente_contacto_entry.get().strip()
+
+            total_pagado = sum(p["monto"] for p in self.pagos_actuales)
+            if total_pagado < total_general:
+                messagebox.showerror(
+                    "Pago Incompleto",
+                    "El monto pagado es menor al total de la venta.",
+                    parent=win_cart,
+                )
+                return
             if not self.carrito:
                 messagebox.showerror(
-                    "Carrito Vacío",
-                    "No hay items en el carrito para vender.",
-                    parent=win_cart,
+                    "Carrito Vacío", "No hay items para vender.", parent=win_cart
                 )
                 return
 
             timestamp = datetime.now()
             id_venta = timestamp.strftime("%Y%m%d%H%M%S")
 
+            medio_pago_str = ", ".join(
+                [f"{p['metodo']}: ${p['monto']:.2f}" for p in self.pagos_actuales]
+            )
+
             carrito_copia = list(self.carrito)
 
             for item in carrito_copia:
                 success, msg = self.gestor.procesar_item_venta(
-                    id_venta, timestamp, item, cliente
+                    id_venta, timestamp, item, cliente, medio_pago_str
                 )
                 if not success:
                     messagebox.showerror("Error en Venta", msg, parent=win_cart)
@@ -1790,6 +2197,11 @@ class InventarioGUI:
                 total_general,
                 cliente,
                 cliente_contacto,
+                self.pagos_actuales,
+            )
+
+            total_electronico_venta = sum(
+                p["monto"] for p in self.pagos_actuales if p["metodo"] != "Efectivo"
             )
 
             win_cart.destroy()
@@ -1801,6 +2213,7 @@ class InventarioGUI:
                 total_general,
                 cliente,
                 cliente_contacto,
+                self.pagos_actuales,
             )
 
             self.carrito.clear()
@@ -1818,6 +2231,7 @@ class InventarioGUI:
         total_general,
         cliente,
         cliente_contacto,
+        pagos,
     ):
         win_options = tk.Toplevel(self.master)
         win_options.title("Venta Exitosa")
@@ -1853,6 +2267,7 @@ class InventarioGUI:
                     total_general,
                     cliente,
                     cliente_contacto,
+                    pagos,
                 )
                 messagebox.showinfo(
                     "Éxito",
@@ -1877,6 +2292,22 @@ class InventarioGUI:
             side=tk.LEFT, padx=10
         )
 
+    def cambiar_archivo_rapido(self, nombre_base):
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        nuevo_archivo = os.path.join(script_dir, nombre_base)
+
+        if os.path.exists(nuevo_archivo):
+            mensaje = self.gestor.cambiar_archivo(nuevo_archivo)
+            self.lbl_archivo.config(text=f"Archivo: {self.gestor.archivo_inventario}")
+            self.populate_inventory_treeview()
+            self.actualizar_estado_botones_venta()
+            self.status_label_inv.config(text=f"Cargado: {nombre_base}")
+        else:
+            messagebox.showerror(
+                "Archivo no Encontrado",
+                f"No se pudo encontrar '{nuevo_archivo}'.\nAsegúrese de que esté en el mismo directorio que el script.",
+            )
+
     def cambiar_archivo(self):
         nuevo_archivo = filedialog.askopenfilename(
             title="Seleccionar nuevo archivo de inventario",
@@ -1886,6 +2317,7 @@ class InventarioGUI:
             mensaje = self.gestor.cambiar_archivo(nuevo_archivo)
             self.lbl_archivo.config(text=f"Archivo: {self.gestor.archivo_inventario}")
             self.populate_inventory_treeview()
+            self.actualizar_estado_botones_venta()
             messagebox.showinfo("Éxito", mensaje)
 
     def clear_placeholder(self, event):
@@ -1939,103 +2371,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = InventarioGUI(root)
     root.mainloop()
-
-
-# ```python:caja.py (Calculadora de Efectivo):cash_calculator_script
-import tkinter as tk
-from tkinter import ttk
-
-
-class CashCalculator(tk.Tk):
-    def __init__(self):
-        super().__init__()
-        self.title("Calculadora de Efectivo")
-        self.geometry("400x550")
-        self.resizable(False, False)
-
-        main_frame = ttk.Frame(self, padding="15")
-        main_frame.pack(fill=tk.BOTH, expand=True)
-
-        self.denominaciones = {
-            "Billetes de $100.000:": 100000,
-            "Billetes de $50.000:": 50000,
-            "Billetes de $20.000:": 20000,
-            "Billetes de $10.000:": 10000,
-            "Billetes de $5.000:": 5000,
-            "Billetes de $2.000:": 2000,
-            "Billetes de $1.000:": 1000,
-        }
-
-        self.entries = {}
-        self.subtotal_labels = {}
-
-        row = 0
-        for label_text, value in self.denominaciones.items():
-            ttk.Label(main_frame, text=label_text).grid(
-                row=row, column=0, sticky="w", pady=4
-            )
-            entry = ttk.Entry(main_frame, width=8, justify="right")
-            entry.grid(row=row, column=1, pady=4)
-            entry.bind("<KeyRelease>", self.actualizar_totales)
-            self.entries[value] = entry
-
-            sub_label = ttk.Label(main_frame, text="= $0", width=15)
-            sub_label.grid(row=row, column=2, sticky="w", padx=5)
-            self.subtotal_labels[value] = sub_label
-            row += 1
-
-        ttk.Separator(main_frame).grid(row=row, columnspan=3, sticky="ew", pady=5)
-        row += 1
-
-        ttk.Label(main_frame, text="Total en Monedas:").grid(
-            row=row, column=0, sticky="w", pady=4
-        )
-        self.monedas_entry = ttk.Entry(main_frame, width=15, justify="right")
-        self.monedas_entry.grid(row=row, column=1, columnspan=2, sticky="ew", pady=4)
-        self.monedas_entry.bind("<KeyRelease>", self.actualizar_totales)
-        self.entries["monedas"] = self.monedas_entry
-        row += 1
-
-        ttk.Separator(main_frame, orient="horizontal").grid(
-            row=row, column=0, columnspan=3, pady=10, sticky="ew"
-        )
-        row += 1
-
-        self.total_general_label = ttk.Label(
-            main_frame, text="Total: $0", font=("Helvetica", 14, "bold")
-        )
-        self.total_general_label.grid(row=row, column=0, columnspan=3, pady=10)
-        row += 1
-
-        ttk.Button(main_frame, text="Limpiar", command=self.limpiar_campos).grid(
-            row=row, column=0, columnspan=3, pady=10
-        )
-
-    def actualizar_totales(self, event=None):
-        total = 0
-        for label_text, value in self.denominaciones.items():
-            try:
-                cantidad = int(self.entries[value].get() or 0)
-                subtotal = cantidad * value
-                self.subtotal_labels[value].config(text=f"= ${subtotal:,.0f}")
-                total += subtotal
-            except (ValueError, KeyError):
-                self.subtotal_labels[value].config(text="= $0")
-
-        try:
-            total_monedas = float(self.entries["monedas"].get() or 0)
-            total += total_monedas
-        except (ValueError, KeyError):
-            pass
-
-        self.total_general_label.config(text=f"Total: ${total:,.0f}")
-
-    def limpiar_campos(self):
-        for entry in self.entries.values():
-            entry.delete(0, tk.END)
-        self.actualizar_totales()
-
-
-if __name__ == "__main__":
-    app = CashCalculator()
-    app.mainloop()

@@ -1,3 +1,14 @@
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
+# Pedido: pdcentro
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
     Audifonos Bluetooth Orejas 1
@@ -244,7 +255,6 @@
     Silicone Case Vivo Y27 Negro 1
     Vidrio 5D Motorola Moto E6s / E6i 5
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
-    Balaca Con Pantalla Negro 1
     Manos Libres Samsung Akg Tc 2
     Silicone Case Apple Iphone Xr Azulrey 1
     Silicone Case Oppo Realme C55 Negro 1
@@ -253,8 +263,15 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Forro Armadura Huawei Honor X8B Negro 1
     Forro Space Motorola Moto G20 / G30 1
-    Manos Libres We Tc 2 ok
-    Silicone Case Huawei Y9 2019 / Y8S Rosa 1 ok
-    Silicone Case Oppo Reno 7 Lila 1 ok
     Silicone Case Xiaomi Redmi A5 Morado 1
-    Vidrio 5D Motorola Moto G04 / Moto G24 10 ok
+    Balaca Pantalla Negro 1
+    Cable Apple Tc Ligthning 5
+    Cargador Yl Tc 2
+    Manos Libres Samsung Akg Tc Blanco 2
+    Silicone Case Apple Iphone 11 Negro 1
+    Silicone Case Motorola Moto G22 Lila 1
+    Silicone Case Motorola Moto G52 Fucsia 1
+    Silicone Case Motorola Moto G60 Lila 1
+    Silicone Case Samsung A36 Rosa 1
+    Silicone Case Samsung A36 Vinotinto 1
+    Silicone Case Vivo Y04 Lila 1
