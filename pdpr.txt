@@ -1,12 +1,3 @@
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
-# Pedido: pdpr
     Adaptador Hub Tc Usb X3 + Lan 2
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
@@ -34,7 +25,7 @@
     Cable Vga 15M 2
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Forro Pc 16 Pulgadas 2
-    Proyector Hy-300 2 Ram 1
+    Proyector Hy-300 2 Ram 2
     Base Refrigerante Wit-400 1
     Consola + Tv box 1
     Control Gamer Gatillos W11+ 3
@@ -47,3 +38,10 @@
     Lonchera Carro 1
     Memoria Musica Cristiana 2
     Memoria Musica Electronica 1
+    Cargador Inversor 12V a 110V 1
+    Adaptador Tarjeta Audio 5.1 2
+    Adaptador Tarjeta Audio 7.1 2
+    Consola Pandora 1
+    Pilas Carbon Maxday Aaa X2 30
+    Memoria Kingstone Micro 4Gb 3
+    Teclado Kb-502 Eco 2

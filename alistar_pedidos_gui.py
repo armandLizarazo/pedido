@@ -154,6 +154,10 @@ class GestorPedidosApp(ctk.CTk):
         self.title("Gestor de Pedidos e Inventario")
         self.geometry("900x830")
 
+        # --- CORRECCIÓN DE ERROR AL CERRAR ---
+        # Asignar el método de cierre al botón de la ventana
+        self.protocol("WM_DELETE_WINDOW", self.quit_app)
+
         self.archivo_bodega = "bodegac.txt"
         self.encoding_archivos = "latin-1"
         self._inicializar_bodega()
@@ -169,6 +173,7 @@ class GestorPedidosApp(ctk.CTk):
         self.frame_logo.pack(fill="x", pady=(0, 5))
 
         try:
+            # Obtener la ruta del directorio actual del script
             script_dir = os.path.dirname(os.path.abspath(__file__))
             logo_path = os.path.join(script_dir, "Logo1.PNG")
 
@@ -189,6 +194,7 @@ class GestorPedidosApp(ctk.CTk):
             new_width = int(logo_image_pil.width * ratio)
             new_height = int(logo_image_pil.height * ratio)
 
+            # Usar el filtro de redimensionamiento correcto según la versión de Pillow
             if hasattr(Image, "Resampling"):
                 resampling_filter = Image.Resampling.LANCZOS
             elif hasattr(Image, "LANCZOS"):

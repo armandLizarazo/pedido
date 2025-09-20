@@ -1380,3 +1380,51 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-09-17 21:03:42,20250917210342,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
 2025-09-17 21:07:13,20250917210713,Recargas,1,2358.00,2500.00,2500.00,142.00,local.txt,Cliente General,Efectivo: $2500.00
 2025-09-17 21:08:03,20250917210803,Recargas,1,9434.00,10000.00,10000.00,566.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-18 14:58:00,20250918145800,Bateria Bl5c,1,3000.00,12000.00,12000.00,9000.00,local.txt,Cliente General,Daviplata: $12000.00
+2025-09-18 15:00:37,20250918150037,Servicio Tecnico Generico Soldar Bateria Intercomunicador,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-18 15:13:06,20250918151306,Memoria Kingstone Usb 4Gb,1,6000.00,15000.00,15000.00,9000.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-09-18 16:27:16,20250918162716,Consola Pandora,1,160000.00,230000.00,230000.00,70000.00,local.txt,Cliente General,Bancolombia: $230000.00
+2025-09-18 16:28:59,20250918162859,Pacha Samsung A21S,1,33000.00,90000.00,90000.00,57000.00,local.txt,Cliente General,Efectivo: $95000.00
+2025-09-18 16:28:59,20250918162859,Vidrio 5D Samsung A21S,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $95000.00
+2025-09-18 16:29:48,20250918162948,Silicone Case Huawei honor Magic 7 Lite Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-18 18:45:59,20250918184559,Proyector Hy-300 2 Ram,1,155000.00,220000.00,220000.00,65000.00,local.txt,Benjamin Alvarez,Bancolombia: $220000.00
+2025-09-18 18:46:53,20250918184653,Servicio Tecnico Tecno Pin de carga Pop 7,1,0.00,22000.00,22000.00,22000.00,local.txt,Cliente General,Efectivo: $22000.00
+2025-09-18 19:23:04,20250918192304,Pacha Samsung A31 C/m,1,45000.00,100000.00,100000.00,55000.00,local.txt,Cliente General,Efectivo: $125000.00
+2025-09-18 19:23:04,20250918192304,Tapa Samsung A31 Azul,1,12000.00,25000.00,25000.00,13000.00,local.txt,Cliente General,Efectivo: $125000.00
+2025-09-18 19:24:13,20250918192413,Forro Space Samsung A32 4G Rosa,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-09-18 19:24:13,20250918192413,Vidrio 5D Samsung A22 4G / A31 / A32 4G,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-09-18 19:24:13,20250918192413,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-09-18 19:24:57,20250918192457,Hydrogel Oppo A80,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-18 19:27:38,20250918192738,Silicone Case Samsung A03 Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $20000.00
+2025-09-18 19:29:43,20250918192943,Adaptador Hub 4 Puertos 2.0,1,9000.00,20000.00,20000.00,11000.00,local.txt,Cliente General,Daviplata: $60000.00
+2025-09-18 19:29:43,20250918192943,Adaptador Tarjeta Audio 5.1,1,6000.00,15000.00,15000.00,9000.00,local.txt,Cliente General,Daviplata: $60000.00
+2025-09-18 19:29:43,20250918192943,Parlante Pc Eco Ysd-1024,1,12000.00,25000.00,25000.00,13000.00,local.txt,Cliente General,Daviplata: $60000.00
+2025-09-18 19:30:49,20250918193049,Vidrio 5D Samsung A05S,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-18 19:34:21,20250918193421,Pilas Recargables Maxday Aaa X4,1,13000.00,39000.00,39000.00,26000.00,local.txt,Cliente General,Bancolombia: $39000.00
+2025-09-18 19:53:58,20250918195358,Recargas,1,18868.00,20000.00,20000.00,1132.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-18 21:05:04,20250918210504,Porta Brillo Forro,1,10000.00,25000.00,25000.00,15000.00,local.txt,Cliente General,Daviplata: $25000.00
+2025-09-18 21:05:51,20250918210551,Adaptador Micro Sd A Sd,1,0.00,4000.00,4000.00,4000.00,local.txt,Cliente General,Daviplata: $4000.00
+2025-09-18 21:07:35,20250918210735,Recargas,1,17453.00,18500.00,18500.00,1047.00,local.txt,Cliente General,Efectivo: $18500.00
+2025-09-19 10:49:46,20250919104946,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-19 10:49:46,20250919104946,Silicone Case Xiaomi Redmi Note 12 Pro Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-19 11:26:58,20250919112658,Parlante Pc D-2L Mini Teatro,1,30000.00,58000.00,58000.00,28000.00,local.txt,Cliente General,Nequi: $68000.00
+2025-09-19 11:26:58,20250919112658,Ventosas,1,4000.00,10000.00,10000.00,6000.00,local.txt,Cliente General,Nequi: $68000.00
+2025-09-19 13:20:08,20250919132008,Silicone Case Infinix Hot 50 Pro Plus Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-19 13:39:07,20250919133907,Pacha Samsung A10S C/M,1,40000.00,90000.00,90000.00,50000.00,local.txt,Cliente General,"Efectivo: $50000.00, Daviplata: $40000.00"
+2025-09-19 16:09:28,20250919160928,Guantes Gamer,2,2000.00,10000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-19 16:10:03,20250919161003,Vidrio 5D Huawei Honor X8B,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-19 16:43:22,20250919164322,Vidrio 5D Samsung A22 4G / A31 / A32 4G,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-19 19:34:48,20250919193448,Memoria Kingstone Micro 4Gb,1,6000.00,15000.00,15000.00,9000.00,local.txt,Cliente General,"Efectivo: $15000.00, Sistecredito: $190000.00"
+2025-09-19 19:34:48,20250919193448,Celular Tg Thor Rompemuros,1,110000.00,190000.00,190000.00,80000.00,local.txt,Cliente General,"Efectivo: $15000.00, Sistecredito: $190000.00"
+2025-09-19 19:35:35,20250919193535,Depilador Cejas,1,8000.00,20000.00,20000.00,12000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-19 19:36:01,20250919193601,Hydrogel Oppo Realme 13 Pro,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-19 19:38:27,20250919193827,Servicio Tecnico Samsung Reiniciar A52,1,0.00,8000.00,8000.00,8000.00,local.txt,Cliente General,Nequi: $8000.00
+2025-09-19 19:40:41,20250919194041,Servicio Tecnico Samsung Formatear A06,1,0.00,12000.00,12000.00,12000.00,local.txt,Cliente General,Efectivo: $12000.00
+2025-09-19 19:41:58,20250919194158,Recargas,1,10849.00,11500.00,11500.00,651.00,local.txt,Cliente General,Efectivo: $11500.00
+2025-09-19 19:48:05,20250919194805,Cargador We Tc 33W,1,8500.00,35000.00,35000.00,26500.00,local.txt,Cliente General,Nequi: $35000.00
+2025-09-19 21:05:43,20250919210543,Servicio Tecnico Samsung Frp A22 5G Pandora,1,0.00,40000.00,40000.00,40000.00,local.txt,Cliente General,Efectivo: $53500.00
+2025-09-19 21:05:43,20250919210543,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $53500.00
+2025-09-19 21:05:43,20250919210543,Recargas,1,8019.00,8500.00,8500.00,481.00,local.txt,Cliente General,Efectivo: $53500.00
+2025-09-19 21:30:04,20250919213004,Teclado Kb-502 Eco,1,13000.00,30000.00,30000.00,17000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-19 21:31:25,20250919213125,Forro Antichoque Pin Apple IPhone 11,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-19 21:33:01,20250919213301,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General,Efectivo: $4500.00

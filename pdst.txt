@@ -1,16 +1,3 @@
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
-# Pedido: pdst
     Pin de Carga Oppo A12 / A15 5
     Flex de Volumen Samsung A10s 1
     Pacha Huawei Y6 2019 / Honor 8A 1
@@ -24,4 +11,13 @@
     Pacha Xiaomi Redmi 9T / Poco M3 1
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
     Pacha Xiaomi Redmi Note 11 / Note 12S 1
-    Silicone Case Apple Iphone 11 Negro 1
+    Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1
+    Auricular Xiaomi Redmi 10 1
+    Pacha Samsung A21S 1
+    Pacha Samsung A31 C/m 1
+    Parlante Pc Eco Ysd-1024 1
+    Tapa Samsung A31 Azul 1
+    Tapa Samsung A31 Negro 1
+    Pacha Xiaomi Redmi A3 1
+    Pacha Xiaomi Redmi 13C 2
+    Pacha Xiaomi Redmi 9A / 9C / 10A 2

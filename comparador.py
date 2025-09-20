@@ -79,6 +79,7 @@ def refresh_data():
     search()
     messagebox.showinfo("Refrescar", "Los datos han sido actualizados.")
 
+
 def update_autocomplete(event):
     """Actualiza la lista de autocompletado a medida que el usuario escribe."""
     search_term = entry_search.get().lower()
@@ -108,6 +109,7 @@ def update_autocomplete(event):
     else:
         listbox_autocomplete.place_forget()
 
+
 def select_from_listbox(event):
     """Pone la selección del autocompletado en el cuadro de texto y busca."""
     if listbox_autocomplete.curselection():
@@ -116,6 +118,7 @@ def select_from_listbox(event):
         entry_search.insert(0, selected_value)
         listbox_autocomplete.place_forget()
         search()
+
 
 def search():
     """Busca el item en ambos archivos y muestra los resultados."""
@@ -145,9 +148,14 @@ def search():
             break
 
     if found_in_bodega and not found_in_local:
-        tree_local.insert("", tk.END, values=(search_term, "No encontrado"))
+        tree_local.insert(
+            "", tk.END, values=(search_term, "No encontrado"), tags=("not_found",)
+        )
     elif found_in_local and not found_in_bodega:
-        tree_bodega.insert("", tk.END, values=(search_term, "No encontrado"))
+        tree_bodega.insert(
+            "", tk.END, values=(search_term, "No encontrado"), tags=("not_found",)
+        )
+
 
 def normalize_files():
     """
@@ -190,6 +198,7 @@ def normalize_files():
             "Normalización",
             "Los inventarios ya están sincronizados. No se requieren cambios.",
         )
+
 
 def transfer_quantity(direction):
     """Mueve una cantidad de un item entre bodega y local."""
@@ -264,6 +273,7 @@ def transfer_quantity(direction):
         search()
         entry_transfer_qty.delete(0, tk.END)
 
+
 def adjust_quantity(target, action):
     """Agrega o quita unidades de un item en el archivo de origen."""
     search_term = entry_search.get().strip()
@@ -322,6 +332,7 @@ def adjust_quantity(target, action):
         search()
         entry_adjust_qty.delete(0, tk.END)
 
+
 def create_new_item():
     """Crea un nuevo item en ambos archivos con cantidad inicial de 0."""
     new_item_desc = entry_new_item.get().strip()
@@ -363,6 +374,7 @@ def create_new_item():
             entry_search.delete(0, tk.END)
             entry_search.insert(0, new_item_desc)
             search()
+
 
 def delete_item():
     """Elimina un item de ambos archivos."""
@@ -415,6 +427,7 @@ def delete_item():
             entry_search.delete(0, tk.END)
             search()  # To clear the results and update the view
 
+
 def edit_item():
     """Edita la descripción de un item en ambos archivos."""
     global data_bodega, data_local
@@ -422,11 +435,15 @@ def edit_item():
     new_desc = entry_edit_item.get().strip()
 
     if not old_desc:
-        messagebox.showwarning("Acción Requerida", "Por favor, busque un artículo para editar.")
+        messagebox.showwarning(
+            "Acción Requerida", "Por favor, busque un artículo para editar."
+        )
         return
 
     if not new_desc:
-        messagebox.showwarning("Entrada Vacía", "El nuevo nombre del ítem no puede estar vacío.")
+        messagebox.showwarning(
+            "Entrada Vacía", "El nuevo nombre del ítem no puede estar vacío."
+        )
         return
 
     if old_desc.lower() == new_desc.lower():
@@ -434,9 +451,13 @@ def edit_item():
         return
 
     # Check if new_desc already exists
-    all_descriptions = {item[0].lower() for item in data_bodega} | {item[0].lower() for item in data_local}
+    all_descriptions = {item[0].lower() for item in data_bodega} | {
+        item[0].lower() for item in data_local
+    }
     if new_desc.lower() in all_descriptions:
-        messagebox.showerror("Ítem Existente", f"El ítem '{new_desc}' ya existe en el inventario.")
+        messagebox.showerror(
+            "Ítem Existente", f"El ítem '{new_desc}' ya existe en el inventario."
+        )
         return
 
     confirm = messagebox.askyesno(
@@ -454,7 +475,7 @@ def edit_item():
                 item_found = True
             else:
                 new_data_bodega.append((desc, qty))
-        
+
         new_data_local = []
         for desc, qty in data_local:
             if desc.strip().lower() == old_desc.lower():
@@ -464,13 +485,17 @@ def edit_item():
                 new_data_local.append((desc, qty))
 
         if not item_found:
-            messagebox.showinfo("No Encontrado", f"No se encontró el ítem '{old_desc}'.")
+            messagebox.showinfo(
+                "No Encontrado", f"No se encontró el ítem '{old_desc}'."
+            )
             return
-        
+
         data_bodega = new_data_bodega
         data_local = new_data_local
 
-        if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+        if update_file("bodegac.txt", data_bodega) and update_file(
+            "local.txt", data_local
+        ):
             messagebox.showinfo("Éxito", f"El ítem ha sido renombrado a '{new_desc}'.")
             entry_search.delete(0, tk.END)
             entry_search.insert(0, new_desc)
@@ -488,7 +513,7 @@ def show_selected_item_name(event):
         label_selected_item.config(
             text="Seleccione un ítem de las listas para ver su nombre completo aquí.",
             font=("Helvetica", 11, "italic"),
-            fg="#333333"
+            fg="#333333",
         )
         return
 
@@ -498,15 +523,13 @@ def show_selected_item_name(event):
     if item_values:
         full_description = item_values[0]
         label_selected_item.config(
-            text=full_description,
-            font=("Helvetica", 11),
-            fg="black"
+            text=full_description, font=("Helvetica", 11), fg="black"
         )
     else:
         label_selected_item.config(
             text="No se pudo obtener la descripción del ítem.",
             font=("Helvetica", 11, "italic"),
-            fg="red"
+            fg="red",
         )
 
 
@@ -613,6 +636,10 @@ tree_local.column("Item", width=250)
 tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 
+# --- CONFIGURACIÓN DE TAGS PARA COLORES ---
+tree_bodega.tag_configure("not_found", foreground="red")
+tree_local.tag_configure("not_found", foreground="red")
+
 tree_bodega.bind("<<TreeviewSelect>>", show_selected_item_name)
 tree_local.bind("<<TreeviewSelect>>", show_selected_item_name)
 
@@ -635,7 +662,7 @@ label_selected_item = tk.Label(
     bg=frame_selected_item["bg"],
     wraplength=800,
     justify=tk.LEFT,
-    fg="#333333"
+    fg="#333333",
 )
 label_selected_item.pack(anchor="w", fill=tk.X, padx=5, pady=(2, 0))
 
@@ -674,12 +701,10 @@ tk.Label(
     text="Nuevo Nombre:",
     font=("Helvetica", 11, "bold"),
     bg=frame_edit["bg"],
-    fg="#856404"
+    fg="#856404",
 ).pack(side=tk.LEFT, padx=(0, 5))
 
-entry_edit_container = tk.Frame(
-    frame_edit, relief="solid", borderwidth=1, bg="white"
-)
+entry_edit_container = tk.Frame(frame_edit, relief="solid", borderwidth=1, bg="white")
 entry_edit_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 
 entry_edit_item = tk.Entry(

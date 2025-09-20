@@ -1314,33 +1314,66 @@ class InventarioGUI:
         actualizar_totales()
 
         def guardar_y_cerrar():
-            # Guardar en diccionario de sesión
-            self.conteo_actual_caja.clear()
-            detalle_dict = {}
-            for value, entry in entries.items():
-                cantidad_str = entry.get() or "0"
-                if value != "monedas":
-                    if int(cantidad_str) > 0:
-                        detalle_dict[value] = int(cantidad_str)
-                self.conteo_actual_caja[value] = cantidad_str
+            try:
+                # Diccionarios para guardar los datos
+                self.conteo_actual_caja.clear()
+                detalle_dict = {}
+                total_final = 0.0
 
-            monedas_val = self.conteo_actual_caja.get("monedas", "0")
-            if float(monedas_val) > 0:
-                detalle_dict["monedas"] = float(monedas_val)
+                # --- LÓGICA CORREGIDA Y ROBUSTA ---
+                # 1. Procesar billetes, validando cada entrada
+                for value, entry in entries.items():
+                    if value == "monedas":
+                        continue  # Procesar monedas por separado
 
-            # Guardar en archivo de historial
-            total_final = actualizar_totales()
-            detalle_str = ", ".join(
-                [f"${k:,.0f}: {v}" for k, v in detalle_dict.items()]
-            )
-            self.gestor_caja.guardar_conteo_historial(total_final, detalle_str)
+                    cantidad_str = entry.get() or "0"
+                    cantidad_num = int(
+                        cantidad_str
+                    )  # Esto lanzará ValueError si la entrada es inválida
 
-            # Actualizar GUI principal
-            self.dinero_real_entry.config(state="normal")
-            self.dinero_real_entry.delete(0, tk.END)
-            self.dinero_real_entry.insert(0, f"{total_final:.2f}")
-            self.dinero_real_entry.config(state="readonly")
-            win_conteo.destroy()
+                    self.conteo_actual_caja[value] = cantidad_str
+                    if cantidad_num > 0:
+                        detalle_dict[value] = cantidad_num
+                    total_final += cantidad_num * value
+
+                # 2. Procesar monedas, validando la entrada
+                monedas_str = entries["monedas"].get() or "0"
+                monedas_num = float(
+                    monedas_str
+                )  # Esto lanzará ValueError si la entrada es inválida
+
+                self.conteo_actual_caja["monedas"] = monedas_str
+                if monedas_num > 0:
+                    detalle_dict["monedas"] = monedas_num
+                total_final += monedas_num
+
+                # 3. Formatear el string de detalles para el historial
+                detalle_str = ", ".join(
+                    [
+                        f"${k:,.0f}: {v}" if k != "monedas" else f"Monedas: ${v:,.2f}"
+                        for k, v in detalle_dict.items()
+                    ]
+                )
+
+                # 4. Guardar en el archivo de historial
+                self.gestor_caja.guardar_conteo_historial(total_final, detalle_str)
+
+                # 5. Actualizar el campo en la ventana principal
+                self.dinero_real_entry.config(state="normal")
+                self.dinero_real_entry.delete(0, tk.END)
+                self.dinero_real_entry.insert(0, f"{total_final:.2f}")
+                self.dinero_real_entry.config(state="readonly")
+
+                # 6. Cerrar la ventana de conteo
+                win_conteo.destroy()
+
+            except ValueError:
+                # 7. Si cualquier conversión a número falla, mostrar este error
+                messagebox.showerror(
+                    "Error de Entrada",
+                    "Por favor, ingrese solo números en los campos de conteo.\nNo use puntos, comas o símbolos.",
+                    parent=win_conteo,
+                )
 
         ttk.Button(main_frame, text="Guardar Conteo", command=guardar_y_cerrar).grid(
             row=row, column=0, columnspan=3, pady=10, ipady=5
