@@ -233,9 +233,9 @@
     Silicone Case Motorola Moto G9 Play / E7 Plus Rojo 1
     Forro Lujo Ventana Apple Iphone 11 
     Silicone Case Samsung S24 Amarillo 1
-    Silicone Case Infinix Hot 50 Pro Rojo 1
+    Silicone Case Infinix Hot 50 Pro Rojo 1 ok
     Silicone Case Oppo A58 5G / A78 5G Rosa 1
-    Silicone Case Tecno Camon 40 Pro Negro 1
+    Silicone Case Tecno Camon 40 Pro Negro 1 ok
     Cable Magnetico 3 en 1 2
     Forro Space Infinix Note 50s 2
     Silicone Case Samsung A03 Core Rojo 1
@@ -251,25 +251,41 @@
     Silicone Case Tecno Camon 30S Pro Fucsia 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Forro Armadura Huawei Honor X8B Negro 1
-    Forro Space Motorola Moto G20 / G30 1
-    Silicone Case Xiaomi Redmi A5 Morado 1
-    Balaca Pantalla Negro 1
-    Cable Apple Tc Ligthning 5
+    Forro Space Motorola Moto G20 / G30 2 ok
+    Silicone Case Xiaomi Redmi A5 Morado 1 ok
+    Balaca Pantalla Negro 1 ok
+    Cable Apple Tc Ligthning 5 ok
     Cargador Yl Tc 2
     Manos Libres Samsung Akg Tc Blanco 2
     Silicone Case Apple Iphone 11 Negro 1
-    Silicone Case Motorola Moto G22 Lila 1
-    Silicone Case Motorola Moto G52 Fucsia 1
-    Silicone Case Motorola Moto G60 Lila 1
+    Silicone Case Motorola Moto G22 Lila 1 
+    Silicone Case Motorola Moto G52 Fucsia 1 ok
+    Silicone Case Motorola Moto G60 Lila 1 ok
     Silicone Case Samsung A36 Rosa 1
-    Silicone Case Samsung A36 Vinotinto 1
-    Silicone Case Vivo Y04 Lila 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
-    Balaca Apple Airpods Max Negro 1
+    Silicone Case Samsung A36 Vinotinto 1 ok
+    Silicone Case Vivo Y04 Lila 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Azul 1 ok
+    Balaca Apple Airpods Max Negro 1.1 1 ok
     Balaca Apple P9 Rosa 1
+    Balaca Appla P9 Azul 1 ok
     Silicone Case Oppo Realme C55 Amarillo 1
-    Memoria Kingstone Usb 4Gb 3
-    Silicone Case Huawei Honor Magic 7 Lite / X9A Negro 1
-    Vidrio 5D Samsung A36 10
-    Vidrio 5D Xiaomi Redmi Note 12 10
-    Vidrio 5D Samsung A12 10
+    Memoria Kingstone Usb 4Gb 3 ok
+    Memoria Kingstone Micro 4Gb 3 ok
+    Silicone Case Huawei Honor Magic 7 Lite / X9A Negro 1 ok
+    Vidrio 5D Samsung A36 10 ok
+    Vidrio 5D Xiaomi Redmi Note 12 10 ok
+    Vidrio 5D Samsung A12 10 ok
+    Forro Antichoque Samsung A26 Dama 5 ok
+    Forro Antichoque Samsung A26 Caballero 4 ok
+    Silicone Case Infinix Hot 60 Pro Plus Verde 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus Palorosa 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
+    Silicone Case Huawei Honor 200 Negro 1 ok
+    Silicone Case Huawei Honor 200 Rojo 1 ok
+    Silicone Case Huawei Honor 200 Vinotinto ok
+    Silicone Case Huawei Honor 200 Fucsia 1 ok
+    Silicone Case Huawei Honor 200 Azulrey 1 ok
