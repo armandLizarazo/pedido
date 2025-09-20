@@ -8,16 +8,14 @@
     Reproductor Alexa Reloj 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
-    Tableta Tigers Kids Rosa 1
-    Teclado Mecanico Gamer 2
+    Tableta Tigers Kids Rosa 1 
     Teclado Seisa Dn-236 2
     Termo Motivacion 1
     Pilas Recargables Beston AA x2 1
     Control Gamer Microsoft Xbox Caja Negra 2
-    Cable Microsoft Xbox Caja Negra 1
     Control Gamer X3 4
     Pilas Recargables Beston AAA x4 1
-    Parlante Pc D-2L Mini Teatro 1
+    Parlante Pc U-2400 Mini Teatro 1 ok
     Cable Lan 2M Cat 6 5
     Rollo Cinta Led Eco 5
     Cable Disco Duro V8 3.0 Corto 2
@@ -29,19 +27,18 @@
     Base Refrigerante Wit-400 1
     Consola + Tv box 1
     Control Gamer Gatillos W11+ 3
-    Adaptador Hdmi2vga Cbl 2
-    Caja Disco Duro 3.0 2
-    Cargador Pc 8 Pines Caja Naranja 2
-    Cargador Pc Hp Punta Azul 1
+    Adaptador Hdmi2vga Cbl 1 ok
+    Caja Disco Duro 3.0 2 ok
+    Cargador Pc 8 Pines Caja Naranja 2 ok
+    Cargador Pc Hp Punta Azul 1 ok
     Gramera Joyeria 1
     Gramera Sencilla 1
     Lonchera Carro 1
     Memoria Musica Cristiana 2
     Memoria Musica Electronica 1
-    Cargador Inversor 12V a 110V 1
-    Adaptador Tarjeta Audio 5.1 2
-    Adaptador Tarjeta Audio 7.1 2
+    Cargador Inversor 12V a 110V 1 ok
+    Adaptador Tarjeta Audio 5.1 2 ok
+    Adaptador Tarjeta Audio 7.1 2 ok
     Consola Pandora 1
     Pilas Carbon Maxday Aaa X2 30
-    Memoria Kingstone Micro 4Gb 3
-    Teclado Kb-502 Eco 2
+    Teclado Kb-502 Eco 2 ok
