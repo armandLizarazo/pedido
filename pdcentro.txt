@@ -84,7 +84,8 @@
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Fucsia 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
+    Silicone Case Infinix Hot 50 Pro Plus Negro 1 ok
+    Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1 ok
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Hot 50I Negro 1
     Silicone Case Motorola Moto Edge 30 Negro 1
@@ -256,7 +257,7 @@
     Cable Apple Tc Ligthning 5 ok
     Cargador Yl Tc 2
     Silicone Case Apple Iphone 11 Negro 1 ok
-    Silicone Case Motorola Moto G22 Lila 1 
+    Silicone Case Motorola Moto G22 Lila 1 ok
     Silicone Case Motorola Moto G52 Fucsia 1 ok
     Silicone Case Motorola Moto G60 Lila 1 ok
     Silicone Case Samsung A36 Rosa 1
@@ -296,5 +297,5 @@
     Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
     Silicone Case Tecno Spark Go 2 / Smart 10 Morado 1 ok
     Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 1 ok
-    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
 
