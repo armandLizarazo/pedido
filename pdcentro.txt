@@ -50,7 +50,7 @@
     Forro Pin Samsung S24 Ultra 3
     Forro Space Huawei Honor X5B 2
     Forro Space Infinix Hot 50 Pro 5G 1
-    Forro Space Infinix Hot 50 Pro Plus 2
+    Forro Space Infinix Hot 50 Pro Plus 3 ok
     Forro Space Motorola Moto G50 1
     Forro Space Oppo Realme C53 / Note 50 1
     Forro Space Oppo Realme C75 2
@@ -63,7 +63,6 @@
     Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
-    Garantia Aro De Luz Mini 2
     Manos Libres Speak Tc 1
     Mouse Gamer Inalambrico Eco 2
     Mouse Jertech Jr-1 Rojo 1
@@ -84,7 +83,7 @@
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
-    Silicone Case Infinix Hot 50 Pro Plus Fucsia 1
+    Silicone Case Infinix Hot 50 Pro Plus Fucsia 1 ok
     Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Hot 50I Negro 1
@@ -256,8 +255,7 @@
     Balaca Pantalla Negro 1 ok
     Cable Apple Tc Ligthning 5 ok
     Cargador Yl Tc 2
-    Manos Libres Samsung Akg Tc Blanco 2
-    Silicone Case Apple Iphone 11 Negro 1
+    Silicone Case Apple Iphone 11 Negro 1 ok
     Silicone Case Motorola Moto G22 Lila 1 
     Silicone Case Motorola Moto G52 Fucsia 1 ok
     Silicone Case Motorola Moto G60 Lila 1 ok
@@ -266,12 +264,15 @@
     Silicone Case Vivo Y04 Lila 1 ok
     Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
     Audifonos Bluetooth Harvic Bt-543 Ii Azul 1 ok
-    Balaca Apple Airpods Max Negro 1.1 1 ok
-    Balaca Apple P9 Rosa 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Lila 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
+    Balaca Apple Airpods Max Negro 1.1 1 
+    Balaca Apple P9 Rosa 1 ok
     Balaca Appla P9 Azul 1 ok
-    Silicone Case Oppo Realme C55 Amarillo 1
+    Silicone Case Oppo Realme C55 Amarillo 1 ok
     Memoria Kingstone Usb 4Gb 3 ok
     Memoria Kingstone Micro 4Gb 3 ok
+    Manos Libres Samsung Akg Tc Blanco 3 ok
     Silicone Case Huawei Honor Magic 7 Lite / X9A Negro 1 ok
     Vidrio 5D Samsung A36 10 ok
     Vidrio 5D Xiaomi Redmi Note 12 10 ok
@@ -289,3 +290,11 @@
     Silicone Case Huawei Honor 200 Vinotinto ok
     Silicone Case Huawei Honor 200 Fucsia 1 ok
     Silicone Case Huawei Honor 200 Azulrey 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Azulclaro 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Lila 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Morado 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
+
