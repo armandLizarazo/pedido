@@ -376,6 +376,55 @@ def create_new_item():
             search()
 
 
+def add_to_purchase_order(filename):
+    """Agrega un item y cantidad a un archivo de pedido de proveedor."""
+    search_term = entry_search.get().strip()
+    if not search_term:
+        messagebox.showwarning(
+            "Acción Requerida",
+            "Por favor, busque un artículo para agregarlo a un pedido.",
+        )
+        return
+
+    try:
+        pedido_qty = int(entry_pedido_qty.get())
+        if pedido_qty <= 0:
+            raise ValueError
+    except ValueError:
+        messagebox.showerror(
+            "Error de Entrada", "Por favor, ingrese una cantidad válida para el pedido."
+        )
+        return
+
+    order_data = []
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            for line in f:
+                if line.startswith("    ") and len(line.strip()) > 0:
+                    parts = line.strip().rsplit(" ", 1)
+                    if len(parts) == 2 and parts[1].isdigit():
+                        order_data.append((parts[0], int(parts[1])))
+    except FileNotFoundError:
+        pass  # El archivo no existe, se creará uno nuevo.
+
+    item_found_in_order = False
+    for i, (desc, qty) in enumerate(order_data):
+        if desc.strip().lower() == search_term.lower():
+            order_data[i] = (desc, qty + pedido_qty)
+            item_found_in_order = True
+            break
+
+    if not item_found_in_order:
+        order_data.append((search_term, pedido_qty))
+
+    if update_file(filename, order_data):
+        messagebox.showinfo(
+            "Éxito",
+            f"Se agregaron {pedido_qty} unidades de '{search_term}' a {filename}.",
+        )
+        entry_pedido_qty.delete(0, tk.END)
+
+
 def delete_item():
     """Elimina un item de ambos archivos."""
     search_term = entry_search.get().strip()
@@ -394,8 +443,17 @@ def delete_item():
     if confirm:
         global data_bodega, data_local
 
-        bodega_len_before = len(data_bodega)
-        local_len_before = len(data_local)
+        # Verificamos si el item existe antes de intentar eliminarlo
+        item_exists = any(
+            item[0].strip().lower() == search_term.lower() for item in data_bodega
+        ) or any(item[0].strip().lower() == search_term.lower() for item in data_local)
+
+        if not item_exists:
+            messagebox.showinfo(
+                "No Encontrado",
+                f"El ítem '{search_term}' no se encontró en los inventarios.",
+            )
+            return
 
         data_bodega = [
             item
@@ -408,16 +466,6 @@ def delete_item():
             if item[0].strip().lower() != search_term.lower()
         ]
 
-        if (
-            len(data_bodega) == bodega_len_before
-            and len(data_local) == local_len_before
-        ):
-            messagebox.showinfo(
-                "No Encontrado",
-                f"El ítem '{search_term}' no se encontró en los inventarios.",
-            )
-            return
-
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
@@ -425,7 +473,7 @@ def delete_item():
                 "Éxito", f"El ítem '{search_term}' ha sido eliminado exitosamente."
             )
             entry_search.delete(0, tk.END)
-            search()  # To clear the results and update the view
+            search()
 
 
 def edit_item():
@@ -450,13 +498,14 @@ def edit_item():
         messagebox.showinfo("Sin Cambios", "El nuevo nombre es igual al actual.")
         return
 
-    # Check if new_desc already exists
+    # Comprobamos que el nuevo nombre no exista ya
     all_descriptions = {item[0].lower() for item in data_bodega} | {
         item[0].lower() for item in data_local
     }
     if new_desc.lower() in all_descriptions:
         messagebox.showerror(
-            "Ítem Existente", f"El ítem '{new_desc}' ya existe en el inventario."
+            "Ítem Existente",
+            f"El ítem '{new_desc}' ya existe. Por favor elija otro nombre.",
         )
         return
 
@@ -466,32 +515,27 @@ def edit_item():
     )
 
     if confirm:
-        item_found = False
-        # Create new lists with the edited item
-        new_data_bodega = []
-        for desc, qty in data_bodega:
-            if desc.strip().lower() == old_desc.lower():
-                new_data_bodega.append((new_desc, qty))
-                item_found = True
-            else:
-                new_data_bodega.append((desc, qty))
+        item_found_and_changed = False
 
-        new_data_local = []
-        for desc, qty in data_local:
+        # Actualizamos la lista de bodega
+        for i, (desc, qty) in enumerate(data_bodega):
             if desc.strip().lower() == old_desc.lower():
-                new_data_local.append((new_desc, qty))
-                item_found = True
-            else:
-                new_data_local.append((desc, qty))
+                data_bodega[i] = (new_desc, qty)
+                item_found_and_changed = True
+                break
 
-        if not item_found:
+        # Actualizamos la lista de local
+        for i, (desc, qty) in enumerate(data_local):
+            if desc.strip().lower() == old_desc.lower():
+                data_local[i] = (new_desc, qty)
+                item_found_and_changed = True
+                break
+
+        if not item_found_and_changed:
             messagebox.showinfo(
                 "No Encontrado", f"No se encontró el ítem '{old_desc}'."
             )
             return
-
-        data_bodega = new_data_bodega
-        data_local = new_data_local
 
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
@@ -503,36 +547,6 @@ def edit_item():
             search()
 
 
-def show_selected_item_name(event):
-    """Muestra el nombre completo del item seleccionado en la parte inferior."""
-    widget = event.widget
-    if widget not in (tree_bodega, tree_local):
-        return
-
-    if not widget.selection():
-        label_selected_item.config(
-            text="Seleccione un ítem de las listas para ver su nombre completo aquí.",
-            font=("Helvetica", 11, "italic"),
-            fg="#333333",
-        )
-        return
-
-    item_id = widget.selection()[0]
-    item_values = widget.item(item_id, "values")
-
-    if item_values:
-        full_description = item_values[0]
-        label_selected_item.config(
-            text=full_description, font=("Helvetica", 11), fg="black"
-        )
-    else:
-        label_selected_item.config(
-            text="No se pudo obtener la descripción del ítem.",
-            font=("Helvetica", 11, "italic"),
-            fg="red",
-        )
-
-
 # --- Carga de Datos ---
 data_bodega = parse_file("bodegac.txt")
 data_local = parse_file("local.txt")
@@ -540,7 +554,7 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("850x800")  # Aumentado el alto para la nueva sección
+root.geometry("850x950")  # Aumentado el alto para las nuevas secciones
 root.configure(bg="#f0f0f0")
 
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
@@ -640,62 +654,36 @@ tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 tree_bodega.tag_configure("not_found", foreground="red")
 tree_local.tag_configure("not_found", foreground="red")
 
-tree_bodega.bind("<<TreeviewSelect>>", show_selected_item_name)
-tree_local.bind("<<TreeviewSelect>>", show_selected_item_name)
-
-# --- Frame para mostrar el nombre completo del item seleccionado ---
-frame_selected_item = tk.Frame(main_frame, bg="#d6eaf8", relief="groove", borderwidth=2)
-frame_selected_item.pack(fill=tk.X, pady=(15, 5), ipady=5, ipadx=5)
-
-label_selected_item_title = tk.Label(
-    frame_selected_item,
-    text="Nombre completo del ítem seleccionado:",
-    font=("Helvetica", 12, "bold"),
-    bg=frame_selected_item["bg"],
+# --- Frame de Zona de Peligro (Eliminar) ---
+frame_danger = tk.Frame(
+    main_frame, bg="#f8d7da", pady=10, padx=10, relief="solid", borderwidth=1
 )
-label_selected_item_title.pack(anchor="w", padx=5)
-
-label_selected_item = tk.Label(
-    frame_selected_item,
-    text="Seleccione un ítem de las listas para ver su nombre completo aquí.",
-    font=("Helvetica", 11, "italic"),
-    bg=frame_selected_item["bg"],
-    wraplength=800,
-    justify=tk.LEFT,
-    fg="#333333",
-)
-label_selected_item.pack(anchor="w", fill=tk.X, padx=5, pady=(2, 0))
-
-# --- Frame de Acciones Peligrosas ---
-frame_danger = tk.Frame(main_frame, bg="#f8d7da", pady=10, padx=10)
 frame_danger.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
-
 tk.Label(
     frame_danger,
     text="Zona de Peligro:",
     font=("Helvetica", 11, "bold"),
     bg=frame_danger["bg"],
     fg="#721c24",
-).pack(side=tk.LEFT, padx=(0, 5))
-
+).pack(side=tk.LEFT, padx=(0, 10))
 btn_delete_item = tk.Button(
     frame_danger,
     text="Eliminar Ítem Buscado",
     command=delete_item,
     font=("Helvetica", 10, "bold"),
     bg="#dc3545",
-    fg="black",
+    fg="white",
     relief="flat",
     padx=10,
     activebackground="#c82333",
 )
 btn_delete_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-
 # --- Frame de Edición de Ítem ---
-frame_edit = tk.Frame(main_frame, bg="#fff3cd", pady=10, padx=10)
+frame_edit = tk.Frame(
+    main_frame, bg="#fff3cd", pady=10, padx=10, relief="solid", borderwidth=1
+)
 frame_edit.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
-
 tk.Label(
     frame_edit,
     text="Nuevo Nombre:",
@@ -703,10 +691,8 @@ tk.Label(
     bg=frame_edit["bg"],
     fg="#856404",
 ).pack(side=tk.LEFT, padx=(0, 5))
-
 entry_edit_container = tk.Frame(frame_edit, relief="solid", borderwidth=1, bg="white")
 entry_edit_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
-
 entry_edit_item = tk.Entry(
     entry_edit_container,
     font=("Helvetica", 11),
@@ -715,10 +701,9 @@ entry_edit_item = tk.Entry(
     bg="white",
 )
 entry_edit_item.pack(ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
-
 btn_edit_item = tk.Button(
     frame_edit,
-    text="Renombrar Ítem Buscado",
+    text="Renombrar Ítem",
     command=edit_item,
     font=("Helvetica", 10, "bold"),
     bg="#ffc107",
@@ -729,7 +714,7 @@ btn_edit_item = tk.Button(
 )
 btn_edit_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-# --- Frame de Creación de Ítem (NUEVO) ---
+# --- Frame de Creación de Ítem ---
 frame_create = tk.Frame(main_frame, bg="#d4edda", pady=10, padx=10)
 frame_create.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
@@ -756,7 +741,7 @@ btn_create_item = tk.Button(
     command=create_new_item,
     font=("Helvetica", 10, "bold"),
     bg="#198754",
-    fg="black",
+    fg="white",
     relief="flat",
     padx=10,
     activebackground="#157347",
@@ -881,5 +866,71 @@ btn_to_bodega = tk.Button(
     activebackground="#e0a800",
 )
 btn_to_bodega.pack(side=tk.LEFT, ipady=2)
+
+# --- Frame de Pedidos a Proveedores ---
+frame_pedido = tk.Frame(main_frame, bg="#d1ecf1", pady=10, padx=10)
+frame_pedido.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
+
+tk.Label(
+    frame_pedido,
+    text="Agregar a Pedido:",
+    font=("Helvetica", 11, "bold"),
+    bg=frame_pedido["bg"],
+    fg="#0c5460",
+).pack(side=tk.LEFT, padx=(0, 5))
+
+entry_pedido_container = tk.Frame(
+    frame_pedido, relief="solid", borderwidth=1, bg="white"
+)
+entry_pedido_container.pack(side=tk.LEFT)
+entry_pedido_qty = tk.Entry(
+    entry_pedido_container,
+    font=("Helvetica", 11),
+    width=10,
+    relief="flat",
+    borderwidth=0,
+    bg="white",
+)
+entry_pedido_qty.pack(ipady=2, padx=1, pady=1)
+
+btn_pd_centro = tk.Button(
+    frame_pedido,
+    text="PD Centro",
+    command=lambda: add_to_purchase_order("pdcentro.txt"),
+    font=("Helvetica", 10, "bold"),
+    bg="#a3e9a4",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#8fcf90",
+)
+btn_pd_centro.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
+
+btn_pd_pr = tk.Button(
+    frame_pedido,
+    text="PD PR",
+    command=lambda: add_to_purchase_order("pdpr.txt"),
+    font=("Helvetica", 10, "bold"),
+    bg="#a8d8ff",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#8fbcff",
+)
+btn_pd_pr.pack(side=tk.LEFT, padx=(0, 5), ipady=2)
+
+btn_pd_st = tk.Button(
+    frame_pedido,
+    text="PD ST",
+    command=lambda: add_to_purchase_order("pdst.txt"),
+    font=("Helvetica", 10, "bold"),
+    bg="#d3d3d3",
+    fg="black",
+    relief="flat",
+    padx=10,
+    activebackground="#b8b8b8",
+)
+btn_pd_st.pack(side=tk.LEFT, ipady=2)
+
 
 root.mainloop()

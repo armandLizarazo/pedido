@@ -1,52 +1,37 @@
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Multitoma 6 Enchufes 1
     Aro De Luz 45Cm 2
     Audifonos Bluetooth Ambie 1
     Base Refirgerante 4 Ventiladores 1
-    Cargador Pc Puntas Caja Blanca 2
-    Consola Microsoft Xbox 360 1 ok
-    Control Gamer Microsoft Pc / 360 Alambrico 1 ok
-    Intercomunicador Helmet Kr-M2 1 ok
-    Intercomunicador Helmet Kr-M3 con Camara 1 ok
-    Lampara Esfera Sistema Solar 1
-    Reproductor Alexa Reloj 1
-    Soporte Monitor Mesa 1
-    Soporte Para Control Ps4 1
-    Tableta Tigers Kids Rosa 1 
-    Teclado Seisa Dn-236 2
-    Termo Motivacion 1
-    Pilas Recargables Beston AA x2 1
-    Control Gamer Microsoft Xbox Caja Negra 2
-    Control Gamer X3 4
-    Pilas Recargables Beston AAA x4 1
-    Parlante Pc U-2400 Mini Teatro 1 ok
-    Parlante Pc Wit Pw-2000 Mini Teatro 1 ok
-    Parlante Pc E-1027 Eco 1 ok
-    Soporte Tripode Caja Cafe 1 ok 
-    Cable Lan 2M Cat 6 5
-    Rollo Cinta Led Eco 5
     Cable Disco Duro V8 3.0 Corto 2
-    Cargador Cabeza Cubo Eco 5
+    Cable Lan 2M Cat 6 5
+    Cable Optico 5M 1
+    Cable Poder Cuadrado 3
+    Cable Poder Grabadora 5
     Cable Vga 15M 2
-    Soporte Nephoo Tripode Camara-Celular Np-999 1
-    Forro Pc 16 Pulgadas 2
-    Proyector Hy-300 2 Ram 2 ok
-    Proyector Thor Hy-300 Con Juegos 1 ok
-    Base Refrigerante Wit-400
+    Cargador Cabeza Cubo Eco 5
+    Cargador Pc 9 Pines Caja Verde P Azul 2
+    Cargador Pc Puntas Caja Blanca 2
     Consola + Tv box 1
     Control Gamer Gatillos W11+ 3
-    Adaptador Hdmi2vga Cbl 1 ok
-    Caja Disco Duro 3.0 2 ok
-    Cargador Pc 8 Pines Caja Naranja 2 ok
-    Cargador Pc Hp Punta Azul 1 ok
-    Gramera Joyeria 1 ok
-    Gramera Sencilla 1 ok
+    Control Gamer Microsoft Xbox Caja Negra 2
+    Control Gamer X3 4
+    Forro Pc 16 Pulgadas 2
+    Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
     Memoria Musica Cristiana 2
     Memoria Musica Electronica 1
-    Cargador Inversor 12V a 110V 1 ok
-    Adaptador Tarjeta Audio 5.1 2 ok
-    Adaptador Tarjeta Audio 7.1 2 ok
-    Consola Pandora 1 ok
     Pilas Carbon Maxday Aaa X2 30
-    Teclado Kb-502 Eco 2 ok
-    Parlante Gedi-G Gd-1521 30000w 1 ok
+    Pilas Recargables Beston AA x2 1
+    Pilas Recargables Beston AAA x4 1
+    Reproductor Alexa Reloj 1
+    Reproductor Onn Hd 1
+    Rollo Cinta Led Eco 5
+    Rollo Papel Mini impresora 5
+    Soporte Monitor Mesa 1
+    Soporte Nephoo Tripode Camara-Celular Np-999 1
+    Soporte Para Control Ps4 1
+    Soporte Tv 50 Brazo 2
+    Tableta Tigers Kids Rosa 1
+    Teclado Seisa Dn-236 2
+    Termo Motivacion 1

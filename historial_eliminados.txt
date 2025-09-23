@@ -8377,3 +8377,135 @@ Fecha de proceso: 2025-09-20 06:15:25
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-21 20:15:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 52
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdcentro
+   54 | Forro Space Infinix Hot 50 Pro Plus 3 ok
+   87 | Silicone Case Infinix Hot 50 Pro Plus Fucsia 1 ok
+   88 | Silicone Case Infinix Hot 50 Pro Plus Negro 1 ok
+   89 | Silicone Case Infinix Hot 50I / Smart 9 Amarillo 1 ok
+  237 | Silicone Case Infinix Hot 50 Pro Rojo 1 ok
+  239 | Silicone Case Tecno Camon 40 Pro Negro 1 ok
+  255 | Forro Space Motorola Moto G20 / G30 2 ok
+  256 | Silicone Case Xiaomi Redmi A5 Morado 1 ok
+  257 | Balaca Pantalla Negro 1 ok
+  258 | Cable Apple Tc Ligthning 5 ok
+  260 | Silicone Case Apple Iphone 11 Negro 1 ok
+  261 | Silicone Case Motorola Moto G22 Lila 1 ok
+  262 | Silicone Case Motorola Moto G52 Fucsia 1 ok
+  263 | Silicone Case Motorola Moto G60 Lila 1 ok
+  265 | Silicone Case Samsung A36 Vinotinto 1 ok
+  266 | Silicone Case Vivo Y04 Lila 1 ok
+  267 | Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+  268 | Audifonos Bluetooth Harvic Bt-543 Ii Azul 1 ok
+  269 | Audifonos Bluetooth Harvic Bt-543 Ii Lila 1 ok
+  270 | Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
+  272 | Balaca Apple P9 Rosa 1 ok
+  273 | Balaca Appla P9 Azul 1 ok
+  274 | Silicone Case Oppo Realme C55 Amarillo 1 ok
+  275 | Memoria Kingstone Usb 4Gb 3 ok
+  276 | Memoria Kingstone Micro 4Gb 3 ok
+  277 | Manos Libres Samsung Akg Tc Blanco 3 ok
+  278 | Silicone Case Huawei Honor Magic 7 Lite / X9A Negro 1 ok
+  279 | Vidrio 5D Samsung A36 10 ok
+  280 | Vidrio 5D Xiaomi Redmi Note 12 10 ok
+  281 | Vidrio 5D Samsung A12 10 ok
+  282 | Forro Antichoque Samsung A26 Dama 5 ok
+  283 | Forro Antichoque Samsung A26 Caballero 4 ok
+  284 | Silicone Case Infinix Hot 60 Pro Plus Verde 1 ok
+  285 | Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 1 ok
+  286 | Silicone Case Infinix Hot 60 Pro Plus Palorosa 1 ok
+  287 | Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1 ok
+  288 | Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
+  289 | Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
+  290 | Silicone Case Huawei Honor 200 Negro 1 ok
+  291 | Silicone Case Huawei Honor 200 Rojo 1 ok
+  292 | Silicone Case Huawei Honor 200 Vinotinto ok
+  293 | Silicone Case Huawei Honor 200 Fucsia 1 ok
+  294 | Silicone Case Huawei Honor 200 Azulrey 1 ok
+  295 | Silicone Case Tecno Spark Go 2 / Smart 10 Azulclaro 1 ok
+  296 | Silicone Case Tecno Spark Go 2 / Smart 10 Lila 1 ok
+  297 | Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1 ok
+  298 | Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
+  299 | Silicone Case Tecno Spark Go 2 / Smart 10 Morado 1 ok
+  300 | Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 1 ok
+  301 | Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
+  302 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-09-21 20:15:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 22
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Consola Microsoft Xbox 360 1 ok
+    7 | Control Gamer Microsoft Pc / 360 Alambrico 1 ok
+    8 | Intercomunicador Helmet Kr-M2 1 ok
+    9 | Intercomunicador Helmet Kr-M3 con Camara 1 ok
+   21 | Parlante Pc U-2400 Mini Teatro 1 ok
+   22 | Parlante Pc Wit Pw-2000 Mini Teatro 1 ok
+   23 | Parlante Pc E-1027 Eco 1 ok
+   24 | Soporte Tripode Caja Cafe 1 ok
+   32 | Proyector Hy-300 2 Ram 2 ok
+   33 | Proyector Thor Hy-300 Con Juegos 1 ok
+   37 | Adaptador Hdmi2vga Cbl 1 ok
+   38 | Caja Disco Duro 3.0 2 ok
+   39 | Cargador Pc 8 Pines Caja Naranja 2 ok
+   40 | Cargador Pc Hp Punta Azul 1 ok
+   41 | Gramera Joyeria 1 ok
+   42 | Gramera Sencilla 1 ok
+   46 | Cargador Inversor 12V a 110V 1 ok
+   47 | Adaptador Tarjeta Audio 5.1 2 ok
+   48 | Adaptador Tarjeta Audio 7.1 2 ok
+   49 | Consola Pandora 1 ok
+   51 | Teclado Kb-502 Eco 2 ok
+   52 | Parlante Gedi-G Gd-1521 30000w 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-21 20:15:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 25
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | # Pedido: pdst
+    3 | Flex de Volumen Samsung A10s 1 ok
+    4 | Pacha Huawei Y6 2019 / Honor 8A 1 ok
+    5 | Pacha Huawei Y9 Prime Full 1 ok
+    6 | Pacha Motorola Moto One Fusion 1 ok
+    7 | Pacha Samsung A04s 1 ok
+    8 | Pacha Samsung A10S 1 ok
+    9 | Pacha Samsung A10s C/m 1 ok
+   10 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   11 | Pacha Vivo Y17s / Y22s 2 ok
+   12 | Pacha Xiaomi Redmi 10C 2 ok
+   13 | Pacha Xiaomi Redmi 9T / Poco M3 1 ok
+   14 | Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok
+   15 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   16 | Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1 ok
+   17 | Auricular Xiaomi Redmi 10 1 ok
+   18 | Pacha Samsung A21S 1 ok
+   19 | Pacha Samsung A31 C/m 1 ok
+   20 | Tapa Samsung A31 Azul 1 ok
+   21 | Tapa Samsung A31 Negro 1 ok
+   22 | Pacha Xiaomi Redmi A3 1 ok
+   23 | Pacha Xiaomi Redmi 13C 2 ok
+   25 | Pacha Motorola Moto G35 1 ok
+   26 | Pacha Xiaomi Redmi 12C 1 ok
+   27 | Pacha Xiaomi Redmi 10 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-21 20:15:51
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
