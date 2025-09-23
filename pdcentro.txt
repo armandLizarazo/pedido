@@ -269,13 +269,15 @@
     Silicone Case Samsung A17 Rojo 1 ok
     Silicone Case Samsung A17 Lila 1 ok
     Silicone Case Samsung A17 Fucsia 1 ok
-    Forro Antichoque Samsung A17 Caballero 6
-    Forro Antichoque Samsung A17 Dama 6
-    Forro Antichoque Samsung A07 Caballero 6
-    Forro Antichoque Samsung A07 Dama 6
-    Forro Antichoque Huawei Honor 400 Caballero 6
-    Forro Antichoque Huawei Honor 400 Dama 6
-    Forro Antichoque Huawei Honor 400 Lite Caballero 6 
-    Forro Antichoque Huawei Honor 400 Lite Dama 6
-    Forro Antichoque Oppo A40 / A60 Caballero
+    Forro Antichoque Samsung A17 Caballero 6 ok
+    Forro Antichoque Samsung A17 Dama 6 ok
+    Forro Antichoque Samsung A07 Caballero 5 ok
+    Forro Antichoque Samsung A07 Dama 6 ok
+    Forro Antichoque Huawei Honor 400 Caballero 6 ok
+    Forro Antichoque Huawei Honor 400 Dama 5 ok
+    Forro Antichoque Huawei Honor 400 Lite Caballero 5 ok
+    Forro Antichoque Huawei Honor 400 Lite Dama 5 ok
+    Forro Antichoque Oppo A40 / A60 Caballero 5 ok
     Manos Libres Knz Tc 2 ok
+    Forro Antichoque Vivo Y39 5G Dama 5 ok
+    Forro Antichoque Oppo Reno 13F 5 ok
