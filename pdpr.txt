@@ -18,13 +18,15 @@
     Forro Pc 16 Pulgadas 2
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
-    Memoria Musica Cristiana 2
-    Memoria Musica Electronica 1
+    Memoria Musica Cristiana 2 ok
+    Memoria Musica Electronica 1 ok
+    Memoria Musica Tropical 2 ok
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston AA x2 1
+    Pilas Recargables Beston AA x2 1 ok
     Pilas Recargables Beston AAA x4 1
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd 1
+    Reproductor Onn Hd  Azul 1 ok
+    Reproductor Dvd One Tech Dvd-227 Hdmi 1 ok
     Rollo Cinta Led Eco 5
     Rollo Papel Mini impresora 5
     Soporte Monitor Mesa 1
