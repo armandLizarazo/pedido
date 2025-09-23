@@ -1,32 +1,31 @@
     Adaptador Otg Tc Y Micro 3
-    Audifonos Bluetooth Harvic Bt-542 Ii Lila 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
     Audifonos Bluetooth Orejas 1
-    Audifonos Bluetooth Xiaomi E7S Azul 1
-    Audifonos Bluetooth Xiaomi E7S Rosa 1
+    Audifonos Bluetooth Xiaomi E7S Azul 1 ok
+    Audifonos Bluetooth Xiaomi E7S Blanco 1 ok
     Balaca Apple Airpods Max Negro 1.1 1
-    Cable Apple Tc Ligthning 4
-    Cable Apple Tc Ligthning 2M 4
-    Cable Apple Usb Ligthning 5
+    Cable Apple Tc Ligthning 4 ok
+    Cable Apple Tc Ligthning 2M 4 ok
+    Cable Apple Usb Ligthning 5 ok
     Cable Belkin Tc 10
+    Cable Yoyos Tc 5 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
     Cable Poder Grabadora 5
-    Cable Royal V8 2M 2
+    Cable Royal V8 2M 2 ok
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
     Cargador Yl Tc 2
-    Forro Antichoque Huawei Honor X5B Caballero 5
+    Forro Antichoque Huawei Honor X5B Caballero 5 ok
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo A5 Dama 5
-    Forro Antichoque Oppo A60 Caballero 5
-    Forro Antichoque Oppo A60 Dama 5
+    Forro Antichoque Oppo A60 Caballero 4 ok
+    Forro Antichoque Oppo A60 Dama 5 ok
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
@@ -128,10 +127,10 @@
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
-    Silicone Case Infinix Hot 50I Negro 1
+    Silicone Case Infinix Hot 50I / Smart 9 Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1
-    Silicone Case Infinix Hot 60 Pro Plus Verde 1
+    Silicone Case Infinix Hot 60 Pro Plus Verde 1 ok
     Silicone Case Infinix Note 50s Azulrey 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 1
@@ -262,3 +261,21 @@
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
+    Silicone Case Samsung A07 Lila 1 ok
+    Silicone Case Samsung A07 Negro 1 ok
+    Silicone Case Samsung A07 Rojo 1 ok
+    Silicone Case Samsung A07 Fucsia 1 ok
+    Silicone Case Samsung A17 Negro 1 ok
+    Silicone Case Samsung A17 Rojo 1 ok
+    Silicone Case Samsung A17 Lila 1 ok
+    Silicone Case Samsung A17 Fucsia 1 ok
+    Forro Antichoque Samsung A17 Caballero 6
+    Forro Antichoque Samsung A17 Dama 6
+    Forro Antichoque Samsung A07 Caballero 6
+    Forro Antichoque Samsung A07 Dama 6
+    Forro Antichoque Huawei Honor 400 Caballero 6
+    Forro Antichoque Huawei Honor 400 Dama 6
+    Forro Antichoque Huawei Honor 400 Lite Caballero 6 
+    Forro Antichoque Huawei Honor 400 Lite Dama 6
+    Forro Antichoque Oppo A40 / A60 Caballero
+    Manos Libres Knz Tc 2 ok
