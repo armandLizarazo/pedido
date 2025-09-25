@@ -1,4 +1,4 @@
-    Adaptador Hdmi2Vga Cja Macho 3
+    Adaptador Hdmi2Vga Cja Macho 2 ok
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Multitoma 6 Enchufes 1
     Aro De Luz 45Cm 2
@@ -7,7 +7,7 @@
     Cable Disco Duro V8 3.0 Corto 2
     Cable Lan 2M Cat 6 5
     Cable Vga 15M 2
-    Cargador Cabeza Cubo Eco 5
+    Cargador Cabeza Cubo Eco 5 ok
     Consola + Tv box 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Xbox Caja Negra 2
@@ -17,9 +17,10 @@
     Lonchera Carro 1
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston AAA x4 1
+    Pilas Recargables Beston AA x2 2 ok
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Eco 5
-    Rollo Papel Mini impresora 5
+    Rollo Papel Mini impresora Adhesivo 5 ok
     Soporte Holder Moto M3 3
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
