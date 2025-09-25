@@ -2,10 +2,11 @@
     Audifonos Bluetooth Orejas 1
     Balaca Apple Airpods Max Negro 1.1 1
     Cable Belkin Tc 10
+    Cable Caterpillar Tc 2 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
-    Cable Poder Grabadora 5
+    Cable Xiaomi Original Usb Tc 2 ok
     Cargador Apple 5V Eco 3
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
@@ -30,7 +31,7 @@
     Forro Antichoque Vivo Y19S Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Antichoque Vivo Y39 Dama 5
-    Forro Antichoque infinix Note 50S 4G Caballero 3
+    Forro Antichoque infinix Note 50S 4G Caballero 3 ok
     Forro Armadura Huawei Honor X8B Negro 1
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto G35 Negro 1
@@ -96,7 +97,7 @@
     Mouse Gamer Inalambrico Eco 2
     Mouse Jertech Jr-1 Rojo 1
     Power Bank Aibimy 30000 Mah 1
-    Power Bank Yoyos Ys-700 10000 Mah 2
+    Power Bank Yoyos Ys-700 10000 Mah 1 ok
     Proyector Astronauta Bluetooth 1
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
@@ -256,3 +257,7 @@
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
+    Forro Antichoque Tecno Camon 40 Pro Caballero 6 ok
+    Forro Antichoque Tecno Camon 40 Pro Dama 5 ok
+    Forro Space Tecno Camon 40 Pro 3 ok
+    
