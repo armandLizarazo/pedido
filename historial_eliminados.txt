@@ -8509,3 +8509,82 @@ Fecha de proceso: 2025-09-21 20:15:51
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-23 15:08:59
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 31
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos Bluetooth Xiaomi E7S Azul 1 ok
+    4 | Audifonos Bluetooth Xiaomi E7S Blanco 1 ok
+    6 | Cable Apple Tc Ligthning 4 ok
+    7 | Cable Apple Tc Ligthning 2M 4 ok
+    8 | Cable Apple Usb Ligthning 5 ok
+   10 | Cable Yoyos Tc 5 ok
+   15 | Cable Royal V8 2M 2 ok
+   20 | Forro Antichoque Huawei Honor X5B Caballero 5 ok
+   27 | Forro Antichoque Oppo A60 Caballero 4 ok
+   28 | Forro Antichoque Oppo A60 Dama 5 ok
+  133 | Silicone Case Infinix Hot 60 Pro Plus Verde 1 ok
+  264 | Silicone Case Samsung A07 Lila 1 ok
+  265 | Silicone Case Samsung A07 Negro 1 ok
+  266 | Silicone Case Samsung A07 Rojo 1 ok
+  267 | Silicone Case Samsung A07 Fucsia 1 ok
+  268 | Silicone Case Samsung A17 Negro 1 ok
+  269 | Silicone Case Samsung A17 Rojo 1 ok
+  270 | Silicone Case Samsung A17 Lila 1 ok
+  271 | Silicone Case Samsung A17 Fucsia 1 ok
+  272 | Forro Antichoque Samsung A17 Caballero 6 ok
+  273 | Forro Antichoque Samsung A17 Dama 6 ok
+  274 | Forro Antichoque Samsung A07 Caballero 5 ok
+  275 | Forro Antichoque Samsung A07 Dama 6 ok
+  276 | Forro Antichoque Huawei Honor 400 Caballero 6 ok
+  277 | Forro Antichoque Huawei Honor 400 Dama 5 ok
+  278 | Forro Antichoque Huawei Honor 400 Lite Caballero 5 ok
+  279 | Forro Antichoque Huawei Honor 400 Lite Dama 5 ok
+  280 | Forro Antichoque Oppo A40 / A60 Caballero 5 ok
+  281 | Manos Libres Knz Tc 2 ok
+  282 | Forro Antichoque Vivo Y39 5G Dama 5 ok
+  283 | Forro Antichoque Oppo Reno 13F 5 ok
+
+==================================================
+Fecha de proceso: 2025-09-23 15:08:59
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 11
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cable Optico 5M 1 ok
+    9 | Cable Poder Cuadrado 3 ok
+   10 | Cable Poder Grabadora 5 ok
+   13 | Cargador Pc 9 Pines Caja Verde P Azul 2 ok
+   21 | Memoria Musica Cristiana 2 ok
+   22 | Memoria Musica Electronica 1 ok
+   23 | Memoria Musica Tropical 2 ok
+   25 | Pilas Recargables Beston AA x2 1 ok
+   28 | Reproductor Onn Hd  Azul 1 ok
+   29 | Reproductor Dvd One Tech Dvd-227 Hdmi 1 ok
+   35 | Soporte Tv 50 Brazo 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-23 15:08:59
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Caja de Timbres Samsung A20s 1 ok
+    2 | Pacha Oppo A17 / A38 / A57 / A77 1 ok
+    3 | Pacha Samsung A20s 1 ok
+    4 | Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-23 15:08:59
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

@@ -1501,3 +1501,35 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-09-22 20:32:20,20250922203220,Video Juego Xbox 360 5.0 Residen Evil,1,2000.00,6000.00,6000.00,4000.00,local.txt,Cliente General,Efectivo: $6000.00
 2025-09-22 21:11:44,20250922211144,Reproductor Onn Hd,1,100000.00,150000.00,150000.00,50000.00,local.txt,Cliente General,Nequi: $150000.00
 2025-09-22 21:13:20,20250922211320,Recargas,1,16038.00,17000.00,17000.00,962.00,local.txt,Cliente General,Efectivo: $17000.00
+2025-09-23 15:10:22,20250923151022,Pacha Xiaomi Redmi 13C,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General,Efectivo: $95000.00
+2025-09-23 15:11:14,20250923151114,Cable Caterpillar Tc,1,4500.00,15000.00,15000.00,10500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-09-23 15:11:43,20250923151143,Cable Royal Tc 2M,1,2500.00,18000.00,18000.00,15500.00,local.txt,Cliente General,Efectivo: $18000.00
+2025-09-23 21:16:37,20250923211637,Vidrio 5D Samsung A05,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $10000.00
+2025-09-23 21:17:13,20250923211713,Vidrio 5D Motorola Moto G84,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-23 21:18:05,20250923211805,Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Nequi: $20000.00
+2025-09-23 21:19:01,20250923211901,Vidrio Blindado Apple Iphone 13 Pro Max,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Daviplata: $38000.00
+2025-09-23 21:19:01,20250923211901,Vidrio Camara Apple Iphone 13 Pro Max,3,1500.00,6000.00,18000.00,13500.00,local.txt,Cliente General,Daviplata: $38000.00
+2025-09-23 21:19:31,20250923211931,Silicone Case Samsung A70 Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-23 21:19:51,20250923211951,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-23 21:21:17,20250923212117,Adaptador Dpp2Hdmi Cbl,2,12000.00,30000.00,60000.00,36000.00,local.txt,Cliente General,Nequi: $60000.00
+2025-09-23 21:22:05,20250923212205,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-09-23 21:23:18,20250923212318,Recargas,1,29245.00,31000.00,31000.00,1755.00,local.txt,Cliente General,Efectivo: $31000.00
+2025-09-24 15:21:07,20250924152107,Cargador We Tc 33W,1,8500.00,34000.00,34000.00,25500.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-09-24 15:21:41,20250924152141,Forro Antichoque infinix Note 50S 4G Caballero,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Efectivo: $18000.00
+2025-09-24 15:22:04,20250924152204,Soporte Tv 50 Brazo,1,24000.00,50000.00,50000.00,26000.00,local.txt,Cliente General,Efectivo: $50000.00
+2025-09-24 15:23:40,20250924152340,Pacha Xiaomi Poco X3 / Mi 10T Lite,1,42000.00,100000.00,100000.00,58000.00,local.txt,Cliente General,Daviplata: $130000.00
+2025-09-24 15:23:40,20250924152340,Silicone Case Xiaomi Poco X3 Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $130000.00
+2025-09-24 15:23:40,20250924152340,Vidrio Ceramico Samsung A71 / Poco X3,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Daviplata: $130000.00
+2025-09-24 15:56:46,20250924155646,Servicio Tecnico Xiaomi Ajustar Auricular Redmi 10,1,0.00,25000.00,25000.00,25000.00,local.txt,Cliente General,Nequi: $25000.00
+2025-09-24 16:02:38,20250924160238,Soporte Holder Moto M3,1,12000.00,24000.00,24000.00,12000.00,local.txt,Cliente General,Efectivo: $24000.00
+2025-09-24 16:09:46,20250924160946,Servicio Tecnico Motorola Reiniciar Moto E20,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-23 16:13:46,20250924161346,Cargador Apple 5V Eco,1,6000.00,22000.00,22000.00,16000.00,local.txt,Cliente General,Efectivo: $22000.00
+2025-09-24 17:04:17,20250924170417,Cable Caterpillar Tc,1,4500.00,15000.00,15000.00,10500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-09-24 17:56:47,20250924175647,Hydrogel Tecno Camon 40 Pro,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-24 18:13:25,20250924181325,Hydrogel Tecno Camon 40 Pro,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-24 18:40:42,20250924184042,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-24 19:43:24,20250924194324,Forro Picina,1,4000.00,15000.00,15000.00,11000.00,local.txt,Cliente General,Daviplata: $15000.00
+2025-09-24 19:46:15,20250924194615,Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General,Efectivo: $43000.00
+2025-09-24 19:46:15,20250924194615,Hydrogel Infinix Note 40 Pro Plus,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $43000.00
+2025-09-24 19:46:15,20250924194615,Tapones Puerto de Carga,1,2000.00,8000.00,8000.00,6000.00,local.txt,Cliente General,Efectivo: $43000.00
+2025-09-24 21:14:25,20250924211425,Recargas,1,35377.00,37500.00,37500.00,2123.00,local.txt,Cliente General,Efectivo: $37500.00

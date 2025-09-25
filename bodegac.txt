@@ -6,8 +6,7 @@
     Adaptador Av2Vga 0
     Adaptador Bluetooth Car W Bt-X6 0
     Adaptador Bluetooth Dongle Audio 0
-    Adaptador Dpp2Hdmi Cable 0
-    Adaptador Dpp2Hdmi Cbl 1
+    Adaptador Dpp2Hdmi Cbl 0
     Adaptador Dpp2Vga 3
     Adaptador Dpp2Vga Cbl 2
     Adaptador Dvi2Vga 0
@@ -17,6 +16,7 @@
     Adaptador Hdmi2Av 3
     Adaptador Hdmi2Vga 2
     Adaptador Hdmi2Vga Cja 1
+    Adaptador Hdmi2Vga Cja Macho 0
     Adaptador Hdmi2dpp 0
     Adaptador Hdmi2dvi 2
     Adaptador Hdmi2vga Cbl 2
@@ -126,6 +126,7 @@
     Audifonos Bluetooth W I12 Rosa 0
     Audifonos Bluetooth X15 0
     Audifonos Bluetooth Xiaomi Airdots 0
+    Audifonos Bluetooth Xiaomi E7S Azul 0
     Audifonos Bluetooth Xiaomi E7S Blanco 0
     Audifonos Bluetooth Xiaomi E7S Negro 0
     Audifonos Bluetooth Xiaomi E7S Rosa 0
@@ -133,7 +134,8 @@
     Audifonos Bluetooth Xiaomi Redmi E7S Negro 0
     Audifonos Bluetooth Yoyos Inpods 12 Rosa 0
     Audifonos Bluettooh Batri Bt-60 0
-    Auricular Xiaomi Redmi 10 1
+    Auricular Apple Iphone Xs Max 0
+    Auricular Xiaomi Redmi 10 0
     Balaca Appla P9 Azul 0
     Balaca Apple Airpods Max Negro 0
     Balaca Apple Airpods Max Verde 0
@@ -164,6 +166,7 @@
     Base Refrigerante X6a 0
     Bateria Apple Iphone 7 Plus 0
     Bateria Apple Iphone X 0
+    Bateria Apple Iphone Xs Max Full 0
     Bateria Bl5c 0
     Bateria Huawei Honor X8A 1
     Bateria Huawei Mate 20 Lite 0
@@ -203,10 +206,10 @@
     Cable 5V 9V 12V Plug Ancho 2
     Cable Apple Iphone 4 0
     Cable Apple Tc A Tc 60w Aguja 0
-    Cable Apple Tc Ligthning 1
-    Cable Apple Tc Ligthning 2M 1
+    Cable Apple Tc Ligthning 4
+    Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc a Tc 0
-    Cable Apple Usb Ligthning 0
+    Cable Apple Usb Ligthning 2
     Cable Apple Usb Ligthning 2M 3
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 1 A 1 Cordon 1
@@ -225,7 +228,7 @@
     Cable Belkin Tc 0
     Cable Belkin Tc 2M 2
     Cable Belkin V8 5
-    Cable Caterpillar Tc 1
+    Cable Caterpillar Tc 0
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
     Cable Disco Duro V8 3.0 Corto 0
@@ -256,9 +259,9 @@
     Cable Nokia 1100 0
     Cable Optico 1.5M 3
     Cable Optico 3M 2
-    Cable Optico 5M 1
-    Cable Poder Cuadrado 2
-    Cable Poder Grabadora 0
+    Cable Optico 5M 2
+    Cable Poder Cuadrado 5
+    Cable Poder Grabadora 5
     Cable Poder Grabadora Corto 0
     Cable Poder Micro 0
     Cable Poder Mini 0
@@ -267,8 +270,8 @@
     Cable Rca 3 A 3 1.5M 1
     Cable Rca 3 A 3 3M 1
     Cable Royal Tc 0
-    Cable Royal Tc 2M 2
-    Cable Royal V8 2M 0
+    Cable Royal Tc 2M 0
+    Cable Royal V8 2M 1
     Cable Samsung Tc A Tc Blanco 1
     Cable Samsung Tc A Tc Negro 1
     Cable Samsung Tc a Tc Blanco 0
@@ -298,7 +301,7 @@
     Cable We Tc 4
     Cable We Tc Eco 0
     Cable Xiaomi Tc A Tc 0
-    Cable Yoyos Tc 0
+    Cable Yoyos Tc 5
     Cable Yoyos Tc 3M 2
     Cable Yoyos Tc 67W 0
     Cable Yoyos V8 3M 1
@@ -345,7 +348,7 @@
     Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
-    Cargador Apple 5V Eco 2
+    Cargador Apple 5V Eco 0
     Cargador Apple 60W 2P Tc Cabeza 1
     Cargador Apple 60W 2Tc 0
     Cargador Apple 60W 2Tc Cabeza 0
@@ -376,7 +379,7 @@
     Cargador Naisu V8 3A 0
     Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc 9 Pines Caja Azul 0
-    Cargador Pc 9 Pines Caja Verde P Azul 0
+    Cargador Pc 9 Pines Caja Verde P Azul 1
     Cargador Pc 9 Pines Caja Verde Tc y Yoga 0
     Cargador Pc Acer 2.37 0
     Cargador Pc Asus 2.37 1
@@ -521,6 +524,7 @@
     Forro Antichoque Cadena Motorola Moto G04 0
     Forro Antichoque Cadena Motorola Moto G20 / G30 0
     Forro Antichoque Cadena Oppo A17 0
+    Forro Antichoque Cadena Oppo A40 / A60 0
     Forro Antichoque Cadena Oppo A57 / A77 0
     Forro Antichoque Cadena Oppo Reno 7 Dama 0
     Forro Antichoque Cadena Redmi 13C 0
@@ -548,6 +552,10 @@
     Forro Antichoque Cadena Xiaomi Redmi Note 12 Pro 0
     Forro Antichoque Cadena Xiaomi Redmi Note 9 0
     Forro Antichoque Cadena infinix Note 50S 4G 0
+    Forro Antichoque Huawei Honor 400 Caballero 0
+    Forro Antichoque Huawei Honor 400 Dama 0
+    Forro Antichoque Huawei Honor 400 Lite Caballero 0
+    Forro Antichoque Huawei Honor 400 Lite Dama 0
     Forro Antichoque Huawei Honor 6 Lite Caballero 0
     Forro Antichoque Huawei Honor 90 Lite Caballero 0
     Forro Antichoque Huawei Honor Magic 6 Lite Caballero 0
@@ -649,7 +657,8 @@
     Forro Antichoque Motorola Moto One Fusion Dama 0
     Forro Antichoque Oppo A38 Caballero 2
     Forro Antichoque Oppo A38 Dama 1
-    Forro Antichoque Oppo A40 Caballero 0
+    Forro Antichoque Oppo A40 / A60 Caballero 3
+    Forro Antichoque Oppo A40 / A60 Dama 0
     Forro Antichoque Oppo A5 Caballero 0
     Forro Antichoque Oppo A5 Dama 0
     Forro Antichoque Oppo A54 Dama 0
@@ -657,7 +666,8 @@
     Forro Antichoque Oppo A57 / A77 Dama 0
     Forro Antichoque Oppo A58 4G Caballero 0
     Forro Antichoque Oppo A58 4G Dama 0
-    Forro Antichoque Oppo A60 Dama 0
+    Forro Antichoque Oppo A60 Caballero 4
+    Forro Antichoque Oppo A60 Dama 5
     Forro Antichoque Oppo A70 Dama 0
     Forro Antichoque Oppo A78 4G Caballero 0
     Forro Antichoque Oppo A78 4G Dama 0
@@ -674,6 +684,7 @@
     Forro Antichoque Oppo Realme C75 Dama 0
     Forro Antichoque Oppo Reno 13 5G Caballero 0
     Forro Antichoque Oppo Reno 13 5G Dama 0
+    Forro Antichoque Oppo Reno 13F Dama 0
     Forro Antichoque Oppo Reno 5 Lite Caballero 0
     Forro Antichoque Oppo Reno 5 Lite Dama 0
     Forro Antichoque Oppo Reno 7 Caballero 0
@@ -713,6 +724,8 @@
     Forro Antichoque Samsung A04S Dama 0
     Forro Antichoque Samsung A05 Caballero 0
     Forro Antichoque Samsung A06 Dama 0
+    Forro Antichoque Samsung A07 Caballero 0
+    Forro Antichoque Samsung A07 Dama 0
     Forro Antichoque Samsung A10 Caballero 0
     Forro Antichoque Samsung A10 Dama 0
     Forro Antichoque Samsung A13 Caballero 0
@@ -721,6 +734,8 @@
     Forro Antichoque Samsung A15 Caballero 5
     Forro Antichoque Samsung A16 Caballero 4
     Forro Antichoque Samsung A16 Dama 6
+    Forro Antichoque Samsung A17 Caballero 0
+    Forro Antichoque Samsung A17 Dama 0
     Forro Antichoque Samsung A21S Dama 0
     Forro Antichoque Samsung A21s Caballero 0
     Forro Antichoque Samsung A22 5G Caballero 0
@@ -806,6 +821,7 @@
     Forro Antichoque Vivo Y33S Dama 0
     Forro Antichoque Vivo Y38 Caballero 0
     Forro Antichoque Vivo Y38 Dama 0
+    Forro Antichoque Vivo Y39 5G Dama 0
     Forro Antichoque Vivo Y39 Caballero 0
     Forro Antichoque Vivo Y39 Dama 0
     Forro Antichoque Vivo Y51 Caballero 0
@@ -1348,6 +1364,7 @@
     Hydrogel Hd 50
     Hydrogel Huawei Honor 200 Smart 0
     Hydrogel Infinix Hot 50 5G 0
+    Hydrogel Infinix Note 40 Pro Plus 0
     Hydrogel Infinix Note 40 pro 0
     Hydrogel Infinix Note 50s 0
     Hydrogel Iphone 12 Pro Max 0
@@ -1492,6 +1509,7 @@
     Manos Libres Inears Eco 1
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
+    Manos Libres Knz Tc 2
     Manos Libres Samsugn Tipo Original Negro 7
     Manos Libres Samsung Akg 5
     Manos Libres Samsung Akg Tc 0
@@ -1524,10 +1542,10 @@
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica Carrilera 0
     Memoria Musica Catolica 2
-    Memoria Musica Cristiana 0
+    Memoria Musica Cristiana 2
     Memoria Musica Crosover 0
     Memoria Musica El Heredero 0
-    Memoria Musica Electronica 0
+    Memoria Musica Electronica 1
     Memoria Musica Llanera 0
     Memoria Musica Popular 0
     Memoria Musica Rap 0
@@ -1535,6 +1553,7 @@
     Memoria Musica Reggaeton Clasico 1
     Memoria Musica Regueton 0
     Memoria Musica Rock en Ingles 1
+    Memoria Musica Tropical 2
     Memoria Musica Vallenatos Clasicos 0
     Memoria Musica Vicente Antonio 1
     Memoria Super Micro 32Gb 0
@@ -1575,6 +1594,7 @@
     Pacha Apple Iphone X Gx 0
     Pacha Apple Iphone Xr Gx 0
     Pacha Apple Xr Gx 0
+    Pacha Apple Xs Max Incell 0
     Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1
     Pacha Huawei Honor X6 / X6S 0
     Pacha Huawei Honor X6A 0
@@ -1639,8 +1659,8 @@
     Pacha Samsung A06 0
     Pacha Samsung A10 0
     Pacha Samsung A10S 1
-    Pacha Samsung A10S C/M 0
-    Pacha Samsung A10s C/m 1
+    Pacha Samsung A10S C/M 1
+    Pacha Samsung A10s C/m 0
     Pacha Samsung A11 0
     Pacha Samsung A11 C/m 0
     Pacha Samsung A12 / M12 0
@@ -1697,13 +1717,13 @@
     Pacha Vivo Y30 / Y50 0
     Pacha Vivo Y31 / Y51 / Y53S 1
     Pacha Vivo Y51 / Y53S 0
-    Pacha Xiaomi Poco X3 / Mi 10T Lite 1
+    Pacha Xiaomi Poco X3 / Mi 10T Lite 0
     Pacha Xiaomi Redmi 10 1
     Pacha Xiaomi Redmi 10C 2
     Pacha Xiaomi Redmi 12 2
     Pacha Xiaomi Redmi 12C 2
     Pacha Xiaomi Redmi 13 0
-    Pacha Xiaomi Redmi 13C 2
+    Pacha Xiaomi Redmi 13C 0
     Pacha Xiaomi Redmi 14C 0
     Pacha Xiaomi Redmi 14C / Redmi A4 1
     Pacha Xiaomi Redmi 8 2
@@ -1782,6 +1802,7 @@
     Pilas Recargables Beston AA x2 0
     Pilas Recargables Beston AAA Con Cargador 0
     Pilas Recargables Beston AAA x4 0
+    Pilas Recargables Beston Aaa x2 1
     Pilas Recargables Maxday AA x4 0
     Pilas Recargables Sony AA con Cargador 0
     Pilas Recargables Sony Aa X2 0
@@ -1837,10 +1858,12 @@
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 0
     Reproductor Chromecast Espejo 0
+    Reproductor Dvd One Tech Dvd-227 Hdmi 1
     Reproductor Fly Tv Box 64-4 0
     Reproductor Onn 4K 1
     Reproductor Onn Eco 2
     Reproductor Onn Hd 1
+    Reproductor Onn Hd Azul 0
     Reproductor Roku Express Hd 0
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 0
@@ -1881,6 +1904,7 @@
     Servicio Tecnico Huawei Pin de Carga Y5 0
     Servicio Tecnico Huawei Pin de Carga Y9 2019 0
     Servicio Tecnico Infinix Fpc Bateria Note 12 0
+    Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus 0
     Servicio Tecnico Infinix Pin de Carga 0
     Servicio Tecnico Krono Pin de Carga Tablet Kids 0
     Servicio Tecnico Motorola Contraseña Correo y Formateo Moto G22 0
@@ -1891,6 +1915,7 @@
     Servicio Tecnico Motorola Intercabio Bateria Moto G20 0
     Servicio Tecnico Motorola Mantenimiento Logica E40 0
     Servicio Tecnico Motorola Mantenimiento Logica Moto G24 0
+    Servicio Tecnico Motorola Reiniciar Moto E20 0
     Servicio Tecnico Motorola Talkback 0
     Servicio Tecnico Nintendo Instalar Vidrio Nintendo Switch 0
     Servicio Tecnico Oppo Frp A57 0
@@ -1926,6 +1951,7 @@
     Servicio Tecnico Tg Pin de carga Tableta 0
     Servicio Tecnico Vivo Frp Y27 0
     Servicio Tecnico Vivo Mantenimiento Pin Y15 0
+    Servicio Tecnico Xiaomi Ajustar Auricular Redmi 10 0
     Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 9 0
     Servicio Tecnico Xiaomi Configuracion Pantalla Redmi A1 0
     Servicio Tecnico Xiaomi Cuenta Mi Redmi Note 8 Unlocktool 2 0
@@ -2251,7 +2277,7 @@
     Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 0
     Silicone Case Infinix Hot 60 Pro Plus Lila 0
     Silicone Case Infinix Hot 60 Pro Plus Negro 0
-    Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
+    Silicone Case Infinix Hot 60 Pro Plus Palorosa 0
     Silicone Case Infinix Hot 60 Pro Plus Rojo 0
     Silicone Case Infinix Hot 60 Pro Plus Verde 0
     Silicone Case Infinix Hot 60 Pro Plus Verdemilitar 0
@@ -2642,6 +2668,10 @@
     Silicone Case Samsung A05S Negro 1
     Silicone Case Samsung A05S Verdementa 0
     Silicone Case Samsung A06 Morado 0
+    Silicone Case Samsung A07 Fucsia 0
+    Silicone Case Samsung A07 Lila 0
+    Silicone Case Samsung A07 Negro 0
+    Silicone Case Samsung A07 Rojo 0
     Silicone Case Samsung A10 Fucsia 0
     Silicone Case Samsung A10 Negro 0
     Silicone Case Samsung A10 Rosa 0
@@ -2677,6 +2707,10 @@
     Silicone Case Samsung A16 Negro 0
     Silicone Case Samsung A16 Rojo 0
     Silicone Case Samsung A16 Verdemilitar 0
+    Silicone Case Samsung A17 Fucsia 0
+    Silicone Case Samsung A17 Lila 0
+    Silicone Case Samsung A17 Negro 0
+    Silicone Case Samsung A17 Rojo 1
     Silicone Case Samsung A20S 0
     Silicone Case Samsung A20S Rojo 0
     Silicone Case Samsung A21S Amarillo 0
@@ -2819,7 +2853,7 @@
     Silicone Case Samsung A70 Fucsia 0
     Silicone Case Samsung A70 Lila 1
     Silicone Case Samsung A70 Negro 0
-    Silicone Case Samsung A70 Rojo 1
+    Silicone Case Samsung A70 Rojo 0
     Silicone Case Samsung Galaxy Note 10 Plus Amarillo 1
     Silicone Case Samsung Galaxy Note 10 Plus Lila 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 0
@@ -3460,7 +3494,7 @@
     Soporte Celular Goma Cell 0
     Soporte Fijo Tv 32-55 Pulgadas 0
     Soporte Holder Bicileta Manubrio M-3 0
-    Soporte Holder Moto M3 1
+    Soporte Holder Moto M3 0
     Soporte Nephoo Tripode Camara-Celular Np-3180 1
     Soporte Nephoo Tripode Camara-Celular Np-999 0
     Soporte Pinza 3
@@ -3469,7 +3503,7 @@
     Soporte Tv 32 - 60 Brazo 2
     Soporte Tv 32 -60 L400 2
     Soporte Tv 32 Brazo 0
-    Soporte Tv 50 Brazo 1
+    Soporte Tv 50 Brazo 2
     Soporte Tv 70 Brazo 1
     Soporte Tv Fijo 1
     Space Color Xiaomi Redmi 10 Lila 0
@@ -3539,6 +3573,7 @@
     Video Juego Ps2 Mortal Combat Ultimate Edition 0
     Video Juego Ps2 Naruto 0
     Video Juego Ps2 Silent hill 0
+    Video Juego Xbox 360 5.0 Residen Evil 0
     Video Juego Xbox Caja Negra Black 0
     Video Juego Xbox Caja Negra El Padrino 3 0
     Video Juego Xbox Caja Negra Liga De La Justicia 0
