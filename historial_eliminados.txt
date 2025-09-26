@@ -8588,3 +8588,54 @@ Fecha de proceso: 2025-09-23 15:08:59
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-25 16:55:42
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    5 | Cable Caterpillar Tc 2 ok
+    9 | Cable Xiaomi Original Usb Tc 2 ok
+   34 | Forro Antichoque infinix Note 50S 4G Caballero 3 ok
+  100 | Power Bank Yoyos Ys-700 10000 Mah 1 ok
+  225 | Vidrio 5D Motorola Moto G04 / G24 5 ok
+  228 | Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 5 ok
+  260 | Forro Antichoque Tecno Camon 40 Pro Caballero 6 ok
+  261 | Forro Antichoque Tecno Camon 40 Pro Dama 5 ok
+  262 | Forro Space Tecno Camon 40 Pro 3 ok
+  263 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-09-25 16:55:42
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Hdmi2Vga Cja Macho 2 ok
+   10 | Cargador Cabeza Cubo Eco 5 ok
+   20 | Pilas Recargables Beston AA x2 2 ok
+   23 | Rollo Papel Mini impresora Adhesivo 5 ok
+
+==================================================
+Fecha de proceso: 2025-09-25 16:55:42
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Auricular Apple Iphone Xs Max 1 ok
+    3 | Pacha Apple Xs Max Incell 1 ok
+    4 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+    5 | Pacha Xiaomi Poco X3 / Mi 10T Lite 2 ok
+
+==================================================
+Fecha de proceso: 2025-09-25 16:55:42
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

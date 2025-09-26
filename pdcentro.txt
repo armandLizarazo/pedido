@@ -1,17 +1,20 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
+    Audifonos Bluetooth W I12 Azuloscuro 2
+    Audifonos Bluetooth W I12 Blanco 2
+    Audifonos Bluetooth W I12 Rosa 2
     Balaca Apple Airpods Max Negro 1.1 1
     Cable Belkin Tc 10
-    Cable Caterpillar Tc 2 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
-    Cable Xiaomi Original Usb Tc 2 ok
+    Cable Royal Tc 2M 2
     Cargador Apple 5V Eco 3
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
     Cargador Yl Tc 2
+    Forro Antichoque Huawei Honor X7A Caballero 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Motorola Moto One Caballero 2
@@ -31,7 +34,6 @@
     Forro Antichoque Vivo Y19S Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Antichoque Vivo Y39 Dama 5
-    Forro Antichoque infinix Note 50S 4G Caballero 3 ok
     Forro Armadura Huawei Honor X8B Negro 1
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto G35 Negro 1
@@ -97,7 +99,6 @@
     Mouse Gamer Inalambrico Eco 2
     Mouse Jertech Jr-1 Rojo 1
     Power Bank Aibimy 30000 Mah 1
-    Power Bank Yoyos Ys-700 10000 Mah 1 ok
     Proyector Astronauta Bluetooth 1
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
@@ -110,6 +111,7 @@
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor X5B Rojo 1
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
+    Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Huawei Y7A Negro 1
@@ -221,11 +223,9 @@
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
-    Vidrio 5D Motorola Moto E6s / E6i 5 
-    Vidrio 5D Motorola Moto G04 / G24 5 ok
+    Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 5 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16 10
@@ -257,7 +257,3 @@
     Vidrio Tortuga Motorola Moto G20 / G30 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
-    Forro Antichoque Tecno Camon 40 Pro Caballero 6 ok
-    Forro Antichoque Tecno Camon 40 Pro Dama 5 ok
-    Forro Space Tecno Camon 40 Pro 3 ok
-    

@@ -125,7 +125,6 @@ class AnalizadorVentasApp(tk.Tk):
         self.total_ganancia_var = tk.StringVar(value="Ganancia Total: ---")
 
         self._crear_widgets()
-        self.cargar_archivo_por_defecto()
 
     def _crear_widgets(self):
         main_frame = ttk.Frame(self, padding="10")
@@ -255,6 +254,15 @@ class AnalizadorVentasApp(tk.Tk):
         hsb.pack(side="bottom", fill="x")
         self.tree.pack(fill=tk.BOTH, expand=True)
 
+        # --- NUEVO: Frame para botones de acción ---
+        acciones_frame = ttk.Frame(resultados_frame)
+        acciones_frame.pack(fill=tk.X, pady=(5, 0))
+        ttk.Button(
+            acciones_frame,
+            text="📋 Copiar Descripción",
+            command=self.copiar_descripcion,
+        ).pack(side=tk.LEFT)
+
         resumen_frame = ttk.LabelFrame(
             main_frame, text="Resumen del Reporte", padding="10"
         )
@@ -286,13 +294,6 @@ class AnalizadorVentasApp(tk.Tk):
         self.lbl_archivo.config(text=f"Archivo: {self.ruta_archivo.split('/')[-1]}")
         if self.datos_originales is not None:
             messagebox.showinfo("Éxito", "Archivo cargado correctamente.")
-            self.actualizar_lista_productos()
-
-    def cargar_archivo_por_defecto(self):
-        """Carga el archivo CSV por defecto al iniciar la aplicación."""
-        self.datos_originales = cargar_datos(self.ruta_archivo)
-        if self.datos_originales is not None:
-            self.lbl_archivo.config(text=f"Archivo: {self.ruta_archivo.split('/')[-1]}")
             self.actualizar_lista_productos()
 
     def actualizar_lista_productos(self, event=None):
@@ -389,6 +390,31 @@ class AnalizadorVentasApp(tk.Tk):
             self.tree.column(col, width=120, anchor="w")
         for index, row in df.iterrows():
             self.tree.insert("", "end", values=list(row))
+
+    # --- NUEVO: Función para copiar la descripción ---
+    def copiar_descripcion(self):
+        """Copia la descripción del item seleccionado en la tabla al portapapeles."""
+        selected_item = self.tree.focus()
+        if not selected_item:
+            messagebox.showwarning(
+                "Sin Selección",
+                "Por favor, seleccione un item de la tabla para copiar su descripción.",
+            )
+            return
+
+        item_values = self.tree.item(selected_item, "values")
+
+        # La descripción es la primera columna en el reporte agrupado
+        if item_values:
+            descripcion = item_values[0]
+            try:
+                self.clipboard_clear()
+                self.clipboard_append(descripcion)
+                messagebox.showinfo(
+                    "Copiado", f"Se ha copiado al portapapeles:\n\n'{descripcion}'"
+                )
+            except tk.TclError:
+                messagebox.showerror("Error", "No se pudo acceder al portapapeles.")
 
 
 if __name__ == "__main__":

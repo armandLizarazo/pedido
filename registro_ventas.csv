@@ -1533,3 +1533,33 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-09-24 19:46:15,20250924194615,Hydrogel Infinix Note 40 Pro Plus,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $43000.00
 2025-09-24 19:46:15,20250924194615,Tapones Puerto de Carga,1,2000.00,8000.00,8000.00,6000.00,local.txt,Cliente General,Efectivo: $43000.00
 2025-09-24 21:14:25,20250924211425,Recargas,1,35377.00,37500.00,37500.00,2123.00,local.txt,Cliente General,Efectivo: $37500.00
+2025-09-25 17:01:52,20250925170152,Silicone Case Huawei Nova 9 Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $38000.00
+2025-09-25 17:01:52,20250925170152,Cable Microfono Cabina,1,8000.00,18000.00,18000.00,10000.00,local.txt,Cliente General,Efectivo: $38000.00
+2025-09-25 17:03:12,20250925170312,Reproductor Onn Hd,1,95000.00,140000.00,140000.00,45000.00,local.txt,Cliente General,"Efectivo: $10000.00, Nequi: $130000.00"
+2025-09-25 17:05:18,20250925170518,Bateria Mototola Moto E20,1,22000.00,45000.00,45000.00,23000.00,local.txt,Cliente General,Efectivo: $55000.00
+2025-09-25 17:05:18,20250925170518,Vidrio 5D Motorola Moto E13,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $55000.00
+2025-09-25 17:07:26,20250925170726,Forro Lujo Ventana Apple Iphone 12 Pro Negro,1,14000.00,30000.00,30000.00,16000.00,local.txt,Yarlot Cuervo,Efectivo: $50000.00
+2025-09-25 17:07:26,20250925170726,Vidrio Antiespia Apple Iphone 12,1,1600.00,20000.00,20000.00,18400.00,local.txt,Yarlot Cuervo,Efectivo: $50000.00
+2025-09-25 17:13:59,20250925171359,Recargas,1,19340.00,20500.00,20500.00,1160.00,local.txt,Cliente General,Efectivo: $20500.00
+2025-09-25 17:16:37,20250925171637,Audifonos Bluetooth Pro 5S Negro,1,18000.00,50000.00,50000.00,32000.00,local.txt,Cliente General,Efectivo: $50000.00
+2025-09-25 20:07:27,20250925200727,Pacha Apple Xs Max Incell,1,55000.00,120000.00,120000.00,65000.00,local.txt,Cliente General,Efectivo: $185000.00
+2025-09-25 20:07:27,20250925200727,Vidrio 5D Apple Iphone Xs Max,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $185000.00
+2025-09-25 20:07:27,20250925200727,Auricular Apple Iphone Xs Max,1,23000.00,55000.00,55000.00,32000.00,local.txt,Cliente General,Efectivo: $185000.00
+2025-09-25 20:09:04,20250925200904,Vidrio 5D Huawei Honor X7A,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $25000.00
+2025-09-25 20:09:04,20250925200904,Forro Antichoque Huawei Honor X7A Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $25000.00
+2025-09-25 20:12:28,20250925201228,Parlante Reloj Despertador,1,20000.00,45000.00,45000.00,25000.00,local.txt,Cliente General,Nequi: $45000.00
+2025-09-25 20:14:03,20250925201403,Cable Microsoft Xbox Caja Negra,1,10000.00,20000.00,20000.00,10000.00,local.txt,Cliente General,Nequi: $30000.00
+2025-09-25 20:14:03,20250925201403,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Nequi: $30000.00
+2025-09-25 20:14:03,20250925201403,Video Juego Ps2 Fifa 17,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General,Nequi: $30000.00
+2025-09-25 20:14:29,20250925201429,Parlante Ktf-1645,1,35000.00,70000.00,70000.00,35000.00,local.txt,Cliente General,Efectivo: $70000.00
+2025-09-25 20:15:41,20250925201541,Servicio Tecnico Apple Reconectar Pantalla Xr,1,0.00,40000.00,40000.00,40000.00,local.txt,Cliente General,Efectivo: $40000.00
+2025-09-25 20:16:27,20250925201627,Pacha Huawei Y9A Full,1,42000.00,105000.00,105000.00,63000.00,local.txt,Cliente General,Daviplata: $105000.00
+2025-09-25 20:17:14,20250925201714,Vidrio Blindado Xiaomi Redmi Note 13 / Note 14,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Daviplata: $35000.00
+2025-09-25 20:17:14,20250925201714,Forro Antichoque Xiaomi Redmi Note 13 4G Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Daviplata: $35000.00
+2025-09-25 20:18:47,20250925201847,Memoria Musica Popular,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-25 20:19:19,20250925201919,Pad Mouse Tapete Negro,1,12000.00,20000.00,20000.00,8000.00,local.txt,Cliente General,Daviplata: $20000.00
+2025-09-25 20:20:21,20250925202021,Recargas,1,42925.00,45500.00,45500.00,2575.00,local.txt,Cliente General,Efectivo: $45500.00
+2025-09-25 20:22:07,20250925202207,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-25 21:16:31,20250925211631,Cable Royal Tc,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Efectivo: $18000.00
+2025-09-25 21:17:05,20250925211705,Audifonos Bluetooth W I12 Negro,1,14000.00,34000.00,34000.00,20000.00,local.txt,Cliente General,"Nequi: $4000.00, Efectivo: $30000.00"
+2025-09-25 21:19:47,20250925211947,Recargas,1,8019.00,8500.00,8500.00,481.00,local.txt,Cliente General,Efectivo: $8500.00
