@@ -1021,6 +1021,7 @@
     Forro Armadura Xiaomi Redmi 9C / 10A Rojo 0
     Forro Armadura Xiaomi Redmi 9C / 10A Verdemilitar 0
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 0
+    Forro Armadura Xiaomi Redmi Note 10 Pro Negro 0
     Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 0
     Forro Armadura Xiaomi Redmi Note 12 Azul 0
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 0
@@ -1353,7 +1354,7 @@
     Forro Ukg Apple Iphone 11 Rojo 0
     Forro Ventana Apple Iphone 15 Pro Negro 0
     Garantia Control Gamer Pc Sencillo 0
-    Gramera Joyeria 1
+    Gramera Joyeria 0
     Gramera Sencilla 1
     Gramera Sencilla Recargable 0
     Guantes Gamer 5
@@ -1764,7 +1765,7 @@
     Parlante Barra V70 3
     Parlante Ducha 2
     Parlante Gedi-G Gd-1521 30000w 0
-    Parlante Gts-1372 2
+    Parlante Gts-1372 1
     Parlante Gts-1961 0
     Parlante Harvic Pr-801 0
     Parlante Ktf-1645 0

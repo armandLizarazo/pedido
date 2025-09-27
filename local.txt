@@ -122,7 +122,7 @@
     Audifonos Bluetooth Royal Sports 2
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
-    Audifonos Bluetooth W I12 Negro 3
+    Audifonos Bluetooth W I12 Negro 2
     Audifonos Bluetooth W I12 Rosa 0
     Audifonos Bluetooth X15 2
     Audifonos Bluetooth Xiaomi Airdots 0
@@ -271,7 +271,7 @@
     Cable Poder Usb 3
     Cable Rca 3 A 3 1.5M 2
     Cable Rca 3 A 3 3M 2
-    Cable Royal Tc 2M 1
+    Cable Royal Tc 2M 0
     Cable Royal V8 2M 2
     Cable Samsung Tc A Tc Blanco 0
     Cable Samsung Tc A Tc Negro 0
@@ -286,7 +286,7 @@
     Cable Tc Cordon Eco 5
     Cable Tc Eco 3
     Cable Tc Eco Corto 4
-    Cable Usb Ligthning Eco 3
+    Cable Usb Ligthning Eco 2
     Cable Usb Macho Macho 1.5M 1
     Cable Usb Plug Ancho 0
     Cable V3 1.5M 2
@@ -929,7 +929,7 @@
     Forro Armadura Motorola Moto Edge 60 Fusion Rojo 1
     Forro Armadura Motorola Moto G05 Negro 1
     Forro Armadura Motorola Moto G05 Rojo 1
-    Forro Armadura Motorola Moto G15 Negro 1
+    Forro Armadura Motorola Moto G15 Negro 0
     Forro Armadura Motorola Moto G15 Rojo 0
     Forro Armadura Motorola Moto G15 Verde 1
     Forro Armadura Motorola Moto G20 / G30 Negro 1
@@ -1022,6 +1022,7 @@
     Forro Armadura Xiaomi Redmi 9C / 10A Rojo 1
     Forro Armadura Xiaomi Redmi 9C / 10A Verdemilitar 1
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 0
+    Forro Armadura Xiaomi Redmi Note 10 Pro Negro 0
     Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 1
     Forro Armadura Xiaomi Redmi Note 12 Azul 0
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 0
@@ -1522,7 +1523,7 @@
     Manos Libres Samsung Akg Tc Blanco 1
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 6
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 4
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 2
@@ -1862,7 +1863,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 8
+    Recargas 6
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2513,7 +2514,7 @@
     Silicone Case Motorola Moto G9 Power Lila 1
     Silicone Case Motorola Moto G9 Power Morado 1
     Silicone Case Motorola Moto G9 Power Negro 0
-    Silicone Case Motorola Moto G9 Power Rojo 1
+    Silicone Case Motorola Moto G9 Power Rojo 0
     Silicone Case Motorola Moto G9 Power Salmon 1
     Silicone Case Motorola Moto One Fusion Negro 1
     Silicone Case Oppo A16 Lila 0
@@ -2698,7 +2699,7 @@
     Silicone Case Samsung A13 Azulrey 1
     Silicone Case Samsung A13 Lila 1
     Silicone Case Samsung A13 Morado 1
-    Silicone Case Samsung A13 Negro 1
+    Silicone Case Samsung A13 Negro 0
     Silicone Case Samsung A13 Rojo 1
     Silicone Case Samsung A13 Rosa 1
     Silicone Case Samsung A13 Verde 0
@@ -3935,3 +3936,4 @@
     Visor Camara Xiaomi Redmi Note 11 0
     Visor Camara Xiaomi Redmi Note 12 Pro 4G 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
+    Cable Hdmi 20M 1
