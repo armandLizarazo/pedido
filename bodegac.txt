@@ -118,7 +118,7 @@
     Audifonos Bluetooth Pro 5S Blanco 0
     Audifonos Bluetooth Pro 5S Negro 0
     Audifonos Bluetooth Pro 60 4
-    Audifonos Bluetooth Redmi E7s Negro 1
+    Audifonos Bluetooth Redmi E7s Negro 0
     Audifonos Bluetooth Royal Sports 1
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
@@ -242,7 +242,7 @@
     Cable Extensor Usb Macho Hembra 2M 0
     Cable Harvic Tc 1
     Cable Harvic V8 0
-    Cable Hdmi 1.5M Eco 1
+    Cable Hdmi 1.5M Eco 0
     Cable Hdmi 3M 0
     Cable Hdmi 3M Malla 0
     Cable Hdmi 5M 2
@@ -303,7 +303,7 @@
     Cable We Tc Eco 0
     Cable Xiaomi Original Usb Tc 0
     Cable Xiaomi Tc A Tc 0
-    Cable Yoyos Tc 5
+    Cable Yoyos Tc 0
     Cable Yoyos Tc 3M 2
     Cable Yoyos Tc 67W 0
     Cable Yoyos V8 3M 1
@@ -635,6 +635,7 @@
     Forro Antichoque Motorola Moto G05 Dama Cadena 0
     Forro Antichoque Motorola Moto G14 Caballero 0
     Forro Antichoque Motorola Moto G14 Dama 0
+    Forro Antichoque Motorola Moto G15 Caballero 0
     Forro Antichoque Motorola Moto G15 Dama 0
     Forro Antichoque Motorola Moto G15 Dama Cadena 0
     Forro Antichoque Motorola Moto G15 Dama Pin 0
@@ -1398,7 +1399,7 @@
     Hydrogel Xiaomi Redmi Note 14 0
     Hydrogel Xiaomi Redmi Note 14 Pro 0
     Hydrogel Zte Blade V50 Design 0
-    Hydrolavadora Recargable 2
+    Hydrolavadora Recargable 0
     Impresiones 0
     Intercomunicador Harvic Mcm-591 0
     Intercomunicador Helmet Kr-M2 1
@@ -1769,7 +1770,7 @@
     Parlante Gts-1961 0
     Parlante Harvic Pr-801 0
     Parlante Ktf-1645 0
-    Parlante Ktx-1222 1
+    Parlante Ktx-1222 0
     Parlante Lazzer Lz-2890 0
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-2896 0
