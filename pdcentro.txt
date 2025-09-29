@@ -1,8 +1,9 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth W I12 Azuloscuro 2
-    Audifonos Bluetooth W I12 Blanco 2
-    Audifonos Bluetooth W I12 Rosa 2
+    Audifonos Bluetooth Sm I12 Blanco 2 ok
+    Audifonos Bluetooth Dm I12 Rosa 2 ok
+    Audifonos Bluetooth Sm I12 Gris 1 ok
     Balaca Apple Airpods Max Negro 1.1 1
     Cable Belkin Tc 10
     Cable Magnetico 3 en 1 2
@@ -70,8 +71,8 @@
     Forro Picina 3
     Forro Pin Samsung S24 Ultra 3
     Forro Space Apple Iphone 12 2
-    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2
-    Forro Space Huawei Honor X5B 2
+    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
+    Forro Space Huawei Honor X5B 2 ok
     Forro Space Huawei Y9A 3
     Forro Space Infinix Hot 50 Pro 5G 1
     Forro Space Infinix Note 50s 2
@@ -86,15 +87,15 @@
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Vivo V40 Lite 2
+    Forro Space Vivo V40 Lite 2 ok
     Forro Space Vivo Y04 2
     Forro Space Vivo Y39 2
-    Forro Space Xiaomi Redmi 12 2
-    Forro Space Xiaomi Redmi A3 2
+    Forro Space Xiaomi Redmi 12 2 ok
+    Forro Space Xiaomi Redmi A3 2 ok
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14 4G 2
-    Forro Space Xiaomi Redmi Note 14S 2
+    Forro Space Xiaomi Redmi Note 14 4G 2ok
+    Forro Space Xiaomi Redmi Note note 13 pro 4G 14S
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung Akg Tc 2
@@ -108,12 +109,12 @@
     Proyector Astronauta Bluetooth 1
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
-    Silicone Case Apple Iphone 11 Pro Max Negro 1
-    Silicone Case Apple Iphone 13 Pro Negro 1
+    Silicone Case Apple Iphone 11 Pro Max Negro 1 ok
+    Silicone Case Apple Iphone 13 Pro Negro 1 
     Silicone Case Apple Iphone 15 Pro Max Rosa 1
-    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1
-    Silicone Case Apple Iphone Xr Azulrey 1
-    Silicone Case Apple Iphone Xs Max Azulrey 1
+    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1 ok
+    Silicone Case Apple Iphone Xr Azulrey 1 ok
+    Silicone Case Apple Iphone Xs Max Azulrey 1 ok
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor X5B Rojo 1
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
@@ -126,7 +127,7 @@
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9A Amarillo 1
-    Silicone Case Huawei Y9A Azul Rey 1
+    Silicone Case Huawei Y9A Azul Rey 1 ok
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Hot 50I / Smart 9 Negro 1
@@ -170,9 +171,9 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Samsung A10S Negro 1
-    Silicone Case Samsung A14 Blanco 1
-    Silicone Case Samsung A14 Morado 1
-    Silicone Case Samsung A15 Lila 1
+    Silicone Case Samsung A14 Blanco 1 ok
+    Silicone Case Samsung A14 Morado 1 ok
+    Silicone Case Samsung A15 Lila 1 ok
     Silicone Case Samsung A16 Amarillo 1
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Negro 1
@@ -188,10 +189,10 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 30S Negro 1
-    Silicone Case Tecno Camon 30S Pro Amarillo 1
-    Silicone Case Tecno Camon 30S Pro Fucsia 1
-    Silicone Case Tecno Camon 30S Pro Negro 1
-    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
+    Silicone Case Tecno Camon 30S Pro Amarillo 1 ok
+    Silicone Case Tecno Camon 30S Pro Fucsia 1 ok
+    Silicone Case Tecno Camon 30S Pro Negro 1 ok
+    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1 ok
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -216,7 +217,7 @@
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y27 Negro 1
-    Silicone Case Xiaomi Poco X3 Morado 1
+    Silicone Case Xiaomi Poco X3 Morado 1 ok
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
@@ -232,12 +233,12 @@
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
-    Vidrio 5D Huawei Y9 Prime 5
-    Vidrio 5D Iphone 12 / 12 Pro 5
+    Vidrio 5D Huawei Y9 Prime 5 
+    Vidrio 5D Iphone 12 / 12 Pro 5 ok
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Xiaomi Redmi Note 12 5
+    Vidrio 5D Xiaomi Redmi Note 12 3 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16 10
