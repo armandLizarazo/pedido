@@ -6,6 +6,7 @@
     Audifonos Bluetooth Sm I12 Gris 1 ok
     Balaca Apple Airpods Max Negro 1.1 1
     Cable Belkin Tc 10
+    Cable Apple Tc Ligthning 2M 3 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Apple Tc A Tc 60w Aguja 3 ok
@@ -193,7 +194,7 @@
     Silicone Case Tecno Camon 30S Pro Amarillo 1 ok
     Silicone Case Tecno Camon 30S Pro Fucsia 1 ok
     Silicone Case Tecno Camon 30S Pro Negro 1 ok
-    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1 ok
+    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
