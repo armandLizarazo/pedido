@@ -80,6 +80,7 @@
     Altavoz Motorola Moto G71 0
     Altavoz Samsugn A25 0
     Altavoz Samsung A10 0
+    Altavoz Samsung A14 5G 0
     Altavoz Tecno Spark 20 1
     Altavoz Xiaomi Redmi Note 13 4G 0
     Antena Tdt 1.5M 3
@@ -118,7 +119,7 @@
     Audifonos Bluetooth Pro 5S Blanco 0
     Audifonos Bluetooth Pro 5S Negro 0
     Audifonos Bluetooth Pro 60 4
-    Audifonos Bluetooth Redmi E7s Negro 0
+    Audifonos Bluetooth Redmi E7s Negro 1
     Audifonos Bluetooth Royal Sports 1
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
@@ -183,6 +184,7 @@
     Bateria Samsung A53 0
     Bateria Samsung Galaxy S9 Plus 0
     Bateria Samsung J2 Prime 0
+    Bateria Samsung J5 prime 0
     Bateria Samsung J7 0
     Bateria Tg T-320 0
     Bateria Vidvie Iphone Xr 0
@@ -207,7 +209,7 @@
     Cable 5V 9V 12V Plug Ancho 2
     Cable Apple Iphone 4 0
     Cable Apple Tc A Tc 60w Aguja 0
-    Cable Apple Tc Ligthning 4
+    Cable Apple Tc Ligthning 3
     Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc a Tc 0
     Cable Apple Usb Ligthning 2
@@ -243,6 +245,7 @@
     Cable Harvic Tc 1
     Cable Harvic V8 0
     Cable Hdmi 1.5M Eco 0
+    Cable Hdmi 20M 0
     Cable Hdmi 3M 0
     Cable Hdmi 3M Malla 0
     Cable Hdmi 5M 2
@@ -552,6 +555,8 @@
     Forro Antichoque Cadena Xiaomi Redmi Note 12 Pro 0
     Forro Antichoque Cadena Xiaomi Redmi Note 9 0
     Forro Antichoque Cadena infinix Note 50S 4G 0
+    Forro Antichoque Hawei Honor X9 Caballero 0
+    Forro Antichoque Hawei Honor X9 Dama 0
     Forro Antichoque Huawei Honor 400 Caballero 0
     Forro Antichoque Huawei Honor 400 Dama 0
     Forro Antichoque Huawei Honor 400 Lite Caballero 0
@@ -1115,6 +1120,7 @@
     Forro Space Apple Iphone 11 Magsafe 0
     Forro Space Apple Iphone 11 Pro Max 0
     Forro Space Apple Iphone 11 Pro Max Magsafe 0
+    Forro Space Apple Iphone 12 0
     Forro Space Apple Iphone 12 Mini 0
     Forro Space Apple Iphone 13 Magsafe 0
     Forro Space Apple Iphone 13 Mini 1
@@ -1311,7 +1317,7 @@
     Forro Space Xiaomi Redmi 10 Lila 1
     Forro Space Xiaomi Redmi 10 Rosa 1
     Forro Space Xiaomi Redmi 10C 2
-    Forro Space Xiaomi Redmi 12 1
+    Forro Space Xiaomi Redmi 12 0
     Forro Space Xiaomi Redmi 12 Verde 0
     Forro Space Xiaomi Redmi 12C 0
     Forro Space Xiaomi Redmi 13 1
@@ -1322,7 +1328,7 @@
     Forro Space Xiaomi Redmi 9C / 10A 0
     Forro Space Xiaomi Redmi 9C / 10A Negro 0
     Forro Space Xiaomi Redmi A1 / A2 1
-    Forro Space Xiaomi Redmi A3 2
+    Forro Space Xiaomi Redmi A3 0
     Forro Space Xiaomi Redmi A5 1
     Forro Space Xiaomi Redmi Note 10 5G 2
     Forro Space Xiaomi Redmi Note 10 Pro 0
@@ -1481,6 +1487,7 @@
     Logica de Carga Samsung A0S 0
     Logica de Carga Samsung A12 0
     Logica de Carga Samsung A13 0
+    Logica de Carga Samsung A22 4G 0
     Logica de Carga Samsung A24 0
     Logica de Carga Samsung A50 0
     Logica de Carga Samsung A51 0
@@ -1562,6 +1569,7 @@
     Memoria Musica Rock en Ingles 1
     Memoria Musica Tropical 2
     Memoria Musica Vallenatos Clasicos 0
+    Memoria Musica Vallenatos Nueva Ola 0
     Memoria Musica Vicente Antonio 1
     Memoria Super Micro 32Gb 0
     Memory Card Ps2 2
@@ -1692,7 +1700,7 @@
     Pacha Samsung A31 0
     Pacha Samsung A31 C/m 1
     Pacha Samsung A32 0
-    Pacha Samsung A32 S/M 0
+    Pacha Samsung A32 C/m 0
     Pacha Samsung A51 0
     Pacha Samsung A51 C/m 2
     Pacha Samsung A51 Oled 0
@@ -1714,14 +1722,14 @@
     Pacha Tecno Spark 20 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
     Pacha Tecno Spark Go 2023 0
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Vivo Y11s / Y20s 0
     Pacha Vivo Y17s / Y22s 2
-    Pacha Vivo Y20s / Y11s 0
     Pacha Vivo Y21 / Y21S 1
     Pacha Vivo Y21 / Y21s 0
+    Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 0
     Pacha Vivo Y30 / Y50 0
     Pacha Vivo Y31 / Y51 / Y53S 1
     Pacha Vivo Y51 / Y53S 0
@@ -1869,7 +1877,7 @@
     Reproductor Chromecast Espejo 0
     Reproductor Dvd One Tech Dvd-227 Hdmi 1
     Reproductor Fly Tv Box 64-4 0
-    Reproductor Onn 4K 1
+    Reproductor Onn 4K 0
     Reproductor Onn Eco 2
     Reproductor Onn Hd 0
     Reproductor Onn Hd Azul 0
@@ -1963,11 +1971,15 @@
     Servicio Tecnico Vivo Frp Y27 0
     Servicio Tecnico Vivo Mantenimiento Pin Y15 0
     Servicio Tecnico Xiaomi Ajustar Auricular Redmi 10 0
+    Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 10S 0
     Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 9 0
     Servicio Tecnico Xiaomi Configuracion Pantalla Redmi A1 0
     Servicio Tecnico Xiaomi Cuenta Mi Redmi Note 8 Unlocktool 2 0
     Servicio Tecnico Xiaomi Encender Poco X3 0
+    Servicio Tecnico Xiaomi Encender Redmi Note 11 0
+    Servicio Tecnico Xiaomi Frp Redmi Note 11 Pandora 0
     Servicio Tecnico Xiaomi Pin De Carga Redmi 12C 0
+    Servicio Tecnico Xiaomi Pin de Carga Redmi 9A / 9C / 10A 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi 9C 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A1 0
     Servicio Tecnico Xiaomi Reiniciar Redmi Note 9s 0
@@ -2705,6 +2717,7 @@
     Silicone Case Samsung A14 Blanco 0
     Silicone Case Samsung A14 Fucsia 1
     Silicone Case Samsung A14 Lila 1
+    Silicone Case Samsung A14 Morado 0
     Silicone Case Samsung A14 Negro 0
     Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Lila 0
@@ -3502,6 +3515,7 @@
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Zte Blade A34 64/6 Verde 0
     Smartphone Zte Blade A34 64/6 Verde 866083070638852 0
+    Smartphone Zte Blade L220 865338061757322 - 32/2 0
     Soporte Celular Escritorio 1533 0
     Soporte Celular Goma Cell 0
     Soporte Fijo Tv 32-55 Pulgadas 0
@@ -3697,7 +3711,7 @@
     Vidrio 5D Xiaomi Redmi A5 0
     Vidrio 5D Xiaomi Redmi Mi 11T 0
     Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 5
-    Vidrio 5D Xiaomi Redmi Note 12 14
+    Vidrio 5D Xiaomi Redmi Note 12 0
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 0
     Vidrio 5D Xiaomi Redmi Note 8 0

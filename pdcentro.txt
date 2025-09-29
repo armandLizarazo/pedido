@@ -9,11 +9,12 @@
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
     Cable Royal Tc 2M 5
-    Cargador Apple 5V Eco 3
+    Cargador Apple 5V Eco 6
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
     Cargador Yl Tc 2
+    Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X7A Caballero 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
@@ -68,8 +69,10 @@
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Picina 3
     Forro Pin Samsung S24 Ultra 3
+    Forro Space Apple Iphone 12 2
+    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2
     Forro Space Huawei Honor X5B 2
-    Forro Space Huawei Y9A 1
+    Forro Space Huawei Y9A 3
     Forro Space Infinix Hot 50 Pro 5G 1
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
@@ -86,6 +89,8 @@
     Forro Space Vivo V40 Lite 2
     Forro Space Vivo Y04 2
     Forro Space Vivo Y39 2
+    Forro Space Xiaomi Redmi 12 2
+    Forro Space Xiaomi Redmi A3 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14 4G 2
@@ -93,7 +98,7 @@
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung Akg Tc 2
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Negro 10
     Manos Libres Speak Tc 1
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
@@ -166,6 +171,7 @@
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Samsung A10S Negro 1
     Silicone Case Samsung A14 Blanco 1
+    Silicone Case Samsung A14 Morado 1
     Silicone Case Samsung A15 Lila 1
     Silicone Case Samsung A16 Amarillo 1
     Silicone Case Samsung A22 4G Negro 1
@@ -211,6 +217,7 @@
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y27 Negro 1
     Silicone Case Xiaomi Poco X3 Morado 1
+    Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
@@ -225,9 +232,12 @@
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
+    Vidrio 5D Huawei Y9 Prime 5
+    Vidrio 5D Iphone 12 / 12 Pro 5
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
+    Vidrio 5D Xiaomi Redmi Note 12 5
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16 10

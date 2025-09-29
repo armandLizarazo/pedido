@@ -80,6 +80,7 @@
     Altavoz Motorola Moto G71 0
     Altavoz Samsugn A25 0
     Altavoz Samsung A10 0
+    Altavoz Samsung A14 5G 0
     Altavoz Tecno Spark 20 0
     Altavoz Xiaomi Redmi Note 13 4G 0
     Antena Tdt 1.5M 3
@@ -118,7 +119,7 @@
     Audifonos Bluetooth Pro 5S Blanco 0
     Audifonos Bluetooth Pro 5S Negro 0
     Audifonos Bluetooth Pro 60 2
-    Audifonos Bluetooth Redmi E7s Negro 0
+    Audifonos Bluetooth Redmi E7s Negro 1
     Audifonos Bluetooth Royal Sports 2
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
@@ -183,6 +184,7 @@
     Bateria Samsung A53 0
     Bateria Samsung Galaxy S9 Plus 0
     Bateria Samsung J2 Prime 0
+    Bateria Samsung J5 prime 0
     Bateria Samsung J7 0
     Bateria Tg T-320 0
     Bateria Vidvie Iphone Xr 0
@@ -206,7 +208,7 @@
     Botones Xiaomi Redmi Note 8 0
     Cable 5V 9V 12V Plug Ancho 0
     Cable Apple Iphone 4 2
-    Cable Apple Tc A Tc 60w Aguja 2
+    Cable Apple Tc A Tc 60w Aguja 0
     Cable Apple Tc Ligthning 3
     Cable Apple Tc Ligthning 2M 3
     Cable Apple Tc a Tc 1
@@ -350,7 +352,7 @@
     Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 1
     Cargador Apple 35W 2Tc Cabeza 1
-    Cargador Apple 5V Eco 2
+    Cargador Apple 5V Eco 1
     Cargador Apple 60W 2P Tc Cabeza 1
     Cargador Apple 60W 2Tc 0
     Cargador Apple 60W 2Tc Cabeza 1
@@ -554,6 +556,8 @@
     Forro Antichoque Cadena Xiaomi Redmi Note 12 Pro 2
     Forro Antichoque Cadena Xiaomi Redmi Note 9 2
     Forro Antichoque Cadena infinix Note 50S 4G 2
+    Forro Antichoque Hawei Honor X9 Caballero 3
+    Forro Antichoque Hawei Honor X9 Dama 2
     Forro Antichoque Huawei Honor 400 Caballero 6
     Forro Antichoque Huawei Honor 400 Dama 5
     Forro Antichoque Huawei Honor 400 Lite Caballero 6
@@ -899,7 +903,7 @@
     Forro Antichoque infinix Hot 50 5G Dama 1
     Forro Antichoque infinix Note 50S 4G Caballero 8
     Forro Antichoque infinix Note 50S 4G Dama 4
-    Forro Aramdura Motorola Moto G24 / G04 Ab Negro 1
+    Forro Aramdura Motorola Moto G24 / G04 Ab Negro 0
     Forro Armadura Apple Iphone 11 Rojo 1
     Forro Armadura Huawei Honor X6A / Play 9A Azuloscuro 0
     Forro Armadura Huawei Honor X6A / Play 9A Negro 0
@@ -1117,6 +1121,7 @@
     Forro Space Apple Iphone 11 Magsafe 1
     Forro Space Apple Iphone 11 Pro Max 1
     Forro Space Apple Iphone 11 Pro Max Magsafe 0
+    Forro Space Apple Iphone 12 0
     Forro Space Apple Iphone 12 Mini 2
     Forro Space Apple Iphone 13 Magsafe 0
     Forro Space Apple Iphone 13 Mini 0
@@ -1324,7 +1329,7 @@
     Forro Space Xiaomi Redmi 9C / 10A 2
     Forro Space Xiaomi Redmi 9C / 10A Negro 1
     Forro Space Xiaomi Redmi A1 / A2 0
-    Forro Space Xiaomi Redmi A3 0
+    Forro Space Xiaomi Redmi A3 1
     Forro Space Xiaomi Redmi A5 2
     Forro Space Xiaomi Redmi Note 10 5G 0
     Forro Space Xiaomi Redmi Note 10 Pro 2
@@ -1401,7 +1406,7 @@
     Hydrogel Xiaomi Redmi Note 14 0
     Hydrogel Xiaomi Redmi Note 14 Pro 1
     Hydrogel Zte Blade V50 Design 0
-    Hydrolavadora Recargable 1
+    Hydrolavadora Recargable 0
     Impresiones 3
     Intercomunicador Harvic Mcm-591 0
     Intercomunicador Helmet Kr-M2 0
@@ -1483,6 +1488,7 @@
     Logica de Carga Samsung A0S 1
     Logica de Carga Samsung A12 1
     Logica de Carga Samsung A13 3
+    Logica de Carga Samsung A22 4G 0
     Logica de Carga Samsung A24 0
     Logica de Carga Samsung A50 1
     Logica de Carga Samsung A51 2
@@ -1525,7 +1531,7 @@
     Manos Libres Samsung Akg Tc Blanco 1
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 6
-    Manos Libres Samsung J5 Negro 4
+    Manos Libres Samsung J5 Negro 3
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 5
     Manos Libres Samsung Tipo Original Negro 2
@@ -1544,7 +1550,7 @@
     Manos Libres Yoyos Ys-102 3
     Memoria Kingston Usb 16GB 3
     Memoria Kingston Usb 32Gb Original 1
-    Memoria Kingstone Micro 4Gb 5
+    Memoria Kingstone Micro 4Gb 4
     Memoria Kingstone Usb 16Gb 5
     Memoria Kingstone Usb 4Gb 3
     Memoria Kingstone Usb 8Gb 3
@@ -1564,6 +1570,7 @@
     Memoria Musica Rock en Ingles 0
     Memoria Musica Tropical 0
     Memoria Musica Vallenatos Clasicos 0
+    Memoria Musica Vallenatos Nueva Ola 1
     Memoria Musica Vicente Antonio 0
     Memoria Super Micro 32Gb 2
     Memory Card Ps2 0
@@ -1682,7 +1689,7 @@
     Pacha Samsung A20s 1
     Pacha Samsung A20s C/m 0
     Pacha Samsung A21S 3
-    Pacha Samsung A21S C/m 1
+    Pacha Samsung A21S C/m 0
     Pacha Samsung A22 5G 0
     Pacha Samsung A23 / M23 0
     Pacha Samsung A24 Incell C/m 0
@@ -1694,7 +1701,7 @@
     Pacha Samsung A31 1
     Pacha Samsung A31 C/m 0
     Pacha Samsung A32 0
-    Pacha Samsung A32 S/M 0
+    Pacha Samsung A32 C/m 0
     Pacha Samsung A51 0
     Pacha Samsung A51 C/m 0
     Pacha Samsung A51 Oled 0
@@ -1721,9 +1728,9 @@
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 1
     Pacha Vivo Y11s / Y20s 1
     Pacha Vivo Y17s / Y22s 0
-    Pacha Vivo Y20s / Y11s 0
     Pacha Vivo Y21 / Y21S 1
     Pacha Vivo Y21 / Y21s 0
+    Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 0
     Pacha Vivo Y30 / Y50 0
     Pacha Vivo Y31 / Y51 / Y53S 1
     Pacha Vivo Y51 / Y53S 4
@@ -1772,7 +1779,7 @@
     Parlante Gts-1961 0
     Parlante Harvic Pr-801 0
     Parlante Ktf-1645 1
-    Parlante Ktx-1222 0
+    Parlante Ktx-1222 1
     Parlante Lazzer Lz-2890 1
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-2896 0
@@ -1831,7 +1838,7 @@
     Plancha Remington Aguacate 1
     Plancha Remington Keratina 0
     Plancha Remington Triple Infusion 0
-    Pop Socket Figura 7
+    Pop Socket Figura 6
     Porta Brillo Forro 0
     Power Bank Aibimy 10000 Mah 120W 0
     Power Bank Aibimy 20000 Mah 0
@@ -1865,13 +1872,13 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 4
+    Recargas 2
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
     Reproductor Dvd One Tech Dvd-227 Hdmi 0
     Reproductor Fly Tv Box 64-4 1
-    Reproductor Onn 4K 0
+    Reproductor Onn 4K 1
     Reproductor Onn Eco 0
     Reproductor Onn Hd 1
     Reproductor Onn Hd Azul 1
@@ -1965,12 +1972,16 @@
     Servicio Tecnico Vivo Frp Y27 0
     Servicio Tecnico Vivo Mantenimiento Pin Y15 0
     Servicio Tecnico Xiaomi Ajustar Auricular Redmi 10 0
+    Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 10S 0
     Servicio Tecnico Xiaomi Ajustar Flex De Carga Redmi Note 9 0
     Servicio Tecnico Xiaomi Configuracion Pantalla Redmi A1 0
     Servicio Tecnico Xiaomi Cuenta Mi Redmi Note 8 Unlocktool 2 0
     Servicio Tecnico Xiaomi Encender Poco X3 0
+    Servicio Tecnico Xiaomi Encender Redmi Note 11 0
+    Servicio Tecnico Xiaomi Frp Redmi Note 11 Pandora 0
     Servicio Tecnico Xiaomi Pin De Carga Redmi 12C 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi 9A / 9C / 10A 0
+    Servicio Tecnico Xiaomi Pin de Carga Redmi 9C 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A1 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A1 0
     Servicio Tecnico Xiaomi Reiniciar Redmi Note 9s 1
@@ -2708,6 +2719,7 @@
     Silicone Case Samsung A14 Blanco 0
     Silicone Case Samsung A14 Fucsia 0
     Silicone Case Samsung A14 Lila 1
+    Silicone Case Samsung A14 Morado 0
     Silicone Case Samsung A14 Negro 0
     Silicone Case Samsung A14 Rojo 2
     Silicone Case Samsung A15 Lila 0
@@ -3175,7 +3187,7 @@
     Silicone Case Vivo Y27 / Y27s / Y36 Azulclaro Ab 1
     Silicone Case Vivo Y27 / Y27s / Y36 Azulrey Ab 1
     Silicone Case Vivo Y27 / Y27s / Y36 Lila Ab 1
-    Silicone Case Vivo Y27 / Y27s / Y36 Morado Ab 1
+    Silicone Case Vivo Y27 / Y27s / Y36 Morado Ab 0
     Silicone Case Vivo Y27 / Y27s / Y36 Salmon Ab 1
     Silicone Case Vivo Y27 Negro 0
     Silicone Case Vivo Y27 Rojo 1
@@ -3344,7 +3356,7 @@
     Silicone Case Xiaomi Redmi Note 10 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 Pro Lila 1
     Silicone Case Xiaomi Redmi Note 10 Pro Morado 1
-    Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
+    Silicone Case Xiaomi Redmi Note 10 Pro Negro 0
     Silicone Case Xiaomi Redmi Note 10 Pro Rosa 0
     Silicone Case Xiaomi Redmi Note 10 Pro Salmon 1
     Silicone Case Xiaomi Redmi Note 10 Pro Verdebiche 1
@@ -3487,7 +3499,7 @@
     Simcard Tigo 24
     Simcard Virgin 6
     Simcard Wom 1
-    Sin Registro 5
+    Sin Registro 4
     Slicone Case Xiaomi Redmi 13C Fucsia 1
     Smart Tv Tg 43 Pulgadas 0
     Smart Watch Combo Jl-9 Ultra 2 1
@@ -3505,6 +3517,7 @@
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 1
     Smartphone Zte Blade A34 64/6 Verde 0
     Smartphone Zte Blade A34 64/6 Verde 866083070638852 0
+    Smartphone Zte Blade L220 865338061757322 - 32/2 0
     Soporte Celular Escritorio 1533 0
     Soporte Celular Goma Cell 0
     Soporte Fijo Tv 32-55 Pulgadas 2
@@ -3625,7 +3638,7 @@
     Vidrio 5D Huawei Y6P 0
     Vidrio 5D Huawei Y7 Prime 1
     Vidrio 5D Huawei Y9 Prime 5
-    Vidrio 5D Iphone 12 / 12 Pro 3
+    Vidrio 5D Iphone 12 / 12 Pro 2
     Vidrio 5D Mate Samsung A22 4G / A31 / A32 4G 3
     Vidrio 5D Matte Samsung A22 4G / A31 / A32 4G 0
     Vidrio 5D Motorola Moto E13 4
@@ -3655,7 +3668,7 @@
     Vidrio 5D Samsung A05S 4
     Vidrio 5D Samsung A10 / A10s 3
     Vidrio 5D Samsung A11 0
-    Vidrio 5D Samsung A12 9
+    Vidrio 5D Samsung A12 8
     Vidrio 5D Samsung A15 7
     Vidrio 5D Samsung A16 0
     Vidrio 5D Samsung A20s 5
@@ -3699,8 +3712,8 @@
     Vidrio 5D Xiaomi Redmi A3 0
     Vidrio 5D Xiaomi Redmi A5 0
     Vidrio 5D Xiaomi Redmi Mi 11T 0
-    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 2
-    Vidrio 5D Xiaomi Redmi Note 12 3
+    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 1
+    Vidrio 5D Xiaomi Redmi Note 12 1
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 3
     Vidrio 5D Xiaomi Redmi Note 8 3
@@ -3870,7 +3883,7 @@
     Vidrio Fullpega Tecno Spark 20 Pro Plus 2
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 3
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 2
-    Vidrio Oppo A54 0
+    Vidrio Oppo A54 2
     Vidrio Perlas Apple Iphone 11 2
     Vidrio Perlas Apple Iphone Xr / 11 0
     Vidrio Templado Apple Iphone 16E 0
@@ -3938,5 +3951,3 @@
     Visor Camara Xiaomi Redmi Note 11 0
     Visor Camara Xiaomi Redmi Note 12 Pro 4G 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
-    Logica de Carga Samsung A22 4G 0
-    Altavoz Samsung A14 5G 0
