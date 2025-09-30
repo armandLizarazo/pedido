@@ -1,13 +1,18 @@
-    Altavoz Samsung A14 5G 1
-    Bateria Motorola Moto E20 1
-    Bateria Motorola Moto G31 / G42 1
+    Altavoz Samsung A14 5G 1 ok
+    Bateria Motorola Moto E20 1 ok
+    Bateria Motorola Moto G31 / G42 1 ok
     Bateria Samsung J5 prime 1
-    Logica de Carga Samsung A22 4G 1
+    Logica de Carga Samsung A22 4G 1 ok
     Pacha Huawei Y9A Full 1
-    Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1
-    Pacha Samsung A21S C/m 1
-    Pacha Samsung A32 1
-    Pacha Samsung A32 C/m 1
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
-    Pacha Vivo Y11s / Y20s 1
-    Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 2
+    Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1 ok
+    Pacha Samsung A21S C/m 1 ok
+    Pacha Samsung A13 / M13 / M23 1 ok
+    Pacha Samsung A32 1 ok
+    Pacha Samsung A32 C/m 1 ok
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+    Pacha Vivo Y11s / Y20s 1 ok
+    Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 2 ok
+    Flex Principal Xiaomi Redmi Note 10 / Note 10s 2 ok
+    Visor Camara Samsung A22 4G Negro 1 ok
+    Camara Frontal Samsung A21s 1 ok
+    Pacha Huawei Honor X6S C/m 1
