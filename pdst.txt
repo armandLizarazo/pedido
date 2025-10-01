@@ -6,3 +6,5 @@
     Pacha Xiaomi Redmi Note 11 / Note 12S 3 ok
     Pacha Xiaomi Redmi Note 12 1 ok
     Tapa Xiaomi Redmi Note 9 Verde 1 ok
+    Visor Camara Huawei Honor X6 / X6S Azul 1 ok
+    Visor Camara Xiaomi Redmi Note 11 2 
