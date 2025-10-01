@@ -8639,3 +8639,82 @@ Fecha de proceso: 2025-09-25 16:55:42
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-09-29 20:51:59
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 24
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Audifonos Bluetooth Sm I12 Blanco 2 ok
+    5 | Audifonos Bluetooth Dm I12 Rosa 2 ok
+    6 | Audifonos Bluetooth Sm I12 Gris 1 ok
+    9 | Cable Apple Tc Ligthning 2M 3 ok
+   12 | Cable Apple Tc A Tc 60w Aguja 3 ok
+   76 | Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
+   77 | Forro Space Huawei Honor X5B 2 ok
+   92 | Forro Space Vivo V40 Lite 2 ok
+   95 | Forro Space Xiaomi Redmi 12 2 ok
+   96 | Forro Space Xiaomi Redmi A3 2 ok
+  114 | Silicone Case Apple Iphone 11 Pro Max Negro 1 ok
+  117 | Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1 ok
+  118 | Silicone Case Apple Iphone Xr Azulrey 1 ok
+  119 | Silicone Case Apple Iphone Xs Max Azulrey 1 ok
+  132 | Silicone Case Huawei Y9A Azul Rey 1 ok
+  176 | Silicone Case Samsung A14 Blanco 1 ok
+  177 | Silicone Case Samsung A14 Morado 1 ok
+  178 | Silicone Case Samsung A15 Lila 1 ok
+  194 | Silicone Case Tecno Camon 30S Pro Amarillo 1 ok
+  195 | Silicone Case Tecno Camon 30S Pro Fucsia 1 ok
+  196 | Silicone Case Tecno Camon 30S Pro Negro 1 ok
+  222 | Silicone Case Xiaomi Poco X3 Morado 1 ok
+  239 | Vidrio 5D Iphone 12 / 12 Pro 5 ok
+  243 | Vidrio 5D Xiaomi Redmi Note 12 3 ok
+
+==================================================
+Fecha de proceso: 2025-09-29 20:51:59
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Multitoma 6 Enchufes 1 ok
+    5 | Audifonos Bluetooth Pro 5S Blanco 1 ok
+    6 | Audifonos Bluetooth Pro 5S Negro 2 ok
+   17 | Gramera Joyeria 1 ok
+   21 | Pad Mouse Tapete Negro 2 ok
+   25 | Reproductor Onn 4K 1 ok
+   26 | Reproductor Onn Hd Azul 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-29 20:51:59
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Altavoz Samsung A14 5G 1 ok
+    2 | Bateria Motorola Moto E20 1 ok
+    3 | Bateria Motorola Moto G31 / G42 1 ok
+    5 | Logica de Carga Samsung A22 4G 1 ok
+    7 | Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1 ok
+    8 | Pacha Samsung A21S C/m 1 ok
+    9 | Pacha Samsung A13 / M13 / M23 1 ok
+   10 | Pacha Samsung A32 1 ok
+   11 | Pacha Samsung A32 C/m 1 ok
+   12 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   13 | Pacha Vivo Y11s / Y20s 1 ok
+   14 | Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 2 ok
+   15 | Flex Principal Xiaomi Redmi Note 10 / Note 10s 2 ok
+   16 | Visor Camara Samsung A22 4G Negro 1 ok
+   17 | Camara Frontal Samsung A21s 1 ok
+
+==================================================
+Fecha de proceso: 2025-09-29 20:51:59
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

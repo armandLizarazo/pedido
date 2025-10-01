@@ -1,21 +1,21 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth W I12 Azuloscuro 2
-    Audifonos Bluetooth Sm I12 Blanco 2 ok
-    Audifonos Bluetooth Dm I12 Rosa 2 ok
-    Audifonos Bluetooth Sm I12 Gris 1 ok
+    Audifonos Bluetooth W I12 Negro 3
     Balaca Apple Airpods Max Negro 1.1 1
+    Balaca Con Pantalla Negro 1
+    Cable Apple Tc Ligthning 3
     Cable Belkin Tc 10
-    Cable Apple Tc Ligthning 2M 3 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
-    Cable Apple Tc A Tc 60w Aguja 3 ok
     Cable Nokia 1100 5
     Cable Royal Tc 2M 5
-    Cargador Apple 5V Eco 6
+    Cargador Apple 25W Con Cable 1
+    Cargador Apple 5V Eco 11
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
+    Cargador We Tc 33W 4
     Cargador Yl Tc 2
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X7A Caballero 3
@@ -42,6 +42,7 @@
     Forro Armadura Motorola Moto G15 Negro 1
     Forro Armadura Motorola Moto G35 Negro 1
     Forro Armadura Motorola Moto G35 Rojo 1
+    Forro Armadura Motorola Moto G85 Negro 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Oppo Reno 13 5G Negro 1
@@ -52,6 +53,7 @@
     Forro Armadura Samsung A13 Negro 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
@@ -73,8 +75,6 @@
     Forro Picina 3
     Forro Pin Samsung S24 Ultra 3
     Forro Space Apple Iphone 12 2
-    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
-    Forro Space Huawei Honor X5B 2 ok
     Forro Space Huawei Y9A 3
     Forro Space Infinix Hot 50 Pro 5G 1
     Forro Space Infinix Note 50s 2
@@ -89,19 +89,15 @@
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Vivo V40 Lite 2 ok
     Forro Space Vivo Y04 2
     Forro Space Vivo Y39 2
-    Forro Space Xiaomi Redmi 12 2 ok
-    Forro Space Xiaomi Redmi A3 2 ok
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14 4G 2ok
-    Forro Space Xiaomi Redmi Note note 13 pro 4G 14S
     Forro Tabletas 10P Dama 2
+    Holder Chupa Parabrisas 1
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung Akg Tc 2
-    Manos Libres Samsung J5 Negro 10
+    Manos Libres Samsung J5 Negro 15
     Manos Libres Speak Tc 1
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
@@ -111,12 +107,9 @@
     Proyector Astronauta Bluetooth 1
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
-    Silicone Case Apple Iphone 11 Pro Max Negro 1 ok
-    Silicone Case Apple Iphone 13 Pro Negro 1 
+    Silicone Case Apple Iphone 13 Pro Negro 1
+    Silicone Case Apple Iphone 14 Pro Azulrey 1
     Silicone Case Apple Iphone 15 Pro Max Rosa 1
-    Silicone Case Apple Iphone 7 Plus / 8 Plus Fucsia 1 ok
-    Silicone Case Apple Iphone Xr Azulrey 1 ok
-    Silicone Case Apple Iphone Xs Max Azulrey 1 ok
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor X5B Rojo 1
     Silicone Case Huawei Honor X6A / Play 9A Lila 1
@@ -129,12 +122,12 @@
     Silicone Case Huawei Y9 2019 / Y8S Verde 1
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9A Amarillo 1
-    Silicone Case Huawei Y9A Azul Rey 1 ok
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1
     Silicone Case Infinix Hot 50I / Smart 9 Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1
+    Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 50s Azulrey 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 1
@@ -173,12 +166,10 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Samsung A10S Negro 1
-    Silicone Case Samsung A14 Blanco 1 ok
-    Silicone Case Samsung A14 Morado 1 ok
-    Silicone Case Samsung A15 Lila 1 ok
     Silicone Case Samsung A16 Amarillo 1
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Negro 1
+    Silicone Case Samsung A32 4G Lila 1
     Silicone Case Samsung A36 Rosa 1
     Silicone Case Samsung A51 Negro 1
     Silicone Case Samsung A55 Verdementa 1
@@ -191,9 +182,6 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 30S Negro 1
-    Silicone Case Tecno Camon 30S Pro Amarillo 1 ok
-    Silicone Case Tecno Camon 30S Pro Fucsia 1 ok
-    Silicone Case Tecno Camon 30S Pro Negro 1 ok
     Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
@@ -202,6 +190,7 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -219,7 +208,6 @@
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y27 Negro 1
-    Silicone Case Xiaomi Poco X3 Morado 1 ok
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
@@ -235,12 +223,13 @@
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
-    Vidrio 5D Huawei Y9 Prime 5 
-    Vidrio 5D Iphone 12 / 12 Pro 5 ok
+    Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Xiaomi Redmi Note 12 3 ok
+    Vidrio 5D Samsung A71 / Poco X3 5
+    Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 5
+    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16 10
@@ -254,6 +243,7 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Motorola Moto G9 Power 5
+    Vidrio Blindado Samsung A12 5
     Vidrio Blindado Samsung A26 10
     Vidrio Blindado Xiaomi Redmi Note 14s 5
     Vidrio Camara Xiaomi Redmi 13 15

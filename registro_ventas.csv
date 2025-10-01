@@ -1632,3 +1632,70 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-09-28 21:07:24,20250928210724,Forro Antichoque Hawei Honor X9 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00
 2025-09-28 21:07:57,20250928210757,Sin Registro,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Efectivo: $20000.00
 2025-09-28 21:09:29,20250928210929,Recargas,1,11321.00,12000.00,12000.00,679.00,local.txt,Cliente General,Efectivo: $12000.00
+2025-09-29 14:54:45,20250929145445,Cable Auxiliar 1 A 1 Eco,1,1000.00,9000.00,9000.00,8000.00,local.txt,Cliente General,Nequi: $9000.00
+2025-09-29 14:58:51,20250929145851,Vidrio 5D Samsung A71 / Poco X3,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-29 14:58:51,20250929145851,Holder Chupa Parabrisas,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-29 15:01:51,20250929150151,Cable V8 Eco,1,1000.00,10000.00,10000.00,9000.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-09-29 15:16:04,20250929151604,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-29 20:19:00,20250929201900,Silicone Case Apple Iphone 14 Pro Azulrey,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-09-29 20:19:23,20250929201923,Silicone Case Samsung A32 4G Lila,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-29 20:20:39,20250929202039,Cable Auxiliar 2 a 1 5M,1,4000.00,18000.00,18000.00,14000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-29 20:20:39,20250929202039,Cable Rca 2 a 2 1.5M,1,2000.00,12000.00,12000.00,10000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-29 20:21:04,20250929202104,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-29 20:21:36,20250929202136,Cargador Belkin Tc,1,8500.00,29000.00,29000.00,20500.00,local.txt,Cliente General,Daviplata: $29000.00
+2025-09-29 20:22:42,20250929202242,Pacha Xiaomi Redmi Note 11 / Note 12S,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General,"Nequi: $95000.00, Daviplata: $5000.00"
+2025-09-29 20:22:42,20250929202242,Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,"Nequi: $95000.00, Daviplata: $5000.00"
+2025-09-29 20:23:50,20250929202350,Adaptador Usb2hdmi,1,25000.00,45000.00,45000.00,20000.00,local.txt,Cliente General,Nequi: $45000.00
+2025-09-29 20:25:54,20250929202554,Pacha Samsung A13 / M13 / M23,1,35000.00,95000.00,95000.00,60000.00,local.txt,Cliente General,Nequi: $110000.00
+2025-09-29 20:25:54,20250929202554,Servicio Tecnico Samsung Mantenimiento Logica de carga A13,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Nequi: $110000.00
+2025-09-29 20:25:54,20250929202554,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Nequi: $110000.00
+2025-09-29 20:26:58,20250929202658,Forro Antichoque Samsung A53 Cabellero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Nequi: $15000.00
+2025-09-29 20:27:43,20250929202743,Pacha Xiaomi Redmi Note 12,1,40000.00,100000.00,100000.00,60000.00,local.txt,Cliente General,Efectivo: $100000.00
+2025-09-29 20:31:03,20250929203103,Hydrogel Motorola Moto G85,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $45000.00
+2025-09-29 20:31:03,20250929203103,Forro Armadura Motorola Moto G85,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General,Efectivo: $45000.00
+2025-09-29 20:31:44,20250929203144,Cargador We Tc 33W,1,8500.00,35000.00,35000.00,26500.00,local.txt,Cliente General,Nequi: $35000.00
+2025-09-29 20:33:43,20250929203343,Silicone Case Vivo Y20 / Y20S / Y11S Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $40000.00
+2025-09-29 20:33:43,20250929203343,Vidrio Blindado Samsung A12,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Efectivo: $40000.00
+2025-09-29 20:34:32,20250929203432,Adaptador Europeo Redondo,1,0.00,9000.00,9000.00,9000.00,local.txt,Cliente General,Efectivo: $9000.00
+2025-09-29 20:35:21,20250929203521,Recargas,1,7075.00,7500.00,7500.00,425.00,local.txt,Cliente General,Efectivo: $7500.00
+2025-09-29 20:47:49,20250930074749,Cable Apple Tc Ligthning 2M,1,5500.00,25000.00,25000.00,19500.00,local.txt,Cliente General,Daviplata: $25000.00
+2025-09-30 13:16:48,20250930131648,Forro Antichoque Tecno Spark 10C Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-09-30 13:17:22,20250930131722,Cargador We V8 33W,1,8500.00,35000.00,35000.00,26500.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-09-30 13:19:33,20250930131933,Tapa Xiaomi Redmi Note 9 Verde,1,10000.00,30000.00,30000.00,20000.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-09-30 13:20:17,20250930132017,Audifonos Bluetooth M60,1,44000.00,100000.00,100000.00,56000.00,local.txt,Cliente General,Efectivo: $100000.00
+2025-09-30 13:30:35,20250930133035,Pacha Motorola Moto G14 / G54,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General,Nequi: $100000.00
+2025-09-30 13:30:35,20250930133035,Vidrio 5D Samsung A53,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Nequi: $100000.00
+2025-09-30 16:46:20,20250930164620,Forro Antichoque Huawei Honor X6A / Play 9A Dama,1,3500.00,5000.00,5000.00,1500.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-30 16:46:47,20250930164647,Silicone Case Infinix Hot 60 Pro Plus Vinotinto,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-30 16:47:15,20250930164715,Adaptador Audio Bluetooth Dongle,1,5000.00,22000.00,22000.00,17000.00,local.txt,Cliente General,Nequi: $22000.00
+2025-09-30 16:48:14,20250930164814,Servicio Tecnico Xiaomi Ajustar Carga Poco X3,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General,Nequi: $15000.00
+2025-09-30 17:14:24,20250930171424,Audifonos Bluetooth W I12 Negro,1,14000.00,35000.00,35000.00,21000.00,local.txt,Cliente General,Daviplata: $35000.00
+2025-09-30 17:15:19,20250930171519,Pacha Xiaomi Redmi 12,1,42000.00,95000.00,95000.00,53000.00,local.txt,Cliente General,Daviplata: $95000.00
+2025-09-30 17:16:02,20250930171602,Control Gamer X3,1,24000.00,55000.00,55000.00,31000.00,local.txt,Cliente General,Efectivo: $55000.00
+2025-09-30 18:34:30,20250930183430,Pilas Carbon Maxday Aaa,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General,"Nequi: $350000.00, Efectivo: $23000.00"
+2025-09-30 18:34:30,20250930183430,Pilas Carbon Maxday Aa x2,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General,"Nequi: $350000.00, Efectivo: $23000.00"
+2025-09-30 18:34:30,20250930183430,Parlante Lazzer Lz-2890,1,250000.00,350000.00,350000.00,100000.00,local.txt,Cliente General,"Nequi: $350000.00, Efectivo: $23000.00"
+2025-09-30 18:34:30,20250930183430,Forro Antichoque Xiaomi Redmi A1 / A2 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,"Nequi: $350000.00, Efectivo: $23000.00"
+2025-09-30 18:35:24,20250930183524,Servicio Tecnico Motorola Limpieza Auricular Moto G20,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-09-30 18:43:09,20250930184309,Recargas,1,14151.00,15000.00,15000.00,849.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-09-30 18:52:55,20250930185255,Pacha Xiaomi Redmi Note 11 / Note 12S,1,42000.00,95000.00,95000.00,53000.00,local.txt,Cliente General,Daviplata: $100000.00
+2025-09-30 18:52:55,20250930185255,Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Daviplata: $100000.00
+2025-09-30 18:53:36,20250930185336,Forro Armadura Tecno Spark Go 2023 / Pop7 Negro,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-30 18:58:28,20250930185828,Adaptador Europeo Goma,1,2000.00,6000.00,6000.00,4000.00,local.txt,Cliente General,Daviplata: $6000.00
+2025-09-30 19:13:33,20250930191333,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Daviplata: $5000.00
+2025-09-30 19:14:58,20250930191458,Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $30000.00
+2025-09-30 19:14:58,20250930191458,Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $30000.00
+2025-09-30 19:31:38,20250930193138,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General,Nequi: $10000.00
+2025-09-30 19:32:39,20250930193239,Manos Libres Samsung Tipo Original Blanco,1,2800.00,15000.00,15000.00,12200.00,local.txt,Cliente General,Nequi: $15000.00
+2025-09-30 20:16:53,20250930201653,Forro Antichoque Apple Iphone 11 Verdemilitar,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $30000.00
+2025-09-30 20:16:53,20250930201653,Vidrio Ceramico Apple Iphone 11 / Xr,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General,Daviplata: $30000.00
+2025-09-30 20:17:48,20250930201748,Power Bank Beston Bs-671 10000 Mah,1,24000.00,45000.00,45000.00,21000.00,local.txt,Cliente General,Nequi: $45000.00
+2025-09-30 20:18:38,20250930201838,Barbera Vgr V-001 Blue Editon,1,190000.00,280000.00,280000.00,90000.00,local.txt,Cliente General,Daviplata: $280000.00
+2025-09-30 20:25:18,20250930202518,Forro Antichoque Pin Oppo A79,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-30 20:37:23,20250930203723,Balaca Con Pantalla Negro,1,24000.00,50000.00,50000.00,26000.00,local.txt,Cliente General,Daviplata: $50000.00
+2025-09-30 21:07:50,20250930210750,Cargador Apple 5V Eco,1,7000.00,22000.00,22000.00,15000.00,local.txt,Cliente General,Daviplata: $40000.00
+2025-09-30 21:07:50,20250930210750,Forro Antichoque Apple Iphone 7 / Iphone 8 Dama,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Daviplata: $40000.00
+2025-09-30 21:08:43,20250930210843,Cargador Apple 25W Con Cable,1,14000.00,55000.00,55000.00,41000.00,local.txt,Cliente General,Daviplata: $55000.00
+2025-09-30 21:09:33,20250930210933,Forro Antichoque Samsung A16 Dama,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-09-30 21:36:45,20250930213645,Manos Libres Batri B10 Negro,1,7500.00,25000.00,25000.00,17500.00,local.txt,Cliente General,Daviplata: $25000.00
+2025-09-30 21:41:02,20250930214102,Recargas,1,22170.00,23500.00,23500.00,1330.00,local.txt,Cliente General,Efectivo: $23500.00
