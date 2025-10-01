@@ -1,13 +1,16 @@
     Adaptador Europeo Redondo 5
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb2hdmi 2
-    Aro De Luz 45Cm 2
+    Adaptador Usb2hdmi 2 ok
+    Aro De Luz 45Cm 1 ok
     Audifonos Bluetooth Ambie 1
     Barbera Vgr V-001 Blue Editon 1
     Base Refirgerante 4 Ventiladores 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Lan 2M Cat 6 5
-    Cable Microfono Cabina 2
+    Cable Microfono Cabina 1.5M 1 ok
+    Cable Microfono Cabina 3M 1 ok
+    Cable Microfono Cabina 5M 1 ok
+    Cable Microfono Guitarra St 2 ok
     Cable Microsoft Xbox Caja Negra 2
     Cable Vga 15M 2
     Consola + Tv box 1
