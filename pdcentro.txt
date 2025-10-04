@@ -3,25 +3,20 @@
     Audifonos Bluetooth W I12 Azuloscuro 2
     Audifonos Bluetooth W I12 Negro 3
     Balaca Apple Airpods Max Negro 1.1 1
-    Balaca Con Pantalla Negro 1 ok
-    Cable Apple Tc Ligthning 3 ok
     Cable Belkin Tc 10
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
-    Cable Royal Tc 2M 5 ok
-    Cargador Apple 25W Con Cable 1 ok
-    Cargador Apple 5V Eco 5 ok
+    Cable Yoyos Tc 5
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
-    Cargador We Tc 33W 4 ok
-    Cargador We V8 33W 2 ok
     Cargador Yl Tc 2
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Motorola Moto G15 Caballero 5
+    Forro Antichoque Motorola Moto G55 Dama 3
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
@@ -39,11 +34,14 @@
     Forro Antichoque Vivo Y19S Dama 5
     Forro Antichoque Vivo Y39 Caballero 5
     Forro Armadura Lg K61 Rojo 1
-    Forro Armadura Motorola Moto G15 Negro 1
+    Forro Armadura Motorola Moto G15 Negro 2
+    Forro Armadura Motorola Moto G15 Rojo 1
     Forro Armadura Motorola Moto G35 Negro 1
-    Forro Armadura Motorola Moto G35 Rojo 1
+    Forro Armadura Motorola Moto G35 Rojo 2
+    Forro Armadura Motorola Moto G55 Negro 1
     Forro Armadura Motorola Moto G85 Negro 1
     Forro Armadura Oppo A57 Rojo 1
+    Forro Armadura Oppo A80 Azuloscuro 1
     Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Pova 5 Azul 1
@@ -65,6 +63,7 @@
     Forro Lujo Samsung A26 Ab 2
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 11
+    Forro Lujo Ventana Apple Iphone 11 Negro 1
     Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
     Forro Lujo Ventana Apple Iphone 14 Pro Negro 1
@@ -76,21 +75,23 @@
     Forro Pin Samsung S24 Ultra 3
     Forro Space Apple Iphone 12 3
     Forro Space Huawei Y9A 3
-    Forro Space Infinix Hot 50 Pro 5G 1 ok
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
+    Forro Space Motorola Moto Edge 30 Neo / Edge 30 Lite 2
+    Forro Space Motorola Moto Edge 50 Fusion / Moto G85 2
     Forro Space Motorola Moto G50 1
+    Forro Space Motorola Moto G55 2
+    Forro Space Motorola Moto G75 4
     Forro Space Motorola Moto G9 Power 1
     Forro Space Oppo A5 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme C53 / Note 50 1
     Forro Space Oppo Realme C75 2
-    Forro Space Oppo Reno 13 5G 2 ok
+    Forro Space Samsung A04S / A13 5G 1
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo Y04 2
-    Forro Space Vivo Y39 2 ok
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Tabletas 10P Dama 2
@@ -105,14 +106,13 @@
     Mouse Jertech Jr-1 Rojo 1
     Power Bank Aibimy 30000 Mah 1
     Proyector Astronauta Bluetooth 1
+    Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 14 Pro Azulrey 1
     Silicone Case Apple Iphone 15 Pro Max Rosa 1
     Silicone Case Apple Iphone Xs Max Blanco 1
-    Silicone Case Huawei Honor X5B Rojo 1 ok
-    Silicone Case Huawei Honor X6A / Play 9A Lila 1 ok
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
@@ -123,20 +123,22 @@
     Silicone Case Huawei Y9 Prime Rosa 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
-    Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Negro 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
-    Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
+    Silicone Case Infinix Note 40 Pro Lila 1
     Silicone Case Infinix Note 50s Azulrey 1
     Silicone Case Lg K61 Amarillo 1
-    Silicone Case Motorola Moto Edge 30 Negro 1
+    Silicone Case Motorola Moto Edge 30 Negro 2
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
     Silicone Case Motorola Moto Edge 40 Negro 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G31 Lila 1
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G72 Negro 1
+    Silicone Case Motorola Moto G75 Amarillo 1
+    Silicone Case Motorola Moto G75 Amarillo Fucsia 1
+    Silicone Case Motorola Moto G75 Amarillo Negro 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Motorola Moto G8 Power Lite Lila 1
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
@@ -166,9 +168,11 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Samsung A10S Negro 1
+    Silicone Case Samsung A15 Rosa 1
     Silicone Case Samsung A16 Amarillo 1
     Silicone Case Samsung A22 4G Negro 1
     Silicone Case Samsung A22 5G Negro 1
+    Silicone Case Samsung A26 Fucsia 1
     Silicone Case Samsung A32 4G Lila 1
     Silicone Case Samsung A36 Rosa 1
     Silicone Case Samsung A51 Negro 1
@@ -182,7 +186,6 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 30S Negro 1
-    Silicone Case Tecno Camon 40 / 40 Pro Fucsia 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -211,6 +214,7 @@
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
+    Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
@@ -227,9 +231,6 @@
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Samsung A71 / Poco X3 10 ok
-    Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 5 ok
-    Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 10 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16 10
@@ -243,7 +244,6 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Motorola Moto G9 Power 5
-    Vidrio Blindado Samsung A12 5 ok
     Vidrio Blindado Samsung A26 10
     Vidrio Blindado Xiaomi Redmi Note 14s 5
     Vidrio Camara Xiaomi Redmi 13 15

@@ -1699,3 +1699,92 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-09-30 21:09:33,20250930210933,Forro Antichoque Samsung A16 Dama,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
 2025-09-30 21:36:45,20250930213645,Manos Libres Batri B10 Negro,1,7500.00,25000.00,25000.00,17500.00,local.txt,Cliente General,Daviplata: $25000.00
 2025-09-30 21:41:02,20250930214102,Recargas,1,22170.00,23500.00,23500.00,1330.00,local.txt,Cliente General,Efectivo: $23500.00
+2025-10-01 19:01:12,20251001190112,Patillera 3 En 1,1,21000.00,50000.00,50000.00,29000.00,local.txt,Cliente General,Efectivo: $50000.00
+2025-10-01 19:01:51,20251001190151,Silicone Case Infinix Note 40 Pro Lila,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-01 19:02:16,20251001190216,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General,Daviplata: $10000.00
+2025-10-01 19:02:40,20251001190240,Forro Antichoque Oppo Reno 5 Lite Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-10-01 19:03:39,20251001190339,Pacha Oppo A17 / A38 / A57 / A77,1,35000.00,100000.00,100000.00,65000.00,local.txt,Cliente General,Efectivo: $105000.00
+2025-10-01 19:03:39,20251001190339,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $105000.00
+2025-10-01 19:04:14,20251001190414,Reproductor Onn Hd,1,95000.00,150000.00,150000.00,55000.00,local.txt,Cliente General,Nequi: $150000.00
+2025-10-01 19:06:17,20251001190617,Pacha Samsung A32,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General,Efectivo: $90000.00
+2025-10-01 19:14:44,20251001191444,Manos Libres Samsung J5 Negro,1,2800.00,10000.00,10000.00,7200.00,local.txt,Cliente General,Daviplata: $10000.00
+2025-10-01 19:18:43,20251001191843,Pacha Huawei Honor X6 / X6S C/m,1,43000.00,110000.00,110000.00,67000.00,local.txt,Cliente General,Efectivo: $130000.00
+2025-10-01 19:18:43,20251001191843,Flex de Power Huawei Honor X6 / X6S,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Efectivo: $130000.00
+2025-10-01 19:21:21,20251001192121,Mouse Inalambrico y Bluetooth,1,20000.00,45000.00,45000.00,25000.00,local.txt,Cliente General,Nequi: $45000.00
+2025-10-01 19:22:08,20251001192208,Cable Yoyos Tc,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Daviplata: $12000.00
+2025-10-01 19:25:21,20251001192521,Pacha Motorola Moto G8 Plus,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General,Efectivo: $115000.00
+2025-10-01 19:25:21,20251001192521,Forro Antichoque Motorola Moto G8 Plus Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $115000.00
+2025-10-01 19:25:21,20251001192521,Vidrio Motorola Moto G8 Plus,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $115000.00
+2025-10-01 19:25:48,20251001192548,Cable V8 Eco,1,1000.00,10000.00,10000.00,9000.00,local.txt,Cliente General,Daviplata: $10000.00
+2025-10-01 19:26:36,20251001192636,Holder Car Regilla,1,3000.00,10000.00,10000.00,7000.00,local.txt,Cliente General,Nequi: $10000.00
+2025-10-01 19:28:02,20251001192802,Audifonos Bluetooth Conductor 1092,1,20000.00,60000.00,60000.00,40000.00,local.txt,Cliente General,Nequi: $60000.00
+2025-10-01 19:30:18,20251001193018,Servicio Tecnico Apple Reconectar Pantalla Xr,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-01 19:33:45,20251001193345,Pacha Motorola Moto E7 Plus / G9 Play,1,35000.00,95000.00,95000.00,60000.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-01 19:33:45,20251001193345,Vidrio Motorola Moto G8 Plus,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-01 19:34:34,20251001193434,Manos Libres Batri B10 Blanco,1,7500.00,25000.00,25000.00,17500.00,local.txt,Cliente General,Efectivo: $25000.00
+2025-10-01 19:35:43,20251001193543,Recargas,1,17925.00,19000.00,19000.00,1075.00,local.txt,Cliente General,Efectivo: $19000.00
+2025-10-01 19:38:25,20251001193825,Pacha Samsung A13 / M13 / M23,1,35000.00,90000.00,90000.00,55000.00,local.txt,Antonio Ramirez,Efectivo: $90000.00
+2025-10-01 19:42:45,20251001194245,Pacha Xiaomi Redmi Note 12,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-01 19:42:45,20251001194245,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-01 19:46:43,20251001194643,Manos Libres Samsung Akg,1,3300.00,15000.00,15000.00,11700.00,local.txt,Cliente General,Daviplata: $15000.00
+2025-10-01 20:26:16,20251001202616,Forro Armadura Oppo A80 Azuloscuro,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,"Efectivo: $20000.00, Efectivo: $20000.00"
+2025-10-01 20:28:34,20251001202834,Pacha Xiaomi Redmi 13C,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General,Nequi: $105000.00
+2025-10-01 20:28:34,20251001202834,Cable Tc Eco,1,1500.00,10000.00,10000.00,8500.00,local.txt,Cliente General,Nequi: $105000.00
+2025-10-01 20:44:05,20251001204405,Forro Antichoque Samsung A16 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-10-01 21:06:28,20251001210628,Vidrio Antiespia Apple Iphone 15 / 15 Pro,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Nequi: $20000.00
+2025-10-02 15:15:42,20251002151542,Silicone Case Samsung A15 Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-10-02 15:17:09,20251002151709,Adaptador Usb2hdmi,1,24000.00,59000.00,59000.00,35000.00,local.txt,Cliente General,Nequi: $59000.00
+2025-10-02 15:17:38,20251002151738,Forro Space Samsung A04S,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General,Daviplata: $20000.00
+2025-10-02 15:18:12,20251002151812,Reproductor Onn Hd Azul,1,95000.00,150000.00,150000.00,55000.00,local.txt,Cliente General,Efectivo: $150000.00
+2025-10-02 15:19:14,20251002151914,Llavero Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-02 15:39:21,20251002153921,Recargas,1,18868.00,20000.00,20000.00,1132.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-02 17:19:37,20251002171937,Adaptador Europeo Goma,1,2000.00,6000.00,6000.00,4000.00,local.txt,Cliente General,Efectivo: $21000.00
+2025-10-02 17:19:37,20251002171937,Manos Libres Samsung Tipo Original Negro,1,2800.00,15000.00,15000.00,12200.00,local.txt,Cliente General,Efectivo: $21000.00
+2025-10-02 17:20:06,20251002172006,Control Gamer Sony Ps2,1,13000.00,24000.00,24000.00,11000.00,local.txt,Cliente General,Nequi: $24000.00
+2025-10-02 17:21:18,20251002172118,Silicone Case Samsung A26 Fucsia,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-02 18:00:12,20251002180012,Memoria Musica Reggaeton Clasicos del Reggaeton,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-02 18:07:34,20251002180734,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General,Efectivo: $4500.00
+2025-10-02 18:11:37,20251002181137,Secador Remington 2003,1,19000.00,49000.00,49000.00,30000.00,local.txt,Cliente General,Efectivo: $49000.00
+2025-10-02 18:20:19,20251002182019,Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 50 Pro,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-10-02 18:20:49,20251002182049,Vidrio 5D Tecno Spark Go 2025,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-02 18:29:43,20251002182943,Forro Antichoque Tecno Camon 40 Pro Caballero,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Efectivo: $53000.00
+2025-10-02 18:29:43,20251002182943,Cargador We Tc 33W,1,8500.00,35000.00,35000.00,26500.00,local.txt,Cliente General,Efectivo: $53000.00
+2025-10-02 18:48:20,20251002184820,Cable Yoyos Tc,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Efectivo: $12000.00
+2025-10-02 19:04:37,20251002190437,Recargas,1,8019.00,8500.00,8500.00,481.00,local.txt,Cliente General,Efectivo: $8500.00
+2025-10-02 19:24:32,20251002192432,Forro Lujo Ventana Apple Iphone 11 Negro,1,14000.00,35000.00,35000.00,21000.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-10-02 19:27:29,20251002192729,Simcard Movistar,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-02 20:52:35,20251002205235,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-10-02 20:53:02,20251002205302,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-10-02 20:54:35,20251002205435,Pulso Banda M5 Negro,1,4000.00,10000.00,10000.00,6000.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-02 21:00:40,20251002210040,Forro Antichoque Samsung A20 / A30 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-10-02 21:00:40,20251002210040,Samsung A20 / A30,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $30000.00
+2025-10-02 21:02:24,20251002210224,Pilas Carbon Maxday Aaa X2,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General,Efectivo: $4000.00
+2025-10-02 21:03:42,20251002210342,Silicone Case Xiaomi Redmi Note 13 4G Fucsia,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $30000.00
+2025-10-02 21:03:42,20251002210342,Vidrio 5D Xiaomi Redmi Note 13 4G,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $30000.00
+2025-10-02 21:06:59,20251002210659,Recargas,1,4245.00,4500.00,4500.00,255.00,local.txt,Cliente General,Efectivo: $4500.00
+2025-10-02 21:11:01,20251002211101,Forro Antichoque Infinix Hot 50 Pro Plus Caballero,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-03 14:41:12,20251003144112,Pacha Samsung A02 / A12 / M12,1,30000.00,90000.00,90000.00,60000.00,local.txt,Ronald Ramirez,Nequi: $100000.00
+2025-10-03 14:41:12,20251003144112,Vidrio 5D Samsung A12,1,900.00,10000.00,10000.00,9100.00,local.txt,Ronald Ramirez,Nequi: $100000.00
+2025-10-03 14:42:09,20251003144209,Cargador Pc Asus 2.37,1,26000.00,55000.00,55000.00,29000.00,local.txt,Cliente General,Nequi: $55000.00
+2025-10-03 15:14:44,20251003151444,Cargador Digo 1100,1,2500.00,15000.00,15000.00,12500.00,local.txt,Cliente General,Nequi: $27000.00
+2025-10-03 15:14:44,20251003151444,Cable Rj11,1,0.00,12000.00,12000.00,12000.00,local.txt,Cliente General,Nequi: $27000.00
+2025-10-03 15:15:20,20251003151520,Power Bank Yoyos Ys-700 10000 Mah,1,45000.00,85000.00,85000.00,40000.00,local.txt,Cliente General,Daviplata: $85000.00
+2025-10-03 15:20:35,20251003152035,Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General,"Nequi: $95000.00, Efectivo: $30000.00"
+2025-10-03 15:20:35,20251003152035,Forro Antichoque Pin Tecno Spark 10c Dama,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,"Nequi: $95000.00, Efectivo: $30000.00"
+2025-10-03 15:20:35,20251003152035,Vidrio 5D Samsung A12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,"Nequi: $95000.00, Efectivo: $30000.00"
+2025-10-03 15:23:11,20251003152311,Aro de Luz Joma 26Cm Rgb,1,30000.00,60000.00,60000.00,30000.00,local.txt,Cliente General,Efectivo: $60000.00
+2025-10-03 15:26:20,20251003152620,Recargas,1,47642.00,50500.00,50500.00,2858.00,local.txt,Cliente General,Efectivo: $50500.00
+2025-10-03 16:04:37,20251003160437,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-03 16:05:40,20251003160540,Pacha Xiaomi Redmi Note 12,1,42000.00,95000.00,95000.00,53000.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-03 16:05:40,20251003160540,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Nequi: $100000.00
+2025-10-03 17:13:34,20251003171334,Vidrio Tortuga Tecno Spark Go 2023 / Spark 10C / Smart 7,1,1000.00,15000.00,15000.00,14000.00,local.txt,Cliente General,Daviplata: $15000.00
+2025-10-03 17:16:06,20251003171606,Silicone Case Samsung A15 Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $20000.00
+2025-10-03 17:17:17,20251003171717,Forro Smart Watch 45Cm,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Daviplata: $20000.00
+2025-10-03 17:18:07,20251003171807,Hydrogel Antiespia Apple Iphone 14,1,10000.00,25000.00,25000.00,15000.00,local.txt,Cliente General,Efectivo: $25000.00
+2025-10-03 17:21:04,20251003172104,Hydrogel Antiespia Tecno Camon Premier,1,10000.00,25000.00,25000.00,15000.00,local.txt,Cliente General,Nequi: $25000.00
+2025-10-03 17:23:36,20251003172336,Teclado Minikeyboard Tipo Control Tv,1,15000.00,40000.00,40000.00,25000.00,local.txt,Cliente General,Nequi: $40000.00
+2025-10-03 20:15:46,20251003201546,Cargador Yl V8,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-03 20:16:36,20251003201636,Reproductor Tdt Krono Kr-365,1,40000.00,65000.00,65000.00,25000.00,local.txt,Cliente General,Nequi: $65000.00
+2025-10-03 20:21:14,20251003202114,Recargas,1,22642.00,24000.00,24000.00,1358.00,local.txt,Cliente General,Efectivo: $24000.00
+2025-10-03 21:16:08,20251003211608,Recargas,1,4717.00,5000.00,5000.00,283.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-03 21:17:00,20251003211700,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00

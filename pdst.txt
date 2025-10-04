@@ -1,10 +1,8 @@
     Bateria Samsung J5 prime 1
-    Pacha Huawei Honor X6 / X6S C/m 1 ok
     Pacha Huawei Y9A Full 1
-    Pacha Motorola Moto G14 / G54 / G55 1 ok
-    Pacha Xiaomi Redmi 12 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 3 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
-    Tapa Xiaomi Redmi Note 9 Verde 1 ok
-    Visor Camara Huawei Honor X6 / X6S Azul 1 ok
-    Visor Camara Xiaomi Redmi Note 11 2 
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 2
+    Pacha Motorola Moto G8 Plus 2
+    Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 2
+    Pacha Samsung A13 / M13 / M23 1
+    Pacha Samsung A32 2
+    Pacha Xiaomi Redmi 12 1

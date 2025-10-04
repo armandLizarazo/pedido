@@ -46,7 +46,8 @@ def parse_file(filename):
                         quantity = int(parts[1])
                         data.append((description, quantity))
     except FileNotFoundError:
-        messagebox.showerror("Error", f"El archivo {filename} no fue encontrado.")
+        # No mostramos error aquí para poder usarlo en funciones que verifican existencia
+        pass
     return data
 
 
@@ -125,14 +126,21 @@ def search():
     search_term = entry_search.get().strip()
     listbox_autocomplete.place_forget()
 
+    # Limpiar resultados anteriores
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
     for item in tree_local.get_children():
         tree_local.delete(item)
 
+    # Resetear cantidades de proveedores
+    pd_centro_qty_var.set("-")
+    pd_pr_qty_var.set("-")
+    pd_st_qty_var.set("-")
+
     if not search_term:
         return
 
+    # Buscar en bodega y local
     found_in_bodega = False
     for description, quantity in data_bodega:
         if description.strip().lower() == search_term.lower():
@@ -155,6 +163,21 @@ def search():
         tree_bodega.insert(
             "", tk.END, values=(search_term, "No encontrado"), tags=("not_found",)
         )
+
+    # Buscar en archivos de pedidos de proveedores
+    provider_files = {
+        "pdcentro.txt": pd_centro_qty_var,
+        "pdpr.txt": pd_pr_qty_var,
+        "pdst.txt": pd_st_qty_var,
+    }
+    for filename, qty_var in provider_files.items():
+        order_data = parse_file(filename)
+        found_qty = 0
+        for desc, qty in order_data:
+            if desc.strip().lower() == search_term.lower():
+                found_qty = qty
+                break
+        qty_var.set(str(found_qty))
 
 
 def normalize_files():
@@ -396,16 +419,7 @@ def add_to_purchase_order(filename):
         )
         return
 
-    order_data = []
-    try:
-        with open(filename, "r", encoding="utf-8") as f:
-            for line in f:
-                if line.startswith("    ") and len(line.strip()) > 0:
-                    parts = line.strip().rsplit(" ", 1)
-                    if len(parts) == 2 and parts[1].isdigit():
-                        order_data.append((parts[0], int(parts[1])))
-    except FileNotFoundError:
-        pass  # El archivo no existe, se creará uno nuevo.
+    order_data = parse_file(filename)
 
     item_found_in_order = False
     for i, (desc, qty) in enumerate(order_data):
@@ -423,6 +437,7 @@ def add_to_purchase_order(filename):
             f"Se agregaron {pedido_qty} unidades de '{search_term}' a {filename}.",
         )
         entry_pedido_qty.delete(0, tk.END)
+        search()  # Refresca los datos, incluyendo la nueva cantidad en el pedido.
 
 
 def delete_item():
@@ -477,7 +492,7 @@ def delete_item():
 
 
 def edit_item():
-    """Edita la descripción de un item en ambos archivos."""
+    """Edita la descripción de un item en los inventarios y archivos de pedidos."""
     global data_bodega, data_local
     old_desc = entry_search.get().strip()
     new_desc = entry_edit_item.get().strip()
@@ -511,7 +526,7 @@ def edit_item():
 
     confirm = messagebox.askyesno(
         "Confirmar Edición",
-        f"¿Desea renombrar el ítem '{old_desc}' a '{new_desc}' en ambos inventarios?",
+        f"¿Desea renombrar '{old_desc}' a '{new_desc}' en los inventarios y en los archivos de pedidos donde exista?",
     )
 
     if confirm:
@@ -533,14 +548,35 @@ def edit_item():
 
         if not item_found_and_changed:
             messagebox.showinfo(
-                "No Encontrado", f"No se encontró el ítem '{old_desc}'."
+                "No Encontrado",
+                f"No se encontró el ítem '{old_desc}' en los inventarios principales.",
             )
             return
+
+        # Actualizar archivos de proveedores
+        provider_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
+        for filename in provider_files:
+            order_data = parse_file(filename)
+            if not order_data:
+                continue
+
+            item_found_in_order = False
+            for i, (desc, qty) in enumerate(order_data):
+                if desc.strip().lower() == old_desc.lower():
+                    order_data[i] = (new_desc, qty)
+                    item_found_in_order = True
+                    break
+
+            if item_found_in_order:
+                update_file(filename, order_data)
 
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
-            messagebox.showinfo("Éxito", f"El ítem ha sido renombrado a '{new_desc}'.")
+            messagebox.showinfo(
+                "Éxito",
+                f"El ítem ha sido renombrado a '{new_desc}' en todos los archivos correspondientes.",
+            )
             entry_search.delete(0, tk.END)
             entry_search.insert(0, new_desc)
             entry_edit_item.delete(0, tk.END)
@@ -554,8 +590,14 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("850x950")  # Aumentado el alto para las nuevas secciones
+root.geometry("850x970")  # Aumentado el alto para las nuevas secciones
 root.configure(bg="#f0f0f0")
+
+# Variables para mostrar cantidades de pedidos
+pd_centro_qty_var = tk.StringVar(value="-")
+pd_pr_qty_var = tk.StringVar(value="-")
+pd_st_qty_var = tk.StringVar(value="-")
+
 
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
 main_frame.pack(expand=True, fill=tk.BOTH)
@@ -871,18 +913,22 @@ btn_to_bodega.pack(side=tk.LEFT, ipady=2)
 frame_pedido = tk.Frame(main_frame, bg="#d1ecf1", pady=10, padx=10)
 frame_pedido.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 
+# Contenedor para la etiqueta y la entrada de cantidad
+pedido_input_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
+pedido_input_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20), anchor="n")
+
 tk.Label(
-    frame_pedido,
+    pedido_input_frame,
     text="Agregar a Pedido:",
     font=("Helvetica", 11, "bold"),
     bg=frame_pedido["bg"],
     fg="#0c5460",
-).pack(side=tk.LEFT, padx=(0, 5))
+).pack(anchor="w")
 
 entry_pedido_container = tk.Frame(
-    frame_pedido, relief="solid", borderwidth=1, bg="white"
+    pedido_input_frame, relief="solid", borderwidth=1, bg="white"
 )
-entry_pedido_container.pack(side=tk.LEFT)
+entry_pedido_container.pack(anchor="w", pady=(5, 0))
 entry_pedido_qty = tk.Entry(
     entry_pedido_container,
     font=("Helvetica", 11),
@@ -893,8 +939,15 @@ entry_pedido_qty = tk.Entry(
 )
 entry_pedido_qty.pack(ipady=2, padx=1, pady=1)
 
+# Contenedor para los proveedores
+providers_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
+providers_frame.pack(side=tk.LEFT)
+
+# --- Proveedor PD Centro ---
+pd_centro_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_centro_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_centro = tk.Button(
-    frame_pedido,
+    pd_centro_frame,
     text="PD Centro",
     command=lambda: add_to_purchase_order("pdcentro.txt"),
     font=("Helvetica", 10, "bold"),
@@ -904,10 +957,26 @@ btn_pd_centro = tk.Button(
     padx=10,
     activebackground="#8fcf90",
 )
-btn_pd_centro.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
+btn_pd_centro.pack(pady=(0, 2))
+tk.Label(
+    pd_centro_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+).pack()
+lbl_pd_centro_qty = tk.Label(
+    pd_centro_frame,
+    textvariable=pd_centro_qty_var,
+    font=("Helvetica", 10, "bold"),
+    bg="white",
+    relief="solid",
+    borderwidth=1,
+    width=10,
+)
+lbl_pd_centro_qty.pack()
 
+# --- Proveedor PD PR ---
+pd_pr_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_pr_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_pr = tk.Button(
-    frame_pedido,
+    pd_pr_frame,
     text="PD PR",
     command=lambda: add_to_purchase_order("pdpr.txt"),
     font=("Helvetica", 10, "bold"),
@@ -917,10 +986,27 @@ btn_pd_pr = tk.Button(
     padx=10,
     activebackground="#8fbcff",
 )
-btn_pd_pr.pack(side=tk.LEFT, padx=(0, 5), ipady=2)
+btn_pd_pr.pack(pady=(0, 2))
+tk.Label(
+    pd_pr_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+).pack()
+lbl_pd_pr_qty = tk.Label(
+    pd_pr_frame,
+    textvariable=pd_pr_qty_var,
+    font=("Helvetica", 10, "bold"),
+    bg="white",
+    relief="solid",
+    borderwidth=1,
+    width=10,
+)
+lbl_pd_pr_qty.pack()
 
+
+# --- Proveedor PD ST ---
+pd_st_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_st_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_st = tk.Button(
-    frame_pedido,
+    pd_st_frame,
     text="PD ST",
     command=lambda: add_to_purchase_order("pdst.txt"),
     font=("Helvetica", 10, "bold"),
@@ -930,7 +1016,20 @@ btn_pd_st = tk.Button(
     padx=10,
     activebackground="#b8b8b8",
 )
-btn_pd_st.pack(side=tk.LEFT, ipady=2)
+btn_pd_st.pack(pady=(0, 2))
+tk.Label(
+    pd_st_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+).pack()
+lbl_pd_st_qty = tk.Label(
+    pd_st_frame,
+    textvariable=pd_st_qty_var,
+    font=("Helvetica", 10, "bold"),
+    bg="white",
+    relief="solid",
+    borderwidth=1,
+    width=10,
+)
+lbl_pd_st_qty.pack()
 
 
 root.mainloop()

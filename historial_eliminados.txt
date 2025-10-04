@@ -8718,3 +8718,72 @@ Fecha de proceso: 2025-09-29 20:51:59
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-10-01 23:00:04
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Balaca Con Pantalla Negro 1 ok
+    7 | Cable Apple Tc Ligthning 3 ok
+   12 | Cable Royal Tc 2M 5 ok
+   13 | Cargador Apple 25W Con Cable 1 ok
+   14 | Cargador Apple 5V Eco 5 ok
+   18 | Cargador We Tc 33W 4 ok
+   19 | Cargador We V8 33W 2 ok
+   79 | Forro Space Infinix Hot 50 Pro 5G 1 ok
+   88 | Forro Space Oppo Reno 13 5G 2 ok
+   93 | Forro Space Vivo Y39 2 ok
+  114 | Silicone Case Huawei Honor X5B Rojo 1 ok
+  115 | Silicone Case Huawei Honor X6A / Play 9A Lila 1 ok
+  126 | Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok
+  127 | Silicone Case Infinix Hot 50I / Smart 9 Negro 1 ok
+  129 | Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
+  230 | Vidrio 5D Samsung A71 / Poco X3 10 ok
+  231 | Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 5 ok
+  232 | Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 10 ok
+  246 | Vidrio Blindado Samsung A12 5 ok
+
+==================================================
+Fecha de proceso: 2025-10-01 23:00:04
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Adaptador Usb2hdmi 2 ok
+    4 | Aro De Luz 45Cm 1 ok
+   10 | Cable Microfono Cabina 1.5M 1 ok
+   11 | Cable Microfono Cabina 3M 1 ok
+   12 | Cable Microfono Cabina 5M 1 ok
+   13 | Cable Microfono Guitarra St 2 ok
+   19 | Control Gamer X3S 2 ok
+   34 | Consola Game Stick 2 ok
+   35 | Parlante Gedi-G Gd-2888 1 ok
+   36 | Parlante Gedi-G Lt-2132 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-01 23:00:04
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Huawei Honor X6 / X6S C/m 1 ok
+    4 | Pacha Motorola Moto G14 / G54 / G55 1 ok
+    5 | Pacha Xiaomi Redmi 12 1 ok
+    6 | Pacha Xiaomi Redmi Note 11 / Note 12S 3 ok
+    7 | Pacha Xiaomi Redmi Note 12 1 ok
+    8 | Tapa Xiaomi Redmi Note 9 Verde 1 ok
+    9 | Visor Camara Huawei Honor X6 / X6S Azul 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-01 23:00:04
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
