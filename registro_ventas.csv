@@ -1788,3 +1788,35 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia
 2025-10-03 20:21:14,20251003202114,Recargas,1,22642.00,24000.00,24000.00,1358.00,local.txt,Cliente General,Efectivo: $24000.00
 2025-10-03 21:16:08,20251003211608,Recargas,1,4717.00,5000.00,5000.00,283.00,local.txt,Cliente General,Efectivo: $5000.00
 2025-10-03 21:17:00,20251003211700,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-04 12:54:50,20251004125450,Forro Antichoque Samsung A32 4G Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,"Efectivo: $15000.00, Nequi: $20000.00"
+2025-10-04 12:54:50,20251004125450,Cargador Yl Tc,1,5000.00,15000.00,15000.00,10000.00,local.txt,Cliente General,"Efectivo: $15000.00, Nequi: $20000.00"
+2025-10-04 14:54:43,20251004145443,Servicio Tecnico Samsung Talkback A10s,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-04 14:57:45,20251004145745,Cable Impresora 3M,1,4000.00,15000.00,15000.00,11000.00,local.txt,Cliente General,Nequi: $15000.00
+2025-10-04 14:58:23,20251004145823,Consola R-36S,1,150000.00,215000.00,215000.00,65000.00,local.txt,Cliente General,Efectivo: $215000.00
+2025-10-04 15:05:26,20251004150526,Pilas Carbon Maxday Aaa X2,1,600.00,5000.00,5000.00,4400.00,local.txt,Cliente General,"Daviplata: $45000.00, Daviplata: $5000.00"
+2025-10-04 15:05:26,20251004150526,Juguete Popit Blanco,1,20000.00,45000.00,45000.00,25000.00,local.txt,Cliente General,"Daviplata: $45000.00, Daviplata: $5000.00"
+2025-10-04 15:05:56,20251004150556,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-04 17:07:06,20251004170706,Servicio Tecnico Xiaomi Pin de Carga Redmi A1,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-04 17:28:44,20251004172844,Audifonos Bluetooth Sm I12 Negro,1,15000.00,35000.00,35000.00,20000.00,local.txt,Cliente General,Nequi: $35000.00
+2025-10-04 17:56:47,20251004175647,Hydrogel Tecno Spark 20 Pro Plus,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Nequi: $20000.00
+2025-10-04 19:00:17,20251004190017,Visor Camara Huawei Honor X6 / X6S Azul,1,6000.00,10000.00,10000.00,4000.00,local.txt,Cliente General,Nequi: $25000.00
+2025-10-04 19:00:17,20251004190017,Forro Antichoque Huawei Honor X6 / X6s Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Nequi: $25000.00
+2025-10-04 19:00:56,20251004190056,Adaptador Usb Sata 3.0+,1,15000.00,35000.00,35000.00,20000.00,local.txt,Cliente General,Efectivo: $35000.00
+2025-10-04 19:01:53,20251004190153,Cable Yoyos V8 3M,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-04 19:04:47,20251004190447,Forro Space Samsung A21S,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General,Daviplata: $30000.00
+2025-10-04 19:04:47,20251004190447,Vidrio 5D Samsung A21S,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Daviplata: $30000.00
+2025-10-04 19:08:20,20251004190820,Cargador Smart Watch Pinza,1,7500.00,19000.00,19000.00,11500.00,local.txt,Cliente General,Nequi: $19000.00
+2025-10-04 19:21:59,20251004192159,Recargas,1,18868.00,20000.00,20000.00,1132.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-04 19:36:21,20251004193621,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-04 19:51:21,20251004195121,Vidrio Tortuga Motorola Moto G20 / G30,1,1100.00,10000.00,10000.00,8900.00,local.txt,Cliente General,Efectivo: $10000.00
+2025-10-04 19:52:54,20251004195254,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-04 21:22:59,20251004212259,Pacha Oppo Realme C55,1,40000.00,95000.00,95000.00,55000.00,local.txt,Cliente General,Daviplata: $120000.00
+2025-10-04 21:22:59,20251004212259,Vidrio 5D Xiaomi Redmi Note 12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Daviplata: $120000.00
+2025-10-04 21:23:36,20251004212336,Bluetooth Car Bt-X6,1,6500.00,20000.00,20000.00,13500.00,local.txt,Cliente General,Efectivo: $20000.00
+2025-10-04 21:24:03,20251004212403,Forro Antichoque Tecno Spark Go 2023 / Pop7 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-10-04 21:24:30,20251004212430,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00
+2025-10-04 21:25:02,20251004212502,Barbera Vgr V-660,1,55000.00,110000.00,110000.00,55000.00,local.txt,Cliente General,Efectivo: $110000.00
+2025-10-04 21:25:56,20251004212556,Servicio Tecnico Tecno Pegar Pantalla Go 2024,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General,Efectivo: $15000.00
+2025-10-04 21:27:17,20251004212717,Recargas,1,30660.00,32500.00,32500.00,1840.00,local.txt,Cliente General,Efectivo: $32500.00
+2025-10-04 21:28:24,20251004212824,Forro Antichoque Vivo Y39 5G Dama,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Nequi: $18000.00
+2025-10-04 21:40:42,20251004214042,Silicone Case Oppo A78 4G Fucsia,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $20000.00

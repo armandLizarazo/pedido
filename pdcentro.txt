@@ -1,5 +1,6 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Orejas 1
+    Audifonos Bluetooth Sm I12 Negro 2
     Audifonos Bluetooth W I12 Azuloscuro 2
     Audifonos Bluetooth W I12 Negro 3
     Balaca Apple Airpods Max Negro 1.1 1
@@ -8,6 +9,7 @@
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
     Cable Yoyos Tc 5
+    Cable Yoyos V8 3M 2
     Cargador Fuente 360 Slim 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
@@ -15,19 +17,17 @@
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
-    Forro Antichoque Motorola Moto G15 Caballero 5
-    Forro Antichoque Motorola Moto G55 Dama 3
+    Forro Antichoque Motorola Moto G55 Dama 5
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo A5 Dama 5
+    Forro Antichoque Oppo A58 4G Dama 2
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Samsung S24 Ultra Caballero 5
-    Forro Antichoque Tecno Spark 30 Caballero 3
-    Forro Antichoque Tecno Spark 30 Dama 3
+    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
@@ -36,7 +36,6 @@
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto G15 Negro 2
     Forro Armadura Motorola Moto G15 Rojo 1
-    Forro Armadura Motorola Moto G35 Negro 1
     Forro Armadura Motorola Moto G35 Rojo 2
     Forro Armadura Motorola Moto G55 Negro 1
     Forro Armadura Motorola Moto G85 Negro 1
@@ -85,8 +84,9 @@
     Forro Space Motorola Moto G9 Power 1
     Forro Space Oppo A5 2
     Forro Space Oppo Realme 13 Pro 2
-    Forro Space Oppo Realme C53 / Note 50 1
+    Forro Space Oppo Realme C53 / Note 50 2
     Forro Space Oppo Realme C75 2
+    Forro Space Samsung A04E 2
     Forro Space Samsung A04S / A13 5G 1
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
@@ -153,18 +153,25 @@
     Silicone Case Oppo A5 Rojo 1
     Silicone Case Oppo A5 Rosa 1
     Silicone Case Oppo A57 Lila 1
+    Silicone Case Oppo A58 4G / A78 5G Azulrey 1
+    Silicone Case Oppo A58 4G / A78 5G Fucsia 1
+    Silicone Case Oppo A58 4G / A78 5G Rosa 1
     Silicone Case Oppo A58 5G / A78 5G Rosa 1
+    Silicone Case Oppo A78 4G Fucsia 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
-    Silicone Case Oppo Realme C53 Lila 1
+    Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C75 Amarillo 1
     Silicone Case Oppo Realme C75 Fucsia 1
+    Silicone Case Oppo Reno 11 Fucsia 1
+    Silicone Case Oppo Reno 11 Negro 1
     Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Lila 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
+    Silicone Case Samsung A04E Negro 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A10 Fucsia 1
     Silicone Case Samsung A10S Negro 1
@@ -193,6 +200,8 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
+    Silicone Case Tecno Pova 5 Azulrey 1
+    Silicone Case Tecno Pova 5 Fucsia 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
@@ -229,6 +238,7 @@
     Vidrio 5D Huawei Y6P 5
     Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Motorola Moto E6s / E6i 5
+    Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio Antiespia Apple Iphone 12 Mini 5

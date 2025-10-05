@@ -5,8 +5,10 @@
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 2
     Barbera Vgr V-001 Blue Editon 1
+    Barbera Vgr V-660 1
     Base Refirgerante 4 Ventiladores 1
     Cable Disco Duro V8 3.0 Corto 2
+    Cable Impresora 3M 2
     Cable Lan 2M Cat 6 5
     Cable Microsoft Xbox Caja Negra 2
     Cable Rj11 3
@@ -14,6 +16,7 @@
     Cargador Pc Asus 2.37 1
     Cargador Pc Hp Punta Azul 1
     Consola + Tv box 1
+    Consola R-36S 2
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Xbox Caja Negra 2
     Control Gamer Sony Ps2 1

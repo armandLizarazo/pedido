@@ -68,7 +68,7 @@
     Adaptador Usb Sata 2.5 2
     Adaptador Usb Sata 3.0 1
     Adaptador Usb Sata 3.0 Tc y Usb 1
-    Adaptador Usb Sata 3.0+ 2
+    Adaptador Usb Sata 3.0+ 1
     Adaptador Usb2Vga Cable 1
     Adaptador Usb2Vga Cbl 0
     Adaptador Usb2hdmi 1
@@ -124,6 +124,7 @@
     Audifonos Bluetooth Royal Sports 2
     Audifonos Bluetooth Sm I12 Blanco 2
     Audifonos Bluetooth Sm I12 Gris 1
+    Audifonos Bluetooth Sm I12 Negro 1
     Audifonos Bluetooth Sm I12 Rosa 2
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
@@ -165,7 +166,7 @@
     Bandeja Sim Xiaomi Redmi 9A / 9C / 10A Azul 1
     Bandjea Sim Xiaomi Redmi Note 12 Verde 0
     Barbera Vgr V-001 Blue Editon 0
-    Barbera Vgr V-660 1
+    Barbera Vgr V-660 0
     Base Refrigerante 1 Ventilador 0
     Base Refrigerante Wit-400 37999
     Base Refrigerante X6a 2
@@ -203,7 +204,7 @@
     Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Blindaje Fpc Display Xiaomi Redmi Note 8 0
     Bluetooth Car Bt-350 1
-    Bluetooth Car Bt-X6 2
+    Bluetooth Car Bt-X6 1
     Bluetooth Car X6 1
     Bombillo Bluetooth 0
     Boton Huella Samsung A14 Amarillo 0
@@ -255,7 +256,7 @@
     Cable Hdmi 5M 0
     Cable Hdtv 0
     Cable Impresora 1.5M 0
-    Cable Impresora 3M 0
+    Cable Impresora 3M 1
     Cable Lan 10M Cat 6 1
     Cable Lan 1M Cat 6 0
     Cable Lan 20M Cat 5e 1
@@ -319,7 +320,7 @@
     Cable Yoyos Tc 2
     Cable Yoyos Tc 3M 1
     Cable Yoyos Tc 67W 0
-    Cable Yoyos V8 3M 2
+    Cable Yoyos V8 3M 1
     Cadenas Colgar 7
     Cadenas Gancho 0
     Cadenas Pegar 0
@@ -430,7 +431,7 @@
     Cargador Smart Band Magnetico 1
     Cargador Smart Watch Magnetico Negativo 1
     Cargador Smart Watch Magnetico Positivo 3
-    Cargador Smart Watch Pinza 3
+    Cargador Smart Watch Pinza 2
     Cargador Socket 48W 2
     Cargador Tc A Tc 80W 2P 1
     Cargador Tecno Tc 2.4 0
@@ -444,7 +445,7 @@
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
-    Cargador Yl Tc 3
+    Cargador Yl Tc 2
     Cargador Yl V8 3
     Cargador Yl V8 Eco 1
     Celular Corn Flip K 0
@@ -533,7 +534,6 @@
     Forro Antichoque Apple Iphone 11 Lujo 1
     Forro Antichoque Apple Iphone 11 Verdemilitar 0
     Forro Antichoque Apple Iphone 7 / Iphone 8 Dama 0
-    Forro Antichoque Cadena Case Samsung A21S 2
     Forro Antichoque Cadena Huawei Honor Magic 6 Lite 1
     Forro Antichoque Cadena Huawei Honor X6A / Play 9A 1
     Forro Antichoque Cadena Huawei Honor X8A 2
@@ -551,13 +551,14 @@
     Forro Antichoque Cadena Oppo Reno 7 Dama 3
     Forro Antichoque Cadena Redmi 13C 2
     Forro Antichoque Cadena Samsung A13 1
-    Forro Antichoque Cadena Samsung A21S 2
+    Forro Antichoque Cadena Samsung A21S 3
     Forro Antichoque Cadena Samsung A24 1
     Forro Antichoque Cadena Samsung A32 4G 1
     Forro Antichoque Cadena Samsung A36 3
     Forro Antichoque Cadena Samsung A55 2
     Forro Antichoque Cadena Tecno Camon 30S Pro 1
     Forro Antichoque Cadena Tecno Camon 40 1
+    Forro Antichoque Cadena Tecno Pova 5 2
     Forro Antichoque Cadena Tecno Spark 10 Pro 2
     Forro Antichoque Cadena Tecno Spark 20 Pro Plus 1
     Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
@@ -587,7 +588,7 @@
     Forro Antichoque Huawei Honor X5B Caballero 5
     Forro Antichoque Huawei Honor X5B Dama 0
     Forro Antichoque Huawei Honor X6 / X6s Caballero 3
-    Forro Antichoque Huawei Honor X6 / X6s Dama 5
+    Forro Antichoque Huawei Honor X6 / X6s Dama 4
     Forro Antichoque Huawei Honor X6A / Play 9A Caballero 6
     Forro Antichoque Huawei Honor X6A / Play 9A Dama 3
     Forro Antichoque Huawei Honor X7A Caballero 6
@@ -636,6 +637,7 @@
     Forro Antichoque Infinix Note 50 Dama 0
     Forro Antichoque Infinix Note 50 Pro Caballero 5
     Forro Antichoque Infinix Note 50 Pro Dama 1
+    Forro Antichoque Llavero Samsung A21S 1
     Forro Antichoque Llavero Samsung A25 2
     Forro Antichoque Llavero Xiaomi Redmi 12C 1
     Forro Antichoque Lujo Samsung S24 / S25 Negro 0
@@ -751,8 +753,8 @@
     Forro Antichoque Samsung A02s 2
     Forro Antichoque Samsung A02s Dama 2
     Forro Antichoque Samsung A03 Caballero 0
-    Forro Antichoque Samsung A04E Caballero 0
-    Forro Antichoque Samsung A04E Dama 0
+    Forro Antichoque Samsung A04E Caballero 1
+    Forro Antichoque Samsung A04E Dama 3
     Forro Antichoque Samsung A04S / A13 5G Caballero 5
     Forro Antichoque Samsung A04S / A13 5G Dama 4
     Forro Antichoque Samsung A05 Caballero 2
@@ -783,7 +785,7 @@
     Forro Antichoque Samsung A26 Dama 5
     Forro Antichoque Samsung A31 Caballero 4
     Forro Antichoque Samsung A31 Dama 4
-    Forro Antichoque Samsung A32 4G Caballero 5
+    Forro Antichoque Samsung A32 4G Caballero 4
     Forro Antichoque Samsung A32 4G Dama 6
     Forro Antichoque Samsung A34 Caballero 4
     Forro Antichoque Samsung A34 Dama 5
@@ -815,7 +817,8 @@
     Forro Antichoque Tecno Camon 40 Dama 5
     Forro Antichoque Tecno Camon 40 Pro Caballero 5
     Forro Antichoque Tecno Camon 40 Pro Dama 5
-    Forro Antichoque Tecno Pova 5 Dama 2
+    Forro Antichoque Tecno Pova 5 Caballero 5
+    Forro Antichoque Tecno Pova 5 Dama 5
     Forro Antichoque Tecno Spark 10 / 10C Caballero 3
     Forro Antichoque Tecno Spark 10 / 10C Dama 1
     Forro Antichoque Tecno Spark 10 Pro Caballero 5
@@ -825,14 +828,14 @@
     Forro Antichoque Tecno Spark 20 Pro / Hot 40 / Hot 40 Pro Dama 1
     Forro Antichoque Tecno Spark 20 Pro Plus Caballero 4
     Forro Antichoque Tecno Spark 20 Pro Plus Dama 2
-    Forro Antichoque Tecno Spark 30 4G Caballero 0
-    Forro Antichoque Tecno Spark 30 4G Dama 0
+    Forro Antichoque Tecno Spark 30 4G Caballero 5
+    Forro Antichoque Tecno Spark 30 4G Dama 5
     Forro Antichoque Tecno Spark 30 Pro Dama 0
     Forro Antichoque Tecno Spark 30C Caballero 0
     Forro Antichoque Tecno Spark 30C Dama 0
     Forro Antichoque Tecno Spark Go 2022 / 8C Caballero 0
     Forro Antichoque Tecno Spark Go 2022 / 8C Dama 6
-    Forro Antichoque Tecno Spark Go 2023 / Pop7 Caballero 5
+    Forro Antichoque Tecno Spark Go 2023 / Pop7 Caballero 4
     Forro Antichoque Tecno Spark Go 2023 / Pop7 Dama 3
     Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Caballero 4
     Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2
@@ -860,7 +863,7 @@
     Forro Antichoque Vivo Y33S Dama 0
     Forro Antichoque Vivo Y38 Caballero 4
     Forro Antichoque Vivo Y38 Dama 0
-    Forro Antichoque Vivo Y39 5G Dama 5
+    Forro Antichoque Vivo Y39 5G Dama 4
     Forro Antichoque Vivo Y39 Caballero 0
     Forro Antichoque Vivo Y39 Dama 0
     Forro Antichoque Vivo Y51 Caballero 0
@@ -1001,7 +1004,7 @@
     Forro Armadura Samsung A15 Negro 1
     Forro Armadura Samsung A15 Rojo 1
     Forro Armadura Samsung A16 Negro 1
-    Forro Armadura Samsung A21S Negro 0
+    Forro Armadura Samsung A21S Negro 1
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung A24 Rojo 1
     Forro Armadura Samsung A25 Lila 1
@@ -1263,12 +1266,14 @@
     Forro Space Oppo Realme C67 1
     Forro Space Oppo Realme C75 0
     Forro Space Oppo Reno 10 0
+    Forro Space Oppo Reno 11 2
     Forro Space Oppo Reno 13 5G 2
     Forro Space Oppo Reno 5 Lite 1
     Forro Space Oppo Reno 7 2
     Forro Space Samsung A 20 / A30 0
     Forro Space Samsung A03 0
     Forro Space Samsung A03S / A02S 0
+    Forro Space Samsung A04E 0
     Forro Space Samsung A04S / A13 5G 1
     Forro Space Samsung A05 1
     Forro Space Samsung A05S 0
@@ -1283,7 +1288,7 @@
     Forro Space Samsung A16 2
     Forro Space Samsung A20 / A30 3
     Forro Space Samsung A20S 0
-    Forro Space Samsung A21S 2
+    Forro Space Samsung A21S 1
     Forro Space Samsung A21S Gris 1
     Forro Space Samsung A21S Morado 1
     Forro Space Samsung A22 5G 2
@@ -1294,7 +1299,7 @@
     Forro Space Samsung A26 2
     Forro Space Samsung A31 2
     Forro Space Samsung A32 4G 2
-    Forro Space Samsung A32 4G Rosa 1
+    Forro Space Samsung A32 4G Rosa 0
     Forro Space Samsung A32 4G Vinotinto 1
     Forro Space Samsung A34 1
     Forro Space Samsung A34 Lila 1
@@ -1322,7 +1327,7 @@
     Forro Space Tecno Camon 30s 1
     Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Pova 4 0
-    Forro Space Tecno Pova 5 0
+    Forro Space Tecno Pova 5 2
     Forro Space Tecno Spark 10 / 10C 2
     Forro Space Tecno Spark 10 Pro 2
     Forro Space Tecno Spark 20 Pro / Hot 40 / Hot 40 Pro 3
@@ -1457,6 +1462,7 @@
     Intercomunicador Helmet Kr-M2 0
     Intercomunicador Helmet Kr-M3 con Camara 0
     Juguete Labubu 1
+    Juguete Popit Blanco 0
     Lampara Esfera Saturno 1
     Lapiz Optico Recargable 1
     Lapiz Optico Recargable Combo 1
@@ -1735,7 +1741,6 @@
     Pacha Motorola Moto G04 / G24 1
     Pacha Motorola Moto G05 / G15 0
     Pacha Motorola Moto G14 / G54 / G55 1
-    Pacha Motorola Moto G20 0
     Pacha Motorola Moto G20 / G30 1
     Pacha Motorola Moto G22 / E32 2
     Pacha Motorola Moto G31 0
@@ -1753,10 +1758,10 @@
     Pacha Oppo A16 0
     Pacha Oppo A17 / A38 / A57 / A77 2
     Pacha Oppo A54 1
+    Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / OnePlus Nord Ce 3 Lite 5G 2
     Pacha Oppo A79 0
     Pacha Oppo Realme C11 2021 0
     Pacha Oppo Realme C53 / Note 50 0
-    Pacha Oppo Realme C55 1
     Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 0
     Pacha Oppo Reno 11 5G / Reno 11F 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 3
@@ -1830,7 +1835,7 @@
     Pacha Xiaomi Poco X3 / Mi 10T Lite 0
     Pacha Xiaomi Redmi 10 3
     Pacha Xiaomi Redmi 10C 1
-    Pacha Xiaomi Redmi 12 1
+    Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 1
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 1
@@ -1907,8 +1912,7 @@
     Pilas Carbon Gp 9V 6
     Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aa x2 11
-    Pilas Carbon Maxday Aaa 9
-    Pilas Carbon Maxday Aaa X2 0
+    Pilas Carbon Maxday Aaa X2 8
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -1968,7 +1972,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 1
+    Recargas 99
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2063,8 +2067,10 @@
     Servicio Tecnico Samsung Revision Carga A32 0
     Servicio Tecnico Samsung Revision Carga Galaxy Note 20 Pro 0
     Servicio Tecnico Samsung Sincronizar Cuenta Gmail M32 0
+    Servicio Tecnico Samsung Talkback A10s 0
     Servicio Tecnico Soldar Cables Parlante 0
     Servicio Tecnico Tecno Formatear Spark 20C 1
+    Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
     Servicio Tecnico Tecno Reparacion Logica Spark Go 2024 0
     Servicio Tecnico Tg Despegar Bateria Tableta 0
     Servicio Tecnico Tg Pin de carga Tableta 0
@@ -2710,16 +2716,16 @@
     Silicone Case Oppo A57 / A77 Rojo 1
     Silicone Case Oppo A57 Lila 0
     Silicone Case Oppo A57 Rojo 0
-    Silicone Case Oppo A58 4G Amarillo 1
-    Silicone Case Oppo A58 4G Fucsia 1
-    Silicone Case Oppo A58 4G Lila 1
-    Silicone Case Oppo A58 4G Morado 1
-    Silicone Case Oppo A58 4G Negro 1
-    Silicone Case Oppo A58 4G Rosa 0
+    Silicone Case Oppo A58 4G / A78 5G Amarillo 1
+    Silicone Case Oppo A58 4G / A78 5G Azulrey 0
+    Silicone Case Oppo A58 4G / A78 5G Fucsia 0
+    Silicone Case Oppo A58 4G / A78 5G Lila 1
+    Silicone Case Oppo A58 4G / A78 5G Morado 1
+    Silicone Case Oppo A58 4G / A78 5G Negro 1
+    Silicone Case Oppo A58 4G / A78 5G Rojo 1
+    Silicone Case Oppo A58 4G / A78 5G Rosa 0
     Silicone Case Oppo A58 5G / A78 5G Rojo 1
     Silicone Case Oppo A58 5G / A78 5G Rosa 0
-    Silicone Case Oppo A58 Fucsia 0
-    Silicone Case Oppo A58 Negro 0
     Silicone Case Oppo A59 Amarillo 0
     Silicone Case Oppo A59 Azulrey 0
     Silicone Case Oppo A59 Fucsia 0
@@ -2735,7 +2741,7 @@
     Silicone Case Oppo A74 4G Lila 1
     Silicone Case Oppo A78 4G Amarillo 1
     Silicone Case Oppo A78 4G Azulrey 1
-    Silicone Case Oppo A78 4G Fucsia 1
+    Silicone Case Oppo A78 4G Fucsia 0
     Silicone Case Oppo A78 4G Morado 1
     Silicone Case Oppo A78 4G Negro 1
     Silicone Case Oppo A78 4G Rojo 1
@@ -2755,14 +2761,20 @@
     Silicone Case Oppo Realme C11 2021 Fucsia 0
     Silicone Case Oppo Realme C21Y / C25Y Rosa 1
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 0
-    Silicone Case Oppo Realme C53 Lila 0
-    Silicone Case Oppo Realme C53 Rojo 0
+    Silicone Case Oppo Realme C53 / Note 50 Azulclaro 1
+    Silicone Case Oppo Realme C53 / Note 50 Azuloscuro 1
+    Silicone Case Oppo Realme C53 / Note 50 Lila 0
+    Silicone Case Oppo Realme C53 / Note 50 Rojo 1
+    Silicone Case Oppo Realme C53 / Note 50 Rojo Azulrey 1
+    Silicone Case Oppo Realme C53 / Note 50 Rojooscuro 1
+    Silicone Case Oppo Realme C53 / Note 50 Salmon 1
+    Silicone Case Oppo Realme C53 / Note 50 Verde 1
     Silicone Case Oppo Realme C55 Amarillo 1
     Silicone Case Oppo Realme C55 Azuloscuro 2
     Silicone Case Oppo Realme C55 Azulrey 1
     Silicone Case Oppo Realme C55 Fucsia 1
     Silicone Case Oppo Realme C55 Lila 1
-    Silicone Case Oppo Realme C55 Negro 0
+    Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C55 Rojo 1
     Silicone Case Oppo Realme C55 Rosa 1
     Silicone Case Oppo Realme C67 Amarillo 1
@@ -2774,16 +2786,27 @@
     Silicone Case Oppo Realme C75 Fucsia 0
     Silicone Case Oppo Realme C75 Morado 0
     Silicone Case Oppo Reamle C53 / Note 50 Negro 0
+    Silicone Case Oppo Reno 11 Amarillo 1
+    Silicone Case Oppo Reno 11 Azulrey 1
+    Silicone Case Oppo Reno 11 Fucsia 0
+    Silicone Case Oppo Reno 11 Lila 1
+    Silicone Case Oppo Reno 11 Negro 0
+    Silicone Case Oppo Reno 11 Palorosa 1
+    Silicone Case Oppo Reno 11 Rojo 1
+    Silicone Case Oppo Reno 11 Rosa 1
     Silicone Case Oppo Reno 11F Fucsia 0
     Silicone Case Oppo Reno 11F Morado 0
     Silicone Case Oppo Reno 12 Pro Azulrey 0
     Silicone Case Oppo Reno 12F Morado 1
     Silicone Case Oppo Reno 13 5G Amarillo 1
+    Silicone Case Oppo Reno 13 5G Azulrey 1
     Silicone Case Oppo Reno 13 5G Fucsia 1
     Silicone Case Oppo Reno 13 5G Lila 1
     Silicone Case Oppo Reno 13 5G Morado 1
+    Silicone Case Oppo Reno 13 5G Negro 1
     Silicone Case Oppo Reno 13 5G Rojo 1
     Silicone Case Oppo Reno 13 5G Rosa 1
+    Silicone Case Oppo Reno 13 5G Verdemilitar 1
     Silicone Case Oppo Reno 5 Lite Amarillo 1
     Silicone Case Oppo Reno 5 Lite Arcoiris 1
     Silicone Case Oppo Reno 5 Lite Negro 1
@@ -2817,7 +2840,13 @@
     Silicone Case Samsung A03 Rosa 0
     Silicone Case Samsung A03S / A02S Amarillo 1
     Silicone Case Samsung A03s Lila 0
-    Silicone Case Samsung A04E Rojo 0
+    Silicone Case Samsung A04E Amarillo 1
+    Silicone Case Samsung A04E Blanco 1
+    Silicone Case Samsung A04E Lila 1
+    Silicone Case Samsung A04E Morado 1
+    Silicone Case Samsung A04E Negro 0
+    Silicone Case Samsung A04E Rojo 1
+    Silicone Case Samsung A04E Rosa 1
     Silicone Case Samsung A04S / A13 5G Amarillo 2
     Silicone Case Samsung A04S / A13 5G Azulclaro 1
     Silicone Case Samsung A04S / A13 5G Azulrey 1
@@ -3175,6 +3204,14 @@
     Silicone Case Tecno Camon 40 Vinotinto 1
     Silicone Case Tecno Pova 4 Lila 0
     Silicone Case Tecno Pova 4 Rojo 0
+    Silicone Case Tecno Pova 5 Amarillo 1
+    Silicone Case Tecno Pova 5 Azulrey 0
+    Silicone Case Tecno Pova 5 Blanco 1
+    Silicone Case Tecno Pova 5 Fucsia 0
+    Silicone Case Tecno Pova 5 Morado 1
+    Silicone Case Tecno Pova 5 Negro 1
+    Silicone Case Tecno Pova 5 Rojo 1
+    Silicone Case Tecno Pova 5 Rosa 1
     Silicone Case Tecno Ppova 4 Rojo 0
     Silicone Case Tecno Spark 10 / 10C Amarillo 1
     Silicone Case Tecno Spark 10 / 10C Azulrey 1
@@ -3645,7 +3682,7 @@
     Silicone Case Zte Blade A54 Negro 0
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 10
+    Simcard Claro 6
     Simcard Movistar 11
     Simcard Tigo 24
     Simcard Virgin 6
@@ -3825,7 +3862,7 @@
     Vidrio 5D Samsung A15 7
     Vidrio 5D Samsung A16 0
     Vidrio 5D Samsung A20s 5
-    Vidrio 5D Samsung A21S 4
+    Vidrio 5D Samsung A21S 3
     Vidrio 5D Samsung A21s 0
     Vidrio 5D Samsung A22 4G 5
     Vidrio 5D Samsung A22 4G / A31 / A32 4G 5
@@ -3867,7 +3904,7 @@
     Vidrio 5D Xiaomi Redmi A3 0
     Vidrio 5D Xiaomi Redmi A5 0
     Vidrio 5D Xiaomi Redmi Note 10 / Note 10S / Note 11 / Note 12S 0
-    Vidrio 5D Xiaomi Redmi Note 12 3
+    Vidrio 5D Xiaomi Redmi Note 12 2
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 2
     Vidrio 5D Xiaomi Redmi Note 8 3
@@ -4066,7 +4103,7 @@
     Vidrio Tortuga Huawei Y9 Prime 5
     Vidrio Tortuga Motorola Moto G04 / G24 0
     Vidrio Tortuga Motorola Moto G04 / Moto G24 5
-    Vidrio Tortuga Motorola Moto G20 / G30 5
+    Vidrio Tortuga Motorola Moto G20 / G30 4
     Vidrio Tortuga Motorola Moto G54 3
     Vidrio Tortuga Motorola Moto G84 4
     Vidrio Tortuga Motorola Moto G9 Plus 0
