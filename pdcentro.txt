@@ -35,14 +35,14 @@
     Forro Antichoque Vivo Y19S Dama 3 ok
     Forro Antichoque Vivo Y39 Caballero 4 ok
     Forro Armadura Lg K61 Rojo 1
-    Forro Armadura Motorola Moto G15 Negro 1
-    Forro Armadura Motorola Moto G15 Rojo 1
+    Forro Armadura Motorola Moto G15 Negro 1 ok
+    Forro Armadura Motorola Moto G15 Rojo 1 ok
     Forro Armadura Motorola Moto G35 Rojo 1
-    Forro Armadura Motorola Moto G55 Rojo 1
-    Forro Armadura Motorola Moto G85 Negro 1
+    Forro Armadura Motorola Moto G55 Rojo 1 ok
+    Forro Armadura Motorola Moto G85 Negro 1 ok ok
     Forro Armadura Oppo A57 Rojo 1
-    Forro Armadura Oppo A80 Negro 1
-    Forro Armadura Oppo A80 Rojo 1
+    Forro Armadura Oppo A80 Negro 1 ok
+    Forro Armadura Oppo A80 Rojo 1 ok
     Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Pova 5 Azul 1
@@ -50,17 +50,17 @@
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Samsung A06 Azul 1
     Forro Armadura Samsung A06 Rojo 1
-    Forro Armadura Samsung A13 Negro 1
-    Forro Armadura Samsung A16 Rojo 1
-    Forro Armadura Samsung A21S Negro 1
+    Forro Armadura Samsung A13 Negro 1 ok
+    Forro Armadura Samsung A16 vinotinto 1 ok
+    Forro Armadura Samsung A21S Negro 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark 30 Pro Rojo 1 ok
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
-    Forro Armadura Xiaomi Redmi note 10 pro Negro 12
+    Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Audifonos Pantalla Negro 2
     Forro Diseños Oppo Realme C75 Caballero 5
     Forro Diseños Oppo Realme C75 Dama 5
@@ -78,12 +78,12 @@
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Pin Samsung S24 Ultra 1 
-    Forro Space Apple Iphone 14 Pro 1
+    Forro Space Apple Iphone 14 Pro 1 ok
     Forro Space Huawei Y9A 3
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
     Forro Space Motorola Moto G50 1
-    Forro Space Motorola Moto G9 Power 2
+    Forro Space Motorola Moto G9 Power 2 ok
     Forro Space Oppo A5 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme C53 / Note 50 2
@@ -92,7 +92,7 @@
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Tecno Camon 30S Pro 2
+    Forro Space Tecno Camon 30S Pro 2 ok
     Forro Space Tecno Camon 40 Pro 1
     Forro Space Tecno Spark 30 4G 3
     Forro Space Vivo Y04 2
