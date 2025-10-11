@@ -5,22 +5,22 @@
     Audifonos Bluetooth W I12 Negro 3
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Naisu S-437 Rojo 1
-    Cable Belkin V8 5
+    Cable Belkin V8 5 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
-    Cable V8 Eco 5
+    Cable V8 Eco 5 
     Cable Yoyos Tc 5
     Cargador Fuente 360 Slim 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
-    Cargador We Tc 33W 3
+    Cargador We Tc 33W 3 ok
     Cargador Yl Tc 2
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
-    Forro Antichoque Motorola Moto G55 Dama 5
+    Forro Antichoque Motorola Moto G55 Dama 2 ok
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
@@ -29,12 +29,11 @@
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
-    Forro Antichoque Vivo Y19S Dama 5
-    Forro Antichoque Vivo Y39 Caballero 5
+    Forro Antichoque Vivo Y19S Dama 3 ok
+    Forro Antichoque Vivo Y39 Caballero 4 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto G15 Negro 1
     Forro Armadura Motorola Moto G15 Rojo 1
@@ -78,8 +77,7 @@
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
-    Forro Pin Samsung S24 Ultra 3
-    Forro Space Apple Iphone 12 3
+    Forro Pin Samsung S24 Ultra 1 
     Forro Space Apple Iphone 14 Pro 1
     Forro Space Huawei Y9A 3
     Forro Space Infinix Note 50s 2
@@ -123,8 +121,8 @@
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
-    Silicone Case Huawei Y9 2019 / Y8S Verde 1
-    Silicone Case Huawei Y9 Prime Rosa 1
+    Silicone Case Huawei Y9 2019 / Y8S Verde 1 ok
+    Silicone Case Huawei Y9 Prime Rosa 1 ok
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
@@ -140,11 +138,11 @@
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
-    Silicone Case Motorola Moto G15 Fucsia 1
+    Silicone Case Motorola Moto G15 Fucsia 1 ok
     Silicone Case Motorola Moto G15 Morado 1
-    Silicone Case Motorola Moto G35 Azulrey 1
-    Silicone Case Motorola Moto G35 Lila 1
-    Silicone Case Motorola Moto G35 Rosa 1
+    Silicone Case Motorola Moto G35 Azulrey 1 ok
+    Silicone Case Motorola Moto G35 Lila 1 ok
+    Silicone Case Motorola Moto G35 Rosa 1 ok
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G55 Fucsia 1
@@ -246,15 +244,15 @@
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
-    Vidrio Antiespia Apple Iphone 16 Pro Max 5
+    Vidrio Antiespia Apple Iphone 16 Pro Max 5 ok
     Vidrio Antiespia Apple Iphone 16E 5
     Vidrio Antiespia Apple Iphone Xs Max 5
-    Vidrio Antiespia Samsung A05 5
+    Vidrio Antiespia Samsung A05 5 
     Vidrio Antiespia Samsung A30S 5
-    Vidrio Antiespia Xiaomi Redmi Note 12 5
+    Vidrio Antiespia Xiaomi Redmi Note 12 5 ok
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Apple Iphone 16 Pro Max 5
@@ -279,3 +277,5 @@
     Vidrio Tortuga Motorola Moto G20 / G30 / G50 / G9 Play 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
+    Cable 6101 5 ok
+    Cable 1100 5 ok
