@@ -1,20 +1,27 @@
+    Adaptador Dpp2Hdmi Cbl 2
     Adaptador Europeo Goma 5
     Adaptador Europeo Redondo 5
+    Adaptador Hdmi2vga Cbl 2
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Spliter Audio 1 Macho 2 Hembras 2
     Adaptador Usb2hdmi 1
     Audifonos Bluetooth Ambie 1
     Audifonos Bluetooth Conductor 1092 2
     Barbera Vgr V-001 Blue Editon 1
     Barbera Vgr V-660 1
     Base Refirgerante 4 Ventiladores 1
+    Cable Auxiliar 1 A 1 5M 2
     Cable Disco Duro V8 3.0 Corto 2
+    Cable Dpp2Dpp 1.5M 2
     Cable Impresora 3M 2
     Cable Lan 2M Cat 6 5
     Cable Microsoft Xbox Caja Negra 2
     Cable Rj11 3
     Cable Vga 15M 2
+    Cargador Pc 9 Pines Caja Verde P Azul 1
     Cargador Pc Asus 2.37 1
     Cargador Pc Hp Punta Azul 1
+    Cargador Pc Lenovo Mini 3.25 1
     Consola + Tv box 1
     Consola R-36S 2
     Control Gamer Gatillos W11+ 3
@@ -24,6 +31,7 @@
     Hydrolavadora Recargable 2
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
+    Memoria Musica Crosover Crosover Calidoso 1
     Memoria Musica Reggaeton Clasicos del Reggaeton 2
     Mouse Inalambrico y Bluetooth 1
     Pilas Carbon Maxday Aaa X2 30
@@ -31,6 +39,7 @@
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd Azul 2
     Rollo Cinta Led Eco 5
+    Rollo Cinta Led Rgb Con Bluetooth 2
     Secador Remington 2003 1
     Soporte Holder Moto M3 3
     Soporte Monitor Mesa 1
@@ -39,3 +48,5 @@
     Tableta Tigers Kids Rosa 1
     Teclado Minikeyboard Tipo Control Tv 1
     Teclado Seisa Dn-236 2
+    Tripode Selfie L-13D 1
+    Camara de Solapa 1

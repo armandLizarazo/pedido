@@ -239,24 +239,20 @@ class GestorInventario:
 
     def obtener_pagos_electronicos_del_dia(self, fecha_str):
         total_electronico = 0.0
-        ventas_procesadas = set()  # <-- SOLUCIÓN 1: Para no duplicar ventas
+        ventas_procesadas = set()
         try:
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                next(reader, None)  # Omitir encabezado
+                next(reader, None)
                 for row in reader:
                     if not row or not row[0].startswith(fecha_str):
                         continue
-
                     try:
                         id_venta = row[1]
                         if id_venta in ventas_procesadas:
-                            continue  # Ya procesamos los pagos de esta venta
-
+                            continue
                         medio_pago_str = row[10]
-
-                        # --- SOLUCIÓN 2: Lógica para manejar registros nuevos y antiguos ---
-                        if ":" in medio_pago_str:  # Formato nuevo (ej: "Nequi: $10.00")
+                        if ":" in medio_pago_str:
                             pagos = medio_pago_str.split(", ")
                             for pago in pagos:
                                 if "Efectivo" not in pago:
@@ -266,7 +262,6 @@ class GestorInventario:
                                     )
                                     if not monto_limpio:
                                         continue
-
                                     if "," in monto_limpio and (
                                         "." not in monto_limpio
                                         or monto_limpio.rfind(",")
@@ -277,19 +272,13 @@ class GestorInventario:
                                         ).replace(",", ".")
                                     else:
                                         monto_procesado = monto_limpio.replace(",", "")
-
                                     if monto_procesado:
                                         total_electronico += float(monto_procesado)
-
-                        else:  # Formato antiguo (ej: "Nequi")
+                        else:
                             if medio_pago_str.strip() not in ["Efectivo", "N/A", ""]:
-                                # En el formato antiguo, todo el total de la venta era electrónico
                                 total_venta_item = float(row[6])
                                 total_electronico += total_venta_item
-                        # --- FIN DE LA SOLUCIÓN ---
-
                         ventas_procesadas.add(id_venta)
-
                     except (ValueError, IndexError, TypeError):
                         continue
             return total_electronico
@@ -301,11 +290,11 @@ class GestorInventario:
         try:
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                next(reader, None)  # Omitir encabezado
+                next(reader, None)
                 for row in reader:
                     if row and row[0].startswith(fecha_str):
                         try:
-                            total_ventas += float(row[6])  # Columna 'TotalVenta'
+                            total_ventas += float(row[6])
                         except (ValueError, IndexError):
                             continue
             return total_ventas
@@ -731,8 +720,8 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v4.1 - Acceso Rápido")
-        master.geometry("1200x750")
+        master.title("Gestor de Inventario y Ventas v4.3 - Carrito Integrado")
+        master.geometry("1400x800")
         self.style = ttk.Style()
         self.style.theme_use("clam")
         self.gestor = GestorInventario()
@@ -765,27 +754,35 @@ class InventarioGUI:
         self.master.after(100, lambda: self.add_placeholder(None))
         self.cargar_estado_caja()
         self.actualizar_estado_botones_venta()
+        self.show_action_panel()  # Mostrar panel inicial
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
 
-    # --- Widgets de Inventario y Ventas ---
     def crear_widgets_inventario(self):
         top_frame = ttk.Frame(self.inventario_tab)
         top_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
         filter_frame = ttk.Frame(self.inventario_tab)
         filter_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
-        tree_frame = ttk.Frame(self.inventario_tab)
-        tree_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
-        action_frame = ttk.Frame(self.inventario_tab)
-        action_frame.pack(side=tk.BOTTOM, fill=tk.X, pady=10)
+
+        content_pane = ttk.PanedWindow(self.inventario_tab, orient=tk.HORIZONTAL)
+        content_pane.pack(fill=tk.BOTH, expand=True, pady=5)
+
+        left_pane = ttk.Frame(content_pane)
+        self.action_panel = ttk.LabelFrame(
+            content_pane, text="Panel de Acciones", width=400
+        )
+
+        content_pane.add(left_pane, weight=3)
+        content_pane.add(self.action_panel, weight=1)
+
+        action_frame_bottom = ttk.Frame(self.inventario_tab)
+        action_frame_bottom.pack(side=tk.BOTTOM, fill=tk.X, pady=10)
 
         self.lbl_archivo = ttk.Label(
             top_frame, text=f"Archivo: {self.gestor.archivo_inventario}"
         )
         self.lbl_archivo.pack(side=tk.LEFT, padx=5)
-
-        # --- MEJORA: Botones de acceso rápido ---
         ttk.Button(
             top_frame,
             text="Cargar Bodega C",
@@ -799,12 +796,8 @@ class InventarioGUI:
         ttk.Button(top_frame, text="Buscar Otro...", command=self.cambiar_archivo).pack(
             side=tk.LEFT, padx=(0, 5)
         )
-        # --- FIN DE LA MEJORA ---
-
         self.status_label_inv = ttk.Label(top_frame, text="Listo.", anchor=tk.E)
-        self.status_label_inv.pack(
-            side=tk.RIGHT, padx=5, fill=tk.X, expand=True
-        )  # Ajuste de layout
+        self.status_label_inv.pack(side=tk.RIGHT, padx=5, fill=tk.X, expand=True)
 
         ttk.Label(filter_frame, text="Filtrar por palabra clave:").pack(
             side=tk.LEFT, padx=5
@@ -830,7 +823,7 @@ class InventarioGUI:
         )
 
         self.inventory_tree = ttk.Treeview(
-            tree_frame, columns=("Linea", "Item", "Cantidad"), show="headings"
+            left_pane, columns=("Linea", "Item", "Cantidad"), show="headings"
         )
         self.inventory_tree.heading("Linea", text="Línea")
         self.inventory_tree.heading("Item", text="Item")
@@ -839,38 +832,34 @@ class InventarioGUI:
         self.inventory_tree.column("Item", width=500)
         self.inventory_tree.column("Cantidad", width=120, anchor=tk.CENTER)
         scrollbar = ttk.Scrollbar(
-            tree_frame, orient=tk.VERTICAL, command=self.inventory_tree.yview
+            left_pane, orient=tk.VERTICAL, command=self.inventory_tree.yview
         )
         self.inventory_tree.configure(yscrollcommand=scrollbar.set)
         self.inventory_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        self.inventory_tree.bind("<<TreeviewSelect>>", self.on_inventory_select)
 
-        stock_group = ttk.LabelFrame(action_frame, text="Stock")
+        self._build_action_panels()
+
+        stock_group = ttk.LabelFrame(action_frame_bottom, text="Stock")
         stock_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
         ttk.Button(
-            stock_group,
-            text="Sumar Unidades (+)",
-            command=lambda: self.ajustar_cantidad(True),
-        ).pack(pady=2, padx=5)
-        ttk.Button(
-            stock_group,
-            text="Restar Unidades (-)",
-            command=lambda: self.ajustar_cantidad(False),
+            stock_group, text="Sumar/Restar Unidades", command=self.show_adjust_panel
         ).pack(pady=2, padx=5)
 
-        item_group = ttk.LabelFrame(action_frame, text="Ítems")
+        item_group = ttk.LabelFrame(action_frame_bottom, text="Ítems")
         item_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
-        ttk.Button(item_group, text="Agregar Nuevo", command=self.agregar_item).pack(
+        ttk.Button(item_group, text="Agregar Nuevo", command=self.show_add_panel).pack(
             pady=2, padx=5
         )
         ttk.Button(
-            item_group, text="Modificar Seleccionado", command=self.modificar_item
+            item_group, text="Modificar Seleccionado", command=self.show_modify_panel
         ).pack(pady=2, padx=5)
         ttk.Button(
             item_group, text="Eliminar Seleccionado", command=self.eliminar_item
         ).pack(pady=2, padx=5)
 
-        tools_group = ttk.LabelFrame(action_frame, text="Herramientas")
+        tools_group = ttk.LabelFrame(action_frame_bottom, text="Herramientas")
         tools_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
         ttk.Button(
             tools_group,
@@ -881,7 +870,7 @@ class InventarioGUI:
             tools_group, text="Verificar Formato", command=self.verificar_formato
         ).pack(pady=2, padx=5)
 
-        venta_group = ttk.Frame(action_frame)
+        venta_group = ttk.Frame(action_frame_bottom)
         venta_group.pack(side=tk.RIGHT, padx=20, fill=tk.Y)
         style_add = ttk.Style()
         style_add.configure(
@@ -893,17 +882,579 @@ class InventarioGUI:
         self.btn_agregar_venta = ttk.Button(
             venta_group,
             text="AGREGAR A VENTA",
-            command=self.agregar_a_venta,
+            command=self.show_sale_panel,
             style="Add.TButton",
         )
         self.btn_agregar_venta.pack(ipady=5, fill=tk.X)
         self.btn_ver_carrito = ttk.Button(
             venta_group,
             text="Ver Carrito (0)",
-            command=self.mostrar_carrito,
+            command=self.show_cart_panel,
             state="disabled",
         )
         self.btn_ver_carrito.pack(ipady=5, fill=tk.X, pady=(5, 0))
+
+    def _build_action_panels(self):
+        self.placeholder_panel = ttk.Frame(self.action_panel, padding=10)
+        ttk.Label(
+            self.placeholder_panel,
+            text="Seleccione un ítem o una acción.",
+            justify=tk.CENTER,
+            wraplength=250,
+        ).pack(pady=20)
+
+        self.add_panel = ttk.Frame(self.action_panel, padding=10)
+        self.modify_panel = ttk.Frame(self.action_panel, padding=10)
+        self.adjust_panel = ttk.Frame(self.action_panel, padding=10)
+        self.sale_panel = ttk.Frame(self.action_panel, padding=10)
+        self.cart_panel = ttk.Frame(self.action_panel, padding=10)
+        self.all_panels = [
+            self.placeholder_panel,
+            self.add_panel,
+            self.modify_panel,
+            self.adjust_panel,
+            self.sale_panel,
+            self.cart_panel,
+        ]
+
+        # Build Add Panel
+        ttk.Label(self.add_panel, text="Descripción:").pack(fill=tk.X)
+        self.add_desc_entry = ttk.Entry(self.add_panel)
+        self.add_desc_entry.pack(fill=tk.X, pady=(0, 5))
+        ttk.Label(self.add_panel, text="Cantidad Inicial:").pack(fill=tk.X)
+        self.add_cant_entry = ttk.Entry(self.add_panel)
+        self.add_cant_entry.pack(fill=tk.X, pady=(0, 10))
+        btn_frame_add = ttk.Frame(self.add_panel)
+        btn_frame_add.pack(fill=tk.X)
+        ttk.Button(btn_frame_add, text="Guardar", command=self._do_add_from_panel).pack(
+            side=tk.LEFT, expand=True
+        )
+        ttk.Button(btn_frame_add, text="Cancelar", command=self.show_action_panel).pack(
+            side=tk.LEFT, expand=True
+        )
+
+        # Build Modify Panel
+        ttk.Label(self.modify_panel, text="Descripción:").pack(fill=tk.X)
+        self.modify_desc_entry = ttk.Entry(self.modify_panel)
+        self.modify_desc_entry.pack(fill=tk.X, pady=(0, 5))
+        ttk.Label(self.modify_panel, text="Cantidad:").pack(fill=tk.X)
+        self.modify_cant_entry = ttk.Entry(self.modify_panel)
+        self.modify_cant_entry.pack(fill=tk.X, pady=(0, 10))
+        btn_frame_mod = ttk.Frame(self.modify_panel)
+        btn_frame_mod.pack(fill=tk.X)
+        ttk.Button(
+            btn_frame_mod, text="Guardar Cambios", command=self._do_modify_from_panel
+        ).pack(side=tk.LEFT, expand=True)
+        ttk.Button(btn_frame_mod, text="Cancelar", command=self.show_action_panel).pack(
+            side=tk.LEFT, expand=True
+        )
+
+        # Build Adjust Panel
+        self.adjust_label = ttk.Label(self.adjust_panel, text="Ajustar stock para:")
+        self.adjust_label.pack(fill=tk.X, pady=5)
+        ttk.Label(self.adjust_panel, text="Cantidad a sumar(+) o restar(-):").pack(
+            fill=tk.X
+        )
+        self.adjust_cant_entry = ttk.Entry(self.adjust_panel)
+        self.adjust_cant_entry.pack(fill=tk.X, pady=(0, 10))
+        btn_frame_adj = ttk.Frame(self.adjust_panel)
+        btn_frame_adj.pack(fill=tk.X)
+        ttk.Button(
+            btn_frame_adj, text="Confirmar Ajuste", command=self._do_adjust_from_panel
+        ).pack(side=tk.LEFT, expand=True)
+        ttk.Button(btn_frame_adj, text="Cancelar", command=self.show_action_panel).pack(
+            side=tk.LEFT, expand=True
+        )
+
+        # Build Sale Panel
+        self.sale_label = ttk.Label(
+            self.sale_panel, text="Vender item:", wraplength=280, justify=tk.LEFT
+        )
+        self.sale_label.pack(fill=tk.X, pady=(0, 10))
+        ttk.Label(self.sale_panel, text="Cantidad a Vender:").pack(fill=tk.X)
+        self.sale_cant_entry = ttk.Entry(self.sale_panel)
+        self.sale_cant_entry.pack(fill=tk.X, pady=(0, 5))
+        ttk.Label(self.sale_panel, text="Costo Unitario ($):").pack(fill=tk.X)
+        self.sale_costo_entry = ttk.Entry(self.sale_panel)
+        self.sale_costo_entry.pack(fill=tk.X, pady=(0, 5))
+        ttk.Label(self.sale_panel, text="Precio de Venta ($):").pack(fill=tk.X)
+        self.sale_precio_entry = ttk.Entry(self.sale_panel)
+        self.sale_precio_entry.pack(fill=tk.X, pady=(0, 10))
+        btn_frame_sale = ttk.Frame(self.sale_panel)
+        btn_frame_sale.pack(fill=tk.X)
+        ttk.Button(
+            btn_frame_sale,
+            text="Agregar al Carrito",
+            command=self._do_add_to_cart_from_panel,
+        ).pack(side=tk.LEFT, expand=True)
+        ttk.Button(
+            btn_frame_sale, text="Cancelar", command=self.show_action_panel
+        ).pack(side=tk.LEFT, expand=True)
+
+        # Build Cart Panel Widgets
+        self._build_cart_panel_widgets()
+
+    def _build_cart_panel_widgets(self):
+        cart_items_frame = ttk.LabelFrame(self.cart_panel, text="Items en Carrito")
+        cart_items_frame.pack(fill=tk.BOTH, expand=True, pady=(0, 5))
+        client_frame = ttk.LabelFrame(self.cart_panel, text="Datos del Cliente")
+        client_frame.pack(fill=tk.X, pady=5)
+        payment_main_frame = ttk.Frame(self.cart_panel)
+        payment_main_frame.pack(fill=tk.BOTH, expand=True, pady=5)
+        payment_add_frame = ttk.LabelFrame(payment_main_frame, text="Añadir Pago")
+        payment_add_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=(0, 5))
+        payment_list_frame = ttk.LabelFrame(
+            payment_main_frame, text="Pagos Registrados"
+        )
+        payment_list_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
+        summary_frame = ttk.Frame(self.cart_panel)
+        summary_frame.pack(fill=tk.X, pady=5)
+
+        self.cart_tree = ttk.Treeview(
+            cart_items_frame,
+            columns=("Desc", "Cant", "Subtotal"),
+            show="headings",
+            height=5,
+        )
+        self.cart_tree.heading("Desc", text="Descripción")
+        self.cart_tree.heading("Cant", text="Cant.")
+        self.cart_tree.heading("Subtotal", text="Subtotal")
+        self.cart_tree.column("Desc", width=150)
+        self.cart_tree.column("Cant", width=40, anchor=tk.CENTER)
+        self.cart_tree.column("Subtotal", width=80, anchor=tk.E)
+        self.cart_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        ttk.Button(
+            cart_items_frame, text="X", command=self._cart_remove_item, width=2
+        ).pack(side=tk.RIGHT, anchor="n")
+
+        ttk.Label(client_frame, text="Nombre:").grid(row=0, column=0, sticky="w")
+        self.cart_cliente_entry = ttk.Entry(client_frame)
+        self.cart_cliente_entry.grid(row=0, column=1, sticky="ew")
+        ttk.Label(client_frame, text="Contacto:").grid(row=1, column=0, sticky="w")
+        self.cart_contacto_entry = ttk.Entry(client_frame)
+        self.cart_contacto_entry.grid(row=1, column=1, sticky="ew")
+        client_frame.columnconfigure(1, weight=1)
+
+        ttk.Label(payment_add_frame, text="Método:").pack()
+        payment_methods = [
+            "Efectivo",
+            "Nequi",
+            "Bancolombia",
+            "Daviplata",
+            "Datafono",
+            "Sistecredito",
+        ]
+        self.cart_medio_pago_combo = ttk.Combobox(
+            payment_add_frame, values=payment_methods, state="readonly"
+        )
+        self.cart_medio_pago_combo.pack(fill=tk.X)
+        self.cart_medio_pago_combo.set("Efectivo")
+        ttk.Label(payment_add_frame, text="Monto $:").pack()
+        self.cart_monto_pago_entry = ttk.Entry(payment_add_frame)
+        self.cart_monto_pago_entry.pack(fill=tk.X)
+        ttk.Button(
+            payment_add_frame, text="Agregar Pago", command=self._cart_add_pago
+        ).pack(pady=5)
+
+        self.cart_pagos_tree = ttk.Treeview(
+            payment_list_frame, columns=("Metodo", "Monto"), show="headings", height=4
+        )
+        self.cart_pagos_tree.heading("Metodo", text="Método")
+        self.cart_pagos_tree.heading("Monto", text="Monto")
+        self.cart_pagos_tree.column("Metodo", width=80)
+        self.cart_pagos_tree.column("Monto", width=70, anchor=tk.E)
+        self.cart_pagos_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        ttk.Button(
+            payment_list_frame, text="X", command=self._cart_remove_pago, width=2
+        ).pack(side=tk.RIGHT, anchor="n")
+
+        self.cart_lbl_total_venta = ttk.Label(
+            summary_frame, text="Total Venta: $0.00", font=("Helvetica", 10, "bold")
+        )
+        self.cart_lbl_total_venta.pack(fill=tk.X)
+        self.cart_lbl_total_pagado = ttk.Label(
+            summary_frame,
+            text="Total Pagado: $0.00",
+            font=("Helvetica", 10, "bold"),
+            foreground="blue",
+        )
+        self.cart_lbl_total_pagado.pack(fill=tk.X)
+        self.cart_lbl_faltante = ttk.Label(
+            summary_frame,
+            text="Faltante: $0.00",
+            font=("Helvetica", 11, "bold"),
+            foreground="red",
+        )
+        self.cart_lbl_faltante.pack(fill=tk.X)
+
+        style_confirm = ttk.Style()
+        style_confirm.configure(
+            "Confirm.TButton",
+            foreground="white",
+            background="navy",
+            font=("Helvetica", 10, "bold"),
+        )
+        self.cart_btn_confirmar = ttk.Button(
+            summary_frame,
+            text="CONFIRMAR VENTA",
+            style="Confirm.TButton",
+            command=self._finalizar_venta_from_panel,
+            state="disabled",
+        )
+        self.cart_btn_confirmar.pack(fill=tk.X, ipady=5, pady=(5, 0))
+
+        bottom_btn_frame = ttk.Frame(self.cart_panel)
+        bottom_btn_frame.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
+        ttk.Button(
+            bottom_btn_frame, text="Vaciar Carrito", command=self._cart_vaciar
+        ).pack(side=tk.LEFT, expand=True)
+        ttk.Button(
+            bottom_btn_frame, text="Seguir Comprando", command=self.show_action_panel
+        ).pack(side=tk.LEFT, expand=True)
+
+    def on_inventory_select(self, event):
+        self.show_action_panel()
+
+    def _switch_action_panel(self, panel_to_show, new_title="Panel de Acciones"):
+        self.action_panel.config(text=new_title)
+        for panel in self.all_panels:
+            panel.pack_forget()
+        panel_to_show.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
+
+    def show_action_panel(self, panel_type=None, data=None):
+        if panel_type == "add":
+            self.add_desc_entry.delete(0, tk.END)
+            self.add_cant_entry.delete(0, tk.END)
+            self._switch_action_panel(self.add_panel, "Agregar Nuevo Ítem")
+            self.add_desc_entry.focus_set()
+        elif panel_type == "modify":
+            self.modify_desc_entry.delete(0, tk.END)
+            self.modify_cant_entry.delete(0, tk.END)
+            self.modify_desc_entry.insert(0, data[1])
+            self.modify_cant_entry.insert(0, data[2])
+            self._switch_action_panel(self.modify_panel, "Modificar Ítem")
+            self.modify_desc_entry.focus_set()
+        elif panel_type == "adjust":
+            self.adjust_label.config(text=f"Ajustar stock para:\n{data[1]}")
+            self.adjust_cant_entry.delete(0, tk.END)
+            self._switch_action_panel(self.adjust_panel, "Ajustar Stock")
+            self.adjust_cant_entry.focus_set()
+        elif panel_type == "sale":
+            self.sale_label.config(text=f"Vender item:\n{data[1]}\n(Stock: {data[2]})")
+            self.sale_cant_entry.delete(0, tk.END)
+            self.sale_costo_entry.delete(0, tk.END)
+            self.sale_precio_entry.delete(0, tk.END)
+            self._switch_action_panel(self.sale_panel, "Agregar a Venta")
+            self.sale_cant_entry.focus_set()
+        else:
+            self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
+
+    def show_add_panel(self):
+        self.show_action_panel("add")
+
+    def show_modify_panel(self):
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        self.show_action_panel("modify", data=values)
+
+    def show_adjust_panel(self):
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        self.show_action_panel("adjust", data=values)
+
+    def show_sale_panel(self):
+        if os.path.basename(self.gestor.archivo_inventario) != "local.txt":
+            messagebox.showerror(
+                "Archivo Incorrecto", "Las ventas solo se realizan desde 'local.txt'."
+            )
+            return
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        self.show_action_panel("sale", data=values)
+
+    def show_cart_panel(self):
+        if not self.carrito:
+            messagebox.showinfo("Carrito Vacío", "No hay items en el carrito de venta.")
+            return
+
+        self._switch_action_panel(self.cart_panel, "Carrito de Venta")
+        self.pagos_actuales = []
+        self.cart_cliente_entry.delete(0, tk.END)
+        self.cart_contacto_entry.delete(0, tk.END)
+        self.cart_monto_pago_entry.delete(0, tk.END)
+        self._cart_populate_items()
+        self._cart_populate_pagos()
+
+    def _do_add_from_panel(self):
+        desc = self.add_desc_entry.get().strip()
+        cant = self.add_cant_entry.get().strip()
+        if not desc or not cant:
+            messagebox.showerror("Error", "Ambos campos son obligatorios.")
+            return
+        success, message = self.gestor.agregar_linea(desc, cant)
+        if success:
+            self.populate_inventory_treeview()
+            self.show_action_panel()
+            messagebox.showinfo("Éxito", message)
+        else:
+            messagebox.showerror("Error", message)
+
+    def _do_modify_from_panel(self):
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        linea = int(values[0])
+        nueva_desc = self.modify_desc_entry.get().strip()
+        nueva_cant = self.modify_cant_entry.get().strip()
+        if not nueva_desc or not nueva_cant:
+            messagebox.showerror("Error", "Ambos campos son obligatorios.")
+            return
+        success, message = self.gestor.modificar_linea(linea, nueva_desc, nueva_cant)
+        if success:
+            self.populate_inventory_treeview()
+            self.show_action_panel()
+            messagebox.showinfo("Éxito", message)
+        else:
+            messagebox.showerror("Error", message)
+
+    def _do_adjust_from_panel(self):
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        linea, desc, cant_actual_str = values
+
+        try:
+            cambio = int(self.adjust_cant_entry.get())
+        except (ValueError, TypeError):
+            messagebox.showerror(
+                "Error", "La cantidad a ajustar debe ser un número entero."
+            )
+            return
+
+        if cambio == 0:
+            return
+
+        if cambio > 0:  # Sumar
+            success, msg = self.gestor.modificar_cantidad(int(linea), cambio)
+        else:  # Restar
+            if abs(cambio) > int(cant_actual_str):
+                messagebox.showerror(
+                    "Error", "No se puede restar más stock del que existe."
+                )
+                return
+            success, msg = self.gestor.modificar_cantidad(int(linea), cambio)
+            if success:
+                success_local, msg_local = self.gestor.transferir_a_local(
+                    desc, abs(cambio)
+                )
+                msg = f"{msg}\n{abs(cambio)} unidad(es) transferida(s) a 'local.txt'."
+                if not success_local:
+                    msg += f"\nADVERTENCIA: {msg_local}"
+
+        if success:
+            messagebox.showinfo("Éxito", msg)
+            self.populate_inventory_treeview()
+            self.show_action_panel()
+        else:
+            messagebox.showerror("Error", msg)
+
+    def _do_add_to_cart_from_panel(self):
+        values = self._get_selected_item_values()
+        if not values:
+            return
+        linea_num, desc, stock_actual = values
+
+        try:
+            cantidad = int(self.sale_cant_entry.get())
+            costo = float(self.sale_costo_entry.get())
+            precio = float(self.sale_precio_entry.get())
+            if cantidad <= 0:
+                raise ValueError("La cantidad debe ser positiva.")
+            if cantidad > int(stock_actual):
+                messagebox.showerror(
+                    "Stock Insuficiente", "La cantidad a vender supera el stock actual."
+                )
+                return
+        except (ValueError, TypeError):
+            messagebox.showerror(
+                "Datos Inválidos",
+                "Por favor, ingrese números válidos en todos los campos.",
+            )
+            return
+
+        item_data = {
+            "linea_num": int(linea_num),
+            "desc": desc,
+            "stock_actual": int(stock_actual),
+            "cantidad": cantidad,
+            "costo": costo,
+            "precio": precio,
+        }
+        self.carrito.append(item_data)
+        self.actualizar_vista_carrito()
+        self.show_action_panel()
+        self.status_label_inv.config(text=f"'{desc}' agregado al carrito.")
+
+    def _cart_populate_items(self):
+        for i in self.cart_tree.get_children():
+            self.cart_tree.delete(i)
+
+        total_general = 0
+        for i, item in enumerate(self.carrito):
+            subtotal = item["cantidad"] * item["precio"]
+            total_general += subtotal
+            self.cart_tree.insert(
+                "",
+                tk.END,
+                iid=i,
+                values=(item["desc"], item["cantidad"], f"${subtotal:,.2f}"),
+            )
+
+        self.cart_total_general = total_general
+        self.cart_lbl_total_venta.config(text=f"Total Venta: ${total_general:,.2f}")
+
+    def _cart_populate_pagos(self):
+        for i in self.cart_pagos_tree.get_children():
+            self.cart_pagos_tree.delete(i)
+
+        for i, pago in enumerate(self.pagos_actuales):
+            self.cart_pagos_tree.insert(
+                "", tk.END, iid=i, values=(pago["metodo"], f"${pago['monto']:,.2f}")
+            )
+
+        self._cart_update_summary()
+
+    def _cart_update_summary(self):
+        total_pagado = sum(pago["monto"] for pago in self.pagos_actuales)
+        faltante = self.cart_total_general - total_pagado
+
+        self.cart_lbl_total_pagado.config(text=f"Total Pagado: ${total_pagado:,.2f}")
+
+        if faltante > 0:
+            self.cart_lbl_faltante.config(
+                text=f"Faltante: ${faltante:,.2f}", foreground="red"
+            )
+            self.cart_btn_confirmar.config(state="disabled")
+        else:
+            self.cart_lbl_faltante.config(
+                text=f"Cambio: ${-faltante:,.2f}", foreground="green"
+            )
+            self.cart_btn_confirmar.config(state="normal")
+
+    def _cart_add_pago(self):
+        metodo = self.cart_medio_pago_combo.get()
+        try:
+            monto = float(self.cart_monto_pago_entry.get())
+            if monto <= 0:
+                raise ValueError
+        except ValueError:
+            messagebox.showerror("Error", "El monto debe ser un número positivo.")
+            return
+
+        self.pagos_actuales.append({"metodo": metodo, "monto": monto})
+        self.cart_monto_pago_entry.delete(0, tk.END)
+        self._cart_populate_pagos()
+
+    def _cart_remove_item(self):
+        selected_iid = self.cart_tree.focus()
+        if not selected_iid:
+            messagebox.showwarning(
+                "Sin Selección", "Seleccione un item del carrito para eliminar."
+            )
+            return
+
+        del self.carrito[int(selected_iid)]
+
+        if not self.carrito:
+            self._cart_vaciar()
+        else:
+            self._cart_populate_items()
+            self._cart_populate_pagos()
+
+        self.actualizar_vista_carrito()
+
+    def _cart_remove_pago(self):
+        selected_iid = self.cart_pagos_tree.focus()
+        if not selected_iid:
+            messagebox.showwarning("Sin Selección", "Seleccione un pago para eliminar.")
+            return
+        del self.pagos_actuales[int(selected_iid)]
+        self._cart_populate_pagos()
+
+    def _cart_vaciar(self):
+        if self.carrito and messagebox.askyesno(
+            "Confirmar", "¿Desea vaciar el carrito?"
+        ):
+            self.carrito.clear()
+            self.actualizar_vista_carrito()
+            self.show_action_panel()
+            self.status_label_inv.config(text="Carrito vaciado.")
+        elif not self.carrito:
+            self.actualizar_vista_carrito()
+            self.show_action_panel()
+
+    def _finalizar_venta_from_panel(self):
+        cliente = self.cart_cliente_entry.get().strip() or "Cliente General"
+        cliente_contacto = self.cart_contacto_entry.get().strip()
+
+        total_pagado = sum(p["monto"] for p in self.pagos_actuales)
+        if total_pagado < self.cart_total_general:
+            messagebox.showerror(
+                "Pago Incompleto", "El monto pagado es menor al total de la venta."
+            )
+            return
+        if not self.carrito:
+            messagebox.showerror("Carrito Vacío", "No hay items para vender.")
+            return
+
+        timestamp = datetime.now()
+        id_venta = timestamp.strftime("%Y%m%d%H%M%S")
+
+        medio_pago_str = ", ".join(
+            [f"{p['metodo']}: ${p['monto']:.2f}" for p in self.pagos_actuales]
+        )
+
+        carrito_copia = list(self.carrito)
+
+        for item in carrito_copia:
+            success, msg = self.gestor.procesar_item_venta(
+                id_venta, timestamp, item, cliente, medio_pago_str
+            )
+            if not success:
+                messagebox.showerror("Error en Venta", msg)
+                self.populate_inventory_treeview()
+                return
+
+        ruta_txt = self.gestor.generar_factura_consolidada_txt(
+            id_venta,
+            timestamp,
+            carrito_copia,
+            self.cart_total_general,
+            cliente,
+            cliente_contacto,
+            self.pagos_actuales,
+        )
+
+        self.show_output_options_dialog(
+            ruta_txt,
+            id_venta,
+            timestamp,
+            carrito_copia,
+            self.cart_total_general,
+            cliente,
+            cliente_contacto,
+            self.pagos_actuales,
+        )
+
+        self.carrito.clear()
+        self.actualizar_vista_carrito()
+        self.populate_inventory_treeview()
+        self.populate_sales_treeview()
+        self.notebook.select(self.ventas_tab)
+        self.show_action_panel()
 
     def crear_widgets_ventas(self):
         filter_frame = ttk.LabelFrame(
@@ -917,7 +1468,6 @@ class InventarioGUI:
         historial_frame = ttk.Frame(self.ventas_tab)
         historial_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, pady=5)
 
-        # Contenedor para filtros en línea
         linea_1_filtros = ttk.Frame(filter_frame)
         linea_1_filtros.pack(fill=tk.X)
         linea_2_filtros = ttk.Frame(filter_frame)
@@ -961,7 +1511,6 @@ class InventarioGUI:
         self.filtro_desc_venta = ttk.Entry(linea_1_filtros, width=30)
         self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10))
 
-        # --- NUEVO FILTRO DE PAGO ELECTRÓNICO ---
         self.filtro_pago_electronico_var = tk.BooleanVar()
         self.filtro_pago_electronico_chk = ttk.Checkbutton(
             linea_1_filtros,
@@ -972,14 +1521,10 @@ class InventarioGUI:
         self.filtro_pago_electronico_chk.pack(side=tk.LEFT, padx=15)
 
         ttk.Button(
-            linea_2_filtros,
-            text="Filtrar Ventas",
-            command=self.populate_sales_treeview,
+            linea_2_filtros, text="Filtrar Ventas", command=self.populate_sales_treeview
         ).pack(side=tk.LEFT, padx=10)
         ttk.Button(
-            linea_2_filtros,
-            text="Mostrar Todo",
-            command=self.limpiar_filtros_ventas,
+            linea_2_filtros, text="Mostrar Todo", command=self.limpiar_filtros_ventas
         ).pack(side=tk.LEFT, padx=5)
         self.btn_ver_recibo = ttk.Button(
             linea_2_filtros,
@@ -1042,52 +1587,38 @@ class InventarioGUI:
         self.sales_tree.bind("<<TreeviewSelect>>", self.on_sale_select)
 
     def sort_sales_by_column(self, col):
-        """Función para ordenar la tabla de ventas al hacer clic en un encabezado."""
         data = [
             (self.sales_tree.set(child, col), child)
             for child in self.sales_tree.get_children("")
         ]
-
-        # Determinar el tipo de dato para ordenar correctamente
         column_index = self.sales_tree["columns"].index(col)
-        # Columnas numéricas: 3 (Cantidad) y 4 a 7 (valores monetarios)
         numeric_columns = [3, 4, 5, 6, 7]
-
         try:
             if column_index in numeric_columns:
-                # Ordenar como números flotantes
                 data.sort(
                     key=lambda t: float(t[0]), reverse=self.sales_last_sort_reverse
                 )
-            elif column_index == 0:  # Timestamp
+            elif column_index == 0:
                 data.sort(
                     key=lambda t: datetime.strptime(t[0], "%Y-%m-%d %H:%M:%S"),
                     reverse=self.sales_last_sort_reverse,
                 )
             else:
-                # Ordenar como texto (insensible a mayúsculas/minúsculas)
                 data.sort(
                     key=lambda t: t[0].lower(), reverse=self.sales_last_sort_reverse
                 )
         except (ValueError, IndexError):
-            # Si hay un error de conversión (ej. celda vacía), ordenar como texto
             data.sort(key=lambda t: t[0].lower(), reverse=self.sales_last_sort_reverse)
-
         for index, (val, child) in enumerate(data):
             self.sales_tree.move(child, "", index)
-
-        # Invertir la dirección del orden para el próximo clic
         self.sales_last_sort_reverse = not self.sales_last_sort_reverse
 
     def actualizar_estado_botones_venta(self):
-        """Habilita o deshabilita el botón de venta según el archivo de inventario actual."""
         es_local = os.path.basename(self.gestor.archivo_inventario) == "local.txt"
         estado = "normal" if es_local else "disabled"
-        # Se usa hasattr para evitar errores si el botón aún no ha sido creado.
         if hasattr(self, "btn_agregar_venta"):
             self.btn_agregar_venta.config(state=estado)
 
-    # --- Widgets de Cuadre de Caja ---
     def crear_widgets_caja(self):
         main_frame = ttk.Frame(self.caja_tab)
         main_frame.pack(fill=tk.BOTH, expand=True)
@@ -1210,7 +1741,6 @@ class InventarioGUI:
             "Dinero Real en Caja:": "dinero_real_caja",
             "Diferencia (Sobrante/Faltante):": "diferencia",
         }
-
         row_idx = 0
         for label_text, key in labels_info.items():
             ttk.Label(resumen_frame, text=label_text, font=("Helvetica", 10)).grid(
@@ -1223,19 +1753,15 @@ class InventarioGUI:
             label_widget.grid(row=row_idx, column=1, sticky="e", padx=5, pady=3)
             self.resumen_labels[key] = {"var": label_var, "widget": label_widget}
             row_idx += 1
-
         resumen_frame.columnconfigure(1, weight=1)
 
-    # --- Lógica de Cuadre de Caja ---
     def abrir_ventana_conteo_caja(self):
         win_conteo = tk.Toplevel(self.master)
         win_conteo.title("Conteo de Dinero Físico")
         win_conteo.grab_set()
         win_conteo.resizable(False, False)
-
         main_frame = ttk.Frame(win_conteo, padding="15")
         main_frame.pack(fill=tk.BOTH, expand=True)
-
         denominaciones_billetes = {
             100000: "Billetes de $100.000:",
             50000: "Billetes de $50.000:",
@@ -1245,7 +1771,6 @@ class InventarioGUI:
             2000: "Billetes de $2.000:",
             1000: "Billetes de $1.000:",
         }
-
         entries = {}
         subtotal_labels = {}
 
@@ -1259,13 +1784,11 @@ class InventarioGUI:
                     total += subtotal
                 except (ValueError, KeyError):
                     subtotal_labels[value].config(text="= $0")
-
             try:
                 total_monedas = float(entries["monedas"].get() or 0)
                 total += total_monedas
             except (ValueError, KeyError):
                 pass
-
             total_general_label.config(text=f"Total: ${total:,.0f}")
             return total
 
@@ -1278,15 +1801,12 @@ class InventarioGUI:
             entry.grid(row=row, column=1, pady=4)
             entry.bind("<KeyRelease>", actualizar_totales)
             entries[value] = entry
-
             sub_label = ttk.Label(main_frame, text="= $0", width=15)
             sub_label.grid(row=row, column=2, sticky="w", padx=5)
             subtotal_labels[value] = sub_label
             row += 1
-
         ttk.Separator(main_frame).grid(row=row, columnspan=3, sticky="ew", pady=5)
         row += 1
-
         ttk.Label(main_frame, text="Total en Monedas:").grid(
             row=row, column=0, sticky="w", pady=4
         )
@@ -1295,19 +1815,15 @@ class InventarioGUI:
         monedas_entry.bind("<KeyRelease>", actualizar_totales)
         entries["monedas"] = monedas_entry
         row += 1
-
         ttk.Separator(main_frame, orient="horizontal").grid(
             row=row, column=0, columnspan=3, pady=10, sticky="ew"
         )
         row += 1
-
         total_general_label = ttk.Label(
             main_frame, text="Total: $0", font=("Helvetica", 14, "bold")
         )
         total_general_label.grid(row=row, column=0, columnspan=3, pady=5)
         row += 1
-
-        # Poblar con valores guardados en la sesión
         for value, entry in entries.items():
             if value in self.conteo_actual_caja:
                 entry.insert(0, self.conteo_actual_caja[value])
@@ -1315,60 +1831,37 @@ class InventarioGUI:
 
         def guardar_y_cerrar():
             try:
-                # Diccionarios para guardar los datos
                 self.conteo_actual_caja.clear()
                 detalle_dict = {}
                 total_final = 0.0
-
-                # --- LÓGICA CORREGIDA Y ROBUSTA ---
-                # 1. Procesar billetes, validando cada entrada
                 for value, entry in entries.items():
                     if value == "monedas":
-                        continue  # Procesar monedas por separado
-
+                        continue
                     cantidad_str = entry.get() or "0"
-                    cantidad_num = int(
-                        cantidad_str
-                    )  # Esto lanzará ValueError si la entrada es inválida
-
+                    cantidad_num = int(cantidad_str)
                     self.conteo_actual_caja[value] = cantidad_str
                     if cantidad_num > 0:
                         detalle_dict[value] = cantidad_num
                     total_final += cantidad_num * value
-
-                # 2. Procesar monedas, validando la entrada
                 monedas_str = entries["monedas"].get() or "0"
-                monedas_num = float(
-                    monedas_str
-                )  # Esto lanzará ValueError si la entrada es inválida
-
+                monedas_num = float(monedas_str)
                 self.conteo_actual_caja["monedas"] = monedas_str
                 if monedas_num > 0:
                     detalle_dict["monedas"] = monedas_num
                 total_final += monedas_num
-
-                # 3. Formatear el string de detalles para el historial
                 detalle_str = ", ".join(
                     [
                         f"${k:,.0f}: {v}" if k != "monedas" else f"Monedas: ${v:,.2f}"
                         for k, v in detalle_dict.items()
                     ]
                 )
-
-                # 4. Guardar en el archivo de historial
                 self.gestor_caja.guardar_conteo_historial(total_final, detalle_str)
-
-                # 5. Actualizar el campo en la ventana principal
                 self.dinero_real_entry.config(state="normal")
                 self.dinero_real_entry.delete(0, tk.END)
                 self.dinero_real_entry.insert(0, f"{total_final:.2f}")
                 self.dinero_real_entry.config(state="readonly")
-
-                # 6. Cerrar la ventana de conteo
                 win_conteo.destroy()
-
             except ValueError:
-                # 7. Si cualquier conversión a número falla, mostrar este error
                 messagebox.showerror(
                     "Error de Entrada",
                     "Por favor, ingrese solo números en los campos de conteo.\nNo use puntos, comas o símbolos.",
@@ -1384,10 +1877,8 @@ class InventarioGUI:
         win_hist.title("Historial de Conteos de Caja")
         win_hist.geometry("700x450")
         win_hist.grab_set()
-
         frame = ttk.Frame(win_hist, padding="10")
         frame.pack(fill=tk.BOTH, expand=True)
-
         tree = ttk.Treeview(
             frame, columns=("Timestamp", "Total", "Detalle"), show="headings"
         )
@@ -1397,15 +1888,12 @@ class InventarioGUI:
         tree.column("Timestamp", width=150, anchor=tk.W)
         tree.column("Total", width=120, anchor=tk.E)
         tree.column("Detalle", width=400, anchor=tk.W)
-
         scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=tree.yview)
         tree.configure(yscrollcommand=scrollbar.set)
-
         tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
         scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-
         historial = self.gestor_caja.obtener_historial_conteos()
-        for row in reversed(historial):  # Mostrar el más reciente primero
+        for row in reversed(historial):
             try:
                 if len(row) >= 3:
                     total_formateado = f"${float(row[1]):,.2f}"
@@ -1416,7 +1904,6 @@ class InventarioGUI:
     def cargar_estado_caja(self):
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
         datos_dia = self.gestor_caja.obtener_datos_dia(fecha_hoy)
-
         if datos_dia:
             self.caja_inicial_entry.insert(0, datos_dia["DineroInicial"])
             self.caja_base_entry.insert(0, datos_dia["Base"])
@@ -1436,10 +1923,9 @@ class InventarioGUI:
         except ValueError:
             messagebox.showerror("Error", "Dinero inicial y base deben ser números.")
             return
-
         success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
         if success:
-            self.conteo_actual_caja.clear()  # Limpiar conteo al iniciar nuevo día
+            self.conteo_actual_caja.clear()
             messagebox.showinfo("Éxito", msg)
             self.caja_inicial_entry.config(state="disabled")
             self.caja_base_entry.config(state="disabled")
@@ -1454,13 +1940,11 @@ class InventarioGUI:
         tipo = self.mov_tipo_combo.get()
         desc = self.mov_desc_entry.get()
         monto = self.mov_monto_entry.get()
-
         if not all([tipo, desc, monto]):
             messagebox.showerror(
                 "Error", "Todos los campos de movimiento son obligatorios."
             )
             return
-
         success, msg = self.gestor_caja.registrar_movimiento(tipo, desc, monto)
         if success:
             self.mov_desc_entry.delete(0, tk.END)
@@ -1472,10 +1956,8 @@ class InventarioGUI:
     def cargar_movimientos_hoy(self):
         for i in self.mov_tree.get_children():
             self.mov_tree.delete(i)
-
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
         movimientos = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
-
         for mov in movimientos:
             monto = float(mov["Monto"])
             self.mov_tree.insert(
@@ -1484,31 +1966,22 @@ class InventarioGUI:
 
     def _ejecutar_logica_cuadre(self):
         try:
-            # El dinero real sigue viniendo del conteo manual
             dinero_real = float(self.dinero_real_entry.get() or 0)
         except ValueError:
             messagebox.showerror(
                 "Error", "El valor de dinero real en caja debe ser un número."
             )
             return None
-
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-
-        # --- CAMBIO CLAVE: Recalcular totales desde los registros para mayor precisión ---
         total_ventas_dia = self.gestor.obtener_ventas_del_dia(fecha_hoy)
         pagos_electronicos = self.gestor.obtener_pagos_electronicos_del_dia(fecha_hoy)
-
-        # Actualizar la GUI con el valor recalculado y ponerlo como solo lectura
         self.pagos_electronicos_entry.config(state="normal")
         self.pagos_electronicos_entry.delete(0, tk.END)
         self.pagos_electronicos_entry.insert(0, f"{pagos_electronicos:.2f}")
         self.pagos_electronicos_entry.config(state="readonly")
-        # --- FIN DEL CAMBIO ---
-
         resumen, msg = self.gestor_caja.calcular_cuadre(
             fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia
         )
-
         if resumen:
             self.resumen_labels["total_ventas"]["var"].set(
                 f"${resumen['total_ventas']:,.2f}"
@@ -1522,10 +1995,8 @@ class InventarioGUI:
             self.resumen_labels["dinero_real_caja"]["var"].set(
                 f"${resumen['dinero_real_caja']:,.2f}"
             )
-
             diferencia = resumen["diferencia"]
             self.resumen_labels["diferencia"]["var"].set(f"${diferencia:,.2f}")
-
             resumen_widget = self.resumen_labels["diferencia"]["widget"]
             if diferencia < 0:
                 resumen_widget.config(foreground="red")
@@ -1533,7 +2004,6 @@ class InventarioGUI:
                 resumen_widget.config(foreground="green")
             else:
                 resumen_widget.config(foreground="black")
-
             return resumen
         else:
             messagebox.showerror("Error", msg)
@@ -1559,7 +2029,6 @@ class InventarioGUI:
                 else:
                     messagebox.showerror("Error al Guardar", msg)
 
-    # --- Resto de métodos de la GUI ---
     def populate_inventory_treeview(self):
         for i in self.inventory_tree.get_children():
             self.inventory_tree.delete(i)
@@ -1594,19 +2063,17 @@ class InventarioGUI:
                 self.inventory_tree.insert("", tk.END, values=(linea_num, desc, cant))
                 count += 1
         self.status_label_inv.config(text=f"Mostrando {count} de {len(datos)} ítems.")
+        self.show_action_panel()
 
     def populate_sales_treeview(self):
         for i in self.sales_tree.get_children():
             self.sales_tree.delete(i)
         historial = self.gestor.leer_historial_ventas()
-
         desde_str = self.filtro_fecha_desde.get()
         hasta_str = self.filtro_fecha_hasta.get()
         filtro_texto = self.filtro_desc_venta.get().lower()
         mostrar_solo_electronicos = self.filtro_pago_electronico_var.get()
-
         total_items, costo_total, total_ventas, total_ganancia = 0, 0.0, 0.0, 0.0
-
         for venta_original in historial:
             venta = list(venta_original)
             if len(venta) < 8:
@@ -1620,7 +2087,6 @@ class InventarioGUI:
                 venta.append("N/A")
             if len(venta) != 11:
                 continue
-
             fecha_valida = True
             if desde_str or hasta_str:
                 try:
@@ -1643,21 +2109,18 @@ class InventarioGUI:
                     fecha_valida = False
             if not fecha_valida:
                 continue
-
             id_venta_csv = venta[1].lower()
             desc_csv = venta[2].lower()
             if filtro_texto and not (
                 filtro_texto in desc_csv or filtro_texto in id_venta_csv
             ):
                 continue
-
             if mostrar_solo_electronicos:
                 medio_pago = venta[10]
                 pagos = medio_pago.split(", ")
                 es_electronico = any("Efectivo" not in p for p in pagos if p.strip())
                 if not es_electronico:
                     continue
-
             try:
                 total_items += int(venta[3])
                 costo_total += int(venta[3]) * float(venta[4])
@@ -1666,11 +2129,10 @@ class InventarioGUI:
                 self.sales_tree.insert("", tk.END, values=tuple(venta))
             except (ValueError, IndexError):
                 continue
-
         self.lbl_total_items.config(text=f"Items Vendidos: {total_items}")
-        self.lbl_costo_total.config(text=f"Costo Total: ${costo_total:.2f}")
-        self.lbl_total_ventas.config(text=f"Total Ventas: ${total_ventas:.2f}")
-        self.lbl_total_ganancia.config(text=f"Ganancia Total: ${total_ganancia:.2f}")
+        self.lbl_costo_total.config(text=f"Costo Total: ${costo_total:,.2f}")
+        self.lbl_total_ventas.config(text=f"Total Ventas: ${total_ventas:,.2f}")
+        self.lbl_total_ganancia.config(text=f"Ganancia Total: ${total_ganancia:,.2f}")
 
     def limpiar_filtros(self):
         self.filtro_palabra_entry.delete(0, tk.END)
@@ -1695,92 +2157,6 @@ class InventarioGUI:
             return None
         return self.inventory_tree.item(selected, "values")
 
-    def agregar_item(self):
-        win_add = tk.Toplevel(self.master)
-        win_add.title("Agregar Nuevo Ítem")
-        win_add.grab_set()
-        win_add.resizable(False, False)
-        frame = ttk.Frame(win_add, padding="10")
-        frame.pack()
-        ttk.Label(frame, text="Descripción:").grid(
-            row=0, column=0, sticky="w", pady=2, padx=5
-        )
-        desc_entry = ttk.Entry(frame, width=40)
-        desc_entry.grid(row=0, column=1, pady=2, padx=5)
-        ttk.Label(frame, text="Cantidad Inicial:").grid(
-            row=1, column=0, sticky="w", pady=2, padx=5
-        )
-        cant_entry = ttk.Entry(frame, width=15)
-        cant_entry.grid(row=1, column=1, sticky="w", pady=2, padx=5)
-
-        def do_add():
-            desc = desc_entry.get().strip()
-            cant = cant_entry.get().strip()
-            if not desc or not cant:
-                messagebox.showerror(
-                    "Error", "Ambos campos son obligatorios.", parent=win_add
-                )
-                return
-            success, message = self.gestor.agregar_linea(desc, cant)
-            if success:
-                self.populate_inventory_treeview()
-                win_add.destroy()
-                messagebox.showinfo("Éxito", message)
-            else:
-                messagebox.showerror("Error", message, parent=win_add)
-
-        btn_frame = ttk.Frame(frame)
-        btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
-        ttk.Button(btn_frame, text="Guardar Ítem", command=do_add).pack()
-        desc_entry.focus_set()
-
-    def modificar_item(self):
-        values = self._get_selected_item_values()
-        if not values:
-            return
-        linea, desc, cant = values
-        win_mod = tk.Toplevel(self.master)
-        win_mod.title("Modificar Ítem")
-        win_mod.grab_set()
-        win_mod.resizable(False, False)
-        frame = ttk.Frame(win_mod, padding="10")
-        frame.pack()
-        ttk.Label(frame, text="Descripción:").grid(
-            row=0, column=0, sticky="w", pady=2, padx=5
-        )
-        desc_entry = ttk.Entry(frame, width=40)
-        desc_entry.grid(row=0, column=1, pady=2, padx=5)
-        desc_entry.insert(0, desc)
-        ttk.Label(frame, text="Cantidad:").grid(
-            row=1, column=0, sticky="w", pady=2, padx=5
-        )
-        cant_entry = ttk.Entry(frame, width=15)
-        cant_entry.grid(row=1, column=1, sticky="w", pady=2, padx=5)
-        cant_entry.insert(0, cant)
-
-        def do_mod():
-            nueva_desc = desc_entry.get().strip()
-            nueva_cant = cant_entry.get().strip()
-            if not nueva_desc or not nueva_cant:
-                messagebox.showerror(
-                    "Error", "Ambos campos son obligatorios.", parent=win_mod
-                )
-                return
-            success, message = self.gestor.modificar_linea(
-                int(linea), nueva_desc, nueva_cant
-            )
-            if success:
-                self.populate_inventory_treeview()
-                win_mod.destroy()
-                messagebox.showinfo("Éxito", message)
-            else:
-                messagebox.showerror("Error", message, parent=win_mod)
-
-        btn_frame = ttk.Frame(frame)
-        btn_frame.grid(row=2, column=0, columnspan=2, pady=10)
-        ttk.Button(btn_frame, text="Guardar Cambios", command=do_mod).pack()
-        desc_entry.focus_set()
-
     def eliminar_item(self):
         values = self._get_selected_item_values()
         if not values:
@@ -1793,53 +2169,6 @@ class InventarioGUI:
                 messagebox.showinfo("Éxito", msg)
             else:
                 messagebox.showerror("Error", msg)
-
-    def ajustar_cantidad(self, sumar):
-        values = self._get_selected_item_values()
-        if not values:
-            return
-        linea, desc, cant_actual_str = values
-        accion = "sumar" if sumar else "restar"
-        try:
-            cambio = simpledialog.askinteger(
-                "Ajustar Stock",
-                f"Cantidad a {accion} para:\n{desc}",
-                parent=self.master,
-                minvalue=1,
-            )
-            if cambio is not None:
-                if sumar:
-                    success, msg = self.gestor.modificar_cantidad(int(linea), cambio)
-                    if success:
-                        messagebox.showinfo("Éxito", msg)
-                    else:
-                        messagebox.showerror("Error", msg)
-                else:  # Restar y transferir
-                    if cambio > int(cant_actual_str):
-                        messagebox.showerror(
-                            "Error", "No se puede restar más stock del que existe."
-                        )
-                        return
-                    success, msg = self.gestor.modificar_cantidad(int(linea), -cambio)
-                    if success:
-                        success_local, msg_local = self.gestor.transferir_a_local(
-                            desc, cambio
-                        )
-                        if success_local:
-                            messagebox.showinfo(
-                                "Operación Completa",
-                                f"{msg}\n{cambio} unidad(es) transferida(s) a 'local.txt'.",
-                            )
-                        else:
-                            messagebox.showwarning(
-                                "Error de Transferencia",
-                                f"{msg}\nPero hubo un error al transferir a 'local.txt':\n{msg_local}",
-                            )
-                    else:
-                        messagebox.showerror("Error", msg)
-                self.populate_inventory_treeview()
-        except ValueError:
-            messagebox.showerror("Error", "Debe ser un número.")
 
     def ordenar_alfabeticamente(self):
         if messagebox.askyesno(
@@ -1864,396 +2193,10 @@ class InventarioGUI:
                 "Líneas con formato incorrecto:\n\n" + "\n".join(errores),
             )
 
-    def agregar_a_venta(self):
-        if os.path.basename(self.gestor.archivo_inventario) != "local.txt":
-            messagebox.showerror(
-                "Archivo Incorrecto para Venta",
-                "Las ventas solo pueden realizarse desde el inventario 'local.txt'.\n\n"
-                "Por favor, cambie al archivo 'local.txt' para proceder a vender.",
-            )
-            return
-        values = self._get_selected_item_values()
-        if not values:
-            return
-        linea_num, desc, stock_actual = values
-
-        win_add_cart = tk.Toplevel(self.master)
-        win_add_cart.title("Agregar Item a Venta")
-        win_add_cart.grab_set()
-        frame = ttk.Frame(win_add_cart, padding="15")
-        frame.pack()
-
-        ttk.Label(frame, text=f"Item: {desc}", font=("Helvetica", 11, "bold")).grid(
-            row=0, columnspan=2, pady=(0, 10)
-        )
-        ttk.Label(frame, text=f"Stock Actual: {stock_actual}").grid(
-            row=1, columnspan=2, pady=(0, 15)
-        )
-
-        ttk.Label(frame, text="Cantidad a Vender:").grid(
-            row=2, column=0, sticky="w", pady=5
-        )
-        cant_entry = ttk.Entry(frame, width=15)
-        cant_entry.grid(row=2, column=1, sticky="w", pady=5)
-
-        ttk.Label(frame, text="Costo Unitario ($):").grid(
-            row=3, column=0, sticky="w", pady=5
-        )
-        costo_entry = ttk.Entry(frame, width=15)
-        costo_entry.grid(row=3, column=1, sticky="w", pady=5)
-
-        ttk.Label(frame, text="Precio de Venta ($):").grid(
-            row=4, column=0, sticky="w", pady=5
-        )
-        precio_entry = ttk.Entry(frame, width=15)
-        precio_entry.grid(row=4, column=1, sticky="w", pady=5)
-
-        def do_add_to_cart():
-            try:
-                cantidad = int(cant_entry.get())
-                costo = float(costo_entry.get())
-                precio = float(precio_entry.get())
-                if cantidad <= 0:
-                    raise ValueError("La cantidad debe ser positiva.")
-                if cantidad > int(stock_actual):
-                    messagebox.showerror(
-                        "Stock Insuficiente",
-                        "La cantidad a vender supera el stock actual.",
-                        parent=win_add_cart,
-                    )
-                    return
-            except (ValueError, TypeError):
-                messagebox.showerror(
-                    "Datos Inválidos",
-                    "Por favor, ingrese números válidos en todos los campos.",
-                    parent=win_add_cart,
-                )
-                return
-
-            item_data = {
-                "linea_num": int(linea_num),
-                "desc": desc,
-                "stock_actual": int(stock_actual),
-                "cantidad": cantidad,
-                "costo": costo,
-                "precio": precio,
-            }
-            self.carrito.append(item_data)
-            self.actualizar_vista_carrito()
-            win_add_cart.destroy()
-
-        ttk.Button(frame, text="Agregar al Carrito", command=do_add_to_cart).grid(
-            row=5, columnspan=2, pady=(20, 0)
-        )
-        cant_entry.focus_set()
-
     def actualizar_vista_carrito(self):
         num_items = len(self.carrito)
         self.btn_ver_carrito.config(text=f"Ver Carrito ({num_items})")
         self.btn_ver_carrito.config(state="normal" if num_items > 0 else "disabled")
-
-    def mostrar_carrito(self):
-        win_cart = tk.Toplevel(self.master)
-        win_cart.title("Carrito de Venta y Pagos")
-        win_cart.grab_set()
-        win_cart.geometry("1050x650")
-        win_cart.minsize(1000, 550)
-
-        self.pagos_actuales = []
-        total_general = sum(item["cantidad"] * item["precio"] for item in self.carrito)
-
-        left_panel = ttk.Frame(win_cart, padding=10)
-        left_panel.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        right_panel = ttk.Frame(win_cart, padding=10)
-        right_panel.pack(side=tk.RIGHT, fill=tk.Y, padx=5)
-
-        tree_panel = ttk.Frame(left_panel)
-        tree_panel.pack(side=tk.TOP, fill=tk.BOTH, expand=True)
-        client_panel = ttk.LabelFrame(
-            left_panel, text="Datos del Cliente", padding="10"
-        )
-        client_panel.pack(fill=tk.X, pady=10)
-
-        top_controls_frame = ttk.Frame(tree_panel)
-        top_controls_frame.pack(fill=tk.X, pady=(0, 5))
-        ttk.Button(
-            top_controls_frame,
-            text="Eliminar Item",
-            command=lambda: eliminar_item_carrito(),
-        ).pack(side=tk.LEFT)
-
-        cart_tree = ttk.Treeview(
-            tree_panel, columns=("Desc", "Cant", "PrecioU", "Subtotal"), show="headings"
-        )
-        cart_tree.heading("Desc", text="Descripción")
-        cart_tree.heading("Cant", text="Cantidad")
-        cart_tree.heading("PrecioU", text="Precio Unit.")
-        cart_tree.heading("Subtotal", text="Subtotal")
-        cart_tree.column("Desc", width=200)
-        cart_tree.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
-        scrollbar = ttk.Scrollbar(
-            tree_panel, orient=tk.VERTICAL, command=cart_tree.yview
-        )
-        cart_tree.configure(yscrollcommand=scrollbar.set)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-
-        ttk.Label(client_panel, text="Nombre:").grid(
-            row=0, column=0, sticky="w", padx=5, pady=2
-        )
-        cliente_entry = ttk.Entry(client_panel, width=30)
-        cliente_entry.grid(row=0, column=1, sticky="ew", padx=5, pady=2)
-        ttk.Label(client_panel, text="Contacto (Opcional):").grid(
-            row=1, column=0, sticky="w", padx=5, pady=2
-        )
-        cliente_contacto_entry = ttk.Entry(client_panel, width=30)
-        cliente_contacto_entry.grid(row=1, column=1, sticky="ew", padx=5, pady=2)
-        client_panel.columnconfigure(1, weight=1)
-
-        payment_frame = ttk.LabelFrame(right_panel, text="Añadir Pago", padding="10")
-        payment_frame.pack(fill=tk.X)
-        pagos_registrados_frame = ttk.LabelFrame(
-            right_panel, text="Pagos Registrados", padding="10"
-        )
-        pagos_registrados_frame.pack(fill=tk.BOTH, expand=True, pady=10)
-        summary_frame = ttk.Frame(right_panel, padding="10")
-        summary_frame.pack(fill=tk.X)
-
-        ttk.Label(payment_frame, text="Método:").pack(fill=tk.X)
-        payment_methods = [
-            "Efectivo",
-            "Nequi",
-            "Bancolombia",
-            "Daviplata",
-            "Datafono",
-            "Sistecredito",
-        ]
-        medio_pago_combo = ttk.Combobox(
-            payment_frame, values=payment_methods, state="readonly"
-        )
-        medio_pago_combo.pack(fill=tk.X, pady=(0, 5))
-        medio_pago_combo.set("Efectivo")
-        ttk.Label(payment_frame, text="Monto $:").pack(fill=tk.X)
-        monto_pago_entry = ttk.Entry(payment_frame)
-        monto_pago_entry.pack(fill=tk.X, pady=(0, 5))
-        ttk.Button(
-            payment_frame, text="Agregar Pago", command=lambda: agregar_pago()
-        ).pack()
-
-        pagos_tree = ttk.Treeview(
-            pagos_registrados_frame, columns=("Metodo", "Monto"), show="headings"
-        )
-        pagos_tree.heading("Metodo", text="Método")
-        pagos_tree.heading("Monto", text="Monto")
-        # --- AJUSTE: Ancho de columnas para estabilizar el panel ---
-        pagos_tree.column("Metodo", width=120)
-        pagos_tree.column("Monto", width=80, anchor=tk.E)
-        # --- FIN DEL AJUSTE ---
-        pagos_tree.pack(fill=tk.BOTH, expand=True, side=tk.LEFT)
-        scrollbar_pagos = ttk.Scrollbar(
-            pagos_registrados_frame, orient=tk.VERTICAL, command=pagos_tree.yview
-        )
-        pagos_tree.configure(yscrollcommand=scrollbar_pagos.set)
-        scrollbar_pagos.pack(side=tk.RIGHT, fill=tk.Y)
-        ttk.Button(
-            pagos_registrados_frame,
-            text="X",
-            command=lambda: eliminar_pago_registrado(),
-            width=2,
-        ).pack(side=tk.RIGHT, anchor="n")
-
-        lbl_total_venta = ttk.Label(
-            summary_frame,
-            text=f"Total Venta: ${total_general:,.2f}",
-            font=("Helvetica", 11, "bold"),
-        )
-        lbl_total_venta.pack(fill=tk.X, pady=2)
-        lbl_total_pagado = ttk.Label(
-            summary_frame,
-            text="Total Pagado: $0.00",
-            font=("Helvetica", 11, "bold"),
-            foreground="blue",
-        )
-        lbl_total_pagado.pack(fill=tk.X, pady=2)
-        lbl_faltante = ttk.Label(
-            summary_frame,
-            text=f"Faltante: ${total_general:,.2f}",
-            font=("Helvetica", 12, "bold"),
-            foreground="red",
-        )
-        lbl_faltante.pack(fill=tk.X, pady=2)
-
-        style_confirm = ttk.Style()
-        style_confirm.configure(
-            "Confirm.TButton",
-            foreground="white",
-            background="navy",
-            font=("Helvetica", 10, "bold"),
-        )
-        btn_confirmar = ttk.Button(
-            summary_frame,
-            text="CONFIRMAR VENTA",
-            style="Confirm.TButton",
-            command=lambda: finalizar_venta(),
-            state="disabled",
-        )
-        btn_confirmar.pack(fill=tk.X, ipady=8, pady=(10, 0))
-
-        def populate_cart_tree():
-            for i in cart_tree.get_children():
-                cart_tree.delete(i)
-            for i, item in enumerate(self.carrito):
-                subtotal = item["cantidad"] * item["precio"]
-                cart_tree.insert(
-                    "",
-                    tk.END,
-                    iid=i,
-                    values=(
-                        item["desc"],
-                        item["cantidad"],
-                        f"${item['precio']:.2f}",
-                        f"${subtotal:.2f}",
-                    ),
-                )
-
-        def actualizar_totales_pago():
-            total_pagado = sum(pago["monto"] for pago in self.pagos_actuales)
-            faltante = total_general - total_pagado
-            lbl_total_pagado.config(text=f"Total Pagado: ${total_pagado:,.2f}")
-            if faltante > 0:
-                lbl_faltante.config(
-                    text=f"Faltante: ${faltante:,.2f}", foreground="red"
-                )
-                btn_confirmar.config(state="disabled")
-            else:
-                lbl_faltante.config(
-                    text=f"Cambio: ${-faltante:,.2f}", foreground="green"
-                )
-                btn_confirmar.config(state="normal")
-
-        def populate_pagos_tree():
-            for i in pagos_tree.get_children():
-                pagos_tree.delete(i)
-            for i, pago in enumerate(self.pagos_actuales):
-                pagos_tree.insert(
-                    "", tk.END, iid=i, values=(pago["metodo"], f"${pago['monto']:,.2f}")
-                )
-            actualizar_totales_pago()
-
-        def agregar_pago():
-            metodo = medio_pago_combo.get()
-            try:
-                monto = float(monto_pago_entry.get())
-                if monto <= 0:
-                    raise ValueError
-            except ValueError:
-                messagebox.showerror(
-                    "Error", "El monto debe ser un número positivo.", parent=win_cart
-                )
-                return
-            self.pagos_actuales.append({"metodo": metodo, "monto": monto})
-            monto_pago_entry.delete(0, tk.END)
-            populate_pagos_tree()
-
-        def eliminar_pago_registrado():
-            selected_iid = pagos_tree.focus()
-            if not selected_iid:
-                messagebox.showwarning(
-                    "Sin Selección",
-                    "Seleccione un pago para eliminar.",
-                    parent=win_cart,
-                )
-                return
-            del self.pagos_actuales[int(selected_iid)]
-            populate_pagos_tree()
-
-        populate_cart_tree()
-
-        def eliminar_item_carrito():
-            selected_iid = cart_tree.focus()
-            if not selected_iid:
-                messagebox.showwarning(
-                    "Sin Selección",
-                    "Seleccione un item del carrito para eliminar.",
-                    parent=win_cart,
-                )
-                return
-            del self.carrito[int(selected_iid)]
-            nonlocal total_general
-            total_general = sum(
-                item["cantidad"] * item["precio"] for item in self.carrito
-            )
-            lbl_total_venta.config(text=f"Total Venta: ${total_general:,.2f}")
-            populate_cart_tree()
-            actualizar_totales_pago()
-            self.actualizar_vista_carrito()
-
-        def finalizar_venta():
-            cliente = cliente_entry.get().strip() or "Cliente General"
-            cliente_contacto = cliente_contacto_entry.get().strip()
-
-            total_pagado = sum(p["monto"] for p in self.pagos_actuales)
-            if total_pagado < total_general:
-                messagebox.showerror(
-                    "Pago Incompleto",
-                    "El monto pagado es menor al total de la venta.",
-                    parent=win_cart,
-                )
-                return
-            if not self.carrito:
-                messagebox.showerror(
-                    "Carrito Vacío", "No hay items para vender.", parent=win_cart
-                )
-                return
-
-            timestamp = datetime.now()
-            id_venta = timestamp.strftime("%Y%m%d%H%M%S")
-
-            medio_pago_str = ", ".join(
-                [f"{p['metodo']}: ${p['monto']:.2f}" for p in self.pagos_actuales]
-            )
-
-            carrito_copia = list(self.carrito)
-
-            for item in carrito_copia:
-                success, msg = self.gestor.procesar_item_venta(
-                    id_venta, timestamp, item, cliente, medio_pago_str
-                )
-                if not success:
-                    messagebox.showerror("Error en Venta", msg, parent=win_cart)
-                    self.populate_inventory_treeview()
-                    return
-
-            ruta_txt = self.gestor.generar_factura_consolidada_txt(
-                id_venta,
-                timestamp,
-                carrito_copia,
-                total_general,
-                cliente,
-                cliente_contacto,
-                self.pagos_actuales,
-            )
-
-            total_electronico_venta = sum(
-                p["monto"] for p in self.pagos_actuales if p["metodo"] != "Efectivo"
-            )
-
-            win_cart.destroy()
-            self.show_output_options_dialog(
-                ruta_txt,
-                id_venta,
-                timestamp,
-                carrito_copia,
-                total_general,
-                cliente,
-                cliente_contacto,
-                self.pagos_actuales,
-            )
-
-            self.carrito.clear()
-            self.actualizar_vista_carrito()
-            self.populate_inventory_treeview()
-            self.populate_sales_treeview()
-            self.notebook.select(self.ventas_tab)
 
     def show_output_options_dialog(
         self,
@@ -2328,7 +2271,6 @@ class InventarioGUI:
     def cambiar_archivo_rapido(self, nombre_base):
         script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
         nuevo_archivo = os.path.join(script_dir, nombre_base)
-
         if os.path.exists(nuevo_archivo):
             mensaje = self.gestor.cambiar_archivo(nuevo_archivo)
             self.lbl_archivo.config(text=f"Archivo: {self.gestor.archivo_inventario}")
@@ -2372,21 +2314,18 @@ class InventarioGUI:
     def abrir_recibo_txt(self):
         if not self.sales_tree.selection():
             return
-
         selected_item = self.sales_tree.selection()[0]
         id_venta = self.sales_tree.item(selected_item, "values")[1]
-
         nombre_archivo = f"Factura_POS_{id_venta}.txt"
         ruta_archivo = os.path.join(self.gestor.directorio_facturas, nombre_archivo)
-
         if os.path.exists(ruta_archivo):
             try:
                 current_os = platform.system()
                 if current_os == "Windows":
                     os.startfile(ruta_archivo)
-                elif current_os == "Darwin":  # macOS
+                elif current_os == "Darwin":
                     subprocess.call(("open", ruta_archivo))
-                else:  # Linux
+                else:
                     subprocess.call(("xdg-open", ruta_archivo))
             except Exception as e:
                 messagebox.showerror("Error", f"No se pudo abrir el archivo:\n{e}")
@@ -2397,9 +2336,6 @@ class InventarioGUI:
             )
 
 
-# ==============================================================================
-# 4. BLOQUE DE EJECUCIÓN PRINCIPAL
-# ==============================================================================
 if __name__ == "__main__":
     root = tk.Tk()
     app = InventarioGUI(root)
