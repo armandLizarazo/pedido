@@ -13,6 +13,7 @@
     Base Refirgerante 4 Ventiladores 1
     Cable Auxiliar 1 A 1 5M 1 ok
     Cable Disco Duro V8 3.0 Corto 2
+    Cable Dpp2hdmi 1 ok
     Cable Dpp2Dpp 1.5M 2 ok
     Cable Impresora 3M 2 ok
     Cable Lan 2M Cat 6 5
