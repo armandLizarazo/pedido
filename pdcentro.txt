@@ -5,16 +5,19 @@
     Audifonos Bluetooth W I12 Negro 3
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Naisu S-437 Rojo 1
-    Cable Belkin V8 5
+    Cable Belkin V8 5 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Nokia 1100 5
-    Cable V8 Eco 5
+    Cable V8 Eco 5 
     Cable Yoyos Tc 5
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
     Cargador Apple 20W Con Cable 1
     Cargador Fuente 360 Slim 1
+    Audifonos Bluetooth Y6 Negro 1 ok
+    Audifonos Bluetooth Y6 Blanco 1 ok
+    Audifonos Bluetooth Y6 Azul 1 ok
     Cargador Pluying C9 Modulador 12-24V 20W 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
@@ -22,11 +25,13 @@
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 1
     Cargador We Tc 33W 3
+    Cargador We Tc 33W 3 ok
     Cargador Yl Tc 2
+    Cargador Yl V8 3 ok
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
-    Forro Antichoque Motorola Moto G55 Dama 5
+    Forro Antichoque Motorola Moto G55 Dama 2 ok
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
@@ -35,21 +40,20 @@
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
-    Forro Antichoque Vivo Y19S Dama 5
-    Forro Antichoque Vivo Y39 Caballero 5
+    Forro Antichoque Vivo Y19S Dama 3 ok
+    Forro Antichoque Vivo Y39 Caballero 4 ok
     Forro Armadura Lg K61 Rojo 1
-    Forro Armadura Motorola Moto G15 Negro 1
-    Forro Armadura Motorola Moto G15 Rojo 1
+    Forro Armadura Motorola Moto G15 Negro 1 ok
+    Forro Armadura Motorola Moto G15 Rojo 1 ok
     Forro Armadura Motorola Moto G35 Rojo 1
-    Forro Armadura Motorola Moto G55 Rojo 1
-    Forro Armadura Motorola Moto G85 Negro 1
+    Forro Armadura Motorola Moto G55 Rojo 1 ok
+    Forro Armadura Motorola Moto G85 Negro 1 ok ok
     Forro Armadura Oppo A57 Rojo 1
-    Forro Armadura Oppo A80 Negro 1
-    Forro Armadura Oppo A80 Rojo 1
+    Forro Armadura Oppo A80 Negro 1 ok
+    Forro Armadura Oppo A80 Rojo 1 ok
     Forro Armadura Oppo Reno 11 Negro 1
     Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Pova 5 Azul 1
@@ -57,17 +61,17 @@
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Samsung A06 Azul 1
     Forro Armadura Samsung A06 Rojo 1
-    Forro Armadura Samsung A13 Negro 1
-    Forro Armadura Samsung A16 Rojo 1
-    Forro Armadura Samsung A21S Negro 1
+    Forro Armadura Samsung A13 Negro 1 ok
+    Forro Armadura Samsung A16 vinotinto 1 ok
+    Forro Armadura Samsung A21S Negro 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark 30 Pro Rojo 1 ok
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
-    Forro Armadura Xiaomi Redmi note 10 pro Negro 12
+    Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Audifonos Pantalla Negro 2
     Forro Diseños Oppo Realme C75 Caballero 5
     Forro Diseños Oppo Realme C75 Dama 5
@@ -75,23 +79,22 @@
     Forro Lujo Humo Samsung A16 Negro 1
     Forro Lujo Samsung A26 Ab 2
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Lujo Ventana Apple Iphone 11
-    Forro Lujo Ventana Apple Iphone 11 Negro 1
+    Forro Lujo Ventana Apple Iphone 11 Azul 1 ok
+    Forro Lujo Ventana Apple Iphone 11 Negro 1 ok
     Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
-    Forro Lujo Ventana Apple Iphone 14 Pro Negro 1
+    Forro Lujo Ventana Apple Iphone 14 Negro 1 ok
     Forro Lujo Ventana Apple Iphone 15 Pro Morado 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
-    Forro Pin Samsung S24 Ultra 3
-    Forro Space Apple Iphone 12 3
-    Forro Space Apple Iphone 14 Pro 1
+    Forro Pin Samsung S24 Ultra 1 
+    Forro Space Apple Iphone 14 Pro 1 ok
     Forro Space Huawei Y9A 3
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
     Forro Space Motorola Moto G50 1
-    Forro Space Motorola Moto G9 Power 2
+    Forro Space Motorola Moto G9 Power 2 ok
     Forro Space Oppo A5 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme C53 / Note 50 2
@@ -101,9 +104,9 @@
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1
     Forro Space Tecno Camon 18P 2
-    Forro Space Tecno Camon 30S Pro 2
+    Forro Space Tecno Camon 30S Pro 2 ok
     Forro Space Tecno Camon 40 Pro 1
-    Forro Space Tecno Spark 30 4G 3
+    Forro Space Tecno Spark 30 4G 3 ok
     Forro Space Vivo Y04 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
@@ -130,8 +133,8 @@
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
-    Silicone Case Huawei Y9 2019 / Y8S Verde 1
-    Silicone Case Huawei Y9 Prime Rosa 1
+    Silicone Case Huawei Y9 2019 / Y8S Verde 1 ok
+    Silicone Case Huawei Y9 Prime Rosa 1 ok
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
@@ -147,11 +150,11 @@
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
-    Silicone Case Motorola Moto G15 Fucsia 1
+    Silicone Case Motorola Moto G15 Fucsia 1 ok
     Silicone Case Motorola Moto G15 Morado 1
-    Silicone Case Motorola Moto G35 Azulrey 1
-    Silicone Case Motorola Moto G35 Lila 1
-    Silicone Case Motorola Moto G35 Rosa 1
+    Silicone Case Motorola Moto G35 Azulrey 1 ok
+    Silicone Case Motorola Moto G35 Lila 1 ok
+    Silicone Case Motorola Moto G35 Rosa 1 ok
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G55 Fucsia 1
@@ -256,12 +259,12 @@
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
-    Vidrio Antiespia Apple Iphone 16 Pro Max 5
+    Vidrio Antiespia Apple Iphone 16 Pro Max 5 ok
     Vidrio Antiespia Apple Iphone 16E 5
     Vidrio Antiespia Apple Iphone Xs Max 5
-    Vidrio Antiespia Samsung A05 5
+    Vidrio Antiespia Samsung A05 /uy Redmi 13C 5 ok
     Vidrio Antiespia Samsung A30S 5
-    Vidrio Antiespia Xiaomi Redmi Note 12 5
+    Vidrio Antiespia Xiaomi Redmi Note 12 5 ok
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Apple Iphone 16 Pro Max 5
@@ -286,3 +289,5 @@
     Vidrio Tortuga Motorola Moto G20 / G30 / G50 / G9 Play 5
     Vidrio Tortuga Motorola Moto G9 Plus 5
     Vidrio Tortuga Samsugn A24 5
+    Cable 6101 5 ok
+    Cable 1100 5 ok
