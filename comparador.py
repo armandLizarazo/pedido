@@ -76,55 +76,64 @@ def refresh_data():
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
-    listbox_autocomplete.place_forget()
     search()
     messagebox.showinfo("Refrescar", "Los datos han sido actualizados.")
 
 
-def update_autocomplete(event):
-    """Actualiza la lista de autocompletado a medida que el usuario escribe."""
-    search_term = entry_search.get().lower()
-    listbox_autocomplete.delete(0, tk.END)
-    if not search_term:
-        listbox_autocomplete.place_forget()
+def on_item_select(event):
+    """
+    Se activa al seleccionar un item en una de las tablas de resultados.
+    Actualiza el cuadro de texto principal con el item seleccionado y
+    muestra las cantidades existentes en los pedidos de proveedores.
+    """
+    widget = event.widget
+    # Determinar qué widget disparó el evento y cuál es el otro
+    other_widget = tree_local if widget == tree_bodega else tree_bodega
+
+    # Deseleccionar cualquier item en la otra tabla para evitar confusión
+    if other_widget.selection():
+        other_widget.selection_remove(other_widget.selection())
+
+    # Obtener el item seleccionado
+    selected_items = widget.selection()
+    if not selected_items:
+        return  # Si se deselecciona, no hacer nada
+
+    selected_item = selected_items[0]
+    item_values = widget.item(selected_item, "values")
+    if not item_values or len(item_values) < 1:
         return
 
-    all_descriptions = [item[0] for item in data_bodega] + [
-        item[0] for item in data_local
-    ]
-    unique_descriptions = sorted(list(set(all_descriptions)))
+    description = item_values[0]
 
-    matches = [desc for desc in unique_descriptions if search_term in desc.lower()]
+    # Actualizar el cuadro de búsqueda principal
+    entry_search.delete(0, tk.END)
+    entry_search.insert(0, description)
 
-    for match in matches:
-        listbox_autocomplete.insert(tk.END, match)
-
-    if matches:
-        entry_x = entry_search_container.winfo_rootx() - root.winfo_rootx()
-        entry_y = entry_search_container.winfo_rooty() - root.winfo_rooty()
-        entry_height = entry_search_container.winfo_height()
-        entry_width = entry_search_container.winfo_width()
-        listbox_autocomplete.place(
-            x=entry_x, y=entry_y + entry_height + 1, width=entry_width
-        )
-    else:
-        listbox_autocomplete.place_forget()
+    # Actualizar las cantidades de los proveedores para el item seleccionado
+    update_provider_quantities(description)
 
 
-def select_from_listbox(event):
-    """Pone la selección del autocompletado en el cuadro de texto y busca."""
-    if listbox_autocomplete.curselection():
-        selected_value = listbox_autocomplete.get(listbox_autocomplete.curselection())
-        entry_search.delete(0, tk.END)
-        entry_search.insert(0, selected_value)
-        listbox_autocomplete.place_forget()
-        search()
+def update_provider_quantities(search_term):
+    """Busca un item específico en los archivos de proveedores y actualiza la UI."""
+    provider_files = {
+        "pdcentro.txt": pd_centro_qty_var,
+        "pdpr.txt": pd_pr_qty_var,
+        "pdst.txt": pd_st_qty_var,
+    }
+    for filename, qty_var in provider_files.items():
+        order_data = parse_file(filename)
+        found_qty = 0
+        for desc, qty in order_data:
+            if desc.strip().lower() == search_term.lower():
+                found_qty = qty
+                break
+        qty_var.set(str(found_qty))
 
 
 def search():
-    """Busca el item en ambos archivos y muestra los resultados."""
-    search_term = entry_search.get().strip()
-    listbox_autocomplete.place_forget()
+    """Busca coincidencias parciales del término de búsqueda y las muestra en las tablas."""
+    search_term = entry_search.get().strip().lower()
 
     # Limpiar resultados anteriores
     for item in tree_bodega.get_children():
@@ -140,44 +149,15 @@ def search():
     if not search_term:
         return
 
-    # Buscar en bodega y local
-    found_in_bodega = False
+    # Buscar y mostrar coincidencias en bodega
     for description, quantity in data_bodega:
-        if description.strip().lower() == search_term.lower():
+        if search_term in description.strip().lower():
             tree_bodega.insert("", tk.END, values=(description, quantity))
-            found_in_bodega = True
-            break
 
-    found_in_local = False
+    # Buscar y mostrar coincidencias en local
     for description, quantity in data_local:
-        if description.strip().lower() == search_term.lower():
+        if search_term in description.strip().lower():
             tree_local.insert("", tk.END, values=(description, quantity))
-            found_in_local = True
-            break
-
-    if found_in_bodega and not found_in_local:
-        tree_local.insert(
-            "", tk.END, values=(search_term, "No encontrado"), tags=("not_found",)
-        )
-    elif found_in_local and not found_in_bodega:
-        tree_bodega.insert(
-            "", tk.END, values=(search_term, "No encontrado"), tags=("not_found",)
-        )
-
-    # Buscar en archivos de pedidos de proveedores
-    provider_files = {
-        "pdcentro.txt": pd_centro_qty_var,
-        "pdpr.txt": pd_pr_qty_var,
-        "pdst.txt": pd_st_qty_var,
-    }
-    for filename, qty_var in provider_files.items():
-        order_data = parse_file(filename)
-        found_qty = 0
-        for desc, qty in order_data:
-            if desc.strip().lower() == search_term.lower():
-                found_qty = qty
-                break
-        qty_var.set(str(found_qty))
 
 
 def normalize_files():
@@ -229,7 +209,7 @@ def transfer_quantity(direction):
     if not search_term:
         messagebox.showwarning(
             "Acción Requerida",
-            "Por favor, primero busque un artículo para poder trasladarlo.",
+            "Por favor, primero busque y seleccione un artículo.",
         )
         return
     try:
@@ -303,7 +283,7 @@ def adjust_quantity(target, action):
     if not search_term:
         messagebox.showwarning(
             "Acción Requerida",
-            "Por favor, primero busque un artículo para poder ajustarlo.",
+            "Por favor, primero busque y seleccione un artículo.",
         )
         return
     try:
@@ -328,7 +308,8 @@ def adjust_quantity(target, action):
 
     if item_index == -1:
         messagebox.showerror(
-            "Error", f"El artículo '{search_term}' no se encontró en {target}."
+            "Error",
+            f"El artículo seleccionado '{search_term}' no se encontró en {target}.",
         )
         return
 
@@ -404,8 +385,7 @@ def add_to_purchase_order(filename):
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
-            "Acción Requerida",
-            "Por favor, busque un artículo para agregarlo a un pedido.",
+            "Acción Requerida", "Por favor, busque y seleccione un artículo."
         )
         return
 
@@ -446,13 +426,13 @@ def delete_item():
     if not search_term:
         messagebox.showwarning(
             "Acción Requerida",
-            "Por favor, primero busque un artículo para poder eliminarlo.",
+            "Por favor, primero busque y seleccione un artículo.",
         )
         return
 
     confirm = messagebox.askyesno(
         "Confirmar Eliminación",
-        f"¿Está seguro de que desea eliminar el ítem '{search_term}' de ambos inventarios?\nEsta acción no se puede deshacer.",
+        f"¿Está seguro de que desea eliminar '{search_term}' de ambos inventarios?\nEsta acción no se puede deshacer.",
     )
 
     if confirm:
@@ -499,7 +479,8 @@ def edit_item():
 
     if not old_desc:
         messagebox.showwarning(
-            "Acción Requerida", "Por favor, busque un artículo para editar."
+            "Acción Requerida",
+            "Por favor, busque y seleccione un artículo para editar.",
         )
         return
 
@@ -549,7 +530,7 @@ def edit_item():
         if not item_found_and_changed:
             messagebox.showinfo(
                 "No Encontrado",
-                f"No se encontró el ítem '{old_desc}' en los inventarios principales.",
+                f"No se encontró '{old_desc}' en los inventarios principales.",
             )
             return
 
@@ -590,7 +571,7 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("850x970")  # Aumentado el alto para las nuevas secciones
+root.geometry("850x970")
 root.configure(bg="#f0f0f0")
 
 # Variables para mostrar cantidades de pedidos
@@ -618,7 +599,7 @@ entry_search = tk.Entry(
     bg="white",
 )
 entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
-entry_search.bind("<KeyRelease>", update_autocomplete)
+
 button_search = tk.Button(
     frame_search,
     text="Buscar",
@@ -660,11 +641,6 @@ button_normalize = tk.Button(
 )
 button_normalize.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
-listbox_autocomplete = tk.Listbox(
-    root, font=("Helvetica", 11), relief="solid", borderwidth=1
-)
-listbox_autocomplete.bind("<<ListboxSelect>>", select_from_listbox)
-
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg="#f0f0f0")
 frame_results.pack(expand=True, fill=tk.BOTH)
@@ -692,6 +668,11 @@ tree_local.column("Item", width=250)
 tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 
+# --- BINDINGS PARA SELECCIÓN ---
+tree_bodega.bind("<<TreeviewSelect>>", on_item_select)
+tree_local.bind("<<TreeviewSelect>>", on_item_select)
+
+
 # --- CONFIGURACIÓN DE TAGS PARA COLORES ---
 tree_bodega.tag_configure("not_found", foreground="red")
 tree_local.tag_configure("not_found", foreground="red")
@@ -710,7 +691,7 @@ tk.Label(
 ).pack(side=tk.LEFT, padx=(0, 10))
 btn_delete_item = tk.Button(
     frame_danger,
-    text="Eliminar Ítem Buscado",
+    text="Eliminar Ítem Seleccionado",
     command=delete_item,
     font=("Helvetica", 10, "bold"),
     bg="#dc3545",

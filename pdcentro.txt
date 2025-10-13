@@ -11,10 +11,16 @@
     Cable Nokia 1100 5
     Cable V8 Eco 5
     Cable Yoyos Tc 5
+    Cargador Apple 15 Pro Max 35W Con Cable 1
+    Cargador Apple 16 Pro Max 45W Con Cable 1
+    Cargador Apple 20W Con Cable 1
     Cargador Fuente 360 Slim 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
+    Cargador Samsung 25W Cabeza Blanco 2
+    Cargador Samsung 45W Cabeza Blanco 2
+    Cargador Samsung 45W Con Cable Blanco 1
     Cargador We Tc 33W 3
     Cargador Yl Tc 2
     Forro Antichoque Hawei Honor X9 Dama 3
@@ -90,6 +96,7 @@
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme C53 / Note 50 2
     Forro Space Oppo Realme C75 2
+    Forro Space Oppo Reno 11F 2
     Forro Space Samsung A04E 2
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 1

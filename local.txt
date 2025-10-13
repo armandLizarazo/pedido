@@ -149,6 +149,7 @@
     Balaca Apple P9 Negro 0
     Balaca Apple P9 Rosa 1
     Balaca Con Pantalla Negro 0
+    Balaca Gamer A65 0
     Balaca Gamer G-2600 Amarillocamuflado 0
     Balaca Gamer G-2600 Negro 0
     Balaca Ipega Militar 0
@@ -215,7 +216,7 @@
     Cable 5V 9V 12V Plug Ancho 0
     Cable Apple Iphone 4 2
     Cable Apple Tc A Tc 60w Aguja 1
-    Cable Apple Tc Ligthning 3
+    Cable Apple Tc Ligthning 2
     Cable Apple Tc Ligthning 2M 3
     Cable Apple Tc a Tc 1
     Cable Apple Usb Ligthning 3
@@ -237,7 +238,7 @@
     Cable Belkin Ligthning 3
     Cable Belkin Tc 3
     Cable Belkin Tc 2M 1
-    Cable Belkin V8 3
+    Cable Belkin V8 1
     Cable Caterpillar Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
@@ -276,7 +277,7 @@
     Cable Optico 1.5M 1
     Cable Optico 3M 1
     Cable Optico 5M 1
-    Cable Poder Cuadrado 3
+    Cable Poder Cuadrado 2
     Cable Poder Grabadora 3
     Cable Poder Grabadora Corto 1
     Cable Poder Micro 5
@@ -298,7 +299,7 @@
     Cable Siliconado Zonymax Tc Negro 0
     Cable Siliconado Zonymax V8 0
     Cable Sony Ps2 2
-    Cable Tc A Tc Eco 2
+    Cable Tc A Tc Eco 1
     Cable Tc Cordon Eco 5
     Cable Tc Eco 5
     Cable Tc Eco Corto 4
@@ -308,7 +309,7 @@
     Cable V3 1.5M 2
     Cable V3 Eco 1
     Cable V8 3.0 Corto 0
-    Cable V8 Eco 5
+    Cable V8 Eco 4
     Cable Vga 1.5M 2
     Cable Vga 10M 2
     Cable Vga 15M 0
@@ -357,19 +358,16 @@
     Cargador 20w C15 0
     Cargador 5V 2A Doble Punta 1
     Cargador 9V 2A Doble Punta 0
-    Cargador Apple 15 Pro Max 35W Con Cable 0
+    Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
-    Cargador Apple 20W Con Cable 1
-    Cargador Apple 20W Tc Cabeza 1
+    Cargador Apple 20W Con Cable 2
+    Cargador Apple 20W Tc Cabeza 2
     Cargador Apple 25W Con Cable 2
     Cargador Apple 25W Tc Cabeza 2
-    Cargador Apple 25W Tc Ligthning 0
     Cargador Apple 30W Tc Cabeza 1
     Cargador Apple 35W 2Tc Cabeza 1
     Cargador Apple 5V Eco 2
     Cargador Apple 60W 2P Tc Cabeza 1
-    Cargador Apple 60W 2Tc 0
-    Cargador Apple 60W 2Tc Cabeza 1
     Cargador Apple Magsafe 1
     Cargador Belkin Ligthning 1
     Cargador Belkin Tc 4
@@ -422,7 +420,6 @@
     Cargador Royal 45W Tc Cbl 0
     Cargador Samsung 25W Cabeza Blanco 1
     Cargador Samsung 25W Cabeza Negro 2
-    Cargador Samsung 25W Cable V8 0
     Cargador Samsung 25W V8 1
     Cargador Samsung 45W Cabeza Blanco 1
     Cargador Samsung 45W Cabeza Negro 2
@@ -447,7 +444,7 @@
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
-    Cargador Yl Tc 2
+    Cargador Yl Tc 1
     Cargador Yl V8 3
     Cargador Yl V8 Eco 1
     Celular Corn Flip K 0
@@ -501,12 +498,12 @@
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
     Control Tv Tv Box 2
-    Control Tv Universal 4
+    Control Tv Universal 3
     Control Universal Roku 0
     Depilador Cejas 0
     Dispensador Agua Botellon 2
     Dron 988 Doble Camara 0
-    Escencia Aceite 10
+    Escencia Aceite 9
     Estetica Cepillo Secador 0
     Estetica Cepillo Secador Remington Aguacate 0
     Estetica Ondas de Sirena 1
@@ -720,6 +717,8 @@
     Forro Antichoque Oppo Realme C67 Dama 2
     Forro Antichoque Oppo Realme C75 Caballero 0
     Forro Antichoque Oppo Realme C75 Dama 0
+    Forro Antichoque Oppo Reno 11F Caballero 4
+    Forro Antichoque Oppo Reno 11F Dama 3
     Forro Antichoque Oppo Reno 13 5G Caballero 5
     Forro Antichoque Oppo Reno 13 5G Dama 5
     Forro Antichoque Oppo Reno 13F Dama 5
@@ -736,7 +735,7 @@
     Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 5
     Forro Antichoque Pin Motorola Moto G15 2
     Forro Antichoque Pin Motorola Moto G55 3
-    Forro Antichoque Pin Oppo A78 4G 4
+    Forro Antichoque Pin Oppo A78 4G 3
     Forro Antichoque Pin Oppo A79 0
     Forro Antichoque Pin Oppo Realme C67 3
     Forro Antichoque Pin Samsung A13 0
@@ -1005,7 +1004,9 @@
     Forro Armadura Oppo A80 Negro 0
     Forro Armadura Oppo Realme C55 Rojo 1
     Forro Armadura Oppo Realme C67 Negro 1
-    Forro Armadura Oppo Reno 11F Negro 0
+    Forro Armadura Oppo Reno 11F Azul 1
+    Forro Armadura Oppo Reno 11F Negro 1
+    Forro Armadura Oppo Reno 11F Rojo 1
     Forro Armadura Oppo Reno 13 5G 0
     Forro Armadura Oppo Reno 13 5G Rojo 0
     Forro Armadura Samsung A06 Azul 0
@@ -1159,7 +1160,7 @@
     Forro Pc 14 Pulgadas 2
     Forro Pc 15 Pulgadas 1
     Forro Pc 16 Pulgadas 0
-    Forro Picina 4
+    Forro Picina 3
     Forro Picina Grande 2
     Forro Pin A55 Dama 0
     Forro Pin Apple Iphone 11 0
@@ -1193,10 +1194,9 @@
     Forro Space Apple Iphone 16e 2
     Forro Space Apple Iphone 6 Plus 1
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
-    Forro Space Apple Iphone 6S 2
-    Forro Space Apple Iphone 6S Plus 0
-    Forro Space Apple Iphone 7 / 8 0
-    Forro Space Apple Iphone 7 / Iphone 8 0
+    Forro Space Apple Iphone 6S 1
+    Forro Space Apple Iphone 6S Plus 1
+    Forro Space Apple Iphone 7 / 8 1
     Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2
     Forro Space Apple Iphone X / Xs 2
     Forro Space Apple Iphone Xr 1
@@ -1285,6 +1285,7 @@
     Forro Space Oppo Realme C75 0
     Forro Space Oppo Reno 10 0
     Forro Space Oppo Reno 11 2
+    Forro Space Oppo Reno 11F 0
     Forro Space Oppo Reno 13 5G 2
     Forro Space Oppo Reno 5 Lite 1
     Forro Space Oppo Reno 5G 2
@@ -1350,7 +1351,7 @@
     Forro Space Tecno Spark 10 / 10C 2
     Forro Space Tecno Spark 10 Pro 2
     Forro Space Tecno Spark 20 Pro / Hot 40 / Hot 40 Pro 3
-    Forro Space Tecno Spark 20 Pro Plus 2
+    Forro Space Tecno Spark 20 Pro Plus 1
     Forro Space Tecno Spark 30 4G 0
     Forro Space Tecno Spark Go 2022 / 8C 2
     Forro Space Tecno Spark Go 2023 2
@@ -1431,7 +1432,7 @@
     Gramera Joyeria 1
     Gramera Sencilla 1
     Gramera Sencilla Recargable 1
-    Guantes Gamer 2
+    Guantes Gamer 1
     Herramienta Prensa Economica 0
     Holder Car Regilla 0
     Holder Chupa Parabrisas 1
@@ -1465,6 +1466,7 @@
     Hydrogel Oppo Realme C75 0
     Hydrogel Oppo Reno 11 5G 0
     Hydrogel Oppo Reno 11F 0
+    Hydrogel Oppo Reno 11F 0
     Hydrogel Samsung A36 0
     Hydrogel Samsung S24 Fe 0
     Hydrogel Tcl 50 Nxtpaper 0
@@ -1474,6 +1476,7 @@
     Hydrogel Tecno Spark 20 Pro Plus 0
     Hydrogel Xiaomi Redmi 12 0
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
+    Hydrogel Xiaomi Redmi Note 13 Pro Plus 0
     Hydrogel Xiaomi Redmi Note 14 0
     Hydrogel Xiaomi Redmi Note 14 Pro 1
     Hydrogel Zte Blade V50 Design 0
@@ -1647,6 +1650,8 @@
     Memoria Musica Crosover Crosover Calidoso 0
     Memoria Musica Crosover Crosover Club 1
     Memoria Musica Crosover Crosover La Magia 1
+    Memoria Musica Crosover Crosover Nitido 1
+    Memoria Musica Crosover Crosover Ready 1
     Memoria Musica Crosover Crosover Relevante 1
     Memoria Musica Crosover Crosover sin Limites 1
     Memoria Musica Crosover Crosover sin Reggaeton 2
@@ -1667,10 +1672,11 @@
     Memoria Musica Popular Lo 8 Caqueteños 1
     Memoria Musica Popular Popular y Musica de Banda 1
     Memoria Musica Popular Rancheras Pa Tomar 1
+    Memoria Musica Popular Sirvalo Pues 1
     Memoria Musica Popular Vicente y Antonio 1
     Memoria Musica Rap Fanaticos del Rap 2
     Memoria Musica Reggaeton Clasico 0
-    Memoria Musica Reggaeton Clasicos del Reggaeton 0
+    Memoria Musica Reggaeton Clasicos del Reggaeton 2
     Memoria Musica Reggaeton Reggaeton en Tendencia 1
     Memoria Musica Reggaeton Super Reggaeton 1
     Memoria Musica Regueton 0
@@ -1769,8 +1775,8 @@
     Pacha Motorola Moto G31 0
     Pacha Motorola Moto G35 0
     Pacha Motorola Moto G60 / G60S 0
-    Pacha Motorola Moto G8 Play / One Macro 1
-    Pacha Motorola Moto G8 Plus 0
+    Pacha Motorola Moto G8 Play / One Macro 0
+    Pacha Motorola Moto G8 Plus 2
     Pacha Motorola Moto G8 Power 0
     Pacha Motorola Moto G8 Power Lite 1
     Pacha Motorola Moto G9 Power 1
@@ -1868,7 +1874,7 @@
     Pacha Xiaomi Redmi 8A 2
     Pacha Xiaomi Redmi 9 2
     Pacha Xiaomi Redmi 9A / 9C / 10A 3
-    Pacha Xiaomi Redmi 9T / Poco M3 1
+    Pacha Xiaomi Redmi 9T / Poco M3 0
     Pacha Xiaomi Redmi A1 / A2 3
     Pacha Xiaomi Redmi A3 1
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
@@ -1936,7 +1942,7 @@
     Pilas Carbon Gp 9V 6
     Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aa x2 11
-    Pilas Carbon Maxday Aaa X2 6
+    Pilas Carbon Maxday Aaa X2 5
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -1944,6 +1950,7 @@
     Pilas Recargables Beston AAA Con Cargador 0
     Pilas Recargables Beston AAA x4 0
     Pilas Recargables Beston Aaa x2 2
+    Pilas Recargables Beston Mixta con Cargador 0
     Pilas Recargables Maxday AA x4 0
     Pilas Recargables Sony AA con Cargador 0
     Pilas Recargables Sony Aa X2 0
@@ -1957,7 +1964,7 @@
     Pin de Carga Huawei Y5 II 0
     Pin de Carga Oppo A12 / A15 0
     Pisa Papel 1
-    Plancha Babyliss Combo Nano Titanium 0
+    Plancha Babyliss Combo Nano Titanium 1
     Plancha Remington Aguacate 1
     Plancha Remington Keratina 0
     Plancha Remington Triple Infusion 0
@@ -1997,10 +2004,11 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 87
+    Recargas 83
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
+    Reproductor Dvd Foxtech Fx-255 0
     Reproductor Dvd One Tech Dvd-227 Hdmi 0
     Reproductor Fly Tv Box 64-4 1
     Reproductor Onn 4K 1
@@ -2034,6 +2042,7 @@
     Servicio Tecnico Apple Despegar Bateria IPhone 6 0
     Servicio Tecnico Apple Limpieza Altavoz y Carga Iphone 14 Pro 0
     Servicio Tecnico Apple Mantenimiento Logica Iphone 11 0
+    Servicio Tecnico Apple Mantenimiento Logica Iphone 13 0
     Servicio Tecnico Apple Mntenimiento Puerto de Carga Iphone 6 0
     Servicio Tecnico Apple Reconectar Pantalla 0
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
@@ -2218,27 +2227,27 @@
     Silicone Case Apple Iphone 16 Pro Max Rosa 1
     Silicone Case Apple Iphone 16 Pro Max Verde 1
     Silicone Case Apple Iphone 16E Negro 0
-    Silicone Case Apple Iphone 6S Amarillo 0
-    Silicone Case Apple Iphone 6S Azulrey 0
-    Silicone Case Apple Iphone 6S Lila 0
-    Silicone Case Apple Iphone 6S Morado 0
-    Silicone Case Apple Iphone 6S Plus Azulrey 0
-    Silicone Case Apple Iphone 6S Plus Cafe 0
-    Silicone Case Apple Iphone 6S Plus Rojo 0
-    Silicone Case Apple Iphone 6S Plus Rosa 0
-    Silicone Case Apple Iphone 6S Plus Vinotinto 0
-    Silicone Case Apple Iphone 6S Rojo 0
-    Silicone Case Apple Iphone 6S Salmon 0
-    Silicone Case Apple Iphone 6S Verde 0
-    Silicone Case Apple Iphone 6S Vinotinto 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Amarillo 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Lila 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Morado 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Naranja 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Negro 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Rojo 0
-    Silicone Case Apple Iphone 7 / Iphone 8 Rosa 0
+    Silicone Case Apple Iphone 6S Amarillo 1
+    Silicone Case Apple Iphone 6S Azulrey 1
+    Silicone Case Apple Iphone 6S Lila 1
+    Silicone Case Apple Iphone 6S Morado 1
+    Silicone Case Apple Iphone 6S Plus Azulrey 1
+    Silicone Case Apple Iphone 6S Plus Cafe 1
+    Silicone Case Apple Iphone 6S Plus Rojo 1
+    Silicone Case Apple Iphone 6S Plus Rosa 1
+    Silicone Case Apple Iphone 6S Plus Vinotinto 1
+    Silicone Case Apple Iphone 6S Rojo 1
+    Silicone Case Apple Iphone 6S Salmon 1
+    Silicone Case Apple Iphone 6S Verde 2
+    Silicone Case Apple Iphone 6S Vinotinto 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Amarillo 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Azulrey 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Lila 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Morado 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Naranja 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Negro 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Rojo 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
     Silicone Case Apple Iphone 7 7 Iphone 8 Blanco 0
     Silicone Case Apple Iphone 7 Plus / 8 Plus Amarillo 0
     Silicone Case Apple Iphone 7 Plus / 8 Plus Azulrey 0
@@ -2290,6 +2299,11 @@
     Silicone Case Apple Iphone Xs Max Rosa 0
     Silicone Case Huawei Honor 200 Azulrey 1
     Silicone Case Huawei Honor 200 Fucsia 1
+    Silicone Case Huawei Honor 200 Lite Amarillo 1
+    Silicone Case Huawei Honor 200 Lite Azulclaro 1
+    Silicone Case Huawei Honor 200 Lite Azulrey 1
+    Silicone Case Huawei Honor 200 Lite Fucsia 0
+    Silicone Case Huawei Honor 200 Lite Negro 1
     Silicone Case Huawei Honor 200 Negro 1
     Silicone Case Huawei Honor 200 Rojo 1
     Silicone Case Huawei Honor 200 Vinotinto 1
@@ -2857,8 +2871,13 @@
     Silicone Case Oppo Reno 11 Palorosa 1
     Silicone Case Oppo Reno 11 Rojo 1
     Silicone Case Oppo Reno 11 Rosa 1
+    Silicone Case Oppo Reno 11F Amarillo 1
+    Silicone Case Oppo Reno 11F Azulrey 0
     Silicone Case Oppo Reno 11F Fucsia 0
     Silicone Case Oppo Reno 11F Morado 0
+    Silicone Case Oppo Reno 11F Negro 1
+    Silicone Case Oppo Reno 11F Rojo 1
+    Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Oppo Reno 12 Pro Azulrey 0
     Silicone Case Oppo Reno 12F Morado 1
     Silicone Case Oppo Reno 13 5G Amarillo 1
@@ -3751,7 +3770,7 @@
     Silicone Case Zte Blade A54 Negro 0
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 10
+    Simcard Claro 9
     Simcard Movistar 7
     Simcard Tigo 19
     Simcard Virgin 6
@@ -3833,7 +3852,7 @@
     Teclado Dn-236 0
     Teclado Kb-502 Eco 1
     Teclado Mecanico Gamer 0
-    Teclado Minikeyboard 1
+    Teclado Minikeyboard 0
     Teclado Minikeyboard Tipo Control Tv 0
     Teclado Seisa Dn-236 0
     Telefono Fijo Panaphone Kx-T806 0
@@ -3871,8 +3890,7 @@
     Vidrio 5D Apple Iphone 11 / Xr 9
     Vidrio 5D Apple Iphone 11 Pro Max 5
     Vidrio 5D Apple Iphone 12 Pro Max 2
-    Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E 1
-    Vidrio 5D Apple Iphone 13 / 13Pro 3
+    Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio 5D Apple Iphone 13 Pro Max 3
     Vidrio 5D Apple Iphone 14 Pro 4
     Vidrio 5D Apple Iphone 14 Pro / 15 / 15 Pro / 16 3
@@ -3882,6 +3900,8 @@
     Vidrio 5D Apple Iphone 15 pro 0
     Vidrio 5D Apple Iphone 16 Pro 4
     Vidrio 5D Apple Iphone 16 Pro Max 5
+    Vidrio 5D Apple Iphone 6 / 7 / 8 Blanco 9
+    Vidrio 5D Apple Iphone 6 / 7 / 8 Negro 2
     Vidrio 5D Apple Iphone 6 Plus / 7 Plus / 8 Plus Negro 0
     Vidrio 5D Apple Iphone Xs Max 4
     Vidrio 5D Huawei Honor 90 Lite 0
@@ -3914,6 +3934,7 @@
     Vidrio 5D Motorola Moto G40 4
     Vidrio 5D Motorola Moto G52 0
     Vidrio 5D Motorola Moto G8 Play 4
+    Vidrio 5D Motorola Moto G8 Plus 1
     Vidrio 5D Motorola Moto G84 4
     Vidrio 5D Motorola Moto G9 Plus 0
     Vidrio 5D Nokia 5.3 3
@@ -3942,7 +3963,7 @@
     Vidrio 5D Samsung A53 4
     Vidrio 5D Samsung A54 / S23 Fe 7
     Vidrio 5D Samsung A56 0
-    Vidrio 5D Samsung A71 / Poco X3 5
+    Vidrio 5D Samsung A71 / Poco X3 2
     Vidrio 5D Samsung S22 / S23 4
     Vidrio 5D Samsung S23 Plus 0
     Vidrio 5D Tecno Camon 20 / 20 Pro 0
@@ -3963,7 +3984,7 @@
     Vidrio 5D Xiaomi Redmi 14 0
     Vidrio 5D Xiaomi Redmi 14C / A5 / A3 5
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 4
-    Vidrio 5D Xiaomi Redmi 9T 0
+    Vidrio 5D Xiaomi Redmi 9T 4
     Vidrio 5D Xiaomi Redmi A1 / A2 0
     Vidrio 5D Xiaomi Redmi A3 0
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 5
@@ -3981,7 +4002,7 @@
     Vidrio Antiespia Apple Iphone 12 Mini 0
     Vidrio Antiespia Apple Iphone 12 Pro Max 2
     Vidrio Antiespia Apple Iphone 13 0
-    Vidrio Antiespia Apple Iphone 13 / 14 4
+    Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 4
     Vidrio Antiespia Apple Iphone 13 Mini 0
     Vidrio Antiespia Apple Iphone 13 Pro Max 4
     Vidrio Antiespia Apple Iphone 14 0
@@ -3994,6 +4015,7 @@
     Vidrio Antiespia Apple Iphone 16 0
     Vidrio Antiespia Apple Iphone 16 Pro Max 0
     Vidrio Antiespia Apple Iphone 16E 0
+    Vidrio Antiespia Apple Iphone 6 / 7 / 8 0
     Vidrio Antiespia Apple Iphone X / Xs / 11 Pro 0
     Vidrio Antiespia Apple Iphone Xs Max 0
     Vidrio Antiespia Huawei Honor X6S 5
@@ -4032,6 +4054,7 @@
     Vidrio Blindado Apple Iphone 12 Mini 0
     Vidrio Blindado Apple Iphone 12 Pro Max 0
     Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 0
+    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Blindado Apple Iphone 13 Mini 0
     Vidrio Blindado Apple Iphone 13 Pro Max 5
     Vidrio Blindado Apple Iphone 14 Pro / 15 / 15 Pro / 16 0
@@ -4097,7 +4120,8 @@
     Vidrio Ceramaico Vivo Y33s 3
     Vidrio Ceramico Apple Iphone 11 / Xr 4
     Vidrio Ceramico Apple Iphone 12 Mini 4
-    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 13
+    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 0
+    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 13
     Vidrio Ceramico Apple Iphone 14 Pro Max 0
     Vidrio Ceramico Apple Iphone 6 Plus 4
     Vidrio Ceramico Huawei Y9 Prime 14
@@ -4136,7 +4160,6 @@
     Vidrio Fullpega Tecno Spark 20 Pro Plus 2
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 3
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 2
-    Vidrio Motorola Moto G8 Plus 3
     Vidrio Oppo A54 2
     Vidrio Perlas Apple Iphone 11 2
     Vidrio Perlas Apple Iphone 11 / Xr 0
@@ -4150,7 +4173,7 @@
     Vidrio Tortuga Apple Iphone 12 Pro Max 0
     Vidrio Tortuga Apple Iphone 13 3
     Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 0
-    Vidrio Tortuga Apple Iphone 13 / 13P 0
+    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 / 16E 3
     Vidrio Tortuga Apple Iphone 13 Mini 0
     Vidrio Tortuga Apple Iphone 13 Pro Max 4
     Vidrio Tortuga Apple Iphone 14 Pro 0
@@ -4159,6 +4182,7 @@
     Vidrio Tortuga Apple Iphone 15 Pro Max 0
     Vidrio Tortuga Apple Iphone 16 Pro 2
     Vidrio Tortuga Apple Iphone 16 Pro Max 0
+    Vidrio Tortuga Apple Iphone 6 / 7 / 8 0
     Vidrio Tortuga Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
     Vidrio Tortuga Apple Iphone X / Xs / 11 Pro 0
     Vidrio Tortuga Apple Iphone Xs Max 0
@@ -4188,12 +4212,12 @@
     Vidrio Tortuga Tecno Spark 20 Pro 2
     Vidrio Tortuga Tecno Spark Go 2023 / Spark 10C / Smart 7 2
     Vidrio Tortuga Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 4
-    Vidrio Tortuga Xiaomi Redmi 10 4
+    Vidrio Tortuga Xiaomi Redmi 10 3
     Vidrio Tortuga Xiaomi Redmi 10C / 12C 4
     Vidrio Tortuga Xiaomi Redmi 12 4
     Vidrio Tortuga Xiaomi Redmi 13C 0
     Vidrio Tortuga Xiaomi Redmi 14C / A5 / A3 3
-    Vidrio Tortuga Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 2
+    Vidrio Tortuga Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 1
     Vidrio Tortuga Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
     Vidrio Tortuga Xiaomi Redmi Note 13 / Note 14 0
     Visor Camara Apple Iphone 11 0
@@ -4214,4 +4238,5 @@
     Wase Case MagSafe Xiaomi Redmi A5 Amarillo 1
     Wase Case MagSafe Xiaomi Redmi A5 Azuloscuro 1
     Wase Case MagSafe Xiaomi Redmi A5 Negro 1
+    otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4

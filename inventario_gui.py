@@ -114,6 +114,34 @@ class GestorCaja:
         except Exception as e:
             return False, f"Error al registrar movimiento: {e}"
 
+    def eliminar_movimiento(self, timestamp_a_eliminar):
+        try:
+            with open(self.archivo_movimientos, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                lineas = list(reader)
+
+            header = lineas[0]
+            lineas_actualizadas = [header]
+            eliminado = False
+            for linea in lineas[1:]:
+                if linea and linea[0] == timestamp_a_eliminar:
+                    eliminado = True
+                    continue  # No agregar esta línea
+                lineas_actualizadas.append(linea)
+
+            if not eliminado:
+                return False, "No se encontró el movimiento para eliminar."
+
+            with open(self.archivo_movimientos, "w", encoding="utf-8", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerows(lineas_actualizadas)
+
+            return True, "Movimiento eliminado con éxito."
+        except FileNotFoundError:
+            return False, "El archivo de movimientos no existe."
+        except Exception as e:
+            return False, f"Error al eliminar el movimiento: {e}"
+
     def guardar_conteo_historial(self, total, detalle):
         try:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -131,7 +159,9 @@ class GestorCaja:
             with open(self.archivo_historial_conteos, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
                 next(reader, None)  # Skip header
-                return list(reader)
+                return list(
+                    reversed(list(reader))
+                )  # Devolver los más recientes primero
         except FileNotFoundError:
             return []
         except Exception as e:
@@ -237,16 +267,47 @@ class GestorInventario:
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
+    def obtener_stock_dict(self, nombre_archivo):
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        ruta_archivo = os.path.join(script_dir, nombre_archivo)
+        stock_dict = {}
+        if not os.path.exists(ruta_archivo):
+            return stock_dict
+
+        try:
+            with open(ruta_archivo, "r", encoding="utf-8") as f:
+                for linea in f:
+                    partes = linea.strip().rsplit(" ", 1)
+                    if len(partes) == 2:
+                        desc, cant_str = partes
+                        try:
+                            stock_dict[desc.strip()] = int(cant_str)
+                        except ValueError:
+                            continue
+            return stock_dict
+        except Exception:
+            return stock_dict
+
     def obtener_pagos_electronicos_del_dia(self, fecha_str):
         total_electronico = 0.0
         ventas_procesadas = set()
         try:
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                next(reader, None)
+                header = next(reader)
+                estado_idx = header.index("Estado") if "Estado" in header else -1
+
                 for row in reader:
                     if not row or not row[0].startswith(fecha_str):
                         continue
+
+                    if (
+                        estado_idx != -1
+                        and len(row) > estado_idx
+                        and row[estado_idx] == "Anulada"
+                    ):
+                        continue
+
                     try:
                         id_venta = row[1]
                         if id_venta in ventas_procesadas:
@@ -290,13 +351,24 @@ class GestorInventario:
         try:
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                next(reader, None)
+                header = next(reader)
+                estado_idx = header.index("Estado") if "Estado" in header else -1
+
                 for row in reader:
-                    if row and row[0].startswith(fecha_str):
-                        try:
-                            total_ventas += float(row[6])
-                        except (ValueError, IndexError):
-                            continue
+                    if not row or not row[0].startswith(fecha_str):
+                        continue
+
+                    if (
+                        estado_idx != -1
+                        and len(row) > estado_idx
+                        and row[estado_idx] == "Anulada"
+                    ):
+                        continue
+
+                    try:
+                        total_ventas += float(row[6])  # Columna 'TotalVenta'
+                    except (ValueError, IndexError):
+                        continue
             return total_ventas
         except FileNotFoundError:
             return 0.0
@@ -321,6 +393,7 @@ class GestorInventario:
                         "ArchivoOrigen",
                         "Cliente",
                         "MedioPago",
+                        "Estado",
                     ]
                 )
         if not os.path.exists(self.directorio_facturas):
@@ -359,6 +432,7 @@ class GestorInventario:
                 archivo_origen,
                 cliente,
                 medio_pago,
+                "Completada",  # Nuevo estado
             ]
 
             with open(self.archivo_ventas, "a", encoding="utf-8", newline="") as f:
@@ -367,6 +441,151 @@ class GestorInventario:
             return True, "Item procesado."
         except Exception as e:
             return False, f"Error procesando item {item_details['desc']}: {e}"
+
+    def _restaurar_stock_item(self, descripcion, cantidad):
+        """Función auxiliar para sumar stock a un item en local.txt."""
+        archivo_local = "local.txt"
+        if not os.path.exists(archivo_local):
+            return False, f"El archivo '{archivo_local}' no existe."
+
+        try:
+            with open(archivo_local, "r", encoding="utf-8") as f:
+                lineas = f.readlines()
+
+            item_encontrado = False
+            descripcion_stripped = descripcion.strip()
+
+            for i, linea in enumerate(lineas):
+                partes = linea.strip().rsplit(" ", 1)
+                if len(partes) == 2 and partes[0].strip() == descripcion_stripped:
+                    nueva_cantidad = int(partes[1]) + cantidad
+                    lineas[i] = f"    {descripcion_stripped} {nueva_cantidad}\n"
+                    item_encontrado = True
+                    break
+
+            if not item_encontrado:  # Si el item fue borrado, se re-agrega
+                lineas.append(f"    {descripcion_stripped} {cantidad}\n")
+
+            with open(archivo_local, "w", encoding="utf-8") as f:
+                f.writelines(lineas)
+
+            return (
+                True,
+                f"{cantidad} unidad(es) de '{descripcion_stripped}' devueltas a local.txt.",
+            )
+
+        except Exception as e:
+            return False, f"Error al restaurar stock: {e}"
+
+    def anular_venta(self, id_venta_anular):
+        try:
+            # 1. Leer todas las líneas del CSV de forma segura
+            try:
+                with open(self.archivo_ventas, "r", encoding="utf-8") as f:
+                    reader = csv.reader(f)
+                    all_lines = list(reader)
+            except FileNotFoundError:
+                return False, "El archivo de registro de ventas no existe."
+
+            if not all_lines:
+                return False, "El registro de ventas está vacío."
+
+            # 2. Determinar si existe un encabezado y obtener los índices de las columnas
+            header = all_lines[0]
+            if "ID_Venta" in header:
+                has_header = True
+                start_index = 1
+                try:
+                    # Usar el encabezado para encontrar las columnas
+                    id_venta_idx = header.index("ID_Venta")
+                    desc_idx = header.index("Descripcion")
+                    cant_idx = header.index("Cantidad")
+                    if "Estado" not in header:
+                        header.append("Estado")
+                        for i in range(start_index, len(all_lines)):
+                            all_lines[i].append("Completada")
+                    estado_idx = header.index("Estado")
+                except ValueError as e:
+                    return (
+                        False,
+                        f"El encabezado del archivo de ventas es incorrecto. Falta la columna: {e}",
+                    )
+            else:
+                # Si no hay encabezado, usar índices fijos del formato antiguo
+                has_header = False
+                start_index = 0
+                id_venta_idx = 1
+                desc_idx = 2
+                cant_idx = 3
+                estado_idx = 11  # La columna de estado será la número 12 (índice 11)
+
+            # 3. Procesar las líneas para anular la venta
+            items_restaurados = []
+            venta_encontrada = False
+            changes_made = False
+
+            for i in range(start_index, len(all_lines)):
+                row = all_lines[i]
+
+                # Asegurar que la fila tenga suficientes columnas
+                while len(row) <= estado_idx:
+                    row.append("")
+
+                # Asignar estado por defecto si está vacío (para filas antiguas)
+                if not row[estado_idx]:
+                    row[estado_idx] = "Completada"
+
+                if (
+                    row[id_venta_idx] == id_venta_anular
+                    and row[estado_idx] != "Anulada"
+                ):
+                    venta_encontrada = True
+                    desc = row[desc_idx]
+                    try:
+                        cant = int(row[cant_idx])
+                        success, msg = self._restaurar_stock_item(desc, cant)
+                        if not success:
+                            return False, f"No se pudo restaurar el stock: {msg}"
+                        items_restaurados.append(msg)
+                        row[estado_idx] = "Anulada"
+                        changes_made = True
+                    except (ValueError, IndexError):
+                        return (
+                            False,
+                            f"Dato inválido en la venta {id_venta_anular}. No se pudo anular.",
+                        )
+
+            if not venta_encontrada:
+                return False, "No se encontró la venta o ya estaba anulada."
+
+            # 4. Si se realizaron cambios, reescribir el archivo
+            if changes_made:
+                # Si el archivo original no tenía encabezado, se agrega uno para migrarlo
+                if not has_header:
+                    new_header = [
+                        "Timestamp",
+                        "ID_Venta",
+                        "Descripcion",
+                        "Cantidad",
+                        "CostoUnitario",
+                        "PrecioUnitario",
+                        "TotalVenta",
+                        "Ganancia",
+                        "ArchivoOrigen",
+                        "Cliente",
+                        "MedioPago",
+                        "Estado",
+                    ]
+                    all_lines.insert(0, new_header)
+
+                with open(self.archivo_ventas, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerows(all_lines)
+
+            return True, "Venta anulada con éxito.\n" + "\n".join(items_restaurados)
+
+        except Exception as e:
+            return False, f"Error inesperado al anular la venta: {e}"
 
     def generar_factura_consolidada_txt(
         self,
@@ -697,10 +916,20 @@ class GestorInventario:
         try:
             if not os.path.exists(self.archivo_ventas):
                 return []
+            # Leer sin encabezado para la GUI, la anulación lo maneja internamente
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                next(reader, None)
-                return list(reader)
+                # Omitir encabezado si existe
+                first_row = next(reader, None)
+                if first_row and "ID_Venta" in first_row:
+                    return list(reader)
+                else:  # Si no hay encabezado, o no es el esperado, incluir la primera línea
+                    all_data = []
+                    if first_row:
+                        all_data.append(first_row)
+                    all_data.extend(list(reader))
+                    return all_data
+
         except Exception as e:
             messagebox.showerror("Error", f"No se pudo leer historial de ventas: {e}")
             return []
@@ -720,7 +949,7 @@ class GestorInventario:
 class InventarioGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Gestor de Inventario y Ventas v4.3 - Carrito Integrado")
+        master.title("Gestor de Inventario y Ventas v4.7 - Ajuste de Stock Mejorado")
         master.geometry("1400x800")
         self.style = ttk.Style()
         self.style.theme_use("clam")
@@ -728,6 +957,7 @@ class InventarioGUI:
         self.gestor_caja = GestorCaja()
         self.carrito = []
         self.conteo_actual_caja = {}
+        self.historial_conteos_data = []
 
         if not TKCALENDAR_AVAILABLE:
             messagebox.showwarning(
@@ -755,6 +985,7 @@ class InventarioGUI:
         self.cargar_estado_caja()
         self.actualizar_estado_botones_venta()
         self.show_action_panel()  # Mostrar panel inicial
+        self._populate_conteos_dropdown()
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
@@ -823,14 +1054,18 @@ class InventarioGUI:
         )
 
         self.inventory_tree = ttk.Treeview(
-            left_pane, columns=("Linea", "Item", "Cantidad"), show="headings"
+            left_pane,
+            columns=("Linea", "Item", "CantLocal", "CantBodegaC"),
+            show="headings",
         )
         self.inventory_tree.heading("Linea", text="Línea")
         self.inventory_tree.heading("Item", text="Item")
-        self.inventory_tree.heading("Cantidad", text="Cantidad en Stock")
+        self.inventory_tree.heading("CantLocal", text="Cant. Local")
+        self.inventory_tree.heading("CantBodegaC", text="Cant. Bodega C")
         self.inventory_tree.column("Linea", width=60, anchor=tk.CENTER)
-        self.inventory_tree.column("Item", width=500)
-        self.inventory_tree.column("Cantidad", width=120, anchor=tk.CENTER)
+        self.inventory_tree.column("Item", width=450)
+        self.inventory_tree.column("CantLocal", width=100, anchor=tk.CENTER)
+        self.inventory_tree.column("CantBodegaC", width=120, anchor=tk.CENTER)
         scrollbar = ttk.Scrollbar(
             left_pane, orient=tk.VERTICAL, command=self.inventory_tree.yview
         )
@@ -950,21 +1185,47 @@ class InventarioGUI:
         )
 
         # Build Adjust Panel
-        self.adjust_label = ttk.Label(self.adjust_panel, text="Ajustar stock para:")
+        self.adjust_label = ttk.Label(
+            self.adjust_panel,
+            text="Ajustar stock para:",
+            wraplength=280,
+            font=("Helvetica", 10, "bold"),
+        )
         self.adjust_label.pack(fill=tk.X, pady=5)
-        ttk.Label(self.adjust_panel, text="Cantidad a sumar(+) o restar(-):").pack(
-            fill=tk.X
+
+        self.adjust_stock_label = ttk.Label(
+            self.adjust_panel, text="Stock Actual: ", font=("Helvetica", 10)
         )
-        self.adjust_cant_entry = ttk.Entry(self.adjust_panel)
-        self.adjust_cant_entry.pack(fill=tk.X, pady=(0, 10))
+        self.adjust_stock_label.pack(fill=tk.X, pady=(5, 10))
+
         btn_frame_adj = ttk.Frame(self.adjust_panel)
-        btn_frame_adj.pack(fill=tk.X)
+        btn_frame_adj.pack(fill=tk.X, pady=10)
+
+        style_add_unit = ttk.Style()
+        style_add_unit.configure(
+            "AddUnit.TButton", foreground="white", background="#28a745"
+        )  # green
+        style_rem_unit = ttk.Style()
+        style_rem_unit.configure(
+            "RemUnit.TButton", foreground="white", background="#dc3545"
+        )  # red
+
         ttk.Button(
-            btn_frame_adj, text="Confirmar Ajuste", command=self._do_adjust_from_panel
-        ).pack(side=tk.LEFT, expand=True)
-        ttk.Button(btn_frame_adj, text="Cancelar", command=self.show_action_panel).pack(
-            side=tk.LEFT, expand=True
-        )
+            btn_frame_adj,
+            text="Agregar Unidad (+1)",
+            command=lambda: self._do_adjust_stock_by_one(1),
+            style="AddUnit.TButton",
+        ).pack(fill=tk.X, ipady=5, pady=2)
+        ttk.Button(
+            btn_frame_adj,
+            text="Restar Unidad (-1)",
+            command=lambda: self._do_adjust_stock_by_one(-1),
+            style="RemUnit.TButton",
+        ).pack(fill=tk.X, ipady=5, pady=2)
+
+        ttk.Button(
+            self.adjust_panel, text="Finalizar", command=self.show_action_panel
+        ).pack(side=tk.BOTTOM, fill=tk.X, ipady=5, pady=(20, 0))
 
         # Build Sale Panel
         self.sale_label = ttk.Label(
@@ -1096,7 +1357,7 @@ class InventarioGUI:
         )
         self.cart_btn_confirmar = ttk.Button(
             summary_frame,
-            text="CONFIRMAR VENTA",
+            text="CONFIRMAR Venta",
             style="Confirm.TButton",
             command=self._finalizar_venta_from_panel,
             state="disabled",
@@ -1130,17 +1391,28 @@ class InventarioGUI:
         elif panel_type == "modify":
             self.modify_desc_entry.delete(0, tk.END)
             self.modify_cant_entry.delete(0, tk.END)
+
+            # Determinar qué cantidad mostrar para editar según el archivo activo
+            archivo_actual = os.path.basename(self.gestor.archivo_inventario)
+            if archivo_actual == "local.txt":
+                qty_to_edit = data[2]  # cant_local
+            else:  # bodegac.txt
+                qty_to_edit = data[3]  # cant_bodegac
+
             self.modify_desc_entry.insert(0, data[1])
-            self.modify_cant_entry.insert(0, data[2])
+            self.modify_cant_entry.insert(0, qty_to_edit)
             self._switch_action_panel(self.modify_panel, "Modificar Ítem")
             self.modify_desc_entry.focus_set()
         elif panel_type == "adjust":
-            self.adjust_label.config(text=f"Ajustar stock para:\n{data[1]}")
-            self.adjust_cant_entry.delete(0, tk.END)
+            self.adjust_label.config(text=f"{data[1]}")  # data[1] is description
+            self.adjust_stock_label.config(
+                text=f"Stock Local: {data[2]}  |  Stock Bodega: {data[3]}"
+            )
             self._switch_action_panel(self.adjust_panel, "Ajustar Stock")
-            self.adjust_cant_entry.focus_set()
         elif panel_type == "sale":
-            self.sale_label.config(text=f"Vender item:\n{data[1]}\n(Stock: {data[2]})")
+            self.sale_label.config(
+                text=f"Vender item:\n{data[1]}\n(Stock Local: {data[2]})"
+            )
             self.sale_cant_entry.delete(0, tk.END)
             self.sale_costo_entry.delete(0, tk.END)
             self.sale_precio_entry.delete(0, tk.END)
@@ -1220,44 +1492,76 @@ class InventarioGUI:
         else:
             messagebox.showerror("Error", message)
 
-    def _do_adjust_from_panel(self):
+    def _do_adjust_stock_by_one(self, change):
         values = self._get_selected_item_values()
         if not values:
             return
-        linea, desc, cant_actual_str = values
 
-        try:
-            cambio = int(self.adjust_cant_entry.get())
-        except (ValueError, TypeError):
-            messagebox.showerror(
-                "Error", "La cantidad a ajustar debe ser un número entero."
-            )
-            return
+        linea, desc, cant_local, cant_bodega = values
 
-        if cambio == 0:
-            return
+        archivo_actual = os.path.basename(self.gestor.archivo_inventario)
 
-        if cambio > 0:  # Sumar
-            success, msg = self.gestor.modificar_cantidad(int(linea), cambio)
-        else:  # Restar
-            if abs(cambio) > int(cant_actual_str):
+        # Verificar stock antes de intentar restar
+        if change == -1:
+            try:
+                lineas = self.gestor._leer_lineas_archivo()
+                partes = lineas[int(linea) - 1].strip().rsplit(" ", 1)
+                cant_actual_en_archivo = int(partes[1])
+                if cant_actual_en_archivo <= 0:
+                    messagebox.showerror(
+                        "Error", f"No hay stock en '{archivo_actual}' para restar."
+                    )
+                    return
+            except (IndexError, ValueError):
                 messagebox.showerror(
-                    "Error", "No se puede restar más stock del que existe."
+                    "Error", "No se pudo leer la cantidad actual del archivo."
                 )
                 return
-            success, msg = self.gestor.modificar_cantidad(int(linea), cambio)
-            if success:
-                success_local, msg_local = self.gestor.transferir_a_local(
-                    desc, abs(cambio)
-                )
-                msg = f"{msg}\n{abs(cambio)} unidad(es) transferida(s) a 'local.txt'."
-                if not success_local:
-                    msg += f"\nADVERTENCIA: {msg_local}"
 
+        # --- Lógica de Negocio ---
+        success = False
+        msg = ""
+        # Caso 1: Restar de bodegac.txt (implica transferir a local.txt)
+        if archivo_actual == "bodegac.txt" and change == -1:
+            s_resta, m_resta = self.gestor.modificar_cantidad(int(linea), -1)
+            if s_resta:
+                s_trans, m_trans = self.gestor.transferir_a_local(desc, 1)
+                if s_trans:
+                    success = True
+                    msg = "1 unidad restada de Bodega y transferida a Local."
+                else:
+                    # Revertir si la transferencia falla
+                    self.gestor.modificar_cantidad(int(linea), +1)
+                    success = False
+                    msg = f"Error al transferir a local: {m_trans}"
+            else:
+                success = False
+                msg = m_resta
+        # Caso 2: Todas las demás operaciones (agregar a bodegac, agregar/restar de local)
+        else:
+            success, msg = self.gestor.modificar_cantidad(int(linea), change)
+
+        # --- Actualización de la UI ---
         if success:
-            messagebox.showinfo("Éxito", msg)
+            yview_pos = self.inventory_tree.yview()
+
             self.populate_inventory_treeview()
-            self.show_action_panel()
+
+            # Re-seleccionar el item para mantener el contexto
+            for iid in self.inventory_tree.get_children():
+                item_values = self.inventory_tree.item(iid, "values")
+                if item_values[1] == desc:
+                    self.inventory_tree.selection_set(iid)
+                    self.inventory_tree.focus(iid)
+                    self.inventory_tree.see(iid)
+
+                    # Volver a obtener los valores actualizados para el panel
+                    new_values = self.inventory_tree.item(iid, "values")
+                    self.show_action_panel("adjust", data=new_values)
+                    break
+
+            self.inventory_tree.yview_moveto(yview_pos[0])
+            self.status_label_inv.config(text="Stock actualizado.")
         else:
             messagebox.showerror("Error", msg)
 
@@ -1265,7 +1569,7 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        linea_num, desc, stock_actual = values
+        linea_num, desc, stock_local, stock_bodega = values
 
         try:
             cantidad = int(self.sale_cant_entry.get())
@@ -1273,9 +1577,10 @@ class InventarioGUI:
             precio = float(self.sale_precio_entry.get())
             if cantidad <= 0:
                 raise ValueError("La cantidad debe ser positiva.")
-            if cantidad > int(stock_actual):
+            if cantidad > int(stock_local):
                 messagebox.showerror(
-                    "Stock Insuficiente", "La cantidad a vender supera el stock actual."
+                    "Stock Insuficiente",
+                    "La cantidad a vender supera el stock del local.",
                 )
                 return
         except (ValueError, TypeError):
@@ -1288,7 +1593,7 @@ class InventarioGUI:
         item_data = {
             "linea_num": int(linea_num),
             "desc": desc,
-            "stock_actual": int(stock_actual),
+            "stock_actual": int(stock_local),
             "cantidad": cantidad,
             "costo": costo,
             "precio": precio,
@@ -1534,6 +1839,19 @@ class InventarioGUI:
         )
         self.btn_ver_recibo.pack(side=tk.LEFT, padx=10)
 
+        # --- NUEVO BOTÓN ANULAR ---
+        style_anular = ttk.Style()
+        style_anular.configure("Anular.TButton", foreground="white", background="red")
+        self.btn_anular_venta = ttk.Button(
+            linea_2_filtros,
+            text="Anular Venta",
+            command=self.anular_venta_seleccionada,
+            state="disabled",
+            style="Anular.TButton",
+        )
+        self.btn_anular_venta.pack(side=tk.LEFT, padx=10)
+        # --- FIN ---
+
         self.lbl_total_items = ttk.Label(
             analisis_frame, text="Items Vendidos: 0", font=("Helvetica", 10, "bold")
         )
@@ -1563,10 +1881,14 @@ class InventarioGUI:
             "Origen",
             "Cliente",
             "MedioPago",
+            "Estado",
         )
         self.sales_tree = ttk.Treeview(
             historial_frame, columns=columnas, show="headings"
         )
+        self.sales_tree.tag_configure(
+            "anulada", foreground="gray"
+        )  # Estilo para ventas anuladas
         for col in columnas:
             self.sales_tree.heading(
                 col,
@@ -1575,9 +1897,10 @@ class InventarioGUI:
             )
 
         for col in columnas:
-            self.sales_tree.column(col, anchor=tk.W, width=90)
+            self.sales_tree.column(col, anchor=tk.W, width=85)
         self.sales_tree.column("Timestamp", width=140)
-        self.sales_tree.column("Item", width=250)
+        self.sales_tree.column("Item", width=220)
+        self.sales_tree.column("MedioPago", width=150)
         scrollbar_s = ttk.Scrollbar(
             historial_frame, orient=tk.VERTICAL, command=self.sales_tree.yview
         )
@@ -1620,13 +1943,19 @@ class InventarioGUI:
             self.btn_agregar_venta.config(state=estado)
 
     def crear_widgets_caja(self):
-        main_frame = ttk.Frame(self.caja_tab)
-        main_frame.pack(fill=tk.BOTH, expand=True)
+        main_pane = ttk.PanedWindow(self.caja_tab, orient=tk.HORIZONTAL)
+        main_pane.pack(fill=tk.BOTH, expand=True)
 
-        left_frame = ttk.Frame(main_frame)
+        left_main_frame = ttk.Frame(main_pane, padding=5)
+        main_pane.add(left_main_frame, weight=2)
+
+        right_main_frame = ttk.Frame(main_pane, padding=5)
+        main_pane.add(right_main_frame, weight=1)
+
+        left_frame = ttk.Frame(left_main_frame)
         left_frame.pack(side=tk.LEFT, fill=tk.BOTH, expand=True, padx=5, pady=5)
-        right_frame = ttk.Frame(main_frame)
-        right_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
+        center_frame = ttk.Frame(left_main_frame)
+        center_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True, padx=5, pady=5)
 
         inicio_frame = ttk.LabelFrame(left_frame, text="1. Inicio del Día", padding=10)
         inicio_frame.pack(fill=tk.X, pady=5)
@@ -1668,12 +1997,19 @@ class InventarioGUI:
         )
         self.mov_monto_entry = ttk.Entry(movimientos_frame)
         self.mov_monto_entry.grid(row=2, column=1, sticky="ew", padx=5, pady=2)
+
+        mov_btn_frame = ttk.Frame(movimientos_frame)
+        mov_btn_frame.grid(row=3, column=0, columnspan=2, pady=10)
         self.btn_registrar_mov = ttk.Button(
-            movimientos_frame,
-            text="Registrar Movimiento",
-            command=self.registrar_movimiento,
+            mov_btn_frame, text="Registrar", command=self.registrar_movimiento
         )
-        self.btn_registrar_mov.grid(row=3, column=0, columnspan=2, pady=10)
+        self.btn_registrar_mov.pack(side=tk.LEFT, padx=5)
+        self.btn_eliminar_mov = ttk.Button(
+            mov_btn_frame,
+            text="Eliminar Seleccionado",
+            command=self._eliminar_movimiento_seleccionado,
+        )
+        self.btn_eliminar_mov.pack(side=tk.LEFT, padx=5)
 
         self.mov_tree = ttk.Treeview(
             movimientos_frame,
@@ -1691,27 +2027,21 @@ class InventarioGUI:
         movimientos_frame.rowconfigure(4, weight=1)
         movimientos_frame.columnconfigure(1, weight=1)
 
-        cierre_frame = ttk.LabelFrame(right_frame, text="3. Cierre del Día", padding=10)
+        cierre_frame = ttk.LabelFrame(
+            center_frame, text="3. Cierre del Día", padding=10
+        )
         cierre_frame.pack(fill=tk.X, pady=5)
         ttk.Label(cierre_frame, text="Total Pagos Electrónicos:").grid(
             row=0, column=0, sticky="w", padx=5, pady=5
         )
-        self.pagos_electronicos_entry = ttk.Entry(cierre_frame)
+        self.pagos_electronicos_entry = ttk.Entry(cierre_frame, state="readonly")
         self.pagos_electronicos_entry.grid(row=0, column=1, padx=5, pady=5)
 
         ttk.Label(cierre_frame, text="Dinero Real Contado en Caja:").grid(
             row=1, column=0, sticky="w", padx=5, pady=5
         )
-        dinero_real_frame = ttk.Frame(cierre_frame)
-        dinero_real_frame.grid(row=1, column=1, sticky="ew", padx=5, pady=5)
-        self.dinero_real_entry = ttk.Entry(dinero_real_frame, state="readonly")
-        self.dinero_real_entry.pack(side=tk.LEFT, expand=True, fill=tk.X)
-        ttk.Button(
-            dinero_real_frame, text="Contar...", command=self.abrir_ventana_conteo_caja
-        ).pack(side=tk.LEFT, padx=(5, 0))
-        ttk.Button(
-            dinero_real_frame, text="Historial", command=self.ver_historial_conteos
-        ).pack(side=tk.LEFT, padx=(5, 0))
+        self.dinero_real_entry = ttk.Entry(cierre_frame, state="readonly")
+        self.dinero_real_entry.grid(row=1, column=1, sticky="ew", padx=5, pady=5)
 
         btn_cierre_frame = ttk.Frame(cierre_frame)
         btn_cierre_frame.grid(row=2, column=0, columnspan=2, pady=10)
@@ -1729,10 +2059,9 @@ class InventarioGUI:
         self.btn_cerrar_caja.pack(side=tk.LEFT, padx=5)
 
         resumen_frame = ttk.LabelFrame(
-            right_frame, text="4. Resumen del Cuadre", padding=10
+            center_frame, text="4. Resumen del Cuadre", padding=10
         )
         resumen_frame.pack(fill=tk.BOTH, expand=True, pady=5)
-
         self.resumen_labels = {}
         labels_info = {
             "Total Ventas del Día:": "total_ventas",
@@ -1755,151 +2084,244 @@ class InventarioGUI:
             row_idx += 1
         resumen_frame.columnconfigure(1, weight=1)
 
-    def abrir_ventana_conteo_caja(self):
-        win_conteo = tk.Toplevel(self.master)
-        win_conteo.title("Conteo de Dinero Físico")
-        win_conteo.grab_set()
-        win_conteo.resizable(False, False)
-        main_frame = ttk.Frame(win_conteo, padding="15")
-        main_frame.pack(fill=tk.BOTH, expand=True)
-        denominaciones_billetes = {
-            100000: "Billetes de $100.000:",
-            50000: "Billetes de $50.000:",
-            20000: "Billetes de $20.000:",
-            10000: "Billetes de $10.000:",
-            5000: "Billetes de $5.000:",
-            2000: "Billetes de $2.000:",
-            1000: "Billetes de $1.000:",
-        }
-        entries = {}
-        subtotal_labels = {}
+        # --- PANEL FIJO DE CONTEO DE DINERO ---
+        conteo_frame = ttk.LabelFrame(
+            right_main_frame, text="Conteo de Dinero Físico", padding=10
+        )
+        conteo_frame.pack(fill=tk.BOTH, expand=True)
 
-        def actualizar_totales(event=None):
-            total = 0
-            for value, label_text in denominaciones_billetes.items():
-                try:
-                    cantidad = int(entries[value].get() or 0)
-                    subtotal = cantidad * value
-                    subtotal_labels[value].config(text=f"= ${subtotal:,.0f}")
-                    total += subtotal
-                except (ValueError, KeyError):
-                    subtotal_labels[value].config(text="= $0")
-            try:
-                total_monedas = float(entries["monedas"].get() or 0)
-                total += total_monedas
-            except (ValueError, KeyError):
-                pass
-            total_general_label.config(text=f"Total: ${total:,.0f}")
-            return total
+        historial_frame = ttk.Frame(conteo_frame)
+        historial_frame.pack(fill=tk.X, pady=(0, 10))
+        ttk.Label(historial_frame, text="Historial de Conteos:").pack(side=tk.LEFT)
+        self.historial_conteos_combo = ttk.Combobox(
+            historial_frame, state="readonly", width=25
+        )
+        self.historial_conteos_combo.pack(side=tk.LEFT, padx=5, expand=True, fill=tk.X)
+        self.btn_cargar_conteo = ttk.Button(
+            historial_frame, text="Cargar", command=self._cargar_conteo_seleccionado
+        )
+        self.btn_cargar_conteo.pack(side=tk.LEFT)
+
+        denominaciones = {
+            100000: "100.000:",
+            50000: "50.000:",
+            20000: "20.000:",
+            10000: "10.000:",
+            5000: "5.000:",
+            2000: "2.000:",
+            1000: "1.000:",
+        }
+        self.conteo_entries = {}
+
+        billetes_frame = ttk.Frame(conteo_frame)
+        billetes_frame.pack(fill=tk.X)
 
         row = 0
-        for value, label_text in denominaciones_billetes.items():
-            ttk.Label(main_frame, text=label_text).grid(
-                row=row, column=0, sticky="w", pady=4
+        col = 0
+        for val, txt in denominaciones.items():
+            ttk.Label(billetes_frame, text=txt).grid(
+                row=row, column=col, sticky="w", padx=(0, 2)
             )
-            entry = ttk.Entry(main_frame, width=8, justify="right")
-            entry.grid(row=row, column=1, pady=4)
-            entry.bind("<KeyRelease>", actualizar_totales)
-            entries[value] = entry
-            sub_label = ttk.Label(main_frame, text="= $0", width=15)
-            sub_label.grid(row=row, column=2, sticky="w", padx=5)
-            subtotal_labels[value] = sub_label
-            row += 1
-        ttk.Separator(main_frame).grid(row=row, columnspan=3, sticky="ew", pady=5)
-        row += 1
-        ttk.Label(main_frame, text="Total en Monedas:").grid(
-            row=row, column=0, sticky="w", pady=4
-        )
-        monedas_entry = ttk.Entry(main_frame, width=15, justify="right")
-        monedas_entry.grid(row=row, column=1, columnspan=2, sticky="ew", pady=4)
-        monedas_entry.bind("<KeyRelease>", actualizar_totales)
-        entries["monedas"] = monedas_entry
-        row += 1
-        ttk.Separator(main_frame, orient="horizontal").grid(
-            row=row, column=0, columnspan=3, pady=10, sticky="ew"
-        )
-        row += 1
-        total_general_label = ttk.Label(
-            main_frame, text="Total: $0", font=("Helvetica", 14, "bold")
-        )
-        total_general_label.grid(row=row, column=0, columnspan=3, pady=5)
-        row += 1
-        for value, entry in entries.items():
-            if value in self.conteo_actual_caja:
-                entry.insert(0, self.conteo_actual_caja[value])
-        actualizar_totales()
+            entry = ttk.Entry(billetes_frame, width=7, justify="right")
+            entry.grid(row=row, column=col + 1, pady=2)
+            entry.bind("<KeyRelease>", self._update_conteo_total)
+            self.conteo_entries[val] = entry
+            col += 2
+            if col >= 4:
+                col = 0
+                row += 1
 
-        def guardar_y_cerrar():
+        monedas_frame = ttk.Frame(conteo_frame)
+        monedas_frame.pack(fill=tk.X, pady=5)
+        ttk.Label(monedas_frame, text="Total Monedas:").pack(side=tk.LEFT)
+        self.conteo_monedas_entry = ttk.Entry(monedas_frame, justify="right")
+        self.conteo_monedas_entry.pack(side=tk.LEFT, padx=5, expand=True, fill=tk.X)
+        self.conteo_monedas_entry.bind("<KeyRelease>", self._update_conteo_total)
+
+        self.conteo_total_label = ttk.Label(
+            conteo_frame, text="Total Contado: $0.00", font=("Helvetica", 12, "bold")
+        )
+        self.conteo_total_label.pack(pady=10)
+
+        conteo_btn_frame = ttk.Frame(conteo_frame)
+        conteo_btn_frame.pack(fill=tk.X, pady=5)
+        ttk.Button(
+            conteo_btn_frame,
+            text="Agregar al Cierre",
+            command=self._aplicar_conteo_a_cierre,
+        ).pack(side=tk.LEFT, expand=True, padx=2)
+        ttk.Button(
+            conteo_btn_frame, text="Guardar Conteo", command=self._guardar_conteo_actual
+        ).pack(side=tk.LEFT, expand=True, padx=2)
+        ttk.Button(
+            conteo_btn_frame, text="Nuevo", command=self._limpiar_campos_conteo
+        ).pack(side=tk.LEFT, expand=True, padx=2)
+
+    def _update_conteo_total(self, event=None):
+        total = 0.0
+        try:
+            for val, entry in self.conteo_entries.items():
+                cantidad = int(entry.get() or 0)
+                total += val * cantidad
+
+            monedas = float(self.conteo_monedas_entry.get() or 0)
+            total += monedas
+
+            self.conteo_total_label.config(text=f"Total Contado: ${total:,.2f}")
+            return total
+        except (ValueError, TypeError):
+            self.conteo_total_label.config(text="Total Contado: ¡Error!")
+            return None
+
+    def _populate_conteos_dropdown(self):
+        self.historial_conteos_data = self.gestor_caja.obtener_historial_conteos()
+        display_values = []
+        for row in self.historial_conteos_data:
             try:
-                self.conteo_actual_caja.clear()
-                detalle_dict = {}
-                total_final = 0.0
-                for value, entry in entries.items():
-                    if value == "monedas":
-                        continue
-                    cantidad_str = entry.get() or "0"
-                    cantidad_num = int(cantidad_str)
-                    self.conteo_actual_caja[value] = cantidad_str
-                    if cantidad_num > 0:
-                        detalle_dict[value] = cantidad_num
-                    total_final += cantidad_num * value
-                monedas_str = entries["monedas"].get() or "0"
-                monedas_num = float(monedas_str)
-                self.conteo_actual_caja["monedas"] = monedas_str
-                if monedas_num > 0:
-                    detalle_dict["monedas"] = monedas_num
-                total_final += monedas_num
-                detalle_str = ", ".join(
-                    [
-                        f"${k:,.0f}: {v}" if k != "monedas" else f"Monedas: ${v:,.2f}"
-                        for k, v in detalle_dict.items()
-                    ]
-                )
-                self.gestor_caja.guardar_conteo_historial(total_final, detalle_str)
-                self.dinero_real_entry.config(state="normal")
-                self.dinero_real_entry.delete(0, tk.END)
-                self.dinero_real_entry.insert(0, f"{total_final:.2f}")
-                self.dinero_real_entry.config(state="readonly")
-                win_conteo.destroy()
-            except ValueError:
-                messagebox.showerror(
-                    "Error de Entrada",
-                    "Por favor, ingrese solo números en los campos de conteo.\nNo use puntos, comas o símbolos.",
-                    parent=win_conteo,
-                )
-
-        ttk.Button(main_frame, text="Guardar Conteo", command=guardar_y_cerrar).grid(
-            row=row, column=0, columnspan=3, pady=10, ipady=5
-        )
-
-    def ver_historial_conteos(self):
-        win_hist = tk.Toplevel(self.master)
-        win_hist.title("Historial de Conteos de Caja")
-        win_hist.geometry("700x450")
-        win_hist.grab_set()
-        frame = ttk.Frame(win_hist, padding="10")
-        frame.pack(fill=tk.BOTH, expand=True)
-        tree = ttk.Treeview(
-            frame, columns=("Timestamp", "Total", "Detalle"), show="headings"
-        )
-        tree.heading("Timestamp", text="Fecha y Hora")
-        tree.heading("Total", text="Total Contado")
-        tree.heading("Detalle", text="Detalle del Conteo")
-        tree.column("Timestamp", width=150, anchor=tk.W)
-        tree.column("Total", width=120, anchor=tk.E)
-        tree.column("Detalle", width=400, anchor=tk.W)
-        scrollbar = ttk.Scrollbar(frame, orient=tk.VERTICAL, command=tree.yview)
-        tree.configure(yscrollcommand=scrollbar.set)
-        tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
-        historial = self.gestor_caja.obtener_historial_conteos()
-        for row in reversed(historial):
-            try:
-                if len(row) >= 3:
-                    total_formateado = f"${float(row[1]):,.2f}"
-                    tree.insert("", tk.END, values=(row[0], total_formateado, row[2]))
+                # row[0] = Timestamp, row[1] = Total
+                display_values.append(f"{row[0]} - ${float(row[1]):,.0f}")
             except (ValueError, IndexError):
                 continue
+        self.historial_conteos_combo["values"] = display_values
+        if display_values:
+            self.historial_conteos_combo.set(display_values[0])
+
+    def _cargar_conteo_seleccionado(self):
+        selected_index = self.historial_conteos_combo.current()
+        if selected_index == -1:
+            messagebox.showwarning(
+                "Sin Selección",
+                "Por favor, seleccione un conteo del historial para cargar.",
+            )
+            return
+
+        try:
+            conteo_data = self.historial_conteos_data[selected_index]
+            detalle_str = conteo_data[
+                2
+            ]  # El string de detalle está en la tercera columna
+
+            self._limpiar_campos_conteo()
+
+            # Parsear el string de detalle
+            pares = detalle_str.split(", ")
+            for par in pares:
+                if "Monedas" in par:
+                    monto = float(re.search(r"[\d.]+", par.replace(",", "")).group())
+                    self.conteo_monedas_entry.insert(0, f"{monto:.0f}")
+                else:
+                    partes = par.split(":")
+                    denominacion_str = re.sub(r"[^\d]", "", partes[0])
+                    denominacion = int(denominacion_str)
+                    cantidad = int(partes[1].strip())
+                    if denominacion in self.conteo_entries:
+                        self.conteo_entries[denominacion].insert(0, str(cantidad))
+
+            self._update_conteo_total()
+            self.status_label_inv.config(text="Conteo histórico cargado.")
+
+        except (IndexError, ValueError, TypeError) as e:
+            messagebox.showerror(
+                "Error al Cargar",
+                f"No se pudo interpretar el conteo guardado.\nDetalle: {e}",
+            )
+
+    def _guardar_conteo_actual(self):
+        total = self._update_conteo_total()
+        if total is None:
+            messagebox.showerror(
+                "Error de Entrada",
+                "Verifique que todos los campos de conteo contengan solo números.",
+            )
+            return
+
+        detalle_dict = {}
+        for val, entry in self.conteo_entries.items():
+            cantidad = int(entry.get() or 0)
+            if cantidad > 0:
+                detalle_dict[val] = cantidad
+
+        monedas = float(self.conteo_monedas_entry.get() or 0)
+        if monedas > 0:
+            detalle_dict["Monedas"] = monedas
+
+        detalle_str = ", ".join(
+            [
+                f"${k:,.0f}: {v}" if k != "Monedas" else f"Monedas: ${v:,.2f}"
+                for k, v in detalle_dict.items()
+            ]
+        )
+
+        success, msg = self.gestor_caja.guardar_conteo_historial(total, detalle_str)
+        if success:
+            messagebox.showinfo("Éxito", "Conteo guardado en el historial.")
+            self._populate_conteos_dropdown()
+        else:
+            messagebox.showerror("Error al Guardar", msg)
+
+    def _limpiar_campos_conteo(self):
+        for entry in self.conteo_entries.values():
+            entry.delete(0, tk.END)
+        self.conteo_monedas_entry.delete(0, tk.END)
+        self._update_conteo_total()
+        self.status_label_inv.config(text="Campos de conteo limpiados.")
+
+    def _aplicar_conteo_a_cierre(self):
+        total = self._update_conteo_total()
+        if total is not None:
+            self.dinero_real_entry.config(state="normal")
+            self.dinero_real_entry.delete(0, tk.END)
+            self.dinero_real_entry.insert(0, f"{total:.2f}")
+            self.dinero_real_entry.config(state="readonly")
+            self.status_label_inv.config(text="Total del conteo aplicado al cierre.")
+        else:
+            messagebox.showerror(
+                "Error", "No se pudo calcular el total. Revise los campos."
+            )
+
+    def _eliminar_movimiento_seleccionado(self):
+        selected_item_id = self.mov_tree.focus()
+        if not selected_item_id:
+            messagebox.showwarning(
+                "Sin Selección",
+                "Por favor, seleccione un movimiento de la lista para eliminar.",
+            )
+            return
+
+        selected_values = self.mov_tree.item(selected_item_id, "values")
+        tipo_sel, desc_sel, monto_sel = selected_values
+        monto_sel_float = float(monto_sel.replace("$", "").replace(",", ""))
+
+        if not messagebox.askyesno(
+            "Confirmar Eliminación",
+            f"¿Está seguro de que desea eliminar el siguiente movimiento?\n\n{tipo_sel} - {desc_sel} - ${monto_sel_float:,.2f}",
+        ):
+            return
+
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        movimientos_hoy = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
+        timestamp_a_eliminar = None
+        for mov in movimientos_hoy:
+            if (
+                mov["Tipo"] == tipo_sel
+                and mov["Descripcion"] == desc_sel
+                and float(mov["Monto"]) == monto_sel_float
+            ):
+                timestamp_a_eliminar = mov["Timestamp"]
+                break
+
+        if timestamp_a_eliminar:
+            success, msg = self.gestor_caja.eliminar_movimiento(timestamp_a_eliminar)
+            if success:
+                messagebox.showinfo("Éxito", msg)
+                self.cargar_movimientos_hoy()
+            else:
+                messagebox.showerror("Error", msg)
+        else:
+            messagebox.showerror(
+                "Error",
+                "No se pudo encontrar el movimiento exacto para eliminar. Intente refrescar la aplicación.",
+            )
 
     def cargar_estado_caja(self):
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -1913,6 +2335,7 @@ class InventarioGUI:
             self.cargar_movimientos_hoy()
         else:
             self.btn_registrar_mov.config(state="disabled")
+            self.btn_eliminar_mov.config(state="disabled")
             self.btn_cerrar_caja.config(state="disabled")
             self.btn_cuadre_parcial.config(state="disabled")
 
@@ -1926,11 +2349,13 @@ class InventarioGUI:
         success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
         if success:
             self.conteo_actual_caja.clear()
+            self._limpiar_campos_conteo()
             messagebox.showinfo("Éxito", msg)
             self.caja_inicial_entry.config(state="disabled")
             self.caja_base_entry.config(state="disabled")
             self.btn_iniciar_dia.config(state="disabled")
             self.btn_registrar_mov.config(state="normal")
+            self.btn_eliminar_mov.config(state="normal")
             self.btn_cerrar_caja.config(state="normal")
             self.btn_cuadre_parcial.config(state="normal")
         else:
@@ -1969,7 +2394,8 @@ class InventarioGUI:
             dinero_real = float(self.dinero_real_entry.get() or 0)
         except ValueError:
             messagebox.showerror(
-                "Error", "El valor de dinero real en caja debe ser un número."
+                "Error",
+                "El valor de dinero real en caja es inválido. Use el panel de conteo para asignarlo.",
             )
             return None
         fecha_hoy = datetime.now().strftime("%Y-%m-%d")
@@ -2026,15 +2452,24 @@ class InventarioGUI:
                     self.btn_cerrar_caja.config(state="disabled")
                     self.btn_cuadre_parcial.config(state="disabled")
                     self.btn_registrar_mov.config(state="disabled")
+                    self.btn_eliminar_mov.config(state="disabled")
                 else:
                     messagebox.showerror("Error al Guardar", msg)
 
     def populate_inventory_treeview(self):
         for i in self.inventory_tree.get_children():
             self.inventory_tree.delete(i)
+
+        # Cargar el stock de ambos archivos para la visualización
+        stock_local = self.gestor.obtener_stock_dict("local.txt")
+        stock_bodega_c = self.gestor.obtener_stock_dict("bodegac.txt")
+
+        # Leer el archivo activo para obtener la lista principal de items y los números de línea
         datos, errores = self.gestor.leer_datos()
         if errores:
             messagebox.showwarning("Aviso", "\n".join(errores))
+
+        # Lógica de filtrado
         palabra_clave = self.filtro_palabra_entry.get()
         operador = self.filtro_op_combo.get()
         cant_str = self.filtro_cant_entry.get()
@@ -2047,21 +2482,37 @@ class InventarioGUI:
             except ValueError:
                 messagebox.showerror("Error", "Cantidad de filtro debe ser un número.")
                 return
+
         count = 0
-        for linea_num, desc, cant in datos:
+        for (
+            linea_num,
+            desc,
+            cant_activa,
+        ) in datos:  # cant_activa es la del archivo cargado
             mostrar = True
+            # Filtrar por palabra clave
             if palabra_clave and palabra_clave.lower() not in desc.lower():
                 mostrar = False
+
+            # Filtrar por cantidad (se filtra sobre la cantidad del archivo activo)
             if mostrar and cant_filtro is not None:
                 if (
-                    (operador == ">" and not cant > cant_filtro)
-                    or (operador == "<" and not cant < cant_filtro)
-                    or (operador == "=" and not cant == cant_filtro)
+                    (operador == ">" and not cant_activa > cant_filtro)
+                    or (operador == "<" and not cant_activa < cant_filtro)
+                    or (operador == "=" and not cant_activa == cant_filtro)
                 ):
                     mostrar = False
+
             if mostrar:
-                self.inventory_tree.insert("", tk.END, values=(linea_num, desc, cant))
+                cant_local_val = stock_local.get(desc, 0)
+                cant_bodega_c_val = stock_bodega_c.get(desc, 0)
+                self.inventory_tree.insert(
+                    "",
+                    tk.END,
+                    values=(linea_num, desc, cant_local_val, cant_bodega_c_val),
+                )
                 count += 1
+
         self.status_label_inv.config(text=f"Mostrando {count} de {len(datos)} ítems.")
         self.show_action_panel()
 
@@ -2069,24 +2520,25 @@ class InventarioGUI:
         for i in self.sales_tree.get_children():
             self.sales_tree.delete(i)
         historial = self.gestor.leer_historial_ventas()
+        total_items, costo_total, total_ventas, total_ganancia = 0, 0.0, 0.0, 0.0
+
         desde_str = self.filtro_fecha_desde.get()
         hasta_str = self.filtro_fecha_hasta.get()
         filtro_texto = self.filtro_desc_venta.get().lower()
         mostrar_solo_electronicos = self.filtro_pago_electronico_var.get()
-        total_items, costo_total, total_ventas, total_ganancia = 0, 0.0, 0.0, 0.0
+
         for venta_original in historial:
             venta = list(venta_original)
-            if len(venta) < 8:
-                continue
-            if len(venta) == 8:
-                venta.insert(1, "N/A")
-                venta.append("N/A")
-            elif len(venta) == 9:
-                venta.insert(1, "N/A")
-            if len(venta) == 10:
-                venta.append("N/A")
-            if len(venta) != 11:
-                continue
+
+            # --- Lógica de compatibilidad ---
+            while len(venta) < 12:
+                venta.append("")
+
+            estado = venta[11] if venta[11] else "Completada"
+            venta[11] = estado  # Asegurar que el estado esté en la lista
+            tags = ("anulada",) if estado == "Anulada" else ()
+
+            # --- Filtrado ---
             fecha_valida = True
             if desde_str or hasta_str:
                 try:
@@ -2109,26 +2561,35 @@ class InventarioGUI:
                     fecha_valida = False
             if not fecha_valida:
                 continue
+
             id_venta_csv = venta[1].lower()
             desc_csv = venta[2].lower()
             if filtro_texto and not (
                 filtro_texto in desc_csv or filtro_texto in id_venta_csv
             ):
                 continue
+
             if mostrar_solo_electronicos:
                 medio_pago = venta[10]
                 pagos = medio_pago.split(", ")
                 es_electronico = any("Efectivo" not in p for p in pagos if p.strip())
                 if not es_electronico:
                     continue
+
+            # --- Inserción y cálculo de totales ---
+            self.sales_tree.insert("", tk.END, values=tuple(venta), tags=tags)
+
+            if estado == "Anulada":
+                continue  # No sumar al total si está anulada
+
             try:
                 total_items += int(venta[3])
                 costo_total += int(venta[3]) * float(venta[4])
                 total_ventas += float(venta[6])
                 total_ganancia += float(venta[7])
-                self.sales_tree.insert("", tk.END, values=tuple(venta))
             except (ValueError, IndexError):
                 continue
+
         self.lbl_total_items.config(text=f"Items Vendidos: {total_items}")
         self.lbl_costo_total.config(text=f"Costo Total: ${costo_total:,.2f}")
         self.lbl_total_ventas.config(text=f"Total Ventas: ${total_ventas:,.2f}")
@@ -2161,7 +2622,7 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        linea, desc, cant = values
+        linea, desc, cant_local, cant_bodega = values
         if messagebox.askyesno("Confirmar", f"¿Eliminar este ítem?\n\n{desc}"):
             success, msg = self.gestor.eliminar_linea(int(linea))
             if success:
@@ -2308,8 +2769,37 @@ class InventarioGUI:
     def on_sale_select(self, event):
         if len(self.sales_tree.selection()) == 1:
             self.btn_ver_recibo.config(state="normal")
+
+            selected_item = self.sales_tree.selection()[0]
+            values = self.sales_tree.item(selected_item, "values")
+            # El estado es la última columna (índice 11)
+            if len(values) > 11 and values[11] != "Anulada":
+                self.btn_anular_venta.config(state="normal")
+            else:
+                self.btn_anular_venta.config(state="disabled")
         else:
             self.btn_ver_recibo.config(state="disabled")
+            self.btn_anular_venta.config(state="disabled")
+
+    def anular_venta_seleccionada(self):
+        if not self.sales_tree.selection():
+            return
+
+        selected_item = self.sales_tree.selection()[0]
+        values = self.sales_tree.item(selected_item, "values")
+        id_venta = values[1]
+
+        if messagebox.askyesno(
+            "Confirmar Anulación",
+            f"¿Está seguro de que desea anular la venta {id_venta}?\n\nEsta acción devolverá los productos al inventario 'local.txt' y no se puede deshacer.",
+        ):
+            success, msg = self.gestor.anular_venta(id_venta)
+            if success:
+                messagebox.showinfo("Éxito", msg)
+                self.populate_sales_treeview()
+                self.populate_inventory_treeview()  # Refrescar inventario por si se restauró stock
+            else:
+                messagebox.showerror("Error de Anulación", msg)
 
     def abrir_recibo_txt(self):
         if not self.sales_tree.selection():
