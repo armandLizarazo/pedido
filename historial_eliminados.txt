@@ -8787,3 +8787,114 @@ Fecha de proceso: 2025-10-01 23:00:04
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-10-13 06:07:40
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 37
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cable Belkin V8 5 ok
+   18 | Audifonos Bluetooth Y6 Negro 1 ok
+   19 | Audifonos Bluetooth Y6 Blanco 1 ok
+   20 | Audifonos Bluetooth Y6 Azul 1 ok
+   28 | Cargador We Tc 33W 3 ok
+   30 | Cargador Yl V8 3 ok
+   34 | Forro Antichoque Motorola Moto G55 Dama 2 ok
+   46 | Forro Antichoque Vivo Y19S Dama 3 ok
+   47 | Forro Antichoque Vivo Y39 Caballero 4 ok
+   49 | Forro Armadura Motorola Moto G15 Negro 1 ok
+   50 | Forro Armadura Motorola Moto G15 Rojo 1 ok
+   52 | Forro Armadura Motorola Moto G55 Rojo 1 ok
+   53 | Forro Armadura Motorola Moto G85 Negro 1 ok ok
+   55 | Forro Armadura Oppo A80 Negro 1 ok
+   56 | Forro Armadura Oppo A80 Rojo 1 ok
+   64 | Forro Armadura Samsung A13 Negro 1 ok
+   65 | Forro Armadura Samsung A16 vinotinto 1 ok
+   66 | Forro Armadura Samsung A21S Negro 1 ok
+   68 | Forro Armadura Tecno Spark 30 Pro Rojo 1 ok
+   82 | Forro Lujo Ventana Apple Iphone 11 Azul 1 ok
+   83 | Forro Lujo Ventana Apple Iphone 11 Negro 1 ok
+   86 | Forro Lujo Ventana Apple Iphone 14 Negro 1 ok
+   92 | Forro Space Apple Iphone 14 Pro 1 ok
+   97 | Forro Space Motorola Moto G9 Power 2 ok
+  107 | Forro Space Tecno Camon 30S Pro 2 ok
+  109 | Forro Space Tecno Spark 30 4G 3 ok
+  136 | Silicone Case Huawei Y9 2019 / Y8S Verde 1 ok
+  137 | Silicone Case Huawei Y9 Prime Rosa 1 ok
+  153 | Silicone Case Motorola Moto G15 Fucsia 1 ok
+  155 | Silicone Case Motorola Moto G35 Azulrey 1 ok
+  156 | Silicone Case Motorola Moto G35 Lila 1 ok
+  157 | Silicone Case Motorola Moto G35 Rosa 1 ok
+  262 | Vidrio Antiespia Apple Iphone 16 Pro Max 5 ok
+  265 | Vidrio Antiespia Samsung A05 /uy Redmi 13C 5 ok
+  267 | Vidrio Antiespia Xiaomi Redmi Note 12 5 ok
+  292 | Cable 6101 5 ok
+  293 | Cable 1100 5 ok
+
+==================================================
+Fecha de proceso: 2025-10-13 06:07:40
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 26
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Dpp2Hdmi Cbl 1 ok
+    2 | Adaptador Europeo Goma 5 ok
+    4 | Adaptador Hdmi2vga Cbl 1 ok
+    6 | Adaptador Spliter Audio 1 Macho 2 Hembras 2 ok
+    7 | Adaptador Usb2hdmi 1 ok
+    9 | Audifonos Bluetooth Conductor 1092 2 ok
+   12 | Barbera Wnark Ng-9015 Taurus 10000 Rpm 1 ok
+   14 | Cable Auxiliar 1 A 1 5M 1 ok
+   16 | Cable Dpp2hdmi 1 ok
+   17 | Cable Dpp2Dpp 1.5M 2 ok
+   18 | Cable Impresora 3M 2 ok
+   23 | Cargador Pc 9 Pines Caja Verde P Azul 1 ok
+   24 | Cargador Pc Asus 2.37 1 ok
+   25 | Cargador Pc Hp Punta Azul 1 ok
+   26 | Cargador Pc Lenovo Mini 3.25 1 ok
+   31 | Control Gamer Sony Ps2 1 ok
+   33 | Hydrolavadora Recargable 1 ok
+   36 | Memoria Musica Crosover Crosover Calidoso 1 ok
+   37 | Memoria Musica Reggaeton Clasicos del Reggaeton 2 ok
+   38 | Mouse Inalambrico y Bluetooth 1 ok
+   40 | Pilas Recargables Beston AAA x4 1 ok
+   44 | Rollo Cinta Led Rgb Con Bluetooth 1 ok
+   51 | Teclado Minikeyboard Tipo Control Tv 1 ok
+   53 | Tripode Selfie L-13D 1 ok
+   55 | Tijeras Wmark 1 ok
+   56 | Consola Sup X7m 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-13 06:07:40
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Huawei Y9 2019 1 ok
+    2 | Bateria Samsung J5 1 ok
+    3 | Pacha Huawei Y9 Prime Incell 1 ok
+    4 | Pacha Huawei Y9A Full 1 ok
+    5 | Pacha Motorola Moto E30 / E40 1 ok
+    6 | Pacha Motorola Moto G13 / G23 1 ok
+    7 | Pacha Motorola Moto G22 / E32 1 ok
+    8 | Pacha Samsung A05 1 ok
+    9 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+   10 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   11 | Pacha Vivo Y31 / Y51 / Y53S 1 ok
+   12 | Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 2 ok
+   13 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   14 | Pacha Samsung A24 Amoled 1 ok
+   15 | [Línea en blanco]
+
+==================================================
+Fecha de proceso: 2025-10-13 06:07:40
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

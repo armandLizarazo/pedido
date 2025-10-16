@@ -1,56 +1,46 @@
-    Adaptador Dpp2Hdmi Cbl 1 ok
-    Adaptador Europeo Goma 5 ok
     Adaptador Europeo Redondo 5
-    Adaptador Hdmi2vga Cbl 1 ok
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Spliter Audio 1 Macho 2 Hembras 2 ok
-    Adaptador Usb2hdmi 1 ok
     Audifonos Bluetooth Ambie 1
-    Audifonos Bluetooth Conductor 1092 2 ok
+    Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
     Barbera Vgr V-660 1
-    Barbera Wnark Ng-9015 Taurus 10000 Rpm 1 ok
     Base Refirgerante 4 Ventiladores 1
-    Cable Auxiliar 1 A 1 5M 1 ok
     Cable Disco Duro V8 3.0 Corto 2
-    Cable Dpp2hdmi 1 ok
-    Cable Dpp2Dpp 1.5M 2 ok
-    Cable Impresora 3M 2 ok
+    Cable Disco Duro V8 3.0 Medio 2
     Cable Lan 2M Cat 6 5
     Cable Microsoft Xbox Caja Negra 2
     Cable Rj11 3
     Cable Vga 15M 2
-    Cargador Pc 9 Pines Caja Verde P Azul 1 ok
-    Cargador Pc Asus 2.37 1 ok
-    Cargador Pc Hp Punta Azul 1 ok
-    Cargador Pc Lenovo Mini 3.25 1 ok
+    Cable Vga 5M 2
+    Camara de Solapa 1
     Consola + Tv box 1
     Consola R-36S 2
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Xbox Caja Negra 2
-    Control Gamer Sony Ps2 1 ok
+    Control Gamer X3S 2
     Forro Pc 16 Pulgadas 2
-    Hydrolavadora Recargable 1 ok
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
-    Memoria Musica Crosover Crosover Calidoso 1 ok
-    Memoria Musica Reggaeton Clasicos del Reggaeton 2 ok
-    Mouse Inalambrico y Bluetooth 1 ok
+    Memoria Musica Rap Fanaticos del Rap 1
+    Microfono Inalambrico F11 Doble Pelusa 1
+    Parlante Gts-1372 2
+    Parlante Ktf-1645 2
+    Patillera 3 En 1 2
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston AAA x4 1 ok
+    Pilas Recargables Beston Mixta con Cargador 2
     Reproductor Alexa Reloj 1
+    Reproductor Dvd Foxtech Fx-255 1
     Reproductor Onn Hd Azul 2
     Rollo Cinta Led Eco 5
-    Rollo Cinta Led Rgb Con Bluetooth 1 ok
     Secador Remington 2003 1
+    Smart Watch Combo Jl-9 Ultra 2 1
     Soporte Holder Moto M3 3
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
-    Teclado Minikeyboard Tipo Control Tv 1 ok
+    Teclado Kb-502 Eco 2
+    Teclado Minikeyboard Tipo Control Tv 2
     Teclado Seisa Dn-236 2
-    Tripode Selfie L-13D 1 ok
-    Camara de Solapa 1
-    Tijeras Wmark 1 ok
-    Consola Sup X7m 1 ok
+    Video Juego Ps2 Call Of Duty 1
+    Video Juego Ps2 Fifa 17 1

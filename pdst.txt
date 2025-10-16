@@ -1,15 +1,15 @@
-    Bateria Huawei Y9 2019 1 ok
-    Bateria Samsung J5 1 ok
-    Pacha Huawei Y9 Prime Incell 1 ok
-    Pacha Huawei Y9A Full 1 ok
-    Pacha Motorola Moto E30 / E40 1 ok
-    Pacha Motorola Moto G13 / G23 1 ok
-    Pacha Motorola Moto G22 / E32 1 ok
-    Pacha Samsung A05 1 ok
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
-    Pacha Vivo Y31 / Y51 / Y53S 1 ok
-    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 2 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Samsung A24 Amoled 1 ok
-
+    Bandeja Sim Huawei P30 Lite Negro 1
+    Logica de Carga Xiaomi Redmi Note 11 / Note 12S 1
+    Pacha Huawei Honor X6 / X6S 2
+    Pacha Huawei Y9 Prime Full 1
+    Pacha Motorola Moto E30 / E40 1
+    Pacha Motorola Moto G20 / G30 1
+    Pacha Motorola Moto G8 Plus 1
+    Pacha Oppo A16 2
+    Pacha Oppo A17 / A38 / A57 / A77 2
+    Pacha Samsung A12 C/m 1
+    Pacha Samsung A13 / M13 / M23 1
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1
+    Pacha Vivo Y27 5G 2
+    Pacha Xiaomi Redmi 13C 1
+    Pacha Xiaomi Redmi 9T / Poco M3 1
