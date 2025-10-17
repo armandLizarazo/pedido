@@ -26,6 +26,7 @@
     Cargador Samsung 45W Con Cable Blanco 1
     Cargador We Tc 33W 3
     Cargador Yl Tc 2
+    Memoria Sandisk Micro 256Gb Original 1 ok
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X6 / X6s Dama 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -34,6 +35,8 @@
     Forro Antichoque Oppo A17 Caballero 3
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo A5 Dama 5
+    Forro Antichoque Oppo A5 / A80 Ab Dama 2 ok
+    Forro Antichoque Oppo A5 / A80 Ab Caballero 5
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
@@ -103,7 +106,7 @@
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14 Pro Plus 2 ok
-    Forro Space Xiaomi Redmi Note 14S / 2
+    Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Guantes Gamer 4 ok
     Manos Libres Batri B10 Lila 2
@@ -118,7 +121,8 @@
     Pilas Carbon Maxday Aaa X4 2
     Pilas Recargables Maxday AA x4 con Cargador 2 ok
     Power Bank Aibimy 30000 Mah 1
-    Power Bank 50000 Mah 1 ok
+    Power Bank Yoyos Ys-700 10000 Mah 1 ok
+    Power Bank Ucci Up-050 50000 Mah 1 ok
     Proyector Astronauta Bluetooth 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
@@ -176,8 +180,9 @@
     Silicone Case Oppo A78 4G Fucsia 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
-    Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1 ok
+    Silicone Case Oppo Realme C53 / Note 50 Negro 1 ok
     Silicone Case Oppo Realme C53 / Note 50 Lila 1
+    Silicone Case Oppo Realme C53 / Note 50 Verdemilitar 1 ok
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C75 Amarillo 1
     Silicone Case Oppo Realme C75 Fucsia 1
@@ -240,6 +245,9 @@
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
+    Silicone Case Xiaomi Redmi Note 14 4G Azuloscuro 1 ok
+    Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1 ok
+    Silicone Case Xiaomi Redmi Note 14 4G Negro 1 ok
     Silicone Case Xioami Redmi 12C Negro 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
