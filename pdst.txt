@@ -13,3 +13,4 @@
     Pacha Vivo Y27 5G 2 ok
     Pacha Xiaomi Redmi 13C 1 ok
     Pacha Xiaomi Redmi 9T / Poco M3 1 ok
+    Logica de Carga Motorola Moto One Fusion Azul 1
