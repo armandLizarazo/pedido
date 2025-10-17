@@ -1,24 +1,21 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Conduccion Osea B-18 1
     Audifonos Bluetooth Orejas 1
-    Audifonos Bluetooth W I12 Azuloscuro 2
-    Audifonos Bluetooth W I12 Negro 3
-    Audifonos Bluetooth Y6 Azul 1
-    Audifonos Bluetooth Y6 Negro 2
+    Audifonos Bluetooth Y6 Azul 1 ok
+    Audifonos Bluetooth Y6 Negro 1 ok
+    Audifonos Bluetooth Pro 2 Pantalla Negro 1
     Balaca Apple Airpods Max Negro 1.1 1
-    Balaca Cable Eco 2
-    Balaca Gamer A65 1
+    Balaca Cable Eco 2 ok
     Balaca Naisu S-437 Rojo 1
-    Cable Apple Tc Ligthning 5
+    Cable Apple Tc Ligthning 5 ok
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
-    Cable Nokia 1100 5
-    Cable Samsung Tc A Tc Negro 2
+    Cable Samsung Tc A Tc Negro 3 ok
     Cable Tc A Tc Eco 3
     Cable V8 Eco 5
-    Cable Yoyos Tc 5
-    Cargador Apple 15 Pro Max 35W Con Cable 1
-    Cargador Apple 16 Pro Max 45W Con Cable 1
+    Cable Belkin V8 5
+    Cargador Apple 15 Pro Max 35W Con Cable 1 ok
+    Cargador Apple 16 Pro Max 45W Con Cable 1 ok
     Cargador Apple 20W Con Cable 1
     Cargador Fuente 360 Slim 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
@@ -67,9 +64,11 @@
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
     Forro Armadura Xiaomi Redmi note 10 pro Negro 1
+    Forro Armadura Xiaomi Redmi 13C Negro 1
+    Forro Armadura Xiaomi Redmi 13C Rojo 1
     Forro Audifonos Pantalla Negro 2
-    Forro Diseños Oppo Realme C75 Caballero 5
-    Forro Diseños Oppo Realme C75 Dama 5
+    Forro Antichoque Oppo Realme C75 Caballero 5
+    Forro Antichoque Oppo Realme C75 Dama 5
     Forro Lujo Apple Iphone Xr Lila 1
     Forro Lujo Humo Samsung A16 Negro 2
     Forro Lujo Samsung A26 Ab 2
@@ -82,8 +81,8 @@
     Forro Lujo Ventana Samsung S23 Ultra Morado 1
     Forro Lujo Ventana Samsung S23 Ultra Negro 1
     Forro Pin Samsung S24 Ultra 1
-    Forro Space Apple Iphone 7 / 8 1
-    Forro Space Apple Iphone Xr 2
+    Forro Space Apple Iphone 7 / 8 1 ok
+    Forro Space Apple Iphone Xr 2 ok
     Forro Space Huawei Y9A 3
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
@@ -103,10 +102,10 @@
     Forro Space Xiaomi Redmi 13C 3
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14 Pro Plus 2
-    Forro Space Xiaomi Redmi Note 14S 2
+    Forro Space Xiaomi Redmi Note 14 Pro Plus 2 ok
+    Forro Space Xiaomi Redmi Note 14S / 2
     Forro Tabletas 10P Dama 2
-    Guantes Gamer 5
+    Guantes Gamer 4 ok
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung Akg Tc 2
     Manos Libres Speak Tc 1
@@ -115,11 +114,11 @@
     Memoria Micro Sandisk 64Gb 1
     Mouse Gamer Inalambrico Eco 2
     Mouse Jertech Jr-1 Rojo 1
-    Pacha Huawei Y9 Prime Full 1
     Parlante Ktf-1645 2
     Pilas Carbon Maxday Aaa X4 2
-    Pilas Recargables Sony AA con Cargador 3
+    Pilas Recargables Maxday AA x4 con Cargador 2 ok
     Power Bank Aibimy 30000 Mah 1
+    Power Bank 50000 Mah 1 ok
     Proyector Astronauta Bluetooth 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
@@ -177,7 +176,7 @@
     Silicone Case Oppo A78 4G Fucsia 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
-    Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1
+    Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 1 ok
     Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C75 Amarillo 1
@@ -257,10 +256,10 @@
     Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Samsung A12 10
+    Vidrio 5D Samsung A12 5 ok
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Samsung A71 / Poco X3 5
-    Vidrio 5D Xiaomi Redmi 10 5
+    Vidrio 5D Samsung A71 / Poco X3 5 ok
+    Vidrio 5D Xiaomi Redmi 10 5 ok
     Vidrio 5D Xiaomi Redmi 10C / 12C 5
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
