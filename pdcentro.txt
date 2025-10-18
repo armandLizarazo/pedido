@@ -1,14 +1,15 @@
     Adaptador Otg Tc Y Micro 3
+    Adpatador Vga2hdmi Cbl Cja 1
     Audifonos Bluetooth Conduccion Osea B-18 1
     Audifonos Bluetooth Orejas 1
     Audifonos Bluetooth Pro 2 Pantalla Negro 1
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Naisu S-437 Rojo 1
+    Cable Belkin V8 5
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Tc A Tc Eco 3
     Cable V8 Eco 5
-    Cable Belkin V8 5
     Cargador Apple 20W Con Cable 1
     Cargador Fuente 360 Slim 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
@@ -25,12 +26,14 @@
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 3
+    Forro Antichoque Oppo A5 / A80 Ab Caballero 5
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo A5 Dama 5
-    Forro Antichoque Oppo A5 / A80 Ab Caballero 5
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C53 Caballero 5
     Forro Antichoque Oppo Realme C53 Dama 5
+    Forro Antichoque Oppo Realme C75 Caballero 5
+    Forro Antichoque Oppo Realme C75 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A05 Dama 2
     Forro Antichoque Samsung A11 Dama 5
@@ -54,17 +57,17 @@
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
-    Forro Armadura Xiaomi Redmi 14C Negro 1
-    Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
-    Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
-    Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Armadura Xiaomi Redmi 13C Negro 1
     Forro Armadura Xiaomi Redmi 13C Rojo 1
+    Forro Armadura Xiaomi Redmi 14C Negro 1
+    Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
+    Forro Armadura Xiaomi Redmi Note 11 / Note 12S Negro 1
+    Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
+    Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Audifonos Pantalla Negro 2
-    Forro Antichoque Oppo Realme C75 Caballero 5
-    Forro Antichoque Oppo Realme C75 Dama 5
     Forro Lujo Apple Iphone Xr Lila 1
     Forro Lujo Humo Samsung A16 Negro 2
+    Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Samsung A26 Ab 2
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1
@@ -92,6 +95,7 @@
     Forro Space Tecno Spark Go 2025 / Go 1 2
     Forro Space Vivo Y04 2
     Forro Space Xiaomi Redmi 13C 3
+    Forro Space Xiaomi Redmi Note 11 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14S 2
@@ -106,6 +110,7 @@
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Pilas Carbon Maxday Aaa X4 2
+    Pilas Recargables Maxday AA x4 con Cargador 2
     Power Bank Aibimy 30000 Mah 1
     Proyector Astronauta Bluetooth 1
     Pulso Banda M5 Negro 3
@@ -192,6 +197,7 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 30S Negro 1
+    Silicone Case Tecno Camon 30S Pro Verde Militar 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -199,6 +205,8 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Fucsia 2
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Pova 5 Fucsia 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
@@ -222,7 +230,9 @@
     Silicone Case Vivo Y27 Negro 1
     Silicone Case Xiaomi Redmi 13 Negro 1
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Azulrey 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
+    Silicone Case Xiaomi Redmi Note 11 Morado 1
     Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
@@ -233,6 +243,7 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
+    Simcard wom 10
     Smart Watch Gw-20 Verdemilitar 1
     Smart Watch I525 Mini Rosa 1
     Soporte Cel Metalico 1
@@ -243,6 +254,7 @@
     Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
+    Vidrio 5D Samsung A12 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Xiaomi Redmi 10C / 12C 5
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
@@ -252,6 +264,7 @@
     Vidrio Antiespia Apple Iphone Xs Max 5
     Vidrio Antiespia Samsung A30S 5
     Vidrio Blindado Apple Iphone 12 Mini 5
+    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Apple Iphone 16 Pro Max 5
     Vidrio Blindado Apple Iphone 16E 5

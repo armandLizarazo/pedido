@@ -1,5 +1,7 @@
     Adaptador Europeo Redondo 5
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adpatador Vga2hdmi Cbl Cja 1
+    Aro De Luz 45Cm 1
     Audifonos Bluetooth Ambie 1
     Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
@@ -12,6 +14,7 @@
     Cable Rj11 3
     Cable Vga 15M 2
     Cable Vga 5M 2
+    Calculadora Cientifica Casio 82Es 1
     Camara de Solapa 1
     Consola + Tv box 1
     Consola R-36S 2
@@ -32,6 +35,7 @@
     Reproductor Dvd Foxtech Fx-255 1
     Reproductor Onn Hd Azul 2
     Rollo Cinta Led Eco 5
+    Rollo Papel Mini impresora 5
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2 1
     Soporte Holder Moto M3 3

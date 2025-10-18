@@ -2152,3 +2152,36 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia,
 2025-10-16 21:21:13,20251016212113,Manos Libres Samsung J5 Negro,1,2300.00,10000.00,10000.00,7700.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
 2025-10-16 21:21:44,20251016212144,Mouse Gamer Eco A78,1,5000.00,15000.00,15000.00,10000.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
 2025-10-16 21:22:41,20251016212241,Recargas,1,12736.00,13500.00,13500.00,764.00,local.txt,Cliente General,Efectivo: $13500.00,Completada
+2025-10-17 12:28:23,20251017122823,Simcard Wom,1,1500.00,5000.00,5000.00,3500.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-10-17 13:38:43,20251017133843,Forro Antichoque Cadena Oppo A58 4G,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-17 13:39:44,20251017133944,Vidrio Ceramico Xiaomi Redmi Note 12,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General,Daviplata: $10000.00,Completada
+2025-10-17 13:40:24,20251017134024,Vidrio Ceramico Motorola Moto G60,1,800.00,10000.00,10000.00,9200.00,local.txt,Cliente General,Daviplata: $10000.00,Completada
+2025-10-17 13:40:47,20251017134047,Vidrio 5D Apple Iphone 15 Pro Max,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $10000.00,Completada
+2025-10-17 14:58:47,20251017145847,Servicio Tecnico Samsung Pegar Pantalla A13,1,0.00,15000.00,15000.00,15000.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
+2025-10-17 16:02:42,20251017160242,Silicone Case Xiaomi Poco M3 Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $45000.00,Completada
+2025-10-17 16:02:42,20251017160242,Forro Antichoque Xiaomi Redmi Note 11 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Nequi: $45000.00,Completada
+2025-10-17 16:02:42,20251017160242,Servicio Tecnico Xiaomi Pegar Tapa Redmi Note 11,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Nequi: $45000.00,Completada
+2025-10-17 16:03:06,20251017160306,Cable Auxiliar 1 A 1 Cordon,1,1800.00,12000.00,12000.00,10200.00,local.txt,Cliente General,Efectivo: $12000.00,Completada
+2025-10-17 16:11:46,20251017161146,Rollo Cinta Led x2 Bluetooth,1,25000.00,60000.00,60000.00,35000.00,local.txt,Cliente General,Sistecredito: $65000.00,Completada
+2025-10-17 16:11:46,20251017161146,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Sistecredito: $65000.00,Completada
+2025-10-17 16:12:10,20251017161210,Vidrio 5D Xiaomi Redmi 10,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $10000.00,Completada
+2025-10-17 21:01:35,20251017210135,Aro De Luz 45Cm,1,90000.00,140000.00,140000.00,50000.00,local.txt,Cliente General,Efectivo: $140000.00,Completada
+2025-10-17 21:03:21,20251017210321,Adpatador Vga2hdmi Cbl Cja,1,8000.00,25000.00,25000.00,17000.00,local.txt,Cliente General,Nequi: $75000.00,Completada
+2025-10-17 21:03:21,20251017210321,Forro Lujo Ventana Apple Iphone 13 Negro,1,14000.00,35000.00,35000.00,21000.00,local.txt,Cliente General,Nequi: $75000.00,Completada
+2025-10-17 21:03:21,20251017210321,Vidrio Tortuga Apple Iphone 13,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General,Nequi: $75000.00,Completada
+2025-10-17 21:18:46,20251017211846,Cable Belkin V8,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Efectivo: $32000.00,Completada
+2025-10-17 21:18:46,20251017211846,Servicio Tecnico Xiaomi Pin de Carga Redmi A2,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General,Efectivo: $32000.00,Completada
+2025-10-17 21:28:32,20251017212832,Servicio Tecnico Pin de Carga Parlante,1,0.00,25000.00,25000.00,25000.00,local.txt,Cliente General,Nequi: $25000.00,Completada
+2025-10-17 21:31:36,20251017213136,Hydrogel Motorola Moto Edge 50 Fusion,1,8000.00,20000.00,20000.00,12000.00,local.txt,Cliente General,Nequi: $20000.00,Completada
+2025-10-17 21:33:26,20251017213326,Vidrio 5D Samsung A16 / A26 / A56,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-10-17 21:34:27,20251017213427,Servicio Tecnico Samsung Pin de Carga A03,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General,Daviplata: $20000.00,Completada
+2025-10-17 21:42:20,20251017214220,Vidrio Camara Apple Iphone 14 Pro,3,1000.00,6000.00,18000.00,15000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-17 21:42:20,20251017214220,Vidrio Camara Apple Surtidos,2,1000.00,6000.00,12000.00,10000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-17 21:45:53,20251017214553,Calculadora Cientifica Casio 82Es,1,16000.00,39000.00,39000.00,23000.00,local.txt,Cliente General,Efectivo: $39000.00,Completada
+2025-10-17 21:49:46,20251017214946,Cadenas Colgar,1,3000.00,15000.00,15000.00,12000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-17 21:49:46,20251017214946,Forro Antichoque Oppo A58 4G Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-17 21:50:22,20251017215022,Simcard Movistar,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-10-17 21:53:26,20251017215326,Pacha Xiaomi Redmi Note 10 / Note 10S,1,38000.00,95000.00,95000.00,57000.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
+2025-10-17 22:07:12,20251017220712,Servicio Tecnico Xiaomi Control de Humedad Redmi A2,1,0.00,40000.00,40000.00,40000.00,local.txt,Cliente General,Daviplata: $40000.00,Completada
+2025-10-17 22:17:32,20251017221732,Recargas,1,88679.00,94000.00,94000.00,5321.00,local.txt,Cliente General,Efectivo: $94000.00,Completada
+2025-10-17 22:24:19,20251017222419,Sin Registro,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General,Efectivo: $10000.00,Completada

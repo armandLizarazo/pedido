@@ -26,6 +26,9 @@ except FileExistsError:
     # Si los archivos ya existen, no se hace nada.
     pass
 
+# Variable global para almacenar el último término de búsqueda
+last_search_term = ""
+
 # --- Funciones Principales ---
 
 
@@ -76,6 +79,8 @@ def refresh_data():
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
+    entry_search.delete(0, tk.END)
+    entry_search.insert(0, last_search_term)
     search()
     messagebox.showinfo("Refrescar", "Los datos han sido actualizados.")
 
@@ -129,6 +134,13 @@ def update_provider_quantities(search_term):
                 found_qty = qty
                 break
         qty_var.set(str(found_qty))
+
+
+def manual_search():
+    """Ejecuta una búsqueda y guarda el término de búsqueda manual."""
+    global last_search_term
+    last_search_term = entry_search.get().strip()
+    search()
 
 
 def search():
@@ -191,6 +203,9 @@ def normalize_files():
 
             data_bodega = parse_file("bodegac.txt")
             data_local = parse_file("local.txt")
+
+            entry_search.delete(0, tk.END)
+            entry_search.insert(0, last_search_term)
             search()
 
             messagebox.showinfo(
@@ -273,8 +288,10 @@ def transfer_quantity(direction):
         messagebox.showinfo(
             "Éxito", f"Se trasladaron {transfer_qty} unidades de '{search_term}'."
         )
-        search()
         entry_transfer_qty.delete(0, tk.END)
+        entry_search.delete(0, tk.END)
+        entry_search.insert(0, last_search_term)
+        search()
 
 
 def adjust_quantity(target, action):
@@ -333,8 +350,10 @@ def adjust_quantity(target, action):
             "Éxito",
             f"Se {action_text} {adjust_qty} unidades de '{search_term}' en {target}.",
         )
-        search()
         entry_adjust_qty.delete(0, tk.END)
+        entry_search.delete(0, tk.END)
+        entry_search.insert(0, last_search_term)
+        search()
 
 
 def create_new_item():
@@ -374,9 +393,8 @@ def create_new_item():
                 "Éxito", f"El ítem '{new_item_desc}' ha sido creado exitosamente."
             )
             entry_new_item.delete(0, tk.END)
-            # Opcional: buscar automáticamente el nuevo ítem
             entry_search.delete(0, tk.END)
-            entry_search.insert(0, new_item_desc)
+            entry_search.insert(0, last_search_term)
             search()
 
 
@@ -417,7 +435,9 @@ def add_to_purchase_order(filename):
             f"Se agregaron {pedido_qty} unidades de '{search_term}' a {filename}.",
         )
         entry_pedido_qty.delete(0, tk.END)
-        search()  # Refresca los datos, incluyendo la nueva cantidad en el pedido.
+        entry_search.delete(0, tk.END)
+        entry_search.insert(0, last_search_term)
+        search()
 
 
 def delete_item():
@@ -468,6 +488,7 @@ def delete_item():
                 "Éxito", f"El ítem '{search_term}' ha sido eliminado exitosamente."
             )
             entry_search.delete(0, tk.END)
+            entry_search.insert(0, last_search_term)
             search()
 
 
@@ -558,9 +579,9 @@ def edit_item():
                 "Éxito",
                 f"El ítem ha sido renombrado a '{new_desc}' en todos los archivos correspondientes.",
             )
-            entry_search.delete(0, tk.END)
-            entry_search.insert(0, new_desc)
             entry_edit_item.delete(0, tk.END)
+            entry_search.delete(0, tk.END)
+            entry_search.insert(0, last_search_term)
             search()
 
 
@@ -603,7 +624,7 @@ entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
 button_search = tk.Button(
     frame_search,
     text="Buscar",
-    command=search,
+    command=manual_search,
     font=("Helvetica", 11, "bold"),
     bg="#cce0ff",
     fg="black",
