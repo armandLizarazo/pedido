@@ -1,7 +1,7 @@
     Adaptador Europeo Redondo 5
     Adaptador Hub Tc Usb X3 + Lan 2
     Adpatador Vga2hdmi Cbl Cja 1
-    Aro De Luz 45Cm 1
+    Aro De Luz 45Cm 1 ok
     Audifonos Bluetooth Ambie 1
     Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
@@ -13,38 +13,45 @@
     Cable Microsoft Xbox Caja Negra 2
     Cable Rj11 3
     Cable Vga 15M 2
-    Cable Vga 5M 2
+    Cable Vga 5M 2 ok
     Calculadora Cientifica Casio 82Es 1
     Camara de Solapa 1
     Consola + Tv box 1
-    Consola R-36S 2
+    Consola R-36S 1
     Control Gamer Gatillos W11+ 3
-    Control Gamer Microsoft Xbox Caja Negra 2
-    Control Gamer X3S 2
+    Control Gamer Microsoft Xbox Caja Negra 3 ok
+    Control Gamer X3S 2 ok
     Forro Pc 16 Pulgadas 2
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
     Memoria Musica Rap Fanaticos del Rap 1
-    Microfono Inalambrico F11 Doble Pelusa 1
+    Microfono Inalambrico F11 Doble Pelusa 1 ok
     Parlante Gts-1372 2
     Parlante Ktf-1645 2
-    Patillera 3 En 1 2
+    Patillera 3 En 1 3 ok
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Mixta con Cargador 2
+    Pilas Recargables Beston Mixta con Cargador 1 ok
     Reproductor Alexa Reloj 1
     Reproductor Dvd Foxtech Fx-255 1
     Reproductor Onn Hd Azul 2
     Rollo Cinta Led Eco 5
-    Rollo Papel Mini impresora 5
+    Rollo Papel Mini impresora 10 ok
     Secador Remington 2003 1
-    Smart Watch Combo Jl-9 Ultra 2 1
+    Smart Watch Combo Jl-9 Ultra 2 1a
     Soporte Holder Moto M3 3
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
+    Soporte Tv 50 Brazo 2 ok
     Teclado Kb-502 Eco 2
-    Teclado Minikeyboard Tipo Control Tv 2
+    Teclado Minikeyboard Tipo Control Tv 2 ok
     Teclado Seisa Dn-236 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
+    Escencia Agua 10 ok
+    Depilador Naris y Orejas Geemy 1 ok
+    Depilador Naris y Orejas Recargable 2 ok
+    Humidificador Eco 2 ok
+    Humidificador Madera 2 ok 
+    Audifonos Bluetooth Jbl K55 1 ok
