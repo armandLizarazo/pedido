@@ -7,5 +7,5 @@
     Visor Camara Samsung S20 1 ok
     Logica de Carga Tecno Spark Go 2024 1 ok
     Pacha Huawei Honor X6B 1 ok
-    Camara Principal Samsung A71 1
+    Camara Principal Samsung A71 1 ok
     Visor Camara Samsung A71 1 ok
