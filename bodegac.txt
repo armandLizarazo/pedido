@@ -6,6 +6,7 @@
     Adaptador Av2Vga 0
     Adaptador Bluetooth Car W Bt-X6 0
     Adaptador Bluetooth Dongle Audio 0
+    Adaptador Dongle Wifi 5G + Bluetooth 4.2 0
     Adaptador Dpp2Hdmi Cbl 1
     Adaptador Dpp2Vga 3
     Adaptador Dpp2Vga Cbl 1
@@ -90,6 +91,7 @@
     Antena Tdt 3M Con Usb 0
     Antena Tdt 5M 5
     Antena Tdt Aire 0
+    Antena Wifi Larga 0
     Apuntador Diapositivas 0
     Aro De Luz 26Cm Rgb 0
     Aro De Luz 33Cm Light 0
@@ -224,7 +226,7 @@
     Cable 6101 2
     Cable Apple Iphone 4 0
     Cable Apple Tc A Tc 60w Aguja 2
-    Cable Apple Tc Ligthning 5
+    Cable Apple Tc Ligthning 4
     Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc a Tc 0
     Cable Apple Usb Ligthning 1
@@ -246,7 +248,7 @@
     Cable Belkin Ligthning 0
     Cable Belkin Tc 7
     Cable Belkin Tc 2M 2
-    Cable Belkin V8 3
+    Cable Belkin V8 2
     Cable Caterpillar Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -362,6 +364,7 @@
     Camara Principal Xiaomi Redmi Note 8 Pro 0
     Camara Web 1080p 0
     Camara Web 720P 0
+    Camara Wifi Bombillo 0
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
@@ -453,7 +456,7 @@
     Cargador W Tc 0
     Cargador We Tc 33W 5
     Cargador We V8 33W 4
-    Cargador Xiaomi 120W 1
+    Cargador Xiaomi 120W 0
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
     Cargador Yl Tc 2
@@ -476,7 +479,7 @@
     Combo Remington Plancha + Cepillo Aguacate 1
     Conector Antena Parlante 0
     Consola + Tv box 0
-    Consola Game Stick 5
+    Consola Game Stick 4
     Consola Microsoft Xbox 360 1
     Consola Pandora 1
     Consola Psp 5.1 0
@@ -518,6 +521,7 @@
     Dispensador Agua Botellon 3
     Dron 988 Doble Camara 0
     Escencia Aceite 0
+    Escencia Agua 0
     Estetica Cepillo Secador 0
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Ondas de Sirena 0
@@ -1358,6 +1362,7 @@
     Forro Space Samsung A54 2
     Forro Space Samsung A55 1
     Forro Space Samsung A56 0
+    Forro Space Samsung A71 0
     Forro Space Samsung M23 / A13 5G 1
     Forro Space Samsung S20 Fe 3
     Forro Space Samsung S21 Fe 1
@@ -1457,7 +1462,7 @@
     Forro Ukg Apple Iphone 11 Rojo 0
     Forro Ventana Apple Iphone 15 Pro Negro 0
     Garantia Control Gamer Pc Sencillo 0
-    Gramera Joyeria 1
+    Gramera Joyeria 0
     Gramera Sencilla 1
     Gramera Sencilla Recargable 0
     Guantes Gamer 7
@@ -1755,6 +1760,7 @@
     Mouse Inalambrico y Bluetooth 0
     Mouse Jertech Jr-1 Rojo 0
     Multitoma Tb-t09 3000W 0
+    Pacha Alcatel 1Se 0
     Pacha Apple Iphone 11 Gx 0
     Pacha Apple Iphone 12 Mini Gx 0
     Pacha Apple Iphone 7 Plus Negro 0
@@ -1842,6 +1848,7 @@
     Pacha Samsung A13 / M13 / M23 0
     Pacha Samsung A14 5G 1
     Pacha Samsung A15 0
+    Pacha Samsung A15 C/m 0
     Pacha Samsung A20s 0
     Pacha Samsung A20s C/m 0
     Pacha Samsung A21S 0
@@ -1966,8 +1973,7 @@
     Patillera Vintage Sencilla 3
     Pepas Hydrogel 0
     Pila Reloj Beston Cr-2025 0
-    Pila Reloj Beston Cr-2032 0
-    Pila Reloj Cr2032 0
+    Pila Reloj Cr-2032 0
     Pilas Carbon Gp 9V 0
     Pilas Carbon Maxday Aa 30
     Pilas Carbon Maxday Aa x2 0
@@ -2019,7 +2025,7 @@
     Proyector 110 Hy-300 Con Juegos 1
     Proyector Astronauta Bluetooth Blanco 0
     Proyector Astronauta Bluetooth Negro 0
-    Proyector Hy-300 2 Ram 3
+    Proyector Hy-300 2 Ram 1
     Proyector Joma Hy-300 Con Juegos 0
     Proyector S40ge Con Juegos 0
     Proyector Thor Hy-300 Con Juegos 1
@@ -2081,6 +2087,8 @@
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
     Servicio Tecnico Frp Infinix Hot 40I 0
     Servicio Tecnico Generico Soldar Cables 0
+    Servicio Tecnico Generico Soldar Cables Proyecto 0
+    Servicio Tecnico Generico Soldar Calculadora 0
     Servicio Tecnico Generico Soldar Control Puerta 0
     Servicio Tecnico Google Restablecer Contraseña 0
     Servicio Tecnico Hp Formatear Pc Hp 0
@@ -2198,6 +2206,7 @@
     Silicone Case Apple Iphone 11 Pro Max Negro 0
     Silicone Case Apple Iphone 11 Pro Max Rosa 0
     Silicone Case Apple Iphone 11 Rojo 0
+    Silicone Case Apple Iphone 11 Rosa 0
     Silicone Case Apple Iphone 12 / 12 Pro Ab Verde 1
     Silicone Case Apple Iphone 12 Ab Negro 0
     Silicone Case Apple Iphone 12 Lila 1
@@ -3605,7 +3614,7 @@
     Silicone Case Xiaomi Redmi 13 Rojo 0
     Silicone Case Xiaomi Redmi 13 Verde 0
     Silicone Case Xiaomi Redmi 13C Fucsia 1
-    Silicone Case Xiaomi Redmi 13C Morado 1
+    Silicone Case Xiaomi Redmi 13C Morado 0
     Silicone Case Xiaomi Redmi 14C Amarillo 0
     Silicone Case Xiaomi Redmi 14C Azulrey 0
     Silicone Case Xiaomi Redmi 14C Fucsia 0
@@ -3689,7 +3698,7 @@
     Silicone Case Xiaomi Redmi Note 11 Negro 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Rosa 1
-    Silicone Case Xiaomi Redmi Note 11 Verde 1
+    Silicone Case Xiaomi Redmi Note 11 Verde 0
     Silicone Case Xiaomi Redmi Note 12 Fucsia 0
     Silicone Case Xiaomi Redmi Note 12 Morado 1
     Silicone Case Xiaomi Redmi Note 12 Negro 1
@@ -3815,7 +3824,7 @@
     Silicone Case Zte Blade A54 Negro 0
     Silicone Case Zte Blade A54 Rojo 0
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 10
+    Simcard Claro 0
     Simcard Movistar 0
     Simcard Tigo 0
     Simcard Virgin 0
@@ -3898,6 +3907,7 @@
     Teclado Dn-236 0
     Teclado Kb-502 Eco 1
     Teclado Mecanico Gamer 0
+    Teclado Mecanico Gamer Weibo 666 0
     Teclado Minikeyboard 1
     Teclado Minikeyboard Tipo Control Tv 0
     Teclado Seisa Dn-236 0
@@ -4010,7 +4020,7 @@
     Vidrio 5D Samsung A53 0
     Vidrio 5D Samsung A54 / S23 Fe 0
     Vidrio 5D Samsung A56 0
-    Vidrio 5D Samsung A71 / Poco X3 5
+    Vidrio 5D Samsung A71 / Poco X3 0
     Vidrio 5D Samsung S22 / S23 0
     Vidrio 5D Samsung S23 Plus 0
     Vidrio 5D Tecno Camon 20 / 20 Pro 3
@@ -4033,7 +4043,7 @@
     Vidrio 5D Xiaomi Redmi 9T 0
     Vidrio 5D Xiaomi Redmi A1 / A2 0
     Vidrio 5D Xiaomi Redmi A3 0
-    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 9
+    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 5
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 0
@@ -4279,6 +4289,7 @@
     Visor Camara Principal Huawei Honor X7B 0
     Visor Camara Samsung A21s 0
     Visor Camara Samsung A22 4G Negro 1
+    Visor Camara Samsung S20 0
     Visor Camara Samsung S20 Fe 0
     Visor Camara Xiaomi Redmi 9T 0
     Visor Camara Xiaomi Redmi Note 10 Pro 0

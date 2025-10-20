@@ -2185,3 +2185,64 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia,
 2025-10-17 22:07:12,20251017220712,Servicio Tecnico Xiaomi Control de Humedad Redmi A2,1,0.00,40000.00,40000.00,40000.00,local.txt,Cliente General,Daviplata: $40000.00,Completada
 2025-10-17 22:17:32,20251017221732,Recargas,1,88679.00,94000.00,94000.00,5321.00,local.txt,Cliente General,Efectivo: $94000.00,Completada
 2025-10-17 22:24:19,20251017222419,Sin Registro,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-10-18 19:01:14,20251018190114,Cargador Smart Watch Pinza,1,7500.00,20000.00,20000.00,12500.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-18 19:01:47,20251018190147,Cargador Xiaomi 120W,1,26000.00,70000.00,70000.00,44000.00,local.txt,Cliente General,Nequi: $70000.00,Completada
+2025-10-18 19:02:18,20251018190218,Silicone Case Infinix Hot 60 Pro Plus Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-18 19:03:34,20251018190334,Camara Wifi Bombillo,1,68000.00,90000.00,90000.00,22000.00,local.txt,Cliente General,Efectivo: $90000.00,Completada
+2025-10-18 19:06:10,20251018190610,Silicone Case Apple Iphone 11 Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $57000.00,Completada
+2025-10-18 19:06:10,20251018190610,Cargador Pluying 15w PD237,1,12000.00,25000.00,25000.00,13000.00,local.txt,Cliente General,Nequi: $57000.00,Completada
+2025-10-18 19:06:10,20251018190610,Vidrio Camara Apple Surtidos,2,1000.00,6000.00,12000.00,10000.00,local.txt,Cliente General,Nequi: $57000.00,Completada
+2025-10-18 19:09:01,20251018190901,Vidrio 5D Samsung A12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Nequi: $30000.00,Completada
+2025-10-18 19:09:01,20251018190901,Silicone Case Huawei Honor X6 / X6s Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $30000.00,Completada
+2025-10-18 19:12:39,20251018191239,Forro Space Samsung A71,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General,Daviplata: $30000.00,Completada
+2025-10-18 19:12:39,20251018191239,Vidrio Tortuga Samsung A71 / Poco X3,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Daviplata: $30000.00,Completada
+2025-10-18 19:13:11,20251018191311,Logica de Carga Motorola Moto G22,1,13000.00,35000.00,35000.00,22000.00,local.txt,Cliente General,Daviplata: $35000.00,Completada
+2025-10-18 19:17:15,20251018191715,Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9,1,37000.00,95000.00,95000.00,58000.00,local.txt,Cliente General,Efectivo: $100000.00,Completada
+2025-10-18 19:17:15,20251018191715,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $100000.00,Completada
+2025-10-18 19:18:35,20251018191835,Recargas,1,50943.00,54000.00,54000.00,3057.00,local.txt,Cliente General,Efectivo: $54000.00,Completada
+2025-10-18 19:27:09,20251018192709,Adaptador Dongle Wifi 5G + Bluetooth 4.2,1,25000.00,49000.00,49000.00,24000.00,local.txt,Cliente General,Efectivo: $49000.00,Completada
+2025-10-18 19:34:07,20251018193407,Cable Poder Grabadora,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Nequi: $12000.00,Completada
+2025-10-18 19:39:42,20251018193942,Gramera Joyeria,1,12000.00,35000.00,35000.00,23000.00,local.txt,Cliente General,Efectivo: $35000.00,Completada
+2025-10-18 21:00:14,20251018210014,Silicone Case Xiaomi Redmi 12 Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $20000.00,Completada
+2025-10-18 21:00:47,20251018210047,Cable Apple Tc Ligthning,1,5000.00,20000.00,20000.00,15000.00,local.txt,Cliente General,"Nequi: $15000.00, Efectivo: $5000.00",Completada
+2025-10-18 21:02:37,20251018210237,Pacha Samsung A15 C/m,1,50000.00,100000.00,100000.00,50000.00,local.txt,Cliente General,Nequi: $100000.00,Completada
+2025-10-18 21:08:00,20251018210800,Servicio Tecnico Generico Soldar Calculadora,1,0.00,6000.00,6000.00,6000.00,local.txt,Cliente General,Efectivo: $6000.00,Completada
+2025-10-18 22:11:18,20251018221118,Pacha Xiaomi Redmi Note 11 / Note 12S,1,37000.00,95000.00,95000.00,58000.00,local.txt,Cliente General,Nequi: $95000.00,Completada
+2025-10-19 14:02:58,20251019140258,Silicone Case Xiaomi Redmi 12 Azulrey,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 14:02:58,20251019140258,Vidrio 5D Xiaomi Redmi 12,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 14:03:18,20251019140318,Cable Poder Usb,1,3000.00,15000.00,15000.00,12000.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
+2025-10-19 14:05:01,20251019140501,Silicone Case Xiaomi Redmi Note 11 Verde,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,"Efectivo: $50000.00, Nequi: $70000.00",Completada
+2025-10-19 14:05:01,20251019140501,Pacha Xiaomi Redmi Note 11 / Note 12S,1,37000.00,95000.00,95000.00,58000.00,local.txt,Cliente General,"Efectivo: $50000.00, Nequi: $70000.00",Completada
+2025-10-19 14:05:01,20251019140501,Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,"Efectivo: $50000.00, Nequi: $70000.00",Completada
+2025-10-19 14:06:28,20251019140628,Forro Space Apple Iphone 11 Pro Max,1,3500.00,18000.00,18000.00,14500.00,local.txt,Cliente General,Nequi: $18000.00,Completada
+2025-10-19 14:07:46,20251019140746,Llavero Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General,Nequi: $10000.00,Completada
+2025-10-19 14:08:38,20251019140838,Cable Apple Tc a Tc,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General,Nequi: $25000.00,Completada
+2025-10-19 14:10:01,20251019141001,Cable Belkin V8,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Daviplata: $12000.00,Completada
+2025-10-19 14:10:51,20251019141051,Silicone Case Tecno Spark Go 2023 / Pop7 Rosa,1,700.00,20000.00,20000.00,19300.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 14:10:51,20251019141051,Pop Socket Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 15:17:14,20251019151714,Teclado Mecanico Gamer Weibo 666,1,85000.00,135000.00,135000.00,50000.00,local.txt,Cliente General,Daviplata: $490000.00,Completada
+2025-10-19 15:17:14,20251019151714,Mouse Gamer Xmg-02 Inalambrico,1,25000.00,55000.00,55000.00,30000.00,local.txt,Cliente General,Daviplata: $490000.00,Completada
+2025-10-19 15:17:14,20251019151714,Adaptador Tc Hub 8 en 1,1,35000.00,80000.00,80000.00,45000.00,local.txt,Cliente General,Daviplata: $490000.00,Completada
+2025-10-19 15:17:14,20251019151714,Proyector Hy-300 2 Ram,1,155000.00,220000.00,220000.00,65000.00,local.txt,Cliente General,Daviplata: $490000.00,Completada
+2025-10-19 15:17:51,20251019151751,Servicio Tecnico Xiaomi Pin de Carga Redmi 9C,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-19 15:18:20,20251019151820,Consola Game Stick,1,40000.00,100000.00,100000.00,60000.00,local.txt,Cliente General,Sistecredito: $100000.00,Completada
+2025-10-19 15:19:49,20251019151949,Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-19 15:32:29,20251019153229,Vidrio 5D Samsung A71 / Poco X3,1,900.00,12000.00,12000.00,11100.00,local.txt,Cliente General,Efectivo: $12000.00,Completada
+2025-10-19 15:37:07,20251019153707,Recargas,1,12264.00,13000.00,13000.00,736.00,local.txt,Cliente General,Efectivo: $13000.00,Completada
+2025-10-19 15:42:57,20251019154257,Pilas Carbon Maxday Aaa X2,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-10-19 15:42:57,20251019154257,Pilas Carbon Maxday Aaa X4,1,1200.00,6000.00,6000.00,4800.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-10-19 19:28:07,20251019192807,Silicone Case Xiaomi Redmi 13C Morado,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Nequi: $35000.00,Completada
+2025-10-19 19:28:07,20251019192807,Vidrio Tortuga Xiaomi Redmi 13C,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General,Nequi: $35000.00,Completada
+2025-10-19 19:28:35,20251019192835,Cadenas Colgar,1,3000.00,15000.00,15000.00,12000.00,local.txt,Cliente General,Nequi: $15000.00,Completada
+2025-10-19 19:29:02,20251019192902,Silicone Case Infinix Hot 60 Pro Plus AzulOscuro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-19 19:29:51,20251019192951,Antena Wifi Larga,1,10000.00,20000.00,20000.00,10000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-10-19 19:31:25,20251019193125,Forro Antichoque Oppo A40 / A60 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 19:31:25,20251019193125,Vidrio Tortuga Huawei Honor X6S,1,1100.00,15000.00,15000.00,13900.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-10-19 19:32:08,20251019193208,Silicone Case Xiaomi Poco X3 Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $40000.00,Completada
+2025-10-19 19:32:08,20251019193208,Vidrio Blindado Motorola Moto G20 / G30 / G50 / G9 Play,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Efectivo: $40000.00,Completada
+2025-10-19 19:32:30,20251019193230,Llavero Figura,1,5000.00,10000.00,10000.00,5000.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-10-19 19:40:06,20251019194006,Pilas Carbon Maxday Aaa X2,1,600.00,4000.00,4000.00,3400.00,local.txt,Cliente General,Efectivo: $4000.00,Completada
+2025-10-19 20:56:34,20251019205634,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-10-19 20:56:52,20251019205652,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-10-19 20:57:49,20251019205749,Servicio Tecnico Generico Soldar Cables Proyecto,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Nequi: $10000.00,Completada
+2025-10-19 21:00:51,20251019210051,Sin Registro,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General,Efectivo: $10000.00,Completada

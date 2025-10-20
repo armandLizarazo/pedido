@@ -1,8 +1,7 @@
-    Bandeja Sim Motorola Moto One Fusion Azul 1 ok
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
-    Pacha Xiaomi Redmi 10C 1 ok
-    Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
-    Pacha Xiaomi Redmi Note 12 2 ok
-    Pacha Xiaomi Redmi 15C 1 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+    Pacha Alcatel 1Se 1
+    Pacha Motorola Moto G13 / G23 1
+    Pacha Samsung A15 1
+    Pacha Samsung A15 C/m 1
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 2
+    Visor Camara Samsung S20 1

@@ -8967,3 +8967,103 @@ Fecha de proceso: 2025-10-17 08:52:49
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-10-19 19:21:49
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 38
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Cable Belkin V8 5 ok
+   13 | Cargador Apple 20W Con Cable 1 ok
+   18 | Cargador Samsung 25W Cabeza Blanco 2 ok
+   20 | Cargador Samsung 45W Con Cable Blanco 1 ok
+   21 | Cargador We Tc 33W 2 ok
+   31 | Forro Antichoque Oppo A5 Dama 5 ok
+   38 | Forro Antichoque Samsung A05 Dama 2 ok
+   46 | Forro Armadura Motorola Moto G35 Rojo 1 ok
+   53 | Forro Armadura Samsung A06 Azul 1 ok
+   55 | Forro Armadura Samsung A13 Rojo 1 ok
+   56 | Forro Armadura Samsung A24 Azuloscuro 1 ok
+   60 | Forro Armadura Xiaomi Redmi 13C Negro 1 ok
+   61 | Forro Armadura Xiaomi Redmi 13C Rojo 1 ok
+   64 | Forro Armadura Xiaomi Redmi Note 11 / Note 12S Negro 1 ok
+   95 | Forro Space Tecno Spark Go 2025 / Go 1 2 ok
+   97 | Forro Space Xiaomi Redmi 13C 3 ok
+   98 | Forro Space Xiaomi Redmi Note 11 2 ok
+  113 | Pilas Recargables Maxday AA x4 con Cargador 2 ok
+  116 | Cable Motorola Tc 1 ok
+  117 | Cargador Samsung 25W con Cable Negro 1 ok
+  118 | Cargador Samsung 25W con Cable Blanco 1 ok
+  126 | Silicone Case Huawei Honor 200 Lite Fucsia 1 ok
+  138 | Silicone Case Infinix Note 40 Pro 4G Fucsia 1 ok
+  140 | Silicone Case Infinix Note 50s Azulrey 1 ok
+  186 | Silicone Case Samsung A10 Fucsia 1 ok
+  187 | Silicone Case Samsung A10S Negro 1 ok
+  211 | Silicone Case Tecno Camon 40 Pro 4G / 5G Fucsia 2 ok
+  212 | Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 2 ok
+  249 | Simcard wom 1 ok
+  253 | Ventosas 3 ok
+  260 | Vidrio 5D Samsung A12 5 ok
+  276 | Vidrio Blindado Samsung A26 5 ok
+  279 | Forro Manguera Xiaomi Redmi 15 Verdemilitar 1 ok
+  280 | Forro Manguera Xiaomi Redmi 15 Negro 1 ok
+  281 | Forro Manguera Xiaomi Redmi 15 Azulrey 1 ok
+  282 | Forro Armadura Xiaomi Redmi A1 / A2 Negro 1 ok
+  283 | Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1 ok
+  284 | Forro Armadura Infinix Hot 50 Pro Plus Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-19 19:21:49
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 21
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Adaptador Hdmi2vga Cbl 1 ok
+    5 | Aro De Luz 45Cm 1 ok
+   17 | Cable Vga 5M 2 ok
+   23 | Control Gamer Microsoft Xbox Caja Negra 3 ok
+   24 | Control Gamer X3S 1 ok
+   29 | Microfono Inalambrico F11 Doble Pelusa 1 ok
+   32 | Patillera 3 En 1 2 ok
+   34 | Pila Reloj Cr-2032 5 ok
+   35 | Pila Reloj Cr-2025 5 ok
+   36 | Pilas Recargables Beston Mixta con Cargador 1 ok
+   39 | Reproductor Onn Hd Azul 1 ok
+   41 | Rollo Papel Mini Impresora Adhesivo 10 ok
+   49 | Soporte Tv 50 Brazo 2 ok
+   50 | Teclado Kb-502 Eco 2 ok
+   51 | Teclado Minikeyboard Tipo Control Tv 2 ok
+   55 | Escencia Agua 10 ok
+   56 | Depilador Naris y Orejas Geemy 1 ok
+   57 | Depilador Naris y Orejas Recargable 2 ok
+   58 | Humidificador Eco 2 ok
+   59 | Humidificador Madera 2 ok
+   60 | Audifonos Bluetooth Jbl K55 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-19 19:21:49
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bandeja Sim Motorola Moto One Fusion Azul 1 ok
+    2 | Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    3 | Pacha Xiaomi Redmi 10C 1 ok
+    4 | Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok
+    5 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    6 | Pacha Xiaomi Redmi Note 12 2 ok
+    7 | Pacha Xiaomi Redmi 15C 1 ok
+    8 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-19 19:21:49
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
