@@ -22,14 +22,13 @@
     Adaptador Hdmi2dpp 0
     Adaptador Hdmi2dvi 2
     Adaptador Hdmi2vga Cbl 1
-    Adaptador Hdmi2vga Cja 0
     Adaptador Hub + Hdmi y Lan 0
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub 4 Puertos 3.0 0
     Adaptador Hub 7 Puertos 2.0 0
     Adaptador Hub 7 Puertos 3.0 0
-    Adaptador Hub Tc Usb X3 0
     Adaptador Hub Tc Usb X3 + Lan 0
+    Adaptador Hub Tc Usb X3 0
     Adaptador Hub Tc Usb X4 2
     Adaptador Mdpp2Hdmi Cbl 1
     Adaptador Mdpp2Hdmi Negro Cbl 0
@@ -139,7 +138,6 @@
     Audifonos Bluetooth Xiaomi E7S Blanco 0
     Audifonos Bluetooth Xiaomi E7S Negro 0
     Audifonos Bluetooth Xiaomi E7S Rosa 0
-    Audifonos Bluetooth Xiaomi E7s Blanco 0
     Audifonos Bluetooth Xiaomi Redmi E7S Negro 0
     Audifonos Bluetooth Y6 Azul 0
     Audifonos Bluetooth Y6 Blanco 0
@@ -225,18 +223,18 @@
     Cable 5V 9V 12V Plug Ancho 2
     Cable 6101 2
     Cable Apple Iphone 4 0
+    Cable Apple Tc A Tc 2M 5
     Cable Apple Tc A Tc 60w Aguja 2
-    Cable Apple Tc Ligthning 4
     Cable Apple Tc Ligthning 2M 5
-    Cable Apple Tc a Tc 0
-    Cable Apple Usb Ligthning 1
+    Cable Apple Tc Ligthning 4
+    Cable Apple Tc a Tc 5
+    Cable Apple Usb Ligthning 0
     Cable Apple Usb Ligthning 2M 0
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 1 A 1 5M 1
     Cable Auxiliar 1 A 1 Cordon 0
     Cable Auxiliar 1 A 1 Eco 0
     Cable Auxiliar 1 a 1 3 Vias Cja 0
-    Cable Auxiliar 1 a 1 Eco 0
     Cable Auxiliar 1 a 1 Microfono 2
     Cable Auxiliar 2 A 1 1.5M 2
     Cable Auxiliar 2 A 1 3M 2
@@ -246,9 +244,9 @@
     Cable Auxiliar 3 A 1 3M 4
     Cable Auxiliar Harvic 1 a 1 en L Cja 0
     Cable Belkin Ligthning 0
-    Cable Belkin Tc 7
     Cable Belkin Tc 2M 2
-    Cable Belkin V8 2
+    Cable Belkin Tc 7
+    Cable Belkin V8 7
     Cable Caterpillar Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -320,7 +318,7 @@
     Cable V3 1.5M 2
     Cable V3 Eco 10
     Cable V8 3.0 Corto 0
-    Cable V8 Eco 0
+    Cable V8 Eco 5
     Cable Vga 1.5M 3
     Cable Vga 10M 1
     Cable Vga 15M 0
@@ -360,6 +358,7 @@
     Camara Principal Motorola Moto G9 Power 1
     Camara Principal Samsugn A51 0
     Camara Principal Samsugn S20 Fe 0
+    Camara Principal Samsung A71 1
     Camara Principal Xiaomi Redmi 9T 0
     Camara Principal Xiaomi Redmi Note 8 Pro 0
     Camara Web 1080p 0
@@ -456,12 +455,13 @@
     Cargador W Tc 0
     Cargador We Tc 33W 5
     Cargador We V8 33W 4
-    Cargador Xiaomi 120W 0
+    Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 0
     Cargador Yl Tc 2
     Cargador Yl V8 8
     Cargador Yl V8 Eco 5
+    Cargador Yoyos 120W 1
     Celular Corn Flip K 0
     Celular Corn Flip K 1 352384180254635/643 1
     Celular Corn Flip K Tapa 352384180079354-362 Rojo 0
@@ -491,8 +491,8 @@
     Control Gamer Gatillos H9.0 Ventilador 2
     Control Gamer Gatillos W11+ 0
     Control Gamer Gatillos Z-06 0
-    Control Gamer Microsoft Pc 2
     Control Gamer Microsoft Pc / 360 Alambrico 2
+    Control Gamer Microsoft Pc 2
     Control Gamer Microsoft Xbox 360 Inalambrico 1
     Control Gamer Microsoft Xbox Caja Negra 0
     Control Gamer Microsoft Xbox One 0
@@ -533,10 +533,8 @@
     Flex De Power Xiaomi Redmi Note 13 4G 0
     Flex Principal Samsung A32 4G 0
     Flex Principal Xiaomi Redmi Note 10 / Note 10S 2
-    Flex Principal Xiaomi Redmi Note 10 / Note 10s 0
     Flex Principal Xiaomi Redmi Note 9 0
     Flex de Power Huawei Honor X6 / X6S 0
-    Flex de Power Samsung A10s 0
     Flex de Power Xiaomi Poco X3 0
     Flex de Power Xiaomi Redmi Note 8 1
     Flex de Power Xiaomi Redmi Note 9 1
@@ -883,7 +881,6 @@
     Forro Antichoque Vivo Y11s / Y20 / Y20s Caballero 0
     Forro Antichoque Vivo Y11s / Y20 / Y20s Dama 0
     Forro Antichoque Vivo Y17S Caballero 0
-    Forro Antichoque Vivo Y17s Caballero 0
     Forro Antichoque Vivo Y17s Dama 0
     Forro Antichoque Vivo Y19S Dama 0
     Forro Antichoque Vivo Y20 / Y20S / Y11S Caballero 0
@@ -965,8 +962,6 @@
     Forro Antichoque Xiaomi Redmi Note 9 Dama 0
     Forro Antichoque Xiaomi Redmi Note 9S Caballero 0
     Forro Antichoque Xiaomi Redmi Note 9S Dama 0
-    Forro Antichoque infinix Hot 50 4G Caballero 0
-    Forro Antichoque infinix Hot 50 4G Dama 0
     Forro Antichoque infinix Hot 50 5G Dama 0
     Forro Antichoque infinix Note 50S 4G Caballero 0
     Forro Antichoque infinix Note 50S 4G Dama 0
@@ -1124,8 +1119,6 @@
     Forro Armadura Xiaomi Redmi Note 14 Pro 5G Rojo 0
     Forro Armadura Xiaomi Redmi Note 8 Negro 0
     Forro Armadura Xiaomi Redmi Note 8 Rojo 0
-    Forro Armadura infinix Hot 50 4G Negro 0
-    Forro Armadura infinix Hot 50 4G Verdemilitar 0
     Forro Audifonos Case Airpods 3 0
     Forro Audifonos Case Pro 0
     Forro Audifonos Case Pro 2 0
@@ -1205,7 +1198,7 @@
     Forro Smart Watch 45Cm 0
     Forro Space Apple Iphone 11 2
     Forro Space Apple Iphone 11 Magsafe 0
-    Forro Space Apple Iphone 11 Pro Max 0
+    Forro Space Apple Iphone 11 Pro Max 2
     Forro Space Apple Iphone 11 Pro Max Magsafe 0
     Forro Space Apple Iphone 12 0
     Forro Space Apple Iphone 12 Mini 0
@@ -1224,8 +1217,8 @@
     Forro Space Apple Iphone 16 Pro 0
     Forro Space Apple Iphone 16 Pro Max 0
     Forro Space Apple Iphone 16e 1
-    Forro Space Apple Iphone 6 Plus 1
     Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
+    Forro Space Apple Iphone 6 Plus 1
     Forro Space Apple Iphone 6S 1
     Forro Space Apple Iphone 6S Plus 0
     Forro Space Apple Iphone 7 / 8 0
@@ -1287,8 +1280,8 @@
     Forro Space Motorola Moto G20 / Moto G30 1
     Forro Space Motorola Moto G23 0
     Forro Space Motorola Moto G24 / G04 3
-    Forro Space Motorola Moto G31 0
     Forro Space Motorola Moto G31 / G41 1
+    Forro Space Motorola Moto G31 0
     Forro Space Motorola Moto G35 0
     Forro Space Motorola Moto G52 0
     Forro Space Motorola Moto G54 1
@@ -1457,7 +1450,6 @@
     Forro Space Xiaomi Redmi Note 8 Rosa 0
     Forro Space Xiaomi Redmi Note 9 0
     Forro Space Xiaomi Redmi Ntote 10 Pro 1
-    Forro Space infinix Hot 50 4G 0
     Forro Spsce Xiaomi Poco X6 Pro 0
     Forro Ukg Apple Iphone 11 Rojo 0
     Forro Ventana Apple Iphone 15 Pro Negro 0
@@ -1606,7 +1598,7 @@
     Logica de Carga Tecno Spark 10 Pro 0
     Logica de Carga Tecno Spark 20 0
     Logica de Carga Tecno Spark 20C 0
-    Logica de Carga Tecno Spark Go 2024 0
+    Logica de Carga Tecno Spark Go 2024 1
     Logica de Carga Xiaomi Redmi 9 0
     Logica de Carga Xiaomi Redmi 9A / 9C / 10A 0
     Logica de Carga Xiaomi Redmi Note 10 / Note 10S 0
@@ -1773,6 +1765,7 @@
     Pacha Huawei Honor 9A / Enjoy 10E / Y6P 0
     Pacha Huawei Honor X6 / X6S 0
     Pacha Huawei Honor X6A 0
+    Pacha Huawei Honor X6B 1
     Pacha Huawei Honor X6S 0
     Pacha Huawei Honor X7A 0
     Pacha Huawei Nova 9Se 0
@@ -1801,7 +1794,7 @@
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 0
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G05 / G15 0
-    Pacha Motorola Moto G13 / G23 0
+    Pacha Motorola Moto G13 / G23 1
     Pacha Motorola Moto G14 / G54 / G55 0
     Pacha Motorola Moto G20 / G30 0
     Pacha Motorola Moto G22 / E32 0
@@ -1847,8 +1840,8 @@
     Pacha Samsung A12 C/m 0
     Pacha Samsung A13 / M13 / M23 0
     Pacha Samsung A14 5G 1
-    Pacha Samsung A15 0
-    Pacha Samsung A15 C/m 0
+    Pacha Samsung A15 1
+    Pacha Samsung A15 C/m 1
     Pacha Samsung A20s 0
     Pacha Samsung A20s C/m 0
     Pacha Samsung A21S 0
@@ -1876,7 +1869,7 @@
     Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 0
     Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 0
     Pacha Tecno - Infinix Spark Go 2020 / 6Go / Hot 10i 0
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 0
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
     Pacha Tecno / Infinix Camon 18P / 19 0
     Pacha Tecno / Infinix Pova 5 / Hot 30 Play 0
     Pacha Tecno / Infinix Smart 6 0
@@ -1905,8 +1898,8 @@
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 0
-    Pacha Xiaomi Redmi 14C 0
     Pacha Xiaomi Redmi 14C / Redmi A4 0
+    Pacha Xiaomi Redmi 14C 0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 0
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 0
@@ -1916,7 +1909,7 @@
     Pacha Xiaomi Redmi Note 10 / Note 10S 0
     Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 0
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
-    Pacha Xiaomi Redmi Note 11 / Note 12S 0
+    Pacha Xiaomi Redmi Note 11 / Note 12S 2
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 12 Amoled 0
@@ -2206,7 +2199,7 @@
     Silicone Case Apple Iphone 11 Pro Max Negro 0
     Silicone Case Apple Iphone 11 Pro Max Rosa 0
     Silicone Case Apple Iphone 11 Rojo 0
-    Silicone Case Apple Iphone 11 Rosa 0
+    Silicone Case Apple Iphone 11 Rosa 1
     Silicone Case Apple Iphone 12 / 12 Pro Ab Verde 1
     Silicone Case Apple Iphone 12 Ab Negro 0
     Silicone Case Apple Iphone 12 Lila 1
@@ -2276,7 +2269,6 @@
     Silicone Case Apple Iphone 16 Pro Max Rojo 0
     Silicone Case Apple Iphone 16 Pro Max Rosa 0
     Silicone Case Apple Iphone 16 Pro Max Verde 0
-    Silicone Case Apple Iphone 16E Negro 0
     Silicone Case Apple Iphone 6S Amarillo 0
     Silicone Case Apple Iphone 6S Azulrey 0
     Silicone Case Apple Iphone 6S Lila 0
@@ -2334,7 +2326,7 @@
     Silicone Case Apple Iphone Xr Azuloscuro 0
     Silicone Case Apple Iphone Xr Azulrey 0
     Silicone Case Apple Iphone Xr Fucsia 0
-    Silicone Case Apple Iphone Xr Lila 0
+    Silicone Case Apple Iphone Xr Lila 1
     Silicone Case Apple Iphone Xr Morado 0
     Silicone Case Apple Iphone Xr Negro 0
     Silicone Case Apple Iphone Xr Rojo 0
@@ -2382,9 +2374,6 @@
     Silicone Case Huawei Honor X6 / X6S Negro 0
     Silicone Case Huawei Honor X6 / X6s Amarillo 0
     Silicone Case Huawei Honor X6 / X6s Azulclaro 0
-    Silicone Case Huawei Honor X6 / X6s Lila 0
-    Silicone Case Huawei Honor X6 / X6s Morado 0
-    Silicone Case Huawei Honor X6 / X6s Negro 0
     Silicone Case Huawei Honor X6 / X6s Palorosa 0
     Silicone Case Huawei Honor X6 / X6s Rojo 0
     Silicone Case Huawei Honor X6 / X6s Verdemilitar 0
@@ -2396,6 +2385,11 @@
     Silicone Case Huawei Honor X6A / Play 9A Palorosa 0
     Silicone Case Huawei Honor X6A / Play 9A Rojo 1
     Silicone Case Huawei Honor X6A / Play 9A Verde 1
+    Silicone Case Huawei Honor X6C Azulrey 1
+    Silicone Case Huawei Honor X6C Negro 1
+    Silicone Case Huawei Honor X6C Rosa 1
+    Silicone Case Huawei Honor X6C Verdementa 1
+    Silicone Case Huawei Honor X6C Verdemilitar 1
     Silicone Case Huawei Honor X6S / X8 Negro 0
     Silicone Case Huawei Honor X7 Amarillo 0
     Silicone Case Huawei Honor X7 Fucsia 0
@@ -2518,9 +2512,9 @@
     Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 0
     Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 0
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 0
-    Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 0
+    Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 1
     Silicone Case Infinix Hot 60 Pro Plus Lila 0
-    Silicone Case Infinix Hot 60 Pro Plus Negro 0
+    Silicone Case Infinix Hot 60 Pro Plus Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 0
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Verde 0
@@ -2836,13 +2830,13 @@
     Silicone Case Oppo A57 Lila 0
     Silicone Case Oppo A57 Rojo 0
     Silicone Case Oppo A58 4G / A78 5G Amarillo 0
-    Silicone Case Oppo A58 4G / A78 5G Azulrey 0
-    Silicone Case Oppo A58 4G / A78 5G Fucsia 0
+    Silicone Case Oppo A58 4G / A78 5G Azulrey 1
+    Silicone Case Oppo A58 4G / A78 5G Fucsia 1
     Silicone Case Oppo A58 4G / A78 5G Lila 0
     Silicone Case Oppo A58 4G / A78 5G Morado 0
     Silicone Case Oppo A58 4G / A78 5G Negro 0
     Silicone Case Oppo A58 4G / A78 5G Rojo 0
-    Silicone Case Oppo A58 4G / A78 5G Rosa 0
+    Silicone Case Oppo A58 4G / A78 5G Rosa 1
     Silicone Case Oppo A59 Amarillo 0
     Silicone Case Oppo A59 Azulrey 0
     Silicone Case Oppo A59 Fucsia 0
@@ -2880,7 +2874,7 @@
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 0
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 0
     Silicone Case Oppo Realme C53 / Note 50 Azuloscuro 0
-    Silicone Case Oppo Realme C53 / Note 50 Lila 0
+    Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C53 / Note 50 Negro 0
     Silicone Case Oppo Realme C53 / Note 50 Rojo 0
     Silicone Case Oppo Realme C53 / Note 50 Rojo Azulrey 0
@@ -3343,7 +3337,7 @@
     Silicone Case Tecno Pova 5 Amarillo 0
     Silicone Case Tecno Pova 5 Azulrey 0
     Silicone Case Tecno Pova 5 Blanco 0
-    Silicone Case Tecno Pova 5 Fucsia 0
+    Silicone Case Tecno Pova 5 Fucsia 1
     Silicone Case Tecno Pova 5 Morado 0
     Silicone Case Tecno Pova 5 Negro 0
     Silicone Case Tecno Pova 5 Rojo 0
@@ -3563,7 +3557,7 @@
     Silicone Case Xiaomi Poco X3 Fucsia 0
     Silicone Case Xiaomi Poco X3 Lila 0
     Silicone Case Xiaomi Poco X3 Morado 0
-    Silicone Case Xiaomi Poco X3 Negro 0
+    Silicone Case Xiaomi Poco X3 Negro 1
     Silicone Case Xiaomi Poco X3 Rojo 0
     Silicone Case Xiaomi Poco X3 Rosa 0
     Silicone Case Xiaomi Poco X6 5G / Redmi Note 13 Pro 5G 0
@@ -3610,11 +3604,13 @@
     Silicone Case Xiaomi Redmi 13 Fucsia 0
     Silicone Case Xiaomi Redmi 13 Lila 0
     Silicone Case Xiaomi Redmi 13 Morado 0
-    Silicone Case Xiaomi Redmi 13 Negro 0
+    Silicone Case Xiaomi Redmi 13 Negro 1
     Silicone Case Xiaomi Redmi 13 Rojo 0
     Silicone Case Xiaomi Redmi 13 Verde 0
+    Silicone Case Xiaomi Redmi 13C Amarillo 1
     Silicone Case Xiaomi Redmi 13C Fucsia 1
-    Silicone Case Xiaomi Redmi 13C Morado 0
+    Silicone Case Xiaomi Redmi 13C Lila 1
+    Silicone Case Xiaomi Redmi 13C Morado 1
     Silicone Case Xiaomi Redmi 14C Amarillo 0
     Silicone Case Xiaomi Redmi 14C Azulrey 0
     Silicone Case Xiaomi Redmi 14C Fucsia 0
@@ -3623,6 +3619,11 @@
     Silicone Case Xiaomi Redmi 14C Negro 1
     Silicone Case Xiaomi Redmi 14C Rojo 0
     Silicone Case Xiaomi Redmi 14C Verde 0
+    Silicone Case Xiaomi Redmi 15C Lila 1
+    Silicone Case Xiaomi Redmi 15C Negro 1
+    Silicone Case Xiaomi Redmi 15C Rojo 1
+    Silicone Case Xiaomi Redmi 15C Rosa 1
+    Silicone Case Xiaomi Redmi 15C Vinotinto 1
     Silicone Case Xiaomi Redmi 7 Amarillo 0
     Silicone Case Xiaomi Redmi 9 Amarillo 2
     Silicone Case Xiaomi Redmi 9 Azuloscuro 0
@@ -3657,7 +3658,6 @@
     Silicone Case Xiaomi Redmi 9C / 10A Verdemilitar 1
     Silicone Case Xiaomi Redmi 9T Lila 0
     Silicone Case Xiaomi Redmi 9T Negro 1
-    Silicone Case Xiaomi Redmi 9a Azulrey 0
     Silicone Case Xiaomi Redmi A1 / A2 Negro 1
     Silicone Case Xiaomi Redmi A1 / A2 Rojo 0
     Silicone Case Xiaomi Redmi A3 Azulrey 0
@@ -3690,12 +3690,13 @@
     Silicone Case Xiaomi Redmi Note 10 Pro Verdebiche 0
     Silicone Case Xiaomi Redmi Note 11 Amarillo 0
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 0
-    Silicone Case Xiaomi Redmi Note 11 Azulrey 0
+    Silicone Case Xiaomi Redmi Note 11 Azulrey 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 0
     Silicone Case Xiaomi Redmi Note 11 Fucsia 0
     Silicone Case Xiaomi Redmi Note 11 Lila 1
     Silicone Case Xiaomi Redmi Note 11 Morado 0
     Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 1
     Silicone Case Xiaomi Redmi Note 11 Rosa 1
     Silicone Case Xiaomi Redmi Note 11 Verde 0
@@ -3813,7 +3814,7 @@
     Silicone Case Xiaomi Redmi Note 9S Fucsia 0
     Silicone Case Xiaomi Redmi Note 9S Negro 0
     Silicone Case Xiaomi redmi 10C Morado 0
-    Silicone Case Xioami Redmi 12C Negro 0
+    Silicone Case Xioami Redmi 12C Negro 1
     Silicone Case Xioami Redmi Note 12S Negro 1
     Silicone Case Xiomi Redmi Note 14 Fucsia 1
     Silicone Case Xiomi Redmi Note 8 Negro 1
@@ -3873,8 +3874,8 @@
     St Samsung Mantenimiento Logica de Carga A14 0
     St Soldar Cable Tarjeta 0
     St Xiaomi Frp Redmi 12 0
-    Switch Lan 0
     Switch Lan  GS-05 1/100/1000 0
+    Switch Lan 0
     Switch Lan 10/100 0
     Tactil Tableta 10 Pulgadas 0
     Tactil Tableta 7 Pulgadas 0
@@ -3949,8 +3950,8 @@
     Vidrio 5D Apple Iphone 12 Pro Max 6
     Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio 5D Apple Iphone 13 Pro Max 5
-    Vidrio 5D Apple Iphone 14 Pro 0
     Vidrio 5D Apple Iphone 14 Pro / 15 / 15 Pro / 16 13
+    Vidrio 5D Apple Iphone 14 Pro 0
     Vidrio 5D Apple Iphone 14 Pro Max 5
     Vidrio 5D Apple Iphone 15 Plus 4
     Vidrio 5D Apple Iphone 15 Pro Max 5
@@ -3986,8 +3987,8 @@
     Vidrio 5D Motorola Moto E6s / E6i 0
     Vidrio 5D Motorola Moto G14 / G54 / G55 0
     Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 14
-    Vidrio 5D Motorola Moto G22 0
     Vidrio 5D Motorola Moto G22 / E32 0
+    Vidrio 5D Motorola Moto G22 0
     Vidrio 5D Motorola Moto G40 0
     Vidrio 5D Motorola Moto G52 0
     Vidrio 5D Motorola Moto G8 Play 0
@@ -4005,13 +4006,12 @@
     Vidrio 5D Samsung A05S 9
     Vidrio 5D Samsung A10 / A10s 0
     Vidrio 5D Samsung A11 0
-    Vidrio 5D Samsung A12 0
+    Vidrio 5D Samsung A12 5
     Vidrio 5D Samsung A14 / A22 5G 0
     Vidrio 5D Samsung A15 0
     Vidrio 5D Samsung A16 / A26 / A56 5
     Vidrio 5D Samsung A20s 0
     Vidrio 5D Samsung A21S 5
-    Vidrio 5D Samsung A21s 0
     Vidrio 5D Samsung A22 4G / A31 / A32 4G 0
     Vidrio 5D Samsung A24 / A25 / A34 3
     Vidrio 5D Samsung A30S 0
@@ -4020,7 +4020,7 @@
     Vidrio 5D Samsung A53 0
     Vidrio 5D Samsung A54 / S23 Fe 0
     Vidrio 5D Samsung A56 0
-    Vidrio 5D Samsung A71 / Poco X3 0
+    Vidrio 5D Samsung A71 / Poco X3 5
     Vidrio 5D Samsung S22 / S23 0
     Vidrio 5D Samsung S23 Plus 0
     Vidrio 5D Tecno Camon 20 / 20 Pro 3
@@ -4050,22 +4050,21 @@
     Vidrio 5D Xiaomi Redmi Note 8 0
     Vidrio 5D Xiaomi Redmi Note 9 0
     Vidrio 5D Xiaomi Redmi Note 9S / 9 Pro 0
-    Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 0
     Vidrio 5D huawei Y9 2019 / Y8s 0
     Vidrio Antiespia Apple Iphone 11 / Xr 0
     Vidrio Antiespia Apple Iphone 11 Pro Max 0
     Vidrio Antiespia Apple Iphone 12 0
     Vidrio Antiespia Apple Iphone 12 Mini 0
     Vidrio Antiespia Apple Iphone 12 Pro Max 2
+    Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio Antiespia Apple Iphone 13 0
-    Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Antiespia Apple Iphone 13 Mini 0
     Vidrio Antiespia Apple Iphone 13 Pro Max 9
     Vidrio Antiespia Apple Iphone 14 5
     Vidrio Antiespia Apple Iphone 14 Pro 5
     Vidrio Antiespia Apple Iphone 14 Pro Max 6
-    Vidrio Antiespia Apple Iphone 15 5
     Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16 5
+    Vidrio Antiespia Apple Iphone 15 5
     Vidrio Antiespia Apple Iphone 15 Plus / 15 Pro Max5 0
     Vidrio Antiespia Apple Iphone 15 Pro 0
     Vidrio Antiespia Apple Iphone 16 0
@@ -4078,8 +4077,8 @@
     Vidrio Antiespia Huawei Honor X7B 0
     Vidrio Antiespia Huawei Honor X8B 0
     Vidrio Antiespia Motorola Moto G04 / Moto G24 0
-    Vidrio Antiespia Motorola Moto G20 / G30 0
     Vidrio Antiespia Motorola Moto G20 / G30 / G50 / G9 Play 0
+    Vidrio Antiespia Motorola Moto G20 / G30 0
     Vidrio Antiespia Motorola Moto G54 0
     Vidrio Antiespia Motorola Moto G84 0
     Vidrio Antiespia Samsung A05 / Redmi 13C 3
@@ -4097,12 +4096,12 @@
     Vidrio Antiespia Xiaomi Redmi 10 0
     Vidrio Antiespia Xiaomi Redmi 10C / 12C 7
     Vidrio Antiespia Xiaomi Redmi 12 3
-    Vidrio Antiespia Xiaomi Redmi 13C 0
     Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 5
+    Vidrio Antiespia Xiaomi Redmi 13C 0
     Vidrio Antiespia Xiaomi Redmi 14C / A5 / A3 2
     Vidrio Antiespia Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 0
-    Vidrio Antiespia Xiaomi Redmi Note 12 5
     Vidrio Antiespia Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
+    Vidrio Antiespia Xiaomi Redmi Note 12 5
     Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 2
     Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 0
     Vidrio Blindado Apple Ip4Hone 14 Pro Max 0
@@ -4111,8 +4110,8 @@
     Vidrio Blindado Apple Iphone 12 / 12 Pro 0
     Vidrio Blindado Apple Iphone 12 Mini 0
     Vidrio Blindado Apple Iphone 12 Pro Max 0
-    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 0
     Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 / 16E 0
+    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 10
     Vidrio Blindado Apple Iphone 13 Mini 0
     Vidrio Blindado Apple Iphone 13 Pro Max 0
     Vidrio Blindado Apple Iphone 14 Pro / 15 / 15 Pro / 16 9
@@ -4178,8 +4177,8 @@
     Vidrio Ceramaico Vivo Y33s 0
     Vidrio Ceramico Apple Iphone 11 / Xr 0
     Vidrio Ceramico Apple Iphone 12 Mini 0
-    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 0
     Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 0
+    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 0
     Vidrio Ceramico Apple Iphone 14 Pro Max 5
     Vidrio Ceramico Apple Iphone 6 Plus 0
     Vidrio Ceramico Huawei Y9 Prime 0
@@ -4220,19 +4219,19 @@
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 0
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 0
     Vidrio Oppo A54 0
-    Vidrio Perlas Apple Iphone 11 5
     Vidrio Perlas Apple Iphone 11 / Xr 1
+    Vidrio Perlas Apple Iphone 11 5
     Vidrio Perlas Apple Iphone 15 / 15 Pro / Iphone 16 0
     Vidrio Templado Apple Iphone 16E 0
-    Vidrio Tortuga Apple Iphone 11 0
     Vidrio Tortuga Apple Iphone 11 / Xr 0
+    Vidrio Tortuga Apple Iphone 11 0
     Vidrio Tortuga Apple Iphone 11 Pro Max 0
     Vidrio Tortuga Apple Iphone 12 / 12 Pro 6
     Vidrio Tortuga Apple Iphone 12 Mini 0
     Vidrio Tortuga Apple Iphone 12 Pro Max 2
-    Vidrio Tortuga Apple Iphone 13 0
-    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 6
     Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 / 16E 0
+    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 6
+    Vidrio Tortuga Apple Iphone 13 0
     Vidrio Tortuga Apple Iphone 13 Mini 0
     Vidrio Tortuga Apple Iphone 13 Pro Max 0
     Vidrio Tortuga Apple Iphone 14 Pro 0
@@ -4265,8 +4264,8 @@
     Vidrio Tortuga Samsung A31 0
     Vidrio Tortuga Samsung A35 / A36 / A55 0
     Vidrio Tortuga Samsung A54 / S23 Fe 0
-    Vidrio Tortuga Samsung A71 0
     Vidrio Tortuga Samsung A71 / Poco X3 0
+    Vidrio Tortuga Samsung A71 0
     Vidrio Tortuga Tecno Spark 10 / 10C 0
     Vidrio Tortuga Tecno Spark 20 Pro 0
     Vidrio Tortuga Tecno Spark Go 2023 / Spark 10C / Smart 7 0
@@ -4289,7 +4288,8 @@
     Visor Camara Principal Huawei Honor X7B 0
     Visor Camara Samsung A21s 0
     Visor Camara Samsung A22 4G Negro 1
-    Visor Camara Samsung S20 0
+    Visor Camara Samsung A71 1
+    Visor Camara Samsung S20 1
     Visor Camara Samsung S20 Fe 0
     Visor Camara Xiaomi Redmi 9T 0
     Visor Camara Xiaomi Redmi Note 10 Pro 0

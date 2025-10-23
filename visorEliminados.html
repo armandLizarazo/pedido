@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visor de Historial de Eliminados (TXT/CSV)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      .table-container {
+        max-height: 60vh;
+        overflow-y: auto;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <div class="container mx-auto p-4 sm:p-6 lg:p-8">
+      <div class="bg-white rounded-2xl shadow-lg p-6 mb-6">
+        <h1 class="text-3xl font-bold text-gray-900 mb-2">
+          Visor de Historial de Eliminados
+        </h1>
+        <p class="text-gray-600">
+          Sube y consulta tu archivo `historial_eliminados.txt` para buscar y
+          filtrar los registros.
+        </p>
+      </div>
+
+      <!-- Dropzone para subir archivo -->
+      <div
+        id="upload-container"
+        class="bg-white rounded-2xl shadow-lg p-8 text-center border-4 border-dashed border-gray-200 hover:border-blue-500 transition-colors duration-300 cursor-pointer"
+      >
+        <input type="file" id="file-input" class="hidden" accept=".txt,.csv" />
+        <svg
+          class="mx-auto h-12 w-12 text-gray-400"
+          stroke="currentColor"
+          fill="none"
+          viewBox="0 0 48 48"
+          aria-hidden="true"
+        >
+          <path
+            d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <h2 class="mt-4 text-xl font-semibold text-gray-900">
+          Arrastra y suelta tu archivo o haz clic para seleccionar
+        </h2>
+        <p class="mt-1 text-sm text-gray-600">Soporta archivos .txt y .csv</p>
+        <p id="file-name" class="mt-4 text-sm font-medium text-blue-600"></p>
+      </div>
+
+      <!-- Contenedor principal de la aplicación (inicialmente oculto) -->
+      <div id="app-container" class="hidden">
+        <!-- Filtros -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+          <!-- Filtro de Búsqueda por Columna -->
+          <div class="bg-white rounded-2xl shadow-lg p-4 md:col-span-1">
+            <label
+              for="search-column"
+              class="block text-sm font-medium text-gray-700 mb-2"
+              >Buscar en:</label
+            >
+            <select
+              id="search-column"
+              class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition mb-2"
+            >
+              <option value="content">Contenido</option>
+              <option value="date">Fecha de Proceso</option>
+              <option value="file">Archivo Procesado</option>
+              <option value="line">Línea</option>
+            </select>
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Término de búsqueda..."
+              class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+            />
+          </div>
+          <!-- Filtro por Archivo -->
+          <div class="bg-white rounded-2xl shadow-lg p-4">
+            <label
+              for="file-filter"
+              class="block text-sm font-medium text-gray-700 mb-2"
+              >Filtrar por archivo:</label
+            >
+            <select
+              id="file-filter"
+              class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+            >
+              <option value="">Todos los archivos</option>
+            </select>
+          </div>
+          <!-- Filtro por Fecha -->
+          <div class="bg-white rounded-2xl shadow-lg p-4">
+            <label
+              for="date-filter"
+              class="block text-sm font-medium text-gray-700 mb-2"
+              >Filtrar por fecha:</label
+            >
+            <input
+              type="date"
+              id="date-filter"
+              class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+            />
+          </div>
+        </div>
+
+        <!-- Estadísticas -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 mb-6">
+          <h2 class="text-xl font-bold text-gray-800 mb-4">Resumen</h2>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+            <div>
+              <p class="text-2xl font-bold text-blue-600" id="total-records">
+                0
+              </p>
+              <p class="text-sm text-gray-600">Registros Totales</p>
+            </div>
+            <div>
+              <p
+                class="text-2xl font-bold text-green-600"
+                id="total-records-display"
+              >
+                0
+              </p>
+              <p class="text-sm text-gray-600">Mostrando Actualmente</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold text-purple-600" id="total-files">
+                0
+              </p>
+              <p class="text-sm text-gray-600">Archivos Procesados</p>
+            </div>
+            <div>
+              <p
+                class="text-2xl font-bold text-yellow-600"
+                id="last-process-date"
+              >
+                -
+              </p>
+              <p class="text-sm text-gray-600">Último Proceso</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tabla de resultados -->
+        <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div class="table-container">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50 sticky top-0">
+                <tr>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Fecha de Proceso
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Archivo Procesado
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Línea
+                  </th>
+                  <th
+                    scope="col"
+                    class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                  >
+                    Contenido
+                  </th>
+                </tr>
+              </thead>
+              <tbody
+                id="results-table"
+                class="bg-white divide-y divide-gray-200"
+              >
+                <!-- Los resultados se insertarán aquí -->
+              </tbody>
+            </table>
+          </div>
+          <div id="no-results" class="text-center p-8 text-gray-500 hidden">
+            <p>No se encontraron resultados para tu búsqueda.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // Contenedores de la interfaz
+      const uploadContainer = document.getElementById("upload-container");
+      const fileInput = document.getElementById("file-input");
+      const fileNameDisplay = document.getElementById("file-name");
+      const appContainer = document.getElementById("app-container");
+
+      // Elementos de la aplicación
+      const searchInput = document.getElementById("search-input");
+      const searchColumnSelect = document.getElementById("search-column"); // Nuevo selector
+      const fileFilter = document.getElementById("file-filter");
+      const dateFilter = document.getElementById("date-filter");
+      const resultsTable = document.getElementById("results-table");
+      const noResults = document.getElementById("no-results");
+
+      // Elementos de estadísticas
+      const totalRecordsStat = document.getElementById("total-records");
+      const totalRecordsDisplayStat = document.getElementById(
+        "total-records-display"
+      );
+      const totalFilesStat = document.getElementById("total-files");
+      const lastProcessDateStat = document.getElementById("last-process-date");
+
+      let allData = [];
+
+      // --- Manejo de la subida de archivos (sin cambios) ---
+      uploadContainer.addEventListener("click", () => fileInput.click());
+      uploadContainer.addEventListener("dragover", (e) => {
+        e.preventDefault();
+        uploadContainer.classList.add("border-blue-500", "bg-blue-50");
+      });
+      uploadContainer.addEventListener("dragleave", () => {
+        uploadContainer.classList.remove("border-blue-500", "bg-blue-50");
+      });
+      uploadContainer.addEventListener("drop", (e) => {
+        e.preventDefault();
+        uploadContainer.classList.remove("border-blue-500", "bg-blue-50");
+        const files = e.dataTransfer.files;
+        if (files.length > 0) {
+          handleFile(files[0]);
+        }
+      });
+      fileInput.addEventListener("change", (e) => {
+        if (e.target.files.length > 0) {
+          handleFile(e.target.files[0]);
+        }
+      });
+
+      function handleFile(file) {
+        fileNameDisplay.textContent = `Archivo cargado: ${file.name}`;
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const content = e.target.result;
+          const fileExtension = file.name.split(".").pop().toLowerCase();
+
+          // Limpiar filtros antes de cargar nuevos datos
+          searchInput.value = "";
+          searchColumnSelect.value = "content";
+          fileFilter.innerHTML = '<option value="">Todos los archivos</option>'; // Limpiar opciones anteriores
+          dateFilter.value = "";
+
+          if (fileExtension === "csv") {
+            allData = parseCsv(content);
+          } else if (fileExtension === "txt") {
+            allData = parseLog(content);
+          } else {
+            console.error("Tipo de archivo no soportado");
+            fileNameDisplay.textContent = `Error: Tipo de archivo no soportado. Use .txt o .csv`;
+            allData = []; // Asegurarse de que no haya datos viejos
+            // Ocultar app y mostrar upload si estaba visible
+            appContainer.classList.add("hidden");
+            uploadContainer.classList.remove("hidden");
+            return;
+          }
+
+          if (allData.length === 0) {
+            fileNameDisplay.textContent +=
+              " - Archivo vacío o formato incorrecto.";
+            // Mantener el área de carga visible si no hay datos
+            appContainer.classList.add("hidden");
+            uploadContainer.classList.remove("hidden");
+          } else {
+            initialize_app();
+          }
+        };
+        reader.onerror = () => {
+          console.error("Error al leer el archivo.");
+          fileNameDisplay.textContent = "Error al leer el archivo.";
+          allData = [];
+          appContainer.classList.add("hidden");
+          uploadContainer.classList.remove("hidden");
+        };
+        reader.readAsText(file);
+      }
+
+      // --- Funciones de Parseo (parseLog, parseCsv - sin cambios) ---
+      function parseLog(text) {
+        const records = [];
+        const blocks = text
+          .split("==================================================")
+          .filter((b) => b.trim() !== "");
+
+        blocks.forEach((block) => {
+          const lines = block.trim().split("\n");
+          let currentDate = null;
+          let currentFile = null;
+
+          const dateMatch = lines.find((line) =>
+            line.startsWith("Fecha de proceso:")
+          );
+          if (dateMatch) {
+            currentDate = dateMatch.replace("Fecha de proceso:", "").trim();
+          }
+
+          const fileMatch = lines.find((line) =>
+            line.startsWith("Archivo procesado:")
+          );
+          if (fileMatch) {
+            currentFile = fileMatch.replace("Archivo procesado:", "").trim();
+          }
+
+          const itemsHeaderIndex = lines.findIndex((line) =>
+            line.includes("Línea  | Contenido")
+          );
+          if (itemsHeaderIndex !== -1 && currentDate && currentFile) {
+            const items = lines.slice(itemsHeaderIndex + 2); // Omitir la línea de cabecera y el separador
+            items.forEach((itemLine) => {
+              const parts = itemLine.split("|");
+              if (parts.length === 2) {
+                const lineNumber = parts[0].trim();
+                const content = parts[1].trim();
+                if (lineNumber && content && content !== "[Línea en blanco]") {
+                  records.push({
+                    date: currentDate,
+                    file: currentFile,
+                    line: lineNumber,
+                    content: content,
+                  });
+                }
+              }
+            });
+          }
+        });
+        return records;
+      }
+
+      function parseCsv(text) {
+        const records = [];
+        const lines = text.trim().split("\n");
+
+        if (lines.length <= 1) return records; // Vacío o solo cabecera
+
+        // Omitir la cabecera (línea 0)
+        for (let i = 1; i < lines.length; i++) {
+          const line = lines[i].trim();
+          if (!line) continue;
+
+          const parts = line.split(",");
+
+          if (parts.length >= 4) {
+            const date = parts[0].replace(/"/g, "").trim();
+            const file = parts[1].replace(/"/g, "").trim();
+            const lineNum = parts[2].replace(/"/g, "").trim();
+            const content = parts.slice(3).join(",").replace(/"/g, "").trim();
+
+            if (date && file && lineNum && content) {
+              records.push({
+                date: date,
+                file: file,
+                line: lineNum,
+                content: content,
+              });
+            } else {
+              console.warn(`Línea CSV ignorada por formato inválido: ${line}`);
+            }
+          } else {
+            console.warn(
+              `Línea CSV ignorada por número incorrecto de partes: ${line}`
+            );
+          }
+        }
+        return records;
+      }
+
+      // --- Inicialización y UI (con cambios menores) ---
+      function initialize_app() {
+        uploadContainer.classList.add("hidden");
+        appContainer.classList.remove("hidden");
+
+        populateFileFilter(); // Rellena el filtro de archivos
+        updateStats(); // Actualiza las estadísticas iniciales
+        renderTable(allData); // Muestra todos los datos inicialmente
+
+        // Añadir event listeners para los filtros
+        searchInput.addEventListener("input", applyFilters);
+        searchColumnSelect.addEventListener("change", applyFilters); // Listener para el nuevo select
+        fileFilter.addEventListener("change", applyFilters);
+        dateFilter.addEventListener("change", applyFilters);
+      }
+
+      function populateFileFilter() {
+        // Asegurarse de que el filtro esté limpio excepto la opción "Todos"
+        fileFilter.innerHTML = '<option value="">Todos los archivos</option>';
+        const files = [...new Set(allData.map((item) => item.file))];
+        files.sort();
+        files.forEach((file) => {
+          const option = document.createElement("option");
+          option.value = file;
+          option.textContent = file;
+          fileFilter.appendChild(option);
+        });
+      }
+
+      // --- Estadísticas (sin cambios) ---
+      function updateStats(filteredData) {
+        totalRecordsStat.textContent = allData.length.toLocaleString();
+        totalRecordsDisplayStat.textContent = (
+          filteredData ? filteredData.length : allData.length
+        ).toLocaleString();
+
+        const uniqueFiles = [...new Set(allData.map((item) => item.file))];
+        totalFilesStat.textContent = uniqueFiles.length;
+
+        if (allData.length > 0) {
+          const sortedDates = allData
+            .map((d) => {
+              const dateTimeString = d.date.replace(" ", "T"); // Formato ISO 8601 simple
+              const dateObj = new Date(dateTimeString);
+              // Manejar fechas inválidas que pueden venir del parseo
+              return isNaN(dateObj.getTime()) ? null : dateObj;
+            })
+            .filter((d) => d !== null) // Filtrar fechas inválidas
+            .sort((a, b) => b - a); // Ordenar descendente
+
+          if (sortedDates.length > 0) {
+            // Formato más estándar y localizado
+            lastProcessDateStat.textContent = sortedDates[0].toLocaleDateString(
+              "es-CO",
+              { year: "numeric", month: "2-digit", day: "2-digit" }
+            );
+          } else {
+            lastProcessDateStat.textContent = "-"; // Si no hay fechas válidas
+          }
+        } else {
+          lastProcessDateStat.textContent = "-";
+        }
+      }
+
+      // --- Aplicar Filtros (MODIFICADO) ---
+      function applyFilters() {
+        const searchTerm = searchInput.value.toLowerCase().trim(); // Quitar espacios extra
+        const searchColumn = searchColumnSelect.value; // Obtener la columna seleccionada
+        const selectedFile = fileFilter.value;
+        const selectedDate = dateFilter.value;
+
+        let filteredData = allData;
+
+        // Filtrar por término de búsqueda en la columna seleccionada
+        if (searchTerm && searchColumn) {
+          filteredData = filteredData.filter((item) => {
+            const columnValue =
+              item[searchColumn]?.toString().toLowerCase() || ""; // Obtener valor y asegurar que sea string
+            return columnValue.includes(searchTerm);
+          });
+        }
+
+        // Filtrar por archivo seleccionado
+        if (selectedFile) {
+          filteredData = filteredData.filter(
+            (item) => item.file === selectedFile
+          );
+        }
+
+        // Filtrar por fecha seleccionada
+        if (selectedDate) {
+          filteredData = filteredData.filter((item) => {
+            const itemDatePart = item.date.split(" ")[0]; // Comparar solo la parte YYYY-MM-DD
+            return itemDatePart === selectedDate;
+          });
+        }
+
+        renderTable(filteredData);
+        updateStats(filteredData);
+      }
+
+      // --- Renderizar Tabla (sin cambios) ---
+      function renderTable(data) {
+        resultsTable.innerHTML = ""; // Limpiar tabla anterior
+        if (data.length === 0) {
+          noResults.classList.remove("hidden"); // Mostrar mensaje si no hay resultados
+        } else {
+          noResults.classList.add("hidden"); // Ocultar mensaje si hay resultados
+          data.forEach((item) => {
+            const row = document.createElement("tr");
+            row.className = "hover:bg-gray-50 transition-colors duration-150"; // Añadir transición suave
+            // Usar text-gray-700 y text-gray-900 para mejor contraste
+            row.innerHTML = `
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">${
+                          item.date || "-"
+                        }</td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700"><span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-blue-100 text-blue-800">${
+                          item.file || "-"
+                        }</span></td>
+                        <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 font-medium">${
+                          item.line || "-"
+                        }</td>
+                        <td class="px-6 py-4 whitespace-normal text-sm text-gray-900">${
+                          item.content || "-"
+                        }</td>
+                    `;
+            resultsTable.appendChild(row);
+          });
+        }
+      }
+    </script>
+  </body>
+</html>

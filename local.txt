@@ -229,7 +229,7 @@
     Cable Apple Tc Ligthning 3
     Cable Apple Tc Ligthning 2M 3
     Cable Apple Tc a Tc 0
-    Cable Apple Usb Ligthning 3
+    Cable Apple Usb Ligthning 2
     Cable Apple Usb Ligthning 2M 3
     Cable Auxiliar 1 A 1 3M 0
     Cable Auxiliar 1 A 1 5M 1
@@ -249,7 +249,7 @@
     Cable Belkin Tc 3
     Cable Belkin Tc 2M 1
     Cable Belkin V8 3
-    Cable Caterpillar Tc 2
+    Cable Caterpillar Tc 1
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
     Cable Disco Duro V8 3.0 Corto 0
@@ -290,7 +290,7 @@
     Cable Optico 3M 1
     Cable Optico 5M 1
     Cable Poder Cuadrado 3
-    Cable Poder Grabadora 2
+    Cable Poder Grabadora 1
     Cable Poder Grabadora Corto 1
     Cable Poder Micro 5
     Cable Poder Mini 2
@@ -327,7 +327,7 @@
     Cable Vga 1M 3
     Cable Vga 3M 2
     Cable Vga 5M 2
-    Cable We Tc 2
+    Cable We Tc 1
     Cable We Tc Eco 0
     Cable Xiaomi Original Usb Tc 2
     Cable Xiaomi Tc A Tc 0
@@ -434,7 +434,7 @@
     Cargador Realme Tc 65W 1
     Cargador Royal 45W Tc Cbl 0
     Cargador Samsung 25W Cabeza Blanco 1
-    Cargador Samsung 25W Cabeza Negro 2
+    Cargador Samsung 25W Cabeza Negro 1
     Cargador Samsung 25W V8 1
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Cabeza Negro 2
@@ -454,9 +454,9 @@
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
-    Cargador We Tc 33W 3
+    Cargador We Tc 33W 2
     Cargador We V8 33W 3
-    Cargador Xiaomi 120W 1
+    Cargador Xiaomi 120W 0
     Cargador Xiaomi Tc A Tc 67W 1
     Cargador Xiaomi Usb Tc 67W 1
     Cargador Yl Tc 2
@@ -645,7 +645,7 @@
     Forro Antichoque Infinix Hot 50 Pro Dama 5
     Forro Antichoque Infinix Hot 50 Pro Plus Caballero 3
     Forro Antichoque Infinix Hot 50 Pro Plus Dama 3
-    Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 4
+    Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 4
     Forro Antichoque Infinix Note 40 4G Caballero 5
     Forro Antichoque Infinix Note 40 4G Dama 4
@@ -788,7 +788,7 @@
     Forro Antichoque Samsung A04E Caballero 1
     Forro Antichoque Samsung A04E Dama 3
     Forro Antichoque Samsung A04S / A13 5G Caballero 5
-    Forro Antichoque Samsung A04S / A13 5G Dama 4
+    Forro Antichoque Samsung A04S / A13 5G Dama 3
     Forro Antichoque Samsung A05 Caballero 2
     Forro Antichoque Samsung A05 Dama 3
     Forro Antichoque Samsung A06 Dama 0
@@ -935,7 +935,7 @@
     Forro Antichoque Xiaomi Redmi Note 10 Pro Caballero 5
     Forro Antichoque Xiaomi Redmi Note 10 Pro Dama 6
     Forro Antichoque Xiaomi Redmi Note 11 Caballero 5
-    Forro Antichoque Xiaomi Redmi Note 11 Dama 4
+    Forro Antichoque Xiaomi Redmi Note 11 Dama 3
     Forro Antichoque Xiaomi Redmi Note 12 Caballero 5
     Forro Antichoque Xiaomi Redmi Note 12 Dama 4
     Forro Antichoque Xiaomi Redmi Note 13 4G Caballero 6
@@ -948,7 +948,7 @@
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 1
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Lujo 1
     Forro Antichoque Xiaomi Redmi Note 14 4G Cabllero 6
-    Forro Antichoque Xiaomi Redmi Note 14 4G Dama 5
+    Forro Antichoque Xiaomi Redmi Note 14 4G Dama 4
     Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Caballero 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Dama 3
     Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Dama 5
@@ -982,7 +982,7 @@
     Forro Armadura Huawei Honor X7C Negro 1
     Forro Armadura Huawei Honor X7C Rojo 1
     Forro Armadura Huawei Honor X7C Verde 1
-    Forro Armadura Huawei Honor X8A Azulrey 1
+    Forro Armadura Huawei Honor X8A Azulrey 0
     Forro Armadura Huawei Honor X8A Dorado 1
     Forro Armadura Huawei Honor X8A Rojo 1
     Forro Armadura Huawei Honor X8A Verde 1
@@ -1009,7 +1009,7 @@
     Forro Armadura Motorola Moto G15 Rojo 0
     Forro Armadura Motorola Moto G15 Verde 1
     Forro Armadura Motorola Moto G20 / G30 Negro 1
-    Forro Armadura Motorola Moto G20 / G30 Rojo 1
+    Forro Armadura Motorola Moto G20 / G30 Rojo 0
     Forro Armadura Motorola Moto G22 Rojo 0
     Forro Armadura Motorola Moto G24 Negro 1
     Forro Armadura Motorola Moto G35 Negro 1
@@ -1169,7 +1169,7 @@
     Forro Lujo Ventana Apple Iphone 12 Pro Negro 0
     Forro Lujo Ventana Apple Iphone 13 Cafe 2
     Forro Lujo Ventana Apple Iphone 13 Morado 0
-    Forro Lujo Ventana Apple Iphone 13 Negro 1
+    Forro Lujo Ventana Apple Iphone 13 Negro 0
     Forro Lujo Ventana Apple Iphone 13 Pro Max Azul 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 0
     Forro Lujo Ventana Apple Iphone 13 Pro Max Morado 1
@@ -1448,7 +1448,7 @@
     Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro 2
     Forro Space Xiaomi Redmi Note 14 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14 Pro Plus 2
+    Forro Space Xiaomi Redmi Note 14 Pro Plus 1
     Forro Space Xiaomi Redmi Note 14S 0
     Forro Space Xiaomi Redmi Note 8 1
     Forro Space Xiaomi Redmi Note 8 Lila 1
@@ -1683,11 +1683,11 @@
     Memoria Musica Cristiana Villancicos 1
     Memoria Musica Crosover Crosover Calidoso 0
     Memoria Musica Crosover Crosover Club 1
-    Memoria Musica Crosover Crosover La Magia 1
+    Memoria Musica Crosover Crosover La Magia 0
     Memoria Musica Crosover Crosover Nitido 1
     Memoria Musica Crosover Crosover Ready 1
     Memoria Musica Crosover Crosover Relevante 1
-    Memoria Musica Crosover Crosover sin Limites 1
+    Memoria Musica Crosover Crosover sin Limites 0
     Memoria Musica Crosover Crosover sin Reggaeton 2
     Memoria Musica Crosover Locura Crosover 1
     Memoria Musica Crosover Musica para Recordar 1
@@ -1701,7 +1701,7 @@
     Memoria Musica Llanera Llanerazos de Ataque 1
     Memoria Musica Merengue Merengues de Fantasia 1
     Memoria Musica Merengue Solo Merengue 1
-    Memoria Musica Popular 10 Idolos Mexicanos 1
+    Memoria Musica Popular 10 Idolos Mexicanos 0
     Memoria Musica Popular Dario Gomez 1
     Memoria Musica Popular Lo 8 Caqueteños 1
     Memoria Musica Popular Popular y Musica de Banda 1
@@ -1803,7 +1803,7 @@
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1
     Pacha Motorola Moto G04 / G24 2
     Pacha Motorola Moto G05 / G15 1
-    Pacha Motorola Moto G13 / G23 2
+    Pacha Motorola Moto G13 / G23 1
     Pacha Motorola Moto G14 / G54 / G55 1
     Pacha Motorola Moto G20 / G30 2
     Pacha Motorola Moto G22 / E32 2
@@ -1901,7 +1901,7 @@
     Pacha Vivo Y31 / Y51 / Y53S 2
     Pacha Vivo Y51 / Y53S 2
     Pacha Xiaomi Poco X3 / Mi 10T Lite 2
-    Pacha Xiaomi Redmi 10 3
+    Pacha Xiaomi Redmi 10 2
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 1
     Pacha Xiaomi Redmi 12C 2
@@ -1989,7 +1989,7 @@
     Pilas Recargables Beston Aaa x2 2
     Pilas Recargables Beston Mixta con Cargador 0
     Pilas Recargables Maxday AA x4 0
-    Pilas Recargables Maxday AA x4 con Cargador 1
+    Pilas Recargables Maxday AA x4 con Cargador 0
     Pilas Recargables Sony AA con Cargador 0
     Pilas Recargables Sony Aa X2 0
     Pin De Carga Celular 20
@@ -2043,7 +2043,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 72
+    Recargas 67
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2067,7 +2067,7 @@
     Rollo Cinta Led Rgb 10M 1
     Rollo Cinta Led Rgb Con Bluetooth 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
-    Rollo Cinta Led Rgb Sencilla 1
+    Rollo Cinta Led Rgb Sencilla 0
     Rollo Cinta Led Rgb Usb 0
     Rollo Cinta Led x2 Bluetooth 1
     Rollo Papel Mini impresora 0
@@ -2094,7 +2094,7 @@
     Servicio Tecnico Generico Soldar Control Puerta 0
     Servicio Tecnico Google Restablecer Contraseña 0
     Servicio Tecnico Hp Formatear Pc Hp 0
-    Servicio Tecnico Huawei Control Humedad Honor Magic 6 Lite 0
+    Servicio Tecnico Huawei Reconectar Logica de Carga Honor X6s 0
     Servicio Tecnico Huawei Control Humedad y Capacitor Y9 Prime 0
     Servicio Tecnico Huawei Frp Honor X8a Pandora 0
     Servicio Tecnico Huawei Frp P30 Lite Hcu 0
@@ -3297,7 +3297,7 @@
     Silicone Case Samsungn S21 Fe Lila 0
     Silicone Case Tecno Camon 18P Amarillo 0
     Silicone Case Tecno Camon 18P Azulrey 1
-    Silicone Case Tecno Camon 18P Negro 1
+    Silicone Case Tecno Camon 18P Negro 0
     Silicone Case Tecno Camon 18P Rosa 0
     Silicone Case Tecno Camon 19 Pro Amarillo 0
     Silicone Case Tecno Camon 19 Pro Fucsia 0
@@ -3436,7 +3436,7 @@
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Lila 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Negro 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 0
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rosa 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 0
     Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 2
@@ -3609,7 +3609,7 @@
     Silicone Case Xiaomi Redmi 12C Amarillo 1
     Silicone Case Xiaomi Redmi 12C Fucsia 1
     Silicone Case Xiaomi Redmi 12c Negro 0
-    Silicone Case Xiaomi Redmi 13 Amarillo 1
+    Silicone Case Xiaomi Redmi 13 Amarillo 0
     Silicone Case Xiaomi Redmi 13 Fucsia 1
     Silicone Case Xiaomi Redmi 13 Lila 1
     Silicone Case Xiaomi Redmi 13 Morado 1
@@ -3828,7 +3828,7 @@
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Motorola Moto G8 Power Lite Rojo 0
     Simcard Claro 13
-    Simcard Movistar 6
+    Simcard Movistar 4
     Simcard Tigo 19
     Simcard Virgin 6
     Simcard Wom 0
@@ -3870,7 +3870,7 @@
     Soporte Tv Fijo 2
     Space Color Xiaomi Redmi 10 Lila 1
     Space Color Xiaomi Redmi 10 Rosa 1
-    Spliter Lan Fino 4
+    Spliter Lan Fino 3
     St Frp Huawei Y9 2019 0
     St Mantenimiento Logica de Carga Samsung 9
     St Samsung Mantenimiento Logica de Carga A14 1
@@ -3967,7 +3967,7 @@
     Vidrio 5D Huawei Honor 90 Lite 0
     Vidrio 5D Huawei Honor X6S 2
     Vidrio 5D Huawei Honor X7A 2
-    Vidrio 5D Huawei Honor X7B 1
+    Vidrio 5D Huawei Honor X7B 0
     Vidrio 5D Huawei Honor X7C 0
     Vidrio 5D Huawei Honor X8A 13
     Vidrio 5D Huawei Honor X8B 3
@@ -4005,7 +4005,7 @@
     Vidrio 5D Samsugn A06 0
     Vidrio 5D Samsung A04S 4
     Vidrio 5D Samsung A05 12
-    Vidrio 5D Samsung A05S 4
+    Vidrio 5D Samsung A05S 3
     Vidrio 5D Samsung A10 / A10s 3
     Vidrio 5D Samsung A11 0
     Vidrio 5D Samsung A12 4
@@ -4032,11 +4032,11 @@
     Vidrio 5D Tecno Spark 20 Pro 0
     Vidrio 5D Tecno Spark 30 5G 0
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 4
-    Vidrio 5D Tecno Spark Go 2023 / Spark 10C / Smart 7 1
-    Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 4
+    Vidrio 5D Tecno Spark Go 2023 / Spark 10C / Smart 7 0
+    Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3
     Vidrio 5D Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 0
     Vidrio 5D Xiaomi Mi 11T 4
-    Vidrio 5D Xiaomi Redmi 10 4
+    Vidrio 5D Xiaomi Redmi 10 3
     Vidrio 5D Xiaomi Redmi 10C / 12C 4
     Vidrio 5D Xiaomi Redmi 12 4
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 2
@@ -4047,7 +4047,7 @@
     Vidrio 5D Xiaomi Redmi A1 / A2 0
     Vidrio 5D Xiaomi Redmi A3 0
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 5
-    Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 1
+    Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 2
     Vidrio 5D Xiaomi Redmi Note 8 3
@@ -4068,7 +4068,7 @@
     Vidrio Antiespia Apple Iphone 14 Pro 5
     Vidrio Antiespia Apple Iphone 14 Pro Max 0
     Vidrio Antiespia Apple Iphone 15 0
-    Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16 5
+    Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16 4
     Vidrio Antiespia Apple Iphone 15 Plus / 15 Pro Max5 0
     Vidrio Antiespia Apple Iphone 15 Pro 0
     Vidrio Antiespia Apple Iphone 16 0
@@ -4212,7 +4212,7 @@
     Vidrio Full Pega Oppo Reno 11 5G 2
     Vidrio Full Pega Tecno Spark 20 Pro Plus 4
     Vidrio Full Pega Xiaomi Redmi Note 13 Pro Plus 2
-    Vidrio Full Pega Xiaomi Redmi Note 14 Pro Plus 2
+    Vidrio Full Pega Xiaomi Redmi Note 14 Pro Plus 1
     Vidrio Fullcalidad Huawei Motorola Moto Edge 50 Fusion 1
     Vidrio Fullcalidas Hiawei Motorola Moto Edge 60 Fusion 2
     Vidrio Fullpega Huawei Honor Magic 5 Lite 0
@@ -4252,7 +4252,7 @@
     Vidrio Tortuga Huawei Y9 Prime 1
     Vidrio Tortuga Motorola Moto G04 / G24 0
     Vidrio Tortuga Motorola Moto G04 / Moto G24 5
-    Vidrio Tortuga Motorola Moto G20 / G30 / G50 / G9 Play 3
+    Vidrio Tortuga Motorola Moto G20 / G30 / G50 / G9 Play 2
     Vidrio Tortuga Motorola Moto G54 3
     Vidrio Tortuga Motorola Moto G84 4
     Vidrio Tortuga Motorola Moto G9 Plus 0
@@ -4303,3 +4303,15 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 1
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
+    Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
+    Vidrio Camara Samsung S20 Fe 0
+    Silicone Case Tecno Spark 30 4G Azulclaro 0
+    Forro Control Gamer Xbox 360 0
+    Pacha Huawei Honor Magic 6 Lite Amoled 0
+    Visor Camara Huawei Honor Magic 6 Lite 0
+    Hydrogel Huawei Honor Magic 6 Lite 0
+    Forro Space Apple Iphone 13 0
+    Adaptador Europeo Pasta 2
+    Servicio Tecnico Huawei Frp P30 Lite 0
+    Pacha Tecno Spark 9 Pro 0
+    Vidrio Ceramico Motorola Moto G20 / G30 0

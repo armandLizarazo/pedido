@@ -9067,3 +9067,81 @@ Fecha de proceso: 2025-10-19 19:21:49
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-10-20 15:40:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 38
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Cable Apple Tc a Tc 5 ok
+    7 | Cable Apple Tc A Tc 2M 5 ok
+   11 | Cable V8 Eco 5 ok
+   12 | Cable Belkin V8 5 ok
+   19 | Cargador Xiaomi 120W 1 ok
+   20 | Cargador Yoyos 120W 1 ok
+   70 | Forro Space Apple Iphone 11 Pro Max 2 ok
+  106 | Silicone Case Apple Iphone 11 Rosa 1 ok
+  109 | Silicone Case Apple Iphone Xr Lila 1 ok
+  122 | Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 1 ok
+  123 | Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
+  127 | Silicone Case Xiaomi Redmi 15C Vinotinto 1 ok
+  128 | Silicone Case Xiaomi Redmi 15C Rosa 1 ok
+  129 | Silicone Case Xiaomi Redmi 15C Rojo 1 ok
+  130 | Silicone Case Xiaomi Redmi 15C Negro 1 ok
+  131 | Silicone Case Xiaomi Redmi 15C Lila 1 ok
+  132 | Silicone Case Huawei Honor X6C Verdemilitar 1 ok
+  133 | Silicone Case Huawei Honor X6C Rosa 1 ok
+  134 | Silicone Case Huawei Honor X6C Verdementa 1 ok
+  135 | Silicone Case Huawei Honor X6C Azulrey 1 ok
+  136 | Silicone Case Huawei Honor X6C Negro 1 ok
+  163 | Silicone Case Oppo A58 4G / A78 5G Azulrey 1 ok
+  164 | Silicone Case Oppo A58 4G / A78 5G Fucsia 1 ok
+  165 | Silicone Case Oppo A58 4G / A78 5G Rosa 1 ok
+  169 | Silicone Case Oppo Realme C53 / Note 50 Lila 1 ok
+  204 | Silicone Case Tecno Pova 5 Fucsia 1 ok
+  225 | Silicone Case Xiaomi Poco X3 Negro 1 ok
+  228 | Silicone Case Xiaomi Redmi 13 Negro 1 ok
+  229 | Silicone Case Xiaomi Redmi 13C Morado 1 ok
+  230 | Silicone Case Xiaomi Redmi 13C Amarillo 1 ok
+  231 | Silicone Case Xiaomi Redmi 13C Lila 1 ok
+  233 | Silicone Case Xiaomi Redmi Note 11 Azulrey 1 ok
+  236 | Silicone Case Xiaomi Redmi Note 11 Pro 5G Negro 1 ok
+  240 | Silicone Case Xioami Redmi 12C Negro 1 ok
+  255 | Vidrio 5D Samsung A12 5 ok
+  257 | Vidrio 5D Samsung A71 / Poco X3 5 ok
+  262 | Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 5 ok
+  268 | Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 10 ok
+
+==================================================
+Fecha de proceso: 2025-10-20 15:40:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-10-20 15:40:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Motorola Moto G13 / G23 1 ok
+    3 | Pacha Samsung A15 1 ok
+    4 | Pacha Samsung A15 C/m 1 ok
+    5 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+    6 | Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok
+    7 | Visor Camara Samsung S20 1 ok
+    8 | Logica de Carga Tecno Spark Go 2024 1 ok
+    9 | Pacha Huawei Honor X6B 1 ok
+   10 | Camara Principal Samsung A71 1 ok
+   11 | Visor Camara Samsung A71 1 ok
+
+==================================================
+Fecha de proceso: 2025-10-20 15:40:51
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
