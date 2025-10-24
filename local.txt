@@ -12,6 +12,7 @@
     Adaptador Dpp2Vga Cbl 2
     Adaptador Dvi2Vga 1
     Adaptador Europeo Goma 3
+    Adaptador Europeo Pasta 2
     Adaptador Europeo Redondo 0
     Adaptador Ext Hdmi 0
     Adaptador Hdmi A Mini Hdmi 1
@@ -164,7 +165,7 @@
     Balaca Naisu S-437 Verde 0
     Balaca Pantalla Azul 1
     Balaca Pantalla Fucsia 1
-    Balaca Pantalla Negro 1
+    Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Huawei P30 Lite Negro 1
     Bandeja Sim Samsung A10S 0
@@ -290,7 +291,7 @@
     Cable Optico 3M 1
     Cable Optico 5M 1
     Cable Poder Cuadrado 3
-    Cable Poder Grabadora 1
+    Cable Poder Grabadora 0
     Cable Poder Grabadora Corto 1
     Cable Poder Micro 5
     Cable Poder Mini 2
@@ -309,7 +310,7 @@
     Cable Siliconado Zonymax Tc Blanco 0
     Cable Siliconado Zonymax Tc Negro 0
     Cable Siliconado Zonymax V8 0
-    Cable Sony Ps2 2
+    Cable Sony Ps2 1
     Cable Tc A Tc Eco 1
     Cable Tc Cordon Eco 5
     Cable Tc Eco 5
@@ -385,7 +386,7 @@
     Cargador Apple 60W 2P Tc Cabeza 1
     Cargador Apple Magsafe 1
     Cargador Belkin Ligthning 1
-    Cargador Belkin Tc 4
+    Cargador Belkin Tc 3
     Cargador Belkin V8 2
     Cargador Cabeza Cubo Eco 5
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 1
@@ -435,6 +436,7 @@
     Cargador Royal 45W Tc Cbl 0
     Cargador Samsung 25W Cabeza Blanco 1
     Cargador Samsung 25W Cabeza Negro 1
+    Cargador Samsung 25W Con Cable 0
     Cargador Samsung 25W V8 1
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Cabeza Negro 2
@@ -475,7 +477,7 @@
     Celular de Segunda Redmi 9c Aabandonado 866378056846358/66 0
     Cepillo De Dientes Electrico 0
     Chupas Audifonos 2
-    Cintal Led 10M Cbl Bluetooth Audioritmica 1
+    Cintal Led 10M Cbl Bluetooth Audioritmica 0
     Combo Remington Plancha + Cepillo Aguacate 0
     Conector Antena Parlante 1
     Consola + Tv box 0
@@ -752,6 +754,7 @@
     Forro Antichoque Pin Apple IPhone 11 1
     Forro Antichoque Pin Huawei Honor 90 1
     Forro Antichoque Pin Huawei Honor Magic 6 Lite 1
+    Forro Antichoque Pin Huawei Honor X6 / X6S / X6A / Play 9A 2
     Forro Antichoque Pin Huawei Honor X7C / 200 Smart 1
     Forro Antichoque Pin Infinix Hot 50 4G 0
     Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 5
@@ -994,6 +997,7 @@
     Forro Armadura Infinix Hot 30i Rojo 1
     Forro Armadura Infinix Hot 50 4G Negro 0
     Forro Armadura Infinix Hot 50 4G Verdemilitar 0
+    Forro Armadura Infinix Hot 50 Pro Plus Verde 0
     Forro Armadura Infinix Hot 50I / Smart 9 Negro 1
     Forro Armadura Infinix Hot 50I / Smart 9 Rojo 1
     Forro Armadura Moto G20 / G30 Negro 0
@@ -1012,6 +1016,7 @@
     Forro Armadura Motorola Moto G20 / G30 Rojo 0
     Forro Armadura Motorola Moto G22 Rojo 0
     Forro Armadura Motorola Moto G24 Negro 1
+    Forro Armadura Motorola Moto G34 Rojo 1
     Forro Armadura Motorola Moto G35 Negro 1
     Forro Armadura Motorola Moto G35 Rojo 0
     Forro Armadura Motorola Moto G55 Negro 0
@@ -1143,6 +1148,7 @@
     Forro Cargador Apple Stich 0
     Forro Cargador Cable  + Puntas 0
     Forro Cargador Figura 2
+    Forro Control Gamer Xbox 360 0
     Forro Crg Apple Con Estuche Azul 0
     Forro Crg Apple Con Estuche Morado 0
     Forro Crg Apple Con Estuche Naranja 0
@@ -1210,6 +1216,7 @@
     Forro Space Apple Iphone 11 Pro Max Magsafe 0
     Forro Space Apple Iphone 12 0
     Forro Space Apple Iphone 12 Mini 2
+    Forro Space Apple Iphone 13 0
     Forro Space Apple Iphone 13 Magsafe 0
     Forro Space Apple Iphone 13 Mini 0
     Forro Space Apple Iphone 13 Pro Max 1
@@ -1481,6 +1488,7 @@
     Hydrogel Apple Iphone 16 Pro Max 0
     Hydrogel Hd 0
     Hydrogel Huawei Honor 200 Smart 0
+    Hydrogel Huawei Honor Magic 6 Lite 0
     Hydrogel Infinix Hot 50 5G 0
     Hydrogel Infinix Note 40 Pro Plus 0
     Hydrogel Infinix Note 40 pro 0
@@ -1773,6 +1781,7 @@
     Pacha Apple Xr Gx 0
     Pacha Apple Xs Max Incell 0
     Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1
+    Pacha Huawei Honor Magic 6 Lite Amoled 0
     Pacha Huawei Honor X6 / X6S 2
     Pacha Huawei Honor X6A 0
     Pacha Huawei Honor X6S 1
@@ -1887,6 +1896,7 @@
     Pacha Tecno Pop 7 / Hot 30 Play 0
     Pacha Tecno Saprk Go 2023 / Pop 5 Lite 0
     Pacha Tecno Spark 20 0
+    Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
     Pacha Tecno Spark Go 2023 1
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
@@ -1969,7 +1979,7 @@
     Parlante Tg S-8B Rojo 1
     Parlante Tg-294 Negro 0
     Parlante Tg-294 Rojo 1
-    Patillera 3 En 1 1
+    Patillera 3 En 1 0
     Patillera 3 En 1 Vintage 1
     Patillera Vgr V-93 1
     Patillera Vintage Sencilla 1
@@ -2043,7 +2053,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 67
+    Recargas 66
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2094,14 +2104,15 @@
     Servicio Tecnico Generico Soldar Control Puerta 0
     Servicio Tecnico Google Restablecer Contraseña 0
     Servicio Tecnico Hp Formatear Pc Hp 0
-    Servicio Tecnico Huawei Reconectar Logica de Carga Honor X6s 0
     Servicio Tecnico Huawei Control Humedad y Capacitor Y9 Prime 0
     Servicio Tecnico Huawei Frp Honor X8a Pandora 0
+    Servicio Tecnico Huawei Frp P30 Lite 0
     Servicio Tecnico Huawei Frp P30 Lite Hcu 0
     Servicio Tecnico Huawei Frp Y6 2019 Pandora 0
     Servicio Tecnico Huawei Pegar Pantalla Y9 2019 0
     Servicio Tecnico Huawei Pin de Carga Y5 0
     Servicio Tecnico Huawei Pin de Carga Y9 2019 0
+    Servicio Tecnico Huawei Reconectar Logica de Carga Honor X6s 0
     Servicio Tecnico Infinix Fpc Bateria Note 12 0
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus 0
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 50 Pro 0
@@ -2154,6 +2165,7 @@
     Servicio Tecnico Samsung Talkback A10s 0
     Servicio Tecnico Soldar Cables Parlante 0
     Servicio Tecnico Tecno Formatear Spark 20C 1
+    Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
     Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
     Servicio Tecnico Tecno Reparacion Logica Spark Go 2024 0
     Servicio Tecnico Tg Despegar Bateria Tableta 0
@@ -3388,6 +3400,7 @@
     Silicone Case Tecno Spark 2022 / 8C Azulclaro 1
     Silicone Case Tecno Spark 2022 / 8C Negro 0
     Silicone Case Tecno Spark 2022 / 8C Rojo 0
+    Silicone Case Tecno Spark 30 4G Azulclaro 0
     Silicone Case Tecno Spark 30 4G Lila 0
     Silicone Case Tecno Spark 30 4G Rojo 1
     Silicone Case Tecno Spark 30 Pro 4G Fucsia 0
@@ -3912,7 +3925,7 @@
     Teclado Mecanico Gamer 0
     Teclado Mecanico Gamer Weibo 666 0
     Teclado Minikeyboard 1
-    Teclado Minikeyboard Tipo Control Tv 0
+    Teclado Minikeyboard Tipo Control Tv 1
     Teclado Seisa Dn-236 0
     Telefono Fijo Panaphone Kx-T806 0
     Televisor Smart Tv Fly Android 32P 1
@@ -4106,7 +4119,7 @@
     Vidrio Antiespia Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 3
     Vidrio Antiespia Xiaomi Redmi Note 12 0
     Vidrio Antiespia Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 2
-    Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 3
+    Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 2
     Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 5
     Vidrio Blindado Apple Ip4Hone 14 Pro Max 0
     Vidrio Blindado Apple Iphone 11 / Xr 0
@@ -4172,6 +4185,7 @@
     Vidrio Camara Blade A75 0
     Vidrio Camara Iphone 15 10 0
     Vidrio Camara Samsung A16 0
+    Vidrio Camara Samsung S20 Fe 0
     Vidrio Camara Xiaomi Note 13 Pro Plus 5
     Vidrio Camara Xiaomi Redmi 13 10
     Vidrio Camara Xiaomi Redmi 13C 5
@@ -4188,6 +4202,7 @@
     Vidrio Ceramico Huawei Y9 Prime 14
     Vidrio Ceramico Huawei Y9 Prime Clear 5
     Vidrio Ceramico Motorola E14 4
+    Vidrio Ceramico Motorola Moto G20 / G30 0
     Vidrio Ceramico Motorola Moto G60 2
     Vidrio Ceramico Samsung A12 9
     Vidrio Ceramico Samsung A35 / A55 4
@@ -4284,6 +4299,7 @@
     Vidrio Tortuga Xiaomi Redmi Note 13 / Note 14 0
     Visor Camara Apple Iphone 11 0
     Visor Camara Apple Iphone 13 0
+    Visor Camara Huawei Honor Magic 6 Lite 0
     Visor Camara Huawei Honor X6 / X6S Azul 0
     Visor Camara Huawei Y9A 0
     Visor Camara Lg K51S 0
@@ -4303,15 +4319,3 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 1
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
-    Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
-    Vidrio Camara Samsung S20 Fe 0
-    Silicone Case Tecno Spark 30 4G Azulclaro 0
-    Forro Control Gamer Xbox 360 0
-    Pacha Huawei Honor Magic 6 Lite Amoled 0
-    Visor Camara Huawei Honor Magic 6 Lite 0
-    Hydrogel Huawei Honor Magic 6 Lite 0
-    Forro Space Apple Iphone 13 0
-    Adaptador Europeo Pasta 2
-    Servicio Tecnico Huawei Frp P30 Lite 0
-    Pacha Tecno Spark 9 Pro 0
-    Vidrio Ceramico Motorola Moto G20 / G30 0
