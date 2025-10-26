@@ -1,11 +1,11 @@
-    Bateria Apple Iphone 11 Pro 1
-    Bateria Xiaomi Redmi Note 8 1
-    Bisel Oppo Reno 5 Lite / Reno 6 Lite 1
-    Pacha Alcatel 1Se 1
-    Pacha Apple Iphone 11 Pro Gx 1
-    Pacha Xiaomi Redmi 10 2
-    Pacha Xiaomi Redmi 9A / 9C / 10A 2
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1
-    Pacha Xiaomi Redmi Note 8 1
-    Sensor de Huella Samsung A13 Azul 1
-    Tapa Xiaomi Redmi Note 8 Negro 1
+    Bateria Apple Iphone 11 Pro 1 ok
+    Bateria Xiaomi Redmi Note 8 1 ok
+    Bisel Oppo Reno 5 Lite / Reno 6 Lite 1 ok
+    Pacha Apple Iphone 11 Pro Gx 1 ok
+    Pacha Xiaomi Redmi 10 1 ok
+    Pacha Xiaomi Redmi 9A / 9C / 10A 1 ok
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    Pacha Xiaomi Redmi Note 8 1 ok
+    Sensor de Huella Samsung A13 Azul 1 ok
+    Tapa Xiaomi Redmi Note 8 Negro 1 ok
+    Pacha Samsung A13 / M13 1 ok
