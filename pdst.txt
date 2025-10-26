@@ -8,4 +8,4 @@
     Pacha Xiaomi Redmi Note 8 1 ok
     Sensor de Huella Samsung A13 Azul 1 ok
     Tapa Xiaomi Redmi Note 8 Negro 1 ok
-    Pacha Samsung A13 / M13 1 ok
+    Pacha Samsung A13 / M13 / M23 1 ok
