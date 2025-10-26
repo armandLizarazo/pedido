@@ -1,6 +1,7 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Conduccion Osea B-18 1
     Audifonos Bluetooth Pro 2 Pantalla Negro 1
+    Audifonos Bluetooth Y6 Blanco 2
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Naisu S-437 Rojo 1
     Cable Magnetico 3 en 1 2
@@ -13,6 +14,8 @@
     Cargador Royal 45W Tc Cbl 5
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Yl Tc 2
+    Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
+    Forro Antichoque Cadena infinix Note 50S 4G 2
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X6 / X6s Dama 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -110,6 +113,7 @@
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
+    Silicone Case Infinix Hot 60 Pro Plus Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 40 Pro Lila 1
     Silicone Case Lg K61 Amarillo 1
@@ -140,8 +144,10 @@
     Silicone Case Oppo A5 Rosa 1
     Silicone Case Oppo A57 Lila 1
     Silicone Case Oppo A78 4G Fucsia 1
+    Silicone Case Oppo A78 4G Morado 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
+    Silicone Case Oppo Realme C53 / Note 50 Azulclaro 2
     Silicone Case Oppo Realme C55 Negro 1
     Silicone Case Oppo Realme C75 Amarillo 1
     Silicone Case Oppo Realme C75 Fucsia 1
@@ -152,6 +158,7 @@
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A04E Negro 1
     Silicone Case Samsung A10 Blanco 1
+    Silicone Case Samsung A16 Negro 1
     Silicone Case Samsung A20 / A30 Amarillo 1
     Silicone Case Samsung A21S Negro 1
     Silicone Case Samsung A22 5G Negro 1
@@ -201,6 +208,7 @@
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Morado 1
+    Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1

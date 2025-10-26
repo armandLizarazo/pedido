@@ -14,7 +14,7 @@
         font-family: "Inter", sans-serif;
       }
       .table-container {
-        max-height: 60vh;
+        max-height: 60vh; /* Ajustado para dar más espacio a los filtros */
         overflow-y: auto;
       }
       ::-webkit-scrollbar {
@@ -40,8 +40,8 @@
           Visor de Historial de Eliminados
         </h1>
         <p class="text-gray-600">
-          Sube y consulta tu archivo `historial_eliminados.txt` para buscar y
-          filtrar los registros.
+          Sube y consulta tu archivo `historial_eliminados.txt` o `.csv` para
+          buscar y filtrar los registros.
         </p>
       </div>
 
@@ -75,9 +75,9 @@
       <!-- Contenedor principal de la aplicación (inicialmente oculto) -->
       <div id="app-container" class="hidden">
         <!-- Filtros -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
           <!-- Filtro de Búsqueda por Columna -->
-          <div class="bg-white rounded-2xl shadow-lg p-4 md:col-span-1">
+          <div class="bg-white rounded-2xl shadow-lg p-4">
             <label
               for="search-column"
               class="block text-sm font-medium text-gray-700 mb-2"
@@ -113,18 +113,34 @@
               <option value="">Todos los archivos</option>
             </select>
           </div>
-          <!-- Filtro por Fecha -->
-          <div class="bg-white rounded-2xl shadow-lg p-4">
-            <label
-              for="date-filter"
-              class="block text-sm font-medium text-gray-700 mb-2"
-              >Filtrar por fecha:</label
-            >
-            <input
-              type="date"
-              id="date-filter"
-              class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
-            />
+          <!-- Filtro por Rango de Fechas -->
+          <div
+            class="bg-white rounded-2xl shadow-lg p-4 lg:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4"
+          >
+            <div>
+              <label
+                for="date-start-filter"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Fecha Desde:</label
+              >
+              <input
+                type="date"
+                id="date-start-filter"
+                class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              />
+            </div>
+            <div>
+              <label
+                for="date-end-filter"
+                class="block text-sm font-medium text-gray-700 mb-2"
+                >Fecha Hasta:</label
+              >
+              <input
+                type="date"
+                id="date-end-filter"
+                class="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"
+              />
+            </div>
           </div>
         </div>
 
@@ -169,7 +185,8 @@
         <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
           <div class="table-container">
             <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50 sticky top-0">
+              <thead class="bg-gray-50 sticky top-0 z-10">
+                <!-- Añadido z-10 -->
                 <tr>
                   <th
                     scope="col"
@@ -221,9 +238,10 @@
 
       // Elementos de la aplicación
       const searchInput = document.getElementById("search-input");
-      const searchColumnSelect = document.getElementById("search-column"); // Nuevo selector
+      const searchColumnSelect = document.getElementById("search-column");
       const fileFilter = document.getElementById("file-filter");
-      const dateFilter = document.getElementById("date-filter");
+      const dateStartFilter = document.getElementById("date-start-filter"); // Nuevo input fecha inicio
+      const dateEndFilter = document.getElementById("date-end-filter"); // Nuevo input fecha fin
       const resultsTable = document.getElementById("results-table");
       const noResults = document.getElementById("no-results");
 
@@ -237,7 +255,7 @@
 
       let allData = [];
 
-      // --- Manejo de la subida de archivos (sin cambios) ---
+      // --- Manejo de la subida de archivos (con limpieza de nuevos filtros) ---
       uploadContainer.addEventListener("click", () => fileInput.click());
       uploadContainer.addEventListener("dragover", (e) => {
         e.preventDefault();
@@ -270,8 +288,9 @@
           // Limpiar filtros antes de cargar nuevos datos
           searchInput.value = "";
           searchColumnSelect.value = "content";
-          fileFilter.innerHTML = '<option value="">Todos los archivos</option>'; // Limpiar opciones anteriores
-          dateFilter.value = "";
+          fileFilter.innerHTML = '<option value="">Todos los archivos</option>';
+          dateStartFilter.value = ""; // Limpiar fecha inicio
+          dateEndFilter.value = ""; // Limpiar fecha fin
 
           if (fileExtension === "csv") {
             allData = parseCsv(content);
@@ -280,8 +299,7 @@
           } else {
             console.error("Tipo de archivo no soportado");
             fileNameDisplay.textContent = `Error: Tipo de archivo no soportado. Use .txt o .csv`;
-            allData = []; // Asegurarse de que no haya datos viejos
-            // Ocultar app y mostrar upload si estaba visible
+            allData = [];
             appContainer.classList.add("hidden");
             uploadContainer.classList.remove("hidden");
             return;
@@ -290,7 +308,6 @@
           if (allData.length === 0) {
             fileNameDisplay.textContent +=
               " - Archivo vacío o formato incorrecto.";
-            // Mantener el área de carga visible si no hay datos
             appContainer.classList.add("hidden");
             uploadContainer.classList.remove("hidden");
           } else {
@@ -343,16 +360,40 @@
               if (parts.length === 2) {
                 const lineNumber = parts[0].trim();
                 const content = parts[1].trim();
-                if (lineNumber && content && content !== "[Línea en blanco]") {
+                // Intentar parsear la fecha para validarla un poco
+                const dateTimeString = currentDate.replace(" ", "T");
+                const dateObj = new Date(dateTimeString);
+
+                if (
+                  lineNumber &&
+                  content &&
+                  content !== "[Línea en blanco]" &&
+                  !isNaN(dateObj.getTime())
+                ) {
                   records.push({
                     date: currentDate,
                     file: currentFile,
                     line: lineNumber,
                     content: content,
                   });
+                } else if (
+                  lineNumber &&
+                  content &&
+                  content !== "[Línea en blanco]"
+                ) {
+                  console.warn(
+                    `Fecha inválida encontrada en bloque TXT: ${currentDate}. Registro ignorado: ${itemLine}`
+                  );
                 }
               }
             });
+          } else if (!currentDate || !currentFile) {
+            console.warn(
+              `Bloque TXT sin fecha o archivo procesado: ${block.substring(
+                0,
+                100
+              )}...`
+            );
           }
         });
         return records;
@@ -377,7 +418,17 @@
             const lineNum = parts[2].replace(/"/g, "").trim();
             const content = parts.slice(3).join(",").replace(/"/g, "").trim();
 
-            if (date && file && lineNum && content) {
+            // Validar fecha un poco
+            const dateTimeString = date.replace(" ", "T");
+            const dateObj = new Date(dateTimeString);
+
+            if (
+              date &&
+              file &&
+              lineNum &&
+              content &&
+              !isNaN(dateObj.getTime())
+            ) {
               records.push({
                 date: date,
                 file: file,
@@ -385,7 +436,9 @@
                 content: content,
               });
             } else {
-              console.warn(`Línea CSV ignorada por formato inválido: ${line}`);
+              console.warn(
+                `Línea CSV ignorada por formato o fecha inválida: ${line}`
+              );
             }
           } else {
             console.warn(
@@ -396,24 +449,25 @@
         return records;
       }
 
-      // --- Inicialización y UI (con cambios menores) ---
+      // --- Inicialización y UI (con listeners para nuevos filtros) ---
       function initialize_app() {
         uploadContainer.classList.add("hidden");
         appContainer.classList.remove("hidden");
 
-        populateFileFilter(); // Rellena el filtro de archivos
-        updateStats(); // Actualiza las estadísticas iniciales
-        renderTable(allData); // Muestra todos los datos inicialmente
+        populateFileFilter();
+        updateStats();
+        renderTable(allData);
 
         // Añadir event listeners para los filtros
         searchInput.addEventListener("input", applyFilters);
-        searchColumnSelect.addEventListener("change", applyFilters); // Listener para el nuevo select
+        searchColumnSelect.addEventListener("change", applyFilters);
         fileFilter.addEventListener("change", applyFilters);
-        dateFilter.addEventListener("change", applyFilters);
+        dateStartFilter.addEventListener("change", applyFilters); // Listener para fecha inicio
+        dateEndFilter.addEventListener("change", applyFilters); // Listener para fecha fin
       }
 
+      // --- populateFileFilter y updateStats (sin cambios) ---
       function populateFileFilter() {
-        // Asegurarse de que el filtro esté limpio excepto la opción "Todos"
         fileFilter.innerHTML = '<option value="">Todos los archivos</option>';
         const files = [...new Set(allData.map((item) => item.file))];
         files.sort();
@@ -425,7 +479,6 @@
         });
       }
 
-      // --- Estadísticas (sin cambios) ---
       function updateStats(filteredData) {
         totalRecordsStat.textContent = allData.length.toLocaleString();
         totalRecordsDisplayStat.textContent = (
@@ -438,58 +491,70 @@
         if (allData.length > 0) {
           const sortedDates = allData
             .map((d) => {
-              const dateTimeString = d.date.replace(" ", "T"); // Formato ISO 8601 simple
+              const dateTimeString = d.date.replace(" ", "T");
               const dateObj = new Date(dateTimeString);
-              // Manejar fechas inválidas que pueden venir del parseo
               return isNaN(dateObj.getTime()) ? null : dateObj;
             })
-            .filter((d) => d !== null) // Filtrar fechas inválidas
-            .sort((a, b) => b - a); // Ordenar descendente
+            .filter((d) => d !== null)
+            .sort((a, b) => b - a);
 
           if (sortedDates.length > 0) {
-            // Formato más estándar y localizado
             lastProcessDateStat.textContent = sortedDates[0].toLocaleDateString(
               "es-CO",
               { year: "numeric", month: "2-digit", day: "2-digit" }
             );
           } else {
-            lastProcessDateStat.textContent = "-"; // Si no hay fechas válidas
+            lastProcessDateStat.textContent = "-";
           }
         } else {
           lastProcessDateStat.textContent = "-";
         }
       }
 
-      // --- Aplicar Filtros (MODIFICADO) ---
+      // --- Aplicar Filtros (MODIFICADO para rango de fechas) ---
       function applyFilters() {
-        const searchTerm = searchInput.value.toLowerCase().trim(); // Quitar espacios extra
-        const searchColumn = searchColumnSelect.value; // Obtener la columna seleccionada
+        const searchTerm = searchInput.value.toLowerCase().trim();
+        const searchColumn = searchColumnSelect.value;
         const selectedFile = fileFilter.value;
-        const selectedDate = dateFilter.value;
+        const startDate = dateStartFilter.value; // Obtener fecha inicio
+        const endDate = dateEndFilter.value; // Obtener fecha fin
 
         let filteredData = allData;
 
-        // Filtrar por término de búsqueda en la columna seleccionada
+        // Filtrar por término de búsqueda
         if (searchTerm && searchColumn) {
           filteredData = filteredData.filter((item) => {
             const columnValue =
-              item[searchColumn]?.toString().toLowerCase() || ""; // Obtener valor y asegurar que sea string
+              item[searchColumn]?.toString().toLowerCase() || "";
             return columnValue.includes(searchTerm);
           });
         }
 
-        // Filtrar por archivo seleccionado
+        // Filtrar por archivo
         if (selectedFile) {
           filteredData = filteredData.filter(
             (item) => item.file === selectedFile
           );
         }
 
-        // Filtrar por fecha seleccionada
-        if (selectedDate) {
+        // Filtrar por rango de fechas
+        if (startDate || endDate) {
           filteredData = filteredData.filter((item) => {
-            const itemDatePart = item.date.split(" ")[0]; // Comparar solo la parte YYYY-MM-DD
-            return itemDatePart === selectedDate;
+            // Extraer solo la parte de la fecha (YYYY-MM-DD) del registro
+            const itemDatePart = item.date.split(" ")[0];
+            if (!itemDatePart) return false; // Ignorar si no hay fecha
+
+            let isAfterStart = true;
+            let isBeforeEnd = true;
+
+            if (startDate) {
+              isAfterStart = itemDatePart >= startDate;
+            }
+            if (endDate) {
+              isBeforeEnd = itemDatePart <= endDate;
+            }
+
+            return isAfterStart && isBeforeEnd;
           });
         }
 
@@ -499,15 +564,14 @@
 
       // --- Renderizar Tabla (sin cambios) ---
       function renderTable(data) {
-        resultsTable.innerHTML = ""; // Limpiar tabla anterior
+        resultsTable.innerHTML = "";
         if (data.length === 0) {
-          noResults.classList.remove("hidden"); // Mostrar mensaje si no hay resultados
+          noResults.classList.remove("hidden");
         } else {
-          noResults.classList.add("hidden"); // Ocultar mensaje si hay resultados
+          noResults.classList.add("hidden");
           data.forEach((item) => {
             const row = document.createElement("tr");
-            row.className = "hover:bg-gray-50 transition-colors duration-150"; // Añadir transición suave
-            // Usar text-gray-700 y text-gray-900 para mejor contraste
+            row.className = "hover:bg-gray-50 transition-colors duration-150";
             row.innerHTML = `
                         <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700">${
                           item.date || "-"
