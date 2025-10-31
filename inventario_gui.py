@@ -1304,7 +1304,8 @@ class InventarioGUI:
             "Daviplata",
             "Datafono",
             "Sistecredito",
-        ]
+            "Celya",
+        ]  # <-- Agregado "Celya"
         self.cart_medio_pago_combo = ttk.Combobox(
             payment_add_frame, values=payment_methods, state="readonly"
         )
