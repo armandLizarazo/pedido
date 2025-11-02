@@ -1,26 +1,17 @@
     Adaptador Otg Tc Y Micro 3
-    Adaptador Tc a 3.5 3
     Audifonos Bluetooth Conduccion Osea B-18 1
-    Audifonos Bluetooth Pro 2 Pantalla 2
-    Audifonos Bluetooth Pro 2 Pantalla Negro 1
     Audifonos Bluetooth Y6 Blanco 2
     Balaca Apple Airpods Max Negro 1.1 1
-    Balaca Naisu S-437 Rojo 1
-    Cable Apple Tc Ligthning 3
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Tc A Tc Eco 3
-    Cable We Tc 2
     Cargador Fuente 360 Slim 1
     Cargador MagSafe 1
     Cargador Pluying 15w PD237 1
     Cargador Pluying C9 Modulador 12-24V 20W 1
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
-    Cargador Samsung 25W Cabeza Negro 2
     Cargador Samsung 45W Cabeza Blanco 2
-    Cargador Xiaomi 120W 1
-    Cargador Yl Tc 2
     Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
     Forro Antichoque Cadena infinix Note 50S 4G 2
     Forro Antichoque Hawei Honor X9 Dama 3
@@ -93,12 +84,9 @@
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
-    Manos Libres Samsung Akg Tc 2
-    Manos Libres Speak Tc 1
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
-    Mouse Gamer Inalambrico Eco 2
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Patillera 3 En 1 2
@@ -123,7 +111,6 @@
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
-    Silicone Case Huawei Y9 Prime Negro 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
@@ -175,7 +162,6 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A16 Negro 1
     Silicone Case Samsung A20 / A30 Amarillo 1
-    Silicone Case Samsung A21S Negro 1
     Silicone Case Samsung A22 4G Morado 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A51 Negro 1
