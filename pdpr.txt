@@ -19,6 +19,7 @@
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
+    Camara 3 Antenas 3
     Camara Wifi Bombillo 2
     Camara de Solapa 1
     Consola + Tv box 1
@@ -28,6 +29,7 @@
     Estetica Cepillo Secador Remington Keratina 1
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
+    Humidificador Madera 3
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
     Memoria Musica Rap Fanaticos del Rap 1
@@ -51,5 +53,6 @@
     Tableta Tigers Kids Rosa 1
     Teclado Seisa C-400 Inalambrico 1
     Teclado Seisa Dn-236 2
+    Tripode Selfie L-13D 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

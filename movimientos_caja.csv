@@ -489,3 +489,8 @@ Timestamp,Tipo,Descripcion,Monto
 2025-10-28 21:37:57,Gasto,Almuerzo,-20000.0
 2025-10-30 21:35:52,Préstamo/Retiro,Stella,-20000.0
 2025-10-30 21:43:41,Gasto,Pago Vendedor,-25000.0
+2025-10-31 20:30:06,Gasto,Recarga Dad,-20000.0
+2025-10-31 20:30:21,Préstamo/Retiro,Recarga Stella,-20000.0
+2025-11-01 20:15:49,Gasto,Arepa,-2500.0
+2025-11-01 20:46:30,Gasto,Microfibra,-4000.0
+2025-11-01 21:07:16,Gasto,Pago Vendedor,-25000.0

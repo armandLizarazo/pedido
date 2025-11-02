@@ -194,6 +194,7 @@
     Bateria Huawei Y7 2019 0
     Bateria Huawei Y9 2019 1
     Bateria Infinix Smart 6 0
+    Bateria Motorola JE30 0
     Bateria Motorola Moto E20 1
     Bateria Motorola Moto E6 Play 0
     Bateria Motorola Moto E6s / E6i 0
@@ -212,6 +213,7 @@
     Bateria Vivo Y30 / Y50 0
     Bateria Xiaomi Mi 11 Lite Original 0
     Bateria Xiaomi Mi11T Pro 0
+    Bateria Xiaomi Redmi 13C 0
     Bateria Xiaomi Redmi 9 0
     Bateria Xiaomi Redmi Note 10 / Note 10S 0
     Bateria Xiaomi Redmi Note 12 0
@@ -227,6 +229,7 @@
     Bombillo Bluetooth 1
     Boton Huella Samsung A14 Amarillo 0
     Boton Huella Xiaomi Poco X3 0
+    Boton Power Samsung A22 4G 0
     Boton de Power- Huella Samsung A12 0
     Botones Xiaomi Redmi Note 8 1
     Cable 1100 5
@@ -1809,6 +1812,7 @@
     Pacha Apple Iphone 11 Gx 0
     Pacha Apple Iphone 11 Pro Gx 0
     Pacha Apple Iphone 12 Mini Gx 0
+    Pacha Apple Iphone 7 Plus Blanco 0
     Pacha Apple Iphone 7 Plus Negro 0
     Pacha Apple Iphone 8 Blanco 0
     Pacha Apple Iphone 8 Negro 0
@@ -1901,6 +1905,8 @@
     Pacha Samsung A20s C/m 0
     Pacha Samsung A21S 0
     Pacha Samsung A21S C/m 0
+    Pacha Samsung A22 4G 0
+    Pacha Samsung A22 4G C/m 0
     Pacha Samsung A22 5G 0
     Pacha Samsung A23 / M23 0
     Pacha Samsung A24 Amoled 1
@@ -1925,7 +1931,7 @@
     Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 0
     Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 0
     Pacha Tecno - Infinix Spark Go 2020 / 6Go / Hot 10i 0
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 0
     Pacha Tecno / Infinix Camon 18P / 19 0
     Pacha Tecno / Infinix Pova 5 / Hot 30 Play 0
     Pacha Tecno / Infinix Smart 6 0
@@ -1934,6 +1940,7 @@
     Pacha Tecno Pop 7 / Hot 30 Play 0
     Pacha Tecno Saprk Go 2023 / Pop 5 Lite 0
     Pacha Tecno Spark 20 0
+    Pacha Tecno Spark 20 Pro Plus 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
     Pacha Tecno Spark Go 2023 0
@@ -1974,6 +1981,7 @@
     Pacha Xiaomi Redmi Note 13 Pro Plus 1
     Pacha Xiaomi Redmi Note 7 0
     Pacha Xiaomi Redmi Note 8 0
+    Pacha Xiaomi Redmi Note 8 Pro 0
     Pacha Xiaomi Redmi Note 9 0
     Pacha Xiaomi Redmi Note 9S / Note 9 Pro 0
     Pacha Xiaomi Redmi Note 9s / 9Pro 0
@@ -2139,6 +2147,7 @@
     Servicio Tecnico Apple Reconectar Pantalla 0
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
     Servicio Tecnico Frp Infinix Hot 40I 0
+    Servicio Tecnico Generico Limpiar entrada de Audifonos 0
     Servicio Tecnico Generico Receptor Control Tv Stick 0
     Servicio Tecnico Generico Soldar Cables 0
     Servicio Tecnico Generico Soldar Cables Proyecto 0
@@ -2193,6 +2202,7 @@
     Servicio Tecnico Samsung Limpiar Camara Frontal A24 0
     Servicio Tecnico Samsung Mantenimiento Logic a A25 0
     Servicio Tecnico Samsung Mantenimiento Logica A12 0
+    Servicio Tecnico Samsung Mantenimiento Logica A21S 0
     Servicio Tecnico Samsung Mantenimiento Logica de carga A13 0
     Servicio Tecnico Samsung Pegar Pantalla A03 0
     Servicio Tecnico Samsung Pegar Pantalla A13 0
@@ -2228,6 +2238,7 @@
     Servicio Tecnico Xiaomi Encender Redmi Note 11 0
     Servicio Tecnico Xiaomi Frp Redmi Note 11 Pandora 0
     Servicio Tecnico Xiaomi Frp Redmi Note 13 4G 0
+    Servicio Tecnico Xiaomi Pegar Pantalla Redmi 8 0
     Servicio Tecnico Xiaomi Pegar Tapa Redmi Note 11 0
     Servicio Tecnico Xiaomi Pin De Carga Redmi 12C 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi 9A / 9C / 10A 0
@@ -3934,6 +3945,7 @@
     Soporte Holder Espejo 1
     Soporte Holder Espejo Descubierto 0
     Soporte Holder Manubrio 1
+    Soporte Holder Tornillo 0
     Soporte Nephoo Tripode Camara-Celular Np-3180 1
     Soporte Nephoo Tripode Camara-Celular Np-999 0
     Soporte Pinza 3
@@ -3967,6 +3979,7 @@
     Tapa Motorola Moto One Fusion Azul 0
     Tapa Oppo A57 Verde 0
     Tapa Oppo Realme C55 Aguamarina 1
+    Tapa Samsung A22 4G Azul Claro 0
     Tapa Samsung A31 Azul 1
     Tapa Samsung A31 Negro 1
     Tapa Samsung A32 5G Negro 0
