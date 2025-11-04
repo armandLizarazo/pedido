@@ -9230,3 +9230,46 @@ Fecha de proceso: 2025-11-02 09:05:10
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-04 06:52:31
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-04 06:52:31
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-04 06:52:31
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 16
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Motorola JE30 1 ok
+    2 | Bateria Xiaomi Redmi 13C 1 ok
+    3 | Caja de Timbres Samsung A05 1 ok
+    4 | Flex de Carga Apple IPhone 7 Plus 1 ok
+    5 | Pacha Apple Iphone 7 Plus Blanco 1 ok
+    6 | Pacha Samsung A13 / M13 / M23 1 ok
+    7 | Pacha Samsung A22 4G C/m 1 ok
+    8 | Pacha Samsung A15 Amoled 1 ok
+    9 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 2 ok
+   10 | Pacha Xiaomi Redmi 13C 1 ok
+   11 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   12 | Pacha Xiaomi Redmi Note 8 Pro 2 ok
+   13 | Tapa Samsung A22 4G Verdeaguamrina 1 ok
+   14 | Visor Camara Xiaomi Redmi Note 11 1 ok
+   15 | Visor Camara Xiaomi Redmi Note 14 Pro 1 ok
+   16 | Logica de Carga Motorola Moto One Fusion 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-04 06:52:31
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

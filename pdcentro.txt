@@ -84,6 +84,7 @@
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
+    Manos Libres Samsung Akg 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
@@ -96,6 +97,7 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
+    Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 14 Negro 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 15 Pro Max Negro 1
@@ -104,7 +106,7 @@
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1
     Silicone Case Huawei Honor X6 / X6s Rojo 1
-    Silicone Case Huawei Honor X7C / 200 Smart Negro 1
+    Silicone Case Huawei Honor X7C / 200 Smart Negro 2
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
@@ -118,6 +120,8 @@
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 40 Pro Lila 1
+    Silicone Case Infinix Note 50s Lila 2
+    Silicone Case Infinix Note 50s Negro 2
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto E20 Negro 1
     Silicone Case Motorola Moto Edge 30 Negro 2
@@ -126,6 +130,7 @@
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
     Silicone Case Motorola Moto G15 Morado 1
+    Silicone Case Motorola Moto G22 Verde 1
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G55 Fucsia 1
@@ -184,6 +189,7 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1
     Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 30C Rojo 1
@@ -233,7 +239,7 @@
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Xiaomi Redmi 10C / 12C 5
-    Vidrio 5D Xiaomi Redmi 12 5
+    Vidrio 5D Xiaomi Redmi 12 10
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
