@@ -33,6 +33,10 @@
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
+    Forro Antichoque Xiaomi Redmi 15 Caballero 5
+    Forro Antichoque Xiaomi Redmi 15 Dama 5
+    Forro Antichoque Xiaomi Redmi 15C Caballero 5
+    Forro Antichoque Xiaomi Redmi 15C Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2
     Forro Antichoque Xiaomi Redmi Note 8 Caballero 2
     Forro Armadura Lg K61 Rojo 1
@@ -46,6 +50,10 @@
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
+    Forro Armadura Xiaomi Redmi 15 Negro 1
+    Forro Armadura Xiaomi Redmi 15 Rojo 1
+    Forro Armadura Xiaomi Redmi 15C Negro 1
+    Forro Armadura Xiaomi Redmi 15C Rojo 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
     Forro Armadura Xiaomi Redmi note 10 pro Negro 1
@@ -79,6 +87,9 @@
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Camon 40 Pro 1
     Forro Space Vivo Y04 2
+    Forro Space Xiaomi Redmi 14C 2
+    Forro Space Xiaomi Redmi 15 2
+    Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14S 2
@@ -216,12 +227,31 @@
     Silicone Case Xiaomi Redmi 12 Azulrey 1
     Silicone Case Xiaomi Redmi 12 Morado 1
     Silicone Case Xiaomi Redmi 12C Ab Azulrey 1
+    Silicone Case Xiaomi Redmi 15 Amarillo 1
+    Silicone Case Xiaomi Redmi 15 Azulrey 1
+    Silicone Case Xiaomi Redmi 15 Fucsia 1
+    Silicone Case Xiaomi Redmi 15 Lila 1
+    Silicone Case Xiaomi Redmi 15 Negro 1
+    Silicone Case Xiaomi Redmi 15 Rojo 1
+    Silicone Case Xiaomi Redmi 15 Rosa 1
+    Silicone Case Xiaomi Redmi 15C Amarillo 1
+    Silicone Case Xiaomi Redmi 15C Azulrey 1
+    Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 11 Morado 1
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 5G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Lila 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1

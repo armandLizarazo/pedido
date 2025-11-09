@@ -9273,3 +9273,36 @@ Fecha de proceso: 2025-11-04 06:52:31
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-09 09:11:15
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-09 09:11:15
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-09 09:11:15
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Pacha Samsung A06 1 ok
+    2 | Pacha Vivo Y11s / Y20s 1 ok
+    3 | Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 1 ok
+    4 | Pacha Xiaomi Redmi 13C 1 ok
+    5 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    6 | Pacha Huawei Honor X6 / X6s 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-09 09:11:15
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
