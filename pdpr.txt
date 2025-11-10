@@ -5,6 +5,7 @@
     Adaptador Tc Hub 8 en 1 1
     Adaptador Union Plug 3.5 3
     Adpatador Vga2hdmi Cbl Cja 1
+    Amplificador de Pantalla Plano 1
     Antena Wifi Larga 2
     Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
@@ -14,7 +15,9 @@
     Base Refrigerante X6a 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
+    Cable Hdmi + Adaptadores 2
     Cable Lan 2M Cat 6 5
+    Cable Lan 3M Cat 6 8
     Cable Microsoft Xbox Caja Negra 2
     Cable Rj11 3
     Cable Vga 15M 2
@@ -22,6 +25,7 @@
     Camara 3 Antenas 3
     Camara Wifi Bombillo 2
     Camara de Solapa 1
+    Cargador 15V 2
     Consola + Tv box 1
     Consola Mini Ness 2
     Consola R-36S 1
@@ -31,9 +35,13 @@
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
     Humidificador Madera 3
+    Hydrolavadora Recargable 2
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
+    Memoria Musica Crosover Locura Crosover 1
     Memoria Musica Rap Fanaticos del Rap 1
+    Memoria Musica Romantica Baladas 60, 70, y 80 2
+    Memoria Musica Vallenata Diomedez Dias 2
     Memory Card Ps2 1
     Mouse Gamer Xmg-02 Inalambrico 1
     Parlante Gts-1372 2

@@ -2,9 +2,12 @@
     Audifonos Bluetooth Conduccion Osea B-18 1
     Audifonos Bluetooth Y6 Blanco 2
     Balaca Apple Airpods Max Negro 1.1 1
+    Cable Apple Usb Ligthning 2M 5
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Tc A Tc Eco 3
+    Cargador Apple 15 Pro Max 35W Con Cable 1
+    Cargador Apple 20W Con Cable 1
     Cargador Fuente 360 Slim 1
     Cargador MagSafe 1
     Cargador Pluying 15w PD237 1
@@ -29,6 +32,8 @@
     Forro Antichoque Oppo Realme C75 Caballero 5
     Forro Antichoque Oppo Realme C75 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
+    Forro Antichoque Samsung A05 Caballero 3
+    Forro Antichoque Samsung A05 Dama 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
@@ -81,6 +86,8 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 11F 2
     Forro Space Samsung A04E 2
+    Forro Space Samsung A05 2
+    Forro Space Samsung A15 2
     Forro Space Samsung A71 2
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 2
@@ -94,6 +101,7 @@
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
+    Hydrolavadora Recargable 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung Akg 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
@@ -109,12 +117,14 @@
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
+    Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 14 Negro 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 15 Pro Max Negro 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1
     Silicone Case Huawei Honor X6 / X6s Rojo 1
     Silicone Case Huawei Honor X7C / 200 Smart Negro 2
@@ -139,6 +149,7 @@
     Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G05 Amarillo 1
+    Silicone Case Motorola Moto G13 / G23 Negro 1
     Silicone Case Motorola Moto G15 Amarillo 1
     Silicone Case Motorola Moto G15 Morado 1
     Silicone Case Motorola Moto G22 Verde 1
@@ -253,6 +264,7 @@
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rosa 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
+    Silicone Case Xiaomi Redmi Note 9 Negro 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1

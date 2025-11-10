@@ -14,16 +14,15 @@
     Adaptador Europeo Goma 2
     Adaptador Europeo Pasta 2
     Adaptador Europeo Redondo 0
-    Adaptador Ext Hdmi 1
+    Adaptador Ext Hdmi 2
     Adaptador Hdmi A Mini Hdmi 1
     Adaptador Hdmi2Av 1
     Adaptador Hdmi2Vga 1
-    Adaptador Hdmi2Vga Cja 1
+    Adaptador Hdmi2Vga Cja 2
     Adaptador Hdmi2Vga Cja Macho 2
     Adaptador Hdmi2dpp 0
     Adaptador Hdmi2dvi 2
     Adaptador Hdmi2vga Cbl 2
-    Adaptador Hdmi2vga Cja 0
     Adaptador Hub + Hdmi y Lan 0
     Adaptador Hub 4 Puertos 2.0 0
     Adaptador Hub 4 Puertos 3.0 1
@@ -90,10 +89,12 @@
     Altavoz Samsung A14 5G 0
     Altavoz Tecno Spark 20 0
     Altavoz Xiaomi Redmi Note 13 4G 0
+    Amplificador de Pantalla Curvo 1
+    Amplificador de Pantalla Plano 0
     Antena Tdt 1.5M 3
     Antena Tdt 10M 1
     Antena Tdt 3M Con Usb 0
-    Antena Tdt 5M 1
+    Antena Tdt 5M 3
     Antena Tdt Aire 1
     Antena Wifi Larga 2
     Apuntador Diapositivas 0
@@ -259,11 +260,11 @@
     Cable Auxiliar 2 A 1 3M 2
     Cable Auxiliar 2 a 1 5M 1
     Cable Auxiliar 2 a 1 Mini Jack 4
-    Cable Auxiliar 3 A 1 1.5M 2
+    Cable Auxiliar 3 A 1 1.5M 3
     Cable Auxiliar 3 A 1 3M 2
     Cable Auxiliar Harvic 1 a 1 en L Cja 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 0
+    Cable Belkin Tc 3
     Cable Belkin Tc 2M 1
     Cable Belkin V8 3
     Cable Caterpillar Tc 2
@@ -344,7 +345,7 @@
     Cable V3 Eco 1
     Cable V8 3.0 Corto 0
     Cable V8 Eco 4
-    Cable Vga 1.5M 1
+    Cable Vga 1.5M 2
     Cable Vga 10M 2
     Cable Vga 15M 0
     Cable Vga 1M 3
@@ -409,10 +410,11 @@
     Caragdor We Tc 0
     Carga Y Juega Xbox One 2
     Cargador 12V 2A Doble Punta 0
+    Cargador 15V 1
     Cargador 20w C15 0
     Cargador 5V 2A Doble Punta 0
     Cargador 9V 2A Doble Punta 0
-    Cargador Apple 15 Pro Max 35W Con Cable 0
+    Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
     Cargador Apple 20W Con Cable 1
     Cargador Apple 20W Tc Cabeza 2
@@ -498,7 +500,7 @@
     Cargador We Tc 33W 0
     Cargador We V8 33W 3
     Cargador Xiaomi 120W 1
-    Cargador Xiaomi Tc A Tc 67W 1
+    Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 1
     Cargador Yl Tc 2
     Cargador Yl V8 3
@@ -530,6 +532,7 @@
     Consola R-36S 1
     Consola Sup Con Control Negro 0
     Consola Sup X7m 1
+    Control Gamer Gamesir G7 Se Blanco 0
     Control Gamer Gatillos Con Ventilador 0
     Control Gamer Gatillos G21 1
     Control Gamer Gatillos H9.0 Ventilador 1
@@ -737,7 +740,7 @@
     Forro Antichoque Motorola Moto Edge 50 Fusion / Moto G85 Caballero 4
     Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 2
     Forro Antichoque Motorola Moto Edge 60 Fusion Dama 5
-    Forro Antichoque Motorola Moto G04 / G24 Dama 6
+    Forro Antichoque Motorola Moto G04 / G24 Dama 5
     Forro Antichoque Motorola Moto G04 Dama 1
     Forro Antichoque Motorola Moto G05 Caballero 4
     Forro Antichoque Motorola Moto G05 Dama 5
@@ -768,7 +771,7 @@
     Forro Antichoque Motorola Moto G9 Power Caballero 1
     Forro Antichoque Motorola Moto One Fusion Caballero 4
     Forro Antichoque Motorola Moto One Fusion Dama 3
-    Forro Antichoque Oppo A38 Caballero 0
+    Forro Antichoque Oppo A38 Caballero 3
     Forro Antichoque Oppo A38 Dama 0
     Forro Antichoque Oppo A40 / A60 Caballero 5
     Forro Antichoque Oppo A40 / A60 Dama 4
@@ -1404,7 +1407,7 @@
     Forro Space Samsung A03S / A02S 0
     Forro Space Samsung A04E 0
     Forro Space Samsung A04S / A13 5G 2
-    Forro Space Samsung A05 1
+    Forro Space Samsung A05 0
     Forro Space Samsung A05S 1
     Forro Space Samsung A05S Lila 1
     Forro Space Samsung A06 0
@@ -1414,7 +1417,7 @@
     Forro Space Samsung A14 1
     Forro Space Samsung A14 Negro 1
     Forro Space Samsung A14 Vinotinto 0
-    Forro Space Samsung A15 0
+    Forro Space Samsung A15 1
     Forro Space Samsung A16 2
     Forro Space Samsung A20 / A30 3
     Forro Space Samsung A20S 0
@@ -1742,7 +1745,7 @@
     Manos Libres Samsung Akg Tc Blanco 1
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 3
-    Manos Libres Samsung J5 Negro 2
+    Manos Libres Samsung J5 Negro 7
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 4
     Manos Libres Samsung Tipo Original Negro 5
@@ -1830,7 +1833,7 @@
     Memoria Musica Tropical Tropical Parrandero 1
     Memoria Musica Tropical Tropicales de Siempre 1
     Memoria Musica Vallenata Binomio de Oro / Nelson Velasquez / Los Diablitos 1
-    Memoria Musica Vallenata Diomedez Dias 2
+    Memoria Musica Vallenata Diomedez Dias 0
     Memoria Musica Vallenata Fantasia Vallenata 1
     Memoria Musica Vallenata Rafael Orozco 2
     Memoria Musica Vallenata Reliquias Vallenatas 1
@@ -1881,6 +1884,7 @@
     Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1
     Pacha Huawei Honor Magic 6 Lite Amoled 0
     Pacha Huawei Honor X6 / X6S 2
+    Pacha Huawei Honor X6 / X6s 0
     Pacha Huawei Honor X6A 0
     Pacha Huawei Honor X6B 0
     Pacha Huawei Honor X6S 1
@@ -2007,17 +2011,17 @@
     Pacha Tecno Spark Go 2023 1
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
-    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 1
+    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Vivo Y11s / Y20s 1
     Pacha Vivo Y17s / Y22s 2
     Pacha Vivo Y21 / Y21S 2
     Pacha Vivo Y27 5G 2
     Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 2
     Pacha Vivo Y30 / Y50 1
-    Pacha Vivo Y31 / Y51 / Y53S 2
+    Pacha Vivo Y31 / Y51 / Y53S 1
     Pacha Vivo Y51 / Y53S 2
     Pacha Xiaomi Poco X3 / Mi 10T Lite 2
-    Pacha Xiaomi Redmi 10 0
+    Pacha Xiaomi Redmi 10 1
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 0
     Pacha Xiaomi Redmi 12C 2
@@ -2236,6 +2240,7 @@
     Servicio Tecnico Infinix Pin de Carga 0
     Servicio Tecnico Krono Pin de Carga Tablet Kids 0
     Servicio Tecnico Motorola Contraseña Correo y Formateo Moto G22 0
+    Servicio Tecnico Motorola Formatear Moto E40 0
     Servicio Tecnico Motorola Formatear Moto G32 0
     Servicio Tecnico Motorola Formatear Moto G7 Power 0
     Servicio Tecnico Motorola Formatear Moto G8 Power 0
@@ -4567,4 +4572,3 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 1
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 4
-    Servicio Tecnico Motorola Formatear Moto E40 0

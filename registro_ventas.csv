@@ -2760,3 +2760,32 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia,
 2025-11-08 20:49:18,20251108204918,Pacha Xiaomi Redmi A3,1,36000.00,90000.00,90000.00,54000.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
 2025-11-08 20:49:18,20251108204918,Vidrio 5D Xiaomi Redmi A3,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
 2025-11-08 20:57:51,20251108205751,Recargas,1,11321.00,12000.00,12000.00,679.00,local.txt,Cliente General,Efectivo: $12000.00,Completada
+2025-11-09 11:48:58,20251109114858,Forro Space Samsung A05,1,3500.00,20000.00,20000.00,16500.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-11-09 11:50:03,20251109115003,Adaptador Dpp2Vga Cbl,1,10000.00,25000.00,25000.00,15000.00,local.txt,Cliente General,Nequi: $25000.00,Completada
+2025-11-09 12:11:08,20251109121108,Cargador Xiaomi Tc A Tc 67W,1,24000.00,65000.00,65000.00,41000.00,local.txt,Cliente General,Efectivo: $65000.00,Completada
+2025-11-09 12:12:30,20251109121230,Cargador 15V,1,11000.00,25000.00,25000.00,14000.00,local.txt,Cliente General,Efectivo: $25000.00,Completada
+2025-11-09 12:33:38,20251109123338,Forro Antichoque Oppo A38 Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Daviplata: $15000.00,Completada
+2025-11-09 12:40:03,20251109124003,Cable Motorola Tc,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
+2025-11-09 13:47:56,20251109134756,Parlante Gts-1372,1,10000.00,25000.00,25000.00,15000.00,local.txt,Cliente General,Efectivo: $35000.00,Completada
+2025-11-09 13:47:56,20251109134756,Memoria Musica Vallenata Diomedez Dias,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $35000.00,Completada
+2025-11-09 13:49:38,20251109134938,Amplificador de Pantalla Plano,1,13000.00,30000.00,30000.00,17000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-11-09 13:50:20,20251109135020,Cargador Pc 8 Pines Caja Naranja,1,24000.00,55000.00,55000.00,31000.00,local.txt,Cliente General,Efectivo: $55000.00,Completada
+2025-11-09 14:04:55,20251109140455,Recargas,1,38208.00,40500.00,40500.00,2292.00,local.txt,Cliente General,Efectivo: $40500.00,Completada
+2025-11-09 16:58:05,20251109165805,Pacha Oppo A17 / A38 / A57 / A77,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General,Daviplata: $90000.00,Completada
+2025-11-09 16:59:34,20251109165934,Cable Auxiliar 3 A 1 1.5M,1,3000.00,12000.00,12000.00,9000.00,local.txt,Cliente General,Efectivo: $12000.00,Completada
+2025-11-09 17:02:30,20251109170230,Control Gamer Gamesir G7 Se Blanco,1,215900.00,260000.00,260000.00,44100.00,local.txt,Jonathan Ruiz,Nequi: $260000.00,Completada
+2025-11-09 17:38:20,20251109173820,Servicio Tecnico Alcatel Pin de Carga One Touch,1,0.00,30000.00,30000.00,30000.00,local.txt,Cliente General,Efectivo: $30000.00,Completada
+2025-11-09 17:40:28,20251109174028,Pacha Vivo Y31 / Y51 / Y53S,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General,Efectivo: $90000.00,Completada
+2025-11-09 17:59:24,20251109175924,Recargas,1,22170.00,23500.00,23500.00,1330.00,local.txt,Cliente General,Efectivo: $23500.00,Completada
+2025-11-09 17:59:58,20251109175958,Simcard Claro,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Daviplata: $5000.00,Completada
+2025-11-09 18:56:57,20251109185657,Cable Usb Ligthning Eco,1,1500.00,10000.00,10000.00,8500.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-11-09 19:11:00,20251109191100,Forro Antichoque Motorola Moto G04 / G24 Dama,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Nequi: $15000.00,Completada
+2025-11-09 19:18:47,20251109191847,Forro Lujo Humo Xiaomi Redmi Note 11 Negro,1,6000.00,25000.00,25000.00,19000.00,local.txt,Cliente General,Nequi: $25000.00,Completada
+2025-11-09 20:48:40,20251109204840,Pacha Tecno Spark Go 2023,1,35000.00,90000.00,90000.00,55000.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
+2025-11-09 20:48:40,20251109204840,Vidrio 5D Samsung A12,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
+2025-11-09 20:49:29,20251109204929,Servicio Tecnico Samsung Arreglar Boton Power A20s,1,0.00,20000.00,20000.00,20000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-11-09 20:49:56,20251109204956,Cargador Yl V8,1,4500.00,23000.00,23000.00,18500.00,local.txt,Cliente General,Efectivo: $23000.00,Completada
+2025-11-09 20:55:47,20251109205547,Hydrogel Xiaomi Redmi Note 14 Pro,1,4000.00,20000.00,20000.00,16000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-11-09 20:57:03,20251109205703,Recargas,1,23113.00,24500.00,24500.00,1387.00,local.txt,Cliente General,Efectivo: $24500.00,Completada
+2025-11-09 21:26:59,20251109212659,Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E,1,1600.00,20000.00,20000.00,18400.00,local.txt,Cliente General,Nequi: $65000.00,Completada
+2025-11-09 21:26:59,20251109212659,Cargador Apple 25W Tc Cabeza,1,12000.00,45000.00,45000.00,33000.00,local.txt,Cliente General,Nequi: $65000.00,Completada
