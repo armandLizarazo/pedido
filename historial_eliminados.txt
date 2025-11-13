@@ -9306,3 +9306,39 @@ Fecha de proceso: 2025-11-09 09:11:15
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-10 17:06:26
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-10 17:06:26
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-10 17:06:26
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Logica De Carga Samsung A15 5G 1 ok
+    3 | Pacha Huawei Honor X8A / Honor 90 Lite 2 ok
+    4 | Pacha Samsung A10S 1 ok
+    5 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+    6 | Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2 ok
+    7 | Pacha Xiaomi Redmi Note 9 1 ok
+    8 | Pacha Samsung A25 Amoled 1 ok
+    9 | Pacha Samsung A55 Incell 1 ok
+   10 | Pacha Huawei Honor X6A / X5B 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-10 17:06:26
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

@@ -29,9 +29,11 @@
     Consola + Tv box 1
     Consola Mini Ness 2
     Consola R-36S 1
+    Consola Sup X7m 1
     Control Gamer Gatillos W11+ 3
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Cepillo Secador Remington Keratina 1
+    Extension 4m 2
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
     Humidificador Madera 3
@@ -48,10 +50,14 @@
     Parlante Ktf-1645 2
     Patillera 3 En 1 4
     Pilas Carbon Maxday Aaa X2 30
+    Proyector Hy-300 2 Ram 1
     Reproductor Alexa Reloj 1
     Reproductor Dvd Foxtech Fx-255 1
     Reproductor Dvd One Tech Dvd-008 Hdmi 1
+    Reproductor Onn 4K 2
     Rollo Cinta Led Eco 5
+    Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
+    Rollo Cinta Led Rgb Sencilla 4
     Secador Remington 2003 1
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 1
     Smart Watch Combo Jl-9 Ultra 2

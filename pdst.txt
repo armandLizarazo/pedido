@@ -1,10 +1,6 @@
     Bateria Motorola Moto G22 1
-    Logica De Carga Samsung A15 5G 1 ok
-    Pacha Huawei Honor X8A / Honor 90 Lite 2 ok
-    Pacha Samsung A10S 1 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
-    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2 ok
-    Pacha Xiaomi Redmi Note 9 1 ok
-    Pacha Samsung A25 Amoled 1 ok
-    Pacha Samsung A55 Incell 1 ok
-    Pacha Huawei Honor X6A / X5B 1 ok
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
+    Pacha Oppo A17 / A38 / A57 / A77 1
+    Pacha Oppo A20 / A40 / A60 1
+    Pacha Oppo A54 1
+    Pacha Xiaomi Redmi 12C 1

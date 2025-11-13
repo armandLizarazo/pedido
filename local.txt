@@ -82,7 +82,7 @@
     Adifonos Bluetooth Pro 5S 0
     Adpatador Hdmi2Minihdmi 0
     Adpatador Vga2hdmi Cbl Cja 2
-    Aguja Extractor Sim 3
+    Aguja Extractor Sim 2
     Altavoz Motorola Moto G71 0
     Altavoz Samsugn A25 0
     Altavoz Samsung A10 0
@@ -92,7 +92,7 @@
     Amplificador de Pantalla Curvo 1
     Amplificador de Pantalla Plano 0
     Antena Tdt 1.5M 3
-    Antena Tdt 10M 1
+    Antena Tdt 10M 0
     Antena Tdt 3M Con Usb 0
     Antena Tdt 5M 3
     Antena Tdt Aire 1
@@ -168,14 +168,14 @@
     Balaca Gamer G-2600 Negro 0
     Balaca Ipega Militar 0
     Balaca Naisu S-437 Negro 1
-    Balaca Naisu S-437 Rojo 0
+    Balaca Naisu S-437 Rojo 1
     Balaca Naisu S-437 Verde 0
     Balaca Pantalla Azul 1
     Balaca Pantalla Fucsia 1
     Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Huawei P30 Lite Negro 1
-    Bandeja Sim Samsung A10S 0
+    Bandeja Sim Samsung A10S 1
     Bandeja Sim Samsung A20S Azuloscuro 0
     Bandeja Sim Samsung A20s Negro 0
     Bandeja Sim Xiaomi Redmi 13C 0
@@ -206,6 +206,7 @@
     Bateria Motorola Moto G31 / G42 0
     Bateria Motorola Moto G8 Plus 0
     Bateria Samsung A10S 1
+    Bateria Samsung A22 4G / A31 0
     Bateria Samsung A51 0
     Bateria Samsung A53 0
     Bateria Samsung Galaxy S9 Plus 0
@@ -244,10 +245,11 @@
     Cable Apple Tc A Tc 2M 2
     Cable Apple Tc A Tc 60w Aguja 1
     Cable Apple Tc Ligthning 3
-    Cable Apple Tc Ligthning 2M 1
+    Cable Apple Tc Ligthning 2M 3
     Cable Apple Tc a Tc 2
     Cable Apple Usb Ligthning 1
     Cable Apple Usb Ligthning 2M 2
+    Cable Audio Split 0
     Cable Auxiliar 1 A 1 1.5m 1
     Cable Auxiliar 1 A 1 3M 0
     Cable Auxiliar 1 A 1 5M 1
@@ -313,13 +315,13 @@
     Cable Optico 3M 1
     Cable Optico 5M 1
     Cable Poder Cuadrado 3
-    Cable Poder Grabadora 0
+    Cable Poder Grabadora 4
     Cable Poder Grabadora Corto 1
     Cable Poder Micro 4
     Cable Poder Mini 2
     Cable Poder Trebol 3
     Cable Poder Usb 2
-    Cable Pulpo 3 en 1 0
+    Cable Pulpo 3 en 1 3
     Cable Rca 2 a 2 1.5M 0
     Cable Rca 3 A 3 1.5M 2
     Cable Rca 3 A 3 3M 2
@@ -327,7 +329,7 @@
     Cable Royal Tc 2M 2
     Cable Royal V8 2M 2
     Cable Samsung Tc A Tc Blanco 1
-    Cable Samsung Tc A Tc Negro 2
+    Cable Samsung Tc A Tc Negro 1
     Cable Samsung Tc a Tc Original 0
     Cable Siliconado Zonymax Tc 3
     Cable Siliconado Zonymax Tc Blanco 0
@@ -351,9 +353,9 @@
     Cable Vga 1M 3
     Cable Vga 3M 2
     Cable Vga 5M 2
-    Cable We Tc 1
+    Cable We Tc 2
     Cable We Tc Eco 0
-    Cable We V8 0
+    Cable We V8 2
     Cable Xiaomi Original Usb Tc 2
     Cable Xiaomi Tc A Tc 0
     Cable Yoyos Tc 0
@@ -428,7 +430,7 @@
     Cargador Belkin Ligthning 1
     Cargador Belkin Tc 2
     Cargador Belkin V8 2
-    Cargador Cabeza Cubo Eco 5
+    Cargador Cabeza Cubo Eco 4
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 1
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 1
     Cargador Cabeza Tc & Usb 20W C15 1
@@ -465,14 +467,19 @@
     Cargador Pluying 15w PD237 0
     Cargador Pluying 7A 3P 35W 1
     Cargador Pluying C9 Modulador 12-24V 20W 0
+    Cargador Pluying Harvic 241-D 1
     Cargador Pluying Harvic 3P 15W 1
     Cargador Pluying Hm-108 Modulador 12-24V 3.1A 1
+    Cargador Pluying Km C-19 1
+    Cargador Pluying Km C-19 15W 1
     Cargador Pluying P7Modulador 12-24V 20W 0
     Cargador Pluying Royal 2P 20W 1
     Cargador Pluying Royal 38W 0
     Cargador Pluying Royal Modulador Carg7 1
     Cargador Pluying X8 Modulador 12-24V 3.1A 0
     Cargador Pluying X8 Modulador 3.1A 0
+    Cargador Pluying Yoyos Ys-303 48W 1
+    Cargador Pluying Yoyos Ys-304 15W 1
     Cargador Realme Tc 65W 1
     Cargador Royal 45W Tc Cbl 0
     Cargador Samsung 25W Cabeza Blanco 1
@@ -497,12 +504,13 @@
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
+    Cargador We 25W Cabeza 0
     Cargador We Tc 33W 0
     Cargador We V8 33W 3
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
     Cargador Xiaomi Usb Tc 67W 1
-    Cargador Yl Tc 2
+    Cargador Yl Tc 0
     Cargador Yl V8 3
     Cargador Yl V8 Eco 1
     Cargador Yoyos 120W 1
@@ -512,6 +520,7 @@
     Celular Corn Flip K Tapa 352384180079354-362 Rojo 0
     Celular Corn Rs10 0
     Celular Nokia 105 4G 1
+    Celular Samsung J5 Prime de Segunda 351812094213132 0
     Celular Tg Iron 0
     Celular Tg T72 0
     Celular Tg T76 0
@@ -531,7 +540,7 @@
     Consola Psp 5.1 1
     Consola R-36S 1
     Consola Sup Con Control Negro 0
-    Consola Sup X7m 1
+    Consola Sup X7m 0
     Control Gamer Gamesir G7 Se Blanco 0
     Control Gamer Gatillos Con Ventilador 0
     Control Gamer Gatillos G21 1
@@ -563,7 +572,7 @@
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
     Control Tv Tv Box 2
-    Control Tv Universal 2
+    Control Tv Universal 1
     Control Universal Roku 0
     Depilador Cejas 0
     Depilador Naris y Orejas Geemy 1
@@ -576,6 +585,7 @@
     Estetica Cepillo Secador Remington Aguacate 0
     Estetica Cepillo Secador Remington Keratina 0
     Estetica Ondas de Sirena 1
+    Extension 4m 0
     Flex De Carga Apple Iphone X 0
     Flex De Power Huawei Mate 20 Lite 0
     Flex De Power Samsung A02 1
@@ -592,7 +602,7 @@
     Flex de Power Xiaomi Poco X3 1
     Flex de Power Xiaomi Redmi Note 8 0
     Flex de Power Xiaomi Redmi Note 9 0
-    Flex de Volumen Samsung A10s 0
+    Flex de Volumen Samsung A10s 1
     Fooro Antichoque Oppo A60 Caballero 0
     Forro Antichoque A35 Caballero 0
     Forro Antichoque A55 Dama 0
@@ -880,7 +890,7 @@
     Forro Antichoque Samsung A25 Dama 4
     Forro Antichoque Samsung A26 Caballero 4
     Forro Antichoque Samsung A26 Dama 5
-    Forro Antichoque Samsung A31 Caballero 4
+    Forro Antichoque Samsung A31 Caballero 3
     Forro Antichoque Samsung A31 Dama 4
     Forro Antichoque Samsung A32 4G Caballero 4
     Forro Antichoque Samsung A32 4G Dama 6
@@ -899,6 +909,7 @@
     Forro Antichoque Samsung A55 Dama 3
     Forro Antichoque Samsung J4 Plus Caballero 0
     Forro Antichoque Samsung J4 Plus Dama 1
+    Forro Antichoque Samsung J5 Prime Caballero 0
     Forro Antichoque Samsung S20 Fe Caballero 4
     Forro Antichoque Samsung S20 Fe Dama 5
     Forro Antichoque Samsung S21 Fe Dama 0
@@ -1143,7 +1154,7 @@
     Forro Armadura Spark Go 2023 Rojo 0
     Forro Armadura Tecno Camon 30S Pro Negro 1
     Forro Armadura Tecno Camon 30S Pro Rojo 1
-    Forro Armadura Tecno Camon 40 Pro 4G Negro 1
+    Forro Armadura Tecno Camon 40 Pro 4G Negro 0
     Forro Armadura Tecno Camon 40 Pro 4G Rojo 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Rojo 1
@@ -1260,8 +1271,19 @@
     Forro Lujo Ventana Iphone 12 Pro Max Negro 0
     Forro Lujo Ventana Iphone 13 Pro Max Morado 0
     Forro Lujo Ventana Iphone 13 Pro Max Negro 0
+    Forro Lujo Ventana Samsung A15 Morado 1
+    Forro Lujo Ventana Samsung A15 Negro 1
+    Forro Lujo Ventana Samsung A16 Azul 1
+    Forro Lujo Ventana Samsung A26 Azul 1
+    Forro Lujo Ventana Samsung A26 Cafe 1
+    Forro Lujo Ventana Samsung A35 Negro 1
+    Forro Lujo Ventana Samsung A55 Negro 1
     Forro Lujo Ventana Samsung S23 Ultra Morado 0
     Forro Lujo Ventana Samsung S23 Ultra Negro 0
+    Forro Lujo Ventana Samsung S24 Fe Negro 2
+    Forro Lujo Ventana Xiaomi Redmi Note 14 4G Cafe 1
+    Forro Lujo Ventana Xiaomi Redmi Note 14 Pro 4G 1
+    Forro Lujo Ventana Xiaomi Redmi Note 14 Pro Plus Azul 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Xiaomi 0
     Forro Manguera Infinix Hot 50 Pro Plus Azuloscuro 1
     Forro Manguera Infinix Hot 50 Pro Plus Negro 0
@@ -1323,7 +1345,7 @@
     Forro Space Huawei Honor Magic 6 Lite 2
     Forro Space Huawei Honor X5B 2
     Forro Space Huawei Honor X6 / X6S 1
-    Forro Space Huawei Honor X6A / Play 9A 3
+    Forro Space Huawei Honor X6A / Play 9A 1
     Forro Space Huawei Honor X7 2
     Forro Space Huawei Honor X7A 0
     Forro Space Huawei Honor X7C / 200 Smart 3
@@ -1624,7 +1646,7 @@
     Lampara Mt-811 Escritorio 1
     Lapiz Optico Recargable 1
     Lapiz Optico Recargable Combo 1
-    Llavero Figura 9
+    Llavero Figura 8
     Llavero Goku 0
     Llaveros 0
     Llaveros Agua 5
@@ -1645,8 +1667,7 @@
     Logica De Carga Samsung A10S M16 2
     Logica De Carga Samsung A11 2
     Logica De Carga Samsung A14 4G 1
-    Logica De Carga Samsung A15 1
-    Logica De Carga Samsung A15 5G 0
+    Logica De Carga Samsung A15 5G 1
     Logica De Carga Samsung A20 2
     Logica De Carga Samsung A20S M12 2
     Logica De Carga Samsung A20S M14 2
@@ -1785,7 +1806,7 @@
     Memoria Musica Colombiana Musica Colombiana 1
     Memoria Musica Cristiana 1
     Memoria Musica Cristiana Camino Hacia el Señor 1
-    Memoria Musica Cristiana Cristiana 2
+    Memoria Musica Cristiana Cristiana 1
     Memoria Musica Cristiana Musica Cristiana 1
     Memoria Musica Cristiana Villancicos 1
     Memoria Musica Crosover Crosover Calidoso 0
@@ -1886,10 +1907,11 @@
     Pacha Huawei Honor X6 / X6S 2
     Pacha Huawei Honor X6 / X6s 0
     Pacha Huawei Honor X6A 0
+    Pacha Huawei Honor X6A / X5B 3
     Pacha Huawei Honor X6B 0
     Pacha Huawei Honor X6S 1
     Pacha Huawei Honor X7A 0
-    Pacha Huawei Honor X8A / Honor 90 Lite 0
+    Pacha Huawei Honor X8A / Honor 90 Lite 2
     Pacha Huawei Nova 9Se 0
     Pacha Huawei Nova Y70 1
     Pacha Huawei P10 Lite 0
@@ -1934,8 +1956,9 @@
     Pacha Nokia 5.3 2
     Pacha Nokia G21 0
     Pacha Oppo A16 2
-    Pacha Oppo A17 / A38 / A57 / A77 3
-    Pacha Oppo A54 2
+    Pacha Oppo A17 / A38 / A57 / A77 2
+    Pacha Oppo A20 / A40 / A60 1
+    Pacha Oppo A54 1
     Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / OnePlus Nord Ce 3 Lite 5G 3
     Pacha Oppo A79 1
     Pacha Oppo Realme C11 2021 1
@@ -1955,7 +1978,7 @@
     Pacha Samsung A05S 1
     Pacha Samsung A06 1
     Pacha Samsung A10 0
-    Pacha Samsung A10S 0
+    Pacha Samsung A10S 1
     Pacha Samsung A10s C/m 1
     Pacha Samsung A11 2
     Pacha Samsung A11 C/m 1
@@ -1963,7 +1986,7 @@
     Pacha Samsung A12 C/m 0
     Pacha Samsung A13 / M13 / M23 1
     Pacha Samsung A14 5G 1
-    Pacha Samsung A15 0
+    Pacha Samsung A15 2
     Pacha Samsung A15 Amoled 0
     Pacha Samsung A15 C/m 0
     Pacha Samsung A20s 1
@@ -1976,6 +1999,7 @@
     Pacha Samsung A23 / M23 0
     Pacha Samsung A24 Amoled 0
     Pacha Samsung A24 Incell C/m 0
+    Pacha Samsung A25 Amoled 0
     Pacha Samsung A25 C/m Incell 0
     Pacha Samsung A30 / A50 1
     Pacha Samsung A30 / A50 C/M 1
@@ -1989,6 +2013,7 @@
     Pacha Samsung A51 0
     Pacha Samsung A51 C/m 1
     Pacha Samsung A51 Oled 0
+    Pacha Samsung A55 Incell 1
     Pacha Samsung J5 Prime Blanco 0
     Pacha Samsung J5 Prime Negro 1
     Pacha Tcl 30Se 0
@@ -2003,15 +2028,13 @@
     Pacha Tecno Camon 30S Pro 0
     Pacha Tecno Pop 5 Lite / Go 2022 0
     Pacha Tecno Pop 7 / Hot 30 Play 0
-    Pacha Tecno Saprk Go 2023 / Pop 5 Lite 0
     Pacha Tecno Spark 20 0
     Pacha Tecno Spark 20 Pro Plus 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
-    Pacha Tecno Spark Go 2023 1
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
-    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
+    Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2
     Pacha Vivo Y11s / Y20s 1
     Pacha Vivo Y17s / Y22s 2
     Pacha Vivo Y21 / Y21S 2
@@ -2024,7 +2047,7 @@
     Pacha Xiaomi Redmi 10 1
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 0
-    Pacha Xiaomi Redmi 12C 2
+    Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 1
     Pacha Xiaomi Redmi 14C 1
@@ -2047,7 +2070,7 @@
     Pacha Xiaomi Redmi Note 7 0
     Pacha Xiaomi Redmi Note 8 3
     Pacha Xiaomi Redmi Note 8 Pro 0
-    Pacha Xiaomi Redmi Note 9 0
+    Pacha Xiaomi Redmi Note 9 2
     Pacha Xiaomi Redmi Note 9S / Note 9 Pro 2
     Pacha Xiaomi Redmi Note 9s / 9Pro 1
     Pacha Xioami Redmi A1 / A2 0
@@ -2102,7 +2125,7 @@
     Pilas Carbon Gp 9V 6
     Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aa x2 9
-    Pilas Carbon Maxday Aaa X2 1
+    Pilas Carbon Maxday Aaa X2 0
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -2166,7 +2189,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 38
+    Recargas 34
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2174,7 +2197,7 @@
     Reproductor Dvd One Tech Dvd-008 Hdmi 1
     Reproductor Dvd One Tech Dvd-227 0
     Reproductor Fly Tv Box 64-4 1
-    Reproductor Onn 4K 1
+    Reproductor Onn 4K 0
     Reproductor Onn Eco 1
     Reproductor Onn Hd 0
     Reproductor Onn Hd Azul 1
@@ -2191,8 +2214,8 @@
     Rollo Cinta Led Eco 0
     Rollo Cinta Led Rgb 10M 1
     Rollo Cinta Led Rgb Con Bluetooth 2
-    Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 2
-    Rollo Cinta Led Rgb Sencilla 1
+    Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
+    Rollo Cinta Led Rgb Sencilla 0
     Rollo Cinta Led Rgb Usb 0
     Rollo Cinta Led x2 Bluetooth 1
     Rollo Papel Mini impresora 0
@@ -2265,6 +2288,7 @@
     Servicio Tecnico Samsung Configurar Audio A04s 0
     Servicio Tecnico Samsung Farmat y cuenta google 0
     Servicio Tecnico Samsung Formatear A06 0
+    Servicio Tecnico Samsung Formatear A13 0
     Servicio Tecnico Samsung Formatear A21s 0
     Servicio Tecnico Samsung Formateo A04 0
     Servicio Tecnico Samsung Frp A20 Unlocktool2 0
@@ -2274,6 +2298,7 @@
     Servicio Tecnico Samsung Mantenimiento Logic a A25 0
     Servicio Tecnico Samsung Mantenimiento Logica A12 0
     Servicio Tecnico Samsung Mantenimiento Logica A21S 0
+    Servicio Tecnico Samsung Mantenimiento Logica A55 0
     Servicio Tecnico Samsung Mantenimiento Logica de carga A11 0
     Servicio Tecnico Samsung Mantenimiento Logica de carga A13 0
     Servicio Tecnico Samsung Pegar Pantalla A03 0
@@ -2289,6 +2314,7 @@
     Servicio Tecnico Samsung Sincronizar Cuenta Gmail M32 0
     Servicio Tecnico Samsung Talkback A10s 0
     Servicio Tecnico Soldar Cables Parlante 0
+    Servicio Tecnico Tecno Borrar Historial y Cookies Tecno 0
     Servicio Tecnico Tecno Formatear Spark 20C 1
     Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
     Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
@@ -3141,7 +3167,7 @@
     Silicone Case Samsung A04S / A13 5G Rosa 1
     Silicone Case Samsung A04S / A13 5G Verde 1
     Silicone Case Samsung A04S / A13 5G Verdemilitar 1
-    Silicone Case Samsung A05 Fucsia 0
+    Silicone Case Samsung A05 Fucsia 1
     Silicone Case Samsung A05 Negro 0
     Silicone Case Samsung A05S Azulclaro 0
     Silicone Case Samsung A05S Negro 0
@@ -3217,7 +3243,7 @@
     Silicone Case Samsung A21S Fucsia 1
     Silicone Case Samsung A21S Lila 1
     Silicone Case Samsung A21S Morado 1
-    Silicone Case Samsung A21S Negro 0
+    Silicone Case Samsung A21S Negro 1
     Silicone Case Samsung A21S Rojo 1
     Silicone Case Samsung A21S Rosa 1
     Silicone Case Samsung A21S Salmon 1
@@ -4037,9 +4063,9 @@
     Silicone Case Zte Blade A54 Negro 0
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 9
+    Simcard Claro 6
     Simcard Movistar 4
-    Simcard Tigo 16
+    Simcard Tigo 15
     Simcard Virgin 6
     Simcard Wom 1
     Sin Registro 0
@@ -4278,7 +4304,7 @@
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 2
-    Vidrio 5D Xiaomi Redmi Note 8 3
+    Vidrio 5D Xiaomi Redmi Note 8 2
     Vidrio 5D Xiaomi Redmi Note 9 0
     Vidrio 5D Xiaomi Redmi Note 9S / 9 Pro 0
     Vidrio 5D Xiaomi Redmi Note 9s / 9 Pro 2
@@ -4372,7 +4398,7 @@
     Vidrio Blindado Samsung A20 / A30 / A50 0
     Vidrio Blindado Samsung A21s 3
     Vidrio Blindado Samsung A22 4G / A31 / A32 4G 0
-    Vidrio Blindado Samsung A24 / A25 / A34 5
+    Vidrio Blindado Samsung A24 / A25 / A34 4
     Vidrio Blindado Samsung A30S 3
     Vidrio Blindado Samsung A35 / A36 / A55 3
     Vidrio Blindado Tecno Spark 20 Pro 6
@@ -4411,7 +4437,7 @@
     Vidrio Ceramico Apple Iphone 11 / Xr 4
     Vidrio Ceramico Apple Iphone 12 Mini 4
     Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 0
-    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 13
+    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 12
     Vidrio Ceramico Apple Iphone 14 Pro Max 0
     Vidrio Ceramico Apple Iphone 6 Plus 4
     Vidrio Ceramico Huawei Y9 Prime 14
@@ -4459,6 +4485,7 @@
     Vidrio Perlas Apple Iphone 15 / 15 Pro / Iphone 16 2
     Vidrio Smart Watch 45 0
     Vidrio Templado Apple Iphone 16E 0
+    Vidrio Templado Samsung S20 Fe / S21 Fe 4
     Vidrio Tortuga Apple Iphone 11 2
     Vidrio Tortuga Apple Iphone 11 / Xr 0
     Vidrio Tortuga Apple Iphone 11 Pro Max 5
@@ -4507,7 +4534,7 @@
     Vidrio Tortuga Tecno Spark Go 2023 / Spark 10C / Smart 7 2
     Vidrio Tortuga Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 4
     Vidrio Tortuga Xiaomi Redmi 10 3
-    Vidrio Tortuga Xiaomi Redmi 10C / 12C 4
+    Vidrio Tortuga Xiaomi Redmi 10C / 12C 3
     Vidrio Tortuga Xiaomi Redmi 12 4
     Vidrio Tortuga Xiaomi Redmi 13C 0
     Vidrio Tortuga Xiaomi Redmi 14C / A5 / A3 3
