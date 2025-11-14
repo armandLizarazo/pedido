@@ -61,7 +61,7 @@
     Adaptador Tarjeta Audio 7.1 1
     Adaptador Tc Hub 8 en 1 0
     Adaptador Tc Sata 3.0 0
-    Adaptador Tc a 3.5 3
+    Adaptador Tc a 3.5 0
     Adaptador Tc2Hdmi Cbl 1
     Adaptador Tc2Vga 0
     Adaptador Union Hdmi 0
@@ -237,7 +237,8 @@
     Boton Huella Xiaomi Poco X3 0
     Boton Power Samsung A22 4G 0
     Boton de Power- Huella Samsung A12 0
-    Botones Xiaomi Redmi Note 8 1
+    Botones Samsung A21S 0
+    Botones Xiaomi Redmi Note 8 0
     Cable 1100 5
     Cable 5V 9V 12V Plug Ancho 2
     Cable 6101 2
@@ -599,6 +600,7 @@
     Flex de Carga Apple IPhone 7 Plus 1
     Flex de Power Huawei Honor X6 / X6S 0
     Flex de Power Samsung A10s 0
+    Flex de Power Samsung A21S 0
     Flex de Power Xiaomi Poco X3 0
     Flex de Power Xiaomi Redmi Note 8 1
     Flex de Power Xiaomi Redmi Note 9 1
@@ -777,6 +779,7 @@
     Forro Antichoque Motorola Moto G8 Plus Caballero 0
     Forro Antichoque Motorola Moto G8 Power Dama 0
     Forro Antichoque Motorola Moto G8 Power Lite Caballero 0
+    Forro Antichoque Motorola Moto G84 0
     Forro Antichoque Motorola Moto G9 Power Caballero 0
     Forro Antichoque Motorola Moto One Fusion Caballero 0
     Forro Antichoque Motorola Moto One Fusion Dama 0
@@ -1620,6 +1623,8 @@
     Hydrogel Oppo Realme C75 0
     Hydrogel Oppo Reno 11 5G 0
     Hydrogel Oppo Reno 11F 0
+    Hydrogel Realme 15T 0
+    Hydrogel Samsung A17 0
     Hydrogel Samsung A36 0
     Hydrogel Samsung S24 Fe 0
     Hydrogel Tcl 50 Nxtpaper 0
@@ -1960,6 +1965,7 @@
     Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / OnePlus Nord Ce 3 Lite 5G 0
     Pacha Oppo A79 0
     Pacha Oppo Realme C11 2021 0
+    Pacha Oppo Realme C33 0
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 0
     Pacha Oppo Reno 11 5G / Reno 11F 0
@@ -1973,7 +1979,7 @@
     Pacha Samsung A04s 0
     Pacha Samsung A05 1
     Pacha Samsung A05 Original Usada 0
-    Pacha Samsung A05S 1
+    Pacha Samsung A05S 0
     Pacha Samsung A06 1
     Pacha Samsung A10 0
     Pacha Samsung A10S 0
@@ -2123,7 +2129,7 @@
     Pilas Carbon Gp 9V 0
     Pilas Carbon Maxday Aa 30
     Pilas Carbon Maxday Aa x2 0
-    Pilas Carbon Maxday Aaa X2 20
+    Pilas Carbon Maxday Aaa X2 18
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -2238,6 +2244,7 @@
     Servicio Tecnico Generico Limpiar entrada de Audifonos 0
     Servicio Tecnico Generico Pin de Carga Audifonos 0
     Servicio Tecnico Generico Receptor Control Tv Stick 0
+    Servicio Tecnico Generico Revision Flecha 0
     Servicio Tecnico Generico Soldar Cables 0
     Servicio Tecnico Generico Soldar Cables Proyecto 0
     Servicio Tecnico Generico Soldar Calculadora 0
@@ -3709,6 +3716,8 @@
     Silicone Case Vivo Y27 Rojo 0
     Silicone Case Vivo Y27 Rosa 0
     Silicone Case Vivo Y27 Verdemilitar 0
+    Silicone Case Vivo Y30 / Y50 Fucsia 0
+    Silicone Case Vivo Y30 / Y50 Lila 0
     Silicone Case Vivo Y30 / Y50 Rojo 0
     Silicone Case Vivo Y31 / Y51 / Y53S Amarillo 0
     Silicone Case Vivo Y31 / Y51 / Y53S Lila 0
@@ -4258,7 +4267,7 @@
     Vidrio 5D Samsung A05S 9
     Vidrio 5D Samsung A10 / A10s 0
     Vidrio 5D Samsung A11 0
-    Vidrio 5D Samsung A12 5
+    Vidrio 5D Samsung A12 0
     Vidrio 5D Samsung A14 / A22 5G 0
     Vidrio 5D Samsung A15 0
     Vidrio 5D Samsung A16 / A26 / A56 5
@@ -4443,6 +4452,7 @@
     Vidrio Ceramico Motorola Moto G20 / G30 0
     Vidrio Ceramico Motorola Moto G22 0
     Vidrio Ceramico Motorola Moto G60 0
+    Vidrio Ceramico Redmi Note 8 0
     Vidrio Ceramico Samsung A12 0
     Vidrio Ceramico Samsung A35 / A55 0
     Vidrio Ceramico Samsung A71 / Poco X3 0
