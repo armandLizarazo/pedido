@@ -1,4 +1,4 @@
-    Adaptador Dongle Wifi 5G + Bluetooth 4.2 1
+    Adaptador Dongle Wifi 5G + Bluetooth 4.2 1 ok
     Adaptador Europeo Redondo 5
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Rca2Plug3.5 5
@@ -33,7 +33,8 @@
     Control Gamer Gatillos W11+ 3
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Cepillo Secador Remington Keratina 1
-    Extension 4m 2
+    Extension 4m 2 ok
+    Extensión 6M 1 ok
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
     Humidificador Madera 3
@@ -54,10 +55,10 @@
     Reproductor Alexa Reloj 1
     Reproductor Dvd Foxtech Fx-255 1
     Reproductor Dvd One Tech Dvd-008 Hdmi 1
-    Reproductor Onn 4K 2
+    Reproductor Onn 4K 2 ok
     Rollo Cinta Led Eco 5
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
-    Rollo Cinta Led Rgb Sencilla 4
+    Rollo Cinta Led Rgb Sencilla 4 ok
     Secador Remington 2003 1
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 1
     Smart Watch Combo Jl-9 Ultra 2
