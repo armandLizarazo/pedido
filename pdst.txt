@@ -1,6 +1,9 @@
-    Bateria Motorola Moto G22 1
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
-    Pacha Oppo A17 / A38 / A57 / A77 1
-    Pacha Oppo A20 / A40 / A60 1
-    Pacha Oppo A54 1
-    Pacha Xiaomi Redmi 12C 1
+    Bateria Motorola Moto G22 1 ok
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    Pacha Oppo A17 / A38 / A57 / A77 1 ok
+    Pacha Oppo A20 / A40 / A60 1 ok
+    Pacha Oppo A54 1 ok
+    Pacha Xiaomi Redmi 12C 1 ok
+    Tarro Dosificador Aguja Aguja 1 ok
+    Auricular Samsung A25 Original 1 ok
+    Logica de Carga Xiaomi Redmi Note 11 1 ok
