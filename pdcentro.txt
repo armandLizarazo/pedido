@@ -40,10 +40,13 @@
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Xiaomi Redmi 15 Caballero 5
     Forro Antichoque Xiaomi Redmi 15 Dama 5
-    Forro Antichoque Xiaomi Redmi 15C Caballero 5
+    Forro Antichoque Xiaomi Redmi 15C Caballero 7 ok
     Forro Antichoque Xiaomi Redmi 15C Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2
     Forro Antichoque Xiaomi Redmi Note 8 Caballero 2
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 3 ok
+    Forro Antichoque Diamante Huawei Honor Magic 7 Lite 2 ok
+    Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 13 5G Negro 1
@@ -66,7 +69,8 @@
     Forro Lujo Apple Iphone Xr Lila 1
     Forro Lujo Humo Samsung A16 Negro 2
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
-    Forro Lujo Samsung A26 Ab 2
+    Forro Lujo Ventana Samsung A26 2 ok
+    Forro Lujo Samsung A17 2 ok
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
@@ -86,15 +90,15 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 11F 2
     Forro Space Samsung A04E 2
-    Forro Space Samsung A05 2
-    Forro Space Samsung A15 2
+    Forro Space Samsung A05 2 ok
+    Forro Space Samsung A15 2 ok
     Forro Space Samsung A71 2
     Forro Space Samsung S22 1
     Forro Space Samsung S24 Fe 2
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Camon 40 Pro 1
     Forro Space Vivo Y04 2
-    Forro Space Xiaomi Redmi 14C 2
+    Forro Space Xiaomi Redmi 14C 2 ok
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
@@ -118,16 +122,16 @@
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 Pro Negro 1
-    Silicone Case Apple Iphone 14 Negro 1
+    Silicone Case Apple Iphone 14 Negro 1 ok
     Silicone Case Apple Iphone 15 Amarillo 1
-    Silicone Case Apple Iphone 15 Pro Max Negro 1
+    Silicone Case Apple Iphone 15 Pro Max Negro 1 ok
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1 ok
     Silicone Case Huawei Honor X6 / X6s Rojo 1
-    Silicone Case Huawei Honor X7C / 200 Smart Negro 2
+    Silicone Case Huawei Honor X7C / 200 Smart Negro 1 ok
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
@@ -140,11 +144,17 @@
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
+    Silicone Case Infinix Hot 60 Pro Rojo 1 ok
+    Silicone Case Infinix Hot 60 Pro Fucsia 1 ok
+    Silicone Case Infinix Hot 60 Pro Verdemilitar 1 ok
+    Silicone Case Infinix Hot 60 Pro Azulrey 1 ok
+    Silicone Case Infinix Hot 60 Pro Amarillo 1 ok
+    Forro Antichoque Infinix Hot 60 Pro Caballero 5 ok
     Silicone Case Infinix Note 40 Pro Lila 1
     Silicone Case Infinix Note 50s Lila 2
     Silicone Case Infinix Note 50s Negro 2
     Silicone Case Lg K61 Amarillo 1
-    Silicone Case Motorola Moto E20 Negro 1
+    Silicone Case Motorola Moto E20 Negro 1 ok
     Silicone Case Motorola Moto Edge 30 Negro 2
     Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
@@ -212,6 +222,7 @@
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
     Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Blanco 1 ok
     Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 30C Rojo 1
