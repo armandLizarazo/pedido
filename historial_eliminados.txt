@@ -9342,3 +9342,70 @@ Fecha de proceso: 2025-11-10 17:06:26
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-14 17:18:41
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   43 | Forro Antichoque Xiaomi Redmi 15C Caballero 7 ok
+   47 | Forro Antichoque Huawei Honor Magic 7 Lite Dama 3 ok
+   48 | Forro Antichoque Diamante Huawei Honor Magic 7 Lite 2 ok
+   72 | Forro Lujo Ventana Samsung A26 2 ok
+   73 | Forro Lujo Samsung A17 2 ok
+   93 | Forro Space Samsung A05 2 ok
+   94 | Forro Space Samsung A15 2 ok
+  101 | Forro Space Xiaomi Redmi 14C 2 ok
+  125 | Silicone Case Apple Iphone 14 Negro 1 ok
+  127 | Silicone Case Apple Iphone 15 Pro Max Negro 1 ok
+  132 | Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1 ok
+  134 | Silicone Case Huawei Honor X7C / 200 Smart Negro 1 ok
+  147 | Silicone Case Infinix Hot 60 Pro Rojo 1 ok
+  148 | Silicone Case Infinix Hot 60 Pro Fucsia 1 ok
+  149 | Silicone Case Infinix Hot 60 Pro Verdemilitar 1 ok
+  150 | Silicone Case Infinix Hot 60 Pro Azulrey 1 ok
+  151 | Silicone Case Infinix Hot 60 Pro Amarillo 1 ok
+  152 | Forro Antichoque Infinix Hot 60 Pro Caballero 5 ok
+  157 | Silicone Case Motorola Moto E20 Negro 1 ok
+  225 | Silicone Case Tecno Camon 40 Pro 4G / 5G Blanco 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-14 17:18:41
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Dongle Wifi 5G + Bluetooth 4.2 1 ok
+   36 | Extension 4m 2 ok
+   37 | Extensión 6M 1 ok
+   58 | Reproductor Onn 4K 2 ok
+   61 | Rollo Cinta Led Rgb Sencilla 4 ok
+
+==================================================
+Fecha de proceso: 2025-11-14 17:18:41
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 9
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Motorola Moto G22 1 ok
+    2 | Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    3 | Pacha Oppo A17 / A38 / A57 / A77 1 ok
+    4 | Pacha Oppo A20 / A40 / A60 1 ok
+    5 | Pacha Oppo A54 1 ok
+    6 | Pacha Xiaomi Redmi 12C 1 ok
+    7 | Tarro Dosificador Aguja Aguja 1 ok
+    8 | Auricular Samsung A25 Original 1 ok
+    9 | Logica de Carga Xiaomi Redmi Note 11 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-14 17:18:41
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

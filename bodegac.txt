@@ -155,6 +155,7 @@
     Audifonos Bluetooth Yoyos Inpods 12 Rosa 0
     Audifonos Bluettooh Batri Bt-60 0
     Auricular Apple Iphone Xs Max 0
+    Auricular Samsung A25 Original 0
     Auricular Xiaomi Redmi 10 0
     Balaca Appla P9 Azul 0
     Balaca Apple Airpods Max Negro 0
@@ -267,10 +268,10 @@
     Cable Auxiliar 3 A 1 3M 4
     Cable Auxiliar Harvic 1 a 1 en L Cja 0
     Cable Belkin Ligthning 0
-    Cable Belkin Tc 5
+    Cable Belkin Tc 3
     Cable Belkin Tc 2M 2
     Cable Belkin V8 10
-    Cable Caterpillar Tc 2
+    Cable Caterpillar Tc 0
     Cable Caterpillar Tc A Tc 0
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -328,8 +329,8 @@
     Cable Rca 3 A 3 3M 1
     Cable Rj11 0
     Cable Royal Tc 2M 3
-    Cable Royal V8 2M 1
-    Cable Samsung Tc A Tc Blanco 1
+    Cable Royal V8 2M 0
+    Cable Samsung Tc A Tc Blanco 0
     Cable Samsung Tc A Tc Negro 1
     Cable Samsung Tc a Tc Original 0
     Cable Siliconado Zonymax Tc 0
@@ -411,7 +412,6 @@
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
-    Carga Y Juega Xbox One 1
     Cargador 12V 2A Doble Punta 3
     Cargador 15V 0
     Cargador 20w C15 1
@@ -447,7 +447,7 @@
     Cargador Inversor 12V a 110V 0
     Cargador MagSafe 0
     Cargador Maxday Carga Pilas Universal 0
-    Cargador Microsoft Carga Y Juega Xbox 360 2
+    Cargador Microsoft Carga Y Juega Xbox 360 0
     Cargador Motorola 50W Solo Cabeza 1
     Cargador Motorola 67W Solo Cabeza 0
     Cargador Motorola Tc A Tc 30W 0
@@ -506,7 +506,7 @@
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Tc 0
     Cargador We 25W Cabeza 0
-    Cargador We Tc 33W 5
+    Cargador We Tc 33W 3
     Cargador We V8 33W 4
     Cargador Xiaomi 120W 2
     Cargador Xiaomi Tc A Tc 67W 0
@@ -573,7 +573,7 @@
     Control Keyboard Tv 0
     Control Tv Smart Tv 0
     Control Tv Tv Box 0
-    Control Tv Universal 3
+    Control Tv Universal 0
     Control Universal Roku 2
     Depilador Cejas 0
     Depilador Naris y Orejas Geemy 0
@@ -587,6 +587,7 @@
     Estetica Cepillo Secador Remington Keratina 0
     Estetica Ondas de Sirena 0
     Extension 4m 0
+    Extensión 6M 0
     Flex De Carga Apple Iphone X 0
     Flex De Power Huawei Mate 20 Lite 0
     Flex De Power Samsung A02 0
@@ -597,6 +598,7 @@
     Flex Principal Xiaomi Redmi Note 10 / Note 10S 0
     Flex Principal Xiaomi Redmi Note 10 / Note 10s 0
     Flex Principal Xiaomi Redmi Note 9 0
+    Flex de Carga Apple IPhone 7 0
     Flex de Carga Apple IPhone 7 Plus 1
     Flex de Power Huawei Honor X6 / X6S 0
     Flex de Power Samsung A10s 0
@@ -651,6 +653,7 @@
     Forro Antichoque Cadena Vivo Y20 / Y20S / Y11S 0
     Forro Antichoque Cadena Vivo Y31 / Y51 / Y53S 0
     Forro Antichoque Cadena Xiaomi Note 10 / Note 10S 0
+    Forro Antichoque Cadena Xiaomi Redmi 10 0
     Forro Antichoque Cadena Xiaomi Redmi 12 0
     Forro Antichoque Cadena Xiaomi Redmi 13 0
     Forro Antichoque Cadena Xiaomi Redmi 13c 0
@@ -661,6 +664,7 @@
     Forro Antichoque Cadena Xiaomi Redmi Note 14 4G 0
     Forro Antichoque Cadena Xiaomi Redmi Note 9 0
     Forro Antichoque Cadena infinix Note 50S 4G 0
+    Forro Antichoque Diamante Huawei Honor Magic 7 Lite 0
     Forro Antichoque Hawei Honor X9 Caballero 0
     Forro Antichoque Hawei Honor X9 Dama 0
     Forro Antichoque Huawei Honor 400 Caballero 0
@@ -672,6 +676,7 @@
     Forro Antichoque Huawei Honor 90 Lite Caballero 0
     Forro Antichoque Huawei Honor Magic 6 Lite Caballero 0
     Forro Antichoque Huawei Honor Magic 6 Lite Dama 0
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 0
     Forro Antichoque Huawei Honor X5B Caballero 0
     Forro Antichoque Huawei Honor X5B Dama 0
     Forro Antichoque Huawei Honor X6 / X6s Caballero 0
@@ -713,6 +718,7 @@
     Forro Antichoque Infinix Hot 50 Pro Plus Dama 0
     Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 0
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 0
+    Forro Antichoque Infinix Hot 60 Pro Caballero 0
     Forro Antichoque Infinix Note 40 4G Caballero 3
     Forro Antichoque Infinix Note 40 4G Dama 0
     Forro Antichoque Infinix Note 40 Caballero 3
@@ -805,6 +811,8 @@
     Forro Antichoque Oppo A80 Dama Llevero 0
     Forro Antichoque Oppo A80 Dama Pin 0
     Forro Antichoque Oppo Realme C11 2021 Dama 0
+    Forro Antichoque Oppo Realme C33 Caballero 0
+    Forro Antichoque Oppo Realme C33 Dama 0
     Forro Antichoque Oppo Realme C55 Caballero 0
     Forro Antichoque Oppo Realme C55 Dama 0
     Forro Antichoque Oppo Realme C67 Caballero 0
@@ -1160,8 +1168,8 @@
     Forro Armadura Tecno Camon 40 Pro 4G Rojo 0
     Forro Armadura Tecno Spark 20 Pro Plus Negro 0
     Forro Armadura Tecno Spark 20 Pro Plus Rojo 0
-    Forro Armadura Tecno Spark 30 Pro Negro 1
-    Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark 30 Pro Negro 0
+    Forro Armadura Tecno Spark 30 Pro Rojo 0
     Forro Armadura Tecno Spark 30C Rojo 0
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 0
     Forro Armadura Tecno Spark Go 2023 / Pop7 Rojo 0
@@ -1249,6 +1257,7 @@
     Forro Lujo Humo Samsung A25 Negro 0
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 0
     Forro Lujo Samsung A06 Negro 0
+    Forro Lujo Samsung A17 0
     Forro Lujo Samsung A26 Ab 0
     Forro Lujo Samsung A35 Negro 0
     Forro Lujo Ventana Apple Iphone 11 Azul 0
@@ -1276,6 +1285,7 @@
     Forro Lujo Ventana Samsung A15 Morado 0
     Forro Lujo Ventana Samsung A15 Negro 0
     Forro Lujo Ventana Samsung A16 Azul 0
+    Forro Lujo Ventana Samsung A26 0
     Forro Lujo Ventana Samsung A26 Azul 0
     Forro Lujo Ventana Samsung A26 Cafe 0
     Forro Lujo Ventana Samsung A35 Negro 0
@@ -1415,6 +1425,7 @@
     Forro Space Oppo A79 0
     Forro Space Oppo A80 1
     Forro Space Oppo Realme 13 Pro 0
+    Forro Space Oppo Realme 15T 0
     Forro Space Oppo Realme C53 / Note 50 0
     Forro Space Oppo Realme C55 0
     Forro Space Oppo Realme C67 2
@@ -1441,7 +1452,7 @@
     Forro Space Samsung A14 0
     Forro Space Samsung A14 Negro 0
     Forro Space Samsung A14 Vinotinto 0
-    Forro Space Samsung A15 0
+    Forro Space Samsung A15 1
     Forro Space Samsung A16 1
     Forro Space Samsung A20 / A30 0
     Forro Space Samsung A20S 1
@@ -1531,7 +1542,7 @@
     Forro Space Xiaomi Redmi 12C 0
     Forro Space Xiaomi Redmi 13 1
     Forro Space Xiaomi Redmi 13C 0
-    Forro Space Xiaomi Redmi 14C 0
+    Forro Space Xiaomi Redmi 14C 1
     Forro Space Xiaomi Redmi 15 0
     Forro Space Xiaomi Redmi 15C 0
     Forro Space Xiaomi Redmi 9 1
@@ -1541,7 +1552,7 @@
     Forro Space Xiaomi Redmi 9T 0
     Forro Space Xiaomi Redmi A1 / A2 1
     Forro Space Xiaomi Redmi A3 1
-    Forro Space Xiaomi Redmi A5 1
+    Forro Space Xiaomi Redmi A5 0
     Forro Space Xiaomi Redmi Note 10 5G 2
     Forro Space Xiaomi Redmi Note 10 Pro 0
     Forro Space Xiaomi Redmi Note 11 0
@@ -1580,7 +1591,7 @@
     Guantes Gamer 7
     Herramienta Prensa Economica 1
     Holder Car Regilla 0
-    Holder Chupa Parabrisas 1
+    Holder Chupa Parabrisas 0
     Hub Lan 3 Usb 0
     Huella Xiaomi Redmi 9T 0
     Humidificador Eco 0
@@ -1961,11 +1972,11 @@
     Pacha Oppo A16 0
     Pacha Oppo A17 / A38 / A57 / A77 0
     Pacha Oppo A20 / A40 / A60 0
-    Pacha Oppo A54 0
+    Pacha Oppo A54 1
     Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / OnePlus Nord Ce 3 Lite 5G 0
     Pacha Oppo A79 0
     Pacha Oppo Realme C11 2021 0
-    Pacha Oppo Realme C33 0
+    Pacha Oppo Realme C30 / C33 0
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 0
     Pacha Oppo Reno 11 5G / Reno 11F 0
@@ -2063,7 +2074,7 @@
     Pacha Xiaomi Redmi A1 / A2 0
     Pacha Xiaomi Redmi A3 0
     Pacha Xiaomi Redmi Note 10 / Note 10S 0
-    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 2
+    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 0
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
     Pacha Xiaomi Redmi Note 11 / Note 12S 1
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
@@ -2129,7 +2140,7 @@
     Pilas Carbon Gp 9V 0
     Pilas Carbon Maxday Aa 30
     Pilas Carbon Maxday Aa x2 0
-    Pilas Carbon Maxday Aaa X2 18
+    Pilas Carbon Maxday Aaa X2 0
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -2201,7 +2212,7 @@
     Reproductor Dvd One Tech Dvd-008 Hdmi 0
     Reproductor Dvd One Tech Dvd-227 0
     Reproductor Fly Tv Box 64-4 0
-    Reproductor Onn 4K 0
+    Reproductor Onn 4K 1
     Reproductor Onn Eco 2
     Reproductor Onn Hd 0
     Reproductor Onn Hd Azul 0
@@ -2696,6 +2707,9 @@
     Silicone Case Infinix Hot 50I / Smart 9 Rosa 0
     Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 0
     Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 0
+    Silicone Case Infinix Hot 60 Pro Amarillo 0
+    Silicone Case Infinix Hot 60 Pro Azulrey 0
+    Silicone Case Infinix Hot 60 Pro Fucsia 0
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 0
     Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 1
     Silicone Case Infinix Hot 60 Pro Plus Lila 0
@@ -2705,6 +2719,8 @@
     Silicone Case Infinix Hot 60 Pro Plus Verde 0
     Silicone Case Infinix Hot 60 Pro Plus Verdemilitar 0
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 0
+    Silicone Case Infinix Hot 60 Pro Rojo 0
+    Silicone Case Infinix Hot 60 Pro Verdemilitar 0
     Silicone Case Infinix Note 12 Fucsia 0
     Silicone Case Infinix Note 30 Azulrey 0
     Silicone Case Infinix Note 30 Azulturquesa 0
@@ -3512,6 +3528,7 @@
     Silicone Case Tecno Camon 40 Premier Rosa 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Amarillo 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Azulrey 0
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Blanco 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Fucsia 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Lila 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 0
@@ -4160,6 +4177,7 @@
     Tapa Xiaomi Redmi Note 9 Verde 1
     Tapones Puerto de Carga 0
     Tarjeta Infinix 1
+    Tarro Dosificador Aguja Aguja 0
     Teclado Combo Gamer F92 0
     Teclado Dn-236 0
     Teclado Inalambrico Yelandar W3500 0

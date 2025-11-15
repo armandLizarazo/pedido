@@ -6,7 +6,7 @@
     Adaptador Av2Vga 2
     Adaptador Bluetooth Car W Bt-X6 0
     Adaptador Bluetooth Dongle Audio 0
-    Adaptador Dongle Wifi 5G + Bluetooth 4.2 0
+    Adaptador Dongle Wifi 5G + Bluetooth 4.2 1
     Adaptador Dpp2Hdmi Cbl 1
     Adaptador Dpp2Vga 0
     Adaptador Dpp2Vga Cbl 2
@@ -155,6 +155,7 @@
     Audifonos Bluetooth Yoyos Inpods 12 Rosa 0
     Audifonos Bluettooh Batri Bt-60 0
     Auricular Apple Iphone Xs Max 0
+    Auricular Samsung A25 Original 1
     Auricular Xiaomi Redmi 10 1
     Balaca Appla P9 Azul 1
     Balaca Apple Airpods Max Negro 0
@@ -202,7 +203,7 @@
     Bateria Motorola Moto E20 0
     Bateria Motorola Moto E6 Play 0
     Bateria Motorola Moto E6s / E6i 0
-    Bateria Motorola Moto G22 0
+    Bateria Motorola Moto G22 1
     Bateria Motorola Moto G31 / G42 0
     Bateria Motorola Moto G8 Plus 0
     Bateria Samsung A10S 1
@@ -267,10 +268,10 @@
     Cable Auxiliar 3 A 1 3M 2
     Cable Auxiliar Harvic 1 a 1 en L Cja 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 2
+    Cable Belkin Tc 3
     Cable Belkin Tc 2M 1
     Cable Belkin V8 3
-    Cable Caterpillar Tc 0
+    Cable Caterpillar Tc 2
     Cable Caterpillar Tc A Tc 2
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 2
@@ -328,8 +329,8 @@
     Cable Rca 3 A 3 3M 2
     Cable Rj11 0
     Cable Royal Tc 2M 2
-    Cable Royal V8 2M 1
-    Cable Samsung Tc A Tc Blanco 0
+    Cable Royal V8 2M 2
+    Cable Samsung Tc A Tc Blanco 1
     Cable Samsung Tc A Tc Negro 1
     Cable Samsung Tc a Tc Original 0
     Cable Siliconado Zonymax Tc 3
@@ -411,7 +412,6 @@
     Capturador Hdmi Tc-Usb 0
     Capturador Hdmi Usb 0
     Caragdor We Tc 0
-    Carga Y Juega Xbox One 2
     Cargador 12V 2A Doble Punta 0
     Cargador 15V 1
     Cargador 20w C15 0
@@ -447,7 +447,7 @@
     Cargador Inversor 12V a 110V 1
     Cargador MagSafe 0
     Cargador Maxday Carga Pilas Universal 1
-    Cargador Microsoft Carga Y Juega Xbox 360 1
+    Cargador Microsoft Carga Y Juega Xbox 360 2
     Cargador Motorola 50W Solo Cabeza 0
     Cargador Motorola 67W Solo Cabeza 1
     Cargador Motorola Tc A Tc 30W 1
@@ -495,7 +495,7 @@
     Cargador Samsung S10+ Tc 2
     Cargador Smart Band Magnetico 1
     Cargador Smart Watch Magnetico Negativo 1
-    Cargador Smart Watch Magnetico Positivo 3
+    Cargador Smart Watch Magnetico Positivo 2
     Cargador Smart Watch Pinza 0
     Cargador Socket 48W 2
     Cargador Tc A Tc 80W 2P 1
@@ -506,7 +506,7 @@
     Cargador Vidvie V8 2P 2.4A 1
     Cargador W Tc 1
     Cargador We 25W Cabeza 0
-    Cargador We Tc 33W 0
+    Cargador We Tc 33W 3
     Cargador We V8 33W 3
     Cargador Xiaomi 120W 1
     Cargador Xiaomi Tc A Tc 67W 0
@@ -573,7 +573,7 @@
     Control Keyboard Tv 1
     Control Tv Smart Tv 0
     Control Tv Tv Box 2
-    Control Tv Universal 0
+    Control Tv Universal 3
     Control Universal Roku 0
     Depilador Cejas 0
     Depilador Naris y Orejas Geemy 1
@@ -586,7 +586,8 @@
     Estetica Cepillo Secador Remington Aguacate 0
     Estetica Cepillo Secador Remington Keratina 0
     Estetica Ondas de Sirena 1
-    Extension 4m 0
+    Extension 4m 2
+    Extensión 6M 1
     Flex De Carga Apple Iphone X 0
     Flex De Power Huawei Mate 20 Lite 0
     Flex De Power Samsung A02 1
@@ -597,6 +598,7 @@
     Flex Principal Xiaomi Redmi Note 10 / Note 10S 1
     Flex Principal Xiaomi Redmi Note 10 / Note 10s 0
     Flex Principal Xiaomi Redmi Note 9 0
+    Flex de Carga Apple IPhone 7 0
     Flex de Carga Apple IPhone 7 Plus 0
     Flex de Power Huawei Honor X6 / X6S 0
     Flex de Power Samsung A10s 0
@@ -652,6 +654,7 @@
     Forro Antichoque Cadena Vivo Y20 / Y20S / Y11S 2
     Forro Antichoque Cadena Vivo Y31 / Y51 / Y53S 2
     Forro Antichoque Cadena Xiaomi Note 10 / Note 10S 1
+    Forro Antichoque Cadena Xiaomi Redmi 10 0
     Forro Antichoque Cadena Xiaomi Redmi 12 1
     Forro Antichoque Cadena Xiaomi Redmi 13 1
     Forro Antichoque Cadena Xiaomi Redmi 13c 1
@@ -662,6 +665,7 @@
     Forro Antichoque Cadena Xiaomi Redmi Note 14 4G 1
     Forro Antichoque Cadena Xiaomi Redmi Note 9 2
     Forro Antichoque Cadena infinix Note 50S 4G 1
+    Forro Antichoque Diamante Huawei Honor Magic 7 Lite 2
     Forro Antichoque Hawei Honor X9 Caballero 3
     Forro Antichoque Hawei Honor X9 Dama 2
     Forro Antichoque Huawei Honor 400 Caballero 6
@@ -673,6 +677,7 @@
     Forro Antichoque Huawei Honor 90 Lite Caballero 3
     Forro Antichoque Huawei Honor Magic 6 Lite Caballero 9
     Forro Antichoque Huawei Honor Magic 6 Lite Dama 2
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 3
     Forro Antichoque Huawei Honor X5B Caballero 5
     Forro Antichoque Huawei Honor X5B Dama 0
     Forro Antichoque Huawei Honor X6 / X6s Caballero 3
@@ -714,6 +719,7 @@
     Forro Antichoque Infinix Hot 50 Pro Plus Dama 3
     Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 4
+    Forro Antichoque Infinix Hot 60 Pro Caballero 5
     Forro Antichoque Infinix Note 40 4G Caballero 5
     Forro Antichoque Infinix Note 40 4G Dama 4
     Forro Antichoque Infinix Note 40 Caballero 0
@@ -806,6 +812,8 @@
     Forro Antichoque Oppo A80 Dama Llevero 1
     Forro Antichoque Oppo A80 Dama Pin 1
     Forro Antichoque Oppo Realme C11 2021 Dama 0
+    Forro Antichoque Oppo Realme C33 Caballero 0
+    Forro Antichoque Oppo Realme C33 Dama 0
     Forro Antichoque Oppo Realme C55 Caballero 2
     Forro Antichoque Oppo Realme C55 Dama 4
     Forro Antichoque Oppo Realme C67 Caballero 2
@@ -1001,7 +1009,7 @@
     Forro Antichoque Xiaomi Redmi 14C Lujo Negrorojo 0
     Forro Antichoque Xiaomi Redmi 15 Caballero 0
     Forro Antichoque Xiaomi Redmi 15 Dama 0
-    Forro Antichoque Xiaomi Redmi 15C Caballero 0
+    Forro Antichoque Xiaomi Redmi 15C Caballero 7
     Forro Antichoque Xiaomi Redmi 15C Dama 0
     Forro Antichoque Xiaomi Redmi 9 Caballero 5
     Forro Antichoque Xiaomi Redmi 9 Dama 6
@@ -1161,7 +1169,7 @@
     Forro Armadura Tecno Camon 40 Pro 4G Rojo 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Rojo 1
-    Forro Armadura Tecno Spark 30 Pro Negro 1
+    Forro Armadura Tecno Spark 30 Pro Negro 2
     Forro Armadura Tecno Spark 30 Pro Rojo 0
     Forro Armadura Tecno Spark 30C Rojo 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 0
@@ -1250,6 +1258,7 @@
     Forro Lujo Humo Samsung A25 Negro 0
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 0
     Forro Lujo Samsung A06 Negro 0
+    Forro Lujo Samsung A17 2
     Forro Lujo Samsung A26 Ab 0
     Forro Lujo Samsung A35 Negro 0
     Forro Lujo Ventana Apple Iphone 11 Azul 0
@@ -1275,8 +1284,9 @@
     Forro Lujo Ventana Iphone 13 Pro Max Morado 0
     Forro Lujo Ventana Iphone 13 Pro Max Negro 0
     Forro Lujo Ventana Samsung A15 Morado 1
-    Forro Lujo Ventana Samsung A15 Negro 1
+    Forro Lujo Ventana Samsung A15 Negro 0
     Forro Lujo Ventana Samsung A16 Azul 1
+    Forro Lujo Ventana Samsung A26 2
     Forro Lujo Ventana Samsung A26 Azul 1
     Forro Lujo Ventana Samsung A26 Cafe 1
     Forro Lujo Ventana Samsung A35 Negro 1
@@ -1416,6 +1426,7 @@
     Forro Space Oppo A79 0
     Forro Space Oppo A80 3
     Forro Space Oppo Realme 13 Pro 0
+    Forro Space Oppo Realme 15T 0
     Forro Space Oppo Realme C53 / Note 50 0
     Forro Space Oppo Realme C55 2
     Forro Space Oppo Realme C67 1
@@ -1432,7 +1443,7 @@
     Forro Space Samsung A03S / A02S 0
     Forro Space Samsung A04E 0
     Forro Space Samsung A04S / A13 5G 2
-    Forro Space Samsung A05 0
+    Forro Space Samsung A05 2
     Forro Space Samsung A05S 1
     Forro Space Samsung A05S Lila 1
     Forro Space Samsung A06 0
@@ -1442,7 +1453,7 @@
     Forro Space Samsung A14 1
     Forro Space Samsung A14 Negro 1
     Forro Space Samsung A14 Vinotinto 0
-    Forro Space Samsung A15 1
+    Forro Space Samsung A15 2
     Forro Space Samsung A16 2
     Forro Space Samsung A20 / A30 3
     Forro Space Samsung A20S 0
@@ -1532,7 +1543,7 @@
     Forro Space Xiaomi Redmi 12C 2
     Forro Space Xiaomi Redmi 13 2
     Forro Space Xiaomi Redmi 13C 0
-    Forro Space Xiaomi Redmi 14C 1
+    Forro Space Xiaomi Redmi 14C 2
     Forro Space Xiaomi Redmi 15 0
     Forro Space Xiaomi Redmi 15C 0
     Forro Space Xiaomi Redmi 9 2
@@ -1581,7 +1592,7 @@
     Guantes Gamer 3
     Herramienta Prensa Economica 0
     Holder Car Regilla 0
-    Holder Chupa Parabrisas 0
+    Holder Chupa Parabrisas 1
     Hub Lan 3 Usb 0
     Huella Xiaomi Redmi 9T 0
     Humidificador Eco 2
@@ -1599,6 +1610,8 @@
     Hydrogel Huawei Honor Magic 6 Lite 0
     Hydrogel Infinix Hot 50 5G 0
     Hydrogel Infinix Hot 50 Pro Plus 0
+    Hydrogel Infinix Hot 50 Pro Plus 0
+    Hydrogel Infinix Hot 60 Pro Plus 0
     Hydrogel Infinix Note 40 Pro Plus 0
     Hydrogel Infinix Note 40 pro 0
     Hydrogel Infinix Note 50s 0
@@ -1655,7 +1668,7 @@
     Llavero Goku 0
     Llaveros 0
     Llaveros Agua 5
-    Llaveros Capybara 5
+    Llaveros Capybara 4
     Llaveros Figura 19
     Llaveros Pegar 8
     Logica De Carga Motorola Moto G20 1
@@ -1740,7 +1753,7 @@
     Logica de Carga Xiaomi Redmi 9 1
     Logica de Carga Xiaomi Redmi 9A / 9C / 10A 0
     Logica de Carga Xiaomi Redmi Note 10 / Note 10S 1
-    Logica de Carga Xiaomi Redmi Note 11 / Note 12S 1
+    Logica de Carga Xiaomi Redmi Note 11 / Note 12S 2
     Logica de Carga Xiaomi Redmi Note 13 4G 1
     Logica de Carga Xiaomi Redmi Note 8 3
     Logica de Carga Xiaomi Redmi Note 8 Pro 1
@@ -1766,7 +1779,7 @@
     Manos Libres Inears S-2000 1
     Manos Libres Inears Ten Space Ts-H05 0
     Manos Libres Knz Tc 0
-    Manos Libres Samsung Akg 2
+    Manos Libres Samsung Akg 1
     Manos Libres Samsung Akg Tc 2
     Manos Libres Samsung Akg Tc Blanco 1
     Manos Libres Samsung Akg con Aislador 0
@@ -1774,7 +1787,7 @@
     Manos Libres Samsung J5 Negro 7
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 4
-    Manos Libres Samsung Tipo Original Negro 5
+    Manos Libres Samsung Tipo Original Negro 4
     Manos Libres Speak Tc 0
     Manos Libres Speak Tc Negro 0
     Manos Libres Speal Tc Negro 0
@@ -1939,7 +1952,7 @@
     Pacha Motorola Moto E30 / E40 2
     Pacha Motorola Moto E5 Play 0
     Pacha Motorola Moto E6I 0
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 2
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1
     Pacha Motorola Moto Edge 50 Fusion 0
     Pacha Motorola Moto G04 / G24 1
@@ -1961,13 +1974,13 @@
     Pacha Nokia 5.3 2
     Pacha Nokia G21 0
     Pacha Oppo A16 2
-    Pacha Oppo A17 / A38 / A57 / A77 2
-    Pacha Oppo A20 / A40 / A60 1
+    Pacha Oppo A17 / A38 / A57 / A77 3
+    Pacha Oppo A20 / A40 / A60 2
     Pacha Oppo A54 1
     Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / OnePlus Nord Ce 3 Lite 5G 3
     Pacha Oppo A79 1
     Pacha Oppo Realme C11 2021 1
-    Pacha Oppo Realme C33 0
+    Pacha Oppo Realme C30 / C33 0
     Pacha Oppo Realme C53 / Note 50 0
     Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 1
     Pacha Oppo Reno 11 5G / Reno 11F 0
@@ -2038,7 +2051,7 @@
     Pacha Tecno Spark 20 Pro Plus 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2
     Pacha Vivo Y11s / Y20s 1
@@ -2053,7 +2066,7 @@
     Pacha Xiaomi Redmi 10 1
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 0
-    Pacha Xiaomi Redmi 12C 1
+    Pacha Xiaomi Redmi 12C 2
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 1
     Pacha Xiaomi Redmi 14C 1
@@ -2065,12 +2078,12 @@
     Pacha Xiaomi Redmi A1 / A2 3
     Pacha Xiaomi Redmi A3 1
     Pacha Xiaomi Redmi Note 10 / Note 10S 1
-    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 0
+    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 1
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
     Pacha Xiaomi Redmi Note 11 / Note 12S 2
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
-    Pacha Xiaomi Redmi Note 12 0
-    Pacha Xiaomi Redmi Note 12 Amoled 0
+    Pacha Xiaomi Redmi Note 12 1
+    Pacha Xiaomi Redmi Note 12 Amoled 1
     Pacha Xiaomi Redmi Note 13 4G 0
     Pacha Xiaomi Redmi Note 13 Pro Plus 0
     Pacha Xiaomi Redmi Note 7 0
@@ -2131,7 +2144,7 @@
     Pilas Carbon Gp 9V 6
     Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aa x2 9
-    Pilas Carbon Maxday Aaa X2 1
+    Pilas Carbon Maxday Aaa X2 5
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 0
     Pilas Recargables Aa x2 2700 Mah 0
@@ -2195,7 +2208,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 30
+    Recargas 29
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2203,7 +2216,7 @@
     Reproductor Dvd One Tech Dvd-008 Hdmi 1
     Reproductor Dvd One Tech Dvd-227 0
     Reproductor Fly Tv Box 64-4 1
-    Reproductor Onn 4K 0
+    Reproductor Onn 4K 1
     Reproductor Onn Eco 1
     Reproductor Onn Hd 0
     Reproductor Onn Hd Azul 1
@@ -2221,7 +2234,7 @@
     Rollo Cinta Led Rgb 10M 1
     Rollo Cinta Led Rgb Con Bluetooth 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
-    Rollo Cinta Led Rgb Sencilla 0
+    Rollo Cinta Led Rgb Sencilla 4
     Rollo Cinta Led Rgb Usb 0
     Rollo Cinta Led x2 Bluetooth 1
     Rollo Papel Mini impresora 0
@@ -2425,7 +2438,7 @@
     Silicone Case Apple Iphone 13 Pro Negro 0
     Silicone Case Apple Iphone 13 Pro Rojo 0
     Silicone Case Apple Iphone 13 Rojo 0
-    Silicone Case Apple Iphone 14 Negro 0
+    Silicone Case Apple Iphone 14 Negro 1
     Silicone Case Apple Iphone 14 Plus Negro 0
     Silicone Case Apple Iphone 14 Pro Ab Fucsia 1
     Silicone Case Apple Iphone 14 Pro Amarillo 1
@@ -2441,7 +2454,7 @@
     Silicone Case Apple Iphone 15 Pro Max Amarillo 1
     Silicone Case Apple Iphone 15 Pro Max Azulrey 1
     Silicone Case Apple Iphone 15 Pro Max Lila 1
-    Silicone Case Apple Iphone 15 Pro Max Negro 0
+    Silicone Case Apple Iphone 15 Pro Max Negro 1
     Silicone Case Apple Iphone 15 Pro Max Rojo 1
     Silicone Case Apple Iphone 15 Pro Max Rosa 1
     Silicone Case Apple Iphone 15 Pro Max Verde 0
@@ -2547,7 +2560,7 @@
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Morado 1
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 0
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Rojo 1
     Silicone Case Huawei Honor Magic 6 Lite / X50 / X9B Azulrey 1
     Silicone Case Huawei Honor Magic 7 Lite / X9A Negro 1
@@ -2597,7 +2610,7 @@
     Silicone Case Huawei Honor X7C / 200 Smart Azulrey 0
     Silicone Case Huawei Honor X7C / 200 Smart Fucsia 1
     Silicone Case Huawei Honor X7C / 200 Smart Morado 1
-    Silicone Case Huawei Honor X7C / 200 Smart Negro 0
+    Silicone Case Huawei Honor X7C / 200 Smart Negro 1
     Silicone Case Huawei Honor X7C / 200 Smart Rojo 1
     Silicone Case Huawei Honor X7C / 200 Smart Verdemilitar 1
     Silicone Case Huawei Honor X8 Fucsia 0
@@ -2699,6 +2712,9 @@
     Silicone Case Infinix Hot 50I / Smart 9 Rosa 1
     Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 1
     Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 1
+    Silicone Case Infinix Hot 60 Pro Amarillo 1
+    Silicone Case Infinix Hot 60 Pro Azulrey 1
+    Silicone Case Infinix Hot 60 Pro Fucsia 1
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 0
     Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 0
     Silicone Case Infinix Hot 60 Pro Plus Lila 0
@@ -2708,6 +2724,8 @@
     Silicone Case Infinix Hot 60 Pro Plus Verde 1
     Silicone Case Infinix Hot 60 Pro Plus Verdemilitar 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 0
+    Silicone Case Infinix Hot 60 Pro Rojo 1
+    Silicone Case Infinix Hot 60 Pro Verdemilitar 1
     Silicone Case Infinix Note 12 Fucsia 1
     Silicone Case Infinix Note 30 Azulrey 1
     Silicone Case Infinix Note 30 Azulturquesa 1
@@ -2804,7 +2822,7 @@
     Silicone Case Motorola Moto E20 Amarillo 1
     Silicone Case Motorola Moto E20 Fucsia 1
     Silicone Case Motorola Moto E20 Morado 1
-    Silicone Case Motorola Moto E20 Negro 0
+    Silicone Case Motorola Moto E20 Negro 1
     Silicone Case Motorola Moto E20 Rojo 1
     Silicone Case Motorola Moto E20 Rosa 1
     Silicone Case Motorola Moto E20 Verde 1
@@ -3515,6 +3533,7 @@
     Silicone Case Tecno Camon 40 Premier Rosa 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Amarillo 1
     Silicone Case Tecno Camon 40 Pro 4G / 5G Azulrey 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Blanco 1
     Silicone Case Tecno Camon 40 Pro 4G / 5G Fucsia 0
     Silicone Case Tecno Camon 40 Pro 4G / 5G Lila 1
     Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 0
@@ -4163,6 +4182,7 @@
     Tapa Xiaomi Redmi Note 9 Verde 0
     Tapones Puerto de Carga 3
     Tarjeta Infinix 0
+    Tarro Dosificador Aguja Aguja 1
     Teclado Combo Gamer F92 1
     Teclado Dn-236 0
     Teclado Inalambrico Yelandar W3500 0
@@ -4209,7 +4229,7 @@
     Video Juego Xbox Caja Negra Liga De La Justicia 1
     Video Juego Xbox Caja Negra Mortal Kombat Saholin Monks 1
     Video Juego Xbox Caja Negra Principe De Persia 1
-    Vidrio 5D Apple Iphone 11 / Xr 7
+    Vidrio 5D Apple Iphone 11 / Xr 6
     Vidrio 5D Apple Iphone 11 Pro Max 5
     Vidrio 5D Apple Iphone 12 Pro Max 2
     Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E 2
@@ -4298,12 +4318,12 @@
     Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
     Vidrio 5D Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 0
     Vidrio 5D Xiaomi Mi 11T 4
-    Vidrio 5D Xiaomi Redmi 10 2
+    Vidrio 5D Xiaomi Redmi 10 1
     Vidrio 5D Xiaomi Redmi 10C / 12C 3
     Vidrio 5D Xiaomi Redmi 12 2
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 1
     Vidrio 5D Xiaomi Redmi 14 0
-    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 4
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 3
     Vidrio 5D Xiaomi Redmi 8 4
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 3
     Vidrio 5D Xiaomi Redmi 9T 3
