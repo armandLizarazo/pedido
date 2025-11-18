@@ -1,5 +1,5 @@
     Adaptador Otg Tc Y Micro 3
-    Adaptador Tc a 3.5 2 ok
+    Adaptador Tc a 3.5 4 ok
     Audifonos Bluetooth Conduccion Osea B-18 1
     Audifonos Bluetooth Y6 Blanco 2
     Balaca Apple Airpods Max Negro 1.1 1
@@ -9,6 +9,7 @@
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
     Cable Samsung Tc A Tc Blanco 2
+    Cargador W V8 Bolsa 5 ok
     Cable Tc A Tc Eco 3
     Cargador Apple 15 Pro Max 35W Con Cable 1 ok
     Cargador Apple 20W Con Cable 1 ok
@@ -19,12 +20,15 @@
     Cargador Pluying Royal 38W 2
     Cargador Royal 45W Tc Cbl 5
     Cargador Samsung 45W Cabeza Blanco 2
+    Cargador We Tc 33W 3 ok
+    Adaptador Otg Lightning2Tc 1 ok
     Cargador Yl Tc 5 ok
     Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 1 ok
     Forro Antichoque Cadena infinix Note 50S 4G 2
     Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X6 / X6s Dama 2 ok
-    Forro Antichoque Huawei Honor X6B Caballero 3
+    Forro Antichoque Huawei Honor X6B Caballero 3 ok
     Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
@@ -34,8 +38,13 @@
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C33 Caballero 5
-    Forro Antichoque Oppo Realme C33 Dama 5
-    Forro Antichoque Oppo Realme C53 Caballero 5
+    Silicone Case Oppo Realme C33 Lila 1 ok
+    Silicone Case Oppo Realme C33 Amarillo 1 ok
+    Silicone Case Oppo Realme C33 Rosa 1 ok
+    Silicone Case Oppo Realme C33 Azuloscuro 1 ok
+    Silicone Case Oppo Realme C33 Azulclaro 1 ok
+    Adaptador Otg Tc2Ligthning 3 ok
+    Forro Space Oppo Realme C53 1 ok
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Oppo Realme C75 Caballero 5
     Forro Antichoque Oppo Realme C75 Dama 5
@@ -139,7 +148,10 @@
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
+    Forro Antichoque Huawei Honor X8 Dama 2 ok
     Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
+    Forro Antichoque Infinix Hot 60 Pro Plus Dama 3 ok
+    Forro Antichoque Cadena Infinix Hot 60 Pro Plus 2 ok
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
