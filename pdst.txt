@@ -1,7 +1,7 @@
-    Botones Xiaomi Redmi Note 8 1
-    Flex de Carga Apple IPhone 7 1
-    Pacha Oppo Realme C30 / C33 2
-    Pacha Samsung A05S 1
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2
-    Pacha Xiaomi Redmi Note 12 1
-    Pacha Xiaomi Redmi Note 8 1
+    Botones Xiaomi Redmi Note 8 1 ok
+    Flex de Carga Apple IPhone 7 1 ok
+    Pacha Oppo Realme C30 / C33 2 ok
+    Pacha Samsung A05S 1 ok
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+    Pacha Xiaomi Redmi Note 12 1 ok
+    Pacha Xiaomi Redmi Note 8 1 ok
