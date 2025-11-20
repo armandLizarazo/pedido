@@ -38,10 +38,22 @@
     Forro Antichoque Oppo A5 Caballero 5
     Forro Antichoque Oppo Realme C11 2021 Dama 3
     Forro Antichoque Oppo Realme C33 Caballero 5
+    Silicone Case Samsung A17 Rojo 1 ok
+    Silicone Case Samsung A17 Lila 1 ok
+    Silicone Case Samsung A17 Negro 1 ok
+    Forro Antichoque Samsung A17 Caballero 3 ok
+    Forro Antichoque Infinix Hot 60 Pro Plus Dama 3
+    Forro Antichoque Xiaomi Redmi 15C Dama 3 ok
+    Forro Antichoque Cadena Xiaomi Redmi 15C 3 ok
     Silicone Case Oppo Realme C33 Lila 1 ok
     Silicone Case Oppo Realme C33 Amarillo 1 ok
     Silicone Case Oppo Realme C33 Rosa 1 ok
     Silicone Case Oppo Realme C33 Azuloscuro 1 ok
+    Silicone Case Samsung S25 Fe Rojo 1 ok
+    Silicone Case Samsung S25 Fe Azulclaro 1 ok
+    Silicone Case Samsung S25 Fe Rosa 1 ok
+    Silicone Case Samsung S25 Fe Morado 1 ok
+    Silicone Case Samsung S25 Fe Fucsia 1 ok
     Silicone Case Oppo Realme C33 Azulclaro 1 ok
     Adaptador Otg Tc2Ligthning 3 ok
     Forro Space Oppo Realme C53 1 ok
@@ -52,7 +64,6 @@
     Forro Antichoque Samsung A05 Caballero 3
     Forro Antichoque Samsung A05 Dama 2
     Forro Antichoque Samsung A11 Dama 5
-
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
@@ -118,7 +129,7 @@
     Forro Tabletas 10P Dama 2
     Holder Chupa Parabrisas 2 ok
     Manos Libres Batri B10 Lila 2
-    Manos Libres Samsung Akg 10
+    Manos Libres Samsung Akg 10 ok
     Manos Libres Samsung J5 Negro 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
@@ -159,6 +170,11 @@
     Silicone Case Infinix Note 50s Lila 1 ok
     Silicone Case Infinix Note 50s Negro 1 ok
     Silicone Case Iphone 11 Pro Max Amarillo 1
+    Silicone Case Huawei Honor X6C Verdemilitar 1 ok
+    Silicone Case Huawei Honor X6C Azulrey 1 ok
+    Silicone Case Huawei Honor X6C Rojo 1 ok
+    Silicone Case Huawei Honor X6C Negro 1 ok
+    Silicone Case Huawei Honor X6C Azuoscuro 1 ok
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 2
     Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
@@ -181,12 +197,13 @@
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Oppo A5 Amarillo 1
-    Silicone Case Oppo A5 Azulrey 1
-    Silicone Case Oppo A5 Fucsia 1
+    Silicone Case Oppo A5 Azulrey 1 ok
+    Silicone Case Oppo A5 Fucsia 1 ok
     Silicone Case Oppo A5 Lila 1
-    Silicone Case Oppo A5 Negro 1
-    Silicone Case Oppo A5 Rojo 1
+    Silicone Case Oppo A5 Negro 1 ok
+    Silicone Case Oppo A5 Rojo 1 ok
     Silicone Case Oppo A5 Rosa 1
+    Silicone Case Oppo A5 Salmon 1 ok
     Silicone Case Oppo A57 Lila 1
     Silicone Case Oppo A78 4G Fucsia 1
     Silicone Case Oppo A78 4G Morado 1
@@ -252,6 +269,9 @@
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y27 Negro 1
+    Silicone Case Tecno Spark 40 Pro Azulrey 1 ok
+    Silicone Case Tecno Spark 40 Pro Negro 1 ok
+    Silicone Case Tecno Spark 40 Pro Amarillo 1 ok
     Silicone Case Vivo Y30 / Y50 Fucsia 1
     Silicone Case Vivo Y30 / Y50 Lila 1
     Silicone Case Xiaomi Redmi 12 Azulrey 1
@@ -264,7 +284,8 @@
     Silicone Case Xiaomi Redmi 15 Negro 1
     Silicone Case Xiaomi Redmi 15 Rojo 1
     Silicone Case Xiaomi Redmi 15 Rosa 1
-    Silicone Case Xiaomi Redmi 15C Amarillo 1
+    Silicone Case Xiaomi Redmi 15C Amarillo 1 ok
+    Silicone Case Xiaomi Redmi 15C Lila 1 ok
     Silicone Case Xiaomi Redmi 15C Azulrey 1
     Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
