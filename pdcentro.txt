@@ -42,9 +42,10 @@
     Silicone Case Samsung A17 Lila 1 ok
     Silicone Case Samsung A17 Negro 1 ok
     Forro Antichoque Samsung A17 Caballero 3 ok
-    Forro Antichoque Infinix Hot 60 Pro Plus Dama 3
-    Forro Antichoque Xiaomi Redmi 15C Dama 3 ok
-    Forro Antichoque Cadena Xiaomi Redmi 15C 3 ok
+    Forro Antichoque Infinix Hot 60 Pro Plus Dama 5
+    Forro Antichoque Cadena Infinix Hot 60 Pro Plus 3
+    Forro Antichoque Xiaomi Redmi 15C Dama 4 ok
+    Forro Antichoque Cadena Xiaomi Redmi 15C 2 ok
     Silicone Case Oppo Realme C33 Lila 1 ok
     Silicone Case Oppo Realme C33 Amarillo 1 ok
     Silicone Case Oppo Realme C33 Rosa 1 ok
