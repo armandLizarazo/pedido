@@ -6,7 +6,7 @@
     Adpatador Vga2hdmi Cbl Cja 1
     Amplificador de Pantalla Curvo 1
     Amplificador de Pantalla Plano 1
-    Antena Tdt 5M 5
+    Antena Tdt 5M 3 ok
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
@@ -47,7 +47,7 @@
     Parlante Ktf-1645 2
     Pilas Carbon Maxday Aaa X2 30
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 1
+    Reproductor Onn Hd Azul 1 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
