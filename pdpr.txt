@@ -27,7 +27,8 @@
     Camara de Solapa 1
     Cargador 15V 2
     Cargador 24V 3
-    Cargador 9V 2A Doble Punta 3
+    cargador 5V 2A Doble Punta 3 ok
+    Cargador 9V 2A Doble Punta 3 ok
     Cargador Pc 8 Pines Caja Naranja 2
     Cargador Pc Acer 2.37 1
     Consola + Tv box 1
