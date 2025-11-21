@@ -9409,3 +9409,124 @@ Fecha de proceso: 2025-11-14 17:18:41
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-20 14:42:28
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 53
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Tc a 3.5 4 ok
+    7 | Cable Caterpillar Tc 5 ok
+   12 | Cargador W V8 Bolsa 5 ok
+   14 | Cargador Apple 15 Pro Max 35W Con Cable 1 ok
+   15 | Cargador Apple 20W Con Cable 1 ok
+   23 | Cargador We Tc 33W 3 ok
+   24 | Adaptador Otg Lightning2Tc 1 ok
+   25 | Cargador Yl Tc 5 ok
+   26 | Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+   27 | Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 1 ok
+   30 | Forro Antichoque Huawei Honor X6 / X6s Dama 2 ok
+   31 | Forro Antichoque Huawei Honor X6B Caballero 3 ok
+   41 | Silicone Case Samsung A17 Rojo 1 ok
+   42 | Silicone Case Samsung A17 Lila 1 ok
+   43 | Silicone Case Samsung A17 Negro 1 ok
+   44 | Forro Antichoque Samsung A17 Caballero 3 ok
+   47 | Forro Antichoque Xiaomi Redmi 15C Dama 4 ok
+   48 | Forro Antichoque Cadena Xiaomi Redmi 15C 2 ok
+   49 | Silicone Case Oppo Realme C33 Lila 1 ok
+   50 | Silicone Case Oppo Realme C33 Amarillo 1 ok
+   51 | Silicone Case Oppo Realme C33 Rosa 1 ok
+   52 | Silicone Case Oppo Realme C33 Azuloscuro 1 ok
+   53 | Silicone Case Samsung S25 Fe Rojo 1 ok
+   54 | Silicone Case Samsung S25 Fe Azulclaro 1 ok
+   55 | Silicone Case Samsung S25 Fe Rosa 1 ok
+   56 | Silicone Case Samsung S25 Fe Morado 1 ok
+   57 | Silicone Case Samsung S25 Fe Fucsia 1 ok
+   58 | Silicone Case Oppo Realme C33 Azulclaro 1 ok
+   59 | Adaptador Otg Tc2Ligthning 3 ok
+   60 | Forro Space Oppo Realme C53 1 ok
+  131 | Holder Chupa Parabrisas 2 ok
+  133 | Manos Libres Samsung Akg 10 ok
+  163 | Forro Antichoque Huawei Honor X8 Dama 2 ok
+  165 | Forro Antichoque Infinix Hot 60 Pro Plus Dama 3 ok
+  166 | Forro Antichoque Cadena Infinix Hot 60 Pro Plus 2 ok
+  168 | Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
+  171 | Silicone Case Infinix Note 50s Lila 1 ok
+  172 | Silicone Case Infinix Note 50s Negro 1 ok
+  174 | Silicone Case Huawei Honor X6C Verdemilitar 1 ok
+  175 | Silicone Case Huawei Honor X6C Azulrey 1 ok
+  176 | Silicone Case Huawei Honor X6C Rojo 1 ok
+  177 | Silicone Case Huawei Honor X6C Negro 1 ok
+  178 | Silicone Case Huawei Honor X6C Azuoscuro 1 ok
+  201 | Silicone Case Oppo A5 Azulrey 1 ok
+  202 | Silicone Case Oppo A5 Fucsia 1 ok
+  204 | Silicone Case Oppo A5 Negro 1 ok
+  205 | Silicone Case Oppo A5 Rojo 1 ok
+  207 | Silicone Case Oppo A5 Salmon 1 ok
+  273 | Silicone Case Tecno Spark 40 Pro Azulrey 1 ok
+  274 | Silicone Case Tecno Spark 40 Pro Negro 1 ok
+  275 | Silicone Case Tecno Spark 40 Pro Amarillo 1 ok
+  288 | Silicone Case Xiaomi Redmi 15C Amarillo 1 ok
+  289 | Silicone Case Xiaomi Redmi 15C Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-20 14:42:28
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 28
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    8 | Antena Wifi Larga 2 ok
+   11 | Barbera Vgr V-002 1 ok
+   12 | Barbera Vgr V-660 1 ok
+   28 | Cargador Microsoft Carga Y Juega Xbox 360 3 ok
+   32 | Consola Sup X7m 1 ok
+   34 | Control Tv Universal 5 ok
+   35 | Estetica Cepillo Secador Remington Aguacate 1 ok
+   36 | Estetica Cepillo Secador Remington Keratina 1 ok
+   38 | Gramera Joyeria 2 ok
+   39 | Humidificador Madera 3 ok
+   40 | Hydrolavadora Recargable 2 ok
+   44 | Memoria Musica Rap Fanaticos del Rap 2 ok
+   45 | Memoria Musica Romantica Baladas 60, 70, y 80 1 ok
+   46 | Memoria Musica Vallenata Diomedez Dias 2 ok
+   48 | Mouse Gamer Xmg-02 Inalambrico 1 ok
+   49 | Parlante Gts-1372 2 ok
+   51 | Patillera 3 En 1 2 ok
+   53 | Proyector Hy-300 2 Ram 3 ok
+   55 | Reproductor Tv Stick Magis 2 ok
+   56 | Reproductor Tv Stick Om 2 ok
+   57 | Reproductor Dvd Foxtech Fx-255 1 ok
+   58 | Reproductor Dvd One Tech Dvd-008 Hdmi 1 ok
+   65 | Soporte Tripode Caja Cafe 1 ok
+   67 | Teclado Seisa C-400 Inalambrico 1 ok
+   68 | Teclado Seisa Dn-236 2 ok
+   69 | Tripode Selfie L-13D 2 ok
+   72 | Dron 988 Doble Camara 2 ok
+   73 | Soporte Celular Cuello 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-20 14:42:28
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Botones Xiaomi Redmi Note 8 1 ok
+    2 | Flex de Carga Apple IPhone 7 1 ok
+    3 | Pacha Oppo Realme C30 / C33 2 ok
+    4 | Pacha Samsung A05S 1 ok
+    5 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+    6 | Pacha Xiaomi Redmi Note 12 1 ok
+    7 | Pacha Xiaomi Redmi Note 8 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-20 14:42:28
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

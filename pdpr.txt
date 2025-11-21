@@ -4,17 +4,18 @@
     Adaptador Tc Hub 8 en 1 1
     Adaptador Union Plug 3.5 3
     Adpatador Vga2hdmi Cbl Cja 1
+    Amplificador de Pantalla Curvo 1
     Amplificador de Pantalla Plano 1
-    Antena Wifi Larga 2 ok
+    Antena Tdt 5M 5
+    Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
     Barbera Vgr V-001 Blue Editon 1
-    Barbera Vgr V-002 1 ok
-    Barbera Vgr V-660 1 ok
     Base Refirgerante 4 Ventiladores 1
     Base Refrigerante X6a 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Hdmi + Adaptadores 2
+    Cable Lan 10M Cat 6 2
     Cable Lan 2M Cat 6 5
     Cable Lan 3M Cat 6 8
     Cable Microsoft Xbox Caja Negra 2
@@ -25,49 +26,34 @@
     Camara Wifi Bombillo 2
     Camara de Solapa 1
     Cargador 15V 2
-    Cargador Microsoft Carga Y Juega Xbox 360 3 ok
+    Cargador 24V 3
+    Cargador 9V 2A Doble Punta 3
+    Cargador Pc 8 Pines Caja Naranja 2
+    Cargador Pc Acer 2.37 1
     Consola + Tv box 1
     Consola Mini Ness 2
     Consola R-36S 1
-    Consola Sup X7m 1 ok
+    Consola Sup Con Control Negro 2
     Control Gamer Gatillos W11+ 3
-    Control Tv Universal 5 ok
-    Estetica Cepillo Secador Remington Aguacate 1 ok
-    Estetica Cepillo Secador Remington Keratina 1 ok
+    Extension 4m 1
     Forro Pc 16 Pulgadas 2
-    Gramera Joyeria 2 ok
-    Humidificador Madera 3 ok
-    Hydrolavadora Recargable 2 ok
+    Hydrolavadora Recargable 2
     Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
+    Maleta Computador 2
     Memoria Musica Crosover Locura Crosover 1
-    Memoria Musica Rap Fanaticos del Rap 2 ok
-    Memoria Musica Romantica Baladas 60, 70, y 80 1 ok
-    Memoria Musica Vallenata Diomedez Dias 2 ok
-    Memory Card Ps2 1
-    Mouse Gamer Xmg-02 Inalambrico 1 ok
-    Parlante Gts-1372 2 ok
+    Memory Card Ps2 3
+    Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
-    Patillera 3 En 1 2 ok
     Pilas Carbon Maxday Aaa X2 30
-    Proyector Hy-300 2 Ram 3 ok
     Reproductor Alexa Reloj 1
-    Reproductor Tv Stick Magis 2 ok
-    Reproductor Tv Stick Om 2 ok
-    Reproductor Dvd Foxtech Fx-255 1 ok
-    Reproductor Dvd One Tech Dvd-008 Hdmi 1 ok
+    Reproductor Onn Hd Azul 1
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
-    Soporte Tripode Caja Cafe 1 ok
     Tableta Tigers Kids Rosa 1
-    Teclado Seisa C-400 Inalambrico 1 ok
-    Teclado Seisa Dn-236 2 ok
-    Tripode Selfie L-13D 2 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
-    Dron 988 Doble Camara 2 ok
-    Soporte Celular Cuello 1 ok

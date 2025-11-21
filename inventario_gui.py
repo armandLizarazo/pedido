@@ -1420,7 +1420,13 @@ class InventarioGUI:
             self._switch_action_panel(self.sale_panel, "Agregar a Venta")
             self.sale_cant_entry.focus_set()
         else:
-            self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
+            # Si no hay selección en el treeview, muestra el placeholder
+            # Si hay selección, muestra el panel correspondiente (ajuste por defecto)
+            if self.inventory_tree.selection():
+                # Esto es un fallback por si se llama sin argumentos pero hay selección
+                pass
+            else:
+                self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
 
     def show_add_panel(self):
         self.show_action_panel("add")
@@ -1551,13 +1557,16 @@ class InventarioGUI:
             # Re-seleccionar el item para mantener el contexto
             for iid in self.inventory_tree.get_children():
                 item_values = self.inventory_tree.item(iid, "values")
+                # Comparamos la descripción (item_values[1]) para encontrar el mismo item
                 if item_values[1] == desc:
                     self.inventory_tree.selection_set(iid)
-                    self.inventory_tree.focus(iid)
-                    self.inventory_tree.see(iid)
+                    self.inventory_tree.focus(iid)  # Dar foco para teclado
+                    self.inventory_tree.see(iid)  # Asegurar que sea visible
 
                     # Volver a obtener los valores actualizados para el panel
                     new_values = self.inventory_tree.item(iid, "values")
+
+                    # IMPORTANTE: Forzar la actualización del panel sin cerrarlo
                     self.show_action_panel("adjust", data=new_values)
                     break
 
@@ -2458,6 +2467,7 @@ class InventarioGUI:
                     messagebox.showerror("Error al Guardar", msg)
 
     def populate_inventory_treeview(self):
+        # Eliminar ítems existentes
         for i in self.inventory_tree.get_children():
             self.inventory_tree.delete(i)
 
@@ -2515,7 +2525,8 @@ class InventarioGUI:
                 count += 1
 
         self.status_label_inv.config(text=f"Mostrando {count} de {len(datos)} ítems.")
-        self.show_action_panel()
+        # --- CORRECCIÓN: Se eliminó self.show_action_panel() ---
+        # Esto evita que se reinicie el panel al refrescar la lista.
 
     def populate_sales_treeview(self):
         for i in self.sales_tree.get_children():
