@@ -33,7 +33,7 @@
     Consola + Tv box 1
     Consola Mini Ness 2
     Consola R-36S 1
-    Consola Sup Con Control Negro 2
+    Consola Sup Con Control Negro 4
     Control Gamer Gatillos W11+ 3
     Extension 4m 1
     Forro Pc 16 Pulgadas 2
@@ -45,6 +45,7 @@
     Memory Card Ps2 3
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
+    Parlante Tg-294 Rojo 1
     Pilas Carbon Maxday Aaa X2 30
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd Azul 1

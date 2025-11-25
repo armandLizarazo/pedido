@@ -4,6 +4,7 @@
     Audifonos Bluetooth W I12 Negro 1
     Audifonos Bluetooth Y6 Blanco 2
     Balaca Apple Airpods Max Negro 1.1 1
+    Balaca Pantalla Azul 1
     Cable Apple Usb Ligthning 2M 5
     Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
@@ -25,10 +26,10 @@
     Cargador Samsung 45W Cabeza Blanco 2
     Forro Antichoque Cadena Infinix Hot 60 Pro Plus 3
     Forro Antichoque Cadena infinix Note 50S 4G 2
-    Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3
     Forro Antichoque Huawei Honor X8 Caballero 2
     Forro Antichoque Huawei Honor X8 Dama 3
+    Forro Antichoque Huawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Infinix Hot 60 Pro Plus Dama 5
@@ -129,6 +130,7 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
+    Memoria Super 128 Gb 1
     Mouse Jertech Jr-1 Rojo 1
     Pacha Xiaomi Redmi 10C 1
     Parlante Ktf-1645 2
@@ -138,13 +140,16 @@
     Proyector Astronauta Bluetooth 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
+    Silicone Case Apple Iphone 11 Lila 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 15 Amarillo 1
+    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
+    Silicone Case Huawei Honor 200 Negro 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1
     Silicone Case Huawei Honor X6 / X6s Rojo 1
@@ -173,6 +178,7 @@
     Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G05 Amarillo 1
+    Silicone Case Motorola Moto G05 Rojo 1
     Silicone Case Motorola Moto G13 / G23 Negro 1
     Silicone Case Motorola Moto G15 Amarillo 1
     Silicone Case Motorola Moto G15 Morado 1
@@ -209,11 +215,13 @@
     Silicone Case Samsung A04E Negro 1
     Silicone Case Samsung A07 Rojo 1
     Silicone Case Samsung A10 Blanco 1
+    Silicone Case Samsung A12 Rojo 1
     Silicone Case Samsung A16 Negro 1
     Silicone Case Samsung A17 Amarillo 1
     Silicone Case Samsung A17 Azulrey 1
     Silicone Case Samsung A17 Morado 1
     Silicone Case Samsung A20 / A30 Amarillo 1
+    Silicone Case Samsung A21S Rojo 1
     Silicone Case Samsung A22 4G Morado 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A51 Negro 1
@@ -314,9 +322,12 @@
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 5
+    Vidrio 5D Samsung A21S 10
     Vidrio 5D Samsung A6 / J6 5
+    Vidrio 5D Samsung A71 / Poco X3 10
     Vidrio 5D Xiaomi Redmi 10C / 12C 5
     Vidrio 5D Xiaomi Redmi 12 10
+    Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
     Vidrio 5D Xiaomi Redmi Note 8 5
     Vidrio Antiespia Apple Iphone 12 Mini 5

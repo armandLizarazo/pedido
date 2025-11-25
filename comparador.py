@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
+from tkinter import filedialog  # Importación necesaria para seleccionar archivos
 
 # --- Creación de archivos de ejemplo ---
 # Se crean los archivos bodegac.txt y local.txt con datos de ejemplo
@@ -216,6 +217,257 @@ def normalize_files():
             "Normalización",
             "Los inventarios ya están sincronizados. No se requieren cambios.",
         )
+
+
+def sync_local_to_other():
+    """Sincroniza items de local.txt a otro archivo seleccionado."""
+    target_filename = filedialog.askopenfilename(
+        title="Seleccionar archivo para sincronizar desde Local",
+        filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
+    )
+
+    if not target_filename:
+        return
+
+    try:
+        # Leer origen (local)
+        local_data = parse_file("local.txt")
+        if not local_data:
+            messagebox.showwarning(
+                "Advertencia", "El archivo local.txt está vacío o no se pudo leer."
+            )
+            return
+
+        local_items = {item[0] for item in local_data}
+
+        # Leer destino
+        target_data = parse_file(target_filename)
+        # Convertir a diccionario para fácil acceso y preservar cantidades
+        target_dict = {item[0]: item[1] for item in target_data}
+
+        added_count = 0
+        for item_desc in local_items:
+            if item_desc not in target_dict:
+                target_dict[item_desc] = 0
+                added_count += 1
+
+        if added_count == 0:
+            messagebox.showinfo(
+                "Sincronización",
+                f"El archivo '{target_filename}' ya contiene todos los items de local.txt.",
+            )
+
+        # Convertir de nuevo a lista para usar update_file (que ordena)
+        final_data = list(target_dict.items())
+
+        if update_file(target_filename, final_data):
+            if added_count > 0:
+                messagebox.showinfo(
+                    "Éxito",
+                    f"Sincronización completada.\nSe agregaron {added_count} items nuevos a '{target_filename}'.\nEl archivo ha sido ordenado.",
+                )
+
+            # Refrescar vista si el archivo afectado es uno de los que mostramos
+            if target_filename.endswith("bodegac.txt") or target_filename.endswith(
+                "local.txt"
+            ):
+                refresh_data()
+            else:
+                search()
+
+    except Exception as e:
+        messagebox.showerror("Error", f"Error al sincronizar: {e}")
+
+
+def open_cost_manager():
+    """Abre una ventana dedicada para gestionar los costos/valores de un archivo."""
+    target_filename = filedialog.askopenfilename(
+        title="Seleccionar archivo de Costos/Valores",
+        filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
+    )
+
+    if not target_filename:
+        return
+
+    # Crear ventana Toplevel
+    cost_window = tk.Toplevel(root)
+    cost_window.title(f"Gestor de Costos - {target_filename}")
+    cost_window.geometry("600x600")
+    cost_window.configure(bg="#f0f0f0")
+
+    # Variables locales para esta ventana
+    cost_data = parse_file(target_filename)
+
+    # --- UI del Gestor ---
+    frame_cost_search = tk.Frame(cost_window, bg="#f0f0f0", pady=10)
+    frame_cost_search.pack(fill=tk.X, padx=10)
+
+    entry_cost_search = tk.Entry(
+        frame_cost_search, font=("Helvetica", 12), relief="solid", borderwidth=1
+    )
+    entry_cost_search.pack(side=tk.LEFT, expand=True, fill=tk.X, padx=(0, 5))
+
+    # Treeview
+    tree_cost = ttk.Treeview(cost_window, columns=("Item", "Costo"), show="headings")
+    tree_cost.heading("Item", text="Item")
+    tree_cost.heading("Costo", text="Costo/Valor")
+    tree_cost.column("Item", width=400)
+    tree_cost.column("Costo", width=150, anchor=tk.CENTER)
+    tree_cost.pack(expand=True, fill=tk.BOTH, padx=10)
+
+    scrollbar_cost = ttk.Scrollbar(
+        cost_window, orient="vertical", command=tree_cost.yview
+    )
+    tree_cost.configure(yscrollcommand=scrollbar_cost.set)
+    scrollbar_cost.place(relx=1.0, rely=0.0, anchor="ne", height=600)  # Simplificado
+
+    # Frame de Edición (Abajo)
+    frame_cost_edit = tk.Frame(cost_window, bg="#e2e6ea", pady=15, padx=10)
+    frame_cost_edit.pack(fill=tk.X, side=tk.BOTTOM)
+
+    lbl_selected_item = tk.Label(
+        frame_cost_edit,
+        text="Seleccione un ítem",
+        font=("Helvetica", 10, "italic"),
+        bg="#e2e6ea",
+        fg="#555",
+    )
+    lbl_selected_item.pack(anchor="w", pady=(0, 5))
+
+    tk.Label(
+        frame_cost_edit,
+        text="Nuevo Costo:",
+        font=("Helvetica", 11, "bold"),
+        bg="#e2e6ea",
+    ).pack(side=tk.LEFT)
+
+    entry_new_cost = tk.Entry(frame_cost_edit, font=("Helvetica", 11), width=15)
+    entry_new_cost.pack(side=tk.LEFT, padx=10)
+
+    def filter_costs(*args):
+        search_text = entry_cost_search.get().strip().lower()
+        tree_cost.delete(*tree_cost.get_children())
+        for desc, val in cost_data:
+            if search_text in desc.lower():
+                tree_cost.insert("", tk.END, values=(desc, val))
+
+    entry_cost_search.bind("<KeyRelease>", filter_costs)
+
+    def on_cost_select(event):
+        selected = tree_cost.selection()
+        if selected:
+            item_vals = tree_cost.item(selected[0], "values")
+            lbl_selected_item.config(
+                text=item_vals[0], fg="black", font=("Helvetica", 10, "bold")
+            )
+            entry_new_cost.delete(0, tk.END)
+            entry_new_cost.insert(0, item_vals[1])
+            entry_new_cost.focus_set()  # Enfocar para edición rápida
+
+    tree_cost.bind("<<TreeviewSelect>>", on_cost_select)
+
+    def update_cost(event=None):
+        selected = tree_cost.selection()
+        if not selected:
+            return
+
+        new_val_str = entry_new_cost.get().strip()
+        if not new_val_str.isdigit():
+            messagebox.showerror(
+                "Error", "El costo debe ser un número entero.", parent=cost_window
+            )
+            return
+
+        new_val = int(new_val_str)
+        item_desc = tree_cost.item(selected[0], "values")[0]
+
+        # Actualizar datos en memoria
+        for i, (desc, val) in enumerate(cost_data):
+            if desc == item_desc:
+                cost_data[i] = (desc, new_val)
+                break
+
+        # Guardar en archivo
+        if update_file(target_filename, cost_data):
+            # Actualizar vista
+            filter_costs()
+            entry_new_cost.delete(0, tk.END)
+
+    def update_batch_cost():
+        """Actualiza el costo de TODOS los ítems actualmente filtrados/visibles en la lista."""
+        new_val_str = entry_new_cost.get().strip()
+        if not new_val_str.isdigit():
+            messagebox.showerror(
+                "Error", "El costo debe ser un número entero.", parent=cost_window
+            )
+            return
+        new_val = int(new_val_str)
+
+        # Obtener todos los ítems que están actualmente en el treeview (lista filtrada)
+        items_to_update = tree_cost.get_children()
+
+        if not items_to_update:
+            messagebox.showinfo(
+                "Info", "No hay ítems filtrados para actualizar.", parent=cost_window
+            )
+            return
+
+        count = len(items_to_update)
+        confirm = messagebox.askyesno(
+            "Confirmar Actualización Masiva",
+            f"¿Está seguro de que desea actualizar el costo a {new_val} para los {count} ítems listados?",
+            parent=cost_window,
+        )
+        if not confirm:
+            return
+
+        # Recopilar las descripciones de los ítems a actualizar
+        descriptions_to_update = set()
+        for item_id in items_to_update:
+            item_vals = tree_cost.item(item_id, "values")
+            descriptions_to_update.add(item_vals[0])
+
+        # Actualizar datos en memoria
+        for i, (desc, val) in enumerate(cost_data):
+            if desc in descriptions_to_update:
+                cost_data[i] = (desc, new_val)
+
+        # Guardar en archivo
+        if update_file(target_filename, cost_data):
+            filter_costs()
+            entry_new_cost.delete(0, tk.END)
+            messagebox.showinfo(
+                "Éxito",
+                f"Se actualizaron {count} ítems correctamente.",
+                parent=cost_window,
+            )
+
+    btn_update_cost = tk.Button(
+        frame_cost_edit,
+        text="Actualizar",
+        command=update_cost,
+        bg="#28a745",
+        fg="white",
+        font=("Helvetica", 10, "bold"),
+    )
+    btn_update_cost.pack(side=tk.LEFT)
+
+    # Nuevo Botón para Actualización por Lote
+    btn_update_batch = tk.Button(
+        frame_cost_edit,
+        text="Actualizar Lote",
+        command=update_batch_cost,
+        bg="#17a2b8",
+        fg="white",
+        font=("Helvetica", 10, "bold"),
+    )
+    btn_update_batch.pack(side=tk.LEFT, padx=(10, 0))
+
+    # Bind Enter key para agilidad (solo actualiza el seleccionado individualmente)
+    entry_new_cost.bind("<Return>", update_cost)
+
+    # Carga inicial
+    filter_costs()
 
 
 def transfer_quantity(direction):
@@ -661,6 +913,36 @@ button_normalize = tk.Button(
     activebackground="#e0a800",
 )
 button_normalize.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
+button_sync_local = tk.Button(
+    frame_search,
+    text="Exportar Local",
+    command=sync_local_to_other,
+    font=("Helvetica", 11, "bold"),
+    bg="#e2e6ea",
+    fg="black",
+    relief="flat",
+    padx=12,
+    activebackground="#dae0e5",
+    activeforeground="black",
+    borderwidth=0,
+)
+button_sync_local.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
+button_cost_manager = tk.Button(
+    frame_search,
+    text="Gestor de Costos",
+    command=open_cost_manager,
+    font=("Helvetica", 11, "bold"),
+    bg="#ffeeba",
+    fg="black",
+    relief="flat",
+    padx=12,
+    activebackground="#ffe8a1",
+    activeforeground="black",
+    borderwidth=0,
+)
+button_cost_manager.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg="#f0f0f0")

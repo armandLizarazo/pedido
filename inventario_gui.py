@@ -264,6 +264,7 @@ class GestorInventario:
     def __init__(self, archivo_inventario=None):
         self.archivo_inventario = archivo_inventario or "bodegac.txt"
         self.archivo_ventas = "registro_ventas.csv"
+        self.archivo_costos = "dbcst.txt"  # Nuevo archivo de costos
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
@@ -287,6 +288,67 @@ class GestorInventario:
             return stock_dict
         except Exception:
             return stock_dict
+
+    def obtener_costos_dict(self):
+        """Lee el archivo dbcst.txt y devuelve un diccionario {descripcion: costo}."""
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        ruta_archivo = os.path.join(script_dir, self.archivo_costos)
+        costos_dict = {}
+        if not os.path.exists(ruta_archivo):
+            return costos_dict
+
+        try:
+            with open(ruta_archivo, "r", encoding="utf-8") as f:
+                for linea in f:
+                    partes = linea.strip().rsplit(" ", 1)
+                    if len(partes) == 2:
+                        desc, costo_str = partes
+                        try:
+                            # Usamos float para costos, a diferencia de int para stock
+                            costos_dict[desc.strip()] = float(costo_str)
+                        except ValueError:
+                            continue
+            return costos_dict
+        except Exception:
+            return costos_dict
+
+    def actualizar_costo(self, descripcion, nuevo_costo):
+        """Actualiza o agrega el costo de un item en dbcst.txt."""
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        ruta_archivo = os.path.join(script_dir, self.archivo_costos)
+
+        if not os.path.exists(ruta_archivo):
+            with open(ruta_archivo, "w", encoding="utf-8") as f:
+                pass
+
+        try:
+            with open(ruta_archivo, "r", encoding="utf-8") as f:
+                lineas = f.readlines()
+
+            item_encontrado = False
+            descripcion_stripped = descripcion.strip()
+
+            for i, linea in enumerate(lineas):
+                partes = linea.strip().rsplit(" ", 1)
+                if len(partes) == 2:
+                    desc_archivo = partes[0].strip()
+                    if desc_archivo == descripcion_stripped:
+                        # Actualizar línea
+                        lineas[i] = f"    {descripcion_stripped} {nuevo_costo}\n"
+                        item_encontrado = True
+                        break
+
+            if not item_encontrado:
+                # Agregar nueva línea
+                lineas.append(f"    {descripcion_stripped} {nuevo_costo}\n")
+
+            with open(ruta_archivo, "w", encoding="utf-8") as f:
+                f.writelines(lineas)
+
+            return True
+        except Exception as e:
+            print(f"Error actualizando costos: {e}")
+            return False
 
     def obtener_pagos_electronicos_del_dia(self, fecha_str):
         total_electronico = 0.0
@@ -376,6 +438,9 @@ class GestorInventario:
     def crear_archivos_si_no_existen(self):
         if not os.path.exists(self.archivo_inventario):
             with open(self.archivo_inventario, "w", encoding="utf-8") as f:
+                pass
+        if not os.path.exists(self.archivo_costos):
+            with open(self.archivo_costos, "w", encoding="utf-8") as f:
                 pass
         if not os.path.exists(self.archivo_ventas):
             with open(self.archivo_ventas, "w", encoding="utf-8", newline="") as f:
@@ -1055,15 +1120,17 @@ class InventarioGUI:
 
         self.inventory_tree = ttk.Treeview(
             left_pane,
-            columns=("Linea", "Item", "CantLocal", "CantBodegaC"),
+            columns=("Linea", "Item", "Costo", "CantLocal", "CantBodegaC"),
             show="headings",
         )
         self.inventory_tree.heading("Linea", text="Línea")
         self.inventory_tree.heading("Item", text="Item")
+        self.inventory_tree.heading("Costo", text="Costo")
         self.inventory_tree.heading("CantLocal", text="Cant. Local")
         self.inventory_tree.heading("CantBodegaC", text="Cant. Bodega C")
         self.inventory_tree.column("Linea", width=60, anchor=tk.CENTER)
-        self.inventory_tree.column("Item", width=450)
+        self.inventory_tree.column("Item", width=350)
+        self.inventory_tree.column("Costo", width=100, anchor=tk.E)
         self.inventory_tree.column("CantLocal", width=100, anchor=tk.CENTER)
         self.inventory_tree.column("CantBodegaC", width=120, anchor=tk.CENTER)
         scrollbar = ttk.Scrollbar(
@@ -1310,7 +1377,9 @@ class InventarioGUI:
             payment_add_frame, values=payment_methods, state="readonly"
         )
         self.cart_medio_pago_combo.pack(fill=tk.X)
-        self.cart_medio_pago_combo.set("Efectivo")
+        # Limpiar selección de medio de pago al abrir
+        self.cart_medio_pago_combo.set("")
+
         ttk.Label(payment_add_frame, text="Monto $:").pack()
         self.cart_monto_pago_entry = ttk.Entry(payment_add_frame)
         self.cart_monto_pago_entry.pack(fill=tk.X)
@@ -1396,9 +1465,9 @@ class InventarioGUI:
             # Determinar qué cantidad mostrar para editar según el archivo activo
             archivo_actual = os.path.basename(self.gestor.archivo_inventario)
             if archivo_actual == "local.txt":
-                qty_to_edit = data[2]  # cant_local
+                qty_to_edit = data[3]  # cant_local está en índice 3 ahora
             else:  # bodegac.txt
-                qty_to_edit = data[3]  # cant_bodegac
+                qty_to_edit = data[4]  # cant_bodegac está en índice 4 ahora
 
             self.modify_desc_entry.insert(0, data[1])
             self.modify_cant_entry.insert(0, qty_to_edit)
@@ -1407,16 +1476,27 @@ class InventarioGUI:
         elif panel_type == "adjust":
             self.adjust_label.config(text=f"{data[1]}")  # data[1] is description
             self.adjust_stock_label.config(
-                text=f"Stock Local: {data[2]}  |  Stock Bodega: {data[3]}"
+                text=f"Stock Local: {data[3]}  |  Stock Bodega: {data[4]}"
             )
             self._switch_action_panel(self.adjust_panel, "Ajustar Stock")
         elif panel_type == "sale":
             self.sale_label.config(
-                text=f"Vender item:\n{data[1]}\n(Stock Local: {data[2]})"
+                text=f"Vender item:\n{data[1]}\n(Stock Local: {data[3]})"
             )
             self.sale_cant_entry.delete(0, tk.END)
             self.sale_costo_entry.delete(0, tk.END)
             self.sale_precio_entry.delete(0, tk.END)
+
+            # Pre-cargar costo si existe
+            costo_val = data[2]
+            if costo_val and costo_val != "No encontrado":
+                # Limpiar el símbolo de moneda si existe y convertir a string limpio
+                try:
+                    costo_limpio = str(costo_val).replace("$", "").replace(",", "")
+                    self.sale_costo_entry.insert(0, costo_limpio)
+                except:
+                    pass
+
             self._switch_action_panel(self.sale_panel, "Agregar a Venta")
             self.sale_cant_entry.focus_set()
         else:
@@ -1464,6 +1544,8 @@ class InventarioGUI:
         self.cart_cliente_entry.delete(0, tk.END)
         self.cart_contacto_entry.delete(0, tk.END)
         self.cart_monto_pago_entry.delete(0, tk.END)
+        # Limpiar selección de medio de pago al abrir
+        self.cart_medio_pago_combo.set("")
         self._cart_populate_items()
         self._cart_populate_pagos()
 
@@ -1504,7 +1586,9 @@ class InventarioGUI:
         if not values:
             return
 
-        linea, desc, cant_local, cant_bodega = values
+        # Actualizado para incluir columna Costo (índice 2)
+        # Indices: 0=Linea, 1=Item, 2=Costo, 3=Local, 4=Bodega
+        linea, desc, costo, cant_local, cant_bodega = values
 
         archivo_actual = os.path.basename(self.gestor.archivo_inventario)
 
@@ -1579,7 +1663,8 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        linea_num, desc, stock_local, stock_bodega = values
+        # Actualizado indices por columna Costo
+        linea_num, desc, costo_old, stock_local, stock_bodega = values
 
         try:
             cantidad = int(self.sale_cant_entry.get())
@@ -1600,6 +1685,9 @@ class InventarioGUI:
             )
             return
 
+        # Actualizar el archivo de costos si es necesario
+        self.gestor.actualizar_costo(desc, costo)
+
         item_data = {
             "linea_num": int(linea_num),
             "desc": desc,
@@ -1611,7 +1699,9 @@ class InventarioGUI:
         self.carrito.append(item_data)
         self.actualizar_vista_carrito()
         self.show_action_panel()
-        self.status_label_inv.config(text=f"'{desc}' agregado al carrito.")
+        self.status_label_inv.config(
+            text=f"'{desc}' agregado al carrito. Costo actualizado."
+        )
 
     def _cart_populate_items(self):
         for i in self.cart_tree.get_children():
@@ -1661,6 +1751,15 @@ class InventarioGUI:
 
     def _cart_add_pago(self):
         metodo = self.cart_medio_pago_combo.get()
+
+        # Validación estricta de medio de pago
+        if not metodo:
+            messagebox.showwarning(
+                "Falta Medio de Pago",
+                "Por favor seleccione un medio de pago antes de agregar.",
+            )
+            return
+
         try:
             monto = float(self.cart_monto_pago_entry.get())
             if monto <= 0:
@@ -1671,6 +1770,10 @@ class InventarioGUI:
 
         self.pagos_actuales.append({"metodo": metodo, "monto": monto})
         self.cart_monto_pago_entry.delete(0, tk.END)
+
+        # Limpiar selección para forzarla en el próximo pago
+        self.cart_medio_pago_combo.set("")
+
         self._cart_populate_pagos()
 
     def _cart_remove_item(self):
@@ -2475,6 +2578,9 @@ class InventarioGUI:
         stock_local = self.gestor.obtener_stock_dict("local.txt")
         stock_bodega_c = self.gestor.obtener_stock_dict("bodegac.txt")
 
+        # --- NUEVO: Cargar costos ---
+        costos_dict = self.gestor.obtener_costos_dict()
+
         # Leer el archivo activo para obtener la lista principal de items y los números de línea
         datos, errores = self.gestor.leer_datos()
         if errores:
@@ -2517,16 +2623,28 @@ class InventarioGUI:
             if mostrar:
                 cant_local_val = stock_local.get(desc, 0)
                 cant_bodega_c_val = stock_bodega_c.get(desc, 0)
+
+                # --- NUEVO: Obtener costo o indicar 'No encontrado' ---
+                costo_val = costos_dict.get(desc, "No encontrado")
+                if costo_val != "No encontrado":
+                    costo_display = f"${costo_val:,.2f}"
+                else:
+                    costo_display = "No encontrado"
+
                 self.inventory_tree.insert(
                     "",
                     tk.END,
-                    values=(linea_num, desc, cant_local_val, cant_bodega_c_val),
+                    values=(
+                        linea_num,
+                        desc,
+                        costo_display,
+                        cant_local_val,
+                        cant_bodega_c_val,
+                    ),
                 )
                 count += 1
 
         self.status_label_inv.config(text=f"Mostrando {count} de {len(datos)} ítems.")
-        # --- CORRECCIÓN: Se eliminó self.show_action_panel() ---
-        # Esto evita que se reinicie el panel al refrescar la lista.
 
     def populate_sales_treeview(self):
         for i in self.sales_tree.get_children():
@@ -2634,7 +2752,9 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        linea, desc, cant_local, cant_bodega = values
+        # Actualizado indices por columna Costo
+        # Indices: 0=Linea, 1=Item, 2=Costo, 3=Local, 4=Bodega
+        linea, desc, costo, cant_local, cant_bodega = values
         if messagebox.askyesno("Confirmar", f"¿Eliminar este ítem?\n\n{desc}"):
             success, msg = self.gestor.eliminar_linea(int(linea))
             if success:
