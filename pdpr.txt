@@ -2,6 +2,7 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Rca2Plug3.5 5
     Adaptador Tc Hub 8 en 1 1
+    Adaptador Tc2Hdmi Cbl 1
     Adaptador Union Plug 3.5 3
     Adpatador Vga2hdmi Cbl Cja 1
     Amplificador de Pantalla Curvo 1
@@ -36,7 +37,6 @@
     Extension 4m 1
     Forro Pc 16 Pulgadas 2
     Hydrolavadora Recargable 2
-    Lampara Esfera Sistema Solar 1
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Crosover Locura Crosover 1

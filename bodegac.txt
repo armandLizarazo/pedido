@@ -28,8 +28,8 @@
     Adaptador Hub 4 Puertos 3.0 1
     Adaptador Hub 7 Puertos 2.0 0
     Adaptador Hub 7 Puertos 3.0 0
-    Adaptador Hub Tc Usb X3 + Lan 0
     Adaptador Hub Tc Usb X3 0
+    Adaptador Hub Tc Usb X3 + Lan 0
     Adaptador Hub Tc Usb X4 1
     Adaptador Mdpp2Hdmi Cbl 1
     Adaptador Mdpp2Hdmi Negro Cbl 0
@@ -65,7 +65,7 @@
     Adaptador Tc Hub 8 en 1 0
     Adaptador Tc Sata 3.0 0
     Adaptador Tc a 3.5 4
-    Adaptador Tc2Hdmi Cbl 1
+    Adaptador Tc2Hdmi Cbl 0
     Adaptador Tc2Vga 0
     Adaptador Union Hdmi 0
     Adaptador Union Lan 0
@@ -249,8 +249,8 @@
     Cable Apple Iphone 4 0
     Cable Apple Tc A Tc 2M 3
     Cable Apple Tc A Tc 60w Aguja 2
-    Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc Ligthning 5
+    Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc a Tc 2
     Cable Apple Usb Ligthning 0
     Cable Apple Usb Ligthning 2M 0
@@ -270,8 +270,8 @@
     Cable Auxiliar 3 A 1 3M 4
     Cable Auxiliar Harvic 1 a 1 en L Cja 0
     Cable Belkin Ligthning 0
-    Cable Belkin Tc 2M 2
     Cable Belkin Tc 3
+    Cable Belkin Tc 2M 2
     Cable Belkin V8 10
     Cable Caterpillar Tc 5
     Cable Caterpillar Tc A Tc 0
@@ -552,8 +552,8 @@
     Control Gamer Gatillos H9.0 Ventilador 2
     Control Gamer Gatillos W11+ 0
     Control Gamer Gatillos Z-06 0
-    Control Gamer Microsoft Pc / 360 Alambrico 2
     Control Gamer Microsoft Pc 2
+    Control Gamer Microsoft Pc / 360 Alambrico 2
     Control Gamer Microsoft Xbox 360 Inalambrico 1
     Control Gamer Microsoft Xbox Caja Negra 0
     Control Gamer Microsoft Xbox Caja Negra Transparente 2
@@ -1352,8 +1352,8 @@
     Forro Space Apple Iphone 16 Pro 0
     Forro Space Apple Iphone 16 Pro Max 0
     Forro Space Apple Iphone 16e 1
-    Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
     Forro Space Apple Iphone 6 Plus 1
+    Forro Space Apple Iphone 6 Plus / 7 Plus / 8 Plus 0
     Forro Space Apple Iphone 6S 1
     Forro Space Apple Iphone 6S Plus 0
     Forro Space Apple Iphone 7 / 8 0
@@ -1417,8 +1417,8 @@
     Forro Space Motorola Moto G20 / Moto G30 1
     Forro Space Motorola Moto G23 0
     Forro Space Motorola Moto G24 / G04 3
-    Forro Space Motorola Moto G31 / G41 1
     Forro Space Motorola Moto G31 0
+    Forro Space Motorola Moto G31 / G41 1
     Forro Space Motorola Moto G35 0
     Forro Space Motorola Moto G52 0
     Forro Space Motorola Moto G54 1
@@ -1443,8 +1443,8 @@
     Forro Space Oppo Realme 13 Pro 0
     Forro Space Oppo Realme 15T 0
     Forro Space Oppo Realme C33 1
-    Forro Space Oppo Realme C53 / Note 50 0
     Forro Space Oppo Realme C53 1
+    Forro Space Oppo Realme C53 / Note 50 0
     Forro Space Oppo Realme C55 0
     Forro Space Oppo Realme C67 2
     Forro Space Oppo Realme C75 0
@@ -1948,8 +1948,8 @@
     Pacha Huawei Honor 9A / Enjoy 10E / Y6P 0
     Pacha Huawei Honor Magic 6 Lite Amoled 0
     Pacha Huawei Honor X6 / X6S 1
-    Pacha Huawei Honor X6A / X5B 0
     Pacha Huawei Honor X6A 0
+    Pacha Huawei Honor X6A / X5B 0
     Pacha Huawei Honor X6B 0
     Pacha Huawei Honor X6S 0
     Pacha Huawei Honor X7A 0
@@ -2096,8 +2096,8 @@
     Pacha Xiaomi Redmi 12C 0
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 1
-    Pacha Xiaomi Redmi 14C / Redmi A4 0
     Pacha Xiaomi Redmi 14C 0
+    Pacha Xiaomi Redmi 14C / Redmi A4 0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 0
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 1
@@ -4235,8 +4235,8 @@
     St Samsung Mantenimiento Logica de Carga A14 0
     St Soldar Cable Tarjeta 0
     St Xiaomi Frp Redmi 12 0
-    Switch Lan  GS-05 1/100/1000 0
     Switch Lan 0
+    Switch Lan  GS-05 1/100/1000 0
     Switch Lan 10/100 0
     Tablero Magico 0
     Tableta Kids TT-710 0
@@ -4325,8 +4325,8 @@
     Vidrio 5D Apple Iphone 12 Pro Max 6
     Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio 5D Apple Iphone 13 Pro Max 5
-    Vidrio 5D Apple Iphone 14 Pro / 15 / 15 Pro / 16 13
     Vidrio 5D Apple Iphone 14 Pro 0
+    Vidrio 5D Apple Iphone 14 Pro / 15 / 15 Pro / 16 13
     Vidrio 5D Apple Iphone 14 Pro Max 5
     Vidrio 5D Apple Iphone 15 Plus 4
     Vidrio 5D Apple Iphone 15 Pro Max 5
@@ -4362,8 +4362,8 @@
     Vidrio 5D Motorola Moto E6s / E6i 0
     Vidrio 5D Motorola Moto G14 / G54 / G55 0
     Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 14
-    Vidrio 5D Motorola Moto G22 / E32 0
     Vidrio 5D Motorola Moto G22 0
+    Vidrio 5D Motorola Moto G22 / E32 0
     Vidrio 5D Motorola Moto G40 0
     Vidrio 5D Motorola Moto G52 0
     Vidrio 5D Motorola Moto G8 Play 0
@@ -4432,15 +4432,15 @@
     Vidrio Antiespia Apple Iphone 12 0
     Vidrio Antiespia Apple Iphone 12 Mini 0
     Vidrio Antiespia Apple Iphone 12 Pro Max 2
-    Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio Antiespia Apple Iphone 13 0
+    Vidrio Antiespia Apple Iphone 13 / 13 Pro / 14 / 16E 5
     Vidrio Antiespia Apple Iphone 13 Mini 0
     Vidrio Antiespia Apple Iphone 13 Pro Max 9
     Vidrio Antiespia Apple Iphone 14 5
     Vidrio Antiespia Apple Iphone 14 Pro 5
     Vidrio Antiespia Apple Iphone 14 Pro Max 6
-    Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16 5
     Vidrio Antiespia Apple Iphone 15 5
+    Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16 5
     Vidrio Antiespia Apple Iphone 15 Plus / 15 Pro Max5 0
     Vidrio Antiespia Apple Iphone 15 Pro 0
     Vidrio Antiespia Apple Iphone 16 0
@@ -4453,8 +4453,8 @@
     Vidrio Antiespia Huawei Honor X7B 0
     Vidrio Antiespia Huawei Honor X8B 0
     Vidrio Antiespia Motorola Moto G04 / Moto G24 0
-    Vidrio Antiespia Motorola Moto G20 / G30 / G50 / G9 Play 0
     Vidrio Antiespia Motorola Moto G20 / G30 0
+    Vidrio Antiespia Motorola Moto G20 / G30 / G50 / G9 Play 0
     Vidrio Antiespia Motorola Moto G54 0
     Vidrio Antiespia Motorola Moto G84 0
     Vidrio Antiespia Samsung A05 / Redmi 13C 3
@@ -4472,12 +4472,12 @@
     Vidrio Antiespia Xiaomi Redmi 10 0
     Vidrio Antiespia Xiaomi Redmi 10C / 12C 7
     Vidrio Antiespia Xiaomi Redmi 12 3
-    Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 5
     Vidrio Antiespia Xiaomi Redmi 13C 0
+    Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 5
     Vidrio Antiespia Xiaomi Redmi 14C / A5 / A3 2
     Vidrio Antiespia Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 0
-    Vidrio Antiespia Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
     Vidrio Antiespia Xiaomi Redmi Note 12 5
+    Vidrio Antiespia Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
     Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 2
     Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 0
     Vidrio Blindado Apple Ip4Hone 14 Pro Max 0
@@ -4486,8 +4486,8 @@
     Vidrio Blindado Apple Iphone 12 / 12 Pro 0
     Vidrio Blindado Apple Iphone 12 Mini 0
     Vidrio Blindado Apple Iphone 12 Pro Max 0
-    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 10
+    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Blindado Apple Iphone 13 Mini 0
     Vidrio Blindado Apple Iphone 13 Pro Max 0
     Vidrio Blindado Apple Iphone 14 Pro / 15 / 15 Pro / 16 9
@@ -4554,8 +4554,8 @@
     Vidrio Ceramaico Vivo Y33s 0
     Vidrio Ceramico Apple Iphone 11 / Xr 0
     Vidrio Ceramico Apple Iphone 12 Mini 0
-    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 0
+    Vidrio Ceramico Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Ceramico Apple Iphone 14 Pro Max 5
     Vidrio Ceramico Apple Iphone 6 Plus 0
     Vidrio Ceramico Huawei Y9 Prime 0
@@ -4600,21 +4600,21 @@
     Vidrio Fullpega Xiaomi Huawei Magic 5 Lite 0
     Vidrio Fullpega Xiaomi Redmi Note 13 Pro Plus 0
     Vidrio Oppo A54 0
-    Vidrio Perlas Apple Iphone 11 / Xr 1
     Vidrio Perlas Apple Iphone 11 5
+    Vidrio Perlas Apple Iphone 11 / Xr 1
     Vidrio Perlas Apple Iphone 15 / 15 Pro / Iphone 16 0
     Vidrio Smart Watch 45 0
     Vidrio Templado Apple Iphone 16E 0
     Vidrio Templado Samsung S20 Fe / S21 Fe 0
-    Vidrio Tortuga Apple Iphone 11 / Xr 0
     Vidrio Tortuga Apple Iphone 11 0
+    Vidrio Tortuga Apple Iphone 11 / Xr 0
     Vidrio Tortuga Apple Iphone 11 Pro Max 0
     Vidrio Tortuga Apple Iphone 12 / 12 Pro 6
     Vidrio Tortuga Apple Iphone 12 Mini 0
     Vidrio Tortuga Apple Iphone 12 Pro Max 2
-    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 / 16E 0
-    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 6
     Vidrio Tortuga Apple Iphone 13 0
+    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 6
+    Vidrio Tortuga Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Tortuga Apple Iphone 13 Mini 0
     Vidrio Tortuga Apple Iphone 13 Pro Max 0
     Vidrio Tortuga Apple Iphone 14 Pro 0
@@ -4647,8 +4647,8 @@
     Vidrio Tortuga Samsung A31 0
     Vidrio Tortuga Samsung A35 / A36 / A55 0
     Vidrio Tortuga Samsung A54 / S23 Fe 0
-    Vidrio Tortuga Samsung A71 / Poco X3 0
     Vidrio Tortuga Samsung A71 0
+    Vidrio Tortuga Samsung A71 / Poco X3 0
     Vidrio Tortuga Tecno Spark 10 / 10C 0
     Vidrio Tortuga Tecno Spark 20 Pro 0
     Vidrio Tortuga Tecno Spark Go 2023 / Spark 10C / Smart 7 0

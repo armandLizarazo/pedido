@@ -65,7 +65,7 @@
     Adaptador Tc Hub 8 en 1 1
     Adaptador Tc Sata 3.0 1
     Adaptador Tc a 3.5 2
-    Adaptador Tc2Hdmi Cbl 0
+    Adaptador Tc2Hdmi Cbl 1
     Adaptador Tc2Vga 1
     Adaptador Union Hdmi 3
     Adaptador Union Lan 0
