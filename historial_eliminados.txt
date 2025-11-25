@@ -9530,3 +9530,60 @@ Fecha de proceso: 2025-11-20 14:42:28
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-25 06:32:28
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | Cable Usb Ligthning Eco 5 ok
+   29 | Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3 ok
+   30 | Forro Antichoque Huawei Honor X8 Caballero 2 ok
+   31 | Forro Antichoque Huawei Honor X8 Dama 2 ok
+   32 | Forro Antichoque Huawei Honor X8C Caballero 4 ok
+   33 | Forro Antichoque Huawei Honor X8C Dama 4 ok
+   47 | Forro Antichoque Samsung A05 Caballero 3 ok
+   48 | Forro Antichoque Samsung A05 Dama 2 ok
+   51 | Forro Antichoque Tecno Spark 40 4G Dama 5 ok
+   53 | Forro Antichoque Tecno Spark 40 Pro Dama 5 ok
+   55 | Forro Antichoque Tecno Spark 40C Dama 5 ok
+  100 | Forro Space Huawei Honor X8C 2 ok
+
+==================================================
+Fecha de proceso: 2025-11-25 06:32:28
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    9 | Antena Tdt 5M 3 ok
+   30 | cargador 5V 2A Doble Punta 3 ok
+   31 | Cargador 9V 2A Doble Punta 3 ok
+   52 | Reproductor Onn Hd Azul 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-25 06:32:28
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    4 | Pacha Motorola Moto One Fusion Plus 2 ok
+    6 | Pacha Samsung A05 1 ok
+    7 | Pacha Samsung A05S 1 ok
+    9 | Pacha Samsung A14 5G 1 ok
+   11 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   14 | Pacha Xiaomi Redmi 10C 1 ok
+   15 | Pacha Xiaomi Redmi A1 / A2 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-25 06:32:28
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

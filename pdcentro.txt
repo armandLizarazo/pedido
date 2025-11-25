@@ -6,13 +6,11 @@
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Pantalla Azul 1
     Cable Apple Usb Ligthning 2M 5
-    Cable Magnetico 3 en 1 2
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
     Cable Samsung Tc A Tc Blanco 2
     Cable Tc A Tc Eco 3
-    Cable Usb Ligthning Eco 5
-    Cable V8 Eco 5
+    Cable V8 Eco 5 
     Cargador 12V 2A Doble Punta 2
     Cargador 15V 2
     Cargador 5V 2A Doble Punta 3
@@ -26,10 +24,7 @@
     Cargador Samsung 45W Cabeza Blanco 2
     Forro Antichoque Cadena Infinix Hot 60 Pro Plus 3
     Forro Antichoque Cadena infinix Note 50S 4G 2
-    Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3
-    Forro Antichoque Huawei Honor X8 Caballero 2
-    Forro Antichoque Huawei Honor X8 Dama 3
-    Forro Antichoque Huawei Honor X9 Dama 3
+    Forro Antichoque Hawei Honor X9 Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Infinix Hot 60 Pro Plus Dama 5
@@ -43,15 +38,10 @@
     Forro Antichoque Oppo Realme C75 Caballero 5
     Forro Antichoque Oppo Realme C75 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Samsung A05 Caballero 3
-    Forro Antichoque Samsung A05 Dama 2
     Forro Antichoque Samsung A11 Dama 5
-    Forro Antichoque Tecno Spark 40 4G Caballero 4
-    Forro Antichoque Tecno Spark 40 4G Dama 5
+    Forro Antichoque Tecno Spark 40 4G Caballero 5 
     Forro Antichoque Tecno Spark 40 Pro Caballero 5
-    Forro Antichoque Tecno Spark 40 Pro Dama 2
     Forro Antichoque Tecno Spark 40C Caballero 5
-    Forro Antichoque Tecno Spark 40C Dama 5
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
@@ -123,7 +113,6 @@
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14S 2
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung J5 Negro 5
