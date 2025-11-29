@@ -152,14 +152,14 @@
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 200 Negro 1
-    Silicone Case Huawei Honor 400 Lite Amarillo 1
+    Silicone Case Huawei Honor 400 Lite Amarillo 1 ok
     Silicone Case Huawei Honor 400 Lite Azulrey 1
     Silicone Case Huawei Honor 400 Lite Fucsia 1
-    Silicone Case Huawei Honor 400 Lite Lila 1
+    Silicone Case Huawei Honor 400 Lite Lila 1 ok
     Silicone Case Huawei Honor 400 Lite Morado 1
     Silicone Case Huawei Honor 400 Lite Negro 1
-    Silicone Case Huawei Honor 400 Lite Rojo 1
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
+    Silicone Case Huawei Honor 400 Lite Rojo 1 ok
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1 ok
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1
     Silicone Case Huawei Honor X6 / X6s Rojo 1
     Silicone Case Huawei Honor X6B Fucsia 1
@@ -175,13 +175,13 @@
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Huawei Y9A Azul Rey 1
-    Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
+    Silicone Case Infinix Hot 50 Pro Plus Amarillo 1 ok
     Silicone Case Infinix Hot 50I / Smart 9 Rosa 1
-    Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
+    Silicone Case Infinix Hot 60 Pro Plus Amarillo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Lila 1
-    Silicone Case Infinix Note 40 Pro Lila 1
+    Silicone Case Infinix Note 40 Pro Lila 1 ok
     Silicone Case Iphone 11 Pro Max Amarillo 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 2
@@ -196,21 +196,21 @@
     Silicone Case Motorola Moto G22 Verde 1
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
-    Silicone Case Motorola Moto G55 Fucsia 1
-    Silicone Case Motorola Moto G72 Negro 1
+    Silicone Case Motorola Moto G55 Fucsia 1 ok
+    Silicone Case Motorola Moto G72 Negro 1 ok
     Silicone Case Motorola Moto G75 Amarillo 1
-    Silicone Case Motorola Moto G75 Amarillo Negro 1
+    Silicone Case Motorola Moto G75 Negro 1
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Motorola Moto G8 Power Lite Lila 1
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
-    Silicone Case Oppo A5 Amarillo 1
+    Silicone Case Oppo A5 Amarillo 1 ok
     Silicone Case Oppo A5 Lila 1
     Silicone Case Oppo A5 Rosa 1
-    Silicone Case Oppo A57 Lila 1
-    Silicone Case Oppo A78 4G Fucsia 1
+    Silicone Case Oppo A57 Lila 1 ok
+    Silicone Case Oppo A78 4G Fucsia 1 ok
     Silicone Case Oppo A78 4G Morado 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
@@ -225,14 +225,14 @@
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A04E Negro 1
     Silicone Case Samsung A10 Blanco 1
-    Silicone Case Samsung A15 Rosa 1
+    Silicone Case Samsung A15 Rosa 1 ok
     Silicone Case Samsung A17 Morado 1
     Silicone Case Samsung A20 / A30 Amarillo 1
     Silicone Case Samsung A22 4G Morado 1
     Silicone Case Samsung A22 5G Negro 1
-    Silicone Case Samsung A51 Negro 1
+    Silicone Case Samsung A51 Negro 1 ok
     Silicone Case Samsung A52 Lila 1
-    Silicone Case Samsung A52 Rojo 1
+    Silicone Case Samsung A52 Rojo 1 ok
     Silicone Case Samsung A55 Verdementa 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
@@ -337,8 +337,8 @@
     Vidrio 5D Motorola Moto E6s / E6i 5
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Xiaomi Redmi 10 5
-    Vidrio 5D Xiaomi Redmi 10C / 12C 10
+    Vidrio 5D Xiaomi Redmi 10 5 ok
+    Vidrio 5D Xiaomi Redmi 10C / 12C 10 ok
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
