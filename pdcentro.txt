@@ -1,19 +1,19 @@
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Conduccion Osea B-18 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
     Audifonos Bluetooth Sm I12 Blanco 2
-    Audifonos Bluetooth Sm I12 Negro 1
-    Audifonos Bluetooth Sm I12 Rosa 1
+    Audifonos Bluetooth Sm I12 Negro 3 ok
+    Audifonos Bluetooth Sm I12 Rosa 2
     Audifonos Bluetooth W I12 Negro 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 1
+    Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Y6 Blanco 2
     Balaca Appla P9 Azul 1
     Balaca Apple Airpods Max Negro 1.1 1
-    Balaca Pantalla Azul 1
+    Balaca Pantalla Azul 1 ok
     Cable Apple Usb Ligthning 2M 5
-    Cable Caterpillar Tc 3
+    Cable Caterpillar Tc 3 ok
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
     Cable Samsung Tc A Tc Blanco 2
@@ -100,7 +100,7 @@
     Forro Space Apple Iphone Xr 1
     Forro Space Huawei Honor X6C 2
     Forro Space Huawei Y9A 3
-    Forro Space Infinix Hot 50I / Smart 9 2
+    Forro Space Infinix Hot 50I / Smart 9 2 ok
     Forro Space Infinix Note 50s 2
     Forro Space Moto Edge 60 Fusion 2
     Forro Space Motorola Moto G50 1
@@ -119,7 +119,7 @@
     Forro Space Tecno Spark 40 4G 2
     Forro Space Tecno Spark 40 Pro 2
     Forro Space Tecno Spark 40C 2
-    Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
+    Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
     Forro Space Vivo Y04 2
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
@@ -130,17 +130,12 @@
     Manos Libres Samsung J5 Negro 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
-    Memoria Kingstone Usb 8Gb 3
+    Memoria Kingstone Usb 8Gb 3 ok
     Memoria Micro Sandisk 64Gb 1
-    Memoria Super 128 Gb 1
+    Memoria Super 128 Gb 1 ok
     Mouse Jertech Jr-1 Rojo 1
-    Pacha Oppo Reno 7 4G 1
-    Pacha Xiaomi Redmi 10C 1
     Parlante Ktf-1645 2
-    Patillera 3 En 1 2
-    Pilas Carbon Maxday Aaa X4 2
     Power Bank Aibimy 30000 Mah 1
-    Proyector Astronauta Bluetooth 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Blanco 1
     Silicone Case Apple Iphone 11 Lila 1
@@ -295,13 +290,14 @@
     Silicone Case Xiaomi Redmi 13C Fucsia 1
     Silicone Case Xiaomi Redmi 13C Negro 1
     Silicone Case Xiaomi Redmi 13C Rojo 1
-    Silicone Case Xiaomi Redmi 15 Amarillo 1
-    Silicone Case Xiaomi Redmi 15 Azulrey 1
+    Silicone Case Xiaomi Redmi 15 Amarillo 1 ok
+    Silicone Case Xiaomi Redmi 15 Azulrey 1 ok
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi 15 Lila 1
-    Silicone Case Xiaomi Redmi 15 Negro 1
-    Silicone Case Xiaomi Redmi 15 Rojo 1
-    Silicone Case Xiaomi Redmi 15 Rosa 1
+    Silicone Case Xiaomi Redmi 15 Negro 1 ok
+    Silicone Case Xiaomi Redmi 15 Rojo 1 ok
+    Silicone Case Xiaomi Redmi 15 Rosa 1 ok
+    Silicone Case Xiaomi Redmi 15 Morado 1 ok
     Silicone Case Xiaomi Redmi 15C Azulrey 1
     Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
