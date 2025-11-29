@@ -9587,3 +9587,83 @@ Fecha de proceso: 2025-11-25 06:32:28
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-26 09:45:08
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 42
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   14 | Vaper 10000 Puffs Mango 1 ok
+   15 | Vaper 10000 Puffs Frutosrojos 1 ok
+   65 | Forro Antichoque Tecno Spark 30 5G Caballero 5 ok
+  101 | Forro Space Oppo Reno 11F 2 ok
+  109 | Forro Space Tecno Spark 30 5G 1 ok
+  142 | Silicone Case Apple Iphone Xr Rojo 1 ok
+  168 | Silicone Case Huawei Honor 400 5G Lila 1 ok
+  169 | Silicone Case Huawei Honor 400 5G Rosa 1 ok
+  170 | Silicone Case Huawei Honor 400 5G Rojo 1 ok
+  171 | Silicone Case Huawei Honor 400 5G Negro 1 ok
+  212 | Silicone Case Samsung A07 Rojo 1 ok
+  213 | Silicone Case Samsung A07 Negro 1 ok
+  214 | Silicone Case Samsung A07 Amarillo 1 ok
+  216 | Silicone Case Samsung A12 Rojo 1 ok
+  217 | Silicone Case Samsung A16 Negro 1 ok
+  218 | Silicone Case Samsung A17 Amarillo 1 ok
+  219 | Silicone Case Samsung A17 Azulrey 1 ok
+  222 | Silicone Case Samsung A21S Rojo 1 ok
+  316 | Forro Space Apple Iphone 17 2 ok
+  317 | Forro Space Apple Iphone 17 Air 2 ok
+  318 | Forro Space Apple Iphone 17 Pro 2 ok
+  325 | Vidrio 5D Samsung A12 10 ok
+  326 | Vidrio 5D Samsung A21S 10 ok
+  328 | Vidrio 5D Samsung A71 / Poco X3 10 ok
+  331 | Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10 ok
+  332 | Vidrio 5D Xiaomi Redmi Note 8 10 ok
+  333 | Vidrio Titan Apple Iphone 16 Pro Max 3 ok
+  334 | Vidrio Titan Apple Iphone 15 Pro Max 3 ok
+  335 | Vidrio Blindado Apple Iphone 17 Pro Max 5 ok
+  336 | Silicone Case Apple Iphone 17 Pro Max Azulrey 1 ok
+  337 | Silicone Case Apple Iphone 17 Pro Max Negro 1 ok
+  338 | Silicone Case Apple Iphone 17 Pro Max Rojo 1 ok
+  339 | Silicone Case Apple Iphone 17 Pro Max Fucsia 1 ok
+  340 | Silicone Case Apple Iphone 17 Pro Max Azuloscuro 1 ok
+  341 | Vidrio Titan Apple Iphone 13 / 13 Pro / 14 / 16E 5 ok
+  342 | Vidrio Blindado Apple Iphone 17 Pro 5 ok
+  343 | Vidrio Blindado Apple Iphone 17 5 ok
+  344 | Vidrio Titan Apple Iphone 13 / 13 Pro / 14 / 16E 5 ok
+  345 | Vidrio Titan Samsung A71 / Poco X3 5 ok
+  346 | Vidrio Titan Xiaomi Redmi Note 12 5 ok
+  347 | Vidrio Titan Samsung A12 3 ok
+  348 | Vidrio Titan Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 3 ok
+
+==================================================
+Fecha de proceso: 2025-11-26 09:45:08
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-11-26 09:45:08
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Samsung S22 Original 1 ok
+    3 | Pacha Samsung A02 / A12 / M12 1 ok
+    4 | Pacha Samsung A13 / M13 / M23 1 ok
+    6 | Pacha Tecnoc Pova 4 / Neo 2 1 ok
+    7 | Pacha Vivo Y31 / Y51 / Y53S 1 ok
+    8 | Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 1 ok
+    9 | Pacha Motorola Moto E22 / E22i 2 ok
+   10 | Bateria Motorola Moto G24 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-26 09:45:08
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

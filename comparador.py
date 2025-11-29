@@ -1,12 +1,19 @@
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-from tkinter import filedialog  # Importación necesaria para seleccionar archivos
+from tkinter import filedialog
+import json
+import os
+
+# --- Constantes y Configuración ---
+RESTRICTIONS_FILE = "restricciones.json"
+DEFAULT_RESTRICTIONS = {
+    "pdcentro.txt": ["pacha"],
+    "pdpr.txt": ["pacha"],
+    "pdst.txt": [],
+}
 
 # --- Creación de archivos de ejemplo ---
-# Se crean los archivos bodegac.txt y local.txt con datos de ejemplo
-# si no existen. Esto es para que el programa se pueda ejecutar y probar
-# inmediatamente sin tener que crear los archivos manualmente.
 try:
     with open("bodegac.txt", "x", encoding="utf-8") as f:
         f.write("    TORNILLO CABEZA PLANA 1/4 100\n")
@@ -24,20 +31,46 @@ try:
         f.write("    ALICATE DE PUNTA 6 PULGADAS 20\n")
 
 except FileExistsError:
-    # Si los archivos ya existen, no se hace nada.
     pass
 
 # Variable global para almacenar el último término de búsqueda
 last_search_term = ""
+# Variable global para restricciones
+current_restrictions = {}
+
+# --- Funciones de Gestión de Restricciones ---
+
+
+def load_restrictions():
+    """Carga las restricciones desde el archivo JSON o usa las predeterminadas."""
+    global current_restrictions
+    if os.path.exists(RESTRICTIONS_FILE):
+        try:
+            with open(RESTRICTIONS_FILE, "r", encoding="utf-8") as f:
+                current_restrictions = json.load(f)
+        except json.JSONDecodeError:
+            current_restrictions = DEFAULT_RESTRICTIONS.copy()
+    else:
+        current_restrictions = DEFAULT_RESTRICTIONS.copy()
+        save_restrictions()  # Crear el archivo si no existe
+
+
+def save_restrictions():
+    """Guarda las restricciones actuales en el archivo JSON."""
+    try:
+        with open(RESTRICTIONS_FILE, "w", encoding="utf-8") as f:
+            json.dump(current_restrictions, f, indent=4)
+    except Exception as e:
+        messagebox.showerror("Error", f"No se pudieron guardar las restricciones: {e}")
+
+
+# Cargar restricciones al inicio
+load_restrictions()
 
 # --- Funciones Principales ---
 
 
 def parse_file(filename):
-    """
-    Lee un archivo de texto y extrae la descripción y la cantidad de cada línea.
-    Ignora las líneas que no siguen el formato esperado.
-    """
     data = []
     try:
         with open(filename, "r", encoding="utf-8") as f:
@@ -50,16 +83,13 @@ def parse_file(filename):
                         quantity = int(parts[1])
                         data.append((description, quantity))
     except FileNotFoundError:
-        # No mostramos error aquí para poder usarlo en funciones que verifican existencia
         pass
     return data
 
 
 def update_file(filename, data):
-    """Sobrescribe un archivo con los nuevos datos de inventario."""
     try:
         with open(filename, "w", encoding="utf-8") as f:
-            # Ordena los datos alfabéticamente antes de escribir
             sorted_data = sorted(data, key=lambda item: item[0])
             for description, quantity in sorted_data:
                 f.write(f"    {description} {quantity}\n")
@@ -73,10 +103,6 @@ def update_file(filename, data):
 
 
 def refresh_data():
-    """
-    Vuelve a cargar los datos de los archivos .txt y refresca la básqueda actual
-    sin borrar el texto del buscador.
-    """
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
@@ -87,23 +113,15 @@ def refresh_data():
 
 
 def on_item_select(event):
-    """
-    Se activa al seleccionar un item en una de las tablas de resultados.
-    Actualiza el cuadro de texto principal con el item seleccionado y
-    muestra las cantidades existentes en los pedidos de proveedores.
-    """
     widget = event.widget
-    # Determinar qué widget disparó el evento y cuál es el otro
     other_widget = tree_local if widget == tree_bodega else tree_bodega
 
-    # Deseleccionar cualquier item en la otra tabla para evitar confusión
     if other_widget.selection():
         other_widget.selection_remove(other_widget.selection())
 
-    # Obtener el item seleccionado
     selected_items = widget.selection()
     if not selected_items:
-        return  # Si se deselecciona, no hacer nada
+        return
 
     selected_item = selected_items[0]
     item_values = widget.item(selected_item, "values")
@@ -111,17 +129,12 @@ def on_item_select(event):
         return
 
     description = item_values[0]
-
-    # Actualizar el cuadro de búsqueda principal
     entry_search.delete(0, tk.END)
     entry_search.insert(0, description)
-
-    # Actualizar las cantidades de los proveedores para el item seleccionado
     update_provider_quantities(description)
 
 
 def update_provider_quantities(search_term):
-    """Busca un item específico en los archivos de proveedores y actualiza la UI."""
     provider_files = {
         "pdcentro.txt": pd_centro_qty_var,
         "pdpr.txt": pd_pr_qty_var,
@@ -138,23 +151,19 @@ def update_provider_quantities(search_term):
 
 
 def manual_search():
-    """Ejecuta una búsqueda y guarda el término de búsqueda manual."""
     global last_search_term
     last_search_term = entry_search.get().strip()
     search()
 
 
 def search():
-    """Busca coincidencias parciales del término de búsqueda y las muestra en las tablas."""
     search_term = entry_search.get().strip().lower()
 
-    # Limpiar resultados anteriores
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
     for item in tree_local.get_children():
         tree_local.delete(item)
 
-    # Resetear cantidades de proveedores
     pd_centro_qty_var.set("-")
     pd_pr_qty_var.set("-")
     pd_st_qty_var.set("-")
@@ -162,29 +171,21 @@ def search():
     if not search_term:
         return
 
-    # Buscar y mostrar coincidencias en bodega
     for description, quantity in data_bodega:
         if search_term in description.strip().lower():
             tree_bodega.insert("", tk.END, values=(description, quantity))
 
-    # Buscar y mostrar coincidencias en local
     for description, quantity in data_local:
         if search_term in description.strip().lower():
             tree_local.insert("", tk.END, values=(description, quantity))
 
 
 def normalize_files():
-    """
-    Compara ambos archivos y agrega los items faltantes en cada uno con cantidad 0.
-    """
     global data_bodega, data_local
-
     bodega_descs = {item[0] for item in data_bodega}
     local_descs = {item[0] for item in data_local}
-
     missing_in_local = bodega_descs - local_descs
     missing_in_bodega = local_descs - bodega_descs
-
     items_added = len(missing_in_local) + len(missing_in_bodega)
 
     if items_added > 0:
@@ -198,74 +199,84 @@ def normalize_files():
                 data_local.append((desc, 0))
             for desc in missing_in_bodega:
                 data_bodega.append((desc, 0))
-
             update_file("bodegac.txt", data_bodega)
             update_file("local.txt", data_local)
-
             data_bodega = parse_file("bodegac.txt")
             data_local = parse_file("local.txt")
-
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
             search()
-
             messagebox.showinfo(
                 "Éxito", "Los archivos han sido normalizados correctamente."
             )
     else:
-        messagebox.showinfo(
-            "Normalización",
-            "Los inventarios ya están sincronizados. No se requieren cambios.",
-        )
+        messagebox.showinfo("Normalización", "Los inventarios ya están sincronizados.")
 
 
 def sync_local_to_other():
-    """Sincroniza items de local.txt a otro archivo seleccionado."""
+    """Sincroniza items de local.txt a otro archivo seleccionado (agrega faltantes y ELIMINA sobrantes)."""
     target_filename = filedialog.askopenfilename(
         title="Seleccionar archivo para sincronizar desde Local",
         filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
     )
-
     if not target_filename:
         return
-
     try:
         # Leer origen (local)
         local_data = parse_file("local.txt")
         if not local_data:
-            messagebox.showwarning(
-                "Advertencia", "El archivo local.txt está vacío o no se pudo leer."
-            )
+            messagebox.showwarning("Advertencia", "El archivo local.txt está vacío.")
             return
 
-        local_items = {item[0] for item in local_data}
+        # Usamos un set para búsqueda rápida de ítems que DEBEN estar
+        local_items_set = {item[0] for item in local_data}
 
-        # Leer destino
+        # Leer destino (archivo de costos/proveedor)
         target_data = parse_file(target_filename)
-        # Convertir a diccionario para fácil acceso y preservar cantidades
+        # Diccionario para preservar los valores/costos actuales
         target_dict = {item[0]: item[1] for item in target_data}
 
-        added_count = 0
-        for item_desc in local_items:
-            if item_desc not in target_dict:
-                target_dict[item_desc] = 0
-                added_count += 1
+        # Calcular qué se va a agregar y qué se va a eliminar
+        items_in_target = set(target_dict.keys())
 
-        if added_count == 0:
+        items_to_add = local_items_set - items_in_target
+        items_to_remove = (
+            items_in_target - local_items_set
+        )  # Ítems en destino que NO están en local
+
+        count_add = len(items_to_add)
+        count_remove = len(items_to_remove)
+
+        if count_add == 0 and count_remove == 0:
             messagebox.showinfo(
                 "Sincronización",
-                f"El archivo '{target_filename}' ya contiene todos los items de local.txt.",
+                f"El archivo '{target_filename}' ya está perfectamente sincronizado con local.txt.",
             )
+            return  # No hace falta guardar si no hay cambios, aunque para ordenar podría ser útil.
 
-        # Convertir de nuevo a lista para usar update_file (que ordena)
-        final_data = list(target_dict.items())
+        # Mensaje de confirmación detallado
+        msg = f"Se actualizará '{target_filename}' basándose en 'local.txt'.\n\n"
+        msg += f"• Se agregarán: {count_add} ítems nuevos.\n"
+        msg += f"• Se ELIMINARÁN: {count_remove} ítems (que ya no existen en local.txt).\n\n"
+        msg += "¿Desea continuar? Los ítems eliminados se perderán permanentemente."
+
+        if not messagebox.askyesno("Confirmar Sincronización Estricta", msg):
+            return
+
+        # Construir la nueva lista de datos para el archivo destino
+        # Solo incluimos items que están en local.txt (esto efectúa la eliminación de los sobrantes)
+        final_data = []
+        for item_desc in local_items_set:
+            # Si existe en el destino, conservamos su valor (costo/cantidad)
+            # Si no existe, se agrega con 0
+            val = target_dict.get(item_desc, 0)
+            final_data.append((item_desc, val))
 
         if update_file(target_filename, final_data):
-            if added_count > 0:
-                messagebox.showinfo(
-                    "Éxito",
-                    f"Sincronización completada.\nSe agregaron {added_count} items nuevos a '{target_filename}'.\nEl archivo ha sido ordenado.",
-                )
+            messagebox.showinfo(
+                "Éxito",
+                f"Sincronización completada.\nEl archivo '{target_filename}' ahora refleja exactamente los ítems de 'local.txt'.",
+            )
 
             # Refrescar vista si el archivo afectado es uno de los que mostramos
             if target_filename.endswith("bodegac.txt") or target_filename.endswith(
@@ -280,51 +291,39 @@ def sync_local_to_other():
 
 
 def open_cost_manager():
-    """Abre una ventana dedicada para gestionar los costos/valores de un archivo."""
     target_filename = filedialog.askopenfilename(
         title="Seleccionar archivo de Costos/Valores",
         filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
     )
-
     if not target_filename:
         return
-
-    # Crear ventana Toplevel
     cost_window = tk.Toplevel(root)
     cost_window.title(f"Gestor de Costos - {target_filename}")
     cost_window.geometry("600x600")
     cost_window.configure(bg="#f0f0f0")
-
-    # Variables locales para esta ventana
     cost_data = parse_file(target_filename)
 
-    # --- UI del Gestor ---
     frame_cost_search = tk.Frame(cost_window, bg="#f0f0f0", pady=10)
     frame_cost_search.pack(fill=tk.X, padx=10)
-
     entry_cost_search = tk.Entry(
         frame_cost_search, font=("Helvetica", 12), relief="solid", borderwidth=1
     )
     entry_cost_search.pack(side=tk.LEFT, expand=True, fill=tk.X, padx=(0, 5))
 
-    # Treeview
     tree_cost = ttk.Treeview(cost_window, columns=("Item", "Costo"), show="headings")
     tree_cost.heading("Item", text="Item")
     tree_cost.heading("Costo", text="Costo/Valor")
     tree_cost.column("Item", width=400)
     tree_cost.column("Costo", width=150, anchor=tk.CENTER)
     tree_cost.pack(expand=True, fill=tk.BOTH, padx=10)
-
     scrollbar_cost = ttk.Scrollbar(
         cost_window, orient="vertical", command=tree_cost.yview
     )
     tree_cost.configure(yscrollcommand=scrollbar_cost.set)
-    scrollbar_cost.place(relx=1.0, rely=0.0, anchor="ne", height=600)  # Simplificado
+    scrollbar_cost.place(relx=1.0, rely=0.0, anchor="ne", height=600)
 
-    # Frame de Edición (Abajo)
     frame_cost_edit = tk.Frame(cost_window, bg="#e2e6ea", pady=15, padx=10)
     frame_cost_edit.pack(fill=tk.X, side=tk.BOTTOM)
-
     lbl_selected_item = tk.Label(
         frame_cost_edit,
         text="Seleccione un ítem",
@@ -333,14 +332,12 @@ def open_cost_manager():
         fg="#555",
     )
     lbl_selected_item.pack(anchor="w", pady=(0, 5))
-
     tk.Label(
         frame_cost_edit,
         text="Nuevo Costo:",
         font=("Helvetica", 11, "bold"),
         bg="#e2e6ea",
     ).pack(side=tk.LEFT)
-
     entry_new_cost = tk.Entry(frame_cost_edit, font=("Helvetica", 11), width=15)
     entry_new_cost.pack(side=tk.LEFT, padx=10)
 
@@ -362,7 +359,7 @@ def open_cost_manager():
             )
             entry_new_cost.delete(0, tk.END)
             entry_new_cost.insert(0, item_vals[1])
-            entry_new_cost.focus_set()  # Enfocar para edición rápida
+            entry_new_cost.focus_set()
 
     tree_cost.bind("<<TreeviewSelect>>", on_cost_select)
 
@@ -370,31 +367,23 @@ def open_cost_manager():
         selected = tree_cost.selection()
         if not selected:
             return
-
         new_val_str = entry_new_cost.get().strip()
         if not new_val_str.isdigit():
             messagebox.showerror(
                 "Error", "El costo debe ser un número entero.", parent=cost_window
             )
             return
-
         new_val = int(new_val_str)
         item_desc = tree_cost.item(selected[0], "values")[0]
-
-        # Actualizar datos en memoria
         for i, (desc, val) in enumerate(cost_data):
             if desc == item_desc:
                 cost_data[i] = (desc, new_val)
                 break
-
-        # Guardar en archivo
         if update_file(target_filename, cost_data):
-            # Actualizar vista
             filter_costs()
             entry_new_cost.delete(0, tk.END)
 
     def update_batch_cost():
-        """Actualiza el costo de TODOS los ítems actualmente filtrados/visibles en la lista."""
         new_val_str = entry_new_cost.get().strip()
         if not new_val_str.isdigit():
             messagebox.showerror(
@@ -402,81 +391,184 @@ def open_cost_manager():
             )
             return
         new_val = int(new_val_str)
-
-        # Obtener todos los ítems que están actualmente en el treeview (lista filtrada)
         items_to_update = tree_cost.get_children()
-
         if not items_to_update:
             messagebox.showinfo(
                 "Info", "No hay ítems filtrados para actualizar.", parent=cost_window
             )
             return
-
         count = len(items_to_update)
         confirm = messagebox.askyesno(
-            "Confirmar Actualización Masiva",
-            f"¿Está seguro de que desea actualizar el costo a {new_val} para los {count} ítems listados?",
+            "Confirmar",
+            f"¿Actualizar costo a {new_val} para {count} ítems?",
             parent=cost_window,
         )
         if not confirm:
             return
-
-        # Recopilar las descripciones de los ítems a actualizar
         descriptions_to_update = set()
         for item_id in items_to_update:
             item_vals = tree_cost.item(item_id, "values")
             descriptions_to_update.add(item_vals[0])
-
-        # Actualizar datos en memoria
         for i, (desc, val) in enumerate(cost_data):
             if desc in descriptions_to_update:
                 cost_data[i] = (desc, new_val)
-
-        # Guardar en archivo
         if update_file(target_filename, cost_data):
             filter_costs()
             entry_new_cost.delete(0, tk.END)
             messagebox.showinfo(
-                "Éxito",
-                f"Se actualizaron {count} ítems correctamente.",
-                parent=cost_window,
+                "Éxito", f"Se actualizaron {count} ítems.", parent=cost_window
             )
 
+    # BOTONES GESTOR DE COSTOS - CORREGIDOS
     btn_update_cost = tk.Button(
         frame_cost_edit,
         text="Actualizar",
         command=update_cost,
-        bg="#28a745",
-        fg="white",
+        bg="#a3e9a4",
+        fg="black",
         font=("Helvetica", 10, "bold"),
+        activebackground="black",
+        activeforeground="white",
     )
     btn_update_cost.pack(side=tk.LEFT)
 
-    # Nuevo Botón para Actualización por Lote
     btn_update_batch = tk.Button(
         frame_cost_edit,
         text="Actualizar Lote",
         command=update_batch_cost,
-        bg="#17a2b8",
-        fg="white",
+        bg="#a6e0eb",
+        fg="black",
         font=("Helvetica", 10, "bold"),
+        activebackground="black",
+        activeforeground="white",
     )
     btn_update_batch.pack(side=tk.LEFT, padx=(10, 0))
 
-    # Bind Enter key para agilidad (solo actualiza el seleccionado individualmente)
     entry_new_cost.bind("<Return>", update_cost)
-
-    # Carga inicial
     filter_costs()
 
 
+def open_restrictions_manager():
+    """Abre una ventana para gestionar las restricciones por archivo."""
+    res_window = tk.Toplevel(root)
+    res_window.title("Gestor de Restricciones")
+    res_window.geometry("500x400")
+    res_window.configure(bg="#f0f0f0")
+
+    # Selección de Archivo
+    frame_top = tk.Frame(res_window, bg="#f0f0f0", pady=10)
+    frame_top.pack(fill=tk.X, padx=10)
+    tk.Label(frame_top, text="Archivo:", font=("Helvetica", 11), bg="#f0f0f0").pack(
+        side=tk.LEFT
+    )
+
+    # Archivos conocidos + cualquier clave que ya exista en el JSON
+    known_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
+    all_files = sorted(list(set(known_files) | set(current_restrictions.keys())))
+
+    combo_files = ttk.Combobox(
+        frame_top, values=all_files, state="readonly", font=("Helvetica", 10)
+    )
+    combo_files.pack(side=tk.LEFT, padx=10, fill=tk.X, expand=True)
+    if all_files:
+        combo_files.current(0)
+
+    # Lista de Palabras Restringidas
+    frame_list = tk.Frame(res_window, bg="#f0f0f0", padx=10)
+    frame_list.pack(fill=tk.BOTH, expand=True)
+
+    listbox_res = tk.Listbox(frame_list, font=("Helvetica", 11))
+    listbox_res.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+
+    scrollbar_res = ttk.Scrollbar(
+        frame_list, orient="vertical", command=listbox_res.yview
+    )
+    listbox_res.configure(yscrollcommand=scrollbar_res.set)
+    scrollbar_res.pack(side=tk.RIGHT, fill=tk.Y)
+
+    def load_keywords_for_file(event=None):
+        filename = combo_files.get()
+        listbox_res.delete(0, tk.END)
+        if filename in current_restrictions:
+            for word in current_restrictions[filename]:
+                listbox_res.insert(tk.END, word)
+
+    combo_files.bind("<<ComboboxSelected>>", load_keywords_for_file)
+
+    # Controles de Agregar/Eliminar
+    frame_actions = tk.Frame(res_window, bg="#f0f0f0", pady=10)
+    frame_actions.pack(fill=tk.X, padx=10)
+
+    entry_new_res = tk.Entry(frame_actions, font=("Helvetica", 11), width=20)
+    entry_new_res.pack(side=tk.LEFT, padx=(0, 10))
+
+    def add_restriction():
+        filename = combo_files.get()
+        new_word = entry_new_res.get().strip().lower()
+        if not new_word:
+            return
+
+        if filename not in current_restrictions:
+            current_restrictions[filename] = []
+
+        if new_word not in current_restrictions[filename]:
+            current_restrictions[filename].append(new_word)
+            save_restrictions()
+            load_keywords_for_file()
+            entry_new_res.delete(0, tk.END)
+        else:
+            messagebox.showinfo(
+                "Info", "Esa palabra ya está restringida.", parent=res_window
+            )
+
+    def remove_restriction():
+        filename = combo_files.get()
+        selection = listbox_res.curselection()
+        if not selection:
+            return
+        word_to_remove = listbox_res.get(selection[0])
+
+        if (
+            filename in current_restrictions
+            and word_to_remove in current_restrictions[filename]
+        ):
+            current_restrictions[filename].remove(word_to_remove)
+            save_restrictions()
+            load_keywords_for_file()
+
+    # BOTONES GESTOR DE RESTRICCIONES - CORREGIDOS
+    btn_add_res = tk.Button(
+        frame_actions,
+        text="Agregar",
+        command=add_restriction,
+        bg="#a3e9a4",
+        fg="black",
+        font=("Helvetica", 10, "bold"),
+        activebackground="black",
+        activeforeground="white",
+    )
+    btn_add_res.pack(side=tk.LEFT)
+
+    btn_del_res = tk.Button(
+        frame_actions,
+        text="Eliminar",
+        command=remove_restriction,
+        bg="#ffb3b3",
+        fg="black",
+        font=("Helvetica", 10, "bold"),
+        activebackground="black",
+        activeforeground="white",
+    )
+    btn_del_res.pack(side=tk.RIGHT)
+
+    load_keywords_for_file()  # Carga inicial
+
+
 def transfer_quantity(direction):
-    """Mueve una cantidad de un item entre bodega y local."""
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
-            "Acción Requerida",
-            "Por favor, primero busque y seleccione un artículo.",
+            "Acción Requerida", "Por favor, primero busque y seleccione un artículo."
         )
         return
     try:
@@ -537,9 +629,7 @@ def transfer_quantity(direction):
             data_bodega.append((search_term, transfer_qty))
 
     if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
-        messagebox.showinfo(
-            "Éxito", f"Se trasladaron {transfer_qty} unidades de '{search_term}'."
-        )
+        messagebox.showinfo("Éxito", f"Se trasladaron {transfer_qty} unidades.")
         entry_transfer_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
@@ -547,12 +637,10 @@ def transfer_quantity(direction):
 
 
 def adjust_quantity(target, action):
-    """Agrega o quita unidades de un item en el archivo de origen."""
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
-            "Acción Requerida",
-            "Por favor, primero busque y seleccione un artículo.",
+            "Acción Requerida", "Por favor, primero busque y seleccione un artículo."
         )
         return
     try:
@@ -562,7 +650,7 @@ def adjust_quantity(target, action):
     except ValueError:
         messagebox.showerror(
             "Error de Entrada",
-            "Por favor, ingrese una cantidad numérica válida y positiva para el ajuste.",
+            "Por favor, ingrese una cantidad numérica válida y positiva.",
         )
         return
 
@@ -598,10 +686,7 @@ def adjust_quantity(target, action):
         action_text = "quitaron"
 
     if update_file(filename, data_list):
-        messagebox.showinfo(
-            "Éxito",
-            f"Se {action_text} {adjust_qty} unidades de '{search_term}' en {target}.",
-        )
+        messagebox.showinfo("Éxito", f"Se {action_text} {adjust_qty} unidades.")
         entry_adjust_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
@@ -609,16 +694,12 @@ def adjust_quantity(target, action):
 
 
 def create_new_item():
-    """Crea un nuevo item en ambos archivos con cantidad inicial de 0."""
     new_item_desc = entry_new_item.get().strip()
-
     if not new_item_desc:
         messagebox.showwarning(
             "Entrada Vacía", "El nombre del nuevo ítem no puede estar vacío."
         )
         return
-
-    # Comprobar si el item ya existe (insensible a mayúsculas/minúsculas)
     all_descriptions = {item[0].lower() for item in data_bodega} | {
         item[0].lower() for item in data_local
     }
@@ -627,23 +708,17 @@ def create_new_item():
             "Ítem Existente", f"El ítem '{new_item_desc}' ya existe en el inventario."
         )
         return
-
     confirm = messagebox.askyesno(
         "Confirmar Creación",
-        f"¿Desea crear el nuevo ítem '{new_item_desc}' en ambos inventarios con cantidad 0?",
+        f"¿Desea crear el nuevo ítem '{new_item_desc}' con cantidad 0?",
     )
-
     if confirm:
-        # Usamos el nombre tal como lo escribió el usuario para mantener el formato
         data_bodega.append((new_item_desc, 0))
         data_local.append((new_item_desc, 0))
-
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
-            messagebox.showinfo(
-                "Éxito", f"El ítem '{new_item_desc}' ha sido creado exitosamente."
-            )
+            messagebox.showinfo("Éxito", "El ítem ha sido creado exitosamente.")
             entry_new_item.delete(0, tk.END)
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
@@ -651,7 +726,6 @@ def create_new_item():
 
 
 def add_to_purchase_order(filename):
-    """Agrega un item y cantidad a un archivo de pedido de proveedor."""
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
@@ -659,32 +733,40 @@ def add_to_purchase_order(filename):
         )
         return
 
+    # --- VALIDACIÓN DE RESTRICCIONES (DINÁMICA) ---
+    if filename in current_restrictions:
+        for keyword in current_restrictions[filename]:
+            if keyword.lower() in search_term.lower():
+                messagebox.showwarning(
+                    "Restricción de Proveedor",
+                    f"No se permite agregar ítems con la palabra '{keyword.upper()}' a {filename}.",
+                )
+                return
+    # ---------------------------------------------
+
     try:
         pedido_qty = int(entry_pedido_qty.get())
         if pedido_qty <= 0:
             raise ValueError
     except ValueError:
         messagebox.showerror(
-            "Error de Entrada", "Por favor, ingrese una cantidad válida para el pedido."
+            "Error de Entrada", "Por favor, ingrese una cantidad válida."
         )
         return
 
     order_data = parse_file(filename)
-
     item_found_in_order = False
     for i, (desc, qty) in enumerate(order_data):
         if desc.strip().lower() == search_term.lower():
             order_data[i] = (desc, qty + pedido_qty)
             item_found_in_order = True
             break
-
     if not item_found_in_order:
         order_data.append((search_term, pedido_qty))
 
     if update_file(filename, order_data):
         messagebox.showinfo(
-            "Éxito",
-            f"Se agregaron {pedido_qty} unidades de '{search_term}' a {filename}.",
+            "Éxito", f"Se agregaron {pedido_qty} unidades a {filename}."
         )
         entry_pedido_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
@@ -693,35 +775,25 @@ def add_to_purchase_order(filename):
 
 
 def delete_item():
-    """Elimina un item de ambos archivos."""
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
-            "Acción Requerida",
-            "Por favor, primero busque y seleccione un artículo.",
+            "Acción Requerida", "Por favor, primero busque y seleccione un artículo."
         )
         return
-
     confirm = messagebox.askyesno(
-        "Confirmar Eliminación",
-        f"¿Está seguro de que desea eliminar '{search_term}' de ambos inventarios?\nEsta acción no se puede deshacer.",
+        "Confirmar Eliminación", f"¿Está seguro de que desea eliminar '{search_term}'?"
     )
-
     if confirm:
         global data_bodega, data_local
-
-        # Verificamos si el item existe antes de intentar eliminarlo
         item_exists = any(
             item[0].strip().lower() == search_term.lower() for item in data_bodega
         ) or any(item[0].strip().lower() == search_term.lower() for item in data_local)
-
         if not item_exists:
             messagebox.showinfo(
-                "No Encontrado",
-                f"El ítem '{search_term}' no se encontró en los inventarios.",
+                "No Encontrado", f"El ítem '{search_term}' no se encontró."
             )
             return
-
         data_bodega = [
             item
             for item in data_bodega
@@ -732,105 +804,75 @@ def delete_item():
             for item in data_local
             if item[0].strip().lower() != search_term.lower()
         ]
-
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
-            messagebox.showinfo(
-                "Éxito", f"El ítem '{search_term}' ha sido eliminado exitosamente."
-            )
+            messagebox.showinfo("Éxito", "El ítem ha sido eliminado exitosamente.")
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
             search()
 
 
 def edit_item():
-    """Edita la descripción de un item en los inventarios y archivos de pedidos."""
     global data_bodega, data_local
     old_desc = entry_search.get().strip()
     new_desc = entry_edit_item.get().strip()
-
     if not old_desc:
         messagebox.showwarning(
-            "Acción Requerida",
-            "Por favor, busque y seleccione un artículo para editar.",
+            "Acción Requerida", "Por favor, busque y seleccione un artículo."
         )
         return
-
     if not new_desc:
-        messagebox.showwarning(
-            "Entrada Vacía", "El nuevo nombre del ítem no puede estar vacío."
-        )
+        messagebox.showwarning("Entrada Vacía", "El nuevo nombre no puede estar vacío.")
         return
-
     if old_desc.lower() == new_desc.lower():
         messagebox.showinfo("Sin Cambios", "El nuevo nombre es igual al actual.")
         return
-
-    # Comprobamos que el nuevo nombre no exista ya
     all_descriptions = {item[0].lower() for item in data_bodega} | {
         item[0].lower() for item in data_local
     }
     if new_desc.lower() in all_descriptions:
         messagebox.showerror(
-            "Ítem Existente",
-            f"El ítem '{new_desc}' ya existe. Por favor elija otro nombre.",
+            "Ítem Existente", "El ítem ya existe. Por favor elija otro nombre."
         )
         return
-
     confirm = messagebox.askyesno(
-        "Confirmar Edición",
-        f"¿Desea renombrar '{old_desc}' a '{new_desc}' en los inventarios y en los archivos de pedidos donde exista?",
+        "Confirmar Edición", f"¿Desea renombrar '{old_desc}' a '{new_desc}'?"
     )
-
     if confirm:
         item_found_and_changed = False
-
-        # Actualizamos la lista de bodega
         for i, (desc, qty) in enumerate(data_bodega):
             if desc.strip().lower() == old_desc.lower():
                 data_bodega[i] = (new_desc, qty)
                 item_found_and_changed = True
                 break
-
-        # Actualizamos la lista de local
         for i, (desc, qty) in enumerate(data_local):
             if desc.strip().lower() == old_desc.lower():
                 data_local[i] = (new_desc, qty)
                 item_found_and_changed = True
                 break
-
         if not item_found_and_changed:
-            messagebox.showinfo(
-                "No Encontrado",
-                f"No se encontró '{old_desc}' en los inventarios principales.",
-            )
+            messagebox.showinfo("No Encontrado", "No se encontró el ítem.")
             return
 
-        # Actualizar archivos de proveedores
         provider_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
         for filename in provider_files:
             order_data = parse_file(filename)
             if not order_data:
                 continue
-
             item_found_in_order = False
             for i, (desc, qty) in enumerate(order_data):
                 if desc.strip().lower() == old_desc.lower():
                     order_data[i] = (new_desc, qty)
                     item_found_in_order = True
                     break
-
             if item_found_in_order:
                 update_file(filename, order_data)
 
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
-            messagebox.showinfo(
-                "Éxito",
-                f"El ítem ha sido renombrado a '{new_desc}' en todos los archivos correspondientes.",
-            )
+            messagebox.showinfo("Éxito", "El ítem ha sido renombrado.")
             entry_edit_item.delete(0, tk.END)
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
@@ -844,7 +886,7 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("850x970")
+root.geometry("900x970")  # Un poco más ancho para el nuevo botón
 root.configure(bg="#f0f0f0")
 
 # Variables para mostrar cantidades de pedidos
@@ -882,11 +924,12 @@ button_search = tk.Button(
     fg="black",
     relief="flat",
     padx=12,
-    activebackground="#b3d1ff",
-    activeforeground="black",
+    activebackground="black",
+    activeforeground="white",
     borderwidth=0,
 )
 button_search.pack(side=tk.LEFT, padx=(10, 0), ipady=3)
+
 button_refresh = tk.Button(
     frame_search,
     text="Refrescar",
@@ -896,11 +939,12 @@ button_refresh = tk.Button(
     fg="black",
     relief="flat",
     padx=12,
-    activebackground="#b3e0c7",
-    activeforeground="black",
+    activebackground="black",
+    activeforeground="white",
     borderwidth=0,
 )
 button_refresh.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
 button_normalize = tk.Button(
     frame_search,
     text="Normalizar",
@@ -910,7 +954,8 @@ button_normalize = tk.Button(
     fg="black",
     relief="flat",
     padx=12,
-    activebackground="#e0a800",
+    activebackground="black",
+    activeforeground="white",
 )
 button_normalize.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
@@ -923,26 +968,41 @@ button_sync_local = tk.Button(
     fg="black",
     relief="flat",
     padx=12,
-    activebackground="#dae0e5",
-    activeforeground="black",
+    activebackground="black",
+    activeforeground="white",
     borderwidth=0,
 )
 button_sync_local.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 button_cost_manager = tk.Button(
     frame_search,
-    text="Gestor de Costos",
+    text="Gestor Costos",
     command=open_cost_manager,
     font=("Helvetica", 11, "bold"),
     bg="#ffeeba",
     fg="black",
     relief="flat",
     padx=12,
-    activebackground="#ffe8a1",
-    activeforeground="black",
+    activebackground="black",
+    activeforeground="white",
     borderwidth=0,
 )
 button_cost_manager.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
+button_restrictions = tk.Button(
+    frame_search,
+    text="Restricciones",
+    command=open_restrictions_manager,
+    font=("Helvetica", 11, "bold"),
+    bg="#f8d7da",
+    fg="black",
+    relief="flat",
+    padx=12,
+    activebackground="black",
+    activeforeground="white",
+    borderwidth=0,
+)
+button_restrictions.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg="#f0f0f0")
@@ -974,7 +1034,6 @@ tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 # --- BINDINGS PARA SELECCIÓN ---
 tree_bodega.bind("<<TreeviewSelect>>", on_item_select)
 tree_local.bind("<<TreeviewSelect>>", on_item_select)
-
 
 # --- CONFIGURACIÓN DE TAGS PARA COLORES ---
 tree_bodega.tag_configure("not_found", foreground="red")
@@ -1106,7 +1165,8 @@ btn_add_bodega = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#8fcf90",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_add_bodega.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_remove_bodega = tk.Button(
@@ -1118,7 +1178,8 @@ btn_remove_bodega = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#ff9999",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_remove_bodega.pack(side=tk.LEFT, padx=(0, 5), ipady=2)
 btn_add_local = tk.Button(
@@ -1130,7 +1191,8 @@ btn_add_local = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#8fcf90",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_add_local.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_remove_local = tk.Button(
@@ -1142,7 +1204,8 @@ btn_remove_local = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#ff9999",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_remove_local.pack(side=tk.LEFT, ipady=2)
 
@@ -1177,7 +1240,8 @@ btn_to_local = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#e0a800",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_to_local.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_to_bodega = tk.Button(
@@ -1189,7 +1253,8 @@ btn_to_bodega = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#e0a800",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_to_bodega.pack(side=tk.LEFT, ipady=2)
 
@@ -1197,10 +1262,8 @@ btn_to_bodega.pack(side=tk.LEFT, ipady=2)
 frame_pedido = tk.Frame(main_frame, bg="#d1ecf1", pady=10, padx=10)
 frame_pedido.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 
-# Contenedor para la etiqueta y la entrada de cantidad
 pedido_input_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
 pedido_input_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20), anchor="n")
-
 tk.Label(
     pedido_input_frame,
     text="Agregar a Pedido:",
@@ -1208,7 +1271,6 @@ tk.Label(
     bg=frame_pedido["bg"],
     fg="#0c5460",
 ).pack(anchor="w")
-
 entry_pedido_container = tk.Frame(
     pedido_input_frame, relief="solid", borderwidth=1, bg="white"
 )
@@ -1223,11 +1285,10 @@ entry_pedido_qty = tk.Entry(
 )
 entry_pedido_qty.pack(ipady=2, padx=1, pady=1)
 
-# Contenedor para los proveedores
 providers_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
 providers_frame.pack(side=tk.LEFT)
 
-# --- Proveedor PD Centro ---
+# PD Centro
 pd_centro_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
 pd_centro_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_centro = tk.Button(
@@ -1239,7 +1300,8 @@ btn_pd_centro = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#8fcf90",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_pd_centro.pack(pady=(0, 2))
 tk.Label(
@@ -1256,7 +1318,7 @@ lbl_pd_centro_qty = tk.Label(
 )
 lbl_pd_centro_qty.pack()
 
-# --- Proveedor PD PR ---
+# PD PR
 pd_pr_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
 pd_pr_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_pr = tk.Button(
@@ -1268,7 +1330,8 @@ btn_pd_pr = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#8fbcff",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_pd_pr.pack(pady=(0, 2))
 tk.Label(
@@ -1285,8 +1348,7 @@ lbl_pd_pr_qty = tk.Label(
 )
 lbl_pd_pr_qty.pack()
 
-
-# --- Proveedor PD ST ---
+# PD ST
 pd_st_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
 pd_st_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_st = tk.Button(
@@ -1298,7 +1360,8 @@ btn_pd_st = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#b8b8b8",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_pd_st.pack(pady=(0, 2))
 tk.Label(
@@ -1314,6 +1377,5 @@ lbl_pd_st_qty = tk.Label(
     width=10,
 )
 lbl_pd_st_qty.pack()
-
 
 root.mainloop()

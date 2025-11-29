@@ -1,10 +1,11 @@
-    Bateria Samsung S22 Original 1 ok
+    Flex de Power Huawei Y9 Prime 1
     Flex de Power Oppo A15 1
-    Pacha Samsung A02 / A12 / M12 1 ok
-    Pacha Samsung A13 / M13 / M23 1 ok
+    Pacha Huawei Y7A 1
+    Pacha Oppo Reno 7 4G 1
+    Pacha Samsung A15 1
+    Pacha Samsung A22 4G C/m 1
     Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1
-    Pacha Tecnoc Pova 4 / Neo 2 1 ok
-    Pacha Vivo Y31 / Y51 / Y53S 1 ok
-    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 1 ok
-    Pacha Motorola Moto E22 / E22i 2 ok
-    Bateria Motorola Moto G24 1 ok
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 2
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
+    Pacha Vivo Y31 / Y33s / Y51 / Y53S 2
+    Pacha Xiaomi Redmi 12C 1

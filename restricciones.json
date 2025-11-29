@@ -1,0 +1,20 @@
+{
+    "pdcentro.txt": [
+        "pacha",
+        "flex de power",
+        "logica de carga"
+    ],
+    "pdpr.txt": [
+        "pacha",
+        "silicone",
+        "antichoque",
+        "flex de power",
+        "space"
+    ],
+    "pdst.txt": [
+        "silicone",
+        "vidrio",
+        "antichoque",
+        "space"
+    ]
+}

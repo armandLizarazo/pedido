@@ -101,8 +101,12 @@ class GestorCaja:
     def registrar_movimiento(self, tipo, descripcion, monto):
         try:
             monto_float = float(monto)
+            # Préstamos y Gastos son salidas (negativo)
             if tipo in ["Gasto", "Préstamo/Retiro"]:
                 monto_float = -abs(monto_float)
+            # Abonos a préstamos e Ingresos son entradas (positivo)
+            elif tipo in ["Abono/Ingreso", "Abono Préstamo"]:
+                monto_float = abs(monto_float)
 
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             with open(self.archivo_movimientos, "a", encoding="utf-8", newline="") as f:
@@ -193,6 +197,72 @@ class GestorCaja:
         except FileNotFoundError:
             return []
 
+    def obtener_resumen_prestamos(self):
+        """
+        Analiza todos los movimientos para calcular saldos de préstamos por persona (descripción).
+        """
+        resumen = {}
+        try:
+            with open(self.archivo_movimientos, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if not row or not row.get("Monto"):
+                        continue
+                    try:
+                        tipo = row.get("Tipo", "")
+                        persona = row.get("Descripcion", "").strip()
+                        monto = float(row.get("Monto", 0))
+                    except ValueError:
+                        continue
+
+                    if tipo == "Préstamo/Retiro" and monto < 0:
+                        if persona not in resumen:
+                            resumen[persona] = {
+                                "prestado": 0.0,
+                                "abonado": 0.0,
+                                "saldo": 0.0,
+                            }
+                        resumen[persona]["prestado"] += abs(monto)
+
+                    elif tipo == "Abono Préstamo":
+                        if persona not in resumen:
+                            resumen[persona] = {
+                                "prestado": 0.0,
+                                "abonado": 0.0,
+                                "saldo": 0.0,
+                            }
+                        resumen[persona]["abonado"] += abs(monto)
+
+            final = {}
+            for persona, datos in resumen.items():
+                saldo = datos["prestado"] - datos["abonado"]
+                datos["saldo"] = saldo
+                final[persona] = datos
+            return final
+        except FileNotFoundError:
+            return {}
+        except Exception as e:
+            print(f"Error calculando préstamos: {e}")
+            return {}
+
+    def obtener_historial_persona(self, nombre_persona):
+        historial = []
+        try:
+            with open(self.archivo_movimientos, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if not row or not row.get("Descripcion") or not row.get("Monto"):
+                        continue
+                    if (
+                        row["Descripcion"].strip().lower()
+                        == nombre_persona.strip().lower()
+                    ):
+                        if row["Tipo"] in ["Préstamo/Retiro", "Abono Préstamo"]:
+                            historial.append(row)
+            return historial
+        except:
+            return []
+
     def calcular_cuadre(
         self, fecha_str, pagos_electronicos, dinero_real_caja, total_ventas_dia
     ):
@@ -264,7 +334,7 @@ class GestorInventario:
     def __init__(self, archivo_inventario=None):
         self.archivo_inventario = archivo_inventario or "bodegac.txt"
         self.archivo_ventas = "registro_ventas.csv"
-        self.archivo_costos = "dbcst.txt"  # Nuevo archivo de costos
+        self.archivo_costos = "dbcst.txt"
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
@@ -290,7 +360,6 @@ class GestorInventario:
             return stock_dict
 
     def obtener_costos_dict(self):
-        """Lee el archivo dbcst.txt y devuelve un diccionario {descripcion: costo}."""
         script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
         ruta_archivo = os.path.join(script_dir, self.archivo_costos)
         costos_dict = {}
@@ -304,7 +373,6 @@ class GestorInventario:
                     if len(partes) == 2:
                         desc, costo_str = partes
                         try:
-                            # Usamos float para costos, a diferencia de int para stock
                             costos_dict[desc.strip()] = float(costo_str)
                         except ValueError:
                             continue
@@ -313,7 +381,6 @@ class GestorInventario:
             return costos_dict
 
     def actualizar_costo(self, descripcion, nuevo_costo):
-        """Actualiza o agrega el costo de un item en dbcst.txt."""
         script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
         ruta_archivo = os.path.join(script_dir, self.archivo_costos)
 
@@ -333,22 +400,42 @@ class GestorInventario:
                 if len(partes) == 2:
                     desc_archivo = partes[0].strip()
                     if desc_archivo == descripcion_stripped:
-                        # Actualizar línea
                         lineas[i] = f"    {descripcion_stripped} {nuevo_costo}\n"
                         item_encontrado = True
                         break
 
             if not item_encontrado:
-                # Agregar nueva línea
                 lineas.append(f"    {descripcion_stripped} {nuevo_costo}\n")
 
             with open(ruta_archivo, "w", encoding="utf-8") as f:
                 f.writelines(lineas)
-
             return True
         except Exception as e:
             print(f"Error actualizando costos: {e}")
             return False
+
+    def obtener_ultimo_precio(self, descripcion):
+        """Busca en el historial de ventas el último precio de venta unitario usado para este item."""
+        try:
+            if not os.path.exists(self.archivo_ventas):
+                return None
+
+            with open(self.archivo_ventas, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                all_rows = list(reader)
+
+            for row in reversed(all_rows):
+                if (
+                    len(row) > 5
+                    and row[2].strip().lower() == descripcion.strip().lower()
+                ):
+                    if row[5] == "PrecioUnitario":
+                        continue
+                    return row[5]
+            return None
+        except Exception as e:
+            print(f"Error buscando precio sugerido: {e}")
+            return None
 
     def obtener_pagos_electronicos_del_dia(self, fecha_str):
         total_electronico = 0.0
@@ -508,7 +595,6 @@ class GestorInventario:
             return False, f"Error procesando item {item_details['desc']}: {e}"
 
     def _restaurar_stock_item(self, descripcion, cantidad):
-        """Función auxiliar para sumar stock a un item en local.txt."""
         archivo_local = "local.txt"
         if not os.path.exists(archivo_local):
             return False, f"El archivo '{archivo_local}' no existe."
@@ -528,7 +614,7 @@ class GestorInventario:
                     item_encontrado = True
                     break
 
-            if not item_encontrado:  # Si el item fue borrado, se re-agrega
+            if not item_encontrado:
                 lineas.append(f"    {descripcion_stripped} {cantidad}\n")
 
             with open(archivo_local, "w", encoding="utf-8") as f:
@@ -544,7 +630,6 @@ class GestorInventario:
 
     def anular_venta(self, id_venta_anular):
         try:
-            # 1. Leer todas las líneas del CSV de forma segura
             try:
                 with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                     reader = csv.reader(f)
@@ -555,13 +640,11 @@ class GestorInventario:
             if not all_lines:
                 return False, "El registro de ventas está vacío."
 
-            # 2. Determinar si existe un encabezado y obtener los índices de las columnas
             header = all_lines[0]
             if "ID_Venta" in header:
                 has_header = True
                 start_index = 1
                 try:
-                    # Usar el encabezado para encontrar las columnas
                     id_venta_idx = header.index("ID_Venta")
                     desc_idx = header.index("Descripcion")
                     cant_idx = header.index("Cantidad")
@@ -576,27 +659,21 @@ class GestorInventario:
                         f"El encabezado del archivo de ventas es incorrecto. Falta la columna: {e}",
                     )
             else:
-                # Si no hay encabezado, usar índices fijos del formato antiguo
                 has_header = False
                 start_index = 0
                 id_venta_idx = 1
                 desc_idx = 2
                 cant_idx = 3
-                estado_idx = 11  # La columna de estado será la número 12 (índice 11)
+                estado_idx = 11
 
-            # 3. Procesar las líneas para anular la venta
             items_restaurados = []
             venta_encontrada = False
             changes_made = False
 
             for i in range(start_index, len(all_lines)):
                 row = all_lines[i]
-
-                # Asegurar que la fila tenga suficientes columnas
                 while len(row) <= estado_idx:
                     row.append("")
-
-                # Asignar estado por defecto si está vacío (para filas antiguas)
                 if not row[estado_idx]:
                     row[estado_idx] = "Completada"
 
@@ -623,9 +700,7 @@ class GestorInventario:
             if not venta_encontrada:
                 return False, "No se encontró la venta o ya estaba anulada."
 
-            # 4. Si se realizaron cambios, reescribir el archivo
             if changes_made:
-                # Si el archivo original no tenía encabezado, se agrega uno para migrarlo
                 if not has_header:
                     new_header = [
                         "Timestamp",
@@ -981,14 +1056,12 @@ class GestorInventario:
         try:
             if not os.path.exists(self.archivo_ventas):
                 return []
-            # Leer sin encabezado para la GUI, la anulación lo maneja internamente
             with open(self.archivo_ventas, "r", encoding="utf-8") as f:
                 reader = csv.reader(f)
-                # Omitir encabezado si existe
                 first_row = next(reader, None)
                 if first_row and "ID_Venta" in first_row:
                     return list(reader)
-                else:  # Si no hay encabezado, o no es el esperado, incluir la primera línea
+                else:
                     all_data = []
                     if first_row:
                         all_data.append(first_row)
@@ -1035,22 +1108,26 @@ class InventarioGUI:
         self.inventario_tab = ttk.Frame(self.notebook, padding="10")
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
         self.caja_tab = ttk.Frame(self.notebook, padding="10")
+        self.prestamos_tab = ttk.Frame(self.notebook, padding="10")  # Nueva pestaña
 
         self.notebook.add(self.inventario_tab, text="Gestión de Inventario")
         self.notebook.add(self.ventas_tab, text="Ventas y Análisis")
         self.notebook.add(self.caja_tab, text="Cuadre de Caja")
+        self.notebook.add(self.prestamos_tab, text="Gestión de Préstamos")
 
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
         self.crear_widgets_caja()
+        self.crear_widgets_prestamos()
 
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
         self.master.after(100, lambda: self.add_placeholder(None))
         self.cargar_estado_caja()
         self.actualizar_estado_botones_venta()
-        self.show_action_panel()  # Mostrar panel inicial
+        self.show_action_panel()
         self._populate_conteos_dropdown()
+        self.populate_prestamos_treeview()
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
@@ -1372,12 +1449,11 @@ class InventarioGUI:
             "Datafono",
             "Sistecredito",
             "Celya",
-        ]  # <-- Agregado "Celya"
+        ]
         self.cart_medio_pago_combo = ttk.Combobox(
             payment_add_frame, values=payment_methods, state="readonly"
         )
         self.cart_medio_pago_combo.pack(fill=tk.X)
-        # Limpiar selección de medio de pago al abrir
         self.cart_medio_pago_combo.set("")
 
         ttk.Label(payment_add_frame, text="Monto $:").pack()
@@ -1462,19 +1538,18 @@ class InventarioGUI:
             self.modify_desc_entry.delete(0, tk.END)
             self.modify_cant_entry.delete(0, tk.END)
 
-            # Determinar qué cantidad mostrar para editar según el archivo activo
             archivo_actual = os.path.basename(self.gestor.archivo_inventario)
             if archivo_actual == "local.txt":
-                qty_to_edit = data[3]  # cant_local está en índice 3 ahora
-            else:  # bodegac.txt
-                qty_to_edit = data[4]  # cant_bodegac está en índice 4 ahora
+                qty_to_edit = data[3]
+            else:
+                qty_to_edit = data[4]
 
             self.modify_desc_entry.insert(0, data[1])
             self.modify_cant_entry.insert(0, qty_to_edit)
             self._switch_action_panel(self.modify_panel, "Modificar Ítem")
             self.modify_desc_entry.focus_set()
         elif panel_type == "adjust":
-            self.adjust_label.config(text=f"{data[1]}")  # data[1] is description
+            self.adjust_label.config(text=f"{data[1]}")
             self.adjust_stock_label.config(
                 text=f"Stock Local: {data[3]}  |  Stock Bodega: {data[4]}"
             )
@@ -1484,26 +1559,32 @@ class InventarioGUI:
                 text=f"Vender item:\n{data[1]}\n(Stock Local: {data[3]})"
             )
             self.sale_cant_entry.delete(0, tk.END)
+            self.sale_cant_entry.insert(
+                0, "1"
+            )  # --- CAMBIO: Cantidad por defecto 1 ---
+
             self.sale_costo_entry.delete(0, tk.END)
             self.sale_precio_entry.delete(0, tk.END)
 
             # Pre-cargar costo si existe
             costo_val = data[2]
             if costo_val and costo_val != "No encontrado":
-                # Limpiar el símbolo de moneda si existe y convertir a string limpio
                 try:
                     costo_limpio = str(costo_val).replace("$", "").replace(",", "")
                     self.sale_costo_entry.insert(0, costo_limpio)
                 except:
                     pass
 
+            # --- CAMBIO: Pre-cargar precio sugerido ---
+            item_desc = data[1]
+            precio_sugerido = self.gestor.obtener_ultimo_precio(item_desc)
+            if precio_sugerido:
+                self.sale_precio_entry.insert(0, str(precio_sugerido))
+
             self._switch_action_panel(self.sale_panel, "Agregar a Venta")
             self.sale_cant_entry.focus_set()
         else:
-            # Si no hay selección en el treeview, muestra el placeholder
-            # Si hay selección, muestra el panel correspondiente (ajuste por defecto)
             if self.inventory_tree.selection():
-                # Esto es un fallback por si se llama sin argumentos pero hay selección
                 pass
             else:
                 self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
@@ -1544,7 +1625,6 @@ class InventarioGUI:
         self.cart_cliente_entry.delete(0, tk.END)
         self.cart_contacto_entry.delete(0, tk.END)
         self.cart_monto_pago_entry.delete(0, tk.END)
-        # Limpiar selección de medio de pago al abrir
         self.cart_medio_pago_combo.set("")
         self._cart_populate_items()
         self._cart_populate_pagos()
@@ -1586,13 +1666,10 @@ class InventarioGUI:
         if not values:
             return
 
-        # Actualizado para incluir columna Costo (índice 2)
-        # Indices: 0=Linea, 1=Item, 2=Costo, 3=Local, 4=Bodega
         linea, desc, costo, cant_local, cant_bodega = values
 
         archivo_actual = os.path.basename(self.gestor.archivo_inventario)
 
-        # Verificar stock antes de intentar restar
         if change == -1:
             try:
                 lineas = self.gestor._leer_lineas_archivo()
@@ -1609,10 +1686,8 @@ class InventarioGUI:
                 )
                 return
 
-        # --- Lógica de Negocio ---
         success = False
         msg = ""
-        # Caso 1: Restar de bodegac.txt (implica transferir a local.txt)
         if archivo_actual == "bodegac.txt" and change == -1:
             s_resta, m_resta = self.gestor.modificar_cantidad(int(linea), -1)
             if s_resta:
@@ -1621,39 +1696,27 @@ class InventarioGUI:
                     success = True
                     msg = "1 unidad restada de Bodega y transferida a Local."
                 else:
-                    # Revertir si la transferencia falla
                     self.gestor.modificar_cantidad(int(linea), +1)
                     success = False
                     msg = f"Error al transferir a local: {m_trans}"
             else:
                 success = False
                 msg = m_resta
-        # Caso 2: Todas las demás operaciones (agregar a bodegac, agregar/restar de local)
         else:
             success, msg = self.gestor.modificar_cantidad(int(linea), change)
 
-        # --- Actualización de la UI ---
         if success:
             yview_pos = self.inventory_tree.yview()
-
             self.populate_inventory_treeview()
-
-            # Re-seleccionar el item para mantener el contexto
             for iid in self.inventory_tree.get_children():
                 item_values = self.inventory_tree.item(iid, "values")
-                # Comparamos la descripción (item_values[1]) para encontrar el mismo item
                 if item_values[1] == desc:
                     self.inventory_tree.selection_set(iid)
-                    self.inventory_tree.focus(iid)  # Dar foco para teclado
-                    self.inventory_tree.see(iid)  # Asegurar que sea visible
-
-                    # Volver a obtener los valores actualizados para el panel
+                    self.inventory_tree.focus(iid)
+                    self.inventory_tree.see(iid)
                     new_values = self.inventory_tree.item(iid, "values")
-
-                    # IMPORTANTE: Forzar la actualización del panel sin cerrarlo
                     self.show_action_panel("adjust", data=new_values)
                     break
-
             self.inventory_tree.yview_moveto(yview_pos[0])
             self.status_label_inv.config(text="Stock actualizado.")
         else:
@@ -1663,7 +1726,6 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        # Actualizado indices por columna Costo
         linea_num, desc, costo_old, stock_local, stock_bodega = values
 
         try:
@@ -1685,7 +1747,6 @@ class InventarioGUI:
             )
             return
 
-        # Actualizar el archivo de costos si es necesario
         self.gestor.actualizar_costo(desc, costo)
 
         item_data = {
@@ -1752,7 +1813,6 @@ class InventarioGUI:
     def _cart_add_pago(self):
         metodo = self.cart_medio_pago_combo.get()
 
-        # Validación estricta de medio de pago
         if not metodo:
             messagebox.showwarning(
                 "Falta Medio de Pago",
@@ -1770,10 +1830,7 @@ class InventarioGUI:
 
         self.pagos_actuales.append({"metodo": metodo, "monto": monto})
         self.cart_monto_pago_entry.delete(0, tk.END)
-
-        # Limpiar selección para forzarla en el próximo pago
         self.cart_medio_pago_combo.set("")
-
         self._cart_populate_pagos()
 
     def _cart_remove_item(self):
@@ -1892,6 +1949,10 @@ class InventarioGUI:
         linea_2_filtros.pack(fill=tk.X, pady=(5, 0))
 
         ttk.Label(linea_1_filtros, text="Desde:").pack(side=tk.LEFT, padx=(0, 5))
+
+        # --- CAMBIO: Fecha por defecto HOY ---
+        today_str = datetime.now().strftime("%Y-%m-%d")
+
         if TKCALENDAR_AVAILABLE:
             self.filtro_fecha_desde = DateEntry(
                 linea_1_filtros,
@@ -1902,10 +1963,11 @@ class InventarioGUI:
                 date_pattern="y-mm-dd",
             )
             self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10))
-            self.filtro_fecha_desde.delete(0, "end")
+            self.filtro_fecha_desde.set_date(datetime.now())  # Set default date
         else:
             self.filtro_fecha_desde = ttk.Entry(linea_1_filtros)
             self.filtro_fecha_desde.pack(side=tk.LEFT, padx=(0, 10))
+            self.filtro_fecha_desde.insert(0, today_str)
 
         ttk.Label(linea_1_filtros, text="Hasta:").pack(side=tk.LEFT, padx=(0, 5))
         if TKCALENDAR_AVAILABLE:
@@ -1918,10 +1980,11 @@ class InventarioGUI:
                 date_pattern="y-mm-dd",
             )
             self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10))
-            self.filtro_fecha_hasta.delete(0, "end")
+            self.filtro_fecha_hasta.set_date(datetime.now())  # Set default date
         else:
             self.filtro_fecha_hasta = ttk.Entry(linea_1_filtros)
             self.filtro_fecha_hasta.pack(side=tk.LEFT, padx=(0, 10))
+            self.filtro_fecha_hasta.insert(0, today_str)
 
         ttk.Label(linea_1_filtros, text="Descripción o ID Venta:").pack(
             side=tk.LEFT, padx=(10, 5)
@@ -1952,7 +2015,6 @@ class InventarioGUI:
         )
         self.btn_ver_recibo.pack(side=tk.LEFT, padx=10)
 
-        # --- NUEVO BOTÓN ANULAR ---
         style_anular = ttk.Style()
         style_anular.configure("Anular.TButton", foreground="white", background="red")
         self.btn_anular_venta = ttk.Button(
@@ -1963,7 +2025,6 @@ class InventarioGUI:
             style="Anular.TButton",
         )
         self.btn_anular_venta.pack(side=tk.LEFT, padx=10)
-        # --- FIN ---
 
         self.lbl_total_items = ttk.Label(
             analisis_frame, text="Items Vendidos: 0", font=("Helvetica", 10, "bold")
@@ -1999,9 +2060,7 @@ class InventarioGUI:
         self.sales_tree = ttk.Treeview(
             historial_frame, columns=columnas, show="headings"
         )
-        self.sales_tree.tag_configure(
-            "anulada", foreground="gray"
-        )  # Estilo para ventas anuladas
+        self.sales_tree.tag_configure("anulada", foreground="gray")
         for col in columnas:
             self.sales_tree.heading(
                 col,
@@ -2270,6 +2329,206 @@ class InventarioGUI:
             conteo_btn_frame, text="Nuevo", command=self._limpiar_campos_conteo
         ).pack(side=tk.LEFT, expand=True, padx=2)
 
+    # --- NUEVA FUNCIONALIDAD: GESTIÓN DE PRÉSTAMOS ---
+    def crear_widgets_prestamos(self):
+        main_pane = ttk.PanedWindow(self.prestamos_tab, orient=tk.HORIZONTAL)
+        main_pane.pack(fill=tk.BOTH, expand=True)
+
+        left_frame = ttk.Frame(main_pane)
+        main_pane.add(left_frame, weight=3)
+
+        right_frame = ttk.Frame(main_pane)
+        main_pane.add(right_frame, weight=1)
+
+        # ---- Lado Izquierdo: Lista de Deudores ----
+        ttk.Label(
+            left_frame,
+            text="Resumen de Préstamos Activos",
+            font=("Helvetica", 12, "bold"),
+        ).pack(pady=10)
+
+        columns = ("Persona", "Prestado", "Abonado", "Saldo")
+        self.prestamos_tree = ttk.Treeview(left_frame, columns=columns, show="headings")
+        self.prestamos_tree.heading("Persona", text="Deudor")
+        self.prestamos_tree.heading("Prestado", text="Total Prestado")
+        self.prestamos_tree.heading("Abonado", text="Total Abonado")
+        self.prestamos_tree.heading("Saldo", text="Saldo Pendiente")
+
+        self.prestamos_tree.column("Persona", width=200)
+        self.prestamos_tree.column("Prestado", width=100, anchor=tk.E)
+        self.prestamos_tree.column("Abonado", width=100, anchor=tk.E)
+        self.prestamos_tree.column("Saldo", width=100, anchor=tk.E)
+
+        self.prestamos_tree.pack(fill=tk.BOTH, expand=True, padx=10, pady=5)
+        self.prestamos_tree.bind("<<TreeviewSelect>>", self.on_prestamo_select)
+
+        ttk.Button(
+            left_frame,
+            text="Actualizar Lista",
+            command=self.populate_prestamos_treeview,
+        ).pack(pady=5)
+
+        # ---- Lado Derecho: Acciones ----
+        actions_frame = ttk.LabelFrame(right_frame, text="Acciones", padding=10)
+        actions_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
+
+        # Nuevo Préstamo
+        ttk.Label(
+            actions_frame, text="Nuevo Préstamo:", font=("Helvetica", 10, "bold")
+        ).pack(anchor="w", pady=(0, 5))
+        ttk.Label(actions_frame, text="Nombre Deudor:").pack(anchor="w")
+        self.nuevo_prestamo_nombre = ttk.Entry(actions_frame)
+        self.nuevo_prestamo_nombre.pack(fill=tk.X, pady=2)
+        ttk.Label(actions_frame, text="Monto a Prestar ($):").pack(anchor="w")
+        self.nuevo_prestamo_monto = ttk.Entry(actions_frame)
+        self.nuevo_prestamo_monto.pack(fill=tk.X, pady=2)
+        ttk.Button(
+            actions_frame,
+            text="Registrar Préstamo",
+            command=self.registrar_nuevo_prestamo,
+        ).pack(fill=tk.X, pady=5)
+
+        ttk.Separator(actions_frame, orient="horizontal").pack(fill="x", pady=15)
+
+        # Registrar Abono
+        self.lbl_abono_persona = ttk.Label(
+            actions_frame,
+            text="Abonar a: Seleccione...",
+            font=("Helvetica", 10, "bold"),
+        )
+        self.lbl_abono_persona.pack(anchor="w", pady=(0, 5))
+
+        ttk.Label(actions_frame, text="Monto Abono ($):").pack(anchor="w")
+        self.abono_monto_entry = ttk.Entry(actions_frame)
+        self.abono_monto_entry.pack(fill=tk.X, pady=2)
+
+        self.btn_registrar_abono = ttk.Button(
+            actions_frame,
+            text="Registrar Abono",
+            command=self.registrar_abono_prestamo,
+            state="disabled",
+        )
+        self.btn_registrar_abono.pack(fill=tk.X, pady=5)
+
+        ttk.Separator(actions_frame, orient="horizontal").pack(fill="x", pady=15)
+
+        # Historial
+        self.btn_ver_historial_prestamo = ttk.Button(
+            actions_frame,
+            text="Ver Historial Detallado",
+            command=self.ver_historial_prestamo,
+            state="disabled",
+        )
+        self.btn_ver_historial_prestamo.pack(fill=tk.X, pady=5)
+
+    def populate_prestamos_treeview(self):
+        for i in self.prestamos_tree.get_children():
+            self.prestamos_tree.delete(i)
+
+        resumen = self.gestor_caja.obtener_resumen_prestamos()
+
+        for persona, datos in resumen.items():
+            # Solo mostrar si tiene historial relevante (prestado > 0 o saldo != 0)
+            if datos["prestado"] > 0 or datos["saldo"] != 0:
+                self.prestamos_tree.insert(
+                    "",
+                    tk.END,
+                    values=(
+                        persona,
+                        f"${datos['prestado']:,.2f}",
+                        f"${datos['abonado']:,.2f}",
+                        f"${datos['saldo']:,.2f}",
+                    ),
+                )
+
+    def on_prestamo_select(self, event):
+        selected = self.prestamos_tree.selection()
+        if selected:
+            item = self.prestamos_tree.item(selected[0])
+            nombre = item["values"][0]
+            self.lbl_abono_persona.config(text=f"Abonar a: {nombre}")
+            self.btn_registrar_abono.config(state="normal")
+            self.btn_ver_historial_prestamo.config(state="normal")
+            self.seleccion_prestamo_actual = nombre
+        else:
+            self.lbl_abono_persona.config(text="Abonar a: Seleccione...")
+            self.btn_registrar_abono.config(state="disabled")
+            self.btn_ver_historial_prestamo.config(state="disabled")
+            self.seleccion_prestamo_actual = None
+
+    def registrar_nuevo_prestamo(self):
+        nombre = self.nuevo_prestamo_nombre.get().strip()
+        monto = self.nuevo_prestamo_monto.get().strip()
+
+        if not nombre or not monto:
+            messagebox.showerror("Error", "Debe ingresar nombre y monto.")
+            return
+
+        success, msg = self.gestor_caja.registrar_movimiento(
+            "Préstamo/Retiro", nombre, monto
+        )
+        if success:
+            messagebox.showinfo("Éxito", "Préstamo registrado correctamente.")
+            self.nuevo_prestamo_nombre.delete(0, tk.END)
+            self.nuevo_prestamo_monto.delete(0, tk.END)
+            self.populate_prestamos_treeview()
+            self.cargar_movimientos_hoy()  # Actualizar también la pestaña de Caja
+        else:
+            messagebox.showerror("Error", msg)
+
+    def registrar_abono_prestamo(self):
+        if (
+            not hasattr(self, "seleccion_prestamo_actual")
+            or not self.seleccion_prestamo_actual
+        ):
+            return
+
+        monto = self.abono_monto_entry.get().strip()
+        if not monto:
+            messagebox.showerror("Error", "Debe ingresar un monto.")
+            return
+
+        success, msg = self.gestor_caja.registrar_movimiento(
+            "Abono Préstamo", self.seleccion_prestamo_actual, monto
+        )
+        if success:
+            messagebox.showinfo("Éxito", "Abono registrado correctamente.")
+            self.abono_monto_entry.delete(0, tk.END)
+            self.populate_prestamos_treeview()
+            self.cargar_movimientos_hoy()  # Actualizar también la pestaña de Caja
+        else:
+            messagebox.showerror("Error", msg)
+
+    def ver_historial_prestamo(self):
+        if (
+            not hasattr(self, "seleccion_prestamo_actual")
+            or not self.seleccion_prestamo_actual
+        ):
+            return
+
+        nombre = self.seleccion_prestamo_actual
+        historial = self.gestor_caja.obtener_historial_persona(nombre)
+
+        win = tk.Toplevel(self.master)
+        win.title(f"Historial de {nombre}")
+        win.geometry("500x400")
+
+        tree = ttk.Treeview(win, columns=("Fecha", "Tipo", "Monto"), show="headings")
+        tree.heading("Fecha", text="Fecha")
+        tree.heading("Tipo", text="Tipo")
+        tree.heading("Monto", text="Monto")
+
+        tree.column("Fecha", width=150)
+        tree.column("Tipo", width=150)
+        tree.column("Monto", width=100, anchor=tk.E)
+        tree.pack(fill=tk.BOTH, expand=True)
+
+        for mov in historial:
+            monto_fmt = f"${float(mov['Monto']):,.2f}"
+            tree.insert("", tk.END, values=(mov["Timestamp"], mov["Tipo"], monto_fmt))
+
+    # --- Métodos recuperados del corte anterior ---
+
     def _update_conteo_total(self, event=None):
         total = 0.0
         try:
@@ -2428,6 +2687,7 @@ class InventarioGUI:
             if success:
                 messagebox.showinfo("Éxito", msg)
                 self.cargar_movimientos_hoy()
+                self.populate_prestamos_treeview()
             else:
                 messagebox.showerror("Error", msg)
         else:
@@ -2488,6 +2748,8 @@ class InventarioGUI:
             self.mov_desc_entry.delete(0, tk.END)
             self.mov_monto_entry.delete(0, tk.END)
             self.cargar_movimientos_hoy()
+            if tipo == "Préstamo/Retiro":
+                self.populate_prestamos_treeview()
         else:
             messagebox.showerror("Error", msg)
 
@@ -2570,23 +2832,17 @@ class InventarioGUI:
                     messagebox.showerror("Error al Guardar", msg)
 
     def populate_inventory_treeview(self):
-        # Eliminar ítems existentes
         for i in self.inventory_tree.get_children():
             self.inventory_tree.delete(i)
 
-        # Cargar el stock de ambos archivos para la visualización
         stock_local = self.gestor.obtener_stock_dict("local.txt")
         stock_bodega_c = self.gestor.obtener_stock_dict("bodegac.txt")
-
-        # --- NUEVO: Cargar costos ---
         costos_dict = self.gestor.obtener_costos_dict()
 
-        # Leer el archivo activo para obtener la lista principal de items y los números de línea
         datos, errores = self.gestor.leer_datos()
         if errores:
             messagebox.showwarning("Aviso", "\n".join(errores))
 
-        # Lógica de filtrado
         palabra_clave = self.filtro_palabra_entry.get()
         operador = self.filtro_op_combo.get()
         cant_str = self.filtro_cant_entry.get()
@@ -2605,13 +2861,11 @@ class InventarioGUI:
             linea_num,
             desc,
             cant_activa,
-        ) in datos:  # cant_activa es la del archivo cargado
+        ) in datos:
             mostrar = True
-            # Filtrar por palabra clave
             if palabra_clave and palabra_clave.lower() not in desc.lower():
                 mostrar = False
 
-            # Filtrar por cantidad (se filtra sobre la cantidad del archivo activo)
             if mostrar and cant_filtro is not None:
                 if (
                     (operador == ">" and not cant_activa > cant_filtro)
@@ -2624,7 +2878,6 @@ class InventarioGUI:
                 cant_local_val = stock_local.get(desc, 0)
                 cant_bodega_c_val = stock_bodega_c.get(desc, 0)
 
-                # --- NUEVO: Obtener costo o indicar 'No encontrado' ---
                 costo_val = costos_dict.get(desc, "No encontrado")
                 if costo_val != "No encontrado":
                     costo_display = f"${costo_val:,.2f}"
@@ -2659,16 +2912,13 @@ class InventarioGUI:
 
         for venta_original in historial:
             venta = list(venta_original)
-
-            # --- Lógica de compatibilidad ---
             while len(venta) < 12:
                 venta.append("")
 
             estado = venta[11] if venta[11] else "Completada"
-            venta[11] = estado  # Asegurar que el estado esté en la lista
+            venta[11] = estado
             tags = ("anulada",) if estado == "Anulada" else ()
 
-            # --- Filtrado ---
             fecha_valida = True
             if desde_str or hasta_str:
                 try:
@@ -2706,11 +2956,10 @@ class InventarioGUI:
                 if not es_electronico:
                     continue
 
-            # --- Inserción y cálculo de totales ---
             self.sales_tree.insert("", tk.END, values=tuple(venta), tags=tags)
 
             if estado == "Anulada":
-                continue  # No sumar al total si está anulada
+                continue
 
             try:
                 total_items += int(venta[3])
@@ -2752,8 +3001,6 @@ class InventarioGUI:
         values = self._get_selected_item_values()
         if not values:
             return
-        # Actualizado indices por columna Costo
-        # Indices: 0=Linea, 1=Item, 2=Costo, 3=Local, 4=Bodega
         linea, desc, costo, cant_local, cant_bodega = values
         if messagebox.askyesno("Confirmar", f"¿Eliminar este ítem?\n\n{desc}"):
             success, msg = self.gestor.eliminar_linea(int(linea))
@@ -2904,7 +3151,6 @@ class InventarioGUI:
 
             selected_item = self.sales_tree.selection()[0]
             values = self.sales_tree.item(selected_item, "values")
-            # El estado es la última columna (índice 11)
             if len(values) > 11 and values[11] != "Anulada":
                 self.btn_anular_venta.config(state="normal")
             else:
@@ -2929,7 +3175,7 @@ class InventarioGUI:
             if success:
                 messagebox.showinfo("Éxito", msg)
                 self.populate_sales_treeview()
-                self.populate_inventory_treeview()  # Refrescar inventario por si se restauró stock
+                self.populate_inventory_treeview()
             else:
                 messagebox.showerror("Error de Anulación", msg)
 
