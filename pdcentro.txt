@@ -10,12 +10,12 @@
     Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Y6 Blanco 2
     Silicone Case Infinix Hot 60 / Hot 60I Azulrey 1 ok
-    Silicone Case Infinix Hot 60 / Hot 60I Rojo ok
-    Silicone Case Infinix Hot 60 / Hot 60I Rosa ok
-    Silicone Case Infinix Hot 60 / Hot 60I Palorosa ok
-    Silicone Case Infinix Hot 60 / Hot 60I verde ok
-    Silicone Case Infinix Hot 60 / Hot 60I Negro ok
-    Silicone Case Infinix Hot 60 / Hot 60I Amarillo 1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I Rojo 1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I Rosa  1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I Palorosa 1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I verde 1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I Negro 1 ok
+    Silicone Case Infinix Hot 60 / Hot 60I Amarillo 1
     Balaca Appla P9 Azul 1
     Balaca Apple Airpods Max Negro 1.1 1
     Balaca Pantalla Morado 1 ok
@@ -23,7 +23,7 @@
     Cable Caterpillar Tc 3 ok
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
-    Cable Samsung Tc A Tc Blanco 2
+    Cable Samsung Tc A Tc Negro 1 ok
     Cable Tc A Tc Eco 3
     Cable V8 Eco 5
     Cargador 12V 2A Doble Punta 2
@@ -55,7 +55,8 @@
     Forro Antichoque Oppo Realme C75 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Dama 5
-    Forro Antichoque Samsung A15 Dama 5 ok
+    Forro Antichoque Samsung A15 Dama 4 ok
+    Forro Antichoque Cadena Samsung A15 1 ok
     Forro Antichoque Tecno Spark 40 4G Caballero 5
     Forro Antichoque Tecno Spark 40 Pro Caballero 5
     Forro Antichoque Tecno Spark 40C Caballero 5
@@ -155,6 +156,8 @@
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 200 Negro 1
     Silicone Case Huawei Honor 400 Lite Amarillo 1 ok
+    Silicone Case Huawei Honor 400 Lite Verdementa 1 ok
+    Silicone Case Huawei Honor 400 Lite Vinotinto 1 ok
     Silicone Case Huawei Honor 400 Lite Azulrey 1
     Silicone Case Huawei Honor 400 Lite Fucsia 1
     Silicone Case Huawei Honor 400 Lite Lila 1 ok
