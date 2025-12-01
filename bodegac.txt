@@ -8,8 +8,8 @@
     Adaptador Bluetooth Dongle Audio 0
     Adaptador Dongle Wifi 5G + Bluetooth 4.2 0
     Adaptador Dpp2Hdmi Cbl 1
-    Adaptador Dpp2Vga 3
-    Adaptador Dpp2Vga Cbl 1
+    Adaptador Dpp2Vga 0
+    Adaptador Dpp2Vga Cbl 0
     Adaptador Dvi2Vga 0
     Adaptador Europeo Goma 5
     Adaptador Europeo Pasta 0
@@ -134,7 +134,6 @@
     Audifonos Bluetooth Pro 5S Negro 0
     Audifonos Bluetooth Pro 5S Rosa 0
     Audifonos Bluetooth Pro 60 1
-    Audifonos Bluetooth Redmi E7s Negro 1
     Audifonos Bluetooth Royal Sports 1
     Audifonos Bluetooth Sm I12 Blanco 0
     Audifonos Bluetooth Sm I12 Gris 0
@@ -175,6 +174,7 @@
     Balaca Naisu S-437 Verde 0
     Balaca Pantalla Azul 0
     Balaca Pantalla Fucsia 0
+    Balaca Pantalla Morado 0
     Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Huawei P30 Lite Negro 0
@@ -186,7 +186,7 @@
     Bandjea Sim Xiaomi Redmi Note 12 Verde 0
     Barbera Vgr V-001 Blue Editon 0
     Barbera Vgr V-002 1
-    Barbera Vgr V-660 2
+    Barbera Vgr V-660 0
     Barbera Wmark Ng-9015 Taurus 10000 Rpm 0
     Base Refrigerante 1 Ventilador 1
     Base Refrigerante Wit-400 0
@@ -196,6 +196,7 @@
     Bateria Apple Iphone X 0
     Bateria Apple Iphone Xs Max Full 0
     Bateria Bl5c 0
+    Bateria Huawei Honor 8A 0
     Bateria Huawei Honor X8A 0
     Bateria Huawei Mate 20 Lite 0
     Bateria Huawei Y7 2019 0
@@ -275,7 +276,7 @@
     Cable Belkin Tc 3
     Cable Belkin Tc 2M 2
     Cable Belkin V8 10
-    Cable Caterpillar Tc 2
+    Cable Caterpillar Tc 5
     Cable Caterpillar Tc A Tc 0
     Cable Caterpillar Usb Ligthning 2
     Cable Caterpillar V8 5
@@ -336,7 +337,7 @@
     Cable Royal Tc 2M 3
     Cable Royal V8 2M 0
     Cable Samsung Tc A Tc Blanco 0
-    Cable Samsung Tc A Tc Negro 1
+    Cable Samsung Tc A Tc Negro 0
     Cable Samsung Tc a Tc Original 0
     Cable Siliconado Zonymax Tc 0
     Cable Siliconado Zonymax Tc Blanco 3
@@ -421,7 +422,7 @@
     Cargador 15V 0
     Cargador 20w C15 1
     Cargador 24V 0
-    Cargador 5V 2A Doble Punta 0
+    Cargador 5V 2A Doble Punta 6
     Cargador 9V 2A Doble Punta 6
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
@@ -548,7 +549,7 @@
     Consola Mini Ness 0
     Consola Pandora 1
     Consola Psp 5.1 0
-    Consola R-36S 0
+    Consola R-36S 1
     Consola Sup Con Control Negro 0
     Consola Sup X7m 1
     Control Gamer Gamesir G7 Se Blanco 0
@@ -610,8 +611,8 @@
     Flex de Carga Apple IPhone 7 1
     Flex de Carga Apple IPhone 7 Plus 0
     Flex de Power Huawei Honor X6 / X6S 0
-    Flex de Power Huawei Y9 Prime 0
-    Flex de Power Oppo A15 0
+    Flex de Power Huawei Y9 Prime 1
+    Flex de Power Oppo A15 1
     Flex de Power Samsung A10s 0
     Flex de Power Samsung A21S 0
     Flex de Power Xiaomi Poco X3 0
@@ -649,6 +650,7 @@
     Forro Antichoque Cadena Samsung A06 0
     Forro Antichoque Cadena Samsung A07 0
     Forro Antichoque Cadena Samsung A13 0
+    Forro Antichoque Cadena Samsung A15 0
     Forro Antichoque Cadena Samsung A21S 0
     Forro Antichoque Cadena Samsung A24 0
     Forro Antichoque Cadena Samsung A32 4G 0
@@ -683,6 +685,8 @@
     Forro Antichoque Huawei Honor 400 Dama 0
     Forro Antichoque Huawei Honor 400 Lite Caballero 0
     Forro Antichoque Huawei Honor 400 Lite Dama 0
+    Forro Antichoque Huawei Honor 400 Smart Caballero 0
+    Forro Antichoque Huawei Honor 400 Smart Dama 0
     Forro Antichoque Huawei Honor 6 Lite Caballero 0
     Forro Antichoque Huawei Honor 90 Dama 0
     Forro Antichoque Huawei Honor 90 Lite Caballero 0
@@ -1383,6 +1387,7 @@
     Forro Space Apple Iphone Xs Max 0
     Forro Space Apple Iphpone 14 Max Ab 1
     Forro Space Camon 20 Pro 0
+    Forro Space Huawei Honor 400 Smart 0
     Forro Space Huawei Honor 8A 0
     Forro Space Huawei Honor 90 0
     Forro Space Huawei Honor Magic 5 Lite 1
@@ -1408,12 +1413,13 @@
     Forro Space Infinix Hot 50 Pro 4G 2
     Forro Space Infinix Hot 50 Pro 5G 1
     Forro Space Infinix Hot 50 Pro Plus 2
-    Forro Space Infinix Hot 50I / Smart 9 0
+    Forro Space Infinix Hot 50I / Smart 9 1
     Forro Space Infinix Note 40 0
     Forro Space Infinix Note 40 4G 0
     Forro Space Infinix Note 50S 0
     Forro Space Iphone 13 Pro Max 1
     Forro Space Magsafe Apple Iphone 11 0
+    Forro Space Magsafe Apple Iphone 11 Pro 0
     Forro Space Magsafe Apple Iphone 11 Pro max 0
     Forro Space Magsafe Apple Iphone 16 Pro Max 0
     Forro Space Moto Edge 60 Fusion 0
@@ -1550,7 +1556,7 @@
     Forro Space Tecno Spark 40C 0
     Forro Space Tecno Spark Go 2022 / 8C 1
     Forro Space Tecno Spark Go 2023 3
-    Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
+    Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
     Forro Space Tecno Spark Go 2025 / Go 1 0
     Forro Space Vivo V25E / S16 5G 1
     Forro Space Vivo V30 0
@@ -1852,7 +1858,7 @@
     Memoria Kingstone Micro 4Gb 0
     Memoria Kingstone Usb 16Gb 0
     Memoria Kingstone Usb 4Gb 5
-    Memoria Kingstone Usb 8Gb 0
+    Memoria Kingstone Usb 8Gb 3
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica  Reggae Reggae 0
     Memoria Musica Bachata Reyes de la Bachata 0
@@ -1923,7 +1929,7 @@
     Memoria Musica Vallenata Reliquias Vallenatas 0
     Memoria Musica Vallenata Vallenatos Nueva Ola 0
     Memoria Sandisk Micro 256Gb Original 0
-    Memoria Super 128 Gb 0
+    Memoria Super 128 Gb 1
     Memoria Super Micro 32Gb 0
     Memory Card Ps2 0
     Microfono Bafle Eco 1
@@ -1983,7 +1989,7 @@
     Pacha Huawei Y5 2018 0
     Pacha Huawei Y6 2019 / Honor 8A 0
     Pacha Huawei Y7 2018 0
-    Pacha Huawei Y7A 0
+    Pacha Huawei Y7A 1
     Pacha Huawei Y9 2019 / Y8S Full 0
     Pacha Huawei Y9 Prime Full 0
     Pacha Huawei Y9 Prime Incell 0
@@ -2033,7 +2039,7 @@
     Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 0
     Pacha Oppo Reno 11 5G / Reno 11F 0
     Pacha Oppo Reno 5 Lite / Reno 6 Lite 0
-    Pacha Oppo Reno 7 4G 0
+    Pacha Oppo Reno 7 4G 1
     Pacha Samsung A02 / A12 / M12 1
     Pacha Samsung A02S / A03 / A03S / A04E 0
     Pacha Samsung A02S C/M 0
@@ -2053,7 +2059,7 @@
     Pacha Samsung A12 C/m 0
     Pacha Samsung A13 / M13 / M23 1
     Pacha Samsung A14 5G 0
-    Pacha Samsung A15 0
+    Pacha Samsung A15 1
     Pacha Samsung A15 Amoled 0
     Pacha Samsung A15 C/m 0
     Pacha Samsung A20s 0
@@ -2061,7 +2067,7 @@
     Pacha Samsung A21S 0
     Pacha Samsung A21S C/m 0
     Pacha Samsung A22 4G 0
-    Pacha Samsung A22 4G C/m 0
+    Pacha Samsung A22 4G C/m 1
     Pacha Samsung A22 5G 0
     Pacha Samsung A23 / M23 0
     Pacha Samsung A24 Amoled 1
@@ -2086,10 +2092,10 @@
     Pacha Samsung J5 Prime Negro 0
     Pacha Tcl 30Se 0
     Pacha Tcl 40Se 0
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 0
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1
     Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 0
     Pacha Tecno - Infinix Spark Go 2020 / 6Go / Hot 10i 0
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 0
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 2
     Pacha Tecno / Infinix Camon 18P / 19 0
     Pacha Tecno / Infinix Pova 5 / Hot 30 Play 0
     Pacha Tecno / Infinix Smart 6 0
@@ -2100,7 +2106,7 @@
     Pacha Tecno Spark 20 Pro Plus 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Tecnoc Pova 4 / Neo 2 1
@@ -2110,12 +2116,12 @@
     Pacha Vivo Y27 5G 0
     Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 0
     Pacha Vivo Y30 / Y50 0
-    Pacha Vivo Y31 / Y33s / Y51 / Y53S 0
+    Pacha Vivo Y31 / Y33s / Y51 / Y53S 2
     Pacha Xiaomi Poco X3 / Mi 10T Lite 0
     Pacha Xiaomi Redmi 10 0
     Pacha Xiaomi Redmi 10C 1
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 1
-    Pacha Xiaomi Redmi 12C 0
+    Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 1
     Pacha Xiaomi Redmi 14C 0
@@ -2131,7 +2137,7 @@
     Pacha Xiaomi Redmi Note 10 Pro Amoled 0
     Pacha Xiaomi Redmi Note 11 / Note 12S 1
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
-    Pacha Xiaomi Redmi Note 12 1
+    Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 12 Amoled 0
     Pacha Xiaomi Redmi Note 13 4G 0
     Pacha Xiaomi Redmi Note 13 Pro Plus 1
@@ -2158,7 +2164,7 @@
     Parlante Gts-1372 4
     Parlante Gts-1961 0
     Parlante Harvic Pr-801 0
-    Parlante Jbl Charge 5 0
+    Parlante Jbl Charge 5 1
     Parlante Ktf-1645 0
     Parlante Ktx-1222 0
     Parlante Lazzer Lz-2890 0
@@ -2269,7 +2275,7 @@
     Reproductor Fly Tv Box 64-4 0
     Reproductor Onn 4K 1
     Reproductor Onn Eco 2
-    Reproductor Onn Hd 0
+    Reproductor Onn Hd 1
     Reproductor Onn Hd Azul 2
     Reproductor Roku Express Hd 0
     Reproductor Sonivox Dvd Ts-Dvd 0
@@ -2621,13 +2627,21 @@
     Silicone Case Huawei Honor 400 5G Negro 0
     Silicone Case Huawei Honor 400 5G Rojo 0
     Silicone Case Huawei Honor 400 5G Rosa 0
-    Silicone Case Huawei Honor 400 Lite Amarillo 0
+    Silicone Case Huawei Honor 400 Lite Amarillo 1
     Silicone Case Huawei Honor 400 Lite Azulrey 0
     Silicone Case Huawei Honor 400 Lite Fucsia 0
-    Silicone Case Huawei Honor 400 Lite Lila 0
+    Silicone Case Huawei Honor 400 Lite Lila 1
     Silicone Case Huawei Honor 400 Lite Morado 0
     Silicone Case Huawei Honor 400 Lite Negro 0
-    Silicone Case Huawei Honor 400 Lite Rojo 0
+    Silicone Case Huawei Honor 400 Lite Rojo 1
+    Silicone Case Huawei Honor 400 Lite Verdementa 1
+    Silicone Case Huawei Honor 400 Lite Vinotinto 1
+    Silicone Case Huawei Honor 400 Smart Amarillo 0
+    Silicone Case Huawei Honor 400 Smart Fucsia 0
+    Silicone Case Huawei Honor 400 Smart Lila 0
+    Silicone Case Huawei Honor 400 Smart Morado 0
+    Silicone Case Huawei Honor 400 Smart Negro 0
+    Silicone Case Huawei Honor 400 Smart Rojo 0
     Silicone Case Huawei Honor 90 5G Azulclaro 0
     Silicone Case Huawei Honor 90 5G Azuloscuro 0
     Silicone Case Huawei Honor 90 5G Azulrey 0
@@ -2637,7 +2651,7 @@
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B  Fucsia 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Amarillo 0
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 0
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Morado 0
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Negro 0
@@ -2793,7 +2807,7 @@
     Silicone Case Infinix Hot 50 Pro Fucsia 0
     Silicone Case Infinix Hot 50 Pro Lila 0
     Silicone Case Infinix Hot 50 Pro Negro 0
-    Silicone Case Infinix Hot 50 Pro Plus Amarillo 0
+    Silicone Case Infinix Hot 50 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 50 Pro Plus Azuloscuro 0
     Silicone Case Infinix Hot 50 Pro Plus Azulrey 0
     Silicone Case Infinix Hot 50 Pro Plus Blanco 0
@@ -2814,10 +2828,16 @@
     Silicone Case Infinix Hot 50I / Smart 9 Rosa 0
     Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 0
     Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 0
+    Silicone Case Infinix Hot 60 / Hot 60I Azulrey 0
+    Silicone Case Infinix Hot 60 / Hot 60I Negro 0
+    Silicone Case Infinix Hot 60 / Hot 60I Palorosa 0
+    Silicone Case Infinix Hot 60 / Hot 60I Rojo 0
+    Silicone Case Infinix Hot 60 / Hot 60I Rosa 0
+    Silicone Case Infinix Hot 60 / Hot 60I verde 0
     Silicone Case Infinix Hot 60 Pro Amarillo 0
     Silicone Case Infinix Hot 60 Pro Azulrey 0
     Silicone Case Infinix Hot 60 Pro Fucsia 0
-    Silicone Case Infinix Hot 60 Pro Plus Amarillo 0
+    Silicone Case Infinix Hot 60 Pro Plus Amarillo 1
     Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 0
     Silicone Case Infinix Hot 60 Pro Plus Lila 0
     Silicone Case Infinix Hot 60 Pro Plus Negro 0
@@ -2864,7 +2884,7 @@
     Silicone Case Infinix Note 40 Pro Amarillo 0
     Silicone Case Infinix Note 40 Pro Azulcielo 0
     Silicone Case Infinix Note 40 Pro Fucsia 1
-    Silicone Case Infinix Note 40 Pro Lila 0
+    Silicone Case Infinix Note 40 Pro Lila 1
     Silicone Case Infinix Note 40 Pro Rojo 0
     Silicone Case Infinix Note 40 Rojo 0
     Silicone Case Infinix Note 50 4G Amarillo 0
@@ -3016,6 +3036,7 @@
     Silicone Case Motorola Moto G20 Morado 0
     Silicone Case Motorola Moto G20 Negro 0
     Silicone Case Motorola Moto G20 Rosa 0
+    Silicone Case Motorola Moto G22 Azulclaro 0
     Silicone Case Motorola Moto G22 Fucsia 1
     Silicone Case Motorola Moto G22 Lila 1
     Silicone Case Motorola Moto G22 Verde 0
@@ -3055,7 +3076,7 @@
     Silicone Case Motorola Moto G55 Amarillo 0
     Silicone Case Motorola Moto G55 Azulclaro 0
     Silicone Case Motorola Moto G55 Blanco 0
-    Silicone Case Motorola Moto G55 Fucsia 0
+    Silicone Case Motorola Moto G55 Fucsia 1
     Silicone Case Motorola Moto G55 Negro 0
     Silicone Case Motorola Moto G55 Rojo 0
     Silicone Case Motorola Moto G55 Rosa 0
@@ -3063,7 +3084,7 @@
     Silicone Case Motorola Moto G60S Amarillo 0
     Silicone Case Motorola Moto G60S Rojo 1
     Silicone Case Motorola Moto G72 Lila 0
-    Silicone Case Motorola Moto G72 Negro 0
+    Silicone Case Motorola Moto G72 Negro 1
     Silicone Case Motorola Moto G75 Amarillo 0
     Silicone Case Motorola Moto G75 Amarillo Azuloscuro 0
     Silicone Case Motorola Moto G75 Amarillo Azulrey 0
@@ -3116,7 +3137,7 @@
     Silicone Case Oppo A40 Negro 0
     Silicone Case Oppo A40 Rojo 0
     Silicone Case Oppo A40 Rosa 0
-    Silicone Case Oppo A5 Amarillo 0
+    Silicone Case Oppo A5 Amarillo 1
     Silicone Case Oppo A5 Azulrey 1
     Silicone Case Oppo A5 Fucsia 1
     Silicone Case Oppo A5 Lila 0
@@ -3138,7 +3159,7 @@
     Silicone Case Oppo A57 / A77 Negro 0
     Silicone Case Oppo A57 / A77 Palo Rosa 0
     Silicone Case Oppo A57 / A77 Rojo 0
-    Silicone Case Oppo A57 Lila 0
+    Silicone Case Oppo A57 Lila 1
     Silicone Case Oppo A57 Rojo 0
     Silicone Case Oppo A58 4G / A78 5G Amarillo 0
     Silicone Case Oppo A58 4G / A78 5G Azulrey 0
@@ -3163,7 +3184,7 @@
     Silicone Case Oppo A74 4G Lila 0
     Silicone Case Oppo A78 4G Amarillo 0
     Silicone Case Oppo A78 4G Azulrey 0
-    Silicone Case Oppo A78 4G Fucsia 0
+    Silicone Case Oppo A78 4G Fucsia 1
     Silicone Case Oppo A78 4G Morado 0
     Silicone Case Oppo A78 4G Negro 0
     Silicone Case Oppo A78 4G Rojo 0
@@ -3352,7 +3373,7 @@
     Silicone Case Samsung A15 Lila 0
     Silicone Case Samsung A15 Negro 1
     Silicone Case Samsung A15 Rojo 1
-    Silicone Case Samsung A15 Rosa 0
+    Silicone Case Samsung A15 Rosa 1
     Silicone Case Samsung A15 Verde 0
     Silicone Case Samsung A15 Verdebiche 0
     Silicone Case Samsung A16 Amarillo 0
@@ -3485,13 +3506,13 @@
     Silicone Case Samsung A36 Vinotinto 0
     Silicone Case Samsung A50 / A30S Lila 0
     Silicone Case Samsung A51 Amarillo 1
-    Silicone Case Samsung A51 Negro 0
+    Silicone Case Samsung A51 Negro 1
     Silicone Case Samsung A52 Amarillo 0
     Silicone Case Samsung A52 Arcoiris 0
     Silicone Case Samsung A52 Fucsia 0
     Silicone Case Samsung A52 Lila 0
     Silicone Case Samsung A52 Negro 0
-    Silicone Case Samsung A52 Rojo 0
+    Silicone Case Samsung A52 Rojo 1
     Silicone Case Samsung A52 Rosa 0
     Silicone Case Samsung A52 Verde 0
     Silicone Case Samsung A53 Azulrey 0
@@ -3987,13 +4008,14 @@
     Silicone Case Xiaomi Redmi 14C Negro 1
     Silicone Case Xiaomi Redmi 14C Rojo 0
     Silicone Case Xiaomi Redmi 14C Verde 0
-    Silicone Case Xiaomi Redmi 15 Amarillo 0
-    Silicone Case Xiaomi Redmi 15 Azulrey 0
+    Silicone Case Xiaomi Redmi 15 Amarillo 1
+    Silicone Case Xiaomi Redmi 15 Azulrey 1
     Silicone Case Xiaomi Redmi 15 Fucsia 0
     Silicone Case Xiaomi Redmi 15 Lila 0
-    Silicone Case Xiaomi Redmi 15 Negro 0
-    Silicone Case Xiaomi Redmi 15 Rojo 0
-    Silicone Case Xiaomi Redmi 15 Rosa 0
+    Silicone Case Xiaomi Redmi 15 Morado 1
+    Silicone Case Xiaomi Redmi 15 Negro 1
+    Silicone Case Xiaomi Redmi 15 Rojo 1
+    Silicone Case Xiaomi Redmi 15 Rosa 1
     Silicone Case Xiaomi Redmi 15C Amarillo 0
     Silicone Case Xiaomi Redmi 15C Azulrey 0
     Silicone Case Xiaomi Redmi 15C Fucsia 0
@@ -4082,6 +4104,7 @@
     Silicone Case Xiaomi Redmi Note 12 Fucsia 0
     Silicone Case Xiaomi Redmi Note 12 Morado 1
     Silicone Case Xiaomi Redmi Note 12 Negro 1
+    Silicone Case Xiaomi Redmi Note 12 Pro 4G Negro 0
     Silicone Case Xiaomi Redmi Note 12 Pro Amarillo 0
     Silicone Case Xiaomi Redmi Note 12 Pro Azulrey 0
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 0
@@ -4248,6 +4271,7 @@
     Smarthone Infinix Smart 10 0
     Smartphone Infinix Smart 10 351389360145413/66132605 256/8 0
     Smartphone Infinix Smart 9 128/6 Gris 0
+    Smartphone Motorola Moto E15 354526455690632 64/2 0
     Smartphone Motorola Moto E15 354526458113491 64/2 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 0
     Smartphone Motorola Moto G05 351368283489173 128/4 0
@@ -4257,12 +4281,14 @@
     Smartphone Tecno Spark Go 1S 64/6 Gris 0
     Smartphone Xiaomi Redmi 14C 128/8 Negro 0
     Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 1
+    Smartphone Xiaomi Redmi 15 867451072037382 - 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Zte Blade A34 64/6 Verde 0
     Smartphone Zte Blade A34 64/6 Verde 866083070638852 0
     Smartphone Zte Blade A36 865843070531105 - 64/6 0
     Smartphone Zte Blade L220 865338061757322 - 32/2 0
     Smartphone Zte Blade L220 865338061759609 - 32/2 0
+    Smartphone Zte Blade L220 865338061948301 - 32/2 0
     Soporte Brazo Microfono 0
     Soporte Brazo Tabletas 0
     Soporte Celular Cuello 1
@@ -4471,8 +4497,8 @@
     Vidrio 5D Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 5
     Vidrio 5D Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 5
     Vidrio 5D Xiaomi Mi 11T 3
-    Vidrio 5D Xiaomi Redmi 10 0
-    Vidrio 5D Xiaomi Redmi 10C / 12C 0
+    Vidrio 5D Xiaomi Redmi 10 5
+    Vidrio 5D Xiaomi Redmi 10C / 12C 10
     Vidrio 5D Xiaomi Redmi 12 0
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 5
     Vidrio 5D Xiaomi Redmi 14 0
@@ -4790,6 +4816,6 @@
     Wase Case MagSafe Xiaomi Redmi A5 Amarillo 0
     Wase Case MagSafe Xiaomi Redmi A5 Azuloscuro 0
     Wase Case MagSafe Xiaomi Redmi A5 Negro 0
-    cargador 5V 2A Doble Punta 6
+    cargador 5V 2A Doble Punta 0
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 0

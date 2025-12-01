@@ -9667,3 +9667,95 @@ Fecha de proceso: 2025-11-26 09:45:08
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-11-30 14:28:50
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 43
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    3 | Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+    5 | Audifonos Bluetooth Sm I12 Negro 3 ok
+   10 | Audifonos Bluetooth Xiaomi E7S Negro 1 ok
+   12 | Silicone Case Infinix Hot 60 / Hot 60I Azulrey 1 ok
+   13 | Silicone Case Infinix Hot 60 / Hot 60I Rojo 1 ok
+   14 | Silicone Case Infinix Hot 60 / Hot 60I Rosa  1 ok
+   15 | Silicone Case Infinix Hot 60 / Hot 60I Palorosa 1 ok
+   16 | Silicone Case Infinix Hot 60 / Hot 60I verde 1 ok
+   17 | Silicone Case Infinix Hot 60 / Hot 60I Negro 1 ok
+   21 | Balaca Pantalla Morado 1 ok
+   23 | Cable Caterpillar Tc 3 ok
+   26 | Cable Samsung Tc A Tc Negro 1 ok
+   58 | Forro Antichoque Samsung A15 Dama 4 ok
+   59 | Forro Antichoque Cadena Samsung A15 1 ok
+  111 | Forro Space Infinix Hot 50I / Smart 9 2 ok
+  130 | Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+  141 | Memoria Kingstone Usb 8Gb 3 ok
+  143 | Memoria Super 128 Gb 1 ok
+  158 | Silicone Case Huawei Honor 400 Lite Amarillo 1 ok
+  159 | Silicone Case Huawei Honor 400 Lite Verdementa 1 ok
+  160 | Silicone Case Huawei Honor 400 Lite Vinotinto 1 ok
+  163 | Silicone Case Huawei Honor 400 Lite Lila 1 ok
+  166 | Silicone Case Huawei Honor 400 Lite Rojo 1 ok
+  167 | Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Azulrey 1 ok
+  183 | Silicone Case Infinix Hot 50 Pro Plus Amarillo 1 ok
+  185 | Silicone Case Infinix Hot 60 Pro Plus Amarillo 1 ok
+  189 | Silicone Case Infinix Note 40 Pro Lila 1 ok
+  204 | Silicone Case Motorola Moto G55 Fucsia 1 ok
+  205 | Silicone Case Motorola Moto G72 Negro 1 ok
+  214 | Silicone Case Oppo A5 Amarillo 1 ok
+  217 | Silicone Case Oppo A57 Lila 1 ok
+  218 | Silicone Case Oppo A78 4G Fucsia 1 ok
+  233 | Silicone Case Samsung A15 Rosa 1 ok
+  238 | Silicone Case Samsung A51 Negro 1 ok
+  240 | Silicone Case Samsung A52 Rojo 1 ok
+  303 | Silicone Case Xiaomi Redmi 15 Amarillo 1 ok
+  304 | Silicone Case Xiaomi Redmi 15 Azulrey 1 ok
+  307 | Silicone Case Xiaomi Redmi 15 Negro 1 ok
+  308 | Silicone Case Xiaomi Redmi 15 Rojo 1 ok
+  309 | Silicone Case Xiaomi Redmi 15 Rosa 1 ok
+  310 | Silicone Case Xiaomi Redmi 15 Morado 1 ok
+  346 | Vidrio 5D Xiaomi Redmi 10 5 ok
+  347 | Vidrio 5D Xiaomi Redmi 10C / 12C 10 ok
+
+==================================================
+Fecha de proceso: 2025-11-30 14:28:50
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   38 | Consola R-36S 1 ok
+   43 | Consola Pandora 1 ok
+   50 | Parlante Jbl Charge 5 1 ok
+   55 | Reproductor Onn Hd 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-30 14:28:50
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Flex de Power Huawei Y9 Prime 1 ok
+    2 | Flex de Power Oppo A15 1 ok
+    3 | Pacha Huawei Y7A 1 ok
+    4 | Pacha Oppo Reno 7 4G 1 ok
+    5 | Pacha Samsung A15 1 ok
+    6 | Pacha Samsung A22 4G C/m 1 ok
+    7 | Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+    8 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 2 ok
+    9 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   10 | Pacha Vivo Y31 / Y33s / Y51 / Y53S 2 ok
+   11 | Pacha Xiaomi Redmi 10 2 ok ok
+   12 | Pacha Xiaomi Redmi 12C 1 ok
+
+==================================================
+Fecha de proceso: 2025-11-30 14:28:50
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
