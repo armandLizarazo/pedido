@@ -69,12 +69,13 @@
     Forro Armadura Samsung A06 Rojo 1 ok
     Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Forro Armadura Tecno Spark 30 Pro Rojo 1 ok
+    Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark 30 5G Rojo 1 ok
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 13 Negro 1 ok
     Forro Armadura Xiaomi Redmi 13 Rojo 1 ok
-    Forro Armadura Xiaomi Redmi 14C Negro 1 ok
+    Forro Armadura Xiaomi Redmi 14C Negro 2 ok
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
     Forro Armadura Xiaomi Redmi 15C Negro 1
