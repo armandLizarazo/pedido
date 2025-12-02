@@ -58,24 +58,25 @@
     Forro Antichoque Xiaomi Redmi 15C Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2
     Forro Antichoque Xiaomi Redmi Note 8 Caballero 2
-    Forro Armadura Infinix Hot 50I / Smart 9 Negro 1
+    Forro Armadura Infinix Hot 50I / Smart 9 Negro 1 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Oppo A57 Rojo 1
     Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
-    Forro Armadura Samsung A06 Azul 1
-    Forro Armadura Samsung A06 Rojo 1
+    Forro Armadura Samsung A06 Azul 1 ok
+    Forro Armadura Samsung A06 Rojo 1 ok
     Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
     Forro Armadura Tecno Spark 30 5G Rojo 1
     Forro Armadura Tecno Spark 30 Pro Rojo 1
+    Forro Armadura Tecno Spark 30 5G Rojo 1 ok
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
-    Forro Armadura Xiaomi Redmi 13 Negro 1
-    Forro Armadura Xiaomi Redmi 13 Rojo 1
-    Forro Armadura Xiaomi Redmi 14C Negro 1
+    Forro Armadura Xiaomi Redmi 13 Negro 1 ok
+    Forro Armadura Xiaomi Redmi 13 Rojo 1 ok
+    Forro Armadura Xiaomi Redmi 14C Negro 2 ok
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
     Forro Armadura Xiaomi Redmi 15C Negro 1
@@ -102,8 +103,8 @@
     Forro Space Huawei P30 Lite 2
     Forro Space Huawei Y9A 3
     Forro Space Infinix Note 50s 2
-    Forro Space Magsafe Apple Iphone 11 Pro 1
-    Forro Space Magsafe Apple Iphone 11 Pro max 1
+    Forro Space Magsafe Apple Iphone 11 Pro 1 ok
+    Forro Space Magsafe Apple Iphone 11 Pro max 1 ok
     Forro Space Moto Edge 60 Fusion 2
     Forro Space Motorola Moto G50 1
     Forro Space Oppo A5 2
@@ -145,23 +146,23 @@
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
-    Silicone Case Huawei Honor 200 Negro 1
-    Silicone Case Huawei Honor 400 Lite Azulrey 1
-    Silicone Case Huawei Honor 400 Lite Fucsia 1
-    Silicone Case Huawei Honor 400 Lite Morado 1
-    Silicone Case Huawei Honor 400 Lite Negro 1
-    Silicone Case Huawei Honor 400 Smart Amarillo 1
-    Silicone Case Huawei Honor 400 Smart Fucsia 1
+    Silicone Case Huawei Honor 200 Negro 1 ok
+    Silicone Case Huawei Honor 400 Lite Azulrey 1 ok
+    Silicone Case Huawei Honor 400 Lite Fucsia 1 ok
+    Silicone Case Huawei Honor 400 Lite Morado 1 ok
+    Silicone Case Huawei Honor 400 Lite Negro 1 ok
+    Silicone Case Huawei Honor 400 Smart Amarillo 1 ok
+    Silicone Case Huawei Honor 400 Smart Fucsia 1 ok
     Silicone Case Huawei Honor 400 Smart Lila 1
-    Silicone Case Huawei Honor 400 Smart Morado 1
+    Silicone Case Huawei Honor 400 Smart Azulrey 1 ok
     Silicone Case Huawei Honor 400 Smart Negro 1
     Silicone Case Huawei Honor 400 Smart Rojo 1
-    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1
+    Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1 ok
     Silicone Case Huawei Honor X6 / X6s Rojo 1
     Silicone Case Huawei Honor X6B Fucsia 1
-    Silicone Case Huawei Honor X6C Fucsia 1
+    Silicone Case Huawei Honor X6C Fucsia 1 ok
     Silicone Case Huawei Honor X6C Rojo 1
-    Silicone Case Huawei Honor X7C / 200 Smart Azulrey 1
+    Silicone Case Huawei Honor X7C / 200 Smart Azulrey 1 ok
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
     Silicone Case Huawei Y7 2019 Rojo 1
@@ -177,11 +178,11 @@
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Hot 60 Pro Rojo 1
     Silicone Case Infinix Note 30 Pro Lila 1
-    Silicone Case Iphone 11 Pro Max Amarillo 1
+    Silicone Case Iphone 11 Pro Max Amarillo 1 ok
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 2
     Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 1 ok
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
     Silicone Case Motorola Moto G05 Amarillo 1
@@ -189,12 +190,12 @@
     Silicone Case Motorola Moto G13 / G23 Negro 1
     Silicone Case Motorola Moto G15 Amarillo 1
     Silicone Case Motorola Moto G15 Morado 1
-    Silicone Case Motorola Moto G22 Azulclaro 1
+    Silicone Case Motorola Moto G22 Azulclaro 1 ok
     Silicone Case Motorola Moto G22 Verde 1
     Silicone Case Motorola Moto G42 Fucsia 1
     Silicone Case Motorola Moto G42 Morado 1
-    Silicone Case Motorola Moto G75 Amarillo 1
-    Silicone Case Motorola Moto G75 Negro 1
+    Silicone Case Motorola Moto G75 Amarillo 1 ok
+    Silicone Case Motorola Moto G75 Negro 1 ok
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Motorola Moto G8 Power Lite Lila 1
@@ -217,9 +218,9 @@
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A04E Negro 1
     Silicone Case Samsung A10 Blanco 1
-    Silicone Case Samsung A17 Morado 1
+    Silicone Case Samsung A17 Morado 1 ok
     Silicone Case Samsung A20 / A30 Amarillo 1
-    Silicone Case Samsung A22 4G Morado 1
+    Silicone Case Samsung A22 4G Morado 1 ok
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A24 Negro 1
     Silicone Case Samsung A52 Lila 1
@@ -234,8 +235,8 @@
     Silicone Case Tecno Camon 30 4G Rojo 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
-    Silicone Case Tecno Camon 30S Negro 1
-    Silicone Case Tecno Camon 30S Pro Verde Militar 1
+    Silicone Case Tecno Camon 30S Negro 1 ok
+    Silicone Case Tecno Camon 30S Pro Verde Militar 1 ok
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -254,10 +255,10 @@
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Lila 1
     Silicone Case Tecno Spark 40 Pro Morado 1
-    Silicone Case Tecno Spark 40C Amarillo 1
-    Silicone Case Tecno Spark 40C Fucsia 1
-    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1
-    Silicone Case Tecno Spark Go 2023 / Pop7 Rosa 1
+    Silicone Case Tecno Spark 40C Amarillo 1 ok
+    Silicone Case Tecno Spark 40C Fucsia 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
+    Silicone Case Tecno Spark Go 2023 / Pop7 Rosa 1 ok
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -283,12 +284,12 @@
     Silicone Case Vivo Y31 / Y51 / Y53S Rosa 1
     Silicone Case Xiaomi Mi 11T Verde 1
     Silicone Case Xiaomi Redmi 12 Azulrey 1
-    Silicone Case Xiaomi Redmi 12 Morado 1
-    Silicone Case Xiaomi Redmi 12C Ab Azulrey 1
+    Silicone Case Xiaomi Redmi 12 Morado 1 ok
+    Silicone Case Xiaomi Redmi 12C Ab Azulrey 1 ok
     Silicone Case Xiaomi Redmi 13 Fucsia 1
     Silicone Case Xiaomi Redmi 13C Azulrey 1
-    Silicone Case Xiaomi Redmi 13C Fucsia 1
-    Silicone Case Xiaomi Redmi 13C Negro 1
+    Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
+    Silicone Case Xiaomi Redmi 13C Negro 1 ok
     Silicone Case Xiaomi Redmi 13C Rojo 1
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi 15 Lila 1
@@ -296,17 +297,17 @@
     Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 Pro Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
-    Silicone Case Xiaomi Redmi Note 11 Morado 1
+    Silicone Case Xiaomi Redmi Note 11 Morado 1 ok
     Silicone Case Xiaomi Redmi Note 12 Pro 4G Negro 1
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 12S Rosa 1
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1
-    Silicone Case Xiaomi Redmi Note 14 Pro 4G Amarillo 1
-    Silicone Case Xiaomi Redmi Note 14 Pro 4G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Amarillo 1 ok
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Fucsia 1 ok
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
-    Silicone Case Xiaomi Redmi Note 14 Pro 5G Fucsia 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 5G Fucsia 1 ok
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Lila 1
