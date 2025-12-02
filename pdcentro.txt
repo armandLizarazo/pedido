@@ -69,6 +69,7 @@
     Forro Armadura Samsung A06 Rojo 1
     Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
+    Forro Armadura Tecno Spark 30 5G Rojo 1
     Forro Armadura Tecno Spark 30 Pro Rojo 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
@@ -246,6 +247,10 @@
     Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
+    Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark 30 5G Fucsia 1
+    Silicone Case Tecno Spark 30 5G Negro 1
+    Silicone Case Tecno Spark 30 5G Rojo 1
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Lila 1
     Silicone Case Tecno Spark 40 Pro Morado 1

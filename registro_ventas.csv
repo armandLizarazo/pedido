@@ -3305,3 +3305,35 @@ Timestamp,Descripcion,Cantidad,CostoUnitario,PrecioUnitario,TotalVenta,Ganancia,
 2025-11-30 21:08:24,20251130210824,Manos Libres Batri B10 Lila,1,7500.00,25000.00,25000.00,17500.00,local.txt,Cliente General,Daviplata: $25000.00,Completada
 2025-11-30 21:51:45,20251201055145,Cargador Cabeza Cubo Eco,1,2000.00,10000.00,10000.00,8000.00,local.txt,Cliente General,Efectivo: $40000.00,Completada
 2025-11-30 21:51:45,20251201055145,Forro Lujo Ventana Apple Iphone 13 Pro Max Morado,1,14000.00,30000.00,30000.00,16000.00,local.txt,Cliente General,Efectivo: $40000.00,Completada
+2025-12-01 15:38:48,20251201153848,Silicone Case Samsung A32 4G Rosa,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-12-01 15:39:17,20251201153917,Memoria Musica Rap Fanaticos del Rap,1,0.00,10000.00,10000.00,10000.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-12-01 15:39:49,20251201153949,Vidrio 5D Huawei Honor X7B,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Efectivo: $10000.00,Completada
+2025-12-01 16:38:55,20251201163855,Forro Antichoque Huawei Honor 400 Lite Caballero,1,3500.00,15000.00,15000.00,11500.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
+2025-12-01 21:08:20,20251201210820,Cable Belkin Tc,1,2500.00,12000.00,12000.00,9500.00,local.txt,Cliente General,Efectivo: $12000.00,Completada
+2025-12-01 21:09:05,20251201210905,Cable Apple Tc Ligthning 2M,1,5500.00,25000.00,25000.00,19500.00,local.txt,Cliente General,Nequi: $25000.00,Completada
+2025-12-01 21:09:42,20251201210942,Rollo Cinta Led 10M Audioritmica,1,35000.00,70000.00,70000.00,35000.00,local.txt,Cliente General,"Daviplata: $10000.00, Efectivo: $60000.00",Completada
+2025-12-01 21:11:04,20251201211104,Servicio Tecnico Tecno Revision Audio Go 2022,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-12-01 21:11:45,20251201211145,Pacha Motorola Moto One Fusion Plus,1,35000.00,95000.00,95000.00,60000.00,local.txt,Cliente General,Efectivo: $95000.00,Completada
+2025-12-01 21:12:21,20251201211221,Adaptador Tarjeta Audio 7.1,1,5000.00,15000.00,15000.00,10000.00,local.txt,Cliente General,Daviplata: $15000.00,Completada
+2025-12-01 21:12:50,20251201211250,Simcard Tigo,1,0.00,5000.00,5000.00,5000.00,local.txt,Cliente General,Daviplata: $5000.00,Completada
+2025-12-01 21:14:05,20251201211405,Silicone Case Xiaomi Redmi Note 13 4G Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Daviplata: $30000.00,Completada
+2025-12-01 21:14:05,20251201211405,Vidrio 5D Xiaomi Redmi Note 13 4G,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Daviplata: $30000.00,Completada
+2025-12-01 21:14:34,20251201211434,Silicone Case Huawei Honor X8C Negro,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-12-01 21:14:53,20251201211453,Manos Libres Samsung Akg,1,3300.00,15000.00,15000.00,11700.00,local.txt,Cliente General,Efectivo: $15000.00,Completada
+2025-12-01 21:15:38,20251201211538,Audifonos Bluetooth Sm I12 Negro,1,13000.00,35000.00,35000.00,22000.00,local.txt,Cliente General,Nequi: $40000.00,Completada
+2025-12-01 21:15:38,20251201211538,Adaptador Micro Sd Eco,1,1000.00,5000.00,5000.00,4000.00,local.txt,Cliente General,Nequi: $40000.00,Completada
+2025-12-01 21:16:15,20251201211615,Reproductor Tdt Krono Kr-365,1,38000.00,65000.00,65000.00,27000.00,local.txt,Cliente General,Daviplata: $65000.00,Completada
+2025-12-01 21:17:01,20251201211701,Recargas,1,54717.00,58000.00,58000.00,3283.00,local.txt,Cliente General,Efectivo: $58000.00,Completada
+2025-12-01 21:19:08,20251201211908,Vidrio 5D Tecno Spark 10 Pro,1,900.00,10000.00,10000.00,9100.00,local.txt,Cliente General,Bancolombia: $100000.00,Completada
+2025-12-01 21:19:08,20251201211908,Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30,1,38000.00,90000.00,90000.00,52000.00,local.txt,Cliente General,Bancolombia: $100000.00,Completada
+2025-12-01 21:20:01,20251201212001,Parlante Gedi-G Gd-2888,1,255000.00,450000.00,450000.00,195000.00,local.txt,Cliente General,Sistecredito: $450000.00,Completada
+2025-12-01 21:22:21,20251201212221,Smartphone Nubia Neo 3 Gt 5G 868266070402662 256/20,1,800000.00,1000000.00,1000000.00,200000.00,local.txt,Cliente General,Bancolombia: $1000000.00,Completada
+2025-12-02 15:51:42,20251202155142,Memoria Musica Romantica Marco Antonio y Joan Sebastian,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-12-02 15:51:42,20251202155142,Memoria Musica Carranguera Los 3 de la Carranga,1,3500.00,10000.00,10000.00,6500.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-12-02 15:52:40,20251202155240,Adaptador Tc a 3.5,1,6000.00,20000.00,20000.00,14000.00,local.txt,Cliente General,Nequi: $20000.00,Completada
+2025-12-02 16:12:18,20251202161218,Pacha Motorola Moto G14 / G54 / G55,1,40000.00,100000.00,100000.00,60000.00,local.txt,Cliente General,Daviplata: $105000.00,Completada
+2025-12-02 16:12:18,20251202161218,Vidrio 5D Motorola Moto G14 / G54 / G55,1,900.00,5000.00,5000.00,4100.00,local.txt,Cliente General,Daviplata: $105000.00,Completada
+2025-12-02 16:18:29,20251202161829,Silicone Case Tecno Spark 30 5G Rojo,1,7000.00,20000.00,20000.00,13000.00,local.txt,Cliente General,Efectivo: $20000.00,Completada
+2025-12-02 17:18:48,20251202171848,Adaptador Europeo Pasta,1,1500.00,5000.00,5000.00,3500.00,local.txt,Cliente General,Efectivo: $5000.00,Completada
+2025-12-02 17:22:13,20251202172213,Cable Hdtv,1,12000.00,50000.00,50000.00,38000.00,local.txt,Cliente General,Efectivo: $57000.00,Completada
+2025-12-02 17:22:13,20251202172213,Adpatador Hdmi2Minihdmi,1,2000.00,7000.00,7000.00,5000.00,local.txt,Cliente General,Efectivo: $57000.00,Completada

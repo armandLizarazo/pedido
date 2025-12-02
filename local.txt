@@ -12,7 +12,7 @@
     Adaptador Dpp2Vga Cbl 3
     Adaptador Dvi2Vga 1
     Adaptador Europeo Goma 2
-    Adaptador Europeo Pasta 2
+    Adaptador Europeo Pasta 1
     Adaptador Europeo Redondo 0
     Adaptador Ext Hdmi 2
     Adaptador Hdmi A Mini Hdmi 1
@@ -61,10 +61,10 @@
     Adaptador Spliter Tv 1 Macho 3 Hembras 2
     Adaptador Spliter Vga 2
     Adaptador Tarjeta Audio 5.1 1
-    Adaptador Tarjeta Audio 7.1 1
+    Adaptador Tarjeta Audio 7.1 0
     Adaptador Tc Hub 8 en 1 1
     Adaptador Tc Sata 3.0 1
-    Adaptador Tc a 3.5 2
+    Adaptador Tc a 3.5 1
     Adaptador Tc2Hdmi Cbl 1
     Adaptador Tc2Vga 1
     Adaptador Union Hdmi 3
@@ -137,7 +137,7 @@
     Audifonos Bluetooth Royal Sports 2
     Audifonos Bluetooth Sm I12 Blanco 0
     Audifonos Bluetooth Sm I12 Gris 1
-    Audifonos Bluetooth Sm I12 Negro 3
+    Audifonos Bluetooth Sm I12 Negro 2
     Audifonos Bluetooth Sm I12 Rosa 1
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
@@ -252,7 +252,7 @@
     Cable Apple Tc A Tc 2M 2
     Cable Apple Tc A Tc 60w Aguja 1
     Cable Apple Tc Ligthning 2
-    Cable Apple Tc Ligthning 2M 2
+    Cable Apple Tc Ligthning 2M 1
     Cable Apple Tc a Tc 2
     Cable Apple Usb Ligthning 1
     Cable Apple Usb Ligthning 2M 2
@@ -273,7 +273,7 @@
     Cable Auxiliar 3 A 1 3M 2
     Cable Auxiliar Harvic 1 a 1 en L Cja 2
     Cable Belkin Ligthning 3
-    Cable Belkin Tc 1
+    Cable Belkin Tc 0
     Cable Belkin Tc 2M 1
     Cable Belkin V8 2
     Cable Caterpillar Tc 4
@@ -684,7 +684,7 @@
     Forro Antichoque Diamante Huawei Honor Magic 7 Lite 2
     Forro Antichoque Huawei Honor 400 Caballero 6
     Forro Antichoque Huawei Honor 400 Dama 5
-    Forro Antichoque Huawei Honor 400 Lite Caballero 6
+    Forro Antichoque Huawei Honor 400 Lite Caballero 5
     Forro Antichoque Huawei Honor 400 Lite Dama 5
     Forro Antichoque Huawei Honor 400 Smart Caballero 0
     Forro Antichoque Huawei Honor 400 Smart Dama 0
@@ -1198,6 +1198,8 @@
     Forro Armadura Tecno Camon 40 Pro 4G Rojo 1
     Forro Armadura Tecno Spark 20 Pro Plus Negro 1
     Forro Armadura Tecno Spark 20 Pro Plus Rojo 1
+    Forro Armadura Tecno Spark 30 5G Negro 0
+    Forro Armadura Tecno Spark 30 5G Rojo 0
     Forro Armadura Tecno Spark 30 Pro Negro 2
     Forro Armadura Tecno Spark 30 Pro Rojo 0
     Forro Armadura Tecno Spark 30C Rojo 1
@@ -1833,7 +1835,7 @@
     Manos Libres Inears S-2000 1
     Manos Libres Inears Ten Space Ts-H05 0
     Manos Libres Knz Tc 1
-    Manos Libres Samsung Akg 2
+    Manos Libres Samsung Akg 1
     Manos Libres Samsung Akg Tc 2
     Manos Libres Samsung Akg Tc Blanco 1
     Manos Libres Samsung Akg con Aislador 4
@@ -1865,7 +1867,7 @@
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica  Reggae Reggae 1
     Memoria Musica Bachata Reyes de la Bachata 1
-    Memoria Musica Carranguera Los 3 de la Carranga 1
+    Memoria Musica Carranguera Los 3 de la Carranga 0
     Memoria Musica Carranguera Los Mas Carrangueros 1
     Memoria Musica Carrilera Chistes 1
     Memoria Musica Carrilera Exitos de Carrilera 1
@@ -1908,7 +1910,7 @@
     Memoria Musica Popular Rancheras Pa Tomar 1
     Memoria Musica Popular Sirvalo Pues 0
     Memoria Musica Popular Vicente y Antonio 1
-    Memoria Musica Rap Fanaticos del Rap 0
+    Memoria Musica Rap Fanaticos del Rap 1
     Memoria Musica Reggaeton Clasico 0
     Memoria Musica Reggaeton Clasicos del Reggaeton 1
     Memoria Musica Reggaeton Reggaeton en Tendencia 1
@@ -1917,7 +1919,7 @@
     Memoria Musica Rock Rock en Español 1
     Memoria Musica Rock Rock en Ingles 2
     Memoria Musica Romantica Baladas 60, 70, y 80 0
-    Memoria Musica Romantica Marco Antonio y Joan Sebastian 1
+    Memoria Musica Romantica Marco Antonio y Joan Sebastian 0
     Memoria Musica Salsa Salsa Brava 0
     Memoria Musica Salsa Salsa del Ayer hoy y Siempre 1
     Memoria Musica Tropical 50 de joselito / Guayaba / Taxi / Bandafiesta 1
@@ -2014,7 +2016,7 @@
     Pacha Motorola Moto G04 / G24 1
     Pacha Motorola Moto G05 / G15 1
     Pacha Motorola Moto G13 / G23 1
-    Pacha Motorola Moto G14 / G54 / G55 1
+    Pacha Motorola Moto G14 / G54 / G55 0
     Pacha Motorola Moto G20 / G30 1
     Pacha Motorola Moto G22 / E32 1
     Pacha Motorola Moto G31 / G41 / G71 1
@@ -2027,7 +2029,7 @@
     Pacha Motorola Moto G9 Power 2
     Pacha Motorola Moto One 2
     Pacha Motorola Moto One Fusion 2
-    Pacha Motorola Moto One Fusion Plus 0
+    Pacha Motorola Moto One Fusion Plus 1
     Pacha Nokia 5.3 2
     Pacha Nokia G21 0
     Pacha Oppo A16 2
@@ -2095,7 +2097,7 @@
     Pacha Samsung J5 Prime Negro 1
     Pacha Tcl 30Se 0
     Pacha Tcl 40Se 0
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 0
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 2
     Pacha Tecno - Infinix Spark Go 2020 / 6 Go / Hot 10i 1
     Pacha Tecno - Infinix Spark Go 2020 / 6Go / Hot 10i 1
     Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 0
@@ -2162,7 +2164,7 @@
     Parlante Barra de Sonido Boombar Klip Xtreme 0
     Parlante Ducha 0
     Parlante Gedi-G Gd-1521 30000w 1
-    Parlante Gedi-G Gd-2888 1
+    Parlante Gedi-G Gd-2888 0
     Parlante Gedi-G Lt-2132 1
     Parlante Gts-1372 1
     Parlante Gts-1961 0
@@ -2268,7 +2270,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 5
+    Recargas 4
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
     Reproductor Chromecast Espejo 1
@@ -2284,11 +2286,11 @@
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Dxg 1
     Reproductor Tdt Hd-939 0
-    Reproductor Tdt Krono Kr-365 1
+    Reproductor Tdt Krono Kr-365 0
     Reproductor Tdt Tg 1
     Reproductor Tv Stick Magis 1
     Reproductor Tv Stick Watch Om 1
-    Rollo Cinta Led 10M Audioritmica 2
+    Rollo Cinta Led 10M Audioritmica 1
     Rollo Cinta Led Con Bluetooth 0
     Rollo Cinta Led Eco 0
     Rollo Cinta Led Rgb 10M 1
@@ -2414,6 +2416,7 @@
     Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
     Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
     Servicio Tecnico Tecno Reparacion Logica Spark Go 2024 0
+    Servicio Tecnico Tecno Revision Audio Go 2022 0
     Servicio Tecnico Tg Despegar Bateria Tableta 0
     Servicio Tecnico Tg Pin de carga Tableta 0
     Servicio Tecnico Vivo Frp Y27 0
@@ -2745,7 +2748,7 @@
     Silicone Case Huawei Honor X8C Azulrey 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Morado 1
-    Silicone Case Huawei Honor X8C Negro 1
+    Silicone Case Huawei Honor X8C Negro 0
     Silicone Case Huawei Honor X8C Rojo 1
     Silicone Case Huawei Mate 20 Lite Rosa 0
     Silicone Case Huawei Nova 9 Rosa 0
@@ -3481,7 +3484,7 @@
     Silicone Case Samsung A32 4G Lila 1
     Silicone Case Samsung A32 4G Negro 1
     Silicone Case Samsung A32 4G Rojo 1
-    Silicone Case Samsung A32 4G Rosa 1
+    Silicone Case Samsung A32 4G Rosa 0
     Silicone Case Samsung A32 4G Vinotinto 1
     Silicone Case Samsung A32 5G Amarillo 0
     Silicone Case Samsung A32 5G Fucsia 0
@@ -3742,9 +3745,13 @@
     Silicone Case Tecno Spark 30 4G Fucsia 1
     Silicone Case Tecno Spark 30 4G Lila 0
     Silicone Case Tecno Spark 30 4G Rojo 1
+    Silicone Case Tecno Spark 30 5G Amarillo 0
+    Silicone Case Tecno Spark 30 5G Azulrey 0
+    Silicone Case Tecno Spark 30 5G Fucsia 0
     Silicone Case Tecno Spark 30 5G Morado 1
+    Silicone Case Tecno Spark 30 5G Negro 0
     Silicone Case Tecno Spark 30 5G Palorosa 1
-    Silicone Case Tecno Spark 30 5G Rojo 1
+    Silicone Case Tecno Spark 30 5G Rojo 0
     Silicone Case Tecno Spark 30 Pro 4G Fucsia 0
     Silicone Case Tecno Spark 30 Pro 4G Negro 0
     Silicone Case Tecno Spark 30 Pro 4G Rojo 0
@@ -4133,7 +4140,7 @@
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 0
     Silicone Case Xiaomi Redmi Note 13 4G Lila 1
     Silicone Case Xiaomi Redmi Note 13 4G Morado 0
-    Silicone Case Xiaomi Redmi Note 13 4G Negro 1
+    Silicone Case Xiaomi Redmi Note 13 4G Negro 0
     Silicone Case Xiaomi Redmi Note 13 4G Rojo 0
     Silicone Case Xiaomi Redmi Note 13 4G Rosa 1
     Silicone Case Xiaomi Redmi Note 13 5G Amarillo 1
@@ -4263,7 +4270,7 @@
     Silicone Motorola Moto G8 Power Lite Rojo 0
     Simcard Claro 0
     Simcard Movistar 3
-    Simcard Tigo 10
+    Simcard Tigo 9
     Simcard Virgin 6
     Simcard Wom 1
     Sin Registro 0
@@ -4279,6 +4286,7 @@
     Smartphone Motorola Moto E15 354526458113491 64/2 0
     Smartphone Motorola Moto G04S 64/6 Azulrey 1
     Smartphone Motorola Moto G05 351368283489173 128/4 0
+    Smartphone Nubia Neo 3 Gt 5G 868266070402662 256/20 0
     Smartphone Redmi 14C 867664075580766 256/8 0
     Smartphone Samsung A16 0
     Smartphone Samsung A16 352042193728520 128/6 0
@@ -4452,7 +4460,7 @@
     Vidrio 5D Motorola Moto E14 / G04 / G24 3
     Vidrio 5D Motorola Moto E30 / E40 0
     Vidrio 5D Motorola Moto E6s / E6i 2
-    Vidrio 5D Motorola Moto G14 / G54 / G55 3
+    Vidrio 5D Motorola Moto G14 / G54 / G55 2
     Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 5
     Vidrio 5D Motorola Moto G22 1
     Vidrio 5D Motorola Moto G22 / E32 0
@@ -4493,7 +4501,7 @@
     Vidrio 5D Samsung S23 Plus 0
     Vidrio 5D Tecno Camon 20 / 20 Pro 0
     Vidrio 5D Tecno Sapark 30 Pro 0
-    Vidrio 5D Tecno Spark 10 Pro 3
+    Vidrio 5D Tecno Spark 10 Pro 2
     Vidrio 5D Tecno Spark 20 Pro 0
     Vidrio 5D Tecno Spark 30 5G 4
     Vidrio 5D Tecno Spark Go 2023 / Pop 7 3
@@ -4515,7 +4523,7 @@
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 4
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 4
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
-    Vidrio 5D Xiaomi Redmi Note 13 4G 2
+    Vidrio 5D Xiaomi Redmi Note 13 4G 1
     Vidrio 5D Xiaomi Redmi Note 8 2
     Vidrio 5D Xiaomi Redmi Note 9 0
     Vidrio 5D Xiaomi Redmi Note 9S / 9 Pro 0
