@@ -1,9 +1,8 @@
-    Adaptador Micro Sd Eco 5
+    Adaptador Micro Sd Eco 3 ok
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Conduccion Osea B-18 1
-    Audifonos Bluetooth Sm I12 Blanco 2
+    Audifonos Bluetooth Sm I12 Blanco 2 ok
     Audifonos Bluetooth Sm I12 Rosa 2
-    Audifonos Bluetooth W I12 Negro 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
@@ -14,6 +13,7 @@
     Cable Belkin Tc 5
     Cable Hdtv 1
     Cable Motorola Tc A Tc 3
+    
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 3
     Cable V8 Eco 5
@@ -228,14 +228,14 @@
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark 30 5G Fucsia 1
-    Silicone Case Tecno Spark 30 5G Negro 1
-    Silicone Case Tecno Spark 30 5G Rojo 1
+    Silicone Case Tecno Spark 30 5G Fucsia 1 ok
+    Silicone Case Tecno Spark 30 5G Negro 1 ok
+    Silicona Case Tecno Spark 30 5G Rojo 1
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Lila 1
     Silicone Case Tecno Spark 40 Pro Morado 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
