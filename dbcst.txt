@@ -322,7 +322,7 @@
     Cable Optico 3M 0
     Cable Optico 5M 0
     Cable Poder Cuadrado 3000
-    Cable Poder Grabadora 2500
+    Cable Poder Grabadora 2500.0
     Cable Poder Grabadora Corto 0
     Cable Poder Micro 0
     Cable Poder Mini 0
@@ -353,14 +353,14 @@
     Cable V3 1.5M 0
     Cable V3 Eco 0
     Cable V8 3.0 Corto 0
-    Cable V8 Eco 0
+    Cable V8 Eco 1000.0
     Cable Vga 1.5M 0
     Cable Vga 10M 0
     Cable Vga 15M 0
     Cable Vga 1M 0
     Cable Vga 3M 0
     Cable Vga 5M 0
-    Cable We Tc 0
+    Cable We Tc 4500.0
     Cable We Tc Eco 0
     Cable We V8 0
     Cable Xiaomi Original Usb Tc 0
@@ -426,7 +426,7 @@
     Cargador Apple 15 Pro Max 35W Con Cable 18000
     Cargador Apple 16 Pro Max 45W Con Cable 18000
     Cargador Apple 20W Con Cable 12000
-    Cargador Apple 20W Tc Cabeza 9000
+    Cargador Apple 20W Tc Cabeza 9000.0
     Cargador Apple 25W Con Cable 14000
     Cargador Apple 25W Tc Cabeza 9000
     Cargador Apple 30W Tc Cabeza 18000
@@ -659,7 +659,7 @@
     Forro Antichoque Cadena Tecno Camon 40 Pro 6000
     Forro Antichoque Cadena Tecno Pova 5 6000
     Forro Antichoque Cadena Tecno Spark 10 Pro 6000
-    Forro Antichoque Cadena Tecno Spark 20 Pro Plus 6000
+    Forro Antichoque Cadena Tecno Spark 20 Pro Plus 6000.0
     Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 6000
     Forro Antichoque Cadena Tecno Spark Go 2025 / Go 1 6000
     Forro Antichoque Cadena Vivo Y03 / Y18 6000
@@ -1637,7 +1637,7 @@
     Holder Chupa Parabrisas 0
     Hub Lan 3 Usb 0
     Huella Xiaomi Redmi 9T 0
-    Humidificador Eco 0
+    Humidificador Eco 8000.0
     Humidificador Madera 0
     Humidificador Oso 0
     Hydrogel Antichoque 0
@@ -1689,7 +1689,7 @@
     Hydrogel Tecno Camon 30S 0
     Hydrogel Tecno Camon 30S Pro 0
     Hydrogel Tecno Camon 40 Pro 0
-    Hydrogel Tecno Spark 20 Pro Plus 0
+    Hydrogel Tecno Spark 20 Pro Plus 4000.0
     Hydrogel Xiaomi Poco X6 0
     Hydrogel Xiaomi Redmi 12 0
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
@@ -1756,7 +1756,7 @@
     Logica De Carga Xiaomi Redmi Note 13 Pro 4G 0
     Logica De Carga Xiaomi Redmi Note 7 0
     Logica De Carga Xiaomi Redmi Note 9 0
-    Logica de Carga Huawei Honor X6 / X6s 0
+    Logica de Carga Huawei Honor X6 / X6s 15000.0
     Logica de Carga Huawei Honor X7 0
     Logica de Carga Huawei Honor X8 0
     Logica de Carga Huawei P20 lite 0
@@ -1829,7 +1829,7 @@
     Manos Libres Samsung Akg Tc Blanco 0
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 0
-    Manos Libres Samsung J5 Negro 2200
+    Manos Libres Samsung J5 Negro 2300.0
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 0
     Manos Libres Samsung Tipo Original Negro 0
@@ -2259,7 +2259,7 @@
     Recarga 6500 6132
     Recarga 7500 7075
     Recarga 8500 8018
-    Recargas 54717.0
+    Recargas 44340.0
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 125000
     Reproductor Chromecast Espejo 45000
@@ -2693,7 +2693,7 @@
     Silicone Case Huawei Honor X7 Verde 7000
     Silicone Case Huawei Honor X7A Morado 7000
     Silicone Case Huawei Honor X7A Rosa 7000
-    Silicone Case Huawei Honor X7B Azulrey 7000
+    Silicone Case Huawei Honor X7B Azulrey 7000.0
     Silicone Case Huawei Honor X7B Fucsia 7000
     Silicone Case Huawei Honor X7B Negro 7000
     Silicone Case Huawei Honor X7C / 200 Smart Amarillo 7000
@@ -4284,7 +4284,7 @@
     Soporte Tv 32 Brazo 16000
     Soporte Tv 50 Brazo 0
     Soporte Tv 70 Brazo 0
-    Soporte Tv Fijo 0
+    Soporte Tv Fijo 16000.0
     Space Color Xiaomi Redmi 10 Lila 5000
     Space Color Xiaomi Redmi 10 Rosa 5000
     Spliter Lan Fino 0
@@ -4476,7 +4476,7 @@
     Vidrio 5D Xiaomi Redmi 12 900
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
     Vidrio 5D Xiaomi Redmi 14 900
-    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 900
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 900.0
     Vidrio 5D Xiaomi Redmi 8 900
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 900
     Vidrio 5D Xiaomi Redmi 9T 900
@@ -4545,7 +4545,7 @@
     Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 1600
     Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 1600
     Vidrio Blindado Apple Ip4Hone 14 Pro Max 1600
-    Vidrio Blindado Apple Iphone 11 / Xr 1600
+    Vidrio Blindado Apple Iphone 11 / Xr 1600.0
     Vidrio Blindado Apple Iphone 11 Pro Max 1600
     Vidrio Blindado Apple Iphone 12 / 12 Pro 1600
     Vidrio Blindado Apple Iphone 12 Mini 1600

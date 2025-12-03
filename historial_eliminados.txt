@@ -9759,3 +9759,91 @@ Fecha de proceso: 2025-11-30 14:28:50
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-02 17:50:57
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 41
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   61 | Forro Armadura Infinix Hot 50I / Smart 9 Negro 1 ok
+   68 | Forro Armadura Samsung A06 Azul 1 ok
+   69 | Forro Armadura Samsung A06 Rojo 1 ok
+   74 | Forro Armadura Tecno Spark 30 5G Rojo 1 ok
+   77 | Forro Armadura Xiaomi Redmi 13 Negro 1 ok
+   78 | Forro Armadura Xiaomi Redmi 13 Rojo 1 ok
+   79 | Forro Armadura Xiaomi Redmi 14C Negro 2 ok
+  106 | Forro Space Magsafe Apple Iphone 11 Pro 1 ok
+  107 | Forro Space Magsafe Apple Iphone 11 Pro max 1 ok
+  149 | Silicone Case Huawei Honor 200 Negro 1 ok
+  150 | Silicone Case Huawei Honor 400 Lite Azulrey 1 ok
+  151 | Silicone Case Huawei Honor 400 Lite Fucsia 1 ok
+  152 | Silicone Case Huawei Honor 400 Lite Morado 1 ok
+  153 | Silicone Case Huawei Honor 400 Lite Negro 1 ok
+  154 | Silicone Case Huawei Honor 400 Smart Amarillo 1 ok
+  155 | Silicone Case Huawei Honor 400 Smart Fucsia 1 ok
+  157 | Silicone Case Huawei Honor 400 Smart Azulrey 1 ok
+  160 | Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Lila 1 ok
+  163 | Silicone Case Huawei Honor X6C Fucsia 1 ok
+  165 | Silicone Case Huawei Honor X7C / 200 Smart Azulrey 1 ok
+  181 | Silicone Case Iphone 11 Pro Max Amarillo 1 ok
+  185 | Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 1 ok
+  193 | Silicone Case Motorola Moto G22 Azulclaro 1 ok
+  197 | Silicone Case Motorola Moto G75 Amarillo 1 ok
+  198 | Silicone Case Motorola Moto G75 Negro 1 ok
+  221 | Silicone Case Samsung A17 Morado 1 ok
+  223 | Silicone Case Samsung A22 4G Morado 1 ok
+  238 | Silicone Case Tecno Camon 30S Negro 1 ok
+  239 | Silicone Case Tecno Camon 30S Pro Verde Militar 1 ok
+  258 | Silicone Case Tecno Spark 40C Amarillo 1 ok
+  259 | Silicone Case Tecno Spark 40C Fucsia 1 ok
+  260 | Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
+  261 | Silicone Case Tecno Spark Go 2023 / Pop7 Rosa 1 ok
+  287 | Silicone Case Xiaomi Redmi 12 Morado 1 ok
+  288 | Silicone Case Xiaomi Redmi 12C Ab Azulrey 1 ok
+  291 | Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
+  292 | Silicone Case Xiaomi Redmi 13C Negro 1 ok
+  300 | Silicone Case Xiaomi Redmi Note 11 Morado 1 ok
+  306 | Silicone Case Xiaomi Redmi Note 14 Pro 4G Amarillo 1 ok
+  307 | Silicone Case Xiaomi Redmi Note 14 Pro 4G Fucsia 1 ok
+  310 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Fucsia 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-02 17:50:57
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Dpp2Vga Cbl 2 ok
+    4 | Adaptador Hub 4 Puertos 2.0 2 ok
+   11 | Amplificador de Pantalla Curvo 1 ok
+   12 | Amplificador de Pantalla Plano 2 ok
+   14 | Audifonos Bluetooth Pro 5S Rosa 1 ok
+   15 | Audifonos Bluetooth Pro 5S Blanco 1 ok
+   25 | Cable Hdmi + Adaptadores 2 ok
+   37 | Cargador 24V 2 ok
+   39 | Cargador Pc 8 Pines Caja Naranja 2 ok
+   51 | Juguete Popit Blanco 3 ok
+   55 | Memory Card Ps2 2 ok
+   67 | Soporte Tv 50 Brazo 2 ok
+
+==================================================
+Fecha de proceso: 2025-12-02 17:50:57
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Samsung A21S C/m 1 ok
+    3 | Pacha Xiaomi Redmi Note 12 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-02 17:50:57
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
