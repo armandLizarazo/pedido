@@ -16,6 +16,7 @@
     Cable Auxiliar 2 a 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
+    Cable Sony Ps2 2 ok
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
     Cable Lan 2M Cat 6 5
