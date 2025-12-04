@@ -124,6 +124,7 @@
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
+    Forro Space Xiaomi Redmi Note 14 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Samsung J5 Negro 5
@@ -234,6 +235,8 @@
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Lila 1
     Silicone Case Tecno Spark 40 Pro Morado 1
+    Silicone Case Tecno Spark 40C Lila 1
+    Silicone Case Tecno Spark 40C Negro 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -277,6 +280,7 @@
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Azulclaro 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Lila 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
