@@ -10,7 +10,10 @@
     Balaca Appla P9 Azul 1
     Balaca Apple Airpods Max Negro 1.1 1
     Cable Apple Usb Ligthning 2M 1 ok
+    Cable Hdmi 4K 3M 1 ok
+    Cable Hdmi 4K 5M 1 ok
     Cable Belkin Tc 5
+    Cable Apple Tc A Tc 240W 2M 2 ok
     Cable Yoyos Tc 5 ok
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
@@ -218,11 +221,12 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
-    Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1 ok
     Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark 30 5G Verde 1 ok
     Silicone Case Tecno Spark 30 5G Fucsia 1 ok
     Silicone Case Tecno Spark 30 5G Negro 1 ok
     Silicona Case Tecno Spark 30 5G Rojo 1
