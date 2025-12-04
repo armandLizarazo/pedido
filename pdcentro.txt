@@ -1,27 +1,26 @@
-    Adaptador Micro Sd Eco 5
+    Adaptador Micro Sd Eco 3 ok
     Adaptador Otg Tc Y Micro 3
     Audifonos Bluetooth Conduccion Osea B-18 1
-    Audifonos Bluetooth Sm I12 Blanco 2
+    Audifonos Bluetooth Sm I12 Blanco 2 ok
     Audifonos Bluetooth Sm I12 Rosa 2
-    Audifonos Bluetooth W I12 Negro 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Balaca Appla P9 Azul 1
     Balaca Apple Airpods Max Negro 1.1 1
-    Cable Apple Usb Ligthning 2M 5
+    Cable Apple Usb Ligthning 2M 1 ok
+    Cable Hdmi 4K 3M 1 ok
+    Cable Hdmi 4K 5M 1 ok
     Cable Belkin Tc 5
-    Cable Hdtv 1
+    Cable Apple Tc A Tc 240W 2M 2 ok
+    Cable Yoyos Tc 5 ok
     Cable Motorola Tc A Tc 3
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 3
     Cable V8 Eco 5
-    Cable We Tc 3
-    Cargador 12V 2A Doble Punta 2
-    Cargador 15V 2
-    Cargador 5V 2A Doble Punta 3
-    Cargador Apple 20W Tc Cabeza 2
+    Cable We Tc 5 ok
+    Cargador Apple 20W Tc Cabeza 2 ok
     Cargador Apple 25W Tc Cabeza 1
     Cargador Belkin Tc 5
     Cargador Fuente 360 Slim 1
@@ -33,7 +32,6 @@
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Smart Watch Magnetico Positivo 3
     Cargador We 25W Cabeza 2
-    Control Gamer X3S 2
     Forro Antichoque Cadena Infinix Hot 60 Pro Plus 3
     Forro Antichoque Cadena infinix Note 50S 4G 2
     Forro Antichoque Hawei Honor X9 Dama 3
@@ -224,21 +222,22 @@
     Silicone Case Tecno Camon 40 Premier Negro 1
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
-    Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Morado 1 ok
     Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark 30 5G Fucsia 1
-    Silicone Case Tecno Spark 30 5G Negro 1
-    Silicone Case Tecno Spark 30 5G Rojo 1
+    Silicone Case Tecno Spark 30 5G Verde 1 ok
+    Silicone Case Tecno Spark 30 5G Fucsia 1 ok
+    Silicone Case Tecno Spark 30 5G Negro 1 ok
+    Silicona Case Tecno Spark 30 5G Rojo 1
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Lila 1
     Silicone Case Tecno Spark 40 Pro Morado 1
     Silicone Case Tecno Spark 40C Lila 1
     Silicone Case Tecno Spark 40C Negro 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -294,7 +293,6 @@
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Smart Watch Gw-20 Verdemilitar 1
     Smart Watch I525 Mini Rosa 1
-    Soporte Cel Metalico 1
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
