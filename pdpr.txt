@@ -23,8 +23,8 @@
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
-    Camara 3 Antenas 3
-    Camara Wifi Bombillo 2
+    Camara 3 Antenas 5 ok
+    Camara Wifi Bombillo 1 ok
     Camara de Solapa 1
     Cargador 15V 2
     Cargador Cabeza Cubo Eco 2 ok
@@ -35,10 +35,10 @@
     Consola Mini Ness 2
     Control Gamer Gatillos W11+ 3
     Control Gamer Sony Ps2 Inalambrico 2
-    Control Gamer Sony Ps3 Azul 2
+    Control Gamer Sony Ps3 Azul 1 ok
     Control Gamer Sony Ps3 Blanco 1
-    Control Gamer Sony Ps3 Negro 1
-    Control Gamer Sony Ps3 Rojo 1
+    Control Gamer Sony Ps3 Negro 1 ok
+    Control Gamer Sony Ps3 Rojo 1 ok
     Control Gamer X3S 2
     Estabilizador 1800w 1
     Extension 4m 1
