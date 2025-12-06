@@ -19,7 +19,7 @@
     Cable Lan 2M Cat 6 5
     Cable Lan 3M Cat 6 8
     Cable Microsoft Xbox Caja Negra 2
-    Cable Poder Grabadora 5
+    Cable Poder Grabadora 5 ok
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
@@ -27,7 +27,7 @@
     Camara Wifi Bombillo 2
     Camara de Solapa 1
     Cargador 15V 2
-    Cargador Cabeza Cubo Eco 5
+    Cargador Cabeza Cubo Eco 2 ok
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
     Cargador Smart Watch Magnetico Positivo 3
@@ -52,9 +52,10 @@
     Pila Control 23A 5
     Pilas Carbon Maxday Aaa X2 30
     Reproductor Alexa Reloj 1
-    Reproductor Onn 4K 2
-    Reproductor Onn Hd 1
-    Reproductor Onn Hd Azul 1
+    Reproductor Tdt 2 ok
+    Reproductor Onn 4K 1 ok
+    Reproductor Onn Hd 1 ok
+    Reproductor Onn Hd Azul 1 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
@@ -62,6 +63,8 @@
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
     Tableta Tigers Kids Rosa 1
+    Teclado Gamer Yelandar K-760 2 ok
+    Teclado Gamer Yelandar K-568 1 ok
     Teclado Gamer Cmk-198 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
