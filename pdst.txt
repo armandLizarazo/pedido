@@ -1,9 +1,6 @@
-    Auricular Xiaomi Redmi 14C 1
-    Bateria Huawei Honor 8A 1
-    Bateria Samsung A50 Original 1
-    Camara Frontal Xiaomi Redmi 14C 1
-    Pacha Motorola Moto E30 / E40 1
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
-    Pacha Motorola Moto G22 / E32 2
-    Pacha Samsung A13 / M13 / M23 2
-    Bandeja Sim Huawei Honor X6 / X6S 
+    Bateria Huawei Honor 1
+    Pacha Motorola Moto E30 / E40 1 ok
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    Pacha Motorola Moto G22 / E32 2 ok
+    Pacha Samsung A13 / M13 / M23 2 ok
+    Bandeja Sim Huawei Honor X6 / X6S ok
