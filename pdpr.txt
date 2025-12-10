@@ -24,10 +24,10 @@
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara 3 Antenas 5 ok
-    Camara Wifi Bombillo 1 ok
+    Camara Robotica Wifi Bombillo 1 ok
     Camara de Solapa 1
     Cargador 15V 2
-    Cargador Cabeza Cubo Eco 2 ok
+    Cargador Cabeza Largo Eco 2 ok
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
     Cargador Smart Watch Magnetico Positivo 3
@@ -52,7 +52,7 @@
     Pila Control 23A 5
     Pilas Carbon Maxday Aaa X2 30
     Reproductor Alexa Reloj 1
-    Reproductor Tdt 2 ok
+    Reproductor Tdt Beck Paly 2 ok
     Reproductor Onn 4K 1 ok
     Reproductor Onn Hd 1 ok
     Reproductor Onn Hd Azul 1 ok
