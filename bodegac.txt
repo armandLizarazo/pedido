@@ -136,7 +136,7 @@
     Audifonos Bluetooth Pro 5S Rosa 1
     Audifonos Bluetooth Pro 60 1
     Audifonos Bluetooth Royal Sports 1
-    Audifonos Bluetooth Sm I12 Blanco 2
+    Audifonos Bluetooth Sm I12 Blanco 0
     Audifonos Bluetooth Sm I12 Gris 0
     Audifonos Bluetooth Sm I12 Negro 0
     Audifonos Bluetooth Sm I12 Rosa 0
@@ -236,7 +236,7 @@
     Bateria Xiaomi Redmi Note 9S (BN55) 1
     Batidora Sokany Sk-6620 1
     Bisel Motorola Moto One 0
-    Bisel Oppo Reno 5 Lite / Reno 6 Lite 1
+    Bisel Oppo Reno 5 Lite / Reno 6 Lite 0
     Blindaje Fpc Display Xiaomi Redmi Note 8 0
     Bluetooth Car Bt-350 0
     Bluetooth Car Bt-X6 0
@@ -1877,7 +1877,7 @@
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica  Reggae Reggae 0
     Memoria Musica Bachata Reyes de la Bachata 0
-    Memoria Musica Carranguera 2
+    Memoria Musica Carranguera 0
     Memoria Musica Carranguera Los 3 de la Carranga 0
     Memoria Musica Carranguera Los Mas Carrangueros 0
     Memoria Musica Carrilera Chistes 0
@@ -1934,14 +1934,14 @@
     Memoria Musica Romantica Plancha 2
     Memoria Musica Salsa Salsa Brava 0
     Memoria Musica Salsa Salsa del Ayer hoy y Siempre 0
-    Memoria Musica Tropical 1
+    Memoria Musica Tropical 0
     Memoria Musica Tropical 50 de joselito / Guayaba / Taxi / Bandafiesta 0
     Memoria Musica Tropical El mas Tropical 0
     Memoria Musica Tropical Pa Azotar Baldoza 0
     Memoria Musica Tropical Tropical Parrandero 0
     Memoria Musica Tropical Tropicales de Siempre 0
     Memoria Musica Vallenata Binomio de Oro / Nelson Velasquez / Los Diablitos 0
-    Memoria Musica Vallenata Diomedez Dias 2
+    Memoria Musica Vallenata Diomedez Dias 0
     Memoria Musica Vallenata Fantasia Vallenata 0
     Memoria Musica Vallenata Rafael Orozco 0
     Memoria Musica Vallenata Reliquias Vallenatas 0
@@ -4524,7 +4524,7 @@
     Vidrio 5D Samsung A53 0
     Vidrio 5D Samsung A54 / S23 Fe 0
     Vidrio 5D Samsung A56 0
-    Vidrio 5D Samsung A71 / Poco X3 10
+    Vidrio 5D Samsung A71 / Poco X3 5
     Vidrio 5D Samsung S22 / S23 0
     Vidrio 5D Samsung S23 Plus 0
     Vidrio 5D Tecno Camon 20 / 20 Pro 3
@@ -4542,7 +4542,7 @@
     Vidrio 5D Xiaomi Redmi 12 0
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 5
     Vidrio 5D Xiaomi Redmi 14 0
-    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 6
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 0
     Vidrio 5D Xiaomi Redmi 8 0
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 0
     Vidrio 5D Xiaomi Redmi 9T 0
