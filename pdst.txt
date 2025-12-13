@@ -1,6 +1,7 @@
     Bateria Huawei Honor 1
-    Pacha Motorola Moto E30 / E40 1 ok
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
-    Pacha Motorola Moto G22 / E32 2 ok
-    Pacha Samsung A13 / M13 / M23 2 ok
-    Bandeja Sim Huawei Honor X6 / X6S ok
+    Bateria Motorola Moto G22 2
+    Logica De Carga Motorola Moto G20 1
+    Pacha Lg K61 2
+    Pacha Oppo A17 / A38 / A57 / A77 2
+    Pacha Samsung A30s C/m 1
+    Pacha Xiaomi Redmi Note 12 1

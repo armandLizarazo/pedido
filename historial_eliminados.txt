@@ -9909,3 +9909,95 @@ Fecha de proceso: 2025-12-04 12:49:52
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-11 06:23:16
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 41
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   26 | Forro Antichoque Motorola Moto G20 / G30 Caballero 3 ok
+   32 | Forro Antichoque Oppo A5 Caballero 4 ok
+   40 | Forro Antichoque Samsung A30s Caballero 3 ok
+   41 | Forro Antichoque Samsung A30s Dama 3 ok
+   53 | Forro Antichoque Xiaomi Redmi Note 8 Caballero 2  ok
+   55 | Forro Armadura Oppo A57 Rojo 1 ok
+   62 | Forro Armadura Tecno Spark 30 5G Rojo 1 ok
+   63 | Forro Armadura Tecno Spark 30 Pro Rojo 1 ok
+   81 | Forro Space Huawei Honor 200 2 ok
+   82 | Forro Space Huawei Honor X7C / 200 Smart 2 ok
+   84 | Forro Space Huawei Honor 400 Lite 2 ok
+   87 | Forro Space Huawei P30 Lite 2 ok
+   89 | Forro Space Infinix Hot 30 2 ok
+  116 | Forro Space Xiaomi Redmi Note 14 Pro 4G 2 ok
+  119 | Manos Libres Samsung Akg 3 ok
+  138 | Silicone Case Huawei Honor 400 Smart Lila 1 ok
+  139 | Silicone Case Huawei Honor 400 Smart Negro 1 ok
+  140 | Silicone Case Huawei Honor 400 Smart Rojo 1 ok
+  151 | Silicone Case Huawei Y9 2019 / Y8S Azulrey 1 ok
+  153 | Silicone Case Huawei Y9A Azul Rey 1 ok
+  156 | Silicone Case Infinix Hot 60 Pro Negro 1 ok
+  159 | Silicone Case Infinix Hot 60 Pro Rojo 1 ok
+  160 | Silicone Case Infinix Note 30 Pro Lila 1 ok
+  165 | Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1 ok
+  170 | Silicone Case Motorola Moto G15 Morado 1 ok
+  174 | Silicone Case Motorola Moto G55 Blanco 1 ok
+  179 | Silicone Case Motorola Moto G9 Power Negro 1 ok
+  182 | Silicone Case Oppo A5 Rosa 1 ok
+  183 | Silicone Case Oppo A78 4G Morado 1 ok
+  193 | Silicone Case Samsung A03 Core Lila 1 ok
+  196 | Silicone Case Samsung A04E Negro 1 ok
+  201 | Silicone Case Samsung A32 4G Rosa 1 ok
+  228 | Silicone Case Tecno Spark 40C Lila 1 ok
+  229 | Silicone Case Tecno Spark 40C Negro 1 ok
+  230 | Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1 ok
+  244 | Silicone Case Vivo Y11S / Y20 / Y20S Amarillo 1 ok
+  250 | Silicone Case Vivo Y30 / Y50 Lila 1 ok
+  258 | Silicone Case Xiaomi Redmi 15 Lila 1 ok
+  268 | Silicone Case Xiaomi Redmi Note 13 4G Negro 1 ok
+  271 | Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Amarillo 1 ok
+  274 | Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Lila 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-11 06:23:16
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   22 | Cable Poder Grabadora 5 ok
+   26 | Camara 3 Antenas 5 ok
+   27 | Camara Robotica Wifi Bombillo 1 ok
+   30 | Cargador Cabeza Largo Eco 2 ok
+   38 | Control Gamer Sony Ps3 Azul 1 ok
+   40 | Control Gamer Sony Ps3 Negro 1 ok
+   41 | Control Gamer Sony Ps3 Rojo 1 ok
+   55 | Reproductor Tdt Beck Paly 2 ok
+   56 | Reproductor Onn 4K 1 ok
+   57 | Reproductor Onn Hd 1 ok
+   58 | Reproductor Onn Hd Azul 1 ok
+   66 | Teclado Gamer Yelandar K-760 2 ok
+   67 | Teclado Gamer Yelandar K-568 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-11 06:23:16
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Motorola Moto E30 / E40 1 ok
+    3 | Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+    4 | Pacha Motorola Moto G22 / E32 2 ok
+    5 | Pacha Samsung A13 / M13 / M23 2 ok
+    6 | Bandeja Sim Huawei Honor X6 / X6S ok
+
+==================================================
+Fecha de proceso: 2025-12-11 06:23:16
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

@@ -2,7 +2,9 @@
     "pdcentro.txt": [
         "pacha",
         "flex de power",
-        "logica de carga"
+        "logica de carga",
+        "carga y juega",
+        "estetica"
     ],
     "pdpr.txt": [
         "pacha",
@@ -15,6 +17,7 @@
         "silicone",
         "vidrio",
         "antichoque",
-        "space"
+        "space",
+        "parlante"
     ]
 }
