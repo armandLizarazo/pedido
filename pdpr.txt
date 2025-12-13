@@ -20,22 +20,22 @@
     Cargador Microsoft Carga Y Juega Xbox 360 3
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
-    Consola Mini Ness 2
+    Consola Mini Ness 2 ok
     Control Gamer Gatillos W11+ 3
     Control Gamer Sony Ps2 Inalambrico 2
     Control Gamer Sony Ps3 Blanco 1
-    Control Gamer X3S 2
+    Control Gamer X3 1 ok
     Estabilizador 1800w 1
     Estetica Cepillo Secador Giratorio 1
     Extension 4m 1
-    Extensión 6M 2
+    Extensión 6M 2 ok
     Forro Pc 16 Pulgadas 2
-    Gramera Sencilla 1
+    Gramera Sencilla 1 ok
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
     Parlante Ktf-1645 2
-    Parlante Marshall Medium 1
+    Parlante Marshall Medium 1 ok
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
     Pila Control 23A 5
@@ -49,7 +49,8 @@
     Soporte Para Control Ps4 1
     Switch Lan  GS-05 1/100/1000 1
     Tableta Tigers Kids Rosa 1
-    Teclado Gamer Cmk-198 1
-    Teclado Gamer Yelandar K-760 2
+    Teclado Gamer Cmk-198 1 ok
+    Teclado Gamer Yelandar K-760 2 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
+    Estabilizador 4 Puertos 1 ok
