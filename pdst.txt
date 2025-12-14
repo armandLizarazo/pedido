@@ -1,7 +1,7 @@
     Bateria Huawei Honor 1
-    Bateria Motorola Moto G22 2
-    Logica De Carga Motorola Moto G20 1
-    Pacha Lg K61 2
-    Pacha Oppo A17 / A38 / A57 / A77 2
-    Pacha Samsung A30s C/m 1
-    Pacha Xiaomi Redmi Note 12 1
+    Bateria Motorola Moto G22 3 ok
+    Logica De Carga Motorola Moto G20 1 ok
+    Pacha Lg K61 2 ok
+    Pacha Oppo A17 / A38 / A57 / A77 2 ok
+    Pacha Samsung A30s C/m 1 ok
+    Pacha Xiaomi Redmi Note 12 1 ok
