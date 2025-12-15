@@ -112,6 +112,7 @@
     Aro De Luz Joma 33Cm Rgb 0
     Aro de Luz Joma 26Cm Rgb 0
     Audifonos Bluetooth Airpods Pro 0
+    Audifonos Bluetooth Apple I12 Azulclaro 0
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 0
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 0
     Audifonos Bluetooth Conduccion Osea B-18 0
@@ -140,7 +141,7 @@
     Audifonos Bluetooth Sm I12 Blanco 0
     Audifonos Bluetooth Sm I12 Gris 0
     Audifonos Bluetooth Sm I12 Negro 0
-    Audifonos Bluetooth Sm I12 Rosa 0
+    Audifonos Bluetooth Sm I12 Rosa 14000.0
     Audifonos Bluetooth W I12 Azuloscuro 0
     Audifonos Bluetooth W I12 Blanco 0
     Audifonos Bluetooth W I12 Negro 0
@@ -149,7 +150,7 @@
     Audifonos Bluetooth Xiaomi Airdots 0
     Audifonos Bluetooth Xiaomi E7S Azul 0
     Audifonos Bluetooth Xiaomi E7S Blanco 0
-    Audifonos Bluetooth Xiaomi E7S Negro 0
+    Audifonos Bluetooth Xiaomi E7S Negro 22000.0
     Audifonos Bluetooth Xiaomi E7S Rosa 0
     Audifonos Bluetooth Xiaomi Redmi E7S Negro 0
     Audifonos Bluetooth Y6 Azul 0
@@ -259,7 +260,7 @@
     Cable Apple Tc A Tc 240W 2M 0
     Cable Apple Tc A Tc 2M 0
     Cable Apple Tc A Tc 60w Aguja 0
-    Cable Apple Tc Ligthning 0
+    Cable Apple Tc Ligthning 5000.0
     Cable Apple Tc Ligthning 2M 0
     Cable Apple Tc a Tc 0
     Cable Apple Usb Ligthning 0
@@ -371,18 +372,18 @@
     Cable Vga 1M 0
     Cable Vga 3M 0
     Cable Vga 5M 0
-    Cable We Tc 0
+    Cable We Tc 4500.0
     Cable We Tc Eco 0
     Cable We V8 0
     Cable Xiaomi Original Usb Tc 0
     Cable Xiaomi Tc A Tc 10000
     Cable Yoyos Tc 4500
-    Cable Yoyos Tc 3M 5000
+    Cable Yoyos Tc 3M 5000.0
     Cable Yoyos Tc 67W 6000
     Cable Yoyos V8 3M 6000
     Cadenas Colgar 0
     Cadenas Gancho 0
-    Cadenas Pegar 0
+    Cadenas Pegar 3000.0
     Caja De Timbres Motorola Moto G20 Original 0
     Caja De Timbres Motorola Moto G32 0
     Caja De Timbres Motorola Moto G71 0
@@ -478,7 +479,7 @@
     Cargador Pc 9 Pines Caja Verde P Azul 28000
     Cargador Pc 9 Pines Caja Verde Tc y Yoga 30000
     Cargador Pc Acer 2.37 26000
-    Cargador Pc Asus 2.37 26000
+    Cargador Pc Asus 2.37 0
     Cargador Pc Asus 3.42 26000
     Cargador Pc Hp Punta Azul 26000
     Cargador Pc Lenovo 65W Plug 0
@@ -505,7 +506,7 @@
     Cargador Realme Tc 65W 26000
     Cargador Royal 45W Tc Cbl 0
     Cargador Samsung 25W Cabeza Blanco 10000
-    Cargador Samsung 25W Cabeza Negro 13000
+    Cargador Samsung 25W Cabeza Negro 0
     Cargador Samsung 25W Con Cable Blanco 0
     Cargador Samsung 25W Con Cable Negro 0
     Cargador Samsung 25W V8 10000
@@ -513,6 +514,7 @@
     Cargador Samsung 45W Cabeza Negro 13000
     Cargador Samsung 45W Con Cable Blanco 15000
     Cargador Samsung 45W Con Cable Negro 15000
+    Cargador Samsung 45W Con Cable Original Blanco 0
     Cargador Samsung S10+ Cable Tc 0
     Cargador Samsung S10+ Tc 7500
     Cargador Smart Band Magnetico 0
@@ -535,7 +537,7 @@
     Cargador Xiaomi Tc A Tc 67W 24000
     Cargador Xiaomi Usb Tc 67W 28000
     Cargador Yl Tc 5000
-    Cargador Yl V8 4500
+    Cargador Yl V8 0
     Cargador Yl V8 Eco 0
     Cargador Yoyos 120W 27000
     Cargador Yoyos Tc Bolsa 5000
@@ -597,6 +599,7 @@
     Control Gamer Sony Ps4 Gta V 0
     Control Gamer Sony Ps4 Rojo 0
     Control Gamer Sony Ps4 Spiderman 0
+    Control Gamer X3 0
     Control Gamer X3S 0
     Control Keyboard Tv 15000
     Control Tv Smart Tv 7000
@@ -611,6 +614,7 @@
     Escencia Aceite 3000
     Escencia Agua 0
     Estabilizador 1800w 0
+    Estabilizador 4 Puertos 0
     Estetica Cepillo Secador 0
     Estetica Cepillo Secador Giratorio 0
     Estetica Cepillo Secador Remington Aguacate 0
@@ -723,6 +727,7 @@
     Forro Antichoque Huawei Honor X7B Caballero 3500
     Forro Antichoque Huawei Honor X7C / 200 Smart Caballero 3500
     Forro Antichoque Huawei Honor X7C / 200 Smart Dama 3500
+    Forro Antichoque Huawei Honor X7C / Honor 200 Smart Caballero 0
     Forro Antichoque Huawei Honor X8 Caballero 3500
     Forro Antichoque Huawei Honor X8 Dama 3500
     Forro Antichoque Huawei Honor X8A Caballero 3500
@@ -758,6 +763,7 @@
     Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3500
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 3500
     Forro Antichoque Infinix Hot 60 Pro Caballero 3500
+    Forro Antichoque Infinix Hot 60 Pro Plus Caballero 0
     Forro Antichoque Infinix Hot 60 Pro Plus Dama 3500
     Forro Antichoque Infinix Note 40 4G Caballero 3500
     Forro Antichoque Infinix Note 40 4G Dama 3500
@@ -793,6 +799,8 @@
     Forro Antichoque Motorola Moto E6s / E6i Caballero 3500
     Forro Antichoque Motorola Moto E7 Plus Caballero 3500
     Forro Antichoque Motorola Moto E7 Plus Dama 0
+    Forro Antichoque Motorola Moto E7 Power 0
+    Forro Antichoque Motorola Moto E7 Power Caballero 0
     Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Caballero 3500
     Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Dama 3500
     Forro Antichoque Motorola Moto Edge 50 Fusion / Moto G85 Caballero 0
@@ -920,7 +928,7 @@
     Forro Antichoque Samsung A05S Dama 3500
     Forro Antichoque Samsung A06 Dama 3500
     Forro Antichoque Samsung A07 Caballero 3500
-    Forro Antichoque Samsung A07 Dama 3500
+    Forro Antichoque Samsung A07 Dama 0
     Forro Antichoque Samsung A10 Caballero 3500
     Forro Antichoque Samsung A10 Dama 3500
     Forro Antichoque Samsung A11 Dama 3500
@@ -1350,7 +1358,7 @@
     Forro Lujo Ventana Samsung A55 Negro 0
     Forro Lujo Ventana Samsung S23 Ultra Morado 0
     Forro Lujo Ventana Samsung S23 Ultra Negro 0
-    Forro Lujo Ventana Samsung S24 Fe Negro 0
+    Forro Lujo Ventana Samsung S24 Fe Negro 14000.0
     Forro Lujo Ventana Xiaomi Redmi Note 14 4G Cafe 0
     Forro Lujo Ventana Xiaomi Redmi Note 14 Pro 4G 0
     Forro Lujo Ventana Xiaomi Redmi Note 14 Pro Plus Azul 0
@@ -1548,7 +1556,7 @@
     Forro Space Samsung A34 Lila 0
     Forro Space Samsung A34 Negro 0
     Forro Space Samsung A35 4000
-    Forro Space Samsung A36 0
+    Forro Space Samsung A36 3500.0
     Forro Space Samsung A52 0
     Forro Space Samsung A54 4000
     Forro Space Samsung A55 4000
@@ -1646,7 +1654,7 @@
     Forro Space Xiaomi Redmi Note 13 Pro Plus 0
     Forro Space Xiaomi Redmi Note 14 0
     Forro Space Xiaomi Redmi Note 14 4G 0
-    Forro Space Xiaomi Redmi Note 14 Pro 0
+    Forro Space Xiaomi Redmi Note 14 Pro 3500.0
     Forro Space Xiaomi Redmi Note 14 Pro 4G 0
     Forro Space Xiaomi Redmi Note 14 Pro 5G 0
     Forro Space Xiaomi Redmi Note 14 Pro Plus 0
@@ -1666,7 +1674,7 @@
     Gramera Joyeria 12000
     Gramera Sencilla 0
     Gramera Sencilla Recargable 0
-    Guantes Gamer 2000
+    Guantes Gamer 2000.0
     Herramienta Prensa Economica 0
     Holder Car Regilla 0
     Holder Chupa Parabrisas 0
@@ -1867,7 +1875,7 @@
     Manos Libres Samsung Akg Tc Blanco 0
     Manos Libres Samsung Akg con Aislador 0
     Manos Libres Samsung J5 Blanco 0
-    Manos Libres Samsung J5 Negro 0
+    Manos Libres Samsung J5 Negro 2300.0
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 0
     Manos Libres Samsung Tipo Original Negro 0
@@ -1973,6 +1981,7 @@
     Microfono Inalambrico K9 0
     Microfono Inalambrico Sencillo 0
     Mini Calefactor Con Control 24000
+    Mini Impresora Portable 0
     Mini Licuadora Doble Vaso 0
     Mini Plancha Azul 0
     Mini Plancha Cafe 0
@@ -2083,7 +2092,7 @@
     Pacha Samsung A04s 0
     Pacha Samsung A05 37000
     Pacha Samsung A05 Original Usada 0
-    Pacha Samsung A05S 0
+    Pacha Samsung A05S 38000.0
     Pacha Samsung A06 0
     Pacha Samsung A10 0
     Pacha Samsung A10S 37000
@@ -2165,7 +2174,7 @@
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 0
     Pacha Xiaomi Redmi 9T / Poco M3 0
-    Pacha Xiaomi Redmi A1 / A2 0
+    Pacha Xiaomi Redmi A1 / A2 35000.0
     Pacha Xiaomi Redmi A3 0
     Pacha Xiaomi Redmi Note 10 / Note 10S 40000
     Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 0
@@ -2190,6 +2199,7 @@
     Pad Mouse Logos 0
     Pad Mouse Tapete Largo Logos 0
     Pad Mouse Tapete Negro 0
+    Pago Soat 0
     Parlante Barra V70 0
     Parlante Barra de Sonido Boombar Klip Xtreme 0
     Parlante Ducha 0
@@ -2232,7 +2242,7 @@
     Pepas Hydrogel 2000
     Pila Control 23A 0
     Pila Control 27A 0
-    Pila Reloj Cr-2016 0
+    Pila Reloj Cr-2016 800.0
     Pila Reloj Cr-2025 0
     Pila Reloj Cr-2032 0
     Pila Reloj Lr-1130 0
@@ -2305,7 +2315,7 @@
     Recarga 6500 6132
     Recarga 7500 7075
     Recarga 8500 8018
-    Recargas 0
+    Recargas 23585.0
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 125000
     Reproductor Chromecast Espejo 45000
@@ -2324,7 +2334,7 @@
     Reproductor Tdt Hd-939 38000
     Reproductor Tdt Krono Kr-365 0
     Reproductor Tdt Tg 38000
-    Reproductor Tv Stick Magis 75000
+    Reproductor Tv Stick Magis 0
     Reproductor Tv Stick Watch Om 0
     Rollo Cinta Led 10M Audioritmica 0
     Rollo Cinta Led Con Bluetooth 0
@@ -2436,6 +2446,7 @@
     Servicio Tecnico Samsung Mantenimiento Logica de carga A13 0
     Servicio Tecnico Samsung Pegar Pantalla A03 0
     Servicio Tecnico Samsung Pegar Pantalla A13 0
+    Servicio Tecnico Samsung Pegar Tapa A36 0
     Servicio Tecnico Samsung Pin de Carga A03 0
     Servicio Tecnico Samsung Pin de Carga A10s 0
     Servicio Tecnico Samsung Reconectar Pantalla A24 0
@@ -2514,14 +2525,14 @@
     Silicone Case Apple Iphone 11 Pro Ab Rojo 7000
     Silicone Case Apple Iphone 11 Pro Max Ab Lila 7000
     Silicone Case Apple Iphone 11 Pro Max Ab Rojo 7000
-    Silicone Case Apple Iphone 11 Pro Max Amarillo 0
+    Silicone Case Apple Iphone 11 Pro Max Amarillo 7000
     Silicone Case Apple Iphone 11 Pro Max Gris 7000
     Silicone Case Apple Iphone 11 Pro Max Negro 7000
-    Silicone Case Apple Iphone 11 Pro Max Palorosa 0
+    Silicone Case Apple Iphone 11 Pro Max Palorosa 7000
     Silicone Case Apple Iphone 11 Pro Max Rosa 7000
-    Silicone Case Apple Iphone 11 Pro Max Verde 0
+    Silicone Case Apple Iphone 11 Pro Max Verde 7000
     Silicone Case Apple Iphone 11 Rojo 7000
-    Silicone Case Apple Iphone 11 Rosa 0
+    Silicone Case Apple Iphone 11 Rosa 7000
     Silicone Case Apple Iphone 12 / 12 Pro Ab Verde 7000
     Silicone Case Apple Iphone 12 Ab Negro 7000
     Silicone Case Apple Iphone 12 Lila 7000
@@ -2591,11 +2602,11 @@
     Silicone Case Apple Iphone 16 Pro Max Rojo 7000
     Silicone Case Apple Iphone 16 Pro Max Rosa 7000
     Silicone Case Apple Iphone 16 Pro Max Verde 7000
-    Silicone Case Apple Iphone 17 Pro Max Azuloscuro 0
-    Silicone Case Apple Iphone 17 Pro Max Azulrey 0
-    Silicone Case Apple Iphone 17 Pro Max Fucsia 0
-    Silicone Case Apple Iphone 17 Pro Max Negro 0
-    Silicone Case Apple Iphone 17 Pro Max Rojo 0
+    Silicone Case Apple Iphone 17 Pro Max Azuloscuro 7000
+    Silicone Case Apple Iphone 17 Pro Max Azulrey 7000
+    Silicone Case Apple Iphone 17 Pro Max Fucsia 7000
+    Silicone Case Apple Iphone 17 Pro Max Negro 7000
+    Silicone Case Apple Iphone 17 Pro Max Rojo 7000
     Silicone Case Apple Iphone 6S Amarillo 7000
     Silicone Case Apple Iphone 6S Azulrey 7000
     Silicone Case Apple Iphone 6S Lila 7000
@@ -2627,7 +2638,7 @@
     Silicone Case Apple Iphone 7 Plus / 8 Plus Salmon 7000
     Silicone Case Apple Iphone 7 Plus / 8 Plus Verde 7000
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Amarillo 7000
-    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Azulrey 0
+    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Azulrey 7000
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Blanco 7000
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Fucsia 7000
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Negro 7000
@@ -2656,56 +2667,56 @@
     Silicone Case Apple Iphone Xr Lila 7000
     Silicone Case Apple Iphone Xr Morado 7000
     Silicone Case Apple Iphone Xr Negro 7000
-    Silicone Case Apple Iphone Xr Rojo 0
+    Silicone Case Apple Iphone Xr Rojo 7000
     Silicone Case Apple Iphone Xr Rosa 7000
     Silicone Case Apple Iphone Xs Max Amarillo 7000
     Silicone Case Apple Iphone Xs Max Azuloscuro 7000
     Silicone Case Apple Iphone Xs Max Azulrey 7000
     Silicone Case Apple Iphone Xs Max Blanco 7000
     Silicone Case Apple Iphone Xs Max Morado 7000
-    Silicone Case Apple Iphone Xs Max Negro 0
+    Silicone Case Apple Iphone Xs Max Negro 7000
     Silicone Case Apple Iphone Xs Max Rojo 7000
     Silicone Case Apple Iphone Xs Max Rosa 7000
     Silicone Case Huawei Honor 200 Azulrey 7000
     Silicone Case Huawei Honor 200 Fucsia 7000
-    Silicone Case Huawei Honor 200 Lila 0
+    Silicone Case Huawei Honor 200 Lila 7000
     Silicone Case Huawei Honor 200 Lite Amarillo 7000
     Silicone Case Huawei Honor 200 Lite Azulclaro 7000
     Silicone Case Huawei Honor 200 Lite Azulrey 7000
     Silicone Case Huawei Honor 200 Lite Fucsia 7000
-    Silicone Case Huawei Honor 200 Lite Negro 0
+    Silicone Case Huawei Honor 200 Lite Negro 7000
     Silicone Case Huawei Honor 200 Negro 7000
     Silicone Case Huawei Honor 200 Rojo 7000
     Silicone Case Huawei Honor 200 Vinotinto 7000
-    Silicone Case Huawei Honor 400 5G Lila 0
-    Silicone Case Huawei Honor 400 5G Negro 0
-    Silicone Case Huawei Honor 400 5G Rojo 0
-    Silicone Case Huawei Honor 400 5G Rosa 0
-    Silicone Case Huawei Honor 400 Lite Amarillo 0
-    Silicone Case Huawei Honor 400 Lite Azulrey 0
-    Silicone Case Huawei Honor 400 Lite Fucsia 0
-    Silicone Case Huawei Honor 400 Lite Lila 0
-    Silicone Case Huawei Honor 400 Lite Morado 0
-    Silicone Case Huawei Honor 400 Lite Negro 0
-    Silicone Case Huawei Honor 400 Lite Rojo 0
-    Silicone Case Huawei Honor 400 Lite Verdementa 0
-    Silicone Case Huawei Honor 400 Lite Vinotinto 0
-    Silicone Case Huawei Honor 400 Smart Amarillo 0
-    Silicone Case Huawei Honor 400 Smart Azuloscuro 0
-    Silicone Case Huawei Honor 400 Smart Azulrey 0
-    Silicone Case Huawei Honor 400 Smart Blanco 0
-    Silicone Case Huawei Honor 400 Smart Fucsia 0
-    Silicone Case Huawei Honor 400 Smart Lila 0
-    Silicone Case Huawei Honor 400 Smart Morado 0
-    Silicone Case Huawei Honor 400 Smart Negro 0
-    Silicone Case Huawei Honor 400 Smart Rojo 0
+    Silicone Case Huawei Honor 400 5G Lila 7000
+    Silicone Case Huawei Honor 400 5G Negro 7000
+    Silicone Case Huawei Honor 400 5G Rojo 7000
+    Silicone Case Huawei Honor 400 5G Rosa 7000
+    Silicone Case Huawei Honor 400 Lite Amarillo 7000
+    Silicone Case Huawei Honor 400 Lite Azulrey 7000
+    Silicone Case Huawei Honor 400 Lite Fucsia 7000
+    Silicone Case Huawei Honor 400 Lite Lila 7000
+    Silicone Case Huawei Honor 400 Lite Morado 7000
+    Silicone Case Huawei Honor 400 Lite Negro 7000
+    Silicone Case Huawei Honor 400 Lite Rojo 7000
+    Silicone Case Huawei Honor 400 Lite Verdementa 7000
+    Silicone Case Huawei Honor 400 Lite Vinotinto 7000
+    Silicone Case Huawei Honor 400 Smart Amarillo 7000
+    Silicone Case Huawei Honor 400 Smart Azuloscuro 7000
+    Silicone Case Huawei Honor 400 Smart Azulrey 7000
+    Silicone Case Huawei Honor 400 Smart Blanco 7000
+    Silicone Case Huawei Honor 400 Smart Fucsia 7000
+    Silicone Case Huawei Honor 400 Smart Lila 7000
+    Silicone Case Huawei Honor 400 Smart Morado 7000
+    Silicone Case Huawei Honor 400 Smart Negro 7000
+    Silicone Case Huawei Honor 400 Smart Rojo 7000
     Silicone Case Huawei Honor 90 5G Azulclaro 7000
     Silicone Case Huawei Honor 90 5G Azuloscuro 7000
     Silicone Case Huawei Honor 90 5G Azulrey 7000
     Silicone Case Huawei Honor 90 5G Rojo 7000
     Silicone Case Huawei Honor 90 5G Vinotinto 7000
     Silicone Case Huawei Honor 90 Lite Amarillo 7000
-    Silicone Case Huawei Honor 90 Lite Negro 0
+    Silicone Case Huawei Honor 90 Lite Negro 7000
     Silicone Case Huawei Honor Magic 5 Lite / X9A Amarillo 7000
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B  Fucsia 7000
     Silicone Case Huawei Honor Magic 6 Lite  / X50 / X9B Amarillo 7000
@@ -2761,7 +2772,7 @@
     Silicone Case Huawei Honor X7 Verde 7000
     Silicone Case Huawei Honor X7A Morado 7000
     Silicone Case Huawei Honor X7A Rosa 7000
-    Silicone Case Huawei Honor X7B Azulrey 0
+    Silicone Case Huawei Honor X7B Azulrey 7000
     Silicone Case Huawei Honor X7B Fucsia 7000
     Silicone Case Huawei Honor X7B Negro 7000
     Silicone Case Huawei Honor X7C / 200 Smart Amarillo 7000
@@ -2791,12 +2802,12 @@
     Silicone Case Huawei Honor X8B Lila 7000
     Silicone Case Huawei Honor X8B Morado 7000
     Silicone Case Huawei Honor X8B Rosa 7000
-    Silicone Case Huawei Honor X8C Amarillo 0
-    Silicone Case Huawei Honor X8C Azulrey 0
-    Silicone Case Huawei Honor X8C Blanco 0
-    Silicone Case Huawei Honor X8C Morado 0
-    Silicone Case Huawei Honor X8C Negro 0
-    Silicone Case Huawei Honor X8C Rojo 0
+    Silicone Case Huawei Honor X8C Amarillo 7000
+    Silicone Case Huawei Honor X8C Azulrey 7000
+    Silicone Case Huawei Honor X8C Blanco 7000
+    Silicone Case Huawei Honor X8C Morado 7000
+    Silicone Case Huawei Honor X8C Negro 7000
+    Silicone Case Huawei Honor X8C Rojo 7000
     Silicone Case Huawei Mate 20 Lite Rosa 7000
     Silicone Case Huawei Nova 9 Rosa 7000
     Silicone Case Huawei Nova 9Se Negro 7000
@@ -2876,32 +2887,32 @@
     Silicone Case Infinix Hot 50I / Smart 9 Azulrey 7000
     Silicone Case Infinix Hot 50I / Smart 9 Fucsia 7000
     Silicone Case Infinix Hot 50I / Smart 9 Lila 7000
-    Silicone Case Infinix Hot 50I / Smart 9 Morado 7000
+    Silicone Case Infinix Hot 50I / Smart 9 Morado 7000.0
     Silicone Case Infinix Hot 50I / Smart 9 Negro 7000
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 7000
     Silicone Case Infinix Hot 50I / Smart 9 Rosa 7000
     Silicone Case Infinix Hot 50I / Smart 9 Verdemilitar 7000
     Silicone Case Infinix Hot 50I / Smart 9I Azulcielo 7000
-    Silicone Case Infinix Hot 60 / Hot 60I Azulrey 0
-    Silicone Case Infinix Hot 60 / Hot 60I Negro 0
-    Silicone Case Infinix Hot 60 / Hot 60I Palorosa 0
-    Silicone Case Infinix Hot 60 / Hot 60I Rojo 0
-    Silicone Case Infinix Hot 60 / Hot 60I Rosa 0
-    Silicone Case Infinix Hot 60 / Hot 60I verde 0
+    Silicone Case Infinix Hot 60 / Hot 60I Azulrey 7000
+    Silicone Case Infinix Hot 60 / Hot 60I Negro 7000.0
+    Silicone Case Infinix Hot 60 / Hot 60I Palorosa 7000
+    Silicone Case Infinix Hot 60 / Hot 60I Rojo 7000
+    Silicone Case Infinix Hot 60 / Hot 60I Rosa 7000
+    Silicone Case Infinix Hot 60 / Hot 60I verde 7000
     Silicone Case Infinix Hot 60 Pro Amarillo 7000
     Silicone Case Infinix Hot 60 Pro Azulrey 7000
     Silicone Case Infinix Hot 60 Pro Fucsia 7000
-    Silicone Case Infinix Hot 60 Pro Negro 0
+    Silicone Case Infinix Hot 60 Pro Negro 7000
     Silicone Case Infinix Hot 60 Pro Plus Amarillo 7000
     Silicone Case Infinix Hot 60 Pro Plus AzulOscuro 7000
     Silicone Case Infinix Hot 60 Pro Plus Lila 7000
     Silicone Case Infinix Hot 60 Pro Plus Negro 7000
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 7000
-    Silicone Case Infinix Hot 60 Pro Plus Rojo 0
+    Silicone Case Infinix Hot 60 Pro Plus Rojo 7000
     Silicone Case Infinix Hot 60 Pro Plus Verde 7000
     Silicone Case Infinix Hot 60 Pro Plus Verdemilitar 7000
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 7000
-    Silicone Case Infinix Hot 60 Pro Rojo 0
+    Silicone Case Infinix Hot 60 Pro Rojo 7000
     Silicone Case Infinix Hot 60 Pro Verdemilitar 7000
     Silicone Case Infinix Note 12 Fucsia 7000
     Silicone Case Infinix Note 30 Azulrey 7000
@@ -2911,7 +2922,7 @@
     Silicone Case Infinix Note 30 Morado 7000
     Silicone Case Infinix Note 30 Pro Azulrey 7000
     Silicone Case Infinix Note 30 Pro Fucsia 7000
-    Silicone Case Infinix Note 30 Pro Lila 0
+    Silicone Case Infinix Note 30 Pro Lila 7000
     Silicone Case Infinix Note 30 Pro Morado 7000
     Silicone Case Infinix Note 30 Pro Negro 7000
     Silicone Case Infinix Note 30 Pro Palorosa 7000
@@ -2953,7 +2964,7 @@
     Silicone Case Infinix Note 50 Fucsia 7000
     Silicone Case Infinix Note 50 Lila 7000
     Silicone Case Infinix Note 50 Negro 7000
-    Silicone Case Infinix Note 50 Pro Amarillo 0
+    Silicone Case Infinix Note 50 Pro Amarillo 7000
     Silicone Case Infinix Note 50 Pro Fucsia 7000
     Silicone Case Infinix Note 50 Pro Lila 7000
     Silicone Case Infinix Note 50 Pro Morado 7000
@@ -2986,7 +2997,7 @@
     Silicone Case Iphone 14 Plus Negro 7000
     Silicone Case Iphone 14 Pro Ab Fucsia 7000
     Silicone Case Iphone 15 Abierto Lila 7000
-    Silicone Case Lg K51s Negro 0
+    Silicone Case Lg K51s Negro 7000
     Silicone Case Lg K61 Amarillo 7000
     Silicone Case Motorol Moto G24 Rojo 7000
     Silicone Case Motorola Moto E13 Fucsia 7000
@@ -3038,8 +3049,8 @@
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Amarillo 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Azulrey 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 7000
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 0
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 7000
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 7000
@@ -3085,12 +3096,12 @@
     Silicone Case Motorola Moto G20 Morado 7000
     Silicone Case Motorola Moto G20 Negro 7000
     Silicone Case Motorola Moto G20 Rosa 7000
-    Silicone Case Motorola Moto G22 Amarillo 0
-    Silicone Case Motorola Moto G22 Azulclaro 0
+    Silicone Case Motorola Moto G22 Amarillo 7000
+    Silicone Case Motorola Moto G22 Azulclaro 7000
     Silicone Case Motorola Moto G22 Fucsia 7000
     Silicone Case Motorola Moto G22 Lila 7000
-    Silicone Case Motorola Moto G22 Negro 0
-    Silicone Case Motorola Moto G22 Rojo 0
+    Silicone Case Motorola Moto G22 Negro 7000
+    Silicone Case Motorola Moto G22 Rojo 7000
     Silicone Case Motorola Moto G22 Verde 7000
     Silicone Case Motorola Moto G24 / G04 Amarillo 7000
     Silicone Case Motorola Moto G24 / G04 Aulrey 7000
@@ -3127,7 +3138,7 @@
     Silicone Case Motorola Moto G54 Rosa 7000
     Silicone Case Motorola Moto G55 Amarillo 7000
     Silicone Case Motorola Moto G55 Azulclaro 7000
-    Silicone Case Motorola Moto G55 Blanco 0
+    Silicone Case Motorola Moto G55 Blanco 7000
     Silicone Case Motorola Moto G55 Fucsia 7000
     Silicone Case Motorola Moto G55 Negro 7000
     Silicone Case Motorola Moto G55 Rojo 7000
@@ -3145,7 +3156,7 @@
     Silicone Case Motorola Moto G75 Amarillo Verdemilitar 7000
     Silicone Case Motorola Moto G75 Fucsia 7000
     Silicone Case Motorola Moto G75 Morado 7000
-    Silicone Case Motorola Moto G75 Negro 0
+    Silicone Case Motorola Moto G75 Negro 7000
     Silicone Case Motorola Moto G8 Play / One Macro Negro 7000
     Silicone Case Motorola Moto G8 Play / One Macro Rojo 7000
     Silicone Case Motorola Moto G8 Play / One Macro Verde 7000
@@ -3167,7 +3178,7 @@
     Silicone Case Motorola Moto G9 Power Amarillo 7000
     Silicone Case Motorola Moto G9 Power Lila 7000
     Silicone Case Motorola Moto G9 Power Morado 7000
-    Silicone Case Motorola Moto G9 Power Negro 0
+    Silicone Case Motorola Moto G9 Power Negro 7000
     Silicone Case Motorola Moto G9 Power Rojo 7000
     Silicone Case Motorola Moto G9 Power Salmon 7000
     Silicone Case Motorola Moto One Fusion Negro 7000
@@ -3257,16 +3268,16 @@
     Silicone Case Oppo Realme C21Y / C25Y Rosa 7000
     Silicone Case Oppo Realme C33 Amarillo 7000
     Silicone Case Oppo Realme C33 Azulclaro 7000
-    Silicone Case Oppo Realme C33 Azuloscuro 0
+    Silicone Case Oppo Realme C33 Azuloscuro 7000
     Silicone Case Oppo Realme C33 Lila 7000
     Silicone Case Oppo Realme C33 Rosa 7000
     Silicone Case Oppo Realme C50 / C53 / Note 50 Negro 7000
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 7000
     Silicone Case Oppo Realme C53 / Note 50 Azuloscuro 7000
-    Silicone Case Oppo Realme C53 / Note 50 Azulrey 0
+    Silicone Case Oppo Realme C53 / Note 50 Azulrey 7000
     Silicone Case Oppo Realme C53 / Note 50 Lila 7000
     Silicone Case Oppo Realme C53 / Note 50 Negro 7000
-    Silicone Case Oppo Realme C53 / Note 50 Rojo 0
+    Silicone Case Oppo Realme C53 / Note 50 Rojo 7000
     Silicone Case Oppo Realme C53 / Note 50 Rojooscuro 7000
     Silicone Case Oppo Realme C53 / Note 50 Salmon 7000
     Silicone Case Oppo Realme C53 / Note 50 Verde 7000
@@ -3330,13 +3341,13 @@
     Silicone Case Oppo Reno 7 Lila 7000
     Silicone Case Oppo Reno 7 Negro 7000
     Silicone Case Oppo Reno 7 Vinotinto 7000
-    Silicone Case Samsugn A36 Amarillo 0
-    Silicone Case Samsugn A36 Fucsia 0
-    Silicone Case Samsugn A36 Rojo 0
-    Silicone Case Samsugn A56 Amarillo 0
-    Silicone Case Samsugn A56 Azuloscuro 0
-    Silicone Case Samsugn A56 Negro 0
-    Silicone Case Samsugn A56 Rosa 0
+    Silicone Case Samsugn A36 Amarillo 7000
+    Silicone Case Samsugn A36 Fucsia 7000
+    Silicone Case Samsugn A36 Rojo 7000
+    Silicone Case Samsugn A56 Amarillo 7000
+    Silicone Case Samsugn A56 Azuloscuro 7000
+    Silicone Case Samsugn A56 Negro 7000
+    Silicone Case Samsugn A56 Rosa 7000
     Silicone Case Samsung A01 Rojo 7000
     Silicone Case Samsung A02S Ab Gris 7000
     Silicone Case Samsung A02S Ab Negro 7000
@@ -3390,7 +3401,7 @@
     Silicone Case Samsung A05S Negro 7000
     Silicone Case Samsung A05S Verdementa 7000
     Silicone Case Samsung A06 Morado 7000
-    Silicone Case Samsung A07 Amarillo 0
+    Silicone Case Samsung A07 Amarillo 7000
     Silicone Case Samsung A07 Fucsia 7000
     Silicone Case Samsung A07 Lila 7000
     Silicone Case Samsung A07 Negro 7000
@@ -3404,7 +3415,7 @@
     Silicone Case Samsung A12 / M12 Morado 7000
     Silicone Case Samsung A12 / M12 Verde 7000
     Silicone Case Samsung A12 5G Negro 7000
-    Silicone Case Samsung A12 Rojo 0
+    Silicone Case Samsung A12 Rojo 7000
     Silicone Case Samsung A13 Amarillo 7000
     Silicone Case Samsung A13 Azulrey 7000
     Silicone Case Samsung A13 Lila 7000
@@ -3425,7 +3436,7 @@
     Silicone Case Samsung A15 Lila 7000
     Silicone Case Samsung A15 Negro 7000
     Silicone Case Samsung A15 Rojo 7000
-    Silicone Case Samsung A15 Rosa 0
+    Silicone Case Samsung A15 Rosa 7000
     Silicone Case Samsung A15 Verde 7000
     Silicone Case Samsung A15 Verdebiche 7000
     Silicone Case Samsung A16 Amarillo 7000
@@ -3443,7 +3454,7 @@
     Silicone Case Samsung A17 Fucsia 7000
     Silicone Case Samsung A17 Lila 7000
     Silicone Case Samsung A17 Morado 7000
-    Silicone Case Samsung A17 Negro 0
+    Silicone Case Samsung A17 Negro 7000
     Silicone Case Samsung A17 Rojo 7000
     Silicone Case Samsung A20 / A30 Amarillo 7000
     Silicone Case Samsung A20 / A30 Azulrey 7000
@@ -3452,7 +3463,7 @@
     Silicone Case Samsung A20 / A30 Morado 7000
     Silicone Case Samsung A20 / A30 Negro 7000
     Silicone Case Samsung A20 / A30 Rojo 7000
-    Silicone Case Samsung A20 / A30 Rosa 0
+    Silicone Case Samsung A20 / A30 Rosa 7000
     Silicone Case Samsung A20 / A30 Verde 7000
     Silicone Case Samsung A20 / A30 Verdementa 7000
     Silicone Case Samsung A20S 7000
@@ -3468,11 +3479,11 @@
     Silicone Case Samsung A21S Rojo 7000
     Silicone Case Samsung A21S Rosa 7000
     Silicone Case Samsung A21S Salmon 7000
-    Silicone Case Samsung A22 4G Amarillo 0
+    Silicone Case Samsung A22 4G Amarillo 7000
     Silicone Case Samsung A22 4G Morado 7000
     Silicone Case Samsung A22 4G Negro 7000
-    Silicone Case Samsung A22 4G Rojo 0
-    Silicone Case Samsung A22 4G Rosa 0
+    Silicone Case Samsung A22 4G Rojo 7000
+    Silicone Case Samsung A22 4G Rosa 7000
     Silicone Case Samsung A22 5G Ab Rojo 7000
     Silicone Case Samsung A22 5G Amarillo 7000
     Silicone Case Samsung A22 5G Azuloscuro 7000
@@ -3489,7 +3500,7 @@
     Silicone Case Samsung A24 Fucsia 7000
     Silicone Case Samsung A24 Lila 7000
     Silicone Case Samsung A24 Morado 7000
-    Silicone Case Samsung A24 Negro 0
+    Silicone Case Samsung A24 Negro 7000
     Silicone Case Samsung A24 Rojo 7000
     Silicone Case Samsung A24 Rojo Miniemouse 7000
     Silicone Case Samsung A24 Rosa 7000
@@ -3532,7 +3543,7 @@
     Silicone Case Samsung A32 4G Lila 7000
     Silicone Case Samsung A32 4G Negro 7000
     Silicone Case Samsung A32 4G Rojo 7000
-    Silicone Case Samsung A32 4G Rosa 0
+    Silicone Case Samsung A32 4G Rosa 7000
     Silicone Case Samsung A32 4G Vinotinto 7000
     Silicone Case Samsung A32 5G Amarillo 7000
     Silicone Case Samsung A32 5G Fucsia 7000
@@ -3545,18 +3556,18 @@
     Silicone Case Samsung A34 Negro 7000
     Silicone Case Samsung A34 Rojo 7000
     Silicone Case Samsung A34 Rosa 7000
-    Silicone Case Samsung A35 Amarillo 0
+    Silicone Case Samsung A35 Amarillo 7000
     Silicone Case Samsung A35 Azuloscuro 7000
-    Silicone Case Samsung A35 Azulrey 0
-    Silicone Case Samsung A35 Blanco 0
+    Silicone Case Samsung A35 Azulrey 7000
+    Silicone Case Samsung A35 Blanco 7000
     Silicone Case Samsung A35 Fucsia 7000
-    Silicone Case Samsung A35 Lila 0
-    Silicone Case Samsung A35 Morado 0
+    Silicone Case Samsung A35 Lila 7000
+    Silicone Case Samsung A35 Morado 7000
     Silicone Case Samsung A35 Negro 7000
-    Silicone Case Samsung A35 Palorosa 0
+    Silicone Case Samsung A35 Palorosa 7000
     Silicone Case Samsung A35 Rojo 7000
-    Silicone Case Samsung A35 Rosa 0
-    Silicone Case Samsung A35 Vinotinto 0
+    Silicone Case Samsung A35 Rosa 7000
+    Silicone Case Samsung A35 Vinotinto 7000
     Silicone Case Samsung A36 Amarillo 7000
     Silicone Case Samsung A36 Azuloscuro 7000
     Silicone Case Samsung A36 Fucsia 7000
@@ -3575,7 +3586,7 @@
     Silicone Case Samsung A52 Fucsia 7000
     Silicone Case Samsung A52 Lila 7000
     Silicone Case Samsung A52 Negro 7000
-    Silicone Case Samsung A52 Rojo 0
+    Silicone Case Samsung A52 Rojo 7000
     Silicone Case Samsung A52 Rosa 7000
     Silicone Case Samsung A52 Verde 7000
     Silicone Case Samsung A53 Azulrey 7000
@@ -3599,7 +3610,7 @@
     Silicone Case Samsung A55 Verdebiche 7000
     Silicone Case Samsung A55 Verdementa 7000
     Silicone Case Samsung A55 Vinotinto 7000
-    Silicone Case Samsung A56 Negro 0
+    Silicone Case Samsung A56 Negro 7000
     Silicone Case Samsung A70 Fucsia 7000
     Silicone Case Samsung A70 Lila 7000
     Silicone Case Samsung A70 Negro 7000
@@ -3718,16 +3729,16 @@
     Silicone Case Tecno Camon 30 4G Fucsia 7000
     Silicone Case Tecno Camon 30 4G Negro 7000
     Silicone Case Tecno Camon 30 4G Rojo 7000
-    Silicone Case Tecno Camon 30S / 30S Pro Amarillo 0
-    Silicone Case Tecno Camon 30S / 30S Pro Azuloscuro 0
-    Silicone Case Tecno Camon 30S / 30S Pro Azulrey 0
-    Silicone Case Tecno Camon 30S / 30S Pro Fucia 0
-    Silicone Case Tecno Camon 30S / 30S Pro Lila 0
-    Silicone Case Tecno Camon 30S / 30S Pro Morado 0
-    Silicone Case Tecno Camon 30S / 30S Pro Negro 0
-    Silicone Case Tecno Camon 30S / 30S Pro Palorosa 0
-    Silicone Case Tecno Camon 30S / 30S Pro Rojo 0
-    Silicone Case Tecno Camon 30S / 30S Pro Verdemilitar 0
+    Silicone Case Tecno Camon 30S / 30S Pro Amarillo 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Azuloscuro 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Azulrey 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Fucia 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Lila 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Morado 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Negro 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Palorosa 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Rojo 7000
+    Silicone Case Tecno Camon 30S / 30S Pro Verdemilitar 7000
     Silicone Case Tecno Camon 40 Azulclaro 7000
     Silicone Case Tecno Camon 40 Fucsia 7000
     Silicone Case Tecno Camon 40 Gris 7000
@@ -3803,17 +3814,17 @@
     Silicone Case Tecno Spark 30 4G Fucsia 7000
     Silicone Case Tecno Spark 30 4G Lila 7000
     Silicone Case Tecno Spark 30 4G Rojo 7000
-    Silicone Case Tecno Spark 30 5G Amarillo 0
-    Silicone Case Tecno Spark 30 5G Azulrey 0
-    Silicone Case Tecno Spark 30 5G Fucsia 0
+    Silicone Case Tecno Spark 30 5G Amarillo 7000
+    Silicone Case Tecno Spark 30 5G Azulrey 7000
+    Silicone Case Tecno Spark 30 5G Fucsia 7000
     Silicone Case Tecno Spark 30 5G Morado 7000
-    Silicone Case Tecno Spark 30 5G Negro 0
+    Silicone Case Tecno Spark 30 5G Negro 7000
     Silicone Case Tecno Spark 30 5G Palorosa 7000
-    Silicone Case Tecno Spark 30 5G Rojo 0
-    Silicone Case Tecno Spark 30 5G Verde 0
+    Silicone Case Tecno Spark 30 5G Rojo 7000
+    Silicone Case Tecno Spark 30 5G Verde 7000
     Silicone Case Tecno Spark 30 Pro 4G Fucsia 7000
     Silicone Case Tecno Spark 30 Pro 4G Negro 7000
-    Silicone Case Tecno Spark 30 Pro 4G Rojo 0
+    Silicone Case Tecno Spark 30 Pro 4G Rojo 7000
     Silicone Case Tecno Spark 30 Pro Lila 7000
     Silicone Case Tecno Spark 30C Amarillo 7000
     Silicone Case Tecno Spark 30C Azulrey 7000
@@ -3841,13 +3852,13 @@
     Silicone Case Tecno Spark 40C Amarillo 7000
     Silicone Case Tecno Spark 40C Azuloscuro 7000
     Silicone Case Tecno Spark 40C Fucsia 7000
-    Silicone Case Tecno Spark 40C Lila 0
-    Silicone Case Tecno Spark 40C Negro 0
+    Silicone Case Tecno Spark 40C Lila 7000
+    Silicone Case Tecno Spark 40C Negro 7000
     Silicone Case Tecno Spark 40C Rojo 7000
     Silicone Case Tecno Spark 40C Rosa 7000
     Silicone Case Tecno Spark 40C Verde 7000
     Silicone Case Tecno Spark 40C Vinotinto 7000
-    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 0
+    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 7000
     Silicone Case Tecno Spark Go 2 / Smart 10 Azulclaro 7000
     Silicone Case Tecno Spark Go 2 / Smart 10 Lila 7000
     Silicone Case Tecno Spark Go 2 / Smart 10 Morado 7000
@@ -3873,23 +3884,23 @@
     Silicone Case Tecno Spark Go 2023 / Pop7 Rojo 7000
     Silicone Case Tecno Spark Go 2023 / Pop7 Rosa 7000
     Silicone Case Tecno Spark Go 2023 / Pop7 Verde 7000
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 0
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Azulrey 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Fucsia 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Lila 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 7000
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Negro 0
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Negro 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rosa 7000
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 Fucsia 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Amarillo 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Azulclaro 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Azuloscuro 7000
-    Silicone Case Tecno Spark Go 2025 / Go 1 Azulrey 0
+    Silicone Case Tecno Spark Go 2025 / Go 1 Azulrey 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Fucsia 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Lila 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Morado 7000
-    Silicone Case Tecno Spark Go 2025 / Go 1 Negro 0
+    Silicone Case Tecno Spark Go 2025 / Go 1 Negro 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Rojo 7000
     Silicone Case Tecno Spark Go 2025 / Go 1 Rosa 7000
     Silicone Case Vivo V21 Rojo 7000
@@ -3904,7 +3915,7 @@
     Silicone Case Vivo V40 Lite Morado 7000
     Silicone Case Vivo V40 Lite Negro 7000
     Silicone Case Vivo V40 Lite Rojo 7000
-    Silicone Case Vivo V50 Lite Azuloscuro 0
+    Silicone Case Vivo V50 Lite Azuloscuro 7000
     Silicone Case Vivo V50 Lite Lila 7000
     Silicone Case Vivo V50 Lite Negro 7000
     Silicone Case Vivo V50 Lite Rojo 7000
@@ -3924,7 +3935,7 @@
     Silicone Case Vivo Y04 Rojo 7000
     Silicone Case Vivo Y04 Rosa 7000
     Silicone Case Vivo Y04 Verdementa 7000
-    Silicone Case Vivo Y11S / Y20 / Y20S Amarillo 0
+    Silicone Case Vivo Y11S / Y20 / Y20S Amarillo 7000
     Silicone Case Vivo Y15 / Y01 Amarillo 7000
     Silicone Case Vivo Y15 / Y01 Fucsia 7000
     Silicone Case Vivo Y15S Rojo 7000
@@ -3972,7 +3983,7 @@
     Silicone Case Vivo Y31 / Y51 / Y53S Morado 7000
     Silicone Case Vivo Y31 / Y51 / Y53S Negro 7000
     Silicone Case Vivo Y31 / Y51 / Y53S Rojo 7000
-    Silicone Case Vivo Y31 / Y51 / Y53S Rosa 0
+    Silicone Case Vivo Y31 / Y51 / Y53S Rosa 7000
     Silicone Case Vivo Y31 / Y51 / Y53S Verde 7000
     Silicone Case Vivo Y33S / Y21 / Y21S Azulrey 7000
     Silicone Case Vivo Y33S / Y21 / Y21S Fucsia 7000
@@ -3980,6 +3991,11 @@
     Silicone Case Vivo Y33S / Y21 / Y21S Rojo 7000
     Silicone Case Vivo Y33S Negro 7000
     Silicone Case Vivo Y33S Rosa 7000
+    Silicone Case Vivo Y35 Amarillo 7000
+    Silicone Case Vivo Y35 Azuloscuro 7000
+    Silicone Case Vivo Y35 Lila 7000
+    Silicone Case Vivo Y35 Rojo 7000
+    Silicone Case Vivo Y35 Rosa 7000
     Silicone Case Vivo Y36 Amarillo 7000
     Silicone Case Vivo Y36 Azul Claro 7000
     Silicone Case Vivo Y36 Azulrey 7000
@@ -4054,20 +4070,20 @@
     Silicone Case Xiaomi Redmi 12C Amarillo 7000
     Silicone Case Xiaomi Redmi 12C Fucsia 7000
     Silicone Case Xiaomi Redmi 13 Amarillo 7000
-    Silicone Case Xiaomi Redmi 13 Fucsia 0
+    Silicone Case Xiaomi Redmi 13 Fucsia 7000
     Silicone Case Xiaomi Redmi 13 Lila 7000
     Silicone Case Xiaomi Redmi 13 Morado 7000
     Silicone Case Xiaomi Redmi 13 Negro 7000
     Silicone Case Xiaomi Redmi 13 Rojo 7000
     Silicone Case Xiaomi Redmi 13 Verde 7000
     Silicone Case Xiaomi Redmi 13C Amarillo 7000
-    Silicone Case Xiaomi Redmi 13C Azulrey 0
+    Silicone Case Xiaomi Redmi 13C Azulrey 7000
     Silicone Case Xiaomi Redmi 13C Fucsia 7000
     Silicone Case Xiaomi Redmi 13C Lila 7000
     Silicone Case Xiaomi Redmi 13C Morado 7000
-    Silicone Case Xiaomi Redmi 13C Negro 0
-    Silicone Case Xiaomi Redmi 13C Rojo 0
-    Silicone Case Xiaomi Redmi 13C Rosa 0
+    Silicone Case Xiaomi Redmi 13C Negro 7000
+    Silicone Case Xiaomi Redmi 13C Rojo 7000
+    Silicone Case Xiaomi Redmi 13C Rosa 7000
     Silicone Case Xiaomi Redmi 14C Amarillo 7000
     Silicone Case Xiaomi Redmi 14C Azulrey 7000
     Silicone Case Xiaomi Redmi 14C Fucsia 7000
@@ -4080,7 +4096,7 @@
     Silicone Case Xiaomi Redmi 15 Azulrey 7000
     Silicone Case Xiaomi Redmi 15 Fucsia 7000
     Silicone Case Xiaomi Redmi 15 Lila 7000
-    Silicone Case Xiaomi Redmi 15 Morado 0
+    Silicone Case Xiaomi Redmi 15 Morado 7000
     Silicone Case Xiaomi Redmi 15 Negro 7000
     Silicone Case Xiaomi Redmi 15 Rojo 7000
     Silicone Case Xiaomi Redmi 15 Rosa 7000
@@ -4171,10 +4187,10 @@
     Silicone Case Xiaomi Redmi Note 12 Fucsia 7000
     Silicone Case Xiaomi Redmi Note 12 Morado 7000
     Silicone Case Xiaomi Redmi Note 12 Negro 7000
-    Silicone Case Xiaomi Redmi Note 12 Pro 4G Negro 0
+    Silicone Case Xiaomi Redmi Note 12 Pro 4G Negro 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Amarillo 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Azulrey 7000
-    Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 0
+    Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Morado 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Negro 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Rojo 7000
@@ -4182,21 +4198,21 @@
     Silicone Case Xiaomi Redmi Note 12 Pro Verde 7000
     Silicone Case Xiaomi Redmi Note 12 Pro Verdemilitar 7000
     Silicone Case Xiaomi Redmi Note 12 Rojo 7000
-    Silicone Case Xiaomi Redmi Note 12S Amarillo 0
-    Silicone Case Xiaomi Redmi Note 12S Azulclaro 0
-    Silicone Case Xiaomi Redmi Note 12S Lila 0
-    Silicone Case Xiaomi Redmi Note 12S Morado 0
+    Silicone Case Xiaomi Redmi Note 12S Amarillo 7000
+    Silicone Case Xiaomi Redmi Note 12S Azulclaro 7000
+    Silicone Case Xiaomi Redmi Note 12S Lila 7000
+    Silicone Case Xiaomi Redmi Note 12S Morado 7000
     Silicone Case Xiaomi Redmi Note 12S Negro 7000
     Silicone Case Xiaomi Redmi Note 12S Rojo 7000
     Silicone Case Xiaomi Redmi Note 12S Rosa 7000
-    Silicone Case Xiaomi Redmi Note 12S Verde 0
-    Silicone Case Xiaomi Redmi Note 12S Vinotinto 0
+    Silicone Case Xiaomi Redmi Note 12S Verde 7000
+    Silicone Case Xiaomi Redmi Note 12S Vinotinto 7000
     Silicone Case Xiaomi Redmi Note 13 4G Amarillo 7000
     Silicone Case Xiaomi Redmi Note 13 4G Azulrey 7000
     Silicone Case Xiaomi Redmi Note 13 4G Fucsia 7000
     Silicone Case Xiaomi Redmi Note 13 4G Lila 7000
     Silicone Case Xiaomi Redmi Note 13 4G Morado 7000
-    Silicone Case Xiaomi Redmi Note 13 4G Negro 0
+    Silicone Case Xiaomi Redmi Note 13 4G Negro 7000
     Silicone Case Xiaomi Redmi Note 13 4G Rojo 7000
     Silicone Case Xiaomi Redmi Note 13 4G Rosa 7000
     Silicone Case Xiaomi Redmi Note 13 5G Amarillo 7000
@@ -4210,7 +4226,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Azulrey 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Fucsia 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Lila 7000
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 7000
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 7000.0
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rosa 7000
@@ -4218,7 +4234,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Ab Amarillo 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Ab Lila 7000
-    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 0
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Fucsia 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Morado 7000
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 7000
@@ -4237,7 +4253,7 @@
     Silicone Case Xiaomi Redmi Note 14 Azulrey 7000
     Silicone Case Xiaomi Redmi Note 14 Negro 7000
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Amarillo 7000
-    Silicone Case Xiaomi Redmi Note 14 Pro 4G Azulrey 0
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Azulrey 7000
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Fucsia 7000
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Lila 7000
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Morado 7000
@@ -4324,7 +4340,7 @@
     Silicone Case Zte Blade A54 Fucsia 7000
     Silicone Case Zte Blade A54 Negro 7000
     Silicone Case Zte Blade A54 Rojo 7000
-    Silicone Motorola Moto G8 Power Lite Rojo 0
+    Silicone Motorola Moto G8 Power Lite Rojo 7000
     Simcard Claro 0
     Simcard Movistar 0
     Simcard Tigo 0
@@ -4333,6 +4349,7 @@
     Sin Registro 0
     Smart Tv Tg 43 Pulgadas 0
     Smart Watch Combo Jl-9 Ultra 2 0
+    Smart Watch Combo K13 0
     Smart Watch Combo X8 0
     Smart Watch Gw-20 Verdemilitar 0
     Smart Watch I525 Mini Rosa 0
@@ -4393,6 +4410,7 @@
     Switch Lan  GS-05 1/100/1000 0
     Switch Lan 10/100 0
     Tablero Magico 0
+    Tablero Magico Kids 0
     Tableta Kids TT-710 0
     Tactil Tableta 10 Pulgadas 0
     Tactil Tableta 7 Pulgadas 0
@@ -4460,7 +4478,7 @@
     Ventilador Fan-60 Humidificador Blanco 24500
     Ventilador Get Mini-20 11800
     Ventilador Manual 8400
-    Ventosas 0
+    Ventosas 4000.0
     Video Juego Ps2 0
     Video Juego Ps2 50 cent 0
     Video Juego Ps2 Call Of Duty 0
@@ -4539,7 +4557,7 @@
     Vidrio 5D Samsugn A06 0
     Vidrio 5D Samsung A04S 900
     Vidrio 5D Samsung A05 900
-    Vidrio 5D Samsung A05S 900
+    Vidrio 5D Samsung A05S 900.0
     Vidrio 5D Samsung A10 / A10s 900
     Vidrio 5D Samsung A11 900
     Vidrio 5D Samsung A12 0
@@ -4571,7 +4589,7 @@
     Vidrio 5D Xiaomi Mi 11T 900
     Vidrio 5D Xiaomi Redmi 10 0
     Vidrio 5D Xiaomi Redmi 10C / 12C 0
-    Vidrio 5D Xiaomi Redmi 12 900
+    Vidrio 5D Xiaomi Redmi 12 900.0
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
     Vidrio 5D Xiaomi Redmi 14 900
     Vidrio 5D Xiaomi Redmi 14C / A5 / A3 0
@@ -4582,7 +4600,7 @@
     Vidrio 5D Xiaomi Redmi A3 900
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 0
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 0
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 900.0
     Vidrio 5D Xiaomi Redmi Note 13 4G 0
     Vidrio 5D Xiaomi Redmi Note 8 900
     Vidrio 5D Xiaomi Redmi Note 9 900
@@ -4683,8 +4701,9 @@
     Vidrio Blindado Samsung A22 4G / A31 / A32 4G 1600
     Vidrio Blindado Samsung A24 / A25 / A34 1600
     Vidrio Blindado Samsung A30S 1600
-    Vidrio Blindado Samsung A35 / A36 / A55 1600
+    Vidrio Blindado Samsung A35 / A36 / A55 1600.0
     Vidrio Blindado Tecno Spark 20 Pro 1600
+    Vidrio Blindado Tecno Spark 40 Pro / 40C / Hot 60 Pro 0
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
     Vidrio Blindado Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 1600
     Vidrio Blindado Xiaomi Redmi 10 1600
@@ -4713,7 +4732,7 @@
     Vidrio Camara Xiaomi Note 13 Pro Plus 2000
     Vidrio Camara Xiaomi Redmi 13 2000
     Vidrio Camara Xiaomi Redmi 13C 0
-    Vidrio Camara Xiaomi Redmi Note 14 0
+    Vidrio Camara Xiaomi Redmi Note 14 1800.0
     Vidrio Camara Xiaomi Redmi Note 14 Pro 0
     Vidrio Camara Zte Blade A75 0
     Vidrio Ceramaico Vivo Y33s 800
@@ -4891,3 +4910,9 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 0
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 1100
+    Camara Kids Eco 20000.0
+    Servicio Tecnico Talkback 0.0
+    Servicio Tecnico Motorola Mantenimiento Logica Moto G20 0.0
+    Tapa Xiaomi Redmi Note 9s / 9 Pro 10000.0
+    Camara Kids Figura 35000.0
+    Smartphone Samsung A16 356927261847879 256/8 585000.0

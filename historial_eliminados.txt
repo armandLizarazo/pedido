@@ -10001,3 +10001,99 @@ Fecha de proceso: 2025-12-11 06:23:16
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-13 20:01:25
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 45
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Audifonos Bluetooth Apple I12 Azulclaro 2 ok
+    4 | Audifonos Bluetooth Xiaomi E7S Negro 2 ok
+   11 | Cable Apple Tc Ligthning 2M 1 ok
+   13 | Cable Belkin Tc 5 ok
+   14 | Cable Caterpillar Tc 5 ok
+   16 | Cable Samsung Tc A Tc Negro 2 ok
+   17 | Cargador Apple 20W Con Cable 2 ok
+   18 | Cargador Apple 25W Tc Cabeza  2 ok
+   19 | Cargador Belkin Tc 5 ok
+   24 | Cargador Samsung 45W Con Cable Original Blanco 1 ok
+   25 | Cargador Smart Watch Magnetico Positivo 4 ok
+   26 | Cargador Smart Watch Pinza 3 ok
+   27 | Cargador We 25W Cabeza 2 ok
+   30 | Forro Antichoque Huawei Honor X7C / Honor 200 Smart Caballero 3 ok
+   33 | Forro Antichoque Infinix Hot 60 Pro Plus Caballero 5 ok
+   34 | Forro Antichoque Motorola Moto Edge 50 Fusion / Moto G85 Caballero 2 ok
+   47 | Forro Antichoque Tecno Spark 40 4G Caballero 5 ok
+   48 | Forro Antichoque Tecno Spark 40 Pro Caballero 5 ok
+   49 | Forro Antichoque Tecno Spark 40C Caballero 5 ok
+   54 | Forro Antichoque Xiaomi Redmi 13C Dama 2 ok
+   57 | Forro Antichoque Xiaomi Redmi 15C Dama 5 ok
+  116 | Manos Libres Samsung J5 Negro 15 ok
+  137 | Silicone Case Huawei Honor X6 / X6s Rojo 1 ok
+  138 | Silicone Case Huawei Honor X6B Fucsia 1 ok
+  139 | Silicone Case Huawei Honor X6C Rojo 1 ok
+  148 | Silicone Case Infinix Hot 50I / Smart 9 Rosa 1 ok
+  151 | Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1 ok
+  185 | Silicone Case Samsung A20 / A30 Amarillo 1 ok
+  186 | Silicone Case Samsung A20 / A30 Rosa 1 ok
+  208 | Silicone Case Tecno Camon 40 Pro 4G / 5G Rojo 1 ok
+  209 | Silicone Case Tecno Pova 5 Azulrey 1 ok
+  210 | Silicone Case Tecno Spark 20 Pro Plus Azulclaro 1 ok
+  212 | Silicone Case Tecno Spark 30 5G Rojo 1 ok
+  216 | Silicone Case Tecno Spark Go 2025 / Go 1 Azulrey 1 ok
+  235 | Silicone Case Vivo Y30 / Y50 Fucsia 1 ok
+  238 | Silicone Case Xiaomi Redmi 12 Azulrey 1 ok
+  243 | Silicone Case Xiaomi Redmi 15C Azulrey 1 ok
+  245 | Silicone Case Xiaomi Redmi Note 10 Pro Negro 1 ok
+  251 | Silicone Case Xiaomi Redmi Note 13 4G Fucsia 1 ok
+  255 | Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Azulclaro 1 ok
+  256 | Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Fucsia 1 ok
+  258 | Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rosa 1 ok
+  266 | Simcard Wom 10 ok
+  267 | Simcard Tigo 5 ok
+  268 | Vidrio Blindado Tecno Spark 40 Pro / 40C / Hot 60 Pro 5 ok
+
+==================================================
+Fecha de proceso: 2025-12-13 20:01:25
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   20 | Cargador Microsoft Carga Y Juega Xbox 360 3 ok
+   21 | Tablero Magico Kids 4 ok
+   24 | Consola Mini Ness 2 ok
+   27 | Control Gamer Sony Ps3 Blanco 1 ok
+   28 | Control Gamer X3 1 ok
+   32 | Extensión 6M 2 ok
+   34 | Gramera Sencilla 1 ok
+   39 | Parlante Marshall Medium 1 ok
+   53 | Teclado Gamer Cmk-198 1 ok
+   54 | Teclado Gamer Yelandar K-760 2 ok
+   57 | Estabilizador 4 Puertos 1 ok
+   58 | Patillera 3 En 1 Vintage 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-13 20:01:25
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Bateria Motorola Moto G22 3 ok
+    3 | Logica De Carga Motorola Moto G20 1 ok
+    4 | Pacha Lg K61 2 ok
+    5 | Pacha Oppo A17 / A38 / A57 / A77 2 ok
+    6 | Pacha Samsung A30s C/m 1 ok
+    7 | Pacha Xiaomi Redmi Note 12 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-13 20:01:25
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
