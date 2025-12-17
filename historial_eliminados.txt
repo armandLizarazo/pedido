@@ -10097,3 +10097,41 @@ Fecha de proceso: 2025-12-13 20:01:25
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-17 06:38:19
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-12-17 06:38:19
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 3
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   14 | Cable Microsoft Xbox Caja Negra 2 ok
+   18 | Camara Kids Eco 1 ok
+   19 | Camara Kids Figura 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-17 06:38:19
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Samsung A05S 1 ok
+    3 | Pacha Xiaomi Redmi A1 / A2 1 ok
+    4 | Tapa Xiaomi Redmi Note 9s / 9 Pro 1 ok
+    5 | Flex de Power Oppo A57 1 ok
+    6 | Tapa Xiaomi Redmi Note 9S Azuloscuro 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-17 06:38:19
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

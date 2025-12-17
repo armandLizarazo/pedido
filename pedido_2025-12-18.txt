@@ -1,0 +1,88 @@
+    Descripcion, Cantidad
+    Audifonos Bluetooth Jbl K55, 1
+    Audifonos Bluetooth M60, 1
+    Audifonos Bluetooth Pro 60, 1
+    Audifonos Bluetooth Sm I12 Blanco, 1
+    Audifonos Bluetooth Sm I12 Negro, 1
+    Barra Silicona, 1
+    Bateria Motorola Moto G22, 1
+    Cable Apple Tc Ligthning 2M, 1
+    Cable Caterpillar Tc, 1
+    Cable Poder Cuadrado, 2
+    Cable V8 Eco, 2
+    Caja De Timbres Motorola Moto G20 Original, 1
+    Cargador Apple 5V Eco, 1
+    Cargador W Tc, 2
+    Cargador We Tc 33W, 1
+    Control Gamer X3, 1
+    Extension 4m, 1
+    Flex de Power Oppo A15, 1
+    Forro Antichoque Cadena Tecno Pova 5, 1
+    Forro Antichoque Motorola Moto E7 Plus Caballero, 1
+    Forro Antichoque Xiaomi Redmi 15C Caballero, 1
+    Forro Antichoque Xiaomi Redmi Note 11 Dama, 1
+    Forro Armadura Samsung S23 Negro, 1
+    Forro Lujo Ventana Apple Iphone 15 Pro Morado, 1
+    Forro Space Xiaomi Redmi Note 11, 1
+    Hydrogel Apple Iphone 13 Pro Max, 1
+    Hydrogel Xiaomi Redmi Note 14 Pro 4G, 1
+    Manos Libres Batri B10 Rosa, 1
+    Manos Libres Samsung Akg, 3
+    Manos Libres Samsung J5 Blanco, 1
+    Manos Libres Samsung J5 Negro, 1
+    Pacha Huawei Honor X8A / Honor 90 Lite, 1
+    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12, 1
+    Pacha Motorola Moto G20 / G30, 1
+    Pacha Motorola Moto G22 / E32, 1
+    Pacha Motorola Moto G8 Power, 1
+    Pacha Samsung A31 C/m, 1
+    Pacha Samsung A32, 1
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30, 1
+    Pacha Vivo V21 Amoled, 1
+    Pacha Xiaomi Redmi 9A / 9C / 10A, 2
+    Pacha Xiaomi Redmi 9A / 9C / 10A Cm, 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S, 1
+    Pacha Zte Blade A34 / A54, 1
+    Parlante Jbl Charge 5, 1
+    Pin De Carga Parlante Cable Directo, 1
+    Recargas, 1
+    Reloj Digital Led, 1
+    Servicio Tecncio Samsung Pin de Carga A03 Core, 1
+    Servicio Tecnico Apple Ajustar Pantalla Iphone Xr, 1
+    Servicio Tecnico Recuperar Cuenta Mi, 1
+    Servicio Tecnico Samsung Formatear A03 Core, 1
+    Servicio Tecnico Soldar Cable Cargador Pc, 1
+    Servicio Tecnico Tecno Pin de Carga Go 2024, 1
+    Servicio Tecnico Xiaomi Pin de Carga Redmi 9A / 9C / 10A, 1
+    Silicone Case Huawei Honor 90 Lite Azulrey, 1
+    Silicone Case Huawei Y9 Prime Verdemilitar, 1
+    Silicone Case Infinix Hot 60 Pro Plus Negro, 1
+    Silicone Case Motorola Moto E32 Negro, 1
+    Silicone Case Motorola Moto G05 Rosa, 1
+    Silicone Case Motorola Moto One Fusion Rosa, 1
+    Silicone Case Samsung A36 Morado, 1
+    Silicone Case Samsung A55 Negro, 1
+    Silicone Case Samsung A55 Vinotinto, 1
+    Silicone Case Tecno Camon 20 Pro Fucsia, 1
+    Silicone Case Tecno Camon 40 Rojo, 1
+    Simcard Claro, 6
+    Smart Watch Combo K13, 1
+    Smartphone Samsung A36 350399471160772 - 256 / 8, 1
+    Smartphone Tecno Spark Go 2 350275603884622 128/8, 1
+    Tapa Xiaomi Redmi Note 13 Pro Plus Negro, 1
+    Tripode Selfie L-13D, 1
+    Vidrio 5D Samsung A05, 1
+    Vidrio 5D Samsung A12, 2
+    Vidrio 5D Samsung A31 / A32, 1
+    Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe, 1
+    Vidrio 5D Xiaomi Redmi 12, 1
+    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe, 1
+    Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79, 2
+    Vidrio Antiespia Apple Iphone 15 / 15 Pro / Iphone 16, 1
+    Vidrio Antiespia Motorola Moto G22 / E32, 1
+    Vidrio Blindado Apple Iphone 13 / 13 Pro / 14 / 16E, 1
+    Vidrio Blindado Apple Iphone 15 / 15 Pro / Iphone 16, 1
+    Vidrio Blindado Apple Iphone X / Xs / 11 Pro, 1
+    Vidrio Blindado Samsung A35 / A36 / A55, 1
+    Vidrio Camara Apple, 4
+    Vidrio Fullpega Samsung S24 Plus, 2
