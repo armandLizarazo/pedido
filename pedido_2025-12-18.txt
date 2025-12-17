@@ -14,7 +14,7 @@
     Cargador Apple 5V Eco, 1
     Cargador W Tc, 2
     Cargador We Tc 33W, 1
-    Control Gamer X3, 1
+    Control Gamer X3 1 ok
     Extension 4m, 1
     Flex de Power Oppo A15, 1
     Forro Antichoque Cadena Tecno Pova 5, 1
@@ -44,9 +44,7 @@
     Pacha Xiaomi Redmi Note 11 / Note 12S, 1
     Pacha Zte Blade A34 / A54, 1
     Parlante Jbl Charge 5, 1
-    Pin De Carga Parlante Cable Directo, 1
-    Recargas, 1
-    Reloj Digital Led, 1
+    Reloj Digital Led 2 ok
     Servicio Tecncio Samsung Pin de Carga A03 Core, 1
     Servicio Tecnico Apple Ajustar Pantalla Iphone Xr, 1
     Servicio Tecnico Recuperar Cuenta Mi, 1
@@ -65,8 +63,7 @@
     Silicone Case Samsung A55 Vinotinto, 1
     Silicone Case Tecno Camon 20 Pro Fucsia, 1
     Silicone Case Tecno Camon 40 Rojo, 1
-    Simcard Claro, 6
-    Smart Watch Combo K13, 1
+    Smart Watch Combo K32 2 ok
     Smartphone Samsung A36 350399471160772 - 256 / 8, 1
     Smartphone Tecno Spark Go 2 350275603884622 128/8, 1
     Tapa Xiaomi Redmi Note 13 Pro Plus Negro, 1
