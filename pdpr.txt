@@ -11,12 +11,12 @@
     Cable Hdmi 3M 2
     Cable Lan 2M Cat 6 5
     Cable Lan 3M Cat 6 8
-    Cable Microsoft Xbox Caja Negra 2
+    Cable Microsoft Xbox Caja Negra 2 ok
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
-    Camara Kids Eco 1
-    Camara Kids Figura 1
+    Camara Kids Eco 1 ok
+    Camara Kids Figura 1 ok
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 1
