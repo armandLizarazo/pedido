@@ -111,7 +111,7 @@
     Aro De Luz Joma 26Cm Ligth 0
     Aro De Luz Joma 33Cm Rgb 0
     Aro de Luz Joma 26Cm Rgb 0
-    Audifonos Bluetooth Airpods Pro 0
+    Audifonos Bluetooth Airpods Pro 40000.0
     Audifonos Bluetooth Apple I12 Azulclaro 0
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 0
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 0
@@ -128,7 +128,7 @@
     Audifonos Bluetooth Innoval Cuellera Bt-15 0
     Audifonos Bluetooth Jbl K55 35000.0
     Audifonos Bluetooth L&m 0
-    Audifonos Bluetooth M25 25000
+    Audifonos Bluetooth M25 25000.0
     Audifonos Bluetooth M60 45000.0
     Audifonos Bluetooth Pro 2 0
     Audifonos Bluetooth Pro 2 Pantalla 0
@@ -270,7 +270,7 @@
     Cable Auxiliar 1 A 1 3M 0
     Cable Auxiliar 1 A 1 5M 0
     Cable Auxiliar 1 A 1 Cordon 0
-    Cable Auxiliar 1 A 1 Eco 0
+    Cable Auxiliar 1 A 1 Eco 1000.0
     Cable Auxiliar 1 a 1 3 Vias Cja 0
     Cable Auxiliar 1 a 1 Microfono 0
     Cable Auxiliar 2 A 1 1.5M 0
@@ -312,7 +312,7 @@
     Cable Hdtv 0
     Cable Impresora 1.5M 0
     Cable Impresora 3M 0
-    Cable Lan 1.5M 0
+    Cable Lan 1.5M 3500.0
     Cable Lan 10M Cat 6 0
     Cable Lan 1M Cat 6 0
     Cable Lan 20M Cat 5e 0
@@ -354,7 +354,7 @@
     Cable Siliconado Zonymax Tc Negro 0
     Cable Siliconado Zonymax V8 0
     Cable Sony Ps2 0
-    Cable Tc A Tc Eco 0
+    Cable Tc A Tc Eco 2500.0
     Cable Tc Cordon Eco 1800
     Cable Tc Eco 1500
     Cable Tc Eco Corto 0
@@ -389,7 +389,7 @@
     Caja De Timbres Motorola Moto G71 0
     Caja De Timbres Xiaomi Redmi Note 12 0
     Caja De Timbres Xiaomi Redmi Note 13 4G 0
-    Caja Disco Duro 3.0 0
+    Caja Disco Duro 3.0 15000.0
     Caja de Timbres Moto Edge 50 Fusion 0
     Caja de Timbres Motorola Moto G31 0
     Caja de Timbres Samsung A05 0
@@ -566,7 +566,7 @@
     Consola Psp 5.1 0
     Consola R-36S 0
     Consola Sup Con Control Negro 0
-    Consola Sup Con Control Rojo 0
+    Consola Sup Con Control Rojo 20000.0
     Consola Sup X7m 0
     Control Gamer Gamesir G7 Se Blanco 0
     Control Gamer Gatillos Con Ventilador 0
@@ -604,7 +604,7 @@
     Control Keyboard Tv 15000
     Control Tv Smart Tv 7000
     Control Tv Tv Box 7000
-    Control Tv Universal 0
+    Control Tv Universal 7000.0
     Control Universal Roku 0
     Depilador Cejas 0
     Depilador Naris y Orejas Geemy 0
@@ -619,7 +619,7 @@
     Estetica Cepillo Secador Giratorio 0
     Estetica Cepillo Secador Remington Aguacate 0
     Estetica Cepillo Secador Remington Keratina 0
-    Estetica Ondas de Sirena 0
+    Estetica Ondas de Sirena 28000.0
     Extension 4m 7000.0
     Extensión 6M 0
     Flex De Carga Apple Iphone X 0
@@ -818,7 +818,7 @@
     Forro Antichoque Motorola Moto G20 / G30 Dama 3500
     Forro Antichoque Motorola Moto G22 Caballero 0
     Forro Antichoque Motorola Moto G22 Dama 3500
-    Forro Antichoque Motorola Moto G24 / G04 Caballero 3500
+    Forro Antichoque Motorola Moto G24 / G04 Caballero 3500.0
     Forro Antichoque Motorola Moto G24 / G04 Dama 3500
     Forro Antichoque Motorola Moto G31 Caballero 3500
     Forro Antichoque Motorola Moto G31 Dama 3500
@@ -886,7 +886,7 @@
     Forro Antichoque Pin Huawei Honor X6 / X6S / X6A / Play 9A 6000
     Forro Antichoque Pin Huawei Honor X7C / 200 Smart 6000
     Forro Antichoque Pin Infinix Hot 50 4G 6000
-    Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 6000
+    Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 6000.0
     Forro Antichoque Pin Motorola Moto G15 6000
     Forro Antichoque Pin Motorola Moto G55 6000
     Forro Antichoque Pin Oppo A78 4G 6000
@@ -1056,7 +1056,7 @@
     Forro Antichoque Xiaomi Redmi 10 Dama 3500
     Forro Antichoque Xiaomi Redmi 10C Caballero 3500
     Forro Antichoque Xiaomi Redmi 12 Caballero 3500
-    Forro Antichoque Xiaomi Redmi 12 Dama 3500
+    Forro Antichoque Xiaomi Redmi 12 Dama 3500.0
     Forro Antichoque Xiaomi Redmi 12C Caballero 3500
     Forro Antichoque Xiaomi Redmi 12C Dama 3500
     Forro Antichoque Xiaomi Redmi 13 Caballero 3500
@@ -1081,7 +1081,7 @@
     Forro Antichoque Xiaomi Redmi A1 / A2 Dama 3500
     Forro Antichoque Xiaomi Redmi A3 Dama 3500
     Forro Antichoque Xiaomi Redmi A5 Caballero 3500
-    Forro Antichoque Xiaomi Redmi A5 Dama 3500
+    Forro Antichoque Xiaomi Redmi A5 Dama 3500.0
     Forro Antichoque Xiaomi Redmi Note 10 / Note 10s Caballero 3500
     Forro Antichoque Xiaomi Redmi Note 10 Pro Caballero 3500
     Forro Antichoque Xiaomi Redmi Note 10 Pro Dama 3500
@@ -1180,7 +1180,7 @@
     Forro Armadura Oppo A57 Rojo 0
     Forro Armadura Oppo A80 Azuloscuro 0
     Forro Armadura Oppo A80 Negro 0
-    Forro Armadura Oppo A80 Rojo 0
+    Forro Armadura Oppo A80 Rojo 6000.0
     Forro Armadura Oppo Realme C55 Rojo 0
     Forro Armadura Oppo Realme C67 Negro 0
     Forro Armadura Oppo Reno 11F Azul 0
@@ -1286,7 +1286,7 @@
     Forro Armadura Xiaomi Redmi Note 14 Pro 5G Rojo 0
     Forro Armadura Xiaomi Redmi Note 8 Negro 0
     Forro Armadura Xiaomi Redmi Note 8 Rojo 0
-    Forro Audifonos Case Airpods 3 0
+    Forro Audifonos Case Airpods 3 6000.0
     Forro Audifonos Case Pro 0
     Forro Audifonos Case Pro 2 0
     Forro Audifonos I12 0
@@ -1627,7 +1627,7 @@
     Forro Space Xiaomi Redmi 12 Verde 0
     Forro Space Xiaomi Redmi 12C 0
     Forro Space Xiaomi Redmi 13 0
-    Forro Space Xiaomi Redmi 13C 0
+    Forro Space Xiaomi Redmi 13C 3500.0
     Forro Space Xiaomi Redmi 14C 0
     Forro Space Xiaomi Redmi 15 0
     Forro Space Xiaomi Redmi 15C 0
@@ -1897,7 +1897,7 @@
     Memoria Kingstone Micro 16Gb 0
     Memoria Kingstone Micro 4Gb 0
     Memoria Kingstone Usb 16Gb 0
-    Memoria Kingstone Usb 4Gb 0
+    Memoria Kingstone Usb 4Gb 6500.0
     Memoria Kingstone Usb 8Gb 0
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica  Reggae Reggae 0
@@ -1946,7 +1946,7 @@
     Memoria Musica Popular Rancheras Pa Tomar 0
     Memoria Musica Popular Sirvalo Pues 0
     Memoria Musica Popular Vicente y Antonio 0
-    Memoria Musica Rap Fanaticos del Rap 0
+    Memoria Musica Rap Fanaticos del Rap 3500.0
     Memoria Musica Reggaeton Clasico 0
     Memoria Musica Reggaeton Clasicos del Reggaeton 0
     Memoria Musica Reggaeton Reggaeton en Tendencia 0
@@ -1962,7 +1962,7 @@
     Memoria Musica Tropical 0
     Memoria Musica Tropical 50 de joselito / Guayaba / Taxi / Bandafiesta 0
     Memoria Musica Tropical El mas Tropical 0
-    Memoria Musica Tropical Pa Azotar Baldoza 0
+    Memoria Musica Tropical Pa Azotar Baldoza 3500.0
     Memoria Musica Tropical Tropical Parrandero 0
     Memoria Musica Tropical Tropicales de Siempre 0
     Memoria Musica Vallenata Binomio de Oro / Nelson Velasquez / Los Diablitos 0
@@ -2156,7 +2156,7 @@
     Pacha Tecnoc Pova 4 / Neo 2 0
     Pacha Vivo Y11s / Y20s 0
     Pacha Vivo Y17s / Y22s 0
-    Pacha Vivo Y21 / Y21S 0
+    Pacha Vivo Y21 / Y21S 35000.0
     Pacha Vivo Y27 5G 0
     Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 0
     Pacha Vivo Y30 / Y50 0
@@ -2169,7 +2169,7 @@
     Pacha Xiaomi Redmi 13 0
     Pacha Xiaomi Redmi 13C 43000
     Pacha Xiaomi Redmi 14C 0
-    Pacha Xiaomi Redmi 14C / Redmi A4 0
+    Pacha Xiaomi Redmi 14C / Redmi A4 38000.0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 0
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 33000.0
@@ -2251,7 +2251,7 @@
     Pilas Carbon Gp 9V 0
     Pilas Carbon Maxday Aa 0
     Pilas Carbon Maxday Aa x2 0
-    Pilas Carbon Maxday Aaa X2 0
+    Pilas Carbon Maxday Aaa X2 800.0
     Pilas Carbon Maxday Aaa X4 0
     Pilas Carbon Maxday Eco 600
     Pilas Recargables Aa x2 2700 Mah 0
@@ -2315,7 +2315,7 @@
     Recarga 6500 6132
     Recarga 7500 7075
     Recarga 8500 8018
-    Recargas 126415.0
+    Recargas 20283.0
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 125000
     Reproductor Chromecast Espejo 45000
@@ -2447,7 +2447,7 @@
     Servicio Tecnico Samsung Pegar Pantalla A03 0
     Servicio Tecnico Samsung Pegar Pantalla A13 0
     Servicio Tecnico Samsung Pegar Tapa A36 0
-    Servicio Tecnico Samsung Pin de Carga A03 0
+    Servicio Tecnico Samsung Pin de Carga A03 0.0
     Servicio Tecnico Samsung Pin de Carga A10s 0
     Servicio Tecnico Samsung Reconectar Pantalla A24 0
     Servicio Tecnico Samsung Reconectar Pantalla A72 0
@@ -2604,7 +2604,7 @@
     Silicone Case Apple Iphone 16 Pro Max Verde 7000
     Silicone Case Apple Iphone 17 Pro Max Azuloscuro 7000
     Silicone Case Apple Iphone 17 Pro Max Azulrey 7000
-    Silicone Case Apple Iphone 17 Pro Max Fucsia 7000
+    Silicone Case Apple Iphone 17 Pro Max Fucsia 7000.0
     Silicone Case Apple Iphone 17 Pro Max Negro 7000
     Silicone Case Apple Iphone 17 Pro Max Rojo 7000
     Silicone Case Apple Iphone 6S Amarillo 7000
@@ -2806,7 +2806,7 @@
     Silicone Case Huawei Honor X8C Azulrey 7000
     Silicone Case Huawei Honor X8C Blanco 7000
     Silicone Case Huawei Honor X8C Morado 7000
-    Silicone Case Huawei Honor X8C Negro 7000
+    Silicone Case Huawei Honor X8C Negro 7000.0
     Silicone Case Huawei Honor X8C Rojo 7000
     Silicone Case Huawei Mate 20 Lite Rosa 7000
     Silicone Case Huawei Nova 9 Rosa 7000
@@ -3763,7 +3763,7 @@
     Silicone Case Tecno Camon 40 Rojo 7000.0
     Silicone Case Tecno Camon 40 Verdementa 7000
     Silicone Case Tecno Camon 40 Vinotinto 7000
-    Silicone Case Tecno Pova 4 Lila 7000
+    Silicone Case Tecno Pova 4 Lila 7000.0
     Silicone Case Tecno Pova 4 Rojo 7000
     Silicone Case Tecno Pova 5 Amarillo 7000
     Silicone Case Tecno Pova 5 Azulrey 7000
@@ -4002,7 +4002,7 @@
     Silicone Case Vivo Y36 Morado 7000
     Silicone Case Vivo Y36 Rojo 7000
     Silicone Case Vivo Y38 Amarillo 7000
-    Silicone Case Vivo Y38 Azulrey 7000
+    Silicone Case Vivo Y38 Azulrey 7000.0
     Silicone Case Vivo Y38 Fucsia 7000
     Silicone Case Vivo Y38 Lila 7000
     Silicone Case Vivo Y38 Morado 7000
@@ -4343,9 +4343,9 @@
     Silicone Motorola Moto G8 Power Lite Rojo 7000
     Simcard Claro 0.0
     Simcard Movistar 0
-    Simcard Tigo 0
+    Simcard Tigo 1200.0
     Simcard Virgin 0
-    Simcard Wom 0
+    Simcard Wom 1200.0
     Sin Registro 0
     Smart Tv Tg 43 Pulgadas 0
     Smart Watch Combo Jl-9 Ultra 2 0
@@ -4444,7 +4444,7 @@
     Tarro Dosificador Aguja Aguja 0
     Teclado Combo Gamer F92 25000
     Teclado Dn-236 0
-    Teclado Gamer Cmk-198 0
+    Teclado Gamer Cmk-198 40000.0
     Teclado Gamer Yelandar K-568 0
     Teclado Gamer Yelandar K-760 0
     Teclado Inalambrico Yelandar W3500 0
@@ -4567,14 +4567,14 @@
     Vidrio 5D Samsung A20s 900
     Vidrio 5D Samsung A21S 0
     Vidrio 5D Samsung A22 4G / A31 / A32 4G 900
-    Vidrio 5D Samsung A24 / A25 / A34 900
+    Vidrio 5D Samsung A24 / A25 / A34 900.0
     Vidrio 5D Samsung A30S 900
     Vidrio 5D Samsung A31 / A32 900.0
     Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe 900.0
     Vidrio 5D Samsung A53 900
     Vidrio 5D Samsung A54 / S23 Fe 900
     Vidrio 5D Samsung A56 900
-    Vidrio 5D Samsung A71 / Poco X3 0
+    Vidrio 5D Samsung A71 / Poco X3 900.0
     Vidrio 5D Samsung S22 / S23 900
     Vidrio 5D Samsung S23 Plus 900
     Vidrio 5D Tecno Camon 20 / 20 Pro 900
@@ -4592,7 +4592,7 @@
     Vidrio 5D Xiaomi Redmi 12 900.0
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 0
     Vidrio 5D Xiaomi Redmi 14 900
-    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 0
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 900.0
     Vidrio 5D Xiaomi Redmi 8 900
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 900
     Vidrio 5D Xiaomi Redmi 9T 900
@@ -4708,7 +4708,7 @@
     Vidrio Blindado Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 1600
     Vidrio Blindado Xiaomi Redmi 10 1600
     Vidrio Blindado Xiaomi Redmi 10C / 12C 1600
-    Vidrio Blindado Xiaomi Redmi 12 1600
+    Vidrio Blindado Xiaomi Redmi 12 1600.0
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 / A05 1600
     Vidrio Blindado Xiaomi Redmi 14C / A5 / A3 1600
     Vidrio Blindado Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 1600
@@ -4846,7 +4846,7 @@
     Vidrio Tortuga Xiaomi Mi 11 Lite 0
     Vidrio Tortuga Xiaomi Redmi 10 1100
     Vidrio Tortuga Xiaomi Redmi 10C / 12C 1100
-    Vidrio Tortuga Xiaomi Redmi 12 1100
+    Vidrio Tortuga Xiaomi Redmi 12 1100.0
     Vidrio Tortuga Xiaomi Redmi 13C 1100
     Vidrio Tortuga Xiaomi Redmi 14C / A5 / A3 1100
     Vidrio Tortuga Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 1100
@@ -4935,3 +4935,12 @@
     Servicio Tecnico Samsung Formatear A03 Core 0.0
     Forro Armadura Samsung S23 Negro 6000.0
     Servicio Tecnico Tecno Pin de Carga Go 2024 0.0
+    Silicone Case Tecno Spark 30 4G Rosa 7000.0
+    Silicone Case Motorola Moto G72 Amarillo 7000.0
+    Vidrio Tortuga Motorola Moto G72 1100.0
+    Silicone Case Xiaomi Redmi Note 14 5G Negro 7000.0
+    Adaptador Harvic Ligthning a 3.5 7000.0
+    Silicone Case Vivo Y33S / Y21 / Y21S Lila 7000.0
+    Servicio Tecnico Oppo Pin de Carga Realme C15 0.0
+    Smartphone Motorola Moto G24 Power 355913385626481 256/8 220000.0
+    Smartphone Samsung A07 35216983221446 128 / 4 380000.0
