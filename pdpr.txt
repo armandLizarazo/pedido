@@ -4,18 +4,17 @@
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 1
+    Audifonos Bluetooth Pro 5S Negro 1 ok
     Balaca Gamer A65 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
-    Cable Lan 1.5M 3
-    Cable Lan 2M Cat 6 5
-    Cable Lan 3M Cat 6 8
+    Cable Lan 1.5M 3 ok
+    Cable Lan 3M Cat 6 3 ok
     Cable Rj11 3
     Cable Vga 15M 2
-    Caja Disco Duro 3.0 Transparente 1
+    Caja Disco Duro 3.0 Transparente 1 ok
     Calculadora Cientifica Casio 82Es 1
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
@@ -46,7 +45,7 @@
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
-    Switch Lan  GS-05 1/100/1000 1
+    Switch Lan  GS-05 1/100/1000 1 ok
     Tableta Tigers Kids Rosa 1
     Teclado Gamer Cmk-198 2
     Video Juego Ps2 Call Of Duty 1
