@@ -10,13 +10,13 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 5
-    Cable We Tc 3
+    Cable We Tc 3 ok
     Cargador Fuente 360 Slim 1
     Cargador MagSafe 1
     Cargador Microsoft Carga Y Juega Xbox 360 3
     Cargador Samsung 25W Cabeza Negro 3
     Cargador Samsung 45W Cabeza Blanco 2
-    Cargador W Tc 5
+    Cargador W Tc 5 ok
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -93,7 +93,7 @@
     Forro Space Tecno Spark 40 Pro 2
     Forro Space Tecno Spark 40C 2
     Forro Space Vivo Y04 2
-    Forro Space Xiaomi Redmi 13C 2
+    Forro Space Xiaomi Redmi 13C 2 ok
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
@@ -116,9 +116,9 @@
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 17 Pro Max Amarillo 1
-    Silicone Case Apple Iphone 17 Pro Max Fucsia 1
+    Silicone Case Apple Iphone 17 Pro Max Fucsia 1 ok
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Azulrey 1
-    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1
+    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1 ok
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
