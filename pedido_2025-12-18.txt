@@ -2,13 +2,11 @@
     Audifonos Bluetooth Jbl K55, 1
     Audifonos Bluetooth M60, 1
     Audifonos Bluetooth Pro 60, 1
-    Audifonos Bluetooth Sm I12 Blanco, 1
-    Audifonos Bluetooth Sm I12 Negro, 1
-    Barra Silicona, 1
-    Bateria Motorola Moto G22, 1
+    Audifonos Bluetooth Sm I12 Blanco, 2 ok
+    Audifonos Bluetooth Sm I12 Negro, 2 ok
     Cable Apple Tc Ligthning 2M, 1
     Cable Caterpillar Tc, 1
-    Cable Poder Cuadrado, 2
+    Cable Poder Cuadrado, 5 ok
     Cable V8 Eco, 2
     Caja De Timbres Motorola Moto G20 Original, 1
     Cargador Apple 5V Eco, 1
@@ -54,13 +52,13 @@
     Servicio Tecnico Xiaomi Pin de Carga Redmi 9A / 9C / 10A, 1
     Silicone Case Huawei Honor 90 Lite Azulrey, 1
     Silicone Case Huawei Y9 Prime Verdemilitar, 1
-    Silicone Case Infinix Hot 60 Pro Plus Negro, 1
+    Silicone Case Infinix Hot 60 Pro Plus Negro, 1 ok
     Silicone Case Motorola Moto E32 Negro, 1
-    Silicone Case Motorola Moto G05 Rosa, 1
+    Silicone Case Motorola Moto G05 Rosa, 1 ok
     Silicone Case Motorola Moto One Fusion Rosa, 1
-    Silicone Case Samsung A36 Morado, 1
-    Silicone Case Samsung A55 Negro, 1
-    Silicone Case Samsung A55 Vinotinto, 1
+    Silicone Case Samsung A36 Morado, 1 ok
+    Silicone Case Samsung A55 Negro, 1 ok
+    Silicone Case Samsung A55 Vinotinto, 1 ok
     Silicone Case Tecno Camon 20 Pro Fucsia, 1
     Silicone Case Tecno Camon 40 Rojo, 1
     Smart Watch Combo K32 2 ok
@@ -69,7 +67,7 @@
     Tapa Xiaomi Redmi Note 13 Pro Plus Negro, 1
     Tripode Selfie L-13D, 1
     Vidrio 5D Samsung A05, 1
-    Vidrio 5D Samsung A12, 2
+    Vidrio 5D Samsung A12, 20 ok
     Vidrio 5D Samsung A31 / A32, 1
     Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe, 1
     Vidrio 5D Xiaomi Redmi 12, 1
