@@ -4,19 +4,13 @@
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1
     Audifonos Bluetooth M25 2
-    Audífonos M60 2 ok
-    Audifonos Bluetooth Pro 5S Negro 1 ok
     Balaca Gamer A65 1
-    Cable Auxiliar 2 a 1 3 ok
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
-    Cable Lan 1.5M 3 ok
-    Cable Lan 3M Cat 6 3 ok
     Cable Rj11 3
     Cable Vga 15M 2
-    Caja Disco Duro 3.0 Transparente 1 ok
     Calculadora Cientifica Casio 82Es 1
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
@@ -40,15 +34,16 @@
     Pila Control 23A 5
     Pilas Carbon Maxday Aaa X2 30
     Reproductor Alexa Reloj 1
+    Reproductor Onn Hd 2
+    Reproductor Tdt Beck Paly 3
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
     Smart Watch Combo K13 1
+    Smart Watch Combo K32 2
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1
     Soporte Para Control Ps4 1
-    Switch Lan  GS-05 1/100/1000 1 ok
     Tableta Tigers Kids Rosa 1
-    Teclado Gamer Cmk-198 2 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

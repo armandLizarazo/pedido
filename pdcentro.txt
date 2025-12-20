@@ -10,13 +10,12 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 5
-    Cable We Tc 3 ok
+    Cable Yoyos Tc 3M 3
     Cargador Fuente 360 Slim 1
     Cargador MagSafe 1
     Cargador Microsoft Carga Y Juega Xbox 360 3
     Cargador Samsung 25W Cabeza Negro 3
     Cargador Samsung 45W Cabeza Blanco 2
-    Cargador W Tc 5 ok
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -93,7 +92,6 @@
     Forro Space Tecno Spark 40 Pro 2
     Forro Space Tecno Spark 40C 2
     Forro Space Vivo Y04 2
-    Forro Space Xiaomi Redmi 13C 2 ok
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
@@ -116,9 +114,7 @@
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 17 Pro Max Amarillo 1
-    Silicone Case Apple Iphone 17 Pro Max Fucsia 1 ok
     Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Azulrey 1
-    Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1 ok
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
@@ -136,6 +132,7 @@
     Silicone Case Infinix Hot 60 / Hot 60I Amarillo 1
     Silicone Case Infinix Hot 60 / Hot 60I Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
+    Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
     Silicone Case Lg K51s Negro 1
     Silicone Case Lg K61 Amarillo 1
@@ -160,6 +157,7 @@
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Rosa 1
     Silicone Case Oppo A5 Lila 1
+    Silicone Case Oppo A57 / A77 Morado 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 2
@@ -256,6 +254,7 @@
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 5
+    Vidrio 5D Samsung A14 / A22 5G 10
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
     Vidrio Antiespia Apple Iphone 12 Mini 5

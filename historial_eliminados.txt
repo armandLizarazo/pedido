@@ -10159,3 +10159,56 @@ Fecha de proceso: 2025-12-19 05:10:18
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-20 05:36:40
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   13 | Cable We Tc 3 ok
+   19 | Cargador W Tc 5 ok
+   96 | Forro Space Xiaomi Redmi 13C 2 ok
+  119 | Silicone Case Apple Iphone 17 Pro Max Fucsia 1 ok
+  121 | Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Rojo 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-20 05:36:40
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Audífonos M60 2 ok
+    8 | Audifonos Bluetooth Pro 5S Negro 1 ok
+   10 | Cable Auxiliar 2 a 1 3 ok
+   15 | Cable Lan 1.5M 3 ok
+   16 | Cable Lan 3M Cat 6 3 ok
+   19 | Caja Disco Duro 3.0 Transparente 1 ok
+   50 | Switch Lan  GS-05 1/100/1000 1 ok
+   52 | Teclado Gamer Cmk-198 2 ok
+
+==================================================
+Fecha de proceso: 2025-12-20 05:36:40
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Apple Iphone 11 Gx 1 ok
+    3 | Pacha Samsung A02 / A12 / M12 1 ok
+    4 | Pacha Samsung A32 Amoled 1 ok
+    5 | Pacha Vivo Y21 / Y21S 2 ok
+    6 | Pacha Xiaomi Redmi 14C / Redmi A4 2 ok
+    7 | Tapa Xiaomi Redmi Note 13 Pro Plus Negro 1 ok
+    8 | Pacha Samsung A25 incell 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-20 05:36:40
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
