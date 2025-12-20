@@ -72,12 +72,12 @@
     Forro Space Huawei Honor X6C 3 ok
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 60 Pro 3 ok
-    Forro Space Infinix Hot 60 Pro Plus 2
-    Forro Space Infinix Hot 60I 2
+    Forro Space Infinix Hot 60 Pro Plus 2 ok
+    Forro Space Infinix Hot 60I 2 ok
     Forro Space Infinix Note 50s 2 ok
-    Forro Space Moto Edge 60 Fusion 2
+    Forro Space Moto Edge 60 Fusion 2 ok
     Forro Space Motorola Moto G50 1
-    Forro Space Oppo A5 2
+    Forro Space Oppo A5 2 ok
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C53 / Note 50 2
@@ -86,11 +86,11 @@
     Forro Space Samsung A17 2 ok
     Forro Space Samsung A71 2
     Forro Space Samsung S22 1
-    Forro Space Samsung S24 Fe 2
+    Forro Space Samsung S24 Fe 2 ok
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Camon 40 Pro 2
-    Forro Space Tecno Spark 40 4G 2
-    Forro Space Tecno Spark 40 Pro 2
+    Forro Space Tecno Spark 40 4G 2 ok
+    Forro Space Tecno Spark 40 Pro 2 ok
     Forro Space Tecno Spark 40C 2
     Forro Space Vivo Y04 2
     Forro Space Xiaomi Redmi 15 2
@@ -255,7 +255,7 @@
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 5
-    Vidrio 5D Samsung A14 / A22 5G 10
+    Vidrio 5D Samsung A14 / A22 5G 10 ok
     Vidrio 5D Samsung A6 / J6 5
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
@@ -269,8 +269,8 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Motorola Moto G9 Power 5
-    Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 Pro 10
-    Vidrio Blindado Xiaomi Redmi Note 14s 5
+    Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 Pro 5 ok
+    Vidrio Blindado Xiaomi Redmi Note 14s 5 ok
     Vidrio Camara Xiaomi Redmi 13 15
     Vidrio Camara Xiaomi Redmi 13C 15
     Vidrio Camara Zte Blade A75 1
