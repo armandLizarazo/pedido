@@ -99,6 +99,7 @@
     Forro Space Xiaomi Redmi Note 14 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
+    Manos Libres Knz Tc 2
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
@@ -119,6 +120,7 @@
     Silicone Case Apple Iphone Xr Rojo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Apple Iphone Xs Max Negro 1
+    Silicone Case Huawei Honor X7 Rojo 1
     Silicone Case Huawei Honor X8C Negro 1
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
@@ -155,6 +157,7 @@
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
+    Silicone Case Motorola Moto One Fusion Negro 1
     Silicone Case Motorola Moto One Fusion Rosa 1
     Silicone Case Oppo A5 Lila 1
     Silicone Case Oppo A57 / A77 Morado 1
@@ -172,6 +175,7 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A24 Negro 1
+    Silicone Case Samsung A35 Rosa 1
     Silicone Case Samsung A52 Lila 1
     Silicone Case Samsung A55 Verdementa 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
@@ -225,6 +229,7 @@
     Silicone Case Xiaomi Redmi 13 Fucsia 1
     Silicone Case Xiaomi Redmi 13C Azulrey 1
     Silicone Case Xiaomi Redmi 13C Rojo 1
+    Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2

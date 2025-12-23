@@ -167,6 +167,7 @@
     Auricular Samsung A25 Original 0
     Auricular Xiaomi Redmi 10 0
     Auricular Xiaomi Redmi 14C 0
+    BK-689 Peluche 0
     Balaca Appla P9 Azul 0
     Balaca Apple Airpods Max Negro 0
     Balaca Apple Airpods Max Verde 0
@@ -187,6 +188,7 @@
     Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Huawei P30 Lite Negro 0
+    Bandeja Sim Infinix Smart 9 0
     Bandeja Sim Samsung A10S 0
     Bandeja Sim Samsung A20S Azuloscuro 0
     Bandeja Sim Samsung A20s Negro 0
@@ -495,7 +497,7 @@
     Cargador Pc Hp Punta Azul 26000
     Cargador Pc Lenovo 65W Plug 0
     Cargador Pc Lenovo Mini 3.25 28000
-    Cargador Pc Lenovo Yoga 28000
+    Cargador Pc Lenovo Yoga 0
     Cargador Pc Tc 65W 50000
     Cargador Pluyin Eco 2500
     Cargador Pluying 15w PD237 0
@@ -940,7 +942,7 @@
     Forro Antichoque Samsung A05S Caballero 0
     Forro Antichoque Samsung A05S Dama 3500
     Forro Antichoque Samsung A06 Dama 3500
-    Forro Antichoque Samsung A07 Caballero 3500
+    Forro Antichoque Samsung A07 Caballero 0
     Forro Antichoque Samsung A07 Dama 0
     Forro Antichoque Samsung A10 Caballero 3500
     Forro Antichoque Samsung A10 Dama 3500
@@ -1072,7 +1074,7 @@
     Forro Antichoque Xiaomi Redmi 10C Caballero 3500
     Forro Antichoque Xiaomi Redmi 12 Caballero 3500
     Forro Antichoque Xiaomi Redmi 12 Dama 0
-    Forro Antichoque Xiaomi Redmi 12C Caballero 3500
+    Forro Antichoque Xiaomi Redmi 12C Caballero 0
     Forro Antichoque Xiaomi Redmi 12C Dama 3500
     Forro Antichoque Xiaomi Redmi 13 Caballero 3500
     Forro Antichoque Xiaomi Redmi 13 Dama 3500
@@ -1733,7 +1735,7 @@
     Hydrogel Matte Huawei Honor Magic 7 Lite 4000
     Hydrogel Matte Infinix Note 40 Pro 4000
     Hydrogel Matte Iphone 12 4000
-    Hydrogel Motorola Moto Edge 50 Fusion 4000
+    Hydrogel Motorola Moto Edge 50 Fusion 0
     Hydrogel Motorola Moto Edge 60 Fusion 4000
     Hydrogel Motorola Moto G85 4000
     Hydrogel Oppo A58 4g 4000
@@ -1750,6 +1752,7 @@
     Hydrogel Samsung A36 4000
     Hydrogel Samsung S23 Ultra 4000
     Hydrogel Samsung S24 Fe 4000
+    Hydrogel Samsung Smart Fit 3 0
     Hydrogel Tcl 50 Nxtpaper 4000
     Hydrogel Tecno Camon 30S 4000
     Hydrogel Tecno Camon 30S Pro 4000
@@ -2046,6 +2049,7 @@
     Pacha Huawei Honor X6B 0
     Pacha Huawei Honor X6S 40000
     Pacha Huawei Honor X7A 0
+    Pacha Huawei Honor X7C / Honor 200 Smart 0
     Pacha Huawei Honor X8A / Honor 90 Lite 0
     Pacha Huawei Nova 9Se 0
     Pacha Huawei Nova Y70 0
@@ -2094,6 +2098,7 @@
     Pacha Motorola Moto One 45000
     Pacha Motorola Moto One Fusion 0
     Pacha Motorola Moto One Fusion Plus 0
+    Pacha Nokia 3.4 / 5.3 0
     Pacha Nokia 5.3 45000
     Pacha Nokia G21 0
     Pacha Oppo A16 0
@@ -2142,9 +2147,8 @@
     Pacha Samsung A24 Amoled 0
     Pacha Samsung A24 Incell C/m 0
     Pacha Samsung A25 Amoled 0
-    Pacha Samsung A25 C/m Incell 0
     Pacha Samsung A25 Incell 0
-    Pacha Samsung A25 incell 0
+    Pacha Samsung A25 Incell C/m 0
     Pacha Samsung A30 / A50 0
     Pacha Samsung A30 / A50 C/M 0
     Pacha Samsung A30S S/M 38000
@@ -2181,7 +2185,7 @@
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
-    Pacha Tecno-Infinix Pop 7 / Hot 30I 40000
+    Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 38000
     Pacha Tecnoc Pova 4 / Neo 2 0
     Pacha Vivo V21 Amoled 0
@@ -2218,6 +2222,7 @@
     Pacha Xiaomi Redmi Note 12 0
     Pacha Xiaomi Redmi Note 12 Amoled 0
     Pacha Xiaomi Redmi Note 13 4G 0
+    Pacha Xiaomi Redmi Note 13 Pro 4G Incell C/m 0
     Pacha Xiaomi Redmi Note 13 Pro Plus 0
     Pacha Xiaomi Redmi Note 7 0
     Pacha Xiaomi Redmi Note 8 0
@@ -2426,6 +2431,7 @@
     Servicio Tecnico Huawei Pin de Carga Y5 0
     Servicio Tecnico Huawei Pin de Carga Y9 2019 0
     Servicio Tecnico Huawei Reconectar Logica de Carga Honor X6s 0
+    Servicio Tecnico Infinix Formatear 0
     Servicio Tecnico Infinix Fpc Bateria Note 12 0
     Servicio Tecnico Infinix Limpieza Altavoz 0
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus 0
@@ -2815,9 +2821,10 @@
     Silicone Case Huawei Honor X7 Morado 7000
     Silicone Case Huawei Honor X7 Negro 7000
     Silicone Case Huawei Honor X7 Palo Rosa 7000
-    Silicone Case Huawei Honor X7 Rojo 7000
+    Silicone Case Huawei Honor X7 Rojo 0
     Silicone Case Huawei Honor X7 Rosa 7000
     Silicone Case Huawei Honor X7 Verde 7000
+    Silicone Case Huawei Honor X7A Azulrey 0
     Silicone Case Huawei Honor X7A Morado 7000
     Silicone Case Huawei Honor X7A Rosa 7000
     Silicone Case Huawei Honor X7B Azulrey 7000
@@ -3233,7 +3240,7 @@
     Silicone Case Motorola Moto G9 Power Negro 7000
     Silicone Case Motorola Moto G9 Power Rojo 7000
     Silicone Case Motorola Moto G9 Power Salmon 7000
-    Silicone Case Motorola Moto One Fusion Negro 7000
+    Silicone Case Motorola Moto One Fusion Negro 0
     Silicone Case Motorola Moto One Fusion Rosa 7000
     Silicone Case Oppo A16 Lila 7000
     Silicone Case Oppo A16 Rojo 7000
@@ -3295,6 +3302,7 @@
     Silicone Case Oppo A60 Azulrey 7000
     Silicone Case Oppo A60 Morado 7000
     Silicone Case Oppo A60 Negro 7000
+    Silicone Case Oppo A60 Rojo 0
     Silicone Case Oppo A60 Rosa 7000
     Silicone Case Oppo A67 Negro 7000
     Silicone Case Oppo A74 4G Lila 7000
@@ -3330,7 +3338,7 @@
     Silicone Case Oppo Realme C53 / Note 50 Azulrey 7000
     Silicone Case Oppo Realme C53 / Note 50 Lila 7000
     Silicone Case Oppo Realme C53 / Note 50 Negro 7000
-    Silicone Case Oppo Realme C53 / Note 50 Rojo 7000
+    Silicone Case Oppo Realme C53 / Note 50 Rojo 0
     Silicone Case Oppo Realme C53 / Note 50 Rojooscuro 7000
     Silicone Case Oppo Realme C53 / Note 50 Salmon 7000
     Silicone Case Oppo Realme C53 / Note 50 Verde 7000
@@ -3619,7 +3627,7 @@
     Silicone Case Samsung A35 Negro 7000
     Silicone Case Samsung A35 Palorosa 7000
     Silicone Case Samsung A35 Rojo 7000
-    Silicone Case Samsung A35 Rosa 7000
+    Silicone Case Samsung A35 Rosa 0
     Silicone Case Samsung A35 Vinotinto 7000
     Silicone Case Samsung A36 Amarillo 7000
     Silicone Case Samsung A36 Azuloscuro 7000
@@ -3928,7 +3936,7 @@
     Silicone Case Tecno Spark Go 2022 / 8C Fucsia 7000
     Silicone Case Tecno Spark Go 2022 / 8C Morado 7000
     Silicone Case Tecno Spark Go 2022 / 8C Negro 7000
-    Silicone Case Tecno Spark Go 2022 / 8C Rojo 7000
+    Silicone Case Tecno Spark Go 2022 / 8C Rojo 0
     Silicone Case Tecno Spark Go 2022 / 8C Rosa 7000
     Silicone Case Tecno Spark Go 2022 / 8C Salmon 7000
     Silicone Case Tecno Spark Go 2022 / 8C Verdementa 7000
@@ -4146,7 +4154,7 @@
     Silicone Case Xiaomi Redmi 14C Azulrey 7000
     Silicone Case Xiaomi Redmi 14C Fucsia 7000
     Silicone Case Xiaomi Redmi 14C Lila 7000
-    Silicone Case Xiaomi Redmi 14C Morado 7000
+    Silicone Case Xiaomi Redmi 14C Morado 0
     Silicone Case Xiaomi Redmi 14C Negro 7000
     Silicone Case Xiaomi Redmi 14C Rojo 7000
     Silicone Case Xiaomi Redmi 14C Verde 7000
@@ -4410,6 +4418,7 @@
     Smart Watch Combo Jl-9 Ultra 2 0
     Smart Watch Combo K13 0
     Smart Watch Combo K32 0
+    Smart Watch Combo Kr-K55 0
     Smart Watch Combo X8 0
     Smart Watch Gw-20 Verdemilitar 0
     Smart Watch I525 Mini Rosa 0
@@ -4434,7 +4443,7 @@
     Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 0
     Smartphone Xiaomi Redmi 15 867451072037382 - 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
-    Smartphone Xiaomi Redsmi Note 14 Pro 4G 869195079421721 256/8 0
+    Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
     Smartphone Zte Blade A34 64/6 Verde 222000
     Smartphone Zte Blade A34 64/6 Verde 866083070638852 0
     Smartphone Zte Blade A36 865843070531105 - 64/6 0
@@ -4478,6 +4487,7 @@
     Tablero Magico 0
     Tablero Magico Kids 0
     Tableta Kids TT-710 0
+    Tableta Kids TT-710 357376081125828 0
     Tactil Tableta 10 Pulgadas 0
     Tactil Tableta 7 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
@@ -4586,7 +4596,7 @@
     Vidrio 5D Apple Iphone Xs Max 900
     Vidrio 5D Huawei Honor 90 Lite 900
     Vidrio 5D Huawei Honor X6S 900
-    Vidrio 5D Huawei Honor X7A 900
+    Vidrio 5D Huawei Honor X7A 0
     Vidrio 5D Huawei Honor X7B 900
     Vidrio 5D Huawei Honor X7C 900
     Vidrio 5D Huawei Honor X8A 900
@@ -4608,7 +4618,7 @@
     Vidrio 5D Motorola Moto E30 / E40 900
     Vidrio 5D Motorola Moto E6s / E6i 900
     Vidrio 5D Motorola Moto G14 / G54 / G55 900
-    Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 900
+    Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play 0
     Vidrio 5D Motorola Moto G22 / E32 900
     Vidrio 5D Motorola Moto G40 900
     Vidrio 5D Motorola Moto G52 900
@@ -4628,7 +4638,7 @@
     Vidrio 5D Samsung A05S 900
     Vidrio 5D Samsung A10 / A10s 900
     Vidrio 5D Samsung A11 900
-    Vidrio 5D Samsung A12 900
+    Vidrio 5D Samsung A12 0
     Vidrio 5D Samsung A12, 900
     Vidrio 5D Samsung A14 / A22 5G 900
     Vidrio 5D Samsung A15 900
@@ -4639,7 +4649,7 @@
     Vidrio 5D Samsung A24 / A25 / A34 900
     Vidrio 5D Samsung A30S 900
     Vidrio 5D Samsung A31 / A32 900
-    Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe 900
+    Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe 0
     Vidrio 5D Samsung A53 900
     Vidrio 5D Samsung A54 / S23 Fe 900
     Vidrio 5D Samsung A56 900
@@ -4657,21 +4667,21 @@
     Vidrio 5D Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 900
     Vidrio 5D Xiaomi Mi 11T 900
     Vidrio 5D Xiaomi Redmi 10 900
-    Vidrio 5D Xiaomi Redmi 10C / 12C 900
+    Vidrio 5D Xiaomi Redmi 10C / 12C 0
     Vidrio 5D Xiaomi Redmi 12 900
     Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 900
     Vidrio 5D Xiaomi Redmi 14 900
-    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 900
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3 0
     Vidrio 5D Xiaomi Redmi 8 900
     Vidrio 5D Xiaomi Redmi 9A / 9C / 10A 900
     Vidrio 5D Xiaomi Redmi 9T 900
     Vidrio 5D Xiaomi Redmi A1 / A2 900
     Vidrio 5D Xiaomi Redmi A3 900
-    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 900
+    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 0
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 900
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 900
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 0
     Vidrio 5D Xiaomi Redmi Note 13 4G 900
-    Vidrio 5D Xiaomi Redmi Note 8 900
+    Vidrio 5D Xiaomi Redmi Note 8 0
     Vidrio 5D Xiaomi Redmi Note 9 900
     Vidrio 5D Xiaomi Redmi Note 9S / 9 Pro 900
     Vidrio 5D huawei Y9 2019 / Y8s 900
@@ -4720,12 +4730,12 @@
     Vidrio Antiespia Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 1600
     Vidrio Antiespia Xiaomi Redmi 10 1600
     Vidrio Antiespia Xiaomi Redmi 10C / 12C 1600
-    Vidrio Antiespia Xiaomi Redmi 12 1600
+    Vidrio Antiespia Xiaomi Redmi 12 0
     Vidrio Antiespia Xiaomi Redmi 13C 1600
     Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 1600
     Vidrio Antiespia Xiaomi Redmi 14C / A5 / A3 1600
     Vidrio Antiespia Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 1600
-    Vidrio Antiespia Xiaomi Redmi Note 12 1600
+    Vidrio Antiespia Xiaomi Redmi Note 12 0
     Vidrio Antiespia Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 1600
     Vidrio Antiespia Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 pro 1600
     Vidrio Antiespia Xiaomi Redmi Note 9s / 9 Pro 1600
@@ -4858,8 +4868,6 @@
     Vidrio Perlas Apple Iphone 11 / Xr 0
     Vidrio Perlas Apple Iphone 15 / 15 Pro / Iphone 16 0
     Vidrio Smart Watch 45 0
-    Vidrio Templado Apple Iphone 16E 0
-    Vidrio Templado Samsung S20 Fe / S21 Fe 0
     Vidrio Titan Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Titan Apple Iphone 15 Pro Max 0
     Vidrio Titan Apple Iphone 16 Pro Max 0

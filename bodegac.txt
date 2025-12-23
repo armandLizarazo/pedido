@@ -167,6 +167,7 @@
     Auricular Samsung A25 Original 0
     Auricular Xiaomi Redmi 10 0
     Auricular Xiaomi Redmi 14C 0
+    BK-689 Peluche 0
     Balaca Appla P9 Azul 0
     Balaca Apple Airpods Max Negro 0
     Balaca Apple Airpods Max Verde 0
@@ -187,6 +188,7 @@
     Balaca Pantalla Negro 0
     Balaca Pantalla Rojo 0
     Bandeja Sim Huawei P30 Lite Negro 0
+    Bandeja Sim Infinix Smart 9 0
     Bandeja Sim Samsung A10S 0
     Bandeja Sim Samsung A20S Azuloscuro 0
     Bandeja Sim Samsung A20s Negro 0
@@ -610,7 +612,7 @@
     Control Gamer Sony Ps4 Gta V 0
     Control Gamer Sony Ps4 Rojo 0
     Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer X3 1
+    Control Gamer X3 0
     Control Gamer X3S 0
     Control Keyboard Tv 0
     Control Tv Smart Tv 0
@@ -1750,6 +1752,7 @@
     Hydrogel Samsung A36 0
     Hydrogel Samsung S23 Ultra 0
     Hydrogel Samsung S24 Fe 0
+    Hydrogel Samsung Smart Fit 3 0
     Hydrogel Tcl 50 Nxtpaper 0
     Hydrogel Tecno Camon 30S 0
     Hydrogel Tecno Camon 30S Pro 0
@@ -1843,6 +1846,7 @@
     Logica de Carga Motorola Moto G7 Power 0
     Logica de Carga Motorola Moto G8 Play 0
     Logica de Carga Motorola Moto G8 Power 0
+    Logica de Carga Motorola Moto G8 Power Lite 0
     Logica de Carga Motorola Moto G9 Play 0
     Logica de Carga Motorola Moto One Fusion 1
     Logica de Carga Nokia 2.4 0
@@ -1890,8 +1894,8 @@
     Manos Libres Inears Eco 0
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
-    Manos Libres Knz Tc 2
-    Manos Libres Samsung Akg 5
+    Manos Libres Knz Tc 0
+    Manos Libres Samsung Akg 0
     Manos Libres Samsung Akg Tc 0
     Manos Libres Samsung Akg Tc Blanco 2
     Manos Libres Samsung Akg con Aislador 0
@@ -2095,6 +2099,7 @@
     Pacha Motorola Moto One 0
     Pacha Motorola Moto One Fusion 0
     Pacha Motorola Moto One Fusion Plus 0
+    Pacha Nokia 3.4 / 5.3 0
     Pacha Nokia 5.3 0
     Pacha Nokia G21 0
     Pacha Oppo A16 0
@@ -2132,6 +2137,7 @@
     Pacha Samsung A15 0
     Pacha Samsung A15 Amoled 0
     Pacha Samsung A15 C/m 0
+    Pacha Samsung A16 Incell C/m 0
     Pacha Samsung A20s 0
     Pacha Samsung A20s C/m 0
     Pacha Samsung A21S 0
@@ -2218,16 +2224,16 @@
     Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 12 Amoled 0
     Pacha Xiaomi Redmi Note 13 4G 0
+    Pacha Xiaomi Redmi Note 13 Pro 4G Incell C/m 0
     Pacha Xiaomi Redmi Note 13 Pro Plus 0
     Pacha Xiaomi Redmi Note 7 0
-    Pacha Xiaomi Redmi Note 8 1
+    Pacha Xiaomi Redmi Note 8 0
     Pacha Xiaomi Redmi Note 8 Pro 2
     Pacha Xiaomi Redmi Note 9 0
     Pacha Xiaomi Redmi Note 9S / Note 9 Pro 0
     Pacha Xiaomi Redmi Note 9s / 9Pro 0
     Pacha Xioami Redmi A1 / A2 0
     Pacha Zte Blade A34 / A54 0
-    Pacha Zte Blade A34 / A54, 1
     Pacha Zte Blade A5 (2021) 0
     Pacha Zte Blade A5 2020 0
     Pacha Zte Blade A52 0
@@ -2252,7 +2258,7 @@
     Parlante Lazzer Lz-2894 0
     Parlante Lazzer Lz-2896 0
     Parlante Lazzer Lz-915 0
-    Parlante Marshall Medium 1
+    Parlante Marshall Medium 0
     Parlante Mini 0
     Parlante Ns-8100Bt Vintage 0
     Parlante Pc D-2L Mini Teatro 0
@@ -2426,6 +2432,7 @@
     Servicio Tecnico Huawei Pin de Carga Y5 0
     Servicio Tecnico Huawei Pin de Carga Y9 2019 0
     Servicio Tecnico Huawei Reconectar Logica de Carga Honor X6s 0
+    Servicio Tecnico Infinix Formatear 0
     Servicio Tecnico Infinix Fpc Bateria Note 12 0
     Servicio Tecnico Infinix Limpieza Altavoz 0
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus 0
@@ -2818,6 +2825,7 @@
     Silicone Case Huawei Honor X7 Rojo 0
     Silicone Case Huawei Honor X7 Rosa 0
     Silicone Case Huawei Honor X7 Verde 0
+    Silicone Case Huawei Honor X7A Azulrey 0
     Silicone Case Huawei Honor X7A Morado 0
     Silicone Case Huawei Honor X7A Rosa 0
     Silicone Case Huawei Honor X7B Azulrey 0
@@ -3295,6 +3303,7 @@
     Silicone Case Oppo A60 Azulrey 0
     Silicone Case Oppo A60 Morado 0
     Silicone Case Oppo A60 Negro 0
+    Silicone Case Oppo A60 Rojo 0
     Silicone Case Oppo A60 Rosa 0
     Silicone Case Oppo A67 Negro 0
     Silicone Case Oppo A74 4G Lila 0
@@ -4410,6 +4419,7 @@
     Smart Watch Combo Jl-9 Ultra 2 0
     Smart Watch Combo K13 0
     Smart Watch Combo K32 0
+    Smart Watch Combo Kr-K55 0
     Smart Watch Combo X8 0
     Smart Watch Gw-20 Verdemilitar 0
     Smart Watch I525 Mini Rosa 0
@@ -4478,6 +4488,7 @@
     Tablero Magico 0
     Tablero Magico Kids 0
     Tableta Kids TT-710 0
+    Tableta Kids TT-710 357376081125828 0
     Tactil Tableta 10 Pulgadas 0
     Tactil Tableta 7 Pulgadas 0
     Tapa Huawei Mate 20 Lite Azuloscuro 0
@@ -4669,7 +4680,7 @@
     Vidrio 5D Xiaomi Redmi A3 0
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 5
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 5
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 10
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 5
     Vidrio 5D Xiaomi Redmi Note 13 4G 0
     Vidrio 5D Xiaomi Redmi Note 8 10
     Vidrio 5D Xiaomi Redmi Note 9 0

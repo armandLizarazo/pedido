@@ -1,7 +1,11 @@
     Bateria Huawei Honor 1
+    Logica de Carga Motorola Moto G8 Power Lite 1
     Pacha Apple Iphone 11 Gx 2
     Pacha Huawei Honor X7C / Honor 200 Smart 1
     Pacha Motorola Moto Edge 50 Fusion 1
+    Pacha Nokia 3.4 / 5.3 2
+    Pacha Samsung A16 Incell C/m 2
     Pacha Samsung A25 Incell 1
     Pacha Samsung A25 Incell C/m 1
     Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
+    Pacha Zte Blade A34 / A54 1
