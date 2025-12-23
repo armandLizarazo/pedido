@@ -10212,3 +10212,95 @@ Fecha de proceso: 2025-12-20 05:36:40
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-23 06:37:46
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 56
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   17 | Cargador Samsung 25W Cabeza Negro 3 ok
+   18 | Cargador Samsung 45W Cabeza Blanco 2 ok
+   68 | Forro Space Apple Iphone 17 Pro Max 3 ok
+   69 | Forro Space Apple Iphone 17 Air 3 ok
+   72 | Forro Space Huawei Honor X6C 3 ok
+   74 | Forro Space Infinix Hot 60 Pro 3 ok
+   75 | Forro Space Infinix Hot 60 Pro Plus 2 ok
+   76 | Forro Space Infinix Hot 60I 2 ok
+   77 | Forro Space Infinix Note 50s 2 ok
+   78 | Forro Space Moto Edge 60 Fusion 2 ok
+   80 | Forro Space Oppo A5 2 ok
+   86 | Forro Space Samsung A17 2 ok
+   89 | Forro Space Samsung S24 Fe 2 ok
+   92 | Forro Space Tecno Spark 40 4G 2 ok
+   93 | Forro Space Tecno Spark 40 Pro 2 ok
+  111 | Silicone Case Apple Iphone 11 Blanco 1 ok
+  112 | Silicone Case Apple Iphone 11 Lila 1 ok
+  114 | Silicone Case Apple Iphone 11 Rosa 1 ok
+  118 | Silicone Case Apple Iphone 17 Pro Max Amarillo 1 ok
+  119 | Silicone Case Apple Iphone 7 Plus / Iphone 8 Plus Azulrey 1 ok
+  125 | Silicone Case Huawei Honor X8C Negro 1 ok
+  132 | Silicone Case Huawei Y9 Prime Verdemilitar 1 ok
+  134 | Silicone Case Infinix Hot 50 Pro Plus Lila 1 ok
+  136 | Silicone Case Infinix Hot 60 / Hot 60I Negro 1 ok
+  142 | Silicone Case Motorola Moto E32 Negro 1 ok
+  144 | Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1 ok
+  145 | Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 1 ok
+  147 | Silicone Case Motorola Moto G05 Rojo 1 ok
+  151 | Silicone Case Motorola Moto G22 Verde 1 ok
+  152 | Silicone Case Motorola Moto G42 Fucsia 1 ok
+  162 | Silicone Case Motorola Moto One Fusion Rosa 1 ok
+  163 | Silicone Case Oppo A5 Lila 1 ok
+  169 | Silicone Case Oppo Realme C55 Negro 1 ok
+  181 | Silicone Case Samsung A55 Verdementa 1 ok
+  187 | Silicone Case Samsung S23 Ultra Morado 1 ok
+  189 | Silicone Case Tecno Camon 20 Pro Fucsia 1 ok
+  190 | Silicone Case Tecno Camon 30 4G Rojo 1 ok
+  204 | Silicone Case Tecno Spark 30C Rojo 1 ok
+  205 | Silicone Case Tecno Spark 40 Pro Lila 1 ok
+  206 | Silicone Case Tecno Spark 40 Pro Morado 1 ok
+  207 | Silicone Case Tecno Spark Go 2025 / Go 1 Negro 1 ok
+  219 | Silicone Case Vivo Y04 Fucsia 1 ok
+  220 | Silicone Case Vivo Y04 Rosa 1 ok
+  223 | Silicone Case Vivo Y19S Lila 1 ok
+  225 | Silicone Case Vivo Y31 / Y51 / Y53S Rosa 1 ok
+  226 | Silicone Case Vivo Y33S / Y21 / Y21S Lila 1 ok
+  228 | Silicone Case Vivo Y38 Azulrey 1 ok
+  231 | Silicone Case Xiaomi Redmi 13 Fucsia 1 ok
+  232 | Silicone Case Xiaomi Redmi 13C Azulrey 1 ok
+  233 | Silicone Case Xiaomi Redmi 13C Rojo 1 ok
+  235 | Silicone Case Xiaomi Redmi 15C Fucsia 1 ok
+  237 | Silicone Case Xiaomi Redmi Note 12 Pro 4G Negro 1 ok
+  243 | Silicone Case Xiaomi Redmi Note 14 5G Negro 1 ok
+  263 | Vidrio 5D Samsung A14 / A22 5G 10 ok
+  277 | Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 Pro 5 ok
+  278 | Vidrio Blindado Xiaomi Redmi Note 14s 5 ok
+
+==================================================
+Fecha de proceso: 2025-12-23 06:37:46
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-12-23 06:37:46
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Pacha Apple Iphone 11 Gx 2 ok
+    7 | Pacha Huawei Honor X7C / Honor 200 Smart 1 ok
+    8 | Pacha Motorola Moto Edge 50 Fusion 1 ok
+    9 | Pacha Samsung A25 Incell 1 ok
+   10 | Pacha Samsung A25 Incell C/m 1 ok
+   11 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-23 06:37:46
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
