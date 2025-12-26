@@ -89,12 +89,12 @@
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
-    Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 14 Pro 4G 2
+    Forro Space Xiaomi Redmi Note 11 Pro 5G 2 ok
+    Forro Space Xiaomi Redmi Note 14 Pro 4G 2 ok
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Knz Tc 2
-    Manos Libres Samsung Akg 5
+    Manos Libres Samsung Akg 5 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
@@ -103,10 +103,11 @@
     Power Bank Aibimy 30000 Mah 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple IPhone 16e Fucsia 1
+    Silicone Case Apple IPhone 16E Rojo 1 ok
     Silicone Case Apple IPhone 16e Morado 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Fucsia 1
-    Silicone Case Apple Iphone 12 Gris 1
+    Silicone Case Apple Iphone 12 Gris 1 ok
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 13 Verde 1
@@ -116,7 +117,7 @@
     Silicone Case Apple Iphone Xr Rosa 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Apple Iphone Xs Max Negro 1
-    Silicone Case Huawei Honor X7 Fucsia 1
+    Silicone Case Huawei Honor X7 Fucsia 1 ok
     Silicone Case Huawei Honor X7 Rojo 1
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
@@ -145,8 +146,8 @@
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
-    Silicone Case Oppo A54 Rojo 1
-    Silicone Case Oppo A57 / A77 Morado 1
+    Silicone Case Oppo A54 Rojo 1 ok
+    Silicone Case Oppo A57 / A77 Morado 1 ok
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C53 / Note 50 Azulclaro 2
@@ -205,14 +206,14 @@
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 12S Rosa 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Silicone Case Xiaomi Redmi Note 9 Negro 1
+    Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
     Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Morado 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Silicone Case Zte Blade A34 Lila 1
