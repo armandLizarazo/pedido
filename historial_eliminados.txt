@@ -10304,3 +10304,34 @@ Fecha de proceso: 2025-12-23 06:37:46
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-23 13:20:51
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-12-23 13:20:51
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2025-12-23 13:20:51
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 4
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Logica de Carga Motorola Moto G8 Power Lite 1 ok
+    3 | Pacha Nokia 3.4 / 5.3 1 ok
+    4 | Pacha Samsung A16 Incell C/m 1 ok
+    5 | Pacha Zte Blade A34 / A54 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-23 13:20:51
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

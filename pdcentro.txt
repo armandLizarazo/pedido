@@ -8,12 +8,19 @@
     Cable Apple Iphone 4 3
     Cable Apple Usb Ligthning 2M 5
     Cable Auxiliar 1 A 1 Eco 5
+    Cable Belkin Tc 5
+    Cable Motorola Tc 3
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 5
+    Cable V8 Eco 5
     Cable Yoyos Tc 3M 3
+    Cargador Apple 20W Con Cable 2
+    Cargador Apple 25W Con Cable 3
     Cargador Fuente 360 Slim 1
+    Cargador Infinix 3.1a 3
     Cargador MagSafe 1
     Cargador Microsoft Carga Y Juega Xbox 360 3
+    Cargador Samsung 25W Cabeza Blanco 2
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -63,6 +70,7 @@
     Forro Lujo Ventana Apple Iphone 15 Pro Morado 1
     Forro Lujo Ventana Apple Iphone 15 pro Max Negro 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
+    Forro Space Apple Iphone 13 2
     Forro Space Huawei Honor 400 2
     Forro Space Huawei Honor 400 Smart 2
     Forro Space Huawei Y9A 2
@@ -86,6 +94,7 @@
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
@@ -93,14 +102,21 @@
     Parlante Ktf-1645 2
     Power Bank Aibimy 30000 Mah 1
     Pulso Banda M5 Negro 3
+    Silicone Case Apple IPhone 16e Fucsia 1
+    Silicone Case Apple IPhone 16e Morado 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
+    Silicone Case Apple Iphone 11 Pro Fucsia 1
+    Silicone Case Apple Iphone 12 Gris 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 Pro Negro 1
+    Silicone Case Apple Iphone 13 Verde 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
+    Silicone Case Apple Iphone Xr Rosa 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Apple Iphone Xs Max Negro 1
+    Silicone Case Huawei Honor X7 Fucsia 1
     Silicone Case Huawei Honor X7 Rojo 1
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
@@ -129,6 +145,7 @@
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
+    Silicone Case Oppo A54 Rojo 1
     Silicone Case Oppo A57 / A77 Morado 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
@@ -140,6 +157,7 @@
     Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
+    Silicone Case Samsung A05 Azulrey 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A24 Negro 1
@@ -164,6 +182,7 @@
     Silicone Case Tecno Pova 4 Lila 1
     Silicone Case Tecno Spark 30 4G Rosa 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark Go 2025 / Go 1 Lila 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -187,12 +206,15 @@
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 12S Rosa 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 9 Negro 1
+    Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Morado 1
+    Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
