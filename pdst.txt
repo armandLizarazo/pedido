@@ -1,5 +1,6 @@
     Bateria Huawei Honor 1
-    Pacha Motorola Moto Edge 50 Fusion 1
-    Pacha Vivo Y17s / Y22s 1
-    Pacha Vivo Y31 / Y33s / Y51 / Y53S 2
-    Pacha Xiaomi Redmi 14C C/m 1
+    Pacha Motorola Moto Edge 50 Fusion 1 ok
+    Pacha Vivo Y17s / Y22s 1 ok
+    Pacha Vivo Y31 / Y33s / Y51 / Y53S 2 ok
+    Pacha Xiaomi Redmi 14C C/m 1 ok
+    Pacha Oppo A16 1 ok
