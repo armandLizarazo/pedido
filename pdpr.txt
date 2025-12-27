@@ -35,7 +35,7 @@
     Pila Control 23A 5
     Pila Reloj Cr-2032 5
     Pilas Carbon Maxday Aaa X2 30
-    Proyector Hy-300 2 Ram 2
+    Proyector Hy-300 2 Ram 2 ok
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd 2
     Reproductor Tdt Beck Paly 3
