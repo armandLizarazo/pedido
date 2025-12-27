@@ -180,7 +180,7 @@
     Balaca Gamer G-2600 Amarillocamuflado 0
     Balaca Gamer G-2600 Negro 0
     Balaca Ipega Militar 0
-    Balaca Naisu S-437 Negro 38000
+    Balaca Naisu S-437 Negro 38000.0
     Balaca Naisu S-437 Rojo 38000
     Balaca Naisu S-437 Verde 38000
     Balaca Pantalla Azul 0
@@ -483,7 +483,7 @@
     Cargador Inversor 12V a 110V 45000
     Cargador MagSafe 15000
     Cargador Maxday Carga Pilas Universal 12500
-    Cargador Microsoft Carga Y Juega Xbox 360 0
+    Cargador Microsoft Carga Y Juega Xbox 360 10000.0
     Cargador Motorola 50W Solo Cabeza 15000
     Cargador Motorola 67W Solo Cabeza 15000
     Cargador Motorola Tc A Tc 30W 13000
@@ -574,7 +574,7 @@
     Combo Remington Plancha + Cepillo Aguacate 0
     Conector Antena Parlante 0
     Consola + Tv box 0
-    Consola Game Stick 0
+    Consola Game Stick 40000.0
     Consola Microsoft Xbox 360 0
     Consola Mini Ness 0
     Consola Pandora 0
@@ -591,7 +591,7 @@
     Control Gamer Gatillos Z-06 0
     Control Gamer Microsoft Pc 0
     Control Gamer Microsoft Pc / 360 Alambrico 0
-    Control Gamer Microsoft Xbox 360 Inalambrico 0
+    Control Gamer Microsoft Xbox 360 Inalambrico 75000.0
     Control Gamer Microsoft Xbox Caja Negra 0
     Control Gamer Microsoft Xbox Caja Negra Transparente 0
     Control Gamer Microsoft Xbox One 0
@@ -1608,7 +1608,7 @@
     Forro Space Samsung S9 Plus 3500
     Forro Space Tecno Camon 18P 3500
     Forro Space Tecno Camon 30S Pro 3500
-    Forro Space Tecno Camon 30s 3500
+    Forro Space Tecno Camon 30s 3500.0
     Forro Space Tecno Camon 40 Pro 3500
     Forro Space Tecno Pova 4 3500
     Forro Space Tecno Pova 5 3500
@@ -1655,7 +1655,7 @@
     Forro Space Xiaomi Redmi 10 Rosa 3500
     Forro Space Xiaomi Redmi 10C 3500
     Forro Space Xiaomi Redmi 12 3500
-    Forro Space Xiaomi Redmi 12 Verde 3500
+    Forro Space Xiaomi Redmi 12 Verde 5000.0
     Forro Space Xiaomi Redmi 12C 3500
     Forro Space Xiaomi Redmi 13 3500
     Forro Space Xiaomi Redmi 13C 3500
@@ -1745,7 +1745,7 @@
     Hydrogel Matte Huawei Honor Magic 7 Lite 4000
     Hydrogel Matte Infinix Note 40 Pro 4000
     Hydrogel Matte Iphone 12 4000
-    Hydrogel Motorola Moto Edge 50 Fusion 0
+    Hydrogel Motorola Moto Edge 50 Fusion 4000.0
     Hydrogel Motorola Moto Edge 60 Fusion 4000
     Hydrogel Motorola Moto G85 4000
     Hydrogel Oppo A58 4g 4000
@@ -2088,7 +2088,7 @@
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 0
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12, 0
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 0
-    Pacha Motorola Moto Edge 50 Fusion 0
+    Pacha Motorola Moto Edge 50 Fusion 130000.0
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G05 / G15 0
     Pacha Motorola Moto G13 / G23 0
@@ -2202,12 +2202,12 @@
     Pacha Tecnoc Pova 4 / Neo 2 0
     Pacha Vivo V21 Amoled 0
     Pacha Vivo Y11s / Y20s 0
-    Pacha Vivo Y17s / Y22s 0
+    Pacha Vivo Y17s / Y22s 35000.0
     Pacha Vivo Y21 / Y21S 0
     Pacha Vivo Y27 5G 0
     Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 0
     Pacha Vivo Y30 / Y50 0
-    Pacha Vivo Y31 / Y33s / Y51 / Y53S 0
+    Pacha Vivo Y31 / Y33s / Y51 / Y53S 35000.0
     Pacha Xiaomi Poco X3 / Mi 10T Lite 0
     Pacha Xiaomi Redmi 10 0
     Pacha Xiaomi Redmi 10C 0
@@ -2356,7 +2356,7 @@
     Proyector 110 Hy-300 Con Juegos 0
     Proyector Astronauta Bluetooth Blanco 40000
     Proyector Astronauta Bluetooth Negro 40000
-    Proyector Hy-300 2 Ram 0
+    Proyector Hy-300 2 Ram 155000.0
     Proyector Joma Hy-300 Con Juegos 0
     Proyector S40ge Con Juegos 220000
     Proyector Thor Hy-300 Con Juegos 160000
@@ -2372,7 +2372,7 @@
     Recarga 6500 6132
     Recarga 7500 7075
     Recarga 8500 8018
-    Recargas 0
+    Recargas 35377.0
     Reloj Digital Led 0
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 125000
@@ -2418,7 +2418,7 @@
     Servicio Tecnico Apple Despegar Bateria IPhone 6 0
     Servicio Tecnico Apple Limpieza Altavoz y Carga Iphone 14 Pro 0
     Servicio Tecnico Apple Mantenimiento Logica Iphone 11 0
-    Servicio Tecnico Apple Mantenimiento Logica Iphone 13 0
+    Servicio Tecnico Apple Mantenimiento Logica Iphone 13 0.0
     Servicio Tecnico Apple Mntenimiento Puerto de Carga Iphone 6 0
     Servicio Tecnico Apple Reconectar Pantalla 0
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
@@ -2494,7 +2494,7 @@
     Servicio Tecnico Samsung Farmat y cuenta google 0
     Servicio Tecnico Samsung Formatear A03 Core 0
     Servicio Tecnico Samsung Formatear A06 0
-    Servicio Tecnico Samsung Formatear A13 0
+    Servicio Tecnico Samsung Formatear A13 0.0
     Servicio Tecnico Samsung Formatear A21s 0
     Servicio Tecnico Samsung Formateo A04 0
     Servicio Tecnico Samsung Frp A20 Unlocktool2 0
@@ -2569,7 +2569,7 @@
     Servicio Tecnico Xiaomi Revision Mi 10T Pro 5G 0
     Servicio Tecnico Xiaomi Revision Redmi 13C 0
     Servicio Tecnico Xiaomi Revision Señal Note 11 0
-    Servicio Tecnico Xiaomi Soldar Contactod Caja Audifonos Bluetooth 0
+    Servicio Tecnico Xiaomi Soldar Contactod Caja Audifonos Bluetooth 0.0
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Note 10s 0
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Note 11 0
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Redmi 13C 0
@@ -2838,7 +2838,7 @@
     Silicone Case Huawei Honor X7 Fucsia 0
     Silicone Case Huawei Honor X7 Lila 7000
     Silicone Case Huawei Honor X7 Morado 7000
-    Silicone Case Huawei Honor X7 Negro 7000
+    Silicone Case Huawei Honor X7 Negro 7000.0
     Silicone Case Huawei Honor X7 Palo Rosa 7000
     Silicone Case Huawei Honor X7 Rojo 0
     Silicone Case Huawei Honor X7 Rosa 7000
@@ -3127,7 +3127,7 @@
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 7000
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 7000
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 7000.0
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 7000
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 7000
@@ -3185,7 +3185,7 @@
     Silicone Case Motorola Moto G24 / G04 Fucsia 7000
     Silicone Case Motorola Moto G24 / G04 Lila 7000
     Silicone Case Motorola Moto G24 / G04 Morado 7000
-    Silicone Case Motorola Moto G24 / G04 Negro 7000
+    Silicone Case Motorola Moto G24 / G04 Negro 7000.0
     Silicone Case Motorola Moto G24 / G04 Rojo 7000
     Silicone Case Motorola Moto G24 / G04 Rosa 7000
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 7000
@@ -3286,7 +3286,7 @@
     Silicone Case Oppo A5 Negro 7000
     Silicone Case Oppo A5 Pro 4G / 5G Amarillo 7000
     Silicone Case Oppo A5 Pro 4G / 5G Azulrey 7000
-    Silicone Case Oppo A5 Pro 4G / 5G Fucsia 7000
+    Silicone Case Oppo A5 Pro 4G / 5G Fucsia 7000.0
     Silicone Case Oppo A5 Pro 4G / 5G Lila 7000
     Silicone Case Oppo A5 Pro 4G / 5G Morado 7000
     Silicone Case Oppo A5 Pro 4G / 5G Rojo 7000
@@ -4429,7 +4429,7 @@
     Silicone Case Zte Blade A54 Negro 7000
     Silicone Case Zte Blade A54 Rojo 7000
     Silicone Motorola Moto G8 Power Lite Rojo 7000
-    Simcard Claro 0
+    Simcard Claro 0.0
     Simcard Movistar 0
     Simcard Tigo 0
     Simcard Virgin 0
@@ -4479,7 +4479,7 @@
     Soporte Fijo Tv 32-55 Pulgadas 16000
     Soporte Holder Espejo 0
     Soporte Holder Espejo Descubierto 0
-    Soporte Holder Manubrio 0
+    Soporte Holder Manubrio 12000.0
     Soporte Holder Tornillo 0
     Soporte Nephoo Tripode Camara-Celular Np-3180 0
     Soporte Nephoo Tripode Camara-Celular Np-999 0
@@ -5015,3 +5015,7 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 0
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 1100
+    Vidrio 5D Lg Q60 900.0
+    Silicone Case Samsung A30S / A50 Negro 7000.0
+    Hydrogel Matte Tcl Note 50 Nextpaper 4000.0
+    Servicio Tecnico Tecno Pin de Carga Tc Spark 10 Pro 0.0

@@ -111,6 +111,7 @@
     Aro De Luz Celular Rgb 0
     Aro De Luz Joma 26Cm Ligth 0
     Aro De Luz Joma 33Cm Rgb 2
+    Aro de Luz Celular 2
     Aro de Luz Joma 26Cm Rgb 2
     Audifonos Bluetooth Airpods Pro 0
     Audifonos Bluetooth Ambie 0
@@ -574,7 +575,7 @@
     Combo Remington Plancha + Cepillo Aguacate 1
     Conector Antena Parlante 0
     Consola + Tv box 0
-    Consola Game Stick 3
+    Consola Game Stick 2
     Consola Microsoft Xbox 360 1
     Consola Mini Ness 1
     Consola Pandora 1
@@ -614,7 +615,7 @@
     Control Gamer Sony Ps4 Gta V 0
     Control Gamer Sony Ps4 Rojo 0
     Control Gamer Sony Ps4 Spiderman 0
-    Control Gamer X3 0
+    Control Gamer X3 2
     Control Gamer X3S 0
     Control Keyboard Tv 0
     Control Tv Samsung Plano 0
@@ -633,11 +634,12 @@
     Estabilizador 4 Puertos 0
     Estetica Cepillo Secador 0
     Estetica Cepillo Secador Giratorio 0
-    Estetica Cepillo Secador Remington Aguacate 0
+    Estetica Cepillo Secador Remington Aguacate 2
     Estetica Cepillo Secador Remington Keratina 0
-    Estetica Ondas de Sirena 0
+    Estetica Ondas de Sirena 1
     Extension 4m 0
     Extensión 6M 0
+    Flash Ligth Celular AY-83 Rgb 1
     Flex De Carga Apple Iphone X 0
     Flex De Power Huawei Mate 20 Lite 0
     Flex De Power Samsung A02 0
@@ -1483,8 +1485,8 @@
     Forro Space Infinix Hot 60I 2
     Forro Space Infinix Note 40 0
     Forro Space Infinix Note 40 4G 0
-    Forro Space Infinix Note 50S 0
-    Forro Space Infinix Note 50s 2
+    Forro Space Infinix Note 50S 2
+    Forro Space Infinix Note 50s 0
     Forro Space Iphone 13 Pro Max 1
     Forro Space Magsafe Apple Iphone 11 0
     Forro Space Magsafe Apple Iphone 11 Pro 1
@@ -1607,8 +1609,7 @@
     Forro Space Samsung S9 1
     Forro Space Samsung S9 Plus 1
     Forro Space Tecno Camon 18P 0
-    Forro Space Tecno Camon 30S Pro 2
-    Forro Space Tecno Camon 30s 1
+    Forro Space Tecno Camon 30S / 30S Pro 0
     Forro Space Tecno Camon 40 Pro 0
     Forro Space Tecno Pova 4 0
     Forro Space Tecno Pova 5 4
@@ -1673,7 +1674,7 @@
     Forro Space Xiaomi Redmi Note 10 5G 2
     Forro Space Xiaomi Redmi Note 10 Pro 0
     Forro Space Xiaomi Redmi Note 11 0
-    Forro Space Xiaomi Redmi Note 11 Pro 5G 0
+    Forro Space Xiaomi Redmi Note 11 Pro 5G 2
     Forro Space Xiaomi Redmi Note 12 1
     Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 3
@@ -1686,7 +1687,7 @@
     Forro Space Xiaomi Redmi Note 14 0
     Forro Space Xiaomi Redmi Note 14 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro 0
-    Forro Space Xiaomi Redmi Note 14 Pro 4G 0
+    Forro Space Xiaomi Redmi Note 14 Pro 4G 2
     Forro Space Xiaomi Redmi Note 14 Pro 5G 2
     Forro Space Xiaomi Redmi Note 14 Pro Plus 1
     Forro Space Xiaomi Redmi Note 14S 0
@@ -1745,6 +1746,7 @@
     Hydrogel Matte Huawei Honor Magic 7 Lite 0
     Hydrogel Matte Infinix Note 40 Pro 0
     Hydrogel Matte Iphone 12 0
+    Hydrogel Matte Tcl Note 50 Nextpaper 0
     Hydrogel Motorola Moto Edge 50 Fusion 0
     Hydrogel Motorola Moto Edge 60 Fusion 0
     Hydrogel Motorola Moto G85 0
@@ -1874,7 +1876,7 @@
     Logica de Carga Tecno Spark 10 Pro 0
     Logica de Carga Tecno Spark 20 0
     Logica de Carga Tecno Spark 20C 0
-    Logica de Carga Tecno Spark Go 2024 0
+    Logica de Carga Tecno Spark Go 2024 1
     Logica de Carga Xiaomi Redmi 9 0
     Logica de Carga Xiaomi Redmi 9A / 9C / 10A 0
     Logica de Carga Xiaomi Redmi Note 10 / Note 10S 0
@@ -1905,7 +1907,7 @@
     Manos Libres Inears S-2000 0
     Manos Libres Inears Ten Space Ts-H05 0
     Manos Libres Knz Tc 0
-    Manos Libres Samsung Akg 0
+    Manos Libres Samsung Akg 5
     Manos Libres Samsung Akg Tc 0
     Manos Libres Samsung Akg Tc Blanco 2
     Manos Libres Samsung Akg con Aislador 0
@@ -2030,6 +2032,8 @@
     Mouse Gamer Eco X1 0
     Mouse Gamer G-930 0
     Mouse Gamer Inalambrico Eco 1
+    Mouse Gamer X3 1
+    Mouse Gamer X7 1
     Mouse Gamer Xmg-02 Inalambrico 1
     Mouse Gamer Yoyos H-01 0
     Mouse Genius Dx-101 Cbl 1
@@ -2088,7 +2092,7 @@
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 0
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12, 1
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 0
-    Pacha Motorola Moto Edge 50 Fusion 1
+    Pacha Motorola Moto Edge 50 Fusion 0
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G05 / G15 0
     Pacha Motorola Moto G13 / G23 1
@@ -2144,7 +2148,7 @@
     Pacha Samsung A12 C/m 0
     Pacha Samsung A13 / M13 / M23 2
     Pacha Samsung A14 5G 0
-    Pacha Samsung A15 0
+    Pacha Samsung A15 1
     Pacha Samsung A15 Amoled 0
     Pacha Samsung A15 C/m 0
     Pacha Samsung A16 Incell C/m 0
@@ -2154,7 +2158,7 @@
     Pacha Samsung A21S C/m 0
     Pacha Samsung A22 4G 0
     Pacha Samsung A22 4G C/m 1
-    Pacha Samsung A22 5G 0
+    Pacha Samsung A22 5G 2
     Pacha Samsung A23 / M23 0
     Pacha Samsung A24 Amoled 1
     Pacha Samsung A24 Incell C/m 0
@@ -2164,13 +2168,13 @@
     Pacha Samsung A30 / A50 0
     Pacha Samsung A30 / A50 C/M 0
     Pacha Samsung A30S S/M 0
-    Pacha Samsung A30s C/m 0
+    Pacha Samsung A30s C/m 1
     Pacha Samsung A31 0
     Pacha Samsung A31 C/m 0
     Pacha Samsung A31 C/m, 1
     Pacha Samsung A32 0
     Pacha Samsung A32 Amoled 1
-    Pacha Samsung A32 C/m 0
+    Pacha Samsung A32 C/m 1
     Pacha Samsung A32, 1
     Pacha Samsung A33 C/m 0
     Pacha Samsung A51 0
@@ -2196,7 +2200,7 @@
     Pacha Tecno Spark 20 Pro Plus 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
     Pacha Tecno-Infinix Pop 7 / Hot 30I 0
     Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 0
     Pacha Tecnoc Pova 4 / Neo 2 1
@@ -2214,9 +2218,10 @@
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 0
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13 0
-    Pacha Xiaomi Redmi 13C 0
+    Pacha Xiaomi Redmi 13C 3
     Pacha Xiaomi Redmi 14C 0
     Pacha Xiaomi Redmi 14C / Redmi A4 2
+    Pacha Xiaomi Redmi 14C C/m 0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 0
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 0
@@ -2231,7 +2236,7 @@
     Pacha Xiaomi Redmi Note 11 / Note 12S 0
     Pacha Xiaomi Redmi Note 11 / Note 12S, 1
     Pacha Xiaomi Redmi Note 11 5G / Poco M4 Pro 0
-    Pacha Xiaomi Redmi Note 12 0
+    Pacha Xiaomi Redmi Note 12 1
     Pacha Xiaomi Redmi Note 12 Amoled 0
     Pacha Xiaomi Redmi Note 13 4G 0
     Pacha Xiaomi Redmi Note 13 Pro 4G Incell C/m 0
@@ -2337,7 +2342,7 @@
     Plancha Remington Triple Infusion 0
     Pop Socket Figura 0
     Porta Brillo Forro 3
-    Porta Visores Camaras Samsung A32 0
+    Porta Visores Camaras Samsung A32 1
     Power Bank Aibimy 10000 Mah 120W 0
     Power Bank Aibimy 20000 Mah 0
     Power Bank Aibimy 30000 Mah 0
@@ -2357,7 +2362,7 @@
     Proyector 110 Hy-300 Con Juegos 1
     Proyector Astronauta Bluetooth Blanco 0
     Proyector Astronauta Bluetooth Negro 0
-    Proyector Hy-300 2 Ram 1
+    Proyector Hy-300 2 Ram 0
     Proyector Joma Hy-300 Con Juegos 0
     Proyector S40ge Con Juegos 0
     Proyector Thor Hy-300 Con Juegos 1
@@ -2538,6 +2543,7 @@
     Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
     Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
     Servicio Tecnico Tecno Pin de Carga Go 2024 0
+    Servicio Tecnico Tecno Pin de Carga Tc Spark 10 Pro 0
     Servicio Tecnico Tecno Reparacion Logica Spark Go 2024 0
     Servicio Tecnico Tecno Revision Audio Go 2022 0
     Servicio Tecnico Tg Despegar Bateria Tableta 0
@@ -2577,6 +2583,7 @@
     Servicio Tecnico Zte Pin de carga Blade A5 2020 0
     ServicioTecnico Huawei Desdoblar Honor X6s 0
     Silcione Case Xiaomi Redmi 13 Rojo 0
+    Silicone Case Apple IPhone 16E Rojo 1
     Silicone Case Apple IPhone 16e Azulclaro 0
     Silicone Case Apple IPhone 16e Fucsia 0
     Silicone Case Apple IPhone 16e Lila 0
@@ -2607,7 +2614,7 @@
     Silicone Case Apple Iphone 11 Rosa 1
     Silicone Case Apple Iphone 12 / 12 Pro Ab Verde 1
     Silicone Case Apple Iphone 12 Ab Negro 0
-    Silicone Case Apple Iphone 12 Gris 0
+    Silicone Case Apple Iphone 12 Gris 1
     Silicone Case Apple Iphone 12 Lila 0
     Silicone Case Apple Iphone 12 Mini Amarillo 0
     Silicone Case Apple Iphone 12 Mini Azulcielo 0
@@ -2838,7 +2845,7 @@
     Silicone Case Huawei Honor X6C Verdemilitar 1
     Silicone Case Huawei Honor X6S / X8 Negro 0
     Silicone Case Huawei Honor X7 Amarillo 0
-    Silicone Case Huawei Honor X7 Fucsia 0
+    Silicone Case Huawei Honor X7 Fucsia 1
     Silicone Case Huawei Honor X7 Lila 0
     Silicone Case Huawei Honor X7 Morado 1
     Silicone Case Huawei Honor X7 Negro 0
@@ -3188,7 +3195,7 @@
     Silicone Case Motorola Moto G24 / G04 Fucsia 0
     Silicone Case Motorola Moto G24 / G04 Lila 1
     Silicone Case Motorola Moto G24 / G04 Morado 0
-    Silicone Case Motorola Moto G24 / G04 Negro 1
+    Silicone Case Motorola Moto G24 / G04 Negro 0
     Silicone Case Motorola Moto G24 / G04 Rojo 0
     Silicone Case Motorola Moto G24 / G04 Rosa 0
     Silicone Case Motorola Moto G24 / G04 Verdemilitar 2
@@ -3296,12 +3303,12 @@
     Silicone Case Oppo A5 Rojo 1
     Silicone Case Oppo A5 Rosa 1
     Silicone Case Oppo A5 Salmon 1
-    Silicone Case Oppo A54 Rojo 0
+    Silicone Case Oppo A54 Rojo 1
     Silicone Case Oppo A57 / A77 Amarillo 0
     Silicone Case Oppo A57 / A77 Blanco 0
     Silicone Case Oppo A57 / A77 Fucsia 0
     Silicone Case Oppo A57 / A77 Lila 1
-    Silicone Case Oppo A57 / A77 Morado 0
+    Silicone Case Oppo A57 / A77 Morado 1
     Silicone Case Oppo A57 / A77 Negro 0
     Silicone Case Oppo A57 / A77 Palo Rosa 0
     Silicone Case Oppo A57 / A77 Rojo 0
@@ -3609,6 +3616,7 @@
     Silicone Case Samsung A26 Rojo 0
     Silicone Case Samsung A26 Verde Biche 0
     Silicone Case Samsung A30S / A50 Lila 1
+    Silicone Case Samsung A30S / A50 Negro 0
     Silicone Case Samsung A30S / A50 Rojo 0
     Silicone Case Samsung A30S Fucsia 0
     Silicone Case Samsung A31 Amarillo 0
@@ -4315,7 +4323,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Azulrey 0
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Fucsia 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Lila 0
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 0
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 0
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 0
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rosa 0
@@ -4413,7 +4421,7 @@
     Silicone Case Xiaomi Redmi Note 9 Amarillo 0
     Silicone Case Xiaomi Redmi Note 9 Lila 0
     Silicone Case Xiaomi Redmi Note 9 Morado 0
-    Silicone Case Xiaomi Redmi Note 9 Negro 0
+    Silicone Case Xiaomi Redmi Note 9 Negro 1
     Silicone Case Xiaomi Redmi Note 9 Rojo 0
     Silicone Case Xiaomi Redmi Note 9 Rosa 0
     Silicone Case Xiaomi Redmi Note 9 Verde 0
@@ -4482,7 +4490,7 @@
     Soporte Fijo Tv 32-55 Pulgadas 0
     Soporte Holder Espejo 1
     Soporte Holder Espejo Descubierto 0
-    Soporte Holder Manubrio 1
+    Soporte Holder Manubrio 0
     Soporte Holder Tornillo 0
     Soporte Nephoo Tripode Camara-Celular Np-3180 1
     Soporte Nephoo Tripode Camara-Celular Np-999 0
@@ -4528,6 +4536,8 @@
     Tapa Samsung A31 Azul 0
     Tapa Samsung A31 Negro 0
     Tapa Samsung A32 5G Negro 0
+    Tapa Samsung A32 Azul 1
+    Tapa Samsung A32 Negro 1
     Tapa Tecno Spark 10 Pro Azul 1
     Tapa Tecno Spark 20 Negro 0
     Tapa Xiaomi Mi 11T Azul 0
@@ -4547,7 +4557,7 @@
     Tarro Dosificador Aguja Aguja 0
     Teclado Combo Gamer F92 0
     Teclado Dn-236 0
-    Teclado Gamer Cmk-198 0
+    Teclado Gamer Cmk-198 2
     Teclado Gamer Yelandar K-568 0
     Teclado Gamer Yelandar K-760 1
     Teclado Inalambrico Yelandar W3500 0
@@ -4637,6 +4647,7 @@
     Vidrio 5D Huawei Y7 Prime 0
     Vidrio 5D Huawei Y9 Prime 5
     Vidrio 5D Iphone 12 / 12 Pro 0
+    Vidrio 5D Lg Q60 0
     Vidrio 5D Mate Samsung A22 4G / A31 / A32 4G 0
     Vidrio 5D Matte Samsung A22 4G / A31 / A32 4G 0
     Vidrio 5D Motorola Moto E13 0

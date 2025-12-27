@@ -111,6 +111,7 @@
     Aro De Luz Celular Rgb 0
     Aro De Luz Joma 26Cm Ligth 1
     Aro De Luz Joma 33Cm Rgb 1
+    Aro de Luz Celular 0
     Aro de Luz Joma 26Cm Rgb 2
     Audifonos Bluetooth Airpods Pro 0
     Audifonos Bluetooth Ambie 1
@@ -180,7 +181,7 @@
     Balaca Gamer G-2600 Amarillocamuflado 0
     Balaca Gamer G-2600 Negro 0
     Balaca Ipega Militar 0
-    Balaca Naisu S-437 Negro 1
+    Balaca Naisu S-437 Negro 0
     Balaca Naisu S-437 Rojo 1
     Balaca Naisu S-437 Verde 0
     Balaca Pantalla Azul 0
@@ -483,7 +484,7 @@
     Cargador Inversor 12V a 110V 1
     Cargador MagSafe 0
     Cargador Maxday Carga Pilas Universal 1
-    Cargador Microsoft Carga Y Juega Xbox 360 3
+    Cargador Microsoft Carga Y Juega Xbox 360 2
     Cargador Motorola 50W Solo Cabeza 0
     Cargador Motorola 67W Solo Cabeza 1
     Cargador Motorola Tc A Tc 30W 1
@@ -638,6 +639,7 @@
     Estetica Ondas de Sirena 0
     Extension 4m 0
     Extensión 6M 2
+    Flash Ligth Celular AY-83 Rgb 0
     Flex De Carga Apple Iphone X 0
     Flex De Power Huawei Mate 20 Lite 0
     Flex De Power Samsung A02 1
@@ -1607,8 +1609,7 @@
     Forro Space Samsung S9 0
     Forro Space Samsung S9 Plus 0
     Forro Space Tecno Camon 18P 2
-    Forro Space Tecno Camon 30S Pro 0
-    Forro Space Tecno Camon 30s 1
+    Forro Space Tecno Camon 30S / 30S Pro 2
     Forro Space Tecno Camon 40 Pro 1
     Forro Space Tecno Pova 4 0
     Forro Space Tecno Pova 5 2
@@ -1655,7 +1656,7 @@
     Forro Space Xiaomi Redmi 10 Rosa 1
     Forro Space Xiaomi Redmi 10C 0
     Forro Space Xiaomi Redmi 12 2
-    Forro Space Xiaomi Redmi 12 Verde 1
+    Forro Space Xiaomi Redmi 12 Verde 0
     Forro Space Xiaomi Redmi 12C 2
     Forro Space Xiaomi Redmi 13 2
     Forro Space Xiaomi Redmi 13C 2
@@ -1745,6 +1746,7 @@
     Hydrogel Matte Huawei Honor Magic 7 Lite 0
     Hydrogel Matte Infinix Note 40 Pro 0
     Hydrogel Matte Iphone 12 0
+    Hydrogel Matte Tcl Note 50 Nextpaper 0
     Hydrogel Motorola Moto Edge 50 Fusion 0
     Hydrogel Motorola Moto Edge 60 Fusion 0
     Hydrogel Motorola Moto G85 0
@@ -2030,6 +2032,8 @@
     Mouse Gamer Eco X1 1
     Mouse Gamer G-930 0
     Mouse Gamer Inalambrico Eco 1
+    Mouse Gamer X3 0
+    Mouse Gamer X7 0
     Mouse Gamer Xmg-02 Inalambrico 1
     Mouse Gamer Yoyos H-01 0
     Mouse Genius Dx-101 Cbl 0
@@ -2088,7 +2092,7 @@
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
     Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12, 0
     Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S 1
-    Pacha Motorola Moto Edge 50 Fusion 0
+    Pacha Motorola Moto Edge 50 Fusion 1
     Pacha Motorola Moto G04 / G24 0
     Pacha Motorola Moto G05 / G15 1
     Pacha Motorola Moto G13 / G23 1
@@ -2202,7 +2206,7 @@
     Pacha Tecnoc Pova 4 / Neo 2 1
     Pacha Vivo V21 Amoled 0
     Pacha Vivo Y11s / Y20s 1
-    Pacha Vivo Y17s / Y22s 2
+    Pacha Vivo Y17s / Y22s 1
     Pacha Vivo Y21 / Y21S 0
     Pacha Vivo Y27 5G 2
     Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 2
@@ -2217,6 +2221,7 @@
     Pacha Xiaomi Redmi 13C 0
     Pacha Xiaomi Redmi 14C 1
     Pacha Xiaomi Redmi 14C / Redmi A4 1
+    Pacha Xiaomi Redmi 14C C/m 0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 1
     Pacha Xiaomi Redmi 9 2
     Pacha Xiaomi Redmi 9A / 9C / 10A 1
@@ -2373,7 +2378,7 @@
     Recarga 6500 8
     Recarga 7500 97
     Recarga 8500 99
-    Recargas 72
+    Recargas 71
     Reloj Digital Led 0
     Reproductor Alexa Reloj 0
     Reproductor Amazon Fire Tv Stick Hd 1
@@ -2538,6 +2543,7 @@
     Servicio Tecnico Tecno Pegar Pantalla Camon 18P 0
     Servicio Tecnico Tecno Pegar Pantalla Go 2024 0
     Servicio Tecnico Tecno Pin de Carga Go 2024 0
+    Servicio Tecnico Tecno Pin de Carga Tc Spark 10 Pro 0
     Servicio Tecnico Tecno Reparacion Logica Spark Go 2024 0
     Servicio Tecnico Tecno Revision Audio Go 2022 0
     Servicio Tecnico Tg Despegar Bateria Tableta 0
@@ -2577,6 +2583,7 @@
     Servicio Tecnico Zte Pin de carga Blade A5 2020 0
     ServicioTecnico Huawei Desdoblar Honor X6s 0
     Silcione Case Xiaomi Redmi 13 Rojo 0
+    Silicone Case Apple IPhone 16E Rojo 0
     Silicone Case Apple IPhone 16e Azulclaro 1
     Silicone Case Apple IPhone 16e Fucsia 0
     Silicone Case Apple IPhone 16e Lila 0
@@ -2841,7 +2848,7 @@
     Silicone Case Huawei Honor X7 Fucsia 0
     Silicone Case Huawei Honor X7 Lila 1
     Silicone Case Huawei Honor X7 Morado 0
-    Silicone Case Huawei Honor X7 Negro 1
+    Silicone Case Huawei Honor X7 Negro 0
     Silicone Case Huawei Honor X7 Palo Rosa 1
     Silicone Case Huawei Honor X7 Rojo 0
     Silicone Case Huawei Honor X7 Rosa 1
@@ -3130,7 +3137,7 @@
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 1
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 1
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 0
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 2
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 1
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 0
@@ -3289,7 +3296,7 @@
     Silicone Case Oppo A5 Negro 1
     Silicone Case Oppo A5 Pro 4G / 5G Amarillo 1
     Silicone Case Oppo A5 Pro 4G / 5G Azulrey 0
-    Silicone Case Oppo A5 Pro 4G / 5G Fucsia 1
+    Silicone Case Oppo A5 Pro 4G / 5G Fucsia 0
     Silicone Case Oppo A5 Pro 4G / 5G Lila 1
     Silicone Case Oppo A5 Pro 4G / 5G Morado 1
     Silicone Case Oppo A5 Pro 4G / 5G Rojo 1
@@ -3609,6 +3616,7 @@
     Silicone Case Samsung A26 Rojo 1
     Silicone Case Samsung A26 Verde Biche 1
     Silicone Case Samsung A30S / A50 Lila 0
+    Silicone Case Samsung A30S / A50 Negro 0
     Silicone Case Samsung A30S / A50 Rojo 0
     Silicone Case Samsung A30S Fucsia 1
     Silicone Case Samsung A31 Amarillo 1
@@ -4432,7 +4440,7 @@
     Silicone Case Zte Blade A54 Negro 0
     Silicone Case Zte Blade A54 Rojo 2
     Silicone Motorola Moto G8 Power Lite Rojo 0
-    Simcard Claro 3
+    Simcard Claro 1
     Simcard Movistar 0
     Simcard Tigo 3
     Simcard Virgin 5
@@ -4528,6 +4536,8 @@
     Tapa Samsung A31 Azul 1
     Tapa Samsung A31 Negro 1
     Tapa Samsung A32 5G Negro 0
+    Tapa Samsung A32 Azul 0
+    Tapa Samsung A32 Negro 0
     Tapa Tecno Spark 10 Pro Azul 0
     Tapa Tecno Spark 20 Negro 0
     Tapa Xiaomi Mi 11T Azul 0
@@ -4637,6 +4647,7 @@
     Vidrio 5D Huawei Y7 Prime 1
     Vidrio 5D Huawei Y9 Prime 3
     Vidrio 5D Iphone 12 / 12 Pro 4
+    Vidrio 5D Lg Q60 4
     Vidrio 5D Mate Samsung A22 4G / A31 / A32 4G 2
     Vidrio 5D Matte Samsung A22 4G / A31 / A32 4G 0
     Vidrio 5D Motorola Moto E13 4

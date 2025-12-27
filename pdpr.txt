@@ -4,10 +4,6 @@
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1
     Audifonos Bluetooth M25 2
-    Aro de Luz Celular 2 ok
-    Flash Ligth Celular AY-83 Rgb 1 ok
-    Mouse Gamer X7 1 ok
-    Mouse Gamer X3 1 ok
     Balaca Gamer A65 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
@@ -22,14 +18,11 @@
     Cargador Pc Lenovo 65W Plug 1
     Consola Sup Con Control Rojo 1
     Control Gamer Gatillos W11+ 3
-    Control Gamer X3 2 ok
     Control Gamer Sony Ps2 Inalambrico 2
     Control Tv Universal 3
     Estabilizador 1800w 1
     Estetica Cepillo Secador Giratorio 1
-    Estetica Cepillo Secador Remington Aguacate 2 ok
     Estetica Cepillo Secador Remington Keratina 1
-    Estetica Ondas de Sirena 1 ok
     Extension 4m 1
     Forro Pc 16 Pulgadas 2
     Lonchera Carro 1
@@ -42,6 +35,7 @@
     Pila Control 23A 5
     Pila Reloj Cr-2032 5
     Pilas Carbon Maxday Aaa X2 30
+    Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd 2
     Reproductor Tdt Beck Paly 3
@@ -55,6 +49,5 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Tableta Tigers Kids Rosa 1
-    Teclado Gamer Cmk-198 2 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

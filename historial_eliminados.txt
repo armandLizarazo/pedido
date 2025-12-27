@@ -10335,3 +10335,67 @@ Fecha de proceso: 2025-12-23 13:20:51
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-26 13:28:55
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 10
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   92 | Forro Space Xiaomi Redmi Note 11 Pro 5G 2 ok
+   93 | Forro Space Xiaomi Redmi Note 14 Pro 4G 2 ok
+   97 | Manos Libres Samsung Akg 5 ok
+  106 | Silicone Case Apple IPhone 16E Rojo 1 ok
+  110 | Silicone Case Apple Iphone 12 Gris 1 ok
+  120 | Silicone Case Huawei Honor X7 Fucsia 1 ok
+  149 | Silicone Case Oppo A54 Rojo 1 ok
+  150 | Silicone Case Oppo A57 / A77 Morado 1 ok
+  209 | Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1 ok
+  216 | Silicone Case Xiaomi Redmi Note 9 Negro 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-26 13:28:55
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    7 | Aro de Luz Celular 2 ok
+    8 | Flash Ligth Celular AY-83 Rgb 1 ok
+    9 | Mouse Gamer X7 1 ok
+   10 | Mouse Gamer X3 1 ok
+   25 | Control Gamer X3 2 ok
+   30 | Estetica Cepillo Secador Remington Aguacate 2 ok
+   32 | Estetica Ondas de Sirena 1 ok
+   58 | Teclado Gamer Cmk-198 2 ok
+
+==================================================
+Fecha de proceso: 2025-12-26 13:28:55
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 13
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Logica de Carga Tecno Spark Go 2024 1 ok
+    3 | Pacha Motorola Moto Edge 50 Fusion 1 ok
+    4 | Pacha Samsung A15 1 ok
+    5 | Pacha Samsung A22 5G 2 ok
+    6 | Pacha Samsung A30s C/m 1 ok
+    7 | Pacha Samsung A32 C/m 1 ok
+    8 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+    9 | Pacha Vivo Y31 / Y33s / Y51 / Y53S 1 ok
+   10 | Pacha Xiaomi Redmi 13C 3 ok
+   11 | Pacha Xiaomi Redmi Note 12 1 ok
+   12 | Porta Visores Camaras Samsung A32 1 ok
+   13 | Tapa Samsung A32 Negro 1 ok
+   14 | Tapa Samsung A32 Azul 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-26 13:28:55
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
