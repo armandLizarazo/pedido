@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Facturación Web</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f4f4f9;
+        padding: 20px;
+      }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        text-align: center;
+        color: #333;
+      }
+
+      /* Estilos del Formulario */
+      .input-group {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+      }
+      input {
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        flex: 1;
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+      }
+      .btn-add {
+        background-color: #28a745;
+      }
+      .btn-add:hover {
+        background-color: #218838;
+      }
+      .btn-clear {
+        background-color: #dc3545;
+      }
+
+      /* Estilos de la Tabla */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+      th {
+        background-color: #f8f9fa;
+        font-weight: bold;
+      }
+      .text-right {
+        text-align: right;
+      }
+
+      /* Estilos del Total */
+      .total-section {
+        margin-top: 20px;
+        text-align: right;
+        font-size: 1.2em;
+        padding-top: 10px;
+        border-top: 2px solid #eee;
+      }
+      .total-amount {
+        color: #28a745;
+        font-weight: bold;
+        font-size: 1.5em;
+      }
+
+      .delete-btn {
+        color: red;
+        cursor: pointer;
+        font-weight: bold;
+        border: none;
+        background: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Generador de Factura</h2>
+
+      <div class="input-group">
+        <input type="text" id="ref" placeholder="Referencia / Producto" />
+        <input
+          type="number"
+          id="cant"
+          placeholder="Cantidad"
+          style="flex: 0 0 100px"
+        />
+        <input
+          type="number"
+          id="val"
+          placeholder="Valor Unitario"
+          style="flex: 0 0 150px"
+        />
+        <button class="btn-add" onclick="agregarItem()">Agregar (+)</button>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Referencia</th>
+            <th class="text-right">Cant.</th>
+            <th class="text-right">Unitario</th>
+            <th class="text-right">Subtotal</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody id="tabla-body"></tbody>
+      </table>
+
+      <div class="total-section">
+        Total General: <span class="total-amount" id="total-general">$0</span>
+      </div>
+
+      <div style="margin-top: 20px; text-align: right">
+        <button class="btn-clear" onclick="limpiarTodo()">Nueva Factura</button>
+      </div>
+    </div>
+
+    <script>
+      let totalGeneral = 0;
+
+      function agregarItem() {
+        // Obtener valores
+        const ref = document.getElementById("ref").value;
+        const cant = parseFloat(document.getElementById("cant").value);
+        const val = parseFloat(document.getElementById("val").value);
+
+        // Validación simple
+        if (!ref || isNaN(cant) || isNaN(val)) {
+          alert("Por favor completa todos los campos correctamente.");
+          return;
+        }
+
+        const subtotal = cant * val;
+        totalGeneral += subtotal;
+
+        // Crear fila en la tabla
+        const tbody = document.getElementById("tabla-body");
+        const row = document.createElement("tr");
+
+        row.innerHTML = `
+            <td>${ref}</td>
+            <td class="text-right">${cant}</td>
+            <td class="text-right">${formatoMoneda(val)}</td>
+            <td class="text-right">${formatoMoneda(subtotal)}</td>
+            <td><button class="delete-btn" onclick="borrarItem(this, ${subtotal})">X</button></td>
+        `;
+
+        tbody.appendChild(row);
+
+        // Actualizar total y limpiar inputs
+        actualizarTotalDisplay();
+        document.getElementById("ref").value = "";
+        document.getElementById("cant").value = "";
+        document.getElementById("val").value = "";
+        document.getElementById("ref").focus();
+      }
+
+      function borrarItem(btn, subtotalRestar) {
+        const row = btn.parentNode.parentNode;
+        row.parentNode.removeChild(row);
+        totalGeneral -= subtotalRestar;
+        actualizarTotalDisplay();
+      }
+
+      function actualizarTotalDisplay() {
+        document.getElementById("total-general").innerText =
+          formatoMoneda(totalGeneral);
+      }
+
+      function limpiarTodo() {
+        if (confirm("¿Borrar toda la factura?")) {
+          document.getElementById("tabla-body").innerHTML = "";
+          totalGeneral = 0;
+          actualizarTotalDisplay();
+        }
+      }
+
+      function formatoMoneda(numero) {
+        return new Intl.NumberFormat("es-CO", {
+          style: "currency",
+          currency: "COP",
+          minimumFractionDigits: 0,
+        }).format(numero);
+      }
+    </script>
+  </body>
+</html>

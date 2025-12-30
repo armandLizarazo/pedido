@@ -10399,3 +10399,54 @@ Fecha de proceso: 2025-12-26 13:28:55
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2025-12-27 14:23:02
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   12 | Cable Belkin Tc 5 ok
+   13 | Cable Motorola Tc 5 ok
+   16 | Cable V8 Eco 2 ok
+   18 | Cargador Apple 20W Con Cable 2 ok
+   19 | Cargador Apple 25W Con Cable 3 ok
+  113 | Silicone Case Apple Iphone Xr Rosa 1 ok
+  125 | Silicone Case Infinix Hot 60 / Hot 60I Amarillo 1 ok
+  132 | Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 1 ok
+  157 | Silicone Case Samsung A05 Azulrey 1 ok
+  162 | Silicone Case Samsung A35 Rosa 1 ok
+  163 | Silicone Case Samsung A52 Lila 1  ok
+  212 | Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Morado 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-27 14:23:02
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   38 | Proyector Hy-300 2 Ram 2 ok
+
+==================================================
+Fecha de proceso: 2025-12-27 14:23:02
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 5
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Pacha Motorola Moto Edge 50 Fusion 1 ok
+    3 | Pacha Vivo Y17s / Y22s 1 ok
+    4 | Pacha Vivo Y31 / Y33s / Y51 / Y53S 2 ok
+    5 | Pacha Xiaomi Redmi 14C C/m 1 ok
+    6 | Pacha Oppo A16 1 ok
+
+==================================================
+Fecha de proceso: 2025-12-27 14:23:02
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

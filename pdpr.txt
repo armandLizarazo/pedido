@@ -1,14 +1,18 @@
+    Adaptador Av2Hdmi 2
     Adaptador Dpp2Vga 2
     Adaptador Europeo Redondo 5
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1
     Audifonos Bluetooth M25 2
+    Audifonos Bluetooth Pro 5S Negro 2
     Balaca Gamer A65 1
+    Cable 3 a 1 Video Compuesto 2
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
+    Cable Lan 5M Cat 6 2
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
@@ -19,7 +23,7 @@
     Consola Sup Con Control Rojo 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Sony Ps2 Inalambrico 2
-    Control Tv Universal 3
+    Control Tv Universal 8
     Estabilizador 1800w 1
     Estetica Cepillo Secador Giratorio 1
     Estetica Cepillo Secador Remington Keratina 1
@@ -28,6 +32,7 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
+    Mouse Gamer X3 2
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
@@ -35,7 +40,6 @@
     Pila Control 23A 5
     Pila Reloj Cr-2032 5
     Pilas Carbon Maxday Aaa X2 30
-    Proyector Hy-300 2 Ram 2 ok
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd 2
     Reproductor Tdt Beck Paly 3
@@ -49,5 +53,6 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Tableta Tigers Kids Rosa 1
+    Telefono Fijo Panaphone Kx-T806 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

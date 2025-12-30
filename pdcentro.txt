@@ -1,4 +1,3 @@
-no    Audifonos Bluetooth Airpods Pro 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
@@ -9,14 +8,9 @@ no    Audifonos Bluetooth Airpods Pro 1
     Cable Apple Iphone 4 3
     Cable Apple Usb Ligthning 2M 5
     Cable Auxiliar 1 A 1 Eco 5
-    Cable Belkin Tc 5 ok
-    Cable Motorola Tc 5 ok
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 5
-    Cable V8 Eco 2 ok
     Cable Yoyos Tc 3M 3
-    Cargador Apple 20W Con Cable 2 ok
-    Cargador Apple 25W Con Cable 3 ok
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
@@ -76,6 +70,7 @@ no    Audifonos Bluetooth Airpods Pro 1
     Forro Space Huawei Honor 400 Smart 2
     Forro Space Huawei Y9A 2
     Forro Space Motorola Moto G50 1
+    Forro Space Motorola Moto G72 1
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C53 / Note 50 2
@@ -94,6 +89,7 @@ no    Audifonos Bluetooth Airpods Pro 1
     Manos Libres Batri B10 Lila 2
     Manos Libres Knz Tc 2
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
+    Manos Libres We Tc 1
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
     Mouse Jertech Jr-1 Rojo 1
@@ -110,11 +106,11 @@ no    Audifonos Bluetooth Airpods Pro 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
-    Silicone Case Apple Iphone Xr Rosa 1 ok
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Apple Iphone Xs Max Negro 1
     Silicone Case Huawei Honor X7 Negro 1
     Silicone Case Huawei Honor X7 Rojo 1
+    Silicone Case Huawei Honor X8B Lila 1
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
     Silicone Case Huawei Y7 2019 Rojo 1
@@ -122,14 +118,12 @@ no    Audifonos Bluetooth Airpods Pro 1
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9A Amarillo 1
-    Silicone Case Infinix Hot 60 / Hot 60I Amarillo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
     Silicone Case Lg K51s Negro 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 2
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 1 ok
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G13 / G23 Negro 1
     Silicone Case Motorola Moto G15 Amarillo 1
@@ -151,16 +145,16 @@ no    Audifonos Bluetooth Airpods Pro 1
     Silicone Case Oppo Realme C75 Amarillo 1
     Silicone Case Oppo Realme C75 Fucsia 1
     Silicone Case Oppo Reno 11F Fucsia 1
+    Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A05 Azulrey 1 ok
+    Silicone Case Samsung A06 Azulrey 1
     Silicone Case Samsung A10 Blanco 1
+    Silicone Case Samsung A21S Negro 1
     Silicone Case Samsung A22 5G Negro 1
     Silicone Case Samsung A24 Negro 1
     Silicone Case Samsung A30S / A50 Negro 1
-    Silicone Case Samsung A35 Rosa 1 ok
-    Silicone Case Samsung A52 Lila 1  ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
@@ -178,6 +172,7 @@ no    Audifonos Bluetooth Airpods Pro 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
     Silicone Case Tecno Camon 40 Rojo 1
     Silicone Case Tecno Pova 4 Lila 1
+    Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 4G Rosa 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark Go 2025 / Go 1 Lila 1
@@ -197,19 +192,23 @@ no    Audifonos Bluetooth Airpods Pro 1
     Silicone Case Vivo Y27 Negro 1
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T Verde 1
+    Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 12 Fucsia 1
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
     Silicone Case Xiaomi Redmi Note 12S Rosa 1
+    Silicone Case Xiaomi Redmi Note 13 4G Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
+    Silicone Case Xiaomi Redmi Note 14 4G Morado 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Morado 1 ok
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1

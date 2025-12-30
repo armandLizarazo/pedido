@@ -1108,17 +1108,24 @@ class InventarioGUI:
         self.inventario_tab = ttk.Frame(self.notebook, padding="10")
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
         self.caja_tab = ttk.Frame(self.notebook, padding="10")
-        self.prestamos_tab = ttk.Frame(self.notebook, padding="10")  # Nueva pestaña
+        self.prestamos_tab = ttk.Frame(self.notebook, padding="10")
+        self.consultas_tab = ttk.Frame(
+            self.notebook, padding="10"
+        )  # Nueva pestaña Consultas
 
         self.notebook.add(self.inventario_tab, text="Gestión de Inventario")
         self.notebook.add(self.ventas_tab, text="Ventas y Análisis")
         self.notebook.add(self.caja_tab, text="Cuadre de Caja")
         self.notebook.add(self.prestamos_tab, text="Gestión de Préstamos")
+        self.notebook.add(
+            self.consultas_tab, text="Consultas Avanzadas"
+        )  # Añadir al notebook
 
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
         self.crear_widgets_caja()
         self.crear_widgets_prestamos()
+        self.crear_widgets_consultas()  # Crear widgets de consultas
 
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
@@ -1131,6 +1138,421 @@ class InventarioGUI:
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
+
+        # New sort variables for cons_tree
+        self.cons_last_sort_col = None
+        self.cons_last_sort_reverse = False
+
+    # --- NUEVA PESTAÑA DE CONSULTAS ---
+    def crear_widgets_consultas(self):
+        # Frame principal
+        main_frame = ttk.Frame(self.consultas_tab, padding="10")
+        main_frame.pack(fill=tk.BOTH, expand=True)
+
+        # --- Filtros ---
+        filter_frame = ttk.LabelFrame(
+            main_frame, text="Filtros de Análisis", padding="10"
+        )
+        filter_frame.pack(fill=tk.X, pady=(0, 10))
+
+        # Fila 1: Fechas
+        f_row1 = ttk.Frame(filter_frame)
+        f_row1.pack(fill=tk.X, pady=2)
+
+        ttk.Label(f_row1, text="Desde:").pack(side=tk.LEFT)
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_desde = DateEntry(
+                f_row1,
+                width=12,
+                background="darkblue",
+                foreground="white",
+                borderwidth=2,
+                date_pattern="y-mm-dd",
+            )
+            self.cons_fecha_desde.set_date(
+                datetime.now().replace(day=1)
+            )  # Por defecto inicio de mes
+        else:
+            self.cons_fecha_desde = ttk.Entry(f_row1, width=12)
+            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
+        self.cons_fecha_desde.pack(side=tk.LEFT, padx=5)
+
+        ttk.Label(f_row1, text="Hasta:").pack(side=tk.LEFT)
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_hasta = DateEntry(
+                f_row1,
+                width=12,
+                background="darkblue",
+                foreground="white",
+                borderwidth=2,
+                date_pattern="y-mm-dd",
+            )
+            self.cons_fecha_hasta.set_date(datetime.now())
+        else:
+            self.cons_fecha_hasta = ttk.Entry(f_row1, width=12)
+            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
+        self.cons_fecha_hasta.pack(side=tk.LEFT, padx=5)
+
+        # Fila 2: Texto
+        f_row2 = ttk.Frame(filter_frame)
+        f_row2.pack(fill=tk.X, pady=2)
+        ttk.Label(f_row2, text="Palabra Clave (Global):").pack(side=tk.LEFT)
+        self.cons_entry_keyword = ttk.Entry(f_row2, width=40)
+        self.cons_entry_keyword.pack(side=tk.LEFT, padx=5)
+
+        # Fila 3: Sub-filtros
+        f_row3 = ttk.Frame(filter_frame)
+        f_row3.pack(fill=tk.X, pady=5)
+
+        ttk.Label(f_row3, text="Producto:").pack(side=tk.LEFT)
+        self.cons_entry_prod = ttk.Entry(f_row3, width=20)
+        self.cons_entry_prod.pack(side=tk.LEFT, padx=(5, 15))
+
+        ttk.Label(f_row3, text="Cliente:").pack(side=tk.LEFT)
+        self.cons_entry_client = ttk.Entry(f_row3, width=20)
+        self.cons_entry_client.pack(side=tk.LEFT, padx=(5, 15))
+
+        ttk.Label(f_row3, text="Medio Pago:").pack(side=tk.LEFT)
+        self.cons_entry_payment = ttk.Entry(f_row3, width=15)
+        self.cons_entry_payment.pack(side=tk.LEFT, padx=5)
+
+        # Botones
+        btn_frame = ttk.Frame(filter_frame)
+        btn_frame.pack(fill=tk.X, pady=5)
+        ttk.Button(
+            btn_frame, text="Ejecutar Análisis", command=self.ejecutar_consulta_analisis
+        ).pack(side=tk.LEFT, padx=10)
+        ttk.Button(
+            btn_frame, text="Limpiar Filtros", command=self.limpiar_filtros_consulta
+        ).pack(side=tk.LEFT)
+
+        # --- Resumen Estadístico ---
+        stats_frame = ttk.LabelFrame(
+            main_frame, text="Resumen de Resultados", padding="10"
+        )
+        stats_frame.pack(fill=tk.X, pady=(0, 10))
+
+        # Variables para labels
+        self.var_total_ventas = tk.StringVar(value="$0.00")
+        self.var_total_costos = tk.StringVar(value="$0.00")
+        self.var_total_utilidad = tk.StringVar(value="$0.00")
+        self.var_margen = tk.StringVar(value="0.00%")
+        self.var_cantidad = tk.StringVar(value="0")
+        self.var_promedio_producto = tk.StringVar(value="$0.00")
+
+        # Grid de estadisticas
+        # Fila 1
+        ttk.Label(stats_frame, text="Ventas Totales:", font=("Helvetica", 10)).grid(
+            row=0, column=0, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_ventas,
+            font=("Helvetica", 10, "bold"),
+            foreground="blue",
+        ).grid(row=0, column=1, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Costos Totales:", font=("Helvetica", 10)).grid(
+            row=0, column=2, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_costos,
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=0, column=3, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Utilidad Neta:", font=("Helvetica", 10)).grid(
+            row=0, column=4, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_utilidad,
+            font=("Helvetica", 10, "bold"),
+            foreground="green",
+        ).grid(row=0, column=5, sticky="w", padx=5)
+
+        # Fila 2
+        ttk.Label(stats_frame, text="Unidades Vendidas:", font=("Helvetica", 10)).grid(
+            row=1, column=0, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame, textvariable=self.var_cantidad, font=("Helvetica", 10, "bold")
+        ).grid(row=1, column=1, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Ticket Promedio:", font=("Helvetica", 10)).grid(
+            row=1, column=2, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_promedio_producto,
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=1, column=3, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Margen (%):", font=("Helvetica", 10)).grid(
+            row=1, column=4, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame, textvariable=self.var_margen, font=("Helvetica", 10, "bold")
+        ).grid(row=1, column=5, sticky="w", padx=5)
+
+        # --- Tabla de Resultados ---
+        tree_frame = ttk.Frame(main_frame)
+        tree_frame.pack(fill=tk.BOTH, expand=True)
+
+        cols = (
+            "Fecha",
+            "Producto",
+            "Cliente",
+            "Cant",
+            "Costo U",
+            "Precio U",
+            "Total",
+            "Utilidad",
+            "Medio Pago",
+        )
+        self.cons_tree = ttk.Treeview(tree_frame, columns=cols, show="headings")
+
+        self.cons_tree.heading(
+            "Fecha",
+            text="Fecha",
+            command=lambda: self.sort_cons_tree_by_column("Fecha"),
+        )
+        self.cons_tree.heading(
+            "Producto",
+            text="Producto",
+            command=lambda: self.sort_cons_tree_by_column("Producto"),
+        )
+        self.cons_tree.heading(
+            "Cliente",
+            text="Cliente",
+            command=lambda: self.sort_cons_tree_by_column("Cliente"),
+        )
+        self.cons_tree.heading(
+            "Cant", text="Cant", command=lambda: self.sort_cons_tree_by_column("Cant")
+        )
+        self.cons_tree.heading(
+            "Costo U",
+            text="Costo U",
+            command=lambda: self.sort_cons_tree_by_column("Costo U"),
+        )
+        self.cons_tree.heading(
+            "Precio U",
+            text="Precio U",
+            command=lambda: self.sort_cons_tree_by_column("Precio U"),
+        )
+        self.cons_tree.heading(
+            "Total",
+            text="Total",
+            command=lambda: self.sort_cons_tree_by_column("Total"),
+        )
+        self.cons_tree.heading(
+            "Utilidad",
+            text="Utilidad",
+            command=lambda: self.sort_cons_tree_by_column("Utilidad"),
+        )
+        self.cons_tree.heading(
+            "Medio Pago",
+            text="Medio Pago",
+            command=lambda: self.sort_cons_tree_by_column("Medio Pago"),
+        )
+
+        self.cons_tree.column("Fecha", width=120)
+        self.cons_tree.column("Producto", width=200)
+        self.cons_tree.column("Cliente", width=120)
+        self.cons_tree.column("Cant", width=50, anchor="center")
+        self.cons_tree.column("Costo U", width=80, anchor="e")
+        self.cons_tree.column("Precio U", width=80, anchor="e")
+        self.cons_tree.column("Total", width=80, anchor="e")
+        self.cons_tree.column("Utilidad", width=80, anchor="e")
+        self.cons_tree.column("Medio Pago", width=100)
+
+        sb = ttk.Scrollbar(tree_frame, orient=tk.VERTICAL, command=self.cons_tree.yview)
+        self.cons_tree.configure(yscrollcommand=sb.set)
+
+        self.cons_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        sb.pack(side=tk.RIGHT, fill=tk.Y)
+
+    def sort_cons_tree_by_column(self, col):
+        data = [
+            (self.cons_tree.set(child, col), child)
+            for child in self.cons_tree.get_children("")
+        ]
+
+        # Check column type
+        # Numeric columns: Cant, Costo U, Precio U, Total, Utilidad
+        # Date: Fecha
+        # String: Producto, Cliente, Medio Pago
+
+        is_numeric = col in ("Cant", "Costo U", "Precio U", "Total", "Utilidad")
+        is_date = col == "Fecha"
+
+        try:
+            if is_numeric:
+                # Remove currency symbols and parse float
+                data.sort(
+                    key=lambda t: float(t[0].replace("$", "").replace(",", "")),
+                    reverse=self.cons_last_sort_reverse,
+                )
+            elif is_date:
+                data.sort(
+                    key=lambda t: datetime.strptime(t[0], "%Y-%m-%d %H:%M:%S"),
+                    reverse=self.cons_last_sort_reverse,
+                )
+            else:
+                data.sort(
+                    key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse
+                )
+        except (ValueError, IndexError):
+            # Fallback to string sort
+            data.sort(key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse)
+
+        for index, (val, child) in enumerate(data):
+            self.cons_tree.move(child, "", index)
+
+        # Toggle sort direction
+        self.cons_last_sort_reverse = not self.cons_last_sort_reverse
+
+    def limpiar_filtros_consulta(self):
+        self.cons_entry_keyword.delete(0, tk.END)
+        self.cons_entry_prod.delete(0, tk.END)
+        self.cons_entry_client.delete(0, tk.END)
+        self.cons_entry_payment.delete(0, tk.END)
+
+        # Reset dates to defaults
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_desde.set_date(datetime.now().replace(day=1))
+            self.cons_fecha_hasta.set_date(datetime.now())
+        else:
+            self.cons_fecha_desde.delete(0, tk.END)
+            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
+            self.cons_fecha_hasta.delete(0, tk.END)
+            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
+
+        # Limpiar tabla y resets
+        for i in self.cons_tree.get_children():
+            self.cons_tree.delete(i)
+
+        self.var_total_ventas.set("$0.00")
+        self.var_total_costos.set("$0.00")
+        self.var_total_utilidad.set("$0.00")
+        self.var_margen.set("0.00%")
+        self.var_cantidad.set("0")
+        self.var_promedio_producto.set("$0.00")
+
+    def ejecutar_consulta_analisis(self):
+        # 1. Limpiar
+        for i in self.cons_tree.get_children():
+            self.cons_tree.delete(i)
+
+        # 2. Obtener datos
+        historial = self.gestor.leer_historial_ventas()
+
+        # 3. Filtros
+        desde_str = self.cons_fecha_desde.get()
+        hasta_str = self.cons_fecha_hasta.get()
+        keyword = self.cons_entry_keyword.get().lower().strip()
+        f_prod = self.cons_entry_prod.get().lower().strip()
+        f_client = self.cons_entry_client.get().lower().strip()
+        f_pay = self.cons_entry_payment.get().lower().strip()
+
+        # Variables para acumuladores
+        sum_ventas = 0.0
+        sum_costos = 0.0
+        sum_utilidad = 0.0
+        sum_cantidad = 0
+        count_trx = 0
+
+        for venta_original in historial:
+            venta = list(venta_original)
+            while len(venta) < 12:
+                venta.append("")
+
+            estado = venta[11]
+            if estado == "Anulada":
+                continue  # Ignorar anuladas
+
+            # Filtro fecha
+            try:
+                fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S").date()
+                f_desde = datetime.strptime(desde_str, "%Y-%m-%d").date()
+                f_hasta = datetime.strptime(hasta_str, "%Y-%m-%d").date()
+
+                if not (f_desde <= fecha_venta <= f_hasta):
+                    continue
+            except (ValueError, IndexError):
+                continue  # Fecha inválida
+
+            # Filtros de Texto
+            # Indices: 1=ID, 2=Prod, 9=Cliente, 10=MedioPago
+            id_v = venta[1].lower()
+            prod = venta[2].lower()
+            cli = venta[9].lower()
+            pay = venta[10].lower()
+
+            # Filtro Global
+            if keyword and not (keyword in id_v or keyword in prod or keyword in cli):
+                continue
+
+            # Sub-filtros específicos
+            if f_prod and f_prod not in prod:
+                continue
+            if f_client and f_client not in cli:
+                continue
+            if f_pay and f_pay not in pay:
+                continue
+
+            # --- Procesar datos numéricos ---
+            try:
+                cant = int(venta[3])
+                costo_u = float(venta[4])
+                precio_u = float(venta[5])
+                total_v = float(venta[6])
+                ganancia = float(venta[7])
+
+                sum_ventas += total_v
+                sum_utilidad += ganancia
+                sum_costos += total_v - ganancia  # Costo total de la venta
+                sum_cantidad += cant
+                count_trx += 1
+
+                # Insertar en tabla
+                self.cons_tree.insert(
+                    "",
+                    tk.END,
+                    values=(
+                        venta[0],  # Fecha
+                        venta[2],  # Prod
+                        venta[9],  # Cliente
+                        cant,
+                        f"${costo_u:,.2f}",
+                        f"${precio_u:,.2f}",
+                        f"${total_v:,.2f}",
+                        f"${ganancia:,.2f}",
+                        venta[10],  # Medio Pago
+                    ),
+                )
+
+            except (ValueError, IndexError):
+                continue
+
+        # 4. Actualizar Totales
+        self.var_total_ventas.set(f"${sum_ventas:,.2f}")
+        self.var_total_costos.set(f"${sum_costos:,.2f}")
+        self.var_total_utilidad.set(f"${sum_utilidad:,.2f}")
+        self.var_cantidad.set(str(sum_cantidad))
+
+        # Cálculos derivados
+        if sum_ventas > 0:
+            margen = (sum_utilidad / sum_ventas) * 100
+            self.var_margen.set(f"{margen:.2f}%")
+        else:
+            self.var_margen.set("0.00%")
+
+        if count_trx > 0:
+            promedio = sum_ventas / count_trx
+            self.var_promedio_producto.set(f"${promedio:,.2f}")
+        else:
+            self.var_promedio_producto.set("$0.00")
 
     def crear_widgets_inventario(self):
         top_frame = ttk.Frame(self.inventario_tab)
@@ -2329,7 +2751,309 @@ class InventarioGUI:
             conteo_btn_frame, text="Nuevo", command=self._limpiar_campos_conteo
         ).pack(side=tk.LEFT, expand=True, padx=2)
 
-    # --- NUEVA FUNCIONALIDAD: GESTIÓN DE PRÉSTAMOS ---
+    def _update_conteo_total(self, event=None):
+        total = 0.0
+        try:
+            for val, entry in self.conteo_entries.items():
+                cantidad = int(entry.get() or 0)
+                total += val * cantidad
+
+            monedas = float(self.conteo_monedas_entry.get() or 0)
+            total += monedas
+
+            self.conteo_total_label.config(text=f"Total Contado: ${total:,.2f}")
+            return total
+        except (ValueError, TypeError):
+            self.conteo_total_label.config(text="Total Contado: ¡Error!")
+            return None
+
+    def _populate_conteos_dropdown(self):
+        self.historial_conteos_data = self.gestor_caja.obtener_historial_conteos()
+        display_values = []
+        for row in self.historial_conteos_data:
+            try:
+                # row[0] = Timestamp, row[1] = Total
+                display_values.append(f"{row[0]} - ${float(row[1]):,.0f}")
+            except (ValueError, IndexError):
+                continue
+        self.historial_conteos_combo["values"] = display_values
+        if display_values:
+            self.historial_conteos_combo.set(display_values[0])
+
+    def _cargar_conteo_seleccionado(self):
+        selected_index = self.historial_conteos_combo.current()
+        if selected_index == -1:
+            messagebox.showwarning(
+                "Sin Selección",
+                "Por favor, seleccione un conteo del historial para cargar.",
+            )
+            return
+
+        try:
+            conteo_data = self.historial_conteos_data[selected_index]
+            detalle_str = conteo_data[
+                2
+            ]  # El string de detalle está en la tercera columna
+
+            self._limpiar_campos_conteo()
+
+            # Parsear el string de detalle
+            pares = detalle_str.split(", ")
+            for par in pares:
+                if "Monedas" in par:
+                    monto = float(re.search(r"[\d.]+", par.replace(",", "")).group())
+                    self.conteo_monedas_entry.insert(0, f"{monto:.0f}")
+                else:
+                    partes = par.split(":")
+                    denominacion_str = re.sub(r"[^\d]", "", partes[0])
+                    denominacion = int(denominacion_str)
+                    cantidad = int(partes[1].strip())
+                    if denominacion in self.conteo_entries:
+                        self.conteo_entries[denominacion].insert(0, str(cantidad))
+
+            self._update_conteo_total()
+            self.status_label_inv.config(text="Conteo histórico cargado.")
+
+        except (IndexError, ValueError, TypeError) as e:
+            messagebox.showerror(
+                "Error al Cargar",
+                f"No se pudo interpretar el conteo guardado.\nDetalle: {e}",
+            )
+
+    def _guardar_conteo_actual(self):
+        total = self._update_conteo_total()
+        if total is None:
+            messagebox.showerror(
+                "Error de Entrada",
+                "Verifique que todos los campos de conteo contengan solo números.",
+            )
+            return
+
+        detalle_dict = {}
+        for val, entry in self.conteo_entries.items():
+            cantidad = int(entry.get() or 0)
+            if cantidad > 0:
+                detalle_dict[val] = cantidad
+
+        monedas = float(self.conteo_monedas_entry.get() or 0)
+        if monedas > 0:
+            detalle_dict["Monedas"] = monedas
+
+        detalle_str = ", ".join(
+            [
+                f"${k:,.0f}: {v}" if k != "Monedas" else f"Monedas: ${v:,.2f}"
+                for k, v in detalle_dict.items()
+            ]
+        )
+
+        success, msg = self.gestor_caja.guardar_conteo_historial(total, detalle_str)
+        if success:
+            messagebox.showinfo("Éxito", "Conteo guardado en el historial.")
+            self._populate_conteos_dropdown()
+        else:
+            messagebox.showerror("Error al Guardar", msg)
+
+    def _limpiar_campos_conteo(self):
+        for entry in self.conteo_entries.values():
+            entry.delete(0, tk.END)
+        self.conteo_monedas_entry.delete(0, tk.END)
+        self._update_conteo_total()
+        self.status_label_inv.config(text="Campos de conteo limpiados.")
+
+    def _aplicar_conteo_a_cierre(self):
+        total = self._update_conteo_total()
+        if total is not None:
+            self.dinero_real_entry.config(state="normal")
+            self.dinero_real_entry.delete(0, tk.END)
+            self.dinero_real_entry.insert(0, f"{total:.2f}")
+            self.dinero_real_entry.config(state="readonly")
+            self.status_label_inv.config(text="Total del conteo aplicado al cierre.")
+        else:
+            messagebox.showerror(
+                "Error", "No se pudo calcular el total. Revise los campos."
+            )
+
+    def _eliminar_movimiento_seleccionado(self):
+        selected_item_id = self.mov_tree.focus()
+        if not selected_item_id:
+            messagebox.showwarning(
+                "Sin Selección",
+                "Por favor, seleccione un movimiento de la lista para eliminar.",
+            )
+            return
+
+        selected_values = self.mov_tree.item(selected_item_id, "values")
+        tipo_sel, desc_sel, monto_sel = selected_values
+        monto_sel_float = float(monto_sel.replace("$", "").replace(",", ""))
+
+        if not messagebox.askyesno(
+            "Confirmar Eliminación",
+            f"¿Está seguro de que desea eliminar el siguiente movimiento?\n\n{tipo_sel} - {desc_sel} - ${monto_sel_float:,.2f}",
+        ):
+            return
+
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        movimientos_hoy = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
+        timestamp_a_eliminar = None
+        for mov in movimientos_hoy:
+            if (
+                mov["Tipo"] == tipo_sel
+                and mov["Descripcion"] == desc_sel
+                and float(mov["Monto"]) == monto_sel_float
+            ):
+                timestamp_a_eliminar = mov["Timestamp"]
+                break
+
+        if timestamp_a_eliminar:
+            success, msg = self.gestor_caja.eliminar_movimiento(timestamp_a_eliminar)
+            if success:
+                messagebox.showinfo("Éxito", msg)
+                self.cargar_movimientos_hoy()
+                self.populate_prestamos_treeview()  # Actualizar préstamos por si acaso
+            else:
+                messagebox.showerror("Error", msg)
+        else:
+            messagebox.showerror(
+                "Error",
+                "No se pudo encontrar el movimiento exacto para eliminar. Intente refrescar la aplicación.",
+            )
+
+    def cargar_estado_caja(self):
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        datos_dia = self.gestor_caja.obtener_datos_dia(fecha_hoy)
+        if datos_dia:
+            self.caja_inicial_entry.insert(0, datos_dia["DineroInicial"])
+            self.caja_base_entry.insert(0, datos_dia["Base"])
+            self.caja_inicial_entry.config(state="disabled")
+            self.caja_base_entry.config(state="disabled")
+            self.btn_iniciar_dia.config(state="disabled")
+            self.cargar_movimientos_hoy()
+        else:
+            self.btn_registrar_mov.config(state="disabled")
+            self.btn_eliminar_mov.config(state="disabled")
+            self.btn_cerrar_caja.config(state="disabled")
+            self.btn_cuadre_parcial.config(state="disabled")
+
+    def iniciar_dia(self):
+        try:
+            dinero_inicial = float(self.caja_inicial_entry.get())
+            base = float(self.caja_base_entry.get())
+        except ValueError:
+            messagebox.showerror("Error", "Dinero inicial y base deben ser números.")
+            return
+        success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
+        if success:
+            self.conteo_actual_caja.clear()
+            self._limpiar_campos_conteo()
+            messagebox.showinfo("Éxito", msg)
+            self.caja_inicial_entry.config(state="disabled")
+            self.caja_base_entry.config(state="disabled")
+            self.btn_iniciar_dia.config(state="disabled")
+            self.btn_registrar_mov.config(state="normal")
+            self.btn_eliminar_mov.config(state="normal")
+            self.btn_cerrar_caja.config(state="normal")
+            self.btn_cuadre_parcial.config(state="normal")
+        else:
+            messagebox.showerror("Error", msg)
+
+    def registrar_movimiento(self):
+        tipo = self.mov_tipo_combo.get()
+        desc = self.mov_desc_entry.get()
+        monto = self.mov_monto_entry.get()
+        if not all([tipo, desc, monto]):
+            messagebox.showerror(
+                "Error", "Todos los campos de movimiento son obligatorios."
+            )
+            return
+        success, msg = self.gestor_caja.registrar_movimiento(tipo, desc, monto)
+        if success:
+            self.mov_desc_entry.delete(0, tk.END)
+            self.mov_monto_entry.delete(0, tk.END)
+            self.cargar_movimientos_hoy()
+            if tipo == "Préstamo/Retiro" or tipo == "Abono Préstamo":
+                self.populate_prestamos_treeview()
+        else:
+            messagebox.showerror("Error", msg)
+
+    def cargar_movimientos_hoy(self):
+        for i in self.mov_tree.get_children():
+            self.mov_tree.delete(i)
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        movimientos = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
+        for mov in movimientos:
+            monto = float(mov["Monto"])
+            self.mov_tree.insert(
+                "", tk.END, values=(mov["Tipo"], mov["Descripcion"], f"${monto:,.2f}")
+            )
+
+    def _ejecutar_logica_cuadre(self):
+        try:
+            dinero_real = float(self.dinero_real_entry.get() or 0)
+        except ValueError:
+            messagebox.showerror(
+                "Error",
+                "El valor de dinero real en caja es inválido. Use el panel de conteo para asignarlo.",
+            )
+            return None
+        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+        total_ventas_dia = self.gestor.obtener_ventas_del_dia(fecha_hoy)
+        pagos_electronicos = self.gestor.obtener_pagos_electronicos_del_dia(fecha_hoy)
+        self.pagos_electronicos_entry.config(state="normal")
+        self.pagos_electronicos_entry.delete(0, tk.END)
+        self.pagos_electronicos_entry.insert(0, f"{pagos_electronicos:.2f}")
+        self.pagos_electronicos_entry.config(state="readonly")
+        resumen, msg = self.gestor_caja.calcular_cuadre(
+            fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia
+        )
+        if resumen:
+            self.resumen_labels["total_ventas"]["var"].set(
+                f"${resumen['total_ventas']:,.2f}"
+            )
+            self.resumen_labels["total_movimientos"]["var"].set(
+                f"${resumen['total_movimientos']:,.2f}"
+            )
+            self.resumen_labels["efectivo_esperado"]["var"].set(
+                f"${resumen['efectivo_esperado']:,.2f}"
+            )
+            self.resumen_labels["dinero_real_caja"]["var"].set(
+                f"${resumen['dinero_real_caja']:,.2f}"
+            )
+            diferencia = resumen["diferencia"]
+            self.resumen_labels["diferencia"]["var"].set(f"${diferencia:,.2f}")
+            resumen_widget = self.resumen_labels["diferencia"]["widget"]
+            if diferencia < 0:
+                resumen_widget.config(foreground="red")
+            elif diferencia > 0:
+                resumen_widget.config(foreground="green")
+            else:
+                resumen_widget.config(foreground="black")
+            return resumen
+        else:
+            messagebox.showerror("Error", msg)
+            return None
+
+    def calcular_cuadre_parcial(self):
+        self._ejecutar_logica_cuadre()
+
+    def realizar_cuadre_final(self):
+        resumen = self._ejecutar_logica_cuadre()
+        if resumen:
+            if messagebox.askyesno(
+                "Confirmar Cierre",
+                "¿Está seguro de que desea cerrar la caja y guardar los resultados? Esta acción no se puede deshacer.",
+            ):
+                fecha_hoy = datetime.now().strftime("%Y-%m-%d")
+                success, msg = self.gestor_caja.cerrar_dia(fecha_hoy, resumen)
+                if success:
+                    messagebox.showinfo("Éxito", msg)
+                    self.btn_cerrar_caja.config(state="disabled")
+                    self.btn_cuadre_parcial.config(state="disabled")
+                    self.btn_registrar_mov.config(state="disabled")
+                    self.btn_eliminar_mov.config(state="disabled")
+                else:
+                    messagebox.showerror("Error al Guardar", msg)
+
+    # --- NUEVA FUNCIONALIDAD: GESTIÓN DE PRÉSTAMOS (Restaurada) ---
     def crear_widgets_prestamos(self):
         main_pane = ttk.PanedWindow(self.prestamos_tab, orient=tk.HORIZONTAL)
         main_pane.pack(fill=tk.BOTH, expand=True)
@@ -2527,309 +3251,416 @@ class InventarioGUI:
             monto_fmt = f"${float(mov['Monto']):,.2f}"
             tree.insert("", tk.END, values=(mov["Timestamp"], mov["Tipo"], monto_fmt))
 
-    # --- Métodos recuperados del corte anterior ---
+    # --- PESTAÑA DE CONSULTAS AVANZADAS ---
+    def crear_widgets_consultas(self):
+        # Frame principal
+        main_frame = ttk.Frame(self.consultas_tab, padding="10")
+        main_frame.pack(fill=tk.BOTH, expand=True)
 
-    def _update_conteo_total(self, event=None):
-        total = 0.0
+        # --- Filtros ---
+        filter_frame = ttk.LabelFrame(
+            main_frame, text="Filtros de Análisis", padding="10"
+        )
+        filter_frame.pack(fill=tk.X, pady=(0, 10))
+
+        # Fila 1: Fechas
+        f_row1 = ttk.Frame(filter_frame)
+        f_row1.pack(fill=tk.X, pady=2)
+
+        ttk.Label(f_row1, text="Desde:").pack(side=tk.LEFT)
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_desde = DateEntry(
+                f_row1,
+                width=12,
+                background="darkblue",
+                foreground="white",
+                borderwidth=2,
+                date_pattern="y-mm-dd",
+            )
+            self.cons_fecha_desde.set_date(
+                datetime.now().replace(day=1)
+            )  # Por defecto inicio de mes
+        else:
+            self.cons_fecha_desde = ttk.Entry(f_row1, width=12)
+            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
+        self.cons_fecha_desde.pack(side=tk.LEFT, padx=5)
+
+        ttk.Label(f_row1, text="Hasta:").pack(side=tk.LEFT)
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_hasta = DateEntry(
+                f_row1,
+                width=12,
+                background="darkblue",
+                foreground="white",
+                borderwidth=2,
+                date_pattern="y-mm-dd",
+            )
+            self.cons_fecha_hasta.set_date(datetime.now())
+        else:
+            self.cons_fecha_hasta = ttk.Entry(f_row1, width=12)
+            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
+        self.cons_fecha_hasta.pack(side=tk.LEFT, padx=5)
+
+        # Fila 2: Texto
+        f_row2 = ttk.Frame(filter_frame)
+        f_row2.pack(fill=tk.X, pady=2)
+        ttk.Label(f_row2, text="Palabra Clave (Global):").pack(side=tk.LEFT)
+        self.cons_entry_keyword = ttk.Entry(f_row2, width=40)
+        self.cons_entry_keyword.pack(side=tk.LEFT, padx=5)
+
+        # Fila 3: Sub-filtros
+        f_row3 = ttk.Frame(filter_frame)
+        f_row3.pack(fill=tk.X, pady=5)
+
+        ttk.Label(f_row3, text="Producto:").pack(side=tk.LEFT)
+        self.cons_entry_prod = ttk.Entry(f_row3, width=20)
+        self.cons_entry_prod.pack(side=tk.LEFT, padx=(5, 15))
+
+        ttk.Label(f_row3, text="Cliente:").pack(side=tk.LEFT)
+        self.cons_entry_client = ttk.Entry(f_row3, width=20)
+        self.cons_entry_client.pack(side=tk.LEFT, padx=(5, 15))
+
+        ttk.Label(f_row3, text="Medio Pago:").pack(side=tk.LEFT)
+        self.cons_entry_payment = ttk.Entry(f_row3, width=15)
+        self.cons_entry_payment.pack(side=tk.LEFT, padx=5)
+
+        # Botones
+        btn_frame = ttk.Frame(filter_frame)
+        btn_frame.pack(fill=tk.X, pady=5)
+        ttk.Button(
+            btn_frame, text="Ejecutar Análisis", command=self.ejecutar_consulta_analisis
+        ).pack(side=tk.LEFT, padx=10)
+        ttk.Button(
+            btn_frame, text="Limpiar Filtros", command=self.limpiar_filtros_consulta
+        ).pack(side=tk.LEFT)
+
+        # --- Resumen Estadístico ---
+        stats_frame = ttk.LabelFrame(
+            main_frame, text="Resumen de Resultados", padding="10"
+        )
+        stats_frame.pack(fill=tk.X, pady=(0, 10))
+
+        # Variables para labels
+        self.var_total_ventas = tk.StringVar(value="$0.00")
+        self.var_total_costos = tk.StringVar(value="$0.00")
+        self.var_total_utilidad = tk.StringVar(value="$0.00")
+        self.var_margen = tk.StringVar(value="0.00%")
+        self.var_cantidad = tk.StringVar(value="0")
+        self.var_promedio_producto = tk.StringVar(value="$0.00")
+
+        # Grid de estadisticas
+        # Fila 1
+        ttk.Label(stats_frame, text="Ventas Totales:", font=("Helvetica", 10)).grid(
+            row=0, column=0, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_ventas,
+            font=("Helvetica", 10, "bold"),
+            foreground="blue",
+        ).grid(row=0, column=1, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Costos Totales:", font=("Helvetica", 10)).grid(
+            row=0, column=2, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_costos,
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=0, column=3, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Utilidad Neta:", font=("Helvetica", 10)).grid(
+            row=0, column=4, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_total_utilidad,
+            font=("Helvetica", 10, "bold"),
+            foreground="green",
+        ).grid(row=0, column=5, sticky="w", padx=5)
+
+        # Fila 2
+        ttk.Label(stats_frame, text="Unidades Vendidas:", font=("Helvetica", 10)).grid(
+            row=1, column=0, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame, textvariable=self.var_cantidad, font=("Helvetica", 10, "bold")
+        ).grid(row=1, column=1, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Ticket Promedio:", font=("Helvetica", 10)).grid(
+            row=1, column=2, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame,
+            textvariable=self.var_promedio_producto,
+            font=("Helvetica", 10, "bold"),
+        ).grid(row=1, column=3, sticky="w", padx=5)
+
+        ttk.Label(stats_frame, text="Margen (%):", font=("Helvetica", 10)).grid(
+            row=1, column=4, sticky="e", padx=5
+        )
+        ttk.Label(
+            stats_frame, textvariable=self.var_margen, font=("Helvetica", 10, "bold")
+        ).grid(row=1, column=5, sticky="w", padx=5)
+
+        # --- Tabla de Resultados ---
+        tree_frame = ttk.Frame(main_frame)
+        tree_frame.pack(fill=tk.BOTH, expand=True)
+
+        cols = (
+            "Fecha",
+            "Producto",
+            "Cliente",
+            "Cant",
+            "Costo U",
+            "Precio U",
+            "Total",
+            "Utilidad",
+            "Medio Pago",
+        )
+        self.cons_tree = ttk.Treeview(tree_frame, columns=cols, show="headings")
+
+        self.cons_tree.heading(
+            "Fecha",
+            text="Fecha",
+            command=lambda: self.sort_cons_tree_by_column("Fecha"),
+        )
+        self.cons_tree.heading(
+            "Producto",
+            text="Producto",
+            command=lambda: self.sort_cons_tree_by_column("Producto"),
+        )
+        self.cons_tree.heading(
+            "Cliente",
+            text="Cliente",
+            command=lambda: self.sort_cons_tree_by_column("Cliente"),
+        )
+        self.cons_tree.heading(
+            "Cant", text="Cant", command=lambda: self.sort_cons_tree_by_column("Cant")
+        )
+        self.cons_tree.heading(
+            "Costo U",
+            text="Costo U",
+            command=lambda: self.sort_cons_tree_by_column("Costo U"),
+        )
+        self.cons_tree.heading(
+            "Precio U",
+            text="Precio U",
+            command=lambda: self.sort_cons_tree_by_column("Precio U"),
+        )
+        self.cons_tree.heading(
+            "Total",
+            text="Total",
+            command=lambda: self.sort_cons_tree_by_column("Total"),
+        )
+        self.cons_tree.heading(
+            "Utilidad",
+            text="Utilidad",
+            command=lambda: self.sort_cons_tree_by_column("Utilidad"),
+        )
+        self.cons_tree.heading(
+            "Medio Pago",
+            text="Medio Pago",
+            command=lambda: self.sort_cons_tree_by_column("Medio Pago"),
+        )
+
+        self.cons_tree.column("Fecha", width=120)
+        self.cons_tree.column("Producto", width=200)
+        self.cons_tree.column("Cliente", width=120)
+        self.cons_tree.column("Cant", width=50, anchor="center")
+        self.cons_tree.column("Costo U", width=80, anchor="e")
+        self.cons_tree.column("Precio U", width=80, anchor="e")
+        self.cons_tree.column("Total", width=80, anchor="e")
+        self.cons_tree.column("Utilidad", width=80, anchor="e")
+        self.cons_tree.column("Medio Pago", width=100)
+
+        sb = ttk.Scrollbar(tree_frame, orient=tk.VERTICAL, command=self.cons_tree.yview)
+        self.cons_tree.configure(yscrollcommand=sb.set)
+
+        self.cons_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
+        sb.pack(side=tk.RIGHT, fill=tk.Y)
+
+    def sort_cons_tree_by_column(self, col):
+        data = [
+            (self.cons_tree.set(child, col), child)
+            for child in self.cons_tree.get_children("")
+        ]
+
+        # Check column type
+        # Numeric columns: Cant, Costo U, Precio U, Total, Utilidad
+        # Date: Fecha
+        # String: Producto, Cliente, Medio Pago
+
+        is_numeric = col in ("Cant", "Costo U", "Precio U", "Total", "Utilidad")
+        is_date = col == "Fecha"
+
         try:
-            for val, entry in self.conteo_entries.items():
-                cantidad = int(entry.get() or 0)
-                total += val * cantidad
+            if is_numeric:
+                # Remove currency symbols and parse float
+                data.sort(
+                    key=lambda t: float(t[0].replace("$", "").replace(",", "")),
+                    reverse=self.cons_last_sort_reverse,
+                )
+            elif is_date:
+                data.sort(
+                    key=lambda t: datetime.strptime(t[0], "%Y-%m-%d %H:%M:%S"),
+                    reverse=self.cons_last_sort_reverse,
+                )
+            else:
+                data.sort(
+                    key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse
+                )
+        except (ValueError, IndexError):
+            # Fallback to string sort
+            data.sort(key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse)
 
-            monedas = float(self.conteo_monedas_entry.get() or 0)
-            total += monedas
+        for index, (val, child) in enumerate(data):
+            self.cons_tree.move(child, "", index)
 
-            self.conteo_total_label.config(text=f"Total Contado: ${total:,.2f}")
-            return total
-        except (ValueError, TypeError):
-            self.conteo_total_label.config(text="Total Contado: ¡Error!")
-            return None
+        # Toggle sort direction
+        self.cons_last_sort_reverse = not self.cons_last_sort_reverse
 
-    def _populate_conteos_dropdown(self):
-        self.historial_conteos_data = self.gestor_caja.obtener_historial_conteos()
-        display_values = []
-        for row in self.historial_conteos_data:
+    def limpiar_filtros_consulta(self):
+        self.cons_entry_keyword.delete(0, tk.END)
+        self.cons_entry_prod.delete(0, tk.END)
+        self.cons_entry_client.delete(0, tk.END)
+        self.cons_entry_payment.delete(0, tk.END)
+
+        # Reset dates to defaults
+        if TKCALENDAR_AVAILABLE:
+            self.cons_fecha_desde.set_date(datetime.now().replace(day=1))
+            self.cons_fecha_hasta.set_date(datetime.now())
+        else:
+            self.cons_fecha_desde.delete(0, tk.END)
+            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
+            self.cons_fecha_hasta.delete(0, tk.END)
+            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
+
+        # Limpiar tabla y resets
+        for i in self.cons_tree.get_children():
+            self.cons_tree.delete(i)
+
+        self.var_total_ventas.set("$0.00")
+        self.var_total_costos.set("$0.00")
+        self.var_total_utilidad.set("$0.00")
+        self.var_margen.set("0.00%")
+        self.var_cantidad.set("0")
+        self.var_promedio_producto.set("$0.00")
+
+    def ejecutar_consulta_analisis(self):
+        # 1. Limpiar
+        for i in self.cons_tree.get_children():
+            self.cons_tree.delete(i)
+
+        # 2. Obtener datos
+        historial = self.gestor.leer_historial_ventas()
+
+        # 3. Filtros
+        desde_str = self.cons_fecha_desde.get()
+        hasta_str = self.cons_fecha_hasta.get()
+        keyword = self.cons_entry_keyword.get().lower().strip()
+        f_prod = self.cons_entry_prod.get().lower().strip()
+        f_client = self.cons_entry_client.get().lower().strip()
+        f_pay = self.cons_entry_payment.get().lower().strip()
+
+        # Variables para acumuladores
+        sum_ventas = 0.0
+        sum_costos = 0.0
+        sum_utilidad = 0.0
+        sum_cantidad = 0
+        count_trx = 0
+
+        for venta_original in historial:
+            venta = list(venta_original)
+            while len(venta) < 12:
+                venta.append("")
+
+            estado = venta[11]
+            if estado == "Anulada":
+                continue  # Ignorar anuladas
+
+            # Filtro fecha
             try:
-                # row[0] = Timestamp, row[1] = Total
-                display_values.append(f"{row[0]} - ${float(row[1]):,.0f}")
+                fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S").date()
+                f_desde = datetime.strptime(desde_str, "%Y-%m-%d").date()
+                f_hasta = datetime.strptime(hasta_str, "%Y-%m-%d").date()
+
+                if not (f_desde <= fecha_venta <= f_hasta):
+                    continue
+            except (ValueError, IndexError):
+                continue  # Fecha inválida
+
+            # Filtros de Texto
+            # Indices: 1=ID, 2=Prod, 9=Cliente, 10=MedioPago
+            id_v = venta[1].lower()
+            prod = venta[2].lower()
+            cli = venta[9].lower()
+            pay = venta[10].lower()
+
+            # Filtro Global
+            if keyword and not (keyword in id_v or keyword in prod or keyword in cli):
+                continue
+
+            # Sub-filtros específicos
+            if f_prod and f_prod not in prod:
+                continue
+            if f_client and f_client not in cli:
+                continue
+            if f_pay and f_pay not in pay:
+                continue
+
+            # --- Procesar datos numéricos ---
+            try:
+                cant = int(venta[3])
+                costo_u = float(venta[4])
+                precio_u = float(venta[5])
+                total_v = float(venta[6])
+                ganancia = float(venta[7])
+
+                sum_ventas += total_v
+                sum_utilidad += ganancia
+                sum_costos += total_v - ganancia  # Costo total de la venta
+                sum_cantidad += cant
+                count_trx += 1
+
+                # Insertar en tabla
+                self.cons_tree.insert(
+                    "",
+                    tk.END,
+                    values=(
+                        venta[0],  # Fecha
+                        venta[2],  # Prod
+                        venta[9],  # Cliente
+                        cant,
+                        f"${costo_u:,.2f}",
+                        f"${precio_u:,.2f}",
+                        f"${total_v:,.2f}",
+                        f"${ganancia:,.2f}",
+                        venta[10],  # Medio Pago
+                    ),
+                )
+
             except (ValueError, IndexError):
                 continue
-        self.historial_conteos_combo["values"] = display_values
-        if display_values:
-            self.historial_conteos_combo.set(display_values[0])
 
-    def _cargar_conteo_seleccionado(self):
-        selected_index = self.historial_conteos_combo.current()
-        if selected_index == -1:
-            messagebox.showwarning(
-                "Sin Selección",
-                "Por favor, seleccione un conteo del historial para cargar.",
-            )
-            return
+        # 4. Actualizar Totales
+        self.var_total_ventas.set(f"${sum_ventas:,.2f}")
+        self.var_total_costos.set(f"${sum_costos:,.2f}")
+        self.var_total_utilidad.set(f"${sum_utilidad:,.2f}")
+        self.var_cantidad.set(str(sum_cantidad))
 
-        try:
-            conteo_data = self.historial_conteos_data[selected_index]
-            detalle_str = conteo_data[
-                2
-            ]  # El string de detalle está en la tercera columna
-
-            self._limpiar_campos_conteo()
-
-            # Parsear el string de detalle
-            pares = detalle_str.split(", ")
-            for par in pares:
-                if "Monedas" in par:
-                    monto = float(re.search(r"[\d.]+", par.replace(",", "")).group())
-                    self.conteo_monedas_entry.insert(0, f"{monto:.0f}")
-                else:
-                    partes = par.split(":")
-                    denominacion_str = re.sub(r"[^\d]", "", partes[0])
-                    denominacion = int(denominacion_str)
-                    cantidad = int(partes[1].strip())
-                    if denominacion in self.conteo_entries:
-                        self.conteo_entries[denominacion].insert(0, str(cantidad))
-
-            self._update_conteo_total()
-            self.status_label_inv.config(text="Conteo histórico cargado.")
-
-        except (IndexError, ValueError, TypeError) as e:
-            messagebox.showerror(
-                "Error al Cargar",
-                f"No se pudo interpretar el conteo guardado.\nDetalle: {e}",
-            )
-
-    def _guardar_conteo_actual(self):
-        total = self._update_conteo_total()
-        if total is None:
-            messagebox.showerror(
-                "Error de Entrada",
-                "Verifique que todos los campos de conteo contengan solo números.",
-            )
-            return
-
-        detalle_dict = {}
-        for val, entry in self.conteo_entries.items():
-            cantidad = int(entry.get() or 0)
-            if cantidad > 0:
-                detalle_dict[val] = cantidad
-
-        monedas = float(self.conteo_monedas_entry.get() or 0)
-        if monedas > 0:
-            detalle_dict["Monedas"] = monedas
-
-        detalle_str = ", ".join(
-            [
-                f"${k:,.0f}: {v}" if k != "Monedas" else f"Monedas: ${v:,.2f}"
-                for k, v in detalle_dict.items()
-            ]
-        )
-
-        success, msg = self.gestor_caja.guardar_conteo_historial(total, detalle_str)
-        if success:
-            messagebox.showinfo("Éxito", "Conteo guardado en el historial.")
-            self._populate_conteos_dropdown()
+        # Cálculos derivados
+        if sum_ventas > 0:
+            margen = (sum_utilidad / sum_ventas) * 100
+            self.var_margen.set(f"{margen:.2f}%")
         else:
-            messagebox.showerror("Error al Guardar", msg)
+            self.var_margen.set("0.00%")
 
-    def _limpiar_campos_conteo(self):
-        for entry in self.conteo_entries.values():
-            entry.delete(0, tk.END)
-        self.conteo_monedas_entry.delete(0, tk.END)
-        self._update_conteo_total()
-        self.status_label_inv.config(text="Campos de conteo limpiados.")
-
-    def _aplicar_conteo_a_cierre(self):
-        total = self._update_conteo_total()
-        if total is not None:
-            self.dinero_real_entry.config(state="normal")
-            self.dinero_real_entry.delete(0, tk.END)
-            self.dinero_real_entry.insert(0, f"{total:.2f}")
-            self.dinero_real_entry.config(state="readonly")
-            self.status_label_inv.config(text="Total del conteo aplicado al cierre.")
+        if count_trx > 0:
+            promedio = sum_ventas / count_trx
+            self.var_promedio_producto.set(f"${promedio:,.2f}")
         else:
-            messagebox.showerror(
-                "Error", "No se pudo calcular el total. Revise los campos."
-            )
-
-    def _eliminar_movimiento_seleccionado(self):
-        selected_item_id = self.mov_tree.focus()
-        if not selected_item_id:
-            messagebox.showwarning(
-                "Sin Selección",
-                "Por favor, seleccione un movimiento de la lista para eliminar.",
-            )
-            return
-
-        selected_values = self.mov_tree.item(selected_item_id, "values")
-        tipo_sel, desc_sel, monto_sel = selected_values
-        monto_sel_float = float(monto_sel.replace("$", "").replace(",", ""))
-
-        if not messagebox.askyesno(
-            "Confirmar Eliminación",
-            f"¿Está seguro de que desea eliminar el siguiente movimiento?\n\n{tipo_sel} - {desc_sel} - ${monto_sel_float:,.2f}",
-        ):
-            return
-
-        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-        movimientos_hoy = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
-        timestamp_a_eliminar = None
-        for mov in movimientos_hoy:
-            if (
-                mov["Tipo"] == tipo_sel
-                and mov["Descripcion"] == desc_sel
-                and float(mov["Monto"]) == monto_sel_float
-            ):
-                timestamp_a_eliminar = mov["Timestamp"]
-                break
-
-        if timestamp_a_eliminar:
-            success, msg = self.gestor_caja.eliminar_movimiento(timestamp_a_eliminar)
-            if success:
-                messagebox.showinfo("Éxito", msg)
-                self.cargar_movimientos_hoy()
-                self.populate_prestamos_treeview()
-            else:
-                messagebox.showerror("Error", msg)
-        else:
-            messagebox.showerror(
-                "Error",
-                "No se pudo encontrar el movimiento exacto para eliminar. Intente refrescar la aplicación.",
-            )
-
-    def cargar_estado_caja(self):
-        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-        datos_dia = self.gestor_caja.obtener_datos_dia(fecha_hoy)
-        if datos_dia:
-            self.caja_inicial_entry.insert(0, datos_dia["DineroInicial"])
-            self.caja_base_entry.insert(0, datos_dia["Base"])
-            self.caja_inicial_entry.config(state="disabled")
-            self.caja_base_entry.config(state="disabled")
-            self.btn_iniciar_dia.config(state="disabled")
-            self.cargar_movimientos_hoy()
-        else:
-            self.btn_registrar_mov.config(state="disabled")
-            self.btn_eliminar_mov.config(state="disabled")
-            self.btn_cerrar_caja.config(state="disabled")
-            self.btn_cuadre_parcial.config(state="disabled")
-
-    def iniciar_dia(self):
-        try:
-            dinero_inicial = float(self.caja_inicial_entry.get())
-            base = float(self.caja_base_entry.get())
-        except ValueError:
-            messagebox.showerror("Error", "Dinero inicial y base deben ser números.")
-            return
-        success, msg = self.gestor_caja.iniciar_dia(dinero_inicial, base)
-        if success:
-            self.conteo_actual_caja.clear()
-            self._limpiar_campos_conteo()
-            messagebox.showinfo("Éxito", msg)
-            self.caja_inicial_entry.config(state="disabled")
-            self.caja_base_entry.config(state="disabled")
-            self.btn_iniciar_dia.config(state="disabled")
-            self.btn_registrar_mov.config(state="normal")
-            self.btn_eliminar_mov.config(state="normal")
-            self.btn_cerrar_caja.config(state="normal")
-            self.btn_cuadre_parcial.config(state="normal")
-        else:
-            messagebox.showerror("Error", msg)
-
-    def registrar_movimiento(self):
-        tipo = self.mov_tipo_combo.get()
-        desc = self.mov_desc_entry.get()
-        monto = self.mov_monto_entry.get()
-        if not all([tipo, desc, monto]):
-            messagebox.showerror(
-                "Error", "Todos los campos de movimiento son obligatorios."
-            )
-            return
-        success, msg = self.gestor_caja.registrar_movimiento(tipo, desc, monto)
-        if success:
-            self.mov_desc_entry.delete(0, tk.END)
-            self.mov_monto_entry.delete(0, tk.END)
-            self.cargar_movimientos_hoy()
-            if tipo == "Préstamo/Retiro":
-                self.populate_prestamos_treeview()
-        else:
-            messagebox.showerror("Error", msg)
-
-    def cargar_movimientos_hoy(self):
-        for i in self.mov_tree.get_children():
-            self.mov_tree.delete(i)
-        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-        movimientos = self.gestor_caja.obtener_movimientos_dia(fecha_hoy)
-        for mov in movimientos:
-            monto = float(mov["Monto"])
-            self.mov_tree.insert(
-                "", tk.END, values=(mov["Tipo"], mov["Descripcion"], f"${monto:,.2f}")
-            )
-
-    def _ejecutar_logica_cuadre(self):
-        try:
-            dinero_real = float(self.dinero_real_entry.get() or 0)
-        except ValueError:
-            messagebox.showerror(
-                "Error",
-                "El valor de dinero real en caja es inválido. Use el panel de conteo para asignarlo.",
-            )
-            return None
-        fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-        total_ventas_dia = self.gestor.obtener_ventas_del_dia(fecha_hoy)
-        pagos_electronicos = self.gestor.obtener_pagos_electronicos_del_dia(fecha_hoy)
-        self.pagos_electronicos_entry.config(state="normal")
-        self.pagos_electronicos_entry.delete(0, tk.END)
-        self.pagos_electronicos_entry.insert(0, f"{pagos_electronicos:.2f}")
-        self.pagos_electronicos_entry.config(state="readonly")
-        resumen, msg = self.gestor_caja.calcular_cuadre(
-            fecha_hoy, pagos_electronicos, dinero_real, total_ventas_dia
-        )
-        if resumen:
-            self.resumen_labels["total_ventas"]["var"].set(
-                f"${resumen['total_ventas']:,.2f}"
-            )
-            self.resumen_labels["total_movimientos"]["var"].set(
-                f"${resumen['total_movimientos']:,.2f}"
-            )
-            self.resumen_labels["efectivo_esperado"]["var"].set(
-                f"${resumen['efectivo_esperado']:,.2f}"
-            )
-            self.resumen_labels["dinero_real_caja"]["var"].set(
-                f"${resumen['dinero_real_caja']:,.2f}"
-            )
-            diferencia = resumen["diferencia"]
-            self.resumen_labels["diferencia"]["var"].set(f"${diferencia:,.2f}")
-            resumen_widget = self.resumen_labels["diferencia"]["widget"]
-            if diferencia < 0:
-                resumen_widget.config(foreground="red")
-            elif diferencia > 0:
-                resumen_widget.config(foreground="green")
-            else:
-                resumen_widget.config(foreground="black")
-            return resumen
-        else:
-            messagebox.showerror("Error", msg)
-            return None
-
-    def calcular_cuadre_parcial(self):
-        self._ejecutar_logica_cuadre()
-
-    def realizar_cuadre_final(self):
-        resumen = self._ejecutar_logica_cuadre()
-        if resumen:
-            if messagebox.askyesno(
-                "Confirmar Cierre",
-                "¿Está seguro de que desea cerrar la caja y guardar los resultados? Esta acción no se puede deshacer.",
-            ):
-                fecha_hoy = datetime.now().strftime("%Y-%m-%d")
-                success, msg = self.gestor_caja.cerrar_dia(fecha_hoy, resumen)
-                if success:
-                    messagebox.showinfo("Éxito", msg)
-                    self.btn_cerrar_caja.config(state="disabled")
-                    self.btn_cuadre_parcial.config(state="disabled")
-                    self.btn_registrar_mov.config(state="disabled")
-                    self.btn_eliminar_mov.config(state="disabled")
-                else:
-                    messagebox.showerror("Error al Guardar", msg)
+            self.var_promedio_producto.set("$0.00")
 
     def populate_inventory_treeview(self):
         for i in self.inventory_tree.get_children():
