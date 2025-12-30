@@ -1,9 +1,9 @@
     Bateria Huawei Honor 1
-    Pacha Huawei Honor X6 / X6S 2
-    Pacha Motorola Moto G04 / G24 2
-    Pacha Motorola Moto G9 Power 1
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1
-    Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 2
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1
-    Pacha Xiaomi Redmi Note 12 2
+    Pacha Huawei Honor X6 / X6S 2 ok
+    Pacha Motorola Moto G04 / G24 2 ok
+    Pacha Motorola Moto G9 Power 1 ok
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+    Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 2 ok
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    Pacha Xiaomi Redmi Note 12 2 ok
