@@ -1,5 +1,6 @@
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
+    Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Balaca Appla P9 Azul 1
@@ -96,7 +97,7 @@
     Parlante Ktf-1645 2
     Power Bank Aibimy 30000 Mah 1
     Pulso Banda M5 Negro 3
-    Silicone Case Apple IPhone 16e Fucsia 1
+    Silicone Case Apple IPhone 16e Fucsia 1 ok
     Silicone Case Apple IPhone 16e Morado 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Fucsia 1
@@ -151,9 +152,9 @@
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A06 Azulrey 1
     Silicone Case Samsung A10 Blanco 1
-    Silicone Case Samsung A21S Negro 1
+    Silicone Case Samsung A21S Negro 1 ok
     Silicone Case Samsung A22 5G Negro 1
-    Silicone Case Samsung A24 Negro 1
+    Silicone Case Samsung A24 Negro 1 ok
     Silicone Case Samsung A30S / A50 Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
@@ -173,7 +174,7 @@
     Silicone Case Tecno Camon 40 Rojo 1
     Silicone Case Tecno Pova 4 Lila 1
     Silicone Case Tecno Spark 20 Rojo 1
-    Silicone Case Tecno Spark 30 4G Rosa 1
+    Silicone Case Tecno Spark 30 4G Rosa 1 ok
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark Go 2025 / Go 1 Lila 1
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -193,7 +194,7 @@
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 12 Fucsia 1
+    Silicone Case Xiaomi Redmi 12 Fucsia 1 ok
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
@@ -204,10 +205,10 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
-    Silicone Case Xiaomi Redmi Note 14 4G Morado 1
+    Silicone Case Xiaomi Redmi Note 14 4G Morado 1 ok
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
-    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 9S Amarillo 1
     Silicone Case Zte Blade A34 Lila 1
