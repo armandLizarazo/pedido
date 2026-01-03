@@ -203,7 +203,8 @@
     Barbera Vgr V-660 2
     Barbera Wmark Ng-9015 Taurus 10000 Rpm 0
     Barra Silicona 0
-    Base Refrigerante 1 Ventilador 1
+    Base Refrigerante 1 Ventilador 0
+    Base Refrigerante 2 Ventiladores 0
     Base Refrigerante Wit-400 0
     Base Refrigerante X6a 0
     Bateria Apple Iphone 11 Pro 0
@@ -270,8 +271,8 @@
     Cable Apple Tc A Tc 240W 2M 0
     Cable Apple Tc A Tc 2M 3
     Cable Apple Tc A Tc 60w Aguja 2
-    Cable Apple Tc Ligthning 5
-    Cable Apple Tc Ligthning 2M 3
+    Cable Apple Tc Ligthning 6
+    Cable Apple Tc Ligthning 2M 5
     Cable Apple Tc a Tc 2
     Cable Apple Usb Ligthning 0
     Cable Apple Usb Ligthning 2M 1
@@ -292,8 +293,8 @@
     Cable Auxiliar 3 A 1 3M 4
     Cable Auxiliar Harvic 1 a 1 en L Cja 0
     Cable Belkin Ligthning 0
-    Cable Belkin Tc 5
-    Cable Belkin Tc 2M 2
+    Cable Belkin Tc 0
+    Cable Belkin Tc 2M 0
     Cable Belkin V8 7
     Cable Caterpillar Tc 8
     Cable Caterpillar Tc A Tc 0
@@ -378,14 +379,14 @@
     Cable V3 1.5M 2
     Cable V3 Eco 10
     Cable V8 3.0 Corto 0
-    Cable V8 Eco 2
+    Cable V8 Eco 0
     Cable Vga 1.5M 2
     Cable Vga 10M 1
     Cable Vga 15M 0
     Cable Vga 1M 0
     Cable Vga 3M 1
     Cable Vga 5M 2
-    Cable We Tc 3
+    Cable We Tc 0
     Cable We Tc Eco 0
     Cable We V8 0
     Cable Xiaomi Original Usb Tc 0
@@ -456,13 +457,13 @@
     Cargador 9V 2A Doble Punta 6
     Cargador Apple 15 Pro Max 35W Con Cable 1
     Cargador Apple 16 Pro Max 45W Con Cable 1
-    Cargador Apple 20W Con Cable 3
+    Cargador Apple 20W Con Cable 2
     Cargador Apple 20W Tc Cabeza 2
     Cargador Apple 25W Con Cable 3
-    Cargador Apple 25W Tc Cabeza 3
+    Cargador Apple 25W Tc Cabeza 2
     Cargador Apple 30W Tc Cabeza 0
     Cargador Apple 35W 2Tc Cabeza 0
-    Cargador Apple 5V Eco 2
+    Cargador Apple 5V Eco 0
     Cargador Apple 60W 2P Tc Cabeza 1
     Cargador Apple Magsafe 0
     Cargador Belkin Ligthning 0
@@ -487,7 +488,7 @@
     Cargador MagSafe 0
     Cargador Maxday Carga Pilas Universal 0
     Cargador Microsoft Carga Y Juega Xbox 360 4
-    Cargador Motorola 50W Solo Cabeza 1
+    Cargador Motorola 50W Con Cable 0
     Cargador Motorola 67W Solo Cabeza 0
     Cargador Motorola Tc A Tc 30W 0
     Cargador Motorola Tc A Tc 38W 0
@@ -530,7 +531,7 @@
     Cargador Samsung 25W V8 0
     Cargador Samsung 45W Cabeza Blanco 2
     Cargador Samsung 45W Cabeza Negro 3
-    Cargador Samsung 45W Con Cable Blanco 1
+    Cargador Samsung 45W Con Cable Blanco 0
     Cargador Samsung 45W Con Cable Negro 1
     Cargador Samsung 45W Con Cable Original Blanco 0
     Cargador Samsung S10+ Cable Tc 0
@@ -549,7 +550,7 @@
     Cargador W Tc 3
     Cargador W V8 Bolsa 5
     Cargador We 25W Cabeza 0
-    Cargador We Tc 33W 5
+    Cargador We Tc 33W 0
     Cargador We V8 33W 4
     Cargador Xiaomi 120W 2
     Cargador Xiaomi Tc A Tc 67W 0
@@ -577,7 +578,7 @@
     Combo Remington Plancha + Cepillo Aguacate 1
     Conector Antena Parlante 0
     Consola + Tv box 0
-    Consola Game Stick 2
+    Consola Game Stick 1
     Consola Microsoft Xbox 360 1
     Consola Mini Ness 1
     Consola Pandora 1
@@ -659,6 +660,7 @@
     Flex de Power Oppo A57 1
     Flex de Power Samsung A21S 0
     Flex de Power Xiaomi Poco X3 0
+    Flex de Power Xiaomi Redmi 9A / 9C / 10A 0
     Flex de Power Xiaomi Redmi Note 8 1
     Flex de Power Xiaomi Redmi Note 9 1
     Flex de Volumen Samsung A10s 0
@@ -677,6 +679,7 @@
     Forro Antichoque Cadena Huawei Honor X6A / Play 9A 0
     Forro Antichoque Cadena Huawei Honor X8A 0
     Forro Antichoque Cadena Infinix Hot 50 Pro Plus 0
+    Forro Antichoque Cadena Infinix Hot 50i 0
     Forro Antichoque Cadena Infinix Hot 60 Pro Plus 0
     Forro Antichoque Cadena Motorola Moto G04 0
     Forro Antichoque Cadena Motorola Moto G05 0
@@ -763,8 +766,24 @@
     Forro Antichoque Huawei P20 Lite Caballero 0
     Forro Antichoque Huawei P20 Lite Dama 0
     Forro Antichoque Huawei X6 / X6S Caballero 3
+    Forro Antichoque Huawei Y5 2018 Caballero 0
+    Forro Antichoque Huawei Y5 2019 Caballero 0
+    Forro Antichoque Huawei Y5 2019 Dama 0
+    Forro Antichoque Huawei Y6 2019 Caballero 0
+    Forro Antichoque Huawei Y6 2019 Dama 0
+    Forro Antichoque Huawei Y6 II Caballero 0
+    Forro Antichoque Huawei Y6 II Dama 0
+    Forro Antichoque Huawei Y7 2018 Caballero 0
+    Forro Antichoque Huawei Y7 2018 Dama 0
     Forro Antichoque Huawei Y7 2019 Caballero 0
     Forro Antichoque Huawei Y7 2019 Dama 0
+    Forro Antichoque Huawei Y7 Prime Caballero 0
+    Forro Antichoque Huawei Y7 Prime Dama 0
+    Forro Antichoque Huawei Y7P Caballero 0
+    Forro Antichoque Huawei Y8P Caballero 0
+    Forro Antichoque Huawei Y8P Dama 0
+    Forro Antichoque Huawei Y9 2018 Caballero 0
+    Forro Antichoque Huawei Y9 2018 Dama 0
     Forro Antichoque Huawei Y9 2019 / Y8S Caballero 0
     Forro Antichoque Huawei Y9 2019 / Y8S Dama 0
     Forro Antichoque Huawei Y9 Prime Caballero 0
@@ -1099,7 +1118,7 @@
     Forro Antichoque Xiaomi Redmi 15 Caballero 0
     Forro Antichoque Xiaomi Redmi 15 Dama 0
     Forro Antichoque Xiaomi Redmi 15C Caballero 0
-    Forro Antichoque Xiaomi Redmi 15C Dama 5
+    Forro Antichoque Xiaomi Redmi 15C Dama 0
     Forro Antichoque Xiaomi Redmi 9 Caballero 0
     Forro Antichoque Xiaomi Redmi 9 Dama 0
     Forro Antichoque Xiaomi Redmi 9A Caballero 0
@@ -1476,6 +1495,7 @@
     Forro Space Huawei Honor X8C 0
     Forro Space Huawei Nova Y90 1
     Forro Space Huawei P30 Lite 2
+    Forro Space Huawei Y7P 0
     Forro Space Huawei Y9 / Y8S 2019 0
     Forro Space Huawei Y9 2019 0
     Forro Space Huawei Y9 Prime 0
@@ -1498,7 +1518,7 @@
     Forro Space Magsafe Apple Iphone 11 0
     Forro Space Magsafe Apple Iphone 11 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 0
-    Forro Space Moto Edge 60 Fusion 2
+    Forro Space Moto Edge 60 Fusion 0
     Forro Space Motorola Moto E20 1
     Forro Space Motorola Moto E22i 0
     Forro Space Motorola Moto E30 / E40 0
@@ -1574,7 +1594,7 @@
     Forro Space Samsung A14 Negro 0
     Forro Space Samsung A14 Vinotinto 0
     Forro Space Samsung A15 1
-    Forro Space Samsung A16 1
+    Forro Space Samsung A16 0
     Forro Space Samsung A17 2
     Forro Space Samsung A20 / A30 0
     Forro Space Samsung A20S 1
@@ -1683,7 +1703,7 @@
     Forro Space Xiaomi Redmi Note 10 Pro 0
     Forro Space Xiaomi Redmi Note 11 0
     Forro Space Xiaomi Redmi Note 11 Pro 5G 2
-    Forro Space Xiaomi Redmi Note 12 1
+    Forro Space Xiaomi Redmi Note 12 0
     Forro Space Xiaomi Redmi Note 12 Pro 0
     Forro Space Xiaomi Redmi Note 12S 3
     Forro Space Xiaomi Redmi Note 13 4G 1
@@ -1727,6 +1747,7 @@
     Hydrogel Antiespia 0
     Hydrogel Antiespia Apple Iphone 14 0
     Hydrogel Antiespia Infinix Note 40 Pro 0
+    Hydrogel Antiespia Oppo A60 0
     Hydrogel Antiespia Tecno Camon 30S Pro 0
     Hydrogel Antiespia Tecno Camon Premier 0
     Hydrogel Antiespia Tecno Spark 20 pro Plus 0
@@ -1737,6 +1758,7 @@
     Hydrogel Hd 50
     Hydrogel Huawei Honor 200 Smart 0
     Hydrogel Huawei Honor Magic 6 Lite 0
+    Hydrogel Huawei Honor X8C 0
     Hydrogel Infinix Hot 50 5G 0
     Hydrogel Infinix Hot 50 Pro Plus 0
     Hydrogel Infinix Hot 50I 0
@@ -1945,7 +1967,7 @@
     Memoria Kingstone Micro 16Gb 0
     Memoria Kingstone Micro 4Gb 0
     Memoria Kingstone Usb 16Gb 0
-    Memoria Kingstone Usb 4Gb 5
+    Memoria Kingstone Usb 4Gb 0
     Memoria Kingstone Usb 8Gb 3
     Memoria Micro Sandisk 64Gb 0
     Memoria Musica  Reggae Reggae 0
@@ -2094,9 +2116,9 @@
     Pacha Lg K51S 0
     Pacha Lg K61 2
     Pacha Moto Moto G60S 0
-    Pacha Motorola Moto E13 1
+    Pacha Motorola Moto E13 0
     Pacha Motorola Moto E20 0
-    Pacha Motorola Moto E22 / E22i 2
+    Pacha Motorola Moto E22 / E22i 0
     Pacha Motorola Moto E30 / E40 1
     Pacha Motorola Moto E5 Play 0
     Pacha Motorola Moto E6I 0
@@ -2109,7 +2131,6 @@
     Pacha Motorola Moto G13 / G23 1
     Pacha Motorola Moto G14 / G54 / G55 0
     Pacha Motorola Moto G20 / G30 0
-    Pacha Motorola Moto G20 / G30, 3
     Pacha Motorola Moto G22 / E32 0
     Pacha Motorola Moto G22 / E32, 1
     Pacha Motorola Moto G31 / G41 / G71 1
@@ -2127,7 +2148,7 @@
     Pacha Nokia 3.4 / 5.3 1
     Pacha Nokia 5.3 0
     Pacha Nokia G21 0
-    Pacha Oppo A16 1
+    Pacha Oppo A16 0
     Pacha Oppo A17 / A38 / A57 / A77 2
     Pacha Oppo A20 / A40 / A60 0
     Pacha Oppo A54 1
@@ -2228,10 +2249,10 @@
     Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 0
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi 13 0
-    Pacha Xiaomi Redmi 13C 3
+    Pacha Xiaomi Redmi 13C 0
     Pacha Xiaomi Redmi 14C 0
     Pacha Xiaomi Redmi 14C / Redmi A4 2
-    Pacha Xiaomi Redmi 14C C/m 1
+    Pacha Xiaomi Redmi 14C C/m 0
     Pacha Xiaomi Redmi 8 / 8A / 8A Pro (8A Dual) 0
     Pacha Xiaomi Redmi 9 0
     Pacha Xiaomi Redmi 9A / 9C / 10A 0
@@ -2265,11 +2286,13 @@
     Pad Mouse Tapete Largo Logos 0
     Pad Mouse Tapete Negro 2
     Pago Soat 0
+    Palo Selfie Xt-02 0
     Parlante Auto Clasico 1969 0
     Parlante Barra V70 3
     Parlante Barra de Sonido Boombar Klip Xtreme 0
     Parlante Ducha 2
     Parlante Gedi G Gd-2636 0
+    Parlante Gedi-G 2895 0
     Parlante Gedi-G Gd-1521 30000w 0
     Parlante Gedi-G Gd-2888 0
     Parlante Gedi-G Lt-2132 0
@@ -2340,6 +2363,7 @@
     Pin De Carga Tc Tableta 0
     Pin De Carga V8 20
     Pin De Carga V8 Parlante 0
+    Pin De Carga V8 Tecno 0
     Pin De Carga Xiaomi Redmi 9A 0
     Pin Netflix 0
     Pin de Carga Huawei Y5 II 5
@@ -2437,6 +2461,7 @@
     Servicio Tecnico Apple Mntenimiento Puerto de Carga Iphone 6 0
     Servicio Tecnico Apple Reconectar Pantalla 0
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
+    Servicio Tecnico Configuracion 0
     Servicio Tecnico Formatear Celular 0
     Servicio Tecnico Frp Infinix Hot 40I 0
     Servicio Tecnico Generico Alcohol Isopropilico 0
@@ -2468,6 +2493,7 @@
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 40 pro Plus 0
     Servicio Tecnico Infinix Mantenimiento Logica de Carga Note 50 Pro 0
     Servicio Tecnico Infinix Pin de Carga 0
+    Servicio Tecnico Infinix Pin de carga Smart 6 Hd 0
     Servicio Tecnico Krono Pin de Carga Tablet Kids 0
     Servicio Tecnico Motorola Ajustar Pantalla Moto Edge 50 Pro 0
     Servicio Tecnico Motorola Contraseña Correo y Formateo Moto G22 0
@@ -2494,6 +2520,7 @@
     Servicio Tecnico Oppo Limpeza A38 0
     Servicio Tecnico Oppo Limpiar Camara A15 0
     Servicio Tecnico Oppo Mantenimiento Logica de carga Realme C75 0
+    Servicio Tecnico Oppo Pegar Pantalla A57 0
     Servicio Tecnico Oppo Pin de Carga Realme C15 0
     Servicio Tecnico Oppo Reiniciar Reno 10 0
     Servicio Tecnico Pc 0
@@ -2584,6 +2611,7 @@
     Servicio Tecnico Xiaomi Pin de Carga Redmi 9C 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A1 0
     Servicio Tecnico Xiaomi Pin de Carga Redmi A2 0
+    Servicio Tecnico Xiaomi Reiniciar Redmi 10C 0
     Servicio Tecnico Xiaomi Reiniciar Redmi Note 9s 0
     Servicio Tecnico Xiaomi Revision Mi 10T Pro 5G 0
     Servicio Tecnico Xiaomi Revision Redmi 13C 0
@@ -2592,6 +2620,7 @@
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Note 10s 0
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Note 11 0
     Servicio Tecnico Xiaomi mantenimiento Logica de Carga Redmi 13C 0
+    Servicio Tecnico Xiaomi mantenimiento Logica de Carga Redmi Note 8 0
     Servicio Tecnico Zte Pin de carga Blade A5 2020 0
     ServicioTecnico Huawei Desdoblar Honor X6s 0
     Silcione Case Xiaomi Redmi 13 Rojo 0
@@ -2923,15 +2952,34 @@
     Silicone Case Huawei P30 Lite Amarillo 0
     Silicone Case Huawei P30 Lite Morado 0
     Silicone Case Huawei P30 Lite Rojo 0
+    Silicone Case Huawei Y6 2018 Azulclaro 0
+    Silicone Case Huawei Y6 2018 Fucsia 0
+    Silicone Case Huawei Y6 2019 Amarillo 0
+    Silicone Case Huawei Y6 2019 Morado 0
     Silicone Case Huawei Y6 2019 Negro 0
+    Silicone Case Huawei Y6 2019 Rojo 0
+    Silicone Case Huawei Y6 2019 Verde 0
+    Silicone Case Huawei Y6P Amarillo 0
+    Silicone Case Huawei Y6P Blanco 0
+    Silicone Case Huawei Y6P Salmon 0
+    Silicone Case Huawei Y6P Verdemilitar 0
+    Silicone Case Huawei Y7 2018 Azul 0
     Silicone Case Huawei Y7 2019 Amarillo 0
-    Silicone Case Huawei Y7 2019 Lila 1
-    Silicone Case Huawei Y7 2019 Rosa 1
+    Silicone Case Huawei Y7 2019 Lila 0
+    Silicone Case Huawei Y7 2019 Rosa 0
     Silicone Case Huawei Y7 2019 Verdemilitar 0
     Silicone Case Huawei Y7A Amarillo 0
     Silicone Case Huawei Y7A Fucsia 0
     Silicone Case Huawei Y7A Negro 0
     Silicone Case Huawei Y7A Rojo 0
+    Silicone Case Huawei Y7A Verdemilitar 0
+    Silicone Case Huawei Y7P Azuloscuro 0
+    Silicone Case Huawei Y8P Azuloscuro 0
+    Silicone Case Huawei Y8P Fucsia 0
+    Silicone Case Huawei Y9 2018 Azulrey 0
+    Silicone Case Huawei Y9 2018 Lila 0
+    Silicone Case Huawei Y9 2018 Negro 0
+    Silicone Case Huawei Y9 2018 Rojo 0
     Silicone Case Huawei Y9 2019 / Y8S Azulrey 1
     Silicone Case Huawei Y9 2019 / Y8S Morado 0
     Silicone Case Huawei Y9 2019 / Y8S Negro 0
@@ -2947,8 +2995,8 @@
     Silicone Case Huawei Y9 Prime Negro 0
     Silicone Case Huawei Y9 Prime Rojo 0
     Silicone Case Huawei Y9 Prime Rosa 0
-    Silicone Case Huawei Y9 Prime Verde 1
-    Silicone Case Huawei Y9 Prime Verdemilitar 1
+    Silicone Case Huawei Y9 Prime Verde 0
+    Silicone Case Huawei Y9 Prime Verdemilitar 0
     Silicone Case Huawei Y9A Azul Rey 1
     Silicone Case Huawei Y9A Fucsia 0
     Silicone Case Huawei Y9A Rosa 0
@@ -3320,6 +3368,7 @@
     Silicone Case Oppo A5 Rojo 1
     Silicone Case Oppo A5 Rosa 1
     Silicone Case Oppo A5 Salmon 1
+    Silicone Case Oppo A54 Azuloscuro 0
     Silicone Case Oppo A54 Rojo 1
     Silicone Case Oppo A57 / A77 Amarillo 0
     Silicone Case Oppo A57 / A77 Blanco 0
@@ -3371,6 +3420,9 @@
     Silicone Case Oppo A80 Morado 0
     Silicone Case Oppo A80 Negro 0
     Silicone Case Oppo A80 Rojo 0
+    Silicone Case Oppo Realme 7I Amarillo 0
+    Silicone Case Oppo Realme 7I Morado 0
+    Silicone Case Oppo Realme 7I Palorosa 0
     Silicone Case Oppo Realme 7I Rojo 0
     Silicone Case Oppo Realme C11 2021 Fucsia 0
     Silicone Case Oppo Realme C21Y / C25Y Rosa 1
@@ -3406,6 +3458,7 @@
     Silicone Case Oppo Realme C75 Amarillo 0
     Silicone Case Oppo Realme C75 Fucsia 0
     Silicone Case Oppo Realme C75 Morado 0
+    Silicone Case Oppo Realme C75 Negro 0
     Silicone Case Oppo Reamle C53 / Note 50 Negro 0
     Silicone Case Oppo Reno 11 5G Amarillo 0
     Silicone Case Oppo Reno 11 5G Azulrey 0
@@ -3520,6 +3573,7 @@
     Silicone Case Samsung A10 Rosa 0
     Silicone Case Samsung A10 Verde 0
     Silicone Case Samsung A10S Negro 0
+    Silicone Case Samsung A11 Arcoiris 0
     Silicone Case Samsung A11 Morado 0
     Silicone Case Samsung A12 / M12 Morado 1
     Silicone Case Samsung A12 / M12 Verde 1
@@ -4068,7 +4122,7 @@
     Silicone Case Vivo Y17s Rosado 0
     Silicone Case Vivo Y17s Verdemilitar 0
     Silicone Case Vivo Y18 Azulrey 0
-    Silicone Case Vivo Y19S Lila 1
+    Silicone Case Vivo Y19S Lila 0
     Silicone Case Vivo Y20 / Y20S / Y11S Amarillo 1
     Silicone Case Vivo Y20 / Y20S / Y11S Azulrey 1
     Silicone Case Vivo Y20 / Y20S / Y11S Blanco 0
@@ -4173,7 +4227,7 @@
     Silicone Case Xiaomi Redmi 12 Amarillo 0
     Silicone Case Xiaomi Redmi 12 Azulrey 1
     Silicone Case Xiaomi Redmi 12 Fucsia 0
-    Silicone Case Xiaomi Redmi 12 Lila 2
+    Silicone Case Xiaomi Redmi 12 Lila 1
     Silicone Case Xiaomi Redmi 12 Morado 0
     Silicone Case Xiaomi Redmi 12 Negro 0
     Silicone Case Xiaomi Redmi 12 Palorosa 0
@@ -4445,6 +4499,7 @@
     Silicone Case Xiaomi Redmi Note 9 Rosa 0
     Silicone Case Xiaomi Redmi Note 9 Verde 0
     Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Morado 1
+    Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Rojo 0
     Silicone Case Xiaomi Redmi Note 9S Amarillo 0
     Silicone Case Xiaomi Redmi Note 9S Fucsia 0
     Silicone Case Xiaomi Redmi Note 9S Negro 0
@@ -4474,6 +4529,7 @@
     Smart Watch Gw-20 Verdemilitar 0
     Smart Watch I525 Mini Rosa 0
     Smarthone Infinix Smart 10 0
+    Smartphone Huawei Play9A 862703071489146 256/8 0
     Smartphone Infinix Smart 10 351389360145413/66132605 256/8 0
     Smartphone Infinix Smart 9 128/6 Gris 0
     Smartphone Motorola Moto E15 354526455690632 64/2 0
@@ -4483,6 +4539,7 @@
     Smartphone Motorola Moto G24 Power 355913385626481 256/8 0
     Smartphone Nubia Neo 3 Gt 5G 868266070402662 256/20 0
     Smartphone Redmi 14C 867664075580766 256/8 0
+    Smartphone Samsung A06 355397371643520 128/4 0
     Smartphone Samsung A07 35216983221446 128 / 4 0
     Smartphone Samsung A16 0
     Smartphone Samsung A16 352042193728520 128/6 0
@@ -4492,6 +4549,7 @@
     Smartphone Tecno Spark Go 2 350275603884622 128/8 0
     Smartphone Xiaomi Redmi 14C 128/8 Negro 0
     Smartphone Xiaomi Redmi 14C 867664075580766/744 256/8 1
+    Smartphone Xiaomi Redmi 15 860176071384025 256/8 0
     Smartphone Xiaomi Redmi 15 867451072037382 - 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
@@ -4819,7 +4877,7 @@
     Vidrio Blindado Apple Iphone 16E 0
     Vidrio Blindado Apple Iphone 17 5
     Vidrio Blindado Apple Iphone 17 Pro 5
-    Vidrio Blindado Apple Iphone 17 Pro Max 5
+    Vidrio Blindado Apple Iphone 17 Pro Max 0
     Vidrio Blindado Apple Iphone X / Xs / 11 Pro 0
     Vidrio Blindado Apple Iphone Xs Max 0
     Vidrio Blindado Honor X6 0
@@ -4846,6 +4904,7 @@
     Vidrio Blindado Tecno Spark 40 Pro / 40C / Hot 60 Pro 5
     Vidrio Blindado Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 5
     Vidrio Blindado Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 5
+    Vidrio Blindado Xiaomi Poco X3 / A71 0
     Vidrio Blindado Xiaomi Redmi 10 0
     Vidrio Blindado Xiaomi Redmi 10C / 12C 6
     Vidrio Blindado Xiaomi Redmi 12 0
@@ -4894,6 +4953,7 @@
     Vidrio Ceramico Samsung A12 0
     Vidrio Ceramico Samsung A14 0
     Vidrio Ceramico Samsung A21s 0
+    Vidrio Ceramico Samsung A24 0
     Vidrio Ceramico Samsung A35 / A55 0
     Vidrio Ceramico Samsung A71 / Poco X3 0
     Vidrio Ceramico Tecno Spark 10 Pro 0

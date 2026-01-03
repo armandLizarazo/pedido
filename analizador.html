@@ -1,0 +1,1132 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analizador de Ventas CSV - Lógica Marcas</title>
+
+    <!-- 1. Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- 2. React & ReactDOM -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"
+      crossorigin
+    ></script>
+
+    <!-- 3. Recharts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prop-types/15.8.1/prop-types.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/recharts@2.12.0/umd/Recharts.min.js"></script>
+
+    <!-- 4. Babel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f3f4f6;
+      }
+      .loading-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 50;
+        flex-direction: column;
+      }
+      .spinner {
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #3b82f6;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+        margin-bottom: 1rem;
+      }
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .custom-scroll::-webkit-scrollbar {
+        width: 6px;
+      }
+      .custom-scroll::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      .custom-scroll::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 3px;
+      }
+
+      .sortable-header {
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.2s;
+      }
+      .sortable-header:hover {
+        background-color: #e5e7eb;
+      }
+      .sort-icon {
+        display: inline-block;
+        width: 0;
+        height: 0;
+        margin-left: 5px;
+        vertical-align: middle;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+      }
+      .sort-asc {
+        border-bottom: 4px solid #4b5563;
+      }
+      .sort-desc {
+        border-top: 4px solid #4b5563;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading-overlay">
+        <div class="spinner"></div>
+        <p class="text-gray-600 font-medium">Cargando aplicación...</p>
+      </div>
+    </div>
+
+    <script type="text/babel">
+      // --- LISTA MAESTRA DE MARCAS PARA LA LÓGICA DE DETECCIÓN ---
+      const KNOWN_BRANDS = [
+        "SAMSUNG",
+        "XIAOMI",
+        "REDMI",
+        "POCO",
+        "MOTOROLA",
+        "MOTO",
+        "APPLE",
+        "IPHONE",
+        "IPAD",
+        "AIRPODS",
+        "WATCH",
+        "HUAWEI",
+        "HONOR",
+        "OPPO",
+        "VIVO",
+        "REALME",
+        "TECNO",
+        "INFINIX",
+        "NOKIA",
+        "SONY",
+        "LG",
+        "ASUS",
+        "LENOVO",
+        "HP",
+        "DELL",
+        "ACER",
+        "LOGITECH",
+        "JBL",
+        "BOSE",
+        "GOOGLE",
+        "PIXEL",
+        "ONEPLUS",
+        "ZTE",
+        "ALCATEL",
+        "TCL",
+        "HISENSE",
+        "MICROSOFT",
+        "NINTENDO",
+        "PLAYSTATION",
+        "XBOX",
+        "AMAZON",
+        "ALEXA",
+        "ROKU",
+        "CHROMECAST",
+        "KALLEY",
+        "HYUNDAI",
+        "GENIUS",
+        "EPSON",
+        "CANON",
+        "BROTHER",
+      ];
+
+      function initApp() {
+        if (!window.React || !window.ReactDOM || !window.Recharts) {
+          setTimeout(initApp, 200);
+          return;
+        }
+
+        const React = window.React;
+        const ReactDOM = window.ReactDOM;
+        const Recharts = window.Recharts;
+
+        const { useState, useMemo } = React;
+        const {
+          LineChart,
+          Line,
+          BarChart,
+          Bar,
+          XAxis,
+          YAxis,
+          CartesianGrid,
+          Tooltip,
+          Legend,
+          ResponsiveContainer,
+          PieChart,
+          Pie,
+          Cell,
+        } = Recharts;
+
+        // --- ICONOS ---
+        const IconBase = ({ children, className }) => (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            className={className}
+          >
+            {children}
+          </svg>
+        );
+        const Upload = (props) => (
+          <IconBase {...props}>
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="17 8 12 3 7 8" />
+            <line x1="12" y1="3" x2="12" y2="15" />
+          </IconBase>
+        );
+        const FileText = (props) => (
+          <IconBase {...props}>
+            <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z" />
+            <polyline points="14 2 14 8 20 8" />
+          </IconBase>
+        );
+        const Search = (props) => (
+          <IconBase {...props}>
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </IconBase>
+        );
+        const DollarSign = (props) => (
+          <IconBase {...props}>
+            <line x1="12" y1="1" x2="12" y2="23" />
+            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" />
+          </IconBase>
+        );
+        const TrendingUp = (props) => (
+          <IconBase {...props}>
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18" />
+            <polyline points="17 6 23 6 23 12" />
+          </IconBase>
+        );
+        const Package = (props) => (
+          <IconBase {...props}>
+            <line x1="16.5" y1="9.4" x2="7.5" y2="4.21" />
+            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+            <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+            <line x1="12" y1="22.08" x2="12" y2="12" />
+          </IconBase>
+        );
+        const Tag = (props) => (
+          <IconBase {...props}>
+            <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" />
+            <line x1="7" y1="7" x2="7.01" y2="7" />
+          </IconBase>
+        );
+
+        const Card = ({ children, className = "" }) => (
+          <div className={`bg-white rounded-lg shadow-md p-4 ${className}`}>
+            {children}
+          </div>
+        );
+
+        const StatCard = ({
+          title,
+          value,
+          subtext,
+          icon: Icon,
+          colorClass,
+        }) => (
+          <Card>
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm text-gray-500 font-medium">{title}</p>
+                <h3 className="text-2xl font-bold mt-1">{value}</h3>
+                {subtext && (
+                  <p className="text-xs text-gray-400 mt-1">{subtext}</p>
+                )}
+              </div>
+              <div className={`p-3 rounded-full ${colorClass}`}>
+                <Icon className="w-6 h-6 text-white" />
+              </div>
+            </div>
+          </Card>
+        );
+
+        const parseCSVLine = (text) => {
+          const re_valid =
+            /^\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*(?:,\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*)*$/;
+          const re_value =
+            /(?!\s*$)\s*(?:'([^'\\]*(?:\\[\S\s][^'\\]*)*)'|"([^"\\]*(?:\\[\S\s][^"\\]*)*)"|([^,'"\s\\]*(?:\s+[^,'"\s\\]+)*))\s*(?:,|$)/g;
+          const a = [];
+          text.replace(re_value, (m0, m1, m2, m3) => {
+            if (m1 !== undefined) a.push(m1.replace(/\\'/g, "'"));
+            else if (m2 !== undefined) a.push(m2.replace(/\\"/g, '"'));
+            else if (m3 !== undefined) a.push(m3);
+            return "";
+          });
+          if (/,\s*$/.test(text)) a.push("");
+          return a;
+        };
+
+        const createLocalDate = (dateString) => {
+          if (!dateString) return null;
+          const [year, month, day] = dateString.split("-").map(Number);
+          return new Date(year, month - 1, day);
+        };
+
+        function SalesDashboard() {
+          const [data, setData] = useState([]);
+          const [fileName, setFileName] = useState(null);
+          const [loading, setLoading] = useState(false);
+          const [filters, setFilters] = useState({
+            search: "",
+            startDate: "",
+            endDate: "",
+            status: "Todos",
+          });
+
+          // Estados de Ordenamiento
+          const [productSort, setProductSort] = useState({
+            key: "cantidad",
+            direction: "desc",
+          });
+          const [categorySort, setCategorySort] = useState({
+            key: "totalVenta",
+            direction: "desc",
+          });
+
+          const handleFileUpload = (event) => {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            setLoading(true);
+            setFileName(file.name);
+
+            const reader = new FileReader();
+            reader.onload = (e) => {
+              const text = e.target.result;
+              const lines = text
+                .split("\n")
+                .filter((line) => line.trim() !== "");
+
+              const parsedData = lines
+                .slice(1)
+                .map((line) => {
+                  let values = line.includes('"')
+                    ? parseCSVLine(line)
+                    : line.split(",");
+                  if (values.length < 10) return null;
+
+                  const rawDate = values[0].trim();
+                  const isoDateStr = rawDate.replace(" ", "T");
+                  const dateObj = new Date(isoDateStr);
+                  const descripcion = values[2] || "";
+                  const upperDesc = descripcion.toUpperCase();
+
+                  // --- LÓGICA DE CATEGORIZACIÓN INTELIGENTE ---
+                  // 1. Busca la primera aparición de una marca conocida
+                  let splitIndex = -1;
+                  let matchedBrand = "";
+
+                  for (const brand of KNOWN_BRANDS) {
+                    // Buscamos la marca como palabra completa o inicio de cadena para evitar falsos positivos
+                    // Pero indexOf es más rápido y robusto para datos sucios de CSVs de ventas
+                    const idx = upperDesc.indexOf(brand);
+                    if (idx !== -1) {
+                      // Queremos la primera marca que aparezca en el texto
+                      if (splitIndex === -1 || idx < splitIndex) {
+                        splitIndex = idx;
+                        matchedBrand = brand;
+                      }
+                    }
+                  }
+
+                  let categoria = "OTROS";
+
+                  if (splitIndex > 0) {
+                    // CASO A: Hay texto antes de la marca (Ej: "Funda Silicona [Samsung]...")
+                    let rawCat = descripcion.substring(0, splitIndex).trim();
+                    categoria = rawCat.toUpperCase();
+
+                    // LIMPIEZA: Quitar conectores comunes al final de la categoría
+                    const connectors = [
+                      " PARA",
+                      " DE",
+                      " COMPATIBLE CON",
+                      " COMPATIBLE",
+                      " TIPO",
+                    ];
+                    connectors.forEach((conn) => {
+                      if (categoria.endsWith(conn)) {
+                        categoria = categoria
+                          .substring(0, categoria.length - conn.length)
+                          .trim();
+                      }
+                    });
+
+                    // Si después de limpiar queda vacío (raro), fallback
+                    if (!categoria) categoria = "ACCESORIO";
+                  } else if (splitIndex === 0) {
+                    // CASO B: Empieza con la marca (Ej: "[Xiaomi] Redmi Note 10")
+                    categoria = "EQUIPO";
+                  } else {
+                    // CASO C: No se encontró marca conocida, usar primera palabra
+                    categoria = descripcion.split(" ")[0].toUpperCase();
+                  }
+
+                  return {
+                    timestamp: isNaN(dateObj.getTime())
+                      ? new Date(rawDate)
+                      : dateObj,
+                    id: values[1],
+                    descripcion: descripcion,
+                    categoria: categoria,
+                    cantidad: parseFloat(values[3]) || 0,
+                    costoUnitario: parseFloat(values[4]) || 0,
+                    precioUnitario: parseFloat(values[5]) || 0,
+                    totalVenta: parseFloat(values[6]) || 0,
+                    ganancia: parseFloat(values[7]) || 0,
+                    estado: values[11]?.trim() || "Desconocido",
+                  };
+                })
+                .filter((item) => item !== null && !isNaN(item.totalVenta));
+
+              setData(parsedData);
+              setLoading(false);
+            };
+            reader.readAsText(file);
+          };
+
+          const filteredData = useMemo(() => {
+            return data.filter((item) => {
+              const matchesSearch =
+                item.descripcion
+                  .toLowerCase()
+                  .includes(filters.search.toLowerCase()) ||
+                item.id.includes(filters.search) ||
+                item.categoria
+                  .toLowerCase()
+                  .includes(filters.search.toLowerCase());
+              const matchesStatus =
+                filters.status === "Todos" || item.estado === filters.status;
+
+              let matchesDate = true;
+              if (filters.startDate) {
+                const start = createLocalDate(filters.startDate);
+                matchesDate = matchesDate && item.timestamp >= start;
+              }
+              if (filters.endDate) {
+                const end = createLocalDate(filters.endDate);
+                end.setHours(23, 59, 59, 999);
+                matchesDate = matchesDate && item.timestamp <= end;
+              }
+
+              return matchesSearch && matchesStatus && matchesDate;
+            });
+          }, [data, filters]);
+
+          // --- ESTADÍSTICAS GENERALES ---
+          const stats = useMemo(() => {
+            const totalVentas = filteredData.reduce(
+              (acc, curr) => acc + curr.totalVenta,
+              0
+            );
+            const totalGanancia = filteredData.reduce(
+              (acc, curr) => acc + curr.ganancia,
+              0
+            );
+            const totalCantidad = filteredData.reduce(
+              (acc, curr) => acc + curr.cantidad,
+              0
+            );
+            const totalCostos = filteredData.reduce(
+              (acc, curr) => acc + curr.costoUnitario * curr.cantidad,
+              0
+            );
+            const costoPromedio =
+              totalCantidad > 0 ? totalCostos / totalCantidad : 0;
+            const ticketPromedio =
+              filteredData.length > 0 ? totalVentas / filteredData.length : 0;
+            return {
+              totalVentas,
+              totalGanancia,
+              totalCantidad,
+              costoPromedio,
+              ticketPromedio,
+              count: filteredData.length,
+            };
+          }, [filteredData]);
+
+          const chartDataByDate = useMemo(() => {
+            const groups = {};
+            filteredData.forEach((item) => {
+              if (isNaN(item.timestamp.getTime())) return;
+              const dateKey = item.timestamp.toLocaleDateString("es-CO");
+              if (!groups[dateKey]) {
+                groups[dateKey] = {
+                  date: dateKey,
+                  isoDate: item.timestamp,
+                  venta: 0,
+                  ganancia: 0,
+                };
+              }
+              groups[dateKey].venta += item.totalVenta;
+              groups[dateKey].ganancia += item.ganancia;
+            });
+            return Object.values(groups).sort((a, b) => a.isoDate - b.isoDate);
+          }, [filteredData]);
+
+          // --- LÓGICA DE AGRUPACIÓN (Reusable) ---
+          const aggregateData = (dataKey) => {
+            const groups = {};
+            filteredData.forEach((item) => {
+              const key = item[dataKey]; // 'categoria' o 'descripcion'
+              if (!groups[key]) {
+                groups[key] = {
+                  name: key,
+                  cantidad: 0,
+                  totalVenta: 0,
+                  totalGanancia: 0,
+                  sumCosto: 0,
+                  sumPrecio: 0,
+                  count: 0,
+                };
+              }
+              groups[key].cantidad += item.cantidad;
+              groups[key].totalVenta += item.totalVenta;
+              groups[key].totalGanancia += item.ganancia;
+              groups[key].sumCosto += item.costoUnitario * item.cantidad;
+              groups[key].sumPrecio += item.precioUnitario * item.cantidad;
+              groups[key].count += item.cantidad;
+            });
+            return Object.values(groups).map((g) => ({
+              ...g,
+              avgCosto: g.count > 0 ? g.sumCosto / g.count : 0,
+              avgPrecio: g.count > 0 ? g.sumPrecio / g.count : 0,
+            }));
+          };
+
+          // --- DATOS DE PRODUCTOS ---
+          const allProductStats = useMemo(
+            () => aggregateData("descripcion"),
+            [filteredData]
+          );
+          const sortedProductStats = useMemo(
+            () => sortData(allProductStats, productSort),
+            [allProductStats, productSort]
+          );
+
+          // --- DATOS DE CATEGORÍAS (Nuevo) ---
+          const allCategoryStats = useMemo(
+            () => aggregateData("categoria"),
+            [filteredData]
+          );
+          const sortedCategoryStats = useMemo(
+            () => sortData(allCategoryStats, categorySort),
+            [allCategoryStats, categorySort]
+          );
+
+          // Función Genérica de Ordenamiento
+          function sortData(items, sortConfig) {
+            let sortableItems = [...items];
+            if (sortConfig.key) {
+              sortableItems.sort((a, b) => {
+                let aValue = a[sortConfig.key];
+                let bValue = b[sortConfig.key];
+                if (typeof aValue === "string") aValue = aValue.toLowerCase();
+                if (typeof bValue === "string") bValue = bValue.toLowerCase();
+                if (aValue < bValue)
+                  return sortConfig.direction === "asc" ? -1 : 1;
+                if (aValue > bValue)
+                  return sortConfig.direction === "asc" ? 1 : -1;
+                return 0;
+              });
+            }
+            return sortableItems;
+          }
+
+          // Handlers de Ordenamiento
+          const requestProductSort = (key) =>
+            setProductSort((prev) => ({
+              key,
+              direction:
+                prev.key === key && prev.direction === "asc" ? "desc" : "asc",
+            }));
+          const requestCategorySort = (key) =>
+            setCategorySort((prev) => ({
+              key,
+              direction:
+                prev.key === key && prev.direction === "asc" ? "desc" : "asc",
+            }));
+
+          const statusDistribution = useMemo(() => {
+            const groups = {};
+            filteredData.forEach((item) => {
+              const key = item.estado || "Sin Estado";
+              if (!groups[key]) groups[key] = { name: key, value: 0 };
+              groups[key].value += 1;
+            });
+            return Object.values(groups);
+          }, [filteredData]);
+
+          const uniqueStatuses = useMemo(() => {
+            const statuses = new Set(data.map((d) => d.estado));
+            return ["Todos", ...Array.from(statuses)];
+          }, [data]);
+
+          const COLORS = [
+            "#0088FE",
+            "#00C49F",
+            "#FFBB28",
+            "#FF8042",
+            "#8884d8",
+          ];
+          const formatMoney = (val) =>
+            new Intl.NumberFormat("es-CO", {
+              style: "currency",
+              currency: "COP",
+              maximumFractionDigits: 0,
+            }).format(val);
+
+          // Helper Component para Headers
+          const SortHeader = ({
+            label,
+            sortKey,
+            currentSort,
+            onSort,
+            align = "right",
+          }) => (
+            <th
+              className={`px-3 py-2 text-${align} font-medium text-gray-600 sortable-header sticky top-0 bg-gray-50 z-10 whitespace-nowrap`}
+              onClick={() => onSort(sortKey)}
+            >
+              {label}
+              {currentSort.key === sortKey && (
+                <span
+                  className={`sort-icon ${
+                    currentSort.direction === "asc" ? "sort-asc" : "sort-desc"
+                  }`}
+                ></span>
+              )}
+            </th>
+          );
+
+          if (data.length === 0) {
+            return (
+              <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
+                <div className="max-w-xl w-full text-center space-y-6">
+                  <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-lg">
+                    <FileText className="text-white w-8 h-8" />
+                  </div>
+                  <h1 className="text-3xl font-bold text-gray-800">
+                    Analizador de Ventas Inteligente
+                  </h1>
+                  <p className="text-gray-600">
+                    Carga tu archivo CSV. El sistema detectará automáticamente
+                    las categorías basándose en las marcas (ej: "Funda Samsung"
+                    -> Categoría: Funda).
+                  </p>
+                  <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-blue-300 border-dashed rounded-lg cursor-pointer bg-blue-50 hover:bg-blue-100 transition-colors">
+                    <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                      {loading ? (
+                        <div
+                          className="spinner mb-3"
+                          style={{
+                            width: "30px",
+                            height: "30px",
+                            borderTopColor: "#2563eb",
+                          }}
+                        ></div>
+                      ) : (
+                        <Upload className="w-10 h-10 mb-3 text-blue-500" />
+                      )}
+                      <p className="mb-2 text-sm text-gray-500">
+                        <span className="font-semibold">
+                          Haz clic para subir
+                        </span>{" "}
+                        o arrastra el archivo
+                      </p>
+                      <p className="text-xs text-gray-500">Formato: .csv</p>
+                    </div>
+                    <input
+                      type="file"
+                      className="hidden"
+                      accept=".csv"
+                      onChange={handleFileUpload}
+                    />
+                  </label>
+                </div>
+              </div>
+            );
+          }
+
+          return (
+            <div className="min-h-screen bg-gray-100 p-4 md:p-8 font-sans">
+              <div className="max-w-7xl mx-auto space-y-6">
+                {/* Header */}
+                <div className="flex flex-col md:flex-row justify-between items-start md:items-center bg-white p-4 rounded-lg shadow-sm">
+                  <div>
+                    <h1 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
+                      <TrendingUp className="text-blue-600" /> Dashboard de
+                      Ventas
+                    </h1>
+                    <p className="text-sm text-gray-500 mt-1">
+                      Archivo: {fileName} | Registros: {data.length}
+                    </p>
+                  </div>
+                  <button
+                    onClick={() => setData([])}
+                    className="mt-2 md:mt-0 text-sm text-red-500 hover:text-red-700 font-medium border border-red-200 px-3 py-1 rounded hover:bg-red-50 transition"
+                  >
+                    Cambiar Archivo
+                  </button>
+                </div>
+
+                {/* Filters */}
+                <Card className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
+                  <div className="col-span-1 md:col-span-2">
+                    <label className="text-xs font-semibold text-gray-500 uppercase">
+                      Buscar (ID, Producto o Categoría)
+                    </label>
+                    <div className="relative mt-1">
+                      <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                      <input
+                        type="text"
+                        placeholder="Ej. Cable, Funda, Completada..."
+                        className="w-full pl-10 pr-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
+                        value={filters.search}
+                        onChange={(e) =>
+                          setFilters({ ...filters, search: e.target.value })
+                        }
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <label className="text-xs font-semibold text-gray-500 uppercase">
+                      Estado
+                    </label>
+                    <select
+                      className="w-full mt-1 px-3 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white"
+                      value={filters.status}
+                      onChange={(e) =>
+                        setFilters({ ...filters, status: e.target.value })
+                      }
+                    >
+                      {uniqueStatuses.map((s) => (
+                        <option key={s} value={s}>
+                          {s}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+                  <div className="flex gap-2">
+                    <div className="flex-1">
+                      <label className="text-xs font-semibold text-gray-500 uppercase">
+                        Desde
+                      </label>
+                      <input
+                        type="date"
+                        className="w-full mt-1 px-2 py-2 border rounded-md text-sm"
+                        value={filters.startDate}
+                        onChange={(e) =>
+                          setFilters({ ...filters, startDate: e.target.value })
+                        }
+                      />
+                    </div>
+                    <div className="flex-1">
+                      <label className="text-xs font-semibold text-gray-500 uppercase">
+                        Hasta
+                      </label>
+                      <input
+                        type="date"
+                        className="w-full mt-1 px-2 py-2 border rounded-md text-sm"
+                        value={filters.endDate}
+                        onChange={(e) =>
+                          setFilters({ ...filters, endDate: e.target.value })
+                        }
+                      />
+                    </div>
+                  </div>
+                </Card>
+
+                {/* KPI Stats */}
+                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                  <StatCard
+                    title="Ventas Totales"
+                    value={formatMoney(stats.totalVentas)}
+                    subtext={`${stats.count} transacciones`}
+                    icon={DollarSign}
+                    colorClass="bg-green-500"
+                  />
+                  <StatCard
+                    title="Ganancia Neta"
+                    value={formatMoney(stats.totalGanancia)}
+                    subtext={`Margen: ${
+                      stats.totalVentas > 0
+                        ? (
+                            (stats.totalGanancia / stats.totalVentas) *
+                            100
+                          ).toFixed(1)
+                        : 0
+                    }%`}
+                    icon={TrendingUp}
+                    colorClass="bg-blue-500"
+                  />
+                  <StatCard
+                    title="Costo Promedio"
+                    value={formatMoney(stats.costoPromedio)}
+                    subtext="Por unidad vendida"
+                    icon={Package}
+                    colorClass="bg-orange-500"
+                  />
+                  <StatCard
+                    title="Total Unidades"
+                    value={stats.totalCantidad}
+                    subtext={`Ticket Prom: ${formatMoney(
+                      stats.ticketPromedio
+                    )}`}
+                    icon={FileText}
+                    colorClass="bg-purple-500"
+                  />
+                </div>
+
+                {/* Charts Section 1 */}
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                  <Card className="lg:col-span-2 h-96">
+                    <h3 className="text-lg font-bold text-gray-700 mb-4">
+                      Tendencia de Ventas (Tiempo)
+                    </h3>
+                    <ResponsiveContainer width="100%" height="100%">
+                      <LineChart data={chartDataByDate}>
+                        <CartesianGrid strokeDasharray="3 3" vertical={false} />
+                        <XAxis dataKey="date" tick={{ fontSize: 12 }} />
+                        <YAxis
+                          tickFormatter={(val) => `$${val / 1000}k`}
+                          tick={{ fontSize: 12 }}
+                        />
+                        <Tooltip formatter={(value) => formatMoney(value)} />
+                        <Legend />
+                        <Line
+                          type="monotone"
+                          dataKey="venta"
+                          name="Venta Total"
+                          stroke="#10B981"
+                          strokeWidth={2}
+                          dot={false}
+                        />
+                        <Line
+                          type="monotone"
+                          dataKey="ganancia"
+                          name="Ganancia"
+                          stroke="#3B82F6"
+                          strokeWidth={2}
+                          dot={false}
+                        />
+                      </LineChart>
+                    </ResponsiveContainer>
+                  </Card>
+                  <Card className="h-96">
+                    <h3 className="text-lg font-bold text-gray-700 mb-4">
+                      Estado de Pedidos
+                    </h3>
+                    <ResponsiveContainer width="100%" height="100%">
+                      <PieChart>
+                        <Pie
+                          data={statusDistribution}
+                          cx="50%"
+                          cy="50%"
+                          innerRadius={60}
+                          outerRadius={80}
+                          fill="#8884d8"
+                          paddingAngle={5}
+                          dataKey="value"
+                        >
+                          {statusDistribution.map((entry, index) => (
+                            <Cell
+                              key={`cell-${index}`}
+                              fill={COLORS[index % COLORS.length]}
+                            />
+                          ))}
+                        </Pie>
+                        <Tooltip />
+                        <Legend />
+                      </PieChart>
+                    </ResponsiveContainer>
+                  </Card>
+                </div>
+
+                {/* ANÁLISIS DUAL: CATEGORÍAS (IZQ) vs PRODUCTOS (DER) */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  {/* COLUMNA IZQUIERDA: DASHBOARD DE CATEGORÍAS */}
+                  <Card className="h-[500px] flex flex-col">
+                    <div className="flex justify-between items-center mb-2">
+                      <div className="flex items-center gap-2">
+                        <Tag className="w-5 h-5 text-blue-600" />
+                        <h3 className="text-lg font-bold text-blue-700">
+                          Categorías Detectadas
+                        </h3>
+                      </div>
+                      <span className="text-xs text-gray-500 bg-blue-50 px-2 py-1 rounded">
+                        Basado en Marcas
+                      </span>
+                    </div>
+
+                    {/* 2. Tabla Interactiva de Categorías */}
+                    <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
+                      <table className="min-w-full text-sm">
+                        <thead className="bg-blue-50 sticky top-0 z-10 shadow-sm">
+                          <tr>
+                            <SortHeader
+                              label="Categoría"
+                              sortKey="name"
+                              currentSort={categorySort}
+                              onSort={requestCategorySort}
+                              align="left"
+                            />
+                            <SortHeader
+                              label="Cant."
+                              sortKey="cantidad"
+                              currentSort={categorySort}
+                              onSort={requestCategorySort}
+                            />
+                            <SortHeader
+                              label="Total"
+                              sortKey="totalVenta"
+                              currentSort={categorySort}
+                              onSort={requestCategorySort}
+                            />
+                            <SortHeader
+                              label="Ganancia"
+                              sortKey="totalGanancia"
+                              currentSort={categorySort}
+                              onSort={requestCategorySort}
+                            />
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-100">
+                          {sortedCategoryStats.map((c, i) => (
+                            <tr
+                              key={i}
+                              className="hover:bg-blue-50 transition-colors"
+                            >
+                              <td
+                                className="px-3 py-2 text-gray-700 font-bold text-xs truncate max-w-[120px]"
+                                title={c.name}
+                              >
+                                {c.name}
+                              </td>
+                              <td className="px-3 py-2 text-right font-medium text-gray-600">
+                                {c.cantidad}
+                              </td>
+                              <td className="px-3 py-2 text-right font-bold text-blue-600 text-xs">
+                                {formatMoney(c.totalVenta)}
+                              </td>
+                              <td className="px-3 py-2 text-right text-green-600 font-medium text-xs">
+                                {formatMoney(c.totalGanancia)}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </Card>
+
+                  {/* COLUMNA DERECHA: DASHBOARD DE PRODUCTOS (Detalle) */}
+                  <Card className="h-[500px] flex flex-col">
+                    <div className="flex justify-between items-center mb-2">
+                      <h3 className="text-lg font-bold text-gray-700">
+                        Detalle por Producto
+                      </h3>
+                      <span className="text-xs text-gray-500 italic">
+                        Clic títulos para ordenar
+                      </span>
+                    </div>
+                    <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
+                      <table className="min-w-full text-sm">
+                        <thead className="bg-gray-100 sticky top-0 z-10 shadow-sm">
+                          <tr>
+                            <SortHeader
+                              label="Producto"
+                              sortKey="name"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                              align="left"
+                            />
+                            <SortHeader
+                              label="Cant."
+                              sortKey="cantidad"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                            />
+                            <SortHeader
+                              label="Precio"
+                              sortKey="avgPrecio"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                            />
+                            <SortHeader
+                              label="Total"
+                              sortKey="totalVenta"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                            />
+                            <SortHeader
+                              label="Ganancia"
+                              sortKey="totalGanancia"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                            />
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-100">
+                          {sortedProductStats.map((p, i) => (
+                            <tr
+                              key={i}
+                              className="hover:bg-gray-50 transition-colors"
+                            >
+                              <td
+                                className="px-3 py-2 text-gray-700 font-medium text-xs truncate max-w-[150px]"
+                                title={p.name}
+                              >
+                                {p.name}
+                              </td>
+                              <td className="px-3 py-2 text-right font-bold text-gray-600">
+                                {p.cantidad}
+                              </td>
+                              <td className="px-3 py-2 text-right text-gray-400 text-xs">
+                                {formatMoney(p.avgPrecio)}
+                              </td>
+                              <td className="px-3 py-2 text-right font-semibold text-gray-700 text-xs">
+                                {formatMoney(p.totalVenta)}
+                              </td>
+                              <td className="px-3 py-2 text-right text-green-600 font-medium text-xs">
+                                {formatMoney(p.totalGanancia)}
+                              </td>
+                            </tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                  </Card>
+                </div>
+
+                {/* Data Table Completa */}
+                <Card>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-bold text-gray-700">
+                      Todas las Transacciones
+                    </h3>
+                    <span className="text-sm text-gray-500">
+                      {filteredData.length} registros
+                    </span>
+                  </div>
+                  <div className="overflow-x-auto max-h-96 custom-scroll">
+                    <table className="min-w-full text-sm divide-y divide-gray-200">
+                      <thead className="bg-gray-50 sticky top-0">
+                        <tr>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Fecha
+                          </th>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Categoría (Auto)
+                          </th>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Descripción
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Cant.
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Total
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Ganancia
+                          </th>
+                          <th className="px-4 py-3 text-center font-medium text-gray-500">
+                            Estado
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white divide-y divide-gray-200">
+                        {filteredData.slice(0, 100).map((row, idx) => (
+                          <tr key={idx} className="hover:bg-gray-50">
+                            <td className="px-4 py-2 text-gray-500 whitespace-nowrap text-xs">
+                              {row.timestamp.toLocaleDateString()}
+                            </td>
+                            <td className="px-4 py-2 text-blue-600 font-semibold text-xs whitespace-nowrap">
+                              {row.categoria}
+                            </td>
+                            <td
+                              className="px-4 py-2 text-gray-800 text-xs max-w-xs truncate"
+                              title={row.descripcion}
+                            >
+                              {row.descripcion}
+                            </td>
+                            <td className="px-4 py-2 text-right font-medium text-xs">
+                              {row.cantidad}
+                            </td>
+                            <td className="px-4 py-2 text-right font-bold text-gray-700 text-xs">
+                              {formatMoney(row.totalVenta)}
+                            </td>
+                            <td className="px-4 py-2 text-right text-green-600 text-xs">
+                              {formatMoney(row.ganancia)}
+                            </td>
+                            <td className="px-4 py-2 text-center">
+                              <span
+                                className={`px-2 py-0.5 rounded-full text-[10px] uppercase font-bold ${
+                                  row.estado === "Completada"
+                                    ? "bg-green-100 text-green-800"
+                                    : row.estado === "Cancelada"
+                                    ? "bg-red-100 text-red-800"
+                                    : "bg-gray-100 text-gray-800"
+                                }`}
+                              >
+                                {row.estado}
+                              </span>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </Card>
+              </div>
+            </div>
+          );
+        }
+
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(<SalesDashboard />);
+      }
+
+      initApp();
+    </script>
+  </body>
+</html>

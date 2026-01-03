@@ -7,6 +7,9 @@
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 2
     Balaca Gamer A65 1
+    Base Refrigerante 1 Ventilador 1
+    Base Refrigerante 2 Ventiladores 1
+    Base Refrigerante X6a 1
     Cable 3 a 1 Video Compuesto 2
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
@@ -25,6 +28,7 @@
     Control Gamer Sony Ps2 Inalambrico 2
     Control Tv Universal 8
     Estabilizador 1800w 1
+    Estabilizador 4 Puertos 1
     Estetica Cepillo Secador Giratorio 1
     Estetica Cepillo Secador Remington Keratina 1
     Extension 4m 1
@@ -32,7 +36,9 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
+    Memory Card Ps2 1
     Mouse Gamer X3 2
+    Palo Selfie Xt-02 1
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
@@ -40,6 +46,7 @@
     Pila Control 23A 5
     Pila Reloj Cr-2032 5
     Pilas Carbon Maxday Aaa X2 30
+    Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd 2
     Reproductor Tdt Beck Paly 3
@@ -53,6 +60,7 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Tableta Tigers Kids Rosa 1
+    Teclado Combo Gamer F92 3
     Telefono Fijo Panaphone Kx-T806 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
