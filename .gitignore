@@ -3,3 +3,4 @@ qrs/
 facturas/
 #Ignorar Archivos
 *.PNG
+*.csv
