@@ -1,7 +1,8 @@
     Adaptador Av2Hdmi 3 ok
     Adaptador Dpp2Vga 2 ok
-    Adaptador Europeo Redondo 5
+    Adaptador Europeo Goma 5 ok
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Av2Hdmi 3 ok
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1 ok
     Aro De Luz Joma 26Cm Ligth 3 ok
@@ -11,6 +12,8 @@
     Base Refrigerante 1 Ventilador 1 ok
     Base Refrigerante 2 Ventiladores 1 ok
     Base Refrigerante 5 Ventiladores RGB 1 ok
+    Base Refrigerante Gamer Rgb Secuencias 1 ok
+    Parlante Sonivox R-100 1 ok
     Cable 3 a 1 Video Compuesto 2
     Cable Auxiliar 1 A 1 5M 3 ok
     Cable Disco Duro V8 3.0 Corto 2
@@ -38,6 +41,7 @@
     Estetica Cepillo Secador Remington Keratina 1
     Extension 4m 1
     Forro Pc 16 Pulgadas 2
+    Multitoma 6 Enchufes 1 ok
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
@@ -49,7 +53,7 @@
     Parlante Tg-294 Rojo 1
     Patillera 3 En 1 3 ok
     Pila Control 23A 5
-    Pila Reloj Cr-2032 5
+    Pila Reloj Cr-2032 5 ok
     Pilas Carbon Maxday Aaa X2 30
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
@@ -59,7 +63,8 @@
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
     Smart Watch Combo K13 1
-    Smart Watch Combo K32 2
+    Smart Watch Combo K32 1 ok
+    Smart Watch Combo K55 2 ok
     Soporte Monitor Mesa 1
     Soporte Nephoo Tripode Camara-Celular Np-999 1 ok
     Soporte Para Control Ps4 1
@@ -69,3 +74,5 @@
     Telefono Fijo Panaphone Kx-T806 1 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
+    Tripode Selfie-05 1 ok
+    Cable Apple Iphone 4 2 ok
