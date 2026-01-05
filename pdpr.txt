@@ -4,6 +4,7 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Rca2Plug3.5 5
     Adpatador Vga2hdmi Cbl Cja 1
+    Aro De Luz Joma 26Cm Ligth 2
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 2
     Balaca Gamer A65 1
@@ -11,6 +12,7 @@
     Base Refrigerante 2 Ventiladores 1
     Base Refrigerante X6a 1
     Cable 3 a 1 Video Compuesto 2
+    Cable Auxiliar 1 A 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
@@ -24,8 +26,10 @@
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Sup Con Control Rojo 1
+    Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Sony Ps2 Inalambrico 2
+    Control Gamer X3S 3
     Control Tv Universal 8
     Estabilizador 1800w 1
     Estabilizador 4 Puertos 1

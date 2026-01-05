@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Analizador de Ventas CSV - Lógica Marcas</title>
+    <title>Analizador de Ventas - Offline Pro</title>
 
     <!-- 1. Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -101,12 +101,12 @@
     <div id="root">
       <div class="loading-overlay">
         <div class="spinner"></div>
-        <p class="text-gray-600 font-medium">Cargando aplicación...</p>
+        <p class="text-gray-600 font-medium">Iniciando aplicación...</p>
       </div>
     </div>
 
     <script type="text/babel">
-      // --- LISTA MAESTRA DE MARCAS PARA LA LÓGICA DE DETECCIÓN ---
+      // --- LISTA MAESTRA DE MARCAS ---
       const KNOWN_BRANDS = [
         "SAMSUNG",
         "XIAOMI",
@@ -170,7 +170,7 @@
         const ReactDOM = window.ReactDOM;
         const Recharts = window.Recharts;
 
-        const { useState, useMemo } = React;
+        const { useState, useMemo, useRef } = React;
         const {
           LineChart,
           Line,
@@ -187,7 +187,7 @@
           Cell,
         } = Recharts;
 
-        // --- ICONOS ---
+        // --- COMPONENTES UI ---
         const IconBase = ({ children, className }) => (
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -209,6 +209,13 @@
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
             <polyline points="17 8 12 3 7 8" />
             <line x1="12" y1="3" x2="12" y2="15" />
+          </IconBase>
+        );
+        const RefreshCw = (props) => (
+          <IconBase {...props}>
+            <polyline points="23 4 23 10 17 10" />
+            <polyline points="1 20 1 14 7 14" />
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15" />
           </IconBase>
         );
         const FileText = (props) => (
@@ -279,6 +286,29 @@
           </Card>
         );
 
+        const SortHeader = ({
+          label,
+          sortKey,
+          currentSort,
+          onSort,
+          align = "right",
+        }) => (
+          <th
+            className={`px-3 py-2 text-${align} font-medium text-gray-600 sortable-header sticky top-0 bg-gray-50 z-10 whitespace-nowrap`}
+            onClick={() => onSort(sortKey)}
+          >
+            {label}
+            {currentSort.key === sortKey && (
+              <span
+                className={`sort-icon ${
+                  currentSort.direction === "asc" ? "sort-asc" : "sort-desc"
+                }`}
+              ></span>
+            )}
+          </th>
+        );
+
+        // --- PARSERS Y HELPERS ---
         const parseCSVLine = (text) => {
           const re_valid =
             /^\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*(?:,\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*)*$/;
@@ -305,6 +335,8 @@
           const [data, setData] = useState([]);
           const [fileName, setFileName] = useState(null);
           const [loading, setLoading] = useState(false);
+          const fileInputRef = useRef(null);
+
           const [filters, setFilters] = useState({
             search: "",
             startDate: "",
@@ -312,7 +344,7 @@
             status: "Todos",
           });
 
-          // Estados de Ordenamiento
+          // Sort States
           const [productSort, setProductSort] = useState({
             key: "cantidad",
             direction: "desc",
@@ -322,8 +354,8 @@
             direction: "desc",
           });
 
-          const handleFileUpload = (event) => {
-            const file = event.target.files[0];
+          // FILE PROCESSING LOGIC
+          const processFile = (file) => {
             if (!file) return;
 
             setLoading(true);
@@ -350,32 +382,20 @@
                   const descripcion = values[2] || "";
                   const upperDesc = descripcion.toUpperCase();
 
-                  // --- LÓGICA DE CATEGORIZACIÓN INTELIGENTE ---
-                  // 1. Busca la primera aparición de una marca conocida
+                  // Lógica Marcas
                   let splitIndex = -1;
-                  let matchedBrand = "";
-
                   for (const brand of KNOWN_BRANDS) {
-                    // Buscamos la marca como palabra completa o inicio de cadena para evitar falsos positivos
-                    // Pero indexOf es más rápido y robusto para datos sucios de CSVs de ventas
                     const idx = upperDesc.indexOf(brand);
                     if (idx !== -1) {
-                      // Queremos la primera marca que aparezca en el texto
-                      if (splitIndex === -1 || idx < splitIndex) {
+                      if (splitIndex === -1 || idx < splitIndex)
                         splitIndex = idx;
-                        matchedBrand = brand;
-                      }
                     }
                   }
 
                   let categoria = "OTROS";
-
                   if (splitIndex > 0) {
-                    // CASO A: Hay texto antes de la marca (Ej: "Funda Silicona [Samsung]...")
                     let rawCat = descripcion.substring(0, splitIndex).trim();
                     categoria = rawCat.toUpperCase();
-
-                    // LIMPIEZA: Quitar conectores comunes al final de la categoría
                     const connectors = [
                       " PARA",
                       " DE",
@@ -384,20 +404,15 @@
                       " TIPO",
                     ];
                     connectors.forEach((conn) => {
-                      if (categoria.endsWith(conn)) {
+                      if (categoria.endsWith(conn))
                         categoria = categoria
                           .substring(0, categoria.length - conn.length)
                           .trim();
-                      }
                     });
-
-                    // Si después de limpiar queda vacío (raro), fallback
                     if (!categoria) categoria = "ACCESORIO";
                   } else if (splitIndex === 0) {
-                    // CASO B: Empieza con la marca (Ej: "[Xiaomi] Redmi Note 10")
                     categoria = "EQUIPO";
                   } else {
-                    // CASO C: No se encontró marca conocida, usar primera palabra
                     categoria = descripcion.split(" ")[0].toUpperCase();
                   }
 
@@ -424,6 +439,21 @@
             reader.readAsText(file);
           };
 
+          const handleFileUpload = (event) => {
+            const file = event.target.files[0];
+            processFile(file);
+            // Permitir subir el mismo archivo nuevamente si cambia
+            event.target.value = "";
+          };
+
+          const handleReload = () => {
+            // Trigger el input oculto para que el usuario reseleccione/confirme el archivo
+            if (fileInputRef.current) {
+              fileInputRef.current.click();
+            }
+          };
+
+          // --- FILTROS & DATOS ---
           const filteredData = useMemo(() => {
             return data.filter((item) => {
               const matchesSearch =
@@ -452,7 +482,6 @@
             });
           }, [data, filters]);
 
-          // --- ESTADÍSTICAS GENERALES ---
           const stats = useMemo(() => {
             const totalVentas = filteredData.reduce(
               (acc, curr) => acc + curr.totalVenta,
@@ -478,13 +507,14 @@
               totalVentas,
               totalGanancia,
               totalCantidad,
+              totalCostos,
               costoPromedio,
               ticketPromedio,
               count: filteredData.length,
             };
           }, [filteredData]);
 
-          const chartDataByDate = useMemo(() => {
+          const dailyStats = useMemo(() => {
             const groups = {};
             filteredData.forEach((item) => {
               if (isNaN(item.timestamp.getTime())) return;
@@ -493,21 +523,24 @@
                 groups[dateKey] = {
                   date: dateKey,
                   isoDate: item.timestamp,
+                  cantidad: 0,
+                  costo: 0,
                   venta: 0,
                   ganancia: 0,
                 };
               }
+              groups[dateKey].cantidad += item.cantidad;
+              groups[dateKey].costo += item.costoUnitario * item.cantidad;
               groups[dateKey].venta += item.totalVenta;
               groups[dateKey].ganancia += item.ganancia;
             });
             return Object.values(groups).sort((a, b) => a.isoDate - b.isoDate);
           }, [filteredData]);
 
-          // --- LÓGICA DE AGRUPACIÓN (Reusable) ---
           const aggregateData = (dataKey) => {
             const groups = {};
             filteredData.forEach((item) => {
-              const key = item[dataKey]; // 'categoria' o 'descripcion'
+              const key = item[dataKey];
               if (!groups[key]) {
                 groups[key] = {
                   name: key,
@@ -533,7 +566,6 @@
             }));
           };
 
-          // --- DATOS DE PRODUCTOS ---
           const allProductStats = useMemo(
             () => aggregateData("descripcion"),
             [filteredData]
@@ -543,7 +575,6 @@
             [allProductStats, productSort]
           );
 
-          // --- DATOS DE CATEGORÍAS (Nuevo) ---
           const allCategoryStats = useMemo(
             () => aggregateData("categoria"),
             [filteredData]
@@ -553,7 +584,6 @@
             [allCategoryStats, categorySort]
           );
 
-          // Función Genérica de Ordenamiento
           function sortData(items, sortConfig) {
             let sortableItems = [...items];
             if (sortConfig.key) {
@@ -572,7 +602,6 @@
             return sortableItems;
           }
 
-          // Handlers de Ordenamiento
           const requestProductSort = (key) =>
             setProductSort((prev) => ({
               key,
@@ -586,28 +615,11 @@
                 prev.key === key && prev.direction === "asc" ? "desc" : "asc",
             }));
 
-          const statusDistribution = useMemo(() => {
-            const groups = {};
-            filteredData.forEach((item) => {
-              const key = item.estado || "Sin Estado";
-              if (!groups[key]) groups[key] = { name: key, value: 0 };
-              groups[key].value += 1;
-            });
-            return Object.values(groups);
-          }, [filteredData]);
-
           const uniqueStatuses = useMemo(() => {
             const statuses = new Set(data.map((d) => d.estado));
             return ["Todos", ...Array.from(statuses)];
           }, [data]);
 
-          const COLORS = [
-            "#0088FE",
-            "#00C49F",
-            "#FFBB28",
-            "#FF8042",
-            "#8884d8",
-          ];
           const formatMoney = (val) =>
             new Intl.NumberFormat("es-CO", {
               style: "currency",
@@ -615,29 +627,7 @@
               maximumFractionDigits: 0,
             }).format(val);
 
-          // Helper Component para Headers
-          const SortHeader = ({
-            label,
-            sortKey,
-            currentSort,
-            onSort,
-            align = "right",
-          }) => (
-            <th
-              className={`px-3 py-2 text-${align} font-medium text-gray-600 sortable-header sticky top-0 bg-gray-50 z-10 whitespace-nowrap`}
-              onClick={() => onSort(sortKey)}
-            >
-              {label}
-              {currentSort.key === sortKey && (
-                <span
-                  className={`sort-icon ${
-                    currentSort.direction === "asc" ? "sort-asc" : "sort-desc"
-                  }`}
-                ></span>
-              )}
-            </th>
-          );
-
+          // RENDER INITIAL
           if (data.length === 0) {
             return (
               <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
@@ -646,12 +636,11 @@
                     <FileText className="text-white w-8 h-8" />
                   </div>
                   <h1 className="text-3xl font-bold text-gray-800">
-                    Analizador de Ventas Inteligente
+                    Analizador Offline
                   </h1>
                   <p className="text-gray-600">
-                    Carga tu archivo CSV. El sistema detectará automáticamente
-                    las categorías basándose en las marcas (ej: "Funda Samsung"
-                    -> Categoría: Funda).
+                    Carga tu archivo CSV. La detección de marcas y cálculo
+                    financiero se realiza en tu navegador.
                   </p>
                   <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-blue-300 border-dashed rounded-lg cursor-pointer bg-blue-50 hover:bg-blue-100 transition-colors">
                     <div className="flex flex-col items-center justify-center pt-5 pb-6">
@@ -676,6 +665,7 @@
                       <p className="text-xs text-gray-500">Formato: .csv</p>
                     </div>
                     <input
+                      ref={fileInputRef}
                       type="file"
                       className="hidden"
                       accept=".csv"
@@ -701,25 +691,42 @@
                       Archivo: {fileName} | Registros: {data.length}
                     </p>
                   </div>
-                  <button
-                    onClick={() => setData([])}
-                    className="mt-2 md:mt-0 text-sm text-red-500 hover:text-red-700 font-medium border border-red-200 px-3 py-1 rounded hover:bg-red-50 transition"
-                  >
-                    Cambiar Archivo
-                  </button>
+                  <div className="flex gap-2 mt-2 md:mt-0">
+                    <button
+                      onClick={handleReload}
+                      className="flex items-center gap-1 text-sm bg-blue-50 text-blue-700 hover:bg-blue-100 px-3 py-2 rounded-lg border border-blue-200 transition font-medium"
+                    >
+                      <RefreshCw className="w-4 h-4" />
+                      Actualizar Datos
+                    </button>
+                    <button
+                      onClick={() => setData([])}
+                      className="text-sm text-red-500 hover:text-red-700 font-medium border border-red-200 px-3 py-2 rounded hover:bg-red-50 transition"
+                    >
+                      Cerrar Archivo
+                    </button>
+                    {/* Input Oculto para Recarga */}
+                    <input
+                      ref={fileInputRef}
+                      type="file"
+                      className="hidden"
+                      accept=".csv"
+                      onChange={handleFileUpload}
+                    />
+                  </div>
                 </div>
 
                 {/* Filters */}
                 <Card className="grid grid-cols-1 md:grid-cols-4 gap-4 items-end">
                   <div className="col-span-1 md:col-span-2">
                     <label className="text-xs font-semibold text-gray-500 uppercase">
-                      Buscar (ID, Producto o Categoría)
+                      Buscar
                     </label>
                     <div className="relative mt-1">
                       <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
                       <input
                         type="text"
-                        placeholder="Ej. Cable, Funda, Completada..."
+                        placeholder="Producto, Marca, Categoría..."
                         className="w-full pl-10 pr-4 py-2 border rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none"
                         value={filters.search}
                         onChange={(e) =>
@@ -776,7 +783,7 @@
                   </div>
                 </Card>
 
-                {/* KPI Stats */}
+                {/* KPIs */}
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
                   <StatCard
                     title="Ventas Totales"
@@ -817,14 +824,15 @@
                   />
                 </div>
 
-                {/* Charts Section 1 */}
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-                  <Card className="lg:col-span-2 h-96">
+                {/* SECCIÓN FINANCIERA */}
+                <div className="space-y-6">
+                  {/* Gráfico Tendencia */}
+                  <Card className="h-96">
                     <h3 className="text-lg font-bold text-gray-700 mb-4">
                       Tendencia de Ventas (Tiempo)
                     </h3>
                     <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={chartDataByDate}>
+                      <LineChart data={dailyStats}>
                         <CartesianGrid strokeDasharray="3 3" vertical={false} />
                         <XAxis dataKey="date" tick={{ fontSize: 12 }} />
                         <YAxis
@@ -852,39 +860,110 @@
                       </LineChart>
                     </ResponsiveContainer>
                   </Card>
-                  <Card className="h-96">
-                    <h3 className="text-lg font-bold text-gray-700 mb-4">
-                      Estado de Pedidos
-                    </h3>
-                    <ResponsiveContainer width="100%" height="100%">
-                      <PieChart>
-                        <Pie
-                          data={statusDistribution}
-                          cx="50%"
-                          cy="50%"
-                          innerRadius={60}
-                          outerRadius={80}
-                          fill="#8884d8"
-                          paddingAngle={5}
-                          dataKey="value"
-                        >
-                          {statusDistribution.map((entry, index) => (
-                            <Cell
-                              key={`cell-${index}`}
-                              fill={COLORS[index % COLORS.length]}
-                            />
-                          ))}
-                        </Pie>
-                        <Tooltip />
-                        <Legend />
-                      </PieChart>
-                    </ResponsiveContainer>
+
+                  {/* Tabla Resumen Diario */}
+                  <Card className="h-[400px] flex flex-col">
+                    <div className="flex justify-between items-center mb-2">
+                      <h3 className="text-lg font-bold text-gray-800">
+                        Resumen Financiero Diario
+                      </h3>
+                      <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                        Detalle Contable
+                      </span>
+                    </div>
+                    <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
+                      <table className="min-w-full text-sm">
+                        <thead className="bg-gray-100 sticky top-0 z-10 shadow-sm">
+                          <tr>
+                            <th className="px-4 py-3 text-left font-medium text-gray-600">
+                              Fecha
+                            </th>
+                            <th className="px-4 py-3 text-right font-medium text-gray-600">
+                              Cant. Vendida
+                            </th>
+                            <th className="px-4 py-3 text-right font-medium text-gray-600">
+                              Costo Total
+                            </th>
+                            <th className="px-4 py-3 text-right font-medium text-gray-600">
+                              Venta Total
+                            </th>
+                            <th className="px-4 py-3 text-right font-medium text-gray-600">
+                              Utilidad
+                            </th>
+                            <th className="px-4 py-3 text-right font-medium text-gray-600">
+                              Margen %
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody className="divide-y divide-gray-100">
+                          {dailyStats.map((day, idx) => {
+                            const margen =
+                              day.venta > 0
+                                ? ((day.ganancia / day.venta) * 100).toFixed(1)
+                                : "0.0";
+                            return (
+                              <tr
+                                key={idx}
+                                className="hover:bg-gray-50 transition-colors"
+                              >
+                                <td className="px-4 py-3 text-gray-700 font-medium">
+                                  {day.date}
+                                </td>
+                                <td className="px-4 py-3 text-right text-gray-600">
+                                  {day.cantidad}
+                                </td>
+                                <td className="px-4 py-3 text-right text-orange-600 font-medium">
+                                  {formatMoney(day.costo)}
+                                </td>
+                                <td className="px-4 py-3 text-right font-bold text-blue-600">
+                                  {formatMoney(day.venta)}
+                                </td>
+                                <td className="px-4 py-3 text-right text-green-600 font-bold">
+                                  {formatMoney(day.ganancia)}
+                                </td>
+                                <td className="px-4 py-3 text-right text-gray-500">
+                                  <span
+                                    className={`px-2 py-0.5 rounded text-xs font-bold ${
+                                      parseFloat(margen) > 30
+                                        ? "bg-green-100 text-green-800"
+                                        : "bg-yellow-100 text-yellow-800"
+                                    }`}
+                                  >
+                                    {margen}%
+                                  </span>
+                                </td>
+                              </tr>
+                            );
+                          })}
+                        </tbody>
+                        <tfoot className="bg-gray-50 sticky bottom-0 font-bold text-sm shadow-inner">
+                          <tr>
+                            <td className="px-4 py-3 text-gray-800">TOTALES</td>
+                            <td className="px-4 py-3 text-right text-gray-800">
+                              {stats.totalCantidad}
+                            </td>
+                            <td className="px-4 py-3 text-right text-orange-700">
+                              {formatMoney(stats.totalCostos)}
+                            </td>
+                            <td className="px-4 py-3 text-right text-blue-700">
+                              {formatMoney(stats.totalVentas)}
+                            </td>
+                            <td className="px-4 py-3 text-right text-green-700">
+                              {formatMoney(stats.totalGanancia)}
+                            </td>
+                            <td className="px-4 py-3 text-right text-gray-600">
+                              -
+                            </td>
+                          </tr>
+                        </tfoot>
+                      </table>
+                    </div>
                   </Card>
                 </div>
 
-                {/* ANÁLISIS DUAL: CATEGORÍAS (IZQ) vs PRODUCTOS (DER) */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-                  {/* COLUMNA IZQUIERDA: DASHBOARD DE CATEGORÍAS */}
+                {/* Categorías y Productos */}
+                <div className="space-y-6">
+                  {/* Categorías */}
                   <Card className="h-[500px] flex flex-col">
                     <div className="flex justify-between items-center mb-2">
                       <div className="flex items-center gap-2">
@@ -897,8 +976,6 @@
                         Basado en Marcas
                       </span>
                     </div>
-
-                    {/* 2. Tabla Interactiva de Categorías */}
                     <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
                       <table className="min-w-full text-sm">
                         <thead className="bg-blue-50 sticky top-0 z-10 shadow-sm">
@@ -937,7 +1014,7 @@
                               className="hover:bg-blue-50 transition-colors"
                             >
                               <td
-                                className="px-3 py-2 text-gray-700 font-bold text-xs truncate max-w-[120px]"
+                                className="px-3 py-2 text-gray-700 font-bold text-xs truncate"
                                 title={c.name}
                               >
                                 {c.name}
@@ -954,12 +1031,26 @@
                             </tr>
                           ))}
                         </tbody>
+                        <tfoot className="bg-gray-50 sticky bottom-0 font-bold text-sm shadow-inner">
+                          <tr>
+                            <td className="px-3 py-2 text-gray-800">TOTALES</td>
+                            <td className="px-3 py-2 text-right text-gray-800">
+                              {stats.totalCantidad}
+                            </td>
+                            <td className="px-3 py-2 text-right text-blue-700">
+                              {formatMoney(stats.totalVentas)}
+                            </td>
+                            <td className="px-3 py-2 text-right text-green-700">
+                              {formatMoney(stats.totalGanancia)}
+                            </td>
+                          </tr>
+                        </tfoot>
                       </table>
                     </div>
                   </Card>
 
-                  {/* COLUMNA DERECHA: DASHBOARD DE PRODUCTOS (Detalle) */}
-                  <Card className="h-[500px] flex flex-col">
+                  {/* Productos */}
+                  <Card className="h-[600px] flex flex-col">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="text-lg font-bold text-gray-700">
                         Detalle por Producto
@@ -986,19 +1077,25 @@
                               onSort={requestProductSort}
                             />
                             <SortHeader
-                              label="Precio"
+                              label="Precio Prom."
                               sortKey="avgPrecio"
                               currentSort={productSort}
                               onSort={requestProductSort}
                             />
                             <SortHeader
-                              label="Total"
+                              label="Total Costo"
+                              sortKey="sumCosto"
+                              currentSort={productSort}
+                              onSort={requestProductSort}
+                            />
+                            <SortHeader
+                              label="Total Venta"
                               sortKey="totalVenta"
                               currentSort={productSort}
                               onSort={requestProductSort}
                             />
                             <SortHeader
-                              label="Ganancia"
+                              label="Total Ganancia"
                               sortKey="totalGanancia"
                               currentSort={productSort}
                               onSort={requestProductSort}
@@ -1012,111 +1109,53 @@
                               className="hover:bg-gray-50 transition-colors"
                             >
                               <td
-                                className="px-3 py-2 text-gray-700 font-medium text-xs truncate max-w-[150px]"
+                                className="px-3 py-3 text-gray-700 font-medium text-xs break-words max-w-lg"
                                 title={p.name}
                               >
                                 {p.name}
                               </td>
-                              <td className="px-3 py-2 text-right font-bold text-gray-600">
+                              <td className="px-3 py-3 text-right font-bold text-gray-600 whitespace-nowrap">
                                 {p.cantidad}
                               </td>
-                              <td className="px-3 py-2 text-right text-gray-400 text-xs">
+                              <td className="px-3 py-3 text-right text-gray-400 text-xs whitespace-nowrap">
                                 {formatMoney(p.avgPrecio)}
                               </td>
-                              <td className="px-3 py-2 text-right font-semibold text-gray-700 text-xs">
+                              <td className="px-3 py-3 text-right text-orange-600 text-xs whitespace-nowrap">
+                                {formatMoney(p.sumCosto)}
+                              </td>
+                              <td className="px-3 py-3 text-right font-semibold text-gray-700 text-xs whitespace-nowrap">
                                 {formatMoney(p.totalVenta)}
                               </td>
-                              <td className="px-3 py-2 text-right text-green-600 font-medium text-xs">
+                              <td className="px-3 py-3 text-right text-green-600 font-medium text-xs whitespace-nowrap">
                                 {formatMoney(p.totalGanancia)}
                               </td>
                             </tr>
                           ))}
                         </tbody>
+                        <tfoot className="bg-gray-50 sticky bottom-0 font-bold text-sm shadow-inner">
+                          <tr>
+                            <td className="px-3 py-3 text-gray-800">TOTALES</td>
+                            <td className="px-3 py-3 text-right text-gray-800">
+                              {stats.totalCantidad}
+                            </td>
+                            <td className="px-3 py-3 text-right text-gray-400">
+                              -
+                            </td>
+                            <td className="px-3 py-3 text-right text-orange-700">
+                              {formatMoney(stats.totalCostos)}
+                            </td>
+                            <td className="px-3 py-3 text-right text-gray-700">
+                              {formatMoney(stats.totalVentas)}
+                            </td>
+                            <td className="px-3 py-3 text-right text-green-700">
+                              {formatMoney(stats.totalGanancia)}
+                            </td>
+                          </tr>
+                        </tfoot>
                       </table>
                     </div>
                   </Card>
                 </div>
-
-                {/* Data Table Completa */}
-                <Card>
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-lg font-bold text-gray-700">
-                      Todas las Transacciones
-                    </h3>
-                    <span className="text-sm text-gray-500">
-                      {filteredData.length} registros
-                    </span>
-                  </div>
-                  <div className="overflow-x-auto max-h-96 custom-scroll">
-                    <table className="min-w-full text-sm divide-y divide-gray-200">
-                      <thead className="bg-gray-50 sticky top-0">
-                        <tr>
-                          <th className="px-4 py-3 text-left font-medium text-gray-500">
-                            Fecha
-                          </th>
-                          <th className="px-4 py-3 text-left font-medium text-gray-500">
-                            Categoría (Auto)
-                          </th>
-                          <th className="px-4 py-3 text-left font-medium text-gray-500">
-                            Descripción
-                          </th>
-                          <th className="px-4 py-3 text-right font-medium text-gray-500">
-                            Cant.
-                          </th>
-                          <th className="px-4 py-3 text-right font-medium text-gray-500">
-                            Total
-                          </th>
-                          <th className="px-4 py-3 text-right font-medium text-gray-500">
-                            Ganancia
-                          </th>
-                          <th className="px-4 py-3 text-center font-medium text-gray-500">
-                            Estado
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody className="bg-white divide-y divide-gray-200">
-                        {filteredData.slice(0, 100).map((row, idx) => (
-                          <tr key={idx} className="hover:bg-gray-50">
-                            <td className="px-4 py-2 text-gray-500 whitespace-nowrap text-xs">
-                              {row.timestamp.toLocaleDateString()}
-                            </td>
-                            <td className="px-4 py-2 text-blue-600 font-semibold text-xs whitespace-nowrap">
-                              {row.categoria}
-                            </td>
-                            <td
-                              className="px-4 py-2 text-gray-800 text-xs max-w-xs truncate"
-                              title={row.descripcion}
-                            >
-                              {row.descripcion}
-                            </td>
-                            <td className="px-4 py-2 text-right font-medium text-xs">
-                              {row.cantidad}
-                            </td>
-                            <td className="px-4 py-2 text-right font-bold text-gray-700 text-xs">
-                              {formatMoney(row.totalVenta)}
-                            </td>
-                            <td className="px-4 py-2 text-right text-green-600 text-xs">
-                              {formatMoney(row.ganancia)}
-                            </td>
-                            <td className="px-4 py-2 text-center">
-                              <span
-                                className={`px-2 py-0.5 rounded-full text-[10px] uppercase font-bold ${
-                                  row.estado === "Completada"
-                                    ? "bg-green-100 text-green-800"
-                                    : row.estado === "Cancelada"
-                                    ? "bg-red-100 text-red-800"
-                                    : "bg-gray-100 text-gray-800"
-                                }`}
-                              >
-                                {row.estado}
-                              </span>
-                            </td>
-                          </tr>
-                        ))}
-                      </tbody>
-                    </table>
-                  </div>
-                </Card>
               </div>
             </div>
           );

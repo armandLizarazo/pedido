@@ -115,7 +115,7 @@
     Aro de Luz Joma 26Cm Rgb 0
     Audifonos Bluetooth Airpods Pro 0
     Audifonos Bluetooth Ambie 0
-    Audifonos Bluetooth Apple I12 Azulclaro 13000
+    Audifonos Bluetooth Apple I12 Azulclaro 0
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 0
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 0
     Audifonos Bluetooth Conduccion Osea B-18 0
@@ -488,7 +488,7 @@
     Cargador MagSafe 15000
     Cargador Maxday Carga Pilas Universal 12500
     Cargador Microsoft Carga Y Juega Xbox 360 0
-    Cargador Motorola 50W Solo Cabeza 0
+    Cargador Motorola 50W Con Cable 0
     Cargador Motorola 67W Solo Cabeza 15000
     Cargador Motorola Tc A Tc 30W 13000
     Cargador Motorola Tc A Tc 38W 28000
@@ -586,6 +586,7 @@
     Consola R-36S 0
     Consola Sup Con Control Negro 0
     Consola Sup Con Control Rojo 0
+    Consola Sup Con Control Rosa 0
     Consola Sup X7m 0
     Control Gamer Gamesir G7 Se Blanco 0
     Control Gamer Gatillos Con Ventilador 0
@@ -914,7 +915,7 @@
     Forro Antichoque Oppo Realme C75 Caballero 3500
     Forro Antichoque Oppo Realme C75 Dama 3500
     Forro Antichoque Oppo Reno 11F Caballero 3500
-    Forro Antichoque Oppo Reno 11F Dama 3500
+    Forro Antichoque Oppo Reno 11F Dama 0
     Forro Antichoque Oppo Reno 13 5G Caballero 3500
     Forro Antichoque Oppo Reno 13 5G Dama 3500
     Forro Antichoque Oppo Reno 13F Dama 3500
@@ -944,6 +945,7 @@
     Forro Antichoque Pin Samsung A34 6000
     Forro Antichoque Pin Samsung A55 6000
     Forro Antichoque Pin Tecno Camon 30 Pro 6000
+    Forro Antichoque Pin Tecno Spark 10 / 10C 0
     Forro Antichoque Pin Tecno Spark 10c Dama 6000
     Forro Antichoque Pin Tecno Spark Go 2022 / 8C 6000
     Forro Antichoque Pin Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 6000
@@ -984,7 +986,7 @@
     Forro Antichoque Samsung A15 Dama 0
     Forro Antichoque Samsung A16 Caballero 3500
     Forro Antichoque Samsung A16 Dama 3500
-    Forro Antichoque Samsung A17 Caballero 3500
+    Forro Antichoque Samsung A17 Caballero 0
     Forro Antichoque Samsung A17 Dama 3500
     Forro Antichoque Samsung A20 / A30 Caballero 3500
     Forro Antichoque Samsung A20 / A30 Dama 3500
@@ -1039,7 +1041,7 @@
     Forro Antichoque Tecno Pova 5 Caballero 3500
     Forro Antichoque Tecno Pova 5 Dama 3500
     Forro Antichoque Tecno Spark 10 / 10C Caballero 3500
-    Forro Antichoque Tecno Spark 10 / 10C Dama 3500
+    Forro Antichoque Tecno Spark 10 / 10C Dama 0
     Forro Antichoque Tecno Spark 10 Pro Caballero 3500
     Forro Antichoque Tecno Spark 10 Pro Dama 3500
     Forro Antichoque Tecno Spark 10C Caballero 3500
@@ -1051,7 +1053,7 @@
     Forro Antichoque Tecno Spark 30 4G Dama 3500
     Forro Antichoque Tecno Spark 30 5G Caballero 3500
     Forro Antichoque Tecno Spark 30 5G Dama 3500
-    Forro Antichoque Tecno Spark 30 Pro Dama 3500
+    Forro Antichoque Tecno Spark 30 Pro 4G Dama 0
     Forro Antichoque Tecno Spark 30C Caballero 3500
     Forro Antichoque Tecno Spark 30C Dama 3500
     Forro Antichoque Tecno Spark 40 4G Caballero 3500
@@ -1060,11 +1062,13 @@
     Forro Antichoque Tecno Spark 40 Pro Dama 3500
     Forro Antichoque Tecno Spark 40C Caballero 3500
     Forro Antichoque Tecno Spark 40C Dama 3500
+    Forro Antichoque Tecno Spark 8P Caballero 0
     Forro Antichoque Tecno Spark 9 / 9 Pro Dama 0
+    Forro Antichoque Tecno Spark 9 Pro Dama 0
     Forro Antichoque Tecno Spark Go 2022 / 8C Caballero 3500
     Forro Antichoque Tecno Spark Go 2022 / 8C Dama 3500
     Forro Antichoque Tecno Spark Go 2023 / Pop7 Caballero 3500
-    Forro Antichoque Tecno Spark Go 2023 / Pop7 Dama 3500
+    Forro Antichoque Tecno Spark Go 2023 / Pop7 Dama 0
     Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Caballero 3500
     Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 3500
     Forro Antichoque Tecno Spark Go 2025 / Go 1 Caballero 3500
@@ -1112,7 +1116,7 @@
     Forro Antichoque Xiaomi Redmi 13C Caballero 0
     Forro Antichoque Xiaomi Redmi 13C Dama 0
     Forro Antichoque Xiaomi Redmi 14C Caballero 3500
-    Forro Antichoque Xiaomi Redmi 14C Dama 3500
+    Forro Antichoque Xiaomi Redmi 14C Dama 0
     Forro Antichoque Xiaomi Redmi 14C Dama Lujo 3500
     Forro Antichoque Xiaomi Redmi 14C Lujo Negrorojo 3500
     Forro Antichoque Xiaomi Redmi 15 Caballero 3500
@@ -1187,6 +1191,7 @@
     Forro Armadura Huawei Honor X8C Negro 0
     Forro Armadura Huawei P20 Lite Rojo 0
     Forro Armadura Huawei X7C / Honor 200 Smart Azul 0
+    Forro Armadura Huawei X7C / Honor 200 Smart Rojo 0
     Forro Armadura Infinix Hot 30i Azuloscuro 0
     Forro Armadura Infinix Hot 30i Azulrey 0
     Forro Armadura Infinix Hot 30i Rojo 0
@@ -1278,10 +1283,12 @@
     Forro Armadura Tecno Camon 40 Pro 4G Rojo 0
     Forro Armadura Tecno Spark 20 Pro Plus Negro 0
     Forro Armadura Tecno Spark 20 Pro Plus Rojo 0
+    Forro Armadura Tecno Spark 30 4G Pro Rojo 0
     Forro Armadura Tecno Spark 30 5G Negro 0
     Forro Armadura Tecno Spark 30 5G Rojo 0
-    Forro Armadura Tecno Spark 30 Pro Negro 0
-    Forro Armadura Tecno Spark 30 Pro Rojo 0
+    Forro Armadura Tecno Spark 30 Pro 4G Negro 0
+    Forro Armadura Tecno Spark 30 Pro 4G Rojo 0
+    Forro Armadura Tecno Spark 30C Negro 0
     Forro Armadura Tecno Spark 30C Rojo 0
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 0
     Forro Armadura Tecno Spark Go 2023 / Pop7 Rojo 0
@@ -1358,6 +1365,7 @@
     Forro Cargador Cable  + Puntas 0
     Forro Cargador Figura 0
     Forro Cartera 5 Pulgadas 0
+    Forro Congtrol Gamer Ps4 0
     Forro Control Gamer Xbox 360 0
     Forro Crg Apple Con Estuche Azul 0
     Forro Crg Apple Con Estuche Morado 0
@@ -1434,7 +1442,7 @@
     Forro Pin Motorola Moto G24 / G04 6000
     Forro Pin Samsung A13 6000
     Forro Pin Samsung S24 Ultra 0
-    Forro Pin Tecno Spark 30 Pro 0
+    Forro Pin Tecno Spark 30 Pro 4G 0
     Forro Silicone Case Apple Iphone 13 Mini Rosa 7000
     Forro Smart Watch 45Cm 0
     Forro Spacd Huawei Honor X6B 0
@@ -1605,14 +1613,14 @@
     Forro Space Samsung A22 5G 3500
     Forro Space Samsung A23 3500
     Forro Space Samsung A24 3500
-    Forro Space Samsung A25 3500
+    Forro Space Samsung A25 0
     Forro Space Samsung A25 Rosa 3500
     Forro Space Samsung A26 3500
     Forro Space Samsung A31 3500
     Forro Space Samsung A32 4G 3500
     Forro Space Samsung A32 4G Rosa 3500
     Forro Space Samsung A32 4G Vinotinto 3500
-    Forro Space Samsung A34 3500
+    Forro Space Samsung A34 0
     Forro Space Samsung A34 Lila 3500
     Forro Space Samsung A34 Negro 3500
     Forro Space Samsung A35 3500
@@ -1647,9 +1655,11 @@
     Forro Space Tecno Spark 20 Pro Plus 3500
     Forro Space Tecno Spark 30 4G 3500
     Forro Space Tecno Spark 30 5G 3500
+    Forro Space Tecno Spark 30C 0
     Forro Space Tecno Spark 40 4G 3500
     Forro Space Tecno Spark 40 Pro 3500
     Forro Space Tecno Spark 40C 3500
+    Forro Space Tecno Spark Go 2 / Smart 10 0
     Forro Space Tecno Spark Go 2022 / 8C 3500
     Forro Space Tecno Spark Go 2023 3500
     Forro Space Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3500
@@ -1686,7 +1696,7 @@
     Forro Space Xiaomi Redmi 12 3500
     Forro Space Xiaomi Redmi 12 Verde 0
     Forro Space Xiaomi Redmi 12C 3500
-    Forro Space Xiaomi Redmi 13 3500
+    Forro Space Xiaomi Redmi 13 0
     Forro Space Xiaomi Redmi 13C 0
     Forro Space Xiaomi Redmi 14C 3500
     Forro Space Xiaomi Redmi 15 3500
@@ -1763,7 +1773,7 @@
     Hydrogel Infinix Hot 50 Pro Plus 4000
     Hydrogel Infinix Hot 50I 4000
     Hydrogel Infinix Hot 60 Pro Plus 0
-    Hydrogel Infinix Note 40 Pro Plus 4000
+    Hydrogel Infinix Note 40 Pro Plus 0
     Hydrogel Infinix Note 40 pro 4000
     Hydrogel Infinix Note 50s 4000
     Hydrogel Iphone 12 Pro Max 4000
@@ -2131,7 +2141,7 @@
     Pacha Motorola Moto G13 / G23 0
     Pacha Motorola Moto G14 / G54 / G55 0
     Pacha Motorola Moto G20 / G30 0
-    Pacha Motorola Moto G20 / G30, 0
+    Pacha Motorola Moto G20 C/m 0
     Pacha Motorola Moto G22 / E32 0
     Pacha Motorola Moto G22 / E32, 0
     Pacha Motorola Moto G31 / G41 / G71 0
@@ -2364,6 +2374,7 @@
     Pin De Carga Tc Tableta 0
     Pin De Carga V8 0
     Pin De Carga V8 Parlante 0
+    Pin De Carga V8 Tecno 0
     Pin De Carga Xiaomi Redmi 9A 0
     Pin Netflix 0
     Pin de Carga Huawei Y5 II 0
@@ -3189,6 +3200,7 @@
     Silicone Case Motorola Moto Edge 40 Lila 7000
     Silicone Case Motorola Moto Edge 40 Morado 7000
     Silicone Case Motorola Moto Edge 40 Negro 7000
+    Silicone Case Motorola Moto Edge 40 Neo 0
     Silicone Case Motorola Moto Edge 40 Neo Amarillo 7000
     Silicone Case Motorola Moto Edge 40 Neo Azulrey 7000
     Silicone Case Motorola Moto Edge 40 Neo Fucsia 7000
@@ -3384,7 +3396,7 @@
     Silicone Case Oppo A58 4G / A78 5G Azulrey 7000
     Silicone Case Oppo A58 4G / A78 5G Fucsia 7000
     Silicone Case Oppo A58 4G / A78 5G Lila 7000
-    Silicone Case Oppo A58 4G / A78 5G Morado 7000
+    Silicone Case Oppo A58 4G / A78 5G Morado 0
     Silicone Case Oppo A58 4G / A78 5G Negro 7000
     Silicone Case Oppo A58 4G / A78 5G Rojo 7000
     Silicone Case Oppo A58 4G / A78 5G Rosa 7000
@@ -3942,6 +3954,7 @@
     Silicone Case Tecno Pova 5 Rosa 7000
     Silicone Case Tecno Ppova 4 Rojo 7000
     Silicone Case Tecno Spark 10 / 10C Amarillo 7000
+    Silicone Case Tecno Spark 10 / 10C Azuloscuro 0
     Silicone Case Tecno Spark 10 / 10C Azulrey 7000
     Silicone Case Tecno Spark 10 / 10C Fucia 7000
     Silicone Case Tecno Spark 10 / 10C Morado 7000
@@ -3970,6 +3983,8 @@
     Silicone Case Tecno Spark 20 Pro Plus Amarillo 7000
     Silicone Case Tecno Spark 20 Pro Plus Azulclaro 7000
     Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 7000
+    Silicone Case Tecno Spark 20 Pro Plus Azulrey 0
+    Silicone Case Tecno Spark 20 Pro Plus Lila 0
     Silicone Case Tecno Spark 20 Pro Plus Morado 7000
     Silicone Case Tecno Spark 20 Pro Plus Negro 7000
     Silicone Case Tecno Spark 20 Pro Plus Rojo 7000
@@ -3981,8 +3996,10 @@
     Silicone Case Tecno Spark 30 4G Azulclaro 7000
     Silicone Case Tecno Spark 30 4G Fucsia 7000
     Silicone Case Tecno Spark 30 4G Lila 0
+    Silicone Case Tecno Spark 30 4G Negro 0
     Silicone Case Tecno Spark 30 4G Rojo 7000
     Silicone Case Tecno Spark 30 4G Rosa 7000
+    Silicone Case Tecno Spark 30 4G Vinotinto 0
     Silicone Case Tecno Spark 30 5G Amarillo 7000
     Silicone Case Tecno Spark 30 5G Azulrey 7000
     Silicone Case Tecno Spark 30 5G Fucsia 7000
@@ -3992,9 +4009,12 @@
     Silicone Case Tecno Spark 30 5G Rojo 7000
     Silicone Case Tecno Spark 30 5G Verde 7000
     Silicone Case Tecno Spark 30 Pro 4G Fucsia 7000
+    Silicone Case Tecno Spark 30 Pro 4G Lila 0
     Silicone Case Tecno Spark 30 Pro 4G Negro 7000
     Silicone Case Tecno Spark 30 Pro 4G Rojo 7000
-    Silicone Case Tecno Spark 30 Pro Lila 7000
+    Silicone Case Tecno Spark 30 Pro Azuloscuro 0
+    Silicone Case Tecno Spark 30 Pro Morado 0
+    Silicone Case Tecno Spark 30 Pro Verde 0
     Silicone Case Tecno Spark 30C Amarillo 7000
     Silicone Case Tecno Spark 30C Azulrey 7000
     Silicone Case Tecno Spark 30C Fucsia 7000
@@ -4027,11 +4047,17 @@
     Silicone Case Tecno Spark 40C Rosa 7000
     Silicone Case Tecno Spark 40C Verde 7000
     Silicone Case Tecno Spark 40C Vinotinto 7000
+    Silicone Case Tecno Spark 9 Pro Lila 0
+    Silicone Case Tecno Spark 9 Pro Negro 0
+    Silicone Case Tecno Spark 9 Pro Rojo 0
+    Silicone Case Tecno Spark 9 Pro Rosa 0
     Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 0
     Silicone Case Tecno Spark Go 2 / Smart 10 Azulclaro 7000
+    Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 0
+    Silicone Case Tecno Spark Go 2 / Smart 10 Fucsia 0
     Silicone Case Tecno Spark Go 2 / Smart 10 Lila 7000
     Silicone Case Tecno Spark Go 2 / Smart 10 Morado 7000
-    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 7000
+    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 0
     Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 7000
     Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 7000
     Silicone Case Tecno Spark Go 2022 / 8C Amarillo 7000
@@ -4272,7 +4298,7 @@
     Silicone Case Xiaomi Redmi 15 Rosa 7000
     Silicone Case Xiaomi Redmi 15C Amarillo 7000
     Silicone Case Xiaomi Redmi 15C Azulrey 7000
-    Silicone Case Xiaomi Redmi 15C Fucsia 7000
+    Silicone Case Xiaomi Redmi 15C Fucsia 0
     Silicone Case Xiaomi Redmi 15C Lila 7000
     Silicone Case Xiaomi Redmi 15C Negro 7000
     Silicone Case Xiaomi Redmi 15C Rojo 7000
@@ -4544,6 +4570,7 @@
     Smartphone Samsung A16 0
     Smartphone Samsung A16 352042193728520 128/6 0
     Smartphone Samsung A16 356927261847879 256/8 0
+    Smartphone Samsung A17 358377642100556 256/8 0
     Smartphone Samsung A36 350399471160772 - 256 / 8 0
     Smartphone Tecno Spark Go 1S 64/6 Gris 281000
     Smartphone Tecno Spark Go 2 350275603884622 128/8 0
@@ -4586,6 +4613,7 @@
     Space Color Xiaomi Redmi 10 Lila 5000
     Space Color Xiaomi Redmi 10 Rosa 5000
     Spliter Lan Fino 0
+    Ssilicone Case Tecno Pop 5 Lite Azulclaro 0
     St Frp Huawei Y9 2019 0
     St Mantenimiento Logica de Carga Samsung 0
     St Samsung Mantenimiento Logica de Carga A14 0
@@ -4713,7 +4741,7 @@
     Vidrio 5D Huawei Honor X6S 900
     Vidrio 5D Huawei Honor X7A 0
     Vidrio 5D Huawei Honor X7B 0
-    Vidrio 5D Huawei Honor X7C 900
+    Vidrio 5D Huawei Honor X7C 0
     Vidrio 5D Huawei Honor X8A 900
     Vidrio 5D Huawei Honor X8B 0
     Vidrio 5D Huawei Mate 20 Lite 900
@@ -4763,7 +4791,7 @@
     Vidrio 5D Samsung A20s 900
     Vidrio 5D Samsung A21S 0
     Vidrio 5D Samsung A22 4G / A31 / A32 4G 900
-    Vidrio 5D Samsung A24 / A25 / A34 900
+    Vidrio 5D Samsung A24 / A25 / A34 0
     Vidrio 5D Samsung A30S 0
     Vidrio 5D Samsung A31 / A32 900
     Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe 0

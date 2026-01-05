@@ -1,3 +1,5 @@
+    Aro De Luz Joma 26Cm Ligth 2
+    Audifonos Bluetooth Apple I12 Azulclaro 2
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
@@ -7,7 +9,10 @@
     Bluetooth Car Bt-350 3
     Cable Apple Iphone 4 3
     Cable Apple Usb Ligthning 2M 5
+    Cable Auxiliar 1 A 1 Cordon 5
     Cable Auxiliar 1 A 1 Eco 5
+    Cable Belkin Tc 5
+    Cable Poder Grabadora 5
     Cable Royal V8 2M 2
     Cable Tc A Tc Eco 5
     Cable V8 Eco 5
@@ -21,7 +26,9 @@
     Cargador Motorola 50W Con Cable 2
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Samsung 45W Con Cable Blanco 2
+    Cargador W Tc 3
     Cargador We Tc 33W 5
+    Consola Sup Con Control Rosa 1
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -45,6 +52,7 @@
     Forro Antichoque Xiaomi Poco X3 Dama 3
     Forro Antichoque Xiaomi Redmi 15 Caballero 5
     Forro Antichoque Xiaomi Redmi 15 Dama 5
+    Forro Antichoque Xiaomi Redmi 9C / 10A Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto Edge 60 Fusion Rojo 1
@@ -92,6 +100,7 @@
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Spark 40C 2
+    Forro Space Tecno Spark Go 2 / Smart 10 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Xiaomi Redmi 15 2
@@ -100,14 +109,17 @@
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg 5
     Manos Libres Samsung J5 Blanco 5
+    Manos Libres Speak Tc 2
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
-    Manos Libres We Tc 1
+    Manos Libres We Tc 3
     Manos Libres Xiaomi T Original Negro 2
     Memoria Micro Sandisk 64Gb 1
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Power Bank Aibimy 30000 Mah 1
+    Power Bank Yoyos Ys-704 30000 Mah 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple IPhone 16e Morado 1
     Silicone Case Apple Iphone 11 Pro Cafe 1
@@ -151,6 +163,8 @@
     Silicone Case Motorola Moto One Fusion Negro 1
     Silicone Case Oppo A5 Pro 4G / 5G Fucsia 1
     Silicone Case Oppo A54 Azuloscuro 1
+    Silicone Case Oppo A58 4G / A78 5G Morado 1
+    Silicone Case Oppo A58 4G / A78 5G Rojo 1
     Silicone Case Oppo Realme 7I Amarillo 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
@@ -189,6 +203,10 @@
     Silicone Case Tecno Spark 10 Pro Fucsia 1
     Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Fucsia 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 1
     Silicone Case Tecno Spark Go 2025 / Go 1 Lila 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
@@ -210,6 +228,7 @@
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 15 Fucsia 1
+    Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Rojo 1
@@ -218,6 +237,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
+    Silicone Case Xiaomi Redmi Note 14 4G Morado 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
@@ -250,11 +270,13 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Motorola Moto G9 Power 5
+    Vidrio Blindado Xiaomi Redmi 15 10
     Vidrio Camara Xiaomi Redmi 13 15
     Vidrio Camara Xiaomi Redmi 13C 15
     Vidrio Camara Zte Blade A75 1
     Vidrio Ceramico Xiaomi Redmi 14C 5
     Vidrio Templado Apple Iphone 16E 5
+    Vidrio Templado Xiaomi Redmi 15 10
     Vidrio Tortuga Apple Iphone 12 Mini 5
     Vidrio Tortuga Apple Iphone 13 Mini 5
     Vidrio Tortuga Apple Iphone 14 Pro 5
