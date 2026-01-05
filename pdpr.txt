@@ -8,9 +8,9 @@
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 2 ok
     Balaca Gamer A65 1
-    Base Refrigerante 1 Ventilador 1
-    Base Refrigerante 2 Ventiladores 1
-    Base Refrigerante X6a 1
+    Base Refrigerante 1 Ventilador 1 ok
+    Base Refrigerante 2 Ventiladores 1 ok
+    Base Refrigerante 5 Ventiladores RGB 1 ok
     Cable 3 a 1 Video Compuesto 2
     Cable Auxiliar 1 A 1 5M 3 ok
     Cable Disco Duro V8 3.0 Corto 2
@@ -18,6 +18,7 @@
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
     Cable Lan 5M Cat 6 2 ok
+    Cable Poder Grabadora 10 ok
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
