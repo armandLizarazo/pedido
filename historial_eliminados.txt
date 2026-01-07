@@ -10450,3 +10450,149 @@ Fecha de proceso: 2025-12-27 14:23:02
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-05 18:55:37
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 67
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Audifonos Bluetooth Apple I12 Azulclaro 2 ok
+    3 | Audifonos Bluetooth Xiaomi E7S Rosa 1 ok
+   12 | Cable Auxiliar 1 A 1 Cordon 5 ok
+   13 | Cable Auxiliar 1 A 1 Eco 5 ok
+   14 | Cable Belkin Tc 10 ok
+   16 | Cable Royal V8 2M 2 ok
+   17 | Cable Tc A Tc Eco 3 ok
+   25 | Cargador Motorola 50W Con Cable 1 ok
+   26 | Cargador Samsung 25W Cabeza Blanco 2 ok
+   27 | Cargador Samsung 25W Con Cable Blanco 2 ok
+   28 | Cargador Samsung 25W Con Cable Negro 2 ok
+   29 | Cargador Samsung 45W Con Cable Blanco 2 ok
+   30 | Cargador W Tc 3 ok
+   31 | Cargador We Tc 33W 5 ok
+   41 | Forro Antichoque Oppo A17 Dama 3 ok
+   48 | Forro Antichoque Samsung A07 Dama 2 ok
+   56 | Forro Antichoque Xiaomi Redmi 9C / 10A Dama 5 ok
+   88 | Forro Space Huawei Honor X8C 2 ok
+   90 | Forro Space Moto Edge 60 Fusion 2 ok
+   91 | Forro Space Motorola Moto E22i 2 ok
+   93 | Forro Space Motorola Moto G556 2 ok
+   94 | Forro Space Motorola Edge 50 Pro 2 ok
+   98 | Forro Space Oppo Realme C53 / Note 50 2 ok
+   99 | Forro Space Oppo Realme C55 2 ok
+  101 | Forro Space Samsung A04E 2 ok
+  106 | Forro Space Tecno Spark 40C 2 ok
+  116 | Manos Libres Samsung Akg 5 ok
+  118 | Manos Libres Speak Tc 2 ok
+  119 | Manos Libres Speak Tc K-15 1 ok
+  127 | Power Bank Yoyos Ys-704 30000 Mah 1 ok
+  129 | Silicone Case Apple IPhone 16e Morado 1 ok
+  182 | Silicone Case Oppo Reno 14 Negro 1 ok
+  183 | Silicone Case Oppo Reno 14 Rojo 1 ok
+  184 | Silicone Case Oppo Reno 14 Fucsia 1 ok
+  185 | Silicone Case Oppo Reno 14 Palorosa ok
+  186 | Silicone Case Oppo Reno 14 Azulrey 1 ok
+  187 | Silicone Case Oppo Reno 14 Lila 1 ok
+  188 | Silicone Case Oppo Reno 14F Negro 1 ok
+  189 | Silicone Case Oppo Reno 14F Rojo 1 ok
+  190 | Silicone Case Oppo Reno 14F Fucsia 1 ok
+  191 | Silicone Case Oppo Reno 14F Morado ok
+  192 | Silicone Case Oppo Reno 14F Azulclaro 1 ok
+  193 | Silicone Case Oppo Reno 14F Lila 1 ok
+  195 | Silicone Case Oppo Realme C67 Palorosa 1 ok
+  220 | Silicone Case Tecno Pova 5 Rojo 1 ok
+  221 | Silicone Case Tecno Spark 10 Pro Fucsia 1 ok
+  224 | Silicone Case Tecno Spark Go 2 / Smart 10 Fucsia 1 ok
+  225 | Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1 ok
+  226 | Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
+  235 | Silicone Case Vivo V40 Lite Fucsia 1 ok
+  236 | Silicone Case Vivo V40 Lite Azulrey 1 ok
+  237 | Silicone Case Vivo V40 Lite Morado 1 ok
+  238 | Silicone Case Vivo V40 Lite Negro 1 ok
+  239 | Silicone Case Vivo V40 Lite Rojo 1 ok
+  248 | Silicone Case Xiaomi Redmi 15 Fucsia 1 ok
+  262 | Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1 ok
+  265 | Silicone Case Motorola Moto Edge 50 Pro Rojo 1 ok
+  266 | Silicone Case Motorola Moto Edge 50 Pro Negro 1 ok
+  267 | Silicone Case Motorola Moto Edge 50 Pro Azulrey 1 ok
+  268 | Silicone Case Motorola Moto Edge 50 Pro Lila 1 ok
+  269 | Silicone Case Motorola Moto Edge 50 Pro Rosa 1 ok
+  270 | Silicone Case Motorola Moto G56 Lila 1 ok
+  271 | Silicone Case Motorola Moto G56 Negro 1 ok
+  272 | Silicone Case Motorola Moto G56 Rojo 1 ok
+  273 | Silicone Case Motorola Moto G56 Rosa 1 ok
+  274 | Silicone Case Motorola Moto G56 Azulclaro 1 ok
+  275 | Silicone Case Motorola Moto G56 Fucsia 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-05 18:55:37
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 29
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Adaptador Av2Hdmi 3 ok
+    2 | Adaptador Dpp2Vga 2 ok
+    3 | Adaptador Europeo Goma 5 ok
+    5 | Adaptador Av2Hdmi 3 ok
+    7 | Adpatador Vga2hdmi Cbl Cja 1 ok
+    8 | Aro De Luz Joma 26Cm Ligth 3 ok
+   10 | Audifonos Bluetooth Pro 5S Negro 2 ok
+   12 | Base Refrigerante 1 Ventilador 1 ok
+   13 | Base Refrigerante 2 Ventiladores 1 ok
+   14 | Base Refrigerante 5 Ventiladores RGB 1 ok
+   15 | Base Refrigerante Gamer Rgb Secuencias 1 ok
+   16 | Parlante Sonivox R-100 1 ok
+   18 | Cable Auxiliar 1 A 1 5M 3 ok
+   23 | Cable Lan 5M Cat 6 2 ok
+   24 | Cable Poder Grabadora 10 ok
+   36 | Control Gamer X3 2 ok
+   39 | Estabilizador 4 Puertos 1 ok
+   44 | Multitoma 6 Enchufes 1 ok
+   49 | Mouse Gamer X3 2 ok
+   54 | Patillera 3 En 1 2 ok
+   56 | Pila Reloj Cr-2032 5 ok
+   60 | Reproductor Onn Hd 2 ok
+   66 | Smart Watch Combo K32 1 ok
+   67 | Smart Watch Combo K55 2 ok
+   69 | Soporte Nephoo Tripode Camara-Celular Np-999 1 ok
+   73 | Teclado Combo Gamer F92 3 ok
+   74 | Telefono Fijo Panaphone Kx-T806 1 ok
+   77 | Tripode Selfie-05 1 ok
+   78 | Cable Apple Iphone 4 2 ok
+
+==================================================
+Fecha de proceso: 2026-01-05 18:55:37
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 17
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Bateria Motorola Moto G52 / G82 1 ok
+    3 | Pacha Apple Iphone Xr Gx 1 ok
+    4 | Pacha Huawei Honor X6 / X6S 1 ok
+    5 | Pacha Huawei Y9 Prime Full 1 ok
+    6 | Pacha Motorola Moto E13 1 ok
+    7 | Pacha Motorola Moto E22 / E22i 1 ok
+    8 | Pacha Motorola Moto G20 / G30 2 ok
+    9 | Pacha Motorola Moto G20 C/m 1 ok
+   10 | Pacha Motorola Moto One Fusion 1 ok
+   11 | Pacha Samsung A02S / A03 / A03S / A04E 2 ok
+   12 | Pacha Samsung A04 1 ok
+   13 | Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+   15 | Pacha Tecno Spark 30C C/m 1 ok
+   16 | Pacha Vivo Y27s / Y27 5G / Y36 4G / Y36 5G 1 ok
+   17 | Pacha Xiaomi Redmi 9A / 9C / 10A Cm 1 ok
+   18 | Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+   19 | Pin De Carga V8 20 ok
+
+==================================================
+Fecha de proceso: 2026-01-05 18:55:37
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

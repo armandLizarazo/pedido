@@ -65,7 +65,7 @@
     Adaptador Tarjeta Audio 7.1 0
     Adaptador Tc Hub 8 en 1 0
     Adaptador Tc Sata 3.0 0
-    Adaptador Tc a 3.5 0
+    Adaptador Tc a 3.5 6000.0
     Adaptador Tc2Hdmi Cbl 0
     Adaptador Tc2Vga 12000
     Adaptador Union Hdmi 0
@@ -205,6 +205,8 @@
     Barra Silicona 0
     Base Refrigerante 1 Ventilador 0
     Base Refrigerante 2 Ventiladores 0
+    Base Refrigerante 5 Ventiladores RGB 0
+    Base Refrigerante Gamer Rgb Secuencias 0
     Base Refrigerante Wit-400 0
     Base Refrigerante X6a 0
     Bateria Apple Iphone 11 Pro 0
@@ -225,6 +227,7 @@
     Bateria Motorola Moto G22 0
     Bateria Motorola Moto G24 0
     Bateria Motorola Moto G31 / G42 0
+    Bateria Motorola Moto G52 / G82 0
     Bateria Motorola Moto G8 Plus 0
     Bateria Samsung A10S 18000
     Bateria Samsung A22 4G / A31 0
@@ -458,7 +461,7 @@
     Cargador Apple 15 Pro Max 35W Con Cable 18000
     Cargador Apple 16 Pro Max 45W Con Cable 18000
     Cargador Apple 20W Con Cable 0
-    Cargador Apple 20W Tc Cabeza 0
+    Cargador Apple 20W Tc Cabeza 9000.0
     Cargador Apple 25W Con Cable 0
     Cargador Apple 25W Tc Cabeza 0
     Cargador Apple 30W Tc Cabeza 18000
@@ -470,7 +473,7 @@
     Cargador Belkin Tc 0
     Cargador Belkin V8 7000
     Cargador Cabeza Cubo Eco 0
-    Cargador Cabeza Largo Eco 0
+    Cargador Cabeza Largo Eco 3500.0
     Cargador Cabeza P&P Tc & Usb 3.0 Cx-910 8500
     Cargador Cabeza Royal Tc & Usb 38W Rt-X06 12000
     Cargador Cabeza Tc & Usb 20W C15 7000
@@ -500,7 +503,7 @@
     Cargador Pc Acer 2.37 26000
     Cargador Pc Asus 2.37 0
     Cargador Pc Asus 3.42 26000
-    Cargador Pc Hp Punta Azul 26000
+    Cargador Pc Hp Punta Azul 26000.0
     Cargador Pc Lenovo 65W Plug 0
     Cargador Pc Lenovo Mini 3.25 28000
     Cargador Pc Lenovo Yoga 0
@@ -883,7 +886,8 @@
     Forro Antichoque Motorola Moto G84 3500
     Forro Antichoque Motorola Moto G9 Power Caballero 3500
     Forro Antichoque Motorola Moto One Fusion Caballero 3500
-    Forro Antichoque Motorola Moto One Fusion Dama 3500
+    Forro Antichoque Motorola Moto One Fusion Dama 0
+    Forro Antichoque Oppo A17 Dama 0
     Forro Antichoque Oppo A38 Caballero 3500
     Forro Antichoque Oppo A38 Dama 3500
     Forro Antichoque Oppo A40 / A60 Caballero 3500
@@ -1330,7 +1334,7 @@
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 0
     Forro Armadura Xiaomi Redmi Note 10 Pro Negro 0
     Forro Armadura Xiaomi Redmi Note 11 / Note 12S Negro 0
-    Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 0
+    Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 6000.0
     Forro Armadura Xiaomi Redmi Note 12 Azul 0
     Forro Armadura Xiaomi Redmi Note 13 4G Azulrey 0
     Forro Armadura Xiaomi Redmi Note 13 4G Gris 0
@@ -1375,7 +1379,7 @@
     Forro Lujo Apple Iphone 12 Pro Morado 0
     Forro Lujo Apple Iphone 13 Pro Max Azulclaro 0
     Forro Lujo Apple Iphone 16 Pro Max Azul 0
-    Forro Lujo Apple Iphone 16 Pro Max Morado 0
+    Forro Lujo Apple Iphone 16 Pro Max Morado 13000.0
     Forro Lujo Apple Iphone Xr Lila 0
     Forro Lujo Humo Redmi Note 13 4G Negro 0
     Forro Lujo Humo Samsung A16 Morado 0
@@ -1527,6 +1531,7 @@
     Forro Space Magsafe Apple Iphone 11 Pro 3500
     Forro Space Magsafe Apple Iphone 16 Pro Max 3500
     Forro Space Moto Edge 60 Fusion 0
+    Forro Space Motorola Edge 50 Pro 0
     Forro Space Motorola Moto E20 3500
     Forro Space Motorola Moto E22i 0
     Forro Space Motorola Moto E30 / E40 3500
@@ -1552,6 +1557,7 @@
     Forro Space Motorola Moto G52 3500
     Forro Space Motorola Moto G54 3500
     Forro Space Motorola Moto G55 3500
+    Forro Space Motorola Moto G556 0
     Forro Space Motorola Moto G60S 3500
     Forro Space Motorola Moto G72 0
     Forro Space Motorola Moto G75 3500
@@ -1698,7 +1704,7 @@
     Forro Space Xiaomi Redmi 12C 3500
     Forro Space Xiaomi Redmi 13 0
     Forro Space Xiaomi Redmi 13C 0
-    Forro Space Xiaomi Redmi 14C 3500
+    Forro Space Xiaomi Redmi 14C 0
     Forro Space Xiaomi Redmi 15 3500
     Forro Space Xiaomi Redmi 15C 3500
     Forro Space Xiaomi Redmi 9 3500
@@ -1761,6 +1767,7 @@
     Hydrogel Antiespia Tecno Camon 30S Pro 0
     Hydrogel Antiespia Tecno Camon Premier 4000
     Hydrogel Antiespia Tecno Spark 20 pro Plus 4000
+    Hydrogel Antiespia Xiaomi Redmi 14C 0
     Hydrogel Apple Iphone 13 Pro Max 4000
     Hydrogel Apple Iphone 15 Pro 4000
     Hydrogel Apple Iphone 15 Pro Max 4000
@@ -1959,7 +1966,8 @@
     Manos Libres Samsung S6 Blanco 0
     Manos Libres Samsung Tipo Original Blanco 0
     Manos Libres Samsung Tipo Original Negro 0
-    Manos Libres Speak Tc 0
+    Manos Libres Speak Sk-837C Tc 0
+    Manos Libres Speak Tc K-15 0
     Manos Libres Speak Tc Negro 0
     Manos Libres Speal Tc Negro 0
     Manos Libres Tc Blanco 4500
@@ -2086,6 +2094,7 @@
     Mouse Inalambrico Ms-033 0
     Mouse Inalambrico y Bluetooth 0
     Mouse Jertech Jr-1 Rojo 0
+    Multitoma 6 Enchufes 0
     Multitoma Tb-t09 3000W 0
     Pacha Alcatel 1Se 0
     Pacha Apple Iphone 11 Gx 0
@@ -2240,6 +2249,7 @@
     Pacha Tecno Pop 7 / Hot 30 Play 0
     Pacha Tecno Spark 20 0
     Pacha Tecno Spark 20 Pro Plus 0
+    Pacha Tecno Spark 30C C/m 0
     Pacha Tecno Spark 9 Pro 0
     Pacha Tecno Spark Go 2022 / Pop 5 Lite 0
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 0
@@ -2328,6 +2338,7 @@
     Parlante Pc U-2400 Mini Teatro 0
     Parlante Pc Wit Pw-2000 Mini Teatro 0
     Parlante Reloj Despertador 0
+    Parlante Sonivox R-100 0
     Parlante T&G Tg-294 0
     Parlante TG-271 0
     Parlante Teatro Tg Tg-100 0
@@ -2362,8 +2373,8 @@
     Pilas Recargables Beston AA x2 0
     Pilas Recargables Beston AAA Con Cargador 0
     Pilas Recargables Beston AAA x4 0
-    Pilas Recargables Beston Aaa x2 0
-    Pilas Recargables Beston Mixta con Cargador 0
+    Pilas Recargables Beston Aaa x2 12000.0
+    Pilas Recargables Beston Mixta con Cargador 26000.0
     Pilas Recargables Maxday AA x4 0
     Pilas Recargables Maxday AA x4 con Cargador 0
     Pilas Recargables Sony AA con Cargador 0
@@ -2473,7 +2484,7 @@
     Servicio Tecnico Apple Reconectar Pantalla 0
     Servicio Tecnico Apple Reconectar Pantalla Xr 0
     Servicio Tecnico Configuracion 0
-    Servicio Tecnico Formatear Celular 0
+    Servicio Tecnico Formatear Celular 0.0
     Servicio Tecnico Frp Infinix Hot 40I 0
     Servicio Tecnico Generico Alcohol Isopropilico 0
     Servicio Tecnico Generico Instalar Hydrogel Smartwatch 4000
@@ -3217,6 +3228,11 @@
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 0
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 7000
     Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 7000
+    Silicone Case Motorola Moto Edge 50 Pro Azulrey 0
+    Silicone Case Motorola Moto Edge 50 Pro Lila 0
+    Silicone Case Motorola Moto Edge 50 Pro Negro 0
+    Silicone Case Motorola Moto Edge 50 Pro Rojo 0
+    Silicone Case Motorola Moto Edge 50 Pro Rosa 0
     Silicone Case Motorola Moto Edge 60 Fusion Amarillo 7000
     Silicone Case Motorola Moto Edge 60 Fusion Azulrey 7000
     Silicone Case Motorola Moto Edge 60 Fusion Fucsia 7000
@@ -3307,6 +3323,12 @@
     Silicone Case Motorola Moto G55 Negro 7000
     Silicone Case Motorola Moto G55 Rojo 7000
     Silicone Case Motorola Moto G55 Rosa 7000
+    Silicone Case Motorola Moto G56 Azulclaro 0
+    Silicone Case Motorola Moto G56 Fucsia 0
+    Silicone Case Motorola Moto G56 Lila 0
+    Silicone Case Motorola Moto G56 Negro 0
+    Silicone Case Motorola Moto G56 Rojo 0
+    Silicone Case Motorola Moto G56 Rosa 0
     Silicone Case Motorola Moto G60 Lila 7000
     Silicone Case Motorola Moto G60S Amarillo 7000
     Silicone Case Motorola Moto G60S Rojo 7000
@@ -3466,6 +3488,7 @@
     Silicone Case Oppo Realme C67 Lila 7000
     Silicone Case Oppo Realme C67 Morado 7000
     Silicone Case Oppo Realme C67 Negro 7000
+    Silicone Case Oppo Realme C67 Palorosa 0
     Silicone Case Oppo Realme C67 Rosa 7000
     Silicone Case Oppo Realme C75 Amarillo 7000
     Silicone Case Oppo Realme C75 Fucsia 7000
@@ -3506,6 +3529,16 @@
     Silicone Case Oppo Reno 13 5G Rojo 7000
     Silicone Case Oppo Reno 13 5G Rosa 7000
     Silicone Case Oppo Reno 13 5G Verdemilitar 7000
+    Silicone Case Oppo Reno 14 Azulrey 0
+    Silicone Case Oppo Reno 14 Fucsia 0
+    Silicone Case Oppo Reno 14 Lila 0
+    Silicone Case Oppo Reno 14 Negro 0
+    Silicone Case Oppo Reno 14 Rojo 0
+    Silicone Case Oppo Reno 14F Azulclaro 7000.0
+    Silicone Case Oppo Reno 14F Fucsia 0
+    Silicone Case Oppo Reno 14F Lila 0
+    Silicone Case Oppo Reno 14F Negro 0
+    Silicone Case Oppo Reno 14F Rojo 0
     Silicone Case Oppo Reno 5 Lite Amarillo 7000
     Silicone Case Oppo Reno 5 Lite Arcoiris 7000
     Silicone Case Oppo Reno 5 Lite Negro 7000
@@ -4105,6 +4138,7 @@
     Silicone Case Vivo V25E Azuloscuro 7000
     Silicone Case Vivo V30 Negro 7000
     Silicone Case Vivo V40 Lite Amarillo 7000
+    Silicone Case Vivo V40 Lite Azulrey 0
     Silicone Case Vivo V40 Lite Fucsia 7000
     Silicone Case Vivo V40 Lite Lila 7000
     Silicone Case Vivo V40 Lite Morado 7000
@@ -4439,7 +4473,7 @@
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Fucsia 7000
     Silicone Case Xiaomi Redmi Note 13 Pro Plus Negro 7000
     Silicone Case Xiaomi Redmi Note 14 4G Amarillo 7000
-    Silicone Case Xiaomi Redmi Note 14 4G Azuloscuro 7000
+    Silicone Case Xiaomi Redmi Note 14 4G Azuloscuro 0
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 7000
     Silicone Case Xiaomi Redmi Note 14 4G Fucsia 7000
     Silicone Case Xiaomi Redmi Note 14 4G Lila 7000
@@ -4542,7 +4576,7 @@
     Silicone Motorola Moto G8 Power Lite Rojo 7000
     Simcard Claro 0
     Simcard Movistar 0
-    Simcard Tigo 0
+    Simcard Tigo 1000.0
     Simcard Virgin 0
     Simcard Wom 0
     Sin Registro 0
@@ -4550,6 +4584,7 @@
     Smart Watch Combo Jl-9 Ultra 2 0
     Smart Watch Combo K13 0
     Smart Watch Combo K32 0
+    Smart Watch Combo K55 0
     Smart Watch Combo Kr-K55 0
     Smart Watch Combo X8 0
     Smart Watch Gw-20 Verdemilitar 0
@@ -4686,8 +4721,9 @@
     Tijeras Wmark 0
     Tripode Escritorio Selfie 0
     Tripode Selfie L-13D 0
+    Tripode Selfie-05 0
     Vaper 10000 Puffs Frutosrojos 0
-    Vaper 10000 Puffs Mango 0
+    Vaper 10000 Puffs Mango 20000.0
     Vaper 7000 Puffs Mango Loco 0
     Vaper 7000 Puffs Moraazul 0
     Vaper 7000 Puffs Salpicon 0
@@ -4732,7 +4768,7 @@
     Vidrio 5D Apple Iphone 15 Pro Max 900
     Vidrio 5D Apple Iphone 15 pro 900
     Vidrio 5D Apple Iphone 16 Pro 900
-    Vidrio 5D Apple Iphone 16 Pro Max 900
+    Vidrio 5D Apple Iphone 16 Pro Max 0
     Vidrio 5D Apple Iphone 6 / 7 / 8 Blanco 0
     Vidrio 5D Apple Iphone 6 / 7 / 8 Negro 900
     Vidrio 5D Apple Iphone 6 Plus / 7 Plus / 8 Plus Negro 900
@@ -4752,7 +4788,7 @@
     Vidrio 5D Huawei Y6 2019 / Honor 8A 900
     Vidrio 5D Huawei Y6P 900
     Vidrio 5D Huawei Y7 Prime 900
-    Vidrio 5D Huawei Y9 Prime 900
+    Vidrio 5D Huawei Y9 Prime 0
     Vidrio 5D Iphone 12 / 12 Pro 900
     Vidrio 5D Lg Q60 0
     Vidrio 5D Mate Samsung A22 4G / A31 / A32 4G 900
@@ -4771,6 +4807,7 @@
     Vidrio 5D Motorola Moto G84 0
     Vidrio 5D Motorola Moto G9 Plus 900
     Vidrio 5D Motorola Moto G9 Power 0
+    Vidrio 5D Motorola Moto One 0
     Vidrio 5D Nokia 5.3 900
     Vidrio 5D Oppo A38 0
     Vidrio 5D Oppo A54 900
@@ -4833,7 +4870,7 @@
     Vidrio 5D huawei Y9 2019 / Y8s 900
     Vidrio Antiespia Apple Iphone 11 / Xr 1600
     Vidrio Antiespia Apple Iphone 11 Pro Max 1600
-    Vidrio Antiespia Apple Iphone 12 1600
+    Vidrio Antiespia Apple Iphone 12 1600.0
     Vidrio Antiespia Apple Iphone 12 Mini 1600
     Vidrio Antiespia Apple Iphone 12 Pro Max 1600
     Vidrio Antiespia Apple Iphone 13 1600
@@ -4876,7 +4913,7 @@
     Vidrio Antiespia Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro 1600
     Vidrio Antiespia Xiaomi Redmi 10 1600
     Vidrio Antiespia Xiaomi Redmi 10C / 12C 1600
-    Vidrio Antiespia Xiaomi Redmi 12 0
+    Vidrio Antiespia Xiaomi Redmi 12 1600.0
     Vidrio Antiespia Xiaomi Redmi 13C 1600
     Vidrio Antiespia Xiaomi Redmi 13C / X7 / X7A / C51 / C53 1600
     Vidrio Antiespia Xiaomi Redmi 14C / A5 / A3 1600
@@ -4938,6 +4975,7 @@
     Vidrio Blindado Xiaomi Redmi 12 1600
     Vidrio Blindado Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 / A05 1600
     Vidrio Blindado Xiaomi Redmi 14C / A5 / A3 1600
+    Vidrio Blindado Xiaomi Redmi 15 0
     Vidrio Blindado Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 1600
     Vidrio Blindado Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 1600
     Vidrio Blindado Xiaomi Redmi Note 13 / 13 Pro 1600
@@ -5020,6 +5058,7 @@
     Vidrio Perlas Apple Iphone 15 / 15 Pro / Iphone 16 0
     Vidrio Smart Watch 45 0
     Vidrio Templado Motorola Moto E6 Play 0
+    Vidrio Templado Xiaomi Redmi 15 0
     Vidrio Titan Apple Iphone 13 / 13 Pro / 14 / 16E 0
     Vidrio Titan Apple Iphone 15 Pro Max 0
     Vidrio Titan Apple Iphone 16 Pro Max 0
@@ -5142,3 +5181,5 @@
     Wase Case MagSafe Xiaomi Redmi A5 Negro 0
     otro 0
     vidrio Tortuga Xiaomi Redmi Note 12 Pro 1100
+    Servicio Tecnico Despegar Bateria 0.0
+    Control Luces Led 0.0
