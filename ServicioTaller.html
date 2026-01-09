@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestión Servicio Técnico - Celulares</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background-color: #f8fafc;
+        overscroll-behavior: none;
+      }
+
+      /* --- ESTILOS DEL PATRÓN (CANVAS) --- */
+      #pattern-wrapper {
+        position: relative;
+        width: 260px;
+        height: 260px;
+        margin: 0 auto;
+        background: #ffffff;
+        border-radius: 16px;
+        border: 2px solid #e2e8f0;
+        touch-action: none;
+        user-select: none;
+        box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.05);
+      }
+
+      .dot {
+        position: absolute;
+        width: 18px;
+        height: 18px;
+        background-color: #cbd5e1;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 20;
+        transition: transform 0.2s, background-color 0.2s;
+      }
+
+      .dot.active {
+        background-color: #3b82f6;
+        transform: translate(-50%, -50%) scale(1.2);
+        box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.2);
+      }
+
+      .dot.start {
+        background-color: #10b981;
+        box-shadow: 0 0 0 6px rgba(16, 185, 129, 0.2);
+      }
+      .dot.end {
+        background-color: #ef4444;
+        box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.2);
+      }
+
+      /* --- VISTAS --- */
+      .view-section {
+        display: none;
+      }
+      .view-section.active {
+        display: block;
+        animation: fadeIn 0.3s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(5px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      /* --- BADGES DE ESTADO --- */
+      .badge {
+        padding: 4px 8px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .st-ingresado {
+        background: #e2e8f0;
+        color: #475569;
+      }
+      .st-diagnostico {
+        background: #fef9c3;
+        color: #854d0e;
+      }
+      .st-proceso {
+        background: #dbeafe;
+        color: #1e40af;
+      }
+      .st-listo {
+        background: #dcfce7;
+        color: #166534;
+      }
+      .st-entregado {
+        background: #1e293b;
+        color: #f8fafc;
+      }
+      .st-cancelado {
+        background: #fee2e2;
+        color: #991b1b;
+      }
+
+      /* --- IMPRESIÓN TICKET (POS) --- */
+      #pos-ticket {
+        display: none;
+      }
+
+      @media print {
+        @page {
+          margin: 0;
+          size: 58mm auto;
+        }
+        body * {
+          visibility: hidden;
+        }
+        #pos-ticket,
+        #pos-ticket * {
+          visibility: visible;
+        }
+
+        #pos-ticket {
+          display: block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 58mm;
+          min-height: 100vh;
+          padding: 4px;
+          background: white;
+          color: black;
+          font-family: "Courier New", monospace;
+          font-size: 11px;
+          line-height: 1.1;
+        }
+
+        .t-center {
+          text-align: center;
+        }
+        .t-right {
+          text-align: right;
+        }
+        .t-bold {
+          font-weight: bold;
+        }
+        .t-line {
+          border-bottom: 1px dashed #000;
+          margin: 4px 0;
+          padding-bottom: 2px;
+        }
+        .t-big {
+          font-size: 14px;
+          font-weight: bold;
+        }
+        .t-section {
+          margin-top: 8px;
+          margin-bottom: 4px;
+          font-size: 10px;
+          font-weight: bold;
+          text-transform: uppercase;
+          border-bottom: 1px solid #ddd;
+        }
+
+        #ticket-pattern-canvas {
+          width: 100px;
+          height: 100px;
+          margin: 0 auto;
+          display: block;
+          border: 1px solid #000;
+        }
+        .no-print {
+          display: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    class="h-screen flex flex-col md:flex-row overflow-hidden text-slate-800"
+  >
+    <!-- INPUT OCULTO PARA IMPORTAR ARCHIVOS -->
+    <input
+      type="file"
+      id="file-import"
+      class="hidden"
+      accept=".json"
+      onchange="importDB(this)"
+    />
+
+    <!-- DEFINICIÓN DE LISTAS DE SUGERENCIAS -->
+    <datalist id="list-names"></datalist>
+    <datalist id="list-phones"></datalist>
+    <datalist id="list-brands"></datalist>
+    <datalist id="list-models"></datalist>
+
+    <!-- SIDEBAR -->
+    <aside
+      class="w-64 bg-slate-900 text-slate-300 hidden md:flex flex-col no-print shrink-0 shadow-xl z-20"
+    >
+      <div
+        class="p-6 border-b border-slate-700 font-bold text-white flex items-center gap-2"
+      >
+        <svg
+          class="w-6 h-6 text-blue-500"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+          <path d="M12 18h.01" />
+        </svg>
+        <span>GEEK TECH</span>
+      </div>
+      <nav class="p-4 space-y-2 flex-1 overflow-y-auto">
+        <button
+          onclick="switchView('form')"
+          id="nav-form"
+          class="w-full flex items-center gap-3 p-3 bg-blue-600 text-white rounded-lg transition hover:bg-blue-700 shadow-lg shadow-blue-900/50"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 4v16m8-8H4"
+            />
+          </svg>
+          Nueva Orden
+        </button>
+        <button
+          onclick="switchView('history')"
+          id="nav-history"
+          class="w-full flex items-center gap-3 p-3 hover:bg-slate-800 rounded-lg cursor-pointer transition text-slate-300 hover:text-white"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+            />
+          </svg>
+          Historial
+        </button>
+
+        <!-- SECCIÓN DE RESPALDO -->
+        <div class="pt-4 mt-4 border-t border-slate-700">
+          <p class="px-3 text-xs font-bold text-slate-500 uppercase mb-2">
+            Respaldo / Archivo
+          </p>
+          <button
+            onclick="exportDB()"
+            class="w-full flex items-center gap-3 p-3 hover:bg-slate-800 rounded-lg cursor-pointer transition text-slate-400 hover:text-white group"
+          >
+            <svg
+              class="w-5 h-5 group-hover:text-green-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+            Descargar Datos
+          </button>
+          <button
+            onclick="document.getElementById('file-import').click()"
+            class="w-full flex items-center gap-3 p-3 hover:bg-slate-800 rounded-lg cursor-pointer transition text-slate-400 hover:text-white group"
+          >
+            <svg
+              class="w-5 h-5 group-hover:text-blue-400"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+            Restaurar Datos
+          </button>
+        </div>
+
+        <!-- INDICADOR DE ALMACENAMIENTO -->
+        <div class="px-3 mt-6">
+          <div
+            class="flex justify-between text-xs text-slate-500 mb-1 font-bold"
+          >
+            <span>Memoria</span>
+            <span id="storage-text">0%</span>
+          </div>
+          <div
+            class="w-full bg-slate-800 rounded-full h-2 overflow-hidden border border-slate-700"
+          >
+            <div
+              id="storage-bar"
+              class="bg-blue-500 h-2 rounded-full transition-all duration-500"
+              style="width: 0%"
+            ></div>
+          </div>
+          <p class="text-[10px] text-slate-600 mt-1 text-center">
+            Uso de Base de Datos
+          </p>
+        </div>
+      </nav>
+      <div
+        class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
+      >
+        Sistema de Taller v3.8<br />Base de Datos: Local
+      </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-1 flex flex-col h-full relative bg-slate-50">
+      <!-- HEADER -->
+      <header
+        class="bg-white h-16 border-b px-6 flex items-center justify-between no-print shrink-0 shadow-sm z-10"
+      >
+        <div class="flex items-center gap-2">
+          <span class="md:hidden text-slate-900 font-bold text-lg"
+            >GEEK TECH</span
+          >
+          <h1
+            id="page-title"
+            class="hidden md:block font-bold text-slate-700 text-lg"
+          >
+            Ingreso de Equipo
+          </h1>
+          <!-- Etiqueta de Modo Edición -->
+          <span
+            id="edit-badge"
+            class="hidden bg-yellow-100 text-yellow-800 text-xs font-bold px-2 py-1 rounded border border-yellow-200 ml-2 animate-pulse"
+            >MODO EDICIÓN</span
+          >
+        </div>
+        <div
+          class="text-sm font-medium text-slate-500 bg-slate-100 px-3 py-1 rounded-full border border-slate-200"
+          id="current-date"
+        ></div>
+      </header>
+
+      <!-- VISTA FORMULARIO -->
+      <div
+        id="view-form"
+        class="view-section active flex-1 overflow-y-auto p-4 md:p-8 no-print"
+      >
+        <!-- Campo oculto para ID cuando editamos -->
+        <input type="hidden" id="inp-ticket" />
+
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
+          <!-- COLUMNA IZQUIERDA: Datos -->
+          <div class="lg:col-span-7 space-y-6">
+            <!-- Tarjeta Estado -->
+            <div
+              class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between"
+            >
+              <label class="text-sm font-bold text-slate-700"
+                >ESTADO DE LA ORDEN:</label
+              >
+              <select
+                id="inp-status"
+                class="p-2 border rounded-lg bg-slate-50 font-bold text-sm outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="Ingresado">🔵 INGRESADO</option>
+                <option value="Diagnóstico">🟡 EN DIAGNÓSTICO</option>
+                <option value="En Proceso">🟠 EN PROCESO</option>
+                <option value="Listo">🟢 LISTO PARA ENTREGA</option>
+                <option value="Entregado">⚫ ENTREGADO</option>
+                <option value="Cancelado">🔴 CANCELADO</option>
+              </select>
+            </div>
+
+            <!-- Datos Cliente -->
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"
+            >
+              <h2
+                class="text-xs font-bold text-blue-600 uppercase mb-4 tracking-wider"
+              >
+                Datos del Cliente
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="md:col-span-2">
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Nombre Completo</label
+                  >
+                  <!-- Se agrega list="list-names" para sugerencias -->
+                  <input
+                    type="text"
+                    id="inp-name"
+                    list="list-names"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg focus:border-blue-500 outline-none transition-colors"
+                    placeholder="Nombre del cliente"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Teléfono</label
+                  >
+                  <!-- Se agrega list="list-phones" para sugerencias -->
+                  <input
+                    type="tel"
+                    id="inp-phone"
+                    list="list-phones"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none"
+                    placeholder="300 000 0000"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Cédula (Opcional)</label
+                  >
+                  <input
+                    type="text"
+                    id="inp-id"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Datos Equipo -->
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"
+            >
+              <h2
+                class="text-xs font-bold text-blue-600 uppercase mb-4 tracking-wider"
+              >
+                Datos del Equipo
+              </h2>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Marca</label
+                  >
+                  <!-- Se agrega list="list-brands" -->
+                  <input
+                    type="text"
+                    id="inp-brand"
+                    list="list-brands"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none"
+                    placeholder="Ej: Samsung"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Modelo</label
+                  >
+                  <!-- Se agrega list="list-models" -->
+                  <input
+                    type="text"
+                    id="inp-model"
+                    list="list-models"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none"
+                    placeholder="Ej: A52"
+                  />
+                </div>
+                <div class="md:col-span-2">
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >IMEI / Serie</label
+                  >
+                  <input
+                    type="text"
+                    id="inp-imei"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none font-mono text-sm"
+                    placeholder="---"
+                  />
+                </div>
+                <div class="md:col-span-2">
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Falla Reportada</label
+                  >
+                  <textarea
+                    id="inp-issue"
+                    rows="2"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none resize-none"
+                    placeholder="Descripción del problema..."
+                  ></textarea>
+                </div>
+                <div class="md:col-span-2">
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Observaciones / Comentarios</label
+                  >
+                  <textarea
+                    id="inp-notes"
+                    rows="2"
+                    class="w-full p-2.5 border border-yellow-200 bg-yellow-50 rounded-lg outline-none resize-none"
+                    placeholder="Ej: Equipo rayado, sin simcard, tapa rota..."
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- Costos -->
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"
+            >
+              <div class="grid grid-cols-3 gap-4 text-center">
+                <div>
+                  <label class="block text-xs font-bold text-slate-600 mb-1"
+                    >TOTAL</label
+                  >
+                  <input
+                    type="number"
+                    id="inp-total"
+                    oninput="calcBalance()"
+                    class="w-full p-2 text-center border-b-2 border-slate-300 font-bold text-lg bg-transparent outline-none transition-colors focus:border-blue-500"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-green-600 mb-1"
+                    >ABONO</label
+                  >
+                  <input
+                    type="number"
+                    id="inp-deposit"
+                    oninput="calcBalance()"
+                    class="w-full p-2 text-center border-b-2 border-green-300 font-bold text-lg text-green-700 bg-transparent outline-none transition-colors focus:border-green-500"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-red-600 mb-1"
+                    >SALDO</label
+                  >
+                  <input
+                    type="text"
+                    id="inp-balance"
+                    readonly
+                    class="w-full p-2 text-center border-b-2 border-transparent font-bold text-lg text-red-600 bg-transparent"
+                    value="0"
+                  />
+                </div>
+              </div>
+              <p class="text-xs text-center text-slate-400 mt-2 italic">
+                Modifique el Abono si el cliente realiza un nuevo pago.
+              </p>
+            </div>
+          </div>
+
+          <!-- COLUMNA DERECHA: Seguridad -->
+          <div class="lg:col-span-5 space-y-6">
+            <div
+              class="bg-white p-6 rounded-xl shadow-lg border border-blue-100"
+            >
+              <div class="flex justify-between items-center mb-4">
+                <h2
+                  class="text-xs font-bold text-slate-800 uppercase tracking-wider"
+                >
+                  Seguridad
+                </h2>
+                <div class="flex bg-slate-100 p-1 rounded-lg">
+                  <button
+                    onclick="setMode('pattern')"
+                    id="btn-mode-pat"
+                    class="px-3 py-1 text-xs font-bold rounded shadow-sm bg-white text-blue-600 transition-all"
+                  >
+                    Patrón
+                  </button>
+                  <button
+                    onclick="setMode('pass')"
+                    id="btn-mode-pass"
+                    class="px-3 py-1 text-xs font-bold rounded text-slate-500 hover:text-slate-700 transition-all"
+                  >
+                    Clave
+                  </button>
+                </div>
+              </div>
+
+              <div id="mode-pattern" class="flex flex-col items-center">
+                <div id="pattern-wrapper">
+                  <canvas id="pattern-canvas" width="260" height="260"></canvas>
+                </div>
+                <div class="mt-4 flex justify-between w-full items-center px-4">
+                  <span
+                    id="pattern-sequence"
+                    class="font-mono text-xs font-bold text-slate-800 bg-slate-100 px-2 py-1 rounded"
+                    >---</span
+                  >
+                  <button
+                    onclick="resetPattern()"
+                    class="text-xs text-red-500 hover:text-red-700 underline font-medium"
+                  >
+                    Limpiar
+                  </button>
+                </div>
+              </div>
+
+              <div id="mode-password" class="hidden">
+                <div
+                  class="bg-slate-50 border border-slate-200 rounded-lg p-4 h-[260px] flex flex-col justify-center"
+                >
+                  <label
+                    class="block text-xs font-bold text-slate-500 mb-2 uppercase text-center"
+                    >Contraseña de Desbloqueo</label
+                  >
+                  <input
+                    type="text"
+                    id="inp-pass-text"
+                    class="w-full p-4 text-center text-xl font-mono border-2 border-slate-300 rounded-lg tracking-widest uppercase focus:border-blue-500 outline-none transition-colors"
+                    placeholder="----"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button
+              id="btn-save"
+              onclick="saveAndPrint()"
+              class="w-full py-4 bg-slate-800 text-white rounded-xl shadow-lg hover:bg-slate-700 transition-all active:scale-[0.98] flex items-center justify-center gap-3 font-bold text-lg group"
+            >
+              <svg
+                class="w-6 h-6 group-hover:animate-pulse"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"
+                />
+              </svg>
+              <span id="btn-save-text">Guardar e Imprimir</span>
+            </button>
+
+            <button
+              id="btn-cancel-edit"
+              onclick="cancelEdit()"
+              class="w-full py-3 bg-white border border-slate-300 text-slate-600 rounded-xl hover:bg-slate-50 transition hidden font-medium"
+            >
+              Cancelar Edición
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VISTA HISTORIAL -->
+      <div
+        id="view-history"
+        class="view-section flex-1 overflow-y-auto p-4 md:p-8 no-print hidden"
+      >
+        <div
+          class="max-w-7xl mx-auto bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full md:h-auto"
+        >
+          <div
+            class="p-4 border-b bg-slate-50 flex flex-col md:flex-row justify-between items-center gap-4"
+          >
+            <h2 class="font-bold text-slate-700 flex items-center gap-2">
+              <svg
+                class="w-5 h-5 text-blue-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"
+                />
+              </svg>
+              Base de Datos
+            </h2>
+            <input
+              type="text"
+              id="search-history"
+              oninput="renderHistory()"
+              placeholder="Buscar por cliente, ticket o modelo..."
+              class="p-2 border border-slate-300 rounded-lg text-sm w-full md:w-80 outline-none focus:border-blue-500 transition-colors"
+            />
+          </div>
+          <div class="overflow-x-auto flex-1">
+            <table class="w-full text-sm text-left text-slate-500">
+              <thead
+                class="text-xs text-slate-700 uppercase bg-slate-100 sticky top-0"
+              >
+                <tr>
+                  <th class="px-6 py-3">Ticket</th>
+                  <th class="px-6 py-3">Estado</th>
+                  <th class="px-6 py-3">Fecha</th>
+                  <th class="px-6 py-3">Cliente</th>
+                  <th class="px-6 py-3">Equipo</th>
+                  <th class="px-6 py-3 text-right">Saldo</th>
+                  <th class="px-6 py-3 text-center">Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="history-table-body" class="divide-y divide-slate-100">
+                <!-- JS llenará esto -->
+              </tbody>
+            </table>
+          </div>
+          <div
+            class="p-2 bg-slate-50 border-t text-xs text-center text-slate-400"
+          >
+            Mostrando últimos registros
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- TICKET DE IMPRESIÓN -->
+    <div id="pos-ticket">
+      <div class="t-center t-big t-bold">GEEK TECHNOLOGY</div>
+      <div class="t-center">Servicio Técnico Especializado</div>
+      <div class="t-center">NIT: 900.123.456-7</div>
+      <div class="t-center">WhatsApp: 304-631-3114</div>
+      <div class="t-line"></div>
+
+      <div class="t-center" id="t-date"></div>
+      <div class="t-center t-bold" style="font-size: 12px; margin: 4px 0">
+        ORDEN #<span id="t-id"></span>
+      </div>
+      <div class="t-center t-bold t-section" id="t-status">INGRESADO</div>
+
+      <div class="t-section">CLIENTE</div>
+      <div class="t-bold" id="t-name"></div>
+      <div id="t-phone"></div>
+
+      <div class="t-section">EQUIPO</div>
+      <div id="t-device"></div>
+      <div>IMEI: <span id="t-imei" class="t-bold"></span></div>
+      <div style="margin-top: 2px">FALLA: <span id="t-issue"></span></div>
+      <div style="margin-top: 2px; font-style: italic">
+        NOTAS: <span id="t-notes"></span>
+      </div>
+
+      <div class="t-section">SEGURIDAD</div>
+      <div id="t-security-area">
+        <div id="t-pattern-box" style="display: none">
+          <canvas id="ticket-pattern-canvas" width="100" height="100"></canvas>
+          <div class="t-center" style="font-size: 9px">
+            Secuencia: <span id="t-seq"></span>
+          </div>
+        </div>
+        <div
+          id="t-pass-box"
+          class="t-center t-bold t-big"
+          style="border: 1px solid #000; padding: 4px; display: none"
+        ></div>
+      </div>
+
+      <div class="t-line"></div>
+      <div style="display: flex; justify-content: space-between">
+        <span>TOTAL:</span><span class="t-bold" id="t-total">$0</span>
+      </div>
+      <div style="display: flex; justify-content: space-between">
+        <span>ABONO:</span><span id="t-deposit">$0</span>
+      </div>
+      <div
+        style="
+          display: flex;
+          justify-content: space-between;
+          font-size: 12px;
+          font-weight: bold;
+          margin-top: 4px;
+        "
+      >
+        <span>RESTANTE:</span><span id="t-balance">$0</span>
+      </div>
+      <div class="t-line"></div>
+
+      <div class="t-center" style="font-size: 9px; margin-top: 10px">
+        Garantía 30 días. Equipos mojados/apagados SIN garantía.<br />
+        Pasados 30 días se cobra bodegaje.
+      </div>
+      <div class="t-center t-bold" style="margin-top: 10px">
+        ¡GRACIAS POR SU PREFERENCIA!
+      </div>
+    </div>
+
+    <script>
+      // --- BASE DE DATOS LOCAL ---
+      const DB_KEY = "repairDB";
+
+      function getDB() {
+        const data = localStorage.getItem(DB_KEY);
+        return data ? JSON.parse(data) : [];
+      }
+
+      function saveToDB(order) {
+        const db = getDB();
+        // Buscar si ya existe por ID
+        const index = db.findIndex(
+          (o) => o.ticketNumber === order.ticketNumber
+        );
+
+        if (index >= 0) {
+          // ACTUALIZAR (Mantener fecha original, actualizar el resto)
+          db[index] = {
+            ...db[index],
+            ...order,
+            lastUpdated: new Date().toISOString(),
+          };
+        } else {
+          // NUEVO
+          db.unshift(order);
+        }
+        localStorage.setItem(DB_KEY, JSON.stringify(db));
+
+        // Actualizar sugerencias inmediatamente
+        updateSuggestions();
+        // Actualizar uso de almacenamiento
+        updateStorageUsage();
+      }
+
+      function deleteFromDB(ticketNumber) {
+        if (!confirm("¿Seguro que desea eliminar esta orden permanentemente?"))
+          return;
+        const db = getDB().filter((o) => o.ticketNumber !== ticketNumber);
+        localStorage.setItem(DB_KEY, JSON.stringify(db));
+        renderHistory();
+        updateSuggestions();
+        updateStorageUsage();
+      }
+
+      // --- SISTEMA DE USO DE ALMACENAMIENTO ---
+      function updateStorageUsage() {
+        let total = 0;
+        // Calcular uso total de LocalStorage
+        for (let x in localStorage) {
+          if (!localStorage.hasOwnProperty(x)) continue;
+          total += (localStorage[x].length + x.length) * 2;
+        }
+
+        // 5MB aprox 5,242,880 bytes
+        const max = 5242880;
+        const percentage = ((total / max) * 100).toFixed(1);
+
+        const bar = document.getElementById("storage-bar");
+        const text = document.getElementById("storage-text");
+
+        if (bar && text) {
+          text.textContent = percentage + "%";
+          bar.style.width = percentage + "%";
+
+          // Colores Dinámicos
+          bar.className =
+            "h-2 rounded-full transition-all duration-500 " +
+            (percentage < 50
+              ? "bg-green-500"
+              : percentage < 80
+              ? "bg-yellow-500"
+              : "bg-red-500");
+        }
+      }
+
+      // --- SISTEMA DE RESPALDO (EXPORTAR/IMPORTAR) ---
+      function exportDB() {
+        const data = localStorage.getItem(DB_KEY);
+        if (!data || data === "[]") return alert("No hay datos para exportar.");
+
+        const blob = new Blob([data], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        const date = new Date().toISOString().slice(0, 10);
+        a.download = `GeekTech_Backup_${date}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+
+      function importDB(input) {
+        const file = input.files[0];
+        if (!file) return;
+
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            if (Array.isArray(data)) {
+              if (
+                confirm(
+                  `Se encontrarón ${data.length} registros. ¿Desea reemplazar la base de datos actual?`
+                )
+              ) {
+                localStorage.setItem(DB_KEY, JSON.stringify(data));
+                alert(
+                  "¡Datos restaurados correctamente! La página se recargará."
+                );
+                location.reload();
+              }
+            } else {
+              alert(
+                "El archivo seleccionado no es un respaldo válido (Formato incorrecto)."
+              );
+            }
+          } catch (err) {
+            alert(
+              "Error al leer el archivo. Asegúrate de que es un .json válido."
+            );
+            console.error(err);
+          }
+        };
+        reader.readAsText(file);
+        input.value = "";
+      }
+
+      // --- SISTEMA DE SUGERENCIAS (AUTOCOMPLETADO) ---
+      function updateSuggestions() {
+        const db = getDB();
+
+        const fillList = (listId, key) => {
+          const list = document.getElementById(listId);
+          const uniqueValues = [
+            ...new Set(
+              db
+                .map((item) => item[key])
+                .filter((val) => val && val.trim() !== "")
+            ),
+          ].sort();
+
+          list.innerHTML = uniqueValues
+            .map((val) => `<option value="${val}">`)
+            .join("");
+        };
+
+        fillList("list-names", "clientName");
+        fillList("list-phones", "clientPhone");
+        fillList("list-brands", "deviceBrand");
+        fillList("list-models", "deviceModel");
+      }
+
+      // --- GESTIÓN DEL FORMULARIO ---
+
+      function loadOrder(ticketNumber) {
+        const db = getDB();
+        const order = db.find((o) => o.ticketNumber === ticketNumber);
+
+        if (!order) return alert("Orden no encontrada");
+
+        document.getElementById("inp-ticket").value = order.ticketNumber;
+        document.getElementById("inp-name").value = order.clientName;
+        document.getElementById("inp-phone").value = order.clientPhone;
+        document.getElementById("inp-brand").value = order.deviceBrand;
+        document.getElementById("inp-model").value = order.deviceModel;
+        document.getElementById("inp-imei").value = order.imei;
+        document.getElementById("inp-issue").value = order.issue;
+        document.getElementById("inp-notes").value = order.notes || "";
+        document.getElementById("inp-total").value = order.total;
+        document.getElementById("inp-deposit").value = order.deposit;
+
+        document.getElementById("inp-status").value =
+          order.status || "Ingresado";
+
+        calcBalance();
+
+        if (order.securityMode === "pass") {
+          setMode("pass");
+          document.getElementById("inp-pass-text").value = order.securityData;
+        } else {
+          setMode("pattern");
+          resetPattern();
+          if (Array.isArray(order.securityData)) {
+            path = [];
+            order.securityData.forEach((idx) => {
+              path.push(idx);
+              dots[idx].el.classList.add("active");
+            });
+            updateStyle();
+            draw(null);
+            seqDisplay.textContent = path.map((i) => i + 1).join("-");
+          }
+        }
+
+        document.getElementById("page-title").textContent =
+          "Editando Orden #" + order.ticketNumber;
+        document.getElementById("edit-badge").classList.remove("hidden");
+        document.getElementById("btn-save-text").textContent =
+          "Guardar Cambios e Imprimir";
+        document.getElementById("btn-cancel-edit").classList.remove("hidden");
+
+        switchView("form");
+      }
+
+      function cancelEdit() {
+        document.getElementById("inp-ticket").value = "";
+        document.getElementById("page-title").textContent = "Ingreso de Equipo";
+        document.getElementById("edit-badge").classList.add("hidden");
+        document.getElementById("btn-save-text").textContent =
+          "Guardar e Imprimir";
+        document.getElementById("btn-cancel-edit").classList.add("hidden");
+
+        document.getElementById("inp-name").value = "";
+        document.getElementById("inp-phone").value = "";
+        document.getElementById("inp-brand").value = "";
+        document.getElementById("inp-model").value = "";
+        document.getElementById("inp-imei").value = "";
+        document.getElementById("inp-issue").value = "";
+        document.getElementById("inp-notes").value = "";
+        document.getElementById("inp-total").value = "";
+        document.getElementById("inp-deposit").value = "";
+        document.getElementById("inp-status").value = "Ingresado";
+        document.getElementById("inp-pass-text").value = "";
+        resetPattern();
+        calcBalance();
+      }
+
+      // --- NAVEGACIÓN ---
+      function switchView(viewName) {
+        document
+          .querySelectorAll(".view-section")
+          .forEach((el) => el.classList.remove("active"));
+        document
+          .querySelectorAll("nav button")
+          .forEach((el) =>
+            el.classList.remove("bg-blue-600", "text-white", "shadow-lg")
+          );
+
+        if (viewName === "form") {
+          document.getElementById("view-form").classList.add("active");
+          const btn = document.getElementById("nav-form");
+          btn.classList.add("bg-blue-600", "text-white", "shadow-lg");
+          btn.classList.remove("text-slate-300");
+
+          document
+            .getElementById("nav-history")
+            .classList.remove("bg-blue-600", "text-white");
+          document
+            .getElementById("nav-history")
+            .classList.add("text-slate-300");
+        } else {
+          document.getElementById("view-history").classList.add("active");
+          const btn = document.getElementById("nav-history");
+          btn.classList.add("bg-blue-600", "text-white", "shadow-lg");
+          btn.classList.remove("text-slate-300");
+
+          document
+            .getElementById("nav-form")
+            .classList.remove("bg-blue-600", "text-white");
+          document.getElementById("nav-form").classList.add("text-slate-300");
+
+          renderHistory();
+        }
+      }
+
+      // --- HISTORIAL ---
+      function renderHistory() {
+        const db = getDB();
+        const term = document
+          .getElementById("search-history")
+          .value.toLowerCase();
+        const tbody = document.getElementById("history-table-body");
+        tbody.innerHTML = "";
+
+        const filtered = db.filter((order) => {
+          const searchStr = (
+            order.clientName +
+            order.ticketNumber +
+            order.deviceModel
+          ).toLowerCase();
+          return searchStr.includes(term);
+        });
+
+        if (filtered.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-8 text-center text-slate-400">No se encontraron órdenes</td></tr>`;
+          return;
+        }
+
+        filtered.forEach((order) => {
+          const balance = order.total - order.deposit;
+
+          let statusClass = "st-ingresado";
+          const st = (order.status || "Ingresado").toLowerCase();
+          if (st.includes("diag")) statusClass = "st-diagnostico";
+          else if (st.includes("proceso")) statusClass = "st-proceso";
+          else if (st.includes("listo")) statusClass = "st-listo";
+          else if (st.includes("entregado")) statusClass = "st-entregado";
+          else if (st.includes("cancelado")) statusClass = "st-cancelado";
+
+          const row = document.createElement("tr");
+          row.className =
+            "bg-white border-b hover:bg-slate-50 transition-colors";
+          row.innerHTML = `
+                    <td class="px-6 py-4 font-mono font-bold text-slate-700">#${
+                      order.ticketNumber
+                    }</td>
+                    <td class="px-6 py-4"><span class="badge ${statusClass}">${
+            order.status || "Ingresado"
+          }</span></td>
+                    <td class="px-6 py-4 text-xs">${new Date(
+                      order.date
+                    ).toLocaleDateString()}</td>
+                    <td class="px-6 py-4 font-medium text-slate-900">${
+                      order.clientName
+                    }</td>
+                    <td class="px-6 py-4 text-xs">${order.deviceBrand} ${
+            order.deviceModel
+          }</td>
+                    <td class="px-6 py-4 text-right font-bold ${
+                      balance > 0 ? "text-red-600" : "text-green-600"
+                    }">$${balance.toLocaleString()}</td>
+                    <td class="px-6 py-4 text-center">
+                        <div class="flex justify-center gap-2">
+                            <button onclick='loadOrder("${
+                              order.ticketNumber
+                            }")' class="p-1.5 bg-blue-50 text-blue-600 rounded hover:bg-blue-100 font-bold text-xs">EDITAR</button>
+                            <button onclick='reprintOrder(${JSON.stringify(
+                              order
+                            )})' class="p-1.5 text-slate-500 hover:text-slate-800"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg></button>
+                            <button onclick="deleteFromDB('${
+                              order.ticketNumber
+                            }')" class="p-1.5 text-red-400 hover:text-red-600"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                        </div>
+                    </td>
+                `;
+          tbody.appendChild(row);
+        });
+      }
+
+      // --- CORE Y UTILIDADES ---
+      document.getElementById("current-date").textContent =
+        new Date().toLocaleDateString("es-ES", {
+          weekday: "long",
+          day: "numeric",
+          month: "short",
+        });
+
+      function calcBalance() {
+        const total =
+          parseFloat(document.getElementById("inp-total").value) || 0;
+        const abono =
+          parseFloat(document.getElementById("inp-deposit").value) || 0;
+        document.getElementById("inp-balance").value = (
+          total - abono
+        ).toLocaleString();
+      }
+
+      let securityMode = "pattern";
+      function setMode(mode) {
+        securityMode = mode;
+        const btnPat = document.getElementById("btn-mode-pat");
+        const btnPass = document.getElementById("btn-mode-pass");
+        const divPat = document.getElementById("mode-pattern");
+        const divPass = document.getElementById("mode-password");
+
+        if (mode === "pattern") {
+          btnPat.className =
+            "px-3 py-1 text-xs font-bold rounded shadow-sm bg-white text-blue-600 transition-all transform scale-105";
+          btnPass.className =
+            "px-3 py-1 text-xs font-bold rounded text-slate-500 hover:text-slate-700 transition-all";
+          divPat.classList.remove("hidden");
+          divPass.classList.add("hidden");
+        } else {
+          btnPass.className =
+            "px-3 py-1 text-xs font-bold rounded shadow-sm bg-white text-blue-600 transition-all transform scale-105";
+          btnPat.className =
+            "px-3 py-1 text-xs font-bold rounded text-slate-500 hover:text-slate-700 transition-all";
+          divPass.classList.remove("hidden");
+          divPat.classList.add("hidden");
+        }
+      }
+
+      // Canvas Pattern Logic
+      const canvas = document.getElementById("pattern-canvas");
+      const ctx = canvas.getContext("2d");
+      const wrapper = document.getElementById("pattern-wrapper");
+      const seqDisplay = document.getElementById("pattern-sequence");
+      let dots = [],
+        path = [],
+        isDrawing = false;
+
+      function initPattern() {
+        const size = 260;
+        const padding = 30;
+        const step = (size - padding * 2) / 2;
+        for (let i = 0; i < 9; i++) {
+          const x = padding + (i % 3) * step;
+          const y = padding + Math.floor(i / 3) * step;
+          const dot = document.createElement("div");
+          dot.className = "dot";
+          dot.style.left = x + "px";
+          dot.style.top = y + "px";
+          wrapper.appendChild(dot);
+          dots.push({ x, y, el: dot, index: i });
+        }
+      }
+
+      function getPos(e) {
+        const rect = wrapper.getBoundingClientRect();
+        const clientX = e.touches ? e.touches[0].clientX : e.clientX;
+        const clientY = e.touches ? e.touches[0].clientY : e.clientY;
+        return { x: clientX - rect.left, y: clientY - rect.top };
+      }
+
+      function start(e) {
+        e.preventDefault();
+        isDrawing = true;
+        path = [];
+        resetVisuals();
+        checkHit(getPos(e));
+      }
+      function move(e) {
+        if (!isDrawing) return;
+        e.preventDefault();
+        const pos = getPos(e);
+        draw(pos);
+        checkHit(pos);
+      }
+      function end() {
+        isDrawing = false;
+        draw(null);
+      }
+
+      function checkHit(pos) {
+        for (let d of dots) {
+          const dx = pos.x - d.x,
+            dy = pos.y - d.y;
+          if (Math.sqrt(dx * dx + dy * dy) < 25) addPoint(d);
+        }
+      }
+
+      function addPoint(dot) {
+        if (path.includes(dot.index)) return;
+        if (path.length > 0) {
+          const last = path[path.length - 1];
+          const curr = dot.index;
+          const r1 = Math.floor(last / 3),
+            c1 = last % 3,
+            r2 = Math.floor(curr / 3),
+            c2 = curr % 3;
+          if (Math.abs(r1 - r2) % 2 === 0 && Math.abs(c1 - c2) % 2 === 0) {
+            const mid = ((r1 + r2) / 2) * 3 + (c1 + c2) / 2;
+            if (!path.includes(mid)) {
+              path.push(mid);
+              dots[mid].el.classList.add("active");
+            }
+          }
+        }
+        path.push(dot.index);
+        dot.el.classList.add("active");
+        updateStyle();
+        seqDisplay.textContent = path.map((i) => i + 1).join("-");
+      }
+
+      function updateStyle() {
+        dots.forEach((d) => d.el.classList.remove("start", "end"));
+        if (path.length > 0) dots[path[0]].el.classList.add("start");
+        if (path.length > 1)
+          dots[path[path.length - 1]].el.classList.add("end");
+      }
+
+      function draw(pointer) {
+        ctx.clearRect(0, 0, 260, 260);
+        if (path.length === 0 && !pointer) return;
+        ctx.beginPath();
+        ctx.lineWidth = 4;
+        ctx.strokeStyle = "#3b82f6";
+        ctx.lineCap = "round";
+        ctx.lineJoin = "round";
+        if (path.length > 0) {
+          const f = dots[path[0]];
+          ctx.moveTo(f.x, f.y);
+          for (let i = 1; i < path.length; i++) {
+            const d = dots[path[i]];
+            ctx.lineTo(d.x, d.y);
+          }
+        }
+        if (pointer && path.length > 0) ctx.lineTo(pointer.x, pointer.y);
+        ctx.stroke();
+      }
+
+      function resetVisuals() {
+        dots.forEach((d) => {
+          d.el.className = "dot";
+          d.el.classList.remove("active", "start", "end");
+        });
+        ctx.clearRect(0, 0, 260, 260);
+        seqDisplay.textContent = "---";
+      }
+      function resetPattern() {
+        path = [];
+        resetVisuals();
+      }
+
+      wrapper.addEventListener("mousedown", start);
+      window.addEventListener("mousemove", move);
+      window.addEventListener("mouseup", end);
+      wrapper.addEventListener("touchstart", start, { passive: false });
+      window.addEventListener("touchmove", move, { passive: false });
+      window.addEventListener("touchend", end);
+      initPattern();
+
+      // --- GUARDAR E IMPRIMIR ---
+      function saveAndPrint() {
+        const currentId = document.getElementById("inp-ticket").value;
+        // Si hay ID es edición, sino es nuevo
+        const ticketNumber =
+          currentId ||
+          Math.floor(Date.now() / 1000)
+            .toString()
+            .slice(-4);
+
+        const orderData = {
+          ticketNumber: ticketNumber,
+          // Si es edición, mantenemos fecha original (idealmente la traemos de DB, aquí usamos new si es nuevo)
+          date: currentId
+            ? getDB().find((o) => o.ticketNumber == currentId)?.date ||
+              new Date().toISOString()
+            : new Date().toISOString(),
+          clientName:
+            document.getElementById("inp-name").value || "Cliente General",
+          clientPhone: document.getElementById("inp-phone").value,
+          deviceBrand: document.getElementById("inp-brand").value,
+          deviceModel: document.getElementById("inp-model").value,
+          imei: document.getElementById("inp-imei").value || "---",
+          issue: document.getElementById("inp-issue").value,
+          notes: document.getElementById("inp-notes").value,
+          total: parseFloat(document.getElementById("inp-total").value) || 0,
+          deposit:
+            parseFloat(document.getElementById("inp-deposit").value) || 0,
+          status: document.getElementById("inp-status").value, // NUEVO
+          securityMode: securityMode,
+          securityData:
+            securityMode === "pattern"
+              ? path
+              : document.getElementById("inp-pass-text").value,
+        };
+
+        saveToDB(orderData);
+        printTicketData(orderData);
+
+        // Si es edición, nos quedamos, si es nuevo recargamos
+        if (!currentId) {
+          setTimeout(() => location.reload(), 1000);
+        } else {
+          // Actualizar historial visualmente sin recargar
+          cancelEdit(); // Volver al estado limpio
+          switchView("history");
+        }
+      }
+
+      function reprintOrder(order) {
+        printTicketData(order);
+      }
+
+      function printTicketData(data) {
+        document.getElementById("t-date").textContent =
+          new Date().toLocaleString();
+        document.getElementById("t-id").textContent = data.ticketNumber;
+        document.getElementById("t-status").textContent = data.status
+          ? data.status.toUpperCase()
+          : "INGRESADO";
+        document.getElementById("t-name").textContent = data.clientName;
+        document.getElementById("t-phone").textContent = data.clientPhone;
+        document.getElementById("t-device").textContent = (
+          data.deviceBrand +
+          " " +
+          data.deviceModel
+        ).trim();
+        document.getElementById("t-imei").textContent = data.imei;
+        document.getElementById("t-issue").textContent = data.issue;
+        document.getElementById("t-notes").textContent = data.notes;
+
+        document.getElementById("t-total").textContent =
+          "$" + data.total.toLocaleString();
+        document.getElementById("t-deposit").textContent =
+          "$" + data.deposit.toLocaleString();
+        document.getElementById("t-balance").textContent =
+          "$" + (data.total - data.deposit).toLocaleString();
+
+        const tPatternBox = document.getElementById("t-pattern-box");
+        const tPassBox = document.getElementById("t-pass-box");
+
+        if (
+          data.securityMode === "pattern" &&
+          Array.isArray(data.securityData) &&
+          data.securityData.length > 0
+        ) {
+          tPatternBox.style.display = "block";
+          tPassBox.style.display = "none";
+
+          const tCanvas = document.getElementById("ticket-pattern-canvas");
+          const tCtx = tCanvas.getContext("2d");
+          tCtx.clearRect(0, 0, 100, 100);
+
+          const size = 100,
+            padding = 10,
+            step = (size - padding * 2) / 2;
+          tCtx.fillStyle = "#ddd";
+          for (let i = 0; i < 9; i++) {
+            const r = Math.floor(i / 3),
+              c = i % 3;
+            tCtx.beginPath();
+            tCtx.arc(padding + c * step, padding + r * step, 3, 0, Math.PI * 2);
+            tCtx.fill();
+          }
+
+          tCtx.beginPath();
+          tCtx.lineWidth = 3;
+          tCtx.strokeStyle = "#000";
+          tCtx.lineCap = "round";
+          tCtx.lineJoin = "round";
+          const p = data.securityData;
+          tCtx.moveTo(
+            padding + (p[0] % 3) * step,
+            padding + Math.floor(p[0] / 3) * step
+          );
+          for (let i = 1; i < p.length; i++) {
+            tCtx.lineTo(
+              padding + (p[i] % 3) * step,
+              padding + Math.floor(p[i] / 3) * step
+            );
+          }
+          tCtx.stroke();
+          document.getElementById("t-seq").textContent = p
+            .map((i) => i + 1)
+            .join("-");
+        } else {
+          tPatternBox.style.display = "none";
+          tPassBox.style.display = "block";
+          tPassBox.textContent =
+            (data.securityMode === "pass"
+              ? data.securityData
+              : "SIN BLOQUEO") || "SIN BLOQUEO";
+        }
+
+        window.print();
+      }
+
+      // Inicializar sugerencias al cargar y uso de almacenamiento
+      document.addEventListener("DOMContentLoaded", () => {
+        updateSuggestions();
+        updateStorageUsage();
+      });
+    </script>
+  </body>
+</html>

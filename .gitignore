@@ -4,3 +4,6 @@ facturas/
 #Ignorar Archivos
 *.PNG
 *.csv
+local.txt
+dbcst.txt
+bodegac.txt

@@ -1,9 +1,11 @@
     Adaptador Tc a 3.5 3
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
+    Audifonos Bluetooth Xiaomi E7S Negro 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Balaca Appla P9 Azul 1
+    Balaca Callcenter Usb 2
     Balaca Naisu S-437 Gris 1
     Bluetooth Car Bt-350 3
     Cable Apple Iphone 4 3
@@ -33,10 +35,12 @@
     Forro Antichoque Oppo Realme C75 Dama 5
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Dama 5
+    Forro Antichoque Samsung A12 Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Xiaomi Poco X3 Dama 3
+    Forro Antichoque Xiaomi Redmi 12C Caballero 2
     Forro Antichoque Xiaomi Redmi 15 Caballero 5
     Forro Antichoque Xiaomi Redmi 15 Dama 5
     Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2
@@ -84,6 +88,7 @@
     Forro Space Tecno Spark Go 2 / Smart 10 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
+    Forro Space Xiaomi Redmi 13C 2
     Forro Space Xiaomi Redmi 14C 1
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
@@ -203,6 +208,7 @@
     Silicone Case Xiaomi Redmi Note 12S Rosa 1
     Silicone Case Xiaomi Redmi Note 13 4G Morado 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rosa 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
     Silicone Case Xiaomi Redmi Note 14 4G Azuloscuro 1
@@ -212,6 +218,7 @@
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
+    Silicone Case Xiaomi Redmi Note 8 Pro Rosa 1
     Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Amarillo 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
