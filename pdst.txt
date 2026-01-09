@@ -1,10 +1,10 @@
     Bandeja Sim Huawei Honor X6 / X6S 1 ok
     Bateria Huawei Honor 1
-    Bateria Infinix Hot 30 Bl-49Jx 1
+    Bateria Infinix Hot 30 Bl-49Jx 1 ok
     Logica de Carga Zte Blade A54 1
     Logica de Carga Tecno Spark 20 2 ok
     Pacha Huawei Y9 Prime Full 1 ok
     Pacha Oppo A17 / A38 / A57 / A77 1
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 2
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 2 ok
     Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
     Pacha Xiaomi Redmi Note 10 Pro 2 ok
