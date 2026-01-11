@@ -10630,3 +10630,53 @@ Fecha de proceso: 2026-01-09 14:38:41
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-11 17:15:14
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Audifonos Bluetooth Xiaomi E7S Negro 1 ok
+    8 | Balaca Callcenter Usb 2 ok
+   15 | Cargador Apple 5V Eco 3 ok
+   19 | Cargador Pluying Modulador M34 1 ok
+   20 | Cargador Pluying Modulador Vp-R7 1 ok
+   21 | Cargador Pluying Modulador We We-09 1 ok
+   94 | Forro Space Tecno Spark Go 2 / Smart 10 2 ok
+   97 | Forro Space Xiaomi Redmi 13C 2 ok
+   98 | Forro Space Xiaomi Redmi 14C 1 ok
+  122 | Silicone Case Apple Iphone 17 Fucsia 1 ok
+  127 | Silicone Case Apple Iphone 17 Pro Negro 1 ok
+  128 | Silicone Case Apple Iphone 17 Pro Rojo 1 ok
+  253 | Vidrio 5D Samsung A71 / Poco X3 20 ok
+  255 | Vidrio Antiespia Apple Iphone 12 5 ok
+
+==================================================
+Fecha de proceso: 2026-01-11 17:15:14
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 17:15:14
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 6
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Boton Power Samsung A22 4G 1 ok
+    2 | Pacha Apple Iphone 13 Gx 1 ok
+    4 | Pacha Oppo A17 / A38 / A57 / A77 1 ok
+    5 | Pacha Xiaomi Poco X3 / Mi 10T Lite 1 ok
+    6 | Tapa Huawei P30 Lite Negro 1 ok
+    7 | Visor de Camara Huawei P30 lite 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-11 17:15:14
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

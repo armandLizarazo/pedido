@@ -1,24 +1,18 @@
     Adaptador Tc a 3.5 3
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Balaca Appla P9 Azul 1
-    Balaca Callcenter Usb 2 ok
     Balaca Naisu S-437 Gris 1
     Bluetooth Car Bt-350 3
     Cable Apple Iphone 4 3
     Cable Apple Usb Ligthning 2M 5
     Cable We Tc 5
     Cable Yoyos Tc 3M 3
-    Cargador Apple 5V Eco 3 ok
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
-    Cargador Pluying Modulador M34 1 ok
-    Cargador Pluying Modulador Vp-R7 1 ok
-    Cargador Pluying Modulador We We-09 1 ok
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Huawei Honor X8B Caballero 2
@@ -91,11 +85,8 @@
     Forro Space Tecno Camon 30S / 30S Pro 2
     Forro Space Tecno Camon 40 2
     Forro Space Tecno Camon 40 Pro 2 
-    Forro Space Tecno Spark Go 2 / Smart 10 2 ok
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
-    Forro Space Xiaomi Redmi 13C 2 ok
-    Forro Space Xiaomi Redmi 14C 1 ok
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 15C 2
     Forro Space Xiaomi Redmi Note 11 Negro 1
@@ -119,13 +110,10 @@
     Silicone Case Apple Iphone 13 Verde 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 17 Amarillo 1
-    Silicone Case Apple Iphone 17 Fucsia 1 ok
     Silicone Case Apple Iphone 17 Morado 1
     Silicone Case Apple Iphone 17 Negro 1
     Silicone Case Apple Iphone 17 Pro Amarillo 1
     Silicone Case Apple Iphone 17 Pro Fucsia 1
-    Silicone Case Apple Iphone 17 Pro Negro 1 ok
-    Silicone Case Apple Iphone 17 Pro Rojo 1 ok
     Silicone Case Apple Iphone 17 Rojo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
@@ -250,9 +238,7 @@
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 10
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Samsung A71 / Poco X3 20 ok
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
-    Vidrio Antiespia Apple Iphone 12 5 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16E 5
