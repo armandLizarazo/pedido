@@ -1,7 +1,7 @@
     Adaptador Tc a 3.5 3
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 1
+    Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Balaca Appla P9 Azul 1
@@ -16,8 +16,9 @@
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
-    Cargador Pluying C9 Modulador 12-24V 20W 3
-    Consola Sup Con Control Rosa 1
+    Cargador Pluying Modulador M34 1 ok
+    Cargador Pluying Modulador Vp-R7 1 ok
+    Cargador Pluying Modulador We We-09 1 ok
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Huawei Honor X8B Caballero 2
@@ -249,9 +250,9 @@
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 10
     Vidrio 5D Samsung A6 / J6 5
-    Vidrio 5D Samsung A71 / Poco X3 20
+    Vidrio 5D Samsung A71 / Poco X3 20 ok
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
-    Vidrio Antiespia Apple Iphone 12 5
+    Vidrio Antiespia Apple Iphone 12 5 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16E 5
