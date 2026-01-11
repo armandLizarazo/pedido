@@ -19,9 +19,12 @@
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
+    Cargador Pluying C9 Modulador 12-24V 20W 3
     Consola Sup Con Control Rosa 1
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
+    Forro Antichoque Huawei Honor X8B Caballero 2
+    Forro Antichoque Huawei Honor X8B Dama 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Motorola Moto G72 Caballero 3
@@ -36,6 +39,7 @@
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A12 Dama 3
+    Forro Antichoque Tecno Camon 20 / 20 Pro Caballero 2
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
@@ -54,6 +58,8 @@
     Forro Armadura Realme C53 Negro 1
     Forro Armadura Samsung A13 Rojo 1
     Forro Armadura Samsung S23 Plus Azuloscuro 1
+    Forro Armadura Tecno Camon 40 Pro 4G Negro 1
+    Forro Armadura Tecno Camon 40 Pro 4G Rojo 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
     Forro Armadura Xiaomi Mi 11T Negro 1
     Forro Armadura Xiaomi Redmi 15 Negro 1
@@ -84,6 +90,8 @@
     Forro Space Samsung A71 2
     Forro Space Samsung S22 1
     Forro Space Tecno Camon 18P 2
+    Forro Space Tecno Camon 30S / 30S Pro 2
+    Forro Space Tecno Camon 40 2
     Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Spark Go 2 / Smart 10 2
     Forro Space Vivo V30 Lite 1
@@ -100,6 +108,7 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres We Tc 3
     Manos Libres Xiaomi T Original Negro 2
+    Memoria Kingston Micro 8Gb 3
     Memoria Micro Sandisk 64Gb 1
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
@@ -111,6 +120,15 @@
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 13 Verde 1
     Silicone Case Apple Iphone 15 Amarillo 1
+    Silicone Case Apple Iphone 17 Amarillo 1
+    Silicone Case Apple Iphone 17 Fucsia 1
+    Silicone Case Apple Iphone 17 Morado 1
+    Silicone Case Apple Iphone 17 Negro 1
+    Silicone Case Apple Iphone 17 Pro Amarillo 1
+    Silicone Case Apple Iphone 17 Pro Fucsia 1
+    Silicone Case Apple Iphone 17 Pro Negro 1
+    Silicone Case Apple Iphone 17 Pro Rojo 1
+    Silicone Case Apple Iphone 17 Rojo 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xr Rojo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
@@ -234,6 +252,7 @@
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A12 10
     Vidrio 5D Samsung A6 / J6 5
+    Vidrio 5D Samsung A71 / Poco X3 20
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10
     Vidrio Antiespia Apple Iphone 12 5
     Vidrio Antiespia Apple Iphone 12 Mini 5

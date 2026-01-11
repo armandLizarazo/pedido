@@ -4,6 +4,7 @@ from tkinter import messagebox
 from tkinter import filedialog
 import json
 import os
+import re  # Importamos regex para búsquedas más precisas
 
 # --- Constantes y Configuración ---
 RESTRICTIONS_FILE = "restricciones.json"
@@ -22,6 +23,10 @@ try:
         f.write("    MARTILLO DE BOLA 16 OZ 15\n")
         f.write("    DESTORNILLADOR PHILLIPS #2 30\n")
         f.write("    CINTA METRICA 5M 25\n")
+        f.write("    SILICONE IPHONE 15 ROJO 10\n")
+        f.write("    SILICONE IPHONE 15 AZUL 10\n")
+        f.write("    SILICONE IPHONE 15 PRO MAX NEGRO 5\n")
+        f.write("    FORRO SPACE IPHONE 15 8\n")
 
     with open("local.txt", "x", encoding="utf-8") as f:
         f.write("    TORNILLO CABEZA PLANA 1/4 50\n")
@@ -29,6 +34,7 @@ try:
         f.write("    ARANDELA PLANA 1/4 300\n")
         f.write("    LLAVE AJUSTABLE 8 PULGADAS 10\n")
         f.write("    ALICATE DE PUNTA 6 PULGADAS 20\n")
+        f.write("    SILICONE IPHONE 15 ROJO 5\n")
 
 except FileExistsError:
     pass
@@ -156,8 +162,51 @@ def manual_search():
     search()
 
 
+def check_match(description, search_term, mode):
+    """
+    Verifica si la descripción coincide con el término de búsqueda según el modo.
+    """
+    desc_lower = description.strip().lower()
+    term_lower = search_term.lower()
+
+    if mode == "phrase":  # Frase Exacta (Comportamiento original)
+        return term_lower in desc_lower
+
+    elif (
+        mode == "keywords"
+    ):  # Palabras Clave (Todas las palabras deben estar, cualquier orden)
+        words = term_lower.split()
+        if not words:
+            return True
+        return all(word in desc_lower for word in words)
+
+    elif mode == "advanced":  # Avanzada (Soporta exclusión con -)
+        # Ejemplo: "iphone 15 -pro" -> Busca "iphone" Y "15" PERO NO "pro"
+        parts = term_lower.split()
+        if not parts:
+            return True
+
+        match = True
+        for part in parts:
+            if part.startswith("-") and len(part) > 1:
+                # Exclusión: Si la palabra (sin el -) está en la descripción, NO es match
+                exclude_word = part[1:]
+                if exclude_word in desc_lower:
+                    match = False
+                    break
+            else:
+                # Inclusión: La palabra debe estar
+                if part not in desc_lower:
+                    match = False
+                    break
+        return match
+
+    return False
+
+
 def search():
-    search_term = entry_search.get().strip().lower()
+    search_term = entry_search.get().strip()
+    mode = search_mode_var.get()
 
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
@@ -171,12 +220,14 @@ def search():
     if not search_term:
         return
 
+    # Buscar y mostrar coincidencias en bodega
     for description, quantity in data_bodega:
-        if search_term in description.strip().lower():
+        if check_match(description, search_term, mode):
             tree_bodega.insert("", tk.END, values=(description, quantity))
 
+    # Buscar y mostrar coincidencias en local
     for description, quantity in data_local:
-        if search_term in description.strip().lower():
+        if check_match(description, search_term, mode):
             tree_local.insert("", tk.END, values=(description, quantity))
 
 
@@ -214,7 +265,6 @@ def normalize_files():
 
 
 def sync_local_to_other():
-    """Sincroniza items de local.txt a otro archivo seleccionado (agrega faltantes y ELIMINA sobrantes)."""
     target_filename = filedialog.askopenfilename(
         title="Seleccionar archivo para sincronizar desde Local",
         filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
@@ -222,27 +272,17 @@ def sync_local_to_other():
     if not target_filename:
         return
     try:
-        # Leer origen (local)
         local_data = parse_file("local.txt")
         if not local_data:
             messagebox.showwarning("Advertencia", "El archivo local.txt está vacío.")
             return
-
-        # Usamos un set para búsqueda rápida de ítems que DEBEN estar
-        local_items_set = {item[0] for item in local_data}
-
-        # Leer destino (archivo de costos/proveedor)
+        local_items = {item[0] for item in local_data}
         target_data = parse_file(target_filename)
-        # Diccionario para preservar los valores/costos actuales
         target_dict = {item[0]: item[1] for item in target_data}
 
-        # Calcular qué se va a agregar y qué se va a eliminar
         items_in_target = set(target_dict.keys())
-
-        items_to_add = local_items_set - items_in_target
-        items_to_remove = (
-            items_in_target - local_items_set
-        )  # Ítems en destino que NO están en local
+        items_to_add = local_items - items_in_target
+        items_to_remove = items_in_target - local_items
 
         count_add = len(items_to_add)
         count_remove = len(items_to_remove)
@@ -250,42 +290,31 @@ def sync_local_to_other():
         if count_add == 0 and count_remove == 0:
             messagebox.showinfo(
                 "Sincronización",
-                f"El archivo '{target_filename}' ya está perfectamente sincronizado con local.txt.",
+                f"El archivo '{target_filename}' ya está sincronizado.",
             )
-            return  # No hace falta guardar si no hay cambios, aunque para ordenar podría ser útil.
+            return
 
-        # Mensaje de confirmación detallado
         msg = f"Se actualizará '{target_filename}' basándose en 'local.txt'.\n\n"
-        msg += f"• Se agregarán: {count_add} ítems nuevos.\n"
-        msg += f"• Se ELIMINARÁN: {count_remove} ítems (que ya no existen en local.txt).\n\n"
-        msg += "¿Desea continuar? Los ítems eliminados se perderán permanentemente."
+        msg += f"• Agregar: {count_add} ítems.\n"
+        msg += f"• ELIMINAR: {count_remove} ítems.\n\n"
+        msg += "¿Desea continuar?"
 
         if not messagebox.askyesno("Confirmar Sincronización Estricta", msg):
             return
 
-        # Construir la nueva lista de datos para el archivo destino
-        # Solo incluimos items que están en local.txt (esto efectúa la eliminación de los sobrantes)
         final_data = []
-        for item_desc in local_items_set:
-            # Si existe en el destino, conservamos su valor (costo/cantidad)
-            # Si no existe, se agrega con 0
+        for item_desc in local_items:
             val = target_dict.get(item_desc, 0)
             final_data.append((item_desc, val))
 
         if update_file(target_filename, final_data):
-            messagebox.showinfo(
-                "Éxito",
-                f"Sincronización completada.\nEl archivo '{target_filename}' ahora refleja exactamente los ítems de 'local.txt'.",
-            )
-
-            # Refrescar vista si el archivo afectado es uno de los que mostramos
+            messagebox.showinfo("Éxito", "Sincronización completada.")
             if target_filename.endswith("bodegac.txt") or target_filename.endswith(
                 "local.txt"
             ):
                 refresh_data()
             else:
                 search()
-
     except Exception as e:
         messagebox.showerror("Error", f"Error al sincronizar: {e}")
 
@@ -419,7 +448,6 @@ def open_cost_manager():
                 "Éxito", f"Se actualizaron {count} ítems.", parent=cost_window
             )
 
-    # BOTONES GESTOR DE COSTOS - CORREGIDOS
     btn_update_cost = tk.Button(
         frame_cost_edit,
         text="Actualizar",
@@ -449,20 +477,17 @@ def open_cost_manager():
 
 
 def open_restrictions_manager():
-    """Abre una ventana para gestionar las restricciones por archivo."""
     res_window = tk.Toplevel(root)
     res_window.title("Gestor de Restricciones")
     res_window.geometry("500x400")
     res_window.configure(bg="#f0f0f0")
 
-    # Selección de Archivo
     frame_top = tk.Frame(res_window, bg="#f0f0f0", pady=10)
     frame_top.pack(fill=tk.X, padx=10)
     tk.Label(frame_top, text="Archivo:", font=("Helvetica", 11), bg="#f0f0f0").pack(
         side=tk.LEFT
     )
 
-    # Archivos conocidos + cualquier clave que ya exista en el JSON
     known_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
     all_files = sorted(list(set(known_files) | set(current_restrictions.keys())))
 
@@ -473,7 +498,6 @@ def open_restrictions_manager():
     if all_files:
         combo_files.current(0)
 
-    # Lista de Palabras Restringidas
     frame_list = tk.Frame(res_window, bg="#f0f0f0", padx=10)
     frame_list.pack(fill=tk.BOTH, expand=True)
 
@@ -495,7 +519,6 @@ def open_restrictions_manager():
 
     combo_files.bind("<<ComboboxSelected>>", load_keywords_for_file)
 
-    # Controles de Agregar/Eliminar
     frame_actions = tk.Frame(res_window, bg="#f0f0f0", pady=10)
     frame_actions.pack(fill=tk.X, padx=10)
 
@@ -536,7 +559,6 @@ def open_restrictions_manager():
             save_restrictions()
             load_keywords_for_file()
 
-    # BOTONES GESTOR DE RESTRICCIONES - CORREGIDOS
     btn_add_res = tk.Button(
         frame_actions,
         text="Agregar",
@@ -561,7 +583,7 @@ def open_restrictions_manager():
     )
     btn_del_res.pack(side=tk.RIGHT)
 
-    load_keywords_for_file()  # Carga inicial
+    load_keywords_for_file()
 
 
 def transfer_quantity(direction):
@@ -733,7 +755,6 @@ def add_to_purchase_order(filename):
         )
         return
 
-    # --- VALIDACIÓN DE RESTRICCIONES (DINÁMICA) ---
     if filename in current_restrictions:
         for keyword in current_restrictions[filename]:
             if keyword.lower() in search_term.lower():
@@ -742,7 +763,6 @@ def add_to_purchase_order(filename):
                     f"No se permite agregar ítems con la palabra '{keyword.upper()}' a {filename}.",
                 )
                 return
-    # ---------------------------------------------
 
     try:
         pedido_qty = int(entry_pedido_qty.get())
@@ -886,23 +906,24 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("900x970")  # Un poco más ancho para el nuevo botón
+root.geometry("900x1000")  # Ajustado alto
 root.configure(bg="#f0f0f0")
 
 # Variables para mostrar cantidades de pedidos
 pd_centro_qty_var = tk.StringVar(value="-")
 pd_pr_qty_var = tk.StringVar(value="-")
 pd_st_qty_var = tk.StringVar(value="-")
-
+search_mode_var = tk.StringVar(value="phrase")  # phrase, keywords, advanced
 
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
 main_frame.pack(expand=True, fill=tk.BOTH)
 
-# --- Frame de Básqueda ---
-frame_search = tk.Frame(main_frame, bg="#f0f0f0")
-frame_search.pack(fill=tk.X, pady=(0, 20))
+# --- Frame de Básqueda y Opciones ---
+frame_search_top = tk.Frame(main_frame, bg="#f0f0f0")
+frame_search_top.pack(fill=tk.X, pady=(0, 10))
+
 entry_search_container = tk.Frame(
-    frame_search, relief="solid", borderwidth=1, bg="white"
+    frame_search_top, relief="solid", borderwidth=1, bg="white"
 )
 entry_search_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 entry_search = tk.Entry(
@@ -916,7 +937,7 @@ entry_search = tk.Entry(
 entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
 
 button_search = tk.Button(
-    frame_search,
+    frame_search_top,
     text="Buscar",
     command=manual_search,
     font=("Helvetica", 11, "bold"),
@@ -931,7 +952,7 @@ button_search = tk.Button(
 button_search.pack(side=tk.LEFT, padx=(10, 0), ipady=3)
 
 button_refresh = tk.Button(
-    frame_search,
+    frame_search_top,
     text="Refrescar",
     command=refresh_data,
     font=("Helvetica", 11, "bold"),
@@ -945,8 +966,44 @@ button_refresh = tk.Button(
 )
 button_refresh.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
+# Opciones de Búsqueda (Radiobuttons)
+frame_search_options = tk.Frame(main_frame, bg="#f0f0f0")
+frame_search_options.pack(fill=tk.X, pady=(0, 15))
+tk.Label(
+    frame_search_options, text="Tipo de Búsqueda:", font=("Helvetica", 10), bg="#f0f0f0"
+).pack(side=tk.LEFT)
+
+rb_phrase = tk.Radiobutton(
+    frame_search_options,
+    text="Frase Exacta",
+    variable=search_mode_var,
+    value="phrase",
+    bg="#f0f0f0",
+)
+rb_phrase.pack(side=tk.LEFT, padx=5)
+rb_keywords = tk.Radiobutton(
+    frame_search_options,
+    text="Palabras Clave",
+    variable=search_mode_var,
+    value="keywords",
+    bg="#f0f0f0",
+)
+rb_keywords.pack(side=tk.LEFT, padx=5)
+rb_advanced = tk.Radiobutton(
+    frame_search_options,
+    text="Avanzada (Excluir con -)",
+    variable=search_mode_var,
+    value="advanced",
+    bg="#f0f0f0",
+)
+rb_advanced.pack(side=tk.LEFT, padx=5)
+
+# Botones de Herramientas
+frame_tools = tk.Frame(main_frame, bg="#f0f0f0")
+frame_tools.pack(fill=tk.X, pady=(0, 15))
+
 button_normalize = tk.Button(
-    frame_search,
+    frame_tools,
     text="Normalizar",
     command=normalize_files,
     font=("Helvetica", 11, "bold"),
@@ -957,10 +1014,10 @@ button_normalize = tk.Button(
     activebackground="black",
     activeforeground="white",
 )
-button_normalize.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+button_normalize.pack(side=tk.LEFT, padx=(0, 5), ipady=3)
 
 button_sync_local = tk.Button(
-    frame_search,
+    frame_tools,
     text="Exportar Local",
     command=sync_local_to_other,
     font=("Helvetica", 11, "bold"),
@@ -975,7 +1032,7 @@ button_sync_local = tk.Button(
 button_sync_local.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 button_cost_manager = tk.Button(
-    frame_search,
+    frame_tools,
     text="Gestor Costos",
     command=open_cost_manager,
     font=("Helvetica", 11, "bold"),
@@ -990,7 +1047,7 @@ button_cost_manager = tk.Button(
 button_cost_manager.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 button_restrictions = tk.Button(
-    frame_search,
+    frame_tools,
     text="Restricciones",
     command=open_restrictions_manager,
     font=("Helvetica", 11, "bold"),
@@ -1056,11 +1113,12 @@ btn_delete_item = tk.Button(
     text="Eliminar Ítem Seleccionado",
     command=delete_item,
     font=("Helvetica", 10, "bold"),
-    bg="#dc3545",
-    fg="white",
+    bg="#ffb3b3",
+    fg="black",
     relief="flat",
     padx=10,
-    activebackground="#c82333",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_delete_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
@@ -1095,7 +1153,8 @@ btn_edit_item = tk.Button(
     fg="black",
     relief="flat",
     padx=10,
-    activebackground="#e0a800",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_edit_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
@@ -1125,11 +1184,12 @@ btn_create_item = tk.Button(
     text="Crear Ítem",
     command=create_new_item,
     font=("Helvetica", 10, "bold"),
-    bg="#198754",
-    fg="white",
+    bg="#a3e9a4",
+    fg="black",
     relief="flat",
     padx=10,
-    activebackground="#157347",
+    activebackground="black",
+    activeforeground="white",
 )
 btn_create_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 

@@ -1,9 +1,10 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Rca2Plug3.5 5
+    Adaptador Tarjeta Audio 5.1 1
     Adaptador Usb2hdmi 1
     Antena Tdt 3M 4
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 1
+    Audifonos Bluetooth Pro 5S Negro 3
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
     Cable 3 a 1 Video Compuesto 2
@@ -20,10 +21,12 @@
     Cargador Microsoft Carga Y Juega Xbox 360 3
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
+    Consola Game Stick 3
     Consola Sup Con Control Rojo 1
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
+    Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps2 Inalambrico 2
     Control Tv Universal 8
     Estabilizador 1800w 1
@@ -45,6 +48,7 @@
     Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
+    Reproductor Onn Hd Azul 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2

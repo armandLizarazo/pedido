@@ -10596,3 +10596,37 @@ Fecha de proceso: 2026-01-05 18:55:37
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-09 14:38:41
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-09 14:38:41
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-09 14:38:41
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bandeja Sim Huawei Honor X6 / X6S 1 ok
+    3 | Bateria Infinix Hot 30 Bl-49Jx 1 ok
+    5 | Logica de Carga Tecno Spark 20 2 ok
+    6 | Pacha Huawei Y9 Prime Full 1 ok
+    8 | Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 2 ok
+    9 | Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 1 ok
+   10 | Pacha Xiaomi Redmi Note 10 Pro 2 ok
+
+==================================================
+Fecha de proceso: 2026-01-09 14:38:41
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
