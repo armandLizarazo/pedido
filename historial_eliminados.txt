@@ -10680,3 +10680,61 @@ Fecha de proceso: 2026-01-11 17:15:14
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-11 17:19:11
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 17:19:11
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 17:19:11
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Boton Power Samsung A22 4G 1 ok
+    2 | Pacha Apple Iphone 13 Gx 1 ok
+    3 | Pacha Motorola Moto G14 / G54 / G55 2 ok
+    4 | Pacha Oppo A17 / A38 / A57 / A77 1 ok
+    5 | Pacha Xiaomi Poco X3 / Mi 10T Lite 1 ok
+    6 | Tapa Huawei P30 Lite Negro 1 ok
+    7 | Visor de Camara Huawei P30 lite 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-11 17:19:11
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 18:29:44
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 18:29:44
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 18:29:44
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-11 18:29:44
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

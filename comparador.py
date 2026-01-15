@@ -181,7 +181,6 @@ def check_match(description, search_term, mode):
         return all(word in desc_lower for word in words)
 
     elif mode == "advanced":  # Avanzada (Soporta exclusión con -)
-        # Ejemplo: "iphone 15 -pro" -> Busca "iphone" Y "15" PERO NO "pro"
         parts = term_lower.split()
         if not parts:
             return True
@@ -189,13 +188,11 @@ def check_match(description, search_term, mode):
         match = True
         for part in parts:
             if part.startswith("-") and len(part) > 1:
-                # Exclusión: Si la palabra (sin el -) está en la descripción, NO es match
                 exclude_word = part[1:]
                 if exclude_word in desc_lower:
                     match = False
                     break
             else:
-                # Inclusión: La palabra debe estar
                 if part not in desc_lower:
                     match = False
                     break
@@ -217,18 +214,40 @@ def search():
     pd_pr_qty_var.set("-")
     pd_st_qty_var.set("-")
 
+    # Variables para estadísticas
+    stats_bodega = {"items": 0, "units": 0, "zeros": 0}
+    stats_local = {"items": 0, "units": 0, "zeros": 0}
+
     if not search_term:
+        var_bodega_stats.set("Items: 0 | Unidades: 0 | Sin Stock: 0")
+        var_local_stats.set("Items: 0 | Unidades: 0 | Sin Stock: 0")
         return
 
-    # Buscar y mostrar coincidencias en bodega
+    # Buscar en bodega
     for description, quantity in data_bodega:
         if check_match(description, search_term, mode):
             tree_bodega.insert("", tk.END, values=(description, quantity))
+            stats_bodega["items"] += 1
+            stats_bodega["units"] += quantity
+            if quantity == 0:
+                stats_bodega["zeros"] += 1
 
-    # Buscar y mostrar coincidencias en local
+    # Buscar en local
     for description, quantity in data_local:
         if check_match(description, search_term, mode):
             tree_local.insert("", tk.END, values=(description, quantity))
+            stats_local["items"] += 1
+            stats_local["units"] += quantity
+            if quantity == 0:
+                stats_local["zeros"] += 1
+
+    # Actualizar etiquetas de resumen
+    var_bodega_stats.set(
+        f"Items: {stats_bodega['items']} | Unidades: {stats_bodega['units']} | Sin Stock: {stats_bodega['zeros']}"
+    )
+    var_local_stats.set(
+        f"Items: {stats_local['items']} | Unidades: {stats_local['units']} | Sin Stock: {stats_local['zeros']}"
+    )
 
 
 def normalize_files():
@@ -448,6 +467,7 @@ def open_cost_manager():
                 "Éxito", f"Se actualizaron {count} ítems.", parent=cost_window
             )
 
+    # BOTONES GESTOR DE COSTOS - CORREGIDOS
     btn_update_cost = tk.Button(
         frame_cost_edit,
         text="Actualizar",
@@ -915,6 +935,10 @@ pd_pr_qty_var = tk.StringVar(value="-")
 pd_st_qty_var = tk.StringVar(value="-")
 search_mode_var = tk.StringVar(value="phrase")  # phrase, keywords, advanced
 
+# Variables para resumen de estadísticas
+var_bodega_stats = tk.StringVar(value="Items: 0 | Unidades: 0 | Sin Stock: 0")
+var_local_stats = tk.StringVar(value="Items: 0 | Unidades: 0 | Sin Stock: 0")
+
 main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
 main_frame.pack(expand=True, fill=tk.BOTH)
 
@@ -1066,27 +1090,57 @@ frame_results = tk.Frame(main_frame, bg="#f0f0f0")
 frame_results.pack(expand=True, fill=tk.BOTH)
 frame_results.columnconfigure(0, weight=1)
 frame_results.columnconfigure(1, weight=1)
+# Configurar peso para las filas 1 (tablas) y 2 (resumen)
 frame_results.rowconfigure(1, weight=1)
+frame_results.rowconfigure(2, weight=0)
+
 label_bodega = tk.Label(
     frame_results, text="Contenido Bodega", font=("Helvetica", 14, "bold"), bg="#f0f0f0"
 )
-label_bodega.grid(row=0, column=0, pady=(0, 10))
+label_bodega.grid(row=0, column=0, pady=(0, 5))
 tree_bodega = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
 tree_bodega.heading("Item", text="Item")
 tree_bodega.heading("Cantidad", text="Cantidad")
 tree_bodega.column("Item", width=250)
 tree_bodega.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_bodega.grid(row=1, column=0, sticky="nsew", padx=(0, 10))
+
+# Label de Resumen Bodega
+lbl_stats_bodega = tk.Label(
+    frame_results,
+    textvariable=var_bodega_stats,
+    font=("Helvetica", 9, "bold"),
+    bg="#e8e8e8",
+    fg="#333",
+    relief="sunken",
+    padx=5,
+    pady=2,
+)
+lbl_stats_bodega.grid(row=2, column=0, sticky="ew", padx=(0, 10), pady=(2, 10))
+
 label_local = tk.Label(
     frame_results, text="Contenido Local", font=("Helvetica", 14, "bold"), bg="#f0f0f0"
 )
-label_local.grid(row=0, column=1, pady=(0, 10))
+label_local.grid(row=0, column=1, pady=(0, 5))
 tree_local = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
 tree_local.heading("Item", text="Item")
 tree_local.heading("Cantidad", text="Cantidad")
 tree_local.column("Item", width=250)
 tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
+
+# Label de Resumen Local
+lbl_stats_local = tk.Label(
+    frame_results,
+    textvariable=var_local_stats,
+    font=("Helvetica", 9, "bold"),
+    bg="#e8e8e8",
+    fg="#333",
+    relief="sunken",
+    padx=5,
+    pady=2,
+)
+lbl_stats_local.grid(row=2, column=1, sticky="ew", padx=(10, 0), pady=(2, 10))
 
 # --- BINDINGS PARA SELECCIÓN ---
 tree_bodega.bind("<<TreeviewSelect>>", on_item_select)

@@ -14,8 +14,10 @@
     Cable Hdmi 3M 2
     Cable Lan 5M Cat 6 2
     Cable Rj11 3
+    Cable Vga 1.5M 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
+    Camara Web 720P 1
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
     Cargador Microsoft Carga Y Juega Xbox 360 3
@@ -33,6 +35,7 @@
     Estetica Cepillo Secador Giratorio 1
     Estetica Cepillo Secador Remington Keratina 1
     Extension 4m 1
+    Flash Ligth Celular AY-83 Rgb 1
     Forro Pc 16 Pulgadas 2
     Lampara Mineria Mediana 1
     Lonchera Carro 1
@@ -44,9 +47,12 @@
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
     Pila Control 23A 5
+    Pila Reloj Cr-2016 5
+    Pila Reloj Lr-44 5
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
+    Reproductor Alexa Eco Dot 1
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd Azul 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1

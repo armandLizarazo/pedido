@@ -5,7 +5,10 @@
         "logica de carga",
         "carga y juega",
         "estetica",
-        "lan"
+        "lan",
+        "vga",
+        "dpp",
+        "camara"
     ],
     "pdpr.txt": [
         "pacha",

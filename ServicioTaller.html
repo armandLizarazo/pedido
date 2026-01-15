@@ -176,6 +176,15 @@
           display: none !important;
         }
       }
+
+      /* Cursor pointer para ordenamiento */
+      .sortable {
+        cursor: pointer;
+        user-select: none;
+      }
+      .sortable:hover {
+        background-color: #f1f5f9;
+      }
     </style>
   </head>
   <body
@@ -255,6 +264,26 @@
           </svg>
           Historial
         </button>
+        <button
+          onclick="switchView('reports')"
+          id="nav-reports"
+          class="w-full flex items-center gap-3 p-3 hover:bg-slate-800 rounded-lg cursor-pointer transition text-slate-300 hover:text-white"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+            />
+          </svg>
+          Informes
+        </button>
 
         <!-- SECCIÓN DE RESPALDO -->
         <div class="pt-4 mt-4 border-t border-slate-700">
@@ -326,7 +355,7 @@
       <div
         class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
       >
-        Sistema de Taller v3.8<br />Base de Datos: Local
+        Sistema de Taller v3.9<br />Base de Datos: Local
       </div>
     </aside>
 
@@ -364,7 +393,6 @@
         id="view-form"
         class="view-section active flex-1 overflow-y-auto p-4 md:p-8 no-print"
       >
-        <!-- Campo oculto para ID cuando editamos -->
         <input type="hidden" id="inp-ticket" />
 
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
@@ -404,7 +432,6 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Nombre Completo</label
                   >
-                  <!-- Se agrega list="list-names" para sugerencias -->
                   <input
                     type="text"
                     id="inp-name"
@@ -417,7 +444,6 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Teléfono</label
                   >
-                  <!-- Se agrega list="list-phones" para sugerencias -->
                   <input
                     type="tel"
                     id="inp-phone"
@@ -453,7 +479,6 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Marca</label
                   >
-                  <!-- Se agrega list="list-brands" -->
                   <input
                     type="text"
                     id="inp-brand"
@@ -466,7 +491,6 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Modelo</label
                   >
-                  <!-- Se agrega list="list-models" -->
                   <input
                     type="text"
                     id="inp-model"
@@ -511,49 +535,76 @@
               </div>
             </div>
 
-            <!-- Costos -->
+            <!-- Costos y Abonos -->
             <div
               class="bg-white p-6 rounded-xl shadow-sm border border-slate-200"
             >
-              <div class="grid grid-cols-3 gap-4 text-center">
-                <div>
+              <h2
+                class="text-xs font-bold text-blue-600 uppercase mb-4 tracking-wider"
+              >
+                Facturación y Pagos
+              </h2>
+
+              <div class="flex gap-4 mb-4 items-center">
+                <div class="flex-1">
                   <label class="block text-xs font-bold text-slate-600 mb-1"
-                    >TOTAL</label
+                    >VALOR TOTAL REPARACIÓN</label
                   >
                   <input
                     type="number"
                     id="inp-total"
                     oninput="calcBalance()"
-                    class="w-full p-2 text-center border-b-2 border-slate-300 font-bold text-lg bg-transparent outline-none transition-colors focus:border-blue-500"
+                    class="w-full p-2 border-b-2 border-slate-300 font-bold text-lg bg-transparent outline-none transition-colors focus:border-blue-500"
+                    placeholder="0"
                   />
                 </div>
-                <div>
-                  <label class="block text-xs font-bold text-green-600 mb-1"
-                    >ABONO</label
-                  >
-                  <input
-                    type="number"
-                    id="inp-deposit"
-                    oninput="calcBalance()"
-                    class="w-full p-2 text-center border-b-2 border-green-300 font-bold text-lg text-green-700 bg-transparent outline-none transition-colors focus:border-green-500"
-                  />
-                </div>
-                <div>
+                <div class="flex-1 text-right">
                   <label class="block text-xs font-bold text-red-600 mb-1"
-                    >SALDO</label
+                    >SALDO PENDIENTE</label
                   >
                   <input
                     type="text"
                     id="inp-balance"
                     readonly
-                    class="w-full p-2 text-center border-b-2 border-transparent font-bold text-lg text-red-600 bg-transparent"
+                    class="w-full p-2 text-right border-b-2 border-transparent font-bold text-lg text-red-600 bg-transparent"
                     value="0"
                   />
                 </div>
               </div>
-              <p class="text-xs text-center text-slate-400 mt-2 italic">
-                Modifique el Abono si el cliente realiza un nuevo pago.
-              </p>
+
+              <!-- Lista de Abonos -->
+              <div
+                class="bg-slate-50 rounded-lg p-3 border border-slate-200 mb-3"
+              >
+                <label class="block text-xs font-bold text-slate-500 mb-2"
+                  >HISTORIAL DE ABONOS</label
+                >
+                <ul
+                  id="payment-list"
+                  class="text-sm space-y-1 mb-2 max-h-32 overflow-y-auto"
+                >
+                  <li class="text-slate-400 italic text-xs">
+                    No hay abonos registrados.
+                  </li>
+                </ul>
+                <div class="flex gap-2 border-t border-slate-200 pt-2">
+                  <input
+                    type="number"
+                    id="inp-new-payment"
+                    class="flex-1 p-1.5 text-sm border rounded outline-none"
+                    placeholder="Monto abono"
+                  />
+                  <button
+                    type="button"
+                    onclick="addPayment()"
+                    class="bg-green-600 text-white px-3 py-1 text-xs font-bold rounded hover:bg-green-700"
+                  >
+                    AGREGAR
+                  </button>
+                </div>
+                <input type="hidden" id="inp-deposit" value="0" />
+                <!-- Campo oculto para compatibilidad de cálculo -->
+              </div>
             </div>
           </div>
 
@@ -682,13 +733,29 @@
               </svg>
               Base de Datos
             </h2>
-            <input
-              type="text"
-              id="search-history"
-              oninput="renderHistory()"
-              placeholder="Buscar por cliente, ticket o modelo..."
-              class="p-2 border border-slate-300 rounded-lg text-sm w-full md:w-80 outline-none focus:border-blue-500 transition-colors"
-            />
+
+            <div class="flex gap-2 w-full md:w-auto">
+              <select
+                id="filter-status"
+                onchange="renderHistory()"
+                class="p-2 border border-slate-300 rounded-lg text-sm bg-white outline-none"
+              >
+                <option value="">Todos los Estados</option>
+                <option value="Ingresado">Ingresado</option>
+                <option value="Diagnóstico">Diagnóstico</option>
+                <option value="En Proceso">En Proceso</option>
+                <option value="Listo">Listo</option>
+                <option value="Entregado">Entregado</option>
+                <option value="Cancelado">Cancelado</option>
+              </select>
+              <input
+                type="text"
+                id="search-history"
+                oninput="renderHistory()"
+                placeholder="Buscar..."
+                class="p-2 border border-slate-300 rounded-lg text-sm w-full md:w-64 outline-none focus:border-blue-500 transition-colors"
+              />
+            </div>
           </div>
           <div class="overflow-x-auto flex-1">
             <table class="w-full text-sm text-left text-slate-500">
@@ -696,10 +763,27 @@
                 class="text-xs text-slate-700 uppercase bg-slate-100 sticky top-0"
               >
                 <tr>
-                  <th class="px-6 py-3">Ticket</th>
-                  <th class="px-6 py-3">Estado</th>
-                  <th class="px-6 py-3">Fecha</th>
-                  <th class="px-6 py-3">Cliente</th>
+                  <th
+                    class="px-6 py-3 sortable"
+                    onclick="sortHistory('ticketNumber')"
+                  >
+                    Ticket ↕
+                  </th>
+                  <th
+                    class="px-6 py-3 sortable"
+                    onclick="sortHistory('status')"
+                  >
+                    Estado ↕
+                  </th>
+                  <th class="px-6 py-3 sortable" onclick="sortHistory('date')">
+                    Fecha ↕
+                  </th>
+                  <th
+                    class="px-6 py-3 sortable"
+                    onclick="sortHistory('clientName')"
+                  >
+                    Cliente ↕
+                  </th>
                   <th class="px-6 py-3">Equipo</th>
                   <th class="px-6 py-3 text-right">Saldo</th>
                   <th class="px-6 py-3 text-center">Acciones</th>
@@ -713,7 +797,86 @@
           <div
             class="p-2 bg-slate-50 border-t text-xs text-center text-slate-400"
           >
-            Mostrando últimos registros
+            <span id="history-count">0 registros encontrados</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- VISTA INFORMES -->
+      <div
+        id="view-reports"
+        class="view-section flex-1 overflow-y-auto p-4 md:p-8 no-print hidden"
+      >
+        <div class="max-w-6xl mx-auto space-y-6">
+          <h2 class="text-2xl font-bold text-slate-800 mb-6">
+            Panel de Informes
+          </h2>
+
+          <!-- Tarjetas de Resumen -->
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div
+              class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
+            >
+              <div class="text-xs font-bold text-slate-400 uppercase mb-1">
+                Saldo Pendiente (Por Cobrar)
+              </div>
+              <div class="text-2xl font-bold text-red-600" id="rep-balance">
+                $0
+              </div>
+            </div>
+            <div
+              class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
+            >
+              <div class="text-xs font-bold text-slate-400 uppercase mb-1">
+                Equipos Entregados
+              </div>
+              <div class="text-2xl font-bold text-slate-800" id="rep-delivered">
+                0
+              </div>
+            </div>
+            <div
+              class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
+            >
+              <div class="text-xs font-bold text-slate-400 uppercase mb-1">
+                Equipos En Proceso
+              </div>
+              <div class="text-2xl font-bold text-blue-600" id="rep-process">
+                0
+              </div>
+            </div>
+            <div
+              class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
+            >
+              <div class="text-xs font-bold text-slate-400 uppercase mb-1">
+                Total Recaudado (Abonos)
+              </div>
+              <div class="text-2xl font-bold text-green-600" id="rep-income">
+                $0
+              </div>
+            </div>
+          </div>
+
+          <!-- Tabla de Resumen por Estado -->
+          <div
+            class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden"
+          >
+            <div class="p-4 border-b bg-slate-50 font-bold text-slate-700">
+              Resumen por Estados
+            </div>
+            <table class="w-full text-sm text-left">
+              <thead
+                class="text-xs text-slate-500 uppercase bg-slate-50 border-b"
+              >
+                <tr>
+                  <th class="px-6 py-3">Estado</th>
+                  <th class="px-6 py-3 text-center">Cantidad</th>
+                  <th class="px-6 py-3 text-right">Valor Total Reparaciones</th>
+                </tr>
+              </thead>
+              <tbody id="rep-status-table">
+                <!-- JS -->
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
@@ -765,7 +928,7 @@
         <span>TOTAL:</span><span class="t-bold" id="t-total">$0</span>
       </div>
       <div style="display: flex; justify-content: space-between">
-        <span>ABONO:</span><span id="t-deposit">$0</span>
+        <span>ABONOS:</span><span id="t-deposit">$0</span>
       </div>
       <div
         style="
@@ -780,6 +943,19 @@
       </div>
       <div class="t-line"></div>
 
+      <!-- Historial de pagos en el ticket -->
+      <div
+        id="t-payments-history"
+        style="
+          font-size: 9px;
+          margin-top: 5px;
+          border-bottom: 1px dashed #000;
+          padding-bottom: 5px;
+        "
+      >
+        <!-- JS llenará esto -->
+      </div>
+
       <div class="t-center" style="font-size: 9px; margin-top: 10px">
         Garantía 30 días. Equipos mojados/apagados SIN garantía.<br />
         Pasados 30 días se cobra bodegaje.
@@ -792,6 +968,8 @@
     <script>
       // --- BASE DE DATOS LOCAL ---
       const DB_KEY = "repairDB";
+      let currentSort = { column: "date", order: "desc" }; // Estado del ordenamiento
+      let currentPayments = []; // Memoria temporal para pagos en edición
 
       function getDB() {
         const data = localStorage.getItem(DB_KEY);
@@ -800,27 +978,20 @@
 
       function saveToDB(order) {
         const db = getDB();
-        // Buscar si ya existe por ID
         const index = db.findIndex(
           (o) => o.ticketNumber === order.ticketNumber
         );
-
         if (index >= 0) {
-          // ACTUALIZAR (Mantener fecha original, actualizar el resto)
           db[index] = {
             ...db[index],
             ...order,
             lastUpdated: new Date().toISOString(),
           };
         } else {
-          // NUEVO
           db.unshift(order);
         }
         localStorage.setItem(DB_KEY, JSON.stringify(db));
-
-        // Actualizar sugerencias inmediatamente
         updateSuggestions();
-        // Actualizar uso de almacenamiento
         updateStorageUsage();
       }
 
@@ -834,123 +1005,247 @@
         updateStorageUsage();
       }
 
-      // --- SISTEMA DE USO DE ALMACENAMIENTO ---
-      function updateStorageUsage() {
-        let total = 0;
-        // Calcular uso total de LocalStorage
-        for (let x in localStorage) {
-          if (!localStorage.hasOwnProperty(x)) continue;
-          total += (localStorage[x].length + x.length) * 2;
-        }
+      // --- GESTIÓN DE PAGOS ---
+      function addPayment() {
+        const amountInput = document.getElementById("inp-new-payment");
+        const amount = parseFloat(amountInput.value);
 
-        // 5MB aprox 5,242,880 bytes
-        const max = 5242880;
-        const percentage = ((total / max) * 100).toFixed(1);
+        if (!amount || amount <= 0) return alert("Ingrese un monto válido");
 
-        const bar = document.getElementById("storage-bar");
-        const text = document.getElementById("storage-text");
-
-        if (bar && text) {
-          text.textContent = percentage + "%";
-          bar.style.width = percentage + "%";
-
-          // Colores Dinámicos
-          bar.className =
-            "h-2 rounded-full transition-all duration-500 " +
-            (percentage < 50
-              ? "bg-green-500"
-              : percentage < 80
-              ? "bg-yellow-500"
-              : "bg-red-500");
-        }
-      }
-
-      // --- SISTEMA DE RESPALDO (EXPORTAR/IMPORTAR) ---
-      function exportDB() {
-        const data = localStorage.getItem(DB_KEY);
-        if (!data || data === "[]") return alert("No hay datos para exportar.");
-
-        const blob = new Blob([data], { type: "application/json" });
-        const url = URL.createObjectURL(blob);
-        const a = document.createElement("a");
-        a.href = url;
-        const date = new Date().toISOString().slice(0, 10);
-        a.download = `GeekTech_Backup_${date}.json`;
-        document.body.appendChild(a);
-        a.click();
-        document.body.removeChild(a);
-        URL.revokeObjectURL(url);
-      }
-
-      function importDB(input) {
-        const file = input.files[0];
-        if (!file) return;
-
-        const reader = new FileReader();
-        reader.onload = function (e) {
-          try {
-            const data = JSON.parse(e.target.result);
-            if (Array.isArray(data)) {
-              if (
-                confirm(
-                  `Se encontrarón ${data.length} registros. ¿Desea reemplazar la base de datos actual?`
-                )
-              ) {
-                localStorage.setItem(DB_KEY, JSON.stringify(data));
-                alert(
-                  "¡Datos restaurados correctamente! La página se recargará."
-                );
-                location.reload();
-              }
-            } else {
-              alert(
-                "El archivo seleccionado no es un respaldo válido (Formato incorrecto)."
-              );
-            }
-          } catch (err) {
-            alert(
-              "Error al leer el archivo. Asegúrate de que es un .json válido."
-            );
-            console.error(err);
-          }
+        const newPayment = {
+          date: new Date().toISOString(),
+          amount: amount,
         };
-        reader.readAsText(file);
-        input.value = "";
+
+        currentPayments.push(newPayment);
+        amountInput.value = "";
+        renderPaymentsList();
+        calcBalance();
       }
 
-      // --- SISTEMA DE SUGERENCIAS (AUTOCOMPLETADO) ---
-      function updateSuggestions() {
+      function renderPaymentsList() {
+        const list = document.getElementById("payment-list");
+        list.innerHTML = "";
+
+        if (currentPayments.length === 0) {
+          list.innerHTML =
+            '<li class="text-slate-400 italic text-xs">No hay abonos registrados.</li>';
+          return;
+        }
+
+        let total = 0;
+        currentPayments.forEach((p) => {
+          total += p.amount;
+          const li = document.createElement("li");
+          li.className = "flex justify-between border-b border-slate-100 pb-1";
+          li.innerHTML = `
+                    <span>${new Date(p.date).toLocaleDateString()}</span>
+                    <span class="font-bold text-green-600">$${p.amount.toLocaleString()}</span>
+                `;
+          list.appendChild(li);
+        });
+
+        // Actualizar input hidden para calculos
+        document.getElementById("inp-deposit").value = total;
+      }
+
+      // --- NAVEGACIÓN & VISTAS ---
+      function switchView(viewName) {
+        document
+          .querySelectorAll(".view-section")
+          .forEach((el) => el.classList.remove("active"));
+        document
+          .querySelectorAll("nav button")
+          .forEach((el) =>
+            el.classList.remove("bg-blue-600", "text-white", "shadow-lg")
+          );
+        document
+          .querySelectorAll("nav button")
+          .forEach((el) => el.classList.add("text-slate-300"));
+
+        const btn = document.getElementById("nav-" + viewName);
+        if (btn) {
+          btn.classList.add("bg-blue-600", "text-white", "shadow-lg");
+          btn.classList.remove("text-slate-300");
+        }
+
+        document.getElementById("view-" + viewName).classList.add("active");
+
+        if (viewName === "history") renderHistory();
+        if (viewName === "reports") renderReports();
+      }
+
+      // --- INFORMES ---
+      function renderReports() {
         const db = getDB();
 
-        const fillList = (listId, key) => {
-          const list = document.getElementById(listId);
-          const uniqueValues = [
-            ...new Set(
-              db
-                .map((item) => item[key])
-                .filter((val) => val && val.trim() !== "")
-            ),
-          ].sort();
+        let pending = 0;
+        let delivered = 0;
+        let inProcess = 0;
+        let totalIncome = 0;
+        const statusCounts = {};
 
-          list.innerHTML = uniqueValues
-            .map((val) => `<option value="${val}">`)
-            .join("");
-        };
+        db.forEach((order) => {
+          // Calcular abonos reales usando historial si existe, o el campo deposit legacy
+          const deposit = order.deposit || 0;
+          const balance = (order.total || 0) - deposit;
 
-        fillList("list-names", "clientName");
-        fillList("list-phones", "clientPhone");
-        fillList("list-brands", "deviceBrand");
-        fillList("list-models", "deviceModel");
+          // Si NO está cancelado y hay saldo, sumar a pendiente
+          if (order.status !== "Cancelado" && balance > 0) {
+            pending += balance;
+          }
+
+          if (order.status === "Entregado") delivered++;
+          if (order.status === "En Proceso" || order.status === "Diagnóstico")
+            inProcess++;
+
+          // Ingresos totales (Abonos)
+          totalIncome += deposit;
+
+          // Conteo por estado
+          const st = order.status || "Ingresado";
+          if (!statusCounts[st]) statusCounts[st] = { count: 0, total: 0 };
+          statusCounts[st].count++;
+          statusCounts[st].total += order.total || 0;
+        });
+
+        document.getElementById("rep-balance").textContent =
+          "$" + pending.toLocaleString();
+        document.getElementById("rep-delivered").textContent = delivered;
+        document.getElementById("rep-process").textContent = inProcess;
+        document.getElementById("rep-income").textContent =
+          "$" + totalIncome.toLocaleString();
+
+        const tbody = document.getElementById("rep-status-table");
+        tbody.innerHTML = "";
+        for (const [st, data] of Object.entries(statusCounts)) {
+          tbody.innerHTML += `
+                    <tr class="border-b">
+                        <td class="px-6 py-3 font-medium">${st}</td>
+                        <td class="px-6 py-3 text-center">${data.count}</td>
+                        <td class="px-6 py-3 text-right">$${data.total.toLocaleString()}</td>
+                    </tr>
+                `;
+        }
       }
 
-      // --- GESTIÓN DEL FORMULARIO ---
+      // --- HISTORIAL Y ORDENAMIENTO ---
+      function sortHistory(column) {
+        if (currentSort.column === column) {
+          currentSort.order = currentSort.order === "asc" ? "desc" : "asc";
+        } else {
+          currentSort.column = column;
+          currentSort.order = "asc";
+        }
+        renderHistory();
+      }
 
+      function renderHistory() {
+        const db = getDB();
+        const term = document
+          .getElementById("search-history")
+          .value.toLowerCase();
+        const statusFilter = document.getElementById("filter-status").value;
+        const tbody = document.getElementById("history-table-body");
+        tbody.innerHTML = "";
+
+        // 1. Filtrar
+        let filtered = db.filter((order) => {
+          const matchesTerm = (
+            order.clientName +
+            order.ticketNumber +
+            order.deviceModel
+          )
+            .toLowerCase()
+            .includes(term);
+          const matchesStatus =
+            statusFilter === "" || order.status === statusFilter;
+          return matchesTerm && matchesStatus;
+        });
+
+        // 2. Ordenar
+        filtered.sort((a, b) => {
+          let valA = a[currentSort.column] || "";
+          let valB = b[currentSort.column] || "";
+
+          // Manejo especial para fechas y números
+          if (currentSort.column === "date") {
+            valA = new Date(valA).getTime();
+            valB = new Date(valB).getTime();
+          }
+
+          if (valA < valB) return currentSort.order === "asc" ? -1 : 1;
+          if (valA > valB) return currentSort.order === "asc" ? 1 : -1;
+          return 0;
+        });
+
+        document.getElementById(
+          "history-count"
+        ).textContent = `${filtered.length} registros encontrados`;
+
+        if (filtered.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-8 text-center text-slate-400">No se encontraron órdenes</td></tr>`;
+          return;
+        }
+
+        filtered.forEach((order) => {
+          const balance = order.total - order.deposit;
+
+          let statusClass = "st-ingresado";
+          const st = (order.status || "Ingresado").toLowerCase();
+          if (st.includes("diag")) statusClass = "st-diagnostico";
+          else if (st.includes("proceso")) statusClass = "st-proceso";
+          else if (st.includes("listo")) statusClass = "st-listo";
+          else if (st.includes("entregado")) statusClass = "st-entregado";
+          else if (st.includes("cancelado")) statusClass = "st-cancelado";
+
+          const row = document.createElement("tr");
+          row.className =
+            "bg-white border-b hover:bg-slate-50 transition-colors";
+          row.innerHTML = `
+                    <td class="px-6 py-4 font-mono font-bold text-slate-700">#${
+                      order.ticketNumber
+                    }</td>
+                    <td class="px-6 py-4"><span class="badge ${statusClass}">${
+            order.status || "Ingresado"
+          }</span></td>
+                    <td class="px-6 py-4 text-xs">${new Date(
+                      order.date
+                    ).toLocaleDateString()}</td>
+                    <td class="px-6 py-4 font-medium text-slate-900">${
+                      order.clientName
+                    }</td>
+                    <td class="px-6 py-4 text-xs">${order.deviceBrand} ${
+            order.deviceModel
+          }</td>
+                    <td class="px-6 py-4 text-right font-bold ${
+                      balance > 0 ? "text-red-600" : "text-green-600"
+                    }">$${balance.toLocaleString()}</td>
+                    <td class="px-6 py-4 text-center">
+                        <div class="flex justify-center gap-2">
+                            <button onclick='loadOrder("${
+                              order.ticketNumber
+                            }")' class="p-1.5 bg-blue-50 text-blue-600 rounded hover:bg-blue-100 font-bold text-xs">VER</button>
+                            <button onclick='reprintOrder(${JSON.stringify(
+                              order
+                            )})' class="p-1.5 text-slate-500 hover:text-slate-800"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg></button>
+                            <button onclick="deleteFromDB('${
+                              order.ticketNumber
+                            }')" class="p-1.5 text-red-400 hover:text-red-600"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
+                        </div>
+                    </td>
+                `;
+          tbody.appendChild(row);
+        });
+      }
+
+      // --- GESTIÓN DE FORMULARIO ---
       function loadOrder(ticketNumber) {
         const db = getDB();
         const order = db.find((o) => o.ticketNumber === ticketNumber);
-
         if (!order) return alert("Orden no encontrada");
 
+        // Cargar datos básicos
         document.getElementById("inp-ticket").value = order.ticketNumber;
         document.getElementById("inp-name").value = order.clientName;
         document.getElementById("inp-phone").value = order.clientPhone;
@@ -960,13 +1255,22 @@
         document.getElementById("inp-issue").value = order.issue;
         document.getElementById("inp-notes").value = order.notes || "";
         document.getElementById("inp-total").value = order.total;
-        document.getElementById("inp-deposit").value = order.deposit;
-
         document.getElementById("inp-status").value =
           order.status || "Ingresado";
 
+        // Cargar Pagos
+        if (order.payments && Array.isArray(order.payments)) {
+          currentPayments = order.payments;
+        } else if (order.deposit > 0) {
+          // Migración para datos viejos que solo tenian 'deposit'
+          currentPayments = [{ date: order.date, amount: order.deposit }];
+        } else {
+          currentPayments = [];
+        }
+        renderPaymentsList();
         calcBalance();
 
+        // Seguridad
         if (order.securityMode === "pass") {
           setMode("pass");
           document.getElementById("inp-pass-text").value = order.securityData;
@@ -1011,123 +1315,14 @@
         document.getElementById("inp-issue").value = "";
         document.getElementById("inp-notes").value = "";
         document.getElementById("inp-total").value = "";
-        document.getElementById("inp-deposit").value = "";
         document.getElementById("inp-status").value = "Ingresado";
         document.getElementById("inp-pass-text").value = "";
+        document.getElementById("inp-new-payment").value = "";
+
+        currentPayments = [];
+        renderPaymentsList();
         resetPattern();
         calcBalance();
-      }
-
-      // --- NAVEGACIÓN ---
-      function switchView(viewName) {
-        document
-          .querySelectorAll(".view-section")
-          .forEach((el) => el.classList.remove("active"));
-        document
-          .querySelectorAll("nav button")
-          .forEach((el) =>
-            el.classList.remove("bg-blue-600", "text-white", "shadow-lg")
-          );
-
-        if (viewName === "form") {
-          document.getElementById("view-form").classList.add("active");
-          const btn = document.getElementById("nav-form");
-          btn.classList.add("bg-blue-600", "text-white", "shadow-lg");
-          btn.classList.remove("text-slate-300");
-
-          document
-            .getElementById("nav-history")
-            .classList.remove("bg-blue-600", "text-white");
-          document
-            .getElementById("nav-history")
-            .classList.add("text-slate-300");
-        } else {
-          document.getElementById("view-history").classList.add("active");
-          const btn = document.getElementById("nav-history");
-          btn.classList.add("bg-blue-600", "text-white", "shadow-lg");
-          btn.classList.remove("text-slate-300");
-
-          document
-            .getElementById("nav-form")
-            .classList.remove("bg-blue-600", "text-white");
-          document.getElementById("nav-form").classList.add("text-slate-300");
-
-          renderHistory();
-        }
-      }
-
-      // --- HISTORIAL ---
-      function renderHistory() {
-        const db = getDB();
-        const term = document
-          .getElementById("search-history")
-          .value.toLowerCase();
-        const tbody = document.getElementById("history-table-body");
-        tbody.innerHTML = "";
-
-        const filtered = db.filter((order) => {
-          const searchStr = (
-            order.clientName +
-            order.ticketNumber +
-            order.deviceModel
-          ).toLowerCase();
-          return searchStr.includes(term);
-        });
-
-        if (filtered.length === 0) {
-          tbody.innerHTML = `<tr><td colspan="7" class="px-6 py-8 text-center text-slate-400">No se encontraron órdenes</td></tr>`;
-          return;
-        }
-
-        filtered.forEach((order) => {
-          const balance = order.total - order.deposit;
-
-          let statusClass = "st-ingresado";
-          const st = (order.status || "Ingresado").toLowerCase();
-          if (st.includes("diag")) statusClass = "st-diagnostico";
-          else if (st.includes("proceso")) statusClass = "st-proceso";
-          else if (st.includes("listo")) statusClass = "st-listo";
-          else if (st.includes("entregado")) statusClass = "st-entregado";
-          else if (st.includes("cancelado")) statusClass = "st-cancelado";
-
-          const row = document.createElement("tr");
-          row.className =
-            "bg-white border-b hover:bg-slate-50 transition-colors";
-          row.innerHTML = `
-                    <td class="px-6 py-4 font-mono font-bold text-slate-700">#${
-                      order.ticketNumber
-                    }</td>
-                    <td class="px-6 py-4"><span class="badge ${statusClass}">${
-            order.status || "Ingresado"
-          }</span></td>
-                    <td class="px-6 py-4 text-xs">${new Date(
-                      order.date
-                    ).toLocaleDateString()}</td>
-                    <td class="px-6 py-4 font-medium text-slate-900">${
-                      order.clientName
-                    }</td>
-                    <td class="px-6 py-4 text-xs">${order.deviceBrand} ${
-            order.deviceModel
-          }</td>
-                    <td class="px-6 py-4 text-right font-bold ${
-                      balance > 0 ? "text-red-600" : "text-green-600"
-                    }">$${balance.toLocaleString()}</td>
-                    <td class="px-6 py-4 text-center">
-                        <div class="flex justify-center gap-2">
-                            <button onclick='loadOrder("${
-                              order.ticketNumber
-                            }")' class="p-1.5 bg-blue-50 text-blue-600 rounded hover:bg-blue-100 font-bold text-xs">EDITAR</button>
-                            <button onclick='reprintOrder(${JSON.stringify(
-                              order
-                            )})' class="p-1.5 text-slate-500 hover:text-slate-800"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg></button>
-                            <button onclick="deleteFromDB('${
-                              order.ticketNumber
-                            }')" class="p-1.5 text-red-400 hover:text-red-600"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/></svg></button>
-                        </div>
-                    </td>
-                `;
-          tbody.appendChild(row);
-        });
       }
 
       // --- CORE Y UTILIDADES ---
@@ -1306,16 +1501,19 @@
       // --- GUARDAR E IMPRIMIR ---
       function saveAndPrint() {
         const currentId = document.getElementById("inp-ticket").value;
-        // Si hay ID es edición, sino es nuevo
         const ticketNumber =
           currentId ||
           Math.floor(Date.now() / 1000)
             .toString()
             .slice(-4);
 
+        const total =
+          parseFloat(document.getElementById("inp-total").value) || 0;
+        const deposit =
+          parseFloat(document.getElementById("inp-deposit").value) || 0;
+
         const orderData = {
           ticketNumber: ticketNumber,
-          // Si es edición, mantenemos fecha original (idealmente la traemos de DB, aquí usamos new si es nuevo)
           date: currentId
             ? getDB().find((o) => o.ticketNumber == currentId)?.date ||
               new Date().toISOString()
@@ -1328,10 +1526,10 @@
           imei: document.getElementById("inp-imei").value || "---",
           issue: document.getElementById("inp-issue").value,
           notes: document.getElementById("inp-notes").value,
-          total: parseFloat(document.getElementById("inp-total").value) || 0,
-          deposit:
-            parseFloat(document.getElementById("inp-deposit").value) || 0,
-          status: document.getElementById("inp-status").value, // NUEVO
+          total: total,
+          deposit: deposit,
+          payments: currentPayments, // GUARDAR LISTA DE ABONOS
+          status: document.getElementById("inp-status").value,
           securityMode: securityMode,
           securityData:
             securityMode === "pattern"
@@ -1342,12 +1540,10 @@
         saveToDB(orderData);
         printTicketData(orderData);
 
-        // Si es edición, nos quedamos, si es nuevo recargamos
         if (!currentId) {
           setTimeout(() => location.reload(), 1000);
         } else {
-          // Actualizar historial visualmente sin recargar
-          cancelEdit(); // Volver al estado limpio
+          cancelEdit();
           switchView("history");
         }
       }
@@ -1380,6 +1576,18 @@
           "$" + data.deposit.toLocaleString();
         document.getElementById("t-balance").textContent =
           "$" + (data.total - data.deposit).toLocaleString();
+
+        // Imprimir historial de pagos en el ticket
+        const tPayments = document.getElementById("t-payments-history");
+        tPayments.innerHTML = "";
+        if (data.payments && data.payments.length > 0) {
+          tPayments.innerHTML = "<strong>ABONOS:</strong><br>";
+          data.payments.forEach((p) => {
+            tPayments.innerHTML += `${new Date(
+              p.date
+            ).toLocaleDateString()}: $${p.amount.toLocaleString()}<br>`;
+          });
+        }
 
         const tPatternBox = document.getElementById("t-pattern-box");
         const tPassBox = document.getElementById("t-pass-box");
@@ -1445,6 +1653,96 @@
         updateSuggestions();
         updateStorageUsage();
       });
+
+      // Import/Export y Uso de Storage
+      function updateStorageUsage() {
+        let total = 0;
+        for (let x in localStorage) {
+          if (!localStorage.hasOwnProperty(x)) continue;
+          total += (localStorage[x].length + x.length) * 2;
+        }
+        const max = 5242880;
+        const percentage = ((total / max) * 100).toFixed(1);
+
+        const bar = document.getElementById("storage-bar");
+        const text = document.getElementById("storage-text");
+
+        if (bar && text) {
+          text.textContent = percentage + "%";
+          bar.style.width = percentage + "%";
+          bar.className =
+            "h-2 rounded-full transition-all duration-500 " +
+            (percentage < 50
+              ? "bg-green-500"
+              : percentage < 80
+              ? "bg-yellow-500"
+              : "bg-red-500");
+        }
+      }
+
+      function exportDB() {
+        const data = localStorage.getItem(DB_KEY);
+        if (!data || data === "[]") return alert("No hay datos para exportar.");
+        const blob = new Blob([data], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url;
+        const date = new Date().toISOString().slice(0, 10);
+        a.download = `GeekTech_Backup_${date}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }
+
+      function importDB(input) {
+        const file = input.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          try {
+            const data = JSON.parse(e.target.result);
+            if (Array.isArray(data)) {
+              if (
+                confirm(
+                  `Se encontrarón ${data.length} registros. ¿Desea reemplazar la base de datos actual?`
+                )
+              ) {
+                localStorage.setItem(DB_KEY, JSON.stringify(data));
+                alert("¡Datos restaurados correctamente!");
+                location.reload();
+              }
+            } else {
+              alert("El archivo seleccionado no es un respaldo válido.");
+            }
+          } catch (err) {
+            alert("Error al leer el archivo.");
+          }
+        };
+        reader.readAsText(file);
+        input.value = "";
+      }
+
+      function updateSuggestions() {
+        const db = getDB();
+        const fillList = (listId, key) => {
+          const list = document.getElementById(listId);
+          const uniqueValues = [
+            ...new Set(
+              db
+                .map((item) => item[key])
+                .filter((val) => val && val.trim() !== "")
+            ),
+          ].sort();
+          list.innerHTML = uniqueValues
+            .map((val) => `<option value="${val}">`)
+            .join("");
+        };
+        fillList("list-names", "clientName");
+        fillList("list-phones", "clientPhone");
+        fillList("list-brands", "deviceBrand");
+        fillList("list-models", "deviceModel");
+      }
     </script>
   </body>
 </html>
