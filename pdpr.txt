@@ -14,13 +14,13 @@
     Cable Hdmi 3M 2
     Cable Lan 5M Cat 6 2
     Cable Rj11 3
-    Cable Vga 1.5M 3
+    Cable Vga 1.5M 3  ok
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara Web 720P 1
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
-    Cargador Microsoft Carga Y Juega Xbox 360 3
+    Cargador Microsoft Carga Y Juega Xbox 360 3 ok
     Cargador Pc Acer 2.37 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
@@ -63,6 +63,6 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Tableta Tigers Kids Rosa 1
-    Tripode Selfie-05 1
+    Tripode Selfie-05 1 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
