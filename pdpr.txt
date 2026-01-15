@@ -1,10 +1,10 @@
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Rca2Plug3.5 5
     Adaptador Tarjeta Audio 5.1 1
     Adaptador Usb2hdmi 1
     Antena Tdt 3M 4
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 3
+    Audifonos Bluetooth Pro 5S Negro 2 ok
+    Cargador Microsoft Carga y Juega 3 ok
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
     Cable 3 a 1 Video Compuesto 2
@@ -14,7 +14,7 @@
     Cable Hdmi 3M 2
     Cable Lan 5M Cat 6 2
     Cable Rj11 3
-    Cable Vga 1.5M 3  ok
+    Cable Vga 1.5M 3 ok
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara Web 720P 1
@@ -30,7 +30,7 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps2 Inalambrico 2
-    Control Tv Universal 8
+    Control Tv Universal 10 ok
     Estabilizador 1800w 1
     Estetica Cepillo Secador Giratorio 1
     Estetica Cepillo Secador Remington Keratina 1
@@ -41,20 +41,21 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
-    Memory Card Ps2 1
+    Memory Card Ps2 1 ok
     Palo Selfie Xt-02 2
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
-    Pila Control 23A 5
-    Pila Reloj Cr-2016 5
-    Pila Reloj Lr-44 5
+    Pila Control 23A 10 ok
+    Pila Reloj Cr-2016 5 ok
+    Pila Reloj Lr-44 10 ok
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Mixta con Cargador 2
+    Pilas Recargables Beston Mixta con Cargador 1 ok
+    Pilas Recargables Beston Aa x 4 con Cargador 1 ok
     Plancha Babyliss Combo Nano Titanium 2
-    Reproductor Alexa Eco Dot 1
+    Reproductor Tdt Quality 2 ok
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 2
+    Reproductor Onn Hd Azul 1 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
@@ -63,6 +64,6 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Tableta Tigers Kids Rosa 1
-    Tripode Selfie-05 1 ok
+    Tripode Selfie-05 2 ok
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
