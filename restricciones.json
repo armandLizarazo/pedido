@@ -5,10 +5,12 @@
         "logica de carga",
         "carga y juega",
         "estetica",
-        "lan",
         "vga",
         "dpp",
-        "camara"
+        "camara",
+        "barbera",
+        "bandeja sim",
+        "cable lan"
     ],
     "pdpr.txt": [
         "pacha",

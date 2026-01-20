@@ -2,10 +2,8 @@
     Adaptador Tarjeta Audio 5.1 1
     Adaptador Usb2hdmi 1
     Antena Tdt 3M 4
+    Antena Tdt 5M 4
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 2 ok
-    Cargador Microsoft Carga y Juega 3 ok
-    Cargador Ramitech 20W Tc Cabeza 1 ok
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
     Cable 3 a 1 Video Compuesto 2
@@ -15,14 +13,13 @@
     Cable Hdmi 3M 2
     Cable Lan 5M Cat 6 2
     Cable Rj11 3
-    Cable Vga 1.5M 3 ok
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara Web 720P 1
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
-    Cargador Microsoft Carga Y Juega Xbox 360 3 ok
     Cargador Pc Acer 2.37 1
+    Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
     Consola Sup Con Control Rojo 1
@@ -31,7 +28,6 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps2 Inalambrico 2
-    Control Tv Universal 10 ok
     Estabilizador 1800w 1
     Estetica Cepillo Secador Giratorio 1
     Estetica Cepillo Secador Remington Keratina 1
@@ -42,21 +38,20 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
-    Memory Card Ps2 1 ok
+    Mouse Gamer X7 2
     Palo Selfie Xt-02 2
+    Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
-    Pila Control 23A 10 ok
-    Pila Reloj Cr-2016 5 ok
-    Pila Reloj Lr-44 10 ok
+    Patillera 3 En 1 Vintage 2
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Mixta con Cargador 1 ok
-    Pilas Recargables Beston Aa x 4 con Cargador 1 ok
+    Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
-    Reproductor Tdt Quality 2 ok
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 1 ok
+    Reproductor Onn Hd Azul 2
+    Reproductor Tdt Quality 2
+    Rollo Cinta Led 10M Audioritmica 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
@@ -64,7 +59,8 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
+    Soporte Tv Fijo 1
     Tableta Tigers Kids Rosa 1
-    Tripode Selfie-05 2 ok
+    Vaper Kokin 10000 Puffs 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

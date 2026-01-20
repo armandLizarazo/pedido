@@ -10738,3 +10738,204 @@ Fecha de proceso: 2026-01-11 18:29:44
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-16 13:43:39
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 63
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Tc a 3.5 4 ok
+    8 | Balaca Callcenter Eco 1 ok
+    9 | Balaca Naisu S-437 Gris 1 ok
+   12 | Cable Apple Iphone 4 3 ok
+   15 | Cable We Tc 5 ok
+   16 | Cable Yoyos Tc 3M 3 ok
+   17 | Cargador Apple 5V Eco 3 ok
+   81 | Forro Space Apple Iphone 13 2 ok
+   86 | Forro Space Infinix Note 40 Pro 4G 2 ok
+   87 | Forro Space Infinix Note 50 4G 2 ok
+  102 | Forro Space Tecno Camon 40 2 ok
+  106 | Forro Space Xiaomi Mi 11 Lite 1 ok
+  111 | Forro Space Xiaomi Redmi Note 14 Pro 4G 2 ok
+  119 | Memoria Kingston Micro 4Gb 2 ok
+  120 | Memoria Kingston Micro 8Gb 2 ok
+  121 | Memoria Kingston Usb 4Gb 2 ok
+  122 | Memoria Kingston Usb 8Gb 2 ok
+  133 | Silicone Case Apple Iphone 13 Blanco 1 ok
+  134 | Silicone Case Apple Iphone 13 Vinotinto 1 ok
+  136 | Silicone Case Apple Iphone 16 Amarillo 1 ok
+  137 | Silicone Case Apple Iphone 16 Azuloscuro 1 ok
+  138 | Silicone Case Apple Iphone 16 Fucsia 1 ok
+  139 | Silicone Case Apple Iphone 16 Lila 1 ok
+  140 | Silicone Case Apple Iphone 16 Morado 1 ok
+  141 | Silicone Case Apple Iphone 16 Negro 1 ok
+  142 | Silicone Case Apple Iphone 16 Rojo 1 ok
+  144 | Silicone Case Apple Iphone 17 Air Amarillo 1 ok
+  146 | Silicone Case Apple Iphone 17 Air Lila 1 ok
+  147 | Silicone Case Apple Iphone 17 Air Morado 1 ok
+  148 | Silicone Case Apple Iphone 17 Air Negro 1 ok
+  149 | Silicone Case Apple Iphone 17 Air Rojo 1 ok
+  151 | Silicone Case Apple Iphone 17 Morado 1 ok
+  152 | Silicone Case Apple Iphone 17 Negro 1 ok
+  153 | Silicone Case Apple Iphone 17 Pro Amarillo 1 ok
+  154 | Silicone Case Apple Iphone 17 Pro Fucsia 1 ok
+  162 | Silicone Case Huawei Honor X7 Negro 1 ok
+  164 | Silicone Case Huawei Honor X8B Lila 1 ok
+  174 | Silicone Case Infinix Note 40 4G Negro 1 ok
+  175 | Silicone Case Infinix Note 40 Pro 4G Amarillo 1 ok
+  176 | Silicone Case Infinix Note 40 Pro 4G Fucsia 1 ok
+  177 | Silicone Case Infinix Note 40 Pro 4G Morado 1 ok
+  178 | Silicone Case Infinix Note 40 Pro 4G Negro 1 ok
+  240 | Silicone Case Tecno Pova 4 Lila 1 ok
+  243 | Silicone Case Tecno Spark Go 2 / Smart 10 Rosa 1 ok
+  244 | Silicone Case Tecno Spark Go 2025 / Go 1 Lila 1 ok
+  260 | Silicone Case Xiaomi Redmi 14C Morado 1 ok
+  261 | Silicone Case Xiaomi Redmi 15C Fucsia 1 ok
+  264 | Silicone Case Xiaomi Redmi Note 12S Rojo 1 ok
+  265 | Silicone Case Xiaomi Redmi Note 12S Rosa 1 ok
+  266 | Silicone Case Xiaomi Redmi Note 13 4G Morado 1 ok
+  268 | Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rosa 2 ok
+  270 | Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1 ok
+  271 | Silicone Case Xiaomi Redmi Note 14 4G Azuloscuro 1 ok
+  272 | Silicone Case Xiaomi Redmi Note 14 4G Lila 1 ok
+  273 | Silicone Case Xiaomi Redmi Note 14 4G Morado 1 ok
+  274 | Silicone Case Xiaomi Redmi Note 14 4G Rojo 1 ok
+  276 | Silicone Case Xiaomi Redmi Note 14 5G Fucsia 1 ok
+  279 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Lila 1 ok
+  280 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Morado 1 ok
+  281 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Negro 1 ok
+  282 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Rojo 1 ok
+  283 | Silicone Case Xiaomi Redmi Note 14 Pro 5G Rosa 1 ok
+  285 | Silicone Case Xiaomi Redmi Note 8 Pro Rosa 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-16 13:43:39
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 15
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    6 | Audifonos Bluetooth Pro 5S Negro 2 ok
+    7 | Cargador Microsoft Carga y Juega 3 ok
+    8 | Cargador Ramitech 20W Tc Cabeza 1 ok
+   18 | Cable Vga 1.5M 3 ok
+   24 | Cargador Microsoft Carga Y Juega Xbox 360 3 ok
+   34 | Control Tv Universal 10 ok
+   45 | Memory Card Ps2 1 ok
+   50 | Pila Control 23A 10 ok
+   51 | Pila Reloj Cr-2016 5 ok
+   52 | Pila Reloj Lr-44 10 ok
+   54 | Pilas Recargables Beston Mixta con Cargador 1 ok
+   55 | Pilas Recargables Beston Aa x 4 con Cargador 1 ok
+   57 | Reproductor Tdt Quality 2 ok
+   59 | Reproductor Onn Hd Azul 1 ok
+   68 | Tripode Selfie-05 2 ok
+
+==================================================
+Fecha de proceso: 2026-01-16 13:43:39
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Pacha Huawei Honor X6A / X5B 1 ok
+    2 | Pacha Huawei Honor X7C / Honor 200 Smart 1 ok
+    3 | Pacha Huawei Y9 Prime Full 1 ok
+    4 | Pacha Samsung A05S 1 ok
+    5 | Pacha Samsung A21S 1 ok
+    6 | Pacha Samsung A21S C/m 1 ok
+    7 | Pacha Samsung A30 / A50 C/M 1 ok
+    8 | Tapa Samsung A05S Lila 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-16 13:43:39
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-16 14:00:31
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-16 14:00:31
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-16 14:00:31
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-16 14:00:31
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-19 23:15:55
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 20
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Audifonos Bluetooth Jbl Pantalla J58 1 ok
+   12 | Audifonos Bluetooth Pro 2 1 ok
+   21 | Cable Belkin Tc 5 ok
+   26 | Cargador Socket de Carga 5.6A 1 ok
+   28 | Cargador Yoyos Cabeza Eco 2 ok
+   57 | Forro Antichoque Xiaomi Redmi 9A Dama 3 ok
+   82 | Control Gamer Gatillos Eco 2 ok
+   97 | Forro Space Magsafe Apple Iphone 14 1 ok
+   98 | Forro Space Magsafe Apple Iphone 17 1 ok
+   99 | Forro Space Magsafe Apple Iphone 17 Pro 1 ok
+  100 | Forro Space Magsafe Apple Iphone 17 Pro Max 1 ok
+  101 | Forro Space Magsafe Apple Iphone 17 Air 1 ok
+  110 | Forro Space Samsung A21S 3 ok
+  117 | Forro Space Tecno Spark 40 Pro 2 ok
+  121 | Forro Space Xiaomi Redmi 14C 2 ok
+  128 | Simcard Tigo 18 ok
+  220 | Silicone Case Samsung S25 Fe Negro 1 ok
+  221 | Silicone Case Samsung S25 Fe Rosa 1 ok
+  276 | Vidrio 5D Xiaomi Redmi 9 10 ok
+  291 | Vidrio Blindado Xiaomi Redmi 9 5 ok
+
+==================================================
+Fecha de proceso: 2026-01-19 23:15:55
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 0
+
+
+==================================================
+Fecha de proceso: 2026-01-19 23:15:55
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 8
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bandeja Sim Xiaomi Redmi 9A 1 ok
+    2 | Bateria Apple Iphone 11 1 ok
+    3 | Camara Principal Motorola Moto Edge 40 1 ok
+    4 | Logica de Carga Samsung A03 Core 1 ok
+    5 | Pacha Xiaomi Redmi 12C 1 ok
+    6 | Pacha Xiaomi Redmi 13C 1 ok
+    8 | Pacha Xiaomi Redmi Note 12 1 ok
+    9 | Tapa Vivo Y36 Verdeescarcha 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-19 23:15:55
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
