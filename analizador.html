@@ -256,6 +256,19 @@
             <line x1="7" y1="7" x2="7.01" y2="7" />
           </IconBase>
         );
+        const Calendar = (props) => (
+          <IconBase {...props}>
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+            <line x1="16" y1="2" x2="16" y2="6" />
+            <line x1="8" y1="2" x2="8" y2="6" />
+            <line x1="3" y1="10" x2="21" y2="10" />
+          </IconBase>
+        );
+        const Activity = (props) => (
+          <IconBase {...props}>
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+          </IconBase>
+        );
         const ArrowUp = (props) => (
           <IconBase {...props}>
             <line x1="12" y1="19" x2="12" y2="5" />
@@ -421,6 +434,9 @@
 
           // Estado para el modo de visualización de tendencias y extremos
           const [viewMode, setViewMode] = useState("day"); // 'day' | 'month'
+
+          // Filtro específico para la tabla mensual
+          const [monthTableFilter, setMonthTableFilter] = useState("");
 
           // --- CONFIGURACIÓN DE FECHAS POR DEFECTO ---
           const [filters, setFilters] = useState(() => {
@@ -662,28 +678,36 @@
               (acc, curr) => acc + curr.ganancia,
               0
             );
-            const totalCantidad = filteredData.reduce(
-              (acc, curr) => acc + curr.cantidad,
-              0
-            );
-            const totalCostos = filteredData.reduce(
-              (acc, curr) => acc + curr.costoUnitario * curr.cantidad,
-              0
-            );
-            const costoPromedio =
-              totalCantidad > 0 ? totalCostos / totalCantidad : 0;
-            const ticketPromedio =
-              filteredData.length > 0 ? totalVentas / filteredData.length : 0;
+
+            // Lógica para Utilidad Diaria Promedio
+            let daysDiff = 1;
+            if (filters.startDate && filters.endDate) {
+              const start = createLocalDate(filters.startDate);
+              const end = createLocalDate(filters.endDate);
+              if (start && end) {
+                const diffTime = Math.abs(end - start);
+                daysDiff = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+              }
+            } else if (filteredData.length > 0) {
+              // Si no hay filtro, calcular basado en min y max fecha de los datos
+              const timestamps = filteredData.map((i) => i.timestamp.getTime());
+              const minTime = Math.min(...timestamps);
+              const maxTime = Math.max(...timestamps);
+              const diffTime = Math.abs(maxTime - minTime);
+              daysDiff = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
+            }
+            if (daysDiff < 1) daysDiff = 1;
+
+            const utilidadDiariaProm = totalGanancia / daysDiff;
+
             return {
               totalVentas,
               totalGanancia,
-              totalCantidad,
-              totalCostos,
-              costoPromedio,
-              ticketPromedio,
+              utilidadDiariaProm,
+              daysCount: daysDiff,
               count: filteredData.length,
             };
-          }, [filteredData]);
+          }, [filteredData, filters.startDate, filters.endDate]);
 
           // Datos diarios
           const dailyStats = useMemo(() => {
@@ -709,12 +733,31 @@
             return Object.values(groups).sort((a, b) => a.isoDate - b.isoDate);
           }, [filteredData]);
 
-          // Datos mensuales
-          const monthlyStats = useMemo(() => {
+          // Datos mensuales (TOTALES, SIN FILTRO DE FECHA - Para el histórico)
+          const fullHistoryMonthlyStats = useMemo(() => {
             const groups = {};
-            filteredData.forEach((item) => {
+            // Usamos 'data' completo en lugar de 'filteredData' para el histórico global
+            // Pero aplicamos el filtro de texto de búsqueda si el usuario quiere filtrar por producto globalmente
+            // Aquí usaremos 'data' completo para que sea un verdadero histórico,
+            // pero si el usuario filtra por producto arriba, tal vez quiera ver el histórico de ese producto.
+            // Usaremos filteredData pero IGNORANDO el filtro de fecha.
+
+            const dataToUse = data.filter((item) => {
+              const matchesSearch =
+                item.descripcion
+                  .toLowerCase()
+                  .includes(filters.search.toLowerCase()) ||
+                item.id.includes(filters.search) ||
+                item.categoria
+                  .toLowerCase()
+                  .includes(filters.search.toLowerCase());
+              const matchesStatus =
+                filters.status === "Todos" || item.estado === filters.status;
+              return matchesSearch && matchesStatus;
+            });
+
+            dataToUse.forEach((item) => {
               if (isNaN(item.timestamp.getTime())) return;
-              // Usamos "YYYY-MM" para ordenar correctamente, luego formateamos para mostrar
               const monthKey = `${item.timestamp.getFullYear()}-${String(
                 item.timestamp.getMonth() + 1
               ).padStart(2, "0")}`;
@@ -726,8 +769,8 @@
                 });
                 groups[monthKey] = {
                   date:
-                    displayDate.charAt(0).toUpperCase() + displayDate.slice(1), // Capitalize
-                  isoDate: monthKey, // Para ordenar
+                    displayDate.charAt(0).toUpperCase() + displayDate.slice(1),
+                  isoDate: monthKey,
                   cantidad: 0,
                   costo: 0,
                   venta: 0,
@@ -739,14 +782,59 @@
               groups[monthKey].venta += item.totalVenta;
               groups[monthKey].ganancia += item.ganancia;
             });
-            return Object.values(groups).sort((a, b) =>
+
+            let result = Object.values(groups).sort((a, b) =>
               a.isoDate.localeCompare(b.isoDate)
             );
-          }, [filteredData]);
 
-          // Datos a usar según viewMode
+            // Aplicar filtro de texto específico de la tabla mensual
+            if (monthTableFilter) {
+              result = result.filter((m) =>
+                m.date.toLowerCase().includes(monthTableFilter.toLowerCase())
+              );
+            }
+
+            return result;
+          }, [data, filters.search, filters.status, monthTableFilter]);
+
+          // Datos a usar según viewMode para el gráfico principal (SÍ respeta filtros de fecha)
           const currentChartData =
-            viewMode === "day" ? dailyStats : monthlyStats;
+            viewMode === "day"
+              ? dailyStats
+              : (() => {
+                  // Versión mensual restringida al rango de fecha seleccionado para el gráfico
+                  const groups = {};
+                  filteredData.forEach((item) => {
+                    if (isNaN(item.timestamp.getTime())) return;
+                    const monthKey = `${item.timestamp.getFullYear()}-${String(
+                      item.timestamp.getMonth() + 1
+                    ).padStart(2, "0")}`;
+                    if (!groups[monthKey]) {
+                      const displayDate = item.timestamp.toLocaleDateString(
+                        "es-CO",
+                        { month: "long", year: "numeric" }
+                      );
+                      groups[monthKey] = {
+                        date:
+                          displayDate.charAt(0).toUpperCase() +
+                          displayDate.slice(1),
+                        isoDate: monthKey,
+                        cantidad: 0,
+                        costo: 0,
+                        venta: 0,
+                        ganancia: 0,
+                      };
+                    }
+                    groups[monthKey].cantidad += item.cantidad;
+                    groups[monthKey].costo +=
+                      item.costoUnitario * item.cantidad;
+                    groups[monthKey].venta += item.totalVenta;
+                    groups[monthKey].ganancia += item.ganancia;
+                  });
+                  return Object.values(groups).sort((a, b) =>
+                    a.isoDate.localeCompare(b.isoDate)
+                  );
+                })();
 
           // Cálculo de Extremos (Max/Min)
           const extremes = useMemo(() => {
@@ -1063,8 +1151,8 @@
                   </div>
                 </Card>
 
-                {/* KPIs */}
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+                {/* KPIs (3 Columnas Centradas) */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <StatCard
                     title="Ventas Totales"
                     value={formatMoney(stats.totalVentas)}
@@ -1086,25 +1174,17 @@
                     icon={TrendingUp}
                     colorClass="bg-blue-500"
                   />
+                  {/* NUEVO WIDGET: UTILIDAD DIARIA PROMEDIO */}
                   <StatCard
-                    title="Costo Promedio"
-                    value={formatMoney(stats.costoPromedio)}
-                    subtext="Por unidad vendida"
-                    icon={Package}
-                    colorClass="bg-orange-500"
-                  />
-                  <StatCard
-                    title="Total Unidades"
-                    value={stats.totalCantidad}
-                    subtext={`Ticket Prom: ${formatMoney(
-                      stats.ticketPromedio
-                    )}`}
-                    icon={FileText}
-                    colorClass="bg-purple-500"
+                    title="Promedio Diario Utilidad"
+                    value={formatMoney(stats.utilidadDiariaProm)}
+                    subtext={`En ${stats.daysCount} días del periodo`}
+                    icon={Activity}
+                    colorClass="bg-teal-500"
                   />
                 </div>
 
-                {/* NEW EXTREMES DASHBOARD */}
+                {/* EXTREMES DASHBOARD */}
                 {extremes && (
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <ExtremeCard
@@ -1208,7 +1288,7 @@
                         {viewMode === "day" ? "Diario" : "Mensual"}
                       </h3>
                       <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                        Detalle Contable
+                        Detalle Contable del Periodo Seleccionado
                       </span>
                     </div>
                     <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
@@ -1496,6 +1576,97 @@
                     </div>
                   </Card>
                 </div>
+
+                {/* --- NUEVO DASHBOARD: HISTÓRICO MENSUAL --- */}
+                <Card className="flex flex-col">
+                  <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2">
+                    <div>
+                      <h3 className="text-lg font-bold text-gray-800">
+                        Histórico Mensual Detallado
+                      </h3>
+                      <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                        Todo el Histórico (Sin filtrar fecha)
+                      </span>
+                    </div>
+                    <div className="relative">
+                      <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
+                      <input
+                        type="text"
+                        placeholder="Filtrar mes (ej: Enero)"
+                        className="pl-10 pr-4 py-2 border rounded-md text-sm focus:ring-2 focus:ring-blue-500 outline-none w-64"
+                        value={monthTableFilter}
+                        onChange={(e) => setMonthTableFilter(e.target.value)}
+                      />
+                    </div>
+                  </div>
+                  <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
+                    <table className="min-w-full text-sm">
+                      <thead className="bg-gray-100 sticky top-0 z-10 shadow-sm">
+                        <tr>
+                          <th className="px-4 py-3 text-left font-medium text-gray-600">
+                            Mes
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-600">
+                            Ventas
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-600">
+                            Costos
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-600">
+                            Ganancia
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-600">
+                            Margen %
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-600">
+                            Cant.
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="divide-y divide-gray-100">
+                        {fullHistoryMonthlyStats.map((m, idx) => {
+                          const margen =
+                            m.venta > 0
+                              ? ((m.ganancia / m.venta) * 100).toFixed(1)
+                              : "0.0";
+                          return (
+                            <tr
+                              key={idx}
+                              className="hover:bg-gray-50 transition-colors"
+                            >
+                              <td className="px-4 py-3 text-gray-700 font-bold text-sm">
+                                {m.date}
+                              </td>
+                              <td className="px-4 py-3 text-right font-bold text-blue-700">
+                                {formatMoney(m.venta)}
+                              </td>
+                              <td className="px-4 py-3 text-right text-orange-600">
+                                {formatMoney(m.costo)}
+                              </td>
+                              <td className="px-4 py-3 text-right font-bold text-green-600">
+                                {formatMoney(m.ganancia)}
+                              </td>
+                              <td className="px-4 py-3 text-right text-gray-600">
+                                <span
+                                  className={`px-2 py-0.5 rounded text-xs font-bold ${
+                                    parseFloat(margen) > 30
+                                      ? "bg-green-100 text-green-800"
+                                      : "bg-yellow-100 text-yellow-800"
+                                  }`}
+                                >
+                                  {margen}%
+                                </span>
+                              </td>
+                              <td className="px-4 py-3 text-right text-gray-600">
+                                {m.cantidad}
+                              </td>
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                </Card>
               </div>
             </div>
           );

@@ -10939,3 +10939,70 @@ Fecha de proceso: 2026-01-19 23:15:55
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-21 19:23:08
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 18
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   50 | Forro Antichoque Xiaomi Redmi 12 Dama 2 ok
+   51 | Forro Antichoque Cadena Xiaomi Redmi 12 1 ok
+   52 | Forro Antichoque Xiaomi Redmi 12C Caballero 2 ok
+   53 | Forro Armadura Xiaomi Redmi 12C Negro 1 ok
+   56 | Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2 ok
+   65 | Forro Armadura Samsung A13 Vinotinto 1 ok
+   67 | Forro Armadura Tecno Camon 40 Pro 4G Negro 1 ok
+   68 | Forro Armadura Tecno Camon 40 Pro 4G Rojo 1 ok
+   70 | Forro Armadura Tecno Spark 30C Negro 1 ok
+   71 | Forro Armadura Tecno Spark 30C Rojo 1 ok
+   78 | Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 1 ok
+  139 | Silicone Case Apple Iphone 17 Air Fucsia 1 ok
+  148 | Silicone Case Huawei Honor X6 / X6s Azulclaro 1 ok
+  149 | Silicone Case Huawei Honor X7 Rojo 1 ok
+  171 | Silicone Case Motorola Moto G22 Verdemilitar 1 ok
+  248 | Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1 ok
+  249 | Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1 ok
+  288 | Vidrio Blindado Samsung A21s 5 ok
+
+==================================================
+Fecha de proceso: 2026-01-21 19:23:08
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 2
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   41 | Mouse Gamer X7 1 ok
+   52 | Reproductor Onn Hd Azul 2 ok
+
+==================================================
+Fecha de proceso: 2026-01-21 19:23:08
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 14
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Huawei Y9 Prime 1 ok
+    2 | Logica de Carga Samsung A22 4G 1 ok
+    3 | Pacha Huawei Honor X6A / X5B 1 ok
+    4 | Pacha Huawei Honor X7A 1 ok
+    5 | Pacha Huawei Y9 Prime Full 1 ok
+    6 | Pacha Motorola Moto G13 / G23 2 ok
+    7 | Pacha Samsung A15 1 ok
+    8 | Pacha Samsung A21S 1 ok
+   10 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+   11 | Pacha Xiaomi Redmi 9 1 ok
+   12 | Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok
+   13 | Pacha Vivo Y19s / Y38 1 ok
+   14 | Visor Camara Motorola Moto Edge 40 1 ok
+   15 | Pacha Samsung A7 2018 C/m 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-21 19:23:08
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

@@ -19,17 +19,24 @@
     Cable Apple Usb Ligthning 2M 5
     Cable Belkin V8 5
     Cable Motorola Tc 5
+    Cable Tc A Tc Eco 3
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
+    Cargador Motorola 50W Con Cable 2
+    Cargador Samsung 45W Cabeza Negro 2
     Cargador We Tc 33W 2
+    Cargador Yoyos Tc Bolsa 5
     Estetica Barbera Vgr V-660 1
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Huawei Honor X7C / 200 Smart Dama 2
+    Forro Antichoque Huawei Honor X8C Dama 2
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Dama 5
     Forro Antichoque Infinix Note 40 Pro 4G Caballero 3
+    Forro Antichoque Motorola Moto G20 / G30 Dama 2
+    Forro Antichoque Motorola Moto G22 Caballero 3
     Forro Antichoque Motorola Moto G72 Caballero 3
     Forro Antichoque Motorola Moto G72 Dama 3
     Forro Antichoque Motorola Moto One Caballero 2
@@ -47,36 +54,27 @@
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Xiaomi Poco X3 Dama 3
-    Forro Antichoque Xiaomi Redmi 12 Dama 2 ok
-    Forro Antichoque Cadena Xiaomi Redmi 12 1 ok
-    Forro Antichoque Xiaomi Redmi 12C Caballero 2 ok
-    Forro Armadura Xiaomi Redmi 12C Negro 1 ok
     Forro Antichoque Xiaomi Redmi 15 Caballero 5
     Forro Antichoque Xiaomi Redmi 15 Dama 5
-    Forro Antichoque Xiaomi Redmi A1 / A2 Caballero 2 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto Edge 60 Fusion Rojo 1
     Forro Armadura Motorola Moto G20 / G30 Negro 1
+    Forro Armadura Motorola Moto G20 / G30 Rojo 1
     Forro Armadura Motorola Moto G22 Rojo 1
     Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
-    Forro Armadura Samsung A13 Vinotinto 1 ok
     Forro Armadura Samsung S23 Plus Azuloscuro 1
-    Forro Armadura Tecno Camon 40 Pro 4G Negro 1 ok
-    Forro Armadura Tecno Camon 40 Pro 4G Rojo 1 ok
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
-    Forro Armadura Tecno Spark 30C Negro 1 ok
-    Forro Armadura Tecno Spark 30C Rojo 1 ok
     Forro Armadura Xiaomi Mi 11T / M 11T Pro Negro 1
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
     Forro Armadura Xiaomi Redmi 15C Negro 1
     Forro Armadura Xiaomi Redmi 15C Rojo 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
-    Forro Armadura Xiaomi Redmi Note 11 / Note 12S Rojo 1 ok
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
+    Forro Armadura Xiaomi Redmi Note 8 Negro 1
     Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Lujo Humo Samsung A16 Negro 2
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
@@ -86,6 +84,7 @@
     Forro Lujo Ventana Apple Iphone 15 Pro Morado 1
     Forro Lujo Ventana Apple Iphone 15 pro Max Negro 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
+    Forro Lujo Ventana Samsung A26 Azul 1
     Forro Space Apple Iphone 11 Magsafe 1
     Forro Space Huawei Honor 400 2
     Forro Space Huawei Honor 400 Lite 1
@@ -136,7 +135,6 @@
     Silicone Case Apple Iphone 13 Verde 1
     Silicone Case Apple Iphone 15 Amarillo 1
     Silicone Case Apple Iphone 16 Rosa 1
-    Silicone Case Apple Iphone 17 Air Fucsia 1 ok
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 17 Rojo 1
     Silicone Case Apple Iphone Xr Amarillo 1
@@ -145,8 +143,7 @@
     Silicone Case Apple Iphone Xs Max Negro 1
     Silicone Case Huawei Honor 400 Smart Fucsia 1
     Silicone Case Huawei Honor 400 Smart Lila 1
-    Silicone Case Huawei Honor X6 / X6s Azulclaro 1 ok
-    Silicone Case Huawei Honor X7 Rojo 1 ok
+    Silicone Case Huawei Honor X6B Lila 1
     Silicone Case Huawei Nova 9 Rosa 1
     Silicone Case Huawei Nova Y70 Fucsia 1
     Silicone Case Huawei Y7 2019 Rojo 1
@@ -167,8 +164,9 @@
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G13 / G23 Negro 1
     Silicone Case Motorola Moto G15 Amarillo 1
+    Silicone Case Motorola Moto G20 / G30 Fucsia 1
+    Silicone Case Motorola Moto G20 / G30 Morado 1
     Silicone Case Motorola Moto G22 Rojo 1
-    Silicone Case Motorola Moto G22 Verdemilitar 1 ok
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G72 Amarillo 1
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
@@ -198,6 +196,7 @@
     Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
+    Silicone Case Samsung A05 Fucsia 1
     Silicone Case Samsung A06 Azulrey 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A13 Morado 1
@@ -206,6 +205,7 @@
     Silicone Case Samsung A22 4G Morado 1
     Silicone Case Samsung A22 4G Rosa 1
     Silicone Case Samsung A22 5G Negro 1
+    Silicone Case Samsung A23 Rojo 1
     Silicone Case Samsung A30S / A50 Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
@@ -224,8 +224,11 @@
     Silicone Case Tecno Camon 40 Premier Rojo 1
     Silicone Case Tecno Camon 40 Premier Rosa 1
     Silicone Case Tecno Camon 40 Rojo 1
+    Silicone Case Tecno Camon 40 Vinotinto 1
+    Silicone Case Tecno Spark 10 Pro Rosa 1
     Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark 30C Fucsia 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -241,12 +244,11 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Negro 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 13C Azulrey 1
     Silicone Case Xiaomi Redmi 15C Negro 1
     Silicone Case Xiaomi Redmi Note 11 Blanco 2
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Amarillo 1
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1 ok
-    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
@@ -285,7 +287,6 @@
     Vidrio Blindado Apple Iphone 16E 5
     Vidrio Blindado Apple Iphone Xs Max 5
     Vidrio Blindado Motorola Moto G9 Power 5
-    Vidrio Blindado Samsung A21s 5 ok
     Vidrio Blindado Xiaomi Poco X3 / A71 10
     Vidrio Blindado Xiaomi Redmi 15 10
     Vidrio Camara Xiaomi Redmi 13 15

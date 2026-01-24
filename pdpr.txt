@@ -4,6 +4,7 @@
     Antena Tdt 3M 4
     Antena Tdt 5M 4
     Audifonos Bluetooth M25 2
+    Audifonos Bluetooth Pro 5S Negro 2
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
     Cable 3 a 1 Video Compuesto 2
@@ -17,8 +18,9 @@
     Calculadora Cientifica Casio 82Es 1
     Camara Web 720P 1
     Camara de Solapa 1
+    Cargador 9V 2A Doble Punta 3
     Cargador Cabeza Cubo Eco 10
-    Cargador Pc Acer 2.37 1
+    Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
@@ -38,7 +40,6 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
-    Mouse Gamer X7 1 ok
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
@@ -49,7 +50,6 @@
     Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 2 ok
     Reproductor Tdt Quality 2
     Rollo Cinta Led 10M Audioritmica 2
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1

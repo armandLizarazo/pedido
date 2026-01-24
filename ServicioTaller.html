@@ -177,7 +177,6 @@
         }
       }
 
-      /* Cursor pointer para ordenamiento */
       .sortable {
         cursor: pointer;
         user-select: none;
@@ -204,6 +203,8 @@
     <datalist id="list-phones"></datalist>
     <datalist id="list-brands"></datalist>
     <datalist id="list-models"></datalist>
+    <datalist id="list-imeis"></datalist>
+    <!-- NUEVA LISTA -->
 
     <!-- SIDEBAR -->
     <aside
@@ -355,7 +356,7 @@
       <div
         class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
       >
-        Sistema de Taller v3.9<br />Base de Datos: Local
+        Sistema de Taller v4.1<br />Base de Datos: Local
       </div>
     </aside>
 
@@ -432,10 +433,12 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Nombre Completo</label
                   >
+                  <!-- Se agrega oninput para autocompletado -->
                   <input
                     type="text"
                     id="inp-name"
                     list="list-names"
+                    oninput="checkAutoFill(this.value)"
                     class="w-full p-2.5 border border-slate-300 rounded-lg focus:border-blue-500 outline-none transition-colors"
                     placeholder="Nombre del cliente"
                   />
@@ -503,9 +506,12 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >IMEI / Serie</label
                   >
+                  <!-- Se agrega oninput para autocompletado por IMEI -->
                   <input
                     type="text"
                     id="inp-imei"
+                    list="list-imeis"
+                    oninput="checkIMEI(this.value)"
                     class="w-full p-2.5 border border-slate-300 rounded-lg outline-none font-mono text-sm"
                     placeholder="---"
                   />
@@ -752,8 +758,8 @@
                 type="text"
                 id="search-history"
                 oninput="renderHistory()"
-                placeholder="Buscar..."
-                class="p-2 border border-slate-300 rounded-lg text-sm w-full md:w-64 outline-none focus:border-blue-500 transition-colors"
+                placeholder="Buscar: nombre, imei, marca, placa, notas..."
+                class="p-2 border border-slate-300 rounded-lg text-sm w-full md:w-80 outline-none focus:border-blue-500 transition-colors"
               />
             </div>
           </div>
@@ -1005,6 +1011,50 @@
         updateStorageUsage();
       }
 
+      // --- AUTO-COMPLETADO DE CLIENTE ---
+      function checkAutoFill(name) {
+        if (!name) return;
+        const db = getDB();
+        // Buscar si ya existe ese nombre (ignorando mayúsculas/minúsculas)
+        const client = db.find(
+          (order) => order.clientName.toLowerCase() === name.toLowerCase()
+        );
+
+        if (client) {
+          // Rellenar Teléfono y Cédula si existen en el registro previo
+          if (client.clientPhone)
+            document.getElementById("inp-phone").value = client.clientPhone;
+          if (client.clientId)
+            document.getElementById("inp-id").value = client.clientId;
+          // Autorrelleno de Datos del Equipo (Último registrado para este cliente)
+          if (client.deviceBrand)
+            document.getElementById("inp-brand").value = client.deviceBrand;
+          if (client.deviceModel)
+            document.getElementById("inp-model").value = client.deviceModel;
+        }
+      }
+
+      // --- AUTO-COMPLETADO POR IMEI ---
+      function checkIMEI(imei) {
+        if (!imei || imei.length < 3) return; // Esperar al menos 3 caracteres
+        const db = getDB();
+        // Buscar registro con este IMEI
+        const order = db.find((o) => o.imei === imei && o.imei !== "---");
+
+        if (order) {
+          document.getElementById("inp-brand").value = order.deviceBrand;
+          document.getElementById("inp-model").value = order.deviceModel;
+
+          // Si los campos de cliente están vacíos, llenarlos (Búsqueda inversa)
+          const nameField = document.getElementById("inp-name");
+          if (nameField.value === "") {
+            nameField.value = order.clientName;
+            document.getElementById("inp-phone").value = order.clientPhone;
+            document.getElementById("inp-id").value = order.clientId || "";
+          }
+        }
+      }
+
       // --- GESTIÓN DE PAGOS ---
       function addPayment() {
         const amountInput = document.getElementById("inp-new-payment");
@@ -1149,15 +1199,21 @@
         const tbody = document.getElementById("history-table-body");
         tbody.innerHTML = "";
 
-        // 1. Filtrar
+        // 1. Filtrar (Búsqueda Avanzada en todos los campos)
         let filtered = db.filter((order) => {
-          const matchesTerm = (
-            order.clientName +
+          const searchStr = (
             order.ticketNumber +
-            order.deviceModel
-          )
-            .toLowerCase()
-            .includes(term);
+            order.clientName +
+            order.clientPhone +
+            (order.clientId || "") +
+            order.deviceBrand +
+            order.deviceModel +
+            order.imei +
+            order.issue +
+            (order.notes || "")
+          ).toLowerCase();
+
+          const matchesTerm = searchStr.includes(term);
           const matchesStatus =
             statusFilter === "" || order.status === statusFilter;
           return matchesTerm && matchesStatus;
@@ -1249,6 +1305,7 @@
         document.getElementById("inp-ticket").value = order.ticketNumber;
         document.getElementById("inp-name").value = order.clientName;
         document.getElementById("inp-phone").value = order.clientPhone;
+        document.getElementById("inp-id").value = order.clientId || ""; // Cargar cédula
         document.getElementById("inp-brand").value = order.deviceBrand;
         document.getElementById("inp-model").value = order.deviceModel;
         document.getElementById("inp-imei").value = order.imei;
@@ -1309,6 +1366,7 @@
 
         document.getElementById("inp-name").value = "";
         document.getElementById("inp-phone").value = "";
+        document.getElementById("inp-id").value = "";
         document.getElementById("inp-brand").value = "";
         document.getElementById("inp-model").value = "";
         document.getElementById("inp-imei").value = "";
@@ -1521,6 +1579,7 @@
           clientName:
             document.getElementById("inp-name").value || "Cliente General",
           clientPhone: document.getElementById("inp-phone").value,
+          clientId: document.getElementById("inp-id").value, // GUARDAR CÉDULA
           deviceBrand: document.getElementById("inp-brand").value,
           deviceModel: document.getElementById("inp-model").value,
           imei: document.getElementById("inp-imei").value || "---",
@@ -1528,7 +1587,7 @@
           notes: document.getElementById("inp-notes").value,
           total: total,
           deposit: deposit,
-          payments: currentPayments, // GUARDAR LISTA DE ABONOS
+          payments: currentPayments,
           status: document.getElementById("inp-status").value,
           securityMode: securityMode,
           securityData:
@@ -1742,6 +1801,7 @@
         fillList("list-phones", "clientPhone");
         fillList("list-brands", "deviceBrand");
         fillList("list-models", "deviceModel");
+        fillList("list-imeis", "imei");
       }
     </script>
   </body>
