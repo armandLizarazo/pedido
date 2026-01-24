@@ -1,26 +1,26 @@
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Tarjeta Audio 5.1 1
+    Adaptador Tarjeta Audio 5.1 1 ok
     Adaptador Usb2hdmi 1
-    Antena Tdt 3M 4
-    Antena Tdt 5M 4
+    Antena Tdt 3M 4 ok
+    Antena Tdt 5M 4 ok
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 2
+    Audifonos Bluetooth Pro 5S Negro 2 ok
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
-    Cable 3 a 1 Video Compuesto 2
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
-    Cable Lan 5M Cat 6 2
+    Cable Lan 5M Cat 6 3 ok
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
-    Camara Web 720P 1
+    Camara Web 1080p 2 ok
     Camara de Solapa 1
-    Cargador 9V 2A Doble Punta 3
+    Cargador 9V 2A Doble Punta 4 ok
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
+    Cargador Pc Acer 3.42 2 ok
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
@@ -28,10 +28,10 @@
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Microsoft Xbox 360 Inalambrico 2
+    Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
     Control Gamer Sony Ps2 Inalambrico 2
     Estabilizador 1800w 1
-    Estetica Cepillo Secador Giratorio 1
+    Estetica Cepillo Secador Giratorio 2 ok
     Estetica Cepillo Secador Remington Keratina 1
     Extension 4m 1
     Flash Ligth Celular AY-83 Rgb 1
@@ -50,8 +50,8 @@
     Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
-    Reproductor Tdt Quality 2
-    Rollo Cinta Led 10M Audioritmica 2
+    Reproductor Tdt Quality 3 ok
+    Rollo Cinta Led 10M Audioritmica 3 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
@@ -59,8 +59,7 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Soporte Tv Fijo 1
-    Tableta Tigers Kids Rosa 1
+    Soporte Tv Fijo 1 
     Vaper Kokin 10000 Puffs 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
