@@ -9,6 +9,8 @@
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Manos Libres We Colores 5 ok
+    Manos Libres Speak Colores 7 ok
     Balaca Appla P9 Azul 1
     Balaca Naisu S-437 Negro 1 ok
     Balaca Naisu S-437 Rojo 1 ok
@@ -19,13 +21,19 @@
     Cable Belkin Tc 5 ok
     Cable Motorola Tc 5 ok
     Cable Tc A Tc Eco 3
+    Smartwhatch i10 Mini Rosa 1 ok
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
+    Vidrio Blindado Xiaomi Redmi 15C 7 ok
+    Vidrio Blindado Xiaomi Redmi 15 13 ok
+    Cargador Caterpillar 65W Con Cable 2 ok
+    Cargador Zte Con Cable 3A 2 ok
     Cargador Motorola 50W Con Cable 2 ok
-    Cargador Samsung 45W Cabeza Negro 2 ok
+    Cargador Samsung 45W Con Cable Negro 2 ok
     Cargador We Tc 33W 3 ok
     Cargador Yoyos Tc Bolsa 5 ok
+    Adaptador Tc a 3.5 + Carga 2 ok
     Forro Antichoque Huawei Honor 400 Smart Caballero 3
     Forro Antichoque Huawei Honor 400 Smart Dama 3
     Forro Antichoque Huawei Honor X7C / 200 Smart Dama 2 ok
