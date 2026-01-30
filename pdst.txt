@@ -1,11 +1,10 @@
-    Bateria Motorola Moto E20 / Moto E40 1
-    Logica de Carga Huawei Y3 II 1
-    Pacha Huawei Honor X6 / X6S 1
-    Pacha Huawei Y9 2019 / Y8S Full 1
-    Pacha Motorola Moto G20 / G30 1
-    Pacha Samsung A32 4G 1
-    Pacha Samsung A36 Amoled 1
-    Pacha Samsung A36 C/m 1
-    Pacha Tecnoc Pova 4 / Neo 2 2
-    Pacha Xiaomi Redmi 13C 1
-    Pacha Xiaomi Redmi A5 2
+    Bateria Motorola Moto E20 / Moto E40 1 ok
+    Pacha Huawei Honor X6 / X6S 1 ok
+    Pacha Huawei Y9 2019 / Y8S Full 1 ok
+    Pacha Motorola Moto G20 / G30 1 ok
+    Pacha Samsung A32 4G 1 ok
+    Pacha Samsung A36 Amoled 1 ok
+    Pacha Samsung A36 C/m 1 ok
+    Pacha Tecnoc Pova 4 / Neo 2 1 ok
+    Pacha Xiaomi Redmi 13C 1 ok
+    Pacha Xiaomi Redmi A5 2 ok
