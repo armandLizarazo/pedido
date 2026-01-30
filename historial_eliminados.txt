@@ -11006,3 +11006,109 @@ Fecha de proceso: 2026-01-21 19:23:08
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-01-24 20:19:38
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 47
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   12 | Manos Libres We Colores 5 ok
+   13 | Manos Libres Speak Colores 7 ok
+   15 | Balaca Naisu S-437 Negro 1 ok
+   16 | Balaca Naisu S-437 Rojo 1 ok
+   21 | Cable Belkin Tc 5 ok
+   22 | Cable Motorola Tc 5 ok
+   24 | Smartwhatch i10 Mini Rosa 1 ok
+   28 | Vidrio Blindado Xiaomi Redmi 15C 7 ok
+   29 | Vidrio Blindado Xiaomi Redmi 15 13 ok
+   30 | Cargador Caterpillar 65W Con Cable 2 ok
+   31 | Cargador Zte Con Cable 3A 2 ok
+   32 | Cargador Motorola 50W Con Cable 2 ok
+   33 | Cargador Samsung 45W Con Cable Negro 2 ok
+   34 | Cargador We Tc 33W 3 ok
+   35 | Cargador Yoyos Tc Bolsa 5 ok
+   36 | Adaptador Tc a 3.5 + Carga 2 ok
+   39 | Forro Antichoque Huawei Honor X7C / 200 Smart Dama 2 ok
+   40 | Forro Antichoque Huawei Honor X8C Dama 3 ok
+   42 | Forro Antichoque Infinix Hot 30 Pro Dama 5 ok
+   44 | Forro Antichoque Motorola Moto G20 / G30 Dama 3 ok
+   45 | Forro Antichoque Motorola Moto G22 Caballero 2 ok
+   49 | Forro Antichoque Oppo A17 Caballero 1 ok
+   57 | Forro Antichoque Samsung A12 Dama 3 ok
+   62 | Forro Antichoque Xiaomi Poco X3 Dama 3 ok
+   95 | Forro Space Huawei Honor 400 Lite 1 ok
+   99 | Forro Space Infinix Note 30 Pro 2 ok
+  106 | Forro Space Oppo Reno 13F 2 ok
+  108 | Forro Space Oppo Reno 14F 1 ok
+  113 | Forro Space Tecno Camon 30S / 30S Pro 2 ok
+  139 | Silicone Case Apple Iphone 13 Pro Negro 1 ok
+  142 | Silicone Case Apple Iphone 16 Rosa 1 ok
+  144 | Silicone Case Apple Iphone 17 Rojo 1 ok
+  170 | Silicone Case Motorola Moto G13 / G23 Negro 1 ok
+  172 | Silicone Case Motorola Moto G20 / G30 Fucsia 1 ok
+  174 | Silicone Case Motorola Moto G22 Rojo 1 ok
+  191 | Silicone Case Oppo Realme C53 / Note 50 Azulclaro 1 ok
+  192 | Silicone Case Oppo Realme C53 / Note 50 Rojo 1 ok
+  193 | Silicone Case Oppo Realme C75 Amarillo 1 ok
+  194 | Silicone Case Oppo Realme C75 Fucsia 1 ok
+  200 | Silicone Case Oppo Reno 14F Azulclaro 1 ok
+  207 | Silicone Case Samsung A13 Morado 1 ok
+  208 | Silicone Case Samsung A21S Morado 1 ok
+  210 | Silicone Case Samsung A22 4G Morado 1 ok
+  220 | Silicone Case Samsung S24 Amarillo 1 ok
+  221 | Silicone Case Samsung S25 Fe Azulrey 1 ok
+  236 | Silicone Case Tecno Spark 30C Fucsia 1 ok
+  257 | Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Azulrey 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-24 20:19:38
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 19
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    2 | Adaptador Tarjeta Audio 5.1 1 ok
+    4 | Antena Tdt 3M 5 ok
+    5 | Antena Tdt 5M 3 ok
+    6 | Adaptador Audio Bluetooth Dongle 3 ok
+    8 | Audifonos Bluetooth Pro 5S Negro 2 ok
+   15 | Cable Lan 5M Cat 6 3 ok
+   19 | Camara Web 1080p 2 ok
+   21 | Cargador 9V 2A Doble Punta 4 ok
+   24 | Cargador Pc Acer 3.42 2 ok
+   32 | Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
+   35 | Estetica Cepillo Secador Giratorio 2 ok
+   38 | Estetica Barbera Vgr V-660 1 ok
+   39 | Flash Ligth Celular Pro Led-300 Rgb 1 ok
+   41 | Lampara Mineria Mediana 2 ok
+   48 | Estetica Plancha Ancha + Cepillo Aguacate 1 ok
+   51 | Patillera 3 En 1 Vintage 3 ok
+   56 | Reproductor Tdt Quality 3 ok
+   57 | Rollo Cinta Led 10M Audioritmica 3 ok
+   61 | Balaca Callcenter Usb 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-24 20:19:38
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 7
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Bateria Apple Iphone 11 1 ok
+    2 | Bateria Oppo A54 1 ok
+    3 | Logica De Carga Motorola Moto G20 1 ok
+    5 | Pacha Apple Iphone Xr Gx 1 ok
+    6 | Pacha Motorola Moto G22 / E32 1 ok
+    7 | Pacha Samsung A30S S/M 1 ok
+    8 | Pacha Tecno Camon 16 1 ok
+
+==================================================
+Fecha de proceso: 2026-01-24 20:19:38
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+

@@ -1,69 +1,64 @@
+    Adaptador Europeo Pasta 5
+    Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Tarjeta Audio 5.1 1 ok
     Adaptador Usb2hdmi 1
-    Antena Tdt 3M 5 ok
-    Antena Tdt 5M 3 ok
-    Adaptador Audio Bluetooth Dongle 3 ok
     Audifonos Bluetooth M25 2
-    Audifonos Bluetooth Pro 5S Negro 2 ok
+    Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
     Base Refrigerante 1 Ventilador 1
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3M 2
     Cable Hdmi 3M 2
-    Cable Lan 5M Cat 6 3 ok
     Cable Rj11 3
+    Cable Vga 1.5M 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
-    Camara Web 1080p 2 ok
     Camara de Solapa 1
-    Cargador 9V 2A Doble Punta 4 ok
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
-    Cargador Pc Acer 3.42 2 ok
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
-    Consola Game Stick 3
+    Consola Game Stick 4
     Consola Sup Con Control Rojo 1
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
+    Control Gamer Pc Doble 2
+    Control Gamer Pc Eco 1 1
+    Control Gamer Sony Ps2 3
     Control Gamer Sony Ps2 Inalambrico 2
     Estabilizador 1800w 1
-    Estetica Cepillo Secador Giratorio 2 ok
+    Estetica Cepillo Secador Giratorio 2
+    Estetica Cepillo Secador Remington Aguacate 2
     Estetica Cepillo Secador Remington Keratina 1
     Extension 4m 1
-    Estetica Barbera Vgr V-660 1 ok
-    Flash Ligth Celular Pro Led-300 Rgb 1 ok
     Forro Pc 16 Pulgadas 2
-    Lampara Mineria Mediana 2 ok
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha y Electronica 1
+    Mouse Gamer X7 3
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
-    Estetica Plancha Ancha + Cepillo Aguacate 1 ok
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
-    Patillera 3 En 1 Vintage 3 ok
+    Patillera Vintage Sencilla 3
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston Mixta con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
+    Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Tdt Quality 3 ok
-    Rollo Cinta Led 10M Audioritmica 3 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
+    Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
-    Balaca Callcenter Usb 1 ok
     Smart Watch Combo K13 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Soporte Tv Fijo 1 
+    Soporte Tv 50 Brazo 3
+    Soporte Tv Fijo 1
     Vaper Kokin 10000 Puffs 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
