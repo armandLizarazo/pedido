@@ -1,7 +1,8 @@
     Adaptador Europeo Pasta 5
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb2hdmi 1
+    Adaptador Usb2hdmi 2
+    Antena Tdt 5M 3
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
@@ -43,6 +44,7 @@
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
+    Patillera 3 En 1 Vintage 2
     Patillera Vintage Sencilla 3
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston Mixta con Cargador 2
