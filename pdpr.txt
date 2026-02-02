@@ -21,6 +21,7 @@
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
+    Consola Nintdndo Mini 1 ok
     Consola Sup Con Control Rojo 1 ok
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
