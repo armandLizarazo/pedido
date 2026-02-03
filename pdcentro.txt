@@ -10,11 +10,11 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Bluetooth Car Bt-350 3
-    Cable Apple Tc Ligthning 5
-    Cable Apple Tc Ligthning 2M 3
+    Cable Apple Tc Ligthning 5 ok
+    Cable Apple Tc Ligthning 2M 5 ok
     Cable Apple Usb Ligthning 2M 5
     Cable Tc A Tc Eco 3
-    Cable Yoyos Tc 67W 2
+    Cable Yoyos Tc 67W 2 ok
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1a 3
     Cargador MagSafe 1
