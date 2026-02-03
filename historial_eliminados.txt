@@ -11181,3 +11181,112 @@ Fecha de proceso: 2026-01-30 12:19:54
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha de proceso: 2026-02-02 07:05:23
+Archivo procesado: pdcentro.txt
+Total de elementos eliminados: 63
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+   11 | Balaca Appla P9 Azul 1 ok
+   12 | Balaca Gamer Harvic 1 ok
+   16 | Cable Apple Iphone 17 3 ok
+   18 | Cable We Tc 5 ok
+   19 | Cargador Apple 20W Con Cable 2 ok
+   20 | Cargador Belkin Tc 5 ok
+   25 | Cargador Motorola 36W Con Cable 2 ok
+   26 | Cargador We Tc 33W 5 ok
+   27 | Cargador Yoyos 38W Solo Cabeza 3 ok
+   32 | Forro Antichoque Huawei Honor X8 Dama 2 ok
+   35 | Forro Antichoque Infinix Note 40 Pro 4G Caballero 2 ok
+   36 | Forro Antichoque Motorola Moto G34 Caballero 5 ok
+   37 | Forro Antichoque Motorola Moto G34 Dama 5 ok
+   52 | Forro Antichoque Samsung A13 Dama 3 ok
+   53 | Forro Antichoque Samsung A21s Caballero 2 ok
+   54 | Forro Antichoque Samsung A56 Caballero 5 ok
+   56 | Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2 ok
+   62 | Forro Antichoque Xiaomi Redmi Note 14 5G Caballero 5 ok
+   63 | Forro Antichoque Xiaomi Redmi Note 14 5G Dama 5 ok
+   85 | Forro Lujo Ventana Apple Iphone 12 Morado 1 ok
+   86 | Forro Lujo Ventana Apple Iphone 12 Negro 1 ok
+   87 | Forro Lujo Ventana Apple Iphone 12 Cafe 1 ok
+   88 | Forro Lujo Ventana Apple Iphone 12 Pro Max Negro 1 ok
+   89 | Forro Lujo Ventana Apple Iphone 12 Pro Max Lila 1 ok
+  102 | Forro Space Motorola Moto G34 2 ok
+  110 | Forro Space Samsung A22 4G 2 ok
+  123 | Manos Libres Samsung J5 Blanco 5 ok
+  125 | Manos Libres Tc Yoyos Ys-112 1 ok
+  126 | Manos Libres We Tc 2 ok
+  134 | Power Bank Yoyos Ys-701 10000 Mah 2 ok
+  138 | Silicone Case Apple Iphone 11 Rojo 1 ok
+  141 | Silicone Case Apple Iphone 13 Verde 1 ok
+  142 | Silicone Case Apple Iphone 15 Amarillo 1 ok
+  145 | Silicone Case Apple Iphone Xr Rojo 1 ok
+  147 | Silicone Case Apple Iphone Xs Max Negro 1 ok
+  150 | Silicone Case Huawei Honor X5C Lila 1 ok
+  152 | Silicone Case Huawei Honor X6 / X6s Azulclaro 1 ok
+  153 | Silicone Case Huawei Honor X6B Lila 1 ok
+  206 | Silicone Case Samsung A15 Verde 1 ok
+  207 | Silicone Case Samsung A21S Azuloscuro 1 ok
+  208 | Silicone Case Samsung A22 4G Lila 1 ok
+  209 | Silicone Case Samsung A23 Rojo 1 ok
+  211 | Silicone Case Samsung A56 Azuloscuro 1 ok
+  245 | Silicone Case Xiaomi Redmi 13 Morado 1 ok
+  246 | Silicone Case Xiaomi Redmi 13 Negro 1 ok
+  247 | Silicone Case Xiaomi Redmi 13C Azulrey 1 ok
+  248 | Silicone Case Xiaomi Redmi 14C Rojo 1 ok
+  249 | Silicone Case Xiaomi Redmi Note 11 Blanco 1 ok
+  253 | Silicone Case Xiaomi Redmi Note 14 5G Azulrey 1 ok
+  254 | Silicone Case Xiaomi Redmi Note 14 5G Fucsia 1 ok
+  276 | Vidrio 5D Samsung A11 5 ok
+  277 | Vidrio 5D Samsung A12 10 ok
+  278 | Vidrio 5D Samsung A14 / A22 5G 5 ok
+  279 | Vidrio 5D Samsung A15 10 ok
+  280 | Vidrio 5D Samsung A22 4G / A31 / A32 4G 10 ok
+  282 | Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 10 ok
+  286 | Vidrio Antiespia Apple Iphone Xs Max 5 ok
+  287 | Vidrio Antiespia Samsung A30S 5 ok
+  290 | Vidrio Blindado Apple Iphone 16 Pro Max 5 ok
+  291 | Vidrio Blindado Apple Iphone 16E 5 ok
+  292 | Vidrio Blindado Apple Iphone Xs Max 5 ok
+  293 | Vidrio Blindado Motorola Moto G9 Power 5 ok
+  294 | Vidrio Blindado Xiaomi Poco X3 / A71 5 ok
+
+==================================================
+Fecha de proceso: 2026-02-02 07:05:23
+Archivo procesado: pdpr.txt
+Total de elementos eliminados: 12
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    4 | Adaptador Usb2hdmi 2 ok
+    5 | Antena Tdt 5M 3 ok
+   24 | Consola Nintdndo Mini 1 ok
+   25 | Consola Sup Con Control Rojo 1 ok
+   29 | Control Gamer Pc Doble 2 ok
+   30 | Control Gamer Pc Eco 1 1 ok
+   34 | Estetica Cepillo Secador Giratorio  ok
+   36 | Estetica Cepillo Secador Remington Keratina 1 ok
+   42 | Mouse Gamer X7 3 ok
+   51 | Pilas Recargables Beston Mixta con Cargador 2 ok
+   53 | Proyector Hy-300 2 Ram 2 ok
+   63 | Soporte Tv 50 Brazo 3 ok
+
+==================================================
+Fecha de proceso: 2026-02-02 07:05:23
+Archivo procesado: pdst.txt
+Total de elementos eliminados: 1
+
+Elementos eliminados:
+Línea  | Contenido
+--------------------------------------------------
+    1 | Pacha Xiaomi Redmi 12C 2 ok
+
+==================================================
+Fecha de proceso: 2026-02-02 07:05:23
+Archivo procesado: np.txt
+Total de elementos eliminados: 0
+
