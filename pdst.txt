@@ -1,4 +1,5 @@
-    Bateria Xiaomi Redmi Note 9 1
-    Pacha Huawei Honor 200 1
+    Bateria Xiaomi Redmi Note 9 1 ok
+    Pacha Huawei Honor 200 1 ok
     Pacha Samsung A30S S/M 1
-    Pacha Xiaomi Redmi 9A / 9C / 10A Cm 1
+    Pacha Xiaomi Redmi 9A / 9C / 10A Cm 1 ok
+    Camara Frontal Motorola Moto G30 1 ok
