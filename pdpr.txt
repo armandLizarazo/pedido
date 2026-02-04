@@ -19,10 +19,7 @@
     Camara de Solapa 1
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
-    Cargador Pc Acer 3.42 1 ok
     Cargador Pc Asus 3.42 1
-    Cargador Pc Asus 2.37 1 ok
-    Cargador Pc Hp Punta Azul 2 ok
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
     Consola Sup Con Control Rosa 1
@@ -43,13 +40,9 @@
     Parlante Ktf-1645 2
     Parlante TG-271 1
     Parlante Tg-294 Rojo 1
-    Patillera 3 En 1 Vintage 2 ok
-    Patillera Vintage Sencilla 1 ok
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Aa x 4 con Cargador 1 ok
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 2 ok
     Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
