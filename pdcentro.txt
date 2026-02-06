@@ -172,7 +172,6 @@
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C75 Negro 1
-    Silicone Case Oppo Reno 11 5G Negro 1
     Silicone Case Oppo Reno 11F Morado 1
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Oppo Reno 13F Rojo 1
@@ -185,7 +184,6 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A26 Verde Biche 1
     Silicone Case Samsung A30S / A50 Negro 1
-    Silicone Case Samsung A33 Rosa 1
     Silicone Case Samsung A56 Lila 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
@@ -223,9 +221,9 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
     Silicone Case Xiaomi Redmi 10 Ab Azulrey 1
-    Silicone Case Xiaomi Redmi 12 Negro 2
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi 15 Rojo 1
+    Silicone Case Xiaomi Redmi 9A Azuloscuro 1
     Silicone Case Xiaomi Redmi 9C / 10A Morado 1
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Lila 1
