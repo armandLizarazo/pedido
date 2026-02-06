@@ -1,8 +1,10 @@
-    Cable Auxiliar 2 A 1 1.5M 3
+    Cable Auxiliar 2 A 1 1.5M 2 ok
     Cable Motorola V8 5
-    Extensión 6M, 1
-    Forro Antichoque Xiaomi Redmi A3 Caballero 4
-    Forro Antichoque Xiaomi Redmi A5 Caballero 2
+    Extensión 6M 1 ok
+    Antena Wifi Larga 2 ok
+    Cargador Pc Lenovo Yoga 2 ok
+    Forro Antichoque Xiaomi Redmi A3 Caballero 4 ok
+    Forro Antichoque Xiaomi Redmi A5 Caballero 3 ok
     Forro Armadura Huawei Honor X7A Rojo, 1
     Forro Armadura Huawei Honor X7A Negro, 1
     Forro Armadura Lg K61 Negro, 1
@@ -12,9 +14,10 @@
     Pacha Huawei Honor 200, 1
     Pacha Xiaomi Redmi 12C 1
     Pacha Xiaomi Redmi A3 2
+    Power Bank We 20000 Mah 1 ok
     Power Bank Yoyos 20000 Mah Con Cables, 2
     Vidrio 5D Huawei Honor X7A 5
-    Vidrio 5D Xiaomi Redmi 10C / 12C 5
-    Vidrio 5D Samsung A15 5
-    Vidrio 5D Xiaomi Redmi 10 5
-    Vidrio Antiespia Samsung A36 5
+    Vidrio 5D Xiaomi Redmi 10C / 12C 5 ok
+    Vidrio 5D Samsung A15 5 ok
+    Vidrio 5D Xiaomi Redmi 10 5 
+    Vidrio Antiespia Samsung A36 5 ok
