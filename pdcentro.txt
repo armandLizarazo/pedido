@@ -13,8 +13,8 @@
     Cable Apple Usb Ligthning 2M 5
     Cable Tc A Tc Eco 3
     Cargador Fuente 360 Slim 1
-    Cargador Infinix 3.1a 3
-    Cargador MagSafe 1
+    Cargador Infinix 3.1A 3
+    Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
@@ -23,7 +23,7 @@
     Forro Antichoque Huawei Honor X5B Dama 2
     Forro Antichoque Huawei Honor X5C Caballero 5
     Forro Antichoque Huawei Honor X5C Dama 5
-    Forro Antichoque Huawei Honor X6 / X6s Caballero 3
+    Forro Antichoque Huawei Honor X6 / X6S Caballero 3
     Forro Antichoque Huawei Honor X6B Caballero 2
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
@@ -64,17 +64,15 @@
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
+    Forro Armadura Xiaomi Redmi Note 10 Pro Negro 1
     Forro Armadura Xiaomi Redmi Note 13 Pro Plus Negro 1
-    Forro Armadura Xiaomi Redmi note 10 pro Negro 1
     Forro Cable Con Puntas 5
     Forro Cable Sin Puntas 5
     Forro Lujo Humo Samsung A16 Negro 2
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
-    Forro Lujo Ventana Apple Iphone 15 Pro Morado 1
-    Forro Lujo Ventana Apple Iphone 15 pro Max Negro 1
+    Forro Lujo Ventana Apple Iphone 15 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 16 Negro 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
@@ -144,7 +142,7 @@
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
-    Silicone Case Lg K51s Negro 1
+    Silicone Case Lg K51S Negro 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Lg K61 Fucsia 1
     Silicone Case Lg K61 Negro 1
@@ -238,8 +236,9 @@
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Simcard Tigo 5
-    Tapones Puerto de Carga Ligthning 5
-    Tapones Puerto de Carga Tc 5
+    Soporte Cuellera Celular Tutoriales 1
+    Tapones Puerto De Carga Ligthning 5
+    Tapones Puerto De Carga Tc 5
     Vaper Kokin 10000 Puffs 1
     Vidrio 5D Huawei Honor X7A 5
     Vidrio 5D Huawei P10 Lite 5
@@ -247,7 +246,7 @@
     Vidrio 5D Huawei Y5 2019 5
     Vidrio 5D Huawei Y6P 5
     Vidrio 5D Huawei Y9 Prime 5
-    Vidrio 5D Motorola Moto E6s / E6i 5
+    Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A6 / J6 5

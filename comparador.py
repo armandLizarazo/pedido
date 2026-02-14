@@ -203,6 +203,7 @@ def check_match(description, search_term, mode):
 
 def search():
     search_term = entry_search.get().strip()
+    filter_extra = entry_filter.get().strip().lower()  # Nuevo filtro adicional
     mode = search_mode_var.get()
 
     for item in tree_bodega.get_children():
@@ -225,7 +226,11 @@ def search():
 
     # Buscar en bodega
     for description, quantity in data_bodega:
+        # Verifica la búsqueda principal Y el filtro adicional
         if check_match(description, search_term, mode):
+            if filter_extra and filter_extra not in description.lower():
+                continue
+
             tree_bodega.insert("", tk.END, values=(description, quantity))
             stats_bodega["items"] += 1
             stats_bodega["units"] += quantity
@@ -235,6 +240,9 @@ def search():
     # Buscar en local
     for description, quantity in data_local:
         if check_match(description, search_term, mode):
+            if filter_extra and filter_extra not in description.lower():
+                continue
+
             tree_local.insert("", tk.END, values=(description, quantity))
             stats_local["items"] += 1
             stats_local["units"] += quantity
@@ -281,6 +289,52 @@ def normalize_files():
             )
     else:
         messagebox.showinfo("Normalización", "Los inventarios ya están sincronizados.")
+
+
+def format_all_files_title_case():
+    """Convierte las descripciones de todos los archivos a formato Título (Primera letra mayúscula)."""
+    files_to_format = [
+        "bodegac.txt",
+        "local.txt",
+        "pdcentro.txt",
+        "pdpr.txt",
+        "pdst.txt",
+    ]
+
+    confirm = messagebox.askyesno(
+        "Confirmar Formato",
+        "Esta acción convertirá las descripciones de TODOS los archivos activos\n"
+        "(Bodega, Local y Proveedores) al formato 'Primera Letra Mayúscula'.\n"
+        "Ejemplo: 'TORNILLO CABEZA' -> 'Tornillo Cabeza'\n\n"
+        "¿Desea continuar?",
+    )
+
+    if not confirm:
+        return
+
+    processed_count = 0
+    for filename in files_to_format:
+        data = parse_file(filename)
+        if not data:
+            continue
+
+        formatted_data = []
+        for desc, qty in data:
+            # .title() convierte "hola mundo" a "Hola Mundo"
+            new_desc = desc.title()
+            formatted_data.append((new_desc, qty))
+
+        if update_file(filename, formatted_data):
+            processed_count += 1
+
+    # Refrescar datos y búsqueda
+    global data_bodega, data_local
+    data_bodega = parse_file("bodegac.txt")
+    data_local = parse_file("local.txt")
+    search()  # Re-ejecutar búsqueda para ver los cambios
+    messagebox.showinfo(
+        "Formato Aplicado", f"Se actualizó el formato en {processed_count} archivos."
+    )
 
 
 def sync_local_to_other():
@@ -579,6 +633,7 @@ def open_restrictions_manager():
             save_restrictions()
             load_keywords_for_file()
 
+    # BOTONES GESTOR DE RESTRICCIONES - CORREGIDOS
     btn_add_res = tk.Button(
         frame_actions,
         text="Agregar",
@@ -990,7 +1045,7 @@ button_refresh = tk.Button(
 )
 button_refresh.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
-# Opciones de Búsqueda (Radiobuttons)
+# Opciones de Búsqueda (Radiobuttons) y Filtro Adicional
 frame_search_options = tk.Frame(main_frame, bg="#f0f0f0")
 frame_search_options.pack(fill=tk.X, pady=(0, 15))
 tk.Label(
@@ -1021,6 +1076,16 @@ rb_advanced = tk.Radiobutton(
     bg="#f0f0f0",
 )
 rb_advanced.pack(side=tk.LEFT, padx=5)
+
+# Nuevo Filtro Adicional
+tk.Label(
+    frame_search_options,
+    text="Filtro (+):",
+    font=("Helvetica", 10, "bold"),
+    bg="#f0f0f0",
+).pack(side=tk.LEFT, padx=(20, 5))
+entry_filter = tk.Entry(frame_search_options, font=("Helvetica", 10), width=15)
+entry_filter.pack(side=tk.LEFT, padx=0)
 
 # Botones de Herramientas
 frame_tools = tk.Frame(main_frame, bg="#f0f0f0")
@@ -1084,6 +1149,22 @@ button_restrictions = tk.Button(
     borderwidth=0,
 )
 button_restrictions.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
+# Botón Formato Título (NUEVO)
+button_format = tk.Button(
+    frame_tools,
+    text="Formato Título",
+    command=format_all_files_title_case,
+    font=("Helvetica", 11, "bold"),
+    bg="#e0cffc",
+    fg="black",
+    relief="flat",
+    padx=12,
+    activebackground="black",
+    activeforeground="white",
+    borderwidth=0,
+)
+button_format.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg="#f0f0f0")

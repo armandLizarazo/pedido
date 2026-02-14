@@ -16,7 +16,7 @@
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara 3 Antenas 2
-    Camara de Solapa 1
+    Camara De Solapa 1
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 1
@@ -27,31 +27,33 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps2 3
     Control Gamer Sony Ps2 Inalambrico 2
-    Estabilizador 1800w 1
+    Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
-    Extension 4m 1
+    Extension 4M 1
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
     Lonchera Carro 1
     Maleta Computador 2
-    Memoria Musica Electronica Zapateo Guaracha y Electronica 1
+    Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
-    Parlante TG-271 1
+    Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Maxday Aaa X2 30
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
-    Rollo Cinta Led Rgb Con Bluetooth y Luz Blanca 1
+    Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 1
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
     Smart Watch Combo K13 1
+    Soporte Celular Para Tutoriales 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Soporte Tv Fijo 1
+    Tutoriales 1
     Vaper Kokin 10000 Puffs 1
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
