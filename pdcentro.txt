@@ -77,22 +77,21 @@
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A26 Azul 1
-    Forro Space Huawei Honor 400 2
-    Forro Space Huawei Honor 400 Smart 2
+    Forro Space Huawei Honor 400 2 ok
+    Forro Space Huawei Honor 400 Smart 2 ok
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei P30 Lite 1
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
-    Forro Space Oppo A5 Pro 4G / 5G 2
+    Forro Space Oppo A5 Pro 4G / 5G 2 ok
     Forro Space Oppo A79 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
-    Forro Space Oppo Reno 14 2
+    Forro Space Oppo Reno 14 2 ok
     Forro Space Samsung A71 2
-    Forro Space Samsung S22 1
     Forro Space Samsung S25 Fe 1
     Forro Space Tecno Camon 18P 2
     Forro Space Vivo V30 Lite 1
@@ -218,18 +217,18 @@
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 10 Ab Azulrey 1
+    Silicone Case Xiaomi Redmi 10 Ab Azulrey 1 ok
     Silicone Case Xiaomi Redmi 15 Fucsia 1
     Silicone Case Xiaomi Redmi 15 Rojo 1
-    Silicone Case Xiaomi Redmi 9A Azuloscuro 1
-    Silicone Case Xiaomi Redmi 9C / 10A Morado 1
+    Silicone Case Xiaomi Redmi 9A Azuloscuro 1 ok
+    Silicone Case Xiaomi Redmi 9C / 10A Morado 1 ok
     Silicone Case Xiaomi Redmi Note 12 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 12S Lila 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 5G Morado 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
-    Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Amarillo 1
+    Silicone Case Xiaomi Redmi Note 9S / Note 9 Pro Amarillo 1 ok
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
