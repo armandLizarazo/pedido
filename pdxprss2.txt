@@ -1,0 +1,62 @@
+    Descripcion, Cantidad
+    Adaptador Dvi2Vga, 1
+    Adaptador Europeo Goma, 1
+    Antena Wifi Larga, 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Morado, 1
+    Audifonos Bluetooth M25, 1
+    Cable Belkin Tc, 1
+    Cable Motorola Tc, 1
+    Cable We Tc, 1
+    Cable Yoyos Tc a Tc 120W, 1
+    Cargador 12V 2A Doble Punta, 1
+    Cargador Apple 25W Con Cable, 1
+    Cargador Belkin Tc, 1
+    Consola Microsoft Xbox Clasico, 1
+    Control Gamer Microsoft Xbox Caja Negra, 1
+    Contron Proyector Hy-300, 1
+    Forro Antichoque Cadena Xiaomi Redmi Note 14 4G, 1
+    Forro Antichoque Humo Redmi 15 Cafe, 1
+    Forro Antichoque Motorola Moto Edge 50 Fusion / Moto G85 Caballero, 1
+    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama, 1
+    Forro Antichoque Xiaomi Redmi 14C Dama Lujo, 1
+    Forro Armadura Samsung A16 Vinotinto, 1
+    Forro Audifonos Case Pro 2, 1
+    Forro Space Huawei Honor 400 Lite, 1
+    Forro Space Infinix Note 50 Pro, 1
+    Forro Space Xiaomi Redmi 13C, 1
+    Guantes Gamer, 2
+    Hydrogel Motorola Moto Edge 50 Fusion, 1
+    Hydrogel Oppo Reno 14, 1
+    Llavero Figura, 1
+    Mantenimiento Logica De Carga, 1
+    Pacha Motorola Moto Edge 30 / G52 / G72 / G82 / G71S, 1
+    Pacha Samsung A03 Core, 2
+    Pacha Xiaomi Redmi 9, 1
+    Pacha Xiaomi Redmi A1 / A2, 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S, 1
+    Pacha Xiaomi Redmi Note 8, 1
+    Pacha Zte Blade A34 / A54, 1
+    Parlante Pc-1053, 1
+    Pin De Carga V8 Parlante, 1
+    Recargas, 2
+    Servicio Tecnico Configuracion, 1
+    Servicio Tecnico Generico Soldar Cables, 2
+    Servicio Tecnico Motorola Talkback, 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo, 1
+    Silicone Case Tecno Camon 40 Pro 4G / 5G Lila, 1
+    Silicone Case Tecno Spark 30C Lila, 1
+    Silicone Case Vivo Y39 Negro, 1
+    Simcard Claro, 3
+    Simcard Tigo, 3
+    Tapa Xiaomi Redmi Note 8 Negro, 1
+    Teclado Kb-502 Eco, 1
+    Tripode Innovatech, 1
+    Video Juego Xbox Clasico Call of Dutty 2, 1
+    Video Juego Xbox Clasico Harry Potter, 1
+    Vidrio 5D Motorola Moto G22 / E32, 1
+    Vidrio 5D Samsung A12, 4
+    Vidrio 5D Xiaomi Redmi 10, 1
+    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe, 2
+    Vidrio Full Pega Magic 7 Lite, 1
+    Vidrio Fullpega Infinix Hot 50 Pro Plus, 1
+    Visor Camara Con Soporte Tecno Spark Go 1, 1
