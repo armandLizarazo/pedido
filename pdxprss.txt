@@ -4,7 +4,7 @@
     Adaptador Hub 7 Puertos 3.0, 1
     Adaptador Usb Lan 2.0, 1
     Aguja Extractor Sim, 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Blanco, 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Blanco, 1 ok
     Audifonos Bluetooth I12 Azulclaro, 1
     Audifonos Bluetooth I12 Azuloscuro, 1
     Audifonos Bluetooth I12 Rosa, 1
@@ -16,11 +16,13 @@
     CARGADOR SAMSUNG 25W CABEZA BLANCO, 1
     CARGADOR SMART WATCH PINZA, 1
     CONTROL GAMER MICROSOFT PC / 360 Alambrico , 2
-    Cable Belkin Tc, 1
+    Cable Belkin Tc 1
     Cable Belkin V8, 4
     Cable Lan 1.5M, 1
-    Cable Motorola Tc, 3
-    Cable Samsung Tc A Tc Negro, 1
+    Cable Motorola Tc 5 ok
+    Cable Motorola V8 5 ok
+    Cable Samsung Tc A Tc Blanco 3 ok
+    Cable Samsung Tc A Tc Negro 3 ok
     Cable Tc A Tc Eco, 1
     Caja Disco Duro Microsoft Xbox 360, 1
     Cargador 12V 2A Doble Punta, 1
@@ -33,8 +35,8 @@
     Cargador Samsung 25W Con Cable Blanco, 1
     Cargador Samsung 25W Con Cable Negro, 1
     Cargador Samsung 45W Con Cable Negro, 1
-    Cargador W Tc, 2
-    Cargador We Tc 33W, 2
+    Cargador W Tc 2 ok
+    Cargador We Tc 33W 3 ok
     Cargador Yoyos 38W Solo Cabeza, 2
     Conector Luces Led Macho, 1
     Conector Rj45, 1
@@ -42,8 +44,8 @@
     Control Tv Universal, 1
     Controlador Luces Led, 1
     Contron Proyector Hy-300, 1
-    FORRO ANTICHOQUE MOTOROLA MOTO G20 / G30 DAMA, 1
-    FORRO ANTICHOQUE OPPO A16 DAMA, 1
+    FORRO ANTICHOQUE MOTOROLA MOTO G20 / G30 DAMA 3 ok
+    FORRO ANTICHOQUE OPPO A16 DAMA 1
     Forro Antichoque Cadena Motorola Moto G05, 1
     Forro Antichoque Cadena Xiaomi Redmi 15C, 1
     Forro Antichoque Huawei Honor X6B Dama, 1
@@ -55,19 +57,18 @@
     Forro Antichoque Samsung A15 Caballero, 1
     Forro Antichoque Samsung A32 4G Dama, 1
     Forro Antichoque Tecno Camon 40 Pro Dama, 1
-    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama, 2
-    Forro Antichoque Xiaomi Redmi Note 11 Dama, 1
-    Forro Antichoque infinix Note 50S Caballero, 1
+    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2 ok
+    Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
+    Forro Antichoque infinix Note 50S Caballero 2 ok
     Forro Armadura Oppo A57 / A77 Azul, 1
     Forro Audifonos I12, 1
     Forro Audifonos Pantalla Rojo, 1
-    Forro Motomo Apple Iphone 12 Pro Max, 1
-    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus, 1
-    Forro Space Motorola Moto Edge 60 Fusion, 1
-    Forro Space Infinix Note 50 Pro 3
-    Forro Space Samsung S22, 1
-    Forro Space Xiaomi Redmi Note 12, 1
-    Forro Space Xiaomi Redmi Note 13 4G, 1
+    Forro Motomo Apple Iphone 12 Pro Max 1
+    Forro Space Motorola Moto Edge 60 Fusion 1
+    Forro Space Infinix Note 50 Pro 3 ok
+    Forro Space Samsung S22 2 ok
+    Forro Space Xiaomi Redmi Note 12 1 ok
+    Forro Space Xiaomi Redmi Note 13 4G, 1 ok
     Hydrogel Apple Iphone 15, 1
     Hydrogel Infinix Note 50s, 1
     Hydrogel Motorola Moto Edge 60 Fusion, 2
@@ -91,24 +92,22 @@
     PACHA MOTOROLA MOTO G20 / G30, 1
     PARLANTE DUCHA, 1
     POWER BANK YOYOS YS-701 10000 MAH, 1
-    Pacha Huawei Y9 Prime Incell, 1
-    Pacha Lg K61, 1
-    Pacha Motorola Moto G14 / G54 / G55, 1
-    Pacha Oppo A17 / A38 / A57 / A77, 1
-    Pacha Oppo A54, 2
-    Pacha Samsung A02 / A12 / M12, 1
-    Pacha Samsung A06, 1
-    Pacha Samsung A15, 1
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 2
-    Visor Camara Tecno Spark Go 2 con Soporte 1
-    Pacha Vivo Y31 / Y33s / Y51 / Y53S, 1
-    Pacha Xiaomi Redmi 12C, 2
-    Pacha Xiaomi Redmi 13C, 1
-    Pacha Xiaomi Redmi 14C, 1
-    Pacha Xiaomi Redmi 9, 1
-    Pacha Xiaomi Redmi Note 12, 1
-    Pacha Xiaomi Redmi Note 8 2
-    Pacha Xiaomi Redmi Note 9, 1
+    Pacha Huawei Y9 Prime Incell 1 ok
+    Pacha Lg K61 1 ok
+    Pacha Motorola Moto G14 / G54 / G55 1 ok
+    Pacha Oppo A54 2 ok
+    Pacha Samsung A02 / A12 / M12 1 ok
+    Pacha Samsung A06 1 ok
+    Pacha Samsung A15 1 ok
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 2 ok
+    Visor Camara Tecno Spark Go 1 con Soporte 1
+    Pacha Xiaomi Redmi 12C 2 ok
+    Pacha Xiaomi Redmi 13C 1 ok
+    Pacha Xiaomi Redmi 14C 1 ok
+    Pacha Xiaomi Redmi 9 1 ok
+    Pacha Xiaomi Redmi Note 12 1 ok
+    Pacha Xiaomi Redmi Note 8 2 ok
+    Pacha Xiaomi Redmi Note 9 1 ok
     Pad Mouse Tapete Negro, 1
     Parlante Jbl Charge 5, 1
     Parlante Ktx-1222, 1
@@ -126,23 +125,21 @@
     Servicio Tecnico Formatear Celular, 1
     Servicio Tecnico Mantenimiento Puerto Audifonos, 1
     Servicio Tecnico Xiaomi Reiniciar Redmi Note 14, 1
-    Silicone Case Huawei Honor X8C Rojo, 1
-    Silicone Case Huawei P30 Lite Lila, 1
-    Silicone Case Huawei honor X5b Morado, 1
-    Silicone Case Infinix Hot 50I / Smart 9 Azulrey, 1
-    Silicone Case Infinix Hot 50I / Smart 9 Morado, 1
-    Silicone Case Infinix Hot 60 Pro Plus Negro, 1
-    Silicone Case Infinix Note 50s Negro, 1
-    Silicone Case Motorola Moto Edge 60 Fusion Lila, 1
-    Silicone Case Motorola Moto G24 / G04 Rojo, 1
-    Silicone Case Motorola Moto G31 Lila, 1
-    Silicone Case Motorola Moto G51 Verde, 1
-    Silicone Case Samsung A05S Morado, 1
-    Silicone Case Samsung A55 Lila, 1
-    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo, 1
-    Silicone Case Xiaomi Redmi A3 Negro, 1
-    Simcard Claro, 9
-    Simcard Tigo, 4
+    Silicone Case Huawei Honor X8C Rojo 1 ok
+    Silicone Case Huawei P30 Lite Lila 1
+    Silicone Case Huawei honor X5b Morado 1 ok
+    Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok
+    Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok
+    Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
+    Silicone Case Infinix Note 50s Negro 1 ok
+    Silicone Case Motorola Moto Edge 60 Fusion Lila 1 ok
+    Silicone Case Motorola Moto G24 / G04 Rojo 1 ok
+    Silicone Case Motorola Moto G31 Lila 1
+    Silicone Case Motorola Moto G51 Verde 1
+    Silicone Case Samsung A05S Morado 1
+    Silicone Case Samsung A55 Lila 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
+    Silicone Case Xiaomi Redmi A3 Negro 1 ok
     Smart Watch Combo K55, 1
     Smartphone Infinix Hot 60 Pro Plus 354131550860261 256/8, 1
     Smartphone Xiaomi Redmi 15 8060176071450842 256/8, 1
