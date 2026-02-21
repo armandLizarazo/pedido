@@ -11342,3 +11342,57 @@ Fecha de proceso: 2026-02-04 06:46:50
 Archivo procesado: np.txt
 Total de elementos eliminados: 0
 
+
+==================================================
+Fecha: 2026-02-18 07:52:53
+Archivo: /Users/armandolizarazo/Local/pedido/pdxprss.txt
+Eliminados: 41
+    7 | Audifonos Bluetooth Harvic Bt-543 Ii Blanco, 1 ok
+   22 | Cable Motorola Tc 5 ok
+   23 | Cable Motorola V8 5 ok
+   24 | Cable Samsung Tc A Tc Blanco 3 ok
+   25 | Cable Samsung Tc A Tc Negro 3 ok
+   38 | Cargador W Tc 2 ok
+   39 | Cargador We Tc 33W 3 ok
+   47 | FORRO ANTICHOQUE MOTOROLA MOTO G20 / G30 DAMA 3 ok
+   60 | Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2 ok
+   61 | Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
+   62 | Forro Antichoque infinix Note 50S Caballero 2 ok
+   68 | Forro Space Infinix Note 50 Pro 3 ok
+   69 | Forro Space Samsung S22 2 ok
+   70 | Forro Space Xiaomi Redmi Note 12 1 ok
+   71 | Forro Space Xiaomi Redmi Note 13 4G, 1 ok
+   95 | Pacha Huawei Y9 Prime Incell 1 ok
+   96 | Pacha Lg K61 1 ok
+   97 | Pacha Motorola Moto G14 / G54 / G55 1 ok
+   98 | Pacha Oppo A54 2 ok
+   99 | Pacha Samsung A02 / A12 / M12 1 ok
+  100 | Pacha Samsung A06 1 ok
+  101 | Pacha Samsung A15 1 ok
+  102 | Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 2 ok
+  104 | Pacha Xiaomi Redmi 12C 2 ok
+  105 | Pacha Xiaomi Redmi 13C 1 ok
+  106 | Pacha Xiaomi Redmi 14C 1 ok
+  107 | Pacha Xiaomi Redmi 9 1 ok
+  108 | Pacha Xiaomi Redmi Note 12 1 ok
+  109 | Pacha Xiaomi Redmi Note 8 2 ok
+  110 | Pacha Xiaomi Redmi Note 9 1 ok
+  128 | Silicone Case Huawei Honor X8C Rojo 1 ok
+  130 | Silicone Case Huawei honor X5b Morado 1 ok
+  131 | Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok
+  132 | Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok
+  133 | Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
+  134 | Silicone Case Infinix Note 50s Negro 1 ok
+  135 | Silicone Case Motorola Moto Edge 60 Fusion Lila 1 ok
+  136 | Silicone Case Motorola Moto G24 / G04 Rojo 1 ok
+  140 | Silicone Case Samsung A55 Lila 1 ok
+  141 | Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
+  142 | Silicone Case Xiaomi Redmi A3 Negro 1 ok
+
+============================================================
+Fecha: 2026-02-18 08:17:47
+Archivo: pdst.txt
+Eliminados: 2
+--- DETALLE ---
+L1: Pacha Samsung A30S S/M 1 ok
+L2: Pacha Xiaomi Redmi Note 8 1 ok

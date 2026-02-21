@@ -721,6 +721,69 @@ class GestorInventario:
         except Exception as e:
             return False, f"Error inesperado al anular la venta: {e}"
 
+    def modificar_venta_completa(self, id_venta, item_match, nuevos_datos):
+        try:
+            with open(self.archivo_ventas, "r", encoding="utf-8") as f:
+                reader = csv.reader(f)
+                all_lines = list(reader)
+
+            if not all_lines:
+                return False, "El registro de ventas está vacío."
+
+            # Índices por defecto
+            id_venta_idx = 1
+            desc_idx = 2
+            cant_idx = 3
+            costo_idx = 4
+            precio_idx = 5
+            total_idx = 6
+            ganancia_idx = 7
+            cliente_idx = 9
+            medio_pago_idx = 10
+
+            changes_made = False
+            item_updated = False
+
+            for i in range(1, len(all_lines)):
+                row = all_lines[i]
+                if len(row) > medio_pago_idx and row[id_venta_idx] == id_venta:
+                    # 1. Actualizar datos generales (Cliente, MedioPago) para TODA la venta
+                    row[cliente_idx] = nuevos_datos["cliente"]
+                    row[medio_pago_idx] = nuevos_datos["medio_pago"]
+                    changes_made = True
+
+                    # 2. Actualizar datos específicos del ítem (si coincide la fila exacta)
+                    if (
+                        not item_updated
+                        and row[desc_idx] == item_match["desc"]
+                        and str(row[cant_idx]) == str(item_match["cant"])
+                    ):
+                        row[desc_idx] = nuevos_datos["desc"]
+                        row[cant_idx] = str(nuevos_datos["cant"])
+                        row[costo_idx] = f"{nuevos_datos['costo']:.2f}"
+                        row[precio_idx] = f"{nuevos_datos['precio']:.2f}"
+
+                        # Recalcular Total y Ganancia
+                        total = nuevos_datos["cant"] * nuevos_datos["precio"]
+                        ganancia = (
+                            nuevos_datos["precio"] - nuevos_datos["costo"]
+                        ) * nuevos_datos["cant"]
+                        row[total_idx] = f"{total:.2f}"
+                        row[ganancia_idx] = f"{ganancia:.2f}"
+
+                        item_updated = True
+
+            if changes_made:
+                with open(self.archivo_ventas, "w", encoding="utf-8", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerows(all_lines)
+                return True, "Datos de la venta actualizados correctamente."
+            else:
+                return False, "No se encontró la venta con ese ID."
+
+        except Exception as e:
+            return False, f"Error al modificar la venta: {e}"
+
     def generar_factura_consolidada_txt(
         self,
         id_venta,
@@ -1025,24 +1088,7 @@ class GestorInventario:
         except Exception as e:
             return False, f"Error: {e}"
 
-    def ordenar_alfabeticamente(self):
-        try:
-            lineas = self._leer_lineas_archivo()
-            lineas.sort(key=str.lower)
-            self._escribir_lineas_archivo(lineas)
-            return True, "Inventario ordenado alfabéticamente."
-        except Exception as e:
-            return False, f"Error al ordenar: {e}"
-
-    def verificar_formato(self):
-        errores = []
-        for i, linea in enumerate(self._leer_lineas_archivo(), 1):
-            if not linea.strip():
-                continue
-            partes = linea.strip().rsplit(" ", 1)
-            if len(partes) != 2 or not partes[1].isdigit():
-                errores.append(f"Línea {i}: '{linea.strip()}'")
-        return errores
+    # --- ELIMINADO: Funciones de Ordenar y Verificar Formato ---
 
     def leer_historial_ventas(self):
         try:
@@ -1111,6 +1157,10 @@ class InventarioGUI:
         self.conteo_actual_caja = {}
         self.historial_conteos_data = []
 
+        # --- VARIABLES DE SEGURIDAD ---
+        self.is_admin = False
+        self.admin_pin = "1234"  # PIN por defecto (puedes cambiarlo aquí)
+
         if not TKCALENDAR_AVAILABLE:
             messagebox.showwarning(
                 "Librería Faltante",
@@ -1124,23 +1174,19 @@ class InventarioGUI:
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
         self.caja_tab = ttk.Frame(self.notebook, padding="10")
         self.prestamos_tab = ttk.Frame(self.notebook, padding="10")
-        self.consultas_tab = ttk.Frame(
-            self.notebook, padding="10"
-        )  # Nueva pestaña Consultas
+        # --- ELIMINADO: Pestaña Consultas ---
 
         self.notebook.add(self.inventario_tab, text="Gestión de Inventario")
         self.notebook.add(self.ventas_tab, text="Ventas y Análisis")
         self.notebook.add(self.caja_tab, text="Cuadre de Caja")
         self.notebook.add(self.prestamos_tab, text="Gestión de Préstamos")
-        self.notebook.add(
-            self.consultas_tab, text="Consultas Avanzadas"
-        )  # Añadir al notebook
+        # --- ELIMINADO: Añadir pestaña al notebook ---
 
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
         self.crear_widgets_caja()
         self.crear_widgets_prestamos()
-        self.crear_widgets_consultas()  # Crear widgets de consultas
+        # --- ELIMINADO: Crear widgets consultas ---
 
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
@@ -1158,6 +1204,94 @@ class InventarioGUI:
         # New sort variables for cons_tree
         self.cons_last_sort_col = None
         self.cons_last_sort_reverse = False
+
+        self.actualizar_permisos()
+
+    def toggle_admin(self):
+        if self.is_admin:
+            self.is_admin = False
+            self.btn_auth.config(text="👤 Modo: Vendedor (Entrar Admin)")
+            self.actualizar_permisos()
+            messagebox.showinfo("Sesión", "Sesión de administrador cerrada.")
+        else:
+            pwd = simpledialog.askstring(
+                "Seguridad", "Ingrese PIN de Administrador:", show="*"
+            )
+            if pwd == self.admin_pin:
+                self.is_admin = True
+                self.btn_auth.config(text="👑 Modo: ADMIN (Salir)")
+                self.actualizar_permisos()
+                messagebox.showinfo("Sesión", "Modo Administrador activado.")
+            elif pwd is not None:
+                messagebox.showerror("Acceso Denegado", "PIN incorrecto.")
+
+    def actualizar_permisos(self):
+        # Actualiza el estado de los botones sensibles según el rol
+        estado_admin = "normal" if self.is_admin else "disabled"
+
+        # 1. Botón de Eliminar Ítem en Inventario
+        if hasattr(self, "btn_eliminar_item"):
+            self.btn_eliminar_item.config(state=estado_admin)
+
+        # 2. Botones de Modificar/Anular en Ventas (se actualizan forzando el evento de selección)
+        if hasattr(self, "sales_tree"):
+            self.on_sale_select(None)
+
+        # 3. Botón de Cerrar Caja
+        if hasattr(self, "btn_cerrar_caja"):
+            self.cargar_estado_caja()
+
+        # 4. OCULTAR DATOS SENSIBLES EN TABLA DE VENTAS
+        if hasattr(self, "sales_tree"):
+            if self.is_admin:
+                # Muestra TODAS las columnas
+                self.sales_tree["displaycolumns"] = (
+                    "Timestamp",
+                    "ID_Venta",
+                    "Item",
+                    "Cantidad",
+                    "CostoU",
+                    "PrecioU",
+                    "Total",
+                    "Ganancia",
+                    "Origen",
+                    "Cliente",
+                    "MedioPago",
+                    "Estado",
+                )
+                self.lbl_costo_total.pack(
+                    side=tk.LEFT, padx=20, before=self.lbl_total_ventas
+                )
+                self.lbl_total_ganancia.pack(side=tk.LEFT, padx=20)
+            else:
+                # Oculta CostoU y Ganancia
+                self.sales_tree["displaycolumns"] = (
+                    "Timestamp",
+                    "ID_Venta",
+                    "Item",
+                    "Cantidad",
+                    "PrecioU",
+                    "Total",
+                    "Origen",
+                    "Cliente",
+                    "MedioPago",
+                    "Estado",
+                )
+                self.lbl_costo_total.pack_forget()
+                self.lbl_total_ganancia.pack_forget()
+
+        # 5. OCULTAR CAMPO DE COSTO AL VENDER
+        if hasattr(self, "sale_costo_label"):
+            if self.is_admin:
+                self.sale_costo_label.pack(
+                    fill=tk.X, pady=(0, 5), before=self.sale_precio_label
+                )
+                self.sale_costo_entry.pack(
+                    fill=tk.X, pady=(0, 5), before=self.sale_precio_label
+                )
+            else:
+                self.sale_costo_label.pack_forget()
+                self.sale_costo_entry.pack_forget()
 
     def cambiar_archivo(self):
         filename = filedialog.askopenfilename(
@@ -1226,411 +1360,9 @@ class InventarioGUI:
         if found:
             self.inventory_tree.focus_set()  # Devolver el foco al widget
 
-    # --- NUEVA PESTAÑA DE CONSULTAS ---
-    def crear_widgets_consultas(self):
-        # Frame principal
-        main_frame = ttk.Frame(self.consultas_tab, padding="10")
-        main_frame.pack(fill=tk.BOTH, expand=True)
-
-        # --- Filtros ---
-        filter_frame = ttk.LabelFrame(
-            main_frame, text="Filtros de Análisis", padding="10"
-        )
-        filter_frame.pack(fill=tk.X, pady=(0, 10))
-
-        # Fila 1: Fechas
-        f_row1 = ttk.Frame(filter_frame)
-        f_row1.pack(fill=tk.X, pady=2)
-
-        ttk.Label(f_row1, text="Desde:").pack(side=tk.LEFT)
-        if TKCALENDAR_AVAILABLE:
-            self.cons_fecha_desde = DateEntry(
-                f_row1,
-                width=12,
-                background="darkblue",
-                foreground="white",
-                borderwidth=2,
-                date_pattern="y-mm-dd",
-            )
-            self.cons_fecha_desde.set_date(
-                datetime.now().replace(day=1)
-            )  # Por defecto inicio de mes
-        else:
-            self.cons_fecha_desde = ttk.Entry(f_row1, width=12)
-            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
-        self.cons_fecha_desde.pack(side=tk.LEFT, padx=5)
-
-        ttk.Label(f_row1, text="Hasta:").pack(side=tk.LEFT)
-        if TKCALENDAR_AVAILABLE:
-            self.cons_fecha_hasta = DateEntry(
-                f_row1,
-                width=12,
-                background="darkblue",
-                foreground="white",
-                borderwidth=2,
-                date_pattern="y-mm-dd",
-            )
-            self.cons_fecha_hasta.set_date(datetime.now())
-        else:
-            self.cons_fecha_hasta = ttk.Entry(f_row1, width=12)
-            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
-        self.cons_fecha_hasta.pack(side=tk.LEFT, padx=5)
-
-        # Fila 2: Texto
-        f_row2 = ttk.Frame(filter_frame)
-        f_row2.pack(fill=tk.X, pady=2)
-        ttk.Label(f_row2, text="Palabra Clave (Global):").pack(side=tk.LEFT)
-        self.cons_entry_keyword = ttk.Entry(f_row2, width=40)
-        self.cons_entry_keyword.pack(side=tk.LEFT, padx=5)
-
-        # Fila 3: Sub-filtros
-        f_row3 = ttk.Frame(filter_frame)
-        f_row3.pack(fill=tk.X, pady=5)
-        ttk.Label(f_row3, text="Producto:").pack(side=tk.LEFT)
-        self.cons_entry_prod = ttk.Entry(f_row3, width=20)
-        self.cons_entry_prod.pack(side=tk.LEFT, padx=(5, 15))
-
-        ttk.Label(f_row3, text="Cliente:").pack(side=tk.LEFT)
-        self.cons_entry_client = ttk.Entry(f_row3, width=20)
-        self.cons_entry_client.pack(side=tk.LEFT, padx=(5, 15))
-
-        ttk.Label(f_row3, text="Medio Pago:").pack(side=tk.LEFT)
-        self.cons_entry_payment = ttk.Entry(f_row3, width=15)
-        self.cons_entry_payment.pack(side=tk.LEFT, padx=5)
-
-        # Botones
-        btn_frame = ttk.Frame(filter_frame)
-        btn_frame.pack(fill=tk.X, pady=5)
-        ttk.Button(
-            btn_frame, text="Ejecutar Análisis", command=self.ejecutar_consulta_analisis
-        ).pack(side=tk.LEFT, padx=10)
-        ttk.Button(
-            btn_frame, text="Limpiar Filtros", command=self.limpiar_filtros_consulta
-        ).pack(side=tk.LEFT)
-
-        # --- Resumen Estadístico ---
-        stats_frame = ttk.LabelFrame(
-            main_frame, text="Resumen de Resultados", padding="10"
-        )
-        stats_frame.pack(fill=tk.X, pady=(0, 10))
-
-        # Variables para labels
-        self.var_total_ventas = tk.StringVar(value="$0.00")
-        self.var_total_costos = tk.StringVar(value="$0.00")
-        self.var_total_utilidad = tk.StringVar(value="$0.00")
-        self.var_margen = tk.StringVar(value="0.00%")
-        self.var_cantidad = tk.StringVar(value="0")
-        self.var_promedio_producto = tk.StringVar(value="$0.00")
-
-        # Grid de estadisticas
-        # Fila 1
-        ttk.Label(stats_frame, text="Ventas Totales:", font=("Helvetica", 10)).grid(
-            row=0, column=0, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame,
-            textvariable=self.var_total_ventas,
-            font=("Helvetica", 10, "bold"),
-            foreground="blue",
-        ).grid(row=0, column=1, sticky="w", padx=5)
-
-        ttk.Label(stats_frame, text="Costos Totales:", font=("Helvetica", 10)).grid(
-            row=0, column=2, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame,
-            textvariable=self.var_total_costos,
-            font=("Helvetica", 10, "bold"),
-        ).grid(row=0, column=3, sticky="w", padx=5)
-
-        ttk.Label(stats_frame, text="Utilidad Neta:", font=("Helvetica", 10)).grid(
-            row=0, column=4, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame,
-            textvariable=self.var_total_utilidad,
-            font=("Helvetica", 10, "bold"),
-            foreground="green",
-        ).grid(row=0, column=5, sticky="w", padx=5)
-
-        # Fila 2
-        ttk.Label(stats_frame, text="Unidades Vendidas:", font=("Helvetica", 10)).grid(
-            row=1, column=0, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame, textvariable=self.var_cantidad, font=("Helvetica", 10, "bold")
-        ).grid(row=1, column=1, sticky="w", padx=5)
-
-        ttk.Label(stats_frame, text="Ticket Promedio:", font=("Helvetica", 10)).grid(
-            row=1, column=2, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame,
-            textvariable=self.var_promedio_producto,
-            font=("Helvetica", 10, "bold"),
-        ).grid(row=1, column=3, sticky="w", padx=5)
-
-        ttk.Label(stats_frame, text="Margen (%):", font=("Helvetica", 10)).grid(
-            row=1, column=4, sticky="e", padx=5
-        )
-        ttk.Label(
-            stats_frame, textvariable=self.var_margen, font=("Helvetica", 10, "bold")
-        ).grid(row=1, column=5, sticky="w", padx=5)
-
-        # --- Tabla de Resultados ---
-        tree_frame = ttk.Frame(main_frame)
-        tree_frame.pack(fill=tk.BOTH, expand=True)
-
-        cols = (
-            "Fecha",
-            "Producto",
-            "Cliente",
-            "Cant",
-            "Costo U",
-            "Precio U",
-            "Total",
-            "Utilidad",
-            "Medio Pago",
-        )
-        self.cons_tree = ttk.Treeview(tree_frame, columns=cols, show="headings")
-
-        self.cons_tree.heading(
-            "Fecha",
-            text="Fecha",
-            command=lambda: self.sort_cons_tree_by_column("Fecha"),
-        )
-        self.cons_tree.heading(
-            "Producto",
-            text="Producto",
-            command=lambda: self.sort_cons_tree_by_column("Producto"),
-        )
-        self.cons_tree.heading(
-            "Cliente",
-            text="Cliente",
-            command=lambda: self.sort_cons_tree_by_column("Cliente"),
-        )
-        self.cons_tree.heading(
-            "Cant", text="Cant", command=lambda: self.sort_cons_tree_by_column("Cant")
-        )
-        self.cons_tree.heading(
-            "Costo U",
-            text="Costo U",
-            command=lambda: self.sort_cons_tree_by_column("Costo U"),
-        )
-        self.cons_tree.heading(
-            "Precio U",
-            text="Precio U",
-            command=lambda: self.sort_cons_tree_by_column("Precio U"),
-        )
-        self.cons_tree.heading(
-            "Total",
-            text="Total",
-            command=lambda: self.sort_cons_tree_by_column("Total"),
-        )
-        self.cons_tree.heading(
-            "Utilidad",
-            text="Utilidad",
-            command=lambda: self.sort_cons_tree_by_column("Utilidad"),
-        )
-        self.cons_tree.heading(
-            "Medio Pago",
-            text="Medio Pago",
-            command=lambda: self.sort_cons_tree_by_column("Medio Pago"),
-        )
-
-        self.cons_tree.column("Fecha", width=120)
-        self.cons_tree.column("Producto", width=200)
-        self.cons_tree.column("Cliente", width=120)
-        self.cons_tree.column("Cant", width=50, anchor="center")
-        self.cons_tree.column("Costo U", width=80, anchor="e")
-        self.cons_tree.column("Precio U", width=80, anchor="e")
-        self.cons_tree.column("Total", width=80, anchor="e")
-        self.cons_tree.column("Utilidad", width=80, anchor="e")
-        self.cons_tree.column("Medio Pago", width=100)
-
-        sb = ttk.Scrollbar(tree_frame, orient=tk.VERTICAL, command=self.cons_tree.yview)
-        self.cons_tree.configure(yscrollcommand=sb.set)
-        self.cons_tree.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
-        sb.pack(side=tk.RIGHT, fill=tk.Y)
-
-    def sort_cons_tree_by_column(self, col):
-        data = [
-            (self.cons_tree.set(child, col), child)
-            for child in self.cons_tree.get_children("")
-        ]
-        # Check column type
-        # Numeric columns: Cant, Costo U, Precio U, Total, Utilidad
-        # Date: Fecha
-        # String: Producto, Cliente, Medio Pago
-        is_numeric = col in ("Cant", "Costo U", "Precio U", "Total", "Utilidad")
-        is_date = col == "Fecha"
-
-        try:
-            if is_numeric:
-                # Remove currency symbols and parse float
-                data.sort(
-                    key=lambda t: float(t[0].replace("$", "").replace(",", "")),
-                    reverse=self.cons_last_sort_reverse,
-                )
-            elif is_date:
-                data.sort(
-                    key=lambda t: datetime.strptime(t[0], "%Y-%m-%d %H:%M:%S"),
-                    reverse=self.cons_last_sort_reverse,
-                )
-            else:
-                data.sort(
-                    key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse
-                )
-        except (ValueError, IndexError):
-            # Fallback to string sort
-            data.sort(key=lambda t: t[0].lower(), reverse=self.cons_last_sort_reverse)
-
-        for index, (val, child) in enumerate(data):
-            self.cons_tree.move(child, "", index)
-
-        # Toggle sort direction
-        self.cons_last_sort_reverse = not self.cons_last_sort_reverse
-
-    def limpiar_filtros_consulta(self):
-        self.cons_entry_keyword.delete(0, tk.END)
-        self.cons_entry_prod.delete(0, tk.END)
-        self.cons_entry_client.delete(0, tk.END)
-        self.cons_entry_payment.delete(0, tk.END)
-
-        # Reset dates to defaults
-        if TKCALENDAR_AVAILABLE:
-            self.cons_fecha_desde.set_date(datetime.now().replace(day=1))
-            self.cons_fecha_hasta.set_date(datetime.now())
-        else:
-            self.cons_fecha_desde.delete(0, tk.END)
-            self.cons_fecha_desde.insert(0, datetime.now().strftime("%Y-%m-01"))
-            self.cons_fecha_hasta.delete(0, tk.END)
-            self.cons_fecha_hasta.insert(0, datetime.now().strftime("%Y-%m-%d"))
-
-        # Limpiar tabla y resets
-        for i in self.cons_tree.get_children():
-            self.cons_tree.delete(i)
-
-        self.var_total_ventas.set("$0.00")
-        self.var_total_costos.set("$0.00")
-        self.var_total_utilidad.set("$0.00")
-        self.var_margen.set("0.00%")
-        self.var_cantidad.set("0")
-        self.var_promedio_producto.set("$0.00")
-
-    def ejecutar_consulta_analisis(self):
-        # 1. Limpiar
-        for i in self.cons_tree.get_children():
-            self.cons_tree.delete(i)
-
-        # 2. Obtener datos
-        historial = self.gestor.leer_historial_ventas()
-
-        # 3. Filtros
-        desde_str = self.cons_fecha_desde.get()
-        hasta_str = self.cons_fecha_hasta.get()
-        keyword = self.cons_entry_keyword.get().lower().strip()
-        f_prod = self.cons_entry_prod.get().lower().strip()
-        f_client = self.cons_entry_client.get().lower().strip()
-        f_pay = self.cons_entry_payment.get().lower().strip()
-
-        # Variables para acumuladores
-        sum_ventas = 0.0
-        sum_costos = 0.0
-        sum_utilidad = 0.0
-        sum_cantidad = 0
-        count_trx = 0
-
-        for venta_original in historial:
-            venta = list(venta_original)
-            while len(venta) < 12:
-                venta.append("")
-
-            estado = venta[11]
-            if estado == "Anulada":
-                continue  # Ignorar anuladas
-
-            # Filtro fecha
-            try:
-                fecha_venta = datetime.strptime(venta[0], "%Y-%m-%d %H:%M:%S").date()
-                f_desde = datetime.strptime(desde_str, "%Y-%m-%d").date()
-                f_hasta = datetime.strptime(hasta_str, "%Y-%m-%d").date()
-
-                if not (f_desde <= fecha_venta <= f_hasta):
-                    continue
-            except (ValueError, IndexError):
-                continue  # Fecha inválida
-
-            # Filtros de Texto
-            # Indices: 1=ID, 2=Prod, 9=Cliente, 10=MedioPago
-            id_v = venta[1].lower()
-            prod = venta[2].lower()
-            cli = venta[9].lower()
-            pay = venta[10].lower()
-
-            # Filtro Global
-            if keyword and not (keyword in id_v or keyword in prod or keyword in cli):
-                continue
-
-            # Sub-filtros específicos
-            if f_prod and f_prod not in prod:
-                continue
-            if f_client and f_client not in cli:
-                continue
-            if f_pay and f_pay not in pay:
-                continue
-
-            # --- Procesar datos numéricos ---
-            try:
-                cant = int(venta[3])
-                costo_u = float(venta[4])
-                precio_u = float(venta[5])
-                total_v = float(venta[6])
-                ganancia = float(venta[7])
-
-                sum_ventas += total_v
-                sum_utilidad += ganancia
-                sum_costos += total_v - ganancia  # Costo total de la venta
-                sum_cantidad += cant
-                count_trx += 1
-
-                # Insertar en tabla
-                self.cons_tree.insert(
-                    "",
-                    tk.END,
-                    values=(
-                        venta[0],  # Fecha
-                        venta[2],  # Prod
-                        venta[9],  # Cliente
-                        cant,
-                        f"${costo_u:,.2f}",
-                        f"${precio_u:,.2f}",
-                        f"${total_v:,.2f}",
-                        f"${ganancia:,.2f}",
-                        venta[10],  # Medio Pago
-                    ),
-                )
-            except (ValueError, IndexError):
-                continue
-
-        # 4. Actualizar Totales
-        self.var_total_ventas.set(f"${sum_ventas:,.2f}")
-        self.var_total_costos.set(f"${sum_costos:,.2f}")
-        self.var_total_utilidad.set(f"${sum_utilidad:,.2f}")
-        self.var_cantidad.set(str(sum_cantidad))
-
-        # Cálculos derivados
-        if sum_ventas > 0:
-            margen = (sum_utilidad / sum_ventas) * 100
-            self.var_margen.set(f"{margen:.2f}%")
-        else:
-            self.var_margen.set("0.00%")
-
-        if count_trx > 0:
-            promedio = sum_ventas / count_trx
-            self.var_promedio_producto.set(f"${promedio:,.2f}")
-        else:
-            self.var_promedio_producto.set("$0.00")
+    # --- SECCIÓN ELIMINADA: crear_widgets_consultas y funciones relacionadas ---
+    # Se han removido: crear_widgets_consultas, sort_cons_tree_by_column,
+    # limpiar_filtros_consulta, ejecutar_consulta_analisis
 
     def crear_widgets_inventario(self):
         top_frame = ttk.Frame(self.inventario_tab)
@@ -1672,6 +1404,13 @@ class InventarioGUI:
             side=tk.LEFT, padx=(0, 5)
         )
 
+        self.btn_auth = ttk.Button(
+            top_frame,
+            text="👤 Modo: Vendedor (Entrar Admin)",
+            command=self.toggle_admin,
+        )
+        self.btn_auth.pack(side=tk.RIGHT, padx=10)
+
         self.status_label_inv = ttk.Label(top_frame, text="Listo.", anchor=tk.E)
         self.status_label_inv.pack(side=tk.RIGHT, padx=5, fill=tk.X, expand=True)
 
@@ -1709,20 +1448,20 @@ class InventarioGUI:
 
         self.inventory_tree = ttk.Treeview(
             left_pane,
-            columns=("Linea", "Item", "Costo", "CantLocal", "CantBodegaC"),
+            columns=("Linea", "Item", "Costo", "CantBodegaC", "CantLocal"),
             show="headings",
         )
         self.inventory_tree.heading("Linea", text="Línea")
         self.inventory_tree.heading("Item", text="Item")
         self.inventory_tree.heading("Costo", text="Costo")
-        self.inventory_tree.heading("CantLocal", text="Cant. Local")
         self.inventory_tree.heading("CantBodegaC", text="Cant. Bodega C")
+        self.inventory_tree.heading("CantLocal", text="Cant. Local")
 
         self.inventory_tree.column("Linea", width=60, anchor=tk.CENTER)
         self.inventory_tree.column("Item", width=350)
         self.inventory_tree.column("Costo", width=100, anchor=tk.E)
-        self.inventory_tree.column("CantLocal", width=100, anchor=tk.CENTER)
         self.inventory_tree.column("CantBodegaC", width=120, anchor=tk.CENTER)
+        self.inventory_tree.column("CantLocal", width=100, anchor=tk.CENTER)
 
         scrollbar = ttk.Scrollbar(
             left_pane, orient=tk.VERTICAL, command=self.inventory_tree.yview
@@ -1767,21 +1506,12 @@ class InventarioGUI:
         ttk.Button(
             item_group, text="Modificar Seleccionado", command=self.show_modify_panel
         ).pack(pady=2, padx=5)
-        ttk.Button(
+        self.btn_eliminar_item = ttk.Button(
             item_group, text="Eliminar Seleccionado", command=self.eliminar_item
-        ).pack(pady=2, padx=5)
+        )
+        self.btn_eliminar_item.pack(pady=2, padx=5)
 
-        tools_group = ttk.LabelFrame(action_frame_bottom, text="Herramientas")
-        tools_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
-
-        ttk.Button(
-            tools_group,
-            text="Ordenar Alfabéticamente",
-            command=self.ordenar_alfabeticamente,
-        ).pack(pady=2, padx=5)
-        ttk.Button(
-            tools_group, text="Verificar Formato", command=self.verificar_formato
-        ).pack(pady=2, padx=5)
+        # --- ELIMINADO: Grupo de Herramientas (Ordenar/Verificar) ---
 
         venta_group = ttk.Frame(action_frame_bottom)
         venta_group.pack(side=tk.RIGHT, padx=20, fill=tk.Y)
@@ -1909,11 +1639,14 @@ class InventarioGUI:
         self.sale_cant_entry = ttk.Entry(self.sale_panel)
         self.sale_cant_entry.pack(fill=tk.X, pady=(0, 5))
 
-        ttk.Label(self.sale_panel, text="Costo Unitario ($):").pack(fill=tk.X)
+        # --- ASIGNADOS A VARIABLES PARA PODER OCULTARLOS ---
+        self.sale_costo_label = ttk.Label(self.sale_panel, text="Costo Unitario ($):")
+        self.sale_costo_label.pack(fill=tk.X, pady=(0, 5))
         self.sale_costo_entry = ttk.Entry(self.sale_panel)
         self.sale_costo_entry.pack(fill=tk.X, pady=(0, 5))
 
-        ttk.Label(self.sale_panel, text="Precio de Venta ($):").pack(fill=tk.X)
+        self.sale_precio_label = ttk.Label(self.sale_panel, text="Precio de Venta ($):")
+        self.sale_precio_label.pack(fill=tk.X)
         self.sale_precio_entry = ttk.Entry(self.sale_panel)
         self.sale_precio_entry.pack(fill=tk.X, pady=(0, 10))
 
@@ -2078,9 +1811,9 @@ class InventarioGUI:
             archivo_actual = os.path.basename(self.gestor.archivo_inventario)
 
             if archivo_actual == "local.txt":
-                qty_to_edit = data[3]
-            else:
                 qty_to_edit = data[4]
+            else:
+                qty_to_edit = data[3]
 
             self.modify_desc_entry.insert(0, data[1])
             self.modify_cant_entry.insert(0, qty_to_edit)
@@ -2090,13 +1823,13 @@ class InventarioGUI:
         elif panel_type == "adjust":
             self.adjust_label.config(text=f"{data[1]}")
             self.adjust_stock_label.config(
-                text=f"Stock Local: {data[3]}  |  Stock Bodega: {data[4]}"
+                text=f"Stock Bodega: {data[3]}  |  Stock Local: {data[4]}"
             )
             self._switch_action_panel(self.adjust_panel, "Ajustar Stock")
 
         elif panel_type == "sale":
             self.sale_label.config(
-                text=f"Vender item:\n{data[1]}\n(Stock Local: {data[3]})"
+                text=f"Vender item:\n{data[1]}\n(Stock Local: {data[4]})"
             )
             self.sale_cant_entry.delete(0, tk.END)
             self.sale_cant_entry.insert(
@@ -2105,14 +1838,17 @@ class InventarioGUI:
             self.sale_costo_entry.delete(0, tk.END)
             self.sale_precio_entry.delete(0, tk.END)
 
-            # Pre-cargar costo si existe
+            # Pre-cargar costo si existe (se llena en segundo plano aunque esté oculto)
             costo_val = data[2]
-            if costo_val and costo_val != "No encontrado":
+            if costo_val and costo_val != "N/A":
                 try:
                     costo_limpio = str(costo_val).replace("$", "").replace(",", "")
                     self.sale_costo_entry.insert(0, costo_limpio)
                 except:
-                    pass
+                    self.sale_costo_entry.insert(0, "0.00")
+            else:
+                self.sale_costo_entry.insert(0, "0.00")
+
             # --- CAMBIO: Pre-cargar precio sugerido ---
             item_desc = data[1]
             precio_sugerido = self.gestor.obtener_ultimo_precio(item_desc)
@@ -2212,7 +1948,7 @@ class InventarioGUI:
         if not values:
             return
 
-        linea, desc, costo, cant_local, cant_bodega = values
+        linea, desc, costo, cant_bodega, cant_local = values
         archivo_actual = os.path.basename(self.gestor.archivo_inventario)
 
         if change == -1:
@@ -2268,7 +2004,7 @@ class InventarioGUI:
         if not values:
             return
 
-        linea_num, desc, costo_old, stock_local, stock_bodega = values
+        linea_num, desc, costo_old, stock_bodega, stock_local = values
 
         try:
             cantidad = int(self.sale_cant_entry.get())
@@ -2530,17 +2266,29 @@ class InventarioGUI:
         ttk.Label(linea_1_filtros, text="Descripción o ID Venta:").pack(
             side=tk.LEFT, padx=(10, 5)
         )
-        self.filtro_desc_venta = ttk.Entry(linea_1_filtros, width=30)
+        self.filtro_desc_venta = ttk.Entry(linea_1_filtros, width=25)
         self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10))
 
-        self.filtro_pago_electronico_var = tk.BooleanVar()
-        self.filtro_pago_electronico_chk = ttk.Checkbutton(
-            linea_1_filtros,
-            text="Mostrar solo pagos electrónicos",
-            variable=self.filtro_pago_electronico_var,
-            command=self.populate_sales_treeview,
+        # --- CAMBIO: Reemplazo Checkbox por Combobox de Medios de Pago ---
+        ttk.Label(linea_1_filtros, text="Medio Pago:").pack(side=tk.LEFT, padx=(5, 5))
+        payment_methods_filter = [
+            "Todos",
+            "Efectivo",
+            "Nequi",
+            "Bancolombia",
+            "Daviplata",
+            "Datafono",
+            "Sistecredito",
+            "Celya",
+        ]
+        self.filtro_medio_pago_combo = ttk.Combobox(
+            linea_1_filtros, values=payment_methods_filter, state="readonly", width=12
         )
-        self.filtro_pago_electronico_chk.pack(side=tk.LEFT, padx=15)
+        self.filtro_medio_pago_combo.pack(side=tk.LEFT, padx=5)
+        self.filtro_medio_pago_combo.set("Todos")
+        self.filtro_medio_pago_combo.bind(
+            "<<ComboboxSelected>>", lambda e: self.populate_sales_treeview()
+        )
 
         ttk.Button(
             linea_2_filtros, text="Filtrar Ventas", command=self.populate_sales_treeview
@@ -2556,6 +2304,14 @@ class InventarioGUI:
             state="disabled",
         )
         self.btn_ver_recibo.pack(side=tk.LEFT, padx=10)
+
+        self.btn_modificar_venta = ttk.Button(
+            linea_2_filtros,
+            text="Modificar Venta",
+            command=self.modificar_venta_seleccionada,
+            state="disabled",
+        )
+        self.btn_modificar_venta.pack(side=tk.LEFT, padx=5)
 
         self.btn_anular_venta = ttk.Button(
             linea_2_filtros,
@@ -3071,6 +2827,8 @@ class InventarioGUI:
             self.caja_base_entry.config(state="disabled")
             self.btn_iniciar_dia.config(state="disabled")
             self.cargar_movimientos_hoy()
+            # Activar el cierre solo si es admin
+            self.btn_cerrar_caja.config(state="normal" if self.is_admin else "disabled")
         else:
             self.btn_registrar_mov.config(state="disabled")
             self.btn_eliminar_mov.config(state="disabled")
@@ -3095,7 +2853,7 @@ class InventarioGUI:
             self.btn_iniciar_dia.config(state="disabled")
             self.btn_registrar_mov.config(state="normal")
             self.btn_eliminar_mov.config(state="normal")
-            self.btn_cerrar_caja.config(state="normal")
+            self.btn_cerrar_caja.config(state="normal" if self.is_admin else "disabled")
             self.btn_cuadre_parcial.config(state="normal")
         else:
             messagebox.showerror("Error", msg)
@@ -3450,8 +3208,14 @@ class InventarioGUI:
                 except ValueError:
                     pass  # Ignore invalid filter
 
-            costo = costos.get(desc, 0.0)
-            costo_str = f"${costo:,.2f}" if costo > 0 else "N/A"
+            # --- CORRECCIÓN COSTO 0 vs N/A ---
+            # Verificamos si la llave existe en el diccionario, sin importar si es 0
+            if desc in costos:
+                costo = costos[desc]
+                costo_str = f"${costo:,.2f}"
+            else:
+                costo = 0.0
+                costo_str = "N/A"
 
             cant_local = (
                 cant if archivo_actual == "local.txt" else stock_externo.get(desc, 0)
@@ -3460,9 +3224,9 @@ class InventarioGUI:
                 cant if archivo_actual == "bodegac.txt" else stock_externo.get(desc, 0)
             )
 
-            # Values: Linea, Item, Costo, CantLocal, CantBodegaC
+            # Values: Linea, Item, Costo, CantBodegaC, CantLocal
             self.inventory_tree.insert(
-                "", tk.END, values=(linea_num, desc, costo_str, cant_local, cant_bodega)
+                "", tk.END, values=(linea_num, desc, costo_str, cant_bodega, cant_local)
             )
 
         if errores:
@@ -3530,7 +3294,9 @@ class InventarioGUI:
         desde = self.filtro_fecha_desde.get()
         hasta = self.filtro_fecha_hasta.get()
         txt_filtro = self.filtro_desc_venta.get().lower().strip()
-        solo_electronicos = self.filtro_pago_electronico_var.get()
+        filtro_medio = (
+            self.filtro_medio_pago_combo.get()
+        )  # --- CAMBIO: Obtener valor del combo ---
 
         items_vendidos = 0
         costo_total = 0.0
@@ -3559,12 +3325,13 @@ class InventarioGUI:
                 ):
                     continue
 
-            # Filtro electronico
-            medio = row[10].lower()
-            if solo_electronicos and (
-                "efectivo" in medio or not medio or medio == "n/a"
-            ):
-                continue
+            # --- CAMBIO: Filtro Medio de Pago Específico ---
+            medio_venta = row[10].lower()
+            if filtro_medio and filtro_medio != "Todos":
+                # Buscamos si el medio seleccionado está dentro del string de medios de la venta
+                # (útil por si hay pagos mixtos como "Efectivo, Nequi")
+                if filtro_medio.lower() not in medio_venta:
+                    continue
 
             estado = row[11]
             tags = ("anulada",) if estado == "Anulada" else ()
@@ -3574,11 +3341,8 @@ class InventarioGUI:
             if estado != "Anulada":
                 try:
                     items_vendidos += int(row[3])
-                    costo_total += float(row[5]) - float(
-                        row[7]
-                    )  # Precio - Ganancia = Costo aprox total? No. TotalVenta - Ganancia = CostoTotal
-                    # Wait, logic check: TotalVenta(6) = Precio * Cant. Ganancia(7) = (Precio-Costo)*Cant.
-                    # CostoTotal = TotalVenta - Ganancia.
+                    # --- CORRECCIÓN LÓGICA DE SUMA ---
+                    # Eliminada la línea duplicada que calculaba mal el costo unitario/total
                     v_total = float(row[6])
                     g_total = float(row[7])
                     venta_total += v_total
@@ -3604,7 +3368,7 @@ class InventarioGUI:
             self.filtro_fecha_hasta.insert(0, today)
 
         self.filtro_desc_venta.delete(0, tk.END)
-        self.filtro_pago_electronico_var.set(False)
+        self.filtro_medio_pago_combo.set("Todos")  # --- CAMBIO: Resetear combo ---
         self.populate_sales_treeview()
 
     def on_sale_select(self, event):
@@ -3613,13 +3377,16 @@ class InventarioGUI:
             self.btn_ver_recibo.config(state="normal")
             item = self.sales_tree.item(selected[0])
             estado = item["values"][11]
-            if estado == "Anulada":
+            if estado == "Anulada" or not self.is_admin:
                 self.btn_anular_venta.config(state="disabled")
+                self.btn_modificar_venta.config(state="disabled")
             else:
                 self.btn_anular_venta.config(state="normal")
+                self.btn_modificar_venta.config(state="normal")
         else:
             self.btn_ver_recibo.config(state="disabled")
             self.btn_anular_venta.config(state="disabled")
+            self.btn_modificar_venta.config(state="disabled")
 
     def abrir_recibo_txt(self):
         selected = self.sales_tree.selection()
@@ -3664,6 +3431,146 @@ class InventarioGUI:
             else:
                 messagebox.showerror("Error", msg)
 
+    def modificar_venta_seleccionada(self):
+        selected = self.sales_tree.selection()
+        if not selected:
+            return
+        item = self.sales_tree.item(selected[0])
+
+        vals = item["values"]
+        id_venta = str(vals[1])
+        desc_actual = str(vals[2])
+        cant_actual = str(vals[3])
+
+        # Limpiar símbolos de moneda para mostrarlos en los Entry
+        def clean_money(val_str):
+            return str(val_str).replace("$", "").replace(",", "").strip()
+
+        costo_actual = clean_money(vals[4])
+        precio_actual = clean_money(vals[5])
+        cliente_actual = str(vals[9])
+        medio_pago_actual = str(vals[10])
+
+        win = tk.Toplevel(self.master)
+        win.title("Modificar Venta")
+        win.geometry("450x450")
+        win.resizable(False, False)
+
+        ttk.Label(
+            win,
+            text=f"Modificando ID Venta: {id_venta}",
+            font=("Helvetica", 11, "bold"),
+        ).pack(pady=10)
+
+        form_frame = ttk.Frame(win, padding=10)
+        form_frame.pack(fill=tk.BOTH, expand=True)
+
+        # --- SECCIÓN 1: ÍTEM ---
+        lf_item = ttk.LabelFrame(
+            form_frame, text="Datos del Ítem Seleccionado", padding=10
+        )
+        lf_item.pack(fill=tk.X, pady=5)
+
+        ttk.Label(lf_item, text="Descripción:").grid(
+            row=0, column=0, sticky="w", pady=2
+        )
+        ent_desc = ttk.Entry(lf_item, width=30)
+        ent_desc.insert(0, desc_actual)
+        ent_desc.grid(row=0, column=1, pady=2, padx=5)
+
+        ttk.Label(lf_item, text="Cantidad:").grid(row=1, column=0, sticky="w", pady=2)
+        ent_cant = ttk.Entry(lf_item, width=15)
+        ent_cant.insert(0, cant_actual)
+        ent_cant.grid(row=1, column=1, sticky="w", pady=2, padx=5)
+
+        ttk.Label(lf_item, text="Costo Unitario ($):").grid(
+            row=2, column=0, sticky="w", pady=2
+        )
+        ent_costo = ttk.Entry(lf_item, width=15)
+        ent_costo.insert(0, costo_actual)
+        ent_costo.grid(row=2, column=1, sticky="w", pady=2, padx=5)
+
+        ttk.Label(lf_item, text="Precio Unitario ($):").grid(
+            row=3, column=0, sticky="w", pady=2
+        )
+        ent_precio = ttk.Entry(lf_item, width=15)
+        ent_precio.insert(0, precio_actual)
+        ent_precio.grid(row=3, column=1, sticky="w", pady=2, padx=5)
+
+        ttk.Label(
+            lf_item,
+            text="Nota: Cambiar cantidad aquí NO ajusta el stock físico.",
+            font=("Helvetica", 8),
+            foreground="red",
+        ).grid(row=4, column=0, columnspan=2, sticky="w", pady=(5, 0))
+
+        # --- SECCIÓN 2: DATOS GENERALES ---
+        lf_gen = ttk.LabelFrame(
+            form_frame, text="Datos Generales (Aplica a toda la venta)", padding=10
+        )
+        lf_gen.pack(fill=tk.X, pady=10)
+
+        ttk.Label(lf_gen, text="Cliente:").grid(row=0, column=0, sticky="w", pady=2)
+        ent_cliente = ttk.Entry(lf_gen, width=30)
+        ent_cliente.insert(0, cliente_actual)
+        ent_cliente.grid(row=0, column=1, pady=2, padx=5)
+
+        ttk.Label(lf_gen, text="Medio de Pago:").grid(
+            row=1, column=0, sticky="w", pady=2
+        )
+        ent_medio = ttk.Entry(lf_gen, width=30)
+        ent_medio.insert(0, medio_pago_actual)
+        ent_medio.grid(row=1, column=1, pady=2, padx=5)
+
+        def guardar():
+            nuevo_cli = ent_cliente.get().strip()
+            nuevo_med = ent_medio.get().strip()
+            nueva_desc = ent_desc.get().strip()
+
+            try:
+                nueva_cant = int(ent_cant.get())
+                nuevo_costo = float(ent_costo.get())
+                nuevo_precio = float(ent_precio.get())
+            except ValueError:
+                messagebox.showerror(
+                    "Error", "Cantidad, Costo y Precio deben ser números.", parent=win
+                )
+                return
+
+            if not nuevo_cli or not nuevo_med or not nueva_desc:
+                messagebox.showerror(
+                    "Error", "Los campos de texto no pueden estar vacíos.", parent=win
+                )
+                return
+
+            item_match = {"desc": desc_actual, "cant": cant_actual}
+
+            nuevos_datos = {
+                "desc": nueva_desc,
+                "cant": nueva_cant,
+                "costo": nuevo_costo,
+                "precio": nuevo_precio,
+                "cliente": nuevo_cli,
+                "medio_pago": nuevo_med,
+            }
+
+            success, msg = self.gestor.modificar_venta_completa(
+                id_venta, item_match, nuevos_datos
+            )
+            if success:
+                messagebox.showinfo("Éxito", msg, parent=win)
+                self.populate_sales_treeview()
+                win.destroy()
+            else:
+                messagebox.showerror("Error", msg, parent=win)
+
+        ttk.Button(
+            win,
+            text="Guardar Cambios y Recalcular",
+            command=guardar,
+            style="Confirm.TButton",
+        ).pack(pady=5, ipady=5)
+
     def show_output_options_dialog(
         self, ruta_txt, id_venta, timestamp, carrito, total, cliente, contacto, pagos
     ):
@@ -3698,24 +3605,7 @@ class InventarioGUI:
             fill=tk.X, padx=20, pady=10
         )
 
-    # --- NUEVAS FUNCIONES FALTANTES ---
-    def ordenar_alfabeticamente(self):
-        success, msg = self.gestor.ordenar_alfabeticamente()
-        if success:
-            self.populate_inventory_treeview()
-            messagebox.showinfo("Éxito", msg)
-        else:
-            messagebox.showerror("Error", msg)
-
-    def verificar_formato(self):
-        errores = self.gestor.verificar_formato()
-        if errores:
-            msg = "Se encontraron errores de formato:\n\n" + "\n".join(errores[:10])
-            if len(errores) > 10:
-                msg += f"\n\n... y {len(errores) - 10} errores más."
-            messagebox.showwarning("Errores de Formato", msg)
-        else:
-            messagebox.showinfo("Verificación", "El formato del archivo es correcto.")
+    # --- ELIMINADO: Métodos puente ordenar_alfabeticamente y verificar_formato ---
 
 
 if __name__ == "__main__":

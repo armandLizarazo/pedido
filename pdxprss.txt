@@ -1,181 +1,108 @@
     Descripcion, Cantidad
-    Adaptador Av2Hdmi, 1
-    Adaptador Europeo Goma, 1
-    Adaptador Hub 7 Puertos 3.0, 1
-    Adaptador Usb Lan 2.0, 1
+    Adaptador Spliter Audio 1 Macho 2 Hembras, 1
+    Adaptador Union Hdmi, 1
+    Adaptador Universal Travel, 1
     Aguja Extractor Sim, 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Blanco, 1 ok
-    Audifonos Bluetooth I12 Azulclaro, 1
     Audifonos Bluetooth I12 Azuloscuro, 1
-    Audifonos Bluetooth I12 Rosa, 1
-    Audifonos Bluetooth Pro 2, 1
-    Audifonos Bluetooth Pro 2 Pantalla, 1
-    Balaca Gamer G-505, 1
-    Barra de Sonido Thundersound 2.1, 1
-    Bluetooth Car Bt-350, 1
-    CARGADOR SAMSUNG 25W CABEZA BLANCO, 1
-    CARGADOR SMART WATCH PINZA, 1
-    CONTROL GAMER MICROSOFT PC / 360 Alambrico , 2
-    Cable Belkin Tc 1
-    Cable Belkin V8, 4
-    Cable Lan 1.5M, 1
-    Cable Motorola Tc 5 ok
-    Cable Motorola V8 5 ok
-    Cable Samsung Tc A Tc Blanco 3 ok
-    Cable Samsung Tc A Tc Negro 3 ok
-    Cable Tc A Tc Eco, 1
-    Caja Disco Duro Microsoft Xbox 360, 1
-    Cargador 12V 2A Doble Punta, 1
-    Cargador 5V 2A Doble Punta, 1
-    Cargador Apple 20W Con Cable, 1
-    Cargador Apple Magsafe, 1
-    Cargador Belkin Tc, 2
-    Cargador Pc Lenovo Mini 3.25, 1
-    Cargador Samsung 25W Cabeza Negro, 1
-    Cargador Samsung 25W Con Cable Blanco, 1
-    Cargador Samsung 25W Con Cable Negro, 1
-    Cargador Samsung 45W Con Cable Negro, 1
-    Cargador W Tc 2 ok
-    Cargador We Tc 33W 3 ok
-    Cargador Yoyos 38W Solo Cabeza, 2
-    Conector Luces Led Macho, 1
-    Conector Rj45, 1
-    Consola Microsoft Xbox 360, 1
-    Control Tv Universal, 1
-    Controlador Luces Led, 1
-    Contron Proyector Hy-300, 1
-    FORRO ANTICHOQUE MOTOROLA MOTO G20 / G30 DAMA 3 ok
-    FORRO ANTICHOQUE OPPO A16 DAMA 1
-    Forro Antichoque Cadena Motorola Moto G05, 1
-    Forro Antichoque Cadena Xiaomi Redmi 15C, 1
-    Forro Antichoque Huawei Honor X6B Dama, 1
-    Forro Antichoque Oppo A57 / A77 Dama, 1
-    Forro Antichoque Pin Samsung A15, 1
-    Forro Antichoque Pin Xiaomi Redmi A3, 1
-    Forro Antichoque Samsung A05S Caballero, 1
-    Forro Antichoque Samsung A12 Caballero, 1
-    Forro Antichoque Samsung A15 Caballero, 1
-    Forro Antichoque Samsung A32 4G Dama, 1
-    Forro Antichoque Tecno Camon 40 Pro Dama, 1
-    Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2 ok
-    Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok
-    Forro Antichoque infinix Note 50S Caballero 2 ok
-    Forro Armadura Oppo A57 / A77 Azul, 1
-    Forro Audifonos I12, 1
-    Forro Audifonos Pantalla Rojo, 1
-    Forro Motomo Apple Iphone 12 Pro Max 1
-    Forro Space Motorola Moto Edge 60 Fusion 1
-    Forro Space Infinix Note 50 Pro 3 ok
-    Forro Space Samsung S22 2 ok
-    Forro Space Xiaomi Redmi Note 12 1 ok
-    Forro Space Xiaomi Redmi Note 13 4G, 1 ok
-    Hydrogel Apple Iphone 15, 1
-    Hydrogel Infinix Note 50s, 1
-    Hydrogel Motorola Moto Edge 60 Fusion, 2
-    Hydrogel Tecno Camon 40 Pro, 1
-    Hydrogel Xiaomi Redmi 13C, 1
+    Audifonos Bluetooth I12 Gris, 1
+    Audifonos Bluetooth Xiaomi E7S Negro, 1
+    Cable Belkin V8, 1
+    Cable Caterpillar Tc, 1
+    Cable Motorola V8, 1
+    Cable We Tc, 1
+    Cable Yoyos Tc A Tc 120W, 1
+    Camara Robotica Wifi Bombillo, 1
+    Cargador Belkin Tc, 1
+    Cargador Belkin V8, 1
+    Cargador Caterpillar 67W Con Cable, 1
+    Cargador W Tc, 2
+    Cargador Yl V8, 2
+    Conector Bateria Parlante, 1
+    Consola Sup X7M, 1
+    Control Gamer Sony Ps3 Negro, 1
+    Depilador Naris Y Orejas Recargable, 1
+    Forro Antichoque Cadena Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 1
+    Forro Antichoque Lujo Redmi 15 Morado, 1
+    Forro Antichoque Motorola Moto G05 Dama, 1
+    Forro Antichoque Samsung A21S Dama, 1
+    Forro Antichoque Samsung A30S / A50 Caballero, 1
+    Forro Antichoque Xiaomi Redmi 13 Dama, 1
+    Forro Antichoque Xiaomi Redmi 9C / 10A Dama, 2
+    Forro Antichoque Xiaomi Redmi Note 11 Dama, 1
+    Forro Armadura Huawei Honor X8C Rojo, 1
+    Forro Armadura Samsung A23 Verdemilitar, 1
+    Forro Armadura Vivo Y39 Rojo, 1
+    Forro Armadura Xiaomi Redmi 9C / 10A Gris, 1
+    Forro Audifonos Case Pro 2, 1
+    Forro Cargador Cable  + Puntas, 1
+    Forro Lujo Ventana Apple Iphone 13 Pro Max Morado, 1
+    Forro Picina, 1
+    Forro Space Magsafe Apple Iphone 11, 1
+    Forro Space Tecno Spark 40 4G, 1
+    Forro Space Tecno Spark Go 2025 / Go 1, 1
+    Forro Space Xiaomi Redmi Note 13 Pro 4G / Note 14S, 1
     Hydrogel Xiaomi Redmi Note 13 Pro 4G, 1
-    Hydrogel Xiaomi Redmi Note 13 Pro Plus, 1
-    Hydrolavadora Recargable, 1
-    LLAVERO FIGURA, 1
-    Lampara Escritorio Astronauta Azul, 1
-    Llavero Figura, 3
-    MANOS LIBRES SAMSUNG S6 BLANCO, 1
-    Manos Libres Inears S-2000, 1
-    Manos Libres Samsung J5 Blanco, 1
-    Manos Libres Samsung J5 Negro, 1
-    Mantenimiento Logica de Carga, 1
-    Memoria Kingston Usb 4Gb, 1
-    Memoria Musica Popular Popular y Musica de Banda, 1
-    Memoria Musica Vallenata Reliquias Vallenatas, 1
-    Memory Card Ps2, 1
-    PACHA MOTOROLA MOTO G20 / G30, 1
-    PARLANTE DUCHA, 1
-    POWER BANK YOYOS YS-701 10000 MAH, 1
-    Pacha Huawei Y9 Prime Incell 1 ok
-    Pacha Lg K61 1 ok
-    Pacha Motorola Moto G14 / G54 / G55 1 ok
-    Pacha Oppo A54 2 ok
-    Pacha Samsung A02 / A12 / M12 1 ok
-    Pacha Samsung A06 1 ok
-    Pacha Samsung A15 1 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 2 ok
-    Visor Camara Tecno Spark Go 1 con Soporte 1
-    Pacha Xiaomi Redmi 12C 2 ok
-    Pacha Xiaomi Redmi 13C 1 ok
-    Pacha Xiaomi Redmi 14C 1 ok
-    Pacha Xiaomi Redmi 9 1 ok
-    Pacha Xiaomi Redmi Note 12 1 ok
-    Pacha Xiaomi Redmi Note 8 2 ok
-    Pacha Xiaomi Redmi Note 9 1 ok
-    Pad Mouse Tapete Negro, 1
-    Parlante Jbl Charge 5, 1
-    Parlante Ktx-1222, 1
-    Parlante Tg-805 Rojo, 1
-    Patillera 3 En 1, 1
-    Pilas Panasonic Aaa x2, 1
-    Pilas Recargables Beston Aaa Con Cargador, 1
-    Pilas Recargables Maxday AA x4 con Cargador, 1
-    Recargas, 9
-    Reproductor Onn 4K, 1
-    Reproductor Tdt Quality, 1
-    SILICONE CASE APPLE IPHONE 11 NEGRO, 1
-    SIMCARD CLARO, 3
-    SIMCARD TIGO, 1
+    Llavero Figura, 2
+    Manos Libres Batri B10 Blanco, 1
+    Manos Libres Samsung Akg, 1
+    Manos Libres Samsung Tipo Original Negro, 1
+    Pacha Apple Iphone 8 Plus Blanco, 1
+    Pacha Huawei Y9 Prime Full, 1
+    Pacha Motorola Moto G20 / G30, 1
+    Pacha Oppo A17 / A38 / A57 / A77, 1
+    Pacha Samsung A03 Core, 1
+    Pacha Samsung A35 Amoled, 1
+    Pacha Samsung J5 Prime Blanco, 1
+    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30, 1
+    Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G, 1
+    Pacha Xiaomi Redmi 13C, 1
+    Pacha Xiaomi Redmi 15C, 1
+    Pacha Xiaomi Redmi 9A / 9C / 10A Cm, 1
+    Pacha Xiaomi Redmi A5, 1
+    Pacha Xiaomi Redmi Note 10 / Note 10S, 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S, 1
+    Pacha Xiaomi Redmi Note 13 Pro 4G Amoled, 1
+    Pilas Panasonic Aaa X2, 1
+    Pin De Carga V8, 1
+    Pin de Carga Parlante, 1
+    Recargas, 2
+    Reproductor Tdt Krono Kr-365, 1
+    Reproductor Tv Stick Watch Om, 1
     Servicio Tecnico Formatear Celular, 1
-    Servicio Tecnico Mantenimiento Puerto Audifonos, 1
-    Servicio Tecnico Xiaomi Reiniciar Redmi Note 14, 1
-    Silicone Case Huawei Honor X8C Rojo 1 ok
-    Silicone Case Huawei P30 Lite Lila 1
-    Silicone Case Huawei honor X5b Morado 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok
-    Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok
-    Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok
-    Silicone Case Infinix Note 50s Negro 1 ok
-    Silicone Case Motorola Moto Edge 60 Fusion Lila 1 ok
-    Silicone Case Motorola Moto G24 / G04 Rojo 1 ok
-    Silicone Case Motorola Moto G31 Lila 1
-    Silicone Case Motorola Moto G51 Verde 1
-    Silicone Case Samsung A05S Morado 1
-    Silicone Case Samsung A55 Lila 1 ok
-    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
-    Silicone Case Xiaomi Redmi A3 Negro 1 ok
-    Smart Watch Combo K55, 1
-    Smartphone Infinix Hot 60 Pro Plus 354131550860261 256/8, 1
-    Smartphone Xiaomi Redmi 15 8060176071450842 256/8, 1
-    Smartphone Zte Blade A56 Pro 868870071036187 128/4, 1
+    Servicio Tecnico Frp Xiaomi Redmi 9C Pandora, 1
+    Servicio Tecnico Samsung Reconectar Pantalla A15, 1
+    Servicio Tecnico Xiaomi Pin De Carga Redmi A1, 1
+    Silicone Case Apple Iphone 13 Pro Max Negro, 1
+    Silicone Case Huawei Honor X5C Lila, 1
+    Silicone Case Huawei Honor X8C Negro, 1
+    Silicone Case Huawei Y9 Prime Morado, 1
+    Silicone Case Samsung A06 Negro, 1
+    Silicone Case Tecno Spark 40 Pro Negro, 1
+    Silicone Case Tecno Spark 40 Pro Plus Lila, 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo, 1
+    Silicone Case Xiaomi Redmi 15 Negro, 1
+    Silicone Case Xiaomi Redmi A5 Lila, 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo, 1
+    Simcard Claro, 5
+    Simcard Wom, 1
+    Sin Registro, 3
     Soporte Holder Espejo, 1
-    Tablero Magico Kids, 1
-    Tableta Kids OCZU OTB-241, 1
-    VIDRIO 5D MOTOROLA MOTO G20 / G30 / G50 / G9 PLAY, 1
-    VIDRIO 5D SAMSUNG A12, 1
-    Video Juego Nintendo Wii, 2
-    Video Juego Ps2, 2
-    Video Juego Xbox 360 5.0 Minecraft, 1
-    Vidrio 5D Apple Iphone 13 / 13 Pro / 14 / 16E, 2
-    Vidrio 5D Apple Iphone 7 Plus, 1
-    Vidrio 5D Huawei Honor X8B, 1
+    Tripode Selfie-05, 1
+    Vaper Asokit 12000 Puffs, 1
+    Vidrio 5D Apple Iphone 13 Pro Max, 1
     Vidrio 5D Huawei Y9 Prime, 1
-    Vidrio 5D Motorola Moto E13, 1
-    Vidrio 5D Motorola Moto G04 / G24, 1
-    Vidrio 5D Samsung A05S, 1
+    Vidrio 5D Motorola Moto G20 / G30 / G50 / G9 Play, 2
     Vidrio 5D Samsung A12, 2
-    Vidrio 5D Samsung A15, 2
-    Vidrio 5D Samsung A21S, 1
     Vidrio 5D Samsung A30S, 1
-    Vidrio 5D Samsung A71 / Poco X3, 1
-    Vidrio 5D Xiaomi Redmi 10, 1
-    Vidrio 5D Xiaomi Redmi 10C / 12C, 2
-    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe, 2
+    Vidrio 5D Samsung A35 / A36 / A55 / S24 Fe, 2
+    Vidrio 5D Xiaomi Redmi 12, 3
+    Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53, 1
+    Vidrio 5D Xiaomi Redmi 14C / A5 / A3, 1
+    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe, 1
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79, 2
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14, 2
-    Vidrio 5D Xiaomi Redmi Note 9, 1
-    Vidrio Antiespia Samsung A05S, 1
-    Vidrio Blindado Samsung A30S, 1
-    Vidrio Blindado Tecno Spark Go 2025 / Go 1 / Spark 30 / Spark 30 Pro, 1
-    Vidrio Blindado Xiaomi Poco X3 / A71, 2
-    Vidrio Blindado Xiaomi Redmi 15, 1
-    Vidrio Blindado Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe, 1
+    Vidrio Blindado Apple Iphone 13 Pro Max, 1
+    Vidrio Blindado Apple Iphone 15 / 15 Pro / Iphone 16, 1
+    Vidrio Blindado Samsung A05, 1
+    Vidrio Blindado Tecno Spark 30C, 1
+    Vidrio Blindado Xiaomi Redmi 15, 2
     Vidrio Blindado Xiaomi Redmi Note 13 / Note 14 / Camon 20 / 20 Pro, 1
-    Vidrio Camara Apple, 7
-    Vidrio Tortuga Xiaomi Redmi 12, 1

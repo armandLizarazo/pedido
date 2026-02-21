@@ -41,8 +41,18 @@ except FileExistsError:
 
 # Variable global para almacenar el último término de búsqueda
 last_search_term = ""
+# Foco pegajoso: recordar qué ítem estaba seleccionado
+sticky_item = ""
 # Variable global para restricciones
 current_restrictions = {}
+
+# --- Paleta de Colores Matrix ---
+BG_COLOR = "#0D0D0D"
+FG_GREEN = "#00FF41"
+FG_RED = "#FF3333"
+ENTRY_BG = "#000000"
+BTN_BG = "#FFFFFF"  # Fondo blanco para todos los botones
+BTN_FG = "#FF3333"  # Letras rojas para todos los botones
 
 # --- Funciones de Gestión de Restricciones ---
 
@@ -115,10 +125,10 @@ def refresh_data():
     entry_search.delete(0, tk.END)
     entry_search.insert(0, last_search_term)
     search()
-    messagebox.showinfo("Refrescar", "Los datos han sido actualizados.")
 
 
 def on_item_select(event):
+    global sticky_item
     widget = event.widget
     other_widget = tree_local if widget == tree_bodega else tree_bodega
 
@@ -135,6 +145,7 @@ def on_item_select(event):
         return
 
     description = item_values[0]
+    sticky_item = description  # Guarda el ítem seleccionado como foco pegajoso
     entry_search.delete(0, tk.END)
     entry_search.insert(0, description)
     update_provider_quantities(description)
@@ -156,10 +167,34 @@ def update_provider_quantities(search_term):
         qty_var.set(str(found_qty))
 
 
-def manual_search():
+def manual_search(event=None):
     global last_search_term
     last_search_term = entry_search.get().strip()
     search()
+
+
+def check_qty(item_qty, op, val_str):
+    """
+    Verifica si la cantidad del ítem cumple con el filtro numérico.
+    """
+    if op == "Todos" or not val_str:
+        return True
+    try:
+        val = int(val_str)
+    except ValueError:
+        return True  # Si no es un número válido, no filtra
+
+    if op == "=":
+        return item_qty == val
+    if op == ">":
+        return item_qty > val
+    if op == "<":
+        return item_qty < val
+    if op == ">=":
+        return item_qty >= val
+    if op == "<=":
+        return item_qty <= val
+    return True
 
 
 def check_match(description, search_term, mode):
@@ -202,9 +237,13 @@ def check_match(description, search_term, mode):
 
 
 def search():
+    global sticky_item
     search_term = entry_search.get().strip()
     filter_extra = entry_filter.get().strip().lower()  # Nuevo filtro adicional
     mode = search_mode_var.get()
+
+    qty_op = qty_op_var.get()
+    qty_val = entry_qty_val.get().strip()
 
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
@@ -230,8 +269,16 @@ def search():
         if check_match(description, search_term, mode):
             if filter_extra and filter_extra not in description.lower():
                 continue
+            if not check_qty(quantity, qty_op, qty_val):
+                continue
 
-            tree_bodega.insert("", tk.END, values=(description, quantity))
+            item_id = tree_bodega.insert("", tk.END, values=(description, quantity))
+
+            # Foco Pegajoso: re-seleccionar automáticamente si coincide
+            if sticky_item and description == sticky_item:
+                tree_bodega.selection_set(item_id)
+                tree_bodega.see(item_id)
+
             stats_bodega["items"] += 1
             stats_bodega["units"] += quantity
             if quantity == 0:
@@ -242,8 +289,16 @@ def search():
         if check_match(description, search_term, mode):
             if filter_extra and filter_extra not in description.lower():
                 continue
+            if not check_qty(quantity, qty_op, qty_val):
+                continue
 
-            tree_local.insert("", tk.END, values=(description, quantity))
+            item_id = tree_local.insert("", tk.END, values=(description, quantity))
+
+            # Foco Pegajoso: re-seleccionar automáticamente si coincide
+            if sticky_item and description == sticky_item:
+                tree_local.selection_set(item_id)
+                tree_local.see(item_id)
+
             stats_local["items"] += 1
             stats_local["units"] += quantity
             if quantity == 0:
@@ -284,9 +339,7 @@ def normalize_files():
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
             search()
-            messagebox.showinfo(
-                "Éxito", "Los archivos han sido normalizados correctamente."
-            )
+            # Sin popup de confirmación para más agilidad
     else:
         messagebox.showinfo("Normalización", "Los inventarios ya están sincronizados.")
 
@@ -332,9 +385,7 @@ def format_all_files_title_case():
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
     search()  # Re-ejecutar búsqueda para ver los cambios
-    messagebox.showinfo(
-        "Formato Aplicado", f"Se actualizó el formato en {processed_count} archivos."
-    )
+    # Sin popup de confirmación para más agilidad
 
 
 def sync_local_to_other():
@@ -381,7 +432,6 @@ def sync_local_to_other():
             final_data.append((item_desc, val))
 
         if update_file(target_filename, final_data):
-            messagebox.showinfo("Éxito", "Sincronización completada.")
             if target_filename.endswith("bodegac.txt") or target_filename.endswith(
                 "local.txt"
             ):
@@ -402,13 +452,19 @@ def open_cost_manager():
     cost_window = tk.Toplevel(root)
     cost_window.title(f"Gestor de Costos - {target_filename}")
     cost_window.geometry("600x600")
-    cost_window.configure(bg="#f0f0f0")
+    cost_window.configure(bg=BG_COLOR)
     cost_data = parse_file(target_filename)
 
-    frame_cost_search = tk.Frame(cost_window, bg="#f0f0f0", pady=10)
+    frame_cost_search = tk.Frame(cost_window, bg=BG_COLOR, pady=10)
     frame_cost_search.pack(fill=tk.X, padx=10)
     entry_cost_search = tk.Entry(
-        frame_cost_search, font=("Helvetica", 12), relief="solid", borderwidth=1
+        frame_cost_search,
+        font=("Helvetica", 12),
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        insertbackground=FG_GREEN,
+        relief="solid",
+        borderwidth=1,
     )
     entry_cost_search.pack(side=tk.LEFT, expand=True, fill=tk.X, padx=(0, 5))
 
@@ -424,23 +480,31 @@ def open_cost_manager():
     tree_cost.configure(yscrollcommand=scrollbar_cost.set)
     scrollbar_cost.place(relx=1.0, rely=0.0, anchor="ne", height=600)
 
-    frame_cost_edit = tk.Frame(cost_window, bg="#e2e6ea", pady=15, padx=10)
+    frame_cost_edit = tk.Frame(cost_window, bg=BG_COLOR, pady=15, padx=10)
     frame_cost_edit.pack(fill=tk.X, side=tk.BOTTOM)
     lbl_selected_item = tk.Label(
         frame_cost_edit,
         text="Seleccione un ítem",
         font=("Helvetica", 10, "italic"),
-        bg="#e2e6ea",
-        fg="#555",
+        bg=BG_COLOR,
+        fg=FG_GREEN,
     )
     lbl_selected_item.pack(anchor="w", pady=(0, 5))
     tk.Label(
         frame_cost_edit,
         text="Nuevo Costo:",
         font=("Helvetica", 11, "bold"),
-        bg="#e2e6ea",
+        bg=BG_COLOR,
+        fg=FG_RED,
     ).pack(side=tk.LEFT)
-    entry_new_cost = tk.Entry(frame_cost_edit, font=("Helvetica", 11), width=15)
+    entry_new_cost = tk.Entry(
+        frame_cost_edit,
+        font=("Helvetica", 11),
+        width=15,
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        insertbackground=FG_GREEN,
+    )
     entry_new_cost.pack(side=tk.LEFT, padx=10)
 
     def filter_costs(*args):
@@ -457,7 +521,7 @@ def open_cost_manager():
         if selected:
             item_vals = tree_cost.item(selected[0], "values")
             lbl_selected_item.config(
-                text=item_vals[0], fg="black", font=("Helvetica", 10, "bold")
+                text=item_vals[0], fg=FG_GREEN, font=("Helvetica", 10, "bold")
             )
             entry_new_cost.delete(0, tk.END)
             entry_new_cost.insert(0, item_vals[1])
@@ -517,20 +581,16 @@ def open_cost_manager():
         if update_file(target_filename, cost_data):
             filter_costs()
             entry_new_cost.delete(0, tk.END)
-            messagebox.showinfo(
-                "Éxito", f"Se actualizaron {count} ítems.", parent=cost_window
-            )
 
-    # BOTONES GESTOR DE COSTOS - CORREGIDOS
     btn_update_cost = tk.Button(
         frame_cost_edit,
         text="Actualizar",
         command=update_cost,
-        bg="#a3e9a4",
-        fg="black",
+        bg=BTN_BG,
+        fg=BTN_FG,
         font=("Helvetica", 10, "bold"),
-        activebackground="black",
-        activeforeground="white",
+        activebackground=BTN_BG,
+        activeforeground=BTN_FG,
     )
     btn_update_cost.pack(side=tk.LEFT)
 
@@ -538,11 +598,11 @@ def open_cost_manager():
         frame_cost_edit,
         text="Actualizar Lote",
         command=update_batch_cost,
-        bg="#a6e0eb",
-        fg="black",
+        bg=BTN_BG,
+        fg=BTN_FG,
         font=("Helvetica", 10, "bold"),
-        activebackground="black",
-        activeforeground="white",
+        activebackground=BTN_BG,
+        activeforeground=BTN_FG,
     )
     btn_update_batch.pack(side=tk.LEFT, padx=(10, 0))
 
@@ -554,13 +614,13 @@ def open_restrictions_manager():
     res_window = tk.Toplevel(root)
     res_window.title("Gestor de Restricciones")
     res_window.geometry("500x400")
-    res_window.configure(bg="#f0f0f0")
+    res_window.configure(bg=BG_COLOR)
 
-    frame_top = tk.Frame(res_window, bg="#f0f0f0", pady=10)
+    frame_top = tk.Frame(res_window, bg=BG_COLOR, pady=10)
     frame_top.pack(fill=tk.X, padx=10)
-    tk.Label(frame_top, text="Archivo:", font=("Helvetica", 11), bg="#f0f0f0").pack(
-        side=tk.LEFT
-    )
+    tk.Label(
+        frame_top, text="Archivo:", font=("Helvetica", 11), bg=BG_COLOR, fg=FG_RED
+    ).pack(side=tk.LEFT)
 
     known_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
     all_files = sorted(list(set(known_files) | set(current_restrictions.keys())))
@@ -572,10 +632,17 @@ def open_restrictions_manager():
     if all_files:
         combo_files.current(0)
 
-    frame_list = tk.Frame(res_window, bg="#f0f0f0", padx=10)
+    frame_list = tk.Frame(res_window, bg=BG_COLOR, padx=10)
     frame_list.pack(fill=tk.BOTH, expand=True)
 
-    listbox_res = tk.Listbox(frame_list, font=("Helvetica", 11))
+    listbox_res = tk.Listbox(
+        frame_list,
+        font=("Helvetica", 11),
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        selectbackground=FG_GREEN,
+        selectforeground=ENTRY_BG,
+    )
     listbox_res.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
     scrollbar_res = ttk.Scrollbar(
@@ -593,10 +660,17 @@ def open_restrictions_manager():
 
     combo_files.bind("<<ComboboxSelected>>", load_keywords_for_file)
 
-    frame_actions = tk.Frame(res_window, bg="#f0f0f0", pady=10)
+    frame_actions = tk.Frame(res_window, bg=BG_COLOR, pady=10)
     frame_actions.pack(fill=tk.X, padx=10)
 
-    entry_new_res = tk.Entry(frame_actions, font=("Helvetica", 11), width=20)
+    entry_new_res = tk.Entry(
+        frame_actions,
+        font=("Helvetica", 11),
+        width=20,
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        insertbackground=FG_GREEN,
+    )
     entry_new_res.pack(side=tk.LEFT, padx=(0, 10))
 
     def add_restriction():
@@ -633,16 +707,15 @@ def open_restrictions_manager():
             save_restrictions()
             load_keywords_for_file()
 
-    # BOTONES GESTOR DE RESTRICCIONES - CORREGIDOS
     btn_add_res = tk.Button(
         frame_actions,
         text="Agregar",
         command=add_restriction,
-        bg="#a3e9a4",
-        fg="black",
+        bg=BTN_BG,
+        fg=BTN_FG,
         font=("Helvetica", 10, "bold"),
-        activebackground="black",
-        activeforeground="white",
+        activebackground=BTN_BG,
+        activeforeground=BTN_FG,
     )
     btn_add_res.pack(side=tk.LEFT)
 
@@ -650,11 +723,11 @@ def open_restrictions_manager():
         frame_actions,
         text="Eliminar",
         command=remove_restriction,
-        bg="#ffb3b3",
-        fg="black",
+        bg=BTN_BG,
+        fg=BTN_FG,
         font=("Helvetica", 10, "bold"),
-        activebackground="black",
-        activeforeground="white",
+        activebackground=BTN_BG,
+        activeforeground=BTN_FG,
     )
     btn_del_res.pack(side=tk.RIGHT)
 
@@ -669,7 +742,8 @@ def transfer_quantity(direction):
         )
         return
     try:
-        transfer_qty = int(entry_transfer_qty.get())
+        qty_str = entry_transfer_qty.get().strip()
+        transfer_qty = int(qty_str) if qty_str else 1  # 1 por defecto
         if transfer_qty <= 0:
             raise ValueError
     except ValueError:
@@ -726,7 +800,6 @@ def transfer_quantity(direction):
             data_bodega.append((search_term, transfer_qty))
 
     if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
-        messagebox.showinfo("Éxito", f"Se trasladaron {transfer_qty} unidades.")
         entry_transfer_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
@@ -741,7 +814,8 @@ def adjust_quantity(target, action):
         )
         return
     try:
-        adjust_qty = int(entry_adjust_qty.get())
+        qty_str = entry_adjust_qty.get().strip()
+        adjust_qty = int(qty_str) if qty_str else 1  # 1 por defecto
         if adjust_qty <= 0:
             raise ValueError
     except ValueError:
@@ -783,20 +857,33 @@ def adjust_quantity(target, action):
         action_text = "quitaron"
 
     if update_file(filename, data_list):
-        messagebox.showinfo("Éxito", f"Se {action_text} {adjust_qty} unidades.")
         entry_adjust_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
         search()
 
 
-def create_new_item():
+def create_new_item(event=None):
+    global sticky_item
     new_item_desc = entry_new_item.get().strip()
     if not new_item_desc:
         messagebox.showwarning(
             "Entrada Vacía", "El nombre del nuevo ítem no puede estar vacío."
         )
         return
+
+    try:
+        qty_str = entry_new_qty_bodega.get().strip()
+        initial_qty = int(qty_str) if qty_str else 0  # 0 por defecto en bodega
+        if initial_qty < 0:
+            raise ValueError
+    except ValueError:
+        messagebox.showerror(
+            "Error de Entrada",
+            "Por favor, ingrese una cantidad inicial válida (0 o mayor).",
+        )
+        return
+
     all_descriptions = {item[0].lower() for item in data_bodega} | {
         item[0].lower() for item in data_local
     }
@@ -805,21 +892,18 @@ def create_new_item():
             "Ítem Existente", f"El ítem '{new_item_desc}' ya existe en el inventario."
         )
         return
-    confirm = messagebox.askyesno(
-        "Confirmar Creación",
-        f"¿Desea crear el nuevo ítem '{new_item_desc}' con cantidad 0?",
-    )
-    if confirm:
-        data_bodega.append((new_item_desc, 0))
-        data_local.append((new_item_desc, 0))
-        if update_file("bodegac.txt", data_bodega) and update_file(
-            "local.txt", data_local
-        ):
-            messagebox.showinfo("Éxito", "El ítem ha sido creado exitosamente.")
-            entry_new_item.delete(0, tk.END)
-            entry_search.delete(0, tk.END)
-            entry_search.insert(0, last_search_term)
-            search()
+
+    # Sin confirmación para mayor agilidad
+    data_bodega.append((new_item_desc, initial_qty))
+    data_local.append((new_item_desc, 0))
+
+    if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+        sticky_item = new_item_desc
+        entry_new_item.delete(0, tk.END)
+        entry_new_qty_bodega.delete(0, tk.END)
+        entry_search.delete(0, tk.END)
+        entry_search.insert(0, last_search_term)
+        search()
 
 
 def add_to_purchase_order(filename):
@@ -840,7 +924,8 @@ def add_to_purchase_order(filename):
                 return
 
     try:
-        pedido_qty = int(entry_pedido_qty.get())
+        qty_str = entry_pedido_qty.get().strip()
+        pedido_qty = int(qty_str) if qty_str else 1  # 1 por defecto
         if pedido_qty <= 0:
             raise ValueError
     except ValueError:
@@ -860,9 +945,6 @@ def add_to_purchase_order(filename):
         order_data.append((search_term, pedido_qty))
 
     if update_file(filename, order_data):
-        messagebox.showinfo(
-            "Éxito", f"Se agregaron {pedido_qty} unidades a {filename}."
-        )
         entry_pedido_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
@@ -870,6 +952,7 @@ def add_to_purchase_order(filename):
 
 
 def delete_item():
+    global sticky_item
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
@@ -902,13 +985,14 @@ def delete_item():
         if update_file("bodegac.txt", data_bodega) and update_file(
             "local.txt", data_local
         ):
-            messagebox.showinfo("Éxito", "El ítem ha sido eliminado exitosamente.")
+            sticky_item = ""  # Limpiamos el foco pegajoso porque el ítem se eliminó
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
             search()
 
 
-def edit_item():
+def edit_item(event=None):
+    global sticky_item
     global data_bodega, data_local
     old_desc = entry_search.get().strip()
     new_desc = entry_edit_item.get().strip()
@@ -931,47 +1015,45 @@ def edit_item():
             "Ítem Existente", "El ítem ya existe. Por favor elija otro nombre."
         )
         return
-    confirm = messagebox.askyesno(
-        "Confirmar Edición", f"¿Desea renombrar '{old_desc}' a '{new_desc}'?"
-    )
-    if confirm:
-        item_found_and_changed = False
-        for i, (desc, qty) in enumerate(data_bodega):
-            if desc.strip().lower() == old_desc.lower():
-                data_bodega[i] = (new_desc, qty)
-                item_found_and_changed = True
-                break
-        for i, (desc, qty) in enumerate(data_local):
-            if desc.strip().lower() == old_desc.lower():
-                data_local[i] = (new_desc, qty)
-                item_found_and_changed = True
-                break
-        if not item_found_and_changed:
-            messagebox.showinfo("No Encontrado", "No se encontró el ítem.")
-            return
 
-        provider_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
-        for filename in provider_files:
-            order_data = parse_file(filename)
-            if not order_data:
-                continue
-            item_found_in_order = False
-            for i, (desc, qty) in enumerate(order_data):
-                if desc.strip().lower() == old_desc.lower():
-                    order_data[i] = (new_desc, qty)
-                    item_found_in_order = True
-                    break
-            if item_found_in_order:
-                update_file(filename, order_data)
+    # Sin confirmación para mayor agilidad
+    item_found_and_changed = False
+    for i, (desc, qty) in enumerate(data_bodega):
+        if desc.strip().lower() == old_desc.lower():
+            data_bodega[i] = (new_desc, qty)
+            item_found_and_changed = True
+            break
 
-        if update_file("bodegac.txt", data_bodega) and update_file(
-            "local.txt", data_local
-        ):
-            messagebox.showinfo("Éxito", "El ítem ha sido renombrado.")
-            entry_edit_item.delete(0, tk.END)
-            entry_search.delete(0, tk.END)
-            entry_search.insert(0, last_search_term)
-            search()
+    for i, (desc, qty) in enumerate(data_local):
+        if desc.strip().lower() == old_desc.lower():
+            data_local[i] = (new_desc, qty)
+            item_found_and_changed = True
+            break
+
+    if not item_found_and_changed:
+        messagebox.showinfo("No Encontrado", "No se encontró el ítem.")
+        return
+
+    provider_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
+    for filename in provider_files:
+        order_data = parse_file(filename)
+        if not order_data:
+            continue
+        item_found_in_order = False
+        for i, (desc, qty) in enumerate(order_data):
+            if desc.strip().lower() == old_desc.lower():
+                order_data[i] = (new_desc, qty)
+                item_found_in_order = True
+                break
+        if item_found_in_order:
+            update_file(filename, order_data)
+
+    if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+        sticky_item = new_desc
+        entry_edit_item.delete(0, tk.END)
+        entry_search.delete(0, tk.END)
+        entry_search.insert(0, last_search_term)
+        search()
 
 
 # --- Carga de Datos ---
@@ -981,28 +1063,54 @@ data_local = parse_file("local.txt")
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
 root.title("Comparador de Inventario")
-root.geometry("900x1000")  # Ajustado alto
-root.configure(bg="#f0f0f0")
+root.geometry("900x1000")
+root.configure(bg=BG_COLOR)
+
+# Configuración de Estilos (Modo Matrix)
+style = ttk.Style()
+style.theme_use("default")
+style.configure(
+    "Treeview",
+    background=ENTRY_BG,
+    foreground=FG_GREEN,
+    fieldbackground=ENTRY_BG,
+    borderwidth=0,
+)
+style.map(
+    "Treeview", background=[("selected", FG_GREEN)], foreground=[("selected", ENTRY_BG)]
+)
+style.configure(
+    "Treeview.Heading",
+    background=BTN_BG,
+    foreground=FG_RED,
+    relief="flat",
+    font=("Helvetica", 10, "bold"),
+)
+style.map("Treeview.Heading", background=[("active", "#333333")])
+style.configure(
+    "TCombobox", fieldbackground=ENTRY_BG, background=BTN_BG, foreground=FG_GREEN
+)
 
 # Variables para mostrar cantidades de pedidos
 pd_centro_qty_var = tk.StringVar(value="-")
 pd_pr_qty_var = tk.StringVar(value="-")
 pd_st_qty_var = tk.StringVar(value="-")
 search_mode_var = tk.StringVar(value="phrase")  # phrase, keywords, advanced
+qty_op_var = tk.StringVar(value="Todos")  # Filtro de cantidad
 
 # Variables para resumen de estadísticas
 var_bodega_stats = tk.StringVar(value="Items: 0 | Unidades: 0 | Sin Stock: 0")
 var_local_stats = tk.StringVar(value="Items: 0 | Unidades: 0 | Sin Stock: 0")
 
-main_frame = tk.Frame(root, bg="#f0f0f0", padx=20, pady=20)
+main_frame = tk.Frame(root, bg=BG_COLOR, padx=20, pady=20)
 main_frame.pack(expand=True, fill=tk.BOTH)
 
 # --- Frame de Básqueda y Opciones ---
-frame_search_top = tk.Frame(main_frame, bg="#f0f0f0")
+frame_search_top = tk.Frame(main_frame, bg=BG_COLOR)
 frame_search_top.pack(fill=tk.X, pady=(0, 10))
 
 entry_search_container = tk.Frame(
-    frame_search_top, relief="solid", borderwidth=1, bg="white"
+    frame_search_top, relief="solid", borderwidth=1, bg=FG_GREEN
 )
 entry_search_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 entry_search = tk.Entry(
@@ -1011,22 +1119,25 @@ entry_search = tk.Entry(
     width=40,
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
 entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
+entry_search.bind("<Return>", manual_search)
 
 button_search = tk.Button(
     frame_search_top,
     text="Buscar",
     command=manual_search,
     font=("Helvetica", 11, "bold"),
-    bg="#cce0ff",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_search.pack(side=tk.LEFT, padx=(10, 0), ipady=3)
 
@@ -1035,21 +1146,25 @@ button_refresh = tk.Button(
     text="Refrescar",
     command=refresh_data,
     font=("Helvetica", 11, "bold"),
-    bg="#ccebdc",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_refresh.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # Opciones de Búsqueda (Radiobuttons) y Filtro Adicional
-frame_search_options = tk.Frame(main_frame, bg="#f0f0f0")
+frame_search_options = tk.Frame(main_frame, bg=BG_COLOR)
 frame_search_options.pack(fill=tk.X, pady=(0, 15))
 tk.Label(
-    frame_search_options, text="Tipo de Búsqueda:", font=("Helvetica", 10), bg="#f0f0f0"
+    frame_search_options,
+    text="Tipo de Búsqueda:",
+    font=("Helvetica", 10, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT)
 
 rb_phrase = tk.Radiobutton(
@@ -1057,7 +1172,11 @@ rb_phrase = tk.Radiobutton(
     text="Frase Exacta",
     variable=search_mode_var,
     value="phrase",
-    bg="#f0f0f0",
+    bg=BG_COLOR,
+    fg=FG_GREEN,
+    selectcolor=ENTRY_BG,
+    activebackground=BG_COLOR,
+    activeforeground=FG_GREEN,
 )
 rb_phrase.pack(side=tk.LEFT, padx=5)
 rb_keywords = tk.Radiobutton(
@@ -1065,7 +1184,11 @@ rb_keywords = tk.Radiobutton(
     text="Palabras Clave",
     variable=search_mode_var,
     value="keywords",
-    bg="#f0f0f0",
+    bg=BG_COLOR,
+    fg=FG_GREEN,
+    selectcolor=ENTRY_BG,
+    activebackground=BG_COLOR,
+    activeforeground=FG_GREEN,
 )
 rb_keywords.pack(side=tk.LEFT, padx=5)
 rb_advanced = tk.Radiobutton(
@@ -1073,7 +1196,11 @@ rb_advanced = tk.Radiobutton(
     text="Avanzada (Excluir con -)",
     variable=search_mode_var,
     value="advanced",
-    bg="#f0f0f0",
+    bg=BG_COLOR,
+    fg=FG_GREEN,
+    selectcolor=ENTRY_BG,
+    activebackground=BG_COLOR,
+    activeforeground=FG_GREEN,
 )
 rb_advanced.pack(side=tk.LEFT, padx=5)
 
@@ -1082,13 +1209,51 @@ tk.Label(
     frame_search_options,
     text="Filtro (+):",
     font=("Helvetica", 10, "bold"),
-    bg="#f0f0f0",
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(20, 5))
-entry_filter = tk.Entry(frame_search_options, font=("Helvetica", 10), width=15)
+entry_filter = tk.Entry(
+    frame_search_options,
+    font=("Helvetica", 10),
+    width=15,
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
+)
 entry_filter.pack(side=tk.LEFT, padx=0)
+entry_filter.bind("<Return>", manual_search)
+
+# Nuevo Filtro de Cantidad
+tk.Label(
+    frame_search_options,
+    text="Cant:",
+    font=("Helvetica", 10, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
+).pack(side=tk.LEFT, padx=(15, 2))
+combo_qty_op = ttk.Combobox(
+    frame_search_options,
+    textvariable=qty_op_var,
+    values=["Todos", "=", ">", "<", ">=", "<="],
+    width=5,
+    state="readonly",
+    font=("Helvetica", 10),
+)
+combo_qty_op.pack(side=tk.LEFT)
+combo_qty_op.bind("<<ComboboxSelected>>", manual_search)
+entry_qty_val = tk.Entry(
+    frame_search_options,
+    font=("Helvetica", 10),
+    width=5,
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
+)
+entry_qty_val.pack(side=tk.LEFT, padx=(2, 0))
+entry_qty_val.bind("<Return>", manual_search)
 
 # Botones de Herramientas
-frame_tools = tk.Frame(main_frame, bg="#f0f0f0")
+frame_tools = tk.Frame(main_frame, bg=BG_COLOR)
 frame_tools.pack(fill=tk.X, pady=(0, 15))
 
 button_normalize = tk.Button(
@@ -1096,12 +1261,13 @@ button_normalize = tk.Button(
     text="Normalizar",
     command=normalize_files,
     font=("Helvetica", 11, "bold"),
-    bg="#ffc107",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_normalize.pack(side=tk.LEFT, padx=(0, 5), ipady=3)
 
@@ -1110,13 +1276,13 @@ button_sync_local = tk.Button(
     text="Exportar Local",
     command=sync_local_to_other,
     font=("Helvetica", 11, "bold"),
-    bg="#e2e6ea",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_sync_local.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
@@ -1125,13 +1291,13 @@ button_cost_manager = tk.Button(
     text="Gestor Costos",
     command=open_cost_manager,
     font=("Helvetica", 11, "bold"),
-    bg="#ffeeba",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_cost_manager.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
@@ -1140,43 +1306,45 @@ button_restrictions = tk.Button(
     text="Restricciones",
     command=open_restrictions_manager,
     font=("Helvetica", 11, "bold"),
-    bg="#f8d7da",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_restrictions.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
-# Botón Formato Título (NUEVO)
 button_format = tk.Button(
     frame_tools,
     text="Formato Título",
     command=format_all_files_title_case,
     font=("Helvetica", 11, "bold"),
-    bg="#e0cffc",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=12,
-    activebackground="black",
-    activeforeground="white",
-    borderwidth=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 button_format.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # --- Frame de Resultados ---
-frame_results = tk.Frame(main_frame, bg="#f0f0f0")
+frame_results = tk.Frame(main_frame, bg=BG_COLOR)
 frame_results.pack(expand=True, fill=tk.BOTH)
 frame_results.columnconfigure(0, weight=1)
 frame_results.columnconfigure(1, weight=1)
-# Configurar peso para las filas 1 (tablas) y 2 (resumen)
 frame_results.rowconfigure(1, weight=1)
 frame_results.rowconfigure(2, weight=0)
 
 label_bodega = tk.Label(
-    frame_results, text="Contenido Bodega", font=("Helvetica", 14, "bold"), bg="#f0f0f0"
+    frame_results,
+    text="Contenido Bodega",
+    font=("Helvetica", 14, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
 )
 label_bodega.grid(row=0, column=0, pady=(0, 5))
 tree_bodega = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
@@ -1186,13 +1354,12 @@ tree_bodega.column("Item", width=250)
 tree_bodega.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_bodega.grid(row=1, column=0, sticky="nsew", padx=(0, 10))
 
-# Label de Resumen Bodega
 lbl_stats_bodega = tk.Label(
     frame_results,
     textvariable=var_bodega_stats,
     font=("Helvetica", 9, "bold"),
-    bg="#e8e8e8",
-    fg="#333",
+    bg="#FFFFFF",
+    fg="#000000",
     relief="sunken",
     padx=5,
     pady=2,
@@ -1200,7 +1367,11 @@ lbl_stats_bodega = tk.Label(
 lbl_stats_bodega.grid(row=2, column=0, sticky="ew", padx=(0, 10), pady=(2, 10))
 
 label_local = tk.Label(
-    frame_results, text="Contenido Local", font=("Helvetica", 14, "bold"), bg="#f0f0f0"
+    frame_results,
+    text="Contenido Local",
+    font=("Helvetica", 14, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
 )
 label_local.grid(row=0, column=1, pady=(0, 5))
 tree_local = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
@@ -1210,158 +1381,193 @@ tree_local.column("Item", width=250)
 tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 
-# Label de Resumen Local
 lbl_stats_local = tk.Label(
     frame_results,
     textvariable=var_local_stats,
     font=("Helvetica", 9, "bold"),
-    bg="#e8e8e8",
-    fg="#333",
+    bg="#FFFFFF",
+    fg="#000000",
     relief="sunken",
     padx=5,
     pady=2,
 )
 lbl_stats_local.grid(row=2, column=1, sticky="ew", padx=(10, 0), pady=(2, 10))
 
-# --- BINDINGS PARA SELECCIÓN ---
 tree_bodega.bind("<<TreeviewSelect>>", on_item_select)
 tree_local.bind("<<TreeviewSelect>>", on_item_select)
 
-# --- CONFIGURACIÓN DE TAGS PARA COLORES ---
-tree_bodega.tag_configure("not_found", foreground="red")
-tree_local.tag_configure("not_found", foreground="red")
+tree_bodega.tag_configure("not_found", foreground=FG_RED)
+tree_local.tag_configure("not_found", foreground=FG_RED)
 
-# --- Frame de Zona de Peligro (Eliminar) ---
+# --- Zonas de Herramientas Inferiores ---
+# Frame de Zona de Peligro (Eliminar) - Conserva su borde rojo en los 4 lados
 frame_danger = tk.Frame(
-    main_frame, bg="#f8d7da", pady=10, padx=10, relief="solid", borderwidth=1
+    main_frame,
+    bg=BG_COLOR,
+    pady=10,
+    padx=10,
+    relief="solid",
+    borderwidth=1,
+    highlightbackground=FG_RED,
+    highlightthickness=1,
 )
 frame_danger.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
     frame_danger,
     text="Zona de Peligro:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_danger["bg"],
-    fg="#721c24",
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(0, 10))
 btn_delete_item = tk.Button(
     frame_danger,
     text="Eliminar Ítem Seleccionado",
     command=delete_item,
     font=("Helvetica", 10, "bold"),
-    bg="#ffb3b3",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_delete_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-# --- Frame de Edición de Ítem ---
-frame_edit = tk.Frame(
-    main_frame, bg="#fff3cd", pady=10, padx=10, relief="solid", borderwidth=1
-)
+# Frame de Edición de Ítem (Línea verde debajo)
+border_edit = tk.Frame(main_frame, bg=FG_GREEN, height=1)
+border_edit.pack(fill=tk.X, side=tk.BOTTOM)
+frame_edit = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
 frame_edit.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
     frame_edit,
     text="Nuevo Nombre:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_edit["bg"],
-    fg="#856404",
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(0, 5))
-entry_edit_container = tk.Frame(frame_edit, relief="solid", borderwidth=1, bg="white")
-entry_edit_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 entry_edit_item = tk.Entry(
-    entry_edit_container,
+    frame_edit,
     font=("Helvetica", 11),
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
-entry_edit_item.pack(ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
+entry_edit_item.pack(side=tk.LEFT, ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
+entry_edit_item.bind("<Return>", edit_item)
 btn_edit_item = tk.Button(
     frame_edit,
     text="Renombrar Ítem",
     command=edit_item,
     font=("Helvetica", 10, "bold"),
-    bg="#ffc107",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_edit_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-# --- Frame de Creación de Ítem ---
-frame_create = tk.Frame(main_frame, bg="#d4edda", pady=10, padx=10)
+# Frame de Creación de Ítem (Línea verde debajo)
+border_create = tk.Frame(main_frame, bg=FG_GREEN, height=1)
+border_create.pack(fill=tk.X, side=tk.BOTTOM)
+frame_create = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
 frame_create.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
     frame_create,
     text="Crear Nuevo Ítem:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_create["bg"],
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(0, 5))
-entry_create_container = tk.Frame(
-    frame_create, relief="solid", borderwidth=1, bg="white"
-)
-entry_create_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
 entry_new_item = tk.Entry(
-    entry_create_container,
+    frame_create,
     font=("Helvetica", 11),
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
-entry_new_item.pack(ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
+entry_new_item.pack(side=tk.LEFT, ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
+entry_new_item.bind("<Return>", create_new_item)
+
+tk.Label(
+    frame_create,
+    text="Cant. Bodega:",
+    font=("Helvetica", 10, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
+).pack(side=tk.LEFT, padx=(10, 5))
+entry_new_qty_bodega = tk.Entry(
+    frame_create,
+    font=("Helvetica", 11),
+    width=5,
+    relief="flat",
+    borderwidth=0,
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
+)
+entry_new_qty_bodega.pack(side=tk.LEFT, ipady=2, padx=1, pady=1)
+entry_new_qty_bodega.bind("<Return>", create_new_item)
+
 btn_create_item = tk.Button(
     frame_create,
     text="Crear Ítem",
     command=create_new_item,
     font=("Helvetica", 10, "bold"),
-    bg="#a3e9a4",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_create_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
 
-# --- Frame de Ajuste ---
-frame_adjust = tk.Frame(main_frame, bg="#f8f9fa", pady=10, padx=10)
+# Frame de Ajuste (Línea verde debajo)
+border_adjust = tk.Frame(main_frame, bg=FG_GREEN, height=1)
+border_adjust.pack(fill=tk.X, side=tk.BOTTOM)
+frame_adjust = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
 frame_adjust.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
     frame_adjust,
     text="Ajuste de Inventario:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_adjust["bg"],
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(0, 5))
-entry_adjust_container = tk.Frame(
-    frame_adjust, relief="solid", borderwidth=1, bg="white"
-)
-entry_adjust_container.pack(side=tk.LEFT)
 entry_adjust_qty = tk.Entry(
-    entry_adjust_container,
+    frame_adjust,
     font=("Helvetica", 11),
     width=10,
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
-entry_adjust_qty.pack(ipady=2, padx=1, pady=1)
+entry_adjust_qty.pack(side=tk.LEFT, ipady=2, padx=1, pady=1)
+
 btn_add_bodega = tk.Button(
     frame_adjust,
     text="+ Bodega",
     command=lambda: adjust_quantity("bodega", "add"),
     font=("Helvetica", 10, "bold"),
-    bg="#a3e9a4",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_add_bodega.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_remove_bodega = tk.Button(
@@ -1369,12 +1575,13 @@ btn_remove_bodega = tk.Button(
     text="- Bodega",
     command=lambda: adjust_quantity("bodega", "remove"),
     font=("Helvetica", 10, "bold"),
-    bg="#ffb3b3",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_remove_bodega.pack(side=tk.LEFT, padx=(0, 5), ipady=2)
 btn_add_local = tk.Button(
@@ -1382,12 +1589,13 @@ btn_add_local = tk.Button(
     text="+ Local",
     command=lambda: adjust_quantity("local", "add"),
     font=("Helvetica", 10, "bold"),
-    bg="#a3e9a4",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_add_local.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_remove_local = tk.Button(
@@ -1395,48 +1603,51 @@ btn_remove_local = tk.Button(
     text="- Local",
     command=lambda: adjust_quantity("local", "remove"),
     font=("Helvetica", 10, "bold"),
-    bg="#ffb3b3",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_remove_local.pack(side=tk.LEFT, ipady=2)
 
-# --- Frame de Traslado ---
-frame_transfer = tk.Frame(main_frame, bg="#e9ecef", pady=10, padx=10)
+# Frame de Traslado (Línea verde debajo)
+border_transfer = tk.Frame(main_frame, bg=FG_GREEN, height=1)
+border_transfer.pack(fill=tk.X, side=tk.BOTTOM)
+frame_transfer = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
 frame_transfer.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 tk.Label(
     frame_transfer,
     text="Cantidad a Trasladar:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_transfer["bg"],
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(side=tk.LEFT, padx=(0, 5))
-entry_qty_container = tk.Frame(
-    frame_transfer, relief="solid", borderwidth=1, bg="white"
-)
-entry_qty_container.pack(side=tk.LEFT)
 entry_transfer_qty = tk.Entry(
-    entry_qty_container,
+    frame_transfer,
     font=("Helvetica", 11),
     width=10,
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
-entry_transfer_qty.pack(ipady=2, padx=1, pady=1)
+entry_transfer_qty.pack(side=tk.LEFT, ipady=2, padx=1, pady=1)
 btn_to_local = tk.Button(
     frame_transfer,
     text="Bodega -> Local",
     command=lambda: transfer_quantity("to_local"),
     font=("Helvetica", 10, "bold"),
-    bg="#ffc107",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_to_local.pack(side=tk.LEFT, padx=(10, 5), ipady=2)
 btn_to_bodega = tk.Button(
@@ -1444,69 +1655,72 @@ btn_to_bodega = tk.Button(
     text="Local -> Bodega",
     command=lambda: transfer_quantity("to_bodega"),
     font=("Helvetica", 10, "bold"),
-    bg="#ffc107",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_to_bodega.pack(side=tk.LEFT, ipady=2)
 
-# --- Frame de Pedidos a Proveedores ---
-frame_pedido = tk.Frame(main_frame, bg="#d1ecf1", pady=10, padx=10)
+# Frame de Pedidos a Proveedores (Línea verde debajo)
+border_pedido = tk.Frame(main_frame, bg=FG_GREEN, height=1)
+border_pedido.pack(fill=tk.X, side=tk.BOTTOM)
+frame_pedido = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
 frame_pedido.pack(fill=tk.X, side=tk.BOTTOM, pady=(10, 0))
 
-pedido_input_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
+pedido_input_frame = tk.Frame(frame_pedido, bg=BG_COLOR)
 pedido_input_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20), anchor="n")
 tk.Label(
     pedido_input_frame,
     text="Agregar a Pedido:",
     font=("Helvetica", 11, "bold"),
-    bg=frame_pedido["bg"],
-    fg="#0c5460",
+    bg=BG_COLOR,
+    fg=FG_RED,
 ).pack(anchor="w")
-entry_pedido_container = tk.Frame(
-    pedido_input_frame, relief="solid", borderwidth=1, bg="white"
-)
-entry_pedido_container.pack(anchor="w", pady=(5, 0))
 entry_pedido_qty = tk.Entry(
-    entry_pedido_container,
+    pedido_input_frame,
     font=("Helvetica", 11),
     width=10,
     relief="flat",
     borderwidth=0,
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
+    insertbackground=FG_GREEN,
 )
-entry_pedido_qty.pack(ipady=2, padx=1, pady=1)
+entry_pedido_qty.pack(anchor="w", ipady=2, padx=1, pady=1)
 
-providers_frame = tk.Frame(frame_pedido, bg=frame_pedido["bg"])
+providers_frame = tk.Frame(frame_pedido, bg=BG_COLOR)
 providers_frame.pack(side=tk.LEFT)
 
 # PD Centro
-pd_centro_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_centro_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_centro_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_centro = tk.Button(
     pd_centro_frame,
     text="PD Centro",
     command=lambda: add_to_purchase_order("pdcentro.txt"),
     font=("Helvetica", 10, "bold"),
-    bg="#a3e9a4",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_pd_centro.pack(pady=(0, 2))
 tk.Label(
-    pd_centro_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+    pd_centro_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()
 lbl_pd_centro_qty = tk.Label(
     pd_centro_frame,
     textvariable=pd_centro_qty_var,
     font=("Helvetica", 10, "bold"),
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
     relief="solid",
     borderwidth=1,
     width=10,
@@ -1514,29 +1728,31 @@ lbl_pd_centro_qty = tk.Label(
 lbl_pd_centro_qty.pack()
 
 # PD PR
-pd_pr_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_pr_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_pr_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_pr = tk.Button(
     pd_pr_frame,
     text="PD PR",
     command=lambda: add_to_purchase_order("pdpr.txt"),
     font=("Helvetica", 10, "bold"),
-    bg="#a8d8ff",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_pd_pr.pack(pady=(0, 2))
 tk.Label(
-    pd_pr_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+    pd_pr_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()
 lbl_pd_pr_qty = tk.Label(
     pd_pr_frame,
     textvariable=pd_pr_qty_var,
     font=("Helvetica", 10, "bold"),
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
     relief="solid",
     borderwidth=1,
     width=10,
@@ -1544,29 +1760,31 @@ lbl_pd_pr_qty = tk.Label(
 lbl_pd_pr_qty.pack()
 
 # PD ST
-pd_st_frame = tk.Frame(providers_frame, bg=providers_frame["bg"])
+pd_st_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_st_frame.pack(side=tk.LEFT, padx=(0, 10))
 btn_pd_st = tk.Button(
     pd_st_frame,
     text="PD ST",
     command=lambda: add_to_purchase_order("pdst.txt"),
     font=("Helvetica", 10, "bold"),
-    bg="#d3d3d3",
-    fg="black",
+    bg=BTN_BG,
+    fg=BTN_FG,
     relief="flat",
     padx=10,
-    activebackground="black",
-    activeforeground="white",
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
 )
 btn_pd_st.pack(pady=(0, 2))
 tk.Label(
-    pd_st_frame, text="En Pedido:", font=("Helvetica", 8), bg=providers_frame["bg"]
+    pd_st_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()
 lbl_pd_st_qty = tk.Label(
     pd_st_frame,
     textvariable=pd_st_qty_var,
     font=("Helvetica", 10, "bold"),
-    bg="white",
+    bg=ENTRY_BG,
+    fg=FG_GREEN,
     relief="solid",
     borderwidth=1,
     width=10,

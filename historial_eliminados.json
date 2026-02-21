@@ -1,0 +1,190 @@
+[
+    {
+        "fecha": "2026-02-18 07:52:53",
+        "archivo": "/Users/armandolizarazo/Local/pedido/pdxprss.txt",
+        "ruta_completa": "Convertido desde TXT",
+        "eliminados": [
+            {
+                "linea": 7,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Blanco, 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Motorola Tc 5 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Cable Motorola V8 5 ok"
+            },
+            {
+                "linea": 24,
+                "contenido": "Cable Samsung Tc A Tc Blanco 3 ok"
+            },
+            {
+                "linea": 25,
+                "contenido": "Cable Samsung Tc A Tc Negro 3 ok"
+            },
+            {
+                "linea": 38,
+                "contenido": "Cargador W Tc 2 ok"
+            },
+            {
+                "linea": 39,
+                "contenido": "Cargador We Tc 33W 3 ok"
+            },
+            {
+                "linea": 47,
+                "contenido": "FORRO ANTICHOQUE MOTOROLA MOTO G20 / G30 DAMA 3 ok"
+            },
+            {
+                "linea": 60,
+                "contenido": "Forro Antichoque Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Dama 2 ok"
+            },
+            {
+                "linea": 61,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 11 Dama 3 ok"
+            },
+            {
+                "linea": 62,
+                "contenido": "Forro Antichoque infinix Note 50S Caballero 2 ok"
+            },
+            {
+                "linea": 68,
+                "contenido": "Forro Space Infinix Note 50 Pro 3 ok"
+            },
+            {
+                "linea": 69,
+                "contenido": "Forro Space Samsung S22 2 ok"
+            },
+            {
+                "linea": 70,
+                "contenido": "Forro Space Xiaomi Redmi Note 12 1 ok"
+            },
+            {
+                "linea": 71,
+                "contenido": "Forro Space Xiaomi Redmi Note 13 4G, 1 ok"
+            },
+            {
+                "linea": 95,
+                "contenido": "Pacha Huawei Y9 Prime Incell 1 ok"
+            },
+            {
+                "linea": 96,
+                "contenido": "Pacha Lg K61 1 ok"
+            },
+            {
+                "linea": 97,
+                "contenido": "Pacha Motorola Moto G14 / G54 / G55 1 ok"
+            },
+            {
+                "linea": 98,
+                "contenido": "Pacha Oppo A54 2 ok"
+            },
+            {
+                "linea": 99,
+                "contenido": "Pacha Samsung A02 / A12 / M12 1 ok"
+            },
+            {
+                "linea": 100,
+                "contenido": "Pacha Samsung A06 1 ok"
+            },
+            {
+                "linea": 101,
+                "contenido": "Pacha Samsung A15 1 ok"
+            },
+            {
+                "linea": 102,
+                "contenido": "Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I, 2 ok"
+            },
+            {
+                "linea": 104,
+                "contenido": "Pacha Xiaomi Redmi 12C 2 ok"
+            },
+            {
+                "linea": 105,
+                "contenido": "Pacha Xiaomi Redmi 13C 1 ok"
+            },
+            {
+                "linea": 106,
+                "contenido": "Pacha Xiaomi Redmi 14C 1 ok"
+            },
+            {
+                "linea": 107,
+                "contenido": "Pacha Xiaomi Redmi 9 1 ok"
+            },
+            {
+                "linea": 108,
+                "contenido": "Pacha Xiaomi Redmi Note 12 1 ok"
+            },
+            {
+                "linea": 109,
+                "contenido": "Pacha Xiaomi Redmi Note 8 2 ok"
+            },
+            {
+                "linea": 110,
+                "contenido": "Pacha Xiaomi Redmi Note 9 1 ok"
+            },
+            {
+                "linea": 128,
+                "contenido": "Silicone Case Huawei Honor X8C Rojo 1 ok"
+            },
+            {
+                "linea": 130,
+                "contenido": "Silicone Case Huawei honor X5b Morado 1 ok"
+            },
+            {
+                "linea": 131,
+                "contenido": "Silicone Case Infinix Hot 50I / Smart 9 Azulrey 1 ok"
+            },
+            {
+                "linea": 132,
+                "contenido": "Silicone Case Infinix Hot 50I / Smart 9 Morado 1 ok"
+            },
+            {
+                "linea": 133,
+                "contenido": "Silicone Case Infinix Hot 60 Pro Plus Negro 1 ok"
+            },
+            {
+                "linea": 134,
+                "contenido": "Silicone Case Infinix Note 50s Negro 1 ok"
+            },
+            {
+                "linea": 135,
+                "contenido": "Silicone Case Motorola Moto Edge 60 Fusion Lila 1 ok"
+            },
+            {
+                "linea": 136,
+                "contenido": "Silicone Case Motorola Moto G24 / G04 Rojo 1 ok"
+            },
+            {
+                "linea": 140,
+                "contenido": "Silicone Case Samsung A55 Lila 1 ok"
+            },
+            {
+                "linea": 141,
+                "contenido": "Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok"
+            },
+            {
+                "linea": 142,
+                "contenido": "Silicone Case Xiaomi Redmi A3 Negro 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
+        "fecha": "2026-02-18 08:17:47",
+        "archivo": "pdst.txt",
+        "ruta_completa": "Convertido desde TXT",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Samsung A30S S/M 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Xiaomi Redmi Note 8 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    }
+]

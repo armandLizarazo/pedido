@@ -1,32 +1,46 @@
     Adaptador Europeo Pasta 5
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Union Hdmi 3
+    Adaptador Universal Travel 2
+    Audifonos Bluetooth I12 Azuloscuro 2
+    Audifonos Bluetooth I12 Gris 1
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
     Balaca Pantalla Rojo 1
     Base Refrigerante 1 Ventilador 1
+    Cable Auxiliar 2 A 1 3M 3
+    Cable Auxiliar 2 A 1 5M 3
+    Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Disco Duro V8 3.0 Medio 2
-    Cable Extensor Auxiliar 3.5 3M 2
+    Cable Extensor Auxiliar 3.5 3 M 3
+    Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi 3M 2
     Cable Microsoft Xbox Caja Negra 2
+    Cable Rca 3 A 3 5M 2
     Cable Rj11 3
     Cable Vga 1.5M 3
     Cable Vga 15M 2
+    Cable We Tc 5
+    Cable We V8 5
     Calculadora Cientifica Casio 82Es 1
     Camara 3 Antenas 2
     Camara De Solapa 1
+    Camara Robotica Wifi Bombillo 1
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
     Consola Game Stick 3
     Consola Sup Con Control Rosa 1
+    Consola Sup X7M 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps2 3
     Control Gamer Sony Ps2 Inalambrico 2
+    Control Gamer Sony Ps3 Negro 1
     Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
@@ -53,6 +67,7 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Soporte Tv Fijo 1
+    Tripode Selfie-05 1
     Tutoriales 1
     Vaper Kokin 10000 Puffs 1
     Video Juego Ps2 Call Of Duty 1
