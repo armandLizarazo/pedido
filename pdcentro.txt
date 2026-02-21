@@ -11,11 +11,11 @@
     Audifonos Bluetooth Y6 Negro 1
     Bluetooth Car Bt-350 3
     Cable Apple Usb Ligthning 2M 5
-    Cable Motorola Tc 2
-    Cable Motorola V8 4
+    Cable Motorola Tc 2 ok
+    Cable Motorola V8 4 ok
     Cable Tc A Tc Eco 3
-    Cable Yoyos Tc A Tc 120W 2
-    Cargador Belkin Tc 5
+    Cable Yoyos Tc A Tc 120W 2 ok
+    Cargador Belkin Tc 5 ok
     Cargador Belkin V8 5
     Cargador Fuente 360 Slim 1
     Cargador Infinix 3.1A 3
