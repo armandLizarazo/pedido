@@ -1,6 +1,6 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
-    Adaptador Micro Sd Eco 5
+    Adaptador Micro Sd Eco 7 ok
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 1
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 1
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
@@ -13,6 +13,7 @@
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Audifonos Bluetooth Apple AirPods Pro 2 ok
     Cable Apple Usb Ligthning 5
     Cable Apple Usb Ligthning 2M 5
     Cable Auxiliar 1 A 1 3 Vias Cja 2
@@ -164,9 +165,9 @@
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
-    Forro Space Samsung A26 2
+    Forro Space Samsung A26 2 ok
     Forro Space Samsung A71 2
-    Forro Space Samsung S25 Fe 1
+    Forro Space Samsung S25 Fe 2 ok
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Pova 7 2
     Forro Space Tecno Spark 40 Pro 1
@@ -174,29 +175,29 @@
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y38 2
-    Forro Space Xiaomi Redmi 13 2
+    Forro Space Xiaomi Redmi 13 2 ok
     Forro Space Xiaomi Redmi 15 2
     Forro Space Xiaomi Redmi 9T 1
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 15 4G 2
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
-    Forro Space Xiaomi Redmi Note 8 2
-    Forro Space Xiaomi Redmi Note 9 1
-    Forro Space Xiaomi Redmi Note 9S / Note 9 Pro 1
+    Forro Space Xiaomi Redmi Note 8 2 ok
+    Forro Space Xiaomi Redmi Note 9 1 ok
+    Forro Space Xiaomi Redmi Note 9S / Note 9 Pro 1 ok
     Forro Tabletas 10P Dama 2
     Manos Libres Batri B10 Lila 2
     Manos Libres Knz Tc 2
-    Manos Libres Samsung J5 Blanco 5
-    Manos Libres Samsung J5 Negro 5
+    Manos Libres Samsung J5 Blanco 5 ok
+    Manos Libres Samsung J5 Negro 5 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Xiaomi T Original Negro 2
-    Memoria Kingston Usb 4Gb 5
-    Memoria Kingstone Micro 16Gb 3
-    Memoria Kingstone Micro 32Gb 1
+    Memoria Kingston Usb 4Gb 5 ok
+    Memoria Kingstone Micro 16Gb 3 ok
+    Memoria Kingstone Micro 32Gb 1 ok
     Memoria Micro Sandisk 64Gb 1
     Memoria Sandisk Micro 256Gb Original 1
-    Memoria Super Micro 32Gb 3
-    Memoria Super Usb 32Gb 1
+    Memoria Super Micro 32Gb 3 ok
+    Memoria Super Usb 32Gb 1 ok
     Mouse Jertech Jr-1 Rojo 1
     Note 8 5
     Parlante Ktf-1645 2
@@ -220,8 +221,9 @@
     Silicone Case Huawei Honor Magic 8 Lite Fucsia 1
     Silicone Case Huawei Honor Magic 8 Lite Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Morado 1
-    Silicone Case Huawei Honor Magic 8 Lite Negro 1
+    Silicone Case Huawei Honor Magic 8 Lite Negro 1 ok
     Silicone Case Huawei Honor Magic 8 Lite Rojo 1
+    Silicone Case Huawei Honor Magic 8 Lite Azulrey 1 ok
     Silicone Case Huawei Honor X5B Amarillo 1
     Silicone Case Huawei Honor X5C Lila 1
     Silicone Case Huawei Honor X5C Negro 1
