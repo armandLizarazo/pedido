@@ -32,9 +32,9 @@
     Cargador Yoyos 38W Solo Cabeza 5
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor 400 Smart Caballero 3
+    Forro Antichoque Huawei Honor 400 Smart Caballero 3 ok
     Forro Antichoque Huawei Honor 400 Smart Dama 3
-    Forro Antichoque Huawei Honor X5B Dama 2
+    Forro Antichoque Huawei Honor X5B Dama 2 ok
     Forro Antichoque Huawei Honor X5C Caballero 5
     Forro Antichoque Huawei Honor X5C Dama 5
     Forro Antichoque Huawei Honor X6 / X6S Caballero 3
@@ -70,7 +70,7 @@
     Forro Antichoque Tecno Spark 30 Pro 4G Caballero 5
     Forro Antichoque Tecno Spark 40 4G Caballero 5
     Forro Antichoque Tecno Spark 40 4G Dama 5
-    Forro Antichoque Tecno Spark Go 2025 / Go 1 Dama 2
+    Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 2 ok
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Caballero 5
     Forro Antichoque Vivo Y04 Dama 5
@@ -322,7 +322,7 @@
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30 Pro Fucsia 1
     Silicone Case Tecno Camon 30S Amarillo 1
-    Silicone Case Tecno Camon 40 Negro 1
+    Silicone Case Tecno Camon 40 Negro 1 ok
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -340,25 +340,25 @@
     Silicone Case Tecno Pova 7 Morado 1
     Silicone Case Tecno Pova 7 Negro 1
     Silicone Case Tecno Pova 7 Rojo 1
-    Silicone Case Tecno Spark 10 / 10C Negro 1
+    Silicone Case Tecno Spark 10 / 10C Negro 1 ok
     Silicone Case Tecno Spark 10 Pro Rosa 1
     Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 4G Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark 30 5G Azulrey 1
+    Silicone Case Tecno Spark 30 5G Azulrey 1 ok
     Silicone Case Tecno Spark 30 Pro 4G Amarillo 1
     Silicone Case Tecno Spark 30C Lila 1
-    Silicone Case Tecno Spark 40 Pro Negro 1
+    Silicone Case Tecno Spark 40 Pro Negro 1 ok
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
-    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Amarillo 1 ok
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
     Silicone Case Vivo V25 Pro Rojo 1
     Silicone Case Vivo V25E Azuloscuro 1
     Silicone Case Vivo V40 Lite Amarillo 1
-    Silicone Case Vivo Y04 Rojo 1
+    Silicone Case Vivo Y04 Rojo 1 ok
     Silicone Case Vivo Y15 / Y01 Amarillo 1
     Silicone Case Vivo Y15 / Y01 Fucsia 1
     Silicone Case Vivo Y19S Lila 1
