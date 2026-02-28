@@ -5,6 +5,9 @@ from tkinter import filedialog
 import json
 import os
 import re  # Importamos regex para búsquedas más precisas
+import webbrowser  # NUEVO: Para abrir el reporte en el navegador
+import tempfile  # NUEVO: Para crear un archivo temporal de impresión
+from datetime import datetime  # NUEVO: Para poner la fecha en el reporte
 
 # --- Constantes y Configuración ---
 RESTRICTIONS_FILE = "restricciones.json"
@@ -39,17 +42,18 @@ try:
 except FileExistsError:
     pass
 
-# Variable global para almacenar el último término de búsqueda
+# Variables Globales
 last_search_term = ""
-# Foco pegajoso: recordar qué ítem estaba seleccionado
+search_history = []
 sticky_item = ""
-# Variable global para restricciones
+is_syncing_selection = False
 current_restrictions = {}
 
 # --- Paleta de Colores Matrix ---
 BG_COLOR = "#0D0D0D"
 FG_GREEN = "#00FF41"
 FG_RED = "#FF3333"
+FG_BLUE = "#00FFFF"  # Azul neón para alertas pasivas
 ENTRY_BG = "#000000"
 BTN_BG = "#FFFFFF"  # Fondo blanco para todos los botones
 BTN_FG = "#FF3333"  # Letras rojas para todos los botones
@@ -128,15 +132,18 @@ def refresh_data():
 
 
 def on_item_select(event):
-    global sticky_item
+    global sticky_item, is_syncing_selection
+
+    if is_syncing_selection:
+        return
+
     widget = event.widget
     other_widget = tree_local if widget == tree_bodega else tree_bodega
 
-    if other_widget.selection():
-        other_widget.selection_remove(other_widget.selection())
-
     selected_items = widget.selection()
     if not selected_items:
+        # Restaurar estilo normal si se pierde la selección
+        tree_bodega.configure(style="Treeview")
         return
 
     selected_item = selected_items[0]
@@ -145,7 +152,53 @@ def on_item_select(event):
         return
 
     description = item_values[0]
-    sticky_item = description  # Guarda el ítem seleccionado como foco pegajoso
+    sticky_item = description
+
+    # --- Lógica de Alerta Visual (Rojo en Bodega) ---
+    bodega_qty = 0
+    local_qty = 0
+    found_in_bodega = False
+
+    for desc, qty in data_bodega:
+        if desc.strip().lower() == description.lower():
+            bodega_qty = qty
+            found_in_bodega = True
+            break
+
+    for desc, qty in data_local:
+        if desc.strip().lower() == description.lower():
+            local_qty = qty
+            break
+
+    # Si hay en bodega y no hay en local, activamos la alerta roja
+    if found_in_bodega and bodega_qty > 0 and local_qty == 0:
+        tree_bodega.configure(style="Alert.Treeview")
+    else:
+        tree_bodega.configure(style="Treeview")
+    # ------------------------------------------------
+
+    # Efecto Espejo Inteligente
+    needs_mirror = True
+    other_selected = other_widget.selection()
+    if other_selected:
+        other_vals = other_widget.item(other_selected[0], "values")
+        if other_vals and other_vals[0] == description:
+            needs_mirror = False  # Ya están sincronizados, rompemos el bucle
+
+    if needs_mirror:
+        # 1. Limpiamos cualquier selección previa en la otra tabla
+        if other_widget.selection():
+            other_widget.selection_remove(other_widget.selection())
+
+        # 2. Buscamos el ítem idéntico en la otra tabla
+        for child in other_widget.get_children():
+            child_values = other_widget.item(child, "values")
+            if child_values and child_values[0] == description:
+                other_widget.selection_set(child)  # Lo seleccionamos
+                other_widget.see(child)  # Hacemos scroll para que sea visible
+                break
+    # --------------------------------------------------
+
     entry_search.delete(0, tk.END)
     entry_search.insert(0, description)
     update_provider_quantities(description)
@@ -168,8 +221,17 @@ def update_provider_quantities(search_term):
 
 
 def manual_search(event=None):
-    global last_search_term
+    global last_search_term, search_history
     last_search_term = entry_search.get().strip()
+
+    if last_search_term:
+        if last_search_term in search_history:
+            search_history.remove(last_search_term)
+        search_history.insert(0, last_search_term)
+        if len(search_history) > 20:
+            search_history.pop()
+        entry_search["values"] = search_history
+
     search()
 
 
@@ -215,23 +277,53 @@ def check_match(description, search_term, mode):
             return True
         return all(word in desc_lower for word in words)
 
-    elif mode == "advanced":  # Avanzada (Soporta exclusión con -)
-        parts = term_lower.split()
-        if not parts:
-            return True
+    elif (
+        mode == "advanced"
+    ):  # Avanzada (Soporta base obligatoria, exclusión con - y OR con |)
+        # 1. Separar por coma (si existe) para obtener la base obligatoria
+        if "," in term_lower:
+            base_str, or_str = term_lower.split(",", 1)
+        else:
+            base_str, or_str = "", term_lower
 
-        match = True
-        for part in parts:
-            if part.startswith("-") and len(part) > 1:
-                exclude_word = part[1:]
-                if exclude_word in desc_lower:
-                    match = False
-                    break
-            else:
-                if part not in desc_lower:
-                    match = False
-                    break
-        return match
+        # 2. Evaluar la base obligatoria (si existe)
+        if base_str:
+            base_parts = base_str.split()
+            for part in base_parts:
+                if part.startswith("-") and len(part) > 1:
+                    if part[1:] in desc_lower:
+                        return False
+                else:
+                    if part not in desc_lower:
+                        return False
+
+        # Si llegamos aquí, la base obligatoria coincide (o no hay base).
+        # 3. Evaluar los grupos OR separados por '|'
+        if not or_str.strip():
+            return True  # Si no hay argumentos OR después de la coma, y la base coincidió, es True.
+
+        or_groups = or_str.split("|")
+        for group in or_groups:
+            parts = group.split()
+            if not parts:
+                continue
+
+            match_group = True
+            for part in parts:
+                if part.startswith("-") and len(part) > 1:
+                    if part[1:] in desc_lower:
+                        match_group = False
+                        break
+                else:
+                    if part not in desc_lower:
+                        match_group = False
+                        break
+
+            # Si se cumple CUALQUIERA de los grupos divididos por '|', el ítem coincide
+            if match_group:
+                return True
+
+        return False  # Si evaluó todos los grupos OR y ninguno coincidió
 
     return False
 
@@ -239,11 +331,15 @@ def check_match(description, search_term, mode):
 def search():
     global sticky_item
     search_term = entry_search.get().strip()
-    filter_extra = entry_filter.get().strip().lower()  # Nuevo filtro adicional
+    filter_extra = entry_filter.get().strip().lower()
+    filter_words = filter_extra.split() if filter_extra else []
     mode = search_mode_var.get()
 
     qty_op = qty_op_var.get()
     qty_val = entry_qty_val.get().strip()
+
+    # Restablecer el estilo visual de la bodega por defecto al buscar
+    tree_bodega.configure(style="Treeview")
 
     for item in tree_bodega.get_children():
         tree_bodega.delete(item)
@@ -263,18 +359,28 @@ def search():
         var_local_stats.set("Items: 0 | Unidades: 0 | Sin Stock: 0")
         return
 
+    # Diccionario rápido para saber las cantidades en el local al vuelo
+    local_dict = {desc.strip().lower(): qty for desc, qty in data_local}
+
     # Buscar en bodega
     for description, quantity in data_bodega:
-        # Verifica la búsqueda principal Y el filtro adicional
         if check_match(description, search_term, mode):
-            if filter_extra and filter_extra not in description.lower():
+            if filter_words and not all(
+                word in description.lower() for word in filter_words
+            ):
                 continue
             if not check_qty(quantity, qty_op, qty_val):
                 continue
 
-            item_id = tree_bodega.insert("", tk.END, values=(description, quantity))
+            # Lógica para colorear de AZUL los ítems a trasladar
+            item_tags = ()
+            if quantity > 0 and local_dict.get(description.strip().lower(), 0) == 0:
+                item_tags = ("transfer_alert",)
 
-            # Foco Pegajoso: re-seleccionar automáticamente si coincide
+            item_id = tree_bodega.insert(
+                "", tk.END, values=(description, quantity), tags=item_tags
+            )
+
             if sticky_item and description == sticky_item:
                 tree_bodega.selection_set(item_id)
                 tree_bodega.see(item_id)
@@ -287,7 +393,10 @@ def search():
     # Buscar en local
     for description, quantity in data_local:
         if check_match(description, search_term, mode):
-            if filter_extra and filter_extra not in description.lower():
+            # Si hay palabras en el filtro extra, TODAS deben estar en la descripción
+            if filter_words and not all(
+                word in description.lower() for word in filter_words
+            ):
                 continue
             if not check_qty(quantity, qty_op, qty_val):
                 continue
@@ -311,6 +420,123 @@ def search():
     var_local_stats.set(
         f"Items: {stats_local['items']} | Unidades: {stats_local['units']} | Sin Stock: {stats_local['zeros']}"
     )
+
+    # --- NUEVO: Seleccionar el primer ítem por defecto ---
+    bodega_children = tree_bodega.get_children()
+    local_children = tree_local.get_children()
+
+    # Validamos si no hay nada seleccionado aún (por el foco pegajoso)
+    if not tree_bodega.selection() and not tree_local.selection():
+        if bodega_children:
+            first_item = bodega_children[0]
+            tree_bodega.selection_set(first_item)
+            tree_bodega.see(first_item)
+            tree_bodega.event_generate(
+                "<<TreeviewSelect>>"
+            )  # Dispara el evento espejo y datos
+        elif local_children:
+            first_item = local_children[0]
+            tree_local.selection_set(first_item)
+            tree_local.see(first_item)
+            tree_local.event_generate(
+                "<<TreeviewSelect>>"
+            )  # Dispara el evento espejo y datos
+
+
+def print_results(target):
+    """Genera un archivo HTML con el contenido de la tabla seleccionada y lo manda a imprimir."""
+    if target == "bodega":
+        tree = tree_bodega
+        title = "Reporte de Inventario - Bodega Central"
+        stats = var_bodega_stats.get()
+    else:
+        tree = tree_local
+        title = "Reporte de Inventario - Local"
+        stats = var_local_stats.get()
+
+    items = []
+    for child in tree.get_children():
+        vals = tree.item(child, "values")
+        items.append((vals[0], vals[1]))
+
+    if not items:
+        messagebox.showinfo("Imprimir", f"No hay datos para imprimir en {target}.")
+        return
+
+    # Construcción del diseño del reporte HTML
+    search_term = entry_search.get().strip()
+    filter_extra = entry_filter.get().strip()
+    qty_filter = (
+        f"{qty_op_var.get()} {entry_qty_val.get()}"
+        if qty_op_var.get() != "Todos"
+        else "Ninguno"
+    )
+
+    html_content = f"""
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>{title}</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; padding: 20px; color: #000; }}
+            h2 {{ text-align: center; color: #333; margin-bottom: 5px; }}
+            .date {{ text-align: center; color: #666; font-size: 0.9em; margin-bottom: 20px; }}
+            .filters {{ background-color: #f9f9f9; padding: 10px; border: 1px solid #ddd; margin-bottom: 20px; font-size: 0.9em; }}
+            table {{ width: 100%; border-collapse: collapse; margin-top: 10px; }}
+            th, td {{ border: 1px solid #aaa; padding: 8px; text-align: left; }}
+            th {{ background-color: #f2f2f2; }}
+            td.qty {{ text-align: center; font-weight: bold; width: 120px; }}
+            .stats {{ margin-top: 20px; font-weight: bold; text-align: right; font-size: 1.1em; background: #eee; padding: 10px; border: 1px solid #ccc; }}
+            @media print {{
+                body {{ padding: 0; }}
+            }}
+        </style>
+    </head>
+    <body>
+        <h2>{title}</h2>
+        <div class="date">Generado el: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</div>
+        
+        <div class="filters">
+            <strong>Filtros aplicados:</strong><br>
+            Búsqueda: <em>{search_term if search_term else 'Todas'}</em> | 
+            Filtro (+): <em>{filter_extra if filter_extra else 'Ninguno'}</em> | 
+            Cantidad: <em>{qty_filter}</em>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Descripción del Ítem</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+    """
+
+    for desc, qty in items:
+        html_content += f"<tr><td>{desc}</td><td class='qty'>{qty}</td></tr>\n"
+
+    html_content += f"""
+            </tbody>
+        </table>
+        <div class="stats">{stats}</div>
+        
+        <script>
+            // Abre la ventana de impresión automáticamente
+            window.onload = function() {{ window.print(); }}
+        </script>
+    </body>
+    </html>
+    """
+
+    # Crear archivo temporal
+    fd, path = tempfile.mkstemp(suffix=".html", prefix=f"reporte_{target}_")
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(html_content)
+
+    # Abrir en el navegador predeterminado
+    webbrowser.open(f"file://{os.path.abspath(path)}")
 
 
 def normalize_files():
@@ -385,7 +611,6 @@ def format_all_files_title_case():
     data_bodega = parse_file("bodegac.txt")
     data_local = parse_file("local.txt")
     search()  # Re-ejecutar búsqueda para ver los cambios
-    # Sin popup de confirmación para más agilidad
 
 
 def sync_local_to_other():
@@ -844,7 +1069,6 @@ def adjust_quantity(target, action):
     if action == "add":
         new_qty = current_qty + adjust_qty
         data_list[item_index] = (search_term, new_qty)
-        action_text = "agregaron"
     elif action == "remove":
         if current_qty < adjust_qty:
             messagebox.showerror(
@@ -854,7 +1078,6 @@ def adjust_quantity(target, action):
             return
         new_qty = current_qty - adjust_qty
         data_list[item_index] = (search_term, new_qty)
-        action_text = "quitaron"
 
     if update_file(filename, data_list):
         entry_adjust_qty.delete(0, tk.END)
@@ -906,7 +1129,7 @@ def create_new_item(event=None):
         search()
 
 
-def add_to_purchase_order(filename):
+def modify_purchase_order(filename, action):
     search_term = entry_search.get().strip()
     if not search_term:
         messagebox.showwarning(
@@ -914,7 +1137,8 @@ def add_to_purchase_order(filename):
         )
         return
 
-    if filename in current_restrictions:
+    # Restricciones solo aplican al agregar
+    if action == "add" and filename in current_restrictions:
         for keyword in current_restrictions[filename]:
             if keyword.lower() in search_term.lower():
                 messagebox.showwarning(
@@ -936,19 +1160,64 @@ def add_to_purchase_order(filename):
 
     order_data = parse_file(filename)
     item_found_in_order = False
+
     for i, (desc, qty) in enumerate(order_data):
         if desc.strip().lower() == search_term.lower():
-            order_data[i] = (desc, qty + pedido_qty)
             item_found_in_order = True
+            if action == "add":
+                order_data[i] = (desc, qty + pedido_qty)
+            elif action == "remove":
+                new_qty = qty - pedido_qty
+                if new_qty <= 0:
+                    order_data.pop(i)  # Elimina de la lista si llega a 0 o menos
+                else:
+                    order_data[i] = (desc, new_qty)
             break
+
     if not item_found_in_order:
-        order_data.append((search_term, pedido_qty))
+        if action == "add":
+            order_data.append((search_term, pedido_qty))
+        elif action == "remove":
+            # No hay nada que quitar
+            return
 
     if update_file(filename, order_data):
         entry_pedido_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
         search()
+
+
+def on_double_click(event):
+    """Copia el ítem al cuadro de 'Nuevo Nombre' para editarlo."""
+    widget = event.widget
+    selected_items = widget.selection()
+    if not selected_items:
+        return
+    item_values = widget.item(selected_items[0], "values")
+    if not item_values:
+        return
+
+    description = item_values[0]
+    entry_edit_item.delete(0, tk.END)
+    entry_edit_item.insert(0, description)
+    entry_edit_item.focus_set()  # Pone el cursor en la caja para escribir rápido
+
+
+def on_triple_click(event):
+    """Copia el ítem al cuadro de 'Crear Nuevo Ítem'."""
+    widget = event.widget
+    selected_items = widget.selection()
+    if not selected_items:
+        return
+    item_values = widget.item(selected_items[0], "values")
+    if not item_values:
+        return
+
+    description = item_values[0]
+    entry_new_item.delete(0, tk.END)
+    entry_new_item.insert(0, description)
+    entry_new_item.focus_set()  # Pone el cursor en la caja para escribir rápido
 
 
 def delete_item():
@@ -1079,6 +1348,21 @@ style.configure(
 style.map(
     "Treeview", background=[("selected", FG_GREEN)], foreground=[("selected", ENTRY_BG)]
 )
+
+# Estilo de Alerta (Rojo) para la Bodega
+style.configure(
+    "Alert.Treeview",
+    background=ENTRY_BG,
+    foreground=FG_GREEN,
+    fieldbackground=ENTRY_BG,
+    borderwidth=0,
+)
+style.map(
+    "Alert.Treeview",
+    background=[("selected", FG_RED)],
+    foreground=[("selected", ENTRY_BG)],
+)
+
 style.configure(
     "Treeview.Heading",
     background=BTN_BG,
@@ -1091,7 +1375,13 @@ style.configure(
     "TCombobox", fieldbackground=ENTRY_BG, background=BTN_BG, foreground=FG_GREEN
 )
 
-# Variables para mostrar cantidades de pedidos
+# Estilo para la lista desplegable del Combobox (Historial Matrix)
+root.option_add("*TCombobox*Listbox.background", ENTRY_BG)
+root.option_add("*TCombobox*Listbox.foreground", FG_GREEN)
+root.option_add("*TCombobox*Listbox.selectBackground", FG_GREEN)
+root.option_add("*TCombobox*Listbox.selectForeground", ENTRY_BG)
+
+# Variables de la UI
 pd_centro_qty_var = tk.StringVar(value="-")
 pd_pr_qty_var = tk.StringVar(value="-")
 pd_st_qty_var = tk.StringVar(value="-")
@@ -1105,7 +1395,7 @@ var_local_stats = tk.StringVar(value="Items: 0 | Unidades: 0 | Sin Stock: 0")
 main_frame = tk.Frame(root, bg=BG_COLOR, padx=20, pady=20)
 main_frame.pack(expand=True, fill=tk.BOTH)
 
-# --- Frame de Básqueda y Opciones ---
+# --- Frame de Búsqueda y Opciones ---
 frame_search_top = tk.Frame(main_frame, bg=BG_COLOR)
 frame_search_top.pack(fill=tk.X, pady=(0, 10))
 
@@ -1113,18 +1403,11 @@ entry_search_container = tk.Frame(
     frame_search_top, relief="solid", borderwidth=1, bg=FG_GREEN
 )
 entry_search_container.pack(side=tk.LEFT, expand=True, fill=tk.X)
-entry_search = tk.Entry(
-    entry_search_container,
-    font=("Helvetica", 12),
-    width=40,
-    relief="flat",
-    borderwidth=0,
-    bg=ENTRY_BG,
-    fg=FG_GREEN,
-    insertbackground=FG_GREEN,
-)
-entry_search.pack(expand=True, fill=tk.BOTH, ipady=4, padx=2, pady=1)
+
+entry_search = ttk.Combobox(entry_search_container, font=("Helvetica", 12), width=40)
+entry_search.pack(expand=True, fill=tk.BOTH, padx=1, pady=1)
 entry_search.bind("<Return>", manual_search)
+entry_search.bind("<<ComboboxSelected>>", manual_search)
 
 button_search = tk.Button(
     frame_search_top,
@@ -1193,7 +1476,7 @@ rb_keywords = tk.Radiobutton(
 rb_keywords.pack(side=tk.LEFT, padx=5)
 rb_advanced = tk.Radiobutton(
     frame_search_options,
-    text="Avanzada (Excluir con -)",
+    text="Avanzada (base, op1 | op2)",
     variable=search_mode_var,
     value="advanced",
     bg=BG_COLOR,
@@ -1334,8 +1617,9 @@ button_format.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg=BG_COLOR)
 frame_results.pack(expand=True, fill=tk.BOTH)
-frame_results.columnconfigure(0, weight=1)
-frame_results.columnconfigure(1, weight=1)
+# El parámetro uniform="group1" obliga a que ambas columnas midan siempre lo mismo (50/50)
+frame_results.columnconfigure(0, weight=1, uniform="group1")
+frame_results.columnconfigure(1, weight=1, uniform="group1")
 frame_results.rowconfigure(1, weight=1)
 frame_results.rowconfigure(2, weight=0)
 
@@ -1350,12 +1634,19 @@ label_bodega.grid(row=0, column=0, pady=(0, 5))
 tree_bodega = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
 tree_bodega.heading("Item", text="Item")
 tree_bodega.heading("Cantidad", text="Cantidad")
-tree_bodega.column("Item", width=250)
-tree_bodega.column("Cantidad", width=80, anchor=tk.CENTER)
+tree_bodega.column(
+    "Item", width=250, stretch=True
+)  # Se estira para ocupar el resto del espacio
+tree_bodega.column(
+    "Cantidad", width=80, minwidth=80, stretch=False, anchor=tk.CENTER
+)  # Fijo en 80px
 tree_bodega.grid(row=1, column=0, sticky="nsew", padx=(0, 10))
 
+# --- FRAME STATS Y PRINT BODEGA ---
+frame_stats_bodega = tk.Frame(frame_results, bg=BG_COLOR)
+frame_stats_bodega.grid(row=2, column=0, sticky="ew", padx=(0, 10), pady=(2, 10))
 lbl_stats_bodega = tk.Label(
-    frame_results,
+    frame_stats_bodega,
     textvariable=var_bodega_stats,
     font=("Helvetica", 9, "bold"),
     bg="#FFFFFF",
@@ -1364,7 +1655,21 @@ lbl_stats_bodega = tk.Label(
     padx=5,
     pady=2,
 )
-lbl_stats_bodega.grid(row=2, column=0, sticky="ew", padx=(0, 10), pady=(2, 10))
+lbl_stats_bodega.pack(side=tk.LEFT, fill=tk.X, expand=True)
+btn_print_bodega = tk.Button(
+    frame_stats_bodega,
+    text="🖨️ Imprimir",
+    command=lambda: print_results("bodega"),
+    font=("Helvetica", 9, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=10,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_print_bodega.pack(side=tk.RIGHT, padx=(5, 0))
 
 label_local = tk.Label(
     frame_results,
@@ -1377,12 +1682,19 @@ label_local.grid(row=0, column=1, pady=(0, 5))
 tree_local = ttk.Treeview(frame_results, columns=("Item", "Cantidad"), show="headings")
 tree_local.heading("Item", text="Item")
 tree_local.heading("Cantidad", text="Cantidad")
-tree_local.column("Item", width=250)
-tree_local.column("Cantidad", width=80, anchor=tk.CENTER)
+tree_local.column(
+    "Item", width=250, stretch=True
+)  # Se estira para ocupar el resto del espacio
+tree_local.column(
+    "Cantidad", width=80, minwidth=80, stretch=False, anchor=tk.CENTER
+)  # Fijo en 80px
 tree_local.grid(row=1, column=1, sticky="nsew", padx=(10, 0))
 
+# --- FRAME STATS Y PRINT LOCAL ---
+frame_stats_local = tk.Frame(frame_results, bg=BG_COLOR)
+frame_stats_local.grid(row=2, column=1, sticky="ew", padx=(10, 0), pady=(2, 10))
 lbl_stats_local = tk.Label(
-    frame_results,
+    frame_stats_local,
     textvariable=var_local_stats,
     font=("Helvetica", 9, "bold"),
     bg="#FFFFFF",
@@ -1391,16 +1703,40 @@ lbl_stats_local = tk.Label(
     padx=5,
     pady=2,
 )
-lbl_stats_local.grid(row=2, column=1, sticky="ew", padx=(10, 0), pady=(2, 10))
+lbl_stats_local.pack(side=tk.LEFT, fill=tk.X, expand=True)
+btn_print_local = tk.Button(
+    frame_stats_local,
+    text="🖨️ Imprimir",
+    command=lambda: print_results("local"),
+    font=("Helvetica", 9, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=10,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_print_local.pack(side=tk.RIGHT, padx=(5, 0))
 
+# --- BINDINGS (Eventos de Clic) ---
 tree_bodega.bind("<<TreeviewSelect>>", on_item_select)
 tree_local.bind("<<TreeviewSelect>>", on_item_select)
 
+tree_bodega.bind("<Double-1>", on_double_click)
+tree_local.bind("<Double-1>", on_double_click)
+
+tree_bodega.bind("<Triple-1>", on_triple_click)
+tree_local.bind("<Triple-1>", on_triple_click)
+
+# --- ETIQUETAS DE COLORES ---
 tree_bodega.tag_configure("not_found", foreground=FG_RED)
 tree_local.tag_configure("not_found", foreground=FG_RED)
+tree_bodega.tag_configure("transfer_alert", foreground=FG_BLUE)
 
 # --- Zonas de Herramientas Inferiores ---
-# Frame de Zona de Peligro (Eliminar) - Conserva su borde rojo en los 4 lados
+
+# 1. Frame de Zona de Peligro (Eliminar)
 frame_danger = tk.Frame(
     main_frame,
     bg=BG_COLOR,
@@ -1434,7 +1770,7 @@ btn_delete_item = tk.Button(
 )
 btn_delete_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-# Frame de Edición de Ítem (Línea verde debajo)
+# 2. Frame de Edición de Ítem (Línea verde debajo)
 border_edit = tk.Frame(main_frame, bg=FG_GREEN, height=1)
 border_edit.pack(fill=tk.X, side=tk.BOTTOM)
 frame_edit = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
@@ -1472,7 +1808,7 @@ btn_edit_item = tk.Button(
 )
 btn_edit_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-# Frame de Creación de Ítem (Línea verde debajo)
+# 3. Frame de Creación de Ítem (Línea verde debajo)
 border_create = tk.Frame(main_frame, bg=FG_GREEN, height=1)
 border_create.pack(fill=tk.X, side=tk.BOTTOM)
 frame_create = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
@@ -1495,7 +1831,6 @@ entry_new_item = tk.Entry(
 )
 entry_new_item.pack(side=tk.LEFT, ipady=2, padx=1, pady=1, expand=True, fill=tk.X)
 entry_new_item.bind("<Return>", create_new_item)
-
 tk.Label(
     frame_create,
     text="Cant. Bodega:",
@@ -1515,7 +1850,6 @@ entry_new_qty_bodega = tk.Entry(
 )
 entry_new_qty_bodega.pack(side=tk.LEFT, ipady=2, padx=1, pady=1)
 entry_new_qty_bodega.bind("<Return>", create_new_item)
-
 btn_create_item = tk.Button(
     frame_create,
     text="Crear Ítem",
@@ -1531,8 +1865,7 @@ btn_create_item = tk.Button(
 )
 btn_create_item.pack(side=tk.LEFT, padx=(10, 0), ipady=2)
 
-
-# Frame de Ajuste (Línea verde debajo)
+# 4. Frame de Ajuste (Línea verde debajo)
 border_adjust = tk.Frame(main_frame, bg=FG_GREEN, height=1)
 border_adjust.pack(fill=tk.X, side=tk.BOTTOM)
 frame_adjust = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
@@ -1555,7 +1888,6 @@ entry_adjust_qty = tk.Entry(
     insertbackground=FG_GREEN,
 )
 entry_adjust_qty.pack(side=tk.LEFT, ipady=2, padx=1, pady=1)
-
 btn_add_bodega = tk.Button(
     frame_adjust,
     text="+ Bodega",
@@ -1613,7 +1945,7 @@ btn_remove_local = tk.Button(
 )
 btn_remove_local.pack(side=tk.LEFT, ipady=2)
 
-# Frame de Traslado (Línea verde debajo)
+# 5. Frame de Traslado (Línea verde debajo)
 border_transfer = tk.Frame(main_frame, bg=FG_GREEN, height=1)
 border_transfer.pack(fill=tk.X, side=tk.BOTTOM)
 frame_transfer = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
@@ -1665,7 +1997,7 @@ btn_to_bodega = tk.Button(
 )
 btn_to_bodega.pack(side=tk.LEFT, ipady=2)
 
-# Frame de Pedidos a Proveedores (Línea verde debajo)
+# 6. Frame de Pedidos a Proveedores (Línea verde debajo)
 border_pedido = tk.Frame(main_frame, bg=FG_GREEN, height=1)
 border_pedido.pack(fill=tk.X, side=tk.BOTTOM)
 frame_pedido = tk.Frame(main_frame, bg=BG_COLOR, pady=10, padx=10)
@@ -1675,7 +2007,7 @@ pedido_input_frame = tk.Frame(frame_pedido, bg=BG_COLOR)
 pedido_input_frame.pack(side=tk.LEFT, fill=tk.Y, padx=(0, 20), anchor="n")
 tk.Label(
     pedido_input_frame,
-    text="Agregar a Pedido:",
+    text="Modificar Pedido:",
     font=("Helvetica", 11, "bold"),
     bg=BG_COLOR,
     fg=FG_RED,
@@ -1698,10 +2030,19 @@ providers_frame.pack(side=tk.LEFT)
 # PD Centro
 pd_centro_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_centro_frame.pack(side=tk.LEFT, padx=(0, 10))
-btn_pd_centro = tk.Button(
+tk.Label(
     pd_centro_frame,
     text="PD Centro",
-    command=lambda: add_to_purchase_order("pdcentro.txt"),
+    font=("Helvetica", 10, "bold"),
+    bg=BG_COLOR,
+    fg=FG_RED,
+).pack(pady=(0, 2))
+btn_frame_centro = tk.Frame(pd_centro_frame, bg=BG_COLOR)
+btn_frame_centro.pack(pady=(0, 2))
+btn_pd_centro_add = tk.Button(
+    btn_frame_centro,
+    text="+",
+    command=lambda: modify_purchase_order("pdcentro.txt", "add"),
     font=("Helvetica", 10, "bold"),
     bg=BTN_BG,
     fg=BTN_FG,
@@ -1711,7 +2052,21 @@ btn_pd_centro = tk.Button(
     activeforeground=BTN_FG,
     borderwidth=1,
 )
-btn_pd_centro.pack(pady=(0, 2))
+btn_pd_centro_add.pack(side=tk.LEFT, padx=(0, 2))
+btn_pd_centro_rem = tk.Button(
+    btn_frame_centro,
+    text="-",
+    command=lambda: modify_purchase_order("pdcentro.txt", "remove"),
+    font=("Helvetica", 10, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=10,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_centro_rem.pack(side=tk.LEFT)
 tk.Label(
     pd_centro_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()
@@ -1730,10 +2085,15 @@ lbl_pd_centro_qty.pack()
 # PD PR
 pd_pr_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_pr_frame.pack(side=tk.LEFT, padx=(0, 10))
-btn_pd_pr = tk.Button(
-    pd_pr_frame,
-    text="PD PR",
-    command=lambda: add_to_purchase_order("pdpr.txt"),
+tk.Label(
+    pd_pr_frame, text="PD PR", font=("Helvetica", 10, "bold"), bg=BG_COLOR, fg=FG_RED
+).pack(pady=(0, 2))
+btn_frame_pr = tk.Frame(pd_pr_frame, bg=BG_COLOR)
+btn_frame_pr.pack(pady=(0, 2))
+btn_pd_pr_add = tk.Button(
+    btn_frame_pr,
+    text="+",
+    command=lambda: modify_purchase_order("pdpr.txt", "add"),
     font=("Helvetica", 10, "bold"),
     bg=BTN_BG,
     fg=BTN_FG,
@@ -1743,7 +2103,21 @@ btn_pd_pr = tk.Button(
     activeforeground=BTN_FG,
     borderwidth=1,
 )
-btn_pd_pr.pack(pady=(0, 2))
+btn_pd_pr_add.pack(side=tk.LEFT, padx=(0, 2))
+btn_pd_pr_rem = tk.Button(
+    btn_frame_pr,
+    text="-",
+    command=lambda: modify_purchase_order("pdpr.txt", "remove"),
+    font=("Helvetica", 10, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=10,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_pr_rem.pack(side=tk.LEFT)
 tk.Label(
     pd_pr_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()
@@ -1762,10 +2136,15 @@ lbl_pd_pr_qty.pack()
 # PD ST
 pd_st_frame = tk.Frame(providers_frame, bg=BG_COLOR)
 pd_st_frame.pack(side=tk.LEFT, padx=(0, 10))
-btn_pd_st = tk.Button(
-    pd_st_frame,
-    text="PD ST",
-    command=lambda: add_to_purchase_order("pdst.txt"),
+tk.Label(
+    pd_st_frame, text="PD ST", font=("Helvetica", 10, "bold"), bg=BG_COLOR, fg=FG_RED
+).pack(pady=(0, 2))
+btn_frame_st = tk.Frame(pd_st_frame, bg=BG_COLOR)
+btn_frame_st.pack(pady=(0, 2))
+btn_pd_st_add = tk.Button(
+    btn_frame_st,
+    text="+",
+    command=lambda: modify_purchase_order("pdst.txt", "add"),
     font=("Helvetica", 10, "bold"),
     bg=BTN_BG,
     fg=BTN_FG,
@@ -1775,7 +2154,21 @@ btn_pd_st = tk.Button(
     activeforeground=BTN_FG,
     borderwidth=1,
 )
-btn_pd_st.pack(pady=(0, 2))
+btn_pd_st_add.pack(side=tk.LEFT, padx=(0, 2))
+btn_pd_st_rem = tk.Button(
+    btn_frame_st,
+    text="-",
+    command=lambda: modify_purchase_order("pdst.txt", "remove"),
+    font=("Helvetica", 10, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=10,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_st_rem.pack(side=tk.LEFT)
 tk.Label(
     pd_st_frame, text="En Pedido:", font=("Helvetica", 8), bg=BG_COLOR, fg=FG_GREEN
 ).pack()

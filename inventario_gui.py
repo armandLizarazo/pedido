@@ -340,13 +340,11 @@ class GestorInventario:
         self.crear_archivos_si_no_existen()
 
     def obtener_stock_dict(self, nombre_archivo):
-        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-        ruta_archivo = os.path.join(script_dir, nombre_archivo)
         stock_dict = {}
-        if not os.path.exists(ruta_archivo):
+        if not os.path.exists(nombre_archivo):
             return stock_dict
         try:
-            with open(ruta_archivo, "r", encoding="utf-8") as f:
+            with open(nombre_archivo, "r", encoding="utf-8") as f:
                 for linea in f:
                     partes = linea.strip().rsplit(" ", 1)
                     if len(partes) == 2:
@@ -360,13 +358,11 @@ class GestorInventario:
             return stock_dict
 
     def obtener_costos_dict(self):
-        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-        ruta_archivo = os.path.join(script_dir, self.archivo_costos)
         costos_dict = {}
-        if not os.path.exists(ruta_archivo):
+        if not os.path.exists(self.archivo_costos):
             return costos_dict
         try:
-            with open(ruta_archivo, "r", encoding="utf-8") as f:
+            with open(self.archivo_costos, "r", encoding="utf-8") as f:
                 for linea in f:
                     partes = linea.strip().rsplit(" ", 1)
                     if len(partes) == 2:
@@ -380,13 +376,11 @@ class GestorInventario:
             return costos_dict
 
     def actualizar_costo(self, descripcion, nuevo_costo):
-        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
-        ruta_archivo = os.path.join(script_dir, self.archivo_costos)
-        if not os.path.exists(ruta_archivo):
-            with open(ruta_archivo, "w", encoding="utf-8") as f:
+        if not os.path.exists(self.archivo_costos):
+            with open(self.archivo_costos, "w", encoding="utf-8") as f:
                 pass
         try:
-            with open(ruta_archivo, "r", encoding="utf-8") as f:
+            with open(self.archivo_costos, "r", encoding="utf-8") as f:
                 lineas = f.readlines()
 
             item_encontrado = False
@@ -402,7 +396,7 @@ class GestorInventario:
             if not item_encontrado:
                 lineas.append(f"    {descripcion_stripped} {nuevo_costo}\n")
 
-            with open(ruta_archivo, "w", encoding="utf-8") as f:
+            with open(self.archivo_costos, "w", encoding="utf-8") as f:
                 f.writelines(lineas)
             return True
         except Exception as e:
@@ -620,6 +614,9 @@ class GestorInventario:
             return False, f"Error al restaurar stock: {e}"
 
     def anular_venta(self, id_venta_anular):
+        id_venta_anular = str(
+            id_venta_anular
+        )  # Forzar a string para evitar errores de tipo
         try:
             try:
                 with open(self.archivo_ventas, "r", encoding="utf-8") as f:
@@ -662,7 +659,7 @@ class GestorInventario:
 
             items_restaurados = []
             venta_encontrada = False
-            changes_made = False
+            lineas_restantes = [header] if has_header else []
 
             for i in range(start_index, len(all_lines)):
                 row = all_lines[i]
@@ -671,10 +668,8 @@ class GestorInventario:
                 if not row[estado_idx]:
                     row[estado_idx] = "Completada"
 
-                if (
-                    row[id_venta_idx] == id_venta_anular
-                    and row[estado_idx] != "Anulada"
-                ):
+                # Si coincide el ID, restauramos el stock y NO agregamos la fila a lineas_restantes (se elimina)
+                if row[id_venta_idx] == id_venta_anular:
                     venta_encontrada = True
                     desc = row[desc_idx]
                     try:
@@ -683,40 +678,41 @@ class GestorInventario:
                         if not success:
                             return False, f"No se pudo restaurar el stock: {msg}"
                         items_restaurados.append(msg)
-                        row[estado_idx] = "Anulada"
-                        changes_made = True
                     except (ValueError, IndexError):
                         return (
                             False,
                             f"Dato inválido en la venta {id_venta_anular}. No se pudo anular.",
                         )
+                else:
+                    lineas_restantes.append(row)
 
             if not venta_encontrada:
                 return False, "No se encontró la venta o ya estaba anulada."
 
-            if changes_made:
-                if not has_header:
-                    new_header = [
-                        "Timestamp",
-                        "ID_Venta",
-                        "Descripcion",
-                        "Cantidad",
-                        "CostoUnitario",
-                        "PrecioUnitario",
-                        "TotalVenta",
-                        "Ganancia",
-                        "ArchivoOrigen",
-                        "Cliente",
-                        "MedioPago",
-                        "Estado",
-                    ]
-                    all_lines.insert(0, new_header)
+            if not has_header:
+                new_header = [
+                    "Timestamp",
+                    "ID_Venta",
+                    "Descripcion",
+                    "Cantidad",
+                    "CostoUnitario",
+                    "PrecioUnitario",
+                    "TotalVenta",
+                    "Ganancia",
+                    "ArchivoOrigen",
+                    "Cliente",
+                    "MedioPago",
+                    "Estado",
+                ]
+                lineas_restantes.insert(0, new_header)
 
-                with open(self.archivo_ventas, "w", encoding="utf-8", newline="") as f:
-                    writer = csv.writer(f)
-                    writer.writerows(all_lines)
+            with open(self.archivo_ventas, "w", encoding="utf-8", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerows(lineas_restantes)
 
-            return True, "Venta anulada con éxito.\n" + "\n".join(items_restaurados)
+            return True, "Venta eliminada por completo con éxito.\n" + "\n".join(
+                items_restaurados
+            )
 
         except Exception as e:
             return False, f"Error inesperado al anular la venta: {e}"
@@ -1721,6 +1717,7 @@ class InventarioGUI:
             "Datafono",
             "Sistecredito",
             "Celya",
+            "Refacil",
         ]
         self.cart_medio_pago_combo = ttk.Combobox(
             payment_add_frame, values=payment_methods, state="readonly"
@@ -2029,6 +2026,9 @@ class InventarioGUI:
 
         self.gestor.actualizar_costo(desc, costo)
 
+        # --- REFRESCAR LA LISTA PARA VER EL NUEVO COSTO INMEDIATAMENTE ---
+        self.populate_inventory_treeview()
+
         item_data = {
             "linea_num": int(linea_num),
             "desc": desc,
@@ -2280,6 +2280,7 @@ class InventarioGUI:
             "Datafono",
             "Sistecredito",
             "Celya",
+            "Refacil",
         ]
         self.filtro_medio_pago_combo = ttk.Combobox(
             linea_1_filtros, values=payment_methods_filter, state="readonly", width=12
@@ -3393,7 +3394,7 @@ class InventarioGUI:
         if not selected:
             return
         item = self.sales_tree.item(selected[0])
-        id_venta = item["values"][1]
+        id_venta = str(item["values"][1])
 
         # Buscar archivo
         filename = f"Factura_POS_{id_venta}.txt"
@@ -3417,11 +3418,11 @@ class InventarioGUI:
         if not selected:
             return
         item = self.sales_tree.item(selected[0])
-        id_venta = item["values"][1]
+        id_venta = str(item["values"][1])  # Forzado a String aquí también
 
         if messagebox.askyesno(
             "Anular Venta",
-            f"¿Desea anular la venta ID {id_venta}?\nEsto devolverá el stock al inventario local.",
+            f"¿Desea anular la venta ID {id_venta}?\nEsto devolverá el stock al inventario local y la eliminará del registro permanentemente.",
         ):
             success, msg = self.gestor.anular_venta(id_venta)
             if success:

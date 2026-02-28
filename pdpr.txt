@@ -1,14 +1,22 @@
     Adaptador Europeo Pasta 5
+    Adaptador Ext Hdmi 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Spliter Audio 1 Hembra 2 Machos Cbl 3
     Adaptador Union Hdmi 3
     Adaptador Universal Travel 2
+    Adaptador Usb Sata 3.0 2
+    Adaptador Usb Sata 3.0 Tc Y Usb 2
+    Audifonos Bluetooth Airpods 3 2
+    Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Azuloscuro 2
+    Audifonos Bluetooth I12 Blanco 2
     Audifonos Bluetooth I12 Gris 1
     Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Gamer A65 1
     Balaca Pantalla Rojo 1
+    Base Holder PC Aluminio 1
     Base Refrigerante 1 Ventilador 1
     Cable Auxiliar 2 A 1 3M 3
     Cable Auxiliar 2 A 1 5M 3
@@ -19,6 +27,8 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi 3M 2
     Cable Microsoft Xbox Caja Negra 2
+    Cable Poder Usb 4
+    Cable Rca 3 A 3 1.5M 3
     Cable Rca 3 A 3 5M 2
     Cable Rj11 3
     Cable Vga 1.5M 3
@@ -29,6 +39,7 @@
     Camara 3 Antenas 2
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 1
+    Camara Web 1080P 1
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 1
@@ -49,12 +60,14 @@
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
+    Mouse Eco 3
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Maxday Aaa X2 30
+    Pilas Recargables Beston Mixta Con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 1

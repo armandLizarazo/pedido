@@ -11396,3 +11396,39 @@ Eliminados: 2
 --- DETALLE ---
 L1: Pacha Samsung A30S S/M 1 ok
 L2: Pacha Xiaomi Redmi Note 8 1 ok
+
+============================================================
+Fecha: 2026-02-22 12:07:06
+Archivo: pdst.txt
+Eliminados: 11
+--- DETALLE ---
+L1: Pacha Apple Iphone 8 Plus Blanco 1 ok
+L2: Pacha Huawei Y9 Prime Full 1 ok
+L3: Pacha Motorola Moto G20 / G30 1 ok
+L4: Pacha Oppo Reno 5 Lite / Reno 6 Lite 1 ok
+L5: Pacha Samsung A03 Core 1 ok
+L6: Pacha Samsung A30S 1 ok
+L7: Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
+L9: Pacha Xiaomi Redmi 12 / Redmi 13 / Note 12R / Poco M6 Pro 5G 2 ok
+L10: Pacha Xiaomi Redmi 13C 2 ok
+L11: Pacha Xiaomi Redmi 15C 2 ok
+L12: Pacha Xiaomi Redmi A5 1 ok
+
+============================================================
+Fecha: 2026-02-22 12:07:06
+Archivo: pdcentro.txt
+Eliminados: 4
+--- DETALLE ---
+L14: Cable Motorola Tc 2 ok
+L15: Cable Motorola V8 4 ok
+L17: Cable Yoyos Tc A Tc 120W 2 ok
+L18: Cargador Belkin Tc 5 ok
+
+============================================================
+Fecha: 2026-02-22 12:07:06
+Archivo: pdxprss.txt
+Eliminados: 3
+--- DETALLE ---
+L75: Silicone Case Apple Iphone 13 Pro Max Negro, 1 ok
+L76: Silicone Case Huawei Honor X5C Lila, 1 ok
+L77: Silicone Case Huawei Honor X8C Negro, 1 ok
