@@ -31,13 +31,15 @@
     Cargador Yoyos 38W Solo Cabeza 5
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor 400 Smart Caballero 3
-    Forro Antichoque Huawei Honor 400 Smart Dama 3
-    Forro Antichoque Huawei Honor X5B Dama 2
+    Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 3
+    Forro Antichoque Huawei Honor 400 Smart / X7D Dama 3
+    Forro Antichoque Huawei Honor X5B / X5B Plus Dama 2
     Forro Antichoque Huawei Honor X5C Caballero 5
     Forro Antichoque Huawei Honor X5C Dama 5
     Forro Antichoque Huawei Honor X6 / X6S Caballero 3
     Forro Antichoque Huawei Honor X6B Caballero 2
+    Forro Antichoque Huawei Honor X7B Caballero 3
+    Forro Antichoque Huawei Honor X7B Dama 4
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -65,6 +67,7 @@
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Tecno Camon 20 / 20 Pro Caballero 2
+    Forro Antichoque Tecno Pova 5 Caballero 2
     Forro Antichoque Tecno Spark 10 / 10C Dama 3
     Forro Antichoque Tecno Spark 30 Pro 4G Caballero 5
     Forro Antichoque Tecno Spark 40 4G Caballero 5
@@ -150,6 +153,7 @@
     Forro Lujo Ventana Samsung A16 Azul 1
     Forro Lujo Ventana Samsung A16 Negro 1
     Forro Lujo Ventana Samsung A26 Azul 1
+    Forro Space Huawei Honor Magic 7 Lite 2
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8d 2
@@ -164,7 +168,8 @@
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
-    Forro Space Samsung A26 2
+    Forro Space Samsung A24 1
+    Forro Space Samsung A34 2
     Forro Space Samsung A71 2
     Forro Space Samsung S25 Fe 1
     Forro Space Tecno Camon 18P 2
@@ -214,18 +219,21 @@
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 200 Lila 1
-    Silicone Case Huawei Honor 400 Smart Fucsia 1
-    Silicone Case Huawei Honor 400 Smart Lila 1
+    Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1
+    Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Fucsia 1
     Silicone Case Huawei Honor Magic 8 Lite Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Morado 1
-    Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor Magic 8 Lite Rojo 1
-    Silicone Case Huawei Honor X5B Amarillo 1
+    Silicone Case Huawei Honor X5B / X5B Plus Amarillo 1
     Silicone Case Huawei Honor X5C Lila 1
     Silicone Case Huawei Honor X5C Negro 1
     Silicone Case Huawei Honor X7A Palorosa 1
+    Silicone Case Huawei Honor X8A Negro 1
+    Silicone Case Huawei Honor X8C Blanco 1
+    Silicone Case Huawei Honor X8C Fucsia 1
+    Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8C Negro 1
     Silicone Case Huawei Honor X8d Amarillo 1
     Silicone Case Huawei Honor X8d Azulrey 1
@@ -298,10 +306,8 @@
     Silicone Case Oppo Reno 13F Rojo 1
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsugn A56 Negro 1
-    Silicone Case Samsung A02S Rosa 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A05 Fucsia 1
     Silicone Case Samsung A06 Amarillo 1
     Silicone Case Samsung A06 Azulrey 1
     Silicone Case Samsung A06 Negro 1
@@ -309,7 +315,8 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 4G Rojo 1
     Silicone Case Samsung A26 Verde Biche 1
-    Silicone Case Samsung A30S / A50 Negro 1
+    Silicone Case Samsung A35 Negro 1
+    Silicone Case Samsung A36 Lila 1
     Silicone Case Samsung A55 Lila 1
     Silicone Case Samsung A56 Lila 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
