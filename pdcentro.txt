@@ -31,17 +31,17 @@
     Cargador Yoyos 38W Solo Cabeza 5
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5
-    Forro Antichoque Huawei Honor Magic 7 Lite Dama 2
+    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok
+    Forro Antichoque Huawei Honor Magic 7 Lite Dama 2 ok
     Forro Antichoque Huawei Honor X5C Caballero 5
     Forro Antichoque Huawei Honor X5C Dama 5
-    Forro Antichoque Huawei Honor X6 / X6S Caballero 2
-    Forro Antichoque Huawei Honor X6 / X6S Dama 3
+    Forro Antichoque Huawei Honor X6 / X6S Caballero 2 ok
+    Forro Antichoque Huawei Honor X6 / X6S Dama 3 ok
     Forro Antichoque Huawei Honor X6B Caballero 2
-    Forro Antichoque Huawei Honor X6C Caballero 5
+    Forro Antichoque Huawei Honor X6C Caballero 5 ok
     Forro Antichoque Huawei Honor X6C Dama 5
-    Forro Antichoque Huawei Honor X7B Caballero 3
-    Forro Antichoque Huawei Honor X7B Dama 4
+    Forro Antichoque Huawei Honor X7B Caballero 3 ok
+    Forro Antichoque Huawei Honor X7B Dama 4 ok
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -80,17 +80,17 @@
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 10C Dama 2
     Forro Antichoque Xiaomi Redmi 13 Dama 3
-    Forro Antichoque Xiaomi Redmi 13C Dama 3
-    Forro Antichoque Xiaomi Redmi 14C Dama 5
-    Forro Antichoque Xiaomi Redmi 15 Caballero 5
-    Forro Antichoque Xiaomi Redmi 15 Dama 5
+    Forro Antichoque Xiaomi Redmi 13C Dama 3 ok
+    Forro Antichoque Xiaomi Redmi 14C Dama 2 ok
+    Forro Antichoque Xiaomi Redmi 15 Caballero 5 ok
+    Forro Antichoque Xiaomi Redmi 15 Dama 4 ok
     Forro Antichoque Xiaomi Redmi 15C Caballero 2
     Forro Antichoque Xiaomi Redmi 9C / 10A Dama 2
     Forro Antichoque Xiaomi Redmi 9T Dama 3
-    Forro Antichoque Xiaomi Redmi A1 / A2 Dama 4
-    Forro Antichoque Xiaomi Redmi A3 Dama 2
-    Forro Antichoque Xiaomi Redmi Note 13 4G Dama 2
-    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 2
+    Forro Antichoque Xiaomi Redmi A1 / A2 Dama 4 ok
+    Forro Antichoque Xiaomi Redmi A3 Dama 2 ok
+    Forro Antichoque Xiaomi Redmi Note 13 4G Dama 2 ok
+    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 2 ok
     Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5
     Forro Antichoque Xiaomi Redmi Note 15 4G Caballero 5
@@ -124,9 +124,9 @@
     Forro Armadura Xiaomi Redmi 14C Rojo 1
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
-    Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1
-    Forro Armadura Xiaomi Redmi A3 Negro 1
-    Forro Armadura Xiaomi Redmi A3 Rojo 1
+    Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1 ok
+    Forro Armadura Xiaomi Redmi A3 Negro 1 ok
+    Forro Armadura Xiaomi Redmi A3 Rojo 1 ok
     Forro Armadura Xiaomi Redmi A5 Negro 1
     Forro Armadura Xiaomi Redmi A5 Rojo 1
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 1
