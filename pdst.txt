@@ -1,12 +1,7 @@
-    Pacha Huawei Honor X8A / Honor 90 Lite 1
-    Pacha Motorola Moto E13 1
-    Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1
-    Pacha Motorola Moto G20 / G30 1
-    Pacha Samsung A02 / A12 / M12 1
-    Pacha Samsung A13 / M13 / M23 2
-    Pacha Tecno / Infinix Camon 18P / 19 1
-    Pacha Tecno Spark Go 2 2
-    Pacha Vivo Y19S / Y38 1
-    Pacha Xiaomi Redmi A3 / Poco C61 1
-    Pacha Xiaomi Redmi Note 10 Pro 1
-    Pacha Xiaomi Redmi Note 12 1
+    Bateria Xiaomi Redmi Note 8 1
+    Botones Xiaomi Redmi Note 8 1
+    Control Gamer Sony Ps2 1
+    Pacha Huawei Honor X6 / X6S 1
+    Pacha Oppo Reno 5 Lite / Reno 6 Lite 1
+    Pacha Samsung A21S 1
+    Tapa Xiaomi Redmi Note 8 Negro 2

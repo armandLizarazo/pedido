@@ -1,5 +1,32 @@
 [
     {
+        "fecha": "2026-03-06 06:51:40",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Vivo Y21 / Y21S 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Samsung A22 4G Amoled 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Xiaomi Redmi Note 14 4G C/m Amoled 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
+        "fecha": "2026-03-06 06:51:40",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [],
+        "total_conservados": 429
+    },
+    {
         "fecha": "2026-02-22 12:07:06",
         "archivo": "pdxprss.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdxprss.txt",

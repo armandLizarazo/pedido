@@ -11432,3 +11432,18 @@ Eliminados: 3
 L75: Silicone Case Apple Iphone 13 Pro Max Negro, 1 ok
 L76: Silicone Case Huawei Honor X5C Lila, 1 ok
 L77: Silicone Case Huawei Honor X8C Negro, 1 ok
+
+============================================================
+Fecha: 2026-03-06 06:51:40
+Archivo: pdcentro.txt
+Eliminados: 0
+--- DETALLE ---
+
+============================================================
+Fecha: 2026-03-06 06:51:40
+Archivo: pdst.txt
+Eliminados: 3
+--- DETALLE ---
+L1: Pacha Vivo Y21 / Y21S 1 ok
+L2: Pacha Samsung A22 4G Amoled 1 ok
+L3: Pacha Xiaomi Redmi Note 14 4G C/m Amoled 1 ok
