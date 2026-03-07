@@ -8,13 +8,7 @@
     Adaptador Usb Sata 3.0 2
     Adaptador Usb Sata 3.0 Tc Y Usb 2
     Audifonos Bluetooth Airpods 3 2
-    Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth I12 Azuloscuro 2
-    Audifonos Bluetooth I12 Blanco 2
-    Audifonos Bluetooth I12 Gris 1
-    Audifonos Bluetooth M25 2
     Audifonos Bluetooth Pro 5S Negro 1
-    Balaca Gamer A65 1
     Balaca Pantalla Rojo 1
     Base Holder PC Aluminio 1
     Base Refrigerante 1 Ventilador 1
@@ -41,16 +35,16 @@
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 1
     Camara Web 1080P 1
-    Cargador Cabeza Cubo Eco 10
+    Cargador Cabeza Cubo Eco 3 ok
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 1
     Cargador Pc Lenovo 65W Plug 1
-    Consola Game Stick 3
     Consola Sup Con Control Rosa 1
-    Consola Sup X7M 1
+    Consola Sup X7M 1 ok
+    Consola Game Stick + Tv Stick Caja Roja 1 ok
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Sony Ps2 3
+    Control Gamer Sony Ps2 2 ok
     Control Gamer Sony Ps2 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
     Estabilizador 1800W 1
@@ -71,9 +65,9 @@
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Aa X 4 Con Cargador 3
+    Pilas Recargables Beston Aa X 4 Con Cargador 2 ok
     Pilas Recargables Beston Aaa Con Cargador 3
-    Pilas Recargables Beston Mixta Con Cargador 3
+    Pilas Recargables Beston Mixta Con Cargador 2 ok
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 1
