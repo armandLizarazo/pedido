@@ -19,7 +19,7 @@
     Cable Auxiliar 1 A 1 3 Vias Cja 2
     Cable Caterpillar Tc 5
     Cable Hdmi 1.5M Eco 3
-    Cable Tc A Tc Eco 3
+    Cable Tc A Tc Eco 3 ok
     Cable Yoyos Tc A Tc 120W 2
     Cargador Apple 25W Con Cable 2
     Cargador Fuente 360 Slim 1
@@ -32,10 +32,10 @@
     Cargador Yoyos 38W Solo Cabeza 5
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor X5C Caballero 5
-    Forro Antichoque Huawei Honor X5C Dama 5
-    Forro Antichoque Huawei Honor X6B Caballero 2
-    Forro Antichoque Huawei Honor X6C Dama 5
+    Forro Antichoque Huawei Honor X5C Caballero 5 ok
+    Forro Antichoque Huawei Honor X5C Dama 5 ok
+    Forro Antichoque Huawei Honor X6B Caballero 2 ok
+    Forro Antichoque Huawei Honor X6C Dama 5 ok
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -138,7 +138,7 @@
     Forro Lujo Ventana Samsung A16 Azul 1
     Forro Lujo Ventana Samsung A16 Negro 1
     Forro Lujo Ventana Samsung A26 Azul 1
-    Forro Space Huawei Honor Magic 7 Lite 2
+    Forro Space Huawei Honor Magic 7 Lite 2 ok
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8d 2
@@ -158,7 +158,7 @@
     Forro Space Tecno Camon 18P 2
     Forro Space Tecno Pova 7 2
     Forro Space Tecno Spark 40 Pro 1
-    Forro Space Tecno Spark Go 2 / Smart 10 2
+    Forro Space Tecno Spark Go 2 / Smart 10 ok
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y38 2
@@ -192,19 +192,19 @@
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 200 Lila 1
-    Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1
+    Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1 ok
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Fucsia 1
     Silicone Case Huawei Honor Magic 8 Lite Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Morado 1
-    Silicone Case Huawei Honor X5B Amarillo 1
+    Silicone Case Huawei Honor X5B Amarillo 1 ok
     Silicone Case Huawei Honor X5C Lila 1
     Silicone Case Huawei Honor X5C Negro 1
-    Silicone Case Huawei Honor X7A Palorosa 1
+    Silicone Case Huawei Honor X7A Palorosa 1 ok
     Silicone Case Huawei Honor X8A Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
-    Silicone Case Huawei Honor X8C Fucsia 1
+    Silicone Case Huawei Honor X8C Fucsia 1 ok
     Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8C Negro 1
     Silicone Case Huawei Honor X8d Amarillo 1
