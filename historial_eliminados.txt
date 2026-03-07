@@ -11447,3 +11447,63 @@ Eliminados: 3
 L1: Pacha Vivo Y21 / Y21S 1 ok
 L2: Pacha Samsung A22 4G Amoled 1 ok
 L3: Pacha Xiaomi Redmi Note 14 4G C/m Amoled 1 ok
+
+============================================================
+Fecha: 2026-03-06 15:44:43
+Archivo: pdst.txt
+Eliminados: 8
+--- DETALLE ---
+L1: Bateria Xiaomi Redmi Note 8 1 ok
+L2: Botones Xiaomi Redmi Note 8 1 ok
+L3: Pacha Huawei Honor X6 / X6S 1 ok
+L4: Pacha Oppo Reno 5 Lite / Reno 6 Lite 1 ok
+L5: Botones Samsung A21S 1 ok
+L6: Pacha Samsung A21S 1 ok
+L7: Tapa Xiaomi Redmi Note 8 Negro 1 ok
+L8: Pacha Samsung A51 Amoled 1 ok
+
+============================================================
+Fecha: 2026-03-06 15:44:43
+Archivo: pdpr.txt
+Eliminados: 2
+--- DETALLE ---
+L55: Control Tv Tv Box 3 ok
+L56: Control Tv Universal 5 ok
+
+============================================================
+Fecha: 2026-03-06 15:44:43
+Archivo: pdcentro.txt
+Eliminados: 32
+--- DETALLE ---
+L34: Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok
+L35: Forro Antichoque Pin Huawei Honor Magic 7 Lite 2 ok
+L38: Forro Antichoque Huawei Honor X6 / X6S Caballero 2 ok
+L39: Forro Antichoque Huawei Honor X6 / X6S Dama 2 ok
+L40: Forro Antichoque Pin Huawei Honor X6 / X6S 1 ok
+L42: Forro Antichoque Huawei Honor X6C Caballero 5 ok
+L44: Forro Antichoque Huawei Honor X7B Caballero 3 ok
+L45: Forro Antichoque Pin Huawei Honor X7B 2 ok
+L46: Forro Antichoque Agua Huawei Honor X7B 2 ok
+L85: Forro Antichoque Xiaomi Redmi 13C Dama 2 ok
+L86: Forro Antichoque Pin Xiaomi Redmi 13C 1 ok
+L87: Forro Antichoque Xiaomi Redmi 14C Dama 2 ok
+L88: Forro Antichoque Xiaomi Redmi 15 Caballero 5 ok
+L89: Forro Antichoque Xiaomi Redmi 15 Dama 4 ok
+L93: Forro Antichoque Xiaomi Redmi A1 / A2 Dama 4 ok
+L94: Forro Antichoque Xiaomi Redmi A3 Dama 2 ok
+L95: Forro Antichoque Xiaomi Redmi Note 13 4G Dama 2 ok
+L96: Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 2 ok
+L106: Forro Armadura Huawei Honor X6C Negro 1 ok
+L107: Forro Armadura Huawei Honor X6C Rojo 1 ok
+L129: Forro Armadura Xiaomi Redmi 14C Verde 1 ok
+L132: Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1 ok
+L133: Forro Armadura Xiaomi Redmi A3 Negro 1 ok
+L134: Forro Armadura Xiaomi Redmi A3 Rojo 1 ok
+L135: Forro Armadura Xiaomi Redmi A5 Azul 1 ok
+L136: Forro Armadura Xiaomi Redmi A5 Verde 1 ok
+L153: Forro Lujo Apple IPhone 13 Pro Max Cafe 2 ok
+L204: Mouse Eco 3 ok
+L207: Proyector Astronauta Conejo 1 ok
+L413: Vaper Asokit 12000 Puffs 1 ok
+L414: Vaper Kokin 10000 Puffs 2 ok
+L432: Vidrio Blindado Xiaomi Redmi 15 10 ok

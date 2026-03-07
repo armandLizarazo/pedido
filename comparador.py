@@ -266,20 +266,16 @@ def check_match(description, search_term, mode):
     desc_lower = description.strip().lower()
     term_lower = search_term.lower()
 
-    if mode == "phrase":  # Frase Exacta (Comportamiento original)
+    if mode == "phrase":  # Frase Exacta
         return term_lower in desc_lower
 
-    elif (
-        mode == "keywords"
-    ):  # Palabras Clave (Todas las palabras deben estar, cualquier orden)
+    elif mode == "keywords":  # Palabras Clave
         words = term_lower.split()
         if not words:
             return True
         return all(word in desc_lower for word in words)
 
-    elif (
-        mode == "advanced"
-    ):  # Avanzada (Soporta base obligatoria, exclusión con - y OR con |)
+    elif mode == "advanced":  # Avanzada
         # 1. Separar por coma (si existe) para obtener la base obligatoria
         if "," in term_lower:
             base_str, or_str = term_lower.split(",", 1)
@@ -291,8 +287,16 @@ def check_match(description, search_term, mode):
             base_parts = base_str.split()
             for part in base_parts:
                 if part.startswith("-") and len(part) > 1:
-                    if part[1:] in desc_lower:
-                        return False
+                    exclude_word = part[1:]
+                    # Lógica inteligente: Si solo son letras, exige palabra completa (\b)
+                    if exclude_word.isalpha():
+                        if re.search(
+                            r"\b" + re.escape(exclude_word) + r"\b", desc_lower
+                        ):
+                            return False
+                    else:
+                        if exclude_word in desc_lower:
+                            return False
                 else:
                     if part not in desc_lower:
                         return False
@@ -311,9 +315,18 @@ def check_match(description, search_term, mode):
             match_group = True
             for part in parts:
                 if part.startswith("-") and len(part) > 1:
-                    if part[1:] in desc_lower:
-                        match_group = False
-                        break
+                    exclude_word = part[1:]
+                    # Lógica inteligente: Si solo son letras, exige palabra completa (\b)
+                    if exclude_word.isalpha():
+                        if re.search(
+                            r"\b" + re.escape(exclude_word) + r"\b", desc_lower
+                        ):
+                            match_group = False
+                            break
+                    else:
+                        if exclude_word in desc_lower:
+                            match_group = False
+                            break
                 else:
                     if part not in desc_lower:
                         match_group = False

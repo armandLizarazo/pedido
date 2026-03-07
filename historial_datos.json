@@ -1,5 +1,197 @@
 [
     {
+        "fecha": "2026-03-06 15:44:43",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 34,
+                "contenido": "Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok"
+            },
+            {
+                "linea": 35,
+                "contenido": "Forro Antichoque Pin Huawei Honor Magic 7 Lite 2 ok"
+            },
+            {
+                "linea": 38,
+                "contenido": "Forro Antichoque Huawei Honor X6 / X6S Caballero 2 ok"
+            },
+            {
+                "linea": 39,
+                "contenido": "Forro Antichoque Huawei Honor X6 / X6S Dama 2 ok"
+            },
+            {
+                "linea": 40,
+                "contenido": "Forro Antichoque Pin Huawei Honor X6 / X6S 1 ok"
+            },
+            {
+                "linea": 42,
+                "contenido": "Forro Antichoque Huawei Honor X6C Caballero 5 ok"
+            },
+            {
+                "linea": 44,
+                "contenido": "Forro Antichoque Huawei Honor X7B Caballero 3 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Forro Antichoque Pin Huawei Honor X7B 2 ok"
+            },
+            {
+                "linea": 46,
+                "contenido": "Forro Antichoque Agua Huawei Honor X7B 2 ok"
+            },
+            {
+                "linea": 85,
+                "contenido": "Forro Antichoque Xiaomi Redmi 13C Dama 2 ok"
+            },
+            {
+                "linea": 86,
+                "contenido": "Forro Antichoque Pin Xiaomi Redmi 13C 1 ok"
+            },
+            {
+                "linea": 87,
+                "contenido": "Forro Antichoque Xiaomi Redmi 14C Dama 2 ok"
+            },
+            {
+                "linea": 88,
+                "contenido": "Forro Antichoque Xiaomi Redmi 15 Caballero 5 ok"
+            },
+            {
+                "linea": 89,
+                "contenido": "Forro Antichoque Xiaomi Redmi 15 Dama 4 ok"
+            },
+            {
+                "linea": 93,
+                "contenido": "Forro Antichoque Xiaomi Redmi A1 / A2 Dama 4 ok"
+            },
+            {
+                "linea": 94,
+                "contenido": "Forro Antichoque Xiaomi Redmi A3 Dama 2 ok"
+            },
+            {
+                "linea": 95,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 13 4G Dama 2 ok"
+            },
+            {
+                "linea": 96,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 2 ok"
+            },
+            {
+                "linea": 106,
+                "contenido": "Forro Armadura Huawei Honor X6C Negro 1 ok"
+            },
+            {
+                "linea": 107,
+                "contenido": "Forro Armadura Huawei Honor X6C Rojo 1 ok"
+            },
+            {
+                "linea": 129,
+                "contenido": "Forro Armadura Xiaomi Redmi 14C Verde 1 ok"
+            },
+            {
+                "linea": 132,
+                "contenido": "Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1 ok"
+            },
+            {
+                "linea": 133,
+                "contenido": "Forro Armadura Xiaomi Redmi A3 Negro 1 ok"
+            },
+            {
+                "linea": 134,
+                "contenido": "Forro Armadura Xiaomi Redmi A3 Rojo 1 ok"
+            },
+            {
+                "linea": 135,
+                "contenido": "Forro Armadura Xiaomi Redmi A5 Azul 1 ok"
+            },
+            {
+                "linea": 136,
+                "contenido": "Forro Armadura Xiaomi Redmi A5 Verde 1 ok"
+            },
+            {
+                "linea": 153,
+                "contenido": "Forro Lujo Apple IPhone 13 Pro Max Cafe 2 ok"
+            },
+            {
+                "linea": 204,
+                "contenido": "Mouse Eco 3 ok"
+            },
+            {
+                "linea": 207,
+                "contenido": "Proyector Astronauta Conejo 1 ok"
+            },
+            {
+                "linea": 413,
+                "contenido": "Vaper Asokit 12000 Puffs 1 ok"
+            },
+            {
+                "linea": 414,
+                "contenido": "Vaper Kokin 10000 Puffs 2 ok"
+            },
+            {
+                "linea": 432,
+                "contenido": "Vidrio Blindado Xiaomi Redmi 15 10 ok"
+            }
+        ],
+        "total_conservados": 417
+    },
+    {
+        "fecha": "2026-03-06 15:44:43",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 55,
+                "contenido": "Control Tv Tv Box 3 ok"
+            },
+            {
+                "linea": 56,
+                "contenido": "Control Tv Universal 5 ok"
+            }
+        ],
+        "total_conservados": 87
+    },
+    {
+        "fecha": "2026-03-06 15:44:43",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Bateria Xiaomi Redmi Note 8 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Botones Xiaomi Redmi Note 8 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Huawei Honor X6 / X6S 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Oppo Reno 5 Lite / Reno 6 Lite 1 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Botones Samsung A21S 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Samsung A21S 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Tapa Xiaomi Redmi Note 8 Negro 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Samsung A51 Amoled 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-03-06 06:51:40",
         "archivo": "pdst.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",

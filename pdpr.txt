@@ -18,6 +18,7 @@
     Balaca Pantalla Rojo 1
     Base Holder PC Aluminio 1
     Base Refrigerante 1 Ventilador 1
+    Cable Auxiliar 1 A 1 Microfono 3
     Cable Auxiliar 2 A 1 3M 3
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
@@ -52,8 +53,6 @@
     Control Gamer Sony Ps2 3
     Control Gamer Sony Ps2 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
-    Control Tv Tv Box 3 ok
-    Control Tv Universal 5 ok
     Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
@@ -61,7 +60,10 @@
     Gramera Joyeria 2
     Lonchera Carro 1
     Maleta Computador 2
+    Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
+    Memoria Musica Vallenata Reliquias Vallenatas 1
+    Microfono Bafle Eco 1
     Mouse Eco 3
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
@@ -69,7 +71,9 @@
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Mixta Con Cargador 2
+    Pilas Recargables Beston Aa X 4 Con Cargador 3
+    Pilas Recargables Beston Aaa Con Cargador 3
+    Pilas Recargables Beston Mixta Con Cargador 3
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 1

@@ -1,5 +1,6 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
+    Adaptador Otg Tc Usb 5
     Audifonos Bluetooth Apple Pro 2da Generacion 2
     Audifonos Bluetooth Carrying Treasure Pantalla Blanco 1
     Audifonos Bluetooth Carrying Treasure Pantalla Negro 1
@@ -31,19 +32,10 @@
     Cargador Yoyos 38W Solo Cabeza 5
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor Magic 7 Lite Caballero 5 ok
-    Forro Antichoque Pin Huawei Honor Magic 7 Lite 2 ok
     Forro Antichoque Huawei Honor X5C Caballero 5
     Forro Antichoque Huawei Honor X5C Dama 5
-    Forro Antichoque Huawei Honor X6 / X6S Caballero 2 ok
-    Forro Antichoque Huawei Honor X6 / X6S Dama 2 ok
-    Forro Antichoque Pin Huawei Honor X6 / X6S 1 ok
     Forro Antichoque Huawei Honor X6B Caballero 2
-    Forro Antichoque Huawei Honor X6C Caballero 5 ok
     Forro Antichoque Huawei Honor X6C Dama 5
-    Forro Antichoque Huawei Honor X7B Caballero 3 ok
-    Forro Antichoque Pin Huawei Honor X7B 2 ok
-    Forro Antichoque Agua Huawei Honor X7B 2 ok
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -82,18 +74,9 @@
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 10C Dama 2
     Forro Antichoque Xiaomi Redmi 13 Dama 3
-    Forro Antichoque Xiaomi Redmi 13C Dama 2 ok
-    Forro Antichoque Pin Xiaomi Redmi 13C 1 ok
-    Forro Antichoque Xiaomi Redmi 14C Dama 2 ok
-    Forro Antichoque Xiaomi Redmi 15 Caballero 5 ok
-    Forro Antichoque Xiaomi Redmi 15 Dama 4 ok
     Forro Antichoque Xiaomi Redmi 15C Caballero 2
     Forro Antichoque Xiaomi Redmi 9C / 10A Dama 2
     Forro Antichoque Xiaomi Redmi 9T Dama 3
-    Forro Antichoque Xiaomi Redmi A1 / A2 Dama 4 ok
-    Forro Antichoque Xiaomi Redmi A3 Dama 2 ok
-    Forro Antichoque Xiaomi Redmi Note 13 4G Dama 2 ok
-    Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 2 ok
     Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5
     Forro Antichoque Xiaomi Redmi Note 15 4G Caballero 5
@@ -103,8 +86,6 @@
     Forro Antichoque Xiaomi Redmi Note 9 Caballero 2
     Forro Armadura Huawei Honor Magic 7 Lite Negro 1
     Forro Armadura Huawei Honor Magic 7 Lite Rojo 1
-    Forro Armadura Huawei Honor X6C Negro 1 ok
-    Forro Armadura Huawei Honor X6C Rojo 1 ok
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
     Forro Armadura Huawei Honor X8d Negro 1
@@ -124,16 +105,12 @@
     Forro Armadura Tecno Pova 7 Negro 1
     Forro Armadura Tecno Pova 7 Rojo 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
+    Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 1
+    Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Vinotinto 1
     Forro Armadura Xiaomi Mi 11T / M 11T Pro Negro 1
     Forro Armadura Xiaomi Redmi 14C Negro 1
-    Forro Armadura Xiaomi Redmi 14C Verde 1 ok
     Forro Armadura Xiaomi Redmi 15 Negro 1
     Forro Armadura Xiaomi Redmi 15 Rojo 1
-    Forro Armadura Xiaomi Redmi A1 / A2 Rojo 1 ok
-    Forro Armadura Xiaomi Redmi A3 Negro 1 ok
-    Forro Armadura Xiaomi Redmi A3 Rojo 1 ok
-    Forro Armadura Xiaomi Redmi A5 Azul 1 ok
-    Forro Armadura Xiaomi Redmi A5 Verde 1 ok
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 10 Pro Negro 1
@@ -150,7 +127,6 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cable Con Puntas 5
     Forro Cable Sin Puntas 5
-    Forro Lujo Apple IPhone 13 Pro Max Cafe 2 ok
     Forro Lujo Humo Samsung A16 Negro 2
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Samsung A06 Morado 1
@@ -201,10 +177,9 @@
     Memoria Micro Sandisk 64Gb 1
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
-    Mouse Eco 3 ok
     Parlante Ktf-1645 2
     Parlante Mini Speaker Eco 2
-    Proyector Astronauta Conejo 1 ok
+    Pilas Recargables Maxday Aa X4 Con Cargador 3
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Fucsia 1
@@ -355,8 +330,8 @@
     Silicone Case Vivo V25 Pro Rojo 1
     Silicone Case Vivo V25E Azuloscuro 1
     Silicone Case Vivo V40 Lite Amarillo 1
-    Silicone Case Vivo Y15 / Y01 Amarillo 1
-    Silicone Case Vivo Y15 / Y01 Fucsia 1
+    Silicone Case Vivo Y01 / Y15 Amarillo 1
+    Silicone Case Vivo Y01 / Y15 Fucsia 1
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y27 Negro 1
     Silicone Case Vivo Y35 Lila 1
@@ -410,8 +385,6 @@
     Soporte Cuellera Celular Tutoriales 1
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
-    Vaper Asokit 12000 Puffs 1 ok
-    Vaper Kokin 10000 Puffs 2 ok
     Vidrio 5D Huawei Honor X7A 5
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei P30 Lite 5
@@ -429,7 +402,6 @@
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Tecno Spark 30C 11
-    Vidrio Blindado Xiaomi Redmi 15 10 ok
     Vidrio Camara Xiaomi Redmi 13 15
     Vidrio Camara Xiaomi Redmi 13C 15
     Vidrio Camara Zte Blade A75 1
