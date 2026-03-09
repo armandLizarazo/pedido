@@ -11507,3 +11507,47 @@ L207: Proyector Astronauta Conejo 1 ok
 L413: Vaper Asokit 12000 Puffs 1 ok
 L414: Vaper Kokin 10000 Puffs 2 ok
 L432: Vidrio Blindado Xiaomi Redmi 15 10 ok
+
+============================================================
+Fecha: 2026-03-07 14:23:30
+Archivo: pdst.txt
+Eliminados: 1
+--- DETALLE ---
+L1: Pacha Samsung A54 Incell C/m 1 ok
+
+============================================================
+Fecha: 2026-03-07 14:23:30
+Archivo: pdpr.txt
+Eliminados: 7
+--- DETALLE ---
+L8: Adaptador Europeo Redondo 3 ok
+L39: Cargador Cabeza Cubo Eco 3 ok
+L44: Consola Sup X7M 1 ok
+L45: Consola Game Stick + Tv Stick Caja Roja 1 ok
+L48: Control Gamer Sony Ps2 2 ok
+L69: Pilas Recargables Beston Aa X 4 Con Cargador 2 ok
+L71: Pilas Recargables Beston Mixta Con Cargador 2 ok
+
+============================================================
+Fecha: 2026-03-07 14:23:30
+Archivo: pdcentro.txt
+Eliminados: 18
+--- DETALLE ---
+L4: Audifonos Bluetooth Apple Pro 2da Generacion 1 ok
+L7: Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok
+L9: Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+L22: Cable Tc A Tc Eco 2 ok
+L35: Forro Antichoque Huawei Honor X5C Caballero 5 ok
+L36: Forro Antichoque Huawei Honor X5C Dama 5 ok
+L37: Forro Antichoque Huawei Honor X6B Caballero 2 ok
+L38: Forro Antichoque Huawei Honor X6C Dama 5 ok
+L141: Forro Space Huawei Honor Magic 7 Lite 2 ok
+L158: Forro Space Samsung A21S 1 ok
+L162: Forro Space Tecno Spark Go 2 / Smart 10 1 ok
+L172: Guantes Gamer 10 ok
+L184: Pilas Recargables Sony Aa X4 Con Cargador 2 ok
+L185: Pilas Recargables Sony Mixta Con Cargador 1 ok
+L198: Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1 ok
+L204: Silicone Case Huawei Honor X5B Amarillo 1 ok
+L207: Silicone Case Huawei Honor X7A Palorosa 1 ok
+L210: Silicone Case Huawei Honor X8C Fucsia 1 ok

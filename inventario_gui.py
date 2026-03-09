@@ -336,6 +336,7 @@ class GestorInventario:
         self.archivo_inventario = archivo_inventario or "bodegac.txt"
         self.archivo_ventas = "registro_ventas.csv"
         self.archivo_costos = "dbcst.txt"
+        self.archivo_clientes = "clientes.csv"  # --- NUEVO: Archivo de clientes ---
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
@@ -535,8 +536,50 @@ class GestorInventario:
                         "Estado",
                     ]
                 )
+        # --- NUEVO: Crear archivo de clientes si no existe ---
+        if not os.path.exists(self.archivo_clientes):
+            with open(self.archivo_clientes, "w", encoding="utf-8", newline="") as f:
+                writer = csv.writer(f)
+                writer.writerow(["Nombre", "Contacto"])
+
         if not os.path.exists(self.directorio_facturas):
             os.makedirs(self.directorio_facturas)
+
+    # --- NUEVAS FUNCIONES PARA CLIENTES ---
+    def obtener_clientes(self):
+        clientes = {}
+        try:
+            with open(self.archivo_clientes, "r", encoding="utf-8") as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    if row["Nombre"]:
+                        clientes[row["Nombre"]] = row.get("Contacto", "")
+            return clientes
+        except FileNotFoundError:
+            return {}
+
+    def guardar_cliente(self, nombre, contacto):
+        nombre = nombre.strip()
+        contacto = contacto.strip()
+        if not nombre or nombre.lower() == "cliente general":
+            return
+
+        clientes = self.obtener_clientes()
+        # Actualizar solo si es un cliente nuevo o si su contacto cambió
+        if nombre not in clientes or clientes[nombre] != contacto:
+            clientes[nombre] = contacto
+            try:
+                with open(
+                    self.archivo_clientes, "w", encoding="utf-8", newline=""
+                ) as f:
+                    writer = csv.writer(f)
+                    writer.writerow(["Nombre", "Contacto"])
+                    for n, c in clientes.items():
+                        writer.writerow([n, c])
+            except Exception as e:
+                print(f"Error guardando cliente: {e}")
+
+    # --- FIN FUNCIONES PARA CLIENTES ---
 
     def procesar_item_venta(
         self, id_venta, timestamp, item_details, cliente, medio_pago
@@ -1153,6 +1196,10 @@ class InventarioGUI:
         self.conteo_actual_caja = {}
         self.historial_conteos_data = []
 
+        # Variables para autocompletado de clientes
+        self.dict_clientes = {}
+        self.nombres_clientes = []
+
         # --- VARIABLES DE SEGURIDAD ---
         self.is_admin = False
         self.admin_pin = "1234"  # PIN por defecto (puedes cambiarlo aquí)
@@ -1699,9 +1746,13 @@ class InventarioGUI:
             cart_items_frame, text="X", command=self._cart_remove_item, width=2
         ).pack(side=tk.RIGHT, anchor="n")
 
+        # --- NUEVO: AUTOCOMPLETADO CLIENTES ---
         ttk.Label(client_frame, text="Nombre:").grid(row=0, column=0, sticky="w")
-        self.cart_cliente_entry = ttk.Entry(client_frame)
-        self.cart_cliente_entry.grid(row=0, column=1, sticky="ew")
+        self.cart_cliente_combo = ttk.Combobox(client_frame)
+        self.cart_cliente_combo.grid(row=0, column=1, sticky="ew")
+
+        self.cart_cliente_combo.bind("<KeyRelease>", self._on_cliente_type)
+        self.cart_cliente_combo.bind("<<ComboboxSelected>>", self._on_cliente_select)
 
         ttk.Label(client_frame, text="Contacto:").grid(row=1, column=0, sticky="w")
         self.cart_contacto_entry = ttk.Entry(client_frame)
@@ -1785,6 +1836,30 @@ class InventarioGUI:
         ttk.Button(
             bottom_btn_frame, text="Seguir Comprando", command=self.show_action_panel
         ).pack(side=tk.LEFT, expand=True)
+
+    # --- NUEVAS FUNCIONES DE AUTOCOMPLETADO ---
+    def _on_cliente_type(self, event):
+        # Ignorar teclas de navegación para no entorpecer el menú
+        if event.keysym in ("Up", "Down", "Left", "Right", "Return"):
+            return
+
+        value = self.cart_cliente_combo.get()
+        if value == "":
+            self.cart_cliente_combo["values"] = self.nombres_clientes
+        else:
+            # Filtrar por lo que el usuario está escribiendo
+            data = [
+                item for item in self.nombres_clientes if value.lower() in item.lower()
+            ]
+            self.cart_cliente_combo["values"] = data
+
+    def _on_cliente_select(self, event):
+        nombre = self.cart_cliente_combo.get()
+        contacto = self.dict_clientes.get(nombre, "")
+        self.cart_contacto_entry.delete(0, tk.END)
+        self.cart_contacto_entry.insert(0, contacto)
+
+    # --- FIN FUNCIONES AUTOCOMPLETADO ---
 
     def on_inventory_select(self, event):
         self.show_action_panel()
@@ -1896,7 +1971,13 @@ class InventarioGUI:
             return
         self._switch_action_panel(self.cart_panel, "Carrito de Venta")
         self.pagos_actuales = []
-        self.cart_cliente_entry.delete(0, tk.END)
+
+        # --- CARGAR CLIENTES AL ABRIR EL CARRITO ---
+        self.dict_clientes = self.gestor.obtener_clientes()
+        self.nombres_clientes = list(self.dict_clientes.keys())
+        self.cart_cliente_combo["values"] = self.nombres_clientes
+        self.cart_cliente_combo.set("")
+
         self.cart_contacto_entry.delete(0, tk.END)
         self.cart_monto_pago_entry.delete(0, tk.END)
         self.cart_medio_pago_combo.set("")
@@ -2149,7 +2230,7 @@ class InventarioGUI:
             self.show_action_panel()
 
     def _finalizar_venta_from_panel(self):
-        cliente = self.cart_cliente_entry.get().strip() or "Cliente General"
+        cliente = self.cart_cliente_combo.get().strip() or "Cliente General"
         cliente_contacto = self.cart_contacto_entry.get().strip()
         total_pagado = sum(p["monto"] for p in self.pagos_actuales)
 
@@ -2162,6 +2243,9 @@ class InventarioGUI:
         if not self.carrito:
             messagebox.showerror("Carrito Vacío", "No hay items para vender.")
             return
+
+        # --- NUEVO: GUARDAR CLIENTE EN LA BASE DE DATOS ---
+        self.gestor.guardar_cliente(cliente, cliente_contacto)
 
         timestamp = datetime.now()
         id_venta = timestamp.strftime("%Y%m%d%H%M%S")
@@ -3605,8 +3689,6 @@ class InventarioGUI:
         ttk.Button(win, text="Cerrar", command=win.destroy).pack(
             fill=tk.X, padx=20, pady=10
         )
-
-    # --- ELIMINADO: Métodos puente ordenar_alfabeticamente y verificar_formato ---
 
 
 if __name__ == "__main__":

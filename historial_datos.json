@@ -1,5 +1,133 @@
 [
     {
+        "fecha": "2026-03-07 14:23:30",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 4,
+                "contenido": "Audifonos Bluetooth Apple Pro 2da Generacion 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Tc A Tc Eco 2 ok"
+            },
+            {
+                "linea": 35,
+                "contenido": "Forro Antichoque Huawei Honor X5C Caballero 5 ok"
+            },
+            {
+                "linea": 36,
+                "contenido": "Forro Antichoque Huawei Honor X5C Dama 5 ok"
+            },
+            {
+                "linea": 37,
+                "contenido": "Forro Antichoque Huawei Honor X6B Caballero 2 ok"
+            },
+            {
+                "linea": 38,
+                "contenido": "Forro Antichoque Huawei Honor X6C Dama 5 ok"
+            },
+            {
+                "linea": 141,
+                "contenido": "Forro Space Huawei Honor Magic 7 Lite 2 ok"
+            },
+            {
+                "linea": 158,
+                "contenido": "Forro Space Samsung A21S 1 ok"
+            },
+            {
+                "linea": 162,
+                "contenido": "Forro Space Tecno Spark Go 2 / Smart 10 1 ok"
+            },
+            {
+                "linea": 172,
+                "contenido": "Guantes Gamer 10 ok"
+            },
+            {
+                "linea": 184,
+                "contenido": "Pilas Recargables Sony Aa X4 Con Cargador 2 ok"
+            },
+            {
+                "linea": 185,
+                "contenido": "Pilas Recargables Sony Mixta Con Cargador 1 ok"
+            },
+            {
+                "linea": 198,
+                "contenido": "Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1 ok"
+            },
+            {
+                "linea": 204,
+                "contenido": "Silicone Case Huawei Honor X5B Amarillo 1 ok"
+            },
+            {
+                "linea": 207,
+                "contenido": "Silicone Case Huawei Honor X7A Palorosa 1 ok"
+            },
+            {
+                "linea": 210,
+                "contenido": "Silicone Case Huawei Honor X8C Fucsia 1 ok"
+            }
+        ],
+        "total_conservados": 406
+    },
+    {
+        "fecha": "2026-03-07 14:23:30",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 8,
+                "contenido": "Adaptador Europeo Redondo 3 ok"
+            },
+            {
+                "linea": 39,
+                "contenido": "Cargador Cabeza Cubo Eco 3 ok"
+            },
+            {
+                "linea": 44,
+                "contenido": "Consola Sup X7M 1 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Consola Game Stick + Tv Stick Caja Roja 1 ok"
+            },
+            {
+                "linea": 48,
+                "contenido": "Control Gamer Sony Ps2 2 ok"
+            },
+            {
+                "linea": 69,
+                "contenido": "Pilas Recargables Beston Aa X 4 Con Cargador 2 ok"
+            },
+            {
+                "linea": 71,
+                "contenido": "Pilas Recargables Beston Mixta Con Cargador 2 ok"
+            }
+        ],
+        "total_conservados": 81
+    },
+    {
+        "fecha": "2026-03-07 14:23:30",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Samsung A54 Incell C/m 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-03-06 15:44:43",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

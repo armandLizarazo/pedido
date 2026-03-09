@@ -1201,6 +1201,100 @@ def modify_purchase_order(filename, action):
         search()
 
 
+def clean_orders():
+    """Verifica si hay existencias en bodega o local y elimina esos ítems de los pedidos."""
+    confirm = messagebox.askyesno(
+        "Limpiar Pedidos",
+        "¿Desea revisar y eliminar de los pedidos (PD Centro, PD PR, PD ST)\n"
+        "todos los ítems que ya cuentan con existencias (cantidad > 0)\n"
+        "en Bodega o Local?",
+    )
+    if not confirm:
+        return
+
+    # Crear conjunto de ítems que ya tienen stock (> 0) en bodega o local
+    items_with_stock = set()
+    for desc, qty in data_bodega:
+        if qty > 0:
+            items_with_stock.add(desc.strip().lower())
+    for desc, qty in data_local:
+        if qty > 0:
+            items_with_stock.add(desc.strip().lower())
+
+    files_to_clean = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
+    total_removed = 0
+    removed_details = []  # NUEVO: Lista para guardar el registro de eliminados
+
+    for filename in files_to_clean:
+        order_data = parse_file(filename)
+        if not order_data:
+            continue
+
+        new_order_data = []
+        for desc, qty in order_data:
+            if desc.strip().lower() not in items_with_stock:
+                new_order_data.append((desc, qty))
+            else:
+                total_removed += 1
+                # Guardamos el detalle de lo que se eliminó
+                provider_name = filename.replace(".txt", "").upper()
+                removed_details.append(f"{provider_name}: {desc} (Cant: {qty})")
+
+        # Solo actualizar el archivo si se eliminó al menos un elemento
+        if len(new_order_data) != len(order_data):
+            update_file(filename, new_order_data)
+
+    # NUEVO: Mostrar el resultado detallado en una ventana
+    if total_removed > 0:
+        detail_window = tk.Toplevel(root)
+        detail_window.title("Registro de Limpieza")
+        detail_window.geometry("550x400")
+        detail_window.configure(bg=BG_COLOR)
+
+        tk.Label(
+            detail_window,
+            text=f"Se eliminaron {total_removed} ítems con stock disponible:",
+            font=("Helvetica", 11, "bold"),
+            bg=BG_COLOR,
+            fg=FG_GREEN,
+        ).pack(pady=10)
+
+        # Área de texto con scroll para mostrar el registro
+        text_frame = tk.Frame(detail_window, bg=BG_COLOR)
+        text_frame.pack(expand=True, fill=tk.BOTH, padx=15, pady=(0, 15))
+
+        scrollbar = ttk.Scrollbar(text_frame, orient="vertical")
+        text_area = tk.Text(
+            text_frame,
+            font=("Helvetica", 10),
+            bg=ENTRY_BG,
+            fg=FG_RED,
+            yscrollcommand=scrollbar.set,
+            padx=10,
+            pady=10,
+        )
+        scrollbar.config(command=text_area.yview)
+
+        scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+        text_area.pack(side=tk.LEFT, expand=True, fill=tk.BOTH)
+
+        for item in removed_details:
+            text_area.insert(tk.END, f"• {item}\n")
+
+        text_area.config(
+            state=tk.DISABLED
+        )  # Hacerlo de solo lectura para evitar ediciones accidentales
+    else:
+        messagebox.showinfo(
+            "Limpieza Completada",
+            "Todos los pedidos están limpios.\nNo se encontró ningún ítem que ya tenga stock.",
+        )
+
+    # Actualizar las cantidades visibles si hay un ítem seleccionado
+    if sticky_item:
+        update_provider_quantities(sticky_item)
+
+
 def on_double_click(event):
     """Copia el ítem al cuadro de 'Nuevo Nombre' para editarlo."""
     widget = event.widget
@@ -1626,6 +1720,21 @@ button_format = tk.Button(
     borderwidth=1,
 )
 button_format.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
+button_clean_orders = tk.Button(
+    frame_tools,
+    text="Limpiar Pedidos",
+    command=clean_orders,
+    font=("Helvetica", 11, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=12,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+button_clean_orders.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg=BG_COLOR)
