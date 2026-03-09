@@ -43,7 +43,7 @@
     Forro Antichoque Tecno Spark 30 Pro 4G Caballero 5
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Dama 5
-    Forro Antichoque Vivo Y39 5G Dama 2
+    Forro Antichoque Vivo Y39 5G Dama 1 ok
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5
     Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5
@@ -107,29 +107,28 @@
     Forro Lujo Ventana Samsung A16 Azul 1
     Forro Lujo Ventana Samsung A16 Negro 1
     Forro Lujo Ventana Samsung A26 Azul 1
-    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2
+    Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
     Forro Space Infinix Hot 50 Pro 5G 2
-    Forro Space Magsafe Apple Iphone 11 1
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
-    Forro Space Oppo A79 2
+    Forro Space Oppo A79 2 ok
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A56 3
+    Forro Space Samsung A56 3 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y38 2
-    Forro Space Xiaomi Redmi 15 2
+    Forro Space Xiaomi Redmi 15 3 ok
     Forro Space Xiaomi Redmi Note 11 Negro 1
     Forro Space Xiaomi Redmi Note 15 4G 2
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
