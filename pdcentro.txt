@@ -1,19 +1,19 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
-    Audifonos Bluetooth Apple Pro 2Da Generacion 2
+    Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
-    Audifonos Bluetooth Pro 60 3
+    Audifonos Bluetooth Pro 60 3 ok
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Auxiliar 1 A 1 3 Vias Cja 2
-    Cable Caterpillar Tc 5
+    Cable Caterpillar Tc 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Modulador We We-09 1
-    Cargador Yoyos 38W Solo Cabeza 5
+    Cargador Yoyos 25W Solo Cabeza 5 ok
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
@@ -119,7 +119,7 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A56 3
+    Forro Space Samsung A56 1 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
