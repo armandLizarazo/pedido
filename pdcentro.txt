@@ -13,13 +13,14 @@
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Modulador We We-09 1
-    Cargador Yoyos 25W Solo Cabeza 5 ok
+    Cargador We 25W Solo Cabeza 5 ok
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
+    Forro Antichoque Infinix Hot 60I Dama 2 ok
     Forro Antichoque Infinix Hot 50 5G Caballero 5
     Forro Antichoque Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
     Forro Antichoque Motorola Moto G72 Caballero 3
@@ -35,7 +36,7 @@
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Oppo Realme C75 Caballero 5
     Forro Antichoque Oppo Realme C75 Dama 5
-    Forro Antichoque Oppo Reno 12F Caballero 3
+    Forro Antichoque Oppo Reno 12F Caballero 3 ok
     Forro Antichoque Oppo Reno 14 Caballero 5
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Caballero 2
@@ -119,7 +120,8 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A56 1 ok
+    Forro Space Samsung A53 1 ok
+    Forro Space Samsung A56 3
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
