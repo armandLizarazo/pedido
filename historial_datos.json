@@ -1,5 +1,145 @@
 [
     {
+        "fecha": "2026-03-09 14:49:04",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 22,
+                "contenido": "Forro Antichoque Infinix Hot 60 Pro 4G Dama 5 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Forro Antichoque Pin Infinix Hot 60i 1 ok"
+            },
+            {
+                "linea": 27,
+                "contenido": "Forro Antichoque Motorola Moto G56 Dama 5 ok"
+            },
+            {
+                "linea": 28,
+                "contenido": "Forro Antichoque Motorola Moto G56 Caballero 5 ok"
+            },
+            {
+                "linea": 29,
+                "contenido": "Forro Antichoque Motorola Moto G06 Dama 5 ok"
+            },
+            {
+                "linea": 30,
+                "contenido": "Forro Antichoque Motorola Moto G06 Caballero 5 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Forro Antichoque Oppo Reno 14F Dama 4 ok"
+            },
+            {
+                "linea": 51,
+                "contenido": "Forro Antichoque Vivo Y39 5G Dama 1 ok"
+            },
+            {
+                "linea": 53,
+                "contenido": "Forro Antichoque Xiaomi Redmi 15 Dama 2 ok"
+            },
+            {
+                "linea": 56,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 15 4G Caballero 4 ok"
+            },
+            {
+                "linea": 60,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 15 Pro Plus Caballero 5 ok"
+            },
+            {
+                "linea": 61,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 15 Pro Plus Dama 5 ok"
+            },
+            {
+                "linea": 118,
+                "contenido": "Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok"
+            },
+            {
+                "linea": 127,
+                "contenido": "Forro Space Oppo A79 2 ok"
+            },
+            {
+                "linea": 133,
+                "contenido": "Forro Space Samsung A56 3 ok"
+            },
+            {
+                "linea": 139,
+                "contenido": "Forro Space Xiaomi Redmi 15 3 ok"
+            }
+        ],
+        "total_conservados": 360
+    },
+    {
+        "fecha": "2026-03-09 14:49:04",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 8,
+                "contenido": "Base Holder Pc Aluminio 1 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Cable Microsoft Xbox Caja Negra 3 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Cable Rca 3 A 3 5M 1 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cable Vga 1.5M 1 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Microfono Bafle Eco 2 ok"
+            },
+            {
+                "linea": 44,
+                "contenido": "Microfono Bafle Inalambrico WG-11 1 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Microfono Bafle Inalambrico DX-300U 1 ok"
+            },
+            {
+                "linea": 57,
+                "contenido": "Rollo Cinta Led Rgb Sencilla 2 ok"
+            },
+            {
+                "linea": 65,
+                "contenido": "Tripode Selfie-05 1 ok"
+            }
+        ],
+        "total_conservados": 58
+    },
+    {
+        "fecha": "2026-03-09 14:49:04",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Botones Samsung A21S 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Huawei Honor X8A / Honor 90 Lite C/M 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Samsung A05 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Xiaomi Redmi Note 13 / Note 14 Incell 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-03-07 14:23:30",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

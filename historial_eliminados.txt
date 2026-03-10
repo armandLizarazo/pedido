@@ -11551,3 +11551,50 @@ L198: Silicone Case Huawei Honor 400 Smart / X7D Fucsia 1 ok
 L204: Silicone Case Huawei Honor X5B Amarillo 1 ok
 L207: Silicone Case Huawei Honor X7A Palorosa 1 ok
 L210: Silicone Case Huawei Honor X8C Fucsia 1 ok
+
+============================================================
+Fecha: 2026-03-09 14:49:04
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L1: Botones Samsung A21S 1 ok
+L2: Pacha Huawei Honor X8A / Honor 90 Lite C/M 1 ok
+L3: Pacha Samsung A05 1 ok
+L4: Pacha Xiaomi Redmi Note 13 / Note 14 Incell 1 ok
+
+============================================================
+Fecha: 2026-03-09 14:49:04
+Archivo: pdpr.txt
+Eliminados: 9
+--- DETALLE ---
+L8: Base Holder Pc Aluminio 1 ok
+L18: Cable Microsoft Xbox Caja Negra 3 ok
+L19: Cable Rca 3 A 3 5M 1 ok
+L21: Cable Vga 1.5M 1 ok
+L43: Microfono Bafle Eco 2 ok
+L44: Microfono Bafle Inalambrico WG-11 1 ok
+L45: Microfono Bafle Inalambrico DX-300U 1 ok
+L57: Rollo Cinta Led Rgb Sencilla 2 ok
+L65: Tripode Selfie-05 1 ok
+
+============================================================
+Fecha: 2026-03-09 14:49:04
+Archivo: pdcentro.txt
+Eliminados: 16
+--- DETALLE ---
+L22: Forro Antichoque Infinix Hot 60 Pro 4G Dama 5 ok
+L23: Forro Antichoque Pin Infinix Hot 60i 1 ok
+L27: Forro Antichoque Motorola Moto G56 Dama 5 ok
+L28: Forro Antichoque Motorola Moto G56 Caballero 5 ok
+L29: Forro Antichoque Motorola Moto G06 Dama 5 ok
+L30: Forro Antichoque Motorola Moto G06 Caballero 5 ok
+L43: Forro Antichoque Oppo Reno 14F Dama 4 ok
+L51: Forro Antichoque Vivo Y39 5G Dama 1 ok
+L53: Forro Antichoque Xiaomi Redmi 15 Dama 2 ok
+L56: Forro Antichoque Xiaomi Redmi Note 15 4G Caballero 4 ok
+L60: Forro Antichoque Xiaomi Redmi Note 15 Pro Plus Caballero 5 ok
+L61: Forro Antichoque Xiaomi Redmi Note 15 Pro Plus Dama 5 ok
+L118: Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
+L127: Forro Space Oppo A79 2 ok
+L133: Forro Space Samsung A56 3 ok
+L139: Forro Space Xiaomi Redmi 15 3 ok
