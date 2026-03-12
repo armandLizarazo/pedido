@@ -11598,3 +11598,16 @@ L118: Forro Space Apple Iphone 7 Plus / Iphone 8 Plus 2 ok
 L127: Forro Space Oppo A79 2 ok
 L133: Forro Space Samsung A56 3 ok
 L139: Forro Space Xiaomi Redmi 15 3 ok
+
+============================================================
+Fecha: 2026-03-10 14:12:09
+Archivo: pdcentro.txt
+Eliminados: 7
+--- DETALLE ---
+L3: Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok
+L5: Audifonos Bluetooth Pro 60 3 ok
+L11: Cable Caterpillar Tc 5 ok
+L16: Cargador We 25W Solo Cabeza 5 ok
+L23: Forro Antichoque Infinix Hot 60I Dama 2 ok
+L39: Forro Antichoque Oppo Reno 12F Caballero 3 ok
+L123: Forro Space Samsung A53 1 ok

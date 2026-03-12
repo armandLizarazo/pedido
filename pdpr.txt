@@ -4,7 +4,9 @@
     Adaptador Usb Sata 3.0 Tc Y Usb 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth Pro 5S Rosa 1
+    Balaca Callcenter Eco 2
     Balaca Pantalla Rojo 1
+    Base Holder Pc Aluminio Con Ventilador 1
     Base Refrigerante 1 Ventilador 1
     Cable Auxiliar 1 A 1 Microfono 3
     Cable Auxiliar 2 A 1 5M 3
@@ -13,15 +15,20 @@
     Cable Disco Duro V8 3.0 Medio 2
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
+    Cable Hdmi + Adaptadores 2
+    Cable Hdmi 1.5M Eco 5
     Cable Hdmi 3M 2
     Cable Rj11 3
+    Cable Usb Macho Macho 1.5M 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara 3 Antenas 2
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 1
     Cargador Pc Acer 2.37 2
+    Cargador Pc Hp Punta Azul 2
     Cargador Pc Lenovo 65W Plug 1
+    Cargador Pc Lenovo Mini 3.25 2
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1

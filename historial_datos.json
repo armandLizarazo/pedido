@@ -1,5 +1,41 @@
 [
     {
+        "fecha": "2026-03-10 14:12:09",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 3,
+                "contenido": "Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Audifonos Bluetooth Pro 60 3 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Cable Caterpillar Tc 5 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Cargador We 25W Solo Cabeza 5 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Forro Antichoque Infinix Hot 60I Dama 2 ok"
+            },
+            {
+                "linea": 39,
+                "contenido": "Forro Antichoque Oppo Reno 12F Caballero 3 ok"
+            },
+            {
+                "linea": 123,
+                "contenido": "Forro Space Samsung A53 1 ok"
+            }
+        ],
+        "total_conservados": 365
+    },
+    {
         "fecha": "2026-03-09 14:49:04",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
