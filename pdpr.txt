@@ -1,7 +1,9 @@
+    Adaptador Dongle Wifi 5G + Bluetooth 4.2 2
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Usb Sata 3.0 2
     Adaptador Usb Sata 3.0 Tc Y Usb 2
+    Antena Wifi Larga 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth Pro 5S Rosa 1
     Balaca Callcenter Eco 2
@@ -16,23 +18,35 @@
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
+    Cable Hdmi 1.5M 5
     Cable Hdmi 1.5M Eco 5
+    Cable Hdmi 1.5M Malla 3
+    Cable Hdmi 10M 3
+    Cable Hdmi 15M 1
     Cable Hdmi 3M 2
+    Cable Hdmi 5M 3
+    Cable Microsoft Xbox 360 2
     Cable Rj11 3
     Cable Usb Macho Macho 1.5M 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara 3 Antenas 2
     Camara De Solapa 1
-    Camara Robotica Wifi Bombillo 1
+    Camara Robotica Wifi Bombillo 2
     Cargador Pc Acer 2.37 2
     Cargador Pc Hp Punta Azul 2
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo Mini 3.25 2
+    Consola Game Stick + Tv Stick Caja Roja 2
     Consola Sup Con Control Rosa 1
+    Control Gamer Gatillos G21 3
+    Control Gamer Gatillos H9.0 Ventilador 2
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
+    Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
+    Control Gamer X3S 2
+    Dock Charging Ps4 1
     Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
@@ -43,6 +57,7 @@
     Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
+    Memory Card Ps2 8Gb 1
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
@@ -53,6 +68,7 @@
     Pilas Recargables Beston Aaa Con Cargador 3
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
+    Reproductor Tv Stick Watch Om 2
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 1
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2
@@ -61,5 +77,8 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
+    Soporte Tv Fijo 4
+    Switch Lan 10/100 2
+    Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
