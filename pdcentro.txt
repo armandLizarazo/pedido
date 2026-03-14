@@ -3,26 +3,28 @@
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 2
+    Audifonos Bluetooth Xiaomi E7S Negro 2 ok
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Audifonos Bluetooth X15 3 ok
     Cable Auxiliar 1 A 1 3 Vias Cja 2
-    Cable Samsung Tc A Tc Negro 3
+    Cable Samsung Tc A Tc Negro 3 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
+    Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok
     Cargador Maxday Carga Pilas Universal 1
-    Cargador Pluying Modulador We We-09 1
-    Control Gamer Microsoft Xbox 360 Inalambrico 2
+    Cargador Pluying Modulador We We-09 1 ok
+    Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
-    Forro Antichoque Infinix Hot 50 5G Caballero 5
-    Forro Antichoque Infinix Hot 50 5G Dama 4
-    Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 2
-    Forro Antichoque Infinix Hot 50I / Smart 9 Dama 2
+    Forro Antichoque Infinix Hot 50 5G Caballero 5 ok
+    Forro Antichoque Infinix Hot 50 5G Dama 4 ok
+    Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3 ok
+    Forro Antichoque Infinix Hot 50I / Smart 9 Dama 2 ok
     Forro Antichoque Infinix Hot 60 / Hot 60I Caballero 5
     Forro Antichoque Infinix Hot 60 / Hot 60I Dama 2
     Forro Antichoque Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
@@ -30,7 +32,7 @@
     Forro Antichoque Motorola Moto G72 Dama 3
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 5
-    Forro Antichoque Oppo A17 Dama 3
+    Forro Antichoque Oppo A17 Dama 1 ok
     Forro Antichoque Oppo A5 Pro 4G / 5G Caballero 5
     Forro Antichoque Oppo A5 Pro 4G / 5G Dama 5
     Forro Antichoque Oppo A57 / A77 Caballero 2
@@ -48,11 +50,11 @@
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
-    Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5
-    Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5
+    Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5 ok
+    Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5 ok
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
-    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Caballero 5
-    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 5
+    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Caballero 5 ok
+    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 5 ok
     Forro Armadura Huawei Honor Magic 7 Lite Negro 1
     Forro Armadura Huawei Honor Magic 7 Lite Rojo 1
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
@@ -128,11 +130,11 @@
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
-    Forro Space Oppo Reno 11F 1
+    Forro Space Oppo Reno 11F 1 ok
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A16 2
-    Forro Space Samsung A56 3
+    Forro Space Samsung A16 2 ok
+    Forro Space Samsung A56 3 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
@@ -144,8 +146,8 @@
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Manos Libres Knz Tc 2
-    Manos Libres Samsung J6 Blanco 5
-    Manos Libres Samsung J6 Negro 5
+    Manos Libres Samsung S6 Blanco 5 ok
+    Manos Libres Samsung S6 Negro 5 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Gamer X3 3
@@ -165,9 +167,9 @@
     Silicone Case Apple Iphone Xs Max Blanco 1
     Silicone Case Huawei Honor 200 Lila 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
-    Silicone Case Huawei Honor Magic 5 Lite / X9A Gris 1
+    Silicone Case Huawei Honor Magic 5 Lite / X9A Gris 1 ok
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
-    Silicone Case Huawei Honor Magic 8 Lite Lila 1
+    Silicone Case Huawei Honor Magic 8 Lite Lila 1 ok
     Silicone Case Huawei Honor X5C Negro 1
     Silicone Case Huawei Honor X8A Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
@@ -371,13 +373,13 @@
     Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Samsung A21S 10
-    Vidrio 5D Samsung A6 / J6 5
+    Vidrio 5D Samsung A21S 10 ok
+    Vidrio 5D Huawei Honor X8C 5 ok
     Vidrio 5D Xiaomi Redmi 12 / Redmi 13 10
-    Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 10
-    Vidrio 5D Xiaomi Redmi 14C / A5 10
+    Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 10 ok
+    Vidrio 5D Xiaomi Redmi 14C / A5 10 ok
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
-    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 5
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 5 ok
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Apple Iphone 16E 5
