@@ -22,7 +22,7 @@
     Cable Hdmi 1.5M Eco 5 ok
     Cable Hdmi 1.5M Malla 2 ok
     Cable Hdmi 10M 3 ok
-    Cable Hdmi 15M 1 ik
+    Cable Hdmi 15M 1 ok
     Cable Hdmi 3M 3 ok
     Cable Hdmi 5M 3 ok
     Cable Microsoft Xbox 360 3 ok
