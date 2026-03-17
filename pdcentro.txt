@@ -12,6 +12,10 @@
     Cable Samsung Tc A Tc Negro 3 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
+    Cargador We Tc 33W 3 ok
+    Cargador We V8 33W 3 ok
+    Cargador Samsung 45W Con Cable Negro 2 ok
+    Cargador Samsung 25W Con Cable Negro 1 ok
     Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Modulador We We-09 1 ok
@@ -19,22 +23,40 @@
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Y9 Prime Dama 4
+    Forro Antichoque Bordecolor Samsung S25 Fe Negro 1 ok
+    Forro Antichoque Bordecolor Samsung S26 Ultra Negro 1 ok
+    Forro Antichoque Bordecolor Xiaomi Redmi 15C Negro 1 ok
+    Forro Antichoque Bordecolor Xiaomi Redmi 15C Azulclaro 1 ok
+    Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Negro 1 ok
+    Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Azulclaro 1 ok
+    Forro Antichoque Agua Huawei honor 200 Lite 1 ok
+    Forro Antichoque Piedras Huawei honor 200 Lite 1 ok
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 50 5G Caballero 5 ok
-    Forro Antichoque Infinix Hot 50 5G Dama 4 ok
+    Forro Antichoque Infinix Hot 50 5G Dama 5 ok
     Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3 ok
     Forro Antichoque Infinix Hot 50I / Smart 9 Dama 2 ok
     Forro Antichoque Infinix Hot 60 / Hot 60I Caballero 5
     Forro Antichoque Infinix Hot 60 / Hot 60I Dama 2
-    Forro Antichoque Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
+    Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
+    Forro Lujo Magsafe Xiaomi Redmi 15 1 ok
+    Forro Lujo Magsafe Motorola Moto Edge 50 Fusion 1 ok
+    Forro Lujo Magsafe Samsung A26 Gris 2 ok
+    Forro Lujo Magsafe Samsung A26 Rosa 1 ok
+    Forro Lujo Magsafe Samsung A07 Gris 2 ok
+    Forro Lujo Magsafe Samsung A07 Rosa 1 ok
+    Forro Lujo Manguera Samsung A17 Negro 1 ok
+    Forro Lujo Manguera Samsung A17 Morado 1 ok
+    Forro Lujo Manguera Samsung A24 Negro 1 ok
+    Forro Lujo Manguera Samsung A24 Morado 1 ok
     Forro Antichoque Motorola Moto G72 Caballero 3
     Forro Antichoque Motorola Moto G72 Dama 3
+    Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 5
     Forro Antichoque Oppo A17 Dama 1 ok
     Forro Antichoque Oppo A5 Pro 4G / 5G Caballero 5
-
     Forro Antichoque Oppo A5 Pro 4G / 5G Dama 5
     Forro Antichoque Oppo A57 / A77 Caballero 2
     Forro Antichoque Oppo Realme C11 2021 Dama 3
@@ -55,7 +77,7 @@
     Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5 ok
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
     Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Caballero 5 ok
-    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 5 ok
+    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 4 ok
     Forro Armadura Huawei Honor Magic 7 Lite Negro 1 ok
     Forro Armadura Huawei Honor Magic 7 Lite Rojo 1 ok
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
@@ -68,11 +90,11 @@
     Forro Armadura Infinix Hot 60 / Hot 60I Rojo 1 ok
     Forro Armadura Infinix Hot 60 Pro 4G Azuloscuro 1 ok
     Forro Armadura Lg K61 Rojo 1
-    Forro Armadura Motorola Moto G20 / G30 Rojo 1
+    Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok
     Forro Armadura Motorola Moto G34 Rojo 1
-    Forro Armadura Oppo A57 Rojo 1
+    Forro Armadura Oppo A57 Rojo 1 ok
     Forro Armadura Oppo A80 Rojo 1 ok
-    Forro Armadura Oppo Reno 13 5G Negro 1 ok
+    Forro Armadura Oppo Reno 13 5G Negro 1
     Forro Armadura Oppo Reno 14 Negro 1 ok
     Forro Armadura Oppo Reno 14 Rojo 1 ok
     Forro Armadura Oppo Reno 14F Negro 1
@@ -108,6 +130,7 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cable Con Puntas 5
     Forro Lujo Humo Samsung A16 Negro 1
+    Forro Lujo Apple Iphone 13 Naranja 1 ok
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Rosa 1
@@ -147,8 +170,11 @@
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Manos Libres Knz Tc 2
+    Manos Libres Inears Eco 2 ok
+    Manos Libres Inears Oczu Tc Eco 1 ok
     Manos Libres Samsung S6 Blanco 5 ok
     Manos Libres Samsung S6 Negro 5 ok
+    Manos Libres Yoyos Ys-113 Tc 1 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Gamer X3 3
@@ -189,7 +215,7 @@
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
     Silicone Case Huawei Y9 Prime Negro 1
-    Silicone Case Huawei Y9 Prime Rojo 1
+    Silicone Case Huawei Y9 Prime Rojo 1 ok
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Infinix Hot 30 Play Amarillo 1
     Silicone Case Infinix Hot 30 Play Azulrey 1
@@ -203,6 +229,7 @@
     Silicone Case Infinix Hot 50 5G Lila 1
     Silicone Case Infinix Hot 50 5G Morado 1
     Silicone Case Infinix Hot 50 Pro Plus Fucsia 1
+    Silicone Case Infinix Hot 60 Pro 4G Negro 1 ok
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Fucsia 1
@@ -212,8 +239,8 @@
     Silicone Case Infinix Note 50 Pro Amarillo 1
     Silicone Case Lg K51S Negro 1
     Silicone Case Lg K61 Amarillo 1
-    Silicone Case Lg K61 Fucsia 1
-    Silicone Case Lg K61 Negro 1
+    Silicone Case Lg K61 Fucsia 1 ok
+    Silicone Case Lg K61 Negro 1 ok
     Silicone Case Motorola Moto Edge 30 Negro 1
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 Amarillo 1
@@ -235,8 +262,8 @@
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A40 / A60 Rojo 1
     Silicone Case Oppo A5 Negro 1
-    Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1
-    Silicone Case Oppo A5 Pro 4G / 5G Negro 1
+    Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok
+    Silicone Case Oppo A5 Pro 4G / 5G Negro 1 ok
     Silicone Case Oppo A54 Azuloscuro 1
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
     Silicone Case Oppo A58 4G / A78 5G Fucsia 1
@@ -249,18 +276,18 @@
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C33 Negro 1
     Silicone Case Oppo Realme C75 Negro 1
-    Silicone Case Oppo Reno 11F Morado 1
+    Silicone Case Oppo Reno 11F Morado 1 ok
     Silicone Case Oppo Reno 11F Verde 1
-    Silicone Case Oppo Reno 13F Rojo 1
-    Silicone Case Oppo Reno 14 Amarillo 1
+    Silicone Case Oppo Reno 13F Rojo 1 ok
+    Silicone Case Oppo Reno 14 Amarillo 1 ok
     Silicone Case Oppo Reno 14F Amarillo 1
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsugn A56 Negro 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A06 Amarillo 1
+    Silicone Case Samsung A06 Amarillo 1 ok
     Silicone Case Samsung A06 Azulrey 1
-    Silicone Case Samsung A06 Negro 1
+    Silicone Case Samsung A06 Negro 1 ok
     Silicone Case Samsung A07 Lila 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 4G Rojo 1
@@ -269,6 +296,7 @@
     Silicone Case Samsung A36 Lila 1
     Silicone Case Samsung A55 Lila 1
     Silicone Case Samsung A56 Lila 1
+    Silicone Case Samsung A56 Negro 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
@@ -293,12 +321,12 @@
     Silicone Case Tecno Pova 7 Morado 1
     Silicone Case Tecno Pova 7 Negro 1
     Silicone Case Tecno Pova 7 Rojo 1
-    Silicone Case Tecno Spark 10 Pro Rosa 1
+    Silicone Case Tecno Spark 10 Pro Rosa 1 ok
     Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 4G Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark 30 Pro 4G Amarillo 1
+    Silicone Case Tecno Spark 30 Pro 4G Amarillo 1 ok
     Silicone Case Tecno Spark 30C Lila 1
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -341,6 +369,7 @@
     Silicone Case Xiaomi Redmi Note 12 Rosa 1
     Silicone Case Xiaomi Redmi Note 12S Lila 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Rojo 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
@@ -348,8 +377,8 @@
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Fucsia 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Morado 1
     Silicone Case Xiaomi Redmi Note 15 4G Amarillo 1
-    Silicone Case Xiaomi Redmi Note 15 4G Fucsia 1
-    Silicone Case Xiaomi Redmi Note 15 4G Lila 1
+    Silicone Case Xiaomi Redmi Note 15 4G Fucsia 1 ok
+    Silicone Case Xiaomi Redmi Note 15 4G Lila 1 ok
     Silicone Case Xiaomi Redmi Note 15 4G Rojo 1
     Silicone Case Xiaomi Redmi Note 15 Pro 4G Amarillo 1
     Silicone Case Xiaomi Redmi Note 15 Pro 4G Morado 1
