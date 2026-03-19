@@ -1,5 +1,581 @@
 [
     {
+        "fecha": "2026-03-17 14:12:56",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 6,
+                "contenido": "Audifonos Bluetooth Xiaomi E7S Negro 2 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Audifonos Bluetooth X15 3 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Cable Samsung Tc A Tc Negro 3 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Cargador We Tc 33W 3 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Cargador We V8 33W 3 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Cargador Samsung 45W Con Cable Negro 2 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Cargador Samsung 25W Con Cable Negro 1 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cargador Pluying Modulador We We-09 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Control Gamer Microsoft Xbox 360 Inalambrico 2 ok"
+            },
+            {
+                "linea": 26,
+                "contenido": "Forro Antichoque Bordecolor Samsung S25 Fe Negro 1 ok"
+            },
+            {
+                "linea": 27,
+                "contenido": "Forro Antichoque Bordecolor Samsung S26 Ultra Negro 1 ok"
+            },
+            {
+                "linea": 28,
+                "contenido": "Forro Antichoque Bordecolor Xiaomi Redmi 15C Negro 1 ok"
+            },
+            {
+                "linea": 29,
+                "contenido": "Forro Antichoque Bordecolor Xiaomi Redmi 15C Azulclaro 1 ok"
+            },
+            {
+                "linea": 30,
+                "contenido": "Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Negro 1 ok"
+            },
+            {
+                "linea": 31,
+                "contenido": "Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Azulclaro 1 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Forro Antichoque Agua Huawei honor 200 Lite 1 ok"
+            },
+            {
+                "linea": 33,
+                "contenido": "Forro Antichoque Piedras Huawei honor 200 Lite 1 ok"
+            },
+            {
+                "linea": 36,
+                "contenido": "Forro Antichoque Infinix Hot 50 5G Caballero 5 ok"
+            },
+            {
+                "linea": 37,
+                "contenido": "Forro Antichoque Infinix Hot 50 5G Dama 5 ok"
+            },
+            {
+                "linea": 38,
+                "contenido": "Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3 ok"
+            },
+            {
+                "linea": 39,
+                "contenido": "Forro Antichoque Infinix Hot 50I / Smart 9 Dama 2 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Forro Lujo Magsafe Xiaomi Redmi 15 1 ok"
+            },
+            {
+                "linea": 44,
+                "contenido": "Forro Lujo Magsafe Motorola Moto Edge 50 Fusion 1 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Forro Lujo Magsafe Samsung A26 Gris 2 ok"
+            },
+            {
+                "linea": 46,
+                "contenido": "Forro Lujo Magsafe Samsung A26 Rosa 1 ok"
+            },
+            {
+                "linea": 47,
+                "contenido": "Forro Lujo Magsafe Samsung A07 Gris 2 ok"
+            },
+            {
+                "linea": 48,
+                "contenido": "Forro Lujo Magsafe Samsung A07 Rosa 1 ok"
+            },
+            {
+                "linea": 49,
+                "contenido": "Forro Lujo Manguera Samsung A17 Negro 1 ok"
+            },
+            {
+                "linea": 50,
+                "contenido": "Forro Lujo Manguera Samsung A17 Morado 1 ok"
+            },
+            {
+                "linea": 51,
+                "contenido": "Forro Lujo Manguera Samsung A24 Negro 1 ok"
+            },
+            {
+                "linea": 52,
+                "contenido": "Forro Lujo Manguera Samsung A24 Morado 1 ok"
+            },
+            {
+                "linea": 55,
+                "contenido": "Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok"
+            },
+            {
+                "linea": 58,
+                "contenido": "Forro Antichoque Oppo A17 Dama 1 ok"
+            },
+            {
+                "linea": 76,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5 ok"
+            },
+            {
+                "linea": 77,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5 ok"
+            },
+            {
+                "linea": 79,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Caballero 5 ok"
+            },
+            {
+                "linea": 80,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 4 ok"
+            },
+            {
+                "linea": 81,
+                "contenido": "Forro Armadura Huawei Honor Magic 7 Lite Negro 1 ok"
+            },
+            {
+                "linea": 82,
+                "contenido": "Forro Armadura Huawei Honor Magic 7 Lite Rojo 1 ok"
+            },
+            {
+                "linea": 87,
+                "contenido": "Forro Armadura Infinix Hot 50I / Smart 9 Negro 1 ok"
+            },
+            {
+                "linea": 88,
+                "contenido": "Forro Armadura Infinix Hot 50I / Smart 9 Rojo 1 ok"
+            },
+            {
+                "linea": 89,
+                "contenido": "Forro Armadura Infinix Hot 60 / Hot 60I Negro 1 ok"
+            },
+            {
+                "linea": 90,
+                "contenido": "Forro Armadura Infinix Hot 60 / Hot 60I Rojo 1 ok"
+            },
+            {
+                "linea": 91,
+                "contenido": "Forro Armadura Infinix Hot 60 Pro 4G Azuloscuro 1 ok"
+            },
+            {
+                "linea": 93,
+                "contenido": "Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok"
+            },
+            {
+                "linea": 95,
+                "contenido": "Forro Armadura Oppo A57 Rojo 1 ok"
+            },
+            {
+                "linea": 96,
+                "contenido": "Forro Armadura Oppo A80 Rojo 1 ok"
+            },
+            {
+                "linea": 98,
+                "contenido": "Forro Armadura Oppo Reno 14 Negro 1 ok"
+            },
+            {
+                "linea": 99,
+                "contenido": "Forro Armadura Oppo Reno 14 Rojo 1 ok"
+            },
+            {
+                "linea": 105,
+                "contenido": "Forro Armadura Samsung A05S Rojo 1 ok"
+            },
+            {
+                "linea": 107,
+                "contenido": "Forro Armadura Samsung A56 Azulrey 1 ok"
+            },
+            {
+                "linea": 113,
+                "contenido": "Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Azuloscuro 1 ok"
+            },
+            {
+                "linea": 133,
+                "contenido": "Forro Lujo Apple Iphone 13 Naranja 1 ok"
+            },
+            {
+                "linea": 157,
+                "contenido": "Forro Space Oppo Reno 11F 1 ok"
+            },
+            {
+                "linea": 160,
+                "contenido": "Forro Space Samsung A16 2 ok"
+            },
+            {
+                "linea": 161,
+                "contenido": "Forro Space Samsung A56 3 ok"
+            },
+            {
+                "linea": 173,
+                "contenido": "Manos Libres Inears Eco 2 ok"
+            },
+            {
+                "linea": 174,
+                "contenido": "Manos Libres Inears Oczu Tc Eco 1 ok"
+            },
+            {
+                "linea": 175,
+                "contenido": "Manos Libres Samsung S6 Blanco 5 ok"
+            },
+            {
+                "linea": 176,
+                "contenido": "Manos Libres Samsung S6 Negro 5 ok"
+            },
+            {
+                "linea": 177,
+                "contenido": "Manos Libres Yoyos Ys-113 Tc 1 ok"
+            },
+            {
+                "linea": 197,
+                "contenido": "Silicone Case Huawei Honor Magic 5 Lite / X9A Gris 1 ok"
+            },
+            {
+                "linea": 199,
+                "contenido": "Silicone Case Huawei Honor Magic 8 Lite Lila 1 ok"
+            },
+            {
+                "linea": 218,
+                "contenido": "Silicone Case Huawei Y9 Prime Rojo 1 ok"
+            },
+            {
+                "linea": 232,
+                "contenido": "Silicone Case Infinix Hot 60 Pro 4G Negro 1 ok"
+            },
+            {
+                "linea": 242,
+                "contenido": "Silicone Case Lg K61 Fucsia 1 ok"
+            },
+            {
+                "linea": 243,
+                "contenido": "Silicone Case Lg K61 Negro 1 ok"
+            },
+            {
+                "linea": 265,
+                "contenido": "Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok"
+            },
+            {
+                "linea": 266,
+                "contenido": "Silicone Case Oppo A5 Pro 4G / 5G Negro 1 ok"
+            },
+            {
+                "linea": 279,
+                "contenido": "Silicone Case Oppo Reno 11F Morado 1 ok"
+            },
+            {
+                "linea": 281,
+                "contenido": "Silicone Case Oppo Reno 13F Rojo 1 ok"
+            },
+            {
+                "linea": 282,
+                "contenido": "Silicone Case Oppo Reno 14 Amarillo 1 ok"
+            },
+            {
+                "linea": 288,
+                "contenido": "Silicone Case Samsung A06 Amarillo 1 ok"
+            },
+            {
+                "linea": 290,
+                "contenido": "Silicone Case Samsung A06 Negro 1 ok"
+            },
+            {
+                "linea": 299,
+                "contenido": "Silicone Case Samsung A56 Negro 1 ok"
+            },
+            {
+                "linea": 324,
+                "contenido": "Silicone Case Tecno Spark 10 Pro Rosa 1 ok"
+            },
+            {
+                "linea": 329,
+                "contenido": "Silicone Case Tecno Spark 30 Pro 4G Amarillo 1 ok"
+            },
+            {
+                "linea": 380,
+                "contenido": "Silicone Case Xiaomi Redmi Note 15 4G Fucsia 1 ok"
+            },
+            {
+                "linea": 381,
+                "contenido": "Silicone Case Xiaomi Redmi Note 15 4G Lila 1 ok"
+            },
+            {
+                "linea": 406,
+                "contenido": "Vidrio 5D Samsung A21S 10 ok"
+            },
+            {
+                "linea": 407,
+                "contenido": "Vidrio 5D Huawei Honor X8C 5 ok"
+            },
+            {
+                "linea": 409,
+                "contenido": "Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 10 ok"
+            },
+            {
+                "linea": 410,
+                "contenido": "Vidrio 5D Xiaomi Redmi 14C / A5 10 ok"
+            },
+            {
+                "linea": 412,
+                "contenido": "Vidrio 5D Xiaomi Redmi Note 13 / Note 14 5 ok"
+            }
+        ],
+        "total_conservados": 349
+    },
+    {
+        "fecha": "2026-03-17 14:12:56",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Adaptador Dongle Wifi 5G + Bluetooth 4.2 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Adaptador Usb Sata 3.0 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Adaptador Usb Sata 3.0 Tc Y Usb 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Adaptador Av2hdmi 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Adaptador Codo Hdmi 2 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Adaptador Spliter Hdmi 1 A 2 1 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Audifonos Bluetooth Pro 5S Rosa 1 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Balaca Pantalla Rojo 1 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Balaca Karler Kr-H2 1 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Balaca Gamer G-601 Usb 1 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Base Holder Pc Aluminio Con Ventilador 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Disco Duro V8 3.0 Medio 2 ok"
+            },
+            {
+                "linea": 27,
+                "contenido": "Cable Hdmi 1.5M Eco 5 ok"
+            },
+            {
+                "linea": 28,
+                "contenido": "Cable Hdmi 1.5M Malla 5 ok"
+            },
+            {
+                "linea": 29,
+                "contenido": "Cable Hdmi 10M 3 ok"
+            },
+            {
+                "linea": 30,
+                "contenido": "Cable Hdmi 15M 1 ok"
+            },
+            {
+                "linea": 31,
+                "contenido": "Cable Hdmi 3M 3 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Cable Hdmi 5M 3 ok"
+            },
+            {
+                "linea": 33,
+                "contenido": "Cable Lan 1.5M 5 ok"
+            },
+            {
+                "linea": 35,
+                "contenido": "Cable Sony Ps2 1 ok"
+            },
+            {
+                "linea": 37,
+                "contenido": "Cable Usb Macho Macho 1.5M 3 ok"
+            },
+            {
+                "linea": 40,
+                "contenido": "Capturador Hdmi Tc-Usb 1 ok"
+            },
+            {
+                "linea": 41,
+                "contenido": "Camara 3 Antenas 3 ok"
+            },
+            {
+                "linea": 44,
+                "contenido": "Camara Sencilla Wifi Bombillo 1 ok"
+            },
+            {
+                "linea": 46,
+                "contenido": "Cargador Pc Hp Punta Azul 2 ok"
+            },
+            {
+                "linea": 48,
+                "contenido": "Cargador Pc Lenovo Mini 3.25 1 ok"
+            },
+            {
+                "linea": 49,
+                "contenido": "Consola Game Stick + Tv Stick Caja Roja 2 ok"
+            },
+            {
+                "linea": 50,
+                "contenido": "Consola Game Stick 2 ok"
+            },
+            {
+                "linea": 52,
+                "contenido": "Control Gamer Gatillos G21 3 ok"
+            },
+            {
+                "linea": 53,
+                "contenido": "Control Gamer Gatillos H9.0 Ventilador 2 ok"
+            },
+            {
+                "linea": 54,
+                "contenido": "Control Gamer Gatillos Ak-66 2 ok"
+            },
+            {
+                "linea": 71,
+                "contenido": "Memory Card Ps2 64Gb 2 ok"
+            },
+            {
+                "linea": 77,
+                "contenido": "Patillera 3 En 1 Vintage 4 ok"
+            },
+            {
+                "linea": 82,
+                "contenido": "Reproductor Tv Stick Watch Om 2 ok"
+            },
+            {
+                "linea": 83,
+                "contenido": "Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2 ok"
+            },
+            {
+                "linea": 85,
+                "contenido": "Smart Watch Combo Jl-9 Ultra 1 ok"
+            },
+            {
+                "linea": 86,
+                "contenido": "Smart Watch Combo X8 1 ok"
+            },
+            {
+                "linea": 91,
+                "contenido": "Soporte Tv Fijo 4 ok"
+            },
+            {
+                "linea": 92,
+                "contenido": "Switch Lan 10/100 1 ok"
+            },
+            {
+                "linea": 93,
+                "contenido": "Tripode Selfie-05 2 ok"
+            }
+        ],
+        "total_conservados": 56
+    },
+    {
+        "fecha": "2026-03-17 14:12:56",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Bateria Apple Iphone 11 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Bateria Motorola Moto E20 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Logica De Carga Samsung A13 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Logica De Carga Samsung A24 1 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Motorola Moto E20 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Oppo A54 / Realme 7I 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Samsung A13 / M13 / M23 2 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Tapa Xiaomi Redmi Note 8 Pro Negro 1 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Pacha Huawei Honor X5C 2 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Pacha Huawei Honor X6C 2 ok"
+            }
+        ],
+        "total_conservados": 1
+    },
+    {
         "fecha": "2026-03-10 14:12:09",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

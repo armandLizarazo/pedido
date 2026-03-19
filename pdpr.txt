@@ -1,57 +1,38 @@
-    Adaptador Dongle Wifi 5G + Bluetooth 4.2 1 ok
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb Sata 3.0 2 ok
-    Adaptador Usb Sata 3.0 Tc Y Usb 2 ok
-    Adaptador Av2hdmi 1 ok
-    Adaptador Codo Hdmi 2 ok
-    Adaptador Spliter Hdmi 1 A 2 1 ok
     Antena Wifi Larga 2
     Audifonos Bluetooth Airpods 3 2
-    Audifonos Bluetooth Pro 5S Rosa 1 ok
+    Audifonos Bluetooth I12 Azulclaro 2
+    Audifonos Bluetooth I12 Azuloscuro 1
+    Audifonos Bluetooth I12 Blanco 2
+    Audifonos Bluetooth I12 Gris 2
+    Audifonos Bluetooth I12 Negro 2
+    Audifonos Bluetooth Pro 5S Negro 1
+    Audifonos Bluetooth Pro 5S Rosa 1
     Balaca Callcenter Eco 2
-    Balaca Pantalla Rojo 1 ok
-    Balaca Karler Kr-H2 1 ok
-    Balaca Gamer G-601 Usb 1 ok
-    Base Holder Pc Aluminio Con Ventilador 1 ok
     Base Refrigerante 1 Ventilador 1
     Cable Auxiliar 1 A 1 Microfono 3
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
-    Cable Disco Duro V8 3.0 Medio 2 ok
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
-    Cable Hdmi 1.5M Eco 5 ok
-    Cable Hdmi 1.5M Malla 5 ok
-    Cable Hdmi 10M 3 ok
-    Cable Hdmi 15M 1 ok
-    Cable Hdmi 3M 3 ok
-    Cable Hdmi 5M 3 ok
-    Cable Lan 1.5M 5 ok
+    Cable Hdmi Premium 5M 1
     Cable Microsoft Xbox 360 3
-    Cable Sony Ps2 1 ok
     Cable Rj11 3
-    Cable Usb Macho Macho 1.5M 3 ok
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
-    Capturador Hdmi Tc-Usb 1 ok
-    Camara 3 Antenas 3 ok
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
-    Camara Sencilla Wifi Bombillo 1 ok
     Cargador Pc Acer 2.37 2
-    Cargador Pc Hp Punta Azul 2 ok
     Cargador Pc Lenovo 65W Plug 1
-    Cargador Pc Lenovo Mini 3.25 1 ok
-    Consola Game Stick + Tv Stick Caja Roja 2 ok
-    Consola Game Stick 2 ok
+    Cargador Pc Lenovo 65W Tc 1
+    Cargador Pc Lenovo Mini 3.25 2
+    Consola Ness Mini 1
+    Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
-    Control Gamer Gatillos G21 3 ok
-    Control Gamer Gatillos H9.0 Ventilador 2 ok
-    Control Gamer Gatillos Ak-66 2 ok
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
@@ -68,29 +49,21 @@
     Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
-    Memory Card Ps2 64Gb 2 ok
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
-    Patillera 3 En 1 Vintage 4 ok
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston Aaa Con Cargador 3
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
-    Reproductor Tv Stick Watch Om 2 ok
-    Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2 ok
     Secador Remington 2003 1
-    Smart Watch Combo Jl-9 Ultra 1 ok
-    Smart Watch Combo X8 1 ok
     Soporte Celular Para Tutoriales 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Soporte Tv Fijo 4 ok
-    Switch Lan 10/100 1 ok
-    Tripode Selfie-05 2 ok
+    Teclado Kb-502 Eco 3
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

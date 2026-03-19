@@ -11611,3 +11611,159 @@ L16: Cargador We 25W Solo Cabeza 5 ok
 L23: Forro Antichoque Infinix Hot 60I Dama 2 ok
 L39: Forro Antichoque Oppo Reno 12F Caballero 3 ok
 L123: Forro Space Samsung A53 1 ok
+
+============================================================
+Fecha: 2026-03-17 14:12:56
+Archivo: pdst.txt
+Eliminados: 13
+--- DETALLE ---
+L1: Bateria Apple Iphone 11 1 ok
+L2: Bateria Motorola Moto E20 1 ok
+L3: Logica De Carga Samsung A13 1 ok
+L4: Logica De Carga Samsung A24 1 ok
+L5: Pacha Motorola Moto E20 2 ok
+L6: Pacha Motorola Moto E7 Plus / G9 Play / Lenovo K12 1 ok
+L7: Pacha Oppo A54 / Realme 7I 1 ok
+L8: Pacha Samsung A13 / M13 / M23 2 ok
+L9: Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2 ok
+L10: Pacha Tecno-Infinix Spark Go 2023 / Spark 10C / Spark 10C / Smart 7 2 ok
+L11: Tapa Xiaomi Redmi Note 8 Pro Negro 1 ok
+L12: Pacha Huawei Honor X5C 2 ok
+L13: Pacha Huawei Honor X6C 2 ok
+
+============================================================
+Fecha: 2026-03-17 14:12:56
+Archivo: pdpr.txt
+Eliminados: 40
+--- DETALLE ---
+L1: Adaptador Dongle Wifi 5G + Bluetooth 4.2 1 ok
+L4: Adaptador Usb Sata 3.0 2 ok
+L5: Adaptador Usb Sata 3.0 Tc Y Usb 2 ok
+L6: Adaptador Av2hdmi 1 ok
+L7: Adaptador Codo Hdmi 2 ok
+L8: Adaptador Spliter Hdmi 1 A 2 1 ok
+L11: Audifonos Bluetooth Pro 5S Rosa 1 ok
+L13: Balaca Pantalla Rojo 1 ok
+L14: Balaca Karler Kr-H2 1 ok
+L15: Balaca Gamer G-601 Usb 1 ok
+L16: Base Holder Pc Aluminio Con Ventilador 1 ok
+L22: Cable Disco Duro V8 3.0 Medio 2 ok
+L27: Cable Hdmi 1.5M Eco 5 ok
+L28: Cable Hdmi 1.5M Malla 5 ok
+L29: Cable Hdmi 10M 3 ok
+L30: Cable Hdmi 15M 1 ok
+L31: Cable Hdmi 3M 3 ok
+L32: Cable Hdmi 5M 3 ok
+L33: Cable Lan 1.5M 5 ok
+L35: Cable Sony Ps2 1 ok
+L37: Cable Usb Macho Macho 1.5M 3 ok
+L40: Capturador Hdmi Tc-Usb 1 ok
+L41: Camara 3 Antenas 3 ok
+L44: Camara Sencilla Wifi Bombillo 1 ok
+L46: Cargador Pc Hp Punta Azul 2 ok
+L48: Cargador Pc Lenovo Mini 3.25 1 ok
+L49: Consola Game Stick + Tv Stick Caja Roja 2 ok
+L50: Consola Game Stick 2 ok
+L52: Control Gamer Gatillos G21 3 ok
+L53: Control Gamer Gatillos H9.0 Ventilador 2 ok
+L54: Control Gamer Gatillos Ak-66 2 ok
+L71: Memory Card Ps2 64Gb 2 ok
+L77: Patillera 3 En 1 Vintage 4 ok
+L82: Reproductor Tv Stick Watch Om 2 ok
+L83: Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2 ok
+L85: Smart Watch Combo Jl-9 Ultra 1 ok
+L86: Smart Watch Combo X8 1 ok
+L91: Soporte Tv Fijo 4 ok
+L92: Switch Lan 10/100 1 ok
+L93: Tripode Selfie-05 2 ok
+
+============================================================
+Fecha: 2026-03-17 14:12:56
+Archivo: pdcentro.txt
+Eliminados: 85
+--- DETALLE ---
+L6: Audifonos Bluetooth Xiaomi E7S Negro 2 ok
+L10: Audifonos Bluetooth X15 3 ok
+L12: Cable Samsung Tc A Tc Negro 3 ok
+L15: Cargador We Tc 33W 3 ok
+L16: Cargador We V8 33W 3 ok
+L17: Cargador Samsung 45W Con Cable Negro 2 ok
+L18: Cargador Samsung 25W Con Cable Negro 1 ok
+L19: Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok
+L21: Cargador Pluying Modulador We We-09 1 ok
+L22: Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
+L26: Forro Antichoque Bordecolor Samsung S25 Fe Negro 1 ok
+L27: Forro Antichoque Bordecolor Samsung S26 Ultra Negro 1 ok
+L28: Forro Antichoque Bordecolor Xiaomi Redmi 15C Negro 1 ok
+L29: Forro Antichoque Bordecolor Xiaomi Redmi 15C Azulclaro 1 ok
+L30: Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Negro 1 ok
+L31: Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Azulclaro 1 ok
+L32: Forro Antichoque Agua Huawei honor 200 Lite 1 ok
+L33: Forro Antichoque Piedras Huawei honor 200 Lite 1 ok
+L36: Forro Antichoque Infinix Hot 50 5G Caballero 5 ok
+L37: Forro Antichoque Infinix Hot 50 5G Dama 5 ok
+L38: Forro Antichoque Infinix Hot 50I / Smart 9 Caballero 3 ok
+L39: Forro Antichoque Infinix Hot 50I / Smart 9 Dama 2 ok
+L43: Forro Lujo Magsafe Xiaomi Redmi 15 1 ok
+L44: Forro Lujo Magsafe Motorola Moto Edge 50 Fusion 1 ok
+L45: Forro Lujo Magsafe Samsung A26 Gris 2 ok
+L46: Forro Lujo Magsafe Samsung A26 Rosa 1 ok
+L47: Forro Lujo Magsafe Samsung A07 Gris 2 ok
+L48: Forro Lujo Magsafe Samsung A07 Rosa 1 ok
+L49: Forro Lujo Manguera Samsung A17 Negro 1 ok
+L50: Forro Lujo Manguera Samsung A17 Morado 1 ok
+L51: Forro Lujo Manguera Samsung A24 Negro 1 ok
+L52: Forro Lujo Manguera Samsung A24 Morado 1 ok
+L55: Forro Antichoque Cadena Motorola Moto Edge 50 Fusion 3 ok
+L58: Forro Antichoque Oppo A17 Dama 1 ok
+L76: Forro Antichoque Xiaomi Redmi Note 14 Pro 5G Caballero 5 ok
+L77: Forro Antichoque Xiaomi Redmi Note 14 Pro Plus 5G Dama 5 ok
+L79: Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Caballero 5 ok
+L80: Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 4 ok
+L81: Forro Armadura Huawei Honor Magic 7 Lite Negro 1 ok
+L82: Forro Armadura Huawei Honor Magic 7 Lite Rojo 1 ok
+L87: Forro Armadura Infinix Hot 50I / Smart 9 Negro 1 ok
+L88: Forro Armadura Infinix Hot 50I / Smart 9 Rojo 1 ok
+L89: Forro Armadura Infinix Hot 60 / Hot 60I Negro 1 ok
+L90: Forro Armadura Infinix Hot 60 / Hot 60I Rojo 1 ok
+L91: Forro Armadura Infinix Hot 60 Pro 4G Azuloscuro 1 ok
+L93: Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok
+L95: Forro Armadura Oppo A57 Rojo 1 ok
+L96: Forro Armadura Oppo A80 Rojo 1 ok
+L98: Forro Armadura Oppo Reno 14 Negro 1 ok
+L99: Forro Armadura Oppo Reno 14 Rojo 1 ok
+L105: Forro Armadura Samsung A05S Rojo 1 ok
+L107: Forro Armadura Samsung A56 Azulrey 1 ok
+L113: Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Azuloscuro 1 ok
+L133: Forro Lujo Apple Iphone 13 Naranja 1 ok
+L157: Forro Space Oppo Reno 11F 1 ok
+L160: Forro Space Samsung A16 2 ok
+L161: Forro Space Samsung A56 3 ok
+L173: Manos Libres Inears Eco 2 ok
+L174: Manos Libres Inears Oczu Tc Eco 1 ok
+L175: Manos Libres Samsung S6 Blanco 5 ok
+L176: Manos Libres Samsung S6 Negro 5 ok
+L177: Manos Libres Yoyos Ys-113 Tc 1 ok
+L197: Silicone Case Huawei Honor Magic 5 Lite / X9A Gris 1 ok
+L199: Silicone Case Huawei Honor Magic 8 Lite Lila 1 ok
+L218: Silicone Case Huawei Y9 Prime Rojo 1 ok
+L232: Silicone Case Infinix Hot 60 Pro 4G Negro 1 ok
+L242: Silicone Case Lg K61 Fucsia 1 ok
+L243: Silicone Case Lg K61 Negro 1 ok
+L265: Silicone Case Oppo A5 Pro 4G / 5G Azulrey 1 ok
+L266: Silicone Case Oppo A5 Pro 4G / 5G Negro 1 ok
+L279: Silicone Case Oppo Reno 11F Morado 1 ok
+L281: Silicone Case Oppo Reno 13F Rojo 1 ok
+L282: Silicone Case Oppo Reno 14 Amarillo 1 ok
+L288: Silicone Case Samsung A06 Amarillo 1 ok
+L290: Silicone Case Samsung A06 Negro 1 ok
+L299: Silicone Case Samsung A56 Negro 1 ok
+L324: Silicone Case Tecno Spark 10 Pro Rosa 1 ok
+L329: Silicone Case Tecno Spark 30 Pro 4G Amarillo 1 ok
+L380: Silicone Case Xiaomi Redmi Note 15 4G Fucsia 1 ok
+L381: Silicone Case Xiaomi Redmi Note 15 4G Lila 1 ok
+L406: Vidrio 5D Samsung A21S 10 ok
+L407: Vidrio 5D Huawei Honor X8C 5 ok
+L409: Vidrio 5D Xiaomi Redmi 13C / Honor X7 X7A / Realme C51-53 10 ok
+L410: Vidrio 5D Xiaomi Redmi 14C / A5 10 ok
+L412: Vidrio 5D Xiaomi Redmi Note 13 / Note 14 5 ok
