@@ -1,6 +1,6 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Antena Wifi Larga 2
+    Antena Wifi Larga 2 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Azuloscuro 1
@@ -11,7 +11,6 @@
     Audifonos Bluetooth Pro 5S Rosa 1
     Balaca Callcenter Eco 2
     Base Refrigerante 1 Ventilador 1
-    Cable Auxiliar 1 A 1 Microfono 3
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
@@ -24,12 +23,13 @@
     Cable Rj11 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
+    Patillera 3 En 1 Vintage 2 ok
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo 65W Tc 1
-    Cargador Pc Lenovo Mini 3.25 2
+    Cargador Pc Lenovo Mini 3.25 2 ok
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
@@ -64,6 +64,7 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Teclado Kb-502 Eco 3
+    Teclado K-300 3 ok
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
