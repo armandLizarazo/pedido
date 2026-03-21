@@ -189,8 +189,8 @@
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
-    Silicone Case Oppo A17 Fucsia 1
-    Silicone Case Oppo A17 Morado 1
+    Silicone Case Oppo A17 Fucsia 1 ok
+    Silicone Case Oppo A17 Morado 1 ok
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A20 / A40 / A60 Azulrey 1
     Silicone Case Oppo A20 / A40 / A60 Rojo 1
@@ -211,14 +211,14 @@
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A06 Azulrey 1
+    Silicone Case Samsung A06 Azulrey 1 ok
     Silicone Case Samsung A07 Lila 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 4G Rojo 1
     Silicone Case Samsung A26 Verde Biche 1
     Silicone Case Samsung A36 Lila 1
     Silicone Case Samsung A55 Lila 1
-    Silicone Case Samsung A56 Lila 1
+    Silicone Case Samsung A56 Lila 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Plus Rojo 1
@@ -269,8 +269,8 @@
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
     Silicone Case Xiaomi Redmi 10C Azulrey 1
     Silicone Case Xiaomi Redmi 12 Palorosa 1
-    Silicone Case Xiaomi Redmi 13C Rojo 1
-    Silicone Case Xiaomi Redmi 13C Verdementa 1
+    Silicone Case Xiaomi Redmi 13C Rojo 1 ok
+    Silicone Case Xiaomi Redmi 13C Verdementa 1 ok
     Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi A3 Amarillo 1
     Silicone Case Xiaomi Redmi A5 Azulrey 1
@@ -291,7 +291,7 @@
     Silicone Case Xiaomi Redmi Note 7 Azulrey 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 8 Pro Negro 1
-    Silicone Case Xiaomi Redmi Note 9 Amarillo 1
+    Silicone Case Xiaomi Redmi Note 9 Amarillo 1 ok
     Silicone Case Xiaomi Redmi Note 9 Fucsia 1
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
