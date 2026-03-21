@@ -1,5 +1,189 @@
 [
     {
+        "fecha": "2026-03-19 20:43:44",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 40,
+                "contenido": "Forro Antichoque Tecno Spark 30 Pro 4G Caballero 5 ok"
+            },
+            {
+                "linea": 102,
+                "contenido": "Forro Space Infinix Note 50S 1 ok"
+            },
+            {
+                "linea": 112,
+                "contenido": "Forro Space Tecno Camon 40 Pro 2 ok"
+            },
+            {
+                "linea": 137,
+                "contenido": "Silicone Case Apple Iphone 16 Rojo 1 ok"
+            },
+            {
+                "linea": 140,
+                "contenido": "Silicone Case Apple Iphone Xs Max Blanco 1 ok"
+            },
+            {
+                "linea": 145,
+                "contenido": "Silicone Case Huawei Honor X8A Negro 1 ok"
+            },
+            {
+                "linea": 172,
+                "contenido": "Silicone Case Infinix Hot 50 5G Lila 1 ok"
+            },
+            {
+                "linea": 173,
+                "contenido": "Silicone Case Infinix Hot 50 5G Morado 1 ok"
+            },
+            {
+                "linea": 174,
+                "contenido": "Silicone Case Infinix Hot 50 Pro Plus Fucsia 1 ok"
+            },
+            {
+                "linea": 228,
+                "contenido": "Silicone Case Samsung A36 Vinotinto 1 ok"
+            },
+            {
+                "linea": 280,
+                "contenido": "Silicone Case Xiaomi Redmi 12 Verde 1 ok"
+            },
+            {
+                "linea": 283,
+                "contenido": "Silicone Case Xiaomi Redmi 15 Fucsia 1 ok"
+            },
+            {
+                "linea": 284,
+                "contenido": "Silicone Case Xiaomi Redmi 15 Negro 1 ok"
+            },
+            {
+                "linea": 285,
+                "contenido": "Silicone Case Xiaomi Redmi 15 Rojo 1 ok"
+            },
+            {
+                "linea": 288,
+                "contenido": "Silicone Case Xiaomi Redmi A3 Morado 1 ok"
+            },
+            {
+                "linea": 290,
+                "contenido": "Silicone Case Xiaomi Redmi A5 Fucsia 1 ok"
+            },
+            {
+                "linea": 292,
+                "contenido": "Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 1 ok"
+            },
+            {
+                "linea": 293,
+                "contenido": "Silicone Case Xiaomi Redmi Note 11 Azulclaro 1 ok"
+            },
+            {
+                "linea": 294,
+                "contenido": "Silicone Case Xiaomi Redmi Note 11 Morado 1 ok"
+            },
+            {
+                "linea": 296,
+                "contenido": "Silicone Case Xiaomi Redmi Note 12 Fucsia 1 ok"
+            },
+            {
+                "linea": 298,
+                "contenido": "Silicone Case Xiaomi Redmi Note 12 Rosa 1 ok"
+            },
+            {
+                "linea": 300,
+                "contenido": "Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1 ok"
+            },
+            {
+                "linea": 304,
+                "contenido": "Silicone Case Xiaomi Redmi Note 14 Pro 5G Azulrey 1 ok"
+            },
+            {
+                "linea": 334,
+                "contenido": "Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 7 ok"
+            }
+        ],
+        "total_conservados": 333
+    },
+    {
+        "fecha": "2026-03-19 20:43:44",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 3,
+                "contenido": "Antena Wifi Larga 2 ok"
+            },
+            {
+                "linea": 26,
+                "contenido": "Patillera 3 En 1 Vintage 2 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Cargador Pc Lenovo Mini 3.25 2 ok"
+            },
+            {
+                "linea": 67,
+                "contenido": "Teclado K-300 3 ok"
+            }
+        ],
+        "total_conservados": 66
+    },
+    {
+        "fecha": "2026-03-19 20:43:44",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Huawei Honor X6A / X5B 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Huawei Honor X7 2 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Motorola Moto G04 / G24 / E14 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Motorola Moto G20 / G30 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Samsung A02 / A12 / M12 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Samsung A02S / A03 / A03S / A04E 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Samsung A06 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Samsung A15 2 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Samsung A21S 1 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 1 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Pacha Xiaomi Redmi 10C 1 ok"
+            }
+        ],
+        "total_conservados": 1
+    },
+    {
         "fecha": "2026-03-17 14:12:56",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

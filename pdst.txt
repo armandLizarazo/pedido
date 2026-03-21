@@ -1,13 +1,5 @@
-    Pacha Huawei Honor X6A / X5B 1 ok
-    Pacha Huawei Honor X7 2 ok
-    Pacha Motorola Moto G04 / G24 / E14 1 ok
-    Pacha Motorola Moto G20 / G30 2 ok
-    Pacha Samsung A02 / A12 / M12 2 ok
-    Pacha Samsung A02S / A03 / A03S / A04E 1 ok
-    Pacha Samsung A06 1 ok
-    Pacha Samsung A15 2 ok
-    Pacha Samsung A21S 1 ok
-    Pacha Tecno - Infinix Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 1 ok
-    Pacha Xiaomi Redmi 10C 1 ok
+    Bateria Xiaomi Redmi 13C 1
+    Pacha Motorola Moto Edge 50 Fusion / G85 1
+    Pacha Samsung A30S 2
+    Pacha Samsung A30S C/M 1
     Visor Camara Flash Tecno Spark 30 Pro 4G 1
