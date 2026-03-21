@@ -22,6 +22,12 @@
     Cable Microsoft Xbox 360 3
     Cable Rj11 3
     Cable Vga 15M 2
+    Cepillo Talquero 2
+    Cepillo Talquero Vintage 2
+    Porta Navaja 2
+    Cepillo Peluquería 2
+    Capa Barberia 3
+    Protector Cuello Barberia 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
