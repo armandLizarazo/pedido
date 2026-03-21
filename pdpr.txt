@@ -2,15 +2,18 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth I12 Azuloscuro 1
-    Audifonos Bluetooth I12 Blanco 2
-    Audifonos Bluetooth I12 Gris 2
-    Audifonos Bluetooth I12 Negro 2
-    Audifonos Bluetooth I12 Rosa 2
+    Audifonos Bluetooth I12 Azuloscuro 2 ok
+    Audifonos Bluetooth I12 Blanco 2 ok
+    Audifonos Bluetooth I12 Gris 2 ok
+    Audifonos Bluetooth I12 Negro 3 ok
+    Audifonos Bluetooth I12 Rosa 2 ok
     Audifonos Bluetooth Pro 5S Negro 1
-    Audifonos Bluetooth Pro 5S Rosa 1
+    Audifonos Bluetooth Pro 5S Rosa 1 ok
+    Aro De Luz Joma 26Cm Ligth 1 ok
+    Aro De Luz Joma 26Cm Rgb 1 ok
+    Aro De Luz Joma 33Cm Rgb 1 ok
     Balaca Callcenter Eco 2
-    Base Refrigerante 1 Ventilador 1
+    Base Refrigerante 1 Ventilador 2 ok
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
@@ -22,11 +25,14 @@
     Cable Microsoft Xbox 360 3
     Cable Rj11 3
     Cable Vga 15M 2
-    Cepillo Talquero 2
-    Cepillo Talquero Vintage 2
-    Porta Navaja 2
-    Cepillo Peluquería 2
-    Capa Barberia 3
+    Cepillo Talquero 2 ok
+    Cepillo Talquero Vintage 2 ok
+    Navaja Cuchillas Barberia 2 ok
+    Forro Pc 14 Pulgadas 2 ok
+    Cepillo Barberia 1 ok
+    Cepillo Fijador Barberia 2 ok
+    Capa Barberia Replica 1 ok
+    Capa Barberia Original 1 ok
     Protector Cuello Barberia 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
@@ -34,7 +40,9 @@
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo 65W Tc 1
-    Cargador Pc Lenovo Mini 3.25 1
+    Cargador Pc Lenovo Mini 3.25 2 ok
+    Control Gamer X3S 3 ok
+    Cargador Cabeza Cubo Eco 5 ok
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
@@ -45,6 +53,10 @@
     Control Gamer X3S 2
     Dock Charging Ps4 1
     Estabilizador 1800W 1
+    Intercomunicador Helmet Kr-M8 1 ok
+    Intercomunicador Helmet Kr-M2 1 ok
+    Trimer Kemei Km-2299 1 ok
+    Base Tv de Piso 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
@@ -63,6 +75,8 @@
     Pilas Recargables Beston Aaa Con Cargador 3
     Plancha Babyliss Combo Nano Titanium 2
     Reproductor Alexa Reloj 1
+    Repetidor Wifi Lan In Out 1 ok
+    Pad Mouse Almohadilla 2 ok
     Secador Remington 2003 1
     Soporte Celular Para Tutoriales 1
     Soporte Monitor Mesa 1
