@@ -11825,3 +11825,62 @@ L298: Silicone Case Xiaomi Redmi Note 12 Rosa 1 ok
 L300: Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Morado 1 ok
 L304: Silicone Case Xiaomi Redmi Note 14 Pro 5G Azulrey 1 ok
 L334: Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 7 ok
+
+============================================================
+Fecha: 2026-03-21 15:01:09
+Archivo: pdst.txt
+Eliminados: 7
+--- DETALLE ---
+L1: Bateria Xiaomi Redmi 13C 1 ok
+L2: Pacha Motorola Moto Edge 50 Fusion / G85 1 ok
+L3: Pacha Samsung A30S 2 ok
+L4: Pacha Samsung A30S C/M 1 ok
+L5: Pacha Samsung A56 Service Pack 1 ok
+L8: Flex de Power Tecno Pop 5 1 ok
+L9: Tapa Azuloscuro Tecno Pop 5 1 ok
+
+============================================================
+Fecha: 2026-03-21 15:01:09
+Archivo: pdpr.txt
+Eliminados: 27
+--- DETALLE ---
+L5: Audifonos Bluetooth I12 Azuloscuro 2 ok
+L6: Audifonos Bluetooth I12 Blanco 2 ok
+L7: Audifonos Bluetooth I12 Gris 2 ok
+L8: Audifonos Bluetooth I12 Negro 3 ok
+L9: Audifonos Bluetooth I12 Rosa 2 ok
+L11: Audifonos Bluetooth Pro 5S Rosa 1 ok
+L12: Aro De Luz Joma 26Cm Ligth 1 ok
+L13: Aro De Luz Joma 26Cm Rgb 1 ok
+L14: Aro De Luz Joma 33Cm Rgb 1 ok
+L16: Base Refrigerante 1 Ventilador 2 ok
+L28: Cepillo Talquero 2 ok
+L29: Cepillo Talquero Vintage 2 ok
+L30: Navaja Cuchillas Barberia 2 ok
+L31: Forro Pc 14 Pulgadas 2 ok
+L32: Cepillo Barberia 1 ok
+L33: Cepillo Fijador Barberia 2 ok
+L34: Capa Barberia Replica 1 ok
+L35: Capa Barberia Original 1 ok
+L43: Cargador Pc Lenovo Mini 3.25 2 ok
+L44: Control Gamer X3S 3 ok
+L45: Cargador Cabeza Cubo Eco 5 ok
+L56: Intercomunicador Helmet Kr-M8 1 ok
+L57: Intercomunicador Helmet Kr-M2 1 ok
+L58: Trimer Kemei Km-2299 1 ok
+L59: Base Tv de Piso 1 ok
+L78: Repetidor Wifi Lan In Out 1 ok
+L79: Pad Mouse Almohadilla 2 ok
+
+============================================================
+Fecha: 2026-03-21 15:01:09
+Archivo: pdcentro.txt
+Eliminados: 7
+--- DETALLE ---
+L192: Silicone Case Oppo A17 Fucsia 1 ok
+L193: Silicone Case Oppo A17 Morado 1 ok
+L214: Silicone Case Samsung A06 Azulrey 1 ok
+L221: Silicone Case Samsung A56 Lila 1 ok
+L272: Silicone Case Xiaomi Redmi 13C Rojo 1 ok
+L273: Silicone Case Xiaomi Redmi 13C Verdementa 1 ok
+L294: Silicone Case Xiaomi Redmi Note 9 Amarillo 1 ok
