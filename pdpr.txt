@@ -13,7 +13,7 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
-    Cable Hdmi Premium 5M 1
+    Cable Hdmi Premium 5M 1 ok
     Cable Microsoft Xbox 360 3
     Cable Rj11 3
     Cable Usb A Punta Negra 3
@@ -21,11 +21,11 @@
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
-    Cargador 15V 2
+    Cargador 15V 2 ok
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo 65W Tc 1
-    Cargador Pc Lenovo Mini 3.25 1
+    Cargador Pc Lenovo Mini 3.25 1 ok
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
