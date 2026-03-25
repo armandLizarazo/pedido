@@ -1,7 +1,7 @@
     Flex de Power Huawei Ascend Y520 1
-    Pacha Oppo Realme C53 / Note 50 1
-    Pacha Tecno - Infinix Pova 4 / Neo 2 / Hot 12 Play / Hot 20 Play / Hot 30 Play 1
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2
-    Pacha Xiaomi Redmi Note 10 / Note 10S 1
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1
+    Pacha Oppo Realme C53 / Note 50 1 ok
+    Pacha Tecno - Infinix Pova 4 / Neo 2 / Hot 12 Play / Hot 20 Play / Hot 30 Play 1 ok
+    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2 ok
+    Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
     Visor Camara Flash Tecno Spark 30 Pro 4G 1
