@@ -15,7 +15,8 @@
     Cable Hdmi 1.5M 5
     Cable Hdmi Premium 5M 1 ok
     Cable Microsoft Xbox 360 3
-    Cable Rj11 3
+    Cable Lan 10M Cat 6 2 ok
+    Cable Rj11 3ñ
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
@@ -26,6 +27,7 @@
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo 65W Tc 1
     Cargador Pc Lenovo Mini 3.25 1 ok
+    Base Tv Eco-800 80 Pulgadas 1 ok
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
