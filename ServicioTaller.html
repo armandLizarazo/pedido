@@ -207,6 +207,69 @@
     <datalist id="list-models"></datalist>
     <datalist id="list-imeis"></datalist>
 
+    <!-- MODAL DE RESTAURACIÓN DE DATOS (NUEVO) -->
+    <div
+      id="import-modal"
+      class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4 no-print"
+    >
+      <div
+        class="bg-white rounded-2xl shadow-2xl w-full max-w-md overflow-hidden animate-[fadeIn_0.2s_ease-out]"
+      >
+        <div class="p-4 border-b bg-blue-50">
+          <h3 class="text-lg font-bold text-blue-800 flex items-center gap-2">
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"
+              />
+            </svg>
+            Restaurar Base de Datos
+          </h3>
+        </div>
+        <div class="p-6">
+          <p id="import-modal-text" class="text-slate-600 mb-6 font-medium">
+            Se encontraron X registros en el archivo. ¿Qué deseas hacer?
+          </p>
+
+          <div class="space-y-3">
+            <button
+              onclick="executeImport('merge')"
+              class="w-full p-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold flex flex-col items-center justify-center transition-colors"
+            >
+              <span>FUSIONAR DATOS (Recomendado)</span>
+              <span class="text-xs font-normal text-blue-100"
+                >Agrega solo los tickets nuevos. No borra lo actual.</span
+              >
+            </button>
+
+            <button
+              onclick="executeImport('replace')"
+              class="w-full p-3 bg-red-50 hover:bg-red-100 text-red-700 rounded-xl font-bold flex flex-col items-center justify-center transition-colors border border-red-200"
+            >
+              <span>REEMPLAZAR TODO</span>
+              <span class="text-xs font-normal text-red-500/80"
+                >Borra la base actual y deja solo la del archivo.</span
+              >
+            </button>
+
+            <button
+              onclick="closeImportModal()"
+              class="w-full p-3 mt-4 bg-slate-100 hover:bg-slate-200 text-slate-600 rounded-xl font-bold transition-colors"
+            >
+              CANCELAR Y CERRAR
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- SIDEBAR -->
     <aside
       class="w-64 bg-slate-900 text-slate-300 hidden md:flex flex-col no-print shrink-0 shadow-xl z-20"
@@ -226,7 +289,6 @@
         <span>GEEK TECH</span>
       </div>
       <nav class="p-4 space-y-2 flex-1 overflow-y-auto">
-        <!-- BOTÓN NUEVA ORDEN MODIFICADO PARA LIMPIAR TODO -->
         <button
           onclick="startNewOrder()"
           id="nav-form"
@@ -356,7 +418,7 @@
       <div
         class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
       >
-        Sistema de Taller v4.3<br />Base de Datos: Local
+        Sistema de Taller v4.7<br />Base de Datos: Local
       </div>
     </aside>
 
@@ -397,22 +459,39 @@
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-6">
           <div class="lg:col-span-7 space-y-6">
             <div
-              class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex items-center justify-between"
+              class="bg-white p-4 rounded-xl shadow-sm border border-slate-200 flex flex-col md:flex-row items-center justify-between gap-4"
             >
-              <label class="text-sm font-bold text-slate-700"
-                >ESTADO DE LA ORDEN:</label
-              >
-              <select
-                id="inp-status"
-                class="p-2 border rounded-lg bg-slate-50 font-bold text-sm outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                <option value="Ingresado">🔵 INGRESADO</option>
-                <option value="Diagnóstico">🟡 EN DIAGNÓSTICO</option>
-                <option value="En Proceso">🟠 EN PROCESO</option>
-                <option value="Listo">🟢 LISTO PARA ENTREGA</option>
-                <option value="Entregado">⚫ ENTREGADO</option>
-                <option value="Cancelado">🔴 CANCELADO</option>
-              </select>
+              <div class="flex items-center gap-3 w-full md:w-auto">
+                <label
+                  class="text-sm font-bold text-slate-700 whitespace-nowrap"
+                  >ESTADO:</label
+                >
+                <select
+                  id="inp-status"
+                  class="p-2 border rounded-lg bg-slate-50 font-bold text-sm outline-none focus:ring-2 focus:ring-blue-500 flex-1"
+                >
+                  <option value="Ingresado">🔵 INGRESADO</option>
+                  <option value="Diagnóstico">🟡 EN DIAGNÓSTICO</option>
+                  <option value="En Proceso">🟠 EN PROCESO</option>
+                  <option value="Listo">🟢 LISTO PARA ENTREGA</option>
+                  <option value="Entregado">⚫ ENTREGADO</option>
+                  <option value="Cancelado">🔴 CANCELADO</option>
+                </select>
+              </div>
+
+              <div class="flex items-center gap-3 w-full md:w-auto">
+                <label
+                  class="text-sm font-bold text-slate-700 whitespace-nowrap"
+                  title="Fecha y Hora de Ingreso"
+                  >FECHA:</label
+                >
+                <input
+                  type="datetime-local"
+                  id="inp-date"
+                  class="p-2 border rounded-lg bg-slate-50 font-bold text-sm outline-none focus:ring-2 focus:ring-blue-500 flex-1"
+                  title="Puedes modificar la fecha para reingresar órdenes antiguas"
+                />
+              </div>
             </div>
 
             <div
@@ -528,7 +607,9 @@
                     rows="2"
                     class="w-full p-2.5 border border-yellow-200 bg-yellow-50 rounded-lg outline-none resize-none"
                     placeholder="Ej: Equipo rayado, sin simcard, tapa rota..."
-                  ></textarea>
+                  >
+Sin Forro ni simcard</textarea
+                  >
                 </div>
               </div>
             </div>
@@ -583,7 +664,15 @@
                     No hay abonos registrados.
                   </li>
                 </ul>
-                <div class="flex gap-2 border-t border-slate-200 pt-2">
+                <div
+                  class="flex flex-col sm:flex-row gap-2 border-t border-slate-200 pt-2"
+                >
+                  <input
+                    type="date"
+                    id="inp-payment-date"
+                    class="p-1.5 text-sm border rounded outline-none w-full sm:w-32 text-slate-600"
+                    title="Fecha del Abono"
+                  />
                   <input
                     type="number"
                     id="inp-new-payment"
@@ -661,7 +750,7 @@
                   <input
                     type="text"
                     id="inp-pass-text"
-                    class="w-full p-4 text-center text-xl font-mono border-2 border-slate-300 rounded-lg tracking-widest uppercase focus:border-blue-500 outline-none transition-colors"
+                    class="w-full p-4 text-center text-xl font-mono border-2 border-slate-300 rounded-lg tracking-widest focus:border-blue-500 outline-none transition-colors"
                     placeholder="----"
                   />
                 </div>
@@ -831,7 +920,7 @@
               class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
             >
               <div class="text-xs font-bold text-slate-400 uppercase mb-1">
-                Equipos En Proceso
+                Equipos En Proceso / Mesa
               </div>
               <div class="text-2xl font-bold text-blue-600" id="rep-process">
                 0
@@ -957,11 +1046,24 @@
     </div>
 
     <script>
+      // --- HELPER DE FECHAS ---
+      function formatDateForInput(dateObj) {
+        const d = dateObj ? new Date(dateObj) : new Date();
+        const pad = (n) => n.toString().padStart(2, "0");
+        return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+      }
+
+      function formatDateOnly(dateObj) {
+        const d = dateObj ? new Date(dateObj) : new Date();
+        const pad = (n) => n.toString().padStart(2, "0");
+        return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+      }
+
       // --- BASE DE DATOS LOCAL ---
       const DB_KEY = "repairDB";
-      // Cambio: Ordenar por Status Ascendente por defecto (Prioridad personalizada)
       let currentSort = { column: "status", order: "asc" };
       let currentPayments = [];
+      let pendingImportData = null;
 
       function getDB() {
         const data = localStorage.getItem(DB_KEY);
@@ -1038,22 +1140,30 @@
       // --- GESTIÓN DE PAGOS ---
       function addPayment() {
         const amountInput = document.getElementById("inp-new-payment");
+        const dateInput = document.getElementById("inp-payment-date");
         const amount = parseFloat(amountInput.value);
 
         if (!amount || amount <= 0) return alert("Ingrese un monto válido");
 
+        // Si hay fecha seleccionada se usa esa, sino la de hoy
+        let payDate = new Date();
+        if (dateInput.value) {
+          const [y, m, d] = dateInput.value.split("-");
+          payDate = new Date(y, m - 1, d, 12, 0, 0); // Evitar salto de día por zona horaria
+        }
+
         const newPayment = {
-          date: new Date().toISOString(),
+          date: payDate.toISOString(),
           amount: amount,
         };
 
         currentPayments.push(newPayment);
         amountInput.value = "";
+        dateInput.value = formatDateOnly(new Date()); // Volver a hoy
         renderPaymentsList();
         calcBalance();
       }
 
-      // NUEVA FUNCIÓN: ELIMINAR PAGO
       function removePayment(index) {
         if (!confirm("¿Desea eliminar este abono?")) return;
         currentPayments.splice(index, 1);
@@ -1117,10 +1227,61 @@
         if (viewName === "reports") renderReports();
       }
 
-      // NUEVA FUNCIÓN PARA INICIAR NUEVA ORDEN LIMPIA
       function startNewOrder() {
-        cancelEdit(); // Esta función ahora se encarga de limpiar todo
+        cancelEdit();
         switchView("form");
+      }
+
+      // --- INFORMES ---
+      function renderReports() {
+        const db = getDB();
+
+        let pending = 0;
+        let delivered = 0;
+        let inProcess = 0;
+        let totalIncome = 0;
+        const statusCounts = {};
+
+        db.forEach((order) => {
+          const deposit = order.deposit || 0;
+          const balance = (order.total || 0) - deposit;
+
+          if (order.status !== "Cancelado" && balance > 0) {
+            pending += balance;
+          }
+
+          if (order.status === "Entregado") delivered++;
+          if (order.status === "En Proceso" || order.status === "Diagnóstico")
+            inProcess++;
+
+          totalIncome += deposit;
+
+          const st = order.status || "Ingresado";
+          if (!statusCounts[st]) statusCounts[st] = { count: 0, total: 0 };
+          statusCounts[st].count++;
+          statusCounts[st].total += order.total || 0;
+        });
+
+        document.getElementById("rep-balance").textContent =
+          "$" + pending.toLocaleString();
+        document.getElementById("rep-delivered").textContent = delivered;
+        document.getElementById("rep-process").textContent = inProcess;
+        document.getElementById("rep-income").textContent =
+          "$" + totalIncome.toLocaleString();
+
+        const tbody = document.getElementById("rep-status-table");
+        if (tbody) {
+          tbody.innerHTML = "";
+          for (const [st, data] of Object.entries(statusCounts)) {
+            tbody.innerHTML += `
+                        <tr class="border-b hover:bg-slate-50">
+                            <td class="px-6 py-3 font-medium text-slate-700">${st}</td>
+                            <td class="px-6 py-3 text-center">${data.count}</td>
+                            <td class="px-6 py-3 text-right font-bold">$${data.total.toLocaleString()}</td>
+                        </tr>
+                    `;
+          }
+        }
       }
 
       // --- HISTORIAL Y ORDENAMIENTO ---
@@ -1166,7 +1327,6 @@
           let valA = a[currentSort.column] || "";
           let valB = b[currentSort.column] || "";
 
-          // LÓGICA PERSONALIZADA PARA ORDENAR POR ESTADO
           if (currentSort.column === "status") {
             const statusMap = {
               Listo: 1,
@@ -1177,7 +1337,6 @@
               Cancelado: 6,
             };
 
-            // Si el estado no está en el mapa (ej: datos viejos), poner al final
             const weightA = statusMap[valA] || 7;
             const weightB = statusMap[valB] || 7;
 
@@ -1243,8 +1402,12 @@
         const order = db.find((o) => o.ticketNumber === ticketNumber);
         if (!order) return alert("Orden no encontrada");
 
-        // Cargar datos básicos
+        // Cargar datos básicos y FECHA DE INGRESO
         document.getElementById("inp-ticket").value = order.ticketNumber;
+        document.getElementById("inp-date").value = formatDateForInput(
+          order.date,
+        );
+
         document.getElementById("inp-name").value = order.clientName;
         document.getElementById("inp-phone").value = order.clientPhone;
         document.getElementById("inp-id").value = order.clientId || "";
@@ -1252,7 +1415,8 @@
         document.getElementById("inp-model").value = order.deviceModel;
         document.getElementById("inp-imei").value = order.imei;
         document.getElementById("inp-issue").value = order.issue;
-        document.getElementById("inp-notes").value = order.notes || "";
+        document.getElementById("inp-notes").value =
+          order.notes !== undefined ? order.notes : "Sin Forro ni simcard";
         document.getElementById("inp-total").value = order.total;
         document.getElementById("inp-status").value =
           order.status || "Ingresado";
@@ -1300,6 +1464,13 @@
       // LIMPIEZA COMPLETA DEL FORMULARIO
       function cancelEdit() {
         document.getElementById("inp-ticket").value = "";
+        document.getElementById("inp-date").value = formatDateForInput(
+          new Date(),
+        ); // Volver a hoy
+        document.getElementById("inp-payment-date").value = formatDateOnly(
+          new Date(),
+        ); // Pago a hoy
+
         document.getElementById("page-title").textContent = "Ingreso de Equipo";
         document.getElementById("edit-badge").classList.add("hidden");
         document.getElementById("btn-save-text").textContent =
@@ -1313,16 +1484,16 @@
         document.getElementById("inp-model").value = "";
         document.getElementById("inp-imei").value = "";
         document.getElementById("inp-issue").value = "";
-        document.getElementById("inp-notes").value = "";
+        document.getElementById("inp-notes").value = "Sin Forro ni simcard";
         document.getElementById("inp-total").value = "";
         document.getElementById("inp-status").value = "Ingresado";
         document.getElementById("inp-pass-text").value = "";
         document.getElementById("inp-new-payment").value = "";
 
-        currentPayments = []; // Limpiar array de pagos
-        renderPaymentsList(); // Renderizar lista vacía (esto pone inp-deposit en 0)
+        currentPayments = [];
+        renderPaymentsList();
         resetPattern();
-        calcBalance(); // Recalcular saldo (debería ser 0)
+        calcBalance();
       }
 
       // --- CORE Y UTILIDADES ---
@@ -1334,13 +1505,11 @@
         });
 
       function calcBalance() {
-        // Usar parseFloat para convertir string a número, si es NaN o vacío usar 0
         const total =
           parseFloat(document.getElementById("inp-total").value) || 0;
         const abono =
           parseFloat(document.getElementById("inp-deposit").value) || 0;
         const saldo = total - abono;
-        // Mostrar saldo formateado, si da negativo se muestra igual
         document.getElementById("inp-balance").value = saldo.toLocaleString();
       }
 
@@ -1369,7 +1538,6 @@
         }
       }
 
-      // Canvas Pattern Logic
       const canvas = document.getElementById("pattern-canvas");
       const ctx = canvas.getContext("2d");
       const wrapper = document.getElementById("pattern-wrapper");
@@ -1513,12 +1681,15 @@
         const deposit =
           parseFloat(document.getElementById("inp-deposit").value) || 0;
 
+        // Recoger fecha especificada en el nuevo input
+        const inputDateValue = document.getElementById("inp-date").value;
+        const finalDate = inputDateValue
+          ? new Date(inputDateValue).toISOString()
+          : new Date().toISOString();
+
         const orderData = {
           ticketNumber: ticketNumber,
-          date: currentId
-            ? getDB().find((o) => o.ticketNumber == currentId)?.date ||
-              new Date().toISOString()
-            : new Date().toISOString(),
+          date: finalDate, // FECHA DEFINIDA POR EL USUARIO
           clientName:
             document.getElementById("inp-name").value || "Cliente General",
           clientPhone: document.getElementById("inp-phone").value,
@@ -1555,8 +1726,9 @@
       }
 
       function printTicketData(data) {
-        document.getElementById("t-date").textContent =
-          new Date().toLocaleString();
+        document.getElementById("t-date").textContent = new Date(
+          data.date,
+        ).toLocaleString();
         document.getElementById("t-id").textContent = data.ticketNumber;
         document.getElementById("t-status").textContent = data.status
           ? data.status.toUpperCase()
@@ -1647,13 +1819,18 @@
         window.print();
       }
 
-      // Inicializar sugerencias al cargar y uso de almacenamiento
       document.addEventListener("DOMContentLoaded", () => {
         updateSuggestions();
         updateStorageUsage();
+        // Inicializar las fechas a hoy por defecto
+        document.getElementById("inp-date").value = formatDateForInput(
+          new Date(),
+        );
+        document.getElementById("inp-payment-date").value = formatDateOnly(
+          new Date(),
+        );
       });
 
-      // Import/Export y Uso de Storage
       function updateStorageUsage() {
         let total = 0;
         for (let x in localStorage) {
@@ -1694,32 +1871,80 @@
         URL.revokeObjectURL(url);
       }
 
+      // --- SISTEMA DE IMPORTACIÓN CON MODAL Y 3 OPCIONES ---
       function importDB(input) {
         const file = input.files[0];
         if (!file) return;
         const reader = new FileReader();
         reader.onload = function (e) {
           try {
-            const data = JSON.parse(e.target.result);
-            if (Array.isArray(data)) {
-              if (
-                confirm(
-                  `Se encontrarón ${data.length} registros. ¿Desea reemplazar la base de datos actual?`,
-                )
-              ) {
-                localStorage.setItem(DB_KEY, JSON.stringify(data));
-                alert("¡Datos restaurados correctamente!");
-                location.reload();
-              }
+            const importedData = JSON.parse(e.target.result);
+            if (Array.isArray(importedData)) {
+              pendingImportData = importedData;
+              document.getElementById("import-modal-text").textContent =
+                `Se encontraron ${importedData.length} registros en el archivo "${file.name}". ¿Qué deseas hacer?`;
+
+              const modal = document.getElementById("import-modal");
+              modal.classList.remove("hidden");
+              modal.classList.add("flex");
             } else {
               alert("El archivo seleccionado no es un respaldo válido.");
             }
           } catch (err) {
-            alert("Error al leer el archivo.");
+            alert("Error al leer el archivo. Formato inválido.");
           }
         };
         reader.readAsText(file);
         input.value = "";
+      }
+
+      function closeImportModal() {
+        const modal = document.getElementById("import-modal");
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        pendingImportData = null;
+      }
+
+      function executeImport(action) {
+        if (!pendingImportData) {
+          closeImportModal();
+          return;
+        }
+
+        const currentData = getDB();
+
+        if (action === "merge") {
+          let agregados = 0;
+          pendingImportData.forEach((importedOrder) => {
+            const exists = currentData.find(
+              (o) => o.ticketNumber === importedOrder.ticketNumber,
+            );
+            if (!exists) {
+              currentData.push(importedOrder);
+              agregados++;
+            }
+          });
+
+          currentData.sort(
+            (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+          );
+          localStorage.setItem(DB_KEY, JSON.stringify(currentData));
+
+          alert(
+            `¡Fusión completa! Se agregaron ${agregados} registros nuevos. Los registros locales no se borraron.`,
+          );
+          location.reload();
+        } else if (action === "replace") {
+          if (
+            confirm(
+              "⚠️ ADVERTENCIA FINAL: Esto borrará TODOS sus registros actuales y los reemplazará por los del archivo. ¿Está completamente seguro?",
+            )
+          ) {
+            localStorage.setItem(DB_KEY, JSON.stringify(pendingImportData));
+            alert("¡Datos reemplazados correctamente!");
+            location.reload();
+          }
+        }
       }
 
       function updateSuggestions() {

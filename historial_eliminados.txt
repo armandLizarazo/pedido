@@ -11884,3 +11884,25 @@ L221: Silicone Case Samsung A56 Lila 1 ok
 L272: Silicone Case Xiaomi Redmi 13C Rojo 1 ok
 L273: Silicone Case Xiaomi Redmi 13C Verdementa 1 ok
 L294: Silicone Case Xiaomi Redmi Note 9 Amarillo 1 ok
+
+============================================================
+Fecha: 2026-03-25 15:22:01
+Archivo: pdst.txt
+Eliminados: 5
+--- DETALLE ---
+L2: Pacha Oppo Realme C53 / Note 50 1 ok
+L3: Pacha Tecno - Infinix Pova 4 / Neo 2 / Hot 12 Play / Hot 20 Play / Hot 30 Play 1 ok
+L4: Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2 ok
+L5: Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok
+L6: Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+
+============================================================
+Fecha: 2026-03-25 15:22:01
+Archivo: pdpr.txt
+Eliminados: 5
+--- DETALLE ---
+L16: Cable Hdmi Premium 5M 1 ok
+L18: Cable Lan 10M Cat 6 2 ok
+L25: Cargador 15V 2 ok
+L29: Cargador Pc Lenovo Mini 3.25 1 ok
+L30: Base Tv Eco-800 80 Pulgadas 1 ok

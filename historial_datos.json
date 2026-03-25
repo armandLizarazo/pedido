@@ -1,5 +1,61 @@
 [
     {
+        "fecha": "2026-03-25 15:22:01",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 16,
+                "contenido": "Cable Hdmi Premium 5M 1 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Cable Lan 10M Cat 6 2 ok"
+            },
+            {
+                "linea": 25,
+                "contenido": "Cargador 15V 2 ok"
+            },
+            {
+                "linea": 29,
+                "contenido": "Cargador Pc Lenovo Mini 3.25 1 ok"
+            },
+            {
+                "linea": 30,
+                "contenido": "Base Tv Eco-800 80 Pulgadas 1 ok"
+            }
+        ],
+        "total_conservados": 63
+    },
+    {
+        "fecha": "2026-03-25 15:22:01",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 2,
+                "contenido": "Pacha Oppo Realme C53 / Note 50 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Tecno - Infinix Pova 4 / Neo 2 / Hot 12 Play / Hot 20 Play / Hot 30 Play 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50i 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Xiaomi Redmi Note 10 / Note 10S 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok"
+            }
+        ],
+        "total_conservados": 2
+    },
+    {
         "fecha": "2026-03-21 15:01:09",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
