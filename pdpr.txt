@@ -1,6 +1,6 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb Lan 2.0 3
+    Adaptador Usb Lan 2.0 2 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth Pro 5S Negro 1
@@ -13,8 +13,8 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
-    Cable Hdmi Premium 5M 2
-    Cable Hdtv 2
+    Cable Hdmi Premium 5M 1 ok
+    Cable Hdtv 2 ok
     Cable Microsoft Xbox 360 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
@@ -35,7 +35,7 @@
     Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
-    Estabilizador 4 Puertos 1
+    Estabilizador 4 Puertos 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
@@ -61,7 +61,7 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Switch Lan 10/100 1
+    Switch Lan 10/100 2 ok
     Teclado Kb-502 Eco 3
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
