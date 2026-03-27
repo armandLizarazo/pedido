@@ -9,13 +9,14 @@
     Cable Auxiliar 1 A 1 3 Vias Cja 2
     Cable Belkin V8 5
     Cargador Apple 25W Con Cable 2
+    Cargador Digo 1100 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Samsung 25W Con Cable Blanco 3
     Cargador Smart Band M5 2
     Cargador W Tc 5
-    Cargador We Tc 33W 3
+    Cargador We Tc 33W 5
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Honor X6A / Play 9A Dama 2
@@ -41,6 +42,8 @@
     Forro Antichoque Oppo Reno 13F Dama 1
     Forro Antichoque Oppo Reno 14 Caballero 5
     Forro Antichoque Samsung A04E Caballero 5
+    Forro Antichoque Samsung A05S Caballero 3
+    Forro Antichoque Samsung A05S Dama 5
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A31 Dama 2
@@ -86,6 +89,7 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Negro 1
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cable Con Puntas 5
+    Forro Cargador Cable  + Puntas 1
     Forro Lujo Humo Samsung A16 Negro 1
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Samsung A06 Morado 1
@@ -218,6 +222,7 @@
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
     Silicone Case Oppo Realme C33 Negro 1
+    Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C75 Negro 1
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Oppo Reno 14F Rojo 1

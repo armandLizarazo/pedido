@@ -13,8 +13,9 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
+    Cable Hdmi Premium 5M 2
+    Cable Hdtv 2
     Cable Microsoft Xbox 360 3
-    Cable Rj11 3ñ
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
@@ -31,8 +32,10 @@
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
     Control Gamer X3S 2
+    Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
+    Estabilizador 4 Puertos 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
@@ -42,6 +45,7 @@
     Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
+    Mini Licuadora Doble Vaso 2
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
@@ -57,6 +61,7 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
+    Switch Lan 10/100 1
     Teclado Kb-502 Eco 3
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1

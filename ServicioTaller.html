@@ -207,7 +207,7 @@
     <datalist id="list-models"></datalist>
     <datalist id="list-imeis"></datalist>
 
-    <!-- MODAL DE RESTAURACIÓN DE DATOS (NUEVO) -->
+    <!-- MODAL DE RESTAURACIÓN DE DATOS -->
     <div
       id="import-modal"
       class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4 no-print"
@@ -245,7 +245,7 @@
             >
               <span>FUSIONAR DATOS (Recomendado)</span>
               <span class="text-xs font-normal text-blue-100"
-                >Agrega solo los tickets nuevos. No borra lo actual.</span
+                >Agrega solo los registros nuevos. No borra lo actual.</span
               >
             </button>
 
@@ -266,6 +266,76 @@
               CANCELAR Y CERRAR
             </button>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL DE AUTENTICACIÓN (NUEVO) -->
+    <div
+      id="auth-modal"
+      class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4 no-print"
+    >
+      <div
+        class="bg-white rounded-2xl shadow-2xl w-full max-w-sm overflow-hidden animate-[fadeIn_0.2s_ease-out]"
+      >
+        <div class="p-4 border-b bg-slate-50 flex justify-between items-center">
+          <h3 class="text-lg font-bold text-slate-800 flex items-center gap-2">
+            <svg
+              class="w-5 h-5 text-red-500"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"
+              />
+            </svg>
+            Acceso Restringido
+          </h3>
+          <button
+            onclick="closeAuthModal()"
+            class="text-slate-400 hover:text-slate-600"
+          >
+            <svg
+              class="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="p-6">
+          <p class="text-sm text-slate-600 mb-4 text-center">
+            Ingrese la contraseña para acceder a Finanzas e Informes.
+          </p>
+          <input
+            type="password"
+            id="auth-pin"
+            class="w-full p-3 text-center text-2xl tracking-[0.5em] font-mono border-2 border-slate-300 rounded-xl outline-none focus:border-blue-500 mb-2"
+            placeholder="••••"
+          />
+          <p
+            id="auth-error"
+            class="text-xs text-red-500 font-bold mb-4 hidden text-center"
+          >
+            Contraseña incorrecta
+          </p>
+          <button
+            onclick="verifyAuth()"
+            class="w-full py-3 bg-slate-800 text-white rounded-xl font-bold hover:bg-slate-700 transition-colors mt-2"
+          >
+            Desbloquear Panel
+          </button>
         </div>
       </div>
     </div>
@@ -328,6 +398,26 @@
             />
           </svg>
           Historial
+        </button>
+        <button
+          onclick="switchView('finance')"
+          id="nav-finance"
+          class="w-full flex items-center gap-3 p-3 hover:bg-slate-800 rounded-lg cursor-pointer transition text-slate-300 hover:text-white"
+        >
+          <svg
+            class="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+          Cierres y Saldos
         </button>
         <button
           onclick="switchView('reports')"
@@ -418,7 +508,7 @@
       <div
         class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
       >
-        Sistema de Taller v4.7<br />Base de Datos: Local
+        Sistema de Taller v6.0<br />Control de Cierres Diarios
       </div>
     </aside>
 
@@ -885,6 +975,166 @@ Sin Forro ni simcard</textarea
         </div>
       </div>
 
+      <!-- VISTA CAJA / FINANZAS (MODIFICADA A REGISTRO DE SALDOS) -->
+      <div
+        id="view-finance"
+        class="view-section flex-1 overflow-y-auto p-4 md:p-8 no-print hidden"
+      >
+        <div class="max-w-7xl mx-auto space-y-6">
+          <div
+            class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-6"
+          >
+            <div>
+              <h2
+                class="text-2xl font-bold text-slate-800 flex items-center gap-2"
+              >
+                <svg
+                  class="w-6 h-6 text-green-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                Control de Cierres Diarios
+              </h2>
+              <p class="text-sm text-slate-500">
+                Registra el saldo final que quedó en cada caja o banco al
+                terminar el día.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tarjetas de Saldos Actuales (Último Registro) -->
+          <div
+            class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4"
+            id="finance-balances-container"
+          >
+            <!-- JS rellenará esto con los saldos de cada cuenta -->
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <!-- Formulario de Registro de Saldo -->
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 col-span-1 h-fit"
+            >
+              <h3
+                class="text-sm font-bold text-slate-700 uppercase mb-4 tracking-wider border-b pb-2"
+              >
+                Registrar Cierre Diario
+              </h3>
+              <div class="space-y-4">
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Cuenta / Caja</label
+                  >
+                  <select
+                    id="fin-account"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none font-bold bg-slate-50 focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value="Efectivo">Efectivo</option>
+                    <option value="Nequi">Nequi</option>
+                    <option value="Daviplata">Daviplata</option>
+                    <option value="Bancolombia">Bancolombia</option>
+                    <option value="Caja Menor">Caja Menor</option>
+                    <option value="Caja Mayor">Caja Mayor</option>
+                    <option value="Base">Base</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Saldo Final del Día ($)</label
+                  >
+                  <input
+                    type="number"
+                    id="fin-amount"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none font-bold text-lg focus:ring-2 focus:ring-blue-500 text-green-700"
+                    placeholder="0"
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Notas (Opcional)</label
+                  >
+                  <input
+                    type="text"
+                    id="fin-desc"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none focus:ring-2 focus:ring-blue-500"
+                    placeholder="Ej: Cierre normal, faltante de $10..."
+                  />
+                </div>
+                <div>
+                  <label class="block text-xs font-semibold text-slate-500 mb-1"
+                    >Fecha de Cierre</label
+                  >
+                  <input
+                    type="date"
+                    id="fin-date"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none text-sm focus:ring-2 focus:ring-blue-500"
+                  />
+                </div>
+                <button
+                  onclick="addFinanceRecord()"
+                  class="w-full py-3 bg-blue-600 text-white rounded-lg font-bold hover:bg-blue-700 transition-colors shadow-lg mt-2"
+                >
+                  Guardar Cierre
+                </button>
+              </div>
+            </div>
+
+            <!-- Tabla de Historial de Cierres -->
+            <div
+              class="bg-white rounded-xl shadow-sm border border-slate-200 col-span-1 lg:col-span-2 overflow-hidden flex flex-col h-full min-h-[500px]"
+            >
+              <div
+                class="p-4 border-b bg-slate-50 flex justify-between items-center"
+              >
+                <h3
+                  class="font-bold text-slate-700 text-sm uppercase tracking-wider"
+                >
+                  Historial de Cierres
+                </h3>
+                <div class="flex items-center gap-2">
+                  <label class="text-xs font-bold text-slate-500">MES:</label>
+                  <input
+                    type="month"
+                    id="fin-filter-month"
+                    onchange="renderFinance()"
+                    class="p-1.5 border border-slate-300 rounded text-sm outline-none bg-white"
+                  />
+                </div>
+              </div>
+              <div class="overflow-y-auto flex-1">
+                <table class="w-full text-sm text-left">
+                  <thead
+                    class="text-xs text-slate-500 uppercase bg-white sticky top-0 border-b shadow-sm"
+                  >
+                    <tr>
+                      <th class="px-4 py-3">Fecha</th>
+                      <th class="px-4 py-3">Cuenta / Caja</th>
+                      <th class="px-4 py-3 text-right">Saldo Registrado</th>
+                      <th class="px-4 py-3">Notas</th>
+                      <th class="px-4 py-3 text-center">Acción</th>
+                    </tr>
+                  </thead>
+                  <tbody
+                    id="fin-history-body"
+                    class="divide-y divide-slate-100"
+                  >
+                    <!-- JS llenará esto -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- VISTA INFORMES -->
       <div
         id="view-reports"
@@ -895,7 +1145,70 @@ Sin Forro ni simcard</textarea
             Panel de Informes
           </h2>
 
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <!-- NUEVO: DASHBOARD DE LIQUIDEZ GLOBAL -->
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div
+              class="bg-slate-900 text-white p-6 rounded-xl shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center"
+            >
+              <h3
+                class="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2"
+              >
+                Liquidez Global Actual
+              </h3>
+              <div
+                class="text-3xl font-black text-green-400"
+                id="rep-liquidity"
+              >
+                $0
+              </div>
+            </div>
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-center items-center text-center"
+            >
+              <h3
+                class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2"
+              >
+                Día con Mayor Liquidez
+              </h3>
+              <div
+                class="text-2xl font-bold text-green-600"
+                id="rep-max-global-amt"
+              >
+                $0
+              </div>
+              <div
+                class="text-xs text-slate-400 mt-1 font-medium"
+                id="rep-max-global-date"
+              >
+                ---
+              </div>
+            </div>
+            <div
+              class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-center items-center text-center"
+            >
+              <h3
+                class="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2"
+              >
+                Día con Menor Liquidez
+              </h3>
+              <div
+                class="text-2xl font-bold text-red-500"
+                id="rep-min-global-amt"
+              >
+                $0
+              </div>
+              <div
+                class="text-xs text-slate-400 mt-1 font-medium"
+                id="rep-min-global-date"
+              >
+                ---
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-6"
+          >
             <div
               class="bg-white p-5 rounded-xl shadow-sm border border-slate-200"
             >
@@ -958,6 +1271,50 @@ Sin Forro ni simcard</textarea
                 <!-- JS -->
               </tbody>
             </table>
+          </div>
+
+          <!-- NUEVA SECCIÓN: Estadísticas de Caja (Análisis de Cierres) -->
+          <div
+            class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mt-6"
+          >
+            <div
+              class="p-4 border-b bg-slate-50 font-bold text-slate-700 flex items-center gap-2"
+            >
+              <svg
+                class="w-5 h-5 text-green-500"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"
+                />
+              </svg>
+              Análisis Histórico de Saldos
+            </div>
+            <div class="p-3 bg-white text-xs text-slate-500 italic border-b">
+              Basado en los cierres de caja registrados, muestra cuál fue el día
+              que la cuenta tuvo más o menos dinero.
+            </div>
+            <div class="overflow-x-auto">
+              <table class="w-full text-sm text-left">
+                <thead
+                  class="text-xs text-slate-500 uppercase bg-slate-50 border-b"
+                >
+                  <tr>
+                    <th class="px-6 py-3">Cuenta / Caja</th>
+                    <th class="px-6 py-3">Día con MAYOR Saldo</th>
+                    <th class="px-6 py-3">Día con MENOR Saldo</th>
+                  </tr>
+                </thead>
+                <tbody id="rep-finance-stats">
+                  <!-- JS -->
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
@@ -1059,14 +1416,21 @@ Sin Forro ni simcard</textarea
         return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
       }
 
-      // --- BASE DE DATOS LOCAL ---
+      // --- BASES DE DATOS LOCALES ---
       const DB_KEY = "repairDB";
+      const FINANCE_DB_KEY = "financeDB";
+
       let currentSort = { column: "status", order: "asc" };
       let currentPayments = [];
       let pendingImportData = null;
 
       function getDB() {
         const data = localStorage.getItem(DB_KEY);
+        return data ? JSON.parse(data) : [];
+      }
+
+      function getFinanceDB() {
+        const data = localStorage.getItem(FINANCE_DB_KEY);
         return data ? JSON.parse(data) : [];
       }
 
@@ -1097,6 +1461,141 @@ Sin Forro ni simcard</textarea
         renderHistory();
         updateSuggestions();
         updateStorageUsage();
+      }
+
+      // --- LÓGICA DE CAJA / FINANZAS (MODIFICADA PARA SALDOS DIARIOS) ---
+      function saveFinanceDB(db) {
+        localStorage.setItem(FINANCE_DB_KEY, JSON.stringify(db));
+        renderFinance();
+        updateStorageUsage();
+      }
+
+      function addFinanceRecord() {
+        const account = document.getElementById("fin-account").value;
+        const amountStr = document.getElementById("fin-amount").value;
+        const amount = parseFloat(amountStr);
+        const desc = document.getElementById("fin-desc").value;
+        const dateInput = document.getElementById("fin-date").value;
+
+        if (isNaN(amount) || amount < 0 || amountStr === "")
+          return alert("Ingrese un saldo válido (puede ser 0)");
+
+        let recordDate = new Date();
+        if (dateInput) {
+          const [y, m, d] = dateInput.split("-");
+          recordDate = new Date(y, m - 1, d, 23, 59, 59); // Se registra como cierre al final de ese día
+        }
+
+        const db = getFinanceDB();
+        db.unshift({
+          id: Date.now().toString(),
+          date: recordDate.toISOString(),
+          account: account,
+          amount: amount,
+          desc: desc || "Cierre",
+        });
+
+        saveFinanceDB(db);
+
+        document.getElementById("fin-amount").value = "";
+        document.getElementById("fin-desc").value = "";
+        document.getElementById("fin-date").value = formatDateOnly(new Date());
+      }
+
+      function deleteFinanceMovement(id) {
+        if (!confirm("¿Eliminar este registro de cierre?")) return;
+        const db = getFinanceDB().filter((m) => m.id !== id);
+        saveFinanceDB(db);
+      }
+
+      function renderFinance() {
+        const db = getFinanceDB();
+        const monthFilter = document.getElementById("fin-filter-month").value;
+
+        let filteredDB = db;
+        if (monthFilter) {
+          filteredDB = db.filter((m) => m.date.startsWith(monthFilter));
+        }
+
+        // 1. Buscar los saldos MÁS RECIENTES para las Tarjetas
+        const accounts = [
+          "Efectivo",
+          "Nequi",
+          "Daviplata",
+          "Bancolombia",
+          "Caja Menor",
+          "Caja Mayor",
+          "Base",
+        ];
+        const latestBalances = {};
+        accounts.forEach((a) => (latestBalances[a] = 0));
+
+        // Ordenar db por fecha más reciente primero
+        const sortedDB = [...db].sort(
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+        );
+
+        accounts.forEach((acc) => {
+          const latestRecord = sortedDB.find((m) => m.account === acc);
+          if (latestRecord) {
+            latestBalances[acc] = latestRecord.amount;
+          }
+        });
+
+        let totalGlobal = 0;
+        for (let acc in latestBalances) {
+          totalGlobal += latestBalances[acc];
+        }
+
+        // Renderizar Tarjetas
+        const balContainer = document.getElementById(
+          "finance-balances-container",
+        );
+        let cardsHTML = `
+                <div class="col-span-2 md:col-span-4 lg:col-span-2 bg-slate-800 text-white p-4 rounded-xl shadow-sm border border-slate-700">
+                    <div class="text-[10px] font-bold text-slate-400 uppercase mb-1">Saldo Total Actual</div>
+                    <div class="text-2xl font-bold">$${totalGlobal.toLocaleString()}</div>
+                </div>
+            `;
+        accounts.forEach((acc) => {
+          cardsHTML += `
+                    <div class="bg-white p-4 rounded-xl shadow-sm border border-slate-200">
+                        <div class="text-[10px] font-bold text-slate-500 uppercase mb-1 truncate">${acc}</div>
+                        <div class="text-lg font-bold text-slate-800">$${latestBalances[acc].toLocaleString()}</div>
+                    </div>
+                `;
+        });
+        balContainer.innerHTML = cardsHTML;
+
+        // 2. Renderizar Tabla Historial
+        const tbody = document.getElementById("fin-history-body");
+        tbody.innerHTML = "";
+
+        if (filteredDB.length === 0) {
+          tbody.innerHTML = `<tr><td colspan="5" class="text-center py-8 text-slate-400">No hay registros en este periodo</td></tr>`;
+          return;
+        }
+
+        // Mostrar el historial filtrado (los más recientes primero)
+        const displayDB = [...filteredDB].sort(
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+        );
+
+        displayDB.forEach((m) => {
+          tbody.innerHTML += `
+                    <tr class="hover:bg-slate-50 transition-colors">
+                        <td class="px-4 py-3 text-xs text-slate-500 whitespace-nowrap">${new Date(m.date).toLocaleDateString()}</td>
+                        <td class="px-4 py-3 text-xs"><span class="bg-slate-100 font-bold text-slate-600 px-2 py-1 rounded border border-slate-200 whitespace-nowrap">${m.account}</span></td>
+                        <td class="px-4 py-3 text-right font-bold text-green-700 whitespace-nowrap">
+                            $${m.amount.toLocaleString()}
+                        </td>
+                        <td class="px-4 py-3 text-xs text-slate-500 truncate max-w-[120px]">${m.desc}</td>
+                        <td class="px-4 py-3 text-center">
+                            <button onclick="deleteFinanceMovement('${m.id}')" class="text-red-400 hover:text-red-600 px-2">🗑️</button>
+                        </td>
+                    </tr>
+                `;
+        });
       }
 
       // --- AUTO-COMPLETADO ---
@@ -1137,7 +1636,7 @@ Sin Forro ni simcard</textarea
         }
       }
 
-      // --- GESTIÓN DE PAGOS ---
+      // --- GESTIÓN DE PAGOS EN ORDENES ---
       function addPayment() {
         const amountInput = document.getElementById("inp-new-payment");
         const dateInput = document.getElementById("inp-payment-date");
@@ -1145,11 +1644,10 @@ Sin Forro ni simcard</textarea
 
         if (!amount || amount <= 0) return alert("Ingrese un monto válido");
 
-        // Si hay fecha seleccionada se usa esa, sino la de hoy
         let payDate = new Date();
         if (dateInput.value) {
           const [y, m, d] = dateInput.value.split("-");
-          payDate = new Date(y, m - 1, d, 12, 0, 0); // Evitar salto de día por zona horaria
+          payDate = new Date(y, m - 1, d, 12, 0, 0);
         }
 
         const newPayment = {
@@ -1159,7 +1657,7 @@ Sin Forro ni simcard</textarea
 
         currentPayments.push(newPayment);
         amountInput.value = "";
-        dateInput.value = formatDateOnly(new Date()); // Volver a hoy
+        dateInput.value = formatDateOnly(new Date());
         renderPaymentsList();
         calcBalance();
       }
@@ -1201,8 +1699,58 @@ Sin Forro ni simcard</textarea
         document.getElementById("inp-deposit").value = total;
       }
 
+      // --- SISTEMA DE AUTENTICACIÓN ---
+      const ADMIN_PIN = "1234"; // <--- CAMBIA AQUÍ TU CONTRASEÑA (ACTUAL: 1234)
+      let isAuthenticated = false;
+      let pendingView = null;
+
+      function requireAuth(viewName) {
+        if (isAuthenticated) {
+          executeSwitchView(viewName);
+        } else {
+          pendingView = viewName;
+          const modal = document.getElementById("auth-modal");
+          modal.classList.remove("hidden");
+          modal.classList.add("flex");
+          document.getElementById("auth-pin").value = "";
+          document.getElementById("auth-error").classList.add("hidden");
+          // Auto-focus en el input
+          setTimeout(() => document.getElementById("auth-pin").focus(), 100);
+        }
+      }
+
+      function closeAuthModal() {
+        const modal = document.getElementById("auth-modal");
+        modal.classList.add("hidden");
+        modal.classList.remove("flex");
+        pendingView = null;
+      }
+
+      function verifyAuth() {
+        const pin = document.getElementById("auth-pin").value;
+        if (pin === ADMIN_PIN) {
+          isAuthenticated = true;
+          closeAuthModal();
+          if (pendingView) executeSwitchView(pendingView);
+        } else {
+          document.getElementById("auth-error").classList.remove("hidden");
+        }
+      }
+
       // --- NAVEGACIÓN & VISTAS ---
       function switchView(viewName) {
+        // Bloqueo de seguridad para vistas sensibles
+        if (
+          (viewName === "finance" || viewName === "reports") &&
+          !isAuthenticated
+        ) {
+          requireAuth(viewName);
+          return;
+        }
+        executeSwitchView(viewName);
+      }
+
+      function executeSwitchView(viewName) {
         document
           .querySelectorAll(".view-section")
           .forEach((el) => el.classList.remove("active"));
@@ -1225,6 +1773,7 @@ Sin Forro ni simcard</textarea
 
         if (viewName === "history") renderHistory();
         if (viewName === "reports") renderReports();
+        if (viewName === "finance") renderFinance();
       }
 
       function startNewOrder() {
@@ -1280,6 +1829,173 @@ Sin Forro ni simcard</textarea
                             <td class="px-6 py-3 text-right font-bold">$${data.total.toLocaleString()}</td>
                         </tr>
                     `;
+          }
+        }
+
+        // --- ESTADÍSTICAS FINANCIERAS (Análisis de Saldos) ---
+        const finDB = getFinanceDB();
+        const accountsList = [
+          "Efectivo",
+          "Nequi",
+          "Daviplata",
+          "Bancolombia",
+          "Caja Menor",
+          "Caja Mayor",
+          "Base",
+        ];
+
+        // 1. Calcular Liquidez Total (Suma de los últimos saldos)
+        const latestBalances = {};
+        accountsList.forEach((a) => (latestBalances[a] = 0));
+
+        const sortedFinDB = [...finDB].sort(
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+        );
+        accountsList.forEach((acc) => {
+          const latestRecord = sortedFinDB.find((m) => m.account === acc);
+          if (latestRecord) latestBalances[acc] = latestRecord.amount;
+        });
+
+        let totalLiquidity = 0;
+        for (let acc in latestBalances) totalLiquidity += latestBalances[acc];
+
+        const liquidityEl = document.getElementById("rep-liquidity");
+        if (liquidityEl)
+          liquidityEl.textContent = "$" + totalLiquidity.toLocaleString();
+
+        // 1.5 NUEVO: Calcular Día de Mayor y Menor Liquidez GLOBAL
+        const dailyGlobalBalances = {};
+        let runningBalances = {
+          Efectivo: 0,
+          Nequi: 0,
+          Daviplata: 0,
+          Bancolombia: 0,
+          "Caja Menor": 0,
+          "Caja Mayor": 0,
+          Base: 0,
+        };
+
+        // Ordenamos todo cronológicamente ascendente (del más antiguo al más nuevo)
+        const ascFinDB = [...finDB].sort(
+          (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
+        );
+        const uniqueDates = [
+          ...new Set(ascFinDB.map((m) => formatDateOnly(new Date(m.date)))),
+        ];
+
+        uniqueDates.forEach((dateStr) => {
+          // Encontrar todos los movimientos de ese día
+          const movesThisDay = ascFinDB.filter(
+            (m) => formatDateOnly(new Date(m.date)) === dateStr,
+          );
+          // Actualizar el running balance con el último valor reportado en ese día para cada cuenta
+          movesThisDay.forEach((m) => {
+            runningBalances[m.account] = m.amount;
+          });
+
+          // Sumar todo para sacar el total del día
+          let dayTotal = 0;
+          for (let acc in runningBalances) dayTotal += runningBalances[acc];
+
+          dailyGlobalBalances[dateStr] = dayTotal;
+        });
+
+        let maxGlobAmt = -1;
+        let maxGlobDate = null;
+        let minGlobAmt = Infinity;
+        let minGlobDate = null;
+
+        for (const [d, t] of Object.entries(dailyGlobalBalances)) {
+          if (t > maxGlobAmt) {
+            maxGlobAmt = t;
+            maxGlobDate = d;
+          }
+          if (t < minGlobAmt) {
+            minGlobAmt = t;
+            minGlobDate = d;
+          }
+        }
+
+        if (minGlobAmt === Infinity) minGlobAmt = 0;
+
+        const maxGlobEl = document.getElementById("rep-max-global-amt");
+        const maxGlobDateEl = document.getElementById("rep-max-global-date");
+        if (maxGlobEl) {
+          maxGlobEl.textContent =
+            maxGlobAmt > -1 ? "$" + maxGlobAmt.toLocaleString() : "$0";
+          maxGlobDateEl.textContent = maxGlobDate
+            ? new Date(maxGlobDate + "T12:00:00").toLocaleDateString()
+            : "---";
+        }
+
+        const minGlobEl = document.getElementById("rep-min-global-amt");
+        const minGlobDateEl = document.getElementById("rep-min-global-date");
+        if (minGlobEl) {
+          minGlobEl.textContent =
+            minGlobAmt > -1 ? "$" + minGlobAmt.toLocaleString() : "$0";
+          minGlobDateEl.textContent = minGlobDate
+            ? new Date(minGlobDate + "T12:00:00").toLocaleDateString()
+            : "---";
+        }
+
+        // 2. Días de Mayor y Menor Saldo POR CUENTA
+        const stats = {};
+        accountsList.forEach((acc) => {
+          stats[acc] = {
+            maxDay: null,
+            maxAmt: -1,
+            minDay: null,
+            minAmt: Infinity,
+          };
+        });
+
+        // Analizar los registros de cada cuenta
+        finDB.forEach((m) => {
+          const acc = m.account;
+          const amt = m.amount;
+          const dateStr = formatDateOnly(new Date(m.date));
+
+          if (amt > stats[acc].maxAmt) {
+            stats[acc].maxAmt = amt;
+            stats[acc].maxDay = dateStr;
+          }
+          if (amt < stats[acc].minAmt) {
+            stats[acc].minAmt = amt;
+            stats[acc].minDay = dateStr;
+          }
+        });
+
+        const finTbody = document.getElementById("rep-finance-stats");
+        if (finTbody) {
+          finTbody.innerHTML = "";
+          accountsList.forEach((acc) => {
+            const s = stats[acc];
+            if (s.maxAmt > -1) {
+              // Solo mostrar si la cuenta tiene algún registro
+              const minAmount = s.minAmt === Infinity ? 0 : s.minAmt;
+              const maxDateStr = s.maxDay
+                ? new Date(s.maxDay + "T12:00:00").toLocaleDateString()
+                : "---";
+              const minDateStr = s.minDay
+                ? new Date(s.minDay + "T12:00:00").toLocaleDateString()
+                : "---";
+
+              finTbody.innerHTML += `
+                            <tr class="border-b hover:bg-slate-50">
+                                <td class="px-6 py-3 font-bold text-slate-700">${acc}</td>
+                                <td class="px-6 py-3 text-green-600 font-medium">
+                                    $${s.maxAmt.toLocaleString()} <span class="text-xs text-slate-400 ml-1">(${maxDateStr})</span>
+                                </td>
+                                <td class="px-6 py-3 text-red-500 font-medium">
+                                    $${minAmount.toLocaleString()} <span class="text-xs text-slate-400 ml-1">(${minDateStr})</span>
+                                </td>
+                            </tr>
+                        `;
+            }
+          });
+
+          if (finTbody.innerHTML === "") {
+            finTbody.innerHTML = `<tr><td colspan="3" class="text-center py-4 text-slate-400">No hay saldos registrados para analizar.</td></tr>`;
           }
         }
       }
@@ -1402,7 +2118,7 @@ Sin Forro ni simcard</textarea
         const order = db.find((o) => o.ticketNumber === ticketNumber);
         if (!order) return alert("Orden no encontrada");
 
-        // Cargar datos básicos y FECHA DE INGRESO
+        // Cargar datos básicos
         document.getElementById("inp-ticket").value = order.ticketNumber;
         document.getElementById("inp-date").value = formatDateForInput(
           order.date,
@@ -1466,10 +2182,10 @@ Sin Forro ni simcard</textarea
         document.getElementById("inp-ticket").value = "";
         document.getElementById("inp-date").value = formatDateForInput(
           new Date(),
-        ); // Volver a hoy
+        );
         document.getElementById("inp-payment-date").value = formatDateOnly(
           new Date(),
-        ); // Pago a hoy
+        );
 
         document.getElementById("page-title").textContent = "Ingreso de Equipo";
         document.getElementById("edit-badge").classList.add("hidden");
@@ -1681,7 +2397,6 @@ Sin Forro ni simcard</textarea
         const deposit =
           parseFloat(document.getElementById("inp-deposit").value) || 0;
 
-        // Recoger fecha especificada en el nuevo input
         const inputDateValue = document.getElementById("inp-date").value;
         const finalDate = inputDateValue
           ? new Date(inputDateValue).toISOString()
@@ -1689,7 +2404,7 @@ Sin Forro ni simcard</textarea
 
         const orderData = {
           ticketNumber: ticketNumber,
-          date: finalDate, // FECHA DEFINIDA POR EL USUARIO
+          date: finalDate,
           clientName:
             document.getElementById("inp-name").value || "Cliente General",
           clientPhone: document.getElementById("inp-phone").value,
@@ -1820,15 +2535,36 @@ Sin Forro ni simcard</textarea
       }
 
       document.addEventListener("DOMContentLoaded", () => {
+        // Permitir presionar "Enter" para verificar la contraseña
+        const pinInput = document.getElementById("auth-pin");
+        if (pinInput) {
+          pinInput.addEventListener("keypress", function (e) {
+            if (e.key === "Enter") verifyAuth();
+          });
+        }
+
         updateSuggestions();
         updateStorageUsage();
-        // Inicializar las fechas a hoy por defecto
-        document.getElementById("inp-date").value = formatDateForInput(
-          new Date(),
-        );
-        document.getElementById("inp-payment-date").value = formatDateOnly(
-          new Date(),
-        );
+
+        const dateInput = document.getElementById("inp-date");
+        if (dateInput && !dateInput.value) {
+          dateInput.value = formatDateForInput(new Date());
+        }
+
+        const paymentDateInput = document.getElementById("inp-payment-date");
+        if (paymentDateInput && !paymentDateInput.value) {
+          paymentDateInput.value = formatDateOnly(new Date());
+        }
+
+        const notesInput = document.getElementById("inp-notes");
+        if (notesInput && !notesInput.value) {
+          notesInput.value = "Sin Forro ni simcard";
+        }
+
+        const finDate = document.getElementById("fin-date");
+        if (finDate) finDate.value = formatDateOnly(new Date());
+
+        renderFinance();
       });
 
       function updateStorageUsage() {
@@ -1856,22 +2592,35 @@ Sin Forro ni simcard</textarea
         }
       }
 
+      // --- EXPORTAR E IMPORTAR INTEGRADO (Reparaciones + Finanzas) ---
       function exportDB() {
-        const data = localStorage.getItem(DB_KEY);
-        if (!data || data === "[]") return alert("No hay datos para exportar.");
-        const blob = new Blob([data], { type: "application/json" });
+        const repairs = getDB();
+        const finance = getFinanceDB();
+
+        if (repairs.length === 0 && finance.length === 0)
+          return alert("No hay datos para exportar.");
+
+        const backupData = {
+          format: "GeekTechV5",
+          timestamp: new Date().toISOString(),
+          repairs: repairs,
+          finance: finance,
+        };
+
+        const blob = new Blob([JSON.stringify(backupData)], {
+          type: "application/json",
+        });
         const url = URL.createObjectURL(blob);
         const a = document.createElement("a");
         a.href = url;
         const date = new Date().toISOString().slice(0, 10);
-        a.download = `GeekTech_Backup_${date}.json`;
+        a.download = `GeekTech_Backup_Full_${date}.json`;
         document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
         URL.revokeObjectURL(url);
       }
 
-      // --- SISTEMA DE IMPORTACIÓN CON MODAL Y 3 OPCIONES ---
       function importDB(input) {
         const file = input.files[0];
         if (!file) return;
@@ -1879,17 +2628,23 @@ Sin Forro ni simcard</textarea
         reader.onload = function (e) {
           try {
             const importedData = JSON.parse(e.target.result);
+
             if (Array.isArray(importedData)) {
+              pendingImportData = { repairs: importedData, finance: [] };
+              document.getElementById("import-modal-text").textContent =
+                `Se encontraron ${importedData.length} reparaciones en el archivo (Formato Antiguo). ¿Qué deseas hacer?`;
+            } else if (importedData.format === "GeekTechV5") {
               pendingImportData = importedData;
               document.getElementById("import-modal-text").textContent =
-                `Se encontraron ${importedData.length} registros en el archivo "${file.name}". ¿Qué deseas hacer?`;
-
-              const modal = document.getElementById("import-modal");
-              modal.classList.remove("hidden");
-              modal.classList.add("flex");
+                `Se encontraron ${importedData.repairs.length} reparaciones y ${importedData.finance.length} registros de caja. ¿Qué deseas hacer?`;
             } else {
               alert("El archivo seleccionado no es un respaldo válido.");
+              return;
             }
+
+            const modal = document.getElementById("import-modal");
+            modal.classList.remove("hidden");
+            modal.classList.add("flex");
           } catch (err) {
             alert("Error al leer el archivo. Formato inválido.");
           }
@@ -1911,36 +2666,65 @@ Sin Forro ni simcard</textarea
           return;
         }
 
-        const currentData = getDB();
+        const currentRepairs = getDB();
+        const currentFinance = getFinanceDB();
 
         if (action === "merge") {
-          let agregados = 0;
-          pendingImportData.forEach((importedOrder) => {
-            const exists = currentData.find(
-              (o) => o.ticketNumber === importedOrder.ticketNumber,
-            );
-            if (!exists) {
-              currentData.push(importedOrder);
-              agregados++;
-            }
-          });
+          let repAgregados = 0;
+          let finAgregados = 0;
 
-          currentData.sort(
-            (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-          );
-          localStorage.setItem(DB_KEY, JSON.stringify(currentData));
+          if (pendingImportData.repairs) {
+            pendingImportData.repairs.forEach((imp) => {
+              if (
+                !currentRepairs.find((o) => o.ticketNumber === imp.ticketNumber)
+              ) {
+                currentRepairs.push(imp);
+                repAgregados++;
+              }
+            });
+            currentRepairs.sort(
+              (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+            );
+            localStorage.setItem(DB_KEY, JSON.stringify(currentRepairs));
+          }
+
+          if (
+            pendingImportData.finance &&
+            pendingImportData.finance.length > 0
+          ) {
+            pendingImportData.finance.forEach((imp) => {
+              if (!currentFinance.find((o) => o.id === imp.id)) {
+                currentFinance.push(imp);
+                finAgregados++;
+              }
+            });
+            currentFinance.sort(
+              (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
+            );
+            localStorage.setItem(
+              FINANCE_DB_KEY,
+              JSON.stringify(currentFinance),
+            );
+          }
 
           alert(
-            `¡Fusión completa! Se agregaron ${agregados} registros nuevos. Los registros locales no se borraron.`,
+            `¡Fusión completa!\nNuevas Reparaciones: ${repAgregados}\nNuevos Registros de Caja: ${finAgregados}`,
           );
           location.reload();
         } else if (action === "replace") {
           if (
             confirm(
-              "⚠️ ADVERTENCIA FINAL: Esto borrará TODOS sus registros actuales y los reemplazará por los del archivo. ¿Está completamente seguro?",
+              "⚠️ ADVERTENCIA FINAL: Esto borrará TODOS sus registros actuales (Reparaciones y Caja) y los reemplazará por los del archivo. ¿Está completamente seguro?",
             )
           ) {
-            localStorage.setItem(DB_KEY, JSON.stringify(pendingImportData));
+            localStorage.setItem(
+              DB_KEY,
+              JSON.stringify(pendingImportData.repairs || []),
+            );
+            localStorage.setItem(
+              FINANCE_DB_KEY,
+              JSON.stringify(pendingImportData.finance || []),
+            );
             alert("¡Datos reemplazados correctamente!");
             location.reload();
           }
