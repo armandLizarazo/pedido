@@ -7,20 +7,20 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Auxiliar 1 A 1 3 Vias Cja 2
-    Cable Belkin V8 5
-    Cargador Apple 25W Con Cable 2
-    Cargador Digo 1100 5
+    Cable Belkin V8 5 ok
+    Cargador Apple 25W Con Cable 3 ok
+    Cargador Digo 1100 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
-    Cargador Samsung 25W Con Cable Blanco 3
+    Cargador Samsung 25W Con Cable Blanco 3 ok
     Cargador Smart Band M5 2
-    Cargador W Tc 5
-    Cargador We Tc 33W 5
+    Cargador W Tc 5 ok
+    Cargador We Tc 33W 5 ok
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor X6A / Play 9A Dama 2
-    Forro Antichoque Huawei Honor X6B Dama 3
+    Forro Antichoque Huawei Honor X6A / Play 9A Dama 2 ok
+    Forro Antichoque Huawei Honor X6B Dama 3  ok
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
@@ -42,8 +42,8 @@
     Forro Antichoque Oppo Reno 13F Dama 1
     Forro Antichoque Oppo Reno 14 Caballero 5
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Samsung A05S Caballero 3
-    Forro Antichoque Samsung A05S Dama 5
+    Forro Antichoque Samsung A05S Caballero 3 ok
+    Forro Antichoque Samsung A05S Dama 5 ok
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A31 Dama 2
@@ -95,7 +95,7 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Rosa 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Lujo Ventana Apple Iphone 15 Pro Max Negro 1
+    Forro Lujo Ventana Apple Iphone 15 Pro Max Negro 1 ok
     Forro Lujo Ventana Apple Iphone 16 Negro 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
@@ -113,14 +113,14 @@
     Forro Space Infinix Hot 50 Pro 5G 2
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
-    Forro Space Oppo A5 Pro 4G / 5G 1
+    Forro Space Oppo A5 Pro 4G / 5G 1 ok
     Forro Space Oppo A59 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A32 4G 1
+    Forro Space Samsung A32 4G 1 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
@@ -146,12 +146,12 @@
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 11 Pro Fucsia 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
-    Silicone Case Apple Iphone 12 Morado 1
-    Silicone Case Apple Iphone 12 Negro 1
+    Silicone Case Apple Iphone 12 Morado 1 ok
+    Silicone Case Apple Iphone 12 Negro 1 ok
     Silicone Case Apple Iphone 13 Pro Max Negro 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone Xr Amarillo 1
-    Silicone Case Huawei Honor 200 Lila 1
+    Silicone Case Huawei Honor 200 Lila 1 ok
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor X5C Negro 1
@@ -232,8 +232,8 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A22 4G Rojo 1
     Silicone Case Samsung A26 Verde Biche 1
-    Silicone Case Samsung A36 Lila 1
-    Silicone Case Samsung A55 Lila 1
+    Silicone Case Samsung A36 Lila 1 ok
+    Silicone Case Samsung A55 Lila 1 ok
     Silicone Case Samsung A56 Azuloscuro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
