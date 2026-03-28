@@ -1,11 +1,13 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Usb Lan 2.0 2 ok
+    Adaptador Usb Lan 3.0 1 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Callcenter Eco 2
     Barbera Cable 1
+    Adaptador Spliter Hdmi 1 a 2 1 ok
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
@@ -14,6 +16,9 @@
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
     Cable Hdmi Premium 5M 1 ok
+    Cable Hdmi Premium 8k 1.5M 1 ok
+    Cable Hdmi Premium 8k 3M 1 ok
+    Cable Hdmi Premium 8k 5M 1 ok
     Cable Hdtv 2 ok
     Cable Microsoft Xbox 360 3
     Cable Usb A Punta Negra 3
