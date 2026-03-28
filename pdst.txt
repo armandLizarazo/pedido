@@ -1,5 +1,4 @@
     Pacha Motorola Moto G9 Power 1 ok
     Pacha Samsung A15 1 ok
     Pacha Vivo Y11S / Y20S 1 ok
-    Pacha Zte Blade A56 Pro 1 ok
     Pacha Vivo Y51 1 ok
