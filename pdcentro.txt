@@ -95,8 +95,11 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Rosa 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Lujo Ventana Apple Iphone 15 Pro Max Negro 1 ok
-    Forro Lujo Ventana Apple Iphone 16 Negro 1
+    Forro Lujo Ventana Apple Iphone 15 Pro Max Tornasol 1 ok
+    Forro Lujo Ventana Apple Iphone 16 Negro 1 ok
+    Forro Lujo Ventana Apple Iphone 11 Negro 1 ok
+    Forro Lujo Ventana Apple Iphone 11 Azul 1 ok
+    Forro Lujo Ventana Apple Iphone 11 Morado 1 ok
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A16 Azul 1
@@ -138,9 +141,19 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Gamer X3 3
+    Parlante Harvic Pr-804 1 ok
+    Parlante Microfonos K-12 1 ok
+    Parlante Pc Barra F-1002 1 ok
+    Parlamte Panel Solar To-611 1 ok
+    Parlante Speak Sk-11 1 ok
+    Parlante Pc Ramitech Ram-Ks07 1 ok
+    Parlante Mini Astronauta 1 ok
     Mouse Jertech Jr-1 Rojo 1
+    Power Bank Ucci Up-050 50000 Mah 1 ok
+    Power Bank Yoyos Ys-702 20000 Mah 2 ok
+    Power Bank Oczu Opb-011 Solar 10000 Mah 1 ok
     Parlante Ktf-1645 2
-    Parlante Mini Speaker Eco 2
+    Parlante Mini Speaker Eco 1 ok
     Parlante Perro 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
