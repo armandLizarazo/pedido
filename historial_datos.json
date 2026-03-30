@@ -1,5 +1,221 @@
 [
     {
+        "fecha": "2026-03-28 11:51:46",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 9,
+                "contenido": "Licuadora Portatil Sencillo 1 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Cable Belkin V8 5 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Cargador Apple 25W Con Cable 3 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Cargador Digo 1100 5 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Cargador Samsung 25W Con Cable Blanco 3 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Cargador W Tc 5 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Cargador We Tc 33W 5 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Forro Antichoque Huawei Honor X6A / Play 9A Dama 2 ok"
+            },
+            {
+                "linea": 24,
+                "contenido": "Forro Antichoque Huawei Honor X6B Dama 3  ok"
+            },
+            {
+                "linea": 46,
+                "contenido": "Forro Antichoque Samsung A05S Caballero 3 ok"
+            },
+            {
+                "linea": 47,
+                "contenido": "Forro Antichoque Samsung A05S Dama 5 ok"
+            },
+            {
+                "linea": 99,
+                "contenido": "Forro Lujo Ventana Apple Iphone 15 Pro Max Tornasol 1 ok"
+            },
+            {
+                "linea": 100,
+                "contenido": "Forro Lujo Ventana Apple Iphone 16 Negro 1 ok"
+            },
+            {
+                "linea": 101,
+                "contenido": "Forro Lujo Ventana Apple Iphone 11 Negro 1 ok"
+            },
+            {
+                "linea": 102,
+                "contenido": "Forro Lujo Ventana Apple Iphone 11 Azul 1 ok"
+            },
+            {
+                "linea": 103,
+                "contenido": "Forro Lujo Ventana Apple Iphone 11 Morado 1 ok"
+            },
+            {
+                "linea": 120,
+                "contenido": "Forro Space Oppo A5 Pro 4G / 5G 1 ok"
+            },
+            {
+                "linea": 127,
+                "contenido": "Forro Space Samsung A32 4G 1 ok"
+            },
+            {
+                "linea": 145,
+                "contenido": "Parlante Harvic Pr-804 1 ok"
+            },
+            {
+                "linea": 146,
+                "contenido": "Parlante Microfonos K-12 1 ok"
+            },
+            {
+                "linea": 147,
+                "contenido": "Parlante Pc Barra F-1002 1 ok"
+            },
+            {
+                "linea": 148,
+                "contenido": "Parlamte Panel Solar To-611 1 ok"
+            },
+            {
+                "linea": 149,
+                "contenido": "Parlante Speak Sk-11 1 ok"
+            },
+            {
+                "linea": 150,
+                "contenido": "Parlante Pc Ramitech Ram-Ks07 1 ok"
+            },
+            {
+                "linea": 151,
+                "contenido": "Parlante Mini Astronauta 1 ok"
+            },
+            {
+                "linea": 153,
+                "contenido": "Power Bank Ucci Up-050 50000 Mah 1 ok"
+            },
+            {
+                "linea": 154,
+                "contenido": "Power Bank Yoyos Ys-702 20000 Mah 2 ok"
+            },
+            {
+                "linea": 155,
+                "contenido": "Power Bank Oczu Opb-011 Solar 10000 Mah 1 ok"
+            },
+            {
+                "linea": 157,
+                "contenido": "Parlante Mini Speaker Eco 1 ok"
+            },
+            {
+                "linea": 163,
+                "contenido": "Silicone Case Apple Iphone 12 Morado 1 ok"
+            },
+            {
+                "linea": 164,
+                "contenido": "Silicone Case Apple Iphone 12 Negro 1 ok"
+            },
+            {
+                "linea": 168,
+                "contenido": "Silicone Case Huawei Honor 200 Lila 1 ok"
+            },
+            {
+                "linea": 249,
+                "contenido": "Silicone Case Samsung A36 Lila 1 ok"
+            },
+            {
+                "linea": 250,
+                "contenido": "Silicone Case Samsung A55 Lila 1 ok"
+            }
+        ],
+        "total_conservados": 329
+    },
+    {
+        "fecha": "2026-03-28 11:51:46",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 3,
+                "contenido": "Adaptador Usb Lan 2.0 2 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Adaptador Usb Lan 3.0 1 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Adaptador Spliter Hdmi 1 a 2 1 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Cable Hdmi Premium 5M 1 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Cable Hdmi Premium 8k 1.5M 1 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Cable Hdmi Premium 8k 3M 1 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cable Hdmi Premium 8k 5M 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Hdtv 2 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Estabilizador 4 Puertos 1 ok"
+            },
+            {
+                "linea": 69,
+                "contenido": "Switch Lan 10/100 2 ok"
+            }
+        ],
+        "total_conservados": 63
+    },
+    {
+        "fecha": "2026-03-28 11:51:46",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Motorola Moto G9 Power 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Samsung A15 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Vivo Y11S / Y20S 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Vivo Y51 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-03-25 15:22:01",
         "archivo": "pdpr.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",

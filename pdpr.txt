@@ -1,13 +1,12 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb Lan 2.0 2 ok
-    Adaptador Usb Lan 3.0 1 ok
+    Antena Tdt 5M 5
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth Pro 5S Negro 1
     Balaca Callcenter Eco 2
     Barbera Cable 1
-    Adaptador Spliter Hdmi 1 a 2 1 ok
+    Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3
     Cable Disco Duro V8 3.0 Corto 2
@@ -15,12 +14,8 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
-    Cable Hdmi Premium 5M 1 ok
-    Cable Hdmi Premium 8k 1.5M 1 ok
-    Cable Hdmi Premium 8k 3M 1 ok
-    Cable Hdmi Premium 8k 5M 1 ok
-    Cable Hdtv 2 ok
     Cable Microsoft Xbox 360 3
+    Cable Poder Cuadrado 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
@@ -40,7 +35,6 @@
     Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
-    Estabilizador 4 Puertos 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
@@ -66,8 +60,8 @@
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Switch Lan 10/100 2 ok
     Teclado Kb-502 Eco 3
+    Teclado Mecanico Gamer Weibo 777 1
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

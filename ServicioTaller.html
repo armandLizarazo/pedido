@@ -206,6 +206,7 @@
     <datalist id="list-brands"></datalist>
     <datalist id="list-models"></datalist>
     <datalist id="list-imeis"></datalist>
+    <datalist id="list-issues"></datalist>
 
     <!-- MODAL DE RESTAURACIÓN DE DATOS -->
     <div
@@ -681,12 +682,13 @@
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
                     >Falla Reportada</label
                   >
-                  <textarea
+                  <input
+                    type="text"
                     id="inp-issue"
-                    rows="2"
-                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none resize-none"
+                    list="list-issues"
+                    class="w-full p-2.5 border border-slate-300 rounded-lg outline-none"
                     placeholder="Descripción del problema..."
-                  ></textarea>
+                  />
                 </div>
                 <div class="md:col-span-2">
                   <label class="block text-xs font-semibold text-slate-500 mb-1"
@@ -2751,6 +2753,7 @@ Sin Forro ni simcard</textarea
         fillList("list-brands", "deviceBrand");
         fillList("list-models", "deviceModel");
         fillList("list-imeis", "imei");
+        fillList("list-issues", "issue");
       }
     </script>
   </body>

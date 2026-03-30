@@ -11906,3 +11906,69 @@ L18: Cable Lan 10M Cat 6 2 ok
 L25: Cargador 15V 2 ok
 L29: Cargador Pc Lenovo Mini 3.25 1 ok
 L30: Base Tv Eco-800 80 Pulgadas 1 ok
+
+============================================================
+Fecha: 2026-03-28 11:51:46
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L1: Pacha Motorola Moto G9 Power 1 ok
+L2: Pacha Samsung A15 1 ok
+L3: Pacha Vivo Y11S / Y20S 1 ok
+L4: Pacha Vivo Y51 1 ok
+
+============================================================
+Fecha: 2026-03-28 11:51:46
+Archivo: pdpr.txt
+Eliminados: 10
+--- DETALLE ---
+L3: Adaptador Usb Lan 2.0 2 ok
+L4: Adaptador Usb Lan 3.0 1 ok
+L10: Adaptador Spliter Hdmi 1 a 2 1 ok
+L18: Cable Hdmi Premium 5M 1 ok
+L19: Cable Hdmi Premium 8k 1.5M 1 ok
+L20: Cable Hdmi Premium 8k 3M 1 ok
+L21: Cable Hdmi Premium 8k 5M 1 ok
+L22: Cable Hdtv 2 ok
+L43: Estabilizador 4 Puertos 1 ok
+L69: Switch Lan 10/100 2 ok
+
+============================================================
+Fecha: 2026-03-28 11:51:46
+Archivo: pdcentro.txt
+Eliminados: 34
+--- DETALLE ---
+L9: Licuadora Portatil Sencillo 1 ok
+L11: Cable Belkin V8 5 ok
+L12: Cargador Apple 25W Con Cable 3 ok
+L13: Cargador Digo 1100 5 ok
+L17: Cargador Samsung 25W Con Cable Blanco 3 ok
+L19: Cargador W Tc 5 ok
+L20: Cargador We Tc 33W 5 ok
+L23: Forro Antichoque Huawei Honor X6A / Play 9A Dama 2 ok
+L24: Forro Antichoque Huawei Honor X6B Dama 3  ok
+L46: Forro Antichoque Samsung A05S Caballero 3 ok
+L47: Forro Antichoque Samsung A05S Dama 5 ok
+L99: Forro Lujo Ventana Apple Iphone 15 Pro Max Tornasol 1 ok
+L100: Forro Lujo Ventana Apple Iphone 16 Negro 1 ok
+L101: Forro Lujo Ventana Apple Iphone 11 Negro 1 ok
+L102: Forro Lujo Ventana Apple Iphone 11 Azul 1 ok
+L103: Forro Lujo Ventana Apple Iphone 11 Morado 1 ok
+L120: Forro Space Oppo A5 Pro 4G / 5G 1 ok
+L127: Forro Space Samsung A32 4G 1 ok
+L145: Parlante Harvic Pr-804 1 ok
+L146: Parlante Microfonos K-12 1 ok
+L147: Parlante Pc Barra F-1002 1 ok
+L148: Parlamte Panel Solar To-611 1 ok
+L149: Parlante Speak Sk-11 1 ok
+L150: Parlante Pc Ramitech Ram-Ks07 1 ok
+L151: Parlante Mini Astronauta 1 ok
+L153: Power Bank Ucci Up-050 50000 Mah 1 ok
+L154: Power Bank Yoyos Ys-702 20000 Mah 2 ok
+L155: Power Bank Oczu Opb-011 Solar 10000 Mah 1 ok
+L157: Parlante Mini Speaker Eco 1 ok
+L163: Silicone Case Apple Iphone 12 Morado 1 ok
+L164: Silicone Case Apple Iphone 12 Negro 1 ok
+L168: Silicone Case Huawei Honor 200 Lila 1 ok
+L249: Silicone Case Samsung A36 Lila 1 ok
+L250: Silicone Case Samsung A55 Lila 1 ok
