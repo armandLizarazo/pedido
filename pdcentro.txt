@@ -7,7 +7,7 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
-    Cable Apple Tc Ligthning 4
+    Cable Apple Tc Ligthning 5 ok
     Cable Auxiliar 1 A 1 3 Vias Cja 2
     Cargador Belkin Tc 5
     Cargador Fuente 360 Slim 1
@@ -105,7 +105,7 @@
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
-    Forro Space Infinix Hot 50 Pro 5G 2
+    Forro Space Infinix Hot 50 Pro 5G 2 ok
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A59 2
@@ -114,9 +114,10 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A07 2
+    Forro Space Samsung A07 3 ok
     Forro Space Samsung A71 2
-    Forro Space Tecno Camon 40 Pro 2
+    Forro Space Tecno Camon 40 Pro 2 ok
+    Forro Space Tecno Camon 40 Pro 5G 2 ok
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
@@ -223,9 +224,9 @@
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A07 Azulrey 1
-    Silicone Case Samsung A07 Lila 1
-    Silicone Case Samsung A07 Morado 1
+    Silicone Case Samsung A07 Negro 1 ok
+    Silicone Case Samsung A07 Lila 1 ok
+    Silicone Case Samsung A07 Morado 1 ok
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
@@ -328,6 +329,7 @@
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
+    Vidrio Blindado Samsung A56 5 ok
     Vidrio Camara Xiaomi Redmi 13 15
     Vidrio Camara Xiaomi Redmi 13C 15
     Vidrio Camara Zte Blade A75 1
