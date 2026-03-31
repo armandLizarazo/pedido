@@ -536,7 +536,6 @@ class GestorInventario:
                         "Estado",
                     ]
                 )
-        # --- NUEVO: Crear archivo de clientes si no existe ---
         if not os.path.exists(self.archivo_clientes):
             with open(self.archivo_clientes, "w", encoding="utf-8", newline="") as f:
                 writer = csv.writer(f)
@@ -545,7 +544,6 @@ class GestorInventario:
         if not os.path.exists(self.directorio_facturas):
             os.makedirs(self.directorio_facturas)
 
-    # --- NUEVAS FUNCIONES PARA CLIENTES ---
     def obtener_clientes(self):
         clientes = {}
         try:
@@ -578,8 +576,6 @@ class GestorInventario:
                         writer.writerow([n, c])
             except Exception as e:
                 print(f"Error guardando cliente: {e}")
-
-    # --- FIN FUNCIONES PARA CLIENTES ---
 
     def procesar_item_venta(
         self, id_venta, timestamp, item_details, cliente, medio_pago
@@ -839,7 +835,7 @@ class GestorInventario:
 
         with open(ruta_factura, "w", encoding="utf-8") as f:
             f.write("Geek Tecnology".center(ancho_factura) + "\n")
-            f.write("Contacto: 304 6313 31 14".center(ancho_factura) + "\n")
+            f.write("Contacto: 304 631 3114".center(ancho_factura) + "\n")
             f.write(f"Recibo No: {id_venta}".center(ancho_factura) + "\n")
             f.write("-" * ancho_factura + "\n")
             f.write(f"Fecha: {timestamp.strftime('%Y-%m-%d %H:%M:%S')}\n")
@@ -932,7 +928,7 @@ class GestorInventario:
         )
 
         story.append(Paragraph("Geek Tecnology", styles["CenterBold"]))
-        story.append(Paragraph("Contacto: 304 6313 31 14", styles["CenterSmall"]))
+        story.append(Paragraph("Contacto: 304 631 3114", styles["CenterSmall"]))
         story.append(Paragraph(f"Recibo No: {id_venta}", styles["CenterSmall"]))
         story.append(Spacer(1, 0.1 * inch))
 
@@ -1127,8 +1123,6 @@ class GestorInventario:
         except Exception as e:
             return False, f"Error: {e}"
 
-    # --- ELIMINADO: Funciones de Ordenar y Verificar Formato ---
-
     def leer_historial_ventas(self):
         try:
             if not os.path.exists(self.archivo_ventas):
@@ -1217,19 +1211,16 @@ class InventarioGUI:
         self.ventas_tab = ttk.Frame(self.notebook, padding="10")
         self.caja_tab = ttk.Frame(self.notebook, padding="10")
         self.prestamos_tab = ttk.Frame(self.notebook, padding="10")
-        # --- ELIMINADO: Pestaña Consultas ---
 
         self.notebook.add(self.inventario_tab, text="Gestión de Inventario")
         self.notebook.add(self.ventas_tab, text="Ventas y Análisis")
         self.notebook.add(self.caja_tab, text="Cuadre de Caja")
         self.notebook.add(self.prestamos_tab, text="Gestión de Préstamos")
-        # --- ELIMINADO: Añadir pestaña al notebook ---
 
         self.crear_widgets_inventario()
         self.crear_widgets_ventas()
         self.crear_widgets_caja()
         self.crear_widgets_prestamos()
-        # --- ELIMINADO: Crear widgets consultas ---
 
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
@@ -1243,10 +1234,6 @@ class InventarioGUI:
 
         self.sales_last_sort_col = None
         self.sales_last_sort_reverse = False
-
-        # New sort variables for cons_tree
-        self.cons_last_sort_col = None
-        self.cons_last_sort_reverse = False
 
         self.actualizar_permisos()
 
@@ -1403,10 +1390,6 @@ class InventarioGUI:
         if found:
             self.inventory_tree.focus_set()  # Devolver el foco al widget
 
-    # --- SECCIÓN ELIMINADA: crear_widgets_consultas y funciones relacionadas ---
-    # Se han removido: crear_widgets_consultas, sort_cons_tree_by_column,
-    # limpiar_filtros_consulta, ejecutar_consulta_analisis
-
     def crear_widgets_inventario(self):
         top_frame = ttk.Frame(self.inventario_tab)
         top_frame.pack(side=tk.TOP, fill=tk.X, pady=5)
@@ -1554,8 +1537,6 @@ class InventarioGUI:
         )
         self.btn_eliminar_item.pack(pady=2, padx=5)
 
-        # --- ELIMINADO: Grupo de Herramientas (Ordenar/Verificar) ---
-
         venta_group = ttk.Frame(action_frame_bottom)
         venta_group.pack(side=tk.RIGHT, padx=20, fill=tk.Y)
 
@@ -1652,8 +1633,6 @@ class InventarioGUI:
         btn_frame_adj = ttk.Frame(self.adjust_panel)
         btn_frame_adj.pack(fill=tk.X, pady=10)
 
-        # Los botones ahora también están en el panel lateral, aunque son redundantes con los de abajo,
-        # los dejamos por si el usuario prefiere usarlos desde aquí.
         ttk.Button(
             btn_frame_adj,
             text="Agregar Unidad (+1)",
@@ -1682,7 +1661,6 @@ class InventarioGUI:
         self.sale_cant_entry = ttk.Entry(self.sale_panel)
         self.sale_cant_entry.pack(fill=tk.X, pady=(0, 5))
 
-        # --- ASIGNADOS A VARIABLES PARA PODER OCULTARLOS ---
         self.sale_costo_label = ttk.Label(self.sale_panel, text="Costo Unitario ($):")
         self.sale_costo_label.pack(fill=tk.X, pady=(0, 5))
         self.sale_costo_entry = ttk.Entry(self.sale_panel)
@@ -1746,19 +1724,21 @@ class InventarioGUI:
             cart_items_frame, text="X", command=self._cart_remove_item, width=2
         ).pack(side=tk.RIGHT, anchor="n")
 
-        # --- NUEVO: AUTOCOMPLETADO CLIENTES ---
+        # --- AUTOCOMPLETADO CLIENTES ---
         ttk.Label(client_frame, text="Nombre:").grid(row=0, column=0, sticky="w")
         self.cart_cliente_combo = ttk.Combobox(client_frame)
         self.cart_cliente_combo.grid(row=0, column=1, sticky="ew")
 
         self.cart_cliente_combo.bind("<KeyRelease>", self._on_cliente_type)
         self.cart_cliente_combo.bind("<<ComboboxSelected>>", self._on_cliente_select)
+        self.cart_cliente_combo.bind("<FocusOut>", self._on_cliente_focus_out)
 
         ttk.Label(client_frame, text="Contacto:").grid(row=1, column=0, sticky="w")
         self.cart_contacto_entry = ttk.Entry(client_frame)
         self.cart_contacto_entry.grid(row=1, column=1, sticky="ew")
         client_frame.columnconfigure(1, weight=1)
 
+        # --- METODOS DE PAGO ---
         ttk.Label(payment_add_frame, text="Método:").pack()
         payment_methods = [
             "Efectivo",
@@ -1776,8 +1756,14 @@ class InventarioGUI:
         self.cart_medio_pago_combo.pack(fill=tk.X)
         self.cart_medio_pago_combo.set("")
 
+        # --- EVENTO PARA HABILITAR/DESHABILITAR CAMPO MONTO ---
+        self.cart_medio_pago_combo.bind(
+            "<<ComboboxSelected>>", self._on_medio_pago_select
+        )
+
         ttk.Label(payment_add_frame, text="Monto $:").pack()
-        self.cart_monto_pago_entry = ttk.Entry(payment_add_frame)
+        # Inicia bloqueado por defecto
+        self.cart_monto_pago_entry = ttk.Entry(payment_add_frame, state="disabled")
         self.cart_monto_pago_entry.pack(fill=tk.X)
 
         ttk.Button(
@@ -1837,10 +1823,19 @@ class InventarioGUI:
             bottom_btn_frame, text="Seguir Comprando", command=self.show_action_panel
         ).pack(side=tk.LEFT, expand=True)
 
+    # --- NUEVA FUNCION: CONTROL DE CAMPO DE MONTO DE PAGO ---
+    def _on_medio_pago_select(self, event=None):
+        if self.cart_medio_pago_combo.get():
+            self.cart_monto_pago_entry.config(state="normal")
+            self.cart_monto_pago_entry.focus()
+        else:
+            self.cart_monto_pago_entry.delete(0, tk.END)
+            self.cart_monto_pago_entry.config(state="disabled")
+
     # --- NUEVAS FUNCIONES DE AUTOCOMPLETADO ---
     def _on_cliente_type(self, event):
         # Ignorar teclas de navegación para no entorpecer el menú
-        if event.keysym in ("Up", "Down", "Left", "Right", "Return"):
+        if event.keysym in ("Up", "Down", "Left", "Right", "Return", "Escape"):
             return
 
         value = self.cart_cliente_combo.get()
@@ -1853,11 +1848,26 @@ class InventarioGUI:
             ]
             self.cart_cliente_combo["values"] = data
 
+        # Abrir el menú desplegable automáticamente
+        try:
+            self.cart_cliente_combo.tk.call(
+                "ttk::combobox::Post", self.cart_cliente_combo
+            )
+        except tk.TclError:
+            pass
+
     def _on_cliente_select(self, event):
         nombre = self.cart_cliente_combo.get()
         contacto = self.dict_clientes.get(nombre, "")
         self.cart_contacto_entry.delete(0, tk.END)
         self.cart_contacto_entry.insert(0, contacto)
+
+    def _on_cliente_focus_out(self, event=None):
+        nombre = self.cart_cliente_combo.get().strip()
+        # Si el nombre escrito coincide con uno guardado, se autocompleta el número
+        if nombre in self.dict_clientes:
+            self.cart_contacto_entry.delete(0, tk.END)
+            self.cart_contacto_entry.insert(0, self.dict_clientes[nombre])
 
     # --- FIN FUNCIONES AUTOCOMPLETADO ---
 
@@ -1979,8 +1989,13 @@ class InventarioGUI:
         self.cart_cliente_combo.set("")
 
         self.cart_contacto_entry.delete(0, tk.END)
+
+        # Resetear el campo de pago al abrir el carrito
+        self.cart_monto_pago_entry.config(state="normal")
         self.cart_monto_pago_entry.delete(0, tk.END)
+        self.cart_monto_pago_entry.config(state="disabled")
         self.cart_medio_pago_combo.set("")
+
         self._cart_populate_items()
         self._cart_populate_pagos()
 
@@ -2190,8 +2205,13 @@ class InventarioGUI:
             return
 
         self.pagos_actuales.append({"metodo": metodo, "monto": monto})
+
+        # Bloquear y limpiar nuevamente despues de agregar
+        self.cart_monto_pago_entry.config(state="normal")
         self.cart_monto_pago_entry.delete(0, tk.END)
+        self.cart_monto_pago_entry.config(state="disabled")
         self.cart_medio_pago_combo.set("")
+
         self._cart_populate_pagos()
 
     def _cart_remove_item(self):
@@ -2244,7 +2264,7 @@ class InventarioGUI:
             messagebox.showerror("Carrito Vacío", "No hay items para vender.")
             return
 
-        # --- NUEVO: GUARDAR CLIENTE EN LA BASE DE DATOS ---
+        # --- GUARDAR CLIENTE EN LA BASE DE DATOS ---
         self.gestor.guardar_cliente(cliente, cliente_contacto)
 
         timestamp = datetime.now()
@@ -2311,7 +2331,6 @@ class InventarioGUI:
         linea_2_filtros.pack(fill=tk.X, pady=(5, 0))
 
         ttk.Label(linea_1_filtros, text="Desde:").pack(side=tk.LEFT, padx=(0, 5))
-        # --- CAMBIO: Fecha por defecto HOY ---
         today_str = datetime.now().strftime("%Y-%m-%d")
 
         if TKCALENDAR_AVAILABLE:
@@ -2353,7 +2372,6 @@ class InventarioGUI:
         self.filtro_desc_venta = ttk.Entry(linea_1_filtros, width=25)
         self.filtro_desc_venta.pack(side=tk.LEFT, padx=(0, 10))
 
-        # --- CAMBIO: Reemplazo Checkbox por Combobox de Medios de Pago ---
         ttk.Label(linea_1_filtros, text="Medio Pago:").pack(side=tk.LEFT, padx=(5, 5))
         payment_methods_filter = [
             "Todos",
@@ -3379,9 +3397,7 @@ class InventarioGUI:
         desde = self.filtro_fecha_desde.get()
         hasta = self.filtro_fecha_hasta.get()
         txt_filtro = self.filtro_desc_venta.get().lower().strip()
-        filtro_medio = (
-            self.filtro_medio_pago_combo.get()
-        )  # --- CAMBIO: Obtener valor del combo ---
+        filtro_medio = self.filtro_medio_pago_combo.get()
 
         items_vendidos = 0
         costo_total = 0.0
@@ -3410,11 +3426,9 @@ class InventarioGUI:
                 ):
                     continue
 
-            # --- CAMBIO: Filtro Medio de Pago Específico ---
+            # Filtro Medio de Pago Específico
             medio_venta = row[10].lower()
             if filtro_medio and filtro_medio != "Todos":
-                # Buscamos si el medio seleccionado está dentro del string de medios de la venta
-                # (útil por si hay pagos mixtos como "Efectivo, Nequi")
                 if filtro_medio.lower() not in medio_venta:
                     continue
 
@@ -3426,8 +3440,6 @@ class InventarioGUI:
             if estado != "Anulada":
                 try:
                     items_vendidos += int(row[3])
-                    # --- CORRECCIÓN LÓGICA DE SUMA ---
-                    # Eliminada la línea duplicada que calculaba mal el costo unitario/total
                     v_total = float(row[6])
                     g_total = float(row[7])
                     venta_total += v_total
@@ -3453,7 +3465,7 @@ class InventarioGUI:
             self.filtro_fecha_hasta.insert(0, today)
 
         self.filtro_desc_venta.delete(0, tk.END)
-        self.filtro_medio_pago_combo.set("Todos")  # --- CAMBIO: Resetear combo ---
+        self.filtro_medio_pago_combo.set("Todos")
         self.populate_sales_treeview()
 
     def on_sale_select(self, event):

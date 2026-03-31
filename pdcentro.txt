@@ -1,11 +1,13 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
+    Adaptador Otg Tc Usb 5
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Cable Apple Tc Ligthning 4
     Cable Auxiliar 1 A 1 3 Vias Cja 2
     Cargador Belkin Tc 5
     Cargador Fuente 360 Slim 1
@@ -58,6 +60,7 @@
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
+    Forro Armadura Samsung A06 Negro 1
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung S23 Plus Azulrey 1
     Forro Armadura Tecno Camon 30S / 30S Pro Rojo 1
@@ -113,6 +116,7 @@
     Forro Space Oppo Reno 6 Lite 3
     Forro Space Samsung A07 2
     Forro Space Samsung A71 2
+    Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2

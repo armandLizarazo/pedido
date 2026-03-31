@@ -1,7 +1,9 @@
-    Camara Principal Motorola Moto G72 1
     Pacha Apple Xr Gx 1
+    Pacha Huawei Honor X6 / X6S 1
     Pacha Huawei Honor X6 / X6S C/M 1
-    Pacha Samsung A06 1
+    Pacha Oppo A17 / A38 / A57 / A77 1
+    Pacha Samsung A06 3
+    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
     Pacha Xiaomi Redmi 9T / Poco M3 1
     Pacha Xiaomi Redmi Note 11 / Note 12S 1
     Pacha Xiaomi Redmi Note 14 4G Amoled 1

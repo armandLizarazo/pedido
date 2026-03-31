@@ -1295,6 +1295,68 @@ def clean_orders():
         update_provider_quantities(sticky_item)
 
 
+def preview_order(filename):
+    """Muestra una ventana con la vista previa del contenido del archivo de pedido."""
+    order_data = parse_file(filename)
+    provider_name = filename.replace(".txt", "").upper()
+
+    if not order_data:
+        messagebox.showinfo(
+            "Vista Previa", f"El pedido {provider_name} está actualmente vacío."
+        )
+        return
+
+    preview_win = tk.Toplevel(root)
+    preview_win.title(f"Vista Previa - {provider_name}")
+    preview_win.geometry("500x450")
+    preview_win.configure(bg=BG_COLOR)
+
+    tk.Label(
+        preview_win,
+        text=f"Contenido actual de {provider_name}",
+        font=("Helvetica", 12, "bold"),
+        bg=BG_COLOR,
+        fg=FG_RED,
+    ).pack(pady=10)
+
+    # Marco para la tabla
+    tree_frame = tk.Frame(preview_win, bg=BG_COLOR)
+    tree_frame.pack(expand=True, fill=tk.BOTH, padx=15, pady=(0, 10))
+
+    tree = ttk.Treeview(tree_frame, columns=("Item", "Cantidad"), show="headings")
+    tree.heading("Item", text="Item")
+    tree.heading("Cantidad", text="Cantidad")
+    tree.column("Item", width=350, stretch=True)
+    tree.column("Cantidad", width=100, anchor=tk.CENTER, stretch=False)
+
+    scrollbar = ttk.Scrollbar(tree_frame, orient="vertical", command=tree.yview)
+    tree.configure(yscrollcommand=scrollbar.set)
+
+    scrollbar.pack(side=tk.RIGHT, fill=tk.Y)
+    tree.pack(side=tk.LEFT, expand=True, fill=tk.BOTH)
+
+    total_items = 0
+    total_qty = 0
+
+    # Insertar datos
+    for desc, qty in order_data:
+        tree.insert("", tk.END, values=(desc, qty))
+        total_items += 1
+        total_qty += qty
+
+    # Resumen inferior
+    stats_text = f"Total Referencias: {total_items}  |  Unidades Totales: {total_qty}"
+    tk.Label(
+        preview_win,
+        text=stats_text,
+        font=("Helvetica", 10, "bold"),
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        relief="solid",
+        borderwidth=1,
+    ).pack(fill=tk.X, padx=15, pady=(0, 15), ipady=5)
+
+
 def on_double_click(event):
     """Copia el ítem al cuadro de 'Nuevo Nombre' para editarlo."""
     widget = event.widget
@@ -2203,6 +2265,21 @@ lbl_pd_centro_qty = tk.Label(
     width=10,
 )
 lbl_pd_centro_qty.pack()
+btn_pd_centro_view = tk.Button(
+    pd_centro_frame,
+    text="👁️ Ver",
+    command=lambda: preview_order("pdcentro.txt"),
+    font=("Helvetica", 8, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=5,
+    pady=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_centro_view.pack(pady=(2, 0))
 
 # PD PR
 pd_pr_frame = tk.Frame(providers_frame, bg=BG_COLOR)
@@ -2254,6 +2331,21 @@ lbl_pd_pr_qty = tk.Label(
     width=10,
 )
 lbl_pd_pr_qty.pack()
+btn_pd_pr_view = tk.Button(
+    pd_pr_frame,
+    text="👁️ Ver",
+    command=lambda: preview_order("pdpr.txt"),
+    font=("Helvetica", 8, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=5,
+    pady=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_pr_view.pack(pady=(2, 0))
 
 # PD ST
 pd_st_frame = tk.Frame(providers_frame, bg=BG_COLOR)
@@ -2305,5 +2397,20 @@ lbl_pd_st_qty = tk.Label(
     width=10,
 )
 lbl_pd_st_qty.pack()
+btn_pd_st_view = tk.Button(
+    pd_st_frame,
+    text="👁️ Ver",
+    command=lambda: preview_order("pdst.txt"),
+    font=("Helvetica", 8, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=5,
+    pady=0,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+btn_pd_st_view.pack(pady=(2, 0))
 
 root.mainloop()

@@ -1,11 +1,15 @@
+    Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Multitoma 6 Enchufes 2
     Antena Tdt 5M 5
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth Pro 5S Negro 1
+    Audifonos Bluetooth Pro 5S Blanco 1
+    Audifonos Bluetooth Pro 5S Negro 2
     Balaca Callcenter Eco 2
     Barbera Cable 1
+    Cable Apple Iphone 4 5
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 2 A 1 5M 3
     Cable Auxiliar 3 A 1 5 M 3

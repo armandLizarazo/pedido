@@ -271,7 +271,7 @@
       </div>
     </div>
 
-    <!-- MODAL DE AUTENTICACIÓN (NUEVO) -->
+    <!-- MODAL DE AUTENTICACIÓN -->
     <div
       id="auth-modal"
       class="fixed inset-0 bg-slate-900/60 backdrop-blur-sm z-50 hidden items-center justify-center p-4 no-print"
@@ -509,7 +509,7 @@
       <div
         class="p-4 text-xs text-slate-500 text-center border-t border-slate-700"
       >
-        Sistema de Taller v6.0<br />Control de Cierres Diarios
+        Sistema de Taller v6.1<br />Control Avanzado + Abonos
       </div>
     </aside>
 
@@ -756,6 +756,8 @@ Sin Forro ni simcard</textarea
                     No hay abonos registrados.
                   </li>
                 </ul>
+
+                <!-- CAMBIO: Nuevo selector de método de pago -->
                 <div
                   class="flex flex-col sm:flex-row gap-2 border-t border-slate-200 pt-2"
                 >
@@ -765,6 +767,17 @@ Sin Forro ni simcard</textarea
                     class="p-1.5 text-sm border rounded outline-none w-full sm:w-32 text-slate-600"
                     title="Fecha del Abono"
                   />
+                  <select
+                    id="inp-payment-method"
+                    class="p-1.5 text-sm border rounded outline-none bg-white text-slate-600 w-full sm:w-auto"
+                  >
+                    <option value="Efectivo">Efectivo</option>
+                    <option value="Nequi">Nequi</option>
+                    <option value="Daviplata">Daviplata</option>
+                    <option value="Bancolombia">Bancolombia</option>
+                    <option value="Sistecredito">Sistecredito</option>
+                    <option value="Datafono">Datáfono</option>
+                  </select>
                   <input
                     type="number"
                     id="inp-new-payment"
@@ -779,6 +792,7 @@ Sin Forro ni simcard</textarea
                     AGREGAR
                   </button>
                 </div>
+
                 <input type="hidden" id="inp-deposit" value="0" />
               </div>
             </div>
@@ -977,7 +991,7 @@ Sin Forro ni simcard</textarea
         </div>
       </div>
 
-      <!-- VISTA CAJA / FINANZAS (MODIFICADA A REGISTRO DE SALDOS) -->
+      <!-- VISTA CAJA / FINANZAS -->
       <div
         id="view-finance"
         class="view-section flex-1 overflow-y-auto p-4 md:p-8 no-print hidden"
@@ -1012,7 +1026,7 @@ Sin Forro ni simcard</textarea
             </div>
           </div>
 
-          <!-- Tarjetas de Saldos Actuales (Último Registro) -->
+          <!-- Tarjetas de Saldos Actuales -->
           <div
             class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4"
             id="finance-balances-container"
@@ -1147,7 +1161,7 @@ Sin Forro ni simcard</textarea
             Panel de Informes
           </h2>
 
-          <!-- NUEVO: DASHBOARD DE LIQUIDEZ GLOBAL -->
+          <!-- DASHBOARD DE LIQUIDEZ GLOBAL -->
           <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div
               class="bg-slate-900 text-white p-6 rounded-xl shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center"
@@ -1275,7 +1289,7 @@ Sin Forro ni simcard</textarea
             </table>
           </div>
 
-          <!-- NUEVA SECCIÓN: Estadísticas de Caja (Análisis de Cierres) -->
+          <!-- Estadísticas de Caja (Análisis de Cierres) -->
           <div
             class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden mt-6"
           >
@@ -1465,7 +1479,7 @@ Sin Forro ni simcard</textarea
         updateStorageUsage();
       }
 
-      // --- LÓGICA DE CAJA / FINANZAS (MODIFICADA PARA SALDOS DIARIOS) ---
+      // --- LÓGICA DE CAJA / FINANZAS ---
       function saveFinanceDB(db) {
         localStorage.setItem(FINANCE_DB_KEY, JSON.stringify(db));
         renderFinance();
@@ -1485,7 +1499,7 @@ Sin Forro ni simcard</textarea
         let recordDate = new Date();
         if (dateInput) {
           const [y, m, d] = dateInput.split("-");
-          recordDate = new Date(y, m - 1, d, 23, 59, 59); // Se registra como cierre al final de ese día
+          recordDate = new Date(y, m - 1, d, 23, 59, 59);
         }
 
         const db = getFinanceDB();
@@ -1519,7 +1533,6 @@ Sin Forro ni simcard</textarea
           filteredDB = db.filter((m) => m.date.startsWith(monthFilter));
         }
 
-        // 1. Buscar los saldos MÁS RECIENTES para las Tarjetas
         const accounts = [
           "Efectivo",
           "Nequi",
@@ -1532,7 +1545,6 @@ Sin Forro ni simcard</textarea
         const latestBalances = {};
         accounts.forEach((a) => (latestBalances[a] = 0));
 
-        // Ordenar db por fecha más reciente primero
         const sortedDB = [...db].sort(
           (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
         );
@@ -1549,7 +1561,6 @@ Sin Forro ni simcard</textarea
           totalGlobal += latestBalances[acc];
         }
 
-        // Renderizar Tarjetas
         const balContainer = document.getElementById(
           "finance-balances-container",
         );
@@ -1569,7 +1580,6 @@ Sin Forro ni simcard</textarea
         });
         balContainer.innerHTML = cardsHTML;
 
-        // 2. Renderizar Tabla Historial
         const tbody = document.getElementById("fin-history-body");
         tbody.innerHTML = "";
 
@@ -1578,7 +1588,6 @@ Sin Forro ni simcard</textarea
           return;
         }
 
-        // Mostrar el historial filtrado (los más recientes primero)
         const displayDB = [...filteredDB].sort(
           (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
         );
@@ -1642,6 +1651,7 @@ Sin Forro ni simcard</textarea
       function addPayment() {
         const amountInput = document.getElementById("inp-new-payment");
         const dateInput = document.getElementById("inp-payment-date");
+        const methodInput = document.getElementById("inp-payment-method"); // NUEVO SELECTOR
         const amount = parseFloat(amountInput.value);
 
         if (!amount || amount <= 0) return alert("Ingrese un monto válido");
@@ -1655,11 +1665,16 @@ Sin Forro ni simcard</textarea
         const newPayment = {
           date: payDate.toISOString(),
           amount: amount,
+          method: methodInput.value, // GUARDAR EL MÉTODO
         };
 
         currentPayments.push(newPayment);
+
+        // Limpiar inputs
         amountInput.value = "";
         dateInput.value = formatDateOnly(new Date());
+        methodInput.value = "Efectivo";
+
         renderPaymentsList();
         calcBalance();
       }
@@ -1685,12 +1700,14 @@ Sin Forro ni simcard</textarea
         let total = 0;
         currentPayments.forEach((p, index) => {
           total += p.amount;
+          const methodName = p.method || "Efectivo"; // Fallback por si hay datos viejos sin método
           const li = document.createElement("li");
           li.className =
             "flex justify-between items-center border-b border-slate-100 pb-1";
           li.innerHTML = `
-                    <div class="flex gap-2 text-xs">
+                    <div class="flex gap-2 text-xs items-center">
                         <span class="text-slate-500">${new Date(p.date).toLocaleDateString()}</span>
+                        <span class="px-1.5 py-0.5 bg-slate-100 text-slate-600 rounded border border-slate-200 text-[10px] uppercase font-bold">${methodName}</span>
                         <span class="font-bold text-green-600">$${p.amount.toLocaleString()}</span>
                     </div>
                     <button type="button" onclick="removePayment(${index})" class="text-red-400 hover:text-red-600 font-bold px-1" title="Eliminar Abono">✕</button>
@@ -1716,7 +1733,6 @@ Sin Forro ni simcard</textarea
           modal.classList.add("flex");
           document.getElementById("auth-pin").value = "";
           document.getElementById("auth-error").classList.add("hidden");
-          // Auto-focus en el input
           setTimeout(() => document.getElementById("auth-pin").focus(), 100);
         }
       }
@@ -1741,7 +1757,6 @@ Sin Forro ni simcard</textarea
 
       // --- NAVEGACIÓN & VISTAS ---
       function switchView(viewName) {
-        // Bloqueo de seguridad para vistas sensibles
         if (
           (viewName === "finance" || viewName === "reports") &&
           !isAuthenticated
@@ -1834,7 +1849,6 @@ Sin Forro ni simcard</textarea
           }
         }
 
-        // --- ESTADÍSTICAS FINANCIERAS (Análisis de Saldos) ---
         const finDB = getFinanceDB();
         const accountsList = [
           "Efectivo",
@@ -1846,7 +1860,6 @@ Sin Forro ni simcard</textarea
           "Base",
         ];
 
-        // 1. Calcular Liquidez Total (Suma de los últimos saldos)
         const latestBalances = {};
         accountsList.forEach((a) => (latestBalances[a] = 0));
 
@@ -1865,7 +1878,6 @@ Sin Forro ni simcard</textarea
         if (liquidityEl)
           liquidityEl.textContent = "$" + totalLiquidity.toLocaleString();
 
-        // 1.5 NUEVO: Calcular Día de Mayor y Menor Liquidez GLOBAL
         const dailyGlobalBalances = {};
         let runningBalances = {
           Efectivo: 0,
@@ -1877,7 +1889,6 @@ Sin Forro ni simcard</textarea
           Base: 0,
         };
 
-        // Ordenamos todo cronológicamente ascendente (del más antiguo al más nuevo)
         const ascFinDB = [...finDB].sort(
           (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime(),
         );
@@ -1886,16 +1897,13 @@ Sin Forro ni simcard</textarea
         ];
 
         uniqueDates.forEach((dateStr) => {
-          // Encontrar todos los movimientos de ese día
           const movesThisDay = ascFinDB.filter(
             (m) => formatDateOnly(new Date(m.date)) === dateStr,
           );
-          // Actualizar el running balance con el último valor reportado en ese día para cada cuenta
           movesThisDay.forEach((m) => {
             runningBalances[m.account] = m.amount;
           });
 
-          // Sumar todo para sacar el total del día
           let dayTotal = 0;
           for (let acc in runningBalances) dayTotal += runningBalances[acc];
 
@@ -1940,7 +1948,6 @@ Sin Forro ni simcard</textarea
             : "---";
         }
 
-        // 2. Días de Mayor y Menor Saldo POR CUENTA
         const stats = {};
         accountsList.forEach((acc) => {
           stats[acc] = {
@@ -1951,7 +1958,6 @@ Sin Forro ni simcard</textarea
           };
         });
 
-        // Analizar los registros de cada cuenta
         finDB.forEach((m) => {
           const acc = m.account;
           const amt = m.amount;
@@ -1973,7 +1979,6 @@ Sin Forro ni simcard</textarea
           accountsList.forEach((acc) => {
             const s = stats[acc];
             if (s.maxAmt > -1) {
-              // Solo mostrar si la cuenta tiene algún registro
               const minAmount = s.minAmt === Infinity ? 0 : s.minAmt;
               const maxDateStr = s.maxDay
                 ? new Date(s.maxDay + "T12:00:00").toLocaleDateString()
@@ -2120,7 +2125,6 @@ Sin Forro ni simcard</textarea
         const order = db.find((o) => o.ticketNumber === ticketNumber);
         if (!order) return alert("Orden no encontrada");
 
-        // Cargar datos básicos
         document.getElementById("inp-ticket").value = order.ticketNumber;
         document.getElementById("inp-date").value = formatDateForInput(
           order.date,
@@ -2139,18 +2143,18 @@ Sin Forro ni simcard</textarea
         document.getElementById("inp-status").value =
           order.status || "Ingresado";
 
-        // Cargar Pagos
         if (order.payments && Array.isArray(order.payments)) {
           currentPayments = order.payments;
         } else if (order.deposit > 0) {
-          currentPayments = [{ date: order.date, amount: order.deposit }];
+          currentPayments = [
+            { date: order.date, amount: order.deposit, method: "Efectivo" },
+          ];
         } else {
           currentPayments = [];
         }
         renderPaymentsList();
         calcBalance();
 
-        // Seguridad
         if (order.securityMode === "pass") {
           setMode("pass");
           document.getElementById("inp-pass-text").value = order.securityData;
@@ -2179,7 +2183,6 @@ Sin Forro ni simcard</textarea
         switchView("form");
       }
 
-      // LIMPIEZA COMPLETA DEL FORMULARIO
       function cancelEdit() {
         document.getElementById("inp-ticket").value = "";
         document.getElementById("inp-date").value = formatDateForInput(
@@ -2188,6 +2191,7 @@ Sin Forro ni simcard</textarea
         document.getElementById("inp-payment-date").value = formatDateOnly(
           new Date(),
         );
+        document.getElementById("inp-payment-method").value = "Efectivo";
 
         document.getElementById("page-title").textContent = "Ingreso de Equipo";
         document.getElementById("edit-badge").classList.add("hidden");
@@ -2473,7 +2477,8 @@ Sin Forro ni simcard</textarea
         if (data.payments && data.payments.length > 0) {
           tPayments.innerHTML = "<strong>ABONOS:</strong><br>";
           data.payments.forEach((p) => {
-            tPayments.innerHTML += `${new Date(p.date).toLocaleDateString()}: $${p.amount.toLocaleString()}<br>`;
+            const methodStr = p.method ? ` (${p.method})` : "";
+            tPayments.innerHTML += `${new Date(p.date).toLocaleDateString()}${methodStr}: $${p.amount.toLocaleString()}<br>`;
           });
         }
 
@@ -2537,7 +2542,6 @@ Sin Forro ni simcard</textarea
       }
 
       document.addEventListener("DOMContentLoaded", () => {
-        // Permitir presionar "Enter" para verificar la contraseña
         const pinInput = document.getElementById("auth-pin");
         if (pinInput) {
           pinInput.addEventListener("keypress", function (e) {
@@ -2594,7 +2598,6 @@ Sin Forro ni simcard</textarea
         }
       }
 
-      // --- EXPORTAR E IMPORTAR INTEGRADO (Reparaciones + Finanzas) ---
       function exportDB() {
         const repairs = getDB();
         const finance = getFinanceDB();
