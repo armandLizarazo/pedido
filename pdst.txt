@@ -3,7 +3,7 @@
     Pacha Apple Xr Gx 1
     Pacha Huawei Honor X6 / X6S 1
     Pacha Huawei Honor X6 / X6S C/M 1
-    Pacha Oppo A17 / A38 / A57 / A77 3
+    Pacha Oppo A17 / A38 / A57 / A77 1
     Pacha Samsung A06 3
     Pacha Samsung A15 1
     Pacha Samsung A21S 1
@@ -15,3 +15,7 @@
     Pacha Xiaomi Redmi 9T / Poco M3 1
     Pacha Xiaomi Redmi Note 11 / Note 12S 1
     Pacha Xiaomi Redmi Note 14 4G Amoled 2
+    Pacha Motorola Moto G05 C/m 1
+    Pacha Xiaomi Poco X4 Pro 5G 1
+    Flex de Carga Apple Iphone 11 1
+    Pacha Infinix Note 40 Pro 1

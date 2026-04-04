@@ -1,5 +1,63 @@
 [
     {
+        "fecha": "2026-04-04 07:47:31",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [],
+        "total_conservados": 84
+    },
+    {
+        "fecha": "2026-04-04 07:47:31",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 15,
+                "contenido": "Cable Apple Tc Ligthning 5 ok"
+            },
+            {
+                "linea": 123,
+                "contenido": "Forro Space Infinix Hot 50 Pro 5G 2 ok"
+            },
+            {
+                "linea": 132,
+                "contenido": "Forro Space Samsung A07 3 ok"
+            },
+            {
+                "linea": 134,
+                "contenido": "Forro Space Tecno Camon 40 Pro 2 ok"
+            },
+            {
+                "linea": 135,
+                "contenido": "Forro Space Tecno Camon 40 Pro 5G 2 ok"
+            },
+            {
+                "linea": 242,
+                "contenido": "Silicone Case Samsung A07 Negro 1 ok"
+            },
+            {
+                "linea": 243,
+                "contenido": "Silicone Case Samsung A07 Lila 1 ok"
+            },
+            {
+                "linea": 244,
+                "contenido": "Silicone Case Samsung A07 Morado 1 ok"
+            },
+            {
+                "linea": 357,
+                "contenido": "Vidrio Blindado Samsung A56 5 ok"
+            }
+        ],
+        "total_conservados": 365
+    },
+    {
+        "fecha": "2026-04-04 07:47:31",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [],
+        "total_conservados": 21
+    },
+    {
         "fecha": "2026-03-28 11:51:46",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

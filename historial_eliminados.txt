@@ -11972,3 +11972,30 @@ L164: Silicone Case Apple Iphone 12 Negro 1 ok
 L168: Silicone Case Huawei Honor 200 Lila 1 ok
 L249: Silicone Case Samsung A36 Lila 1 ok
 L250: Silicone Case Samsung A55 Lila 1 ok
+
+============================================================
+Fecha: 2026-04-04 07:47:31
+Archivo: pdst.txt
+Eliminados: 0
+--- DETALLE ---
+
+============================================================
+Fecha: 2026-04-04 07:47:31
+Archivo: pdcentro.txt
+Eliminados: 9
+--- DETALLE ---
+L15: Cable Apple Tc Ligthning 5 ok
+L123: Forro Space Infinix Hot 50 Pro 5G 2 ok
+L132: Forro Space Samsung A07 3 ok
+L134: Forro Space Tecno Camon 40 Pro 2 ok
+L135: Forro Space Tecno Camon 40 Pro 5G 2 ok
+L242: Silicone Case Samsung A07 Negro 1 ok
+L243: Silicone Case Samsung A07 Lila 1 ok
+L244: Silicone Case Samsung A07 Morado 1 ok
+L357: Vidrio Blindado Samsung A56 5 ok
+
+============================================================
+Fecha: 2026-04-04 07:47:31
+Archivo: pdpr.txt
+Eliminados: 0
+--- DETALLE ---
