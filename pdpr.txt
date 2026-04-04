@@ -1,12 +1,17 @@
+    Adaptador Bluetooth Dongle 5.1 1
+    Adaptador Dongle Wifi 5G + Bluetooth 4.2 2
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Multitoma 6 Enchufes 2
+    Adaptador Usb Lan 2.0 2
     Antena Tdt 5M 5
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth Pro 5S Blanco 1
+    Audifonos Bluetooth M60 2
+    Audifonos Bluetooth Pro 5S Blanco 2
     Audifonos Bluetooth Pro 5S Negro 2
+    Audifonos Bluetooth Pro 5S Rosa 1
     Balaca Callcenter Eco 2
     Barbera Cable 1
     Cable Apple Iphone 4 5
@@ -18,13 +23,16 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi + Adaptadores 2
     Cable Hdmi 1.5M 5
+    Cable Hdmi Premium 8K 3M 2
     Cable Microsoft Xbox 360 3
     Cable Poder Cuadrado 3
+    Cable Rca 3 A 3 1.5M 2
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
+    Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
     Cargador Pc Lenovo 65W Tc 1
@@ -35,12 +43,15 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
+    Control Gamer Sony Ps4 Negro 1
     Control Gamer X3S 2
     Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
+    Estabilizador 4 Puertos 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
+    Extensión 6M 2
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
     Lonchera Carro 1
@@ -60,12 +71,14 @@
     Protector Cuello Barberia 1
     Reproductor Alexa Reloj 1
     Secador Remington 2003 1
+    Soporte Celular Araña 2
     Soporte Celular Para Tutoriales 1
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
+    Vaper Asokit 12000 Puffs 1
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

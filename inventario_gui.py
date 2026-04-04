@@ -336,7 +336,7 @@ class GestorInventario:
         self.archivo_inventario = archivo_inventario or "bodegac.txt"
         self.archivo_ventas = "registro_ventas.csv"
         self.archivo_costos = "dbcst.txt"
-        self.archivo_clientes = "clientes.csv"  # --- NUEVO: Archivo de clientes ---
+        self.archivo_clientes = "clientes.csv"
         self.directorio_facturas = "facturas"
         self.crear_archivos_si_no_existen()
 
@@ -1839,6 +1839,10 @@ class InventarioGUI:
             return
 
         value = self.cart_cliente_combo.get()
+
+        # GUARDAR LA POSICION DEL CURSOR AL ESCRIBIR
+        cursor_pos = self.cart_cliente_combo.index(tk.INSERT)
+
         if value == "":
             self.cart_cliente_combo["values"] = self.nombres_clientes
         else:
@@ -1848,13 +1852,9 @@ class InventarioGUI:
             ]
             self.cart_cliente_combo["values"] = data
 
-        # Abrir el menú desplegable automáticamente
-        try:
-            self.cart_cliente_combo.tk.call(
-                "ttk::combobox::Post", self.cart_cliente_combo
-            )
-        except tk.TclError:
-            pass
+        # RESTAURAR EL TEXTO Y EL CURSOR (Evita que el texto desaparezca o se seleccione solo)
+        self.cart_cliente_combo.set(value)
+        self.cart_cliente_combo.icursor(cursor_pos)
 
     def _on_cliente_select(self, event):
         nombre = self.cart_cliente_combo.get()
@@ -1941,9 +1941,6 @@ class InventarioGUI:
             self.sale_cant_entry.focus_set()
         else:
             if self.inventory_tree.selection():
-                # Si hay algo seleccionado pero no es una accion específica,
-                # mostramos el placeholder o podriamos mostrar el adjust panel por defecto.
-                # Para simplificar, lo dejamos en placeholder, ya que los botones +1/-1 están abajo.
                 pass
             else:
                 self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
@@ -2738,19 +2735,36 @@ class InventarioGUI:
         )
         self.conteo_total_label.pack(pady=10)
 
-        conteo_btn_frame = ttk.Frame(conteo_frame)
-        conteo_btn_frame.pack(fill=tk.X, pady=5)
+        # --- CAMBIO: DOS FILAS DE BOTONES PARA CONTEO ---
+        conteo_btn_frame_1 = ttk.Frame(conteo_frame)
+        conteo_btn_frame_1.pack(fill=tk.X, pady=2)
 
         ttk.Button(
-            conteo_btn_frame,
+            conteo_btn_frame_1,
+            text="Asignar a Inicial",
+            command=self._aplicar_conteo_a_inicial,
+        ).pack(side=tk.LEFT, expand=True, padx=2)
+        ttk.Button(
+            conteo_btn_frame_1,
+            text="Asignar a Base",
+            command=self._aplicar_conteo_a_base,
+        ).pack(side=tk.LEFT, expand=True, padx=2)
+
+        conteo_btn_frame_2 = ttk.Frame(conteo_frame)
+        conteo_btn_frame_2.pack(fill=tk.X, pady=2)
+
+        ttk.Button(
+            conteo_btn_frame_2,
             text="Agregar al Cierre",
             command=self._aplicar_conteo_a_cierre,
         ).pack(side=tk.LEFT, expand=True, padx=2)
         ttk.Button(
-            conteo_btn_frame, text="Guardar Conteo", command=self._guardar_conteo_actual
+            conteo_btn_frame_2,
+            text="Guardar Conteo",
+            command=self._guardar_conteo_actual,
         ).pack(side=tk.LEFT, expand=True, padx=2)
         ttk.Button(
-            conteo_btn_frame, text="Nuevo", command=self._limpiar_campos_conteo
+            conteo_btn_frame_2, text="Nuevo", command=self._limpiar_campos_conteo
         ).pack(side=tk.LEFT, expand=True, padx=2)
 
     def _update_conteo_total(self, event=None):
@@ -2859,6 +2873,49 @@ class InventarioGUI:
         self.conteo_monedas_entry.delete(0, tk.END)
         self._update_conteo_total()
         self.status_label_inv.config(text="Campos de conteo limpiados.")
+
+    # --- NUEVAS FUNCIONES PARA ASIGNAR CONTEO ---
+    def _aplicar_conteo_a_inicial(self):
+        if self.btn_iniciar_dia["state"] == "disabled":
+            messagebox.showwarning(
+                "Día Iniciado",
+                "El día ya ha sido iniciado. No puede modificar este valor ahora.",
+            )
+            return
+
+        total = self._update_conteo_total()
+        if total is not None:
+            self.caja_inicial_entry.config(state="normal")
+            self.caja_inicial_entry.delete(0, tk.END)
+            self.caja_inicial_entry.insert(0, f"{total:.2f}")
+            self.status_label_inv.config(
+                text="Total del conteo aplicado a Dinero Inicial."
+            )
+        else:
+            messagebox.showerror(
+                "Error", "No se pudo calcular el total. Revise los campos."
+            )
+
+    def _aplicar_conteo_a_base(self):
+        if self.btn_iniciar_dia["state"] == "disabled":
+            messagebox.showwarning(
+                "Día Iniciado",
+                "El día ya ha sido iniciado. No puede modificar este valor ahora.",
+            )
+            return
+
+        total = self._update_conteo_total()
+        if total is not None:
+            self.caja_base_entry.config(state="normal")
+            self.caja_base_entry.delete(0, tk.END)
+            self.caja_base_entry.insert(0, f"{total:.2f}")
+            self.status_label_inv.config(text="Total del conteo aplicado a Base.")
+        else:
+            messagebox.showerror(
+                "Error", "No se pudo calcular el total. Revise los campos."
+            )
+
+    # ---------------------------------------------
 
     def _aplicar_conteo_a_cierre(self):
         total = self._update_conteo_total()
@@ -3067,7 +3124,6 @@ class InventarioGUI:
                 else:
                     messagebox.showerror("Error al Guardar", msg)
 
-    # --- NUEVA FUNCIONALIDAD: GESTIÓN DE PRÉSTAMOS (Restaurada) ---
     def crear_widgets_prestamos(self):
         main_pane = ttk.PanedWindow(self.prestamos_tab, orient=tk.HORIZONTAL)
         main_pane.pack(fill=tk.BOTH, expand=True)
@@ -3078,7 +3134,6 @@ class InventarioGUI:
         right_frame = ttk.Frame(main_pane)
         main_pane.add(right_frame, weight=1)
 
-        # ---- Lado Izquierdo: Lista de Deudores ----
         ttk.Label(
             left_frame,
             text="Resumen de Préstamos Activos",
@@ -3106,11 +3161,9 @@ class InventarioGUI:
             command=self.populate_prestamos_treeview,
         ).pack(pady=5)
 
-        # ---- Lado Derecho: Acciones ----
         actions_frame = ttk.LabelFrame(right_frame, text="Acciones", padding=10)
         actions_frame.pack(fill=tk.BOTH, expand=True, padx=10, pady=10)
 
-        # Nuevo Préstamo
         ttk.Label(
             actions_frame, text="Nuevo Préstamo:", font=("Helvetica", 10, "bold")
         ).pack(anchor="w", pady=(0, 5))
@@ -3131,7 +3184,6 @@ class InventarioGUI:
 
         ttk.Separator(actions_frame, orient="horizontal").pack(fill="x", pady=15)
 
-        # Registrar Abono
         self.lbl_abono_persona = ttk.Label(
             actions_frame,
             text="Abonar a: Seleccione...",
@@ -3153,7 +3205,6 @@ class InventarioGUI:
 
         ttk.Separator(actions_frame, orient="horizontal").pack(fill="x", pady=15)
 
-        # Historial
         self.btn_ver_historial_prestamo = ttk.Button(
             actions_frame,
             text="Ver Historial Detallado",
@@ -3168,7 +3219,6 @@ class InventarioGUI:
         resumen = self.gestor_caja.obtener_resumen_prestamos()
 
         for persona, datos in resumen.items():
-            # Solo mostrar si tiene historial relevante (prestado > 0 o saldo != 0)
             if datos["prestado"] > 0 or datos["saldo"] != 0:
                 self.prestamos_tree.insert(
                     "",
@@ -3213,7 +3263,7 @@ class InventarioGUI:
             self.nuevo_prestamo_nombre.delete(0, tk.END)
             self.nuevo_prestamo_monto.delete(0, tk.END)
             self.populate_prestamos_treeview()
-            self.cargar_movimientos_hoy()  # Actualizar también la pestaña de Caja
+            self.cargar_movimientos_hoy()
         else:
             messagebox.showerror("Error", msg)
 
@@ -3237,7 +3287,7 @@ class InventarioGUI:
             messagebox.showinfo("Éxito", "Abono registrado correctamente.")
             self.abono_monto_entry.delete(0, tk.END)
             self.populate_prestamos_treeview()
-            self.cargar_movimientos_hoy()  # Actualizar también la pestaña de Caja
+            self.cargar_movimientos_hoy()
         else:
             messagebox.showerror("Error", msg)
 
@@ -3270,14 +3320,12 @@ class InventarioGUI:
             tree.insert("", tk.END, values=(mov["Timestamp"], mov["Tipo"], monto_fmt))
 
     def populate_inventory_treeview(self):
-        # Limpiar
         for i in self.inventory_tree.get_children():
             self.inventory_tree.delete(i)
 
         datos, errores = self.gestor.leer_datos()
         costos = self.gestor.obtener_costos_dict()
 
-        # Determine current view context for cross-referencing
         archivo_actual = os.path.basename(self.gestor.archivo_inventario)
         stock_externo = {}
         if archivo_actual == "local.txt":
@@ -3285,7 +3333,6 @@ class InventarioGUI:
         elif archivo_actual == "bodegac.txt":
             stock_externo = self.gestor.obtener_stock_dict("local.txt")
 
-        # Filtros
         filtro_palabra = self.filtro_palabra_entry.get().lower().strip()
         if filtro_palabra == "buscar...":
             filtro_palabra = ""
@@ -3294,11 +3341,9 @@ class InventarioGUI:
         op = self.filtro_op_combo.get()
 
         for linea_num, desc, cant in datos:
-            # Filtro Texto
             if filtro_palabra and filtro_palabra not in desc.lower():
                 continue
 
-            # Filtro Cantidad
             if filtro_cant and op:
                 try:
                     val_filtro = int(filtro_cant)
@@ -3309,10 +3354,8 @@ class InventarioGUI:
                     if op == "=" and not (cant == val_filtro):
                         continue
                 except ValueError:
-                    pass  # Ignore invalid filter
+                    pass
 
-            # --- CORRECCIÓN COSTO 0 vs N/A ---
-            # Verificamos si la llave existe en el diccionario, sin importar si es 0
             if desc in costos:
                 costo = costos[desc]
                 costo_str = f"${costo:,.2f}"
@@ -3327,7 +3370,6 @@ class InventarioGUI:
                 cant if archivo_actual == "bodegac.txt" else stock_externo.get(desc, 0)
             )
 
-            # Values: Linea, Item, Costo, CantBodegaC, CantLocal
             self.inventory_tree.insert(
                 "", tk.END, values=(linea_num, desc, costo_str, cant_bodega, cant_local)
             )
@@ -3393,7 +3435,6 @@ class InventarioGUI:
 
         ventas = self.gestor.leer_historial_ventas()
 
-        # Filtros
         desde = self.filtro_fecha_desde.get()
         hasta = self.filtro_fecha_hasta.get()
         txt_filtro = self.filtro_desc_venta.get().lower().strip()
@@ -3405,20 +3446,16 @@ class InventarioGUI:
         ganancia_total = 0.0
 
         for row in ventas:
-            # Asegurar longitud
             while len(row) < 12:
                 row.append("")
 
-            # row indices: 0:Timestamp, 1:ID, 2:Desc, 3:Cant, 4:Costo, 5:Precio, 6:Total, 7:Ganancia, 8:Origen, 9:Cliente, 10:Medio, 11:Estado
             fecha_str = row[0].split(" ")[0]
 
-            # Filtro fecha (simple string compare for YYYY-MM-DD works well)
             if desde and fecha_str < desde:
                 continue
             if hasta and fecha_str > hasta:
                 continue
 
-            # Filtro texto
             if txt_filtro:
                 if (
                     txt_filtro not in row[1].lower()
@@ -3426,7 +3463,6 @@ class InventarioGUI:
                 ):
                     continue
 
-            # Filtro Medio de Pago Específico
             medio_venta = row[10].lower()
             if filtro_medio and filtro_medio != "Todos":
                 if filtro_medio.lower() not in medio_venta:
@@ -3492,7 +3528,6 @@ class InventarioGUI:
         item = self.sales_tree.item(selected[0])
         id_venta = str(item["values"][1])
 
-        # Buscar archivo
         filename = f"Factura_POS_{id_venta}.txt"
         path = os.path.join(self.gestor.directorio_facturas, filename)
 
@@ -3514,7 +3549,7 @@ class InventarioGUI:
         if not selected:
             return
         item = self.sales_tree.item(selected[0])
-        id_venta = str(item["values"][1])  # Forzado a String aquí también
+        id_venta = str(item["values"][1])
 
         if messagebox.askyesno(
             "Anular Venta",
@@ -3539,7 +3574,6 @@ class InventarioGUI:
         desc_actual = str(vals[2])
         cant_actual = str(vals[3])
 
-        # Limpiar símbolos de moneda para mostrarlos en los Entry
         def clean_money(val_str):
             return str(val_str).replace("$", "").replace(",", "").strip()
 
@@ -3562,7 +3596,6 @@ class InventarioGUI:
         form_frame = ttk.Frame(win, padding=10)
         form_frame.pack(fill=tk.BOTH, expand=True)
 
-        # --- SECCIÓN 1: ÍTEM ---
         lf_item = ttk.LabelFrame(
             form_frame, text="Datos del Ítem Seleccionado", padding=10
         )
@@ -3601,7 +3634,6 @@ class InventarioGUI:
             foreground="red",
         ).grid(row=4, column=0, columnspan=2, sticky="w", pady=(5, 0))
 
-        # --- SECCIÓN 2: DATOS GENERALES ---
         lf_gen = ttk.LabelFrame(
             form_frame, text="Datos Generales (Aplica a toda la venta)", padding=10
         )
