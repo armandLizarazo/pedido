@@ -11,7 +11,7 @@
     Cable Apple Tc Ligthning 4
     Cable Apple Usb Ligthning 2M 5
     Cable Auxiliar 1 A 1 3 Vias Cja 2
-    Cargador Belkin Tc 5
+    Cargador Belkin Tc 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
@@ -332,9 +332,9 @@
     Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Samsung A12 20
+    Vidrio 5D Samsung A12 25 ok
     Vidrio 5D Samsung A21S 10
-    Vidrio 5D Samsung A71 / Poco X3 10
+    Vidrio 5D Samsung A71 / Poco X3 25 ok
     Vidrio 5D Xiaomi Redmi 12 / Redmi 13 10
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
