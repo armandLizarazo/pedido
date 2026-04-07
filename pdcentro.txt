@@ -10,17 +10,17 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
-    Cable Apple Tc Ligthning 4
+    Cable Apple Tc Ligthning 4 ok
     Cable Apple Usb Ligthning 2M 5
     Cable Auxiliar 1 A 1 3 Vias Cja 2
-    Cable Motorola Tc 3
+    Cable Motorola Tc 3 ok
     Cable Tc A Plug 3.5 3
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
     Cargador Smart Band M5 2
-    Cargador W Tc 5
+    Cargador W Tc 2 ok
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Y9 Prime Caballero 3
@@ -146,9 +146,9 @@
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Batri B10 Negro 2
     Manos Libres Knz Tc 2
-    Manos Libres Samsung J5 Negro 10
+    Manos Libres Samsung J5 Negro 20 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
-    Memoria Kingston Usb 4Gb 3
+    Memoria Kingston Usb 4Gb 3 ok
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Gamer X3 3
     Mouse Jertech Jr-1 Rojo 1
@@ -165,11 +165,17 @@
     Silicone Case Apple Iphone Xr Negro 1 ok
     Silicone Case Apple Iphone Xr Rojo 1 ok
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
+    Silicone Case Huawei Honor 400 Pro 5G Verdementa 1 ok
+    Silicone Case Huawei Honor 400 Pro 5G Morado 1 ok
+    Silicone Case Huawei Honor 400 Pro 5G Azulrey 1 ok
+    Silicone Case Huawei Honor 400 Pro 5G Rojo 1 ok
+    Silicone Case Huawei Honor 400 Pro 5G Fucsia 1 ok
+    Silicone Case Huawei Honor 400 Pro 5G Negro 1 ok
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
-    Silicone Case Huawei Honor X8C Lila 1
+    Silicone Case Huawei Honor X8C Lila 1 ok
     Silicone Case Huawei Honor X8D Amarillo 1
     Silicone Case Huawei Honor X8D Azulrey 1 ok
     Silicone Case Huawei Honor X8D Fucsia 1
@@ -224,7 +230,7 @@
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
     Silicone Case Oppo A17 Negro 1
-    Silicone Case Oppo A20 / A40 / A60 Azulrey 1
+    Silicone Case Oppo A20 / A40 / A60 Azulrey 1 ik
     Silicone Case Oppo A20 / A40 / A60 Rojo 1
     Silicone Case Oppo A5 Negro 1
     Silicone Case Oppo A54 Azuloscuro 1 ok
@@ -233,7 +239,7 @@
     Silicone Case Oppo A58 4G / A78 5G Morado 1
     Silicone Case Oppo A58 4G / A78 5G Rojo 1
     Silicone Case Oppo A58 4G / A78 5G Rosa 1
-    Silicone Case Oppo A78 4G Lila 1
+    Silicone Case Oppo A78 4G Lila 1 ok
     Silicone Case Oppo Realme 7I Amarillo 1
     Silicone Case Oppo Realme 7I Rojo 1
     Silicone Case Oppo Realme C11 2021 Fucsia 1
@@ -285,7 +291,7 @@
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 4G Azulclaro 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark 30C Lila 1
+    Silicone Case Tecno Spark 30C Lila 1 ok
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
@@ -302,17 +308,17 @@
     Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1
     Silicone Case Vivo Y31 / Y51 / Y53S Morado 1
     Silicone Case Vivo Y35 Lila 1
-    Silicone Case Vivo Y39 Rojo 1
+    Silicone Case Vivo Y39 Rojo 1 ok
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 10C Azulrey 1
+    Silicone Case Xiaomi Redmi 10C Azulrey 1 ok
     Silicone Case Xiaomi Redmi 12 Palorosa 1 ok
-    Silicone Case Xiaomi Redmi 9 Lila 1
+    Silicone Case Xiaomi Redmi 9 Lila 1bok
     Silicone Case Xiaomi Redmi A3 Amarillo 1
     Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1
     Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1 ok
-    Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1
+    Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1 ok
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Rojo 1
     Silicone Case Xiaomi Redmi Note 12S Lila 1 ok
