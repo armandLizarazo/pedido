@@ -1,7 +1,7 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
     Adaptador Otg Tc Usb 5
-    Audifonos Bluetooth Apple Pro 2Da Generacion 2
+    Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
     Audifonos Bluetooth Pro 60 5
@@ -130,8 +130,8 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A07 1
-    Forro Space Samsung A17 2
+    Forro Space Samsung A07 1 ok
+    Forro Space Samsung A17 2 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
@@ -156,26 +156,28 @@
     Parlante Perro 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
-    Silicone Case Apple Iphone 11 Pro Fucsia 1
+    Silicone Case Apple Iphone 11 Pro Fucsia 1 ok
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
-    Silicone Case Apple Iphone 13 Pro Max Negro 1
-    Silicone Case Apple Iphone 15 Negro 1
+    Silicone Case Apple Iphone 13 Pro Max Negro 1 ok
+    Silicone Case Apple Iphone 15 Negro 1 ok
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone Xr Amarillo 1
-    Silicone Case Apple Iphone Xr Negro 1
-    Silicone Case Apple Iphone Xr Rojo 1
+    Silicone Case Apple Iphone Xr Negro 1 ok
+    Silicone Case Apple Iphone Xr Rojo 1 ok
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
+    Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8D Amarillo 1
-    Silicone Case Huawei Honor X8D Azulrey 1
+    Silicone Case Huawei Honor X8D Azulrey 1 ok
     Silicone Case Huawei Honor X8D Fucsia 1
     Silicone Case Huawei Honor X8D Lila 1
-    Silicone Case Huawei Honor X8D Morado 1
-    Silicone Case Huawei Honor X8D Negro 1
-    Silicone Case Huawei Honor X8D Rojo 1
+    Silicone Case Huawei Honor X8D Verde 1 ok
+    Silicone Case Huawei Honor X8D Morado 1 ok
+    Silicone Case Huawei Honor X8D Negro 1 ok
+    Silicone Case Huawei Honor X8D Rojo 1 ok
     Silicone Case Huawei Nova 9 Lila 1
     Silicone Case Huawei Nova Y70 Fucsia 1
     Silicone Case Huawei Y7 2019 Rojo 1
@@ -225,7 +227,7 @@
     Silicone Case Oppo A20 / A40 / A60 Azulrey 1
     Silicone Case Oppo A20 / A40 / A60 Rojo 1
     Silicone Case Oppo A5 Negro 1
-    Silicone Case Oppo A54 Azuloscuro 1
+    Silicone Case Oppo A54 Azuloscuro 1 ok
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
     Silicone Case Oppo A58 4G / A78 5G Fucsia 1
     Silicone Case Oppo A58 4G / A78 5G Morado 1
@@ -305,15 +307,15 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
     Silicone Case Xiaomi Redmi 10C Azulrey 1
-    Silicone Case Xiaomi Redmi 12 Palorosa 1
+    Silicone Case Xiaomi Redmi 12 Palorosa 1 ok
     Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi A3 Amarillo 1
     Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1
-    Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1
+    Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1 ok
     Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Rojo 1
-    Silicone Case Xiaomi Redmi Note 12S Lila 1
+    Silicone Case Xiaomi Redmi Note 12S Lila 1 ok
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Rojo 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
