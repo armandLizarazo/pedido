@@ -5,6 +5,8 @@
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Multitoma 6 Enchufes 2
     Adaptador Usb Lan 2.0 2
+    Adaptador Usb Lan 3.0 2
+    Adaptador Usb Sata 3.0 Tc Y Usb 2
     Antena Tdt 5M 5
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
@@ -43,6 +45,8 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Control Gamer Sony Ps3 Negro 1
+    Control Gamer Sony Ps4 Azul 1
+    Control Gamer Sony Ps4 Fifa 1
     Control Gamer Sony Ps4 Negro 1
     Control Gamer X3S 2
     Control Tv Universal 5
@@ -54,6 +58,7 @@
     Extensión 6M 2
     Forro Pc 16 Pulgadas 2
     Gramera Joyeria 2
+    Humidificador Madera 1
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Crosover Crosover Club 3
@@ -73,6 +78,7 @@
     Secador Remington 2003 1
     Soporte Celular Araña 2
     Soporte Celular Para Tutoriales 1
+    Soporte Holder Manubrio 2
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2

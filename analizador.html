@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
@@ -256,14 +256,6 @@
             <line x1="7" y1="7" x2="7.01" y2="7" />
           </IconBase>
         );
-        const Calendar = (props) => (
-          <IconBase {...props}>
-            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
-            <line x1="16" y1="2" x2="16" y2="6" />
-            <line x1="8" y1="2" x2="8" y2="6" />
-            <line x1="3" y1="10" x2="21" y2="10" />
-          </IconBase>
-        );
         const Activity = (props) => (
           <IconBase {...props}>
             <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
@@ -314,7 +306,7 @@
         const ExtremeCard = ({ title, maxData, minData, formatFn, type }) => {
           const getColor = (isMax) => {
             if (type === "costo")
-              return isMax ? "text-red-600" : "text-green-600"; // Costo alto es "malo"
+              return isMax ? "text-red-600" : "text-green-600";
             return isMax ? "text-green-600" : "text-red-600";
           };
           const getBg = (isMax) => {
@@ -328,11 +320,8 @@
                 {title}
               </h3>
 
-              {/* MAX */}
               <div
-                className={`flex items-center justify-between p-3 rounded-lg ${getBg(
-                  true
-                )}`}
+                className={`flex items-center justify-between p-3 rounded-lg ${getBg(true)}`}
               >
                 <div>
                   <p className="text-xs text-gray-500 font-semibold mb-1 flex items-center gap-1">
@@ -349,11 +338,8 @@
                 </div>
               </div>
 
-              {/* MIN */}
               <div
-                className={`flex items-center justify-between p-3 rounded-lg ${getBg(
-                  false
-                )}`}
+                className={`flex items-center justify-between p-3 rounded-lg ${getBg(false)}`}
               >
                 <div>
                   <p className="text-xs text-gray-500 font-semibold mb-1 flex items-center gap-1">
@@ -387,9 +373,7 @@
             {label}
             {currentSort.key === sortKey && (
               <span
-                className={`sort-icon ${
-                  currentSort.direction === "asc" ? "sort-asc" : "sort-desc"
-                }`}
+                className={`sort-icon ${currentSort.direction === "asc" ? "sort-asc" : "sort-desc"}`}
               ></span>
             )}
           </th>
@@ -397,8 +381,6 @@
 
         // --- PARSERS Y HELPERS ---
         const parseCSVLine = (text) => {
-          const re_valid =
-            /^\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*(?:,\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*)*$/;
           const re_value =
             /(?!\s*$)\s*(?:'([^'\\]*(?:\\[\S\s][^'\\]*)*)'|"([^"\\]*(?:\\[\S\s][^"\\]*)*)"|([^,'"\s\\]*(?:\s+[^,'"\s\\]+)*))\s*(?:,|$)/g;
           const a = [];
@@ -412,7 +394,6 @@
           return a;
         };
 
-        // Helper para formatear fechas a YYYY-MM-DD
         const formatDateForInput = (date) => {
           const year = date.getFullYear();
           const month = String(date.getMonth() + 1).padStart(2, "0");
@@ -432,33 +413,25 @@
           const [loading, setLoading] = useState(false);
           const fileInputRef = useRef(null);
 
-          // Estado para el modo de visualización de tendencias y extremos
-          const [viewMode, setViewMode] = useState("day"); // 'day' | 'month'
-
-          // Filtro específico para la tabla mensual
+          const [imgError, setImgError] = useState(false);
+          const [viewMode, setViewMode] = useState("day");
           const [monthTableFilter, setMonthTableFilter] = useState("");
 
           // --- CONFIGURACIÓN DE FECHAS POR DEFECTO ---
           const [filters, setFilters] = useState(() => {
             const today = new Date();
             const firstDay = new Date(today.getFullYear(), today.getMonth(), 1);
-            const lastDay = new Date(
-              today.getFullYear(),
-              today.getMonth() + 1,
-              0
-            );
             return {
               search: "",
               startDate: formatDateForInput(firstDay),
-              endDate: formatDateForInput(lastDay),
+              endDate: formatDateForInput(today),
               status: "Todos",
             };
           });
 
           // Estado para el select de filtros rápidos
-          const [quickFilter, setQuickFilter] = useState("month"); // default: este mes
+          const [quickFilter, setQuickFilter] = useState("month");
 
-          // Sort States
           const [productSort, setProductSort] = useState({
             key: "cantidad",
             direction: "desc",
@@ -468,7 +441,7 @@
             direction: "desc",
           });
 
-          // --- CALCULATE AVAILABLE MONTHS FROM DATA ---
+          // --- MÉTODOS DE FILTRO ---
           const availableMonths = useMemo(() => {
             const monthsSet = new Set();
             data.forEach((item) => {
@@ -476,7 +449,7 @@
                 const y = item.timestamp.getFullYear();
                 const m = String(item.timestamp.getMonth() + 1).padStart(
                   2,
-                  "0"
+                  "0",
                 );
                 monthsSet.add(`${y}-${m}`);
               }
@@ -492,14 +465,13 @@
                   month: "long",
                   year: "numeric",
                 });
-                // Capitalize
-                const formattedLabel =
-                  label.charAt(0).toUpperCase() + label.slice(1);
-                return { value: ym, label: formattedLabel };
+                return {
+                  value: ym,
+                  label: label.charAt(0).toUpperCase() + label.slice(1),
+                };
               });
           }, [data]);
 
-          // --- LÓGICA DE FILTROS RÁPIDOS ---
           const applyQuickFilter = (type) => {
             setQuickFilter(type);
             const today = new Date();
@@ -510,7 +482,7 @@
               end = new Date(today);
             } else if (type === "month") {
               start = new Date(today.getFullYear(), today.getMonth(), 1);
-              end = new Date(today.getFullYear(), today.getMonth() + 1, 0);
+              end = new Date(today);
             } else if (type === "week") {
               const day = today.getDay() || 7;
               if (day !== 1) {
@@ -526,10 +498,9 @@
               setFilters((prev) => ({ ...prev, startDate: "", endDate: "" }));
               return;
             } else if (type.match(/^\d{4}-\d{2}$/)) {
-              // MES ESPECÍFICO (YYYY-MM)
               const [year, month] = type.split("-").map(Number);
               start = new Date(year, month - 1, 1);
-              end = new Date(year, month, 0); // Último día del mes
+              end = new Date(year, month, 0);
             }
 
             if (start && end) {
@@ -541,10 +512,9 @@
             }
           };
 
-          // FILE PROCESSING LOGIC
+          // --- CARGA DE ARCHIVOS ---
           const processFile = (file) => {
             if (!file) return;
-
             setLoading(true);
             setFileName(file.name);
 
@@ -569,7 +539,6 @@
                   const descripcion = values[2] || "";
                   const upperDesc = descripcion.toUpperCase();
 
-                  // Lógica Marcas
                   let splitIndex = -1;
                   for (const brand of KNOWN_BRANDS) {
                     const idx = upperDesc.indexOf(brand);
@@ -627,22 +596,17 @@
           };
 
           const handleFileUpload = (event) => {
-            const file = event.target.files[0];
-            processFile(file);
-            // Permitir subir el mismo archivo nuevamente si cambia
+            processFile(event.target.files[0]);
             event.target.value = "";
           };
 
           const handleReload = () => {
-            // Trigger el input oculto para que el usuario reseleccione/confirme el archivo
-            if (fileInputRef.current) {
-              fileInputRef.current.click();
-            }
+            if (fileInputRef.current) fileInputRef.current.click();
           };
 
-          // --- FILTROS & DATOS ---
+          // --- CÁLCULOS ESTADÍSTICOS ---
           const filteredData = useMemo(() => {
-            return data.filter((item) => {
+            const result = data.filter((item) => {
               const matchesSearch =
                 item.descripcion
                   .toLowerCase()
@@ -667,19 +631,28 @@
 
               return matchesSearch && matchesStatus && matchesDate;
             });
+            // Ordenar del más reciente al más antiguo para la tabla
+            return result.sort((a, b) => b.timestamp - a.timestamp);
           }, [data, filters]);
 
           const stats = useMemo(() => {
             const totalVentas = filteredData.reduce(
               (acc, curr) => acc + curr.totalVenta,
-              0
+              0,
             );
             const totalGanancia = filteredData.reduce(
               (acc, curr) => acc + curr.ganancia,
-              0
+              0,
+            );
+            const totalCantidad = filteredData.reduce(
+              (acc, curr) => acc + curr.cantidad,
+              0,
+            );
+            const totalCostos = filteredData.reduce(
+              (acc, curr) => acc + curr.costoUnitario * curr.cantidad,
+              0,
             );
 
-            // Lógica para Utilidad Diaria Promedio
             let daysDiff = 1;
             if (filters.startDate && filters.endDate) {
               const start = createLocalDate(filters.startDate);
@@ -689,7 +662,6 @@
                 daysDiff = Math.ceil(diffTime / (1000 * 60 * 60 * 24)) + 1;
               }
             } else if (filteredData.length > 0) {
-              // Si no hay filtro, calcular basado en min y max fecha de los datos
               const timestamps = filteredData.map((i) => i.timestamp.getTime());
               const minTime = Math.min(...timestamps);
               const maxTime = Math.max(...timestamps);
@@ -698,18 +670,17 @@
             }
             if (daysDiff < 1) daysDiff = 1;
 
-            const utilidadDiariaProm = totalGanancia / daysDiff;
-
             return {
               totalVentas,
               totalGanancia,
-              utilidadDiariaProm,
+              totalCantidad,
+              totalCostos,
+              utilidadDiariaProm: totalGanancia / daysDiff,
               daysCount: daysDiff,
               count: filteredData.length,
             };
           }, [filteredData, filters.startDate, filters.endDate]);
 
-          // Datos diarios
           const dailyStats = useMemo(() => {
             const groups = {};
             filteredData.forEach((item) => {
@@ -733,15 +704,38 @@
             return Object.values(groups).sort((a, b) => a.isoDate - b.isoDate);
           }, [filteredData]);
 
-          // Datos mensuales (TOTALES, SIN FILTRO DE FECHA - Para el histórico)
+          const filteredMonthlyStats = useMemo(() => {
+            const groups = {};
+            filteredData.forEach((item) => {
+              if (isNaN(item.timestamp.getTime())) return;
+              const monthKey = `${item.timestamp.getFullYear()}-${String(item.timestamp.getMonth() + 1).padStart(2, "0")}`;
+              if (!groups[monthKey]) {
+                const displayDate = item.timestamp.toLocaleDateString("es-CO", {
+                  month: "long",
+                  year: "numeric",
+                });
+                groups[monthKey] = {
+                  date:
+                    displayDate.charAt(0).toUpperCase() + displayDate.slice(1),
+                  isoDate: monthKey,
+                  cantidad: 0,
+                  costo: 0,
+                  venta: 0,
+                  ganancia: 0,
+                };
+              }
+              groups[monthKey].cantidad += item.cantidad;
+              groups[monthKey].costo += item.costoUnitario * item.cantidad;
+              groups[monthKey].venta += item.totalVenta;
+              groups[monthKey].ganancia += item.ganancia;
+            });
+            return Object.values(groups).sort((a, b) =>
+              a.isoDate.localeCompare(b.isoDate),
+            );
+          }, [filteredData]);
+
           const fullHistoryMonthlyStats = useMemo(() => {
             const groups = {};
-            // Usamos 'data' completo en lugar de 'filteredData' para el histórico global
-            // Pero aplicamos el filtro de texto de búsqueda si el usuario quiere filtrar por producto globalmente
-            // Aquí usaremos 'data' completo para que sea un verdadero histórico,
-            // pero si el usuario filtra por producto arriba, tal vez quiera ver el histórico de ese producto.
-            // Usaremos filteredData pero IGNORANDO el filtro de fecha.
-
             const dataToUse = data.filter((item) => {
               const matchesSearch =
                 item.descripcion
@@ -758,10 +752,7 @@
 
             dataToUse.forEach((item) => {
               if (isNaN(item.timestamp.getTime())) return;
-              const monthKey = `${item.timestamp.getFullYear()}-${String(
-                item.timestamp.getMonth() + 1
-              ).padStart(2, "0")}`;
-
+              const monthKey = `${item.timestamp.getFullYear()}-${String(item.timestamp.getMonth() + 1).padStart(2, "0")}`;
               if (!groups[monthKey]) {
                 const displayDate = item.timestamp.toLocaleDateString("es-CO", {
                   month: "long",
@@ -784,75 +775,31 @@
             });
 
             let result = Object.values(groups).sort((a, b) =>
-              a.isoDate.localeCompare(b.isoDate)
+              a.isoDate.localeCompare(b.isoDate),
             );
-
-            // Aplicar filtro de texto específico de la tabla mensual
-            if (monthTableFilter) {
+            if (monthTableFilter)
               result = result.filter((m) =>
-                m.date.toLowerCase().includes(monthTableFilter.toLowerCase())
+                m.date.toLowerCase().includes(monthTableFilter.toLowerCase()),
               );
-            }
-
             return result;
           }, [data, filters.search, filters.status, monthTableFilter]);
 
-          // Datos a usar según viewMode para el gráfico principal (SÍ respeta filtros de fecha)
           const currentChartData =
-            viewMode === "day"
-              ? dailyStats
-              : (() => {
-                  // Versión mensual restringida al rango de fecha seleccionado para el gráfico
-                  const groups = {};
-                  filteredData.forEach((item) => {
-                    if (isNaN(item.timestamp.getTime())) return;
-                    const monthKey = `${item.timestamp.getFullYear()}-${String(
-                      item.timestamp.getMonth() + 1
-                    ).padStart(2, "0")}`;
-                    if (!groups[monthKey]) {
-                      const displayDate = item.timestamp.toLocaleDateString(
-                        "es-CO",
-                        { month: "long", year: "numeric" }
-                      );
-                      groups[monthKey] = {
-                        date:
-                          displayDate.charAt(0).toUpperCase() +
-                          displayDate.slice(1),
-                        isoDate: monthKey,
-                        cantidad: 0,
-                        costo: 0,
-                        venta: 0,
-                        ganancia: 0,
-                      };
-                    }
-                    groups[monthKey].cantidad += item.cantidad;
-                    groups[monthKey].costo +=
-                      item.costoUnitario * item.cantidad;
-                    groups[monthKey].venta += item.totalVenta;
-                    groups[monthKey].ganancia += item.ganancia;
-                  });
-                  return Object.values(groups).sort((a, b) =>
-                    a.isoDate.localeCompare(b.isoDate)
-                  );
-                })();
+            viewMode === "day" ? dailyStats : filteredMonthlyStats;
 
-          // Cálculo de Extremos (Max/Min)
           const extremes = useMemo(() => {
             if (currentChartData.length === 0) return null;
-
             const result = {
               utilidad: { max: null, min: null },
               costo: { max: null, min: null },
               venta: { max: null, min: null },
             };
 
-            // Helper para encontrar
             const findExtremes = (key, type) => {
               let maxVal = -Infinity;
               let minVal = Infinity;
               let maxItem = null;
               let minItem = null;
-
               currentChartData.forEach((item) => {
                 if (item[key] > maxVal) {
                   maxVal = item[key];
@@ -866,11 +813,9 @@
               result[type].max = maxItem;
               result[type].min = minItem;
             };
-
             findExtremes("ganancia", "utilidad");
             findExtremes("costo", "costo");
             findExtremes("venta", "venta");
-
             return result;
           }, [currentChartData]);
 
@@ -903,22 +848,13 @@
             }));
           };
 
-          const allProductStats = useMemo(
-            () => aggregateData("descripcion"),
-            [filteredData]
-          );
           const sortedProductStats = useMemo(
-            () => sortData(allProductStats, productSort),
-            [allProductStats, productSort]
-          );
-
-          const allCategoryStats = useMemo(
-            () => aggregateData("categoria"),
-            [filteredData]
+            () => sortData(aggregateData("descripcion"), productSort),
+            [filteredData, productSort],
           );
           const sortedCategoryStats = useMemo(
-            () => sortData(allCategoryStats, categorySort),
-            [allCategoryStats, categorySort]
+            () => sortData(aggregateData("categoria"), categorySort),
+            [filteredData, categorySort],
           );
 
           function sortData(items, sortConfig) {
@@ -939,22 +875,24 @@
             return sortableItems;
           }
 
-          const requestProductSort = (key) =>
+          const requestProductSort = (key) => {
             setProductSort((prev) => ({
               key,
               direction:
                 prev.key === key && prev.direction === "asc" ? "desc" : "asc",
             }));
-          const requestCategorySort = (key) =>
+          };
+
+          const requestCategorySort = (key) => {
             setCategorySort((prev) => ({
               key,
               direction:
                 prev.key === key && prev.direction === "asc" ? "desc" : "asc",
             }));
+          };
 
           const uniqueStatuses = useMemo(() => {
-            const statuses = new Set(data.map((d) => d.estado));
-            return ["Todos", ...Array.from(statuses)];
+            return ["Todos", ...Array.from(new Set(data.map((d) => d.estado)))];
           }, [data]);
 
           const formatMoney = (val) =>
@@ -964,95 +902,143 @@
               maximumFractionDigits: 0,
             }).format(val);
 
-          // RENDER INITIAL
+          // RENDER INITIAL (NO DATA)
           if (data.length === 0) {
             return (
-              <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-6">
-                <div className="max-w-xl w-full text-center space-y-6">
-                  <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-lg">
-                    <FileText className="text-white w-8 h-8" />
-                  </div>
-                  <h1 className="text-3xl font-bold text-gray-800">
-                    Analizador Offline
-                  </h1>
-                  <p className="text-gray-600">
-                    Carga tu archivo CSV. La detección de marcas y cálculo
-                    financiero se realiza en tu navegador.
-                  </p>
-                  <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-blue-300 border-dashed rounded-lg cursor-pointer bg-blue-50 hover:bg-blue-100 transition-colors">
-                    <div className="flex flex-col items-center justify-center pt-5 pb-6">
-                      {loading ? (
-                        <div
-                          className="spinner mb-3"
-                          style={{
-                            width: "30px",
-                            height: "30px",
-                            borderTopColor: "#2563eb",
-                          }}
-                        ></div>
-                      ) : (
-                        <Upload className="w-10 h-10 mb-3 text-blue-500" />
-                      )}
-                      <p className="mb-2 text-sm text-gray-500">
-                        <span className="font-semibold">
-                          Haz clic para subir
-                        </span>{" "}
-                        o arrastra el archivo
-                      </p>
-                      <p className="text-xs text-gray-500">Formato: .csv</p>
-                    </div>
-                    <input
-                      ref={fileInputRef}
-                      type="file"
-                      className="hidden"
-                      accept=".csv"
-                      onChange={handleFileUpload}
+              <div className="min-h-screen bg-gray-50 flex flex-col font-sans">
+                {/* CABECERA STICKY */}
+                <header className="sticky top-0 z-50 bg-white shadow-md w-full px-4 md:px-8 py-3 flex items-center justify-between">
+                  {!imgError ? (
+                    <img
+                      src="Logo1.PNG"
+                      alt="Logo Empresa"
+                      className="h-10 md:h-12 object-contain"
+                      onError={() => setImgError(true)}
                     />
-                  </label>
-                </div>
+                  ) : (
+                    <div className="flex items-center gap-2 text-blue-600 font-bold text-xl">
+                      <TrendingUp className="w-8 h-8" />
+                      <span>Mi Empresa</span>
+                    </div>
+                  )}
+                  <span className="text-sm font-semibold text-gray-500 hidden sm:block">
+                    Panel de Análisis
+                  </span>
+                </header>
+
+                <main className="flex-1 flex flex-col items-center justify-center p-6">
+                  <div className="max-w-xl w-full text-center space-y-6">
+                    <div className="bg-blue-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto shadow-lg">
+                      <FileText className="text-white w-8 h-8" />
+                    </div>
+                    <h1 className="text-3xl font-bold text-gray-800">
+                      Analizador Offline
+                    </h1>
+                    <p className="text-gray-600">
+                      Carga tu archivo CSV. La detección de marcas y cálculo
+                      financiero se realiza en tu navegador.
+                    </p>
+                    <label className="flex flex-col items-center justify-center w-full h-64 border-2 border-blue-300 border-dashed rounded-lg cursor-pointer bg-blue-50 hover:bg-blue-100 transition-colors">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                        {loading ? (
+                          <div
+                            className="spinner mb-3"
+                            style={{
+                              width: "30px",
+                              height: "30px",
+                              borderTopColor: "#2563eb",
+                            }}
+                          ></div>
+                        ) : (
+                          <Upload className="w-10 h-10 mb-3 text-blue-500" />
+                        )}
+                        <p className="mb-2 text-sm text-gray-500">
+                          <span className="font-semibold">
+                            Haz clic para subir
+                          </span>{" "}
+                          o arrastra el archivo
+                        </p>
+                        <p className="text-xs text-gray-500">Formato: .csv</p>
+                      </div>
+                      <input
+                        ref={fileInputRef}
+                        type="file"
+                        className="hidden"
+                        accept=".csv"
+                        onChange={handleFileUpload}
+                      />
+                    </label>
+                  </div>
+                </main>
               </div>
             );
           }
 
+          // RENDER DASHBOARD
           return (
-            <div className="min-h-screen bg-gray-100 p-4 md:p-8 font-sans">
-              <div className="max-w-7xl mx-auto space-y-6">
-                {/* Header */}
-                <div className="flex flex-col md:flex-row justify-between items-start md:items-center bg-white p-4 rounded-lg shadow-sm">
-                  <div>
-                    <h1 className="text-2xl font-bold text-gray-800 flex items-center gap-2">
-                      <TrendingUp className="text-blue-600" /> Dashboard de
-                      Ventas
-                    </h1>
-                    <p className="text-sm text-gray-500 mt-1">
-                      Archivo: {fileName} | Registros: {data.length}
-                    </p>
-                  </div>
-                  <div className="flex gap-2 mt-2 md:mt-0">
-                    <button
-                      onClick={handleReload}
-                      className="flex items-center gap-1 text-sm bg-blue-50 text-blue-700 hover:bg-blue-100 px-3 py-2 rounded-lg border border-blue-200 transition font-medium"
-                    >
-                      <RefreshCw className="w-4 h-4" />
-                      Actualizar Datos
-                    </button>
-                    <button
-                      onClick={() => setData([])}
-                      className="text-sm text-red-500 hover:text-red-700 font-medium border border-red-200 px-3 py-2 rounded hover:bg-red-50 transition"
-                    >
-                      Cerrar Archivo
-                    </button>
-                    {/* Input Oculto para Recarga */}
-                    <input
-                      ref={fileInputRef}
-                      type="file"
-                      className="hidden"
-                      accept=".csv"
-                      onChange={handleFileUpload}
+            <div className="min-h-screen bg-gray-100 font-sans flex flex-col">
+              {/* CABECERA STICKY UNIFICADA (Logo + Título + Botones) */}
+              <header className="sticky top-0 z-50 bg-white shadow-md w-full px-4 md:px-6 py-3 flex flex-col md:flex-row items-start md:items-center justify-between gap-3 md:gap-0 transition-all">
+                {/* Izquierda: Logo y Título */}
+                <div className="flex items-center gap-3 sm:gap-4 w-full md:w-auto">
+                  {!imgError ? (
+                    <img
+                      src="Logo1.PNG"
+                      alt="Logo Empresa"
+                      className="h-10 md:h-12 object-contain"
+                      onError={() => setImgError(true)}
                     />
+                  ) : (
+                    <div className="flex items-center gap-2 text-blue-600 font-bold text-xl shrink-0">
+                      <TrendingUp className="w-8 h-8" />
+                    </div>
+                  )}
+
+                  {/* Separador vertical visible en pantallas medianas/grandes */}
+                  <div className="hidden sm:block border-l border-gray-300 h-8 mx-1"></div>
+
+                  {/* Títulos */}
+                  <div className="flex flex-col justify-center overflow-hidden">
+                    <h1 className="text-lg sm:text-xl font-bold text-gray-800 flex items-center gap-2 truncate">
+                      Dashboard de Ventas
+                    </h1>
+                    <p className="text-xs text-gray-500 truncate">
+                      <span className="font-semibold text-gray-600">
+                        {fileName}
+                      </span>{" "}
+                      • {data.length} registros
+                    </p>
                   </div>
                 </div>
 
+                {/* Derecha: Botones de Acción */}
+                <div className="flex gap-2 w-full md:w-auto justify-end">
+                  <button
+                    onClick={handleReload}
+                    className="flex items-center justify-center gap-1 text-sm bg-blue-50 text-blue-700 hover:bg-blue-100 px-3 py-2 rounded-lg border border-blue-200 transition font-medium flex-1 md:flex-none"
+                  >
+                    <RefreshCw className="w-4 h-4" />{" "}
+                    <span className="hidden sm:inline">Actualizar Datos</span>
+                    <span className="sm:hidden">Actualizar</span>
+                  </button>
+                  <button
+                    onClick={() => setData([])}
+                    className="flex items-center justify-center text-sm text-red-500 hover:text-red-700 font-medium border border-red-200 px-3 py-2 rounded-lg hover:bg-red-50 transition flex-1 md:flex-none"
+                  >
+                    Cerrar Archivo
+                  </button>
+                  {/* Input Oculto para Recarga */}
+                  <input
+                    ref={fileInputRef}
+                    type="file"
+                    className="hidden"
+                    accept=".csv"
+                    onChange={handleFileUpload}
+                  />
+                </div>
+              </header>
+
+              <main className="p-4 md:p-8 max-w-7xl mx-auto space-y-6 w-full">
                 {/* Filters */}
                 <Card className="grid grid-cols-1 md:grid-cols-12 gap-4 items-end">
                   <div className="md:col-span-3">
@@ -1090,8 +1076,6 @@
                       ))}
                     </select>
                   </div>
-
-                  {/* Filtro Rápido */}
                   <div className="md:col-span-2">
                     <label className="text-xs font-semibold text-gray-500 uppercase text-blue-600">
                       Filtros Rápidos
@@ -1118,7 +1102,6 @@
                       )}
                     </select>
                   </div>
-
                   <div className="md:col-span-5 flex gap-2">
                     <div className="flex-1">
                       <label className="text-xs font-semibold text-gray-500 uppercase">
@@ -1151,7 +1134,7 @@
                   </div>
                 </Card>
 
-                {/* KPIs (3 Columnas Centradas) */}
+                {/* KPIs */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <StatCard
                     title="Ventas Totales"
@@ -1163,18 +1146,10 @@
                   <StatCard
                     title="Ganancia Neta"
                     value={formatMoney(stats.totalGanancia)}
-                    subtext={`Margen: ${
-                      stats.totalVentas > 0
-                        ? (
-                            (stats.totalGanancia / stats.totalVentas) *
-                            100
-                          ).toFixed(1)
-                        : 0
-                    }%`}
+                    subtext={`Margen: ${stats.totalVentas > 0 ? ((stats.totalGanancia / stats.totalVentas) * 100).toFixed(1) : 0}%`}
                     icon={TrendingUp}
                     colorClass="bg-blue-500"
                   />
-                  {/* NUEVO WIDGET: UTILIDAD DIARIA PROMEDIO */}
                   <StatCard
                     title="Promedio Diario Utilidad"
                     value={formatMoney(stats.utilidadDiariaProm)}
@@ -1213,7 +1188,6 @@
 
                 {/* SECCIÓN FINANCIERA */}
                 <div className="space-y-6">
-                  {/* Gráfico Tendencia */}
                   <Card className="h-96">
                     <div className="flex justify-between items-center mb-4">
                       <h3 className="text-lg font-bold text-gray-700">
@@ -1222,21 +1196,13 @@
                       <div className="flex bg-gray-100 p-1 rounded-lg">
                         <button
                           onClick={() => setViewMode("day")}
-                          className={`px-3 py-1 text-sm font-medium rounded-md transition-all ${
-                            viewMode === "day"
-                              ? "bg-white text-blue-600 shadow-sm"
-                              : "text-gray-500 hover:text-gray-700"
-                          }`}
+                          className={`px-3 py-1 text-sm font-medium rounded-md transition-all ${viewMode === "day" ? "bg-white text-blue-600 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}
                         >
                           Diario
                         </button>
                         <button
                           onClick={() => setViewMode("month")}
-                          className={`px-3 py-1 text-sm font-medium rounded-md transition-all ${
-                            viewMode === "month"
-                              ? "bg-white text-blue-600 shadow-sm"
-                              : "text-gray-500 hover:text-gray-700"
-                          }`}
+                          className={`px-3 py-1 text-sm font-medium rounded-md transition-all ${viewMode === "month" ? "bg-white text-blue-600 shadow-sm" : "text-gray-500 hover:text-gray-700"}`}
                         >
                           Mensual
                         </button>
@@ -1280,7 +1246,6 @@
                     </ResponsiveContainer>
                   </Card>
 
-                  {/* Tabla Resumen Diario */}
                   <Card className="h-[400px] flex flex-col">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="text-lg font-bold text-gray-800">
@@ -1288,7 +1253,7 @@
                         {viewMode === "day" ? "Diario" : "Mensual"}
                       </h3>
                       <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                        Detalle Contable del Periodo Seleccionado
+                        Detalle Contable
                       </span>
                     </div>
                     <div className="overflow-auto flex-1 custom-scroll pr-2 border rounded-lg bg-white">
@@ -1343,11 +1308,7 @@
                                 </td>
                                 <td className="px-4 py-3 text-right text-gray-500">
                                   <span
-                                    className={`px-2 py-0.5 rounded text-xs font-bold ${
-                                      parseFloat(margen) > 30
-                                        ? "bg-green-100 text-green-800"
-                                        : "bg-yellow-100 text-yellow-800"
-                                    }`}
+                                    className={`px-2 py-0.5 rounded text-xs font-bold ${parseFloat(margen) > 30 ? "bg-green-100 text-green-800" : "bg-yellow-100 text-yellow-800"}`}
                                   >
                                     {margen}%
                                   </span>
@@ -1383,7 +1344,6 @@
 
                 {/* Categorías y Productos */}
                 <div className="space-y-6">
-                  {/* Categorías */}
                   <Card className="h-[500px] flex flex-col">
                     <div className="flex justify-between items-center mb-2">
                       <div className="flex items-center gap-2">
@@ -1469,7 +1429,6 @@
                     </div>
                   </Card>
 
-                  {/* Productos */}
                   <Card className="h-[600px] flex flex-col">
                     <div className="flex justify-between items-center mb-2">
                       <h3 className="text-lg font-bold text-gray-700">
@@ -1577,7 +1536,7 @@
                   </Card>
                 </div>
 
-                {/* --- NUEVO DASHBOARD: HISTÓRICO MENSUAL --- */}
+                {/* HISTÓRICO MENSUAL COMPLETO */}
                 <Card className="flex flex-col">
                   <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-4 gap-2">
                     <div>
@@ -1648,11 +1607,7 @@
                               </td>
                               <td className="px-4 py-3 text-right text-gray-600">
                                 <span
-                                  className={`px-2 py-0.5 rounded text-xs font-bold ${
-                                    parseFloat(margen) > 30
-                                      ? "bg-green-100 text-green-800"
-                                      : "bg-yellow-100 text-yellow-800"
-                                  }`}
+                                  className={`px-2 py-0.5 rounded text-xs font-bold ${parseFloat(margen) > 30 ? "bg-green-100 text-green-800" : "bg-yellow-100 text-yellow-800"}`}
                                 >
                                   {margen}%
                                 </span>
@@ -1667,7 +1622,91 @@
                     </table>
                   </div>
                 </Card>
-              </div>
+
+                {/* RESTAURADA: Data Table Completa */}
+                <Card>
+                  <div className="flex justify-between items-center mb-4">
+                    <h3 className="text-lg font-bold text-gray-700">
+                      Todas las Transacciones
+                    </h3>
+                    <span className="text-sm text-gray-500">
+                      {filteredData.length > 500
+                        ? `Mostrando últimas 500 de ${filteredData.length}`
+                        : filteredData.length}{" "}
+                      registros en el periodo
+                    </span>
+                  </div>
+                  <div className="overflow-x-auto max-h-96 custom-scroll">
+                    <table className="min-w-full text-sm divide-y divide-gray-200">
+                      <thead className="bg-gray-50 sticky top-0">
+                        <tr>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Fecha
+                          </th>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Categoría
+                          </th>
+                          <th className="px-4 py-3 text-left font-medium text-gray-500">
+                            Descripción
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Cant.
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Costo Unid.
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Total Venta
+                          </th>
+                          <th className="px-4 py-3 text-right font-medium text-gray-500">
+                            Ganancia
+                          </th>
+                          <th className="px-4 py-3 text-center font-medium text-gray-500">
+                            Estado
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody className="bg-white divide-y divide-gray-200">
+                        {filteredData.slice(0, 500).map((row, idx) => (
+                          <tr key={idx} className="hover:bg-gray-50">
+                            <td className="px-4 py-2 text-gray-500 whitespace-nowrap text-xs">
+                              {row.timestamp.toLocaleDateString()}
+                            </td>
+                            <td className="px-4 py-2 text-blue-600 font-semibold text-xs whitespace-nowrap">
+                              {row.categoria}
+                            </td>
+                            <td
+                              className="px-4 py-2 text-gray-800 text-xs max-w-xs truncate"
+                              title={row.descripcion}
+                            >
+                              {row.descripcion}
+                            </td>
+                            <td className="px-4 py-2 text-right font-medium text-xs">
+                              {row.cantidad}
+                            </td>
+                            <td className="px-4 py-2 text-right text-orange-600 font-medium text-xs">
+                              {formatMoney(row.costoUnitario)}
+                            </td>
+                            <td className="px-4 py-2 text-right font-bold text-gray-700 text-xs">
+                              {formatMoney(row.totalVenta)}
+                            </td>
+                            <td className="px-4 py-2 text-right text-green-600 text-xs">
+                              {formatMoney(row.ganancia)}
+                            </td>
+                            <td className="px-4 py-2 text-center">
+                              <span
+                                className={`px-2 py-0.5 rounded-full text-[10px] uppercase font-bold ${row.estado === "Completada" ? "bg-green-100 text-green-800" : row.estado === "Cancelada" ? "bg-red-100 text-red-800" : "bg-gray-100 text-gray-800"}`}
+                              >
+                                {row.estado}
+                              </span>
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </Card>
+              </main>
             </div>
           );
         }
