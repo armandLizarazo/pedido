@@ -12028,3 +12028,96 @@ Eliminados: 3
 L14: Cargador Belkin Tc 5 ok
 L335: Vidrio 5D Samsung A12 25 ok
 L337: Vidrio 5D Samsung A71 / Poco X3 25 ok
+
+============================================================
+Fecha: 2026-04-09 06:58:11
+Archivo: pdst.txt
+Eliminados: 8
+--- DETALLE ---
+L1: Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1 ok
+L2: Pacha Huawei Honor X7B 2 ok
+L3: Logica de Carga Samsung A05 1 ok
+L4: Pacha Samsung A02 / A12 / M12 1 ok
+L5: Pacha Samsung A05 1 ok
+L6: Pacha Vivo Y31 / Y33S / Y51 / Y53S 2 ok
+L7: Pin de Carga Samsung J7 Prime 5 ok
+L8: Pacha Zte Blade A36 / Blade A76 1 ok
+
+============================================================
+Fecha: 2026-04-09 06:58:11
+Archivo: pdpr.txt
+Eliminados: 23
+--- DETALLE ---
+L1: Adaptador Bluetooth Dongle 5.3 3 ok
+L2: Adaptador Dongle Wifi 5G + Bluetooth 4.2 2 ok
+L6: Adaptador Multitoma 6 Enchufes 2 ok
+L7: Adaptador Usb Lan 2.0 2 ok
+L8: Adaptador Usb Lan 3.0 2 ok
+L9: Adaptador Usb Sata 3.0 Tc Y Usb 2 ok
+L10: Antena Tdt 5M 5 ok
+L14: Audifonos Bluetooth Pro 5S Blanco 2 ok
+L15: Audifonos Bluetooth Pro 5S Negro 2 ok
+L16: Audifonos Bluetooth Pro 5S Rosa 1 ok
+L18: Barbera Cable 1 ok
+L19: Panel Luz Light 1 ok
+L20: Cable Apple Iphone 4 3 ok
+L21: Humidificador Madera Pequeño 1 ok
+L28: Cable Hdmi + Adaptadores 2 ok
+L32: Cable Poder Cuadrado 3 ok
+L42: Cargador Pc Lenovo 65W Tc 1 ok
+L49: Control Gamer Sony Ps3 Negro 1 ok
+L57: Estabilizador 4 Puertos 1 ok
+L60: Extensión 6M 2 ok
+L76: Pilas Recargables Beston Aaa Con Cargador 2 ok
+L81: Soporte Celular Araña 2 ok
+L89: Vaper Asokit 12000 Puffs 1 ok
+
+============================================================
+Fecha: 2026-04-09 06:58:11
+Archivo: pdcentro.txt
+Eliminados: 44
+--- DETALLE ---
+L4: Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok
+L7: Audifonos Bluetooth Speak Conduccion Osea Sk-87 1 ok
+L8: Audifonos Bluetooth Oczu Conduccion Osea Ohf-011 1 ok
+L9: Audifonos Bluetooth We Conduccion Osea We-206 1 ok
+L10: Audifonos Bluetooth Speak Conduccion Osea Sk-38 1 ok
+L11: Audifonos Bluetooth Apple Pro 2Da Generacion 1 ok
+L12: Audifonos Bluetooth Apple Pro 2Da Generacion Negro 1 ok
+L13: Audifonos Bluetooth Samsung Buds 7 Pro Lila 1 ok
+L14: Audifonos Bluetooth G-61 Traductor 1 ok
+L21: Cable Apple Tc Ligthning 4 ok
+L23: Cable Auxiliar 1 A 1 3 Vias Cja 2 ok
+L24: Cable Motorola Tc 3 ok
+L31: Cargador W Tc 2 ok
+L141: Forro Space Samsung A07 1 ok
+L142: Forro Space Samsung A17 2 ok
+L153: Guantes Gamer 3 ok
+L157: Manos Libres Samsung J5 Negro 20 ok
+L159: Memoria Kingston Usb 4Gb 3 ok
+L167: Silicone Case Apple Iphone 11 Pro Fucsia 1 ok
+L169: Silicone Case Apple Iphone 13 Pro Max Negro 1 ok
+L170: Silicone Case Apple Iphone 15 Negro 1 ok
+L173: Silicone Case Apple Iphone Xr Negro 1 ok
+L174: Silicone Case Apple Iphone Xr Rojo 1 ok
+L176: Silicone Case Huawei Honor 400 Pro 5G Verdementa 1 ok
+L177: Silicone Case Huawei Honor 400 Pro 5G Morado 1 ok
+L178: Silicone Case Huawei Honor 400 Pro 5G Azulrey 1 ok
+L179: Silicone Case Huawei Honor 400 Pro 5G Rojo 1 ok
+L180: Silicone Case Huawei Honor 400 Pro 5G Fucsia 1 ok
+L181: Silicone Case Huawei Honor 400 Pro 5G Negro 1 ok
+L186: Silicone Case Huawei Honor X8C Lila 1 ok
+L188: Silicone Case Huawei Honor X8D Azulrey 1 ok
+L191: Silicone Case Huawei Honor X8D Verde 1 ok
+L192: Silicone Case Huawei Honor X8D Morado 1 ok
+L193: Silicone Case Huawei Honor X8D Negro 1 ok
+L194: Silicone Case Huawei Honor X8D Rojo 1 ok
+L244: Silicone Case Oppo A54 Azuloscuro 1 ok
+L250: Silicone Case Oppo A78 4G Lila 1 ok
+L302: Silicone Case Tecno Spark 30C Lila 1 ok
+L319: Silicone Case Vivo Y39 Rojo 1 ok
+L323: Silicone Case Xiaomi Redmi 10C Azulrey 1 ok
+L324: Silicone Case Xiaomi Redmi 12 Palorosa 1 ok
+L328: Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1 ok
+L329: Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1 ok
+L332: Silicone Case Xiaomi Redmi Note 12S Lila 1 ok

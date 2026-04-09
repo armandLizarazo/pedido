@@ -1,5 +1,329 @@
 [
     {
+        "fecha": "2026-04-09 06:58:11",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 4,
+                "contenido": "Audifonos Bluetooth Apple Pro 2Da Generacion 2 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Audifonos Bluetooth Speak Conduccion Osea Sk-87 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Audifonos Bluetooth Oczu Conduccion Osea Ohf-011 1 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Audifonos Bluetooth We Conduccion Osea We-206 1 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Audifonos Bluetooth Speak Conduccion Osea Sk-38 1 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Audifonos Bluetooth Apple Pro 2Da Generacion 1 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Audifonos Bluetooth Apple Pro 2Da Generacion Negro 1 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Audifonos Bluetooth Samsung Buds 7 Pro Lila 1 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Audifonos Bluetooth G-61 Traductor 1 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cable Apple Tc Ligthning 4 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Cable Auxiliar 1 A 1 3 Vias Cja 2 ok"
+            },
+            {
+                "linea": 24,
+                "contenido": "Cable Motorola Tc 3 ok"
+            },
+            {
+                "linea": 31,
+                "contenido": "Cargador W Tc 2 ok"
+            },
+            {
+                "linea": 141,
+                "contenido": "Forro Space Samsung A07 1 ok"
+            },
+            {
+                "linea": 142,
+                "contenido": "Forro Space Samsung A17 2 ok"
+            },
+            {
+                "linea": 153,
+                "contenido": "Guantes Gamer 3 ok"
+            },
+            {
+                "linea": 157,
+                "contenido": "Manos Libres Samsung J5 Negro 20 ok"
+            },
+            {
+                "linea": 159,
+                "contenido": "Memoria Kingston Usb 4Gb 3 ok"
+            },
+            {
+                "linea": 167,
+                "contenido": "Silicone Case Apple Iphone 11 Pro Fucsia 1 ok"
+            },
+            {
+                "linea": 169,
+                "contenido": "Silicone Case Apple Iphone 13 Pro Max Negro 1 ok"
+            },
+            {
+                "linea": 170,
+                "contenido": "Silicone Case Apple Iphone 15 Negro 1 ok"
+            },
+            {
+                "linea": 173,
+                "contenido": "Silicone Case Apple Iphone Xr Negro 1 ok"
+            },
+            {
+                "linea": 174,
+                "contenido": "Silicone Case Apple Iphone Xr Rojo 1 ok"
+            },
+            {
+                "linea": 176,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Verdementa 1 ok"
+            },
+            {
+                "linea": 177,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Morado 1 ok"
+            },
+            {
+                "linea": 178,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Azulrey 1 ok"
+            },
+            {
+                "linea": 179,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Rojo 1 ok"
+            },
+            {
+                "linea": 180,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Fucsia 1 ok"
+            },
+            {
+                "linea": 181,
+                "contenido": "Silicone Case Huawei Honor 400 Pro 5G Negro 1 ok"
+            },
+            {
+                "linea": 186,
+                "contenido": "Silicone Case Huawei Honor X8C Lila 1 ok"
+            },
+            {
+                "linea": 188,
+                "contenido": "Silicone Case Huawei Honor X8D Azulrey 1 ok"
+            },
+            {
+                "linea": 191,
+                "contenido": "Silicone Case Huawei Honor X8D Verde 1 ok"
+            },
+            {
+                "linea": 192,
+                "contenido": "Silicone Case Huawei Honor X8D Morado 1 ok"
+            },
+            {
+                "linea": 193,
+                "contenido": "Silicone Case Huawei Honor X8D Negro 1 ok"
+            },
+            {
+                "linea": 194,
+                "contenido": "Silicone Case Huawei Honor X8D Rojo 1 ok"
+            },
+            {
+                "linea": 244,
+                "contenido": "Silicone Case Oppo A54 Azuloscuro 1 ok"
+            },
+            {
+                "linea": 250,
+                "contenido": "Silicone Case Oppo A78 4G Lila 1 ok"
+            },
+            {
+                "linea": 302,
+                "contenido": "Silicone Case Tecno Spark 30C Lila 1 ok"
+            },
+            {
+                "linea": 319,
+                "contenido": "Silicone Case Vivo Y39 Rojo 1 ok"
+            },
+            {
+                "linea": 323,
+                "contenido": "Silicone Case Xiaomi Redmi 10C Azulrey 1 ok"
+            },
+            {
+                "linea": 324,
+                "contenido": "Silicone Case Xiaomi Redmi 12 Palorosa 1 ok"
+            },
+            {
+                "linea": 328,
+                "contenido": "Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1 ok"
+            },
+            {
+                "linea": 329,
+                "contenido": "Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1 ok"
+            },
+            {
+                "linea": 332,
+                "contenido": "Silicone Case Xiaomi Redmi Note 12S Lila 1 ok"
+            }
+        ],
+        "total_conservados": 344
+    },
+    {
+        "fecha": "2026-04-09 06:58:11",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Adaptador Bluetooth Dongle 5.3 3 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Adaptador Dongle Wifi 5G + Bluetooth 4.2 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Adaptador Multitoma 6 Enchufes 2 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Adaptador Usb Lan 2.0 2 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Adaptador Usb Lan 3.0 2 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Adaptador Usb Sata 3.0 Tc Y Usb 2 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Antena Tdt 5M 5 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Audifonos Bluetooth Pro 5S Blanco 2 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Audifonos Bluetooth Pro 5S Negro 2 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Audifonos Bluetooth Pro 5S Rosa 1 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Barbera Cable 1 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Panel Luz Light 1 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Cable Apple Iphone 4 3 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Humidificador Madera Pequeño 1 ok"
+            },
+            {
+                "linea": 28,
+                "contenido": "Cable Hdmi + Adaptadores 2 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Cable Poder Cuadrado 3 ok"
+            },
+            {
+                "linea": 42,
+                "contenido": "Cargador Pc Lenovo 65W Tc 1 ok"
+            },
+            {
+                "linea": 49,
+                "contenido": "Control Gamer Sony Ps3 Negro 1 ok"
+            },
+            {
+                "linea": 57,
+                "contenido": "Estabilizador 4 Puertos 1 ok"
+            },
+            {
+                "linea": 60,
+                "contenido": "Extensión 6M 2 ok"
+            },
+            {
+                "linea": 76,
+                "contenido": "Pilas Recargables Beston Aaa Con Cargador 2 ok"
+            },
+            {
+                "linea": 81,
+                "contenido": "Soporte Celular Araña 2 ok"
+            },
+            {
+                "linea": 89,
+                "contenido": "Vaper Asokit 12000 Puffs 1 ok"
+            }
+        ],
+        "total_conservados": 69
+    },
+    {
+        "fecha": "2026-04-09 06:58:11",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Huawei Honor 9A / Enjoy 10E / Y6P 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Huawei Honor X7B 2 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Logica de Carga Samsung A05 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Samsung A02 / A12 / M12 1 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Samsung A05 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Vivo Y31 / Y33S / Y51 / Y53S 2 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pin de Carga Samsung J7 Prime 5 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Zte Blade A36 / Blade A76 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-04-04 20:31:36",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
