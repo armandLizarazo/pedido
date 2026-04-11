@@ -102,6 +102,7 @@
     Forro Lujo Samsung A17 Rosa 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
+    Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A16 Azul 1
@@ -148,6 +149,7 @@
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 17 Amarillo 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
@@ -177,7 +179,9 @@
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Fucsia 1
+    Silicone Case Infinix Hot 60 Pro Plus Lila 1
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
+    Silicone Case Infinix Hot 60 Pro Plus Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
     Silicone Case Infinix Note 50 Pro Amarillo 1

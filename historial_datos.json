@@ -1,5 +1,45 @@
 [
     {
+        "fecha": "2026-04-11 07:34:58",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 2,
+                "contenido": "Pacha Apple Iphone Xr Gx 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Motorola Moto Edge 50 Fusion / G85 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Oppo A17 / A38 / A57 / A77 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Samsung A21S 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Huawei Y9 Prime Full 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Samsung A32 4G 2 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Xiaomi Redmi Note 12 1 ok"
+            }
+        ],
+        "total_conservados": 1
+    },
+    {
         "fecha": "2026-04-09 06:58:11",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

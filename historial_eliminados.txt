@@ -12121,3 +12121,17 @@ L324: Silicone Case Xiaomi Redmi 12 Palorosa 1 ok
 L328: Silicone Case Xiaomi Redmi A5 / Poco C71 Morado 1 ok
 L329: Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1 ok
 L332: Silicone Case Xiaomi Redmi Note 12S Lila 1 ok
+
+============================================================
+Fecha: 2026-04-11 07:34:58
+Archivo: pdst.txt
+Eliminados: 8
+--- DETALLE ---
+L2: Pacha Apple Iphone Xr Gx 1 ok
+L3: Pacha Motorola Moto Edge 50 Fusion / G85 1 ok
+L4: Pacha Oppo A17 / A38 / A57 / A77 2 ok
+L5: Pacha Samsung A21S 2 ok
+L6: Pacha Huawei Y9 Prime Full 1 ok
+L7: Pacha Samsung A32 4G 2 ok
+L8: Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
+L9: Pacha Xiaomi Redmi Note 12 1 ok

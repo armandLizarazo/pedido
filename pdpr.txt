@@ -20,6 +20,7 @@
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
+    Capturador Hdmi Tc-Usb 1
     Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
@@ -52,9 +53,11 @@
     Parlante Ktf-1645 2
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
+    Patillera 3 En 1 2
     Pilas Carbon Maxday Aaa X2 30
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
+    Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
     Secador Remington 2003 1
     Soporte Celular Para Tutoriales 1
