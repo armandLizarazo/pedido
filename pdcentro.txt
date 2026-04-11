@@ -13,6 +13,7 @@
     Cable Tc A Plug 3.5 3
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
+    Cargador Belkin Tc 3 ok
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
     Cargador Smart Band M5 2
@@ -104,6 +105,9 @@
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
+    Forro Lujo Ventana Apple Iphone 14 Pro Cafe 1 ok
+    Forro Lujo Ventana Apple Iphone 14 Pro Azul 1 ok
+    Forro Lujo MagSafe Apple Iphone 14 Pro Negro 1 ok
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A16 Azul 1
     Forro Lujo Ventana Samsung A16 Negro 1
@@ -179,7 +183,7 @@
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
     Silicone Case Infinix Hot 60 Pro Plus Fucsia 1 ok
-    Silicone Case Infinix Hot 60 Pro Plus Lila 1
+    Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
