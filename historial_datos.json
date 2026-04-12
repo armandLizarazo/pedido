@@ -1,5 +1,73 @@
 [
     {
+        "fecha": "2026-04-11 15:22:15",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 16,
+                "contenido": "Cargador Belkin Tc 3 ok"
+            },
+            {
+                "linea": 108,
+                "contenido": "Forro Lujo Ventana Apple Iphone 14 Pro Cafe 1 ok"
+            },
+            {
+                "linea": 109,
+                "contenido": "Forro Lujo Ventana Apple Iphone 14 Pro Azul 1 ok"
+            },
+            {
+                "linea": 110,
+                "contenido": "Forro Lujo MagSafe Apple Iphone 14 Pro Negro 1 ok"
+            },
+            {
+                "linea": 182,
+                "contenido": "Silicone Case Infinix Hot 50 5G Fucsia 1 ok"
+            },
+            {
+                "linea": 185,
+                "contenido": "Silicone Case Infinix Hot 60 Pro Plus Fucsia 1 ok"
+            },
+            {
+                "linea": 186,
+                "contenido": "Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok"
+            },
+            {
+                "linea": 188,
+                "contenido": "Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok"
+            },
+            {
+                "linea": 200,
+                "contenido": "Silicone Case Motorola Moto G15 Verdemilitar 1 ok"
+            }
+        ],
+        "total_conservados": 342
+    },
+    {
+        "fecha": "2026-04-11 15:22:15",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Bateria Seneca Iphone 7 Plus 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Bateria Seneca Iphone Xr 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Apple Iphone 7 Plus Negro 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Apple Iphone 7 Blanco 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-04-11 07:34:58",
         "archivo": "pdst.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",

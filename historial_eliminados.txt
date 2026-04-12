@@ -12135,3 +12135,28 @@ L6: Pacha Huawei Y9 Prime Full 1 ok
 L7: Pacha Samsung A32 4G 2 ok
 L8: Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 2 ok
 L9: Pacha Xiaomi Redmi Note 12 1 ok
+
+============================================================
+Fecha: 2026-04-11 15:22:15
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L1: Bateria Seneca Iphone 7 Plus 1 ok
+L2: Bateria Seneca Iphone Xr 1 ok
+L3: Pacha Apple Iphone 7 Plus Negro 1 ok
+L4: Pacha Apple Iphone 7 Blanco 1 ok
+
+============================================================
+Fecha: 2026-04-11 15:22:15
+Archivo: pdcentro.txt
+Eliminados: 9
+--- DETALLE ---
+L16: Cargador Belkin Tc 3 ok
+L108: Forro Lujo Ventana Apple Iphone 14 Pro Cafe 1 ok
+L109: Forro Lujo Ventana Apple Iphone 14 Pro Azul 1 ok
+L110: Forro Lujo MagSafe Apple Iphone 14 Pro Negro 1 ok
+L182: Silicone Case Infinix Hot 50 5G Fucsia 1 ok
+L185: Silicone Case Infinix Hot 60 Pro Plus Fucsia 1 ok
+L186: Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
+L188: Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
+L200: Silicone Case Motorola Moto G15 Verdemilitar 1 ok

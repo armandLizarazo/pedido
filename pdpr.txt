@@ -1,6 +1,7 @@
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
+    Adaptador Spliter Hdmi 1 A 2 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Gris 1
@@ -24,6 +25,7 @@
     Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
+    Consola Game Stick + Tv Stick Caja Roja 3
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1

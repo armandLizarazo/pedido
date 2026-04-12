@@ -10,15 +10,17 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Apple Usb Ligthning 2M 5
+    Cable Belkin Tc 5
     Cable Tc A Plug 3.5 3
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
-    Cargador Belkin Tc 3 ok
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
     Cargador Smart Band M5 2
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
+    Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 3
+    Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Y9 Prime Caballero 3
     Forro Antichoque Huawei Y9 Prime Dama 4
     Forro Antichoque Infinix Hot 30 Play Caballero 5
@@ -55,6 +57,7 @@
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi A3 Dama 2
+    Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
     Forro Antichoque Xiaomi Redmi Note 8 Caballero 2
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
@@ -105,9 +108,6 @@
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
-    Forro Lujo Ventana Apple Iphone 14 Pro Cafe 1 ok
-    Forro Lujo Ventana Apple Iphone 14 Pro Azul 1 ok
-    Forro Lujo MagSafe Apple Iphone 14 Pro Negro 1 ok
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A16 Azul 1
     Forro Lujo Ventana Samsung A16 Negro 1
@@ -179,13 +179,9 @@
     Silicone Case Infinix Hot 30 Play Rojo 1
     Silicone Case Infinix Hot 50 5G Amarillo 1
     Silicone Case Infinix Hot 50 5G Azulrey 1
-    Silicone Case Infinix Hot 50 5G Fucsia 1 ok
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
     Silicone Case Infinix Hot 50I / Smart 9 Rojo 1
-    Silicone Case Infinix Hot 60 Pro Plus Fucsia 1 ok
-    Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
-    Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
@@ -197,7 +193,6 @@
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
-    Silicone Case Motorola Moto G15 Verdemilitar 1 ok
     Silicone Case Motorola Moto G20 / G30 Rojo 1
     Silicone Case Motorola Moto G22 Fucsia 1
     Silicone Case Motorola Moto G32 Negro 1
