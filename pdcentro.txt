@@ -10,14 +10,14 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Apple Usb Ligthning 2M 5
-    Cable Belkin Tc 5
+    Cable Belkin Tc 5 ok
     Cable Tc A Plug 3.5 3
-    Cargador Belkin V8 5
+    Cargador Belkin V8 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
-    Cargador Samsung 25W Con Cable Blanco 2
+    Cargador Samsung 25W Con Cable Negro 2 ok
     Cargador Smart Band M5 2
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
@@ -58,11 +58,11 @@
     Forro Antichoque Vivo Y38 Caballero 3
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
-    Forro Antichoque Xiaomi Redmi 15C Caballero 3
-    Forro Antichoque Xiaomi Redmi A3 Dama 2
-    Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3
+    Forro Antichoque Xiaomi Redmi 15C Caballero 3 ok
+    Forro Antichoque Xiaomi Redmi A3 Dama 2 ok
+    Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3 ok
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
-    Forro Antichoque Xiaomi Redmi Note 8 Caballero 2
+    Forro Antichoque Xiaomi Redmi Note 8 Caballero 2 ok
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
     Forro Armadura Huawei Honor X8D Negro 1
@@ -119,7 +119,7 @@
     Forro Lujo Ventana Samsung A35 Morado 1
     Forro Lujo Ventana Samsung A35 Negro 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
-    Forro Space Apple Iphone 16 Magsafe 1
+    Forro Space Apple Iphone 16 Magsafe 1 ok
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
@@ -147,10 +147,10 @@
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Batri B10 Negro 2
     Manos Libres Knz Tc 2
-    Manos Libres Samsung Akg 5
+    Manos Libres Samsung Akg 5 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
-    Mouse Gamer X3 3
+    Mouse Gamer X3 3#
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Parlante Perro 1
@@ -165,7 +165,7 @@
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
-    Silicone Case Huawei Honor X7 Fucsia 1
+    Silicone Case Huawei Honor X7 Fucsia 1 ok
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8D Amarillo 1
     Silicone Case Huawei Honor X8D Fucsia 1
@@ -235,7 +235,7 @@
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
     Silicone Case Samsung A22 4G Rojo 1
-    Silicone Case Samsung A26 Verde Biche 1
+    Silicone Case Samsung A26 VerdeBiche 1
     Silicone Case Samsung A32 4G Fucsia 1
     Silicone Case Samsung A32 4G Vinotinto 1
     Silicone Case Samsung A32 5G Lila 1
@@ -270,7 +270,7 @@
     Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 1
     Silicone Case Tecno Spark 20 Rojo 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
-    Silicone Case Tecno Spark 30 4G Azulclaro 1
+    Silicone Case Tecno Spark 30 4G Azulclaro 1 ok
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
     Silicone Case Vivo V25 Pro Amarillo 1
@@ -291,7 +291,7 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi A3 Amarillo 1
+    Silicone Case Xiaomi Redmi A3 Amarillo 1 ok
     Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Rojo 1
