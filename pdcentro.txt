@@ -12,10 +12,12 @@
     Cable Apple Usb Ligthning 2M 5
     Cable Belkin Tc 5
     Cable Tc A Plug 3.5 3
+    Cargador Belkin V8 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
+    Cargador Samsung 25W Con Cable Blanco 2
     Cargador Smart Band M5 2
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
@@ -56,6 +58,7 @@
     Forro Antichoque Vivo Y38 Caballero 3
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
+    Forro Antichoque Xiaomi Redmi 15C Caballero 3
     Forro Antichoque Xiaomi Redmi A3 Dama 2
     Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
@@ -88,6 +91,7 @@
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 10 Pro Negro 1
+    Forro Armadura Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1
     Forro Armadura Xiaomi Redmi Note 14 Pro Plus 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
     Forro Armadura Xiaomi Redmi Note 15 4G Negro 1
@@ -143,6 +147,7 @@
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Batri B10 Negro 2
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Gamer X3 3
@@ -152,6 +157,7 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
+    Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone Xr Amarillo 1
@@ -159,6 +165,7 @@
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
+    Silicone Case Huawei Honor X7 Fucsia 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8D Amarillo 1
     Silicone Case Huawei Honor X8D Fucsia 1
