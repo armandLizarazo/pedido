@@ -14,6 +14,7 @@
     Cable Tc A Plug 3.5 3
     Cargador Belkin V8 5 ok
     Cargador Fuente 360 Slim 1
+    Cargador Apple 25W Tc Cabeza 2 ok
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
@@ -67,6 +68,9 @@
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
     Forro Armadura Huawei Honor X8D Negro 1
     Forro Armadura Huawei Honor X8D Rojo 1
+    Forro Armadura Huawei Honor Magic 8 Lite Rojo 1 ok
+    Forro Armadura Huawei Honor Magic 8 Lite Negro 1 ok
+    Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1 ok
     Forro Armadura Lg K61 Rojo 1
     Forro Armadura Motorola Moto G20 / G30 Rojo 1
     Forro Armadura Motorola Moto G34 Rojo 1
@@ -76,7 +80,7 @@
     Forro Armadura Pova 5 Azul 1
     Forro Armadura Pova 5 Negro 1
     Forro Armadura Realme C53 Negro 1
-    Forro Armadura Samsung A06 Negro 1
+    Forro Armadura Samsung A06 Azuloscuro 1 ok
     Forro Armadura Samsung A24 Azuloscuro 1
     Forro Armadura Samsung S23 Plus Azulrey 1
     Forro Armadura Tecno Camon 30S / 30S Pro Rojo 1
@@ -119,7 +123,7 @@
     Forro Lujo Ventana Samsung A35 Morado 1
     Forro Lujo Ventana Samsung A35 Negro 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
-    Forro Space Apple Iphone 16 Magsafe 1 ok
+    Forro Space MagSafe Apple Iphone 16 1 ok
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
