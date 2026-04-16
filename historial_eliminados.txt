@@ -12160,3 +12160,39 @@ L185: Silicone Case Infinix Hot 60 Pro Plus Fucsia 1 ok
 L186: Silicone Case Infinix Hot 60 Pro Plus Lila 1 ok
 L188: Silicone Case Infinix Hot 60 Pro Plus Rojo 1 ok
 L200: Silicone Case Motorola Moto G15 Verdemilitar 1 ok
+
+============================================================
+Fecha: 2026-04-14 16:07:27
+Archivo: pdst.txt
+Eliminados: 7
+--- DETALLE ---
+L1: Logica De Carga Xiaomi Redmi Note 11 / Note 12S 1 ok
+L2: Pacha Apple Iphone X Incell 1 ok
+L3: Pacha Huawei Honor X7 2 ok
+L4: Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50I 1 ok
+L5: Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok
+L6: Pacha Xiaomi Redmi A5 / Poco C71 1 ok
+L7: Pacha Xiaomi Redmi Note 12 2 ok
+
+============================================================
+Fecha: 2026-04-14 16:07:27
+Archivo: pdcentro.txt
+Eliminados: 17
+--- DETALLE ---
+L13: Cable Belkin Tc 5 ok
+L15: Cargador Belkin V8 5 ok
+L17: Cargador Apple 25W Tc Cabeza 2 ok
+L21: Cargador Samsung 25W Con Cable Negro 2 ok
+L62: Forro Antichoque Xiaomi Redmi 15C Caballero 3 ok
+L63: Forro Antichoque Xiaomi Redmi A3 Dama 2 ok
+L64: Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3 ok
+L66: Forro Antichoque Xiaomi Redmi Note 8 Caballero 2 ok
+L71: Forro Armadura Huawei Honor Magic 8 Lite Rojo 1 ok
+L72: Forro Armadura Huawei Honor Magic 8 Lite Negro 1 ok
+L73: Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1 ok
+L83: Forro Armadura Samsung A06 Azuloscuro 1 ok
+L126: Forro Space MagSafe Apple Iphone 16 1 ok
+L154: Manos Libres Samsung Akg 5 ok
+L172: Silicone Case Huawei Honor X7 Fucsia 1 ok
+L277: Silicone Case Tecno Spark 30 4G Azulclaro 1 ok
+L298: Silicone Case Xiaomi Redmi A3 Amarillo 1 ok

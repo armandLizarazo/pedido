@@ -1,5 +1,117 @@
 [
     {
+        "fecha": "2026-04-14 16:07:27",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 13,
+                "contenido": "Cable Belkin Tc 5 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Cargador Belkin V8 5 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Cargador Apple 25W Tc Cabeza 2 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cargador Samsung 25W Con Cable Negro 2 ok"
+            },
+            {
+                "linea": 62,
+                "contenido": "Forro Antichoque Xiaomi Redmi 15C Caballero 3 ok"
+            },
+            {
+                "linea": 63,
+                "contenido": "Forro Antichoque Xiaomi Redmi A3 Dama 2 ok"
+            },
+            {
+                "linea": 64,
+                "contenido": "Forro Antichoque Xiaomi Redmi A5 / Poco C71 Dama 3 ok"
+            },
+            {
+                "linea": 66,
+                "contenido": "Forro Antichoque Xiaomi Redmi Note 8 Caballero 2 ok"
+            },
+            {
+                "linea": 71,
+                "contenido": "Forro Armadura Huawei Honor Magic 8 Lite Rojo 1 ok"
+            },
+            {
+                "linea": 72,
+                "contenido": "Forro Armadura Huawei Honor Magic 8 Lite Negro 1 ok"
+            },
+            {
+                "linea": 73,
+                "contenido": "Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1 ok"
+            },
+            {
+                "linea": 83,
+                "contenido": "Forro Armadura Samsung A06 Azuloscuro 1 ok"
+            },
+            {
+                "linea": 126,
+                "contenido": "Forro Space MagSafe Apple Iphone 16 1 ok"
+            },
+            {
+                "linea": 154,
+                "contenido": "Manos Libres Samsung Akg 5 ok"
+            },
+            {
+                "linea": 172,
+                "contenido": "Silicone Case Huawei Honor X7 Fucsia 1 ok"
+            },
+            {
+                "linea": 277,
+                "contenido": "Silicone Case Tecno Spark 30 4G Azulclaro 1 ok"
+            },
+            {
+                "linea": 298,
+                "contenido": "Silicone Case Xiaomi Redmi A3 Amarillo 1 ok"
+            }
+        ],
+        "total_conservados": 340
+    },
+    {
+        "fecha": "2026-04-14 16:07:27",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Logica De Carga Xiaomi Redmi Note 11 / Note 12S 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Apple Iphone X Incell 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Huawei Honor X7 2 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50I 1 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Xiaomi Redmi A5 / Poco C71 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Xiaomi Redmi Note 12 2 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-04-11 15:22:15",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
