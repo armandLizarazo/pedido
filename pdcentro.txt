@@ -9,6 +9,7 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Balaca Naisu S-437 Negro 1
     Cable Apple Usb Ligthning 2M 5
     Cable Belkin V8 5
     Cable Tc A Plug 3.5 3
@@ -148,6 +149,7 @@
     Manos Libres Knz Tc 2
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Sandisk Micro 256Gb Original 1
+    Mouse Eco 3
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Parlante Perro 1
@@ -162,6 +164,7 @@
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
+    Silicone Case Huawei Honor X7A Rosa 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8D Amarillo 1
     Silicone Case Huawei Honor X8D Fucsia 1
@@ -230,6 +233,7 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
+    Silicone Case Samsung A16 Rojo 1
     Silicone Case Samsung A22 4G Rojo 1
     Silicone Case Samsung A26 VerdeBiche 1
     Silicone Case Samsung A32 4G Fucsia 1
@@ -321,6 +325,7 @@
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Samsung A21S 10
+    Vidrio 5D Xiaomi Redmi 10C / 12C / 13C / A05 25
     Vidrio 5D Xiaomi Redmi 12 / Redmi 13 10
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
