@@ -4,10 +4,13 @@
     Adaptador Spliter Hdmi 1 A 2 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
+    Audifonos Bluetooth I12 Azuloscuro 2
     Audifonos Bluetooth I12 Blanco 2
     Audifonos Bluetooth I12 Gris 2
-    Audifonos Bluetooth M60 3
+    Audifonos Bluetooth I12 Rosa 2
+    Audifonos Bluetooth M60 2
     Audifonos Bluetooth Pro 5S Blanco 1
+    Audifonos Bluetooth Pro 5S Negro 2
     Audifonos Bluetooth Pro 5S Rosa 2
     Balaca Callcenter Eco 2
     Cable Auxiliar 1 A 1 3M 2
@@ -35,6 +38,7 @@
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Microsoft Xbox 360 Inalambrico 2
+    Control Gamer Sony Ps2 2
     Control Gamer Sony Ps4 Azul 1
     Control Gamer Sony Ps4 Fifa 1
     Control Gamer Sony Ps4 Negro 1

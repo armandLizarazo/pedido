@@ -1,5 +1,7 @@
     Adaptador Audio Bluetooth Dongle 2
     Adaptador Bluetooth Car Bt-350 3
+    Adaptador Otg Tc 5
+    Adaptador Otg Tc Cable 5
     Adaptador Otg Tc Usb 5
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
@@ -12,9 +14,11 @@
     Balaca Naisu S-437 Negro 1
     Cable Apple Usb Ligthning 2M 5
     Cable Belkin V8 5
+    Cable Motorola Tc 5
     Cable Tc A Plug 3.5 3
     Cable Tc A Tc Eco 3
     Cable Usb Ligthning Eco 5
+    Cable Yoyos Tc 67W 2
     Cargador Apple 5V Eco 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
@@ -47,8 +51,10 @@
     Forro Antichoque Oppo Realme C53 Dama 5
     Forro Antichoque Oppo Realme C75 Caballero 5
     Forro Antichoque Oppo Realme C75 Dama 5
+    Forro Antichoque Oppo Reno 11F Dama 4
     Forro Antichoque Oppo Reno 13F Dama 1
     Forro Antichoque Oppo Reno 14 Caballero 5
+    Forro Antichoque Pin Xiaomi Redmi 14C 2
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
@@ -119,6 +125,7 @@
     Forro Lujo Ventana Samsung A35 Morado 1
     Forro Lujo Ventana Samsung A35 Negro 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
+    Forro Space Apple Iphone 11 Pro Max Magsafe 1
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
@@ -148,11 +155,13 @@
     Manos Libres Batri B10 Negro 2
     Manos Libres Knz Tc 2
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
+    Memoria Kingstone Micro 16Gb 3
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Eco 3
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Parlante Perro 1
+    Pilas Recargables Sony Aa X4 Con Cargador 2
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
@@ -196,6 +205,7 @@
     Silicone Case Lg K51S Negro 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 1
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
@@ -239,6 +249,7 @@
     Silicone Case Samsung A32 4G Fucsia 1
     Silicone Case Samsung A32 4G Vinotinto 1
     Silicone Case Samsung A32 5G Lila 1
+    Silicone Case Samsung A36 Lila 1
     Silicone Case Samsung A55 Verdementa 1
     Silicone Case Samsung A56 Azuloscuro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
@@ -273,6 +284,7 @@
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 2
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
