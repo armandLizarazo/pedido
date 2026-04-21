@@ -3,6 +3,8 @@
     Adaptador Otg Tc 5
     Adaptador Otg Tc Cable 5
     Adaptador Otg Tc Usb 5 ok
+    Parlante Harvic Pr-804 1 ok
+    Parlante Aibimy My212Bts 1 ok
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
     Audifonos Bluetooth Pro 60 5
