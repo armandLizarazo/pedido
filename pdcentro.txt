@@ -16,8 +16,9 @@
     Balaca Naisu S-437 Negro 1
     Cable Apple Usb Ligthning 2M 5 ok
     Cable Belkin V8 5 ok
-    Cable Motorola Tc 5  ok
-    Cable Tc A Plug 3.5 3 
+    Cable Caterpillar Tc 5 ok
+    Cable Motorola Tc 6 ok
+    Cable Tc A Plug 3.5 2 ok
     Cable Tc A Tc Eco 3 ok
     Cable Usb Ligthning Eco 5 ok
     Cable Yoyos Tc 67W 2 ok
@@ -28,7 +29,8 @@
     Cargador Pluying Km C-19 60W 1
     Cargador Smart Band M5 2
     Cargador We Tc 33W 3
-    Cargador Yl V8 2 ok
+    Cargador Yl V8 5 ok
+    Cargador W V8 2 ok
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 3
@@ -156,14 +158,16 @@
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Batri B10 Negro 2
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg 5 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Memoria Kingstone Micro 16Gb 3
     Memoria Sandisk Micro 256Gb Original 1
-    Mouse Eco ok ok
+    Mouse Eco 4 ok
     Mouse Jertech Jr-1 Rojo 1
     Parlante Ktf-1645 2
     Parlante Perro 1
     Pilas Recargables Sony Aa X4 Con Cargador 2
+    Power Bank Oczu Solar Opb-011 10000 Mah Cables 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
@@ -262,7 +266,7 @@
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Samsung S23 Morado 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
-    Silicone Case Tecno Camon 30 Pro Fucsia 1 ik
+    Silicone Case Tecno Camon 30 Pro Fucsia 1 ok
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
