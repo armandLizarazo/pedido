@@ -1,5 +1,333 @@
 [
     {
+        "fecha": "2026-04-21 13:22:45",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 5,
+                "contenido": "Adaptador Otg Tc Usb 5 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Parlante Harvic Pr-804 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Parlante Aibimy My212Bts 1 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Cable Apple Usb Ligthning 2M 5 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Cable Belkin V8 5 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Cable Caterpillar Tc 5 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Cable Motorola Tc 6 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cable Tc A Plug 3.5 2 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Tc A Tc Eco 3 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Cable Usb Ligthning Eco 5 ok"
+            },
+            {
+                "linea": 24,
+                "contenido": "Cable Yoyos Tc 67W 2 ok"
+            },
+            {
+                "linea": 25,
+                "contenido": "Cargador Apple 5V Eco 5 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Cargador Yl V8 2 ok"
+            },
+            {
+                "linea": 33,
+                "contenido": "Cargador W V8 2 ok"
+            },
+            {
+                "linea": 34,
+                "contenido": "Cargador Tl Tc 3 ok"
+            },
+            {
+                "linea": 140,
+                "contenido": "Forro Space Infinix Note 50S 2 ok"
+            },
+            {
+                "linea": 162,
+                "contenido": "Manos Libres Samsung Akg 5 ok"
+            },
+            {
+                "linea": 166,
+                "contenido": "Mouse Eco 4 ok"
+            },
+            {
+                "linea": 183,
+                "contenido": "Silicone Case Huawei Honor X7A Rosa 1 ok"
+            },
+            {
+                "linea": 205,
+                "contenido": "Silicone Case Infinix Hot 50I / Smart 9 Rojo 1 ok"
+            },
+            {
+                "linea": 215,
+                "contenido": "Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 1 ok"
+            },
+            {
+                "linea": 220,
+                "contenido": "Silicone Case Motorola Moto G22 Fucsia 1 ok"
+            },
+            {
+                "linea": 232,
+                "contenido": "Silicone Case Oppo A20 / A40 / A60 Rojo 1 ok"
+            },
+            {
+                "linea": 234,
+                "contenido": "Silicone Case Oppo A57 / A77 Rojo 1 ok"
+            },
+            {
+                "linea": 253,
+                "contenido": "Silicone Case Samsung A16 Rojo 1 ok"
+            },
+            {
+                "linea": 254,
+                "contenido": "Silicone Case Samsung A22 4G Rojo 1 ok"
+            },
+            {
+                "linea": 256,
+                "contenido": "Silicone Case Samsung A32 4G Fucsia 1 ok"
+            },
+            {
+                "linea": 259,
+                "contenido": "Silicone Case Samsung A36 Lila 1 ok"
+            },
+            {
+                "linea": 260,
+                "contenido": "Silicone Case Samsung A55 Verdementa 1 ok"
+            },
+            {
+                "linea": 261,
+                "contenido": "Silicone Case Samsung A56 Azuloscuro 1 ok"
+            },
+            {
+                "linea": 270,
+                "contenido": "Silicone Case Tecno Camon 30 Pro Fucsia 1 ok"
+            },
+            {
+                "linea": 280,
+                "contenido": "Silicone Case Tecno Camon 40 Vinotinto 1 ok"
+            },
+            {
+                "linea": 312,
+                "contenido": "Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1 ok"
+            }
+        ],
+        "total_conservados": 338
+    },
+    {
+        "fecha": "2026-04-21 13:22:45",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 4,
+                "contenido": "Adaptador Spliter Hdmi 1 A 2 3 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Audifonos Bluetooth I12 Azuloscuro 2 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Audifonos Bluetooth I12 Blanco 2 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Audifonos Bluetooth I12 Rosa 2 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Audifonos Bluetooth M60 3 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Audifonos Bluetooth Pro 5S Blanco 1 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Audifonos Bluetooth Pro 5S Negro 2 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Audifonos Bluetooth Pro 5S Rosa 2 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Cable Hdmi Premium 8K 3M 2 ok"
+            },
+            {
+                "linea": 34,
+                "contenido": "Consola Game Stick + Tv Stick Caja Roja 3 ok"
+            },
+            {
+                "linea": 40,
+                "contenido": "Control Gamer Microsoft Xbox 360 Inalambrico 2 ok"
+            },
+            {
+                "linea": 41,
+                "contenido": "Control Gamer Microsoft Pc / 360 Alambrico Blanco 1 ok"
+            },
+            {
+                "linea": 42,
+                "contenido": "Control Gamer Sony Ps2 2 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Control Gamer Sony Ps4 Azul 1 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Control Gamer Sony Ps4 Negro 1 ok"
+            },
+            {
+                "linea": 47,
+                "contenido": "Contadora de Billetes 1 ok"
+            },
+            {
+                "linea": 48,
+                "contenido": "Laser Apuntador 1 ok"
+            },
+            {
+                "linea": 49,
+                "contenido": "Lampara Esfera Giratoria 1 ok"
+            },
+            {
+                "linea": 56,
+                "contenido": "Gramera Joyeria 1 ok"
+            },
+            {
+                "linea": 64,
+                "contenido": "Mouse Genius Nx-7000Se Inalambrico 1 ok"
+            },
+            {
+                "linea": 65,
+                "contenido": "Mouse Gamer X3 3 ok"
+            },
+            {
+                "linea": 71,
+                "contenido": "Patillera 3 En 1 4 ok"
+            },
+            {
+                "linea": 79,
+                "contenido": "Soporte Celular K-18 2 ok"
+            },
+            {
+                "linea": 80,
+                "contenido": "Soporte Tableta Eco 1 ok"
+            },
+            {
+                "linea": 81,
+                "contenido": "Soporte Celular Magnetico K-007 1 ok"
+            }
+        ],
+        "total_conservados": 65
+    },
+    {
+        "fecha": "2026-04-21 13:22:45",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 2,
+                "contenido": "Pacha Huawei Honor X7 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Motorola Moto Edge 50 Fusion / G85 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Motorola Moto G14 / G54 / G55 2 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Oppo A20 / A40 / A60 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Samsung A02S / A03 / A03S / A04E 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Samsung A22 4G 2 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50I 3 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3 ok"
+            },
+            {
+                "linea": 10,
+                "contenido": "Pacha Xiaomi Redmi 10C 2 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Pacha Xiaomi Redmi 14C / Redmi A4 1 ok"
+            },
+            {
+                "linea": 12,
+                "contenido": "Pacha Xiaomi Redmi A1 / A2 1 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Pacha Huawei honor X5C 1 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Pacha Samsung A07 1 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Logica De Carga Motorola Moto G24 1 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Pacha Samsung A06 1 ok"
+            },
+            {
+                "linea": 18,
+                "contenido": "Altavoz Tecno Spark Go 2024 1 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Camara Fontal Huawei Y9 Prime 1 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Bateria Oppo Realme C53 1 ok"
+            }
+        ],
+        "total_conservados": 2
+    },
+    {
         "fecha": "2026-04-14 16:07:27",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

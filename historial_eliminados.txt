@@ -12196,3 +12196,97 @@ L154: Manos Libres Samsung Akg 5 ok
 L172: Silicone Case Huawei Honor X7 Fucsia 1 ok
 L277: Silicone Case Tecno Spark 30 4G Azulclaro 1 ok
 L298: Silicone Case Xiaomi Redmi A3 Amarillo 1 ok
+
+============================================================
+Fecha: 2026-04-21 13:22:45
+Archivo: pdst.txt
+Eliminados: 18
+--- DETALLE ---
+L2: Pacha Huawei Honor X7 1 ok
+L3: Pacha Motorola Moto Edge 50 Fusion / G85 1 ok
+L4: Pacha Motorola Moto G14 / G54 / G55 2 ok
+L5: Pacha Oppo A20 / A40 / A60 1 ok
+L6: Pacha Samsung A02S / A03 / A03S / A04E 1 ok
+L7: Pacha Samsung A22 4G 2 ok
+L8: Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50I 3 ok
+L9: Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3 ok
+L10: Pacha Xiaomi Redmi 10C 2 ok
+L11: Pacha Xiaomi Redmi 14C / Redmi A4 1 ok
+L12: Pacha Xiaomi Redmi A1 / A2 1 ok
+L14: Pacha Huawei honor X5C 1 ok
+L15: Pacha Samsung A07 1 ok
+L16: Logica De Carga Motorola Moto G24 1 ok
+L17: Pacha Samsung A06 1 ok
+L18: Altavoz Tecno Spark Go 2024 1 ok
+L19: Camara Fontal Huawei Y9 Prime 1 ok
+L20: Bateria Oppo Realme C53 1 ok
+
+============================================================
+Fecha: 2026-04-21 13:22:45
+Archivo: pdpr.txt
+Eliminados: 25
+--- DETALLE ---
+L4: Adaptador Spliter Hdmi 1 A 2 3 ok
+L7: Audifonos Bluetooth I12 Azuloscuro 2 ok
+L8: Audifonos Bluetooth I12 Blanco 2 ok
+L10: Audifonos Bluetooth I12 Rosa 2 ok
+L11: Audifonos Bluetooth M60 3 ok
+L12: Audifonos Bluetooth Pro 5S Blanco 1 ok
+L13: Audifonos Bluetooth Pro 5S Negro 2 ok
+L14: Audifonos Bluetooth Pro 5S Rosa 2 ok
+L22: Cable Hdmi Premium 8K 3M 2 ok
+L34: Consola Game Stick + Tv Stick Caja Roja 3 ok
+L40: Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
+L41: Control Gamer Microsoft Pc / 360 Alambrico Blanco 1 ok
+L42: Control Gamer Sony Ps2 2 ok
+L43: Control Gamer Sony Ps4 Azul 1 ok
+L45: Control Gamer Sony Ps4 Negro 1 ok
+L47: Contadora de Billetes 1 ok
+L48: Laser Apuntador 1 ok
+L49: Lampara Esfera Giratoria 1 ok
+L56: Gramera Joyeria 1 ok
+L64: Mouse Genius Nx-7000Se Inalambrico 1 ok
+L65: Mouse Gamer X3 3 ok
+L71: Patillera 3 En 1 4 ok
+L79: Soporte Celular K-18 2 ok
+L80: Soporte Tableta Eco 1 ok
+L81: Soporte Celular Magnetico K-007 1 ok
+
+============================================================
+Fecha: 2026-04-21 13:22:45
+Archivo: pdcentro.txt
+Eliminados: 33
+--- DETALLE ---
+L5: Adaptador Otg Tc Usb 5 ok
+L6: Parlante Harvic Pr-804 1 ok
+L7: Parlante Aibimy My212Bts 1 ok
+L17: Cable Apple Usb Ligthning 2M 5 ok
+L18: Cable Belkin V8 5 ok
+L19: Cable Caterpillar Tc 5 ok
+L20: Cable Motorola Tc 6 ok
+L21: Cable Tc A Plug 3.5 2 ok
+L22: Cable Tc A Tc Eco 3 ok
+L23: Cable Usb Ligthning Eco 5 ok
+L24: Cable Yoyos Tc 67W 2 ok
+L25: Cargador Apple 5V Eco 5 ok
+L32: Cargador Yl V8 2 ok
+L33: Cargador W V8 2 ok
+L34: Cargador Tl Tc 3 ok
+L140: Forro Space Infinix Note 50S 2 ok
+L162: Manos Libres Samsung Akg 5 ok
+L166: Mouse Eco 4 ok
+L183: Silicone Case Huawei Honor X7A Rosa 1 ok
+L205: Silicone Case Infinix Hot 50I / Smart 9 Rojo 1 ok
+L215: Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 1 ok
+L220: Silicone Case Motorola Moto G22 Fucsia 1 ok
+L232: Silicone Case Oppo A20 / A40 / A60 Rojo 1 ok
+L234: Silicone Case Oppo A57 / A77 Rojo 1 ok
+L253: Silicone Case Samsung A16 Rojo 1 ok
+L254: Silicone Case Samsung A22 4G Rojo 1 ok
+L256: Silicone Case Samsung A32 4G Fucsia 1 ok
+L259: Silicone Case Samsung A36 Lila 1 ok
+L260: Silicone Case Samsung A55 Verdementa 1 ok
+L261: Silicone Case Samsung A56 Azuloscuro 1 ok
+L270: Silicone Case Tecno Camon 30 Pro Fucsia 1 ok
+L280: Silicone Case Tecno Camon 40 Vinotinto 1 ok
+L312: Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1 ok

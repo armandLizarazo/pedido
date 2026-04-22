@@ -1,20 +1,4 @@
     Bateria Huawei Y9 Prime 1
-    Pacha Huawei Honor X7 1 ok
-    Pacha Motorola Moto Edge 50 Fusion / G85 1 ok
-    Pacha Motorola Moto G14 / G54 / G55 2 ok
-    Pacha Oppo A20 / A40 / A60 1 ok
-    Pacha Samsung A02S / A03 / A03S / A04E 1 ok
-    Pacha Samsung A22 4G 2 ok
-    Pacha Tecno - Infinix Spark Go 2025 / 30C / Go 1 / Smart 9 / Hot 50I 3 ok
-    Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3 ok
-    Pacha Xiaomi Redmi 10C 2 ok
-    Pacha Xiaomi Redmi 14C / Redmi A4 1 ok
-    Pacha Xiaomi Redmi A1 / A2 1 ok
+    Pacha Samsung A15 2
+    Pacha Vivo Y51 2
     Tapa Tecno Spark Go 2024 Con Visores Azulaguamarina 1
-    Pacha Huawei honor X5C 1 ok
-    Pacha Samsung A07 1 ok
-    Logica De Carga Motorola Moto G24 1 ok
-    Pacha Samsung A06 1 ok
-    Altavoz Tecno Spark Go 2024 1 ok
-    Camara Fontal Huawei Y9 Prime 1 ok
-    Bateria Oppo Realme C53 1 ok
