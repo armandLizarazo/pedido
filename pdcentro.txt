@@ -12,6 +12,7 @@
     Audifonos Bluetooth Y6 Negro 1
     Balaca Naisu S-437 Negro 1
     Cable Apple Tc Ligthning 5
+    Cable Yoyos V8 3M 3
     Cargador Bahia 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
@@ -105,6 +106,7 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cable Con Puntas 5
     Forro Cargador Cable  + Puntas 1
+    Forro Lujo Apple Iphone 16 Pro Max Azul 1
     Forro Lujo Humo Samsung A16 Negro 1
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Manguera Samsung A17 Negro 1
@@ -138,6 +140,7 @@
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
     Forro Space Samsung A71 2
+    Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
@@ -164,14 +167,19 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
+    Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
     Silicone Case Apple Iphone 13 Pro Negro 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone Xr Amarillo 1
+    Silicone Case Huawei Honor 400 Lite Rojo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Negro 1
     Silicone Case Huawei Honor X5C Negro 1
+    Silicone Case Huawei Honor X7A Azulrey 1
+    Silicone Case Huawei Honor X7A Fucsia 1
+    Silicone Case Huawei Honor X7A Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8D Amarillo 1

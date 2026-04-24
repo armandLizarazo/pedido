@@ -1,4 +1,5 @@
     Adaptador Dvi2Vga 2
+    Adaptador Ext Hdmi 5
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
@@ -10,6 +11,7 @@
     Audifonos Bluetooth I12 Blanco 2
     Audifonos Bluetooth I12 Gris 2
     Balaca Callcenter Eco 2
+    Barbera Cable 2
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 2 A 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
@@ -35,6 +37,7 @@
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
+    Control Gamer Sony Ps2 2
     Control Gamer Sony Ps4 Fifa 1
     Control Gamer X3S 2
     Control Tv Universal 5
@@ -55,6 +58,7 @@
     Parlante Ktf-1645 2
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
+    Patillera 3 En 1 Vintage 2
     Pilas Carbon Maxday Aaa X2 30
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2

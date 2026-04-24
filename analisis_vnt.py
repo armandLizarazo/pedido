@@ -18,14 +18,20 @@ def cargar_datos(ruta_archivo):
         
         filas_antes_limpieza = len(datos)
 
+        # Renombrar 'PrecioUnitario' a 'Precio de Venta'
+        datos.rename(columns={'PrecioUnitario': 'Precio de Venta'}, inplace=True, errors='ignore')
+
         # Forzar la conversión de columnas clave, descartando filas con errores
         datos['Timestamp'] = pd.to_datetime(datos['Timestamp'], errors='coerce')
-        columnas_numericas = ['Cantidad', 'CostoUnitario', 'PrecioUnitario', 'TotalVenta', 'Ganancia']
+        columnas_numericas = ['Cantidad', 'CostoUnitario', 'Precio de Venta', 'TotalVenta', 'Ganancia']
         for col in columnas_numericas:
-            # Rellenar valores nulos con 0 antes de convertir, por si hay celdas vacías
-            datos[col] = pd.to_numeric(datos[col].fillna(0), errors='coerce')
+            if col in datos.columns:
+                # Rellenar valores nulos con 0 antes de convertir, por si hay celdas vacías
+                datos[col] = pd.to_numeric(datos[col].fillna(0), errors='coerce')
         
-        datos.dropna(subset=['Timestamp'] + columnas_numericas, inplace=True)
+        # Limpiar filas donde falten datos en las columnas detectadas
+        columnas_limpieza = ['Timestamp'] + [c for c in columnas_numericas if c in datos.columns]
+        datos.dropna(subset=columnas_limpieza, inplace=True)
         
         filas_despues_limpieza = len(datos)
 
@@ -78,8 +84,13 @@ def generar_reporte_agregado(df, agrupar_por, valores, funcion_agregacion, orden
     agg_func = mapa_funciones.get(funcion_agregacion, 'sum')
     
     try:
+        indices = [agrupar_por]
+        # Si agrupamos por Descripcion, añadimos el Precio de Venta como columna visible
+        if agrupar_por == 'Descripcion' and valores != 'Precio de Venta' and 'Precio de Venta' in df.columns:
+            indices.append('Precio de Venta')
+
         tabla_dinamica = df.pivot_table(
-            index=agrupar_por,
+            index=indices,
             values=valores,
             aggfunc=agg_func
         ).reset_index()
@@ -154,7 +165,7 @@ class AnalizadorVentasApp(tk.Tk):
         reporte_frame.pack(fill=tk.X, pady=5)
         
         opciones_agrupar = ['Descripcion', 'Cliente', 'ArchivoOrigen', 'MedioPago', 'Estado']
-        opciones_valores = ['Ganancia', 'TotalVenta', 'Cantidad', 'PrecioUnitario']
+        opciones_valores = ['Ganancia', 'TotalVenta', 'Cantidad', 'Precio de Venta', 'CostoUnitario']
         opciones_funcion = ['Suma', 'Promedio', 'Conteo', 'Máximo', 'Mínimo']
 
         ttk.Label(reporte_frame, text="Agrupar por:").grid(row=0, column=0, padx=5, pady=5, sticky="w")
