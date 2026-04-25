@@ -53,6 +53,7 @@
     Forro Antichoque Samsung A04E Caballero 5
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
+    Forro Antichoque Samsung A15 Dama 3
     Forro Antichoque Samsung A16 Dama 2
     Forro Antichoque Samsung A17 Dama 2
     Forro Antichoque Samsung A26 Dama 2
@@ -191,6 +192,7 @@
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
+    Silicone Case Huawei Y9 2019 / Y8S Rojo 1
     Silicone Case Huawei Y9 Prime Negro 1
     Silicone Case Huawei Y9A Amarillo 1
     Silicone Case Infinix Hot 30 Play Amarillo 1
@@ -299,8 +301,10 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 13C Fucsia 1
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
+    Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1

@@ -2281,6 +2281,31 @@ Sin Forro ni simcard</textarea
         gradient.addColorStop(0, "rgba(59, 130, 246, 0.4)");
         gradient.addColorStop(1, "rgba(59, 130, 246, 0.0)");
 
+        // Calcular máximos y mínimos para destacar en el gráfico
+        const maxVal = dataPoints.length > 0 ? Math.max(...dataPoints) : 0;
+        const minVal = dataPoints.length > 0 ? Math.min(...dataPoints) : 0;
+        const isFlat = maxVal === minVal; // Si todos los días tienen el mismo saldo
+
+        const pointBgColors = dataPoints.map((val) => {
+          if (!isFlat && val === maxVal) return "#10b981"; // Verde (Mayor)
+          if (!isFlat && val === minVal) return "#ef4444"; // Rojo (Menor)
+          return "#ffffff"; // Blanco (Normal)
+        });
+
+        const pointBorderColors = dataPoints.map((val) => {
+          if (!isFlat && val === maxVal) return "#059669"; // Borde Verde oscuro
+          if (!isFlat && val === minVal) return "#dc2626"; // Borde Rojo oscuro
+          return "#3b82f6"; // Borde Azul (Normal)
+        });
+
+        // Hacer que los puntos destacados sean más grandes
+        const pointRadii = dataPoints.map((val) =>
+          !isFlat && (val === maxVal || val === minVal) ? 6 : 3,
+        );
+        const pointHoverRadii = dataPoints.map((val) =>
+          !isFlat && (val === maxVal || val === minVal) ? 8 : 6,
+        );
+
         liquidityChartInstance = new Chart(ctx, {
           type: "line",
           data: {
@@ -2292,11 +2317,11 @@ Sin Forro ni simcard</textarea
                 borderColor: "#3b82f6",
                 backgroundColor: gradient,
                 borderWidth: 3,
-                pointBackgroundColor: "#ffffff",
-                pointBorderColor: "#3b82f6",
+                pointBackgroundColor: pointBgColors,
+                pointBorderColor: pointBorderColors,
                 pointBorderWidth: 2,
-                pointRadius: 3,
-                pointHoverRadius: 6,
+                pointRadius: pointRadii,
+                pointHoverRadius: pointHoverRadii,
                 fill: true,
                 tension: 0.4, // Curva suave
               },
