@@ -58,6 +58,7 @@
     Forro Antichoque Samsung A17 Dama 2 ok
     Forro Antichoque Samsung A26 Dama 2 ok
     Forro Antichoque Samsung A31 Dama 2
+    Forro Antichoque Pin Samsung A17 1 ok
     Forro Antichoque Samsung A32 4G Caballero 3 ok
     Forro Antichoque Tecno Spark 10 / 10C Dama 3
     Forro Antichoque Vivo V25E Caballero 3
@@ -108,12 +109,13 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cable Con Puntas 5
     Forro Cargador Cable  + Puntas 1
-    Forro Lujo Apple Iphone 16 Pro Max Azul 1
+    Forro Lujo Apple Iphone 16 Pro Max Azul 1 ok
+    Forro Lujo Apple IPhone 17 Naranja 1 ok
     Forro Lujo Humo Samsung A16 Negro 1
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Manguera Samsung A17 Negro 1
     Forro Lujo Samsung A06 Morado 1
-    Forro Lujo Samsung A17 Rosa 1
+    Forro Lujo Samsung A17 Transparente 1 ok
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
@@ -167,6 +169,7 @@
     Pilas Recargables Sony Aa X4 Con Cargador 2
     Power Bank Oczu Solar Opb-011 10000 Mah Cables 1
     Pulso Banda M5 Negro 3
+    Tarjetero Magsafe Apple 3 ok
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
