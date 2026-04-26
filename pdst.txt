@@ -1,4 +1,4 @@
-    Pacha Infinix Smart 10 2
-    Pacha Samsung A52 C/M 1
-    Pacha Samsung A54 1
-    Pacha Vivo Y35 2
+    Pacha Infinix Smart 10 1 ok
+    Pacha Samsung A52 C/M 1 ok
+    Pacha Samsung A34 / A54 1 ok
+    Pacha Vivo Y35 2 ok
