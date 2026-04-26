@@ -12290,3 +12290,46 @@ L261: Silicone Case Samsung A56 Azuloscuro 1 ok
 L270: Silicone Case Tecno Camon 30 Pro Fucsia 1 ok
 L280: Silicone Case Tecno Camon 40 Vinotinto 1 ok
 L312: Silicone Case Xiaomi Redmi A5 / Poco C71 Azulrey 1 ok
+
+============================================================
+Fecha: 2026-04-25 20:16:06
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L3: Pacha Lg K42 1 ok
+L4: Pacha Samsung A15 2 ok
+L6: Pacha Xiaomi Redmi 10C 2 ok
+L7: Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok
+
+============================================================
+Fecha: 2026-04-25 20:16:06
+Archivo: pdcentro.txt
+Eliminados: 27
+--- DETALLE ---
+L13: Balaca Naisu S-437 Negro 2 ok
+L14: Cable Apple Tc Ligthning 5 ok
+L15: Cable Yoyos V8 3M 3 ok
+L16: Cargador Bahia 3 ok
+L24: Cargador Xiaomi 120W 2 ok
+L34: Forro Antichoque Infinix Hot 60 / Hot 60I Dama 2 ok
+L42: Forro Antichoque Oppo A57 / A77 Caballero 3 ok
+L56: Forro Antichoque Samsung A15 Dama 3 ok
+L57: Forro Antichoque Samsung A16 Dama 3 ok
+L58: Forro Antichoque Samsung A17 Dama 2 ok
+L59: Forro Antichoque Samsung A26 Dama 2 ok
+L61: Forro Antichoque Pin Samsung A17 1 ok
+L62: Forro Antichoque Samsung A32 4G Caballero 3 ok
+L75: Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok
+L90: Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 1 ok
+L94: Forro Armadura Xiaomi Redmi 13C Azuloscuro 1 ok
+L95: Forro Armadura Xiaomi Redmi 14C Negro 1 ok
+L112: Forro Lujo Apple Iphone 16 Pro Max Azul 1 ok
+L113: Forro Lujo Apple IPhone 17 Naranja 1 ok
+L118: Forro Lujo Samsung A17 Transparente 1 ok
+L172: Tarjetero Magsafe Apple 3 ok
+L176: Silicone Case Apple Iphone 13 Pro Negro 1 ok
+L180: Silicone Case Huawei Honor 400 Lite Rojo 1 ok
+L183: Silicone Case Huawei Honor Magic 8 Lite Negro 1 ok
+L184: Silicone Case Huawei Honor X5C Negro 1 ok
+L186: Silicone Case Huawei Honor X7A Fucsia 1 ok
+L350: Vidrio Antiespia Apple Iphone 13 / 16E 5 ok

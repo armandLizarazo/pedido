@@ -1,5 +1,145 @@
 [
     {
+        "fecha": "2026-04-25 20:16:06",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 13,
+                "contenido": "Balaca Naisu S-437 Negro 2 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Cable Apple Tc Ligthning 5 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Cable Yoyos V8 3M 3 ok"
+            },
+            {
+                "linea": 16,
+                "contenido": "Cargador Bahia 3 ok"
+            },
+            {
+                "linea": 24,
+                "contenido": "Cargador Xiaomi 120W 2 ok"
+            },
+            {
+                "linea": 34,
+                "contenido": "Forro Antichoque Infinix Hot 60 / Hot 60I Dama 2 ok"
+            },
+            {
+                "linea": 42,
+                "contenido": "Forro Antichoque Oppo A57 / A77 Caballero 3 ok"
+            },
+            {
+                "linea": 56,
+                "contenido": "Forro Antichoque Samsung A15 Dama 3 ok"
+            },
+            {
+                "linea": 57,
+                "contenido": "Forro Antichoque Samsung A16 Dama 3 ok"
+            },
+            {
+                "linea": 58,
+                "contenido": "Forro Antichoque Samsung A17 Dama 2 ok"
+            },
+            {
+                "linea": 59,
+                "contenido": "Forro Antichoque Samsung A26 Dama 2 ok"
+            },
+            {
+                "linea": 61,
+                "contenido": "Forro Antichoque Pin Samsung A17 1 ok"
+            },
+            {
+                "linea": 62,
+                "contenido": "Forro Antichoque Samsung A32 4G Caballero 3 ok"
+            },
+            {
+                "linea": 75,
+                "contenido": "Forro Armadura Motorola Moto G20 / G30 Rojo 1 ok"
+            },
+            {
+                "linea": 90,
+                "contenido": "Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 1 ok"
+            },
+            {
+                "linea": 94,
+                "contenido": "Forro Armadura Xiaomi Redmi 13C Azuloscuro 1 ok"
+            },
+            {
+                "linea": 95,
+                "contenido": "Forro Armadura Xiaomi Redmi 14C Negro 1 ok"
+            },
+            {
+                "linea": 112,
+                "contenido": "Forro Lujo Apple Iphone 16 Pro Max Azul 1 ok"
+            },
+            {
+                "linea": 113,
+                "contenido": "Forro Lujo Apple IPhone 17 Naranja 1 ok"
+            },
+            {
+                "linea": 118,
+                "contenido": "Forro Lujo Samsung A17 Transparente 1 ok"
+            },
+            {
+                "linea": 172,
+                "contenido": "Tarjetero Magsafe Apple 3 ok"
+            },
+            {
+                "linea": 176,
+                "contenido": "Silicone Case Apple Iphone 13 Pro Negro 1 ok"
+            },
+            {
+                "linea": 180,
+                "contenido": "Silicone Case Huawei Honor 400 Lite Rojo 1 ok"
+            },
+            {
+                "linea": 183,
+                "contenido": "Silicone Case Huawei Honor Magic 8 Lite Negro 1 ok"
+            },
+            {
+                "linea": 184,
+                "contenido": "Silicone Case Huawei Honor X5C Negro 1 ok"
+            },
+            {
+                "linea": 186,
+                "contenido": "Silicone Case Huawei Honor X7A Fucsia 1 ok"
+            },
+            {
+                "linea": 350,
+                "contenido": "Vidrio Antiespia Apple Iphone 13 / 16E 5 ok"
+            }
+        ],
+        "total_conservados": 343
+    },
+    {
+        "fecha": "2026-04-25 20:16:06",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 3,
+                "contenido": "Pacha Lg K42 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Samsung A15 2 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Xiaomi Redmi 10C 2 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Pacha Xiaomi Redmi Note 11 / Note 12S 2 ok"
+            }
+        ],
+        "total_conservados": 4
+    },
+    {
         "fecha": "2026-04-21 13:22:45",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
