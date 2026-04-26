@@ -211,7 +211,7 @@
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A5 Negro 1
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
-    Silicone Case Oppo A58 4G / A78 5G Fucsia 1
+    Silicone Case Oppo A58 4G / A78 5G Fucsia 1 ok
     Silicone Case Oppo A58 4G / A78 5G Morado 1
     Silicone Case Oppo A58 4G / A78 5G Negro 1
     Silicone Case Oppo A58 4G / A78 5G Rojo 1
@@ -277,13 +277,13 @@
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y22S / Y35 Fucsia 1
     Silicone Case Vivo Y27 Negro 1
-    Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1
+    Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1 ok
     Silicone Case Vivo Y31 / Y51 / Y53S Morado 1
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 13C Fucsia 1
+    Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
     Silicone Case Xiaomi Redmi Note 11 Verde 1
@@ -303,7 +303,7 @@
     Silicone Case Xiaomi Redmi Note 7 Azulrey 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 8 Pro Negro 1
-    Silicone Case Xiaomi Redmi Note 9 Fucsia 1
+    Silicone Case Xiaomi Redmi Note 9 Fucsia 1 ok
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
