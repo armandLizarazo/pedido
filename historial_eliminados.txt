@@ -12333,3 +12333,26 @@ L183: Silicone Case Huawei Honor Magic 8 Lite Negro 1 ok
 L184: Silicone Case Huawei Honor X5C Negro 1 ok
 L186: Silicone Case Huawei Honor X7A Fucsia 1 ok
 L350: Vidrio Antiespia Apple Iphone 13 / 16E 5 ok
+
+============================================================
+Fecha: 2026-04-26 13:47:40
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L1: Pacha Infinix Smart 10 1 ok
+L2: Pacha Samsung A52 C/M 1 ok
+L3: Pacha Samsung A34 / A54 1 ok
+L4: Pacha Vivo Y35 2 ok
+
+============================================================
+Fecha: 2026-04-26 13:47:40
+Archivo: pdcentro.txt
+Eliminados: 7
+--- DETALLE ---
+L13: Cable Harvic Usb Ligthning 5 ok
+L14: Cable Harvic Usb Ligthning 2M 3 ok
+L214: Silicone Case Oppo A58 4G / A78 5G Fucsia 1 ok
+L280: Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1 ok
+L286: Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
+L306: Silicone Case Xiaomi Redmi Note 9 Fucsia 1 ok
+L312: Smartphone Xiaomi Redmi 15C 864299088672509 256/8 1 ok

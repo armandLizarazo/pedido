@@ -1178,6 +1178,27 @@ Sin Forro ni simcard</textarea
               >
                 $0
               </div>
+
+              <!-- NUEVO: Widget de Conversión de Divisas -->
+              <div
+                class="mt-3 flex items-center justify-center gap-2 bg-slate-800 rounded-lg p-2 border border-slate-700 w-full max-w-[200px]"
+              >
+                <select
+                  id="currency-select"
+                  onchange="updateCurrencyConversion()"
+                  class="bg-slate-700 text-xs font-bold text-slate-300 outline-none rounded p-1 cursor-pointer focus:ring-1 focus:ring-blue-500"
+                >
+                  <option value="USD">USD</option>
+                  <option value="EUR">EUR</option>
+                  <option value="GBP">GBP</option>
+                  <option value="JPY">JPY</option>
+                  <option value="CHF">CHF</option>
+                  <option value="CNY">CNY</option>
+                </select>
+                <div id="currency-result" class="text-sm font-bold text-white">
+                  ---
+                </div>
+              </div>
             </div>
             <div
               class="bg-white p-6 rounded-xl shadow-sm border border-slate-200 flex flex-col justify-center items-center text-center"
@@ -1974,8 +1995,10 @@ Sin Forro ni simcard</textarea
         for (let acc in latestBalances) totalLiquidity += latestBalances[acc];
 
         const liquidityEl = document.getElementById("rep-liquidity");
-        if (liquidityEl)
+        if (liquidityEl) {
           liquidityEl.textContent = "$" + totalLiquidity.toLocaleString();
+          updateCurrencyConversion(totalLiquidity); // Actualiza la divisa al cargar
+        }
 
         const dailyGlobalBalances = {};
         let runningBalances = {
@@ -2149,6 +2172,68 @@ Sin Forro ni simcard</textarea
 
         // Renderizar el gráfico con un ligero retraso para asegurar que el DOM esté visible
         setTimeout(renderChart, 50);
+      }
+
+      // --- LÓGICA DE DIVISAS (NUEVO WIDGET) ---
+      let exchangeRates = {
+        USD: 0.00025, // Valores fallback offline aprox COP -> Divisa
+        EUR: 0.00023,
+        GBP: 0.0002,
+        JPY: 0.038,
+        CHF: 0.00022,
+        CNY: 0.0018,
+      };
+
+      async function fetchExchangeRates() {
+        try {
+          // API gratuita sin Key (basada en el peso colombiano COP)
+          const res = await fetch("https://open.er-api.com/v6/latest/COP");
+          const data = await res.json();
+          if (data && data.rates) {
+            exchangeRates.USD = data.rates.USD;
+            exchangeRates.EUR = data.rates.EUR;
+            exchangeRates.GBP = data.rates.GBP;
+            exchangeRates.JPY = data.rates.JPY;
+            exchangeRates.CHF = data.rates.CHF;
+            exchangeRates.CNY = data.rates.CNY;
+          }
+        } catch (e) {
+          console.log(
+            "Aviso: No se pudieron cargar tasas en vivo. Usando valores offline.",
+          );
+        }
+      }
+
+      function updateCurrencyConversion(amount = null) {
+        const currency = document.getElementById("currency-select").value;
+        let totalLiquidity = amount;
+
+        if (totalLiquidity === null) {
+          // Si no se pasa el monto, lo extraemos del texto actual en pantalla
+          const liquidityStr = document
+            .getElementById("rep-liquidity")
+            .textContent.replace(/[^0-9.-]+/g, "");
+          totalLiquidity = parseFloat(liquidityStr) || 0;
+        }
+
+        const rate = exchangeRates[currency] || 0;
+        const converted = totalLiquidity * rate;
+
+        const symbols = {
+          USD: "$",
+          EUR: "€",
+          GBP: "£",
+          JPY: "¥",
+          CHF: "Fr",
+          CNY: "CN¥",
+        };
+        document.getElementById("currency-result").textContent =
+          symbols[currency] +
+          " " +
+          converted.toLocaleString("en-US", {
+            minimumFractionDigits: 2,
+            maximumFractionDigits: 2,
+          });
       }
 
       // --- LÓGICA DEL GRÁFICO DE LIQUIDEZ ---
@@ -2905,6 +2990,9 @@ Sin Forro ni simcard</textarea
             if (e.key === "Enter") verifyAuth();
           });
         }
+
+        // Iniciar carga de tasas de cambio en segundo plano al abrir la app
+        fetchExchangeRates();
 
         updateSuggestions();
         updateStorageUsage();

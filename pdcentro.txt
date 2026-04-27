@@ -10,8 +10,6 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
-    Cable Harvic Usb Ligthning 5 ok
-    Cable Harvic Usb Ligthning 2M 3 ok
     Cable Belkin Usb Ligthning 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
@@ -157,6 +155,7 @@
     Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
@@ -184,6 +183,7 @@
     Silicone Case Infinix Hot 30 Play Rojo 1
     Silicone Case Infinix Hot 50 5G Amarillo 1
     Silicone Case Infinix Hot 50 5G Azulrey 1
+    Silicone Case Infinix Hot 50 Pro Plus Negro 1
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
@@ -209,9 +209,9 @@
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
     Silicone Case Oppo A17 Negro 1
+    Silicone Case Oppo A20 / A40 / A60 Lila 1
     Silicone Case Oppo A5 Negro 1
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
-    Silicone Case Oppo A58 4G / A78 5G Fucsia 1 ok
     Silicone Case Oppo A58 4G / A78 5G Morado 1
     Silicone Case Oppo A58 4G / A78 5G Negro 1
     Silicone Case Oppo A58 4G / A78 5G Rojo 1
@@ -277,18 +277,19 @@
     Silicone Case Vivo Y19S Lila 1
     Silicone Case Vivo Y22S / Y35 Fucsia 1
     Silicone Case Vivo Y27 Negro 1
-    Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1 ok
     Silicone Case Vivo Y31 / Y51 / Y53S Morado 1
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
+    Silicone Case Xiaomi Redmi 15C Fucsia 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10S Negro 1
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
     Silicone Case Xiaomi Redmi Note 11 Verde 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Rojo 1
+    Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Negro 1
     Silicone Case Xiaomi Redmi Note 13 Pro 4G / Note 14S Rojo 1
     Silicone Case Xiaomi Redmi Note 13 Pro 5G / Poco X6 Rojo 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
@@ -303,13 +304,11 @@
     Silicone Case Xiaomi Redmi Note 7 Azulrey 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
     Silicone Case Xiaomi Redmi Note 8 Pro Negro 1
-    Silicone Case Xiaomi Redmi Note 9 Fucsia 1 ok
     Silicone Case Zte Blade A34 Lila 1
     Silicone Case Zte Blade A54 Azul 1
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Xiaomi Redmi 15C 864299088672509 256/8 1 ok
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5

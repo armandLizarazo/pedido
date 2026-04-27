@@ -1,5 +1,65 @@
 [
     {
+        "fecha": "2026-04-26 13:47:40",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 13,
+                "contenido": "Cable Harvic Usb Ligthning 5 ok"
+            },
+            {
+                "linea": 14,
+                "contenido": "Cable Harvic Usb Ligthning 2M 3 ok"
+            },
+            {
+                "linea": 214,
+                "contenido": "Silicone Case Oppo A58 4G / A78 5G Fucsia 1 ok"
+            },
+            {
+                "linea": 280,
+                "contenido": "Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1 ok"
+            },
+            {
+                "linea": 286,
+                "contenido": "Silicone Case Xiaomi Redmi 13C Fucsia 1 ok"
+            },
+            {
+                "linea": 306,
+                "contenido": "Silicone Case Xiaomi Redmi Note 9 Fucsia 1 ok"
+            },
+            {
+                "linea": 312,
+                "contenido": "Smartphone Xiaomi Redmi 15C 864299088672509 256/8 1 ok"
+            }
+        ],
+        "total_conservados": 341
+    },
+    {
+        "fecha": "2026-04-26 13:47:40",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Infinix Smart 10 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Samsung A52 C/M 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Samsung A34 / A54 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Vivo Y35 2 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-04-25 20:16:06",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

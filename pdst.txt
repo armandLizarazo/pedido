@@ -1,4 +1,2 @@
-    Pacha Infinix Smart 10 1 ok
-    Pacha Samsung A52 C/M 1 ok
-    Pacha Samsung A34 / A54 1 ok
-    Pacha Vivo Y35 2 ok
+    Pacha Oppo A17 / A38 / A57 / A77 1
+    Pacha Xiaomi Redmi Note 11 / Note 12S 1

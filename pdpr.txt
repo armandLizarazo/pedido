@@ -19,6 +19,7 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi 1.5M 5
     Cable Hdmi Premium 8K 1.5M 2
+    Cable Impresora 3M 2
     Cable Microsoft Xbox 360 3
     Cable Rca 3 A 3 1.5M 2
     Cable Usb A Punta Negra 3
@@ -46,7 +47,9 @@
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
+    Holder Chupa Parabrisas 2
     Humidificador Madera 1
+    Lampara Esfera Giratoria 2
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Crosover Crosover Club 3
@@ -66,6 +69,7 @@
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
     Reproductor Onn Hd 3
+    Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Secador Remington 2003 1
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
