@@ -1,3 +1,5 @@
-    Pacha Oppo A17 / A38 / A57 / A77 1 ok
-    Pacha Oppo A20 / A40 / A60 2 ok
-    Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+    Pacha Huawei Honor X7C / Honor 200 Smart 1
+    Pacha Tecno Camon 20 / Camon 20 Pro 1
+    Pacha Tecno Spark 20 Pro Plus / Camon 40 Pro / Note 40 Pro / Note 50S / Camon 30S / 30S Pro 1
+    Pacha Xiaomi Redmi 10C 1
+    Pacha Xiaomi Redmi Note 10 / Note 10S 3

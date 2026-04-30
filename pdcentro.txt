@@ -10,6 +10,7 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
@@ -54,6 +55,7 @@
     Forro Antichoque Vivo Y38 Caballero 3
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
+    Forro Antichoque Xiaomi Redmi 14C Dama 3
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
@@ -155,6 +157,8 @@
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
+    Silicone Case Apple Iphone 15 Pro Max Azul 1
+    Silicone Case Apple Iphone 15 Pro Max Azulrey 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
@@ -175,6 +179,7 @@
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Huawei Y7A Negro 1
     Silicone Case Huawei Y7A Rojo 1
+    Silicone Case Huawei Y7A Verdemilitar 1
     Silicone Case Huawei Y9 2019 / Y8S Rojo 1
     Silicone Case Huawei Y9 Prime Negro 1
     Silicone Case Huawei Y9A Amarillo 1
@@ -243,6 +248,7 @@
     Silicone Case Samsung S21 Ultra Negro 1
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Samsung S23 Morado 1
+    Silicone Case Tecno Camon 20 / 20 Pro Rojo 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
@@ -267,7 +273,9 @@
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
     Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Lila 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 2
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rosa 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1

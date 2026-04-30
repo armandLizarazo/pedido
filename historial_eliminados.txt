@@ -12356,3 +12356,25 @@ L280: Silicone Case Vivo Y31 / Y51 / Y53S Fucsia 1 ok
 L286: Silicone Case Xiaomi Redmi 13C Fucsia 1 ok
 L306: Silicone Case Xiaomi Redmi Note 9 Fucsia 1 ok
 L312: Smartphone Xiaomi Redmi 15C 864299088672509 256/8 1 ok
+
+============================================================
+Fecha: 2026-04-29 07:39:56
+Archivo: pdst.txt
+Eliminados: 3
+--- DETALLE ---
+L1: Pacha Oppo A17 / A38 / A57 / A77 1 ok
+L2: Pacha Oppo A20 / A40 / A60 2 ok
+L3: Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok
+
+============================================================
+Fecha: 2026-04-29 07:39:56
+Archivo: pdpr.txt
+Eliminados: 7
+--- DETALLE ---
+L14: Power Bank Beston Bs-671 10000 Mah 2 ok
+L21: Cable Hdmi 1.5M Eco 5 ok
+L23: Cable Impresora 3M 2 ok
+L27: Cable V3 1.5M 5 ok
+L33: Capturador Hdmi Tc-Usb 1 ok
+L34: Cargador Cabeza Cubo Eco 2 ok
+L43: Control Gamer Sony Ps2 2 ok

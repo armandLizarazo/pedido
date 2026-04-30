@@ -1,5 +1,61 @@
 [
     {
+        "fecha": "2026-04-29 07:39:56",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 14,
+                "contenido": "Power Bank Beston Bs-671 10000 Mah 2 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Cable Hdmi 1.5M Eco 5 ok"
+            },
+            {
+                "linea": 23,
+                "contenido": "Cable Impresora 3M 2 ok"
+            },
+            {
+                "linea": 27,
+                "contenido": "Cable V3 1.5M 5 ok"
+            },
+            {
+                "linea": 33,
+                "contenido": "Capturador Hdmi Tc-Usb 1 ok"
+            },
+            {
+                "linea": 34,
+                "contenido": "Cargador Cabeza Cubo Eco 2 ok"
+            },
+            {
+                "linea": 43,
+                "contenido": "Control Gamer Sony Ps2 2 ok"
+            }
+        ],
+        "total_conservados": 80
+    },
+    {
+        "fecha": "2026-04-29 07:39:56",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Oppo A17 / A38 / A57 / A77 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Oppo A20 / A40 / A60 2 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Xiaomi Redmi Note 11 / Note 12S 1 ok"
+            }
+        ],
+        "total_conservados": 0
+    },
+    {
         "fecha": "2026-04-26 13:47:40",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

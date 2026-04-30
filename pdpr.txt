@@ -11,27 +11,22 @@
     Audifonos Bluetooth I12 Blanco 2
     Audifonos Bluetooth I12 Gris 2
     Balaca Callcenter Eco 2
-    Power Bank Beston Bs-671 10000 Mah 2 ok
     Barbera Cable 2
+    Base Refrigerante 2 Ventiladores 1
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 2 A 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
-    Cable Hdmi 1.5M Eco 5 ok
     Cable Hdmi Premium 8K 1.5M 2
-    Cable Impresora 3M 2 ok
     Cable Microsoft Xbox 360 3
     Cable Rca 3 A 3 1.5M 2
     Cable Usb A Punta Negra 3
-    Cable V3 1.5M 5 ok
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
-    Capturador Hdmi Tc-Usb 1 ok
-    Cargador Cabeza Cubo Eco 2 ok
     Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
@@ -40,9 +35,8 @@
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Sony Ps2 2 ok
     Control Gamer Sony Ps4 Fifa 1
-    Control Gamer X3S 2
+    Control Gamer X3S 3
     Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
@@ -64,7 +58,6 @@
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Patillera 3 En 1 3
-    Patillera 3 En 1 Vintage 2
     Pilas Carbon Maxday Aaa X2 30
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
