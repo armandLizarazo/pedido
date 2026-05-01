@@ -12,6 +12,7 @@
     Audifonos Bluetooth Y6 Negro 1
     Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
+    Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
@@ -19,6 +20,7 @@
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Smart Band M5 2
     Cargador We Tc 33W 3
+    Cargador Xiaomi 120W 1
     Forro Antichoque Agua Tecno Spark Go 2025 / Go 1 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 3
@@ -79,6 +81,7 @@
     Forro Armadura Vivo Y39 Negro 1
     Forro Armadura Vivo Y39 Rojo 1
     Forro Armadura Xiaomi Mi 11T / M 11T Pro Negro 1
+    Forro Armadura Xiaomi Redmi A5 / Poco C71 Verde 1
     Forro Armadura Xiaomi Redmi Note 10 / Note 10S Negro 1
     Forro Armadura Xiaomi Redmi Note 10 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 10 Pro Negro 1
@@ -205,7 +208,9 @@
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
+    Silicone Case Motorola Moto G20 / G30 Morado 1
     Silicone Case Motorola Moto G20 / G30 Rojo 1
+    Silicone Case Motorola Moto G24 / G04 Negro 1
     Silicone Case Motorola Moto G32 Negro 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G72 Amarillo 1
@@ -293,7 +298,9 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 13 Azulrey 1
     Silicone Case Xiaomi Redmi 15C Fucsia 1
+    Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Negro 1
     Silicone Case Xiaomi Redmi Note 11 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 11 Negro 1
