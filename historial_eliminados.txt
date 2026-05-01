@@ -12378,3 +12378,20 @@ L27: Cable V3 1.5M 5 ok
 L33: Capturador Hdmi Tc-Usb 1 ok
 L34: Cargador Cabeza Cubo Eco 2 ok
 L43: Control Gamer Sony Ps2 2 ok
+
+============================================================
+Fecha: 2026-05-01 09:07:05
+Archivo: pdpr.txt
+Eliminados: 1
+--- DETALLE ---
+L39: Control Gamer X3S 3 ok
+
+============================================================
+Fecha: 2026-05-01 09:07:05
+Archivo: pdst.txt
+Eliminados: 4
+--- DETALLE ---
+L5: Pacha Huawei Honor X7C / Honor 200 Smart 1 ok
+L6: Pacha Tecno Camon 20 / Camon 20 Pro 1 ok
+L8: Pacha Xiaomi Redmi 10C 1 ok
+L9: Pacha Xiaomi Redmi Note 10 / Note 10S 3 ok

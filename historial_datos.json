@@ -1,5 +1,41 @@
 [
     {
+        "fecha": "2026-05-01 09:07:05",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 5,
+                "contenido": "Pacha Huawei Honor X7C / Honor 200 Smart 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Tecno Camon 20 / Camon 20 Pro 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Xiaomi Redmi 10C 1 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Xiaomi Redmi Note 10 / Note 10S 3 ok"
+            }
+        ],
+        "total_conservados": 5
+    },
+    {
+        "fecha": "2026-05-01 09:07:05",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 39,
+                "contenido": "Control Gamer X3S 3 ok"
+            }
+        ],
+        "total_conservados": 81
+    },
+    {
         "fecha": "2026-04-29 07:39:56",
         "archivo": "pdpr.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
