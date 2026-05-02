@@ -3,9 +3,9 @@
     Adaptador Otg Tc 5
     Adaptador Otg Tc Cable 5
     Audifonos Bluetooth Conduccion Osea Ch-205 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Morado 2
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Naranja 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Verde 1 ok
+    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
     Audifonos Bluetooth Pro 5S Blanco 1
     Audifonos Bluetooth Pro 60 5
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -26,7 +26,7 @@
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Smart Band M5 2
     Cargador We Tc 33W 3
-    Cargador Xiaomi 120W 1
+    Cargador Xiaomi 120W 1 ok
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 2 ok
     Forro Lujo Huawei Honor 400 Smart / X7D Azuloscuro 1 ok
@@ -54,7 +54,7 @@
     Forro Antichoque Oppo Reno 14 Caballero 5
     Forro Antichoque Pin Xiaomi Redmi 14C 2
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Samsung A06 Caballero 3
+    Forro Antichoque Samsung A06 Caballero 1 ok
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A31 Dama 2
@@ -62,7 +62,7 @@
     Forro Antichoque Tecno Spark 30 5G Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Dama 5
-    Forro Antichoque Vivo Y38 Caballero 3
+    Forro Antichoque Vivo Y38 Caballero 3 ok
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 14C Dama 3
