@@ -7,8 +7,8 @@
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth I12 Azuloscuro 2
-    Audifonos Bluetooth I12 Blanco 2
+    Audifonos Bluetooth I12 Azuloscuro 2 ok
+    Audifonos Bluetooth I12 Blanco 2 ok
     Audifonos Bluetooth I12 Gris 2
     Audifonos Bluetooth Pro 5S Blanco 2 ok
     Balaca Callcenter Eco 2
