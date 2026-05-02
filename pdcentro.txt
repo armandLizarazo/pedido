@@ -16,7 +16,10 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
     Cable Xiaomi Original Usb Tc 2
+    Cable Apple Usb Ligthning 3 ok
     Cargador Fuente 360 Slim 1
+    Forro Armadura Huawei Y9 Prime Negro 1 ok
+    Silicone Case Vivo Y19S Rojo 1 ok
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
@@ -25,7 +28,8 @@
     Cargador We Tc 33W 3
     Cargador Xiaomi 120W 1
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 3
+    Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 2 ok
+    Forro Lujo Huawei Honor 400 Smart / X7D Azuloscuro 1 ok
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Y9 Prime Caballero 3
     Forro Antichoque Huawei Y9 Prime Dama 4
@@ -145,8 +149,13 @@
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Guantes Gamer 5
+    Forro Lujo Samsung A37 / A57 Negro 1 ok
+    Forro Lujo Samsung A37 / A57 Azuloscuro 1 ok
+    Forro Lujo Samsung A37 / A57 Morado 1 ok
     Intercomunicador Harvic Mcm-591 1
-    Manos Libres Batri B10 Negro 2
+    Manos Libres Batri B10 Negro 1 ok
+    Manos Libres Batri B10 Blanco 1 ok
+    Manos Libres Batri B10 Rosa 1 ok
     Manos Libres Knz Tc 2
     Manos Libres Samsung J5 Blanco 10
     Manos Libres Tc En L Yoyos Blanco 2
