@@ -4,15 +4,12 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
+    Adaptador Union Hdmi 3
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth Conductor 1092 1
     Audifonos Bluetooth I12 Azulclaro 2
-    Audifonos Bluetooth I12 Azuloscuro 2 ok
-    Audifonos Bluetooth I12 Blanco 2 ok
     Audifonos Bluetooth I12 Gris 2
-    Audifonos Bluetooth Pro 5S Blanco 2 ok
     Balaca Callcenter Eco 2
-    Barbera Cable 1 ok
     Base Refrigerante 2 Ventiladores 1
     Cable Auxiliar 1 A 1 3M 2
     Cable Auxiliar 2 A 1 5M 3
@@ -21,6 +18,7 @@
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi Premium 8K 1.5M 2
     Cable Microsoft Xbox 360 3
+    Cable Poder Mini 3
     Cable Rca 3 A 3 1.5M 2
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
@@ -37,16 +35,14 @@
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Fifa 1
+    Control Proyector Hy-300 2
     Control Tv Universal 5
     Dock Charging Ps4 1
     Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
     Extension 4M 1
-    Extensión 6M 2 ok
     Forro Pc 16 Pulgadas 2
-    Holder Chupa Parabrisas 1 ok
     Humidificador Madera 1
-    Lampara Esfera Giratoria 2 ok
     Lonchera Carro 1
     Maleta Computador 2
     Memoria Musica Crosover Crosover Club 3
@@ -59,10 +55,8 @@
     Parlante Ktf-1645 2
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
-    Patillera 3 En 1 3 ok
     Pilas Carbon Gp 9V 5
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Aa X 4 Con Cargador 2 ok
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
@@ -72,12 +66,9 @@
     Secador Remington 2003 1
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
-    Soporte Holder Espejo 2 ok
-    Soporte Holder Abierto Espejo1 ok
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
-    Soporte Tv 50 Brazo 3 ok
     Soporte Tv Fijo 3
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1

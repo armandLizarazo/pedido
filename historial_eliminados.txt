@@ -12395,3 +12395,62 @@ L5: Pacha Huawei Honor X7C / Honor 200 Smart 1 ok
 L6: Pacha Tecno Camon 20 / Camon 20 Pro 1 ok
 L8: Pacha Xiaomi Redmi 10C 1 ok
 L9: Pacha Xiaomi Redmi Note 10 / Note 10S 3 ok
+
+============================================================
+Fecha: 2026-05-03 07:01:47
+Archivo: pdpr.txt
+Eliminados: 12
+--- DETALLE ---
+L10: Audifonos Bluetooth I12 Azuloscuro 2 ok
+L11: Audifonos Bluetooth I12 Blanco 2 ok
+L13: Audifonos Bluetooth Pro 5S Blanco 2 ok
+L15: Barbera Cable 1 ok
+L45: Extensión 6M 2 ok
+L47: Holder Chupa Parabrisas 1 ok
+L49: Lampara Esfera Giratoria 2 ok
+L62: Patillera 3 En 1 3 ok
+L65: Pilas Recargables Beston Aa X 4 Con Cargador 2 ok
+L75: Soporte Holder Espejo 2 ok
+L76: Soporte Holder Abierto Espejo 1 ok
+L80: Soporte Tv 50 Brazo 3 ok
+
+============================================================
+Fecha: 2026-05-03 07:01:47
+Archivo: pdst.txt
+Eliminados: 8
+--- DETALLE ---
+L1: Pacha Apple Iphone Xr Gx 1 ok
+L2: Pacha Huawei Y9 Prime Full 1 ok
+L3: Pacha Motorola Moto G04 / G24 / E14 1 ok
+L4: Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / Oneplus Nord Ce 3 Lite 5G 1 ok
+L5: Pacha Samsung A03 Core 1 ok
+L6: Pacha Samsung A15 1 ok
+L8: Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3 ok
+L9: Pacha Xiaomi Redmi 9 1 ok
+
+============================================================
+Fecha: 2026-05-03 07:01:47
+Archivo: pdcentro.txt
+Eliminados: 21
+--- DETALLE ---
+L6: Audifonos Bluetooth Harvic Bt-543 Ii Naranja 1 ok
+L7: Audifonos Bluetooth Harvic Bt-543 Ii Verde 1 ok
+L8: Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
+L19: Cable Apple Usb Ligthning 3 ok
+L21: Forro Armadura Huawei Y9 Prime Negro 1 ok
+L22: Silicone Case Vivo Y19S Rojo 1 ok
+L29: Cargador Xiaomi 120W 1 ok
+L31: Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 2 ok
+L32: Forro Lujo Huawei Honor 400 Smart / X7D Azuloscuro 1 ok
+L57: Forro Antichoque Samsung A06 Caballero 1 ok
+L65: Forro Antichoque Vivo Y38 Caballero 3 ok
+L115: Forro Lujo Apple Iphone 13 Pro Max Naranja 1 ok
+L153: Forro Lujo Samsung A37 / A57 Negro 1 ok
+L154: Forro Lujo Samsung A37 / A57 Azuloscuro 1 ok
+L155: Forro Lujo Samsung A37 / A57 Morado 1 ok
+L157: Manos Libres Batri B10 Negro 1 ok
+L158: Manos Libres Batri B10 Blanco 1 ok
+L159: Manos Libres Batri B10 Rosa 1 ok
+L308: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I verde 1 ok
+L309: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verdemilitar 1 ok
+L310: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok

@@ -1061,6 +1061,7 @@ Sin Forro ni simcard</textarea
                     <option value="Caja Menor">Caja Menor</option>
                     <option value="Caja Mayor">Caja Mayor</option>
                     <option value="Base">Base</option>
+                    <option value="Otro">Otro</option>
                   </select>
                 </div>
                 <div>
@@ -1431,7 +1432,7 @@ Sin Forro ni simcard</textarea
                   d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
                 />
               </svg>
-              Top 5: Mejores Días (Liquidez Global)
+              Top 10: Mejores Días (Liquidez Global)
             </div>
             <div class="overflow-x-auto">
               <table class="w-full text-sm text-left">
@@ -1446,7 +1447,7 @@ Sin Forro ni simcard</textarea
                     </th>
                   </tr>
                 </thead>
-                <tbody id="rep-top5-global">
+                <tbody id="rep-top10-global">
                   <!-- JS -->
                 </tbody>
               </table>
@@ -1661,6 +1662,7 @@ Sin Forro ni simcard</textarea
           "Caja Menor",
           "Caja Mayor",
           "Base",
+          "Otro",
         ];
         const latestBalances = {};
         accounts.forEach((a) => (latestBalances[a] = 0));
@@ -1978,6 +1980,7 @@ Sin Forro ni simcard</textarea
           "Caja Menor",
           "Caja Mayor",
           "Base",
+          "Otro",
         ];
 
         const latestBalances = {};
@@ -2009,6 +2012,7 @@ Sin Forro ni simcard</textarea
           "Caja Menor": 0,
           "Caja Mayor": 0,
           Base: 0,
+          Otro: 0,
         };
 
         const ascFinDB = [...finDB].sort(
@@ -2070,45 +2074,112 @@ Sin Forro ni simcard</textarea
             : "---";
         }
 
-        // NUEVO: Generar TOP 5 Días de Liquidez Global
-        const top5Array = Object.entries(dailyGlobalBalances)
-          .map(([date, total]) => ({ date, total }))
-          .sort((a, b) => b.total - a.total)
-          .slice(0, 5);
+        // NUEVO: Generar TOP 10 Días de Liquidez Global + Indicador Actual
+        const allRanks = Object.entries(dailyGlobalBalances).map(
+          ([date, total]) => ({ date, total, isCurrent: false }),
+        );
 
-        const top5Tbody = document.getElementById("rep-top5-global");
-        if (top5Tbody) {
-          top5Tbody.innerHTML = "";
-          if (top5Array.length === 0) {
-            top5Tbody.innerHTML = `<tr><td colspan="3" class="text-center py-4 text-slate-400">No hay registros suficientes.</td></tr>`;
+        // Insertar la liquidez EN VIVO para compararla
+        allRanks.push({
+          date: "ACTUAL (En vivo)",
+          total: totalLiquidity,
+          isCurrent: true,
+        });
+
+        // Ordenar de mayor a menor
+        allRanks.sort((a, b) => b.total - a.total);
+
+        // Encontrar en qué posición quedó el saldo actual
+        const currentRankIndex = allRanks.findIndex((item) => item.isCurrent);
+        const currentRank = currentRankIndex + 1;
+
+        const top10Array = allRanks.slice(0, 10);
+        const showCurrentAtBottom = currentRankIndex >= 10;
+
+        const top10Tbody = document.getElementById("rep-top10-global");
+        if (top10Tbody) {
+          top10Tbody.innerHTML = "";
+          if (top10Array.length === 0) {
+            top10Tbody.innerHTML = `<tr><td colspan="3" class="text-center py-4 text-slate-400">No hay registros suficientes.</td></tr>`;
           } else {
-            top5Array.forEach((item, index) => {
-              const dateFormatted = new Date(
-                item.date + "T12:00:00",
-              ).toLocaleDateString();
-              let badgeClass = "bg-slate-100 text-slate-600";
-              if (index === 0)
-                badgeClass =
-                  "bg-yellow-100 text-yellow-700 border border-yellow-300"; // Oro
-              else if (index === 1)
-                badgeClass =
-                  "bg-slate-200 text-slate-700 border border-slate-400"; // Plata
-              else if (index === 2)
-                badgeClass =
-                  "bg-orange-100 text-orange-800 border border-orange-300"; // Bronce
+            const renderRow = (item, rank) => {
+              let dateFormatted = item.isCurrent
+                ? item.date
+                : new Date(item.date + "T12:00:00").toLocaleDateString();
 
-              top5Tbody.innerHTML += `
-                            <tr class="border-b hover:bg-slate-50 transition-colors">
+              // Estilos base (Posiciones 4 en adelante)
+              let badgeClass = "bg-slate-100 text-slate-600";
+              let rowClass = "border-b hover:bg-slate-50 transition-colors";
+              let nameClass = "font-bold text-slate-700 flex items-center";
+              let amtClass = "font-black text-green-600";
+              let extraLabel = "";
+
+              // Estilos base para la Posición Actual (si está por debajo del top 3)
+              if (item.isCurrent) {
+                rowClass =
+                  "bg-blue-50 border-b-2 border-blue-200 hover:bg-blue-100 transition-colors";
+                badgeClass =
+                  "bg-blue-600 text-white shadow-md shadow-blue-500/50 ring-2 ring-blue-300 animate-pulse";
+                nameClass = "font-black text-blue-800 flex items-center gap-2";
+                amtClass = "font-black text-blue-700 text-lg";
+                extraLabel = ` <span class="bg-blue-200 text-blue-800 text-[10px] px-2 py-0.5 rounded-full uppercase tracking-wider ml-2">Tu Posición</span>`;
+              }
+
+              // EFECTOS ESPECIALES PARA EL PODIO (Sobrescriben los colores si es Top 3)
+              if (rank === 1) {
+                badgeClass =
+                  "bg-yellow-400 text-white shadow-lg shadow-yellow-500/50 ring-2 ring-yellow-300 animate-pulse";
+                rowClass = item.isCurrent
+                  ? "bg-yellow-100 border-b-2 border-yellow-400 transition-colors"
+                  : "bg-yellow-50/50 border-b border-yellow-200 hover:bg-yellow-100 transition-colors";
+                amtClass = "font-black text-yellow-600 text-lg";
+                nameClass = "font-bold text-yellow-800 flex items-center";
+              } else if (rank === 2) {
+                badgeClass =
+                  "bg-slate-400 text-white shadow-lg shadow-slate-500/50 ring-2 ring-slate-300 animate-pulse";
+                rowClass = item.isCurrent
+                  ? "bg-slate-200 border-b-2 border-slate-400 transition-colors"
+                  : "bg-slate-50 border-b border-slate-200 hover:bg-slate-100 transition-colors";
+                amtClass = "font-black text-slate-600 text-lg";
+                nameClass = "font-bold text-slate-800 flex items-center";
+              } else if (rank === 3) {
+                badgeClass =
+                  "bg-orange-400 text-white shadow-lg shadow-orange-500/50 ring-2 ring-orange-300 animate-pulse";
+                rowClass = item.isCurrent
+                  ? "bg-orange-100 border-b-2 border-orange-400 transition-colors"
+                  : "bg-orange-50/50 border-b border-orange-200 hover:bg-orange-100 transition-colors";
+                amtClass = "font-black text-orange-600 text-lg";
+                nameClass = "font-bold text-orange-800 flex items-center";
+              }
+
+              return `
+                            <tr class="${rowClass}">
                                 <td class="px-6 py-3 text-center">
-                                    <span class="w-6 h-6 flex items-center justify-center rounded-full text-xs font-bold mx-auto ${badgeClass}">
-                                        ${index + 1}
+                                    <span class="w-7 h-7 flex items-center justify-center rounded-full text-xs font-bold mx-auto ${badgeClass}">
+                                        ${rank}
                                     </span>
                                 </td>
-                                <td class="px-6 py-3 font-bold text-slate-700">${dateFormatted}</td>
-                                <td class="px-6 py-3 text-right font-black text-green-600">$${item.total.toLocaleString()}</td>
+                                <td class="px-6 py-4 ${nameClass}"><span>${dateFormatted}</span>${extraLabel}</td>
+                                <td class="px-6 py-4 text-right ${amtClass}">$${item.total.toLocaleString()}</td>
                             </tr>
                         `;
+            };
+
+            // Dibujar el Top 10
+            top10Array.forEach((item, index) => {
+              top10Tbody.innerHTML += renderRow(item, index + 1);
             });
+
+            // Si el "Actual" no entró al Top 10, lo ponemos al final como extra
+            if (showCurrentAtBottom) {
+              top10Tbody.innerHTML += `
+                            <tr><td colspan="3" class="text-center py-2 text-slate-300 text-xs tracking-widest bg-slate-50 border-b">••••••</td></tr>
+                        `;
+              top10Tbody.innerHTML += renderRow(
+                allRanks[currentRankIndex],
+                currentRank,
+              );
+            }
           }
         }
 
@@ -2277,6 +2348,7 @@ Sin Forro ni simcard</textarea
           "Caja Menor": 0,
           "Caja Mayor": 0,
           Base: 0,
+          Otro: 0,
         };
 
         // Reconstruir saldos históricos día a día

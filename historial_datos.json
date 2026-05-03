@@ -1,5 +1,193 @@
 [
     {
+        "fecha": "2026-05-03 07:01:47",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 6,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Naranja 1 ok"
+            },
+            {
+                "linea": 7,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Verde 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok"
+            },
+            {
+                "linea": 19,
+                "contenido": "Cable Apple Usb Ligthning 3 ok"
+            },
+            {
+                "linea": 21,
+                "contenido": "Forro Armadura Huawei Y9 Prime Negro 1 ok"
+            },
+            {
+                "linea": 22,
+                "contenido": "Silicone Case Vivo Y19S Rojo 1 ok"
+            },
+            {
+                "linea": 29,
+                "contenido": "Cargador Xiaomi 120W 1 ok"
+            },
+            {
+                "linea": 31,
+                "contenido": "Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 2 ok"
+            },
+            {
+                "linea": 32,
+                "contenido": "Forro Lujo Huawei Honor 400 Smart / X7D Azuloscuro 1 ok"
+            },
+            {
+                "linea": 57,
+                "contenido": "Forro Antichoque Samsung A06 Caballero 1 ok"
+            },
+            {
+                "linea": 65,
+                "contenido": "Forro Antichoque Vivo Y38 Caballero 3 ok"
+            },
+            {
+                "linea": 115,
+                "contenido": "Forro Lujo Apple Iphone 13 Pro Max Naranja 1 ok"
+            },
+            {
+                "linea": 153,
+                "contenido": "Forro Lujo Samsung A37 / A57 Negro 1 ok"
+            },
+            {
+                "linea": 154,
+                "contenido": "Forro Lujo Samsung A37 / A57 Azuloscuro 1 ok"
+            },
+            {
+                "linea": 155,
+                "contenido": "Forro Lujo Samsung A37 / A57 Morado 1 ok"
+            },
+            {
+                "linea": 157,
+                "contenido": "Manos Libres Batri B10 Negro 1 ok"
+            },
+            {
+                "linea": 158,
+                "contenido": "Manos Libres Batri B10 Blanco 1 ok"
+            },
+            {
+                "linea": 159,
+                "contenido": "Manos Libres Batri B10 Rosa 1 ok"
+            },
+            {
+                "linea": 308,
+                "contenido": "Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I verde 1 ok"
+            },
+            {
+                "linea": 309,
+                "contenido": "Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verdemilitar 1 ok"
+            },
+            {
+                "linea": 310,
+                "contenido": "Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok"
+            }
+        ],
+        "total_conservados": 372
+    },
+    {
+        "fecha": "2026-05-03 07:01:47",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Pacha Apple Iphone Xr Gx 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Huawei Y9 Prime Full 1 ok"
+            },
+            {
+                "linea": 3,
+                "contenido": "Pacha Motorola Moto G04 / G24 / E14 1 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / Oneplus Nord Ce 3 Lite 5G 1 ok"
+            },
+            {
+                "linea": 5,
+                "contenido": "Pacha Samsung A03 Core 1 ok"
+            },
+            {
+                "linea": 6,
+                "contenido": "Pacha Samsung A15 1 ok"
+            },
+            {
+                "linea": 8,
+                "contenido": "Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 3 ok"
+            },
+            {
+                "linea": 9,
+                "contenido": "Pacha Xiaomi Redmi 9 1 ok"
+            }
+        ],
+        "total_conservados": 1
+    },
+    {
+        "fecha": "2026-05-03 07:01:47",
+        "archivo": "pdpr.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdpr.txt",
+        "eliminados": [
+            {
+                "linea": 10,
+                "contenido": "Audifonos Bluetooth I12 Azuloscuro 2 ok"
+            },
+            {
+                "linea": 11,
+                "contenido": "Audifonos Bluetooth I12 Blanco 2 ok"
+            },
+            {
+                "linea": 13,
+                "contenido": "Audifonos Bluetooth Pro 5S Blanco 2 ok"
+            },
+            {
+                "linea": 15,
+                "contenido": "Barbera Cable 1 ok"
+            },
+            {
+                "linea": 45,
+                "contenido": "Extensión 6M 2 ok"
+            },
+            {
+                "linea": 47,
+                "contenido": "Holder Chupa Parabrisas 1 ok"
+            },
+            {
+                "linea": 49,
+                "contenido": "Lampara Esfera Giratoria 2 ok"
+            },
+            {
+                "linea": 62,
+                "contenido": "Patillera 3 En 1 3 ok"
+            },
+            {
+                "linea": 65,
+                "contenido": "Pilas Recargables Beston Aa X 4 Con Cargador 2 ok"
+            },
+            {
+                "linea": 75,
+                "contenido": "Soporte Holder Espejo 2 ok"
+            },
+            {
+                "linea": 76,
+                "contenido": "Soporte Holder Abierto Espejo 1 ok"
+            },
+            {
+                "linea": 80,
+                "contenido": "Soporte Tv 50 Brazo 3 ok"
+            }
+        ],
+        "total_conservados": 74
+    },
+    {
         "fecha": "2026-05-01 09:07:05",
         "archivo": "pdst.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",

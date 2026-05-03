@@ -3,9 +3,6 @@
     Adaptador Otg Tc 5
     Adaptador Otg Tc Cable 5
     Audifonos Bluetooth Conduccion Osea Ch-205 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Naranja 1 ok
-    Audifonos Bluetooth Harvic Bt-543 Ii Verde 1 ok
-    Audifonos Bluetooth Harvic Bt-543 Ii Negro 1 ok
     Audifonos Bluetooth Pro 5S Blanco 1
     Audifonos Bluetooth Pro 60 5
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -16,20 +13,15 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
     Cable Xiaomi Original Usb Tc 2
-    Cable Apple Usb Ligthning 3 ok
+    Cargador Apple 20W Con Cable 2
     Cargador Fuente 360 Slim 1
-    Forro Armadura Huawei Y9 Prime Negro 1 ok
-    Silicone Case Vivo Y19S Rojo 1 ok
     Cargador Magsafe 1
     Cargador Maxday Carga Pilas Universal 1
     Cargador Pluying Km C-19 60W 1
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Smart Band M5 2
-    Cargador We Tc 33W 3
-    Cargador Xiaomi 120W 1 ok
+    Cargador We Tc 33W 5
     Forro Antichoque Apple Iphone 13 Caballero 5
-    Forro Antichoque Huawei Honor 400 Smart / X7D Caballero 2 ok
-    Forro Lujo Huawei Honor 400 Smart / X7D Azuloscuro 1 ok
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Y9 Prime Caballero 3
     Forro Antichoque Huawei Y9 Prime Dama 4
@@ -54,7 +46,6 @@
     Forro Antichoque Oppo Reno 14 Caballero 5
     Forro Antichoque Pin Xiaomi Redmi 14C 2
     Forro Antichoque Samsung A04E Caballero 5
-    Forro Antichoque Samsung A06 Caballero 1 ok
     Forro Antichoque Samsung A11 Caballero 2
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A31 Dama 2
@@ -62,7 +53,6 @@
     Forro Antichoque Tecno Spark 30 5G Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Dama 5
-    Forro Antichoque Vivo Y38 Caballero 3 ok
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 14C Dama 3
@@ -112,7 +102,6 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
-    Forro Lujo Apple Iphone 13 Pro Max Naranja 1 ok
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
@@ -129,6 +118,7 @@
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
+    Forro Space Infinix Hot 50I / Smart 9 2
     Forro Space Magsafe Apple Iphone 15 Pro 1
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
@@ -138,6 +128,7 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
+    Forro Space Samsung A21S 1
     Forro Space Samsung A71 2
     Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Pova 7 2
@@ -150,13 +141,7 @@
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Guantes Gamer 5
-    Forro Lujo Samsung A37 / A57 Negro 1 ok
-    Forro Lujo Samsung A37 / A57 Azuloscuro 1 ok
-    Forro Lujo Samsung A37 / A57 Morado 1 ok
     Intercomunicador Harvic Mcm-591 1
-    Manos Libres Batri B10 Negro 1 ok
-    Manos Libres Batri B10 Blanco 1 ok
-    Manos Libres Batri B10 Rosa 1 ok
     Manos Libres Knz Tc 2
     Manos Libres Samsung J5 Blanco 10
     Manos Libres Tc En L Yoyos Blanco 2
@@ -170,6 +155,7 @@
     Parlante Perro 1
     Pilas Recargables Sony Aa X4 Con Cargador 2
     Power Bank Oczu Solar Opb-011 10000 Mah Cables 1
+    Power Bank Ucci Up-050 50000 Mah 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
@@ -212,6 +198,7 @@
     Silicone Case Infinix Hot 50 5G Azulrey 1
     Silicone Case Infinix Hot 50 Pro Plus Negro 1
     Silicone Case Infinix Hot 50I / Smart 9 Lila 1
+    Silicone Case Infinix Hot 60 / Hot 60I Fucsia 1
     Silicone Case Infinix Hot 60 Pro Plus Palorosa 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
@@ -275,6 +262,7 @@
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Samsung S23 Morado 1
     Silicone Case Tecno Camon 20 / 20 Pro Rojo 1
+    Silicone Case Tecno Camon 30 4G Morado 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
@@ -305,9 +293,6 @@
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 2
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rosa 1
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I verde 1 ok
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verdemilitar 1 ok
-    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
