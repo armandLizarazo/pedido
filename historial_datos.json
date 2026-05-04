@@ -1,5 +1,57 @@
 [
     {
+        "fecha": "2026-05-04 09:15:11",
+        "archivo": "pdcentro.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",
+        "eliminados": [
+            {
+                "linea": 15,
+                "contenido": "Cable Usb Ligthning 2 ok"
+            },
+            {
+                "linea": 17,
+                "contenido": "Cargador Apple 20W Con Cable 2 ok"
+            },
+            {
+                "linea": 20,
+                "contenido": "Cargador Griing Tc 3 ok"
+            },
+            {
+                "linea": 123,
+                "contenido": "Forro Space Infinix Hot 50I / Smart 9 2 ok"
+            },
+            {
+                "linea": 133,
+                "contenido": "Forro Space Samsung A21S 1 ok"
+            },
+            {
+                "linea": 160,
+                "contenido": "Power Bank Ucci Up-050 50000 Mah 1 ok"
+            }
+        ],
+        "total_conservados": 374
+    },
+    {
+        "fecha": "2026-05-04 09:15:11",
+        "archivo": "pdst.txt",
+        "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdst.txt",
+        "eliminados": [
+            {
+                "linea": 1,
+                "contenido": "Flex de Power Motorola Moto Edge 30 Fusion 1 ok"
+            },
+            {
+                "linea": 2,
+                "contenido": "Pacha Motorola Moto G04 / G24 / E14 2 ok"
+            },
+            {
+                "linea": 4,
+                "contenido": "Visor Camara Xiaomi Redmi 12C 2 ok"
+            }
+        ],
+        "total_conservados": 1
+    },
+    {
         "fecha": "2026-05-03 07:01:47",
         "archivo": "pdcentro.txt",
         "ruta_completa": "/Users/armandolizarazo/Local/pedido/pdcentro.txt",

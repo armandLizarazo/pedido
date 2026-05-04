@@ -12454,3 +12454,24 @@ L159: Manos Libres Batri B10 Rosa 1 ok
 L308: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I verde 1 ok
 L309: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verdemilitar 1 ok
 L310: Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1 ok
+
+============================================================
+Fecha: 2026-05-04 09:15:11
+Archivo: pdst.txt
+Eliminados: 3
+--- DETALLE ---
+L1: Flex de Power Motorola Moto Edge 30 Fusion 1 ok
+L2: Pacha Motorola Moto G04 / G24 / E14 2 ok
+L4: Visor Camara Xiaomi Redmi 12C 2 ok
+
+============================================================
+Fecha: 2026-05-04 09:15:11
+Archivo: pdcentro.txt
+Eliminados: 6
+--- DETALLE ---
+L15: Cable Usb Ligthning 2 ok
+L17: Cargador Apple 20W Con Cable 2 ok
+L20: Cargador Griing Tc 3 ok
+L123: Forro Space Infinix Hot 50I / Smart 9 2 ok
+L133: Forro Space Samsung A21S 1 ok
+L160: Power Bank Ucci Up-050 50000 Mah 1 ok

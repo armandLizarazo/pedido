@@ -17,6 +17,7 @@
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Hdmi Premium 8K 1.5M 2
+    Cable Hdtv 2
     Cable Microsoft Xbox 360 3
     Cable Poder Mini 3
     Cable Rca 3 A 3 1.5M 2
@@ -26,6 +27,7 @@
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
+    Cargador 9V 2A Doble Punta 3
     Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
