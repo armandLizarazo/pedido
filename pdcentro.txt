@@ -13,6 +13,7 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
     Cable Belkin V8 10
+    Cable Tc a Tc Harvic 60W 1 ok
     Cable Motorola V8 10
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
@@ -122,6 +123,10 @@
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
+    Forro Crystal Palace Iphone 13 / Iphone 14 1 ok
+    Forro Crystal Palace Iphone 17 1 ok
+    Forro Crystal Palace Iphone 17 Pro 1 ok
+    Forro Crystal Palace Iphone 17 Pro Max 1 ok
     Forro Space Infinix Hot 30 Play 2
     Forro Space Magsafe Apple Iphone 15 Pro 1
     Forro Space Motorola Moto G50 1
