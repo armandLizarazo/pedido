@@ -13,7 +13,6 @@
     Cable Auxiliar 1 A 1 Eco 5
     Cable Belkin Usb Ligthning 5
     Cable Belkin V8 10
-    Cable Tc a Tc Harvic 60W 1 ok
     Cable Motorola V8 10
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
@@ -53,6 +52,8 @@
     Forro Antichoque Samsung A31 Dama 2
     Forro Antichoque Tecno Spark 10 / 10C Dama 3
     Forro Antichoque Tecno Spark 30 5G Dama 3
+    Forro Antichoque Tecno Spark Go 2 / Smart 10 Caballero 5
+    Forro Antichoque Tecno Spark Go 2 / Smart 10 Dama 5
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y04 Dama 5
     Forro Antichoque Vivo Y38 Dama 5
@@ -123,10 +124,6 @@
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
-    Forro Crystal Palace Iphone 13 / Iphone 14 1 ok
-    Forro Crystal Palace Iphone 17 1 ok
-    Forro Crystal Palace Iphone 17 Pro 1 ok
-    Forro Crystal Palace Iphone 17 Pro Max 1 ok
     Forro Space Infinix Hot 30 Play 2
     Forro Space Magsafe Apple Iphone 15 Pro 1
     Forro Space Motorola Moto G50 1
@@ -258,6 +255,7 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
+    Silicone Case Samsung A13 Rojo 1
     Silicone Case Samsung A26 VerdeBiche 1
     Silicone Case Samsung A32 4G Vinotinto 1
     Silicone Case Samsung A32 5G Lila 1
@@ -293,6 +291,7 @@
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
+    Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1

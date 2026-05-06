@@ -1,19 +1,14 @@
     Adaptador Dvi2Vga 2
     Adaptador Ext Hdmi 5
-    Adaptador Micro Hdmi 2 ok
-    Adaptador Mini Hdmi 1 ok
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
-    Adaptador Union Hdmi 3 ok
     Audifonos Bluetooth Airpods 3 2
-    Audifonos Bluetooth Conductor 1092 1 ok
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Gris 2
     Balaca Callcenter Eco 2
     Base Refrigerante 2 Ventiladores 1
-    Cable Auxiliar 1 A 1 3M 2 ok
     Cable Auxiliar 2 A 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Extensor Auxiliar 3.5 3 M 3
@@ -53,6 +48,7 @@
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
+    Mouse Gamer Inalambrico Eco 2
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
@@ -65,8 +61,6 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd 1 ok
-    Reproductor Onn Hd Azul 1 ok
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Secador Remington 2003 1
     Soporte Celular Para Tutoriales 1
