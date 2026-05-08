@@ -5,6 +5,7 @@
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Pro 5S Blanco 1
     Audifonos Bluetooth Pro 60 5
+    Audifonos Bluetooth Speak Conduccion Osea Sk-38 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
     Audifonos Bluetooth Xiaomi E7S Rosa 1
@@ -34,6 +35,7 @@
     Forro Antichoque Motorola Moto G72 Dama 3
     Forro Antichoque Motorola Moto One Caballero 2
     Forro Antichoque Oppo A17 Caballero 5
+    Forro Antichoque Oppo A5 Caballero 2
     Forro Antichoque Oppo A5 Pro 4G / 5G Caballero 5
     Forro Antichoque Oppo A5 Pro 4G / 5G Dama 5
     Forro Antichoque Oppo A78 4G Caballero 2
@@ -63,9 +65,11 @@
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
+    Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1
     Forro Armadura Huawei Honor X8D Negro 1
     Forro Armadura Huawei Honor X8D Rojo 1
     Forro Armadura Lg K61 Rojo 1
+    Forro Armadura Motorola Moto G22 Negro 1
     Forro Armadura Motorola Moto G23 Rojo 1
     Forro Armadura Motorola Moto G34 Rojo 1
     Forro Armadura Motorola Moto G84 Negro 1
@@ -108,6 +112,7 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Transparente 1
     Forro Lujo Tecno Spark 30C Negro 1
+    Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
@@ -153,6 +158,7 @@
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
     Memoria Kingstone Micro 16Gb 3
+    Memoria Kingstone Micro 32Gb 3
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
     Multilector de Memorias Tc - Usb 2
@@ -228,6 +234,7 @@
     Silicone Case Motorola Moto G8 Plus Amarillo 1
     Silicone Case Motorola Moto G8 Power Lite Lila 1
     Silicone Case Motorola Moto G8 Power Lite Rojo 1
+    Silicone Case Motorola Moto G9 Power Morado 1
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
@@ -289,6 +296,7 @@
     Silicone Case Tecno Spark 20 Pro Plus Azuloscuro 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
+    Silicone Case Tecno Spark 30 5G Morado 1
     Silicone Case Tecno Spark 30C Rojo 1
     Silicone Case Tecno Spark 40 Pro Plus Lila 2
     Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 1
@@ -365,6 +373,7 @@
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5
+    Vidrio Antiespia Xiaomi Redmi 14C / A5 5
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Camara Xiaomi Redmi 13 15
