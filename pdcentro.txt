@@ -123,13 +123,13 @@
     Forro Lujo Ventana Samsung A35 Morado 1
     Forro Lujo Ventana Samsung A35 Negro 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
-    Forro Space Apple Iphone 11 Pro Max Magsafe 1
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2
     Forro Space Huawei Honor X5C 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
+    Forro Space Magsafe Apple Iphone 11 Pro Max 1
     Forro Space Magsafe Apple Iphone 15 Pro 1
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
@@ -161,7 +161,7 @@
     Memoria Kingstone Micro 32Gb 3
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
-    Multilector de Memorias Tc - Usb 2
+    Multilector De Memorias Tc - Usb 2
     Parlante Ktf-1645 2
     Parlante Perro 1
     Pilas Recargables Sony Aa X4 Con Cargador 2
@@ -263,7 +263,7 @@
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
     Silicone Case Samsung A13 Rojo 1
-    Silicone Case Samsung A26 VerdeBiche 1
+    Silicone Case Samsung A26 Verdebiche 1
     Silicone Case Samsung A32 4G Vinotinto 1
     Silicone Case Samsung A32 5G Lila 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1

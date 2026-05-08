@@ -48,6 +48,7 @@ search_history = []
 sticky_item = ""
 is_syncing_selection = False
 current_restrictions = {}
+current_local_filename = "local.txt"  # Variable para archivo local dinámico
 
 # --- Paleta de Colores Matrix ---
 BG_COLOR = "#0D0D0D"
@@ -125,10 +126,29 @@ def update_file(filename, data):
 def refresh_data():
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
-    data_local = parse_file("local.txt")
+    data_local = parse_file(current_local_filename)
     entry_search.delete(0, tk.END)
     entry_search.insert(0, last_search_term)
     search()
+
+
+def change_local_file():
+    """Permite cargar un archivo de inventario de otra sucursal."""
+    global current_local_filename, data_local
+    filename = filedialog.askopenfilename(
+        title="Seleccionar archivo de Sucursal (Local)",
+        filetypes=(("Archivos de texto", "*.txt"), ("Todos los archivos", "*.*")),
+    )
+    if filename:
+        current_local_filename = filename
+        data_local = parse_file(current_local_filename)
+        # Actualizar el título en la interfaz con el nombre del archivo
+        label_local.config(
+            text=f"Contenido Local ({os.path.basename(current_local_filename)})"
+        )
+        # Limpiar la búsqueda y refrescar la tabla
+        entry_search.delete(0, tk.END)
+        search()
 
 
 def on_item_select(event):
@@ -572,9 +592,9 @@ def normalize_files():
             for desc in missing_in_bodega:
                 data_bodega.append((desc, 0))
             update_file("bodegac.txt", data_bodega)
-            update_file("local.txt", data_local)
+            update_file(current_local_filename, data_local)
             data_bodega = parse_file("bodegac.txt")
-            data_local = parse_file("local.txt")
+            data_local = parse_file(current_local_filename)
             entry_search.delete(0, tk.END)
             entry_search.insert(0, last_search_term)
             search()
@@ -587,7 +607,7 @@ def format_all_files_title_case():
     """Convierte las descripciones de todos los archivos a formato Título (Primera letra mayúscula)."""
     files_to_format = [
         "bodegac.txt",
-        "local.txt",
+        current_local_filename,
         "pdcentro.txt",
         "pdpr.txt",
         "pdst.txt",
@@ -622,7 +642,7 @@ def format_all_files_title_case():
     # Refrescar datos y búsqueda
     global data_bodega, data_local
     data_bodega = parse_file("bodegac.txt")
-    data_local = parse_file("local.txt")
+    data_local = parse_file(current_local_filename)
     search()  # Re-ejecutar búsqueda para ver los cambios
 
 
@@ -634,9 +654,12 @@ def sync_local_to_other():
     if not target_filename:
         return
     try:
-        local_data = parse_file("local.txt")
+        local_data = parse_file(current_local_filename)
         if not local_data:
-            messagebox.showwarning("Advertencia", "El archivo local.txt está vacío.")
+            messagebox.showwarning(
+                "Advertencia",
+                f"El archivo {os.path.basename(current_local_filename)} está vacío.",
+            )
             return
         local_items = {item[0] for item in local_data}
         target_data = parse_file(target_filename)
@@ -670,8 +693,9 @@ def sync_local_to_other():
             final_data.append((item_desc, val))
 
         if update_file(target_filename, final_data):
-            if target_filename.endswith("bodegac.txt") or target_filename.endswith(
-                "local.txt"
+            if (
+                target_filename.endswith("bodegac.txt")
+                or target_filename == current_local_filename
             ):
                 refresh_data()
             else:
@@ -689,14 +713,95 @@ def open_cost_manager():
         return
     cost_window = tk.Toplevel(root)
     cost_window.title(f"Gestor de Costos - {target_filename}")
-    cost_window.geometry("600x600")
+    cost_window.geometry(
+        "650x650"
+    )  # Aumentado ligeramente para acomodar nuevas opciones
     cost_window.configure(bg=BG_COLOR)
     cost_data = parse_file(target_filename)
 
     frame_cost_search = tk.Frame(cost_window, bg=BG_COLOR, pady=10)
     frame_cost_search.pack(fill=tk.X, padx=10)
+
+    # NUEVO: Opciones de Búsqueda Avanzada para Costos
+    frame_cost_options = tk.Frame(frame_cost_search, bg=BG_COLOR)
+    frame_cost_options.pack(fill=tk.X, pady=(0, 5))
+
+    # Por defecto en 'advanced' para usar exclusiones instantáneamente
+    cost_search_mode_var = tk.StringVar(value="advanced")
+
+    tk.Label(
+        frame_cost_options,
+        text="Filtro Base:",
+        font=("Helvetica", 10, "bold"),
+        bg=BG_COLOR,
+        fg=FG_RED,
+    ).pack(side=tk.LEFT)
+    entry_cost_base = tk.Entry(
+        frame_cost_options,
+        font=("Helvetica", 10),
+        width=20,
+        bg=ENTRY_BG,
+        fg=FG_GREEN,
+        insertbackground=FG_GREEN,
+    )
+    entry_cost_base.pack(side=tk.LEFT, padx=(5, 15))
+
+    tk.Label(
+        frame_cost_options,
+        text="Modo:",
+        font=("Helvetica", 10, "bold"),
+        bg=BG_COLOR,
+        fg=FG_RED,
+    ).pack(side=tk.LEFT)
+    rb_c_phrase = tk.Radiobutton(
+        frame_cost_options,
+        text="Frase",
+        variable=cost_search_mode_var,
+        value="phrase",
+        bg=BG_COLOR,
+        fg=FG_GREEN,
+        selectcolor=ENTRY_BG,
+        activebackground=BG_COLOR,
+        activeforeground=FG_GREEN,
+    )
+    rb_c_phrase.pack(side=tk.LEFT, padx=2)
+    rb_c_keys = tk.Radiobutton(
+        frame_cost_options,
+        text="Claves",
+        variable=cost_search_mode_var,
+        value="keywords",
+        bg=BG_COLOR,
+        fg=FG_GREEN,
+        selectcolor=ENTRY_BG,
+        activebackground=BG_COLOR,
+        activeforeground=FG_GREEN,
+    )
+    rb_c_keys.pack(side=tk.LEFT, padx=2)
+    rb_c_adv = tk.Radiobutton(
+        frame_cost_options,
+        text="Avanzada",
+        variable=cost_search_mode_var,
+        value="advanced",
+        bg=BG_COLOR,
+        fg=FG_GREEN,
+        selectcolor=ENTRY_BG,
+        activebackground=BG_COLOR,
+        activeforeground=FG_GREEN,
+    )
+    rb_c_adv.pack(side=tk.LEFT, padx=2)
+
+    # Barra de búsqueda principal
+    frame_cost_bar = tk.Frame(frame_cost_search, bg=BG_COLOR)
+    frame_cost_bar.pack(fill=tk.X)
+    tk.Label(
+        frame_cost_bar,
+        text="Buscar:",
+        font=("Helvetica", 11, "bold"),
+        bg=BG_COLOR,
+        fg=FG_RED,
+    ).pack(side=tk.LEFT)
     entry_cost_search = tk.Entry(
-        frame_cost_search,
+        frame_cost_bar,
         font=("Helvetica", 12),
         bg=ENTRY_BG,
         fg=FG_GREEN,
@@ -704,12 +809,12 @@ def open_cost_manager():
         relief="solid",
         borderwidth=1,
     )
-    entry_cost_search.pack(side=tk.LEFT, expand=True, fill=tk.X, padx=(0, 5))
+    entry_cost_search.pack(side=tk.LEFT, expand=True, fill=tk.X, padx=(5, 0))
 
     tree_cost = ttk.Treeview(cost_window, columns=("Item", "Costo"), show="headings")
     tree_cost.heading("Item", text="Item")
     tree_cost.heading("Costo", text="Costo/Valor")
-    tree_cost.column("Item", width=400)
+    tree_cost.column("Item", width=450)
     tree_cost.column("Costo", width=150, anchor=tk.CENTER)
     tree_cost.pack(expand=True, fill=tk.BOTH, padx=10)
     scrollbar_cost = ttk.Scrollbar(
@@ -746,13 +851,28 @@ def open_cost_manager():
     entry_new_cost.pack(side=tk.LEFT, padx=10)
 
     def filter_costs(*args):
-        search_text = entry_cost_search.get().strip().lower()
+        base_text = entry_cost_base.get().strip().lower()
+        search_text = entry_cost_search.get().strip()
+        mode = cost_search_mode_var.get()
+
+        base_words = base_text.split() if base_text else []
         tree_cost.delete(*tree_cost.get_children())
+
         for desc, val in cost_data:
-            if search_text in desc.lower():
+            # 1. Filtro Base (Asegura que el ítem contenga las palabras clave obligatorias)
+            if base_words and not all(word in desc.lower() for word in base_words):
+                continue
+
+            # 2. Búsqueda Principal usando la inteligencia del motor avanzado
+            if not search_text or check_match(desc, search_text, mode):
                 tree_cost.insert("", tk.END, values=(desc, val))
 
+    # Bindings instantáneos para que la lista se actualice sola mientras escribes o cambias modo
     entry_cost_search.bind("<KeyRelease>", filter_costs)
+    entry_cost_base.bind("<KeyRelease>", filter_costs)
+    rb_c_phrase.config(command=filter_costs)
+    rb_c_keys.config(command=filter_costs)
+    rb_c_adv.config(command=filter_costs)
 
     def on_cost_select(event):
         selected = tree_cost.selection()
@@ -1037,7 +1157,9 @@ def transfer_quantity(direction):
         else:
             data_bodega.append((search_term, transfer_qty))
 
-    if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+    if update_file("bodegac.txt", data_bodega) and update_file(
+        current_local_filename, data_local
+    ):
         entry_transfer_qty.delete(0, tk.END)
         entry_search.delete(0, tk.END)
         entry_search.insert(0, last_search_term)
@@ -1064,7 +1186,7 @@ def adjust_quantity(target, action):
         return
 
     data_list = data_bodega if target == "bodega" else data_local
-    filename = "bodegac.txt" if target == "bodega" else "local.txt"
+    filename = "bodegac.txt" if target == "bodega" else current_local_filename
     item_index, current_qty = -1, 0
 
     for i, (desc, qty) in enumerate(data_list):
@@ -1133,7 +1255,9 @@ def create_new_item(event=None):
     data_bodega.append((new_item_desc, initial_qty))
     data_local.append((new_item_desc, 0))
 
-    if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+    if update_file("bodegac.txt", data_bodega) and update_file(
+        current_local_filename, data_local
+    ):
         sticky_item = new_item_desc
         entry_new_item.delete(0, tk.END)
         entry_new_qty_bodega.delete(0, tk.END)
@@ -1421,7 +1545,7 @@ def delete_item():
             if item[0].strip().lower() != search_term.lower()
         ]
         if update_file("bodegac.txt", data_bodega) and update_file(
-            "local.txt", data_local
+            current_local_filename, data_local
         ):
             sticky_item = ""  # Limpiamos el foco pegajoso porque el ítem se eliminó
             entry_search.delete(0, tk.END)
@@ -1486,7 +1610,9 @@ def edit_item(event=None):
         if item_found_in_order:
             update_file(filename, order_data)
 
-    if update_file("bodegac.txt", data_bodega) and update_file("local.txt", data_local):
+    if update_file("bodegac.txt", data_bodega) and update_file(
+        current_local_filename, data_local
+    ):
         sticky_item = new_desc
         entry_edit_item.delete(0, tk.END)
         entry_search.delete(0, tk.END)
@@ -1496,7 +1622,7 @@ def edit_item(event=None):
 
 # --- Carga de Datos ---
 data_bodega = parse_file("bodegac.txt")
-data_local = parse_file("local.txt")
+data_local = parse_file(current_local_filename)
 
 # --- Configuración de la Interfaz Gráfica ---
 root = tk.Tk()
@@ -1798,6 +1924,22 @@ button_clean_orders = tk.Button(
 )
 button_clean_orders.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
 
+# NUEVO: Botón para cambiar de sucursal
+button_change_local = tk.Button(
+    frame_tools,
+    text="Cargar Sucursal",
+    command=change_local_file,
+    font=("Helvetica", 11, "bold"),
+    bg=BTN_BG,
+    fg=BTN_FG,
+    relief="flat",
+    padx=12,
+    activebackground=BTN_BG,
+    activeforeground=BTN_FG,
+    borderwidth=1,
+)
+button_change_local.pack(side=tk.LEFT, padx=(5, 0), ipady=3)
+
 # --- Frame de Resultados ---
 frame_results = tk.Frame(main_frame, bg=BG_COLOR)
 frame_results.pack(expand=True, fill=tk.BOTH)
@@ -1855,9 +1997,10 @@ btn_print_bodega = tk.Button(
 )
 btn_print_bodega.pack(side=tk.RIGHT, padx=(5, 0))
 
+# Se actualiza el título del Local para que muestre el archivo actual
 label_local = tk.Label(
     frame_results,
-    text="Contenido Local",
+    text=f"Contenido Local ({os.path.basename(current_local_filename)})",
     font=("Helvetica", 14, "bold"),
     bg=BG_COLOR,
     fg=FG_RED,
