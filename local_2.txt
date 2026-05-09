@@ -1233,6 +1233,7 @@
     Forro Antichoque Pin Samsung A34 0
     Forro Antichoque Pin Samsung A36 0
     Forro Antichoque Pin Samsung A55 0
+    Forro Antichoque Pin Samsung A55 Dama 0
     Forro Antichoque Pin Samsung S21 Fe 0
     Forro Antichoque Pin Samsung S23 Fe 0
     Forro Antichoque Pin Tecno Camon 30 Pro 0
@@ -1258,6 +1259,7 @@
     Forro Antichoque Pin Xiaomi Redmi Note 13 4G 0
     Forro Antichoque Pin Xiaomi Redmi Note 13 5G 0
     Forro Antichoque Pin Xiaomi Redmi Note 13 Pro 4G / Note 14S 0
+    Forro Antichoque Pin Xiaomi Redmi Note 13 Pro Plus 0
     Forro Antichoque Pin Xiaomi Redmi Note 14 Pro 4G 0
     Forro Antichoque Pin Xiaomi Redmi Note 8 0
     Forro Antichoque Popsocket Apple Iphone 13 / Iphone 14 0
@@ -1490,6 +1492,8 @@
     Forro Antichoque Xiaomi Redmi Note 13 Pro 4G / Note 14S Dama 0
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Caballero 0
     Forro Antichoque Xiaomi Redmi Note 13 Pro 5G / Poco X6 Dama 0
+    Forro Antichoque Xiaomi Redmi Note 13 Pro Plus Caballero 0
+    Forro Antichoque Xiaomi Redmi Note 13 Pro Plus Dama 0
     Forro Antichoque Xiaomi Redmi Note 14 4G Cabllero 0
     Forro Antichoque Xiaomi Redmi Note 14 4G Dama 0
     Forro Antichoque Xiaomi Redmi Note 14 5G Caballero 0

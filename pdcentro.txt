@@ -3,7 +3,6 @@
     Adaptador Otg Tc 5
     Adaptador Otg Tc Cable 5
     Audifonos Bluetooth Conduccion Osea Ch-205 1
-    Audifonos Bluetooth Pro 5S Blanco 1
     Audifonos Bluetooth Pro 60 5
     Audifonos Bluetooth Speak Conduccion Osea Sk-38 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -23,6 +22,8 @@
     Cargador Samsung 25W Cabeza Blanco 2
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
+    Control Gamer Microsoft Xbox 360 Inalambrico 2
+    Disco Duro Juegos Xbox 360 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Y9 Prime Caballero 3
@@ -63,6 +64,7 @@
     Forro Antichoque Xiaomi Redmi 14C Dama 3
     Forro Antichoque Xiaomi Redmi Note 14 Pro 4G Dama 3
     Forro Antichoque Xiaomi Redmi Note 15 4G Dama 5
+    Forro Antichoque Xiaomi Redmi Note 15 Pro 4G Dama 2
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
     Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1
@@ -114,6 +116,9 @@
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
+    Forro Lujo Ventana Apple Iphone 14 Pro Max Azul 1
+    Forro Lujo Ventana Apple Iphone 14 Pro Max Morado 1
+    Forro Lujo Ventana Apple Iphone 14 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
@@ -125,7 +130,7 @@
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2
-    Forro Space Huawei Honor X5C 2
+    Forro Space Huawei Honor X5C X5C / Play10A 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
@@ -142,6 +147,7 @@
     Forro Space Samsung A71 2
     Forro Space Tecno Camon 40 Pro 2
     Forro Space Tecno Pova 7 2
+    Forro Space Tecno Spark Go 2025 / Go 1 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y19S 2
@@ -162,6 +168,7 @@
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
     Multilector De Memorias Tc - Usb 2
+    Parlante JOC 1
     Parlante Ktf-1645 2
     Parlante Perro 1
     Pilas Recargables Sony Aa X4 Con Cargador 2
@@ -171,8 +178,12 @@
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
     Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
     Silicone Case Apple Iphone 13 Pro Verde 1
+    Silicone Case Apple Iphone 14 Pro Max Morado 1
+    Silicone Case Apple Iphone 14 Pro Max Negro 1
     Silicone Case Apple Iphone 15 Pro Max Azul 1
     Silicone Case Apple Iphone 15 Pro Max Azulrey 1
+    Silicone Case Apple Iphone 15 Pro Morado 1
+    Silicone Case Apple Iphone 15 Pro Negro 1
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
@@ -180,6 +191,7 @@
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Morado 1
+    Silicone Case Huawei Honor X5C / Play10A Negro 1
     Silicone Case Huawei Honor X7 Negro 1
     Silicone Case Huawei Honor X7A Azulrey 1
     Silicone Case Huawei Honor X7A Negro 1
@@ -307,6 +319,7 @@
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Morado 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 2
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rosa 1
+    Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verde 1
     Silicone Case Vivo V25 Pro Amarillo 1
     Silicone Case Vivo V25 Pro Azulrey 1
     Silicone Case Vivo V25 Pro Lila 1
@@ -325,6 +338,7 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Negro 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 10 Lila 1
     Silicone Case Xiaomi Redmi 13 Azulrey 1
     Silicone Case Xiaomi Redmi 15C Fucsia 1
     Silicone Case Xiaomi Redmi 9 Rojo 1
