@@ -1271,7 +1271,27 @@ class InventarioGUI:
         if hasattr(self, "btn_cerrar_caja"):
             self.cargar_estado_caja()
 
-        # 4. OCULTAR DATOS SENSIBLES EN TABLA DE VENTAS
+        # 4. OCULTAR COLUMNA DE COSTO EN INVENTARIO
+        if hasattr(self, "inventory_tree"):
+            if self.is_admin:
+                # Muestra TODAS las columnas
+                self.inventory_tree["displaycolumns"] = (
+                    "Linea",
+                    "Item",
+                    "Costo",
+                    "CantBodegaC",
+                    "CantLocal",
+                )
+            else:
+                # Oculta la columna Costo
+                self.inventory_tree["displaycolumns"] = (
+                    "Linea",
+                    "Item",
+                    "CantBodegaC",
+                    "CantLocal",
+                )
+
+        # 5. OCULTAR DATOS SENSIBLES EN TABLA DE VENTAS
         if hasattr(self, "sales_tree"):
             if self.is_admin:
                 # Muestra TODAS las columnas
@@ -1310,7 +1330,7 @@ class InventarioGUI:
                 self.lbl_costo_total.pack_forget()
                 self.lbl_total_ganancia.pack_forget()
 
-        # 5. OCULTAR CAMPO DE COSTO AL VENDER
+        # 6. OCULTAR CAMPO DE COSTO AL VENDER
         if hasattr(self, "sale_costo_label"):
             if self.is_admin:
                 self.sale_costo_label.pack(
@@ -1594,9 +1614,11 @@ class InventarioGUI:
         ttk.Button(btn_frame_add, text="Guardar", command=self._do_add_from_panel).pack(
             side=tk.LEFT, expand=True
         )
-        ttk.Button(btn_frame_add, text="Cancelar", command=self.show_action_panel).pack(
-            side=tk.LEFT, expand=True
-        )
+        ttk.Button(
+            btn_frame_add,
+            text="Cancelar",
+            command=lambda: self.show_action_panel("close"),
+        ).pack(side=tk.LEFT, expand=True)
 
         # Build Modify Panel
         ttk.Label(self.modify_panel, text="Descripción:").pack(fill=tk.X)
@@ -1612,9 +1634,11 @@ class InventarioGUI:
         ttk.Button(
             btn_frame_mod, text="Guardar Cambios", command=self._do_modify_from_panel
         ).pack(side=tk.LEFT, expand=True)
-        ttk.Button(btn_frame_mod, text="Cancelar", command=self.show_action_panel).pack(
-            side=tk.LEFT, expand=True
-        )
+        ttk.Button(
+            btn_frame_mod,
+            text="Cancelar",
+            command=lambda: self.show_action_panel("close"),
+        ).pack(side=tk.LEFT, expand=True)
 
         # Build Adjust Panel
         self.adjust_label = ttk.Label(
@@ -1648,7 +1672,9 @@ class InventarioGUI:
         ).pack(fill=tk.X, ipady=5, pady=2)
 
         ttk.Button(
-            self.adjust_panel, text="Finalizar", command=self.show_action_panel
+            self.adjust_panel,
+            text="Finalizar",
+            command=lambda: self.show_action_panel("close"),
         ).pack(side=tk.BOTTOM, fill=tk.X, ipady=5, pady=(20, 0))
 
         # Build Sale Panel
@@ -1679,7 +1705,9 @@ class InventarioGUI:
             command=self._do_add_to_cart_from_panel,
         ).pack(side=tk.LEFT, expand=True)
         ttk.Button(
-            btn_frame_sale, text="Cancelar", command=self.show_action_panel
+            btn_frame_sale,
+            text="Cancelar",
+            command=lambda: self.show_action_panel("close"),
         ).pack(side=tk.LEFT, expand=True)
 
         # Build Cart Panel Widgets
@@ -1790,7 +1818,7 @@ class InventarioGUI:
 
         self.cart_lbl_total_pagado = ttk.Label(
             summary_frame,
-            text="Total Pagado: $0.00",
+            text="Dinero Recibido: $0.00",
             font=("Helvetica", 10, "bold"),
             foreground="blue",
         )
@@ -1803,6 +1831,21 @@ class InventarioGUI:
             foreground="red",
         )
         self.cart_lbl_faltante.pack(fill=tk.X)
+
+        # --- NUEVO CAMPO VUELTOS ---
+        vueltos_frame = ttk.Frame(summary_frame)
+        vueltos_frame.pack(fill=tk.X, pady=5)
+        ttk.Label(
+            vueltos_frame, text="Vueltos entregados $:", font=("Helvetica", 10, "bold")
+        ).pack(side=tk.LEFT)
+        self.cart_vueltos_entry = ttk.Entry(
+            vueltos_frame, width=15, font=("Helvetica", 10)
+        )
+        self.cart_vueltos_entry.pack(side=tk.LEFT, padx=5)
+        self.cart_vueltos_entry.bind(
+            "<KeyRelease>", lambda e: self._cart_update_summary()
+        )
+        # ---------------------------
 
         self.cart_btn_confirmar = ttk.Button(
             summary_frame,
@@ -1820,7 +1863,9 @@ class InventarioGUI:
             bottom_btn_frame, text="Vaciar Carrito", command=self._cart_vaciar
         ).pack(side=tk.LEFT, expand=True)
         ttk.Button(
-            bottom_btn_frame, text="Seguir Comprando", command=self.show_action_panel
+            bottom_btn_frame,
+            text="Seguir Comprando",
+            command=lambda: self.show_action_panel("close"),
         ).pack(side=tk.LEFT, expand=True)
 
     # --- NUEVA FUNCION: CONTROL DE CAMPO DE MONTO DE PAGO ---
@@ -1886,6 +1931,9 @@ class InventarioGUI:
             self.add_cant_entry.delete(0, tk.END)
             self._switch_action_panel(self.add_panel, "Agregar Nuevo Ítem")
             self.add_desc_entry.focus_set()
+
+        elif panel_type == "close":
+            self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
 
         elif panel_type == "modify":
             self.modify_desc_entry.delete(0, tk.END)
@@ -1993,6 +2041,11 @@ class InventarioGUI:
         self.cart_monto_pago_entry.config(state="disabled")
         self.cart_medio_pago_combo.set("")
 
+        # Resetear el campo de vueltos
+        self.cart_vueltos_entry.config(state="normal")
+        self.cart_vueltos_entry.delete(0, tk.END)
+        self.cart_vueltos_entry.config(state="disabled")
+
         self._cart_populate_items()
         self._cart_populate_pagos()
 
@@ -2007,7 +2060,7 @@ class InventarioGUI:
         success, message = self.gestor.agregar_linea(desc, cant)
         if success:
             self.populate_inventory_treeview()
-            self.show_action_panel()
+            self.show_action_panel("close")
             messagebox.showinfo("Éxito", message)
         else:
             messagebox.showerror("Error", message)
@@ -2028,7 +2081,7 @@ class InventarioGUI:
         success, message = self.gestor.modificar_linea(linea, nueva_desc, nueva_cant)
         if success:
             self.populate_inventory_treeview()
-            self.show_action_panel()
+            self.show_action_panel("close")
             messagebox.showinfo("Éxito", message)
         else:
             messagebox.showerror("Error", message)
@@ -2135,7 +2188,7 @@ class InventarioGUI:
         self.actualizar_vista_carrito()
 
         # Mantiene el foco en el árbol después de añadir
-        self.show_action_panel()
+        self.show_action_panel("close")
         self._reselect_item_by_desc(desc)
 
         self.status_label_inv.config(
@@ -2152,7 +2205,7 @@ class InventarioGUI:
             self.cart_tree.insert(
                 "",
                 tk.END,
-                iid=i,
+                iid=str(i),
                 values=(item["desc"], item["cantidad"], f"${subtotal:,.2f}"),
             )
         self.cart_total_general = total_general
@@ -2163,7 +2216,10 @@ class InventarioGUI:
             self.cart_pagos_tree.delete(i)
         for i, pago in enumerate(self.pagos_actuales):
             self.cart_pagos_tree.insert(
-                "", tk.END, iid=i, values=(pago["metodo"], f"${pago['monto']:,.2f}")
+                "",
+                tk.END,
+                iid=str(i),
+                values=(pago["metodo"], f"${pago['monto']:,.2f}"),
             )
         self._cart_update_summary()
 
@@ -2171,18 +2227,37 @@ class InventarioGUI:
         total_pagado = sum(pago["monto"] for pago in self.pagos_actuales)
         faltante = self.cart_total_general - total_pagado
 
-        self.cart_lbl_total_pagado.config(text=f"Total Pagado: ${total_pagado:,.2f}")
+        self.cart_lbl_total_pagado.config(text=f"Dinero Recibido: ${total_pagado:,.2f}")
+
+        vueltos_str = self.cart_vueltos_entry.get().replace("$", "").replace(",", "")
+        try:
+            vueltos_digitados = float(vueltos_str) if vueltos_str else 0.0
+        except ValueError:
+            vueltos_digitados = -1.0
 
         if faltante > 0:
             self.cart_lbl_faltante.config(
                 text=f"Faltante: ${faltante:,.2f}", foreground="red"
             )
+            if str(self.cart_vueltos_entry["state"]) == "normal":
+                self.cart_vueltos_entry.delete(0, tk.END)
+            self.cart_vueltos_entry.config(state="disabled")
             self.cart_btn_confirmar.config(state="disabled")
         else:
+            cambio_sugerido = abs(faltante)
             self.cart_lbl_faltante.config(
-                text=f"Cambio: ${-faltante:,.2f}", foreground="green"
+                text=f"Cambio a devolver: ${cambio_sugerido:,.2f}", foreground="green"
             )
-            self.cart_btn_confirmar.config(state="normal")
+            self.cart_vueltos_entry.config(state="normal")
+
+            # Validación estricta: Los vueltos digitados deben ser exactamente iguales al cambio sugerido
+            if (
+                self.cart_total_general > 0
+                and abs(vueltos_digitados - cambio_sugerido) < 0.01
+            ):
+                self.cart_btn_confirmar.config(state="normal")
+            else:
+                self.cart_btn_confirmar.config(state="disabled")
 
     def _cart_add_pago(self):
         metodo = self.cart_medio_pago_combo.get()
@@ -2211,27 +2286,41 @@ class InventarioGUI:
 
         self._cart_populate_pagos()
 
+        # Si al agregar el pago se cubrió el total, pasamos el foco al campo de Vueltos automáticamente
+        if str(self.cart_vueltos_entry["state"]) == "normal":
+            self.cart_vueltos_entry.focus()
+
     def _cart_remove_item(self):
-        selected_iid = self.cart_tree.focus()
-        if not selected_iid:
+        selected = self.cart_tree.selection()
+        if not selected:
             messagebox.showwarning(
                 "Sin Selección", "Seleccione un item del carrito para eliminar."
             )
             return
-        del self.carrito[int(selected_iid)]
+
+        index = int(selected[0])
+        del self.carrito[index]
+
         if not self.carrito:
-            self._cart_vaciar()
+            self.cart_vueltos_entry.config(state="normal")
+            self.cart_vueltos_entry.delete(0, tk.END)
+            self.cart_vueltos_entry.config(state="disabled")
+            self.actualizar_vista_carrito()
+            self.show_action_panel("close")
+            self.status_label_inv.config(text="Carrito vacío.")
         else:
             self._cart_populate_items()
             self._cart_populate_pagos()
-        self.actualizar_vista_carrito()
+            self.actualizar_vista_carrito()
 
     def _cart_remove_pago(self):
-        selected_iid = self.cart_pagos_tree.focus()
-        if not selected_iid:
+        selected = self.cart_pagos_tree.selection()
+        if not selected:
             messagebox.showwarning("Sin Selección", "Seleccione un pago para eliminar.")
             return
-        del self.pagos_actuales[int(selected_iid)]
+
+        index = int(selected[0])
+        del self.pagos_actuales[index]
         self._cart_populate_pagos()
 
     def _cart_vaciar(self):
@@ -2239,12 +2328,15 @@ class InventarioGUI:
             "Confirmar", "¿Desea vaciar el carrito?"
         ):
             self.carrito.clear()
+            self.cart_vueltos_entry.config(state="normal")
+            self.cart_vueltos_entry.delete(0, tk.END)
+            self.cart_vueltos_entry.config(state="disabled")
             self.actualizar_vista_carrito()
-            self.show_action_panel()
+            self.show_action_panel("close")
             self.status_label_inv.config(text="Carrito vaciado.")
         elif not self.carrito:
             self.actualizar_vista_carrito()
-            self.show_action_panel()
+            self.show_action_panel("close")
 
     def _finalizar_venta_from_panel(self):
         cliente = self.cart_cliente_combo.get().strip() or "Cliente General"
@@ -2259,6 +2351,21 @@ class InventarioGUI:
 
         if not self.carrito:
             messagebox.showerror("Carrito Vacío", "No hay items para vender.")
+            return
+
+        # --- VALIDACIÓN FINAL DE VUELTOS (por seguridad) ---
+        cambio_sugerido = total_pagado - self.cart_total_general
+        vueltos_str = self.cart_vueltos_entry.get().replace("$", "").replace(",", "")
+        try:
+            vueltos_digitados = float(vueltos_str) if vueltos_str else 0.0
+        except ValueError:
+            vueltos_digitados = -1.0
+
+        if abs(vueltos_digitados - cambio_sugerido) >= 0.01:
+            messagebox.showerror(
+                "Vueltos Incorrectos",
+                f"El valor de los vueltos digitados no coincide con el cambio a devolver (${cambio_sugerido:,.2f}).",
+            )
             return
 
         # --- GUARDAR CLIENTE EN LA BASE DE DATOS ---
@@ -2301,12 +2408,16 @@ class InventarioGUI:
             self.pagos_actuales,
         )
 
+        self.cart_vueltos_entry.config(state="normal")
+        self.cart_vueltos_entry.delete(0, tk.END)
+        self.cart_vueltos_entry.config(state="disabled")
+
         self.carrito.clear()
         self.actualizar_vista_carrito()
         self.populate_inventory_treeview()
         self.populate_sales_treeview()
         self.notebook.select(self.ventas_tab)
-        self.show_action_panel()
+        self.show_action_panel("close")
 
     def crear_widgets_ventas(self):
         filter_frame = ttk.LabelFrame(
@@ -2735,7 +2846,6 @@ class InventarioGUI:
         )
         self.conteo_total_label.pack(pady=10)
 
-        # --- CAMBIO: DOS FILAS DE BOTONES PARA CONTEO ---
         conteo_btn_frame_1 = ttk.Frame(conteo_frame)
         conteo_btn_frame_1.pack(fill=tk.X, pady=2)
 
@@ -2874,7 +2984,6 @@ class InventarioGUI:
         self._update_conteo_total()
         self.status_label_inv.config(text="Campos de conteo limpiados.")
 
-    # --- NUEVAS FUNCIONES PARA ASIGNAR CONTEO ---
     def _aplicar_conteo_a_inicial(self):
         if self.btn_iniciar_dia["state"] == "disabled":
             messagebox.showwarning(
@@ -2914,8 +3023,6 @@ class InventarioGUI:
             messagebox.showerror(
                 "Error", "No se pudo calcular el total. Revise los campos."
             )
-
-    # ---------------------------------------------
 
     def _aplicar_conteo_a_cierre(self):
         total = self._update_conteo_total()

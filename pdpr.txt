@@ -1,5 +1,6 @@
     Adaptador Dvi2Vga 2
     Adaptador Ext Hdmi 5
+    Adaptador Hdmi2Dvi 1
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
@@ -41,8 +42,10 @@
     Dock Charging Ps4 1
     Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
+    Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
     Forro Pc 16 Pulgadas 2
+    Google Nest Mini 1
     Humidificador Madera 1
     Lonchera Carro 1
     Maleta Computador 2
@@ -62,12 +65,14 @@
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
     Pilas Carbon Maxday Aaa X2 30
+    Pilas Recargables Beston Aa X 4 Con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
     Reproductor Onn Eco 3
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
+    Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2 1
     Soporte Celular Para Tutoriales 1
