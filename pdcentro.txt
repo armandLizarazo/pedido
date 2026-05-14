@@ -14,6 +14,7 @@
     Cable Auxiliar 1 A 1 Eco 5 ok
     Cable Belkin Usb Ligthning 5
     Cable Belkin V8 10 ok
+    Cargador Belkin V8 3 ok
     Cable Motorola V8 10 ok
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
@@ -25,6 +26,9 @@
     Cargador Pluying Mle-003 55W 1 ok
     Cargador Samsung 25W Cabeza Negro 2 ok
     Cargador Smart Band M5 2
+    Cargador We 25W Cabeza Pantalla 1 ok
+    Cargador We 25W Solo Cabeza 1 ok
+    Cargador Yoyos 38W Solo Cabeza 2 ok
     Cargador We Tc 33W 10
     Control Gamer Microsoft Xbox 360 Inalambrico 2 ok
     Disco Duro Juegos Xbox 360 1
@@ -74,6 +78,7 @@
     Forro Armadura Huawei Honor Magic 8 Lite Negro 1
     Forro Armadura Huawei Honor Magic 8 Lite Rojo 1
     Forro Armadura Huawei Honor Magic 8 Lite Vinotinto 1
+    Forro Armadura Huawei Honor Magic 8 Lite Verde 1 ok
     Forro Armadura Huawei Honor X8D Negro 1
     Forro Armadura Huawei Honor X8D Rojo 1
     Forro Armadura Lg K61 Rojo 1
@@ -106,7 +111,7 @@
     Forro Armadura Xiaomi Redmi Note 15 4G Negro 1 ok
     Forro Armadura Xiaomi Redmi Note 15 4G Rojo 1 ok
     Forro Armadura Xiaomi Redmi Note 15 Pro 4G Negro 1 ok
-    Forro Armadura Xiaomi Redmi Note 15 Pro 4G Rojo 1 ik
+    Forro Armadura Xiaomi Redmi Note 15 Pro 4G Rojo 1 ok
     Forro Armadura Xiaomi Redmi Note 9 Negro 1
     Forro Armadura Xiaomi Redmi Note 9 Rojo 1
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Negro 1
@@ -120,9 +125,10 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Transparente 1
     Forro Lujo Tecno Spark 30C Negro 1
-    Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Negro 1ok
+    Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Negro 1 ok
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Azul 1
+    Ventosas 1 ok
     Forro Lujo Ventana Apple Iphone 14 Pro Max Morado 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Negro 1
     Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
@@ -152,10 +158,10 @@
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
     Forro Space Samsung A71 2
-    Forro Space Tecno Camon 40 Pro 2 
+    Forro Space Tecno Camon 40 Pro 2 ok
     Forro Space Tecno Pova 7 2
     Forro Space Tecno Spark Go 2025 / Go 1 2 ok
-    Forro Space Tecno  / Go 2 3 ok
+    Forro Space Tecno Spark Go 2 / Smart 10 3 ok
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y19S 2
@@ -165,6 +171,7 @@
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
     Guantes Gamer 5 ok
+    Aguja Extractor Sim 5 ok
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
     Manos Libres Samsung J5 Blanco 10 ok
@@ -176,7 +183,7 @@
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
     Multilector De Memorias Tc - Usb 2
-    Parlante JOC 1
+    Parlante Cmik Mk-066Bt 1 ok
     Parlante Ktf-1645 2
     Parlante Perro 1
     Pilas Recargables Sony Aa X4 Con Cargador 2
@@ -380,8 +387,9 @@
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
     Tapones Puerto De Carga Ligthning 5
+    Pop Socket Figura 2 ok
     Tapones Puerto De Carga Tc 5
-    Vaper Asokit 20000 Puffs 1
+    Vaper Asokit 20000 Puffs 1 ok
     Vidrio 5D Huawei Honor X7A 5
     Vidrio 5D Huawei Honor X8B 5
     Vidrio 5D Huawei P10 Lite 5
