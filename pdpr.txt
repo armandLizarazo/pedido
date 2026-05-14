@@ -8,6 +8,7 @@
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Gris 2
+    Multilector De Memorias Tc - Usb 3 ok
     Balaca Callcenter Eco 2
     Balaca Karler Kr-H2 2
     Base Refrigerante 2 Ventiladores 1 ok
@@ -20,6 +21,7 @@
     Cable Microsoft Xbox 360 3
     Cable Poder Mini 3
     Cable Rca 3 A 3 1.5M 3 ok
+    Consola Game Stick 2 ok
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
@@ -27,7 +29,10 @@
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador 9V 2A Doble Punta 2 ok
-    Cargador Microsoft Carga Y Juega Xbox 360 3
+    Cargador Microsoft Carga Y Juega Xbox 360 3 ok
+    Luz Laser Xkl-A4 1 ok
+    Lampara Esfera Giratoria 2 ok
+    Control Gamer Microsoft Pc / 360 Alambrico Blanco 1 ok
     Cargador Pc 8 Pines Caja Naranja 2 ok
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
@@ -40,7 +45,7 @@
     Control Proyector Hy-300 2
     Control Tv Universal 5
     Dock Charging Ps4 1
-    Estabilizador 8 Puertos 1ok
+    Estabilizador 8 Puertos 1 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
@@ -53,7 +58,8 @@
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
-    Mouse Gamer Inalambrico Eco 2
+    Mouse Gamer Inalambrico Eco 1 ok
+    Mouse Inalambrico Jertech Jr-11 1 ok
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
@@ -70,7 +76,7 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Eco 3
+    Reproductor Onn Eco 3 ok
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
