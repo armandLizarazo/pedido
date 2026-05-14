@@ -1,6 +1,6 @@
     Adaptador Dvi2Vga 2
+    Adaptador Dvi2hdmi 1
     Adaptador Ext Hdmi 5
-    Adaptador Hdmi2Dvi 1
     Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2

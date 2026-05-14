@@ -1198,6 +1198,9 @@ class InventarioGUI:
         self.is_admin = False
         self.admin_pin = "1234"  # PIN por defecto (puedes cambiarlo aquí)
 
+        # --- VARIABLE TEMPORIZADOR LIVE SEARCH ---
+        self._search_timer = None
+
         if not TKCALENDAR_AVAILABLE:
             messagebox.showwarning(
                 "Librería Faltante",
@@ -1467,9 +1470,13 @@ class InventarioGUI:
         self.filtro_palabra_entry.pack(side=tk.LEFT, padx=5)
         self.filtro_palabra_entry.bind("<FocusIn>", self.clear_placeholder)
         self.filtro_palabra_entry.bind("<FocusOut>", self.add_placeholder)
-        # BINDING ENTER KEY PARA BUSCAR RAPIDO
+
+        # BINDING ENTER Y KEYRELEASE PARA BUSCAR RAPIDO Y EN TIEMPO REAL
         self.filtro_palabra_entry.bind(
             "<Return>", lambda e: self.populate_inventory_treeview()
+        )
+        self.filtro_palabra_entry.bind(
+            "<KeyRelease>", self._on_inventario_filter_change
         )
 
         ttk.Label(filter_frame, text="y por cantidad:").pack(side=tk.LEFT, padx=5)
@@ -1477,11 +1484,16 @@ class InventarioGUI:
             filter_frame, values=["", ">", "<", "="], width=3, state="readonly"
         )
         self.filtro_op_combo.pack(side=tk.LEFT, padx=5)
+        self.filtro_op_combo.bind(
+            "<<ComboboxSelected>>", self._on_inventario_filter_change
+        )
+
         self.filtro_cant_entry = ttk.Entry(filter_frame, width=10)
         self.filtro_cant_entry.pack(side=tk.LEFT, padx=5)
         self.filtro_cant_entry.bind(
             "<Return>", lambda e: self.populate_inventory_treeview()
         )
+        self.filtro_cant_entry.bind("<KeyRelease>", self._on_inventario_filter_change)
 
         ttk.Button(
             filter_frame,
@@ -1575,6 +1587,24 @@ class InventarioGUI:
             state="disabled",
         )
         self.btn_ver_carrito.pack(ipady=5, fill=tk.X, pady=(5, 0))
+
+    # --- NUEVA FUNCION: FILTRADO EN TIEMPO REAL CON RETARDO (DEBOUNCE) ---
+    def _on_inventario_filter_change(self, event=None):
+        # Ignorar teclas de navegación para no recargar innecesariamente
+        if (
+            event
+            and hasattr(event, "keysym")
+            and event.keysym
+            in ("Up", "Down", "Left", "Right", "Return", "Escape", "Tab")
+        ):
+            return
+
+        # Cancelar el temporizador anterior si el usuario sigue escribiendo
+        if hasattr(self, "_search_timer") and self._search_timer:
+            self.master.after_cancel(self._search_timer)
+
+        # Iniciar un nuevo temporizador de 300ms antes de ejecutar la búsqueda
+        self._search_timer = self.master.after(300, self.populate_inventory_treeview)
 
     def _build_action_panels(self):
         self.placeholder_panel = ttk.Frame(self.action_panel, padding=10)
@@ -1880,7 +1910,7 @@ class InventarioGUI:
     # --- NUEVAS FUNCIONES DE AUTOCOMPLETADO ---
     def _on_cliente_type(self, event):
         # Ignorar teclas de navegación para no entorpecer el menú
-        if event.keysym in ("Up", "Down", "Left", "Right", "Return", "Escape"):
+        if event.keysym in ("Up", "Down", "Left", "Right", "Return", "Escape", "Tab"):
             return
 
         value = self.cart_cliente_combo.get()
