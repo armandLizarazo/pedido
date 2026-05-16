@@ -4,4 +4,4 @@
     Pacha Samsung A15 1 ok
     Pacha Zte Blade A34 / A54 1 ok
     Boton Huella Samsung A22 4G Verde 1 ok
-    Visor Samsung A22 4G 1
+    Visor Samsung A22 4G 1 ok
