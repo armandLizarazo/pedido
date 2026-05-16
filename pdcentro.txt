@@ -115,6 +115,7 @@
     Forro Space Infinix Hot 30 Play 2
     Forro Space Magsafe Apple Iphone 11 Pro Max 1
     Forro Space Magsafe Apple Iphone 16 Pro 1
+    Cargador Harvic 33W Tc 3 ok
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
     Forro Space Magsafe Samsung S25 1
     Forro Space Motorola Moto G50 1
@@ -241,7 +242,7 @@
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
-    Silicone Case Samsung A07 Negro 1
+    Silicone Case Samsung A07 Negro 1 ok
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
