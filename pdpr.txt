@@ -1,7 +1,4 @@
-    Adaptador Dvi2Vga 2
-    Adaptador Dvi2hdmi 1
     Adaptador Ext Hdmi 5
-    Adaptador Hdmi2Vga Cja 3
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
@@ -10,25 +7,18 @@
     Audifonos Bluetooth I12 Gris 2
     Balaca Callcenter Eco 2
     Balaca Karler Kr-H2 2
-    Base Refrigerante 2 Ventiladores 1
     Cable Auxiliar 2 A 1 5M 3
     Cable Disco Duro V8 3.0 Corto 2
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
-    Cable Hdmi Premium 8K 1.5M 2
-    Cable Hdtv 2
     Cable Microsoft Xbox 360 3
     Cable Poder Mini 3
-    Cable Rca 3 A 3 1.5M 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
-    Cargador 9V 2A Doble Punta 3
-    Cargador Microsoft Carga Y Juega Xbox 360 3
-    Cargador Pc 8 Pines Caja Naranja 1
     Cargador Pc Acer 2.37 2
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
@@ -36,11 +26,12 @@
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
+    Control Gamer Sony Ps3 Blanco 1
+    Control Gamer Sony Ps3 Negro 1
     Control Gamer Sony Ps4 Fifa 1
     Control Proyector Hy-300 2
     Control Tv Universal 5
     Dock Charging Ps4 1
-    Estabilizador 1800W 1
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
@@ -53,7 +44,6 @@
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
-    Mouse Gamer Inalambrico Eco 2
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
@@ -65,12 +55,10 @@
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Recargables Beston Aa X 4 Con Cargador 2
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Eco 3
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
