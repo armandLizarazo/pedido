@@ -48,8 +48,8 @@
     Forro Antichoque Samsung A11 Dama 5
     Forro Antichoque Samsung A31 Dama 2
     Forro Antichoque Vivo V25E Caballero 3
-    Forro Antichoque Vivo Y04 Caballero 2
-    Forro Antichoque Vivo Y04 Dama 5
+    Forro Antichoque Vivo Y04 Caballero 1 ok
+    Forro Antichoque Vivo Y04 Dama 2 ok
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 14C Dama 3
@@ -113,15 +113,16 @@
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
-    Forro Space Magsafe Apple Iphone 11 Pro Max 1
+    Forro Space Magsafe Apple Iphone 11 Pro Max 1 ok
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Cargador Harvic 33W Tc 3 ok
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
-    Forro Space Magsafe Samsung S25 1
+    Forro Space Magsafe Samsung S25 1 ok
     Forro Space Motorola Moto G50 1
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A17 1
     Forro Space Oppo A59 2
+    Memoria Musica 5 ok
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
@@ -320,8 +321,8 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Samsung A07 352169184237805 128/6 1
-    Smartphone Xiaomi Redmi 15C 864299088672509 256/8 1
+    Smartphone Samsung A07 352169184248299 128/6 1 ok
+    Smartphone Xiaomi Redmi 15C 864299087406321 256/8 1 ok
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5
