@@ -1,4 +1,5 @@
     Adaptador Ext Hdmi 5
+    Adaptador Hdmi2Av 1
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
@@ -32,9 +33,11 @@
     Control Proyector Hy-300 2
     Control Tv Universal 5
     Dock Charging Ps4 1
+    Estetica Barbera Vgr V-660 1
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
+    Extensión 6M 1
     Forro Pc 16 Pulgadas 2
     Google Nest Mini 1
     Humidificador Madera 1
@@ -63,6 +66,7 @@
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
     Smart Watch Combo Jl-9 Ultra 2 1
+    Smart Watch Combo K55 1
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
     Soporte Monitor Mesa 1
@@ -71,6 +75,7 @@
     Soporte Tv Fijo 3
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
+    Teclado Minikeyboard Tipo Control Tv 2
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1

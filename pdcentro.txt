@@ -51,6 +51,7 @@
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
     Forro Antichoque Xiaomi Redmi 14C Dama 3
+    Forro Antichoque Xiaomi Redmi Note 12 Dama 3
     Forro Armadura Huawei Honor X8D Negro 1
     Forro Armadura Huawei Honor X8D Rojo 1
     Forro Armadura Lg K61 Rojo 1
@@ -164,6 +165,7 @@
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor Magic 8 Lite Lila 1
     Silicone Case Huawei Honor X5C / Play10A Negro 1
+    Silicone Case Huawei Honor X7C / 200 Smart Negro 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8D Amarillo 1
@@ -237,6 +239,7 @@
     Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C75 Negro 1
     Silicone Case Oppo Reno 11F Verde 1
+    Silicone Case Oppo Reno 14F Azulrey 1
     Silicone Case Oppo Reno 14F Negro 1
     Silicone Case Oppo Reno 14F Rojo 1
     Silicone Case Samsung A03 Core Negro 1
@@ -248,6 +251,7 @@
     Silicone Case Samsung A20 / A30 Verdementa 1
     Silicone Case Samsung A26 Verdebiche 1
     Silicone Case Samsung A32 5G Lila 1
+    Silicone Case Samsung A35 Azulrey 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Fe Negro 1
@@ -304,6 +308,7 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X3 Rojo 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
