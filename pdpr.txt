@@ -3,6 +3,7 @@
     Adaptador Hub 4 Puertos 2.0 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
+    Antena Tdt 5M 5
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Gris 2
@@ -58,6 +59,7 @@
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
     Pilas Carbon Maxday Aaa X2 30
+    Pilas Recargables Beston Aa X2 2
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
@@ -73,6 +75,7 @@
     Soporte Para Control Ps4 1
     Soporte Tv 32 -60 L400 2
     Soporte Tv Fijo 3
+    Teclado K-300 2
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
     Teclado Minikeyboard Tipo Control Tv 2

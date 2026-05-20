@@ -20,6 +20,7 @@
     Cargador We Tc 33W 10
     Disco Duro Juegos Xbox 360 1
     Forro Antichoque Apple Iphone 13 Caballero 5
+    Forro Antichoque Cadena Infinix Hot 50 Pro Plus 1
     Forro Antichoque Cadena Xiaomi Redmi Note 12 3
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Honor Magic 8 Lite Caballero 5
@@ -93,6 +94,7 @@
     Forro Lujo Samsung A06 Morado 1
     Forro Lujo Samsung A17 Transparente 1
     Forro Lujo Tecno Spark 30C Negro 1
+    Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Azul 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Azul 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Morado 1
@@ -112,6 +114,7 @@
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
+    Forro Space Infinix Hot 60 Pro Plus 3
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
     Forro Space Magsafe Samsung S25 1
@@ -150,6 +153,7 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulcielo 1
+    Silicone Case Apple Iphone 12 Pro Max Morado 1
     Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1
     Silicone Case Apple Iphone 13 Pro Max Azulrey 1
     Silicone Case Apple Iphone 13 Pro Verde 1
@@ -311,6 +315,7 @@
     Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
+    Silicone Case Xiaomi Redmi Note 12 Lila 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Morado 1

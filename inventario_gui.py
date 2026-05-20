@@ -1035,16 +1035,6 @@ class GestorInventario:
         except Exception as e:
             return [], [f"Error al leer: {e}"]
 
-    def agregar_linea(self, descripcion, cantidad):
-        try:
-            with open(self.archivo_inventario, "a", encoding="utf-8") as f:
-                f.write(f"    {descripcion} {int(cantidad)}\n")
-            return True, "Ítem agregado."
-        except ValueError:
-            return False, "Cantidad debe ser un número."
-        except Exception as e:
-            return False, f"Error: {e}"
-
     def modificar_linea(self, num_linea, desc, cant):
         try:
             lineas = self._leer_lineas_archivo()
@@ -1558,9 +1548,6 @@ class InventarioGUI:
         item_group = ttk.LabelFrame(action_frame_bottom, text="Ítems")
         item_group.pack(side=tk.LEFT, padx=10, fill=tk.Y)
 
-        ttk.Button(item_group, text="Agregar Nuevo", command=self.show_add_panel).pack(
-            pady=2, padx=5
-        )
         ttk.Button(
             item_group, text="Modificar Seleccionado", command=self.show_modify_panel
         ).pack(pady=2, padx=5)
@@ -1615,7 +1602,6 @@ class InventarioGUI:
             wraplength=250,
         ).pack(pady=20)
 
-        self.add_panel = ttk.Frame(self.action_panel, padding=10)
         self.modify_panel = ttk.Frame(self.action_panel, padding=10)
         self.adjust_panel = ttk.Frame(self.action_panel, padding=10)
         self.sale_panel = ttk.Frame(self.action_panel, padding=10)
@@ -1623,32 +1609,11 @@ class InventarioGUI:
 
         self.all_panels = [
             self.placeholder_panel,
-            self.add_panel,
             self.modify_panel,
             self.adjust_panel,
             self.sale_panel,
             self.cart_panel,
         ]
-
-        # Build Add Panel
-        ttk.Label(self.add_panel, text="Descripción:").pack(fill=tk.X)
-        self.add_desc_entry = ttk.Entry(self.add_panel)
-        self.add_desc_entry.pack(fill=tk.X, pady=(0, 5))
-
-        ttk.Label(self.add_panel, text="Cantidad Inicial:").pack(fill=tk.X)
-        self.add_cant_entry = ttk.Entry(self.add_panel)
-        self.add_cant_entry.pack(fill=tk.X, pady=(0, 10))
-
-        btn_frame_add = ttk.Frame(self.add_panel)
-        btn_frame_add.pack(fill=tk.X)
-        ttk.Button(btn_frame_add, text="Guardar", command=self._do_add_from_panel).pack(
-            side=tk.LEFT, expand=True
-        )
-        ttk.Button(
-            btn_frame_add,
-            text="Cancelar",
-            command=lambda: self.show_action_panel("close"),
-        ).pack(side=tk.LEFT, expand=True)
 
         # Build Modify Panel
         ttk.Label(self.modify_panel, text="Descripción:").pack(fill=tk.X)
@@ -1956,13 +1921,7 @@ class InventarioGUI:
         panel_to_show.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
 
     def show_action_panel(self, panel_type=None, data=None):
-        if panel_type == "add":
-            self.add_desc_entry.delete(0, tk.END)
-            self.add_cant_entry.delete(0, tk.END)
-            self._switch_action_panel(self.add_panel, "Agregar Nuevo Ítem")
-            self.add_desc_entry.focus_set()
-
-        elif panel_type == "close":
+        if panel_type == "close":
             self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
 
         elif panel_type == "modify":
@@ -2023,9 +1982,6 @@ class InventarioGUI:
             else:
                 self._switch_action_panel(self.placeholder_panel, "Panel de Acciones")
 
-    def show_add_panel(self):
-        self.show_action_panel("add")
-
     def show_modify_panel(self):
         values = self._get_selected_item_values()
         if not values:
@@ -2078,22 +2034,6 @@ class InventarioGUI:
 
         self._cart_populate_items()
         self._cart_populate_pagos()
-
-    def _do_add_from_panel(self):
-        desc = self.add_desc_entry.get().strip()
-        cant = self.add_cant_entry.get().strip()
-
-        if not desc or not cant:
-            messagebox.showerror("Error", "Ambos campos son obligatorios.")
-            return
-
-        success, message = self.gestor.agregar_linea(desc, cant)
-        if success:
-            self.populate_inventory_treeview()
-            self.show_action_panel("close")
-            messagebox.showinfo("Éxito", message)
-        else:
-            messagebox.showerror("Error", message)
 
     def _do_modify_from_panel(self):
         values = self._get_selected_item_values()
