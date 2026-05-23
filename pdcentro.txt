@@ -4,7 +4,8 @@
     Adaptador Otg Tc Cable 5
     Cargador Apple 20W Tc Cabeza 2 ok
     Cargador Apple 25W Tc Cabeza 2 ok
-    
+    Cargador Apple 20W Tc Ligthning 2 ok
+    Cargador Apple 25W Tc Ligthning 2 ok
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Pro 60 5
     Audifonos Bluetooth Speak Conduccion Osea Sk-38 1 ok
