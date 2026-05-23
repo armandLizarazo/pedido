@@ -12,6 +12,8 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Belkin Usb Ligthning 5
+    Cable Caterpillar Tc 5
+    Cable Motorola Tc 5
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
@@ -139,6 +141,7 @@
     Forro Tabletas 10P Dama 2
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg Con Aislador 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
     Memoria Kingstone Micro 16Gb 3
