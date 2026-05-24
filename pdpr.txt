@@ -1,9 +1,9 @@
     Adaptador Ext Hdmi 5
     Adaptador Hdmi2Av 1
-    Adaptador Hub 4 Puertos 2.0 2
+    Adaptador Hub 4 Puertos 2.0 2 ok
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
-    Antena Tdt 5M 5
+    Antena Tdt 5M 5 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
     Audifonos Bluetooth I12 Gris 2
@@ -14,7 +14,7 @@
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
     Cable Microsoft Xbox 360 3
-    Cable Poder Mini 3
+    Cable Poder Mini 3 ok
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
@@ -22,17 +22,18 @@
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador Pc Acer 2.37 2
+    Cargador Pc Caja Naranja 1 ok
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
     Consola Nintendo Mini 1
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Sony Ps3 Blanco 1
-    Control Gamer Sony Ps3 Negro 1
+    Control Gamer Sony Ps3 Blanco 1 ok
+    Control Gamer Sony Ps3 Negro 1 ok
     Control Gamer Sony Ps4 Fifa 1
     Control Proyector Hy-300 2
-    Control Tv Universal 5
+    Control Tv Universal 3 ok
     Dock Charging Ps4 1
     Estetica Barbera Vgr V-660 1
     Estetica Cepillo Secador Remington Aguacate 1
@@ -48,12 +49,16 @@
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
+    Mini Licuadora Un Vaso 3 ok
+    Mouse Eco 3 ok
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Jbl Charge 5 1
     Parlante Ktf-1645 2
     Parlante Pc-1053 1
     Parlante Tg S-8A Negro 1
+    Parlante Sonivox 8 Pulgadas 1 ok
+    Parlante Sonivox 6 Pulgadas 1 ok
     Parlante Tg S-8B Rojo 1
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
@@ -64,21 +69,23 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
+    Reproductor Onn Hd Azul 2 ok
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1
-    Smart Watch Combo Jl-9 Ultra 2 1
-    Smart Watch Combo K55 1
+    Smart Watch Combo Jl-9 Ultra 2 1 ok
+    Smart Watch Combo K55 1 ok
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
     Soporte Monitor Mesa 1
     Soporte Para Control Ps4 1
-    Soporte Tv 32 -60 L400 2
+    Soporte Tv 32 -65 1 ok
     Soporte Tv Fijo 3
-    Teclado K-300 2
+    Soporte Tv 50 Brazo 2 ok
+    Teclado K-300 2 ok
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Teclado Minikeyboard Tipo Control Tv 2
+    Teclado Minikeyboard Tipo Control Tv 2 ok
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1
     Video Juego Ps2 Fifa 17 1
