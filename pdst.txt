@@ -1,8 +1,8 @@
-    Bateria Samsung J7 2
-    Botones Fisicos Samsung A32 4G Negro 1
-    Logica De Carga Samsung A05 1
-    Logica de Carga Samsung A14 5G 1
+    Bateria Samsung J7 2 ok
+    Botones Fisicos Samsung A32 4G Negro 1 ok
+    Logica De Carga Samsung A05 1 ok
+    Logica de Carga Samsung A14 5G 1 ok
     Pacha Infinix Hot 60i 1
-    Pacha Samsung A05 2
+    Pacha Samsung A05 2 ok
     Pacha Zte Blade A76 5G 1
-    Tapa Samsung A32 4G Negro 1
+    Tapa Samsung A32 4G Negro 1 ok
