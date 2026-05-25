@@ -2,24 +2,13 @@
     Adaptador Bluetooth Car Bt-350 3
     Adaptador Otg Tc 5
     Adaptador Otg Tc Cable 5
-    Cargador Apple 20W Tc Cabeza 2 ok
-    Cargador Apple 25W Tc Cabeza 2 ok
-    Cargador Apple 20W Tc Ligthning 2 ok
-    Cargador Apple 25W Tc Ligthning 2 ok
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Pro 60 5
-    Audifonos Bluetooth Speak Conduccion Osea Sk-38 1 ok
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 1 ok
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
-    Cable Belkin Usb Ligthning 5 ok
-    Cable Apple Usb Ligthning 5 ok
-    Cable Belkin 3M 2 ok
-    Llaveros Figura 5 ok
-    Cable Caterpillar Tc 10 ok
     Cable Motorola Tc 5
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
@@ -127,7 +116,6 @@
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
     Forro Space Magsafe Samsung S25 1
-    Forro Space Motorola Moto G56 2 ok
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A17 1
     Forro Space Oppo A59 2
@@ -163,30 +151,23 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulclaro 1
-    Silicone Case Apple Iphone 12 Pro Max Morado 1 ok
-    Silicone Case Apple Iphone 13 / Iphone 14 Azulrey 1 ok
-    Silicone Case Apple Iphone 13 Pro Max Azulrey 1 ok
     Silicone Case Apple Iphone 13 Pro Verde 1
     Silicone Case Apple Iphone 14 Pro Max Morado 1
     Silicone Case Apple Iphone 14 Pro Max Negro 1
     Silicone Case Apple Iphone 15 Pro Max Azul 1
-    Silicone Case Apple Iphone 15 Pro Max Azulrey 1 ok
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
-    Silicone Case Huawei Honor Magic 8 Lite Lila 1 ok
-    Silicone Case Huawei Honor X5C / Play10A Negro 1 ok
-    Silicone Case Huawei Honor X7C / 200 Smart Negro 1 ok
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Lila 1
     Silicone Case Huawei Honor X8D Amarillo 1
     Silicone Case Huawei Honor X8D Fucsia 1
-    Silicone Case Huawei Honor X8D Lila 1 ok
     Silicone Case Huawei Nova 9 Lila 1
     Silicone Case Huawei Nova Y70 Fucsia 1
+    Silicone Case Huawei P30 Lite Negro 1
     Silicone Case Huawei Y7 2019 Rojo 1
     Silicone Case Huawei Y7A Fucsia 1
     Silicone Case Huawei Y7A Negro 1
@@ -205,8 +186,6 @@
     Silicone Case Infinix Hot 50 5G Azulrey 1
     Silicone Case Infinix Hot 50 5G Negro 1
     Silicone Case Infinix Hot 50 Pro Plus Negro 1
-    Silicone Case Infinix Hot 60 / Hot 60I Fucsia 1 ok
-    Silicone Case Infinix Hot 60 Pro Plus Palorosa 1 ok
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
     Silicone Case Infinix Note 30 Rosa 1
@@ -220,11 +199,9 @@
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 Amarillo 1
     Silicone Case Motorola Moto G15 Amarillo 1
-    Silicone Case Motorola Moto G20 / G30 Morado 1 ok
     Silicone Case Motorola Moto G24 / G04 Negro 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G56 Rojo 1
-    Silicone Case Motorola Moto G56 Negro 1 ok
     Silicone Case Motorola Moto G72 Amarillo 1
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
     Silicone Case Motorola Moto G8 Plus Amarillo 1
@@ -239,7 +216,6 @@
     Silicone Case Oppo A17 Fucsia 1
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A20 / A40 / A60 Lila 1
-    Silicone Case Oppo A5 Negro 1 ok
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
     Silicone Case Oppo A58 4G / A78 5G Morado 1
     Silicone Case Oppo A58 4G / A78 5G Negro 1
@@ -254,9 +230,6 @@
     Silicone Case Oppo Realme C53 / Note 50 Lila 1
     Silicone Case Oppo Realme C75 Negro 1
     Silicone Case Oppo Reno 11F Verde 1
-    Silicone Case Oppo Reno 14F Azulrey 1 ok
-    Silicone Case Oppo Reno 14F Negro 1 ok
-    Silicone Case Oppo Reno 14F Rojo 1 ok
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A10 Blanco 1
@@ -266,7 +239,6 @@
     Silicone Case Samsung A20 / A30 Verdementa 1
     Silicone Case Samsung A26 Verdebiche 1
     Silicone Case Samsung A32 5G Lila 1
-    Silicone Case Samsung A35 Azulrey 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Fe Negro 1
@@ -290,10 +262,6 @@
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Pova 7 Amarillo 1
     Silicone Case Tecno Pova 7 Fucsia 1
-    Silicone Case Tecno Pova 7 Lila 1 ok
-    Silicone Case Tecno Pova 7 Morado 1 ok
-    Silicone Case Tecno Pova 7 Negro 1 ok
-    Silicone Case Tecno Pova 7 Rojo 1 ok
     Silicone Case Tecno Spark 20 Pro / Hot 40 / Hot 40 Pro Vinotinto 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1

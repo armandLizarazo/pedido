@@ -1,8 +1,12 @@
-    Bateria Samsung J7 2 ok
-    Botones Fisicos Samsung A32 4G Negro 1 ok
-    Logica De Carga Samsung A05 1 ok
-    Logica de Carga Samsung A14 5G 1 ok
+    Camara Fontal Huawei Y9 Prime 1
+    Pacha Huawei Y9 Prime Incell 1
     Pacha Infinix Hot 60i 1
-    Pacha Samsung A05 2 ok
+    Pacha Motorola Moto Edge 50 Fusion / G85 1
+    Pacha Oppo A20 / A40 / A60 / A80 / A5 / A5 Pro 1
+    Pacha Samsung A05 1
     Pacha Zte Blade A76 5G 1
-    Tapa Samsung A32 4G Negro 1 ok
+    Pacha Zte Blade V50 Design 1
+    Tapa Huawei P30 Lite Azulclaro 1
+    Tapa Huawei Y9S Negro 1
+    Tapa Oppo A58 Aguamarina 1
+    Visor Camara Superior Oppo A40 1
