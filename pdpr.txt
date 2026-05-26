@@ -1,3 +1,4 @@
+    Adaptador Av2Vga 1
     Adaptador Ext Hdmi 5
     Adaptador Hdmi2Av 1
     Adaptador Hub Tc Usb X3 + Lan 2
@@ -59,6 +60,7 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
+    Rollo Cinta Led 10M Audioritmica 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
     Secador Remington 2003 1

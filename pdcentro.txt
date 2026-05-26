@@ -201,6 +201,8 @@
     Silicone Case Motorola Moto G15 Amarillo 1
     Silicone Case Motorola Moto G24 / G04 Negro 1
     Silicone Case Motorola Moto G42 Morado 1
+    Silicone Case Motorola Moto G56 Amarillo 1
+    Silicone Case Motorola Moto G56 Morado 1
     Silicone Case Motorola Moto G56 Rojo 1
     Silicone Case Motorola Moto G72 Amarillo 1
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
@@ -216,6 +218,7 @@
     Silicone Case Oppo A17 Fucsia 1
     Silicone Case Oppo A17 Negro 1
     Silicone Case Oppo A20 / A40 / A60 Lila 1
+    Silicone Case Oppo A20 / A40 / A60 Rojo 1
     Silicone Case Oppo A58 4G / A78 5G Amarillo 1
     Silicone Case Oppo A58 4G / A78 5G Morado 1
     Silicone Case Oppo A58 4G / A78 5G Negro 1
@@ -239,6 +242,7 @@
     Silicone Case Samsung A20 / A30 Verdementa 1
     Silicone Case Samsung A26 Verdebiche 1
     Silicone Case Samsung A32 5G Lila 1
+    Silicone Case Samsung A35 Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Fe Negro 1
