@@ -14,6 +14,7 @@
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
+    Cargador Pluying We 25w 1
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
     Disco Duro Juegos Xbox 360 1
@@ -235,6 +236,8 @@
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
+    Silicone Case Samsung A07 Azulrey 1
+    Silicone Case Samsung A07 Rojo 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
@@ -271,6 +274,7 @@
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark 30 5G Morado 1
     Silicone Case Tecno Spark 30C Rojo 1
+    Silicone Case Tecno Spark 40 4G Fucsia 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
@@ -300,6 +304,7 @@
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Lila 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 14 Pro 4G Morado 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Morado 1
     Silicone Case Xiaomi Redmi Note 15 4G Amarillo 1
@@ -312,6 +317,8 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
+    Smartphone Samsung A07 352169184248299 128/6 1
+    Smartphone Xiaomi Redmi 15C 864299087406321 256/8 2
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5

@@ -5,7 +5,10 @@
     Adaptador Otg Lightning2Usb 2
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Azulclaro 2
+    Audifonos Bluetooth I12 Azuloscuro 2
     Audifonos Bluetooth I12 Gris 2
+    Audifonos Bluetooth I12 Negro 2
+    Audifonos Bluetooth I12 Rosa 2
     Balaca Callcenter Eco 2
     Balaca Karler Kr-H2 2
     Cable Auxiliar 2 A 1 5M 3
@@ -60,6 +63,7 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
+    Reproductor Onn Eco 2
     Rollo Cinta Led 10M Audioritmica 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
