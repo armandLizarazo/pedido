@@ -5,3 +5,4 @@
     Pacha Xiaomi Redmi 14C / Redmi A4 2 ok
     Modulo Sim xiaomi Redmi Note 13 Pro 4G 1 ok
     Pacha Zte Blade A76 5G 1
+    Pacha Tecno Spark 10 Pro / Pova 5 / Hot 30 / Note 30 1 ok
