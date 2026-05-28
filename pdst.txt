@@ -1,6 +1,7 @@
     Camara Fontal Huawei Y9 Prime 1
-    Pacha Huawei Y9 Prime Incell 1
-    Pacha Infinix Hot 60i 5G 1
-    Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 2
-    Pacha Xiaomi Redmi 14C / Redmi A4 2
+    Pacha Huawei Y9 Prime Incell 1 ok
+    Pacha Infinix Hot 60i 5G 2 ok
+    Pacha Oppo Realme C61 / C63 / Note 60 / Narzo N63 2 ok
+    Pacha Xiaomi Redmi 14C / Redmi A4 2 ok
+    Modulo Sim xiaomi Redmi Note 13 Pro 4G 1 ok
     Pacha Zte Blade A76 5G 1
