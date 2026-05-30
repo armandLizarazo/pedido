@@ -15,6 +15,8 @@
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
     Cargador Pluying We 25w 1
+    Cargador Samsung 45W Cabeza Blanco 3
+    Cargador Samsung 45W Cabeza Negro 3
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
     Disco Duro Juegos Xbox 360 1
@@ -117,6 +119,7 @@
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
     Forro Space Magsafe Samsung S25 1
+    Forro Space Motorola Moto G06 2
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A17 1
     Forro Space Oppo A59 2
@@ -125,6 +128,7 @@
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
+    Forro Space Samsung A26 2
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
@@ -137,6 +141,7 @@
     Forro Tabletas 10P Dama 2
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
+    Manos Libres Samsung Akg 10
     Manos Libres Samsung Akg Con Aislador 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
@@ -253,6 +258,7 @@
     Silicone Case Samsung S21 Ultra Negro 1
     Silicone Case Samsung S22 Ultra Negro 1
     Silicone Case Samsung S23 Morado 1
+    Silicone Case Samsung S25 Fe Negro 2
     Silicone Case Tecno Camon 20 / 20 Pro Rojo 1
     Silicone Case Tecno Camon 30 4G Morado 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
@@ -317,10 +323,7 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Samsung A07 352169184247135 128/6 1 ok
-    Smartphone Xiaomi Redmi 15C 864299088770568 256/8 1 ok
-    Smartphone Xiaomi Redmi 15C 864299088763241 256/8 1 ok
-    Smartphone Infinix Hot 70 4G 353168843072354 256/8 1 ok
+    Smartphone Huawei Honor X5C 869621081907548 128/4 1
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5

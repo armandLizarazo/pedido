@@ -1,13 +1,11 @@
     Adaptador Av2Vga 1
     Adaptador Ext Hdmi 5
     Adaptador Hdmi2Av 1
+    Adaptador Hdmi2Vga Cbl 2
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Otg Lightning2Usb 2
     Audifonos Bluetooth Airpods 3 2
-    Audifonos Bluetooth I12 Blanco 2 ok
-    Audifonos Bluetooth I12 Azuloscuro 2 ok
     Audifonos Bluetooth I12 Gris 2
-    Audifonos Bluetooth I12 Negro 1 ok
     Audifonos Bluetooth I12 Rosa 2
     Balaca Callcenter Eco 2
     Balaca Karler Kr-H2 2
@@ -23,6 +21,7 @@
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador Pc Acer 2.37 2
+    Cargador Pc Asus 3.42 2
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
     Consola Nintendo Mini 1
@@ -63,8 +62,6 @@
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Eco 2 ok
-    Reproductor Tv Stick 1 ok
     Rollo Cinta Led 10M Audioritmica 1
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2
     Rollo Cinta Led Rgb Sencilla 3
