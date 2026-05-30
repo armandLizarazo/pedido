@@ -1,6 +1,6 @@
     Camara Fontal Huawei Y9 Prime 1
-    Flex Principal Motorola Moto Edge 60 Fusion 1
-    Logica de Carga Motorola Moto Edge 60 Fusion 1
-    Pacha Motorola Moto G14 / G54 / G55 3
-    Pacha Oppo A17 / A38 / A57 / A77 2
+    Flex Principal Motorola Moto Edge 60 Fusion 1 ok
+    Logica de Carga Motorola Moto Edge 60 Fusion 1 ok
+    Pacha Motorola Moto G14 / G54 / G55 3 ok
+    Pacha Oppo A17 / A38 / A57 / A77 2 ok
     Pacha Zte Blade A76 5G 1
