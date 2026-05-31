@@ -16,12 +16,16 @@
     Cable Microsoft Xbox 360 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
+    Adaptador Multitoma 6 Enchufes 1 ok
+    Extensión 6M 1 ok
+    Cargador Bahia Pantalla 2 ok
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 2
+    Cargador Pc 8 Pines Caja Naranja 1 ok
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
     Consola Nintendo Mini 1
@@ -30,7 +34,7 @@
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Fifa 1
-    Control Proyector Hy-300 1 Ram 2 ok
+    Proyector Hy-300 1 Ram 2 ok
     Dock Charging Ps4 1
     Estetica Barbera Vgr V-660 1
     Estetica Cepillo Secador Remington Aguacate 1
