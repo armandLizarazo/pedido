@@ -14,9 +14,6 @@
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
-    Cargador Pluying We 25w 2 ok
-    Cargador Pluying Mle-003 55W 2 ok
-    Cargador Pluying Harvic Pd-238-D 15W 1 ok
     Cargador Samsung 45W Cabeza Blanco 3
     Cargador Samsung 45W Cabeza Negro 3
     Cargador Smart Band M5 2
@@ -325,9 +322,6 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Huawei Honor X5C Plus 865756085828482 256/6 1 ok
-    Smartphone Zte Blade A56 Pro 868870072094508 128/4 1 ok
-    Smartphone Honor Play10 865573089113005 128/4 1 ok
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5
@@ -339,11 +333,9 @@
     Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Samsung A12 25 ok
     Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
-    Vidrio Antiespia Samsung A16 / A26 / A56 10 ok
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5
     Vidrio Antiespia Xiaomi Redmi 14C / A5 5
     Vidrio Blindado Apple Iphone 12 Mini 5
