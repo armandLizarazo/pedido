@@ -1,15 +1,15 @@
     Adaptador Av2Vga 1
     Adaptador Ext Hdmi 5
     Adaptador Hdmi2Av 1
-    Adaptador Hdmi2Vga Cbl 2
+    Adaptador Hdmi2Vga Cbl 2 ok
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Otg Lightning2Usb 2
+    Adaptador Otg Lightning2Usb 2 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Gris 2
-    Audifonos Bluetooth I12 Rosa 2
+    Audifonos Bluetooth I12 Rosa 3 ok
     Balaca Callcenter Eco 2
     Balaca Karler Kr-H2 2
-    Cable Auxiliar 2 A 1 5M 3
+    Cable Auxiliar 2 A 1 5M 2 ok
     Cable Disco Duro V8 3.0 Corto 2
     Cable Extensor Auxiliar 3.5 3 M 3
     Cable Extensor Auxiliar 3.5 5 M 2
@@ -30,7 +30,7 @@
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Fifa 1
-    Control Proyector Hy-300 2
+    Control Proyector Hy-300 1 Ram 2 ok
     Dock Charging Ps4 1
     Estetica Barbera Vgr V-660 1
     Estetica Cepillo Secador Remington Aguacate 1
