@@ -9,8 +9,10 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Cable Auxiliar 1 A 1 Cordon 5
     Cable Motorola Tc 5
     Cable Xiaomi Original Usb Tc 2
+    Cargador Apple 25W Tc Cabeza 5
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
@@ -20,6 +22,7 @@
     Cargador We Tc 33W 10
     Disco Duro Juegos Xbox 360 1
     Forro Antichoque Apple Iphone 13 Caballero 5
+    Forro Antichoque Bordecolor Samsung S25 Fe Negro 1
     Forro Antichoque Cadena Infinix Hot 50 Pro Plus 1
     Forro Antichoque Cadena Xiaomi Redmi Note 12 3
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
@@ -28,6 +31,8 @@
     Forro Antichoque Infinix Hot 30 Pro Caballero 5
     Forro Antichoque Infinix Hot 60 / Hot 60I Caballero 5
     Forro Antichoque Motorola Moto E30 / E40 Dama 4
+    Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 6
+    Forro Antichoque Motorola Moto G56 Caballero 5
     Forro Antichoque Motorola Moto G72 Caballero 3
     Forro Antichoque Motorola Moto G72 Dama 3
     Forro Antichoque Motorola Moto One Caballero 2
@@ -82,6 +87,7 @@
     Forro Armadura Xiaomi Redmi Note 10 Pro Negro 1
     Forro Armadura Xiaomi Redmi Note 14 Pro Plus 5G Negro 1
     Forro Armadura Xiaomi Redmi Note 14 Pro Plus 5G Rojo 1
+    Forro Armadura Xiaomi Redmi Note 15 Pro 4G Negro 2
     Forro Armadura Xiaomi Redmi Note 9 Negro 1
     Forro Armadura Xiaomi Redmi Note 9 Rojo 1
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Negro 1
@@ -118,9 +124,11 @@
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
     Forro Space Magsafe Samsung S25 1
+    Forro Space Motorola Moto Edge 60 Fusion 2
     Forro Space Motorola Moto G06 2
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A17 1
+    Forro Space Oppo A20 / A40 3
     Forro Space Oppo A59 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
@@ -240,12 +248,14 @@
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
+    Silicone Case Samsung A05S Morado 2
     Silicone Case Samsung A07 Azulrey 1
     Silicone Case Samsung A07 Rojo 1
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
     Silicone Case Samsung A13 Rojo 1
+    Silicone Case Samsung A17 Lila 1
     Silicone Case Samsung A20 / A30 Verdementa 1
     Silicone Case Samsung A26 Verdebiche 1
     Silicone Case Samsung A32 5G Lila 1
@@ -304,6 +314,7 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X3 Rojo 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
+    Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
@@ -313,6 +324,7 @@
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Salmon 1
     Silicone Case Xiaomi Redmi Note 14 Pro 5G Morado 1
     Silicone Case Xiaomi Redmi Note 15 4G Amarillo 1
+    Silicone Case Xiaomi Redmi Note 15 4G Rojo 2
     Silicone Case Xiaomi Redmi Note 7 Azulclaro 1
     Silicone Case Xiaomi Redmi Note 7 Azulrey 1
     Silicone Case Xiaomi Redmi Note 8 Pro Fucsia 1
@@ -325,7 +337,7 @@
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vidrio 5D Huawei Honor X7A 5
-    Vidrio 5D Huawei Honor X8B 5
+    Vidrio 5D Huawei Honor X8B / X8C / 200 Lite / 400 Lite 5
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei P30 Lite 5
     Vidrio 5D Huawei Y5 2019 5
@@ -333,7 +345,8 @@
     Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
-    Vidrio 5D Xiaomi Redmi Note 10S / Note 11 / Note 12S / A52 / A53 / S20 Fe 10
+    Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 25
+    Vidrio 5D Xiaomi Redmi Note 13 / Note 14 25
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5

@@ -185,6 +185,7 @@
           PieChart,
           Pie,
           Cell,
+          ComposedChart,
         } = Recharts;
 
         // --- COMPONENTES UI ---
@@ -416,6 +417,10 @@
           const [imgError, setImgError] = useState(false);
           const [viewMode, setViewMode] = useState("day");
           const [monthTableFilter, setMonthTableFilter] = useState("");
+
+          // --- NUEVOS ESTADOS PARA PRODUCTO INDIVIDUAL ---
+          const [selectedProduct, setSelectedProduct] = useState("");
+          const [productViewMode, setProductViewMode] = useState("month"); // 'day' | 'week' | 'month' | 'year'
 
           // --- CONFIGURACIÓN DE FECHAS POR DEFECTO ---
           const [filters, setFilters] = useState(() => {
@@ -902,6 +907,100 @@
               maximumFractionDigits: 0,
             }).format(val);
 
+          // --- LÓGICA DE ANÁLISIS INDIVIDUAL DE PRODUCTO ---
+          const availableProducts = useMemo(() => {
+            if (!data) return [];
+            return Array.from(new Set(data.map((d) => d.descripcion))).sort();
+          }, [data]);
+
+          useEffect(() => {
+            if (
+              availableProducts.length > 0 &&
+              (!selectedProduct || !availableProducts.includes(selectedProduct))
+            ) {
+              setSelectedProduct(availableProducts[0]);
+            }
+          }, [availableProducts, selectedProduct]);
+
+          const productDataRaw = useMemo(() => {
+            if (!selectedProduct) return [];
+            return filteredData.filter(
+              (d) => d.descripcion === selectedProduct,
+            );
+          }, [filteredData, selectedProduct]);
+
+          const productAggregated = useMemo(() => {
+            const groups = {};
+            productDataRaw.forEach((item) => {
+              if (isNaN(item.timestamp.getTime())) return;
+              let key, label;
+              const d = item.timestamp;
+
+              if (productViewMode === "day") {
+                key = formatDateForInput(d);
+                label = d.toLocaleDateString("es-CO");
+              } else if (productViewMode === "week") {
+                // Aproximación simple a semana
+                const firstDayOfYear = new Date(d.getFullYear(), 0, 1);
+                const pastDaysOfYear = (d - firstDayOfYear) / 86400000;
+                const weekNum = Math.ceil(
+                  (pastDaysOfYear + firstDayOfYear.getDay() + 1) / 7,
+                );
+                key = `${d.getFullYear()}-W${String(weekNum).padStart(2, "0")}`;
+                label = `Semana ${weekNum}, ${d.getFullYear()}`;
+              } else if (productViewMode === "month") {
+                key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}`;
+                const displayDate = d.toLocaleDateString("es-CO", {
+                  month: "short",
+                  year: "numeric",
+                });
+                label =
+                  displayDate.charAt(0).toUpperCase() + displayDate.slice(1);
+              } else if (productViewMode === "year") {
+                key = `${d.getFullYear()}`;
+                label = key;
+              }
+
+              if (!groups[key]) {
+                groups[key] = {
+                  key,
+                  date: label,
+                  cantidad: 0,
+                  costo: 0,
+                  venta: 0,
+                  ganancia: 0,
+                };
+              }
+              groups[key].cantidad += item.cantidad;
+              groups[key].costo += item.costoUnitario * item.cantidad;
+              groups[key].venta += item.totalVenta;
+              groups[key].ganancia += item.ganancia;
+            });
+            return Object.values(groups).sort((a, b) =>
+              a.key.localeCompare(b.key),
+            );
+          }, [productDataRaw, productViewMode]);
+
+          const productKPIs = useMemo(() => {
+            const totalVentas = productDataRaw.reduce(
+              (acc, curr) => acc + curr.totalVenta,
+              0,
+            );
+            const totalCostos = productDataRaw.reduce(
+              (acc, curr) => acc + curr.costoUnitario * curr.cantidad,
+              0,
+            );
+            const totalGanancia = productDataRaw.reduce(
+              (acc, curr) => acc + curr.ganancia,
+              0,
+            );
+            const totalCantidad = productDataRaw.reduce(
+              (acc, curr) => acc + curr.cantidad,
+              0,
+            );
+            return { totalVentas, totalCostos, totalGanancia, totalCantidad };
+          }, [productDataRaw]);
+
           // Renderizado personalizado para marcar Puntos Máximos (Verde) y Mínimos (Rojo)
           const renderCustomDot = (extremeType) => (props) => {
             const { cx, cy, payload } = props;
@@ -1172,7 +1271,7 @@
                   </div>
                 </Card>
 
-                {/* KPIs */}
+                {/* KPIs (3 Columnas Centradas) */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <StatCard
                     title="Ventas Totales"
@@ -1182,11 +1281,11 @@
                     colorClass="bg-green-500"
                   />
                   <StatCard
-                    title="Ganancia Neta"
-                    value={formatMoney(stats.totalGanancia)}
-                    subtext={`Margen: ${stats.totalVentas > 0 ? ((stats.totalGanancia / stats.totalVentas) * 100).toFixed(1) : 0}%`}
-                    icon={TrendingUp}
-                    colorClass="bg-blue-500"
+                    title="Costos Totales"
+                    value={formatMoney(stats.totalCostos)}
+                    subtext={`Margen general: ${stats.totalVentas > 0 ? ((stats.totalGanancia / stats.totalVentas) * 100).toFixed(1) : 0}%`}
+                    icon={Package}
+                    colorClass="bg-orange-500"
                   />
                   <StatCard
                     title="Promedio Diario Utilidad"
@@ -1575,6 +1674,212 @@
                         </tfoot>
                       </table>
                     </div>
+                  </Card>
+                </div>
+
+                {/* --- NUEVO DASHBOARD: ANÁLISIS INDIVIDUAL DE PRODUCTO --- */}
+                <div className="space-y-6">
+                  <Card className="flex flex-col">
+                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 border-b pb-4 border-gray-100">
+                      <div>
+                        <h3 className="text-xl font-bold text-blue-800 flex items-center gap-2">
+                          <Package className="w-6 h-6" />
+                          Análisis de Comportamiento por Producto
+                        </h3>
+                        <p className="text-sm text-gray-500 mt-1">
+                          Selecciona un producto para visualizar su rendimiento
+                          dentro del rango de fechas filtrado arriba.
+                        </p>
+                      </div>
+                      <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto bg-gray-50 p-3 rounded-lg border border-gray-200">
+                        <div className="flex flex-col">
+                          <label className="text-xs font-bold text-gray-500 uppercase mb-1">
+                            Elegir Producto
+                          </label>
+                          <select
+                            className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none min-w-[200px] md:max-w-[300px] font-medium text-slate-700 shadow-sm"
+                            value={selectedProduct}
+                            onChange={(e) => setSelectedProduct(e.target.value)}
+                          >
+                            {availableProducts.map((p) => (
+                              <option key={p} value={p}>
+                                {p}
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+                        <div className="flex flex-col">
+                          <label className="text-xs font-bold text-gray-500 uppercase mb-1">
+                            Agrupar gráfico por
+                          </label>
+                          <div className="flex bg-gray-200 p-1 rounded-md shadow-inner">
+                            <button
+                              onClick={() => setProductViewMode("day")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${productViewMode === "day" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Día
+                            </button>
+                            <button
+                              onClick={() => setProductViewMode("week")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${productViewMode === "week" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Sem.
+                            </button>
+                            <button
+                              onClick={() => setProductViewMode("month")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${productViewMode === "month" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Mes
+                            </button>
+                            <button
+                              onClick={() => setProductViewMode("year")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${productViewMode === "year" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Año
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* KPIs del Producto Especifico */}
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                      <div className="bg-purple-50 p-4 rounded-xl border border-purple-100 shadow-sm">
+                        <p className="text-xs font-bold text-purple-600 uppercase flex items-center gap-1">
+                          <Package className="w-3 h-3" /> Unid. Vendidas
+                        </p>
+                        <p className="text-2xl font-black text-purple-900 mt-2">
+                          {productKPIs.totalCantidad}
+                        </p>
+                      </div>
+                      <div className="bg-orange-50 p-4 rounded-xl border border-orange-100 shadow-sm">
+                        <p className="text-xs font-bold text-orange-600 uppercase flex items-center gap-1">
+                          <Activity className="w-3 h-3" /> Costo Total
+                        </p>
+                        <p className="text-2xl font-black text-orange-900 mt-2">
+                          {formatMoney(productKPIs.totalCostos)}
+                        </p>
+                      </div>
+                      <div className="bg-blue-50 p-4 rounded-xl border border-blue-100 shadow-sm">
+                        <p className="text-xs font-bold text-blue-600 uppercase flex items-center gap-1">
+                          <DollarSign className="w-3 h-3" /> Venta Total
+                        </p>
+                        <p className="text-2xl font-black text-blue-900 mt-2">
+                          {formatMoney(productKPIs.totalVentas)}
+                        </p>
+                      </div>
+                      <div className="bg-green-50 p-4 rounded-xl border border-green-100 shadow-sm relative overflow-hidden">
+                        <div className="absolute right-0 top-0 opacity-10">
+                          <TrendingUp className="w-24 h-24" />
+                        </div>
+                        <p className="text-xs font-bold text-green-600 uppercase flex items-center gap-1">
+                          <TrendingUp className="w-3 h-3" /> Utilidad / Margen
+                        </p>
+                        <div className="flex items-baseline gap-2 mt-2">
+                          <p className="text-2xl font-black text-green-900">
+                            {formatMoney(productKPIs.totalGanancia)}
+                          </p>
+                          <span className="text-sm font-bold text-green-700 bg-green-200 px-2 py-0.5 rounded-full">
+                            {productKPIs.totalVentas > 0
+                              ? (
+                                  (productKPIs.totalGanancia /
+                                    productKPIs.totalVentas) *
+                                  100
+                                ).toFixed(1)
+                              : 0}
+                            %
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Gráfico del Producto */}
+                    {productAggregated.length > 0 ? (
+                      <div className="h-96 w-full">
+                        <ResponsiveContainer width="100%" height="100%">
+                          <ComposedChart
+                            data={productAggregated}
+                            margin={{ top: 20, right: 30, left: 20, bottom: 5 }}
+                          >
+                            <CartesianGrid
+                              strokeDasharray="3 3"
+                              vertical={false}
+                            />
+                            <XAxis dataKey="date" tick={{ fontSize: 11 }} />
+                            <YAxis
+                              yAxisId="left"
+                              tickFormatter={(val) => `$${val / 1000}k`}
+                              tick={{ fontSize: 11 }}
+                            />
+                            {/* Eje secundario (derecha) para Unidades */}
+                            <YAxis
+                              yAxisId="right"
+                              orientation="right"
+                              tick={{ fontSize: 11 }}
+                            />
+                            <Tooltip
+                              formatter={(value, name) => [
+                                name === "Unidades"
+                                  ? value
+                                  : formatMoney(value),
+                                name,
+                              ]}
+                            />
+                            <Legend />
+
+                            {/* Barras de fondo para las cantidades (Se leen en el eje derecho) */}
+                            <Bar
+                              yAxisId="right"
+                              dataKey="cantidad"
+                              name="Unidades"
+                              fill="#c084fc"
+                              opacity={0.6}
+                              barSize={40}
+                              radius={[4, 4, 0, 0]}
+                            />
+
+                            {/* Líneas financieras (Se leen en el eje izquierdo) */}
+                            <Line
+                              yAxisId="left"
+                              type="monotone"
+                              dataKey="venta"
+                              name="Ventas"
+                              stroke="#3b82f6"
+                              strokeWidth={3}
+                              dot={{ r: 4 }}
+                              activeDot={{ r: 6 }}
+                            />
+                            <Line
+                              yAxisId="left"
+                              type="monotone"
+                              dataKey="costo"
+                              name="Costos"
+                              stroke="#f97316"
+                              strokeWidth={2}
+                              dot={{ r: 3 }}
+                              strokeDasharray="5 5"
+                            />
+                            <Line
+                              yAxisId="left"
+                              type="monotone"
+                              dataKey="ganancia"
+                              name="Utilidad"
+                              stroke="#22c55e"
+                              strokeWidth={3}
+                              dot={{ r: 4 }}
+                              activeDot={{ r: 6 }}
+                            />
+                          </ComposedChart>
+                        </ResponsiveContainer>
+                      </div>
+                    ) : (
+                      <div className="h-64 flex items-center justify-center bg-gray-50 rounded-xl border border-dashed border-gray-300">
+                        <p className="text-gray-500 font-medium">
+                          No hay registros de este producto en el rango de
+                          fechas seleccionado.
+                        </p>
+                      </div>
+                    )}
                   </Card>
                 </div>
 
