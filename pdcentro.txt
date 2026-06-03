@@ -12,12 +12,12 @@
     Cable Auxiliar 1 A 1 Cordon 5
     Cable Motorola Tc 5
     Cable Xiaomi Original Usb Tc 2
-    Cargador Apple 25W Tc Cabeza 5
+    Cargador Apple 25W Tc Cabeza 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
     Cargador Samsung 45W Cabeza Blanco 3
-    Cargador Samsung 45W Cabeza Negro 3
+    Cargador Samsung 45W Cabeza Negro 3 ok
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
     Disco Duro Juegos Xbox 360 1
@@ -56,8 +56,8 @@
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y38 Dama 5
     Forro Antichoque Xiaomi Poco X3 Caballero 5
-    Forro Antichoque Xiaomi Redmi 14C Dama 3
-    Forro Antichoque Xiaomi Redmi Note 12 Dama 3
+    Forro Antichoque Xiaomi Redmi 14C Dama 3 ok
+    Forro Antichoque Xiaomi Redmi Note 12 Dama 3 ok
     Forro Armadura Huawei Honor X8D Negro 1
     Forro Armadura Huawei Honor X8D Rojo 1
     Forro Armadura Lg K61 Rojo 1
@@ -101,11 +101,11 @@
     Forro Lujo Samsung A17 Transparente 1
     Forro Lujo Tecno Spark 30C Negro 1
     Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Azul 1
-    Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 1
-    Forro Lujo Ventana Apple Iphone 14 Pro Max Azul 1
+    Forro Lujo Ventana Apple Iphone 13 Pro Max Gris 1 ok
+    Forro Lujo Ventana Apple Iphone 14 Pro Max Gris 1 ok
     Forro Lujo Ventana Apple Iphone 14 Pro Max Morado 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Negro 1
-    Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1
+    Forro Lujo Ventana Apple Iphone 17 Pro Max Azul 1 ok
     Forro Lujo Ventana Iphone 12 Pro Max Negro 1
     Forro Lujo Ventana Samsung A15 Morado 1
     Forro Lujo Ventana Samsung A16 Azul 1
@@ -115,27 +115,27 @@
     Forro Lujo Ventana Samsung A35 Negro 1
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
     Forro Space Apple Iphone Xs Max 2
-    Forro Space Huawei Honor Magic 8 Lite 2
-    Forro Space Huawei Honor X5C X5C / Play10A 2
+    Forro Space Huawei Honor Magic 8 Lite 2 ok
+    Forro Space Huawei Honor X5C / Play10A 2
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
-    Forro Space Infinix Hot 60 Pro Plus 3
+    Forro Space Infinix Hot 60 Pro Plus 3 ok
     Forro Space Magsafe Apple Iphone 16 Pro 1
     Forro Space Magsafe Apple Iphone 16 Pro Max 1
-    Forro Space Magsafe Samsung S25 1
-    Forro Space Motorola Moto Edge 60 Fusion 2
-    Forro Space Motorola Moto G06 2
+    Forro Space Magsafe Samsung S25 3 ok
+    Forro Space Motorola Moto Edge 60 Fusion 4 ok
+    Forro Space Motorola Moto G06 3 ok
     Forro Space Motorola Moto G9 Plus 2
     Forro Space Oppo A17 1
-    Forro Space Oppo A20 / A40 3
+    Forro Space Oppo A20 / A40 4 ok
     Forro Space Oppo A59 2
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
     Forro Space Oppo Reno 14F 1
     Forro Space Oppo Reno 6 Lite 3
-    Forro Space Samsung A26 2
+    Forro Space Samsung A26 3 ok
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
     Forro Space Vivo V30 Lite 1
@@ -148,7 +148,7 @@
     Forro Tabletas 10P Dama 2
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
-    Manos Libres Samsung Akg 10
+    Manos Libres Samsung Akg 15 ok
     Manos Libres Samsung Akg Con Aislador 5
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
@@ -159,18 +159,18 @@
     Multilector De Memorias Tc - Usb 2
     Parlante Ktf-1645 2
     Parlante Perro 1
-    Pilas Recargables Sony Aa X4 Con Cargador 2
+    Pilas Recargables Sony Aa X4 Con Cargador 2 ok
     Power Bank Oczu Solar Opb-011 10000 Mah Cables 1
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulclaro 1
     Silicone Case Apple Iphone 13 Pro Verde 1
-    Silicone Case Apple Iphone 14 Pro Max Morado 1
+    Silicone Case Apple Iphone 14 Pro Max Morado 1 ok
     Silicone Case Apple Iphone 14 Pro Max Negro 1
-    Silicone Case Apple Iphone 15 Pro Max Azul 1
+    Silicone Case Apple Iphone 15 Pro Max Azul 1 ok
     Silicone Case Apple Iphone 17 Amarillo 1
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
-    Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1
+    Silicone Case Apple Iphone 7 / Iphone 8 Rosa 1 ok
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
@@ -196,14 +196,14 @@
     Silicone Case Infinix Hot 30 Play Negro 1
     Silicone Case Infinix Hot 30 Play Rojo 1
     Silicone Case Infinix Hot 50 5G Amarillo 1
-    Silicone Case Infinix Hot 50 5G Azulrey 1
+    Silicone Case Infinix Hot 50 5G Azulrey 1 ok
     Silicone Case Infinix Hot 50 5G Negro 1
     Silicone Case Infinix Hot 50 Pro Plus Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
     Silicone Case Infinix Note 30 Rosa 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
-    Silicone Case Infinix Note 50S Negro 1
+    Silicone Case Infinix Note 50S Negro 1 ok
     Silicone Case Infinix Note 50S Rojo 1
     Silicone Case Iphone 12 / 12 Pro Verde 1
     Silicone Case Lg K51S Negro 1
@@ -215,7 +215,7 @@
     Silicone Case Motorola Moto G24 / G04 Negro 1
     Silicone Case Motorola Moto G42 Morado 1
     Silicone Case Motorola Moto G56 Amarillo 1
-    Silicone Case Motorola Moto G56 Morado 1
+    Silicone Case Motorola Moto G56 Morado 1 ok
     Silicone Case Motorola Moto G56 Rojo 1
     Silicone Case Motorola Moto G72 Amarillo 1
     Silicone Case Motorola Moto G8 Play / One Macro Negro 1
@@ -257,9 +257,9 @@
     Silicone Case Samsung A13 Rojo 1
     Silicone Case Samsung A17 Lila 1
     Silicone Case Samsung A20 / A30 Verdementa 1
-    Silicone Case Samsung A26 Verdebiche 1
+    Silicone Case Samsung A26 Verdebiche 1 ok
     Silicone Case Samsung A32 5G Lila 1
-    Silicone Case Samsung A35 Negro 1
+    Silicone Case Samsung A35 Negro 1 ok
     Silicone Case Samsung Galaxy Note 10 Plus Negro 1
     Silicone Case Samsung Galaxy Note 10 Plus Rojo 1
     Silicone Case Samsung S20 Fe Negro 1
