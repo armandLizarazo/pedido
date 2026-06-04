@@ -116,7 +116,7 @@
     Forro Lujo Xiaomi Redmi Note 13 Pro 5G / Poco X6 Negro 1
     Forro Space Apple Iphone Xs Max 2
     Forro Space Huawei Honor Magic 8 Lite 2 ok
-    Forro Space Huawei Honor X5C / Play10A 2
+    Forro Space Huawei Honor X5C / Play10A 4 ok
     Forro Space Huawei Honor X8D 2
     Forro Space Huawei Y9A 2
     Forro Space Infinix Hot 30 Play 2
@@ -133,7 +133,7 @@
     Forro Space Oppo Realme 13 Pro 2
     Forro Space Oppo Realme 15T 2
     Forro Space Oppo Realme C75 2
-    Forro Space Oppo Reno 14F 1
+    Forro Space Oppo Reno 14F 1 ok
     Forro Space Oppo Reno 6 Lite 3
     Forro Space Samsung A26 3 ok
     Forro Space Samsung A71 2
@@ -197,14 +197,14 @@
     Silicone Case Infinix Hot 30 Play Rojo 1
     Silicone Case Infinix Hot 50 5G Amarillo 1
     Silicone Case Infinix Hot 50 5G Azulrey 1 ok
-    Silicone Case Infinix Hot 50 5G Negro 1
+    Silicone Case Infinix Hot 50 5G Negro 1 ok
     Silicone Case Infinix Hot 50 Pro Plus Negro 1
     Silicone Case Infinix Hot 60 Pro Plus Vinotinto 1
     Silicone Case Infinix Note 30 Pro Azulrey 1
     Silicone Case Infinix Note 30 Rosa 1
     Silicone Case Infinix Note 50 Pro Amarillo 1
-    Silicone Case Infinix Note 50S Negro 1 ok
-    Silicone Case Infinix Note 50S Rojo 1
+    Silicone Case Infinix Note 50S Negro 2 ok
+    Silicone Case Infinix Note 50S Rojo 1 ok
     Silicone Case Iphone 12 / 12 Pro Verde 1
     Silicone Case Lg K51S Negro 1
     Silicone Case Lg K61 Amarillo 1
