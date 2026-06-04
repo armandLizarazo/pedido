@@ -10,5 +10,6 @@
     Pacha Zte Blade A76 5G 1
     Pacha Zte Blade A35 / A55 1 ok
     Pacha Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I 1
-    Pacha Samsung A25 Amoled 1
+    Pacha Samsung A25 Amoled 1 ok
+    Tapa Samsung A25 Amarillo 1 ok
 
