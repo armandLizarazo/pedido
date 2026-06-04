@@ -14,10 +14,12 @@
     Cable Microsoft Xbox 360 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
+    Pad Mouse Almohadilla 3 ok
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
+    Camara De Accion 4K 2 ok
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 2
     Cargador Pc Lenovo 65W Plug 1
@@ -29,7 +31,7 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Fifa 1
     Dock Charging Ps4 1
-    Estetica Barbera Vgr V-660 3
+    Estetica Barbera Vgr V-660 3 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
@@ -40,36 +42,53 @@
     Google Nest Mini 1
     Humidificador Madera 1
     Lonchera Carro 1
+    Consola Game Stick + Tv Stick Caja Roja 2 ok
+    Lampara Esfera Giratoria 5 ok
     Maleta Computador 2
     Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
+    Mouse Gamer Xmg-02 Inalambrico 1 ok
+    Mouse Gamer Cable G-960 1 ok
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Barra V70 2
-    Parlante Jbl Charge 5 1
+    Parlante Jbl Charge 5 2 ok
+    Parlante Ktx-1475 1 ok
+    Parlante Tg-699 Rojo 1 ok
+    Parlante Tg-699 Negro 1 okt
+    Parlante Tg-699 Azul 1 ok
     Parlante Ktf-1645 2
     Parlante Pc-1053 1
-    Parlante Sonivox 6 Pulgadas 2
+    Parlante Sonivox 6 Pulgadas 2 ok
+    Parlante Sonivox 8 Pulgadas 1 ok
     Parlante Tg S-8A Negro 1
     Parlante Tg S-8B Rojo 1
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
+    Pilas Carbon Maxday Aa X4 10 ok
+    Pilas Carbon Maxday Aaa X4 10 ok
     Pilas Carbon Maxday Aaa X2 30
     Pilas Recargables Beston Aa X2 2
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
+    Soporte Celular K-18 3 ok
     Proyector Hy-300 1 Ram 4 ok
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
-    Reproductor Onn Hd Azul 2
+    Reproductor Onn Hd Azul 2 ok
+    Reproductor Onn 4K 1 ok
     Reproductor Tdt Quality 3
+    Reproductor Tdt Nanotec Nt-7310 2 ok
     Rollo Cinta Led 10M Audioritmica 1
+    Rollo Cinta Led 10M Sencilla 4 ok
     Rollo Cinta Led Rgb Con Bluetooth Y Luz Blanca 2 ok
     Rollo Cinta Led Rgb Sencilla 3 ok
     Secador Remington 2003 1
+    Smart Watch Combo X8 1 ok
+    Smart Watch Combo Jl-9 Ultra 2 1 ok
     Soporte Celular K-18 2
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
@@ -77,6 +96,9 @@
     Soporte Nephoo Tripode Camara-Celular Np-3180 1
     Soporte Para Control Ps4 1
     Soporte Tv Fijo 3
+    Soporte Tv 55P X-400 4 ok
+    Hogar Quita Pelos 1 ok
+    Soporte Tv Fijo 42p 2 ok
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
     Vaper Asokit 20000 Puffs 2
