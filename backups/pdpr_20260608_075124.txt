@@ -19,7 +19,7 @@
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
-    Camara 3 Antenas 3
+    Camara 3 Antenas 2
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador 5V 2A Doble Punta 4

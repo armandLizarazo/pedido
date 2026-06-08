@@ -2,9 +2,7 @@
     Adaptador Hdmi2Vga Cbl 5
     Adaptador Hub Tc Usb X3 2
     Adaptador Hub Tc Usb X3 + Lan 2
-    Adaptador Usb Sata 2.0 2
-    Adaptador Usb Sata 3.0 2
-    Adaptador Usb Sata 3.0 Tc Y Usb 2
+    Adaptador Usb Sata 2.0 1
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Gris 2
     Balaca Callcenter Eco 2
@@ -19,7 +17,6 @@
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
-    Camara 3 Antenas 3
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador 5V 2A Doble Punta 4
@@ -34,7 +31,6 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Blanco 1
     Control Gamer Sony Ps4 Fifa 1
-    Control Tv Samsung Plano 2
     Dock Charging Ps4 1
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
@@ -61,8 +57,6 @@
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
     Pilas Carbon Maxday Aaa X2 30
-    Pilas Carbon Maxday Aaa X4 20
-    Pilas Recargables Beston Aa X 4 Con Cargador 3
     Pilas Recargables Beston Aa X2 4
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
@@ -81,7 +75,6 @@
     Soporte Tv Fijo 3
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Tijeras Wmark 1
     Vaper Asokit 20000 Puffs 2
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1

@@ -19,7 +19,6 @@
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
-    Camara 3 Antenas 3
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador 5V 2A Doble Punta 4
@@ -81,7 +80,6 @@
     Soporte Tv Fijo 3
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Tijeras Wmark 1
     Vaper Asokit 20000 Puffs 2
     Video Juego Ps2 2
     Video Juego Ps2 Call Of Duty 1

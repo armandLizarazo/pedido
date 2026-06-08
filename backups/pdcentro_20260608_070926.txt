@@ -24,9 +24,6 @@
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
     Cargador Pluying Yc-18 38W 2
-    Cargador Samsung 25W Cabeza Blanco 3
-    Cargador Samsung 25W Cabeza Negro 3
-    Cargador Samsung 25W Con Cable Blanco 3
     Cargador Samsung 45W Cabeza Blanco 3
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
@@ -150,7 +147,6 @@
     Forro Space Xiaomi Redmi Note 15 4G 2
     Forro Space Xiaomi Redmi Note 15 Pro 4G 2
     Forro Tabletas 10P Dama 2
-    Guantes Gamer 10
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
     Manos Libres Samsung Akg 10
@@ -170,7 +166,6 @@
     Pulso Banda M5 Negro 3
     Silicone Case Apple Iphone 11 Pro Cafe 1
     Silicone Case Apple Iphone 12 Mini Azulclaro 1
-    Silicone Case Apple Iphone 12 Negro 1
     Silicone Case Apple Iphone 13 Pro Max Rojo 2
     Silicone Case Apple Iphone 13 Pro Verde 1
     Silicone Case Apple Iphone 14 Pro Max Negro 1
@@ -180,7 +175,6 @@
     Silicone Case Apple Iphone 7 / Iphone 8 Blanco 1
     Silicone Case Apple Iphone Xr Amarillo 1
     Silicone Case Huawei Honor 400 Smart / X7D Lila 1
-    Silicone Case Huawei Honor 90 5G Azuloscuro 1
     Silicone Case Huawei Honor Magic 8 Lite Amarillo 1
     Silicone Case Huawei Honor X8C Blanco 1
     Silicone Case Huawei Honor X8C Lila 1
@@ -253,7 +247,6 @@
     Silicone Case Oppo Realme C75 Negro 1
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Oppo Reno 12 Negro 1
-    Silicone Case Oppo Reno 7 Rosa 1
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A05S Morado 2
@@ -327,7 +320,6 @@
     Silicone Case Xiaomi Redmi 14C Morado 1
     Silicone Case Xiaomi Redmi 9 Lila 1
     Silicone Case Xiaomi Redmi 9 Rojo 1
-    Silicone Case Xiaomi Redmi Note 10 Pro 4G Negro 1
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
     Silicone Case Xiaomi Redmi Note 12 Lila 1
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
@@ -359,7 +351,6 @@
     Vidrio 5D Oppo Reno 11F 5
     Vidrio 5D Xiaomi Redmi 10 25
     Vidrio 5D Xiaomi Redmi 12 / Redmi 13 25
-    Vidrio 5D Xiaomi Redmi 14C / A5 25
     Vidrio 5D Xiaomi Redmi Note 12 / G05 / G15 / Oppo A80 / A79 25
     Vidrio 5D Xiaomi Redmi Note 13 / Note 14 25
     Vidrio Antiespia Apple Iphone 12 Mini 5
@@ -368,7 +359,6 @@
     Vidrio Antiespia Xiaomi Redmi 14C / A5 5
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
-    Vidrio Blindado Xiaomi Redmi 14C / A5 10
     Vidrio Blindado Xiaomi Redmi 15C 15
     Vidrio Camara Xiaomi Redmi 13 15
     Vidrio Camara Xiaomi Redmi 13C 15
