@@ -12,24 +12,33 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Cable Auxiliar 1 A 1 Cordon 5
-    Cable Caterpillar V8 10
-    Cable Motorola Tc 5
-    Cable We Tc 5
-    Cable We V8 10
+    Cable Caterpillar V8 4 ok
+    Cable Motorola Tc 5 ok
+    Cable We Tc 5 ok
+    Cable We V8 10 ok
     Cable Xiaomi Original Usb Tc 2
-    Cargador Apple 20W Con Cable 3
-    Cargador Apple 20W Tc Cabeza 5
-    Cargador Apple 5V Eco 5
+    Cargador Apple 20W Con Cable 5 ok
+    Cargador Apple 20W Tc Cabeza 5 ok
+    Cargador Apple 5V Eco 5 ok
     Cargador Fuente 360 Slim 1
     Cargador Magsafe 1
     Cargador Pluying Km C-19 60W 1
     Cargador Pluying Yc-18 38W 2
-    Cargador Samsung 25W Cabeza Blanco 3
-    Cargador Samsung 25W Cabeza Negro 3
+    Cargador Pluying 48W 2 ok
+    Modulador Alison A-171 1 ok
+    Modulador We We-09 1 ok
+    Cargador Pluying 33w -024 1 ok
+    Cargador Samsung 25W Cabeza Blanco 3 ok
+    Cargador Samsung 25W Cabeza Negro 3 ok
+    Cargador Samsung 25W Con Cable Negro 1 ok
+    Cargador Samsung 25W Con Cable Blanco 1 ok
+    Cargador Samsung 45W Cabeza Negro 1 ok
+    Cargador Samsung 45W Cabeza Blanco 1 ok
     Cargador Samsung 25W Con Cable Blanco 3
     Cargador Samsung 45W Cabeza Blanco 3
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
+    Cargador W V8 5 ok
     Control Gamer Microsoft Xbox 360 Inalambrico 4
     Disco Duro Juegos Xbox 360 1
     Forro Antichoque Apple Iphone 13 Caballero 5
@@ -153,9 +162,9 @@
     Guantes Gamer 10
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
-    Manos Libres Samsung Akg 10
+    Manos Libres Samsung Akg 10 ok
     Manos Libres Samsung Akg Con Aislador 5
-    Manos Libres Samsung J5 Negro 10
+    Manos Libres Samsung J5 Blanco 10 ok
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
     Memoria Kingstone Micro 16Gb 3
