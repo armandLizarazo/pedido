@@ -28,7 +28,7 @@
     Adaptador Hdmi2Dpp 0
     Adaptador Hdmi2Dvi 0
     Adaptador Hdmi2Vga 0
-    Adaptador Hdmi2Vga Cbl 0
+    Adaptador Hdmi2Vga Cbl 1
     Adaptador Hdmi2Vga Cja 1
     Adaptador Hdmi2Vga Cja Macho 0
     Adaptador Hub + Hdmi Y Lan 0
@@ -60,8 +60,8 @@
     Adaptador Otg Tc Y Micro 1
     Adaptador Otg Tc2Ligthning 0
     Adaptador Otg Usb Tc 0
-    Adaptador Plug 3.5 A Media Mono 0
-    Adaptador Plug 3.5 A Media St 0
+    Adaptador Plug 3.5 A Media Mono 3
+    Adaptador Plug 3.5 A Media St 2
     Adaptador Rca2Plug3.5 0
     Adaptador Spliter Audio 1 Hembra 2 Machos Cbl 1
     Adaptador Spliter Audio 1 Macho 2 Hembras 2
@@ -89,7 +89,7 @@
     Adaptador Usb Lan 2.0 1
     Adaptador Usb Lan 3.0 1
     Adaptador Usb Sata 2.0 1
-    Adaptador Usb Sata 3.0 2
+    Adaptador Usb Sata 3.0 1
     Adaptador Usb Sata 3.0 Tc Y Usb 1
     Adaptador Usb2Hdmi 1
     Adaptador Usb2Vga Cable 0
@@ -168,7 +168,7 @@
     Audifonos Bluetooth Pro 2 Pantalla 0
     Audifonos Bluetooth Pro 5D Rosa 0
     Audifonos Bluetooth Pro 5S Blanco 1
-    Audifonos Bluetooth Pro 5S Negro 1
+    Audifonos Bluetooth Pro 5S Negro 0
     Audifonos Bluetooth Pro 5S Rosa 1
     Audifonos Bluetooth Pro 60 1
     Audifonos Bluetooth Royal Sports Rt-1933 1
@@ -214,7 +214,7 @@
     Balaca Karler Kr-H2 0
     Balaca Luces Rosa 0
     Balaca Naisu S-437 Gris 0
-    Balaca Naisu S-437 Negro 0
+    Balaca Naisu S-437 Negro 1
     Balaca Naisu S-437 Rojo 1
     Balaca Naisu S-437 Verde 0
     Balaca Pantalla Azul 0
@@ -370,7 +370,7 @@
     Cable Apple Tc A Tc 2
     Cable Apple Tc A Tc 2M 2
     Cable Apple Tc A Tc 60W Aguja 2
-    Cable Apple Tc Ligthning 2
+    Cable Apple Tc Ligthning 1
     Cable Apple Tc Ligthning 2M 2
     Cable Apple Tc Ligthning Colores 3
     Cable Apple Usb Ligthning 2
@@ -1151,11 +1151,11 @@
     Forro Antichoque Motorola Moto E7 Power 0
     Forro Antichoque Motorola Moto E7 Power Caballero 2
     Forro Antichoque Motorola Moto E7 Power Dama 4
-    Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Caballero 2
-    Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Dama 0
+    Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Caballero 3
+    Forro Antichoque Motorola Moto Edge 30 Neo / Edge 30 Lite Dama 3
     Forro Antichoque Motorola Moto Edge 50 Fusion / Moto G85 Caballero 3
     Forro Antichoque Motorola Moto Edge 60 Fusion Caballero 0
-    Forro Antichoque Motorola Moto Edge 60 Fusion Dama 0
+    Forro Antichoque Motorola Moto Edge 60 Fusion Dama 5
     Forro Antichoque Motorola Moto G04 / G24 Caballero 4
     Forro Antichoque Motorola Moto G04 / G24 Dama 7
     Forro Antichoque Motorola Moto G04 Dama 1
@@ -1310,7 +1310,7 @@
     Forro Antichoque Pin Infinix Hot 50 4G 0
     Forro Antichoque Pin Infinix Hot 60 / Hot 60I 1
     Forro Antichoque Pin Motorola Moto E13 1
-    Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 0
+    Forro Antichoque Pin Motorola Moto Edge 50 Fusion / Moto G85 3
     Forro Antichoque Pin Motorola Moto G14 2
     Forro Antichoque Pin Motorola Moto G15 2
     Forro Antichoque Pin Motorola Moto G20 / G30 1
@@ -1702,9 +1702,9 @@
     Forro Armadura Motorola Moto E30 / E40 Rojo 1
     Forro Armadura Motorola Moto E30 / E40 Verdemilitar 1
     Forro Armadura Motorola Moto Edge 50 Fusion / Moto G85 Negro 1
-    Forro Armadura Motorola Moto Edge 50 Fusion / Moto G85 Rojo 0
-    Forro Armadura Motorola Moto Edge 50 Pro Negro 0
-    Forro Armadura Motorola Moto Edge 50 Pro Rojo 0
+    Forro Armadura Motorola Moto Edge 50 Fusion / Moto G85 Rojo 1
+    Forro Armadura Motorola Moto Edge 50 Pro Negro 1
+    Forro Armadura Motorola Moto Edge 50 Pro Rojo 1
     Forro Armadura Motorola Moto Edge 60 Fusion Negro 0
     Forro Armadura Motorola Moto Edge 60 Fusion Rojo 0
     Forro Armadura Motorola Moto G04 / G24 Negro 1
@@ -2062,14 +2062,14 @@
     Forro Lujo Ventana Apple Iphone 13 / Iphone 14 Negro 1
     Forro Lujo Ventana Apple Iphone 13 Pro Max Azul 0
     Forro Lujo Ventana Apple Iphone 13 Pro Max Cafe 0
-    Forro Lujo Ventana Apple Iphone 13 Pro Max Gris 1
+    Forro Lujo Ventana Apple Iphone 13 Pro Max Gris 2
     Forro Lujo Ventana Apple Iphone 13 Pro Max Morado 0
     Forro Lujo Ventana Apple Iphone 13 Pro Max Negro 0
     Forro Lujo Ventana Apple Iphone 14 Negro 0
     Forro Lujo Ventana Apple Iphone 14 Pro Azul 1
     Forro Lujo Ventana Apple Iphone 14 Pro Cafe 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Azul 0
-    Forro Lujo Ventana Apple Iphone 14 Pro Max Gris 0
+    Forro Lujo Ventana Apple Iphone 14 Pro Max Gris 1
     Forro Lujo Ventana Apple Iphone 14 Pro Max Morado 0
     Forro Lujo Ventana Apple Iphone 14 Pro Max Negro 0
     Forro Lujo Ventana Apple Iphone 14 Pro Morado 1
@@ -2261,18 +2261,18 @@
     Forro Space Magsafe Samsung S24 0
     Forro Space Magsafe Samsung S25 1
     Forro Space Magsafe Samsung S25 Ultra 1
-    Forro Space Motorola Edge 50 Pro 0
+    Forro Space Motorola Edge 50 Pro 2
     Forro Space Motorola Moto E20 0
     Forro Space Motorola Moto E22 / E22I 2
     Forro Space Motorola Moto E22I 0
     Forro Space Motorola Moto E30 / E40 2
-    Forro Space Motorola Moto Edge 30 0
-    Forro Space Motorola Moto Edge 30 Fusion 0
-    Forro Space Motorola Moto Edge 30 Neo / Edge 30 Lite 0
-    Forro Space Motorola Moto Edge 40 0
-    Forro Space Motorola Moto Edge 40 Neo 0
-    Forro Space Motorola Moto Edge 50 Fusion / Moto G85 0
-    Forro Space Motorola Moto Edge 60 Fusion 2
+    Forro Space Motorola Moto Edge 30 2
+    Forro Space Motorola Moto Edge 30 Fusion 1
+    Forro Space Motorola Moto Edge 30 Neo / Edge 30 Lite 1
+    Forro Space Motorola Moto Edge 40 2
+    Forro Space Motorola Moto Edge 40 Neo 1
+    Forro Space Motorola Moto Edge 50 Fusion / Moto G85 2
+    Forro Space Motorola Moto Edge 60 Fusion 1
     Forro Space Motorola Moto G04 0
     Forro Space Motorola Moto G05 0
     Forro Space Motorola Moto G05 / Moto E15 1
@@ -2879,7 +2879,7 @@
     Masajeador 0
     Memoria Kingston Micro 4Gb 3
     Memoria Kingston Micro 8Gb 3
-    Memoria Kingston Usb 16Gb 3
+    Memoria Kingston Usb 16Gb 2
     Memoria Kingston Usb 32Gb Original 0
     Memoria Kingston Usb 4Gb 4
     Memoria Kingston Usb 8Gb 4
@@ -3463,7 +3463,7 @@
     Power Bank Yoyos 20000 Mah Con Cables 0
     Power Bank Yoyos Ys-700 10000 Mah 0
     Power Bank Yoyos Ys-701 10000 Mah 0
-    Power Bank Yoyos Ys-702 20000 Mah 0
+    Power Bank Yoyos Ys-702 20000 Mah 1
     Power Bank Yoyos Ys-704 30000 Mah 1
     Producto De Prueba 3 0
     Protector Teclado 15P 0
@@ -3911,7 +3911,7 @@
     Silicone Case Apple Iphone 14 Pro Max Azulrey 1
     Silicone Case Apple Iphone 14 Pro Max Fucsia 1
     Silicone Case Apple Iphone 14 Pro Max Lila 1
-    Silicone Case Apple Iphone 14 Pro Max Morado 0
+    Silicone Case Apple Iphone 14 Pro Max Morado 1
     Silicone Case Apple Iphone 14 Pro Max Negro 0
     Silicone Case Apple Iphone 14 Pro Max Rojo 1
     Silicone Case Apple Iphone 14 Pro Negro 1
@@ -4652,55 +4652,55 @@
     Silicone Case Motorola Moto E7 2020 Negro 1
     Silicone Case Motorola Moto E7 2020 Rojo 1
     Silicone Case Motorola Moto E7 2020 Vinotinto 1
-    Silicone Case Motorola Moto Edge 30 Fucsia 0
+    Silicone Case Motorola Moto Edge 30 Fucsia 1
     Silicone Case Motorola Moto Edge 30 Lila 0
     Silicone Case Motorola Moto Edge 30 Negro 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Amarillo 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Azul 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Azulclaro 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Lila 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Negro 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Rojo 0
-    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Rosa 0
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Amarillo 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Azul 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Azulclaro 2
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Fucsia 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Lila 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Negro 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Rojo 1
+    Silicone Case Motorola Moto Edge 30 Neo / Edge 30 Lite Rosa 1
     Silicone Case Motorola Moto Edge 30 Rojo 0
     Silicone Case Motorola Moto Edge 30 Verde Militar 0
-    Silicone Case Motorola Moto Edge 40 Amarillo 0
+    Silicone Case Motorola Moto Edge 40 Amarillo 1
     Silicone Case Motorola Moto Edge 40 Azuloscuro 0
-    Silicone Case Motorola Moto Edge 40 Azulrey 0
-    Silicone Case Motorola Moto Edge 40 Fucsia 0
-    Silicone Case Motorola Moto Edge 40 Lila 0
-    Silicone Case Motorola Moto Edge 40 Morado 0
+    Silicone Case Motorola Moto Edge 40 Azulrey 1
+    Silicone Case Motorola Moto Edge 40 Fucsia 1
+    Silicone Case Motorola Moto Edge 40 Lila 1
+    Silicone Case Motorola Moto Edge 40 Morado 1
     Silicone Case Motorola Moto Edge 40 Negro 1
-    Silicone Case Motorola Moto Edge 40 Neo 0
-    Silicone Case Motorola Moto Edge 40 Neo Amarillo 0
-    Silicone Case Motorola Moto Edge 40 Neo Azulrey 0
+    Silicone Case Motorola Moto Edge 40 Neo Amarillo 1
+    Silicone Case Motorola Moto Edge 40 Neo Azulrey 1
     Silicone Case Motorola Moto Edge 40 Neo Fucsia 0
-    Silicone Case Motorola Moto Edge 40 Neo Rojo 0
-    Silicone Case Motorola Moto Edge 40 Neo Rosa 0
-    Silicone Case Motorola Moto Edge 40 Rojo 0
-    Silicone Case Motorola Moto Edge 40 Rosa 0
-    Silicone Case Motorola Moto Edge 40 Verdebiche 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Amarillo 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Azulrey 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 0
-    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 0
-    Silicone Case Motorola Moto Edge 50 Pro Azulrey 0
-    Silicone Case Motorola Moto Edge 50 Pro Lila 0
-    Silicone Case Motorola Moto Edge 50 Pro Negro 0
+    Silicone Case Motorola Moto Edge 40 Neo Negro 2
+    Silicone Case Motorola Moto Edge 40 Neo Rojo 1
+    Silicone Case Motorola Moto Edge 40 Neo Rosa 1
+    Silicone Case Motorola Moto Edge 40 Rojo 1
+    Silicone Case Motorola Moto Edge 40 Rosa 1
+    Silicone Case Motorola Moto Edge 40 Verdebiche 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Amarillo 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Azulrey 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Fucsia 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Lila 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Morado 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Negro 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rojo 1
+    Silicone Case Motorola Moto Edge 50 Fusion / Moto G85 Rosa 1
+    Silicone Case Motorola Moto Edge 50 Pro Azulrey 1
+    Silicone Case Motorola Moto Edge 50 Pro Lila 1
+    Silicone Case Motorola Moto Edge 50 Pro Negro 1
     Silicone Case Motorola Moto Edge 50 Pro Palorosa 0
-    Silicone Case Motorola Moto Edge 50 Pro Rojo 0
-    Silicone Case Motorola Moto Edge 50 Pro Rosa 0
-    Silicone Case Motorola Moto Edge 60 Fusion Amarillo 0
-    Silicone Case Motorola Moto Edge 60 Fusion Azulrey 0
-    Silicone Case Motorola Moto Edge 60 Fusion Fucsia 0
-    Silicone Case Motorola Moto Edge 60 Fusion Lila 0
-    Silicone Case Motorola Moto Edge 60 Fusion Negro 0
-    Silicone Case Motorola Moto Edge 60 Fusion Rojo 0
+    Silicone Case Motorola Moto Edge 50 Pro Rojo 1
+    Silicone Case Motorola Moto Edge 50 Pro Rosa 1
+    Silicone Case Motorola Moto Edge 60 Fusion Amarillo 1
+    Silicone Case Motorola Moto Edge 60 Fusion Azulrey 1
+    Silicone Case Motorola Moto Edge 60 Fusion Fucsia 1
+    Silicone Case Motorola Moto Edge 60 Fusion Lila 1
+    Silicone Case Motorola Moto Edge 60 Fusion Negro 1
+    Silicone Case Motorola Moto Edge 60 Fusion Rojo 1
     Silicone Case Motorola Moto G04 Amarillo 1
     Silicone Case Motorola Moto G04 Azulrey 0
     Silicone Case Motorola Moto G04 Negro 0
@@ -6732,14 +6732,14 @@
     Silicone Motorola Moto G8 Power Lite Rojo 0
     Simcard Claro 3
     Simcard Claro Preactiva 1
-    Simcard Movistar 1
+    Simcard Movistar 0
     Simcard Tigo 2
     Simcard Virgin 1
     Simcard Wom 0
     Sin Registro 0
     Smart Tv Tg 43 Pulgadas 0
     Smart Watch Combo Jl-9 Ultra 1
-    Smart Watch Combo Jl-9 Ultra 2 0
+    Smart Watch Combo Jl-9 Ultra 2 1
     Smart Watch Combo K13 0
     Smart Watch Combo K32 0
     Smart Watch Combo K55 0
