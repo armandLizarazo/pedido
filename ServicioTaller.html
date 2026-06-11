@@ -863,26 +863,49 @@ Sin Forro ni simcard</textarea
               </div>
             </div>
 
-            <button
-              id="btn-save"
-              onclick="saveAndPrint()"
-              class="w-full py-4 bg-slate-800 text-white rounded-xl shadow-lg hover:bg-slate-700 transition-all active:scale-[0.98] flex items-center justify-center gap-3 font-bold text-lg group"
-            >
-              <svg
-                class="w-6 h-6 group-hover:animate-pulse"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+            <div class="flex flex-col sm:flex-row gap-3">
+              <button
+                id="btn-save-only"
+                onclick="saveOrder(false)"
+                class="flex-1 py-4 bg-slate-600 text-white rounded-xl shadow-lg hover:bg-slate-500 transition-all active:scale-[0.98] flex items-center justify-center gap-3 font-bold text-base group"
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"
-                />
-              </svg>
-              <span id="btn-save-text">Guardar e Imprimir</span>
-            </button>
+                <svg
+                  class="w-6 h-6 group-hover:animate-pulse"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
+                  />
+                </svg>
+                <span id="btn-save-only-text">Solo Guardar</span>
+              </button>
+
+              <button
+                id="btn-save"
+                onclick="saveOrder(true)"
+                class="flex-1 py-4 bg-slate-800 text-white rounded-xl shadow-lg hover:bg-slate-700 transition-all active:scale-[0.98] flex items-center justify-center gap-3 font-bold text-base group"
+              >
+                <svg
+                  class="w-6 h-6 group-hover:animate-pulse"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"
+                  />
+                </svg>
+                <span id="btn-save-text">Guardar e Imprimir</span>
+              </button>
+            </div>
 
             <button
               id="btn-cancel-edit"
@@ -1665,9 +1688,8 @@ Sin Forro ni simcard</textarea
         const latestBalances = {};
         accounts.forEach((a) => (latestBalances[a] = 0));
 
-        const sortedDB = [...db].sort(
-          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-        );
+        // Optimize sorting by avoiding slow Date parsing in the comparator
+        const sortedDB = [...db].sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
 
         accounts.forEach((acc) => {
           const latestRecord = sortedDB.find((m) => m.account === acc);
@@ -1708,12 +1730,13 @@ Sin Forro ni simcard</textarea
           return;
         }
 
-        const displayDB = [...filteredDB].sort(
-          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
-        );
+        // Optimize sorting by avoiding Date parsing
+        const displayDB = [...filteredDB].sort((a, b) => (b.date > a.date ? 1 : b.date < a.date ? -1 : 0));
 
+        // Optimize DOM insertion by building the entire HTML string first
+        let rowsHTML = "";
         displayDB.forEach((m) => {
-          tbody.innerHTML += `
+          rowsHTML += `
                     <tr class="hover:bg-slate-50 transition-colors">
                         <td class="px-4 py-3 text-xs text-slate-500 whitespace-nowrap">${new Date(m.date).toLocaleDateString()}</td>
                         <td class="px-4 py-3 text-xs"><span class="bg-slate-100 font-bold text-slate-600 px-2 py-1 rounded border border-slate-200 whitespace-nowrap">${m.account}</span></td>
@@ -1727,6 +1750,7 @@ Sin Forro ni simcard</textarea
                     </tr>
                 `;
         });
+        tbody.innerHTML = rowsHTML;
       }
 
       // --- AUTO-COMPLETADO ---
@@ -2565,8 +2589,10 @@ Sin Forro ni simcard</textarea
           }
 
           if (currentSort.column === "date") {
-            valA = new Date(valA).getTime();
-            valB = new Date(valB).getTime();
+            // ISO 8601 strings can be compared lexicographically without Date parsing overhead
+            if (valA < valB) return currentSort.order === "asc" ? -1 : 1;
+            if (valA > valB) return currentSort.order === "asc" ? 1 : -1;
+            return 0;
           }
 
           if (valA < valB) return currentSort.order === "asc" ? -1 : 1;
@@ -2582,6 +2608,7 @@ Sin Forro ni simcard</textarea
           return;
         }
 
+        const fragment = document.createDocumentFragment();
         filtered.forEach((order) => {
           const balance = order.total - order.deposit;
 
@@ -2611,8 +2638,9 @@ Sin Forro ni simcard</textarea
                         </div>
                     </td>
                 `;
-          tbody.appendChild(row);
+          fragment.appendChild(row);
         });
+        tbody.appendChild(fragment);
       }
 
       // --- GESTIÓN DE FORMULARIO ---
@@ -2674,6 +2702,8 @@ Sin Forro ni simcard</textarea
         document.getElementById("edit-badge").classList.remove("hidden");
         document.getElementById("btn-save-text").textContent =
           "Guardar Cambios e Imprimir";
+        document.getElementById("btn-save-only-text").textContent =
+          "Guardar Cambios";
         document.getElementById("btn-cancel-edit").classList.remove("hidden");
 
         switchView("form");
@@ -2693,6 +2723,8 @@ Sin Forro ni simcard</textarea
         document.getElementById("edit-badge").classList.add("hidden");
         document.getElementById("btn-save-text").textContent =
           "Guardar e Imprimir";
+        document.getElementById("btn-save-only-text").textContent =
+          "Solo Guardar";
         document.getElementById("btn-cancel-edit").classList.add("hidden");
 
         document.getElementById("inp-name").value = "";
@@ -2886,7 +2918,7 @@ Sin Forro ni simcard</textarea
       initPattern();
 
       // --- GUARDAR E IMPRIMIR ---
-      function saveAndPrint() {
+      function saveOrder(shouldPrint) {
         const currentId = document.getElementById("inp-ticket").value;
         const ticketNumber =
           currentId ||
@@ -2928,7 +2960,9 @@ Sin Forro ni simcard</textarea
         };
 
         saveToDB(orderData);
-        printTicketData(orderData);
+        if (shouldPrint) {
+          printTicketData(orderData);
+        }
 
         if (!currentId) {
           setTimeout(() => location.reload(), 1000);
@@ -3068,6 +3102,14 @@ Sin Forro ni simcard</textarea
 
         const finDate = document.getElementById("fin-date");
         if (finDate) finDate.value = formatDateOnly(new Date());
+
+        const finFilterMonth = document.getElementById("fin-filter-month");
+        if (finFilterMonth && !finFilterMonth.value) {
+          const now = new Date();
+          const year = now.getFullYear();
+          const month = String(now.getMonth() + 1).padStart(2, '0');
+          finFilterMonth.value = `${year}-${month}`;
+        }
 
         renderFinance();
       });

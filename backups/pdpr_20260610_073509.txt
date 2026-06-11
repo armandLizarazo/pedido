@@ -26,7 +26,6 @@
     Cargador 5V 2A Doble Punta 4
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 2
-    Cargador Pc Hp Punta Azul 3
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
     Consola Nintendo Mini 1
@@ -52,7 +51,6 @@
     Memoria Musica Vallenata Reliquias Vallenatas 1
     Mini Licuadora Doble Vaso 2
     Mini Licuadora Un Vaso 2
-    Mouse Ergonomico D5 Inalambrico 3600 Dpi 2
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Barra V70 2
@@ -72,9 +70,7 @@
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
     Reproductor Onn 4K 1
-    Reproductor Tdt Nanotec Nt-7310 3
     Reproductor Tdt Quality 3
-    Reproductor Tdt Tg 3
     Rollo Cinta Led 10M Audioritmica 1
     Secador Remington 2003 1
     Soporte Celular K-18 2
@@ -84,12 +80,10 @@
     Soporte Nephoo Tripode Camara-Celular Np-3180 1
     Soporte Para Control Ps4 1
     Soporte Tv 55P X-400 5
-    Soporte Tv 70 Brazo 2
+    Soporte Tv 70 Brazo 1
     Soporte Tv Fijo 3
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Televisor Smart Tv Tg Android 32P 2
-    Televisor Smart Tv Tg Android 43P 2
     Tijeras Wmark 1
     Vaper Asokit 20000 Puffs 2
     Video Juego Ps2 2

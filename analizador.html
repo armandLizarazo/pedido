@@ -418,8 +418,11 @@
           const [viewMode, setViewMode] = useState("day");
           const [monthTableFilter, setMonthTableFilter] = useState("");
 
-          // --- NUEVOS ESTADOS PARA PRODUCTO INDIVIDUAL ---
+          // --- NUEVOS ESTADOS PARA PRODUCTO INDIVIDUAL Y CATEGORÍAS ---
+          const [analysisMode, setAnalysisMode] = useState("product"); // 'product' | 'category'
           const [selectedProduct, setSelectedProduct] = useState("");
+          const [selectedCategory, setSelectedCategory] = useState("");
+          const [categoryFilter, setCategoryFilter] = useState("Todas");
           const [productViewMode, setProductViewMode] = useState("month"); // 'day' | 'week' | 'month' | 'year'
 
           // --- CONFIGURACIÓN DE FECHAS POR DEFECTO ---
@@ -907,11 +910,20 @@
               maximumFractionDigits: 0,
             }).format(val);
 
-          // --- LÓGICA DE ANÁLISIS INDIVIDUAL DE PRODUCTO ---
+          // --- LÓGICA DE ANÁLISIS INDIVIDUAL DE PRODUCTO Y CATEGORÍA ---
+          const availableCategories = useMemo(() => {
+            if (!data) return [];
+            return Array.from(new Set(data.map((d) => d.categoria))).sort();
+          }, [data]);
+
           const availableProducts = useMemo(() => {
             if (!data) return [];
-            return Array.from(new Set(data.map((d) => d.descripcion))).sort();
-          }, [data]);
+            let filtered = data;
+            if (categoryFilter && categoryFilter !== "Todas") {
+              filtered = data.filter((d) => d.categoria === categoryFilter);
+            }
+            return Array.from(new Set(filtered.map((d) => d.descripcion))).sort();
+          }, [data, categoryFilter]);
 
           useEffect(() => {
             if (
@@ -922,16 +934,28 @@
             }
           }, [availableProducts, selectedProduct]);
 
-          const productDataRaw = useMemo(() => {
-            if (!selectedProduct) return [];
-            return filteredData.filter(
-              (d) => d.descripcion === selectedProduct,
-            );
-          }, [filteredData, selectedProduct]);
+          useEffect(() => {
+            if (
+              availableCategories.length > 0 &&
+              (!selectedCategory || !availableCategories.includes(selectedCategory))
+            ) {
+              setSelectedCategory(availableCategories[0]);
+            }
+          }, [availableCategories, selectedCategory]);
+
+          const analysisDataRaw = useMemo(() => {
+            if (analysisMode === "product") {
+              if (!selectedProduct) return [];
+              return filteredData.filter((d) => d.descripcion === selectedProduct);
+            } else {
+              if (!selectedCategory) return [];
+              return filteredData.filter((d) => d.categoria === selectedCategory);
+            }
+          }, [filteredData, analysisMode, selectedProduct, selectedCategory]);
 
           const productAggregated = useMemo(() => {
             const groups = {};
-            productDataRaw.forEach((item) => {
+            analysisDataRaw.forEach((item) => {
               if (isNaN(item.timestamp.getTime())) return;
               let key, label;
               const d = item.timestamp;
@@ -979,27 +1003,27 @@
             return Object.values(groups).sort((a, b) =>
               a.key.localeCompare(b.key),
             );
-          }, [productDataRaw, productViewMode]);
+          }, [analysisDataRaw, productViewMode]);
 
           const productKPIs = useMemo(() => {
-            const totalVentas = productDataRaw.reduce(
+            const totalVentas = analysisDataRaw.reduce(
               (acc, curr) => acc + curr.totalVenta,
               0,
             );
-            const totalCostos = productDataRaw.reduce(
+            const totalCostos = analysisDataRaw.reduce(
               (acc, curr) => acc + curr.costoUnitario * curr.cantidad,
               0,
             );
-            const totalGanancia = productDataRaw.reduce(
+            const totalGanancia = analysisDataRaw.reduce(
               (acc, curr) => acc + curr.ganancia,
               0,
             );
-            const totalCantidad = productDataRaw.reduce(
+            const totalCantidad = analysisDataRaw.reduce(
               (acc, curr) => acc + curr.cantidad,
               0,
             );
             return { totalVentas, totalCostos, totalGanancia, totalCantidad };
-          }, [productDataRaw]);
+          }, [analysisDataRaw]);
 
           // Renderizado personalizado para marcar Puntos Máximos (Verde) y Mínimos (Rojo)
           const renderCustomDot = (extremeType) => (props) => {
@@ -1677,37 +1701,101 @@
                   </Card>
                 </div>
 
-                {/* --- NUEVO DASHBOARD: ANÁLISIS INDIVIDUAL DE PRODUCTO --- */}
+                {/* --- NUEVO DASHBOARD: ANÁLISIS INDIVIDUAL DE PRODUCTO Y CATEGORÍA --- */}
                 <div className="space-y-6">
                   <Card className="flex flex-col">
-                    <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6 gap-4 border-b pb-4 border-gray-100">
+                    <div className="flex flex-col xl:flex-row justify-between items-start xl:items-center mb-6 gap-4 border-b pb-4 border-gray-100">
                       <div>
                         <h3 className="text-xl font-bold text-blue-800 flex items-center gap-2">
                           <Package className="w-6 h-6" />
-                          Análisis de Comportamiento por Producto
+                          Análisis de Comportamiento por {analysisMode === "product" ? "Producto" : "Categoría"}
                         </h3>
                         <p className="text-sm text-gray-500 mt-1">
-                          Selecciona un producto para visualizar su rendimiento
-                          dentro del rango de fechas filtrado arriba.
+                          Selecciona un {analysisMode === "product" ? "producto" : "categoría"} para visualizar su rendimiento dentro del rango de fechas filtrado arriba.
                         </p>
                       </div>
-                      <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto bg-gray-50 p-3 rounded-lg border border-gray-200">
+                      <div className="flex flex-col sm:flex-row flex-wrap gap-4 w-full xl:w-auto bg-gray-50 p-3 rounded-lg border border-gray-200 items-end">
+                        
+                        {/* Selector de modo */}
                         <div className="flex flex-col">
                           <label className="text-xs font-bold text-gray-500 uppercase mb-1">
-                            Elegir Producto
+                            Analizar por
                           </label>
-                          <select
-                            className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none min-w-[200px] md:max-w-[300px] font-medium text-slate-700 shadow-sm"
-                            value={selectedProduct}
-                            onChange={(e) => setSelectedProduct(e.target.value)}
-                          >
-                            {availableProducts.map((p) => (
-                              <option key={p} value={p}>
-                                {p}
-                              </option>
-                            ))}
-                          </select>
+                          <div className="flex bg-gray-200 p-1 rounded-md shadow-inner">
+                            <button
+                              onClick={() => setAnalysisMode("product")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${analysisMode === "product" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Producto
+                            </button>
+                            <button
+                              onClick={() => setAnalysisMode("category")}
+                              className={`px-3 py-1 text-xs font-bold rounded transition-all ${analysisMode === "category" ? "bg-white text-blue-600 shadow" : "text-gray-500 hover:text-gray-700"}`}
+                            >
+                              Categoría
+                            </button>
+                          </div>
                         </div>
+
+                        {/* Filtro de Categoría (solo visible en modo producto) */}
+                        {analysisMode === "product" && (
+                          <div className="flex flex-col">
+                            <label className="text-xs font-bold text-gray-500 uppercase mb-1">
+                              Filtrar por Categoría
+                            </label>
+                            <select
+                              className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none min-w-[150px] max-w-[200px] font-medium text-slate-700 shadow-sm bg-white"
+                              value={categoryFilter}
+                              onChange={(e) => setCategoryFilter(e.target.value)}
+                            >
+                              <option value="Todas">Todas las categorías</option>
+                              {availableCategories.map((c) => (
+                                <option key={c} value={c}>
+                                  {c}
+                                </option>
+                              ))}
+                            </select>
+                          </div>
+                        )}
+
+                        {/* Selector dinámico de Producto o Categoría */}
+                        {analysisMode === "product" ? (
+                          <div className="flex flex-col">
+                            <label className="text-xs font-bold text-gray-500 uppercase mb-1">
+                              Elegir Producto
+                            </label>
+                            <select
+                              className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none min-w-[200px] max-w-[300px] font-medium text-slate-700 shadow-sm bg-white"
+                              value={selectedProduct}
+                              onChange={(e) => setSelectedProduct(e.target.value)}
+                            >
+                              {availableProducts.map((p) => (
+                                <option key={p} value={p}>
+                                  {p}
+                                </option>
+                              ))}
+                            </select>
+                          </div>
+                        ) : (
+                          <div className="flex flex-col">
+                            <label className="text-xs font-bold text-gray-500 uppercase mb-1">
+                              Elegir Categoría
+                            </label>
+                            <select
+                              className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:ring-2 focus:ring-blue-500 outline-none min-w-[200px] max-w-[300px] font-medium text-slate-700 shadow-sm bg-white"
+                              value={selectedCategory}
+                              onChange={(e) => setSelectedCategory(e.target.value)}
+                            >
+                              {availableCategories.map((c) => (
+                                <option key={c} value={c}>
+                                  {c}
+                                </option>
+                              ))}
+                            </select>
+                          </div>
+                        )}
+
+                        {/* Agrupación temporal del gráfico */}
                         <div className="flex flex-col">
                           <label className="text-xs font-bold text-gray-500 uppercase mb-1">
                             Agrupar gráfico por
@@ -1875,8 +1963,7 @@
                     ) : (
                       <div className="h-64 flex items-center justify-center bg-gray-50 rounded-xl border border-dashed border-gray-300">
                         <p className="text-gray-500 font-medium">
-                          No hay registros de este producto en el rango de
-                          fechas seleccionado.
+                          No hay registros de este {analysisMode === "product" ? "producto" : "categoría"} en el rango de fechas seleccionado.
                         </p>
                       </div>
                     )}
