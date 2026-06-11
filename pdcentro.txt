@@ -248,8 +248,8 @@
     Silicone Case Samsung A03 Core Negro 1
     Silicone Case Samsung A03 Core Rojo 1
     Silicone Case Samsung A05S Morado 2
-    Silicone Case Samsung A07 Azulrey 1
-    Silicone Case Samsung A07 Rojo 1
+    Silicone Case Samsung A07 Azulrey 1 ok
+    Silicone Case Samsung A07 Rojo 1 ok
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
@@ -314,12 +314,12 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X3 Rojo 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 9 Lila 1
+    Silicone Case Xiaomi Redmi 9 Lila 1 ok
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi Note 10 Pro 4G Negro 1
-    Silicone Case Xiaomi Redmi Note 11 Fucsia 2
+    Silicone Case Xiaomi Redmi Note 11 Fucsia 2 ok
     Silicone Case Xiaomi Redmi Note 12 Azulrey 1
-    Silicone Case Xiaomi Redmi Note 12 Lila 1
+    Silicone Case Xiaomi Redmi Note 12 Lila 1 ok
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
     Silicone Case Xiaomi Redmi Note 14 Pro 4G Morado 1
