@@ -62,7 +62,6 @@
     Navaja Cuchillas Barberia 2
     Teclado K-300 3 ok
     Soporte Tv 55P X-400 3 ok
-    
     Barbera Cable 1 ok
     Palo Selfie Xt-02 2
     Parlante Barra V70 2
@@ -83,7 +82,7 @@
     Smart Watch Combo Jl-9 Ultra 2 1 ok
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
-    Proyector 1 Ram Caja Verde 1 ok
+    Proyector Hy-320 1 Ram Caja Verde 1 ok
     Reproductor Alexa Reloj 1
     Reproductor Onn 4K 1
     Reproductor Tdt Nanotec Nt-7310 3 ok
