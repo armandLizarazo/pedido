@@ -1,10 +1,10 @@
     Adaptador Ext Hdmi 5
-    Adaptador Hdmi2Vga Cbl 5
-    Adaptador Hub Tc Usb X3 2
+    Adaptador Hdmi2Vga Cbl 5 ok
+    Adaptador Hub Tc Usb X3 2 ok
     Adaptador Hub Tc Usb X3 + Lan 2
     Adaptador Usb Sata 2.0 2
     Adaptador Usb Sata 3.0 2
-    Adaptador Usb Sata 3.0 Tc Y Usb 2
+    Adaptador Usb Sata 3.0 Tc Y Usb 2 ok
     Audifonos Bluetooth Airpods 3 2
     Audifonos Bluetooth I12 Gris 2
     Audifonos Bluetooth Pro 5S Negro 2
@@ -12,21 +12,21 @@
     Balaca Karler Kr-H2 2
     Cable Disco Duro V8 3.0 Corto 2
     Cable Extensor Auxiliar 3.5 3 M 3
-    Cable Extensor Usb Macho Hembra 1.5M 3
-    Cable Extensor Usb Macho Hembra 2M 3
-    Cable Extensor Usb Macho Hembra 5M 3
+    Cable Extensor Usb Macho Hembra 1.5M 3 ok
+    Cable Extensor Usb Macho Hembra 3M 3 ok
+    Cable Extensor Usb Macho Hembra 5M 3 ok
     Cable Microsoft Xbox 360 3
     Cable Usb A Punta Negra 3
     Cable Vga 15M 2
     Calculadora Casio Hl-820Lv 1
     Calculadora Cientifica Casio 82Es 1
-    Camara 3 Antenas 3
+    Camara 3 Antenas 5
     Camara De Solapa 1
     Camara Robotica Wifi Bombillo 2
     Cargador 5V 2A Doble Punta 4
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 2
-    Cargador Pc Hp Punta Azul 3
+    Cargador Pc Hp Punta Azul 3 ok
     Cargador Pc Lenovo 65W Plug 1
     Consola Ness Mini 1
     Consola Nintendo Mini 1
@@ -41,7 +41,7 @@
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
-    Extensión 6M 1
+    Extensión 6M 2 ok
     Forro Pc 16 Pulgadas 2
     Google Nest Mini 1
     Humidificador Madera 1
