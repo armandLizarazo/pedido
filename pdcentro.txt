@@ -4,7 +4,7 @@
     Adaptador Otg Usb Tc 5
     Audifonos Bluetooth Conduccion Osea Ch-205 1
     Audifonos Bluetooth Harvic Bt-543 Ii Blanco 1
-    Audifonos Bluetooth Harvic Bt-543 Ii Morado 1
+    Audifonos Bluetooth Harvic Bt-543 Ii Lila 1 ok
     Audifonos Bluetooth Pro 60 5
     Audifonos Bluetooth We Conduccion Osea We-206 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
@@ -12,6 +12,8 @@
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
+    Manos Libres Tc Yoyos Ys-112 Blanco 1 ok
+    Manos Libres Tc Yoyos Ys-112 Negro 1 ok
     Cable Auxiliar 1 A 1 Cordon 5
     Cable Xiaomi Original Usb Tc 2
     Cargador Belkin Tc 5
@@ -23,7 +25,7 @@
     Cargador Samsung 45W Cabeza Blanco 3
     Cargador Smart Band M5 2
     Cargador We Tc 33W 10
-    Control Gamer Microsoft Xbox 360 Inalambrico 4
+    Control Gamer Microsoft Xbox 360 Inalambrico 4 ok
     Disco Duro Juegos Xbox 360 1
     Forro Antichoque Apple Iphone 13 Caballero 5
     Forro Antichoque Bordecolor Samsung S25 Fe Negro 1
@@ -254,7 +256,7 @@
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A13 Negro 1
     Silicone Case Samsung A13 Rojo 1
-    Silicone Case Samsung A17 Lila 1
+    Silicone Case Samsung A17 Lila 1 ok
     Silicone Case Samsung A20 / A30 Verdementa 1
     Silicone Case Samsung A32 5G Lila 1
     Silicone Case Samsung A34 Azulrey 1
@@ -289,9 +291,10 @@
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark 30 5G Morado 1
     Silicone Case Tecno Spark 30C Rojo 1
+    Silicone Case Tecno Spark Go 2023 / Pop7 Verde 1 ok
     Silicone Case Tecno Spark 40 4G Fucsia 1
-    Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 1
-    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Azulrey 1 ok
+    Silicone Case Tecno Spark Go 2 / Smart 10 Negro 1 ok
     Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verde 1
@@ -318,7 +321,7 @@
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi Note 10 Pro 4G Negro 1
     Silicone Case Xiaomi Redmi Note 11 Fucsia 2 ok
-    Silicone Case Xiaomi Redmi Note 12 Azulrey 1
+    Silicone Case Xiaomi Redmi Note 12 Azul 1 ok
     Silicone Case Xiaomi Redmi Note 12 Lila 1 ok
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
@@ -334,12 +337,13 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Samsung Galaxy A17 353181615318418 128 / 4 1
+    Smartphone Samsung Galaxy A17 350901801054615 128 / 4 1 ok
+    Smartphone Samsung Galaxy A37 353042940272680 128 / 4 1 ok
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vaper Kokin 10000 Puffs 1
     Vidrio 5D Huawei Honor X7A 5
-    Vidrio 5D Huawei Honor X8B / X8C / 200 Lite / 400 Lite 5
+    Vidrio 5D Huawei Honor X8B / X8C / 200 Lite / 400 Lite 9 ok
     Vidrio 5D Huawei P10 Lite 5
     Vidrio 5D Huawei P30 Lite 5
     Vidrio 5D Huawei Y5 2019 5
@@ -347,6 +351,9 @@
     Vidrio 5D Motorola Moto E6S / E6I 5
     Vidrio 5D Motorola Moto G22 / E32 10
     Vidrio 5D Oppo Reno 11F 5
+    Vidrio 5D Samsung A12 25 ok
+    Vidrio 5D Motorola Moto E14 / G04 / G24 25 ok
+    Vidrio Antiespia Samsung A35 / A36 / A37 / A55 / S24 Fe / S25 10 ok
     Vidrio 5D Xiaomi Redmi 10 25
     Vidrio 5D Xiaomi Redmi 12 / Redmi 13 25
     Vidrio 5D Xiaomi Redmi 14C / A5 / Moto G06 25
@@ -355,7 +362,7 @@
     Vidrio Antiespia Apple Iphone 12 Mini 5
     Vidrio Antiespia Apple Iphone 13 Mini 5
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5
-    Vidrio Antiespia Xiaomi Redmi 14C / A5 / Moto G06 5
+    Vidrio Antiespia Xiaomi Redmi 14C / A5 / Moto G06 5 ok
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
     Vidrio Blindado Xiaomi Redmi 14C / A5 / Moto G06 10
