@@ -1,4 +1,4 @@
-    Adaptador Av2Hdmi 5
+    Adaptador Av2Hdmi 4 ok
     Adaptador Ext Hdmi 5
     Adaptador Hub Tc Usb X3 2
     Adaptador Hub Tc Usb X3 + Lan 2
@@ -6,8 +6,10 @@
     Audifonos Bluetooth I12 Gris 2
     Audifonos Bluetooth I12 Negro 5
     Audifonos Bluetooth Pro 5S Negro 2
-    Audifonos Bluetooth Pro 5S Rosa 3
+    Audifonos Bluetooth Pro 5S Rosa 2 ok
     Balaca Callcenter Eco 2
+    Adaptador Multitoma 6 Enchufes 3 ok
+    Cargador Pc Hp Punta Azul 2 ok
     Balaca Karler Kr-H2 2
     Base Refrigerante 2 Ventiladores 2
     Cable Disco Duro V8 3.0 Corto 2
@@ -30,11 +32,13 @@
     Control Gamer Microsoft Pc 1
     Control Gamer Sony Ps4 Blanco 1
     Control Gamer Sony Ps4 Fifa 1
-    Control Gamer X3S 5
+    Control Gamer X3S 5 ok
+    Camara 3 Antenas 5 ok
     Control Tv Samsung Plano 2
-    Control Tv Universal 5
+    Control Tv Universal 5 ok
     Dock Charging Ps4 1
-    Estetica Barbera Vgr V-660 2
+    Estetica Barbera Vgr V-660 1 ok
+    Estetica Barbera Vgr V-692 2 ok
     Estetica Cepillo Secador Remington Aguacate 1
     Estetica Plancha Ancha + Cepillo Aguacate 1
     Extension 4M 1
@@ -58,13 +62,16 @@
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
-    Pilas Recargables Beston Aa X2 3
+    Pilas Recargables Beston Aa X2 3 ok
+    Adaptador Spliter Hdmi 1 A 8 1 ok
     Plancha Babyliss Combo Nano Titanium 2
     Protector Cuello Barberia 2
     Proyector Hy-300 2 Ram 2
     Reproductor Alexa Reloj 1
+    Antena Tdt 5M 5 ok
+    Reloj Cronometro 3 ok
     Reproductor Onn 4K 1
-    Reproductor Tdt Nanotec Nt-7310 3
+    Reproductor Tdt Nanotec Nt-7310 3 ok
     Reproductor Tdt Quality 3
     Reproductor Tdt Tg 3
     Rollo Cinta Led 10M Audioritmica 1
