@@ -1,0 +1,3092 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Ventas y Caja - POS Web</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* --- SISTEMA DE DISEÑO & VARIABLES --- */
+    :root {
+      --bg-main: #0b0f19;
+      --bg-card: rgba(22, 30, 49, 0.7);
+      --bg-card-hover: rgba(30, 41, 67, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 255, 255, 0.16);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --accent-glow: rgba(99, 102, 241, 0.15);
+      
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.15);
+      --warning: #f59e0b;
+      --warning-glow: rgba(245, 158, 11, 0.15);
+      --danger: #ef4444;
+      --danger-glow: rgba(239, 68, 68, 0.15);
+      
+      --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      --shadow-premium: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 1px 1px 0 rgba(255, 255, 255, 0.05) inset;
+    }
+
+    /* --- RESET & ESTILOS BASE --- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 5% 10%, rgba(99, 102, 241, 0.04) 0%, transparent 35%),
+        radial-gradient(circle at 95% 90%, rgba(16, 185, 129, 0.03) 0%, transparent 35%);
+    }
+
+    /* --- TOASTS DE NOTIFICACIÓN --- */
+    #toast-container {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      max-width: 400px;
+      width: calc(100vw - 4rem);
+    }
+
+    .toast {
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(8px);
+      border-left: 4px solid var(--accent);
+      border-top: 1px solid var(--border-color);
+      border-right: 1px solid var(--border-color);
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-primary);
+      padding: 1rem 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      transform: translateY(100%);
+      opacity: 0;
+      animation: slideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+      transition: var(--transition-smooth);
+    }
+
+    @keyframes slideIn {
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    .toast.success { border-left-color: var(--success); }
+    .toast.warning { border-left-color: var(--warning); }
+    .toast.danger { border-left-color: var(--danger); }
+
+    .toast-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-size: 1.125rem;
+    }
+    .toast-close:hover { color: var(--text-primary); }
+
+    /* --- HEADER --- */
+    header {
+      background-color: rgba(11, 15, 25, 0.85);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: linear-gradient(135deg, var(--accent), #8b5cf6);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.35rem;
+      color: white;
+      box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .brand-info h1 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    .brand-info p {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    .status-badges {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.4rem 0.85rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+    }
+
+    .badge-success {
+      color: var(--success);
+      background-color: var(--success-glow);
+      border-color: rgba(16, 185, 129, 0.2);
+    }
+
+    .badge-warning {
+      color: var(--warning);
+      background-color: var(--warning-glow);
+      border-color: rgba(245, 158, 11, 0.2);
+    }
+
+    .badge-danger {
+      color: var(--danger);
+      background-color: var(--danger-glow);
+      border-color: rgba(239, 68, 68, 0.2);
+    }
+
+    .dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: currentColor;
+    }
+
+    /* --- CONTROLES DE NAVEGACIÓN --- */
+    .nav-tabs {
+      display: flex;
+      background-color: rgba(255, 255, 255, 0.03);
+      padding: 0.25rem;
+      border-radius: 10px;
+      border: 1px solid var(--border-color);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .tab-btn:hover {
+      color: var(--text-primary);
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .tab-btn.active {
+      color: var(--text-primary);
+      background-color: var(--accent);
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+    }
+
+    /* --- LAYOUT PRINCIPAL --- */
+    main {
+      flex: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .tab-content {
+      display: none;
+      animation: fadeIn 0.3s ease-in-out forwards;
+    }
+
+    .tab-content.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --- CARDS & CONTENEDORES --- */
+    .card {
+      background-color: var(--bg-card);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow-premium);
+      transition: var(--transition-smooth);
+    }
+
+    .card:hover {
+      border-color: var(--border-hover);
+    }
+
+    .card-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+
+    .grid-pos {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      .grid-pos {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* --- FORMULARIOS, INPUTS Y BOTONES --- */
+    .form-group {
+      margin-bottom: 1.25rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+    }
+
+    .input-control {
+      width: 100%;
+      background-color: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      transition: var(--transition-smooth);
+    }
+
+    .input-control:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .select-control {
+      width: 100%;
+      background-color: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.95rem;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 1rem;
+      padding-right: 2.5rem;
+      transition: var(--transition-smooth);
+    }
+
+    .select-control:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .select-control:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      background-color: var(--accent);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 0.75rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+      width: 100%;
+    }
+
+    .btn:hover:not(:disabled) {
+      background-color: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+
+    .btn:active:not(:disabled) {
+      transform: translateY(0);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    .btn-secondary {
+      background-color: rgba(255, 255, 255, 0.05);
+      color: var(--text-primary);
+      border: 1px solid var(--border-color);
+    }
+    .btn-secondary:hover:not(:disabled) {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .btn-success { background-color: var(--success); }
+    .btn-success:hover:not(:disabled) { background-color: #059669; }
+
+    .btn-danger { background-color: var(--danger); }
+    .btn-danger:hover:not(:disabled) { background-color: #dc2626; }
+
+    .btn-icon {
+      padding: 0.5rem;
+      width: 2.25rem;
+      height: 2.25rem;
+      border-radius: 6px;
+    }
+
+    /* --- AUTOCOMPLETADO BUSCADOR --- */
+    .autocomplete-container {
+      position: relative;
+    }
+
+    .autocomplete-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #0f172a;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      margin-top: 0.25rem;
+      max-height: 250px;
+      overflow-y: auto;
+      z-index: 1000;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .autocomplete-item {
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition-smooth);
+      border-bottom: 1px solid rgba(255,255,255,0.03);
+    }
+
+    .autocomplete-item:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .autocomplete-item .item-desc {
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: var(--text-primary);
+    }
+
+    .autocomplete-item .item-stock {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      background: rgba(255,255,255,0.05);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    /* --- TABLAS --- */
+    .table-container {
+      overflow-x: auto;
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      background-color: rgba(255, 255, 255, 0.02);
+      border-bottom: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      font-weight: 600;
+      padding: 0.75rem 1rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    td {
+      padding: 1rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      color: var(--text-primary);
+      vertical-align: middle;
+    }
+
+    tr:hover td {
+      background-color: rgba(255, 255, 255, 0.01);
+    }
+
+    /* --- CARRITO DE COMPRAS --- */
+    .qty-controls {
+      display: inline-flex;
+      align-items: center;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 6px;
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+    }
+
+    .qty-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-secondary);
+      width: 2rem;
+      height: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+    }
+
+    .qty-btn:hover {
+      background-color: rgba(255,255,255,0.05);
+      color: var(--text-primary);
+    }
+
+    .qty-val {
+      width: 2.5rem;
+      text-align: center;
+      border: none;
+      background: transparent;
+      color: var(--text-primary);
+      font-weight: 600;
+      font-size: 0.9rem;
+    }
+
+    .qty-val:focus {
+      outline: none;
+    }
+
+    .cart-summary {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border-color);
+    }
+
+    .summary-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .summary-label {
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+    .summary-value {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--success);
+    }
+
+    /* --- DIÁLOGOS Y MODALES --- */
+    .modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.75);
+      backdrop-filter: blur(8px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition-smooth);
+    }
+
+    .modal-overlay.active {
+      opacity: 1;
+      pointer-events: all;
+    }
+
+    .modal-card {
+      width: 90%;
+      max-width: 450px;
+      transform: scale(0.9);
+      transition: var(--transition-smooth);
+    }
+
+    .modal-overlay.active .modal-card {
+      transform: scale(1);
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    .modal-close:hover {
+      color: var(--text-primary);
+    }
+
+    /* --- CAJA CONTROL --- */
+    .caja-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .caja-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .caja-status-block {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .metric-caja-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .metric-subcard {
+      background: rgba(0, 0, 0, 0.2);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .metric-subcard .val {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-top: 0.25rem;
+    }
+
+    .expected-card {
+      background: var(--accent-glow);
+      border-color: rgba(99, 102, 241, 0.3);
+    }
+    .expected-card .val {
+      color: var(--accent);
+      font-size: 1.5rem;
+    }
+
+    /* --- PANTALLA DE BLOQUEO ADMIN --- */
+    .admin-lock-screen {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 400px;
+      text-align: center;
+    }
+
+    .lock-icon {
+      font-size: 3rem;
+      color: var(--accent);
+      margin-bottom: 1.5rem;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.8; }
+    }
+
+    .pin-keypad {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      max-width: 280px;
+      margin: 1.5rem auto 0;
+    }
+
+    .keypad-btn {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid var(--border-color);
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition-smooth);
+    }
+
+    .keypad-btn:hover {
+      background-color: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .keypad-btn:active {
+      transform: scale(0.95);
+    }
+
+    .pin-display {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      justify-content: center;
+    }
+
+    .pin-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid var(--border-color);
+      transition: var(--transition-smooth);
+    }
+
+    .pin-dot.filled {
+      background-color: var(--accent);
+      border-color: var(--accent);
+      box-shadow: 0 0 10px var(--accent);
+    }
+
+    /* --- ADMIN REPORTES --- */
+    .metrics-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      .metrics-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 640px) {
+      .metrics-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .metric-card {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .metric-card.gain {
+      background-color: rgba(16, 185, 129, 0.03);
+      border-color: rgba(16, 185, 129, 0.15);
+    }
+
+    .metric-card.gain .m-val {
+      color: var(--success);
+    }
+
+    .metric-card .m-label {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .metric-card .m-val {
+      font-size: 1.75rem;
+      font-weight: 800;
+    }
+
+    .reports-layout {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      .reports-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .chart-container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .chart-bar-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+    }
+
+    .chart-bar-labels {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85rem;
+    }
+
+    .chart-bar-bg {
+      width: 100%;
+      height: 8px;
+      background-color: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .chart-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--accent), #8b5cf6);
+      border-radius: 4px;
+      transition: width 0.5s ease-in-out;
+    }
+
+    .chart-bar-fill.green {
+      background: linear-gradient(90deg, var(--success), #34d399);
+    }
+
+    /* --- LOADER --- */
+    .spinner {
+      border: 3px solid rgba(255, 255, 255, 0.05);
+      border-top: 3px solid var(--accent);
+      border-radius: 50%;
+      width: 1.5rem;
+      height: 1.5rem;
+      animation: spin 0.8s linear infinite;
+      display: inline-block;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    .loading-overlay {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.75rem;
+      padding: 3rem;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">V</div>
+      <div class="brand-info">
+        <h1>Punto de Venta e Inventario</h1>
+        <p>Servidor centralizado en Mac</p>
+      </div>
+    </div>
+    
+    <!-- Badges de Estado -->
+    <div class="status-badges">
+      <div class="badge" id="badge-local">
+        <span class="dot"></span>
+        <span id="label-local">Ubicación: Local 2</span>
+      </div>
+      <div class="badge badge-warning" id="badge-caja">
+        <span class="dot"></span>
+        <span id="label-caja">Caja: Cargando...</span>
+      </div>
+    </div>
+
+    <!-- Navegación de Pestañas -->
+    <nav class="nav-tabs">
+      <button class="tab-btn active" onclick="switchTab('pos')">
+        <svg style="width:1.1rem;height:1.1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        POS
+      </button>
+      <button class="tab-btn" onclick="switchTab('caja')">
+        <svg style="width:1.1rem;height:1.1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        Caja
+      </button>
+      <button class="tab-btn" onclick="switchTab('clientes')">
+        <svg style="width:1.1rem;height:1.1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+        Clientes
+      </button>
+      <button class="tab-btn" onclick="switchTab('admin')">
+        <svg style="width:1.1rem;height:1.1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+        Admin
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    
+    <!-- PESTAÑA: POS -->
+    <div id="tab-pos" class="tab-content active">
+      <div class="grid-pos">
+        
+        <!-- PANEL IZQUIERDO: BÚSQUEDA Y UBICACIÓN -->
+        <div class="card">
+          <h2 class="card-title">
+            <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+            Buscador de Productos
+          </h2>
+          
+          <div class="form-group">
+            <label for="local-select">Seleccionar Local de Venta (Bloqueado para Vendedor)</label>
+            <select id="local-select" class="select-control" onchange="changeLocal(this.value)" disabled>
+              <option value="local.txt">Local 1 (local.txt)</option>
+              <option value="local_2.txt" selected>Local 2 (local_2.txt)</option>
+              <option value="bodegac.txt">Bodega Central (bodegac.txt)</option>
+            </select>
+          </div>
+          
+          <div class="form-group autocomplete-container">
+            <label for="search-input">Buscar por Nombre del Item</label>
+            <input type="text" id="search-input" class="input-control" placeholder="Escribe para buscar..." autocomplete="off" oninput="handleSearch(this.value)">
+            <div id="suggestions" class="autocomplete-list" style="display: none;"></div>
+          </div>
+
+          <!-- FICHA DE PRODUCTO & MOVIMIENTOS DE INVENTARIO -->
+          <div id="selected-product-panel" style="display: none; margin-top: 1.5rem; border-top: 1px solid var(--border-color); padding-top: 1.5rem;">
+            <h3 id="detail-product-title" style="font-size: 1rem; font-weight:700; margin-bottom: 0.75rem; color: var(--accent);">Nombre del Producto</h3>
+            
+            <!-- Existencias -->
+            <div style="margin-bottom: 1rem;">
+              <h4 style="font-size: 0.8rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing:0.05em; margin-bottom: 0.5rem;">Control de Existencias</h4>
+              <div style="display: flex; flex-direction: column; gap: 0.5rem;" id="detail-stock-list">
+                <!-- Inyectado por JS -->
+              </div>
+            </div>
+
+            <!-- Traslados (Solo admin) -->
+            <div id="detail-transfer-section" style="margin-bottom: 1.25rem; background: rgba(255,255,255,0.01); border: 1px solid var(--border-color); padding: 0.75rem; border-radius: 8px;">
+              <h4 style="font-size: 0.8rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing:0.05em; margin-bottom: 0.5rem;">Traslado Rápido de Mercancía</h4>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 0.5rem;">
+                <div>
+                  <label style="font-size: 0.7rem; color:var(--text-secondary); font-weight:600;">Origen</label>
+                  <select id="transfer-origin" class="select-control" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; height: 34px;">
+                    <option value="bodegac.txt">Bodega</option>
+                    <option value="local.txt">Local 1</option>
+                    <option value="local_2.txt">Local 2</option>
+                  </select>
+                </div>
+                <div>
+                  <label style="font-size: 0.7rem; color:var(--text-secondary); font-weight:600;">Destino</label>
+                  <select id="transfer-destination" class="select-control" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; height: 34px;">
+                    <option value="local_2.txt">Local 2</option>
+                    <option value="local.txt">Local 1</option>
+                    <option value="bodegac.txt">Bodega</option>
+                  </select>
+                </div>
+              </div>
+              <div style="display: flex; gap: 0.5rem; align-items: flex-end;">
+                <div style="flex: 1;">
+                  <label style="font-size: 0.7rem; color:var(--text-secondary); font-weight:600;">Cantidad</label>
+                  <input type="number" id="transfer-qty" class="input-control" value="1" min="1" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; height: 34px;">
+                </div>
+                <button class="btn btn-secondary" onclick="executeTransfer()" style="width: auto; padding: 0.4rem 1rem; font-size: 0.8rem; font-weight: 700; height: 34px;">Trasladar</button>
+              </div>
+            </div>
+            
+            <!-- Venta Rápida -->
+            <div style="background: rgba(99,102,241,0.05); border: 1px solid rgba(99,102,241,0.2); padding: 0.75rem; border-radius: 8px; margin-bottom: 1rem;">
+              <h4 style="font-size: 0.8rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing:0.05em; margin-bottom: 0.5rem;">Venta rápida</h4>
+              <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 0.5rem;">
+                <div>
+                  <label style="font-size: 0.7rem; color:var(--text-secondary); font-weight:600;">Precio de Venta</label>
+                  <input type="number" id="detail-price" class="input-control" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; text-align:right; height: 34px;">
+                </div>
+                <div>
+                  <label style="font-size: 0.7rem; color:var(--text-secondary); font-weight:600;">Cantidad</label>
+                  <input type="number" id="detail-qty" class="input-control" value="1" min="1" style="padding: 0.4rem 0.75rem; font-size: 0.8rem; text-align:center; height: 34px;">
+                </div>
+              </div>
+              <button class="btn btn-success" id="btn-detail-add-cart" onclick="addSelectedToCart()" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Agregar al Carrito</button>
+            </div>
+            <button class="btn btn-secondary" onclick="closeProductDetail()" style="font-size: 0.8rem; padding: 0.4rem 1rem; height:34px; margin-bottom: 1.5rem;">Cerrar Ficha</button>
+          </div>
+
+          <div id="pos-instructions-box" style="margin-top: 1.5rem; padding: 1rem; background: rgba(255,255,255,0.02); border: 1px dashed var(--border-color); border-radius: 8px; font-size: 0.85rem; color: var(--text-secondary);">
+            <p style="font-weight: 600; margin-bottom: 0.25rem; color: var(--text-primary);">💡 Buscador Inteligente</p>
+            <p>Escribe el nombre del producto, selecciona el item y se abrirá su ficha técnica para agregar unidades al carrito, realizar traslados o ajustar inventarios.</p>
+          </div>
+        </div>
+
+        <!-- PANEL DERECHO: CARRITO -->
+        <div class="card" style="display: flex; flex-direction: column;">
+          <h2 class="card-title" style="justify-content: space-between;">
+            <span style="display: flex; align-items: center; gap: 0.5rem;">
+              <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+              Carrito de Ventas
+            </span>
+            <button class="btn btn-secondary btn-icon" style="width: auto; padding: 0.25rem 0.75rem;" onclick="clearCart()">Vaciar</button>
+          </h2>
+
+          <div class="table-container" style="flex: 1; min-height: 200px;">
+            <table id="cart-table">
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th style="width: 120px;">Cant</th>
+                  <th style="width: 120px;">Precio</th>
+                  <th style="text-align: right;">Total</th>
+                  <th style="width: 40px;"></th>
+                </tr>
+              </thead>
+              <tbody id="cart-items">
+                <!-- Se inyecta por JS -->
+                <tr>
+                  <td colspan="5" style="text-align: center; color: var(--text-muted); padding: 3rem;">El carrito está vacío</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="cart-summary">
+            <!-- Selector de Cliente -->
+            <div class="form-group" style="margin-bottom: 0;">
+              <label style="display: flex; justify-content: space-between; align-items: center;">
+                <span>Cliente</span>
+                <button onclick="openNewCustomerModal()" style="background:none; border:none; color:var(--accent); font-weight:600; font-size:0.75rem; cursor:pointer;">+ Registrar Nuevo</button>
+              </label>
+              <select id="client-select" class="select-control">
+                <option value="Regular">Regular</option>
+                <option value="Cliente General">Cliente General</option>
+              </select>
+            </div>
+
+            <!-- Medio de Pago -->
+            <div class="form-group">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.5rem;">
+                <label style="margin:0; font-weight: 600;">Método de Pago</label>
+                <button type="button" id="btn-toggle-split-pay" onclick="toggleSplitPayMode()" class="btn-link" style="font-size:0.8rem; font-weight:600; color:var(--accent); background:none; border:none; padding:0; cursor:pointer;">
+                  Dividir Pago
+                </button>
+              </div>
+
+              <!-- PAGO UNICO (DEFAULT) -->
+              <div id="payment-single-container">
+                <select id="payment-select" class="select-control">
+                  <option value="Efectivo" selected>Efectivo</option>
+                  <option value="Nequi">Nequi</option>
+                  <option value="Daviplata">Daviplata</option>
+                  <option value="Tarjeta">Tarjeta</option>
+                  <option value="Transferencia">Transferencia</option>
+                  <option value="Siste credito">Siste credito</option>
+                  <option value="Datafono">Datafono</option>
+                  <option value="Celya">Celya</option>
+                </select>
+              </div>
+
+              <!-- PAGO DIVIDIDO -->
+              <div id="payment-split-container" style="display: none; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); padding: 0.75rem; border-radius: 8px; margin-top: 0.25rem;">
+                <!-- Lista de Pagos Añadidos -->
+                <div id="split-payments-list" style="margin-bottom: 0.75rem; display:flex; flex-direction:column; gap:0.25rem;">
+                  <!-- Aquí se renderizarán los pagos agregados -->
+                </div>
+                
+                <!-- Formulario Agregar Pago Parcial -->
+                <div style="display: flex; gap: 0.5rem; align-items: flex-end;">
+                  <div style="flex: 1.2;">
+                    <span style="font-size: 0.7rem; color: var(--text-secondary); display:block; margin-bottom: 0.25rem;">Método</span>
+                    <select id="split-method-select" class="select-control" style="font-size:0.85rem; padding: 0.4rem; height: auto;">
+                      <option value="Efectivo" selected>Efectivo</option>
+                      <option value="Nequi">Nequi</option>
+                      <option value="Daviplata">Daviplata</option>
+                      <option value="Tarjeta">Tarjeta</option>
+                      <option value="Transferencia">Transferencia</option>
+                      <option value="Siste credito">Siste credito</option>
+                      <option value="Datafono">Datafono</option>
+                      <option value="Celya">Celya</option>
+                    </select>
+                  </div>
+                  <div style="flex: 1;">
+                    <span style="font-size: 0.7rem; color: var(--text-secondary); display:block; margin-bottom: 0.25rem;">Monto</span>
+                    <input type="number" id="split-amount-input" class="input-control" style="font-size:0.85rem; padding: 0.4rem; height: auto;" placeholder="0" min="1">
+                  </div>
+                  <button type="button" onclick="addSplitPaymentRow()" class="btn btn-primary" style="padding: 0.4rem 0.6rem; font-size: 0.85rem; height: 35px; width: 35px; display: flex; align-items: center; justify-content: center; margin-bottom: 0.05rem;">
+                    +
+                  </button>
+                </div>
+
+                <!-- Info Cuadre Parcial -->
+                <div style="margin-top: 0.75rem; padding-top: 0.5rem; border-top: 1px dashed rgba(255,255,255,0.1); font-size: 0.8rem; display:flex; flex-direction:column; gap:0.25rem;">
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span>Abonado:</span>
+                    <span id="split-total-paid" style="font-weight:600; color:var(--success);">$0</span>
+                  </div>
+                  <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <span id="split-diff-label">Falta pagar:</span>
+                    <span id="split-total-diff" style="font-weight:600; color:var(--danger);">$0</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="summary-row">
+              <span class="summary-label">Total Venta:</span>
+              <span class="summary-value" id="cart-total">$0</span>
+            </div>
+
+            <button class="btn btn-success" id="btn-submit-sale" onclick="submitSale()" style="font-size: 1.1rem; padding: 1rem;">
+              <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+              Completar y Registrar Venta
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PESTAÑA: CONTROL DE CAJA -->
+    <div id="tab-caja" class="tab-content">
+      <div class="card" style="margin-bottom: 2rem;">
+        <h2 class="card-title">
+          <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          Seleccionar Fecha de Trabajo
+        </h2>
+        <div style="display:flex; gap:1rem; align-items:center;">
+          <div class="form-group" style="max-width: 250px; margin-bottom: 0; flex:1;">
+            <input type="date" id="caja-date-input" class="input-control" onchange="loadCajaStatus(this.value)">
+          </div>
+          <button class="btn btn-secondary" onclick="refreshActiveCaja()" style="width:auto; display:flex; align-items:center; gap:0.25rem; height:38px; font-weight:600; font-size:0.85rem; padding:0.4rem 0.75rem;">
+            <svg style="width:1rem;height:1rem;" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 1121.21 8.89M9 11l3-3 3 3m0 0l-3 3-3-3"/></svg>
+            Refrescar
+          </button>
+        </div>
+      </div>
+
+      <!-- 1. CAJA NO INICIADA -->
+      <div id="caja-no-iniciada-panel" class="card" style="display: none; max-width: 500px; margin: 0 auto; text-align: center;">
+        <div style="font-size: 3rem; margin-bottom: 1rem; color: var(--warning);">⚠️</div>
+        <h2 style="margin-bottom: 0.5rem;">Caja No Iniciada</h2>
+        <p style="color: var(--text-secondary); margin-bottom: 1.5rem;">Debes iniciar el día de caja antes de registrar movimientos o cierres.</p>
+        
+        <div class="form-group" style="text-align: left;">
+          <label for="caja-init-inicial">Monto Inicial (Efectivo de Cierre Anterior)</label>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="number" id="caja-init-inicial" class="input-control" placeholder="0.00" value="0" style="flex:1;">
+            <button class="btn btn-secondary" onclick="openCashCounter('caja-init-inicial')" style="width:auto; padding:0.4rem 0.75rem; font-size:0.8rem; font-weight:600; height:38px; display:flex; align-items:center; gap:0.25rem;">
+              <svg style="width:1rem;height:1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+              Desglosar
+            </button>
+          </div>
+        </div>
+        <div class="form-group" style="text-align: left;">
+          <label for="caja-init-base">Monto de la Base de Caja</label>
+          <div style="display:flex; gap:0.5rem;">
+            <input type="number" id="caja-init-base" class="input-control" placeholder="0.00" value="100000" style="flex:1;">
+            <button class="btn btn-secondary" onclick="openCashCounter('caja-init-base')" style="width:auto; padding:0.4rem 0.75rem; font-size:0.8rem; font-weight:600; height:38px; display:flex; align-items:center; gap:0.25rem;">
+              <svg style="width:1rem;height:1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+              Desglosar
+            </button>
+          </div>
+        </div>
+        
+        <button class="btn btn-success" onclick="iniciarCaja()">
+          Iniciar Día de Caja
+        </button>
+      </div>
+
+      <!-- 2. PANEL DE CAJA ACTIVA (INICIADA O CERRADA) -->
+      <div id="caja-activa-panel" class="caja-grid" style="display: none;">
+        
+        <!-- IZQUIERDA: RESUMEN Y MOVIMIENTOS -->
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <!-- Resumen de Caja -->
+          <div class="card">
+            <h2 class="card-title">Resumen Financiero del Día</h2>
+            <div class="caja-status-block">
+              <div class="metric-caja-row">
+                <div class="metric-subcard">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary);">Dinero Inicial</span>
+                  <div class="val" id="caja-val-inicial">$0</div>
+                </div>
+                <div class="metric-subcard">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary);">Base</span>
+                  <div class="val" id="caja-val-base">$0</div>
+                </div>
+              </div>
+              <div class="metric-caja-row">
+                <div class="metric-subcard">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary);">Ventas (Total)</span>
+                  <div class="val" style="color:var(--success);" id="caja-val-ventas">$0</div>
+                </div>
+                <div class="metric-subcard">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary);">Movimientos/Gastos</span>
+                  <div class="val" style="color:var(--danger);" id="caja-val-movimientos">$0</div>
+                </div>
+              </div>
+              <div class="metric-caja-row">
+                <div class="metric-subcard">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary);">Pagos Electrónicos</span>
+                  <div class="val" id="caja-val-electronico">$0</div>
+                </div>
+                <div class="metric-subcard expected-card">
+                  <span class="m-label" style="font-size:0.75rem; color:var(--text-secondary); font-weight:700;">Efectivo Esperado</span>
+                  <div class="val" id="caja-val-esperado">$0</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Registrar Movimientos -->
+          <div class="card" id="form-movimiento-card">
+            <h2 class="card-title">Registrar Movimiento / Gasto</h2>
+            <div class="form-group">
+              <label for="mov-tipo">Tipo de Movimiento</label>
+              <select id="mov-tipo" class="select-control">
+                <option value="Gasto">Gasto (Salida)</option>
+                <option value="Préstamo/Retiro">Préstamo / Retiro (Salida)</option>
+                <option value="Abono/Ingreso">Abono / Ingreso (Entrada)</option>
+                <option value="Abono Préstamo">Abono Préstamo (Entrada)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mov-desc">Descripción (Persona / Concepto)</label>
+              <input type="text" id="mov-desc" class="input-control" placeholder="Ej. Almuerzo, Juan Perez">
+            </div>
+            <div class="form-group">
+              <label for="mov-monto">Monto ($)</label>
+              <input type="number" id="mov-monto" class="input-control" placeholder="0">
+            </div>
+            <button class="btn" onclick="registrarMovimiento()">Registrar Movimiento</button>
+          </div>
+        </div>
+
+        <!-- DERECHA: HISTORIAL DE MOVIMIENTOS Y CIERRE -->
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          
+          <!-- Historial de Movimientos -->
+          <div class="card" style="flex: 1; display:flex; flex-direction:column;">
+            <h2 class="card-title">Movimientos Registrados</h2>
+            <div class="table-container" style="flex: 1; max-height: 250px; overflow-y:auto;">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Hora</th>
+                    <th>Tipo</th>
+                    <th>Descripción</th>
+                    <th style="text-align: right;">Monto</th>
+                    <th></th>
+                  </tr>
+                </thead>
+                <tbody id="caja-table-movimientos">
+                  <!-- JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Cierre de Caja -->
+          <div class="card" id="cierre-caja-card">
+            <h2 class="card-title">Realizar Cierre de Caja</h2>
+            
+            <div class="form-group">
+              <label for="cierre-real-caja">Dinero Real en Caja (Efectivo Físico Contado)</label>
+              <div style="display:flex; gap:0.5rem;">
+                <input type="number" id="cierre-real-caja" class="input-control" placeholder="0.00" style="flex:1;" oninput="updateCierreComparator()">
+                <button class="btn btn-secondary" onclick="openCashCounter('cierre-real-caja')" style="width:auto; padding:0.4rem 0.75rem; font-size:0.8rem; font-weight:600; height:38px; display:flex; align-items:center; gap:0.25rem;">
+                  <svg style="width:1rem;height:1rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+                  Desglosar
+                </button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="cierre-electronicos">Total Pagos Electrónicos Reales (Nequi, Daviplata, etc.)</label>
+              <input type="number" id="cierre-electronicos" class="input-control" placeholder="0.00">
+              <p style="font-size:0.75rem; color:var(--text-secondary); margin-top:0.25rem;" id="sug-electronicos">Sugerido por sistema: $0</p>
+            </div>
+
+            <!-- Caja Comparator Box -->
+            <div id="cierre-comparador-box" style="margin-top: 1rem; margin-bottom: 1.25rem; padding: 1rem; border-radius: 8px; border: 1px solid var(--border-color); background: rgba(255, 255, 255, 0.02); display: none;">
+              <div style="font-size:0.85rem; color:var(--text-secondary); margin-bottom:0.5rem; font-weight:600;">Comparación de Cierre (Efectivo):</div>
+              <div style="display:flex; justify-content:space-between; font-size:0.9rem; margin-bottom:0.25rem;">
+                <span>Efectivo Esperado (Sistema):</span>
+                <span id="cierre-comp-esperado" style="font-weight:600;">$0</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:0.9rem; margin-bottom:0.5rem; border-bottom: 1px solid var(--border-color); padding-bottom:0.5rem;">
+                <span>Efectivo Físico Contado:</span>
+                <span id="cierre-comp-contado" style="font-weight:600;">$0</span>
+              </div>
+              <div style="display:flex; justify-content:space-between; align-items:center; font-size:1rem; font-weight:700;">
+                <span>Resultado:</span>
+                <span id="cierre-comp-resultado" style="font-size:0.95rem; padding: 0.25rem 0.75rem; border-radius: 6px; font-weight: 800;">Caja Cuadrada ($0)</span>
+              </div>
+            </div>
+            
+            <button class="btn btn-success" onclick="cerrarCaja()">
+              Guardar y Cerrar Caja
+            </button>
+          </div>
+          
+          <!-- Reporte de Cierre (Si ya se cerró la caja) -->
+          <div class="card" id="reporte-cierre-card" style="display: none; background: rgba(16, 185, 129, 0.05); border-color: rgba(16, 185, 129, 0.3);">
+            <h2 class="card-title" style="color:var(--success);">✓ Caja Cerrada Exitosamente</h2>
+            <div style="display:flex; flex-direction:column; gap:0.5rem; font-size:0.9rem;">
+              <div class="summary-row"><span class="summary-label">Dinero Real reportado:</span><span style="font-weight:700;" id="cierre-val-real">$0</span></div>
+              <div class="summary-row"><span class="summary-label">Pagos Electrónicos reportados:</span><span style="font-weight:700;" id="cierre-val-elect">$0</span></div>
+              <div class="summary-row" style="border-top:1px solid var(--border-color); padding-top:0.5rem; margin-top:0.5rem;"><span class="summary-label">Diferencia (Sobrante/Faltante):</span><span style="font-weight:800; font-size:1.1rem;" id="cierre-val-diferencia">$0</span></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- DETALLE DE VENTAS DEL DÍA -->
+        <div class="card" style="grid-column: 1 / -1; margin-top: 1rem;">
+          <h2 class="card-title">
+            <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+            Ventas Detalladas del Día
+          </h2>
+          <div class="table-container" style="max-height: 350px; overflow-y:auto;">
+            <table>
+              <thead>
+                <tr>
+                  <th>Hora</th>
+                  <th>ID Venta</th>
+                  <th>Ítem / Descripción</th>
+                  <th style="text-align: center;">Cantidad</th>
+                  <th style="text-align: right;">Precio Unitario</th>
+                  <th style="text-align: right;">Valor Total</th>
+                  <th>Medio de Pago</th>
+                  <th>Cliente</th>
+                </tr>
+              </thead>
+              <tbody id="caja-table-ventas">
+                <!-- Inyectado por JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PESTAÑA: CLIENTES -->
+    <div id="tab-clientes" class="tab-content">
+      <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 2rem;">
+        
+        <!-- Listado -->
+        <div class="card">
+          <h2 class="card-title">Clientes Registrados</h2>
+          
+          <div class="form-group">
+            <input type="text" id="clientes-search" class="input-control" placeholder="Buscar por nombre o contacto..." oninput="renderClientes(this.value)">
+          </div>
+
+          <div class="table-container">
+            <table>
+              <thead>
+                <tr>
+                  <th>Nombre</th>
+                  <th>Contacto</th>
+                </tr>
+              </thead>
+              <tbody id="clientes-tbody">
+                <!-- JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Agregar Cliente -->
+        <div class="card" style="height: fit-content;">
+          <h2 class="card-title">Agregar Nuevo Cliente</h2>
+          <div class="form-group">
+            <label for="new-client-name">Nombre Completo</label>
+            <input type="text" id="new-client-name" class="input-control" placeholder="Ej. Armando Lizarazo">
+          </div>
+          <div class="form-group">
+            <label for="new-client-phone">Contacto (Teléfono/Nit)</label>
+            <input type="text" id="new-client-phone" class="input-control" placeholder="Ej. 3046313114">
+          </div>
+          <button class="btn" onclick="saveNewCustomerDirect()">Guardar Cliente</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- PESTAÑA: ADMIN (REPORTES PIN PROTEGIDO) -->
+    <div id="tab-admin" class="tab-content">
+      
+      <!-- PANTALLA DE BLOQUEO PIN -->
+      <div id="admin-lock" class="card admin-lock-screen">
+        <div class="lock-icon">🔒</div>
+        <h2>Acceso Restringido a Administrador</h2>
+        <p style="color:var(--text-secondary); margin-bottom: 1.5rem;">Ingresa el PIN de Administrador para desbloquear los informes.</p>
+        
+        <div class="pin-display">
+          <div class="pin-dot" id="dot-0"></div>
+          <div class="pin-dot" id="dot-1"></div>
+          <div class="pin-dot" id="dot-2"></div>
+          <div class="pin-dot" id="dot-3"></div>
+        </div>
+
+        <div class="pin-keypad">
+          <button class="keypad-btn" onclick="pressPin('1')">1</button>
+          <button class="keypad-btn" onclick="pressPin('2')">2</button>
+          <button class="keypad-btn" onclick="pressPin('3')">3</button>
+          <button class="keypad-btn" onclick="pressPin('4')">4</button>
+          <button class="keypad-btn" onclick="pressPin('5')">5</button>
+          <button class="keypad-btn" onclick="pressPin('6')">6</button>
+          <button class="keypad-btn" onclick="pressPin('7')">7</button>
+          <button class="keypad-btn" onclick="pressPin('8')">8</button>
+          <button class="keypad-btn" onclick="pressPin('9')">9</button>
+          <button class="keypad-btn" style="background:transparent; border-color:transparent;" onclick="clearPin()">C</button>
+          <button class="keypad-btn" onclick="pressPin('0')">0</button>
+          <button class="keypad-btn" style="background:transparent; border-color:transparent; font-size:1rem;" onclick="submitPin()">OK</button>
+        </div>
+      </div>
+
+      <!-- CONTENIDO ADMIN DESBLOQUEADO -->
+      <div id="admin-content" style="display: none;">
+        
+        <!-- Filtro Rango de Fechas -->
+        <div class="card" style="margin-bottom: 2rem;">
+          <h2 class="card-title">Rango de Reporte</h2>
+          <div style="display:flex; gap:1.5rem; align-items:flex-end; flex-wrap:wrap;">
+            <div class="form-group" style="margin:0; min-width: 180px;">
+              <label>Fecha Inicio</label>
+              <input type="date" id="report-date-start" class="input-control">
+            </div>
+            <div class="form-group" style="margin:0; min-width: 180px;">
+              <label>Fecha Fin</label>
+              <input type="date" id="report-date-end" class="input-control">
+            </div>
+            <button class="btn" style="width:auto; padding: 0.75rem 2rem;" onclick="loadAdminReport()">Generar Informe</button>
+          </div>
+        </div>
+
+        <!-- Métrica Cards -->
+        <div class="metrics-row">
+          <div class="metric-card">
+            <span class="m-label">Ventas Totales</span>
+            <div class="m-val" style="color:var(--success);" id="m-sales-total">$0</div>
+          </div>
+          <div class="metric-card gain">
+            <span class="m-label">Ganancia Neta</span>
+            <div class="m-val" id="m-gain-total">$0</div>
+          </div>
+          <div class="metric-card">
+            <span class="m-label">Transacciones</span>
+            <div class="m-val" id="m-sales-count">0</div>
+          </div>
+          <div class="metric-card">
+            <span class="m-label">Ticket Promedio</span>
+            <div class="m-val" id="m-avg-ticket">$0</div>
+          </div>
+        </div>
+
+        <!-- Gráficos y Desgloses -->
+        <div class="reports-layout" style="margin-bottom: 2rem;">
+          
+          <!-- Desglose Gráfico -->
+          <div class="card">
+            <h2 class="card-title">Ventas por Ubicación</h2>
+            <div class="chart-container" id="chart-locations">
+              <!-- JS -->
+            </div>
+            
+            <h2 class="card-title" style="margin-top:2rem;">Medios de Pago</h2>
+            <div class="chart-container" id="chart-payments">
+              <!-- JS -->
+            </div>
+          </div>
+
+          <!-- Listado Completo de Ventas -->
+          <div class="card" style="display:flex; flex-direction:column;">
+            <h2 class="card-title">Historial de Ventas Detallado</h2>
+            <div class="table-container" style="max-height: 500px; overflow-y:auto;">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Fecha/Hora</th>
+                    <th>ID Venta</th>
+                    <th>Producto</th>
+                    <th>Cant</th>
+                    <th>Total</th>
+                    <th>Ganancia</th>
+                    <th>Ubicación</th>
+                    <th>Cliente</th>
+                    <th>Pago</th>
+                    <th>Estado</th>
+                    <th>Acción</th>
+                  </tr>
+                </thead>
+                <tbody id="admin-table-sales">
+                  <!-- JS -->
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- MODAL: REGISTRAR NUEVO CLIENTE (POS QUICK MODAL) -->
+  <div class="modal-overlay" id="new-customer-modal">
+    <div class="card modal-card">
+      <div class="modal-header">
+        <h3 style="font-weight: 700;">Registrar Nuevo Cliente</h3>
+        <button class="modal-close" onclick="closeNewCustomerModal()">&times;</button>
+      </div>
+      <div class="form-group">
+        <label for="modal-client-name">Nombre Completo</label>
+        <input type="text" id="modal-client-name" class="input-control" placeholder="Ej. Armando Lizarazo">
+      </div>
+      <div class="form-group">
+        <label for="modal-client-phone">Contacto / Teléfono</label>
+        <input type="text" id="modal-client-phone" class="input-control" placeholder="Ej. 3046313114">
+      </div>
+      <button class="btn btn-success" onclick="saveNewCustomerModal()">Guardar y Seleccionar</button>
+    </div>
+  </div>
+
+  <!-- MODAL: ARQUEO / DESGLOSE DE EFECTIVO -->
+  <div class="modal-overlay" id="cash-counter-modal">
+    <div class="card modal-card" style="max-width: 500px; width: 90%;">
+      <div class="modal-header">
+        <h3 style="font-weight: 700; display:flex; align-items:center; gap:0.5rem; margin:0;">
+          <svg style="width:1.5rem;height:1.5rem;color:var(--accent);" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"/></svg>
+          Desglose de Efectivo
+        </h3>
+        <button class="modal-close" onclick="closeCashCounter()">&times;</button>
+      </div>
+      
+      <div style="max-height: 60vh; overflow-y: auto; padding-right: 0.5rem; margin-bottom: 1rem; margin-top: 1rem;">
+        <p style="font-size:0.85rem; color:var(--text-secondary); margin-bottom: 1.25rem;">
+          Ingresa la cantidad de billetes y el total de monedas para calcular el total automáticamente.
+        </p>
+        
+        <!-- Denominations Grid -->
+        <div style="display:flex; flex-direction:column; gap:0.75rem;">
+          <!-- Encabezados -->
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:0.5rem;">
+            <div style="font-weight:600; font-size:0.85rem; color:var(--text-muted);">Denominación</div>
+            <div style="font-weight:600; font-size:0.85rem; color:var(--text-muted); text-align:right;">Cantidad</div>
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-100k" style="font-weight:600; font-size:0.95rem;">$100.000</label>
+            <input type="number" id="bill-100k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-50k" style="font-weight:600; font-size:0.95rem;">$50.000</label>
+            <input type="number" id="bill-50k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-20k" style="font-weight:600; font-size:0.95rem;">$20.000</label>
+            <input type="number" id="bill-20k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-10k" style="font-weight:600; font-size:0.95rem;">$10.000</label>
+            <input type="number" id="bill-10k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-5k" style="font-weight:600; font-size:0.95rem;">$5.000</label>
+            <input type="number" id="bill-5k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center;">
+            <label for="bill-2k" style="font-weight:600; font-size:0.95rem;">$2.000</label>
+            <input type="number" id="bill-2k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">
+            <label for="bill-1k" style="font-weight:600; font-size:0.95rem;">$1.000</label>
+            <input type="number" id="bill-1k" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right;">
+          </div>
+          
+          <!-- Monedas -->
+          <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; align-items:center; margin-top:0.25rem;">
+            <label for="coins-total" style="font-weight:700; font-size:0.95rem; color:var(--accent);">Total en Monedas</label>
+            <input type="number" id="coins-total" class="input-control" value="0" min="0" oninput="calculateModalTotal()" style="text-align:right; font-weight:700; border-color:var(--accent);">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Total Indicator -->
+      <div style="background: var(--accent-glow); border: 1px solid var(--accent); border-radius: 8px; padding: 0.75rem; text-align: center; margin-bottom: 1.25rem;">
+        <span style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em;">Total Calculado</span>
+        <div id="modal-cash-total" style="font-size: 1.75rem; font-weight: 800; color: var(--text-primary); margin-top: 0.15rem;">$0</div>
+      </div>
+      
+      <button class="btn btn-success" style="width: 100%; display: flex; align-items: center; justify-content: center; gap: 0.5rem;" onclick="applyCashCounterTotal()">
+        <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+        Aplicar e Historial
+      </button>
+    </div>
+  </div>
+
+  <!-- CONTAINER DE TOASTS -->
+  <div id="toast-container"></div>
+
+  <!-- JAVASCRIPT LOGIC -->
+  <script>
+    // --- ESTADO GLOBAL DE LA APP ---
+    let appState = {
+      activeTab: 'pos',
+      selectedLocal: 'local_2.txt',
+      productos: [],
+      clientes: [],
+      cart: [],
+      isSplitPayment: false,
+      splitPayments: [],
+      caja: {
+        iniciado: false,
+        cerrado: false,
+        datos: null,
+        movimientos: []
+      },
+      admin: {
+        unlocked: false,
+        pinBuffer: "",
+        report: null
+      }
+    };
+
+    // --- CONFIGURACIÓN AL CARGAR ---
+    document.addEventListener("DOMContentLoaded", () => {
+      // Inicializar fechas
+      const todayStr = new Date().toISOString().split("T")[0];
+      document.getElementById("caja-date-input").value = todayStr;
+      document.getElementById("report-date-start").value = todayStr;
+      document.getElementById("report-date-end").value = todayStr;
+
+      // Cargar datos del servidor
+      loadProducts();
+      loadClientes();
+      loadCajaStatus(todayStr);
+    });
+
+    // --- NOTIFICACIONES TOAST ---
+    function showToast(message, type = 'info') {
+      const container = document.getElementById("toast-container");
+      const toast = document.createElement("div");
+      toast.className = `toast ${type}`;
+      toast.innerHTML = `
+        <span>${message}</span>
+        <button class="toast-close" onclick="this.parentElement.remove()">&times;</button>
+      `;
+      container.appendChild(toast);
+      
+      // Auto-remover en 4 segundos
+      setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateY(10px)';
+        setTimeout(() => toast.remove(), 300);
+      }, 4000);
+    }
+
+    // --- MANEJO DE RESPUESTAS DEL SERVIDOR ---
+    async function handleResponse(response, defaultError) {
+      let data = null;
+      try {
+        const contentType = response.headers.get("content-type") || "";
+        if (contentType.includes("application/json")) {
+          data = await response.json();
+        }
+      } catch (e) {
+        // Ignorar error de parsing si el cuerpo no es JSON
+      }
+      
+      if (!response.ok) {
+        const errorMsg = (data && data.error) || `${defaultError} (Estado: ${response.status})`;
+        throw new Error(errorMsg);
+      }
+      return data;
+    }
+
+    // --- NAVEGACIÓN ENTRE PESTAÑAS ---
+    function switchTab(tabId) {
+      document.querySelectorAll(".tab-content").forEach(el => el.classList.remove("active"));
+      document.querySelectorAll(".tab-btn").forEach(el => el.classList.remove("active"));
+      
+      document.getElementById(`tab-${tabId}`).classList.add("active");
+      
+      // Activar botón en el header
+      const btn = Array.from(document.querySelectorAll(".tab-btn")).find(b => b.getAttribute("onclick").includes(tabId));
+      if (btn) btn.classList.add("active");
+      
+      appState.activeTab = tabId;
+
+      // Acciones específicas de pestaña
+      if (tabId === 'admin' && appState.admin.unlocked) {
+        loadAdminReport();
+      } else if (tabId === 'caja') {
+        const activeDate = document.getElementById("caja-date-input").value;
+        if (activeDate) {
+          loadCajaStatus(activeDate);
+        }
+      }
+    }
+
+    // --- CARGAR DATOS DESDE EL BACKEND ---
+    async function loadProducts() {
+      try {
+        const response = await fetch("/api/productos");
+        const data = await handleResponse(response, "No se pudo obtener la lista de productos.");
+        appState.productos = data.productos;
+      } catch (err) {
+        showToast("Error al cargar productos: " + err.message, "danger");
+      }
+    }
+
+    async function loadClientes() {
+      try {
+        const response = await fetch("/api/clientes");
+        const data = await handleResponse(response, "No se pudieron obtener los clientes.");
+        appState.clientes = data.clientes;
+        
+        // Actualizar select de clientes en POS
+        const select = document.getElementById("client-select");
+        // Limpiar excepto las dos primeras opciones estándar
+        select.innerHTML = `
+          <option value="Regular">Regular</option>
+          <option value="Cliente General">Cliente General</option>
+        `;
+        appState.clientes.forEach(c => {
+          const opt = document.createElement("option");
+          opt.value = c.nombre;
+          opt.textContent = `${c.nombre} (${c.contacto || 'Sin contacto'})`;
+          select.appendChild(opt);
+        });
+
+        // Si estamos en la pestaña Clientes, renderizar tabla
+        renderClientes();
+      } catch (err) {
+        showToast("Error al cargar clientes: " + err.message, "danger");
+      }
+    }
+
+    async function loadCajaStatus(fecha) {
+      try {
+        const response = await fetch(`/api/caja/status?fecha=${fecha}&local=${appState.selectedLocal}`);
+        const data = await handleResponse(response, "No se pudo obtener el estado de la caja.");
+        
+        appState.caja.iniciado = data.status.iniciado;
+        appState.caja.cerrado = data.status.cerrado;
+        appState.caja.datos = data.status;
+        appState.caja.movimientos = data.movimientos;
+        appState.caja.ventas = data.ventas || [];
+
+        renderCajaUI();
+      } catch (err) {
+        showToast("Error al cargar estado de caja: " + err.message, "danger");
+      }
+    }
+
+    // --- CAMBIO DE LOCAL EN EL POS ---
+    function changeLocal(val) {
+      appState.selectedLocal = val;
+      // Actualizar badge
+      let label = "Local 1";
+      if (val === 'local_2.txt') label = "Local 2";
+      if (val === 'bodegac.txt') label = "Bodega Central";
+      document.getElementById("label-local").textContent = `Ubicación: ${label}`;
+      
+      // Vaciar carrito al cambiar de ubicación para evitar incongruencias de stock
+      if (appState.cart.length > 0) {
+        clearCart();
+        showToast("Carrito vaciado por cambio de ubicación.", "warning");
+      }
+
+      // Recargar estado caja de la fecha activa para este nuevo local
+      const activeDate = document.getElementById("caja-date-input").value;
+      loadCajaStatus(activeDate);
+    }
+
+    // --- AUTOSUGERENCIAS POS ---
+    function handleSearch(query) {
+      const suggestions = document.getElementById("suggestions");
+      if (!query.trim()) {
+        suggestions.style.display = "none";
+        return;
+      }
+
+      const queryLower = query.toLowerCase();
+      // Filtrar todos los productos coincidentes sin importar stock
+      const filtrados = appState.productos.filter(p => {
+        return p.descripcion.toLowerCase().includes(queryLower);
+      }).slice(0, 8); // Máximo 8 sugerencias
+
+      if (filtrados.length === 0) {
+        suggestions.innerHTML = `<div style="padding:0.75rem 1rem; color:var(--text-muted); font-size:0.85rem;">No se encontraron productos</div>`;
+      } else {
+        suggestions.innerHTML = "";
+        filtrados.forEach(p => {
+          const stockVal = p.stock[appState.selectedLocal] || 0;
+          const stockBadge = stockVal === 0 ? '<span style="color:var(--danger); font-weight:700;">[Sin Stock]</span>' : `${stockVal} unds`;
+          
+          const div = document.createElement("div");
+          div.className = "autocomplete-item";
+          div.innerHTML = `
+            <span class="item-desc">${p.descripcion}</span>
+            <span class="item-stock">${stockBadge} • $${(p.precio_sugerido || 0).toLocaleString('es-CO')}</span>
+          `;
+          div.addEventListener("click", () => {
+            selectProductForDetail(p.descripcion);
+          });
+          suggestions.appendChild(div);
+        });
+      }
+      suggestions.style.display = "block";
+    }
+
+    // --- FICHA Y MOVIMIENTOS DE PRODUCTO ---
+    let currentSelectedProduct = null;
+
+    function selectProductForDetail(desc) {
+      document.getElementById("suggestions").style.display = "none";
+      document.getElementById("search-input").value = "";
+      
+      const prod = appState.productos.find(p => p.descripcion === desc);
+      if (!prod) return;
+      
+      currentSelectedProduct = prod;
+      
+      // Renderizar la ficha
+      document.getElementById("detail-product-title").textContent = prod.descripcion;
+      document.getElementById("detail-price").value = prod.precio_sugerido || 0;
+      document.getElementById("detail-qty").value = 1;
+      
+      // Ocultar las instrucciones del POS para dar espacio
+      document.getElementById("pos-instructions-box").style.display = "none";
+      document.getElementById("selected-product-panel").style.display = "block";
+      
+      renderProductDetailStock();
+    }
+
+    function closeProductDetail() {
+      document.getElementById("selected-product-panel").style.display = "none";
+      document.getElementById("pos-instructions-box").style.display = "block";
+      currentSelectedProduct = null;
+    }
+
+    function renderProductDetailStock() {
+      const prod = currentSelectedProduct;
+      if (!prod) return;
+      
+      const container = document.getElementById("detail-stock-list");
+      
+      const files = [
+        { key: "local.txt", label: "Local 1" },
+        { key: "local_2.txt", label: "Local 2" },
+        { key: "bodegac.txt", label: "Bodega Central" }
+      ];
+      
+      container.innerHTML = files.map(f => {
+        const qty = prod.stock[f.key] || 0;
+        const adminDisabledAttr = appState.admin.unlocked ? "" : "disabled";
+        
+        return `
+          <div style="display:flex; justify-content:space-between; align-items:center; background:rgba(0,0,0,0.2); padding:0.4rem 0.75rem; border-radius:6px; font-size:0.85rem; border: 1px solid var(--border-color);">
+            <span style="font-weight:600;">${f.label}:</span>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span style="font-weight:700; ${qty === 0 ? 'color:var(--danger)' : ''}">${qty} unds</span>
+              <button class="btn btn-secondary btn-icon" style="width:1.5rem; height:1.5rem; padding:0; font-size:0.8rem;" onclick="adjustStockDirect('${f.key}', 1)" ${adminDisabledAttr}>+</button>
+              <button class="btn btn-secondary btn-icon" style="width:1.5rem; height:1.5rem; padding:0; font-size:0.8rem;" onclick="adjustStockDirect('${f.key}', -1)" ${adminDisabledAttr}>-</button>
+            </div>
+          </div>
+        `;
+      }).join("");
+
+      // Configurar sección de traslados (Solo visible si admin está desbloqueado)
+      const transferSec = document.getElementById("detail-transfer-section");
+      if (appState.admin.unlocked) {
+        transferSec.style.display = "block";
+      } else {
+        transferSec.style.display = "none";
+      }
+
+      // Configurar estado del botón Agregar al Carrito en base al local de venta seleccionado
+      const localVenta = appState.selectedLocal;
+      const stockVenta = prod.stock[localVenta] || 0;
+      const addBtn = document.getElementById("btn-detail-add-cart");
+      if (stockVenta > 0) {
+        addBtn.disabled = false;
+        addBtn.textContent = `Agregar al Carrito (${stockVenta} disponibles)`;
+      } else {
+        addBtn.disabled = true;
+        let label = "Local 1";
+        if (localVenta === 'local_2.txt') label = "Local 2";
+        if (localVenta === 'bodegac.txt') label = "Bodega";
+        addBtn.textContent = `Sin Stock en ${label} (Ajusta o Traslada)`;
+      }
+    }
+
+    async function adjustStockDirect(archivo, cambio) {
+      if (!appState.admin.unlocked) {
+        showToast("No autorizado. Debes iniciar sesión como administrador.", "danger");
+        return;
+      }
+      
+      const prod = currentSelectedProduct;
+      if (!prod) return;
+      
+      const pin = appState.admin.pinBuffer;
+      
+      try {
+        const response = await fetch("/api/inventario/ajustar", {
+          method: "POST",
+          headers: { 
+            "Content-Type": "application/json",
+            "X-Admin-PIN": pin
+          },
+          body: JSON.stringify({
+            producto: prod.descripcion,
+            archivo: archivo,
+            cambio: cambio
+          })
+        });
+        
+        const data = await handleResponse(response, "No se pudo ajustar el stock.");
+        
+        showToast("Inventario ajustado correctamente.", "success");
+        
+        await loadProducts();
+        currentSelectedProduct = appState.productos.find(p => p.descripcion === prod.descripcion);
+        renderProductDetailStock();
+        
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    async function executeTransfer() {
+      if (!appState.admin.unlocked) {
+        showToast("No autorizado. Debes iniciar sesión como administrador.", "danger");
+        return;
+      }
+      
+      const prod = currentSelectedProduct;
+      if (!prod) return;
+      
+      const origen = document.getElementById("transfer-origin").value;
+      const destino = document.getElementById("transfer-destination").value;
+      const cantidad = parseInt(document.getElementById("transfer-qty").value) || 0;
+      
+      if (cantidad <= 0) {
+        showToast("Por favor ingresa una cantidad a trasladar válida.", "warning");
+        return;
+      }
+      
+      if (origen === destino) {
+        showToast("El origen y el destino deben ser diferentes.", "warning");
+        return;
+      }
+      
+      const pin = appState.admin.pinBuffer;
+      
+      try {
+        const response = await fetch("/api/inventario/trasladar", {
+          method: "POST",
+          headers: { 
+            "Content-Type": "application/json",
+            "X-Admin-PIN": pin
+          },
+          body: JSON.stringify({
+            producto: prod.descripcion,
+            origen: origen,
+            destino: destino,
+            cantidad: cantidad
+          })
+        });
+        
+        const data = await handleResponse(response, "Error al procesar el traslado.");
+        
+        showToast("Traslado de mercancía completado con éxito.", "success");
+        
+        document.getElementById("transfer-qty").value = 1;
+        
+        await loadProducts();
+        currentSelectedProduct = appState.productos.find(p => p.descripcion === prod.descripcion);
+        renderProductDetailStock();
+        
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    function addSelectedToCart() {
+      const prod = currentSelectedProduct;
+      if (!prod) return;
+      
+      const price = parseFloat(document.getElementById("detail-price").value) || 0;
+      const qty = parseInt(document.getElementById("detail-qty").value) || 0;
+      
+      if (qty <= 0) {
+        showToast("La cantidad debe ser mayor a cero.", "warning");
+        return;
+      }
+      
+      const stockVenta = prod.stock[appState.selectedLocal] || 0;
+      
+      let cartQty = 0;
+      const itemExistente = appState.cart.find(i => i.descripcion === prod.descripcion);
+      if (itemExistente) {
+        cartQty = itemExistente.cantidad;
+      }
+      
+      if (cartQty + qty > stockVenta) {
+        showToast(`Stock insuficiente. Disponible: ${stockVenta}, en carrito: ${cartQty}, requerido adicional: ${qty}`, "warning");
+        return;
+      }
+      
+      if (itemExistente) {
+        itemExistente.cantidad += qty;
+        itemExistente.precio = price;
+      } else {
+        appState.cart.push({
+          descripcion: prod.descripcion,
+          cantidad: qty,
+          precio: price,
+          costo: prod.costo || 0,
+          stockMax: stockVenta
+        });
+      }
+      
+      showToast(`${qty} unidad(es) de "${prod.descripcion}" agregadas al carrito.`, "success");
+      
+      closeProductDetail();
+      renderCart();
+    }
+
+    // --- CARRITO DE VENTAS ---
+    function addProductToCart(desc) {
+      document.getElementById("suggestions").style.display = "none";
+      document.getElementById("search-input").value = "";
+
+      const prod = appState.productos.find(p => p.descripcion === desc);
+      if (!prod) return;
+
+      const stockDisponible = prod.stock[appState.selectedLocal] || 0;
+      
+      // Verificar si ya está en el carrito
+      const itemExistente = appState.cart.find(i => i.descripcion === desc);
+      if (itemExistente) {
+        if (itemExistente.cantidad >= stockDisponible) {
+          showToast(`No hay más stock disponible para ${desc}. Max: ${stockDisponible}`, "warning");
+          return;
+        }
+        itemExistente.cantidad++;
+      } else {
+        appState.cart.push({
+          descripcion: desc,
+          cantidad: 1,
+          precio: prod.precio_sugerido || 0,
+          costo: prod.costo || 0,
+          stockMax: stockDisponible
+        });
+      }
+
+      renderCart();
+    }
+
+    function updateCartQty(idx, val) {
+      const item = appState.cart[idx];
+      if (!item) return;
+
+      const newQty = parseInt(val);
+      if (isNaN(newQty) || newQty <= 0) {
+        appState.cart.splice(idx, 1);
+      } else if (newQty > item.stockMax) {
+        showToast(`Stock insuficiente. Máximo disponible: ${item.stockMax}`, "warning");
+        item.cantidad = item.stockMax;
+      } else {
+        item.cantidad = newQty;
+      }
+      renderCart();
+    }
+
+    function changeCartQtyOffset(idx, offset) {
+      const item = appState.cart[idx];
+      if (!item) return;
+      updateCartQty(idx, item.cantidad + offset);
+    }
+
+    function updateCartPrice(idx, val) {
+      const item = appState.cart[idx];
+      if (!item) return;
+      
+      const newPrice = parseFloat(val);
+      if (!isNaN(newPrice) && newPrice >= 0) {
+        item.precio = newPrice;
+      }
+      renderCart(false); // Renderizar sin reconstruir entradas para no perder focus
+    }
+
+    function removeFromCart(idx) {
+      appState.cart.splice(idx, 1);
+      renderCart();
+    }
+
+    function clearCart() {
+      appState.cart = [];
+      appState.isSplitPayment = false;
+      appState.splitPayments = [];
+      
+      const singleContainer = document.getElementById("payment-single-container");
+      const splitContainer = document.getElementById("payment-split-container");
+      const toggleBtn = document.getElementById("btn-toggle-split-pay");
+      if (singleContainer) singleContainer.style.display = "block";
+      if (splitContainer) splitContainer.style.display = "none";
+      if (toggleBtn) toggleBtn.textContent = "Dividir Pago";
+      
+      renderCart();
+    }
+
+    function renderCart(rebuild = true) {
+      const tbody = document.getElementById("cart-items");
+      const totalSpan = document.getElementById("cart-total");
+
+      if (appState.cart.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="5" style="text-align: center; color: var(--text-muted); padding: 3rem;">El carrito está vacío</td>
+          </tr>
+        `;
+        totalSpan.textContent = "$0";
+        
+        // Reset split payments state on empty cart
+        appState.isSplitPayment = false;
+        appState.splitPayments = [];
+        const singleContainer = document.getElementById("payment-single-container");
+        const splitContainer = document.getElementById("payment-split-container");
+        const toggleBtn = document.getElementById("btn-toggle-split-pay");
+        if (singleContainer) singleContainer.style.display = "block";
+        if (splitContainer) splitContainer.style.display = "none";
+        if (toggleBtn) toggleBtn.textContent = "Dividir Pago";
+        
+        const btn = document.getElementById("btn-submit-sale");
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = `<svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg> Completar y Registrar Venta`;
+        }
+        return;
+      }
+
+      let total = 0;
+      
+      if (rebuild) {
+        tbody.innerHTML = appState.cart.map((item, idx) => {
+          const subtotal = item.cantidad * item.precio;
+          total += subtotal;
+          return `
+            <tr>
+              <td>
+                <div style="font-weight:600; font-size:0.85rem;">${item.descripcion}</div>
+                <div style="font-size:0.75rem; color:var(--text-secondary);">Stock: ${item.stockMax}</div>
+              </td>
+              <td>
+                <div class="qty-controls">
+                  <button class="qty-btn" onclick="changeCartQtyOffset(${idx}, -1)">-</button>
+                  <input type="text" class="qty-val" value="${item.cantidad}" onchange="updateCartQty(${idx}, this.value)">
+                  <button class="qty-btn" onclick="changeCartQtyOffset(${idx}, 1)">+</button>
+                </div>
+              </td>
+              <td>
+                <input type="number" class="input-control" style="padding: 0.25rem 0.5rem; text-align:right;" value="${item.precio}" oninput="updateCartPrice(${idx}, this.value)">
+              </td>
+              <td style="text-align: right; font-weight: 700;">
+                $${subtotal.toLocaleString('es-CO')}
+              </td>
+              <td style="text-align: center;">
+                <button class="modal-close" style="color:var(--danger);" onclick="removeFromCart(${idx})">&times;</button>
+              </td>
+            </tr>
+          `;
+        }).join("");
+      } else {
+        // Solo calcular total
+        appState.cart.forEach(item => {
+          total += item.cantidad * item.precio;
+        });
+      }
+
+      totalSpan.textContent = `$${total.toLocaleString('es-CO')}`;
+
+      if (appState.isSplitPayment) {
+        renderSplitPayments();
+      } else {
+        const btn = document.getElementById("btn-submit-sale");
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = `<svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg> Completar y Registrar Venta`;
+        }
+      }
+    }
+
+    // --- PAGO DIVIDIDO / PARCIAL ---
+    function toggleSplitPayMode() {
+      appState.isSplitPayment = !appState.isSplitPayment;
+      const singleContainer = document.getElementById("payment-single-container");
+      const splitContainer = document.getElementById("payment-split-container");
+      const toggleBtn = document.getElementById("btn-toggle-split-pay");
+
+      if (appState.isSplitPayment) {
+        singleContainer.style.display = "none";
+        splitContainer.style.display = "block";
+        toggleBtn.textContent = "Pago Único";
+        appState.splitPayments = [];
+        renderSplitPayments();
+      } else {
+        singleContainer.style.display = "block";
+        splitContainer.style.display = "none";
+        toggleBtn.textContent = "Dividir Pago";
+        appState.splitPayments = [];
+        
+        // Restaurar estado del botón de completar
+        const btn = document.getElementById("btn-submit-sale");
+        if (btn) {
+          btn.disabled = false;
+          btn.innerHTML = `<svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg> Completar y Registrar Venta`;
+        }
+      }
+    }
+
+    function addSplitPaymentRow() {
+      const method = document.getElementById("split-method-select").value;
+      const amountInput = document.getElementById("split-amount-input");
+      const amount = parseFloat(amountInput.value) || 0;
+
+      if (amount <= 0) {
+        showToast("Por favor ingresa un monto válido.", "warning");
+        return;
+      }
+
+      // Buscar si el método ya fue agregado para sumar el monto
+      const existing = appState.splitPayments.find(p => p.method === method);
+      if (existing) {
+        existing.amount += amount;
+      } else {
+        appState.splitPayments.push({ method: method, amount: amount });
+      }
+
+      amountInput.value = "";
+      renderSplitPayments();
+    }
+
+    function removeSplitPaymentRow(idx) {
+      appState.splitPayments.splice(idx, 1);
+      renderSplitPayments();
+    }
+
+    function renderSplitPayments() {
+      let cartTotal = 0;
+      appState.cart.forEach(item => {
+        cartTotal += item.cantidad * item.precio;
+      });
+
+      let totalPaid = 0;
+      appState.splitPayments.forEach(p => {
+        totalPaid += p.amount;
+      });
+
+      // Renderizar listado de abonos
+      const listDiv = document.getElementById("split-payments-list");
+      if (appState.splitPayments.length === 0) {
+        listDiv.innerHTML = `<span style="font-size:0.8rem; color:var(--text-muted); font-style:italic;">No hay pagos agregados</span>`;
+      } else {
+        listDiv.innerHTML = appState.splitPayments.map((p, idx) => `
+          <div style="display:flex; justify-content:space-between; align-items:center; background:rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); padding:0.35rem 0.6rem; border-radius:6px; font-size:0.85rem;">
+            <span>${p.method}: <strong style="color:var(--text-primary); font-weight:600;">$${p.amount.toLocaleString('es-CO')}</strong></span>
+            <button type="button" onclick="removeSplitPaymentRow(${idx})" style="background:none; border:none; color:var(--danger); font-size:1.1rem; line-height:1; cursor:pointer; padding:0 0.25rem;">&times;</button>
+          </div>
+        `).join("");
+      }
+
+      // Actualizar valores en UI
+      document.getElementById("split-total-paid").textContent = `$${totalPaid.toLocaleString('es-CO')}`;
+
+      const diff = cartTotal - totalPaid;
+      const diffLabel = document.getElementById("split-diff-label");
+      const diffSpan = document.getElementById("split-total-diff");
+      const btn = document.getElementById("btn-submit-sale");
+
+      // Sugerir el restante en el campo de monto
+      const amountInput = document.getElementById("split-amount-input");
+      if (amountInput) {
+        amountInput.value = diff > 0 ? diff : "";
+      }
+
+      if (diff > 0) {
+        // Falta pagar
+        diffLabel.textContent = "Falta pagar:";
+        diffLabel.style.color = "var(--text-secondary)";
+        diffSpan.textContent = `$${diff.toLocaleString('es-CO')}`;
+        diffSpan.style.color = "var(--danger)";
+        
+        if (btn) {
+          btn.disabled = true;
+          btn.innerHTML = `Falta pagar $${diff.toLocaleString('es-CO')}`;
+        }
+      } else {
+        // Pago completado o cambio
+        const cambio = Math.abs(diff);
+        if (cambio > 0) {
+          diffLabel.textContent = "Cambio (Vueltos):";
+          diffLabel.style.color = "var(--success)";
+          diffSpan.textContent = `$${cambio.toLocaleString('es-CO')}`;
+          diffSpan.style.color = "var(--success)";
+          
+          if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = `<svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg> Registrar (Vueltos: $${cambio.toLocaleString('es-CO')})`;
+          }
+        } else {
+          diffLabel.textContent = "Pago Completo:";
+          diffLabel.style.color = "var(--success)";
+          diffSpan.textContent = "$0";
+          diffSpan.style.color = "var(--success)";
+          
+          if (btn) {
+            btn.disabled = false;
+            btn.innerHTML = `<svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg> Completar y Registrar Venta`;
+          }
+        }
+      }
+    }
+
+    // --- REGISTRAR VENTA ---
+    async function submitSale() {
+      if (appState.cart.length === 0) {
+        showToast("El carrito está vacío.", "warning");
+        return;
+      }
+
+      // Validar si la caja está iniciada para hoy
+      if (!appState.caja.iniciado) {
+        showToast("Debes iniciar el día de caja antes de registrar ventas.", "danger");
+        switchTab('caja');
+        return;
+      }
+      if (appState.caja.cerrado) {
+        showToast("La caja para hoy ya está cerrada. No puedes registrar ventas.", "danger");
+        return;
+      }
+
+      // Construir string de medio_pago
+      let medioPagoStr = "";
+      if (appState.isSplitPayment) {
+        if (appState.splitPayments.length === 0) {
+          showToast("Debes agregar al menos un pago en el modo Pago Dividido.", "warning");
+          return;
+        }
+        medioPagoStr = appState.splitPayments.map(p => `${p.method}: $${p.amount.toFixed(2)}`).join(", ");
+      } else {
+        medioPagoStr = document.getElementById("payment-select").value;
+      }
+
+      const btn = document.getElementById("btn-submit-sale");
+      btn.disabled = true;
+      btn.innerHTML = `<span class="spinner"></span> Registrando...`;
+
+      const payload = {
+        cliente: document.getElementById("client-select").value,
+        medio_pago: medioPagoStr,
+        archivo_origen: appState.selectedLocal,
+        items: appState.cart.map(i => ({
+          descripcion: i.descripcion,
+          cantidad: i.cantidad,
+          precio: i.precio,
+          costo: i.costo
+        }))
+      };
+
+      try {
+        const response = await fetch("/api/ventas", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+
+        const resData = await handleResponse(response, "Error al procesar la venta.");
+
+        showToast("Venta registrada correctamente.", "success");
+        clearCart();
+        
+        // Recargar stock y estado caja
+        await loadProducts();
+        const activeDate = document.getElementById("caja-date-input").value;
+        await loadCajaStatus(activeDate);
+
+      } catch (err) {
+        showToast(err.message, "danger");
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `
+          <svg style="width:1.25rem;height:1.25rem" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
+          Completar y Registrar Venta
+        `;
+      }
+    }
+
+
+    // --- REGISTRAR CLIENTE (QUICK MODAL) ---
+    function openNewCustomerModal() {
+      document.getElementById("new-customer-modal").classList.add("active");
+    }
+    function closeNewCustomerModal() {
+      document.getElementById("new-customer-modal").classList.remove("active");
+    }
+
+    async function saveNewCustomerModal() {
+      const nombre = document.getElementById("modal-client-name").value.trim();
+      const contacto = document.getElementById("modal-client-phone").value.trim();
+
+      if (!nombre) {
+        showToast("El nombre es obligatorio.", "warning");
+        return;
+      }
+
+      try {
+        const response = await fetch("/api/clientes", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ nombre, contacto })
+        });
+        const data = await handleResponse(response, "No se pudo guardar.");
+
+        showToast("Cliente guardado.", "success");
+        closeNewCustomerModal();
+        
+        // Limpiar inputs
+        document.getElementById("modal-client-name").value = "";
+        document.getElementById("modal-client-phone").value = "";
+
+        // Recargar clientes y seleccionar el nuevo
+        await loadClientes();
+        document.getElementById("client-select").value = nombre;
+
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    // --- ASISTENTE DE ARQUEO POR DENOMINACIÓN DE EFECTIVO ---
+    let currentCashTargetInputId = null;
+
+    function openCashCounter(targetInputId) {
+      currentCashTargetInputId = targetInputId;
+      // Reset inputs to 0
+      document.getElementById("bill-100k").value = 0;
+      document.getElementById("bill-50k").value = 0;
+      document.getElementById("bill-20k").value = 0;
+      document.getElementById("bill-10k").value = 0;
+      document.getElementById("bill-5k").value = 0;
+      document.getElementById("bill-2k").value = 0;
+      document.getElementById("bill-1k").value = 0;
+      document.getElementById("coins-total").value = 0;
+      
+      // Calculate initial sum (0)
+      calculateModalTotal();
+      
+      // Open modal
+      document.getElementById("cash-counter-modal").classList.add("active");
+    }
+
+    function closeCashCounter() {
+      document.getElementById("cash-counter-modal").classList.remove("active");
+    }
+
+    function calculateModalTotal() {
+      const v100k = (parseInt(document.getElementById("bill-100k").value) || 0) * 100000;
+      const v50k = (parseInt(document.getElementById("bill-50k").value) || 0) * 50000;
+      const v20k = (parseInt(document.getElementById("bill-20k").value) || 0) * 20000;
+      const v10k = (parseInt(document.getElementById("bill-10k").value) || 0) * 10000;
+      const v5k = (parseInt(document.getElementById("bill-5k").value) || 0) * 5000;
+      const v2k = (parseInt(document.getElementById("bill-2k").value) || 0) * 2000;
+      const v1k = (parseInt(document.getElementById("bill-1k").value) || 0) * 1000;
+      const vCoins = parseFloat(document.getElementById("coins-total").value) || 0;
+      
+      const total = v100k + v50k + v20k + v10k + v5k + v2k + v1k + vCoins;
+      document.getElementById("modal-cash-total").textContent = `$${total.toLocaleString('es-CO')}`;
+      return total;
+    }
+
+    async function applyCashCounterTotal() {
+      const total = calculateModalTotal();
+      if (currentCashTargetInputId) {
+        const inputEl = document.getElementById(currentCashTargetInputId);
+        inputEl.value = total;
+        inputEl.dispatchEvent(new Event('input'));
+        inputEl.dispatchEvent(new Event('change'));
+      }
+      
+      // Construct details string
+      const details = [];
+      const q100k = parseInt(document.getElementById("bill-100k").value) || 0;
+      const q50k = parseInt(document.getElementById("bill-50k").value) || 0;
+      const q20k = parseInt(document.getElementById("bill-20k").value) || 0;
+      const q10k = parseInt(document.getElementById("bill-10k").value) || 0;
+      const q5k = parseInt(document.getElementById("bill-5k").value) || 0;
+      const q2k = parseInt(document.getElementById("bill-2k").value) || 0;
+      const q1k = parseInt(document.getElementById("bill-1k").value) || 0;
+      const vCoins = parseFloat(document.getElementById("coins-total").value) || 0;
+
+      if (q100k > 0) details.push(`$100,000: ${q100k}`);
+      if (q50k > 0) details.push(`$50,000: ${q50k}`);
+      if (q20k > 0) details.push(`$20,000: ${q20k}`);
+      if (q10k > 0) details.push(`$10,000: ${q10k}`);
+      if (q5k > 0) details.push(`$5,000: ${q5k}`);
+      if (q2k > 0) details.push(`$2,000: ${q2k}`);
+      if (q1k > 0) details.push(`$1,000: ${q1k}`);
+      
+      // Monedas: format always
+      const formattedCoins = vCoins.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+      details.push(`Monedas: $${formattedCoins}`);
+      
+      const detailString = details.join(", ");
+      
+      try {
+        const response = await fetch('/api/caja/conteo', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            total: total,
+            detalle: detailString,
+            local: appState.selectedLocal
+          })
+        });
+        await handleResponse(response, "Error al registrar el conteo de efectivo.");
+        showToast("Conteo de efectivo guardado e historial actualizado.", "success");
+      } catch (err) {
+        showToast("Error al registrar el conteo: " + err.message, "danger");
+      }
+      
+      closeCashCounter();
+    }
+
+    function renderCajaVentas(ventas) {
+      const tbodyVentas = document.getElementById("caja-table-ventas");
+      if (!ventas || ventas.length === 0) {
+        tbodyVentas.innerHTML = `<tr><td colspan="8" style="text-align:center; color:var(--text-muted);">No hay ventas registradas hoy</td></tr>`;
+      } else {
+        tbodyVentas.innerHTML = ventas.map(v => {
+          return `
+            <tr>
+              <td>${v.hora}</td>
+              <td style="font-family:monospace; font-size:0.8rem;">${v.id_venta}</td>
+              <td>${v.descripcion}</td>
+              <td style="text-align:center;">${v.cantidad}</td>
+              <td style="text-align:right;">$${v.precio_unitario.toLocaleString('es-CO')}</td>
+              <td style="text-align:right; font-weight:700;">$${v.total.toLocaleString('es-CO')}</td>
+              <td style="font-size:0.8rem;">${v.medio_pago}</td>
+              <td>${v.cliente}</td>
+            </tr>
+          `;
+        }).join("");
+      }
+    }
+
+    // --- GESTIÓN DE CAJA ---
+    function renderCajaUI() {
+      const labelCaja = document.getElementById("label-caja");
+      const badgeCaja = document.getElementById("badge-caja");
+      const noInitPanel = document.getElementById("caja-no-iniciada-panel");
+      const activePanel = document.getElementById("caja-activa-panel");
+
+      // Reiniciar clases de badge
+      badgeCaja.className = "badge";
+
+      if (!appState.caja.iniciado) {
+        labelCaja.textContent = "Caja: No Iniciada";
+        badgeCaja.classList.add("badge-danger");
+        noInitPanel.style.display = "block";
+        activePanel.style.display = "none";
+        return;
+      }
+
+      noInitPanel.style.display = "none";
+      activePanel.style.display = "flex";
+
+      const c = appState.caja.datos;
+
+      if (appState.caja.cerrado) {
+        labelCaja.textContent = "Caja: Cerrada";
+        badgeCaja.classList.add("badge-success");
+        
+        // Esconder formularios de movimientos y cierre
+        document.getElementById("form-movimiento-card").style.display = "none";
+        document.getElementById("cierre-caja-card").style.display = "none";
+        
+        // Mostrar resumen de cierre
+        document.getElementById("reporte-cierre-card").style.display = "block";
+        document.getElementById("cierre-val-real").textContent = `$${c.dinero_en_caja.toLocaleString('es-CO')}`;
+        document.getElementById("cierre-val-elect").textContent = `$${c.pagos_electronicos.toLocaleString('es-CO')}`;
+        
+        const diffSpan = document.getElementById("cierre-val-diferencia");
+        diffSpan.textContent = `$${c.diferencia.toLocaleString('es-CO')}`;
+        diffSpan.style.color = c.diferencia >= 0 ? "var(--success)" : "var(--danger)";
+
+      } else {
+        labelCaja.textContent = "Caja: Abierta";
+        badgeCaja.classList.add("badge-warning");
+        
+        // Mostrar formularios
+        document.getElementById("form-movimiento-card").style.display = "block";
+        document.getElementById("cierre-caja-card").style.display = "block";
+        document.getElementById("reporte-cierre-card").style.display = "none";
+      }
+
+      // Rellenar métricas
+      document.getElementById("caja-val-inicial").textContent = `$${c.dinero_inicial.toLocaleString('es-CO')}`;
+      document.getElementById("caja-val-base").textContent = `$${c.base.toLocaleString('es-CO')}`;
+      document.getElementById("caja-val-ventas").textContent = `$${c.total_ventas.toLocaleString('es-CO')}`;
+      document.getElementById("caja-val-movimientos").textContent = `$${c.total_movimientos.toLocaleString('es-CO')}`;
+      document.getElementById("caja-val-electronico").textContent = `$${c.pagos_electronicos.toLocaleString('es-CO')}`;
+      document.getElementById("caja-val-esperado").textContent = `$${c.efectivo_esperado.toLocaleString('es-CO')}`;
+      document.getElementById("sug-electronicos").textContent = `Sugerido por sistema: $${c.pagos_electronicos.toLocaleString('es-CO')}`;
+
+      // Pre-rellenar sugerencia de pagos electrónicos y actualizar comparador si está abierta
+      if (!appState.caja.cerrado) {
+        document.getElementById("cierre-electronicos").value = c.pagos_electronicos || 0;
+        updateCierreComparator();
+      } else {
+        const compBox = document.getElementById("cierre-comparador-box");
+        if (compBox) compBox.style.display = "none";
+      }
+
+      // Historial de movimientos
+      const tbody = document.getElementById("caja-table-movimientos");
+      if (appState.caja.movimientos.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="5" style="text-align:center; color:var(--text-muted);">No hay movimientos registrados hoy</td></tr>`;
+      } else {
+        tbody.innerHTML = appState.caja.movimientos.map(m => {
+          const color = m.monto >= 0 ? "var(--success)" : "var(--danger)";
+          const sign = m.monto >= 0 ? "+" : "";
+          const hora = m.timestamp.split(" ")[1] || m.timestamp;
+          
+          return `
+            <tr>
+              <td>${hora}</td>
+              <td style="font-weight:600; font-size:0.8rem;">${m.tipo}</td>
+              <td>${m.descripcion}</td>
+              <td style="text-align:right; font-weight:700; color:${color}">${sign}${(m.monto).toLocaleString('es-CO')}</td>
+              <td style="text-align:center;">
+                ${!appState.caja.cerrado ? `<button class="modal-close" style="color:var(--danger);" onclick="eliminarMovimiento('${m.timestamp}')">&times;</button>` : ''}
+              </td>
+            </tr>
+          `;
+        }).join("");
+      }
+      
+      // Renderizar ventas detalladas del día
+      renderCajaVentas(appState.caja.ventas || []);
+    }
+
+    // --- COMPARADOR DE CIERRE DE CAJA EN TIEMPO REAL ---
+    function updateCierreComparator() {
+      const compBox = document.getElementById("cierre-comparador-box");
+      if (!compBox) return;
+      if (!appState.caja.iniciado || appState.caja.cerrado) {
+        compBox.style.display = "none";
+        return;
+      }
+      
+      const esperado = appState.caja.datos.efectivo_esperado || 0;
+      const base = appState.caja.datos.base || 0;
+      const esperadoComparacion = esperado - base;
+      const contado = parseFloat(document.getElementById("cierre-real-caja").value) || 0;
+      const diferencia = contado - esperadoComparacion;
+      
+      document.getElementById("cierre-comp-esperado").textContent = `$${esperadoComparacion.toLocaleString('es-CO')}`;
+      document.getElementById("cierre-comp-contado").textContent = `$${contado.toLocaleString('es-CO')}`;
+      
+      const resSpan = document.getElementById("cierre-comp-resultado");
+      resSpan.className = "";
+      resSpan.style.border = "1px solid transparent";
+      resSpan.style.borderRadius = "6px";
+      resSpan.style.padding = "0.25rem 0.75rem";
+      resSpan.style.fontWeight = "800";
+      resSpan.style.fontSize = "0.95rem";
+      
+      if (Math.abs(diferencia) < 0.01) {
+        resSpan.textContent = "Caja Cuadrada ($0)";
+        resSpan.style.color = "var(--success)";
+        resSpan.style.background = "var(--success-glow)";
+        resSpan.style.borderColor = "var(--success)";
+      } else if (diferencia > 0) {
+        resSpan.textContent = `Sobra $${diferencia.toLocaleString('es-CO')}`;
+        resSpan.style.color = "var(--success)";
+        resSpan.style.background = "var(--success-glow)";
+        resSpan.style.borderColor = "var(--success)";
+      } else {
+        resSpan.textContent = `Falta $${Math.abs(diferencia).toLocaleString('es-CO')}`;
+        resSpan.style.color = "var(--danger)";
+        resSpan.style.background = "var(--danger-glow)";
+        resSpan.style.borderColor = "var(--danger)";
+      }
+      
+      compBox.style.display = "block";
+    }
+
+    async function refreshActiveCaja() {
+      const activeDate = document.getElementById("caja-date-input").value;
+      if (!activeDate) return;
+      try {
+        await loadProducts();
+        await loadCajaStatus(activeDate);
+        showToast("Datos de caja y stock actualizados.", "success");
+      } catch (err) {
+        showToast("Error al refrescar: " + err.message, "danger");
+      }
+    }
+
+    async function iniciarCaja() {
+      const fecha = document.getElementById("caja-date-input").value;
+      const dinero_inicial = parseFloat(document.getElementById("caja-init-inicial").value) || 0;
+      const base = parseFloat(document.getElementById("caja-init-base").value) || 0;
+
+      try {
+        const response = await fetch("/api/caja/iniciar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ fecha, dinero_inicial, base, local: appState.selectedLocal })
+        });
+        const data = await handleResponse(response, "No se pudo iniciar la caja.");
+
+        showToast("Día de caja iniciado.", "success");
+        await loadCajaStatus(fecha);
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    async function registrarMovimiento() {
+      const tipo = document.getElementById("mov-tipo").value;
+      const descripcion = document.getElementById("mov-desc").value.trim();
+      const monto = parseFloat(document.getElementById("mov-monto").value);
+
+      if (!descripcion || isNaN(monto) || monto <= 0) {
+        showToast("Descripción y monto válido son obligatorios.", "warning");
+        return;
+      }
+
+      try {
+        const response = await fetch("/api/caja/movimiento", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ tipo, descripcion, monto, local: appState.selectedLocal })
+        });
+        const data = await handleResponse(response, "Error al guardar el movimiento.");
+
+        showToast("Movimiento registrado.", "success");
+        document.getElementById("mov-desc").value = "";
+        document.getElementById("mov-monto").value = "";
+
+        const activeDate = document.getElementById("caja-date-input").value;
+        await loadCajaStatus(activeDate);
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    async function eliminarMovimiento(timestamp) {
+      if (!confirm("¿Seguro que deseas eliminar este movimiento de caja?")) return;
+
+      try {
+        const response = await fetch("/api/caja/movimiento/eliminar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ timestamp, local: appState.selectedLocal })
+        });
+        const data = await handleResponse(response, "Error al eliminar.");
+
+        showToast("Movimiento eliminado.", "success");
+        const activeDate = document.getElementById("caja-date-input").value;
+        await loadCajaStatus(activeDate);
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    async function cerrarCaja() {
+      const fecha = document.getElementById("caja-date-input").value;
+      const dinero_real_caja = parseFloat(document.getElementById("cierre-real-caja").value);
+      const pagos_electronicos = parseFloat(document.getElementById("cierre-electronicos").value);
+
+      if (isNaN(dinero_real_caja) || isNaN(pagos_electronicos)) {
+        showToast("Por favor ingresa montos válidos para el arqueo final.", "warning");
+        return;
+      }
+
+      if (!confirm("¿Estás seguro de cerrar la caja hoy? Esto bloqueará nuevos registros de ventas y movimientos para esta fecha.")) return;
+
+      try {
+        const response = await fetch("/api/caja/cerrar", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ fecha, dinero_real_caja, pagos_electronicos, local: appState.selectedLocal })
+        });
+        const data = await handleResponse(response, "Error al cerrar la caja.");
+
+        showToast("Caja cerrada y registrada con éxito.", "success");
+        document.getElementById("cierre-real-caja").value = "";
+        document.getElementById("cierre-electronicos").value = "";
+        
+        await loadCajaStatus(fecha);
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    // --- PESTAÑA: CLIENTES LISTADO ---
+    function renderClientes(query = "") {
+      const tbody = document.getElementById("clientes-tbody");
+      const filterLower = query.toLowerCase();
+
+      const filtrados = appState.clientes.filter(c => 
+        c.nombre.toLowerCase().includes(filterLower) || 
+        c.contacto.toLowerCase().includes(filterLower)
+      );
+
+      if (filtrados.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="2" style="text-align:center; color:var(--text-muted); padding:2rem;">No se encontraron clientes</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = filtrados.map(c => `
+        <tr>
+          <td style="font-weight: 600;">${c.nombre}</td>
+          <td>${c.contacto || '<span style="color:var(--text-muted)">Sin contacto</span>'}</td>
+        </tr>
+      `).join("");
+    }
+
+    async function saveNewCustomerDirect() {
+      const nombre = document.getElementById("new-client-name").value.trim();
+      const contacto = document.getElementById("new-client-phone").value.trim();
+
+      if (!nombre) {
+        showToast("El nombre del cliente es obligatorio.", "warning");
+        return;
+      }
+
+      try {
+        const response = await fetch("/api/clientes", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ nombre, contacto })
+        });
+        const data = await handleResponse(response, "Error al guardar cliente.");
+
+        showToast("Cliente creado.", "success");
+        document.getElementById("new-client-name").value = "";
+        document.getElementById("new-client-phone").value = "";
+
+        await loadClientes();
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+
+    // --- PESTAÑA: ADMIN & LOCK SCREEN ---
+    function pressPin(num) {
+      if (appState.admin.pinBuffer.length < 4) {
+        appState.admin.pinBuffer += num;
+        updatePinDots();
+      }
+      if (appState.admin.pinBuffer.length === 4) {
+        setTimeout(submitPin, 200);
+      }
+    }
+
+    function clearPin() {
+      appState.admin.pinBuffer = "";
+      updatePinDots();
+    }
+
+    function updatePinDots() {
+      for (let i = 0; i < 4; i++) {
+        const dot = document.getElementById(`dot-${i}`);
+        if (i < appState.admin.pinBuffer.length) {
+          dot.classList.add("filled");
+        } else {
+          dot.classList.remove("filled");
+        }
+      }
+    }
+
+    async function submitPin() {
+      const pin = appState.admin.pinBuffer;
+      if (pin.length !== 4) return;
+
+      // Hacemos una llamada de prueba al endpoint admin con el pin ingresado
+      try {
+        const response = await fetch(`/api/reportes?pin=${pin}`);
+        if (response.status === 401) {
+          showToast("PIN incorrecto. Inténtalo de nuevo.", "danger");
+          clearPin();
+          return;
+        }
+        if (!response.ok) throw new Error("Error en el servidor.");
+
+        appState.admin.unlocked = true;
+        document.getElementById("admin-lock").style.display = "none";
+        document.getElementById("admin-content").style.display = "block";
+        showToast("Acceso concedido al panel administrativo.", "success");
+        
+        // Habilitar selector de local para el admin
+        document.getElementById("local-select").disabled = false;
+        
+        // Refrescar ficha de producto seleccionada para mostrar controles de admin si existe
+        if (currentSelectedProduct) {
+          renderProductDetailStock();
+        }
+        
+        loadAdminReport();
+      } catch (err) {
+        showToast("Error de conexión: " + err.message, "danger");
+        clearPin();
+      }
+    }
+
+    async function loadAdminReport() {
+      if (!appState.admin.unlocked) return;
+
+      const start = document.getElementById("report-date-start").value;
+      const end = document.getElementById("report-date-end").value;
+      const pin = appState.admin.pinBuffer;
+
+      try {
+        const response = await fetch(`/api/reportes?fecha_inicio=${start}&fecha_fin=${end}&pin=${pin}`);
+        const data = await handleResponse(response, "No se pudo obtener el reporte.");
+
+        appState.admin.report = data;
+        renderAdminReportUI();
+      } catch (err) {
+        showToast("Error al cargar reportes: " + err.message, "danger");
+      }
+    }
+
+    function renderAdminReportUI() {
+      const r = appState.admin.report;
+      if (!r) return;
+
+      // Rellenar tarjetas
+      document.getElementById("m-sales-total").textContent = `$${r.total_ventas.toLocaleString('es-CO')}`;
+      document.getElementById("m-gain-total").textContent = `$${r.total_ganancia.toLocaleString('es-CO')}`;
+      document.getElementById("m-sales-count").textContent = r.sales_count;
+      
+      const avgTicket = r.sales_count > 0 ? (r.total_ventas / r.sales_count) : 0;
+      document.getElementById("m-avg-ticket").textContent = `$${avgTicket.toLocaleString('es-CO', {maximumFractionDigits:0})}`;
+
+      // Renderizar gráficos de barras (Ubicaciones)
+      const chartLoc = document.getElementById("chart-locations");
+      const maxLocVal = Math.max(...Object.values(r.por_local), 1);
+      chartLoc.innerHTML = Object.entries(r.por_local).map(([loc, val]) => {
+        const pct = (val / maxLocVal) * 100;
+        return `
+          <div class="chart-bar-row">
+            <div class="chart-bar-labels">
+              <span style="font-weight:500;">${loc}</span>
+              <span style="font-weight:700;">$${val.toLocaleString('es-CO')}</span>
+            </div>
+            <div class="chart-bar-bg">
+              <div class="chart-bar-fill" style="width: ${pct}%"></div>
+            </div>
+          </div>
+        `;
+      }).join("") || `<div style="text-align:center; color:var(--text-muted); font-size:0.9rem;">Sin ventas en el rango</div>`;
+
+      // Renderizar medios de pago
+      const chartPay = document.getElementById("chart-payments");
+      const maxPayVal = Math.max(...Object.values(r.por_medio_pago), 1);
+      chartPay.innerHTML = Object.entries(r.por_medio_pago).map(([pay, val]) => {
+        const pct = (val / maxPayVal) * 100;
+        return `
+          <div class="chart-bar-row">
+            <div class="chart-bar-labels">
+              <span style="font-weight:500;">${pay}</span>
+              <span style="font-weight:700;">$${val.toLocaleString('es-CO')}</span>
+            </div>
+            <div class="chart-bar-bg">
+              <div class="chart-bar-fill green" style="width: ${pct}%"></div>
+            </div>
+          </div>
+        `;
+      }).join("") || `<div style="text-align:center; color:var(--text-muted); font-size:0.9rem;">Sin datos en el rango</div>`;
+
+      // Renderizar listado de ventas histórico
+      const tbody = document.getElementById("admin-table-sales");
+      if (r.ventas.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="11" style="text-align:center; color:var(--text-muted); padding:2rem;">No hay transacciones registradas</td></tr>`;
+      } else {
+        tbody.innerHTML = r.ventas.map(s => {
+          const isVoid = s.estado === "Anulada";
+          const rowStyle = isVoid ? 'style="opacity: 0.45; text-decoration: line-through;"' : '';
+          
+          return `
+            <tr ${rowStyle}>
+              <td style="font-size:0.75rem;">${s.timestamp}</td>
+              <td style="font-weight:600; font-size:0.75rem; font-family:monospace;">${s.id_venta}</td>
+              <td style="font-weight:600;">${s.descripcion}</td>
+              <td style="text-align:center;">${s.cantidad}</td>
+              <td style="font-weight:700;">$${s.total.toLocaleString('es-CO')}</td>
+              <td style="font-weight:700; color:var(--success);">$${s.ganancia.toLocaleString('es-CO')}</td>
+              <td style="font-size:0.8rem; color:var(--text-secondary);">${s.origen}</td>
+              <td>${s.cliente || 'Regular'}</td>
+              <td><span style="font-size:0.8rem; background:rgba(255,255,255,0.05); padding:0.15rem 0.4rem; border-radius:4px;">${s.medio_pago}</span></td>
+              <td style="text-align:center;">
+                <span class="badge ${isVoid ? 'badge-danger' : 'badge-success'}">${s.estado}</span>
+              </td>
+              <td style="text-align:center;">
+                ${!isVoid ? `<button class="btn btn-danger btn-icon" style="padding:0.15rem 0.4rem; font-size:0.75rem; width:auto; height:auto;" onclick="voidSale('${s.id_venta}')">Anular</button>` : ''}
+              </td>
+            </tr>
+          `;
+        }).join("");
+      }
+    }
+
+    async function voidSale(idVenta) {
+      if (!confirm(`¿Estás completamente seguro de ANULAR la venta ${idVenta}? Esto devolverá de inmediato los productos al stock del local y eliminará la venta de la caja de hoy.`)) return;
+
+      const pin = appState.admin.pinBuffer;
+
+      try {
+        const response = await fetch("/api/ventas/anular", {
+          method: "POST",
+          headers: { 
+            "Content-Type": "application/json",
+            "X-Admin-PIN": pin
+          },
+          body: JSON.stringify({ id_venta: idVenta })
+        });
+        const data = await handleResponse(response, "No se pudo anular la venta.");
+
+        showToast("Venta anulada con éxito. Stock restaurado.", "success");
+        
+        // Recargar datos
+        await loadProducts();
+        await loadAdminReport();
+        const activeDate = document.getElementById("caja-date-input").value;
+        await loadCajaStatus(activeDate);
+
+      } catch (err) {
+        showToast(err.message, "danger");
+      }
+    }
+  </script>
+</body>
+</html>

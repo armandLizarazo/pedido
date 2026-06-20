@@ -1305,11 +1305,11 @@
                     colorClass="bg-green-500"
                   />
                   <StatCard
-                    title="Costos Totales"
-                    value={formatMoney(stats.totalCostos)}
+                    title="Utilidad Neta"
+                    value={formatMoney(stats.totalGanancia)}
                     subtext={`Margen general: ${stats.totalVentas > 0 ? ((stats.totalGanancia / stats.totalVentas) * 100).toFixed(1) : 0}%`}
-                    icon={Package}
-                    colorClass="bg-orange-500"
+                    icon={TrendingUp}
+                    colorClass="bg-blue-600"
                   />
                   <StatCard
                     title="Promedio Diario Utilidad"
@@ -1322,20 +1322,13 @@
 
                 {/* EXTREMES DASHBOARD */}
                 {extremes && (
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <ExtremeCard
                       title="Análisis de Utilidad"
                       maxData={extremes.utilidad.max}
                       minData={extremes.utilidad.min}
                       formatFn={formatMoney}
                       type="utilidad"
-                    />
-                    <ExtremeCard
-                      title="Análisis de Costos"
-                      maxData={extremes.costo.max}
-                      minData={extremes.costo.min}
-                      formatFn={formatMoney}
-                      type="costo"
                     />
                     <ExtremeCard
                       title="Análisis de Ventas"
@@ -1352,7 +1345,7 @@
                   <Card className="h-96">
                     <div className="flex justify-between items-center mb-4">
                       <h3 className="text-lg font-bold text-gray-700">
-                        Tendencia de Ventas y Costos
+                        Tendencia de Ventas y Utilidad Neta
                       </h3>
                       <div className="flex bg-gray-100 p-1 rounded-lg">
                         <button
@@ -1386,15 +1379,6 @@
                           stroke="#10B981"
                           strokeWidth={2}
                           dot={renderCustomDot("venta")}
-                          activeDot={{ r: 6 }}
-                        />
-                        <Line
-                          type="monotone"
-                          dataKey="costo"
-                          name="Costo Total"
-                          stroke="#f97316"
-                          strokeWidth={2}
-                          dot={renderCustomDot("costo")}
                           activeDot={{ r: 6 }}
                         />
                         <Line

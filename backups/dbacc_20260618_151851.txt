@@ -3230,7 +3230,6 @@
     Pacha Samsung J7 Prime Blanco 0
     Pacha Samsung J7 Prime Negro 0
     Pacha Samsung M31 C/M 0
-    Pacha Tcl 20E 0
     Pacha Tcl 30Se 0
     Pacha Tcl 405 0
     Pacha Tcl 40Se 0

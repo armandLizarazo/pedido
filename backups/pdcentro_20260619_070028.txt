@@ -36,7 +36,6 @@
     Forro Antichoque Bordecolor Samsung S25 Fe Negro 1
     Forro Antichoque Cadena Infinix Hot 50 Pro Plus 1
     Forro Antichoque Cadena Xiaomi Redmi Note 12 3
-    Forro Antichoque Huawei Honor 400 Lite Dama 2
     Forro Antichoque Huawei Honor 400 Smart / X7D Dama 5
     Forro Antichoque Huawei Honor Magic 8 Lite Caballero 5
     Forro Antichoque Huawei Honor X5C / Play10A Caballero 3
@@ -70,7 +69,6 @@
     Forro Antichoque Samsung A17 Dama 3
     Forro Antichoque Samsung A31 Dama 2
     Forro Antichoque Tecno Spark 30C Caballero 3
-    Forro Antichoque Tecno Spark 30C Dama 3
     Forro Antichoque Vivo V25E Caballero 3
     Forro Antichoque Vivo Y27S / Y36 Dama 5
     Forro Antichoque Vivo Y38 Dama 5
@@ -228,7 +226,6 @@
     Silicone Case Lg K51S Negro 1
     Silicone Case Lg K61 Amarillo 1
     Silicone Case Motorola Moto Edge 30 Negro 1
-    Silicone Case Motorola Moto Edge 60 Fusion Amarillo 2
     Silicone Case Motorola Moto G04 Rojo 1
     Silicone Case Motorola Moto G05 / Moto E15 Amarillo 1
     Silicone Case Motorola Moto G06 Amarillo 1
@@ -287,7 +284,7 @@
     Silicone Case Tecno Camon 30 4G Morado 1
     Silicone Case Tecno Camon 30 Pro Blanco 1
     Silicone Case Tecno Camon 30S Amarillo 1
-    Silicone Case Tecno Camon 40 Azulclaro 2
+    Silicone Case Tecno Camon 40 Azulclaro 1
     Silicone Case Tecno Camon 40 Premier Amarillo 1
     Silicone Case Tecno Camon 40 Premier Azulrey 1
     Silicone Case Tecno Camon 40 Premier Fucsia 1
@@ -347,7 +344,6 @@
     Silicone Case Zte Blade A54 Fucsia 1
     Silicone Case Zte Blade A54 Negro 1
     Silicone Motorola Moto G8 Power Lite Rojo 1
-    Smartphone Xiaomi Redmi 15C 864299088763241 256/8 1
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
     Vaper Kokin 10000 Puffs 1
@@ -371,7 +367,6 @@
     Vidrio Antiespia Xiaomi Redmi 12 / Redmi 13 5
     Vidrio Blindado Apple Iphone 12 Mini 5
     Vidrio Blindado Apple Iphone 13 Mini 5
-    Vidrio Blindado Huawei Honor X8B 10
     Vidrio Blindado Samsung A12 10
     Vidrio Blindado Samsung A14 / A24 / A34 / A54 15
     Vidrio Blindado Samsung A16 / A26 / A56 25

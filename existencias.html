@@ -1,0 +1,1511 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Visor de Existencias de Inventario</title>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* --- SISTEMA DE DISEÑO & VARIABLES --- */
+    :root {
+      --bg-main: #0b0f19;
+      --bg-card: rgba(22, 30, 49, 0.7);
+      --bg-card-hover: rgba(30, 41, 67, 0.85);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 255, 255, 0.16);
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      
+      --accent: #6366f1;
+      --accent-hover: #4f46e5;
+      --accent-glow: rgba(99, 102, 241, 0.15);
+      
+      --success: #10b981;
+      --success-glow: rgba(16, 185, 129, 0.15);
+      --warning: #f59e0b;
+      --warning-glow: rgba(245, 158, 11, 0.15);
+      --danger: #ef4444;
+      --danger-glow: rgba(239, 68, 68, 0.15);
+      
+      --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      --transition-smooth: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      --shadow-premium: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 1px 1px 0 rgba(255, 255, 255, 0.05) inset;
+    }
+
+    /* --- RESET & ESTILOS BASE --- */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.5;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.05) 0%, transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(16, 185, 129, 0.03) 0%, transparent 40%);
+    }
+
+    /* --- HEADER --- */
+    header {
+      background-color: rgba(11, 15, 25, 0.8);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 40;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: var(--transition-smooth);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-logo {
+      width: 2.25rem;
+      height: 2.25rem;
+      background: linear-gradient(135deg, var(--accent), #8b5cf6);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: white;
+      box-shadow: 0 0 15px rgba(99, 102, 241, 0.4);
+    }
+
+    .brand-info h1 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      letter-spacing: -0.025em;
+    }
+
+    .brand-info p {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    .source-summary {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .badge-status {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border-color);
+    }
+
+    .badge-status.loaded {
+      color: var(--success);
+      background-color: var(--success-glow);
+      border-color: rgba(16, 185, 129, 0.2);
+    }
+
+    .badge-status.pending {
+      color: var(--warning);
+      background-color: var(--warning-glow);
+      border-color: rgba(245, 158, 11, 0.2);
+    }
+
+    .dot-indicator {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: currentColor;
+    }
+
+    /* --- LAYOUT --- */
+    main {
+      flex: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 2rem;
+    }
+
+    @media (max-width: 1024px) {
+      main {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+        gap: 1.5rem;
+      }
+    }
+
+    /* --- TARJETAS --- */
+    .card {
+      background-color: var(--bg-card);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: var(--shadow-premium);
+      transition: var(--transition-smooth);
+    }
+
+    .card:hover {
+      border-color: var(--border-hover);
+    }
+
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 1.25rem;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border-color);
+      padding-bottom: 0.75rem;
+    }
+
+    /* --- CONTROLES DE ARCHIVOS / ORÍGENES --- */
+    .sources-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .source-item {
+      background-color: rgba(255, 255, 255, 0.02);
+      border: 1px dashed var(--border-color);
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      position: relative;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .source-item:hover {
+      background-color: rgba(255, 255, 255, 0.04);
+      border-color: var(--accent);
+    }
+
+    .source-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .source-name {
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    .source-file-info {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 180px;
+    }
+
+    .source-dropzone {
+      display: none;
+      position: absolute;
+      inset: 0;
+      background-color: rgba(99, 102, 241, 0.95);
+      border-radius: 10px;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: white;
+      z-index: 10;
+      animation: fadeIn 0.15s ease-out;
+    }
+
+    .source-item.drag-over .source-dropzone {
+      display: flex;
+    }
+
+    .source-stats {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .source-item.loaded {
+      border-style: solid;
+      border-color: rgba(16, 185, 129, 0.3);
+      background-color: rgba(16, 185, 129, 0.02);
+    }
+
+    /* --- BÚSQUEDA & SELECCIÓN --- */
+    .search-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+    }
+
+    .input-group {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .input-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .search-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+    }
+
+    .search-input {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+      padding-left: 2.5rem;
+      padding-right: 2.25rem;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.925rem;
+      outline: none;
+      transition: var(--transition-smooth);
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .search-icon {
+      position: absolute;
+      left: 0.85rem;
+      width: 1.1rem;
+      height: 1.1rem;
+      color: var(--text-muted);
+      pointer-events: none;
+    }
+
+    .clear-search-btn {
+      position: absolute;
+      right: 0.75rem;
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 0.2rem;
+      border-radius: 50%;
+      transition: var(--transition-smooth);
+    }
+
+    .clear-search-btn:hover {
+      color: var(--text-primary);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    /* --- AUTOCUMPLETADO / COMPONENT SUGGESTIONS --- */
+    .autocomplete-container {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #121826;
+      border: 1px solid var(--border-hover);
+      border-radius: 10px;
+      margin-top: 0.5rem;
+      max-height: 280px;
+      overflow-y: auto;
+      z-index: 50;
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.7);
+      display: none;
+    }
+
+    .autocomplete-item {
+      padding: 0.75rem 1rem;
+      cursor: pointer;
+      font-size: 0.875rem;
+      border-bottom: 1px solid rgba(255,255,255,0.02);
+      transition: var(--transition-smooth);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .autocomplete-item:last-child {
+      border-bottom: none;
+    }
+
+    .autocomplete-item:hover,
+    .autocomplete-item.active {
+      background-color: var(--accent);
+      color: white;
+    }
+
+    .autocomplete-item:hover .autocomplete-match,
+    .autocomplete-item.active .autocomplete-match {
+      color: #fff;
+    }
+
+    .autocomplete-match {
+      font-weight: 700;
+      color: #818cf8;
+      text-decoration: underline;
+    }
+
+    .autocomplete-item-stock {
+      font-size: 0.75rem;
+      opacity: 0.8;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+
+    /* --- COMBOBOX DESPLEGABLE --- */
+    .select-dropdown {
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+      color: var(--text-primary);
+      font-family: var(--font-sans);
+      font-size: 0.925rem;
+      outline: none;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      transition: var(--transition-smooth);
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%2394a3b8'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 1rem center;
+      background-size: 1.1rem;
+      padding-right: 2.5rem;
+    }
+
+    .select-dropdown:focus {
+      border-color: var(--accent);
+      background-color: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .select-dropdown option {
+      background-color: var(--bg-main);
+      color: var(--text-primary);
+      padding: 0.5rem;
+    }
+
+    /* --- FILTRO CONFIG & COMPARE CHIPS --- */
+    .chips-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+
+    .chip {
+      background-color: rgba(99, 102, 241, 0.1);
+      border: 1px solid rgba(99, 102, 241, 0.2);
+      border-radius: 8px;
+      padding: 0.35rem 0.65rem;
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: #a5b4fc;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+      animation: fadeIn 0.2s ease-out;
+    }
+
+    .chip-remove {
+      background: none;
+      border: none;
+      color: #a5b4fc;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      padding: 0.1rem;
+      transition: var(--transition-smooth);
+    }
+
+    .chip-remove:hover {
+      background-color: rgba(255, 255, 255, 0.15);
+      color: white;
+    }
+
+    .compare-mode-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: rgba(255,255,255,0.01);
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 0.75rem 1rem;
+    }
+
+    .compare-mode-label {
+      font-size: 0.85rem;
+      font-weight: 500;
+    }
+
+    .switch {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+    }
+
+    .switch input {
+      opacity: 0;
+      width: 0;
+      height: 0;
+    }
+
+    .slider {
+      position: absolute;
+      cursor: pointer;
+      inset: 0;
+      background-color: #334155;
+      transition: .3s;
+      border-radius: 24px;
+    }
+
+    .slider:before {
+      position: absolute;
+      content: "";
+      height: 16px;
+      width: 16px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      transition: .3s;
+      border-radius: 50%;
+    }
+
+    input:checked + .slider {
+      background-color: var(--accent);
+    }
+
+    input:checked + .slider:before {
+      transform: translateX(20px);
+    }
+
+    .clear-list-btn {
+      width: 100%;
+      background-color: transparent;
+      border: 1px solid var(--border-color);
+      color: var(--text-secondary);
+      border-radius: 10px;
+      padding: 0.65rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition-smooth);
+    }
+
+    .clear-list-btn:hover:not(:disabled) {
+      background-color: rgba(239, 68, 68, 0.08);
+      border-color: rgba(239, 68, 68, 0.2);
+      color: #fca5a5;
+    }
+
+    .clear-list-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    /* --- SECCIÓN DERECHA: RESULTADOS --- */
+    .results-section {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    /* --- ESTADO VACÍO (EMPTY STATE) --- */
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 6rem 2rem;
+      text-align: center;
+      background-color: var(--bg-card);
+      border: 1px dashed var(--border-color);
+      border-radius: 20px;
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .empty-state-icon {
+      width: 4.5rem;
+      height: 4.5rem;
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      background: rgba(255, 255, 255, 0.02);
+      padding: 1.25rem;
+      border-radius: 50%;
+      border: 1px solid var(--border-color);
+    }
+
+    .empty-state h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .empty-state p {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      max-width: 400px;
+    }
+
+    /* --- ELEMENTOS DE COMPARACIÓN ELIMINADOS --- */
+
+    /* --- VISTA TABULAR DE RESULTADOS --- */
+    .table-container {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: var(--shadow-premium);
+      animation: fadeIn 0.3s ease-out;
+    }
+
+    .table-header-action {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 1.5rem;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    .table-header-title {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+    }
+
+    th {
+      background-color: rgba(255, 255, 255, 0.01);
+      padding: 0.85rem 1.5rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 1rem 1.5rem;
+      font-size: 0.875rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+      color: var(--text-primary);
+      transition: var(--transition-smooth);
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    tr:hover td {
+      background-color: rgba(255, 255, 255, 0.02);
+    }
+
+    .td-item-name {
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+
+    .td-quantity {
+      font-weight: 700;
+      font-family: monospace;
+      font-size: 1rem;
+    }
+
+    .td-quantity.positive {
+      color: var(--success);
+    }
+
+    .td-quantity.zero {
+      color: var(--danger);
+    }
+
+    .td-location {
+      color: var(--text-secondary);
+    }
+
+    /* --- CONSOLA DE ESTADO --- */
+    .console-section {
+      margin-top: 1rem;
+      border-top: 1px solid var(--border-color);
+      padding-top: 1rem;
+    }
+
+    .console-header {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .console-logs {
+      background-color: rgba(0, 0, 0, 0.3);
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 0.7rem;
+      padding: 0.75rem;
+      color: #38bdf8;
+      max-height: 120px;
+      overflow-y: auto;
+      border: 1px solid rgba(255,255,255,0.02);
+    }
+
+    .console-log-entry {
+      margin-bottom: 0.25rem;
+      white-space: pre-wrap;
+    }
+    .console-log-entry.error {
+      color: var(--danger);
+    }
+    .console-log-entry.success {
+      color: var(--success);
+    }
+
+    /* --- INPUTS DE ARCHIVOS REALES OCULTOS --- */
+    .hidden-file-input {
+      display: none;
+    }
+
+    /* --- ANIMATION KEYFRAMES --- */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* --- RESPONSIVIDAD ADICIONAL --- */
+    @media (max-width: 640px) {
+      .stock-visualizer-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+
+      thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+      }
+
+      tr {
+        border-bottom: 1px solid var(--border-color);
+        padding: 0.75rem 0.5rem;
+      }
+
+      td {
+        border: none;
+        padding: 0.25rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      td::before {
+        content: attr(data-label);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: var(--text-muted);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="brand">
+      <div class="brand-logo">B</div>
+      <div class="brand-info">
+        <h1>StockSync Viewer</h1>
+        <p>Existencias Consolidadas de Bodega y Locales</p>
+      </div>
+    </div>
+    
+    <div class="source-summary">
+      <div class="badge-status loaded" id="global-status">
+        <span class="dot-indicator"></span>
+        <span id="global-status-text">Cargando...</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- CUERPO PRINCIPAL -->
+  <main>
+    
+    <!-- COLUMNA IZQUIERDA: CONFIG & BÚSQUEDA -->
+    <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+      
+      <!-- CARD: BÚSQUEDA Y SELECCIÓN -->
+      <div class="card">
+        <div class="card-title">
+          <span>Consulta de Items</span>
+        </div>
+        
+        <div class="search-section">
+          
+          <!-- Control de Comparación Múltiple -->
+          <div class="compare-mode-wrapper">
+            <div class="compare-mode-label">Comparación Múltiple</div>
+            <label class="switch">
+              <input type="checkbox" id="compare-mode" checked onchange="toggleCompareMode()">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <!-- Cuadro de Búsqueda -->
+          <div class="input-group">
+            <label class="input-label" for="search-box">Buscar por Digitación (Autocompletado)</label>
+            <div class="search-wrapper">
+              <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <input type="text" id="search-box" class="search-input" placeholder="Escribe para autocompletar..." autocomplete="off" oninput="onSearchInput(this.value)" onkeydown="onSearchKeyDown(event)">
+              <button class="clear-search-btn" id="clear-search-btn" onclick="clearSearchBox()">
+                <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            
+            <!-- PANEL DE AUTOCUMPLETADO -->
+            <div class="autocomplete-container" id="autocomplete-panel">
+              <!-- Insertado dinámicamente -->
+            </div>
+          </div>
+
+          <!-- Selector Desplegable -->
+          <div class="input-group">
+            <label class="input-label" for="dropdown-select">Lista Desplegable Completa</label>
+            <select id="dropdown-select" class="select-dropdown" onchange="onDropdownSelect(this.value)">
+              <option value="">Selecciona un item...</option>
+            </select>
+          </div>
+
+          <!-- Lista de Items Seleccionados (Chips) -->
+          <div class="input-group" id="selected-list-group">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+              <label class="input-label" style="margin-bottom: 0;">Items en Vista</label>
+              <span style="font-size: 0.75rem; color: var(--text-muted);" id="selected-count">0 items</span>
+            </div>
+            <div class="chips-container" id="chips-panel">
+              <!-- Chips insertados dinámicamente -->
+              <span style="font-size: 0.8rem; color: var(--text-muted); font-style: italic;" id="no-selected-msg">Ningún item seleccionado</span>
+            </div>
+          </div>
+
+          <button class="clear-list-btn" id="clear-list-btn" onclick="clearSelectedItems()" disabled>
+            Limpiar Visualización
+          </button>
+
+        </div>
+      </div>
+
+      <!-- CARD: ORÍGENES DE INVENTARIO -->
+      <div class="card">
+        <div class="card-title">
+          <span>Orígenes de Inventario</span>
+          <span style="font-size: 0.75rem; color: var(--text-muted);" id="last-update">Auto-fetch activo</span>
+        </div>
+        
+        <div class="sources-list">
+          
+          <!-- Origen 1: Bodega Central -->
+          <div class="source-item" id="source-bodega" onclick="triggerFileInput('file-bodega')">
+            <input type="file" id="file-bodega" class="hidden-file-input" accept=".txt" onchange="handleFileSelect(event, 'bodega')">
+            <div class="source-dropzone">Soltar bodegac.txt aquí</div>
+            <div class="source-header">
+              <span class="source-name">Bodega Central</span>
+              <span class="source-file-info" id="file-info-bodega">bodegac.txt</span>
+            </div>
+            <div class="source-stats">
+              <span id="status-label-bodega">Conectando...</span>
+              <span id="count-bodega">- items</span>
+            </div>
+          </div>
+
+          <!-- Origen 2: Local 1 -->
+          <div class="source-item" id="source-local1" onclick="triggerFileInput('file-local1')">
+            <input type="file" id="file-local1" class="hidden-file-input" accept=".txt" onchange="handleFileSelect(event, 'local1')">
+            <div class="source-dropzone">Soltar local.txt aquí</div>
+            <div class="source-header">
+              <span class="source-name">Local 1</span>
+              <span class="source-file-info" id="file-info-local1">local.txt</span>
+            </div>
+            <div class="source-stats">
+              <span id="status-label-local1">Conectando...</span>
+              <span id="count-local1">- items</span>
+            </div>
+          </div>
+
+          <!-- Origen 3: Local 2 -->
+          <div class="source-item" id="source-local2" onclick="triggerFileInput('file-local2')">
+            <input type="file" id="file-local2" class="hidden-file-input" accept=".txt" onchange="handleFileSelect(event, 'local2')">
+            <div class="source-dropzone">Soltar local_2.txt aquí</div>
+            <div class="source-header">
+              <span class="source-name">Local 2</span>
+              <span class="source-file-info" id="file-info-local2">local_2.txt</span>
+            </div>
+            <div class="source-stats">
+              <span id="status-label-local2">Conectando...</span>
+              <span id="count-local2">- items</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CONSOLA DE DIAGNÓSTICO -->
+        <div class="console-section">
+          <div class="console-header">Historial de Carga</div>
+          <div class="console-logs" id="console-output">
+            <div class="console-log-entry">Iniciando aplicación...</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- COLUMNA DERECHA: RESULTADOS -->
+    <div class="results-section">
+      
+      <!-- ESTADO VACÍO (INICIAL) -->
+      <div class="empty-state" id="empty-state">
+        <svg class="empty-state-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v6m4-3H6" />
+        </svg>
+        <h3>Sin Productos Seleccionados</h3>
+        <p>Utiliza la barra de búsqueda superior con autocompletado o selecciona un producto del menú desplegable para consultar su existencia en las tres bodegas.</p>
+      </div>
+
+      <!-- CONTENEDOR DE RESULTADOS DINÁMICOS -->
+      <div id="results-container" style="display: none; flex-direction: column; gap: 2rem;">
+        
+        <!-- TABLA GENERAL DE RESULTADOS -->
+        <div class="table-container">
+          <div class="table-header-action">
+            <span class="table-header-title">Tabla Consolidada de Existencias</span>
+            <span style="font-size: 0.75rem; color: var(--text-muted);">Formato: Item | Cantidad | Ubicación</span>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th style="text-align: left; width: 60%;">Item</th>
+                <th style="text-align: center; width: 15%;">Cantidad</th>
+                <th style="text-align: left; width: 25%;">Ubicación</th>
+              </tr>
+            </thead>
+            <tbody id="results-table-body">
+              <!-- Insertado dinámicamente -->
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <script>
+    /* --- CONFIGURACIÓN & ESTADO DE LA APLICACIÓN --- */
+    const locationsConfig = {
+      bodega: {
+        filename: 'bodegac.txt',
+        displayName: 'Bodega Central',
+        data: {},
+        loaded: false
+      },
+      local1: {
+        filename: 'local.txt',
+        displayName: 'Local 1',
+        data: {},
+        loaded: false
+      },
+      local2: {
+        filename: 'local_2.txt',
+        displayName: 'Local 2',
+        data: {},
+        loaded: false
+      }
+    };
+
+    let allUniqueItems = []; // Todos los nombres de items cargados (ordenados)
+    let selectedItems = []; // Nombres de los items que están visibles actualmente
+    let activeSuggestionIndex = -1; // Índice activo en autocompletado
+    let currentSuggestions = []; // Sugerencias actuales filtradas
+
+    // --- CARGA DE ELEMENTOS DEL DOM ---
+    const dom = {
+      globalStatus: document.getElementById('global-status'),
+      globalStatusText: document.getElementById('global-status-text'),
+      console: document.getElementById('console-output'),
+      searchBox: document.getElementById('search-box'),
+      clearSearchBtn: document.getElementById('clear-search-btn'),
+      autocompletePanel: document.getElementById('autocomplete-panel'),
+      dropdownSelect: document.getElementById('dropdown-select'),
+      chipsPanel: document.getElementById('chips-panel'),
+      noSelectedMsg: document.getElementById('no-selected-msg'),
+      selectedCount: document.getElementById('selected-count'),
+      clearListBtn: document.getElementById('clear-list-btn'),
+      emptyState: document.getElementById('empty-state'),
+      resultsContainer: document.getElementById('results-container'),
+      resultsTableBody: document.getElementById('results-table-body'),
+      compareMode: document.getElementById('compare-mode')
+    };
+
+    /* --- LÓGICA DE DIAGNÓSTICO (LOGS) --- */
+    function log(message, type = 'info') {
+      const entry = document.createElement('div');
+      entry.className = `console-log-entry ${type}`;
+      const time = new Date().toLocaleTimeString('es-CO', { hour12: false });
+      entry.textContent = `[${time}] ${message}`;
+      dom.console.appendChild(entry);
+      dom.console.scrollTop = dom.console.scrollHeight;
+      console.log(message);
+    }
+
+    /* --- PARSEO DE ARCHIVOS (FORMATO EXACTO) --- */
+    function parseInventory(text) {
+      const lines = text.split('\n');
+      const items = {};
+      let count = 0;
+      
+      for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        // Formato exacto: empieza con 4 espacios ("    ") y no está vacía al quitar espacios
+        if (line.startsWith('    ') && line.trim().length > 0) {
+          const content = line.trim();
+          // rsplit(" ", 1) en JS -> buscamos el último espacio
+          const lastSpaceIdx = content.lastIndexOf(' ');
+          if (lastSpaceIdx !== -1) {
+            const desc = content.substring(0, lastSpaceIdx).trim();
+            const qtyStr = content.substring(lastSpaceIdx + 1).trim();
+            
+            if (/^\d+$/.test(qtyStr)) {
+              items[desc] = parseInt(qtyStr, 10);
+              count++;
+            }
+          }
+        }
+      }
+      return { items, count };
+    }
+
+    /* --- EVENTO DRAG & DROP & MANEJO DE ARCHIVOS --- */
+    function initDragAndDrop() {
+      ['bodega', 'local1', 'local2'].forEach(key => {
+        const sourceElement = document.getElementById(`source-${key}`);
+        
+        // Evitar comportamientos por defecto del navegador
+        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
+          sourceElement.addEventListener(eventName, e => {
+            e.preventDefault();
+            e.stopPropagation();
+          }, false);
+        });
+
+        // Añadir/Remover clase hover
+        ['dragenter', 'dragover'].forEach(eventName => {
+          sourceElement.addEventListener(eventName, () => {
+            sourceElement.classList.add('drag-over');
+          }, false);
+        });
+
+        ['dragleave', 'drop'].forEach(eventName => {
+          sourceElement.addEventListener(eventName, () => {
+            sourceElement.classList.remove('drag-over');
+          }, false);
+        });
+
+        // Procesar drop
+        sourceElement.addEventListener('drop', e => {
+          const dt = e.dataTransfer;
+          const files = dt.files;
+          if (files.length > 0) {
+            processFile(files[0], key);
+          }
+        });
+      });
+    }
+
+    function triggerFileInput(inputId) {
+      document.getElementById(inputId).click();
+    }
+
+    function handleFileSelect(event, key) {
+      const file = event.target.files[0];
+      if (file) {
+        processFile(file, key);
+      }
+    }
+
+    function processFile(file, key) {
+      log(`Procesando archivo cargado: ${file.name} para ${locationsConfig[key].displayName}...`);
+      const reader = new FileReader();
+      
+      reader.onload = function(e) {
+        const text = e.target.result;
+        try {
+          const { items, count } = parseInventory(text);
+          
+          locationsConfig[key].data = items;
+          locationsConfig[key].loaded = true;
+          locationsConfig[key].filename = file.name;
+          
+          log(`Carga exitosa: ${count} items leídos de ${file.name}.`, 'success');
+          updateSourceUI(key, count, file.name);
+          rebuildUniqueItemsIndex();
+        } catch (err) {
+          log(`Error parseando archivo: ${err.message}`, 'error');
+        }
+      };
+
+      reader.onerror = function() {
+        log(`Error leyendo el archivo ${file.name}`, 'error');
+      };
+
+      reader.readAsText(file, 'UTF-8');
+    }
+
+    function updateSourceUI(key, count, filename) {
+      const sourceEl = document.getElementById(`source-${key}`);
+      const infoEl = document.getElementById(`file-info-${key}`);
+      const statusLabel = document.getElementById(`status-label-${key}`);
+      const countEl = document.getElementById(`count-${key}`);
+      
+      sourceEl.className = 'source-item loaded';
+      infoEl.textContent = filename;
+      statusLabel.textContent = 'Cargado';
+      countEl.textContent = `${count.toLocaleString()} items`;
+      
+      // Actualizar el estado global
+      updateGlobalStatus();
+    }
+
+    function updateGlobalStatus() {
+      const sources = Object.values(locationsConfig);
+      const loadedCount = sources.filter(s => s.loaded).length;
+      
+      if (loadedCount === sources.length) {
+        dom.globalStatus.className = 'badge-status loaded';
+        dom.globalStatusText.textContent = 'Todo Cargado';
+      } else if (loadedCount > 0) {
+        dom.globalStatus.className = 'badge-status pending';
+        dom.globalStatusText.textContent = `${loadedCount}/${sources.length} Cargado`;
+      } else {
+        dom.globalStatus.className = 'badge-status pending';
+        dom.globalStatusText.textContent = 'Sin Datos';
+      }
+      
+      document.getElementById('last-update').textContent = `Cargados: ${loadedCount}/3`;
+    }
+
+    /* --- AUTO-FETCH AUTOMÁTICO AL INICIAR --- */
+    function attemptAutoFetch() {
+      log('Intentando carga automática de bodegac.txt, local.txt y local_2.txt...');
+      
+      const promises = Object.keys(locationsConfig).map(key => {
+        const config = locationsConfig[key];
+        return fetch(config.filename)
+          .then(res => {
+            if (!res.ok) throw new Error(`Status ${res.status}`);
+            return res.text();
+          })
+          .then(text => {
+            const { items, count } = parseInventory(text);
+            locationsConfig[key].data = items;
+            locationsConfig[key].loaded = true;
+            log(`Auto-fetch exitoso para ${config.filename} (${count} items).`, 'success');
+            updateSourceUI(key, count, config.filename);
+          })
+          .catch(err => {
+            log(`No se pudo auto-cargar ${config.filename}: ${err.message}. (Permite carga manual)`, 'warning');
+            
+            // UI como pendiente
+            const sourceEl = document.getElementById(`source-${key}`);
+            const statusLabel = document.getElementById(`status-label-${key}`);
+            sourceEl.className = 'source-item';
+            statusLabel.textContent = 'Manual';
+          });
+      });
+
+      Promise.all(promises).then(() => {
+        rebuildUniqueItemsIndex();
+        updateGlobalStatus();
+      });
+    }
+
+    /* --- CONSTRUCCIÓN DEL ÍNDICE MAESTRO --- */
+    function rebuildUniqueItemsIndex() {
+      const itemsSet = new Set();
+      
+      Object.values(locationsConfig).forEach(loc => {
+        if (loc.loaded && loc.data) {
+          Object.keys(loc.data).forEach(itemName => {
+            itemsSet.add(itemName);
+          });
+        }
+      });
+
+      allUniqueItems = Array.from(itemsSet).sort();
+      log(`Índice maestro de productos actualizado: ${allUniqueItems.length} referencias únicas.`, 'success');
+      
+      // Actualizar el dropdown select
+      populateDropdownSelect();
+    }
+
+    function populateDropdownSelect() {
+      // Guardar el valor actual para restaurarlo si es posible
+      const currentValue = dom.dropdownSelect.value;
+      
+      // Limpiar y resetear
+      dom.dropdownSelect.innerHTML = '<option value="">Selecciona un item...</option>';
+      
+      allUniqueItems.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        option.textContent = item;
+        dom.dropdownSelect.appendChild(option);
+      });
+      
+      if (allUniqueItems.includes(currentValue)) {
+        dom.dropdownSelect.value = currentValue;
+      }
+    }
+
+    /* --- LÓGICA DE BÚSQUEDA Y SUGERENCIAS --- */
+    function onSearchInput(value) {
+      const cleanVal = value.trim().toLowerCase();
+      
+      if (!cleanVal) {
+        hideAutocomplete();
+        dom.clearSearchBtn.style.display = 'none';
+        return;
+      }
+      
+      dom.clearSearchBtn.style.display = 'flex';
+      
+      // Filtrar items
+      // Permitimos búsquedas con palabras clave separadas por espacios
+      const keywords = cleanVal.split(/\s+/);
+      
+      currentSuggestions = allUniqueItems.filter(item => {
+        const itemLower = item.toLowerCase();
+        return keywords.every(kw => itemLower.includes(kw));
+      }).slice(0, 15); // Limitar a 15 sugerencias para rendimiento e interfaz limpia
+      
+      renderSuggestions(currentSuggestions, keywords);
+    }
+
+    function renderSuggestions(suggestions, keywords) {
+      dom.autocompletePanel.innerHTML = '';
+      activeSuggestionIndex = -1;
+      
+      if (suggestions.length === 0) {
+        const noRes = document.createElement('div');
+        noRes.className = 'autocomplete-item';
+        noRes.style.color = 'var(--text-muted)';
+        noRes.style.cursor = 'default';
+        noRes.textContent = 'No se encontraron coincidencias';
+        dom.autocompletePanel.appendChild(noRes);
+        dom.autocompletePanel.style.display = 'block';
+        return;
+      }
+
+      suggestions.forEach((item, index) => {
+        const div = document.createElement('div');
+        div.className = 'autocomplete-item';
+        div.setAttribute('data-index', index);
+        
+        // Resaltar términos
+        let displayName = item;
+        // Obtenemos un texto con etiquetas de coincidencia
+        keywords.forEach(kw => {
+          if (kw) {
+            const regex = new RegExp(`(${escapeRegExp(kw)})`, 'gi');
+            displayName = displayName.replace(regex, '<span class="autocomplete-match">$1</span>');
+          }
+        });
+        
+        // Obtener stock total rápido para mostrar en la sugerencia
+        let totalStock = 0;
+        Object.values(locationsConfig).forEach(loc => {
+          if (loc.loaded && loc.data[item] !== undefined) {
+            totalStock += loc.data[item];
+          }
+        });
+
+        div.innerHTML = `
+          <span>${displayName}</span>
+          <span class="autocomplete-item-stock">Stock: ${totalStock}</span>
+        `;
+        
+        div.addEventListener('click', () => {
+          selectProduct(item);
+        });
+        
+        dom.autocompletePanel.appendChild(div);
+      });
+      
+      dom.autocompletePanel.style.display = 'block';
+    }
+
+    function escapeRegExp(string) {
+      return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    }
+
+    function hideAutocomplete() {
+      dom.autocompletePanel.style.display = 'none';
+      activeSuggestionIndex = -1;
+    }
+
+    function clearSearchBox() {
+      dom.searchBox.value = '';
+      dom.clearSearchBtn.style.display = 'none';
+      hideAutocomplete();
+      dom.searchBox.focus();
+    }
+
+    // Navegación por teclado en las sugerencias
+    function onSearchKeyDown(e) {
+      const items = dom.autocompletePanel.querySelectorAll('.autocomplete-item');
+      if (!items.length || dom.autocompletePanel.style.display === 'none') return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        activeSuggestionIndex = (activeSuggestionIndex + 1) % currentSuggestions.length;
+        updateActiveSuggestion(items);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        activeSuggestionIndex = (activeSuggestionIndex - 1 + currentSuggestions.length) % currentSuggestions.length;
+        updateActiveSuggestion(items);
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (activeSuggestionIndex >= 0 && activeSuggestionIndex < currentSuggestions.length) {
+          selectProduct(currentSuggestions[activeSuggestionIndex]);
+        } else if (currentSuggestions.length > 0) {
+          // Si pulsa enter sin seleccionar, escoge el primero
+          selectProduct(currentSuggestions[0]);
+        }
+      } else if (e.key === 'Escape') {
+        hideAutocomplete();
+      }
+    }
+
+    function updateActiveSuggestion(items) {
+      items.forEach((item, index) => {
+        if (index === activeSuggestionIndex) {
+          item.classList.add('active');
+          item.scrollIntoView({ block: 'nearest' });
+        } else {
+          item.classList.remove('active');
+        }
+      });
+    }
+
+    /* --- SELECCIÓN Y COMPARACIÓN MÚLTIPLE --- */
+    function onDropdownSelect(value) {
+      if (value) {
+        selectProduct(value);
+        dom.dropdownSelect.value = ''; // Resetear selector
+      }
+    }
+
+    function selectProduct(itemName) {
+      const isCompare = dom.compareMode.checked;
+      
+      if (!isCompare) {
+        selectedItems = [itemName];
+      } else {
+        if (!selectedItems.includes(itemName)) {
+          selectedItems.push(itemName);
+        }
+      }
+      
+      clearSearchBox();
+      hideAutocomplete();
+      renderSelectionUI();
+      renderResults();
+    }
+
+    function removeProduct(itemName) {
+      selectedItems = selectedItems.filter(item => item !== itemName);
+      renderSelectionUI();
+      renderResults();
+    }
+
+    function clearSelectedItems() {
+      selectedItems = [];
+      renderSelectionUI();
+      renderResults();
+    }
+
+    function toggleCompareMode() {
+      const isCompare = dom.compareMode.checked;
+      if (!isCompare && selectedItems.length > 1) {
+        // Si apaga comparación y hay varios, quedarse sólo con el último
+        selectedItems = [selectedItems[selectedItems.length - 1]];
+        renderSelectionUI();
+        renderResults();
+      }
+    }
+
+    function renderSelectionUI() {
+      dom.chipsPanel.innerHTML = '';
+      
+      if (selectedItems.length === 0) {
+        dom.noSelectedMsg.style.display = 'block';
+        dom.chipsPanel.appendChild(dom.noSelectedMsg);
+        dom.selectedCount.textContent = '0 items';
+        dom.clearListBtn.disabled = true;
+        return;
+      }
+      
+      dom.noSelectedMsg.style.display = 'none';
+      dom.selectedCount.textContent = `${selectedItems.length} item${selectedItems.length > 1 ? 's' : ''}`;
+      dom.clearListBtn.disabled = false;
+      
+      selectedItems.forEach(item => {
+        const chip = document.createElement('div');
+        chip.className = 'chip';
+        chip.innerHTML = `
+          <span>${item}</span>
+          <button class="chip-remove" onclick="removeProduct('${item.replace(/'/g, "\\'")}')">
+            <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        `;
+        dom.chipsPanel.appendChild(chip);
+      });
+    }
+
+    /* --- RENDERIZADO DE RESULTADOS --- */
+    function renderResults() {
+      if (selectedItems.length === 0) {
+        dom.emptyState.style.display = 'flex';
+        dom.resultsContainer.style.display = 'none';
+        return;
+      }
+      
+      dom.emptyState.style.display = 'none';
+      dom.resultsContainer.style.display = 'flex';
+      
+      // Limpiar cuerpo de la tabla
+      dom.resultsTableBody.innerHTML = '';
+      
+      selectedItems.forEach(item => {
+        // Para cada producto, calcular las existencias en cada ubicación activa
+        const stocks = {};
+        
+        Object.keys(locationsConfig).forEach(key => {
+          const loc = locationsConfig[key];
+          let qty = 0;
+          if (loc.loaded && loc.data && loc.data[item] !== undefined) {
+            qty = loc.data[item];
+          }
+          stocks[key] = qty;
+        });
+
+        // Renderizar filas en la tabla consolidada
+        Object.keys(locationsConfig).forEach(key => {
+          const loc = locationsConfig[key];
+          if (loc.loaded) {
+            const qty = stocks[key];
+            const row = document.createElement('tr');
+            
+            row.innerHTML = `
+              <td class="td-item-name" data-label="Item">${item}</td>
+              <td class="td-quantity ${qty > 0 ? 'positive' : 'zero'}" style="text-align: center;" data-label="Cantidad">${qty}</td>
+              <td class="td-location" data-label="Ubicación">${loc.displayName}</td>
+            `;
+            
+            dom.resultsTableBody.appendChild(row);
+          }
+        });
+      });
+    }
+
+    /* --- ACCESIBILIDAD Y CLICKS EXTERNOS --- */
+    document.addEventListener('click', (e) => {
+      // Cerrar autocompletado al pulsar fuera
+      if (!dom.searchBox.contains(e.target) && !dom.autocompletePanel.contains(e.target)) {
+        hideAutocomplete();
+      }
+    });
+
+    /* --- INICIALIZACIÓN --- */
+    window.addEventListener('DOMContentLoaded', () => {
+      // Registrar Drag & Drop en los paneles de origen
+      initDragAndDrop();
+      
+      // Intentar auto-cargas
+      attemptAutoFetch();
+    });
+  </script>
+
+</body>
+</html>

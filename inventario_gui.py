@@ -621,8 +621,9 @@ class GestorInventario:
         except Exception as e:
             return False, f"Error procesando item {item_details['desc']}: {e}"
 
-    def _restaurar_stock_item(self, descripcion, cantidad):
-        archivo_local = "local.txt"
+    def _restaurar_stock_item(self, descripcion, cantidad, archivo_local=None):
+        if not archivo_local:
+            archivo_local = "local.txt"
         if not os.path.exists(archivo_local):
             return False, f"El archivo '{archivo_local}' no existe."
 
@@ -647,7 +648,7 @@ class GestorInventario:
                 f.writelines(lineas)
             return (
                 True,
-                f"{cantidad} unidad(es) de '{descripcion_stripped}' devueltas a local.txt.",
+                f"{cantidad} unidad(es) de '{descripcion_stripped}' devueltas a {archivo_local}.",
             )
         except Exception as e:
             return False, f"Error al restaurar stock: {e}"
@@ -713,7 +714,14 @@ class GestorInventario:
                     desc = row[desc_idx]
                     try:
                         cant = int(row[cant_idx])
-                        success, msg = self._restaurar_stock_item(desc, cant)
+                        archivo_origen = "local.txt"
+                        if has_header and "ArchivoOrigen" in header:
+                            archivo_origen_idx = header.index("ArchivoOrigen")
+                            if len(row) > archivo_origen_idx and row[archivo_origen_idx]:
+                                archivo_origen = row[archivo_origen_idx]
+                        elif len(row) > 8 and row[8]:
+                            archivo_origen = row[8]
+                        success, msg = self._restaurar_stock_item(desc, cant, archivo_origen)
                         if not success:
                             return False, f"No se pudo restaurar el stock: {msg}"
                         items_restaurados.append(msg)

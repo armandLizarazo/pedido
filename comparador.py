@@ -715,12 +715,19 @@ def normalize_files():
     if os.path.exists(cost_filename):
         data_cost = parse_file(cost_filename)
         data_cost_clean = merge_duplicates(data_cost)
+
+    acc_filename = "dbacc.txt"
+    data_acc = []
+    data_acc_clean = []
+    if os.path.exists(acc_filename):
+        data_acc = parse_file(acc_filename)
+        data_acc_clean = merge_duplicates(data_acc)
     
     # 2. Descripciones master de Bodega
     bodega_descs = {item[0] for item in data_bodega_clean}
     bodega_map_lower = {d.lower(): d for d in bodega_descs}
     
-    # 3. Descripciones de Local 1 y Local 2 y Costos
+    # 3. Descripciones de Local 1 y Local 2 y Costos y Precios de Venta
     local1_descs = {item[0] for item in data_local1_clean}
     local1_map_lower = {d.lower(): d for d in local1_descs}
     
@@ -732,8 +739,14 @@ def normalize_files():
     if os.path.exists(cost_filename):
         cost_descs = {item[0] for item in data_cost_clean}
         cost_map_lower = {d.lower(): d for d in cost_descs}
+
+    acc_descs = set()
+    acc_map_lower = {}
+    if os.path.exists(acc_filename):
+        acc_descs = {item[0] for item in data_acc_clean}
+        acc_map_lower = {d.lower(): d for d in acc_descs}
     
-    # 4. Encontrar diferencias (Espejo estricto para locales y costos)
+    # 4. Encontrar diferencias (Espejo estricto para locales, costos y precios)
     missing_in_l1 = [d for d in bodega_descs if d.lower() not in local1_map_lower]
     extra_in_l1 = [d for d in local1_descs if d.lower() not in bodega_map_lower]
     
@@ -745,9 +758,15 @@ def normalize_files():
     if os.path.exists(cost_filename):
         missing_in_cost = [d for d in bodega_descs if d.lower() not in cost_map_lower]
         extra_in_cost = [d for d in cost_descs if d.lower() not in bodega_map_lower]
+
+    missing_in_acc = []
+    extra_in_acc = []
+    if os.path.exists(acc_filename):
+        missing_in_acc = [d for d in bodega_descs if d.lower() not in acc_map_lower]
+        extra_in_acc = [d for d in acc_descs if d.lower() not in bodega_map_lower]
     
-    total_added = len(missing_in_l1) + len(missing_in_l2) + len(missing_in_cost)
-    total_removed = len(extra_in_l1) + len(extra_in_l2) + len(extra_in_cost)
+    total_added = len(missing_in_l1) + len(missing_in_l2) + len(missing_in_cost) + len(missing_in_acc)
+    total_removed = len(extra_in_l1) + len(extra_in_l2) + len(extra_in_cost) + len(extra_in_acc)
     
     # Contar duplicados eliminados
     original_len = len(data_bodega) + len(data_local1) + len(data_local2)
@@ -755,11 +774,14 @@ def normalize_files():
     if os.path.exists(cost_filename):
         original_len += len(data_cost)
         clean_len += len(data_cost_clean)
+    if os.path.exists(acc_filename):
+        original_len += len(data_acc)
+        clean_len += len(data_acc_clean)
     duplicates_removed = original_len - clean_len
     
     if total_added > 0 or total_removed > 0 or duplicates_removed > 0:
-        msg = f"Normalización (Espejo de 'bodegac.txt' en Locales y Costos):\n\n"
-        msg += f"Los archivos locales y de costos se ajustarán para coincidir con Bodega:\n\n"
+        msg = f"Normalización (Espejo de 'bodegac.txt' en Locales, Costos y Venta):\n\n"
+        msg += f"Los archivos locales, de costos y precios de venta se ajustarán para coincidir con Bodega:\n\n"
         if len(missing_in_l1) > 0 or len(extra_in_l1) > 0:
             msg += f"• Local 1 ({os.path.basename(current_local1_filename)}):\n"
             if len(missing_in_l1) > 0:
@@ -778,6 +800,12 @@ def normalize_files():
                 msg += f"  - Agregar: {len(missing_in_cost)} artículos faltantes.\n"
             if len(extra_in_cost) > 0:
                 msg += f"  - ELIMINAR: {len(extra_in_cost)} artículos extra.\n"
+        if os.path.exists(acc_filename) and (len(missing_in_acc) > 0 or len(extra_in_acc) > 0):
+            msg += f"\n• Precios de Venta ({os.path.basename(acc_filename)}):\n"
+            if len(missing_in_acc) > 0:
+                msg += f"  - Agregar: {len(missing_in_acc)} artículos faltantes.\n"
+            if len(extra_in_acc) > 0:
+                msg += f"  - ELIMINAR: {len(extra_in_acc)} artículos extra.\n"
         if duplicates_removed > 0:
             msg += f"\n• Fusiones por duplicados: {duplicates_removed} registros.\n"
         msg += "\n¿Desea continuar con esta normalización espejo para todos los archivos?"
@@ -806,6 +834,15 @@ def normalize_files():
                     val_in_cost = cost_dict_clean.get(desc.lower(), 0)
                     new_data_cost.append((desc, val_in_cost))
                 update_file(cost_filename, new_data_cost)
+
+            # Reconstruir precios de venta
+            if os.path.exists(acc_filename):
+                acc_dict_clean = {item[0].lower(): item[1] for item in data_acc_clean}
+                new_data_acc = []
+                for desc, val in data_bodega_clean:
+                    val_in_acc = acc_dict_clean.get(desc.lower(), 0)
+                    new_data_acc.append((desc, val_in_acc))
+                update_file(acc_filename, new_data_acc)
                 
             data_bodega = data_bodega_clean
             data_local1 = new_data_l1
@@ -824,7 +861,7 @@ def normalize_files():
             entry_search.insert(0, last_search_term)
             search()
     else:
-        messagebox.showinfo("Normalización", "Todos los archivos locales y de costos ya están sincronizados como espejo de Bodega.")
+        messagebox.showinfo("Normalización", "Todos los archivos locales, de costos y precios de venta ya están sincronizados como espejo de Bodega.")
 
 
 def format_all_files_title_case():
@@ -834,6 +871,7 @@ def format_all_files_title_case():
         current_local1_filename,
         current_local2_filename,
         "dbcst.txt",
+        "dbacc.txt",
         "pdcentro.txt",
         "pdpr.txt",
         "pdst.txt",
@@ -1531,6 +1569,14 @@ def create_new_item(event=None):
             cost_data.append((new_item_desc, 0))
             update_file(cost_filename, cost_data)
 
+    # Si existe el archivo de precios de venta, agregamos el ítem también allí con precio 0
+    acc_filename = "dbacc.txt"
+    if os.path.exists(acc_filename):
+        acc_data = parse_file(acc_filename)
+        if not any(item[0].lower() == new_item_desc.lower() for item in acc_data):
+            acc_data.append((new_item_desc, 0))
+            update_file(acc_filename, acc_data)
+
     if (update_file("bodegac.txt", data_bodega) and 
         update_file(current_local1_filename, data_local1) and 
         update_file(current_local2_filename, data_local2)):
@@ -1839,6 +1885,13 @@ def delete_item():
             cost_data = [item for item in cost_data if item[0].strip().lower() != search_term.lower()]
             update_file(cost_filename, cost_data)
 
+        # Eliminar también de dbacc.txt si existe
+        acc_filename = "dbacc.txt"
+        if os.path.exists(acc_filename):
+            acc_data = parse_file(acc_filename)
+            acc_data = [item for item in acc_data if item[0].strip().lower() != search_term.lower()]
+            update_file(acc_filename, acc_data)
+
         if (update_file("bodegac.txt", data_bodega) and 
             update_file(current_local1_filename, data_local1) and 
             update_file(current_local2_filename, data_local2)):
@@ -1874,6 +1927,7 @@ def delete_filtered_items():
         f"• Local 1 ({os.path.basename(current_local1_filename)})\n"
         f"• Local 2 ({os.path.basename(current_local2_filename)})\n"
         "• Costos (dbcst.txt, si existe)\n"
+        "• Precios de Venta (dbacc.txt, si existe)\n"
         "• Pedidos a proveedores (si existen)\n\n"
         "¡Esta acción NO se puede deshacer!"
     )
@@ -1901,6 +1955,13 @@ def delete_filtered_items():
         cost_data = parse_file(cost_filename)
         cost_data = [item for item in cost_data if item[0].strip().lower() not in lower_descs]
         update_file(cost_filename, cost_data)
+        
+    # Precios de Venta
+    acc_filename = "dbacc.txt"
+    if os.path.exists(acc_filename):
+        acc_data = parse_file(acc_filename)
+        acc_data = [item for item in acc_data if item[0].strip().lower() not in lower_descs]
+        update_file(acc_filename, acc_data)
         
     # Pedidos proveedores
     provider_files = ["pdcentro.txt", "pdpr.txt", "pdst.txt"]
@@ -1998,6 +2059,19 @@ def edit_item(event=None):
                 break
         if cost_changed:
             update_file(cost_filename, cost_data)
+
+    # Editar también en dbacc.txt si existe
+    acc_filename = "dbacc.txt"
+    if os.path.exists(acc_filename):
+        acc_data = parse_file(acc_filename)
+        acc_changed = False
+        for i, (desc, qty) in enumerate(acc_data):
+            if desc.strip().lower() == old_desc.lower():
+                acc_data[i] = (new_desc, qty)
+                acc_changed = True
+                break
+        if acc_changed:
+            update_file(acc_filename, acc_data)
 
     if (update_file("bodegac.txt", data_bodega) and 
         update_file(current_local1_filename, data_local1) and 

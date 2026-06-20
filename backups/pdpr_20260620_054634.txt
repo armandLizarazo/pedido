@@ -24,7 +24,6 @@
     Calculadora Kadio Kd-815 Pequeña 2
     Camara De Solapa 1
     Cargador 5V 2A Doble Punta 4
-    Cargador Cabeza Cubo Eco 10
     Cargador Microsoft Carga Y Juega Xbox 360 5
     Cargador Pc Acer 2.37 2
     Cargador Pc Asus 3.42 2
@@ -48,7 +47,6 @@
     Extensión 6M 3
     Forro Pc 16 Pulgadas 2
     Google Nest Mini 1
-    Humidificador Eco 3
     Humidificador Madera 1
     Lampara Esfera Giratoria 3
     Lonchera Carro 1
@@ -56,7 +54,6 @@
     Memoria Musica Crosover Crosover Club 3
     Memoria Musica Electronica Zapateo Guaracha Y Electronica 1
     Memoria Musica Vallenata Reliquias Vallenatas 1
-    Memory Card Ps2 8Gb 3
     Mini Licuadora Doble Vaso 2
     Mini Licuadora Un Vaso 2
     Navaja Cuchillas Barberia 2
@@ -71,7 +68,6 @@
     Parlante Tg-271 1
     Parlante Tg-294 Rojo 1
     Pilas Carbon Gp 9V 5
-    Pilas Recargables Beston Aa X 4 Con Cargador 3
     Plancha Babyliss Combo Nano Titanium 2
     Porta Pilas Xbox 360 3
     Protector Cuello Barberia 2

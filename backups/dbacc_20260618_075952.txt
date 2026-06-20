@@ -880,6 +880,7 @@
     Flex Principal Xiaomi Redmi Note 8 0
     Flex Principal Xiaomi Redmi Note 9 0
     Flex de Power Samsung A03 Core 0
+    Forro Antichoque A55 Dama 0
     Forro Antichoque Agua Huawei Honor 200 Lite 20000
     Forro Antichoque Agua Huawei Honor X5B / X5B Plus 20000
     Forro Antichoque Agua Huawei Honor X6 / X6S 20000
@@ -891,7 +892,7 @@
     Forro Antichoque Agua Xiaomi Redmi 12C 20000
     Forro Antichoque Agua Xiaomi Redmi Note 10 / Note 10S 20000
     Forro Antichoque Agua Xiaomi Redmi Note 12 20000
-    Forro Antichoque Anillo Apple Iphonen 15 20000
+    Forro Antichoque Anillo Apple Iphonen 15 0
     Forro Antichoque Apple Iphone 11 Caballero 15000
     Forro Antichoque Apple Iphone 11 Dama 15000
     Forro Antichoque Apple Iphone 11 Lujo 15000
@@ -3230,7 +3231,6 @@
     Pacha Samsung J7 Prime Blanco 0
     Pacha Samsung J7 Prime Negro 0
     Pacha Samsung M31 C/M 0
-    Pacha Tcl 20E 0
     Pacha Tcl 30Se 0
     Pacha Tcl 405 0
     Pacha Tcl 40Se 0
