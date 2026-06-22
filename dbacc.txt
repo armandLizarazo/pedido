@@ -3481,7 +3481,7 @@
     Proyector Astronauta Conejo 0
     Proyector Hy-300 1 Ram 0
     Proyector Hy-300 2 Ram 0
-    Proyector Hy-320 1 Ram Caja Verde 0
+    Proyector Hy-320 1 Ram Caja Verde 220000
     Proyector Joma Hy-300 Con Juegos 0
     Proyector M-300 Max Con Juegos 0
     Proyector S40Ge Con Juegos 0

@@ -179,7 +179,7 @@ def run_test():
 
         # --- PRUEBA 8: GET /api/reportes (Admin) ---
         print("\nPrueba 8: Consultando reportes con PIN...")
-        report_data = get_req(f"/api/reportes?fecha_inicio={today_date}&fecha_fin={today_date}&pin=1234")
+        report_data = get_req(f"/api/reportes?fecha_inicio={today_date}&fecha_fin={today_date}&pin=7802")
         print("Reporte Admin cargado exitosamente. Ventas encontradas hoy:", len(report_data["ventas"]))
         test_sale_reported = next((s for s in report_data["ventas"] if s["id_venta"] == id_venta), None)
         assert test_sale_reported is not None, "La venta de prueba no figura en el reporte administrativo"
@@ -189,7 +189,7 @@ def run_test():
         print("\nPrueba 9: Anulando venta de prueba...")
         res_void = post_req("/api/ventas/anular", {
             "id_venta": id_venta,
-            "pin": "1234"
+            "pin": "7802"
         })
         print("Respuesta anulación:", res_void)
         
@@ -238,7 +238,7 @@ def run_test():
             "producto": "Aceitera El-093",
             "archivo": "local.txt",
             "cambio": 5
-        }, pin="1234")
+        }, pin="7802")
         print("Respuesta ajuste (+5):", res_ajuste)
         
         # Verificar cambio de stock
@@ -253,7 +253,7 @@ def run_test():
             "producto": "Aceitera El-093",
             "archivo": "local.txt",
             "cambio": -(adjusted_stock + 1)
-        }, expected_code=400, pin="1234")
+        }, expected_code=400, pin="7802")
         print("Ajuste a negativo bloqueado como se esperaba:", err_neg_stock)
 
         # 11.5 Restaurar el stock original (-5 unidades)
@@ -261,7 +261,7 @@ def run_test():
             "producto": "Aceitera El-093",
             "archivo": "local.txt",
             "cambio": -5
-        }, pin="1234")
+        }, pin="7802")
         print("Respuesta restauración ajuste (-5):", res_ajuste_rest)
         
         # Verificar restauración
@@ -282,7 +282,7 @@ def run_test():
                 "producto": "Aceitera El-093",
                 "archivo": "local.txt",
                 "cambio": temp_added
-            }, pin="1234")
+            }, pin="7802")
             print(f"Stock de origen bajo ({original_stock_local}). Añadido temporalmente: +{temp_added}")
 
         # 12.1 Trasladar sin PIN (Debe fallar 401)
@@ -310,7 +310,7 @@ def run_test():
             "origen": "local.txt",
             "destino": "local.txt",
             "cantidad": 1
-        }, expected_code=400, pin="1234")
+        }, expected_code=400, pin="7802")
         print("Traslado a la misma ubicación bloqueado como se esperaba:", err_same_loc)
 
         # 12.4 Trasladar cantidad insuficiente (Debe fallar 400)
@@ -324,7 +324,7 @@ def run_test():
             "origen": "local.txt",
             "destino": "local_2.txt",
             "cantidad": curr_stock_orig + 1000
-        }, expected_code=400, pin="1234")
+        }, expected_code=400, pin="7802")
         print("Traslado con stock insuficiente bloqueado como se esperaba:", err_insufficient)
 
         # 12.5 Traslado exitoso (2 unidades de local.txt a local_2.txt)
@@ -333,7 +333,7 @@ def run_test():
             "origen": "local.txt",
             "destino": "local_2.txt",
             "cantidad": 2
-        }, pin="1234")
+        }, pin="7802")
         print("Respuesta traslado exitoso (2 unidades):", res_traslado)
 
         # Verificar existencias actualizadas en ambas locaciones
@@ -353,7 +353,7 @@ def run_test():
             "origen": "local_2.txt",
             "destino": "local.txt",
             "cantidad": 2
-        }, pin="1234")
+        }, pin="7802")
         print("Respuesta revertir traslado (2 unidades de regreso):", res_revert_t)
 
         # Limpiar stock temporal adicional si se agregó en el paso 12
@@ -362,7 +362,7 @@ def run_test():
                 "producto": "Aceitera El-093",
                 "archivo": "local.txt",
                 "cambio": -temp_added
-            }, pin="1234")
+            }, pin="7802")
             print(f"Stock temporal removido: -{temp_added}")
 
         # Comprobación final de restauración absoluta de stock
@@ -410,7 +410,7 @@ def run_test():
         print("Anulando venta dividida de prueba...")
         res_void_split = post_req("/api/ventas/anular", {
             "id_venta": id_venta_split,
-            "pin": "1234"
+            "pin": "7802"
         })
         print("Respuesta anulación venta dividida:", res_void_split)
 
@@ -420,6 +420,13 @@ def run_test():
         assert caja_final_split["status"]["pagos_electronicos"] == pre_split_electronicos, "El total de pagos electrónicos no se restauró"
         assert caja_final_split["status"]["efectivo_esperado"] == pre_split_efectivo, "El efectivo esperado no se restauró"
         print("Caja restaurada a su estado pre-dividido con éxito.")
+
+        # --- PRUEBA 14: POST /api/admin/request_pin ---
+        print("\nPrueba 14: Solicitando PIN dinámico...")
+        res_req_pin = post_req("/api/admin/request_pin", {})
+        print("Respuesta solicitud PIN dinámico:", res_req_pin)
+        assert res_req_pin["status"] == "ok", "No se pudo solicitar el PIN dinámico"
+        print("Prueba de solicitud de PIN dinámico completada.")
 
         print("\n=== TODAS LAS PRUEBAS DE API DE ESTILO DELTA PASARON EXITOSAMENTE (FASES 1, 2 Y 3) ===")
         

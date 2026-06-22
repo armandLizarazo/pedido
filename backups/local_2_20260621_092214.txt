@@ -3375,7 +3375,7 @@
     Parlante Perro 0
     Parlante Radio K-257 0
     Parlante Reloj Despertador 0
-    Parlante Sonivox 6 Pulgadas 0
+    Parlante Sonivox 6 Pulgadas 1
     Parlante Sonivox 8 Pulgadas 1
     Parlante Sonivox R-100 0
     Parlante Speak Sk-11 0

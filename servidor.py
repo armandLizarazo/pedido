@@ -10,7 +10,59 @@ from datetime import datetime
 import urllib.parse
 
 PORT = 8000
-ADMIN_PIN = "1234"
+ADMIN_PIN = "7802"
+
+import random
+import time
+import threading
+import urllib.request
+
+dynamic_pin = None
+dynamic_pin_expiry = 0.0
+
+def send_whatsapp_pin(pin):
+    message = f"Su PIN temporal de desbloqueo de administrador es: {pin} (Valido por 15 minutos)"
+    print(f"\n========================================\n[ADMIN SECURITY] PIN temporal generado: {pin}\n========================================\n")
+    
+    apikey = os.environ.get("CALLMEBOT_API_KEY", "")
+    if not apikey and os.path.exists("callmebot_key.txt"):
+        try:
+            with open("callmebot_key.txt", "r", encoding="utf-8") as kf:
+                apikey = kf.read().strip()
+        except Exception as e:
+            print(f"[ADMIN SECURITY] Error leyendo callmebot_key.txt: {e}")
+            
+    if not apikey:
+        print("[ADMIN SECURITY] CALLMEBOT_API_KEY no configurado (en entorno ni en callmebot_key.txt). PIN mostrado arriba en la consola.")
+        return
+        
+    def send_thread():
+        try:
+            encoded_msg = urllib.parse.quote_plus(message)
+            url = f"https://api.callmebot.com/whatsapp.php?phone=573046313114&text={encoded_msg}&apikey={apikey}"
+            req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+            with urllib.request.urlopen(req, timeout=10) as response:
+                status_code = response.getcode()
+                response_text = response.read().decode('utf-8')
+                print(f"[ADMIN SECURITY] Mensaje enviado a WhatsApp. Respuesta: {status_code} - {response_text[:100]}")
+        except Exception as e:
+            print(f"[ADMIN SECURITY] Error enviando WhatsApp: {e}")
+
+    threading.Thread(target=send_thread, daemon=True).start()
+
+def verify_admin_pin(client_pin):
+    if not client_pin:
+        return False
+    if client_pin == ADMIN_PIN:
+        return True
+    global dynamic_pin, dynamic_pin_expiry
+    if dynamic_pin and client_pin == dynamic_pin:
+        if time.time() < dynamic_pin_expiry:
+            dynamic_pin_expiry = time.time() + 900
+            return True
+        else:
+            print(f"[ADMIN SECURITY] El PIN dinamico {client_pin} ha expirado.")
+    return False
 
 def get_local_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -517,16 +569,16 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
             local_2_stock = parse_stock_file("local_2.txt")
             bodega_stock = parse_stock_file("bodegac.txt")
             costs = parse_cost_file("dbcst.txt")
-            last_prices = obtener_ultimos_precios()
+            prices = parse_cost_file("dbacc.txt")
             
-            all_descs = sorted(list(set(local_stock.keys()) | set(local_2_stock.keys()) | set(bodega_stock.keys()) | set(costs.keys())))
+            all_descs = sorted(list(set(local_stock.keys()) | set(local_2_stock.keys()) | set(bodega_stock.keys()) | set(costs.keys()) | set(prices.keys())))
             
             productos = []
             for desc in all_descs:
                 productos.append({
                     "descripcion": desc,
                     "costo": costs.get(desc, 0.0),
-                    "precio_sugerido": last_prices.get(desc, 0.0),
+                    "precio_sugerido": prices.get(desc, 0.0),
                     "stock": {
                         "local.txt": local_stock.get(desc, 0),
                         "local_2.txt": local_2_stock.get(desc, 0),
@@ -563,7 +615,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         elif path == '/api/reportes':
             client_pin = self.headers.get('X-Admin-PIN') or query_params.get("pin", [""])[0]
-            if client_pin != ADMIN_PIN:
+            if not verify_admin_pin(client_pin):
                 self.send_json({"error": "No autorizado. PIN de administrador inválido."}, 401)
                 return
                 
@@ -660,7 +712,16 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         # --- RUTAS DE LA API (POST) ---
 
-        if path == '/api/clientes':
+        if path == '/api/admin/request_pin':
+            global dynamic_pin, dynamic_pin_expiry
+            pin = f"{random.randint(0, 9999):04d}"
+            dynamic_pin = pin
+            dynamic_pin_expiry = time.time() + 900
+            send_whatsapp_pin(pin)
+            self.send_json({"status": "ok", "message": "PIN solicitado correctamente."})
+            return
+
+        elif path == '/api/clientes':
             nombre = data.get("nombre", "").strip()
             contacto = data.get("contacto", "").strip()
             if not nombre:
@@ -749,7 +810,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         elif path == '/api/ventas/anular':
             client_pin = self.headers.get('X-Admin-PIN') or data.get("pin", "")
-            if client_pin != ADMIN_PIN:
+            if not verify_admin_pin(client_pin):
                 self.send_json({"error": "No autorizado. PIN de administrador inválido."}, 401)
                 return
                 
@@ -1081,7 +1142,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         elif path == '/api/inventario/ajustar':
             client_pin = self.headers.get('X-Admin-PIN') or data.get("pin", "")
-            if client_pin != ADMIN_PIN:
+            if not verify_admin_pin(client_pin):
                 self.send_json({"error": "No autorizado. PIN de administrador inválido."}, 401)
                 return
             
@@ -1110,7 +1171,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         elif path == '/api/inventario/trasladar':
             client_pin = self.headers.get('X-Admin-PIN') or data.get("pin", "")
-            if client_pin != ADMIN_PIN:
+            if not verify_admin_pin(client_pin):
                 self.send_json({"error": "No autorizado. PIN de administrador inválido."}, 401)
                 return
                 
