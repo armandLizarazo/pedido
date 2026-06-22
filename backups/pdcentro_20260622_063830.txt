@@ -152,14 +152,13 @@
     Intercomunicador Harvic Mcm-591 1
     Manos Libres Knz Tc 2
     Manos Libres Samsung Akg Con Aislador 5
-    Manos Libres Samsung Akg Tc 3
+    Manos Libres Samsung Akg Tc 2
     Manos Libres Samsung Akg Tc Blanco 3
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
     Memoria Kingston Usb 16Gb 3
     Memoria Kingstone Micro 16Gb 3
     Memoria Kingstone Micro 32Gb 3
-    Memoria Micro Sandisk 64Gb 3
     Memoria Sandisk Micro 256Gb Original 1
     Mouse Jertech Jr-1 Rojo 1
     Multilector De Memorias Tc - Usb 2
@@ -327,7 +326,6 @@
     Smartphone Xiaomi Redmi 15C 864299088763241 256/8 1
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
-    Televisor Smart Tv Corn Android 43P 1
     Vaper Kokin 10000 Puffs 1
     Vidrio 5D Huawei Honor X7A 5
     Vidrio 5D Huawei P10 Lite 5

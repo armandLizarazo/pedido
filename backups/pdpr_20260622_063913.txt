@@ -52,7 +52,7 @@
     Navaja Cuchillas Barberia 2
     Palo Selfie Xt-02 2
     Parlante Barra V70 2
-    Parlante Jbl Charge 5 3
+    Parlante Jbl Charge 5 2
     Parlante Ktf-1645 2
     Parlante Ktx-1475 2
     Parlante Pc-1053 1
@@ -71,7 +71,7 @@
     Rollo Cinta Led 10M Audioritmica 3
     Rollo Cinta Led Eco 5
     Secador Remington 2003 1
-    Soporte Celular K-18 3
+    Soporte Celular K-18 2
     Soporte Celular Para Tutoriales 1
     Soporte Holder Manubrio 2
     Soporte Monitor Mesa 1
