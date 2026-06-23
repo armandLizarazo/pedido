@@ -70,7 +70,7 @@
     Adaptador Spliter Audio 1 Macho 2 Hembras Tc 2
     Adaptador Spliter Audio 2 Machos 1 Hembra 0
     Adaptador Spliter Hdmi 1 A 2 1
-    Adaptador Spliter Hdmi 1 A 4 0
+    Adaptador Spliter Hdmi 1 A 4 2
     Adaptador Spliter Hdmi 1 A 8 1
     Adaptador Spliter Tv 1 Macho 3 Hembras 1
     Adaptador Spliter Vga 0
@@ -116,7 +116,7 @@
     Amplificador De Pantalla Plano 1
     Antena Tdt 1.5M 0
     Antena Tdt 10M 0
-    Antena Tdt 3M 2
+    Antena Tdt 3M 0
     Antena Tdt 3M Con Usb 0
     Antena Tdt 5M 4
     Antena Tdt 5M Bolsa 2
@@ -425,8 +425,8 @@
     Cable Extensor Usb Macho Hembra 5M 1
     Cable Extensor Usb Macho Macho 3M 1
     Cable Extensor Usb Macho Macho Corto 1
-    Cable Fibra Optica Internet 3M 0
-    Cable Fibra Optica Internet 5M 0
+    Cable Fibra Optica Internet 3M 1
+    Cable Fibra Optica Internet 5M 1
     Cable Harvic Tc 0
     Cable Harvic Tc 3M 0
     Cable Harvic Usb Ligthning 1
@@ -719,7 +719,7 @@
     Cargador Vidvie V8 18W 0
     Cargador Vidvie V8 2P 2.4A 0
     Cargador W Pd-32 48W Cabeza 1
-    Cargador W Tc 1
+    Cargador W Tc 0
     Cargador W V8 1
     Cargador We 25W Cabeza Pantalla 2
     Cargador We 25W Solo Cabeza 2
@@ -907,7 +907,7 @@
     Forro Antichoque Bordecolor Samsung S26 Ultra Negro 1
     Forro Antichoque Bordecolor Xiaomi Redmi 15C Azulclaro 1
     Forro Antichoque Bordecolor Xiaomi Redmi 15C Negro 1
-    Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Azulclaro 1
+    Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Azulclaro 0
     Forro Antichoque Bordecolor Xiaomi Redmi Note 15 Negro 1
     Forro Antichoque Cadena Apple Iphone 13 / Iphone 14 1
     Forro Antichoque Cadena Huawei Honor Magic 5 Lite / X9A 1
@@ -2555,7 +2555,7 @@
     Gramera Joyeria 1
     Gramera Sencilla 1
     Gramera Sencilla Recargable 1
-    Guantes Gamer 5
+    Guantes Gamer 4
     Herramienta Prensa Economica 0
     Hogar Espumador 1
     Hogar Quita Pelos 0
@@ -2647,6 +2647,7 @@
     Hydrogel Samsung A17 0
     Hydrogel Samsung A30 0
     Hydrogel Samsung A36 / A37 0
+    Hydrogel Samsung A55 Tapa 0
     Hydrogel Samsung S22 0
     Hydrogel Samsung S23 Ultra 0
     Hydrogel Samsung S24 Fe 0
@@ -3052,7 +3053,7 @@
     Pacha Huawei Honor X6C 2
     Pacha Huawei Honor X7 2
     Pacha Huawei Honor X7A 1
-    Pacha Huawei Honor X7B 2
+    Pacha Huawei Honor X7B 1
     Pacha Huawei Honor X7C / Honor 200 Smart 1
     Pacha Huawei Honor X7D / Honor 400 Smart 1
     Pacha Huawei Honor X8 2
@@ -3143,7 +3144,7 @@
     Pacha Oppo A20 / A40 / A60 0
     Pacha Oppo A20 / A40 / A60 / A80 / A5 / A5 Pro 4
     Pacha Oppo A5 5G 0
-    Pacha Oppo A54 / Realme 7I 2
+    Pacha Oppo A54 / Realme 7I 1
     Pacha Oppo A58 4G / A79 / A98 / Realme C55 / C67 5G / 11 5G / Narzo N55 / Oneplus Nord Ce 3 Lite 5G 3
     Pacha Oppo A79 0
     Pacha Oppo Realme C11 2021 1
@@ -3316,7 +3317,7 @@
     Pacha Xiaomi Redmi Note 9 2
     Pacha Xiaomi Redmi Note 9S / Note 9 Pro 2
     Pacha Zte A56 Pro 0
-    Pacha Zte Blade A34 / A54 2
+    Pacha Zte Blade A34 / A54 1
     Pacha Zte Blade A35 / A55 1
     Pacha Zte Blade A36 / Blade A76 1
     Pacha Zte Blade A5 (2021) 0
@@ -3417,7 +3418,7 @@
     Pilas Carbon Maxday Aa X2 17
     Pilas Carbon Maxday Aa X4 1
     Pilas Carbon Maxday Aaa X2 0
-    Pilas Carbon Maxday Aaa X4 9
+    Pilas Carbon Maxday Aaa X4 8
     Pilas Carbon Maxday Eco 0
     Pilas Panasonic Aa X2 2
     Pilas Panasonic Aaa X2 0
@@ -3480,11 +3481,11 @@
     Protector Teclado 15P 0
     Protector Web Cam 0
     Proyector 110 Hy-300 Con Juegos 0
-    Proyector Astronauta Bluetooth Blanco 0
+    Proyector Astronauta Bluetooth Blanco 1
     Proyector Astronauta Bluetooth Negro 0
     Proyector Astronauta Conejo 0
     Proyector Hy-300 1 Ram 1
-    Proyector Hy-300 2 Ram 1
+    Proyector Hy-300 2 Ram 0
     Proyector Hy-320 1 Ram Caja Verde 0
     Proyector Joma Hy-300 Con Juegos 1
     Proyector Ligth Bluetooth Blanco 1
@@ -5062,7 +5063,7 @@
     Silicone Case Oppo A54 Azuloscuro 1
     Silicone Case Oppo A54 Morado 1
     Silicone Case Oppo A54 Negro 1
-    Silicone Case Oppo A54 Rojo 1
+    Silicone Case Oppo A54 Rojo 0
     Silicone Case Oppo A54 Rosa 1
     Silicone Case Oppo A54 Vinotinto 1
     Silicone Case Oppo A57 / A77 Amarillo 1
@@ -6486,7 +6487,7 @@
     Silicone Case Xiaomi Redmi A5 / Poco C71 Rojo 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Ab Amarillo 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Amarillo 1
-    Silicone Case Xiaomi Redmi Note 10 / Note 10S Azulrey 1
+    Silicone Case Xiaomi Redmi Note 10 / Note 10S Azulrey 0
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Fucsia 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Lila 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Morado 1
@@ -7126,7 +7127,7 @@
     Vidrio 5D Samsung A15 3
     Vidrio 5D Samsung A16 / A26 / A56 1
     Vidrio 5D Samsung A20S 0
-    Vidrio 5D Samsung A21S 0
+    Vidrio 5D Samsung A21S 1
     Vidrio 5D Samsung A22 4G / A31 / A32 4G 4
     Vidrio 5D Samsung A30S 0
     Vidrio 5D Samsung A31 / A32 0
@@ -7251,7 +7252,7 @@
     Vidrio Blindado Apple Iphone X / Xs / 11 Pro 0
     Vidrio Blindado Apple Iphone Xs Max 0
     Vidrio Blindado Honor X6 0
-    Vidrio Blindado Huawei Honor X7B 2
+    Vidrio Blindado Huawei Honor X7B 1
     Vidrio Blindado Huawei Honor X7B / X7C / 200 Smart / Honor 400 0
     Vidrio Blindado Huawei Honor X8A 0
     Vidrio Blindado Huawei Honor X8B 3

@@ -2647,6 +2647,7 @@
     Hydrogel Samsung A17 0
     Hydrogel Samsung A30 0
     Hydrogel Samsung A36 / A37 0
+    Hydrogel Samsung A55 Tapa 0
     Hydrogel Samsung S22 0
     Hydrogel Samsung S23 Ultra 0
     Hydrogel Samsung S24 Fe 0
