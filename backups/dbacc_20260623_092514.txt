@@ -2977,9 +2977,9 @@
     Memoria Super Usb 32Gb 0
     Memoria Usb Kingston 64Gb 0
     Memoria Videos Regueton 0
-    Memory Card Ps2 32Mb 0
-    Memory Card Ps2 64Mb 0
-    Memory Card Ps2 8Mb 0
+    Memory Card Ps2 32Gb 0
+    Memory Card Ps2 64Gb 0
+    Memory Card Ps2 8Gb 0
     Microfono Bafle Eco 0
     Microfono Bafle Inalambrico Dx-300U 0
     Microfono Bafle Inalambrico Wg-11 0
@@ -4285,6 +4285,7 @@
     Silicone Case Huawei Honor X7C / 200 Smart Negro 20000
     Silicone Case Huawei Honor X7C / 200 Smart Rojo 20000
     Silicone Case Huawei Honor X7C / 200 Smart Verdemilitar 20000
+    Silicone Case Huawei Honor X7D Lila 0
     Silicone Case Huawei Honor X8 Amarillo 20000
     Silicone Case Huawei Honor X8 Azulclaro 20000
     Silicone Case Huawei Honor X8 Fucsia 20000

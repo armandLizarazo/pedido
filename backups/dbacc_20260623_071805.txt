@@ -679,7 +679,6 @@
     Cargador Pluying Modulador Royal Carg7 30000
     Cargador Pluying Modulador Vp-R7 30000
     Cargador Pluying Modulador We We-09 35000
-    Cargador Pluying Rinocell C-209 67W 0
     Cargador Pluying Suelto Eco 12000
     Cargador Pluying We 25w 25000
     Cargador Pluying Yc-18 38W 29000
@@ -1888,17 +1887,14 @@
     Forro Armadura Xiaomi Redmi 13C Azuloscuro 0
     Forro Armadura Xiaomi Redmi 13C Negro 0
     Forro Armadura Xiaomi Redmi 13C Rojo 0
-    Forro Armadura Xiaomi Redmi 14C Azuloscuro 0
     Forro Armadura Xiaomi Redmi 14C Negro 0
     Forro Armadura Xiaomi Redmi 14C Rojo 0
     Forro Armadura Xiaomi Redmi 14C Verde 0
-    Forro Armadura Xiaomi Redmi 14C Verdemilitar 0
     Forro Armadura Xiaomi Redmi 15 Negro 0
     Forro Armadura Xiaomi Redmi 15 Rojo 0
     Forro Armadura Xiaomi Redmi 15C Azul 0
     Forro Armadura Xiaomi Redmi 15C Negro 0
     Forro Armadura Xiaomi Redmi 15C Rojo 0
-    Forro Armadura Xiaomi Redmi 15C Verdemilitar 0
     Forro Armadura Xiaomi Redmi 9C / 10A Gris 0
     Forro Armadura Xiaomi Redmi 9C / 10A Negro 0
     Forro Armadura Xiaomi Redmi 9C / 10A Rojo 0
@@ -2977,9 +2973,9 @@
     Memoria Super Usb 32Gb 0
     Memoria Usb Kingston 64Gb 0
     Memoria Videos Regueton 0
-    Memory Card Ps2 32Mb 0
-    Memory Card Ps2 64Mb 0
-    Memory Card Ps2 8Mb 0
+    Memory Card Ps2 32Gb 0
+    Memory Card Ps2 64Gb 0
+    Memory Card Ps2 8Gb 0
     Microfono Bafle Eco 0
     Microfono Bafle Inalambrico Dx-300U 0
     Microfono Bafle Inalambrico Wg-11 0
@@ -6031,7 +6027,6 @@
     Silicone Case Tecno Spark 40 4G Lila 20000
     Silicone Case Tecno Spark 40 4G Morado 20000
     Silicone Case Tecno Spark 40 4G Negro 20000
-    Silicone Case Tecno Spark 40 4G Rojo 0
     Silicone Case Tecno Spark 40 4G Rosa 20000
     Silicone Case Tecno Spark 40 Pro Amarillo 20000
     Silicone Case Tecno Spark 40 Pro Azulrey 20000
@@ -6408,7 +6403,6 @@
     Silicone Case Xiaomi Redmi 14C Morado 20000
     Silicone Case Xiaomi Redmi 14C Negro 20000
     Silicone Case Xiaomi Redmi 14C Rojo 20000
-    Silicone Case Xiaomi Redmi 14C Rosa 0
     Silicone Case Xiaomi Redmi 14C Verde 20000
     Silicone Case Xiaomi Redmi 15 Amarillo 20000
     Silicone Case Xiaomi Redmi 15 Azulrey 20000

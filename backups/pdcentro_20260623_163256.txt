@@ -23,7 +23,6 @@
     Cargador Smart Band M5 2
     Cargador Smart Watch Pinza 5
     Cargador We Tc 33W 10
-    Control Gamer Gatillos H9.0 Ventilador 3
     Control Gamer Microsoft Xbox 360 Inalambrico 2
     Disco Duro Juegos Xbox 360 1
     Forro Antichoque Agua Xiaomi Redmi 12 5
@@ -108,8 +107,6 @@
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Negro 1
     Forro Armadura Xiaomi Redmi Note 9S / Note 9 Pro Rojo 1
     Forro Cargador Cable  + Puntas 1
-    Forro Lujo Apple Iphone 16 Pro Max Negro 1
-    Forro Lujo Apple Iphone 17 Naranja 1
     Forro Lujo Humo Samsung A16 Negro 1
     Forro Lujo Humo Xiaomi Redmi Note 11 Negro 1
     Forro Lujo Manguera Samsung A17 Morado 1
@@ -144,7 +141,6 @@
     Forro Space Samsung A34 4
     Forro Space Samsung A71 2
     Forro Space Tecno Pova 7 2
-    Forro Space Tecno Spark Go 2 / Smart 10 2
     Forro Space Vivo V30 Lite 1
     Forro Space Vivo Y04 2
     Forro Space Vivo Y27S / Y36 3
@@ -211,7 +207,6 @@
     Silicone Case Infinix Note 40 4G Lila 2
     Silicone Case Infinix Note 50 Pro Amarillo 1
     Silicone Case Infinix Note 50S Fucsia 2
-    Silicone Case Infinix Note 50S Morado 2
     Silicone Case Infinix Note 50S Rojo 2
     Silicone Case Iphone 12 / 12 Pro Verde 1
     Silicone Case Lg K51S Negro 1
@@ -232,7 +227,7 @@
     Silicone Case Motorola Moto G9 Power Negro 1
     Silicone Case Motorola Moto G9 Power Rojo 1
     Silicone Case Motorola Moto One Fusion Negro 1
-    Silicone Case Oppo A15 Negro 2
+    Silicone Case Oppo A15 Negro 1
     Silicone Case Oppo A16 Rosa 1
     Silicone Case Oppo A17 Fucsia 1
     Silicone Case Oppo A17 Negro 1
@@ -249,7 +244,6 @@
     Silicone Case Oppo Realme C75 Negro 1
     Silicone Case Oppo Reno 11F Verde 1
     Silicone Case Oppo Reno 12 Negro 1
-    Silicone Case Oppo Reno 13 5G Negro 2
     Silicone Case Oppo Reno 6 Lite Rosa 1
     Silicone Case Oppo Reno 7 Amarillo 1
     Silicone Case Samsung A03 Core Negro 1

@@ -1066,8 +1066,8 @@
     Forro Antichoque Huawei Y9 2019 / Y8S Dama 0
     Forro Antichoque Huawei Y9 Prime Caballero 0
     Forro Antichoque Huawei Y9 Prime Dama 0
-    Forro Antichoque Huawei Y9S Caballero 2
-    Forro Antichoque Huawei Y9S Dama 4
+    Forro Antichoque Huawei Y9S Caballero 0
+    Forro Antichoque Huawei Y9S Dama 0
     Forro Antichoque Humo Oppo A57 / A77 Azul 0
     Forro Antichoque Humo Oppo A57 / A77 Negro 0
     Forro Antichoque Humo Redmi 15 Cafe 0
@@ -4344,7 +4344,7 @@
     Silicone Case Huawei Nova 9Se Azulrey 0
     Silicone Case Huawei Nova 9Se Fucsia 0
     Silicone Case Huawei Nova 9Se Lila 0
-    Silicone Case Huawei Nova 9Se Negro 1
+    Silicone Case Huawei Nova 9Se Negro 0
     Silicone Case Huawei Nova 9Se Rojo 0
     Silicone Case Huawei Nova 9Se Rosa 0
     Silicone Case Huawei Nova Y70 Amarillo 1

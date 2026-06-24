@@ -28,10 +28,8 @@
     Consola Sup Con Control Rosa 1
     Control Gamer Gatillos W11+ 3
     Control Gamer Microsoft Pc 1
-    Control Gamer Sony Ps4 Azul 1
     Control Gamer Sony Ps4 Blanco 1
     Control Gamer Sony Ps4 Fifa 1
-    Control Gamer Sony Ps4 Negro 1
     Control Tv Samsung Plano 2
     Control Tv Universal 5
     Dock Charging Ps4 1
