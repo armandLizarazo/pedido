@@ -2586,112 +2586,111 @@
     Hydrogel Antiespia Xiaomi Redmi 14C 0
     Hydrogel Antiespia Xiaomi Redmi 15 0
     Hydrogel Antiespia Xiaomi Redmi 15C 0
-    Hydrogel Apple Iphone 13 20000
-    Hydrogel Apple Iphone 13 Pro Max 20000
-    Hydrogel Apple Iphone 15 20000
-    Hydrogel Apple Iphone 15 Pro 20000
-    Hydrogel Apple Iphone 15 Pro Max 20000
-    Hydrogel Apple Iphone 16 20000
-    Hydrogel Apple Iphone 16 Pro Max 20000
-    Hydrogel Apple Iphone 17 20000
-    Hydrogel Hd 20000
-    Hydrogel Huawei Honor 200 Smart 20000
-    Hydrogel Huawei Honor 90 20000
-    Hydrogel Huawei Honor Magic 5 Lite 20000
-    Hydrogel Huawei Honor Magic 6 Lite 20000
-    Hydrogel Huawei Honor Magic 8 Lite 20000
-    Hydrogel Huawei Honor X8C 20000
-    Hydrogel Huawei Honor X8D 20000
-    Hydrogel Huawei P30 Pro 20000
-    Hydrogel Infinix Gt 30 20000
-    Hydrogel Infinix Hot 40 Pro 20000
-    Hydrogel Infinix Hot 50 5G 20000
-    Hydrogel Infinix Hot 50 Pro Plus 20000
-    Hydrogel Infinix Hot 50I 20000
-    Hydrogel Infinix Hot 60 Pro Plus 20000
-    Hydrogel Infinix Note 40 Pro 20000
-    Hydrogel Infinix Note 40 Pro Plus 20000
-    Hydrogel Infinix Note 50S 20000
-    Hydrogel Infinix Note 60 Pro 20000
-    Hydrogel Infinix Smart 9 / Hot 50I 20000
-    Hydrogel Iphone 12 Pro Max 20000
-    Hydrogel Logo Apple Iphone 13 20000
+    Hydrogel Apple Iphone 13 0
+    Hydrogel Apple Iphone 13 Pro Max 0
+    Hydrogel Apple Iphone 15 0
+    Hydrogel Apple Iphone 15 Pro 0
+    Hydrogel Apple Iphone 15 Pro Max 0
+    Hydrogel Apple Iphone 16 0
+    Hydrogel Apple Iphone 16 Pro Max 0
+    Hydrogel Apple Iphone 17 0
+    Hydrogel Hd 0
+    Hydrogel Huawei Honor 200 Smart 0
+    Hydrogel Huawei Honor 90 0
+    Hydrogel Huawei Honor Magic 5 Lite 0
+    Hydrogel Huawei Honor Magic 6 Lite 0
+    Hydrogel Huawei Honor Magic 8 Lite 0
+    Hydrogel Huawei Honor X8C 0
+    Hydrogel Huawei Honor X8D 0
+    Hydrogel Huawei P30 Pro 0
+    Hydrogel Infinix Gt 30 0
+    Hydrogel Infinix Hot 40 Pro 0
+    Hydrogel Infinix Hot 50 5G 0
+    Hydrogel Infinix Hot 50 Pro Plus 0
+    Hydrogel Infinix Hot 50I 0
+    Hydrogel Infinix Hot 60 Pro Plus 0
+    Hydrogel Infinix Note 40 Pro 0
+    Hydrogel Infinix Note 40 Pro Plus 0
+    Hydrogel Infinix Note 50S 0
+    Hydrogel Infinix Note 60 Pro 0
+    Hydrogel Infinix Smart 9 / Hot 50I 0
+    Hydrogel Iphone 12 Pro Max 0
+    Hydrogel Logo Apple Iphone 13 0
     Hydrogel Logos Motorola Moto G14 0
     Hydrogel Logos Samsung A21S 0
     Hydrogel Logos Xiaomi Mi 9T Pro 0
     Hydrogel Logos Xiaomi Redmi Note 13 Pro Plus 0
     Hydrogel Logos Xiaomi Redmi Note 14 0
     Hydrogel Logos Zte A75 5G 0
-    Hydrogel Matte 20000
-    Hydrogel Matte Huawei Honor 200 20000
-    Hydrogel Matte Huawei Honor Magic 7 Lite 20000
-    Hydrogel Matte Infinix Note 40 Pro 20000
-    Hydrogel Matte Iphone 12 20000
-    Hydrogel Matte Tcl Note 50 Nextpaper 20000
-    Hydrogel Motorola Moto Edge 40 Neo 20000
-    Hydrogel Motorola Moto Edge 50 Fusion 20000
-    Hydrogel Motorola Moto Edge 60 Fusion 20000
-    Hydrogel Motorola Moto G06 20000
-    Hydrogel Motorola Moto G20 20000
-    Hydrogel Motorola Moto G52 20000
-    Hydrogel Motorola Moto G85 20000
-    Hydrogel Oppo A5 Pro 20000
-    Hydrogel Oppo A58 4G 20000
-    Hydrogel Oppo A6 Pro 5G 20000
-    Hydrogel Oppo A78 4G 20000
-    Hydrogel Oppo A80 20000
-    Hydrogel Oppo Realme 13 Pro 20000
-    Hydrogel Oppo Realme C53 20000
-    Hydrogel Oppo Realme C75 20000
-    Hydrogel Oppo Reno 11 5G 20000
-    Hydrogel Oppo Reno 11F 20000
-    Hydrogel Oppo Reno 12F 20000
-    Hydrogel Oppo Reno 13 20000
-    Hydrogel Oppo Reno 14 20000
-    Hydrogel Realme 15T 20000
-    Hydrogel Samsung A16 20000
-    Hydrogel Samsung A17 20000
-    Hydrogel Samsung A30 20000
-    Hydrogel Samsung A36 / A37 20000
-    Hydrogel Samsung A55 Tapa 20000
-    Hydrogel Samsung S22 20000
-    Hydrogel Samsung S23 Ultra 20000
-    Hydrogel Samsung S24 Fe 20000
-    Hydrogel Samsung S25 Fe 20000
-    Hydrogel Samsung Smart Fit 3 20000
-    Hydrogel Smart Watch Apple Se Serie 3 (2025) 44Mm 20000
-    Hydrogel Tcl 50 Nxtpaper 20000
-    Hydrogel Tecno Camon 30S 20000
-    Hydrogel Tecno Camon 30S Pro 20000
-    Hydrogel Tecno Camon 40 Pro 20000
-    Hydrogel Tecno Pova 4 20000
-    Hydrogel Tecno Pova Curve 2 20000
-    Hydrogel Tecno Spark 20 Pro Plus 20000
-    Hydrogel Tecno Spark 30 5G 20000
-    Hydrogel Tecno Spark 30C 20000
-    Hydrogel Tecno Spark 40 Pro Plus 20000
-    Hydrogel Vivo V30 20000
-    Hydrogel Xiaomi Mi15T Pro 20000
-    Hydrogel Xiaomi Poco X3 20000
-    Hydrogel Xiaomi Poco X6 20000
-    Hydrogel Xiaomi Poco X6 Pro 20000
-    Hydrogel Xiaomi Redmi 10 20000
-    Hydrogel Xiaomi Redmi 12 20000
-    Hydrogel Xiaomi Redmi 13C 20000
-    Hydrogel Xiaomi Redmi Note 10 Pro 0
-    Hydrogel Xiaomi Redmi Note 11 20000
-    Hydrogel Xiaomi Redmi Note 13 Pro 4G 20000
-    Hydrogel Xiaomi Redmi Note 13 Pro Plus 20000
-    Hydrogel Xiaomi Redmi Note 14 20000
-    Hydrogel Xiaomi Redmi Note 14 4G 20000
-    Hydrogel Xiaomi Redmi Note 14 5G 20000
-    Hydrogel Xiaomi Redmi Note 14 Pro 20000
-    Hydrogel Xiaomi Redmi Note 14 Pro 4G 20000
+    Hydrogel Matte 0
+    Hydrogel Matte Huawei Honor 200 0
+    Hydrogel Matte Huawei Honor Magic 7 Lite 0
+    Hydrogel Matte Infinix Note 40 Pro 0
+    Hydrogel Matte Iphone 12 0
+    Hydrogel Matte Tcl Note 50 Nextpaper 0
+    Hydrogel Motorola Moto Edge 40 Neo 0
+    Hydrogel Motorola Moto Edge 50 Fusion 0
+    Hydrogel Motorola Moto Edge 60 Fusion 0
+    Hydrogel Motorola Moto G06 0
+    Hydrogel Motorola Moto G20 0
+    Hydrogel Motorola Moto G52 0
+    Hydrogel Motorola Moto G85 0
+    Hydrogel Oppo A5 Pro 0
+    Hydrogel Oppo A58 4G 0
+    Hydrogel Oppo A6 Pro 5G 0
+    Hydrogel Oppo A78 4G 0
+    Hydrogel Oppo A80 0
+    Hydrogel Oppo Realme 13 Pro 0
+    Hydrogel Oppo Realme C53 0
+    Hydrogel Oppo Realme C75 0
+    Hydrogel Oppo Reno 11 5G 0
+    Hydrogel Oppo Reno 11F 0
+    Hydrogel Oppo Reno 12F 0
+    Hydrogel Oppo Reno 13 0
+    Hydrogel Oppo Reno 14 0
+    Hydrogel Realme 15T 0
+    Hydrogel Samsung A16 0
+    Hydrogel Samsung A17 0
+    Hydrogel Samsung A30 0
+    Hydrogel Samsung A36 / A37 0
+    Hydrogel Samsung A55 Tapa 0
+    Hydrogel Samsung S22 0
+    Hydrogel Samsung S23 Ultra 0
+    Hydrogel Samsung S24 Fe 0
+    Hydrogel Samsung S25 Fe 0
+    Hydrogel Samsung Smart Fit 3 0
+    Hydrogel Smart Watch Apple Se Serie 3 (2025) 44Mm 0
+    Hydrogel Tcl 50 Nxtpaper 0
+    Hydrogel Tecno Camon 30S 0
+    Hydrogel Tecno Camon 30S Pro 0
+    Hydrogel Tecno Camon 40 Pro 0
+    Hydrogel Tecno Pova 4 0
+    Hydrogel Tecno Pova Curve 2 0
+    Hydrogel Tecno Spark 20 Pro Plus 0
+    Hydrogel Tecno Spark 30 5G 0
+    Hydrogel Tecno Spark 30C 0
+    Hydrogel Tecno Spark 40 Pro Plus 0
+    Hydrogel Vivo V30 0
+    Hydrogel Xiaomi Mi15T Pro 0
+    Hydrogel Xiaomi Poco X3 0
+    Hydrogel Xiaomi Poco X6 0
+    Hydrogel Xiaomi Poco X6 Pro 0
+    Hydrogel Xiaomi Redmi 10 0
+    Hydrogel Xiaomi Redmi 12 0
+    Hydrogel Xiaomi Redmi 13C 0
+    Hydrogel Xiaomi Redmi Note 11 0
+    Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
+    Hydrogel Xiaomi Redmi Note 13 Pro Plus 0
+    Hydrogel Xiaomi Redmi Note 14 0
+    Hydrogel Xiaomi Redmi Note 14 4G 0
+    Hydrogel Xiaomi Redmi Note 14 5G 0
+    Hydrogel Xiaomi Redmi Note 14 Pro 0
+    Hydrogel Xiaomi Redmi Note 14 Pro 4G 0
     Hydrogel Xiaomi Redmi Note 14 Pro 4G Antiespia 0
-    Hydrogel Xiaomi Redmi Note 15 20000
-    Hydrogel Xiaomi Redmi Note 15 5G 20000
-    Hydrogel Xiaomi Redmi Note 15 Pro 20000
-    Hydrogel Zte Blade V50 Design 20000
+    Hydrogel Xiaomi Redmi Note 15 0
+    Hydrogel Xiaomi Redmi Note 15 5G 0
+    Hydrogel Xiaomi Redmi Note 15 Pro 0
+    Hydrogel Zte Blade V50 Design 0
     Hydrolavadora Recargable 0
     Impresiones 0
     Intercomunicador Harvic Mcm-591 0
@@ -3411,7 +3410,7 @@
     Patillera Vgr V-93 0
     Patillera Vintage Sencilla 0
     Pegar Vidrio Curvo 0
-    Pepas Hydrogel 20000
+    Pepas Hydrogel 0
     Pila Control 23A 0
     Pila Control 27A 0
     Pila Reloj Cr-2016 0
@@ -3534,10 +3533,10 @@
     Reproductor Dvd One Tech Dvd-008 Hdmi 0
     Reproductor Dvd One Tech Dvd-227 0
     Reproductor Fly Tv Box 64-4 125000
-    Reproductor Onn 4K 190000
-    Reproductor Onn Eco 110000
-    Reproductor Onn Hd 170000
-    Reproductor Onn Hd Azul 170000
+    Reproductor Onn 4K 140000
+    Reproductor Onn Eco 45000
+    Reproductor Onn Hd 140000
+    Reproductor Onn Hd Azul 120000
     Reproductor Roku Express Hd 170000
     Reproductor Sonivox Dvd Ts-Dvd 0
     Reproductor Tdt Beck Paly 0
@@ -3592,7 +3591,7 @@
     Servicio Tecnico Frp Infinix Hot 40I 0
     Servicio Tecnico Frp Xiaomi Redmi 9C Pandora 0
     Servicio Tecnico Generico Alcohol Isopropilico 0
-    Servicio Tecnico Generico Instalar Hydrogel Smartwatch 20000
+    Servicio Tecnico Generico Instalar Hydrogel Smartwatch 0
     Servicio Tecnico Generico Limpiar Entrada De Audifonos 0
     Servicio Tecnico Generico Pin De Carga Audifonos 0
     Servicio Tecnico Generico Receptor Control Tv Stick 0

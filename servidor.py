@@ -64,6 +64,168 @@ def verify_admin_pin(client_pin):
             print(f"[ADMIN SECURITY] El PIN dinamico {client_pin} ha expirado.")
     return False
 
+def wrap_text(text, width):
+    words = text.split()
+    if not words:
+        return []
+    lines = []
+    current_line = []
+    current_length = 0
+    for word in words:
+        if len(word) > width:
+            if current_line:
+                lines.append(" ".join(current_line))
+                current_line = []
+                current_length = 0
+            for i in range(0, len(word), width):
+                lines.append(word[i:i+width])
+            continue
+        if current_length + len(word) + (1 if current_line else 0) <= width:
+            current_line.append(word)
+            current_length += len(word) + (1 if current_line else 0)
+        else:
+            lines.append(" ".join(current_line))
+            current_line = [word]
+            current_length = len(word)
+    if current_line:
+        lines.append(" ".join(current_line))
+    return lines
+
+def generar_factura_txt(id_venta, timestamp_str, items, cliente, medio_pago):
+    os.makedirs("facturas", exist_ok=True)
+    nombre_factura = f"Factura_POS_{id_venta}.txt"
+    ruta_factura = os.path.join("facturas", nombre_factura)
+    ancho_factura = 40
+
+    try:
+        with open(ruta_factura, "w", encoding="utf-8") as f:
+            f.write("Geek Tecnology".center(ancho_factura) + "\n")
+            f.write("Contacto: 304 631 3114".center(ancho_factura) + "\n")
+            f.write(f"Recibo No: {id_venta}".center(ancho_factura) + "\n")
+            f.write("-" * ancho_factura + "\n")
+            
+            for l in wrap_text(f"Fecha: {timestamp_str}", ancho_factura):
+                f.write(l + "\n")
+            for l in wrap_text(f"Cliente: {cliente}", ancho_factura):
+                f.write(l + "\n")
+                
+            f.write("=" * ancho_factura + "\n")
+            f.write(f"{'Cant.':<6}{'Descripcion':<22}{'Valor':>12}\n")
+            f.write("-" * ancho_factura + "\n")
+
+            total_general = 0.0
+            for item in items:
+                desc = item["descripcion"]
+                cant = int(item["cantidad"])
+                precio = float(item["precio"])
+                subtotal = cant * precio
+                total_general += subtotal
+                
+                cant_str = f"{cant:<6}"
+                subtotal_str = f"${subtotal:10.2f}"
+                desc_width = max(10, ancho_factura - len(cant_str) - len(subtotal_str))
+                
+                lines = wrap_text(desc, desc_width)
+                if not lines:
+                    lines = [""]
+                f.write(f"{cant_str}{lines[0]:<{desc_width}}{subtotal_str}\n")
+                for subline in lines[1:]:
+                    f.write(f"{'':<{len(cant_str)}}{subline:<{desc_width}}{'':>{len(subtotal_str)}}\n")
+
+            f.write("=" * ancho_factura + "\n")
+            f.write(f"{'TOTAL:':>28} {f'${total_general:10.2f}':>11}\n")
+
+            if medio_pago:
+                f.write("-" * ancho_factura + "\n")
+                f.write("Medios de Pago:\n")
+                if ":" in medio_pago:
+                    parts = medio_pago.split(", ")
+                    for part in parts:
+                        if ":" in part:
+                            m, val = part.split(":", 1)
+                            m_clean = m.strip()
+                            val_clean = val.strip()
+                            val_len = len(val_clean)
+                            m_width = max(10, ancho_factura - 3 - val_len)
+                            m_lines = wrap_text(m_clean, m_width)
+                            if not m_lines:
+                                m_lines = [""]
+                            f.write(f"  {m_lines[0]:<{m_width}} {val_clean}\n")
+                            for subline in m_lines[1:]:
+                                f.write(f"  {subline:<{m_width}} {'':>{val_len}}\n")
+                else:
+                    val_str = f"${total_general:10.2f}"
+                    val_len = len(val_str)
+                    m_width = max(10, ancho_factura - 3 - val_len)
+                    m_lines = wrap_text(medio_pago, m_width)
+                    if not m_lines:
+                        m_lines = [""]
+                    f.write(f"  {m_lines[0]:<{m_width}} {val_str}\n")
+                    for subline in m_lines[1:]:
+                        f.write(f"  {subline:<{m_width}} {'':>{val_len}}\n")
+
+            f.write("\n" * 2)
+            f.write("¡Gracias por su compra!".center(ancho_factura) + "\n")
+            f.write("\n" * 2)
+        return True
+    except Exception as e:
+        print(f"Error generando factura txt: {e}")
+        return False
+
+def generar_anulacion_txt(id_venta, timestamp_venta, items, cliente, medio_pago):
+    os.makedirs("facturas", exist_ok=True)
+    nombre_factura = f"Anulacion_POS_{id_venta}.txt"
+    ruta_factura = os.path.join("facturas", nombre_factura)
+    ancho_factura = 40
+
+    try:
+        with open(ruta_factura, "w", encoding="utf-8") as f:
+            f.write("*** COMPROBANTE DE ANULACION ***".center(ancho_factura) + "\n")
+            f.write("Geek Tecnology".center(ancho_factura) + "\n")
+            f.write("Contacto: 304 631 3114".center(ancho_factura) + "\n")
+            f.write(f"Recibo Anulado No: {id_venta}".center(ancho_factura) + "\n")
+            f.write("-" * ancho_factura + "\n")
+            
+            for l in wrap_text(f"Fecha Anulacion: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ancho_factura):
+                f.write(l + "\n")
+            for l in wrap_text(f"Fecha Venta: {timestamp_venta}", ancho_factura):
+                f.write(l + "\n")
+            for l in wrap_text(f"Cliente: {cliente}", ancho_factura):
+                f.write(l + "\n")
+                
+            f.write("=" * ancho_factura + "\n")
+            f.write(f"{'Cant.':<6}{'Descripcion':<22}{'Valor':>12}\n")
+            f.write("-" * ancho_factura + "\n")
+
+            total_general = 0.0
+            for item in items:
+                desc = item["descripcion"]
+                cant = int(item["cantidad"])
+                precio = float(item["precio"])
+                subtotal = cant * precio
+                total_general += subtotal
+                
+                cant_str = f"{cant:<6}"
+                subtotal_str = f"${subtotal:10.2f}"
+                desc_width = max(10, ancho_factura - len(cant_str) - len(subtotal_str))
+                
+                lines = wrap_text(desc, desc_width)
+                if not lines:
+                    lines = [""]
+                f.write(f"{cant_str}{lines[0]:<{desc_width}}{subtotal_str}\n")
+                for subline in lines[1:]:
+                    f.write(f"{'':<{len(cant_str)}}{subline:<{desc_width}}{'':>{len(subtotal_str)}}\n")
+
+            f.write("=" * ancho_factura + "\n")
+            f.write(f"{'TOTAL DEVUELTO:':>28} {f'${total_general:10.2f}':>11}\n")
+            f.write("-" * ancho_factura + "\n")
+            f.write("Estado: ANULADO / STOCK RESTAURADO\n")
+            f.write("\n" * 2)
+        return True
+    except Exception as e:
+        print(f"Error generando anulacion txt: {e}")
+        return False
+
 def get_local_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
@@ -800,10 +962,19 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 if cliente and cliente != "Regular" and cliente != "Cliente General":
                     save_customer(cliente, "")
                     
+                generar_factura_txt(id_venta, timestamp, items, cliente, medio_pago)
+                
                 self.send_json({
                     "message": "Venta registrada con éxito.",
                     "id_venta": id_venta,
-                    "timestamp": timestamp
+                    "timestamp": timestamp,
+                    "ticket": {
+                        "id_venta": id_venta,
+                        "timestamp": timestamp,
+                        "cliente": cliente,
+                        "medio_pago": medio_pago,
+                        "items": items
+                    }
                 })
             except Exception as e:
                 self.send_json({"error": f"Error al registrar la venta en archivo: {e}"}, 500)
@@ -833,6 +1004,11 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                 updated_rows = []
                 matching_found = False
                 items_restaurados = []
+                
+                timestamp_venta = ""
+                cliente_venta = "Regular"
+                medio_pago_venta = ""
+                items_venta = []
 
                 for row in rows:
                     if not row or len(row) < 12:
@@ -846,7 +1022,20 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                             cant = int(row[3])
                         except ValueError:
                             cant = 0
+                        try:
+                            precio = float(row[5])
+                        except ValueError:
+                            precio = 0.0
                         archivo_origen = row[8]
+                        timestamp_venta = row[0]
+                        cliente_venta = row[9]
+                        medio_pago_venta = row[10]
+                        
+                        items_venta.append({
+                            "descripcion": desc,
+                            "cantidad": cant,
+                            "precio": precio
+                        })
                         
                         success, msg = restore_stock(archivo_origen, desc, cant)
                         if success:
@@ -860,6 +1049,8 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
                     self.send_json({"error": "No se encontró la venta o ya fue anulada."}, 404)
                     return
 
+                generar_anulacion_txt(id_venta, timestamp_venta, items_venta, cliente_venta, medio_pago_venta)
+
                 with open(archivo_ventas, "w", encoding="utf-8", newline="") as f:
                     writer = csv.writer(f)
                     if header:
@@ -868,7 +1059,14 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
                 self.send_json({
                     "message": "Venta anulada y stock devuelto con éxito.",
-                    "detalles": items_restaurados
+                    "detalles": items_restaurados,
+                    "ticket_anulacion": {
+                        "id_venta": id_venta,
+                        "timestamp_venta": timestamp_venta,
+                        "cliente": cliente_venta,
+                        "medio_pago": medio_pago_venta,
+                        "items": items_venta
+                    }
                 })
             except Exception as e:
                 self.send_json({"error": f"Error inesperado al anular la venta: {e}"}, 500)

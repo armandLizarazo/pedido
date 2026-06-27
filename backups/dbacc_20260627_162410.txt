@@ -2678,7 +2678,6 @@
     Hydrogel Xiaomi Redmi 10 20000
     Hydrogel Xiaomi Redmi 12 20000
     Hydrogel Xiaomi Redmi 13C 20000
-    Hydrogel Xiaomi Redmi Note 10 Pro 0
     Hydrogel Xiaomi Redmi Note 11 20000
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 20000
     Hydrogel Xiaomi Redmi Note 13 Pro Plus 20000
