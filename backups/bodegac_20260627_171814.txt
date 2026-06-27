@@ -741,6 +741,7 @@
     Celular Corn Flip K 1 352384180254635/643 0
     Celular Corn Flip K Tapa 352384180079354-362 Rojo 0
     Celular Corn Rs10 0
+    Celular Corn Rs10 3524598036885637 0
     Celular De Segunda Redmi 9C Aabandonado 866378056846358/66 0
     Celular Nokia 105 358957172702952 0
     Celular Nokia 105 4G 0
@@ -850,6 +851,7 @@
     Estetica Cepillo Secador Remington Keratina 0
     Estetica Ondas De Sirena 0
     Estetica Plancha Ancha + Cepillo Aguacate 0
+    Exibidor Giratorio 2
     Extension 4M 0
     Extensión 6M 1
     Flash Ligth Celular Ay-83 Rgb 0
@@ -2592,6 +2594,7 @@
     Hydrogel Apple Iphone 15 Pro Max 0
     Hydrogel Apple Iphone 16 0
     Hydrogel Apple Iphone 16 Pro Max 0
+    Hydrogel Apple Iphone 17 0
     Hydrogel Hd 0
     Hydrogel Huawei Honor 200 Smart 0
     Hydrogel Huawei Honor 90 0
@@ -2676,6 +2679,7 @@
     Hydrogel Xiaomi Redmi 10 0
     Hydrogel Xiaomi Redmi 12 0
     Hydrogel Xiaomi Redmi 13C 0
+    Hydrogel Xiaomi Redmi Note 10 Pro 0
     Hydrogel Xiaomi Redmi Note 11 0
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
     Hydrogel Xiaomi Redmi Note 13 Pro Plus 0
@@ -3007,7 +3011,7 @@
     Mouse Gamer Eco X1 0
     Mouse Gamer G-930 0
     Mouse Gamer Inalambrico Eco 0
-    Mouse Gamer X3 1
+    Mouse Gamer X3 0
     Mouse Gamer X7 1
     Mouse Gamer Xmg-02 Inalambrico 1
     Mouse Gamer Yoyos H-01 0
@@ -6830,6 +6834,8 @@
     Smartphone Xiaomi Redmi 15C 864299088763241 256/8 0
     Smartphone Xiaomi Redmi 15C 864299088770568 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
+    Smartphone Xiaomi Redmi 15C 869580080699300 256/8 0
+    Smartphone Xiaomi Redmi 15C 869580081945165 256/8 1
     Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
     Smartphone Xiaomi Redmi Note 15 862315083188580 256/8 0
     Smartphone Xiaomi Redmi Note 15 Pro 5G 862542070800261 256 / 8 0

@@ -1,3 +1,4 @@
+    15c 0
     Aceitera El-093 0
     Adaptador 3.5 a Tc Hembra 0
     Adaptador Apple Ligthning A 3.5 1
@@ -851,6 +852,7 @@
     Estetica Cepillo Secador Remington Keratina 1
     Estetica Ondas De Sirena 0
     Estetica Plancha Ancha + Cepillo Aguacate 0
+    Exibidor Giratorio 0
     Extension 4M 0
     Extensión 6M 1
     Flash Ligth Celular Ay-83 Rgb 0
@@ -2678,6 +2680,7 @@
     Hydrogel Xiaomi Redmi 10 0
     Hydrogel Xiaomi Redmi 12 0
     Hydrogel Xiaomi Redmi 13C 0
+    Hydrogel Xiaomi Redmi Note 10 Pro 0
     Hydrogel Xiaomi Redmi Note 11 0
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
     Hydrogel Xiaomi Redmi Note 13 Pro Plus 0
@@ -3424,7 +3427,7 @@
     Pilas Carbon Maxday Aa X2 0
     Pilas Carbon Maxday Aa X4 0
     Pilas Carbon Maxday Aaa X2 0
-    Pilas Carbon Maxday Aaa X4 8
+    Pilas Carbon Maxday Aaa X4 9
     Pilas Carbon Maxday Eco 0
     Pilas Panasonic Aa X2 0
     Pilas Panasonic Aaa X2 0
@@ -3492,7 +3495,7 @@
     Proyector Astronauta Conejo 0
     Proyector Hy-300 1 Ram 2
     Proyector Hy-300 2 Ram 0
-    Proyector Hy-320 1 Ram Caja Verde 0
+    Proyector Hy-320 1 Ram Caja Verde 1
     Proyector Joma Hy-300 Con Juegos 0
     Proyector Ligth Bluetooth Blanco 0
     Proyector M-300 Max Con Juegos 1
@@ -6833,6 +6836,7 @@
     Smartphone Xiaomi Redmi 15C 864299088770568 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Xiaomi Redmi 15C 869580080699300 256/8 0
+    Smartphone Xiaomi Redmi 15C 869580081945165 256/8 0
     Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
     Smartphone Xiaomi Redmi Note 15 862315083188580 256/8 0
     Smartphone Xiaomi Redmi Note 15 Pro 5G 862542070800261 256 / 8 0

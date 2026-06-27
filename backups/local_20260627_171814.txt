@@ -17,8 +17,8 @@
     Adaptador Dpp2Hdmi Cbl 0
     Adaptador Dpp2Vga 0
     Adaptador Dpp2Vga Cbl 1
-    Adaptador Dvi2hdmi 1
     Adaptador Dvi2Vga 1
+    Adaptador Dvi2hdmi 1
     Adaptador Europeo Goma 1
     Adaptador Europeo Pasta 2
     Adaptador Europeo Redondo 0
@@ -771,8 +771,8 @@
     Consola Microsoft Xbox One 0
     Consola Ness Mini 0
     Consola Nintendo Mini 1
-    Consola Pandora 0
     Consola PS4 Silim 0
+    Consola Pandora 0
     Consola Psp 5.1 0
     Consola R-36S 0
     Consola Sup Con Control Negro 0
@@ -851,6 +851,7 @@
     Estetica Cepillo Secador Remington Keratina 1
     Estetica Ondas De Sirena 0
     Estetica Plancha Ancha + Cepillo Aguacate 0
+    Exibidor Giratorio 0
     Extension 4M 0
     Extensión 6M 3
     Flash Ligth Celular Ay-83 Rgb 0
@@ -868,7 +869,6 @@
     Flex De Power Oppo A15 0
     Flex De Power Oppo A57 0
     Flex De Power Samsung A02 0
-    Flex de Power Samsung A03 Core 1
     Flex De Power Samsung A10S 0
     Flex De Power Samsung A21S 0
     Flex De Power Tecno Pop 5 0
@@ -885,6 +885,7 @@
     Flex Principal Xiaomi Redmi Note 10 / Note 10S 0
     Flex Principal Xiaomi Redmi Note 8 0
     Flex Principal Xiaomi Redmi Note 9 0
+    Flex de Power Samsung A03 Core 1
     Forro Antichoque Agua Huawei Honor 200 Lite 1
     Forro Antichoque Agua Huawei Honor X5B / X5B Plus 1
     Forro Antichoque Agua Huawei Honor X6 / X6S 0
@@ -1108,12 +1109,12 @@
     Forro Antichoque J2 Prime Caballero 7
     Forro Antichoque J7 Caballero 4
     Forro Antichoque J7 Dama 2
-    Forro Antichoque Lg K40 Caballero 0
-    Forro Antichoque Lg K50S Caballero 0
-    Forro Antichoque Llavero Apple Iphone 13 / Iphone 14 1
     Forro Antichoque LLavero Apple Iphonen 15 Fucsia 1
     Forro Antichoque LLavero Apple Iphonen 15 Morado 1
     Forro Antichoque LLavero Apple Iphonen 15 Rosa 1
+    Forro Antichoque Lg K40 Caballero 0
+    Forro Antichoque Lg K50S Caballero 0
+    Forro Antichoque Llavero Apple Iphone 13 / Iphone 14 1
     Forro Antichoque Llavero Samsung A21S 0
     Forro Antichoque Llavero Xiaomi Redmi 12C 0
     Forro Antichoque Lujo Redmi 15 Morado 0
@@ -2678,6 +2679,7 @@
     Hydrogel Xiaomi Redmi 10 0
     Hydrogel Xiaomi Redmi 12 0
     Hydrogel Xiaomi Redmi 13C 0
+    Hydrogel Xiaomi Redmi Note 10 Pro 0
     Hydrogel Xiaomi Redmi Note 11 0
     Hydrogel Xiaomi Redmi Note 13 Pro 4G 0
     Hydrogel Xiaomi Redmi Note 13 Pro Plus 0
@@ -2726,7 +2728,6 @@
     Logica De Carga Huawei Honor X6A 1
     Logica De Carga Huawei Honor X7 1
     Logica De Carga Huawei Honor X8 1
-    Logica de Carga Huawei Honor X8 Gris 0
     Logica De Carga Huawei P20 Lite 1
     Logica De Carga Huawei P30 Lite 2
     Logica De Carga Huawei Y3 Ii 0
@@ -2738,7 +2739,6 @@
     Logica De Carga Motorola Moto E7 1
     Logica De Carga Motorola Moto E7 Plus 1
     Logica De Carga Motorola Moto E7I Power 1
-    Logica de Carga Motorola Moto Edge 60 Fusion 0
     Logica De Carga Motorola Moto G20 2
     Logica De Carga Motorola Moto G22 3
     Logica De Carga Motorola Moto G24 1
@@ -2770,7 +2770,6 @@
     Logica De Carga Samsung A12 1
     Logica De Carga Samsung A13 1
     Logica De Carga Samsung A14 4G 0
-    Logica de Carga Samsung A14 5G 1
     Logica De Carga Samsung A15 5G 2
     Logica De Carga Samsung A20 2
     Logica De Carga Samsung A20S M12 2
@@ -2817,7 +2816,6 @@
     Logica De Carga Xiaomi Redmi Note 12 1
     Logica De Carga Xiaomi Redmi Note 13 4G 1
     Logica De Carga Xiaomi Redmi Note 13 Pro 4G 0
-    Logica de Carga Xiaomi Redmi Note 13 Pro Plus 1
     Logica De Carga Xiaomi Redmi Note 14 Original 1
     Logica De Carga Xiaomi Redmi Note 7 1
     Logica De Carga Xiaomi Redmi Note 8 3
@@ -2825,6 +2823,10 @@
     Logica De Carga Xiaomi Redmi Note 9 2
     Logica De Carga Xiaomi Redmi Note 9S / Note 9 Pro 3
     Logica De Carga Zte Blade A54 0
+    Logica de Carga Huawei Honor X8 Gris 0
+    Logica de Carga Motorola Moto Edge 60 Fusion 0
+    Logica de Carga Samsung A14 5G 1
+    Logica de Carga Xiaomi Redmi Note 13 Pro Plus 1
     Lonchera Carro 0
     Luces Navideñas 200 Bombillos Azul 0
     Luces Navideñas 200 Bombillos Multicolor 0
@@ -3277,7 +3279,7 @@
     Pacha Vivo Y27 5G 2
     Pacha Vivo Y27S / Y27 5G / Y36 4G / Y36 5G 2
     Pacha Vivo Y30 / Y50 1
-    Pacha Vivo Y31 / Y33S / Y51 / Y53S 4
+    Pacha Vivo Y31 / Y33S / Y51 / Y53S 3
     Pacha Vivo Y35 2
     Pacha Vivo Y51 0
     Pacha Xiaomi Mi 10T Pro 5G 1
@@ -3301,8 +3303,8 @@
     Pacha Xiaomi Redmi A3 / Poco C61 2
     Pacha Xiaomi Redmi A5 / Poco C71 3
     Pacha Xiaomi Redmi Note 10 / Note 10S 3
-    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 1
-    Pacha Xiaomi Redmi Note 10 Pro 1
+    Pacha Xiaomi Redmi Note 10 5G / Note 10T / Poco M3 Pro 5G 0
+    Pacha Xiaomi Redmi Note 10 Pro 0
     Pacha Xiaomi Redmi Note 10 Pro Amoled 1
     Pacha Xiaomi Redmi Note 11 / Note 12S 2
     Pacha Xiaomi Redmi Note 11 / Note 12S Amoled 0
@@ -3356,8 +3358,8 @@
     Parlante Gts-2288 0
     Parlante Harvic Pr-801 0
     Parlante Harvic Pr-804 0
-    Parlante Jbl Charge 5 0
     Parlante JOC 0
+    Parlante Jbl Charge 5 0
     Parlante Ktf-1645 0
     Parlante Ktx-1222 0
     Parlante Ktx-1475 0
@@ -6833,6 +6835,7 @@
     Smartphone Xiaomi Redmi 15C 864299088770568 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Xiaomi Redmi 15C 869580080699300 256/8 0
+    Smartphone Xiaomi Redmi 15C 869580081945165 256/8 0
     Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
     Smartphone Xiaomi Redmi Note 15 862315083188580 256/8 0
     Smartphone Xiaomi Redmi Note 15 Pro 5G 862542070800261 256 / 8 0
@@ -6950,7 +6953,7 @@
     Tapa Xiaomi Redmi 9A Azul 1
     Tapa Xiaomi Redmi 9C Azul 0
     Tapa Xiaomi Redmi 9T Naranja 0
-    Tapa Xiaomi Redmi Note 10 Pro Negro 1
+    Tapa Xiaomi Redmi Note 10 Pro Negro 0
     Tapa Xiaomi Redmi Note 11 Escarcha 0
     Tapa Xiaomi Redmi Note 12 Pro 4G 0
     Tapa Xiaomi Redmi Note 13 Pro Plus Negro 0
@@ -7131,7 +7134,7 @@
     Vidrio 5D Samsung A05S 0
     Vidrio 5D Samsung A10 / A10S 0
     Vidrio 5D Samsung A11 3
-    Vidrio 5D Samsung A12 7
+    Vidrio 5D Samsung A12 6
     Vidrio 5D Samsung A14 / A22 5G 0
     Vidrio 5D Samsung A14 / A24 / A34 / A54 0
     Vidrio 5D Samsung A15 3

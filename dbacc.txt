@@ -851,6 +851,7 @@
     Estetica Cepillo Secador Remington Keratina 0
     Estetica Ondas De Sirena 0
     Estetica Plancha Ancha + Cepillo Aguacate 0
+    Exibidor Giratorio 0
     Extension 4M 0
     Extensión 6M 0
     Flash Ligth Celular Ay-83 Rgb 0
@@ -6834,6 +6835,7 @@
     Smartphone Xiaomi Redmi 15C 864299088770568 256/8 0
     Smartphone Xiaomi Redmi 15C 865327073627649/656 256/8 0
     Smartphone Xiaomi Redmi 15C 869580080699300 256/8 0
+    Smartphone Xiaomi Redmi 15C 869580081945165 256/8 0
     Smartphone Xiaomi Redmi Note 14 Pro 4G 869195079421721 256/8 0
     Smartphone Xiaomi Redmi Note 15 862315083188580 256/8 0
     Smartphone Xiaomi Redmi Note 15 Pro 5G 862542070800261 256 / 8 0
