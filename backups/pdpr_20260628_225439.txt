@@ -16,7 +16,7 @@
     Calculadora Cientifica Casio 82Es 1
     Calculadora Kadio Kd-815 Pequeña 2
     Camara De Solapa 1
-    Cargador 5V 2A Doble Punta 5
+    Cargador 5V 2A Doble Punta 4
     Cargador 9V 2A Doble Punta 5
     Cargador Cabeza Cubo Eco 10
     Cargador Pc Acer 2.37 2
@@ -80,10 +80,8 @@
     Soporte Tv 55P X-400 5
     Soporte Tv 70 Brazo 2
     Soporte Tv Fijo 3
-    Switch Lan 10/100 2
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Telefono Fijo Panaphone Kx-T806 1
     Tijeras Wmark 1
     Vaper Asokit 20000 Puffs 2
     Video Juego Ps2 2

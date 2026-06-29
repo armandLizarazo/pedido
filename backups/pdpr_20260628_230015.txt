@@ -32,7 +32,7 @@
     Control Gamer Sony Ps4 Blanco 1
     Control Gamer Sony Ps4 Fifa 1
     Control Gamer Sony Ps4 Negro 1
-    Control Tv Samsung Plano 2
+    Control Tv Samsung Plano 3
     Control Tv Universal 5
     Dock Charging Ps4 1
     Dron 988 Doble Camara 3
@@ -80,10 +80,8 @@
     Soporte Tv 55P X-400 5
     Soporte Tv 70 Brazo 2
     Soporte Tv Fijo 3
-    Switch Lan 10/100 2
     Teclado Kb-502 Eco 3
     Teclado Mecanico Gamer Weibo 777 1
-    Telefono Fijo Panaphone Kx-T806 1
     Tijeras Wmark 1
     Vaper Asokit 20000 Puffs 2
     Video Juego Ps2 2

@@ -7004,7 +7004,7 @@
     Telefono Fijo Alcatel E-260 Inalambrico 0
     Telefono Fijo Alcatel Ts-500 0
     Telefono Fijo Ktx-3014 1
-    Telefono Fijo Panaphone Kx-T806 1
+    Telefono Fijo Panaphone Kx-T806 0
     Televisor Smart Tv Corn Android 43P 0
     Televisor Smart Tv Corn Android 50P 0
     Televisor Smart Tv Fly 50P 0

@@ -170,7 +170,7 @@
     Manos Libres Samsung Akg Con Aislador 5
     Manos Libres Samsung Akg Tc 3
     Manos Libres Samsung Akg Tc Blanco 3
-    Manos Libres Speak Sk-837C Tc 2
+    Manos Libres Speak Sk-837C Tc 1
     Manos Libres Tc Oczu Oz-F17 Verdemilitar 2
     Manos Libres Yoyos Ys-102 1
     Memoria Kingston Usb 16Gb 3
@@ -210,7 +210,6 @@
     Silicone Case Huawei Y9 2019 / Y8S Rojo 1
     Silicone Case Huawei Y9 Prime Negro 1
     Silicone Case Huawei Y9A Amarillo 1
-    Silicone Case Infinix Gt 30 Pro Negro 2
     Silicone Case Infinix Hot 30 Play Amarillo 1
     Silicone Case Infinix Hot 30 Play Azulrey 1
     Silicone Case Infinix Hot 30 Play Fucsia 1
@@ -271,7 +270,6 @@
     Silicone Case Samsung A10 Blanco 1
     Silicone Case Samsung A11 Lila 1
     Silicone Case Samsung A20 / A30 Verdementa 1
-    Silicone Case Samsung A30S / A50 Lila 2
     Silicone Case Samsung A32 5G Lila 1
     Silicone Case Samsung A34 Azulrey 1
     Silicone Case Samsung A34 Negro 2
@@ -301,11 +299,9 @@
     Silicone Case Tecno Pova 5 Azulrey 1
     Silicone Case Tecno Pova 7 Amarillo 1
     Silicone Case Tecno Pova 7 Fucsia 1
-    Silicone Case Tecno Spark 10 Pro Rosa 2
     Silicone Case Tecno Spark 20 Pro / Hot 40 / Hot 40 Pro Vinotinto 1
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
-    Silicone Case Tecno Spark Go 2 / Smart 10 Morado 2
     Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verde 1
@@ -319,19 +315,16 @@
     Silicone Case Vivo Y01 / Y15S Amarillo 1
     Silicone Case Vivo Y01 / Y15S Fucsia 1
     Silicone Case Vivo Y27 Negro 1
-    Silicone Case Vivo Y33S / Y21 / Y21S Fucsia 2
     Silicone Case Vivo Y35 Lila 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Azulrey 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Negro 1
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X3 Rojo 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 15C Fucsia 2
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi 9T Lila 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Azulrey 1
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rojo 2
-    Silicone Case Xiaomi Redmi Note 10 Pro 4G Lila 2
     Silicone Case Xiaomi Redmi Note 10 Pro 4G Negro 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 2
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
