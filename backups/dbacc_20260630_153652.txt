@@ -2644,7 +2644,6 @@
     Hydrogel Motorola Moto Edge 40 Neo 20000
     Hydrogel Motorola Moto Edge 50 Fusion 20000
     Hydrogel Motorola Moto Edge 60 Fusion 20000
-    Hydrogel Motorola Moto Edge 70 Fusion 0
     Hydrogel Motorola Moto G06 20000
     Hydrogel Motorola Moto G20 20000
     Hydrogel Motorola Moto G52 20000

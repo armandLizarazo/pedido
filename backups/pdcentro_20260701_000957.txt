@@ -15,9 +15,8 @@
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
     Audifonos Bluetooth Yoyos Ys-405 Blanco 2
-    Cable Apple Usb Ligthning 5
+    Cable Apple Usb Ligthning 4
     Cable Auxiliar 1 A 1 Cordon 5
-    Cable Samsung Tc A Tc Blanco 2
     Cable Siliconado Zonymax Tc Negro 5
     Cable Xiaomi Original Usb Tc 2
     Cargador Fuente 360 Slim 1
@@ -96,12 +95,10 @@
     Forro Armadura Tecno Pova 7 Negro 1
     Forro Armadura Tecno Pova 7 Rojo 1
     Forro Armadura Tecno Spark Go 2023 / Pop7 Negro 1
-    Forro Armadura Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Rojo 2
     Forro Armadura Tecno Spark Go 2025 / Go 1 Rojo 1
     Forro Armadura Vivo Y39 Negro 1
     Forro Armadura Vivo Y39 Rojo 1
     Forro Armadura Xiaomi Mi 11T / M 11T Pro Negro 1
-    Forro Armadura Xiaomi Redmi 14C Rojo 2
     Forro Armadura Xiaomi Redmi 15 Negro 2
     Forro Armadura Xiaomi Redmi 15 Rojo 2
     Forro Armadura Xiaomi Redmi 15C Azul 1
@@ -332,7 +329,6 @@
     Silicone Case Xiaomi Mi 11T / Mi 11T Pro Verde 1
     Silicone Case Xiaomi Poco X3 Rojo 1
     Silicone Case Xiaomi Poco X6 Pro 5G Rojo 1
-    Silicone Case Xiaomi Redmi 10 Azulrey 1
     Silicone Case Xiaomi Redmi 15C Fucsia 2
     Silicone Case Xiaomi Redmi 9 Rojo 1
     Silicone Case Xiaomi Redmi 9T Lila 1
@@ -340,7 +336,6 @@
     Silicone Case Xiaomi Redmi Note 10 / Note 10S Rojo 2
     Silicone Case Xiaomi Redmi Note 10 Pro 4G Lila 2
     Silicone Case Xiaomi Redmi Note 10 Pro 4G Negro 1
-    Silicone Case Xiaomi Redmi Note 11 Azulrey 1
     Silicone Case Xiaomi Redmi Note 11 Rojo 2
     Silicone Case Xiaomi Redmi Note 14 4G Azulrey 1
     Silicone Case Xiaomi Redmi Note 14 5G Amarillo 1
@@ -360,7 +355,7 @@
     Smartphone Xiaomi Redmi 15C 864299088763241 256/8 1
     Tapones Puerto De Carga Ligthning 5
     Tapones Puerto De Carga Tc 5
-    Televisor Smart Tv Corn Android 43P 2
+    Televisor Smart Tv Corn Android 43P 1
     Vaper Kokin 10000 Puffs 1
     Vidrio 5D Huawei Honor X7A 5
     Vidrio 5D Huawei P10 Lite 5
