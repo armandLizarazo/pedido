@@ -10,7 +10,7 @@
     Audifonos Bluetooth We Conduccion Osea We-206 1
     Audifonos Bluetooth Xiaomi E7S Azul 1
     Audifonos Bluetooth Xiaomi E7S Blanco 1
-    Audifonos Bluetooth Xiaomi E7S Negro 2
+    Audifonos Bluetooth Xiaomi E7S Negro 2 ok
     Audifonos Bluetooth Xiaomi E7S Rosa 1
     Audifonos Bluetooth Y6 Blanco 2
     Audifonos Bluetooth Y6 Negro 1
@@ -312,7 +312,7 @@
     Silicone Case Tecno Spark 30 4G Amarillo 1
     Silicone Case Tecno Spark 30 5G Amarillo 1
     Silicone Case Tecno Spark Go 2 / Smart 10 Morado 2
-    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1
+    Silicone Case Tecno Spark Go 2 / Smart 10 Rojo 1 ok
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Amarillo 1
     Silicone Case Tecno Spark Go 2024 / 20 / 20C / Pop8 / Hot 40I Verde 1
     Silicone Case Vivo V25 Pro Amarillo 1
